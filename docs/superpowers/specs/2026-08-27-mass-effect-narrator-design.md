@@ -1,7 +1,7 @@
 # Mass Effect Narrator — Design Spec
 
 **Date:** 2026-08-27
-**Status:** Approved (design); implementation plan pending
+**Status:** Implemented (pipeline; first real run deferred)
 **Source brainstorm:** `plan.md`
 
 ## 1. Goal
