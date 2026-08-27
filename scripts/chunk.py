@@ -8,9 +8,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import pathlib
 import re
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from scripts import common
 
 _HEADING = re.compile(r"^#{1,3}\s+(.*)$")

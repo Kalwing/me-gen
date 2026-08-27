@@ -3,15 +3,18 @@ from __future__ import annotations
 
 import argparse
 import json
+import pathlib
 import pickle
+import sys
 from pathlib import Path
 
 from rank_bm25 import BM25Okapi
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from scripts.build_bm25 import tokenize
 
 
-def load_index(index_path: Path):
+def load_index(index_path: Path) -> tuple[BM25Okapi, list[dict]]:
     with Path(index_path).open("rb") as fh:
         data = pickle.load(fh)
     return BM25Okapi(data["tokenized"]), data["chunks"]

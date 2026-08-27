@@ -40,3 +40,12 @@ def test_retrieve_dedups_across_queries(tmp_path):
 
 def test_tokenize():
     assert build_bm25.tokenize("Sovereign's Reaper-tech!") == ["sovereign's", "reaper", "tech"]
+
+
+def test_retrieve_no_matches(tmp_path):
+    chunks = tmp_path / "chunks.jsonl"
+    index = tmp_path / "bm25_index.pkl"
+    _write_chunks(chunks)
+    build_bm25.build(chunks, index)
+    hits = retrieve.retrieve(index, ["xyzabc defgh"], k=10)
+    assert hits == []
