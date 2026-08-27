@@ -11,8 +11,12 @@ Usage:
    `/me-scrape`, `/me-build-lore`, `/me-build-timeline` and stop.
 2. Require `config/narrators/<narrator>.yaml`. If missing, list the available bibles and stop.
 3. Scaffold the run: `python scripts/new_run.py <narrator> "<themes>" --words <words>` and capture the printed path.
-4. Dispatch the `outline-writer` subagent for that run dir.
-5. Print the outline path and its section table. Tell the user:
+4. Load the player's canon: run
+   `python scripts/narrative_choices.py config/narrative_choices.yaml` and print its output.
+   If it prints `all questions unanswered`, warn the user that the recap will use default
+   trilogy canon (they can edit `config/narrative_choices.yaml` and re-run) — do NOT stop.
+5. Dispatch the `outline-writer` subagent for that run dir.
+6. Print the outline path and its section table. Tell the user:
    "Review and edit `output/<run>/outline.yaml`, then delete the first line (`# UNAPPROVED …`)
    and run `/me-generate --continue output/<run>`." STOP here.
 

@@ -1,0 +1,126 @@
+# Narrative choices — your Shepard, your canon.
+#
+# Copy this file to config/narrative_choices.yaml (the pipeline does that for
+# you on /me-build-timeline) and fill in `answer` for whatever you remember.
+# For questions with an `options` list, `answer` MUST be one of those strings.
+# For questions with `options: []`, `answer` is free text.
+# `detail` is always free text — "why / how it went" — the narrator may use it.
+# Leave anything you don't care about blank; unanswered = default canon.
+
+shepard:
+  - id: background
+    prompt: Shepard's pre-service history.
+    options: [Spacer, Colonist, Earthborn]
+    answer: ""
+    detail: ""
+  - id: profile
+    prompt: Shepard's psychological profile / reputation.
+    options: [War Hero, Sole Survivor, Ruthless]
+    answer: ""
+    detail: ""
+  - id: class
+    prompt: Shepard's combat class.
+    options: [Soldier, Engineer, Adept, Infiltrator, Sentinel, Vanguard]
+    answer: ""
+    detail: ""
+  - id: gender
+    prompt: Shepard's gender / pronouns.
+    options: []
+    answer: ""
+    detail: ""
+  - id: romance
+    prompt: Shepard's romance(s) across the trilogy.
+    options: []
+    answer: ""
+    detail: ""
+
+me1:
+  - id: council_fate
+    prompt: The Council aboard the Destiny Ascension at the Battle of the Citadel.
+    options: [saved, sacrificed]
+    answer: ""
+    detail: ""
+  - id: wrex_virmire
+    prompt: Wrex on Virmire.
+    options: [alive, dead]
+    answer: ""
+    detail: ""
+  - id: rachni_queen
+    prompt: The Rachni queen on Noveria.
+    options: [freed, killed]
+    answer: ""
+    detail: ""
+  - id: virmire_survivor
+    prompt: Who survived Virmire.
+    options: [Ashley, Kaidan]
+    answer: ""
+    detail: ""
+  - id: council_composition
+    prompt: The new Council's composition after the battle (human-led? all-alien? who sits on it?).
+    options: []
+    answer: ""
+    detail: ""
+
+me2:
+  - id: collector_base
+    prompt: The Collector Base after the Suicide Mission.
+    options: [destroyed, handed to Cerberus]
+    answer: ""
+    detail: ""
+  - id: suicide_mission
+    prompt: Who lived and who died in the Suicide Mission.
+    options: []
+    answer: ""
+    detail: ""
+  - id: loyalty_missions
+    prompt: Which squad loyalty missions were completed.
+    options: []
+    answer: ""
+    detail: ""
+  - id: arrival
+    prompt: The Arrival — the batarian Alpha Relay and the Bahak system.
+    options: []
+    answer: ""
+    detail: ""
+
+me3:
+  - id: genophage
+    prompt: The genophage.
+    options: [cured, sabotaged]
+    answer: ""
+    detail: ""
+  - id: krogan_leader
+    prompt: The Krogan leader during the cure.
+    options: [Wrex, Wreav]
+    answer: ""
+    detail: ""
+  - id: geth_quarian
+    prompt: Geth vs Quarians at Rannoch.
+    options: [geth, quarians, peace]
+    answer: ""
+    detail: ""
+  - id: rannoch
+    prompt: What happened at Rannoch (who lived, Legion, Tali's fate).
+    options: []
+    answer: ""
+    detail: ""
+  - id: citadel_dlc
+    prompt: The Citadel DLC outcome (the party, the clone, who showed up).
+    options: []
+    answer: ""
+    detail: ""
+  - id: thessia
+    prompt: Thessia — how the mission for the Prothean VI went.
+    options: []
+    answer: ""
+    detail: ""
+  - id: final_choice
+    prompt: The final choice at the Crucible.
+    options: [Destroy, Control, Synthesis, Refuse]
+    answer: ""
+    detail: ""
+  - id: shepard_fate
+    prompt: Shepard's fate at the end.
+    options: []
+    answer: ""
+    detail: ""

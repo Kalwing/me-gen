@@ -16,7 +16,8 @@ def test_lore_commands_present_and_reference_their_tools():
     checks = {
         "me-scrape": ["scripts/scrape_wiki.py", "scripts/chunk.py", "scripts/build_bm25.py"],
         "me-build-lore": ["page-summarizer"],
-        "me-build-timeline": ["timeline-extractor"],
+        "me-build-timeline": ["timeline-extractor", "config/narrative_choices.yaml",
+                              "config/narrative_choices.template.yaml"],
     }
     for name, needles in checks.items():
         p = CMDS / f"{name}.md"
@@ -36,5 +37,5 @@ def test_me_generate_command():
     assert "## Verify" in body
     for needle in ("scripts/new_run.py", "outline-writer", "section-writer",
                    "smoother", "consistency-checker", "scripts/assemble_episode.py",
-                   "--continue", "UNAPPROVED"):
+                   "--continue", "UNAPPROVED", "scripts/narrative_choices.py"):
         assert needle in body, f"me-generate.md should mention {needle}"

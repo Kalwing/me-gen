@@ -10,6 +10,8 @@ You plan the episode. You do not write prose.
 - `timeline/master_timeline.yaml` and the referenced `timeline/events/*.yaml`.
 - The run's `output/<run>/outline.yaml` (has `narrator`, `themes`, `target_words`; `sections: []`).
 - `config/narrators/<narrator>.yaml` — especially `knowledge_bias`.
+- `config/narrative_choices.yaml` — the player's canon (Shepard build, ME1/2/3 decisions).
+  Read it; treat any question whose `answer` is empty as default canon.
 
 ## Outputs
 - Rewrite `output/<run>/outline.yaml` keeping the `# UNAPPROVED` first line, `narrator`, `themes`,
@@ -23,6 +25,10 @@ You plan the episode. You do not write prose.
 - Every `events` entry must be a real `event_id` from `master_timeline.yaml`.
 - `target_words` across all sections must sum to within 10% of `target_words`.
 - 8-20 sections. Each `id` is a slug, unique within the outline.
+- Weight and select sections so the outline reflects the answered `narrative_choices`
+  (e.g. a dead Wrex means the Virmire section carries his death; a Synthesis ending shapes
+  the finale; the answered `final_choice` / `shepard_fate` decide how the last sections land).
+  Ignore unanswered questions — do not bend the outline around a blank `answer`.
 - Do NOT remove the `# UNAPPROVED` line — the user removes it to approve.
 
 ## Done when

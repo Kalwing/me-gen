@@ -37,3 +37,10 @@ def test_all_six_agents_present_and_well_formed():
         body = p.read_text()
         for sec in REQUIRED_SECTIONS:
             assert sec in body, f"{p} missing {sec}"
+
+
+def test_generation_agents_reference_narrative_choices():
+    for name in ("outline-writer", "section-writer"):
+        body = (AGENTS / f"{name}.md").read_text()
+        assert "config/narrative_choices.yaml" in body, f"{name} must list the canon file in Inputs"
+        assert "narrative_choices" in body.split("## Rules", 1)[1], f"{name} needs a Rules bullet for it"

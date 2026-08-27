@@ -9,6 +9,8 @@ You write one section of the episode.
 ## Inputs
 - The prompt names: the run dir, the section object (`id`, `title`, `events`, `target_words`), and the narrator.
 - `config/narrators/<narrator>.yaml` — the voice bible.
+- `config/narrative_choices.yaml` — the player's canon. Questions with an empty `answer`
+  are default canon; ignore them.
 - The section's events from `timeline/events/<event_id>.yaml` (use `summary` + `consequences` as the REQUIRED FACTS).
 - Evidence: run
   `python scripts/retrieve.py --index data/bm25_index.pkl --k 6 "<title>" "<each character>" "<each consequence phrase>"`
@@ -24,6 +26,10 @@ You write one section of the episode.
 ## Rules
 - Include EVERY required fact from the section's events' `summary` and `consequences`.
 - Invent no events, characters, dates, or outcomes. If the evidence is silent, stay silent.
+- When a section's events intersect an answered `narrative_choices` question, narrate THAT
+  outcome (and the user's `detail`, if given) rather than the generic wiki default. Never
+  invent playthrough detail the user did not supply; an empty `answer` means fall back to
+  default canon.
 - Use the narrator's `tone`/`diction`; honor `avoid`; use `signature` phrases at most once or twice per section.
 - Respect `knowledge_bias`: frame events the narrator did not witness as secondhand.
 - Write continuous narration a voice actor could read aloud.
