@@ -26,3 +26,15 @@ def test_lore_commands_present_and_reference_their_tools():
         assert "## Verify" in body
         for needle in needles:
             assert needle in body, f"{p} should mention {needle}"
+
+
+def test_me_generate_command():
+    p = CMDS / "me-generate.md"
+    fm = _frontmatter(p)
+    assert fm.get("description")
+    body = p.read_text()
+    assert "## Verify" in body
+    for needle in ("scripts/new_run.py", "outline-writer", "section-writer",
+                   "smoother", "consistency-checker", "scripts/assemble_episode.py",
+                   "--continue", "UNAPPROVED"):
+        assert needle in body, f"me-generate.md should mention {needle}"
