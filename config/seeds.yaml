@@ -1,0 +1,45 @@
+# Crawl parameters for scrape_wiki.py. CLI flags override these.
+depth: 2
+cap: 600
+rate: 0.5   # seconds between requests
+
+# Seed page titles. The crawler follows in-page links from these to `depth` hops.
+seeds:
+  - Timeline
+  - Mass Effect (Original Trilogy)
+  - Mass Effect
+  - Mass Effect 2
+  - Mass Effect 3
+  - Commander Shepard
+  - Reapers
+  - Saren Arterius
+  - Sovereign
+  - Citadel
+  - Systems Alliance
+  - Council
+  - Protheans
+  - Mass Relay
+  - Element Zero
+  - Eden Prime
+  - Virmire
+  - Ilos
+  - Battle of the Citadel
+  - Collectors
+  - Normandy SR-2
+  - Lazarus Project
+  - Omega
+  - Suicide Mission
+  - Genophage
+  - Krogan
+  - Turians
+  - Asari
+  - Salarians
+  - Quarians
+  - Geth
+  - Rachni
+  - Prothean
+  - Crucible
+  - Catalyst
+  - Priority: Earth
+  - Cerberus
+  - The Illusive Man
