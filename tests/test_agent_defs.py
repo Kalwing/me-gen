@@ -26,3 +26,14 @@ def test_lore_agent_defs_present_and_well_formed():
         body = p.read_text()
         for sec in REQUIRED_SECTIONS:
             assert sec in body, f"{p} missing {sec}"
+
+
+def test_all_six_agents_present_and_well_formed():
+    for name in EXPECTED:
+        p = AGENTS / f"{name}.md"
+        fm = _frontmatter(p)
+        assert fm["name"] == name
+        assert fm.get("description")
+        body = p.read_text()
+        for sec in REQUIRED_SECTIONS:
+            assert sec in body, f"{p} missing {sec}"
