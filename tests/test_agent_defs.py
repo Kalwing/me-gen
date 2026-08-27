@@ -44,3 +44,20 @@ def test_generation_agents_reference_narrative_choices():
         body = (AGENTS / f"{name}.md").read_text()
         assert "config/narrative_choices.yaml" in body, f"{name} must list the canon file in Inputs"
         assert "narrative_choices" in body.split("## Rules", 1)[1], f"{name} needs a Rules bullet for it"
+
+
+GENERATION_AGENTS = {"outline-writer", "section-writer"}
+
+
+def test_generation_agents_declare_content_priority():
+    for name in GENERATION_AGENTS:
+        text = (AGENTS / f"{name}.md").read_text()
+        assert "## Content priority" in text, f"{name}: missing Content priority section"
+        low = text.lower()
+        # the three layers, and that the character arc leads
+        assert "character" in low and "lore" in low and "master_timeline" in low
+        i_char = low.index("## content priority")
+        i_main = low.index("master_timeline", i_char)
+        i_lore = low.index("lore", i_char)
+        # within the Content priority section, character arc is named before the main timeline
+        assert low.index("character", i_char) < i_main
