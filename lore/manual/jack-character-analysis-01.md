@@ -66,8 +66,7 @@ In the years after, Jack lived a violent, crime-filled life: murder, assault,
 kidnapping, drugs, theft, arson, piracy, vandalism, and a stint in a cult.
 
 At some point she found another Cerberus facility using biotic children and attacked it
-to free them. Covering their escape, she fought off Cerberus agents Maya Brooks and Kai
-Leng but was overrun by Blue Suns mercenaries — to Cerberus's frustration — who captured
+to free them. Covering their escape, she fought off Cerberus agents but was overrun by Blue Suns mercenaries — to Cerberus's frustration — who captured
 her and took her to their prison ship, Purgatory.
 
 ## Purgatory
