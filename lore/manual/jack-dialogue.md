@@ -76,8 +76,7 @@ Project logo, a glowing fist, "maybe a unicorn for Rodriguez."
 
 Afterward there is an argument about how the students should be deployed. Jack and the
 students trained for barrier work to protect frontline squads; the Alliance wants to
-use them as another artillery unit. Jack thinks that is a waste, but if that is where
-they are needed, "that's where we go."
+use them as another artillery unit. Shepard say they will be deployed as supports, as per Jack's recommendation to protect them.
 
 Once the students are formally military, the crew needle her: will she wear a uniform,
 or "just get the officer bars tattooed on"? Joker jokes about a swear jar — "I bet if
