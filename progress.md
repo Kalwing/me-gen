@@ -225,3 +225,43 @@
     the command file was never updated to honor lore_skipped.txt. Flagged for a fix.
 - NEXT: (1) commit the pending Phase 5 work after a suite run; (2) decide whether to
   wire lore_skipped.txt into me-build-lore.md; (3) resume the page-summarizer sweep.
+
+### Session 2026-08-28 (later) — commit + resume sweep
+- Recreated .venv via `uv` (no venv existed): `uv venv && uv pip install -r
+  requirements.txt`. `.venv/bin/pytest -q` -> 76 passed.
+- Committed the whole Phase 5 backlog as ONE commit 0fccd8c
+  ("feat(scrape,chunk,timeline): resumable frontier + interrupt-safe pipeline;
+  me-generate --brief"). .gitignore now also ignores data/*.log, data/scrape.pid,
+  data/lore_skipped.txt, data/lore_errors.log. data/ still untracked otherwise.
+- page-summarizer sweep resumed. Project subagents in .claude/agents/ are NOT
+  registered as spawnable types this session -> running the identical spec through
+  `general-purpose` subagents instead.
+- Todo recomputed: (data/pages + lore/manual - README) minus existing summaries minus
+  `cut -f1 data/lore_skipped.txt` = 1428 pages -> 96 batches of 15
+  ($SCRATCH/batches/b000..b095, todo list at $SCRATCH/todo.txt). Running sequentially
+  (codex/*.md append races). Batch b000 dispatched.
+- Switched to STATELESS resume: no longer using the $SCRATCH batch files. Each round
+  recomputes the remaining list straight from disk with the me-build-lore.md step-1
+  command (pages + manual - summaries - lore_skipped) and takes the next 15. This
+  makes a fresh turn, a post-autocompact turn, and a post-/clear session all resume
+  identically — page_summaries/<slug>.md IS the checkpoint. me-build-lore.md now
+  encodes the lore_skipped.txt subtraction so /clear + /pwf reproduces it.
+- Sweep progress: b000 +15 (all type:lore, no codex). b001 +15 (4 -> codex/characters.md).
+  235 summaries on disk, 1398 in-scope pages remaining (~93 batches). Batch 3 dispatched
+  (carnage..cerberus-commando).
+
+### Session 2026-08-28 (later) — parallel waves (user: "run multiple batches in parallel")
+- Switched to PARALLEL waves. Hazard = concurrent codex/*.md appends; page_summaries/
+  writes are already disjoint. Fix: each parallel agent gets a WAVE_ID and writes codex
+  bullets to codex/_inbox/<WAVE_ID>-<group>.md (bare "- " lines, no H1); after each wave
+  the controller merges the inbox into codex/<group>.md (dedupe + sort under the H1),
+  rm's the inbox, recomputes the remaining list, dispatches the next wave.
+  me-build-lore.md step 3 now documents this parallel mode.
+- Found an ORPHAN codex/inbox/ from an earlier session (b002..b008, "## group" format,
+  never merged). Folded it into the same merge. codex/ backed up to $SCRATCH first.
+- Wave 1 (batch3 + w1s0..w1s3, 75 pages carnage..citadel-a-friend-of-a-friend): done.
+  Codex merge -> species.md 7, tech.md 29, characters.md 50, factions.md 1 (unique bullets).
+- 310 summaries on disk, 1323 in-scope remaining (~89 batches).
+- Wave 2 dispatched: 5x15 all citadel-* (w2s0..w2s4), lines 1..75 of the recomputed todo.
+- ETA ~3h at 4-5 wide; ~9M subagent tokens total; needs this session live to dispatch
+  each wave (or a /plan-loop nudge).

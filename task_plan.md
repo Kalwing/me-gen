@@ -13,8 +13,8 @@ reconciled + committed this session, suite 76 green). Corpus: 2981 scraped pages
 ~205 / ~1634 filtered pages summarized, resumable. NEXT ACTION: resume the
 page-summarizer sweep in batches of ~15 until page_summaries/ covers the filtered
 corpus, then `/me-build-timeline`, then first `/me-generate`.
-Known gap: me-build-lore.md does not subtract data/lore_skipped.txt (1372 rows) — the
-corpus filter is applied by hand when forming batches; wire it in or accept manual.
+me-build-lore.md now subtracts data/lore_skipped.txt (1372 rows) in its step-1 source
+list — the corpus filter is wired into the command, no longer applied by hand.
 Standing ruling: every script doing `from scripts...` needs the sys.path bootstrap.
 
 ## Current Phase
