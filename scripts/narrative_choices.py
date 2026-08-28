@@ -22,8 +22,27 @@ GROUP_LABELS = {
 }
 
 
+def _norm(value) -> str:
+    """Stringify a YAML scalar. ``yes``/``no`` parse as booleans — map them back."""
+    if isinstance(value, bool):
+        return "yes" if value else "no"
+    return str(value or "").strip()
+
+
+def _options(question: dict) -> list[str]:
+    return [_norm(o) for o in (question.get("options") or [])]
+
+
 def _answer(question: dict) -> str:
-    return str(question.get("answer") or "").strip()
+    ans = _norm(question.get("answer"))
+    if ans:
+        return ans
+    # A question whose options have been narrowed to a single choice is itself
+    # answered — that lone option is the player's pick.
+    options = _options(question)
+    if len(options) == 1:
+        return options[0]
+    return ""
 
 
 def load_choices(path: Path) -> dict:
@@ -45,7 +64,7 @@ def load_choices(path: Path) -> dict:
                 raise ValueError(
                     f"{path}: question {q.get('id', '?')!r} in {group!r} missing keys: {missing}"
                 )
-            options = q["options"] or []
+            options = _options(q)
             ans = _answer(q)
             if ans and options and ans not in options:
                 raise ValueError(

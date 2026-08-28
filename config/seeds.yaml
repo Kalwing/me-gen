@@ -1,7 +1,7 @@
 # Crawl parameters for scrape_wiki.py. CLI flags override these.
 depth: 2
-cap: 600
-rate: 0.5   # seconds between requests
+cap: 1000
+rate: 1   # seconds between requests
 
 # Seed page titles. The crawler follows in-page links from these to `depth` hops.
 seeds:
@@ -43,3 +43,15 @@ seeds:
   - Priority: Earth
   - Cerberus
   - The Illusive Man
+  - Characters
+  - Jack
+  - Tali
+  - Kaidan
+  - Grunt
+  - Wrex
+  - Joker
+  - Biotic
+  - Admiralty
+  - Drell
+  - Elcor
+  - Weapons

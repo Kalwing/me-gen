@@ -10,6 +10,36 @@
 
 **Spec:** `docs/superpowers/specs/2026-08-27-mass-effect-narrator-design.md`
 
+## Amendments (2026-08-27, mid-execution)
+
+Three changes requested after Tasks 1–2 landed:
+
+1. **Manual lore ingestion of `ddl/`.** The `ddl/*.txt` files are YouTube caption
+   dumps (lowercase, unpunctuated, ~4-word lines, channel intros/outros, ASR
+   errors). They must be turned into properly formatted `lore/manual/*.md` with a
+   human-quality correction pass (spelling/ASR fixes, punctuation, capitalisation,
+   sentence + paragraph reflow, boilerplate stripped). Source files larger than
+   ~10 kB are split at natural topic boundaries into numbered parts, each part
+   opening with a short summary, information flow preserved. **This is done by the
+   controller alone — no subagents, no parallel agents — as the LAST step, after
+   every other task is complete. Then stop and wait for user input before any
+   further agent work.** New **Task 16**.
+
+2. **Narrative-choices questionnaire.** Building the timeline also produces a
+   user-editable file capturing their canon: multiple-choice trilogy decisions
+   plus free-text detail fields, and Shepard's background, psychological profile,
+   and class. The generation stage reads the filled file so the recap matches the
+   user's playthrough. New **Task 15**; `/me-build-timeline` (Task 11) and the
+   generation agents/command (Tasks 12–13) gain steps to write / consume it.
+
+3. **Descope: no real episode generation in this plan.** The generation machinery
+   (Tasks 12–13) is still built and def-tested, but running it end-to-end to
+   produce an actual episode — and the live wiki scrape, real lore/timeline build,
+   and live fact-preservation check — are removed from this plan. They happen in a
+   later user-initiated session (a character + a prompt). Old Task 14's "first real
+   run" steps move to **Deferred / out of scope** at the end of this file. Task 14
+   is now README + full-suite green + spec status only.
+
 ## Global Constraints
 
 - **Python 3.11+.** Every script runs as `python scripts/<name>.py [...]` and supports `--help`.
@@ -1712,7 +1742,7 @@ tools: Read, Write, Bash
 You condense Mass Effect lore pages. You do not narrate, editorialize, or invent.
 
 ## Inputs
-- A list of file paths under `data/pages/` and/or `lore/manual/` (given in the prompt, ~15 per invocation).
+- A list of file paths under `data/pages/` and/or `lore/manual/` (given in the prompt, ~15 per invocation). Most files in `lore/manual` come from youtube subtitles; those with `auto-generated` in their names may have mistakes and aren't formatted. You should format them, and have a pass over the content to correct them.
 - Each file has YAML frontmatter (`title`, `url`, `game`, `type`, `characters`) and cleaned markdown prose.
 
 ## Outputs
@@ -2200,7 +2230,7 @@ git commit -m "feat: me-generate command with outline approval gate"
 
 ---
 
-### Task 14: README, full-suite check, and first real run
+### Task 14: README, full-suite check, spec status (no live run)
 
 **Files:**
 - Create: `README.md`
@@ -2208,8 +2238,9 @@ git commit -m "feat: me-generate command with outline approval gate"
 - Modify: `docs/superpowers/specs/2026-08-27-mass-effect-narrator-design.md` (Status line only)
 
 **Interfaces:**
-- Consumes: everything.
-- Produces: user-facing documentation and a verified first episode.
+- Consumes: everything built in Tasks 1–13, 15.
+- Produces: user-facing documentation. No episode is generated in this plan
+  (see Amendment 3 and **Deferred / out of scope** below).
 
 - [ ] **Step 1: Write `README.md`**
 
@@ -2233,13 +2264,15 @@ python -m pytest        # all green
 |------|---------|----------|
 | 1. Scrape lore | `/me-scrape` (opt. `--depth 2 --cap 600 --rate 0.5`) | `data/pages/`, `data/chunks/chunks.jsonl`, `data/bm25_index.pkl` |
 | 2. Summarize | `/me-build-lore` | `page_summaries/`, `codex/` |
-| 3. Timeline | `/me-build-timeline` | `timeline/events/*.yaml`, `timeline/master_timeline.yaml` |
+| 3. Timeline | `/me-build-timeline` | `timeline/events/*.yaml`, `timeline/master_timeline.yaml`, `config/narrative_choices.yaml` |
+| 3b. Canon | edit `config/narrative_choices.yaml` — pick your trilogy decisions, Shepard background/profile/class | — |
 | 4a. Outline | `/me-generate garrus "the cost of war, loyalty" --words 8000` | `output/<run>/outline.yaml` (**stops for approval**) |
 | 4b. Approve | edit `outline.yaml`, delete the `# UNAPPROVED` first line | — |
 | 4c. Write | `/me-generate --continue output/<run>` | `output/<run>/episode.md` (+ `sections/`, `sources.json`, `issues.md`) |
 
 Hand-written lore goes in `lore/manual/*.md` with the same frontmatter as
-`data/pages/` files; it is picked up by step 2.
+`data/pages/` files; it is picked up by step 2. YouTube-transcript lore in `ddl/`
+is converted to `lore/manual/*.md` by Task 16 of the build.
 
 ## Adding a narrator
 
@@ -2249,41 +2282,193 @@ Copy `config/narrators/garrus.yaml` to `config/narrators/<name>.yaml` and rewrit
 ## How it works
 
 `docs/superpowers/specs/2026-08-27-mass-effect-narrator-design.md` has the full
-design. Short version: the YAML timeline controls pacing and chronology, BM25
-retrieval supplies grounding detail per section, and the narrator bible supplies
-style. Deterministic steps are Python scripts in `scripts/`; reasoning steps are
-Claude Code subagents in `.claude/agents/`.
+design. Short version: the YAML timeline controls pacing and chronology, the
+narrative-choices file pins the user's canon, BM25 retrieval supplies grounding
+detail per section, and the narrator bible supplies style. Deterministic steps
+are Python scripts in `scripts/`; reasoning steps are Claude Code subagents in
+`.claude/agents/`.
+
+## Status
+
+The pipeline (scripts, subagents, commands, config templates) is built and
+tested. Running it end-to-end against the live wiki to produce a real episode is
+done on demand in a later session — give Claude a narrator and a theme prompt.
 ````
 
 - [ ] **Step 2: Run the full suite**
 
 Run: `python -m pytest -v`
-Expected: PASS — every test from Tasks 1–13.
+Expected: PASS — every test from Tasks 1–13 and 15.
 
-- [ ] **Step 3: First real scrape (small)**
+- [ ] **Step 3: Flip the spec status and commit**
 
-Run `/me-scrape --depth 1 --cap 60 --rate 0.5`. Confirm: dozens of pages in `data/pages/`, `chunks.jsonl` written, `retrieve.py` returns sane hits for `"Sovereign Reaper"` and `"Virmire Wrex"`. Inspect 3 cleaned pages for leftover chrome; if any selector leaked, add it to `_DROP_SELECTORS` in `scripts/clean_md.py`, re-run Task 2 tests, re-chunk, re-run `/me-scrape`.
-
-- [ ] **Step 4: Build lore and timeline**
-
-Run `/me-build-lore` then `/me-build-timeline` on the small corpus. Spot-check 2 summaries and 3 events per those commands' `## Verify` sections.
-
-- [ ] **Step 5: First episode**
-
-Run `/me-generate garrus "the cost of war, loyalty" --words 4000`. Review the outline, approve it, run `/me-generate --continue output/<run>`. Check `episode.md` against the command's `## Verify` list.
-
-- [ ] **Step 6: Fact-preservation check (spec §8)**
-
-In the finished run, copy one section file, edit the copy to state the wrong squadmate died on Virmire, overwrite the real section with it, then re-dispatch `consistency-checker` for the run dir. Confirm `issues.md` lists the injected contradiction under `Chronology` or `Invented lore` and that the fix pass corrects it. Restore the run afterward (or delete it).
-
-- [ ] **Step 7: Flip the spec status and commit**
-
-In `docs/superpowers/specs/2026-08-27-mass-effect-narrator-design.md` change the Status line to `Implemented`.
+In `docs/superpowers/specs/2026-08-27-mass-effect-narrator-design.md` change the Status line to `Implemented (pipeline; first real run deferred)`.
 
 ```bash
 git add README.md lore/manual/.gitkeep docs/superpowers/specs/2026-08-27-mass-effect-narrator-design.md
-git commit -m "docs: README and mark spec implemented"
+git commit -m "docs: README and mark pipeline implemented"
 ```
+
+---
+
+### Task 15: Narrative-choices questionnaire
+
+**Files:**
+- Create: `config/narrative_choices.template.yaml`
+- Create: `scripts/narrative_choices.py`
+- Create: `tests/test_narrative_choices.py`
+- Modify: `.claude/commands/me-build-timeline.md` (Task 11) — add a step that copies the template to `config/narrative_choices.yaml` if absent
+- Modify: `.claude/agents/outline-writer.md` and `.claude/agents/section-writer.md` (Task 12) — add `config/narrative_choices.yaml` to Inputs and a Rule to honour it
+- Modify: `.claude/commands/me-generate.md` (Task 13) — outline phase reads the file; warn (do not block) if it is still all-unanswered
+- Modify: `tests/test_command_defs.py` / `tests/test_agent_defs.py` — assert the new references
+
+**Interfaces:**
+- Consumes: nothing at build time (static template + a small loader).
+- Produces:
+  - `config/narrative_choices.template.yaml` — the blank questionnaire. Every
+    question is a mapping with keys `id`, `prompt`, `options` (list of allowed
+    string answers, or `[]` for a pure free-text question), `answer` (empty
+    string — the user fills it), and `detail` (empty string — free-text
+    "why / how it went" the narrator can use). Grouped under top-level keys:
+    - `shepard`: `background` (Spacer / Colonist / Earthborn), `profile`
+      (War Hero / Sole Survivor / Ruthless), `class` (Soldier / Engineer /
+      Adept / Infiltrator / Sentinel / Vanguard), `gender` (free text),
+      `romance` (free text).
+    - `me1`: council fate at the Battle of the Citadel (saved / sacrificed),
+      Wrex on Virmire (alive / dead), Rachni queen (freed / killed), Virmire
+      survivor (Ashley / Kaidan), the Council's new composition.
+    - `me2`: Collector Base (destroyed / handed to Cerberus), who lived and
+      died in the Suicide Mission (free text), loyalty missions completed
+      (free text), Arrival / batarian relay.
+    - `me3`: genophage (cured / sabotaged), Krogan leader (Wrex / Wreav),
+      Geth vs Quarians (geth / quarians / peace), Rannoch, the Citadel DLC
+      outcome (free text), Thessia, the final choice (Destroy / Control /
+      Synthesis / Refuse), Shepard's fate (free text).
+  - `scripts/narrative_choices.py`:
+    - `load_choices(path) -> dict` — parse the YAML; raise `ValueError` if a
+      question is missing a required key or an `answer` is non-empty but not in
+      that question's non-empty `options` list.
+    - `is_blank(choices: dict) -> bool` — `True` when every `answer` is empty.
+    - `summary_for_prompt(choices: dict) -> str` — a compact plain-text block
+      ("Shepard: Earthborn War Hero Vanguard · ME1 council: sacrificed · …")
+      built only from answered questions, for injection into agent prompts.
+    - CLI: `python scripts/narrative_choices.py <path>` prints the summary (or
+      "all questions unanswered").
+
+- [ ] **Step 1: Write the failing test** (`tests/test_narrative_choices.py`)
+
+Cover: the template file exists and `load_choices` accepts it; `is_blank` is
+`True` for the untouched template; `load_choices` raises on an out-of-range
+`answer` and on a question missing `prompt`/`options`/`answer`/`detail`;
+`summary_for_prompt` on a partially answered dict names only the answered
+questions and omits the blank ones.
+
+- [ ] **Step 2: Run it RED** — `python -m pytest tests/test_narrative_choices.py -v` → fails, module absent.
+
+- [ ] **Step 3: Write `config/narrative_choices.template.yaml`** per the schema above — real questions, all `answer`/`detail` empty.
+
+- [ ] **Step 4: Implement `scripts/narrative_choices.py`.**
+
+- [ ] **Step 5: Run it GREEN.**
+
+- [ ] **Step 6: Wire the consumers.**
+  - `.claude/commands/me-build-timeline.md`: after the extractor returns, add
+    `if [ ! -f config/narrative_choices.yaml ]; then cp config/narrative_choices.template.yaml config/narrative_choices.yaml; fi`
+    and tell the user to fill it in. Add a `## Verify` bullet.
+  - `.claude/agents/outline-writer.md`: add `config/narrative_choices.yaml` to
+    `## Inputs`; add a `## Rules` bullet — weight and select sections so the
+    outline reflects the answered choices (e.g. a dead Wrex means the Virmire
+    section carries his death; Synthesis ending shapes the finale). Ignore
+    unanswered questions.
+  - `.claude/agents/section-writer.md`: add the file to `## Inputs`; add a
+    `## Rules` bullet — when a section's events intersect an answered choice,
+    narrate that outcome, not the generic wiki default; never invent detail the
+    user did not give.
+  - `.claude/commands/me-generate.md`: outline phase runs
+    `python scripts/narrative_choices.py config/narrative_choices.yaml` and
+    prints the summary; if `is_blank`, print a warning that the recap will use
+    default canon — do NOT stop.
+  - Update `tests/test_agent_defs.py` / `tests/test_command_defs.py` needle
+    lists to assert `narrative_choices` is referenced by the two agents and the
+    two commands.
+
+- [ ] **Step 7: Run the affected def-tests** (`test_agent_defs.py`, `test_command_defs.py`) and the new test — all green.
+
+- [ ] **Step 8: Commit** — `feat: narrative-choices questionnaire and generation wiring`
+
+---
+
+### Task 16: Manual lore ingestion — `ddl/` → `lore/manual/` (controller solo)
+
+**Do this LAST, after every other task (1–15) is complete and reviewed. The
+controller does it directly: no subagents, no parallel agents. When it is done,
+stop and wait for user input before any further agent work.**
+
+**Files:**
+- Create: `lore/manual/<slug>.md` (or `<slug>-01.md`, `-02.md`, … for split
+  sources) — one set per `ddl/*.txt`.
+- Create: `lore/manual/README.md` — one line on provenance (YouTube transcripts,
+  hand-corrected) and the frontmatter shape.
+- Keep the original `ddl/*.txt` in place (raw source of record).
+
+**Interfaces:**
+- Consumes: `ddl/*.txt` (YouTube caption dumps).
+- Produces: clean `lore/manual/*.md` that Task 10's `page-summarizer` and the
+  rest of the pipeline treat exactly like scraped pages.
+
+**Per-file procedure:**
+
+- [ ] **Step 1: Inventory `ddl/`.** List every `*.txt`, its byte size, and a
+  one-line guess at its topic and `type` (`character` / `faction` / `location` /
+  `tech` / `species` / `timeline` / `lore`). Files with `auto-generated` in the
+  name are the ones needing the heaviest correction.
+
+- [ ] **Step 2: For each source file, produce corrected markdown.**
+  - Frontmatter: `title` (a clean human title, not the raw filename), `url` (the
+    YouTube URL if recoverable from the filename, else `""`), `game`
+    (`Mass Effect` / `Mass Effect 2` / `Mass Effect 3` / `Mass Effect (series)`),
+    `type` (from Step 1), `characters` (named individuals actually discussed),
+    `source: youtube-transcript`, `corrected: 2026-08-27`.
+  - Body: fix ASR errors (e.g. "ezo"/"izo" → "Element Zero"/"eezo", "Tasia" →
+    "Thessia" where context fits, channel/creator name misspellings), restore
+    punctuation and capitalisation, join the ~4-word caption lines into real
+    sentences and paragraphs, and cut channel boilerplate (intros, "smash that
+    subscribe", outros, sponsor reads). Preserve every lore claim; do not add
+    facts. Where a transcript is plainly wrong on established canon, keep the
+    statement but do not "improve" it into something the source did not say —
+    flag it with an inline `<!-- transcript unclear: ... -->` comment instead.
+  - Prose only — no residual timestamps, no list-of-fragments.
+
+- [ ] **Step 3: Split any source larger than ~10 kB.** Cut at natural topic
+  boundaries (section shifts in the narration), never mid-argument. Name parts
+  `<slug>-01.md`, `<slug>-02.md`, … Each part keeps full frontmatter (same
+  `title` plus ` (Part N)`), and opens with a 1–3 sentence **Summary:**
+  paragraph so the part stands alone and the information flow across parts stays
+  intact. Target parts of roughly 4–8 kB.
+
+- [ ] **Step 4: Sanity pass.** Re-read each produced file top to bottom: it
+  reads as coherent prose, the frontmatter is valid YAML, `type` is in the
+  allowed set, and `scripts/common.read_frontmatter_md` parses it without error
+  (quick check: `python -c "from pathlib import Path; from scripts import common; [common.read_frontmatter_md(p) for p in Path('lore/manual').glob('*.md')]"`).
+
+- [ ] **Step 5: Commit** — `feat: hand-corrected YouTube-transcript lore in lore/manual/`
+  — then STOP and wait for the user.
+
+---
+
+## Deferred / out of scope for this plan
+
+These were in the original Task 14 and are removed by Amendment 3. They run in a
+later user-initiated session, not here:
+
+- Live scrape of `masseffect.fandom.com` (`/me-scrape` against the real wiki).
+- Real `/me-build-lore` and `/me-build-timeline` runs over the scraped corpus +
+  `lore/manual/`.
+- Generating any actual episode (`/me-generate <narrator> "<themes>"` end-to-end)
+  — done on demand when the user names a character and a prompt.
+- The live fact-preservation check (spec §8): inject a wrong squadmate death into
+  a finished run and confirm `consistency-checker` catches it. Keep as a
+  documented manual QA step; run it during the first real generation session.
 
 ---
 

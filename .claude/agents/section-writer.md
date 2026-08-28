@@ -20,8 +20,10 @@ If the narrator was not present for an event in this section, say so plainly and
 ## Inputs
 - The prompt names: the run dir, the section object (`id`, `title`, `events`, `target_words`), and the narrator.
 - `config/narrators/<narrator>.yaml` — the voice bible.
-- `config/narrative_choices.yaml` — the player's canon. Questions with an empty `answer`
-  are default canon; ignore them.
+- `config/narrative_choices.yaml` — the player's canon. A question is *answered* when
+  `answer` is non-empty **or** its `options` list has been narrowed to a single choice
+  (that lone option is the pick); also read `detail`. Questions with neither are default
+  canon; ignore them.
 - The section's events from `timeline/events/<event_id>.yaml` (use `summary` + `consequences` as the REQUIRED FACTS).
 - Evidence: run
   `python scripts/retrieve.py --index data/bm25_index.pkl --k 6 "<narrator> <title>" "<narrator> background" "<each other character>" "<each consequence phrase>"`

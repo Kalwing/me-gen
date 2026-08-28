@@ -29,3 +29,72 @@ Source brainstorm: `plan.md`.
 - Mass Effect Fandom wiki: https://masseffect.fandom.com — MediaWiki API at `/api.php`.
 - `rank-bm25` (Python) for keyword retrieval.
 - Fandom content is CC BY-SA — fine for a personal project; keep attribution/source URLs in frontmatter.
+
+## `ddl/` source material (added 2026-08-27)
+16 YouTube-transcript `.txt` files to be hand-corrected into `lore/manual/*.md` (Task 16).
+- Format: auto-generated captions — lowercase, no punctuation, ~4-word lines, channel
+  intros/outros, ASR errors ("ezo"/"izo" for eezo/Element Zero, name misspellings).
+- Topics: Jack (character analysis, banter, cut dialogue, Eezo the varren), Tali
+  (huge 114 kB analysis), Normandy SR-1 & SR-2, Systems Alliance / Arcturus Station /
+  Alliance founding, Turian Hierarchy pre-Council, Destiny Ascension, Reaper classes,
+  "two races we never see", trilogy secrets pt2.
+- Sizes: 6 files > 10 kB (13k, 14.6k, 16.6k, 22.7k, 32k, 114.6k) → split at topic
+  boundaries into numbered parts with per-part Summary paragraphs.
+- Correction is controller-solo, no subagents, done LAST, then pause for user.
+
+## Episode content priority (added 2026-08-27, user, mid-execution)
+The main galaxy timeline is NOT the priority for episode content. Priority order for what
+an episode draws on, most → least important, **all cross-linked**:
+1. **The narrator character's own timeline** — their personal arc, what they lived through,
+   their POV on events.
+2. **Lore** — worldbuilding, species/tech/faction/location context (BM25-retrieved).
+3. **Main timeline** — the galaxy-wide chronological events; supporting scaffold, not the spine.
+Implication: `outline-writer` and `section-writer` agent definitions must lead with the
+character timeline + lore and treat `master_timeline.yaml` as connective tissue. The YAML
+timeline stays the pacing/chronology *reference*, but section content is lore- and
+character-first. Handled by Task 17 (rebalance generation agents), after Task 15.
+
+## RESOLVED 2026-08-28: user config work adopted + wired
+Decisions taken (user said "updated config, keep going" — proceed with judgement):
+- **Filled `narrative_choices.template.yaml` is now the user's canon** (design's "blank
+  committed template" intent waived for this personal single-user repo). Copied verbatim to
+  gitignored `config/narrative_choices.yaml` (what generation reads).
+- **New convention**: a question whose `options` list is narrowed to ONE entry counts as
+  answered (that lone option = the pick), even with `answer: ""`. Implemented in
+  `scripts/narrative_choices.py` (`_norm`/`_options`/`_answer`); `yes`/`no` YAML booleans
+  normalised back to strings. `outline-writer.md` + `section-writer.md` updated to state it.
+- Fixed template bugs: `details:` → `detail:` typo on 3 me3 questions (blocked loading).
+- `tests/test_narrative_choices.py`: 2 tests that assumed a blank committed template
+  reworked to synthetic fixtures; added single-option-implies-answer test.
+- `tests/test_config.py`: `test_garrus_bible_shape` → parametrized `test_narrator_bible_shape`
+  over all 10 narrator files. Removed stray `Review those one :` line 1 from `jack.yaml`.
+- `config.zip` added to `.gitignore` (stray backup).
+- Suite: 57 passed.
+- ddl `Jack about red sand` file: user's stray header + 1 ASR fix left as-is → Task 16.
+
+### Original state (for reference)
+Between sessions the user hand-edited config (not via agents):
+- `config/narrative_choices.template.yaml` — FILLED IN with the user's real canon
+  (Earthborn/Sole Survivor/Vanguard male Shepard; Paragon-except-vs-oppressors; romances
+  Jack/Tali/Kaidan faithful per run; council sacrificed; Wrex/rachni/Kaidan-survivor;
+  multi-species Council led by Anderson; Collector Base destroyed; loyalty outcomes …) AND
+  added new questions (kirrahe_virmire, zaeed_loyalty, grunt_loyalty, samara_loyalty,
+  kasumi_loyalty, …). **Breaks `tests/test_narrative_choices.py::test_template_is_blank`**
+  (46 pass / 1 fail). Design intent was a blank committed template + a gitignored
+  `config/narrative_choices.yaml` working copy — user edited the template directly instead.
+- `config/narrators/jack.yaml`, `tali.yaml`, `thane.yaml` — NEW voice bibles (~63 lines each).
+- `config/narrators/garrus.yaml` — tone tuning (+tired, +intimate, +politically libertarian;
+  knowledge_bias += guns inventory / turian military).
+- `config/seeds.yaml` — cap 600→1000, rate 0.5→1, +11 character/species seed pages.
+- `ddl/…Jack about red sand….txt` — first hand-correction started (speaker label, ASR fix).
+- `config.zip` — untracked backup snapshot of config/ (2026-08-27 16:50); likely disposable.
+DECISION NEEDED from user before final review + Task 16 — see task_plan.md Next Step.
+
+## Narrative-choices questionnaire (added 2026-08-27)
+`config/narrative_choices.template.yaml` — user fills `config/narrative_choices.yaml`
+with their canon: Shepard background (Spacer/Colonist/Earthborn) + profile
+(War Hero/Sole Survivor/Ruthless) + class (6) + gender/romance free text; ME1/2/3
+decision MCQs (council, Wrex, Rachni, Virmire survivor, Collector Base, genophage,
+geth/quarians, final choice Destroy/Control/Synthesis/Refuse, Shepard's fate) each
+with an `answer` field + free-text `detail`. Generation agents read the answered
+subset; unanswered = default canon (warn, don't block).

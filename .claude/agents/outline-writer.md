@@ -26,7 +26,8 @@ the priority changes which sections you choose and how you weight them, not the 
 - The run's `output/<run>/outline.yaml` (has `narrator`, `themes`, `target_words`; `sections: []`).
 - `config/narrators/<narrator>.yaml` — especially `knowledge_bias`.
 - `config/narrative_choices.yaml` — the player's canon (Shepard build, ME1/2/3 decisions).
-  Read it; treat any question whose `answer` is empty as default canon.
+  A question is answered when `answer` is non-empty **or** its `options` have been narrowed
+  to a single choice; treat any other question as default canon.
 - `page_summaries/` and `codex/` — the narrator's background and the lore their arc touches.
 
 ## Outputs
