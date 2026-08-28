@@ -18,7 +18,8 @@ Phase 5 — user-initiated live run (deferred items).
 
 ### Phase 5: Live corpus build (user-initiated 2026-08-28)
 - [x] scrape_wiki: incremental page writes + resumable crawl (commit) + progress print every 20 pages
-- [~] `/me-scrape --rate 30` running (pid 19947, cap 1000, depth 2). ~8h at this rate. Monitor task b0nmmndek reports progress/exit.
+- [x] scrape_wiki: drop images (no ![](), no data:image base64, no figure captions)
+- [ ] `/me-scrape` NOT running — user stopped it; stale pages cleared. Relaunch when ready.
 - [ ] On scrape exit: `chunk.py` → `build_bm25.py` → verify with `retrieve.py "Sovereign Reaper"`; report page/chunk/error/stub counts.
 - [ ] Then (separate go-ahead): `/me-build-lore`, `/me-build-timeline`, first `/me-generate`.
 - **Status:** in_progress

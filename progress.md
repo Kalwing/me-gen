@@ -74,3 +74,11 @@
 - Relaunched: pid 19947, cap 1000 / depth 2 / rate 30s (~8h). Writes incrementally to
   data/pages/; re-run resumes. Monitor task b0nmmndek streams progress + exit.
 - On exit: chunk -> build_bm25 -> retrieve verify, then report counts.
+
+### 2026-08-28 — stop + image strip
+- User: "stop. Don't keep the images when scrapping." Killed scrape (pid 19947, 5 pages),
+  stopped monitor, deleted the 5 stale image-laden pages + run/error logs.
+- clean_md: markdownify strip += 'img'; _DROP_SELECTORS += img,figure,figcaption,
+  .thumb,.image,.pi-image,.video-thumbnail. Pages now carry no images/captions/base64.
+  +test in test_clean_md; 63 green. Committed.
+- Scrape not relaunched — waiting for user.
