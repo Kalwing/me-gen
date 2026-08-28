@@ -48,3 +48,13 @@
 ### Errors
 | Error | Resolution |
 |-------|------------|
+
+### Session resume 2026-08-28 (cont.)
+- Final whole-branch review returned "Needs fixes": C1 seeds.yaml `Priority: Earth`
+  parsed as dict → crawl() crash; C2 me-generate.md gate `from pathlib import Path,sys`
+  ImportError → whole --continue path dead; I1 narrative_choices main() bare
+  FileNotFoundError on missing working copy; I2 assemble_episode null `sections:` →
+  TypeError. All fixed + M1 (summary readout labels) + tests; 58 green. Committed.
+  Report: .superpowers/sdd/2026-08-27-mass-effect-narrator/final-review-report.md
+- Task 16 batch 1 committed: jack-dialogue, turian-hierarchy-early-history,
+  systems-alliance-founding, arcturus-station, destiny-ascension (+README). 5/16 sources.

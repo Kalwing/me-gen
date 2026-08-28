@@ -6,13 +6,15 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-User config work adopted + wired (see findings.md "RESOLVED 2026-08-28"); suite 57 green.
-NOW: commit the config+code work, then re-dispatch final whole-branch review (new BASE
-= merge-base main HEAD) → address findings → Task 16 (ddl→lore/manual) controller-solo → STOP.
+ALL PLAN TASKS DONE (1-17). Final review addressed (commit fcb9ef7). Task 16 complete
+(commit 087b5b8): all 16 ddl/ transcripts hand-corrected into lore/manual/ (24 pages +
+README), me-build-lore wired to feed them. Suite 58 green. STOP — wait for user.
+Deferred to a later user-initiated session: live wiki scrape, real /me-build-lore +
+/me-build-timeline runs, first real /me-generate episode, live fact-preservation QA.
 Standing ruling: every script doing `from scripts...` needs the sys.path bootstrap.
 
 ## Current Phase
-Phase 3
+Phase 4 complete — plan fully executed; paused for user (deferred items are a separate future session).
 
 ## Phases
 
@@ -38,7 +40,7 @@ Plan amended mid-execution (2026-08-27, user): +Task 15 (narrative-choices
 questionnaire), +Task 16 (ddl→lore/manual, controller-solo, LAST), Task 14
 descoped to README/suite/status, live run + real episode generation moved to
 "Deferred / out of scope" (later user-initiated session). Plan file has details.
-- [ ] Execute the amended plan (Tasks 1-9 Python spine w/ TDD; 10-13 subagents + commands; 15 questionnaire; 14 README; 16 manual lore)
+- [x] Execute the amended plan (Tasks 1-9 Python spine w/ TDD; 10-13 subagents + commands; 15 questionnaire; 14 README; 16 manual lore; 17 rebalance)
   - [x] Task 1: Project scaffold + `scripts/common.py` (commit 0174387, review clean)
   - [x] Task 2: HTML → clean markdown (`clean_md.py`) (commit 09c621d, review clean)
   - [x] Task 3: Chunker (`chunk.py`) (commit d71298f, review clean, 5 minors deferred)
@@ -55,17 +57,17 @@ descoped to README/suite/status, live run + real episode generation moved to
   - [x] Task 15: Narrative-choices questionnaire + generation wiring (commit c51b661, review clean, 4 minors deferred)
   - [x] Task 14: README + full-suite + spec status (commit d18003c, review clean after 1 fix round)
   - [x] Task 17: Rebalance generation agents to character-arc/lore-first priority (commit 8fb37dc, review adjudicated: 2 brief-prose deviations parked, semantically equivalent) — user amendment. See findings.md "Episode content priority".
-  - [ ] Task 16: ddl → lore/manual manual ingestion (controller solo, no agents) → then STOP for user
-- **Status:** in_progress (blocked on rate limit)
+  - [x] Task 16: ddl → lore/manual manual ingestion (controller solo) — all 16 sources → 24 lore pages + README (commits 8882007..087b5b8); me-build-lore wired to include lore/manual/
+- **Status:** complete
 
 ### Phase 4: Testing & Verification
 - [x] Unit tests (common, clean_md, chunk, retrieve, new_run, assemble_episode, config) — 31 green through Task 9
 - [x] Integration smoke test on 3-page mini corpus (Task 9)
 - [ ] narrative_choices unit test (Task 15)
-- [ ] Full-suite green (Task 14)
-- [ ] Final whole-branch review (SDD)
+- [x] Full-suite green (58 passed)
+- [x] Final whole-branch review (SDD) — Needs fixes: 2 Critical + 2 Important + M1, all fixed & verified
 - Fact-preservation check: moved to Deferred (first real generation session)
-- **Status:** in_progress
+- **Status:** complete
 
 ## Decisions Made
 | Decision | Rationale |
