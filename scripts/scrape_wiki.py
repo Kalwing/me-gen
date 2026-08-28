@@ -178,14 +178,21 @@ if __name__ == "__main__":
     if already:
         print(f"resuming: {len(already)} pages already on disk will be skipped")
 
-    stats = {"written": 0}
+    stats = {"written": 0, "fetched": 0}
+    every = 20  # progress cadence, in pages
 
     def on_page(p: PageData) -> None:
         # Persist each page (and refresh the error log) as we go, so an
         # interrupted run keeps everything fetched so far.
         if write_page(p, a.pages, force=a.force):
             stats["written"] += 1
+        stats["fetched"] += 1
         _write_error_log(log, errors, _short_pages)
+        done = stats["fetched"] + len(already)
+        if stats["fetched"] % every == 0:
+            print(f"progress: {done}/{cap} pages "
+                  f"({stats['written']} written this run, {len(already)} skipped, "
+                  f"{len(errors)} fetch errors)", flush=True)
 
     pages = crawl(seeds, depth=depth, cap=cap,
                   fetch=lambda t: live_fetch(t, session, rate), errors=errors,
