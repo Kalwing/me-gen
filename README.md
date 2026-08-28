@@ -17,8 +17,8 @@ python -m pytest        # all green
 |------|---------|----------|
 | 1. Scrape lore | `/me-scrape` (opt. `--depth 2 --cap 600 --rate 0.5`) | `data/pages/`, `data/chunks/chunks.jsonl`, `data/bm25_index.pkl` |
 | 2. Summarize | `/me-build-lore` | `page_summaries/`, `codex/` |
-| 3. Timeline | `/me-build-timeline` | `timeline/events/*.yaml`, `timeline/master_timeline.yaml`, `config/narrative_choices.yaml` |
-| 3b. Canon questionnaire | copy + fill `config/narrative_choices.yaml` — Shepard build, ME1/2/3 decisions | — |
+| 3. Timeline | `/me-build-timeline` | `timeline/events/*.yaml`, `timeline/master_timeline.yaml` |
+| 3b. Canon questionnaire | edit `config/narrative_choices.yaml` — Shepard build, ME1/2/3 decisions | — |
 | 4a. Outline | `/me-generate garrus "the cost of war, loyalty" --words 8000` | `output/<run>/outline.yaml` (**stops for approval**) |
 | 4b. Approve | edit `outline.yaml`, delete the `# UNAPPROVED` first line | — |
 | 4c. Write | `/me-generate --continue output/<run>` | `output/<run>/episode.md` (+ `sections/`, `sources.json`, `issues.md`) |
@@ -31,12 +31,12 @@ is converted to `lore/manual/*.md` by Task 16 of the build.
 
 - **`config/seeds.yaml`:** Scrape seed URLs and crawl parameters (`depth`, `cap`, `rate`)
 - **`config/narrators/<name>.yaml`:** Voice bibles for each narrator (tone, diction, signature phrases, knowledge biases)
-- **`config/narrative_choices.template.yaml`:** Structured questionnaire template
-  - Copy to `config/narrative_choices.yaml` and fill it out
+- **`config/narrative_choices.yaml`:** Structured questionnaire holding the player's canon
   - Questions cover Shepard build (background, psych profile, class, gender, romance)
     and trilogy story decisions (ME1, ME2, ME3 — choice points with free-text `detail`)
+  - A question counts as answered when `answer` is set **or** its `options` list is
+    narrowed to a single value
   - Generation agents read the *answered* subset only; unanswered questions default to canon (with warnings, not errors)
-  - `/me-build-timeline` seeds the working copy from the template
 
 ## Adding a narrator
 
@@ -54,13 +54,13 @@ are Python scripts in `scripts/`; reasoning steps are Claude Code subagents in
 
 ### The narrative-choices questionnaire
 
-`config/narrative_choices.template.yaml` is a structured questionnaire, not a
-configuration file. Users copy it to `config/narrative_choices.yaml`, then fill
-in their Shepard's background, class, gender, romance choice, and key trilogy
-story decisions (with optional `detail` fields for free-text expansion). When
-generation runs, the agents read only the *answered* subset and treat unanswered
-questions as defaults (they warn about blanks, but do not block). `/me-build-timeline`
-seeds the working copy from the template automatically.
+`config/narrative_choices.yaml` is a structured questionnaire, not a
+configuration file. It holds the player's Shepard background, class, gender,
+romance choice, and key trilogy story decisions (with optional `detail` fields
+for free-text expansion). A question is answered when `answer` is set or its
+`options` are narrowed to one value. When generation runs, the agents read only
+the *answered* subset and treat unanswered questions as defaults (they warn about
+blanks, but do not block).
 
 ### How episodes are prioritized
 
@@ -78,6 +78,6 @@ the content spine.
 
 ## Status
 
-The pipeline (scripts, subagents, commands, config templates) is built and
+The pipeline (scripts, subagents, commands, config) is built and
 tested. Running it end-to-end against the live wiki to produce a real episode is
 done on demand in a later session — give Claude a narrator and a theme prompt.

@@ -1,8 +1,9 @@
 """Load and summarise the player's narrative-choices questionnaire.
 
-The questionnaire (``config/narrative_choices.template.yaml`` -> the user's
-``config/narrative_choices.yaml``) captures the player's canon so generation
-matches their playthrough. Unanswered questions mean "use default canon".
+The questionnaire (``config/narrative_choices.yaml``) captures the player's canon
+so generation matches their playthrough. A question is answered when ``answer`` is
+set or its ``options`` are narrowed to a single value; anything left blank means
+"use default canon".
 """
 from __future__ import annotations
 

@@ -9,11 +9,11 @@ Build the control-layer timeline.
 2. Dispatch the `timeline-extractor` subagent (pass `--force` through if given).
 3. When it returns, run the load check:
    `python -c "from pathlib import Path; from scripts import common; print(len(common.load_events(Path('timeline/events'))), 'events')"`
-4. Seed the player's canon file if absent:
-   `if [ ! -f config/narrative_choices.yaml ]; then cp config/narrative_choices.template.yaml config/narrative_choices.yaml; fi`
-   Then tell the user to open `config/narrative_choices.yaml` and fill in `answer`/`detail`
-   for whatever they remember of their playthrough (Shepard background/profile/class, ME1/2/3
-   decisions). Anything left blank falls back to default canon.
+4. Check the player's canon file: `test -f config/narrative_choices.yaml`. It is a
+   tracked file and should always be present. Remind the user to review
+   `config/narrative_choices.yaml` and set `answer`/`detail` (or narrow `options` to one
+   value) for whatever they remember of their playthrough (Shepard background/profile/
+   class, ME1/2/3 decisions). Anything left blank falls back to default canon.
 5. Report the event count and the first/last entries of `timeline/master_timeline.yaml`.
 
 ## Verify

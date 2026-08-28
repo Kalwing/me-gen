@@ -4,7 +4,7 @@ import pytest
 
 from scripts import narrative_choices as nc
 
-TEMPLATE = Path(__file__).parent.parent / "config" / "narrative_choices.template.yaml"
+CHOICES = Path(__file__).parent.parent / "config" / "narrative_choices.yaml"
 
 BLANK = (
     "shepard:\n"
@@ -27,9 +27,9 @@ BLANK = (
 )
 
 
-def test_template_exists_and_loads():
-    assert TEMPLATE.exists()
-    choices = nc.load_choices(TEMPLATE)
+def test_choices_file_exists_and_loads():
+    assert CHOICES.exists()
+    choices = nc.load_choices(CHOICES)
     assert "shepard" in choices
     assert "me1" in choices and "me2" in choices and "me3" in choices
 

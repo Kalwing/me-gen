@@ -1,9 +1,9 @@
 # Narrative choices — your Shepard, your canon.
 #
-# Copy this file to config/narrative_choices.yaml (the pipeline does that for
-# you on /me-build-timeline) and fill in `answer` for whatever you remember.
-# For questions with an `options` list, `answer` MUST be one of those strings.
-# For questions with `options: []`, `answer` is free text.
+# Fill in `answer` for whatever you remember of your playthrough.
+# For questions with an `options` list, either set `answer` to one of those
+# strings, or narrow `options` to the single value you picked — both count as
+# answered. For `options: []`, `answer` is free text.
 # `detail` is always free text — "why / how it went" — the narrator may use it.
 # Leave anything you don't care about blank; unanswered = default canon.
 
@@ -102,8 +102,13 @@ me2:
     options: [yes]
     answer: ""
     detail: ""
+  - id: jack_meeting
+    prompt: Did you have sex with her when meeting her.
+    options: [no]
+    answer: ""
+    detail: "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
   - id: jack_loyalty
-    prompt: Did she shoot the ex-inmate on Pragia
+    prompt: Did she shoot the ex-inmate, Aresh, on Pragia
     options: [no]
     answer: ""
     detail: "He was broken, and deserved help"
@@ -169,6 +174,11 @@ me3:
     options: []
     answer: "Everyone lived and stayed happy"
     detail: ""
+  - id: tali_trial
+    prompt: How did Tali's trial go.
+    options: []
+    answer: "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people"
+    detail: ""
   - id: grunt_fate
     prompt: Grunt — how the mission with the Rachni went.
     options: []
@@ -182,7 +192,7 @@ me3:
   - id: citadel_dlc
     prompt: The Citadel DLC outcome (the party, the clone, who showed up).
     options: []
-    answer: "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups."
+    answer: "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)"
     detail: ""
   - id: thessia
     prompt: Thessia — how the mission for the Prothean VI went.
@@ -214,6 +224,11 @@ me3:
     options: [yes]
     answer: ""
     detail: ""
+  - id: conrad
+    prompt: Did Conrad help with the Crucible ?
+    options: [yes]
+    answer: ""
+    detail: "I helped him all along, and got the matriarch writings"
   - id: final_choice
     prompt: The final choice at the Crucible.
     options: [Destroy, Control, Synthesis, Refuse]
