@@ -14,7 +14,14 @@ Deferred to a later user-initiated session: live wiki scrape, real /me-build-lor
 Standing ruling: every script doing `from scripts...` needs the sys.path bootstrap.
 
 ## Current Phase
-Phase 4 complete — plan fully executed; paused for user (deferred items are a separate future session).
+Phase 5 — user-initiated live run (deferred items).
+
+### Phase 5: Live corpus build (user-initiated 2026-08-28)
+- [x] scrape_wiki: incremental page writes + resumable crawl (commit) + progress print every 20 pages
+- [~] `/me-scrape --rate 30` running (pid 19947, cap 1000, depth 2). ~8h at this rate. Monitor task b0nmmndek reports progress/exit.
+- [ ] On scrape exit: `chunk.py` → `build_bm25.py` → verify with `retrieve.py "Sovereign Reaper"`; report page/chunk/error/stub counts.
+- [ ] Then (separate go-ahead): `/me-build-lore`, `/me-build-timeline`, first `/me-generate`.
+- **Status:** in_progress
 
 ## Phases
 

@@ -64,3 +64,13 @@
   config/narrative_choices.yaml. Made it consistent: un-ignored the file (now tracked),
   me-build-timeline drops the `cp` template step, tests/README/docstring updated.
   Commit 35ce128. 58 green, all lore/manual parses clean.
+
+### Session 2026-08-28 — Phase 5: live scrape
+- User ran /me-scrape --rate 30. First launch: killed (all-or-nothing write, 0 on disk).
+- Fixed scrape_wiki: crawl() gains on_page (write each page as fetched) + have()
+  (skip re-fetching pages already on disk; seeds always re-fetched to rebuild frontier;
+  have-pages still count toward --cap). +existing_slugs(). +progress print every 20 pages.
+  5 new tests, 63 green. Commits on feat/mass-effect-narrator.
+- Relaunched: pid 19947, cap 1000 / depth 2 / rate 30s (~8h). Writes incrementally to
+  data/pages/; re-run resumes. Monitor task b0nmmndek streams progress + exit.
+- On exit: chunk -> build_bm25 -> retrieve verify, then report counts.
