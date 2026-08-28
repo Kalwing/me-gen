@@ -23,7 +23,14 @@ the priority changes which sections you choose and how you weight them, not the 
 
 ## Inputs
 - `timeline/master_timeline.yaml` and the referenced `timeline/events/*.yaml`.
-- The run's `output/<run>/outline.yaml` (has `narrator`, `themes`, `target_words`; `sections: []`).
+- The run's `output/<run>/outline.yaml` (has `narrator`, `themes`, `brief`, `target_words`; `sections: []`).
+  `brief` is a free-text note (may be empty) that does two things: (1) sets the
+  episode's **framing** — occasion, scene, mood, who the narrator addresses (e.g.
+  "speaks by phone after a fight, a bit tired"); (2) acts as **finer canon** — it
+  refines `config/narrative_choices.yaml` for this episode, choosing among options
+  the choices file leaves open (e.g. which romance when several are recorded) and
+  adding playthrough detail. Where the brief and the choices file cover the same
+  point, follow the brief. It does not add world events, dates, or outcomes.
 - `config/narrators/<narrator>.yaml` — especially `knowledge_bias`.
 - `config/narrative_choices.yaml` — the player's canon (Shepard build, ME1/2/3 decisions).
   A question is answered when `answer` is non-empty **or** its `options` have been narrowed
@@ -32,12 +39,24 @@ the priority changes which sections you choose and how you weight them, not the 
 
 ## Outputs
 - Rewrite `output/<run>/outline.yaml` keeping the `# UNAPPROVED` first line, `narrator`, `themes`,
-  `target_words`, and replacing `sections:` with an ordered list of
+  `brief`, `target_words`, and replacing `sections:` with an ordered list of
   `{id, title, events: [event_id, ...], target_words}`.
 
 ## Rules
 - Cover the narrator's personal arc start to finish across the trilogy; do not stop at game 1. Where their arc is thin, fill with the lore they'd care about before reaching for galaxy events they weren't part of.
 - Choose and weight sections by the Content priority above, then by `themes` and the narrator's `knowledge_bias` (a beat the narrator lived gets more words; a galaxy event they only heard about gets less or is cut).
+- If `brief` is non-empty, let it set the episode's frame: an opening and closing section
+  that establish the occasion/scene it describes, and a bias toward the beats that
+  occasion would make the narrator dwell on. When the `brief` pins canon the choices
+  file leaves open (e.g. names the romance), weight the outline to that outcome — give
+  that companion's arc its sections — exactly as you would for an answered
+  `narrative_choices` question. Still add no new `event_id`s the timeline doesn't have.
+- Resolved canon (`narrative_choices` + `brief`) decides **which branch of a
+  choice-conditional event is real**, and therefore which sections exist: a character
+  the canon kills off (e.g. `wrex_virmire` = dies, the `virmire_survivor`) gets no later
+  sections built on their survival, and the section covering that beat carries their
+  death; a character the canon keeps alive keeps their downstream arc. Choose sections
+  for the branch the canon selects, not the wiki's default.
 - Every `events` entry must be a real `event_id` from `master_timeline.yaml`.
 - `target_words` across all sections must sum to within 10% of `target_words`.
 - 8-20 sections. Each `id` is a slug, unique within the outline.

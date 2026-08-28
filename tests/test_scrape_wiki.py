@@ -73,11 +73,12 @@ def test_crawl_calls_on_page_as_it_goes():
     assert [p.title for p in got] == ["Virmire", "Saren"]
 
 
-def test_crawl_skips_pages_already_have():
+def test_crawl_resumes_from_persisted_queue_without_refetching():
     graph = {
         "Virmire": _page("Virmire", links=["Saren", "Sovereign"]),
-        "Saren": _page("Saren"),
+        "Saren": _page("Saren", links=["Benezia"]),
         "Sovereign": _page("Sovereign"),
+        "Benezia": _page("Benezia"),
     }
     fetched: list[str] = []
 
@@ -85,39 +86,59 @@ def test_crawl_skips_pages_already_have():
         fetched.append(title)
         return graph.get(title)
 
-    got = scrape_wiki.crawl(["Virmire"], depth=1, cap=100, fetch=fetch, errors=[],
-                            have=lambda t: t == "Saren")
-    # Saren is reported as already-on-disk: never fetched, not returned...
-    assert "Saren" not in fetched
-    assert {p.title for p in got} == {"Virmire", "Sovereign"}
+    # A prior run visited Virmire + Saren and stopped with Sovereign, Benezia queued.
+    got = scrape_wiki.crawl(
+        [], depth=1, cap=100, fetch=fetch, errors=[],
+        seen={"Virmire", "Saren"},
+        queue=[("Sovereign", 1), ("Benezia", 2)])
+    assert fetched == ["Sovereign", "Benezia"]  # seeds/seen never re-fetched
+    assert {p.title for p in got} == {"Sovereign", "Benezia"}
 
 
-def test_crawl_have_pages_count_toward_cap():
-    graph = {
-        "Root": _page("Root", links=["A", "B", "C", "D", "E"]),
-        "A": _page("A"), "B": _page("B"), "C": _page("C"),
-        "D": _page("D"), "E": _page("E"),
-    }
-    # A and B are already on disk; cap 4 = 2 fetched (Root, C) + 2 skipped (A, B)
-    got = scrape_wiki.crawl(["Root"], depth=1, cap=4, fetch=graph.get, errors=[],
-                            have=lambda t: t in {"A", "B"})
-    assert [p.title for p in got] == ["Root", "C"]
+def test_crawl_checkpoint_receives_pending_frontier_on_cap():
+    graph = {f"P{i}": _page(f"P{i}", links=[f"P{i+1}"]) for i in range(20)}
+    snapshots: list[tuple[list, set]] = []
+    got = scrape_wiki.crawl(
+        ["P0"], depth=10, cap=3, fetch=graph.get, errors=[],
+        checkpoint=lambda q, s: snapshots.append(([tuple(x) for x in q], set(s))),
+        checkpoint_every=100)
+    assert [p.title for p in got] == ["P0", "P1", "P2"]
+    # final checkpoint fires on return; P3 was discovered but not visited
+    pending, seen = snapshots[-1]
+    assert ("P3", 3) in pending
+    assert seen == {"P0", "P1", "P2"}
 
 
-def test_crawl_always_fetches_seeds_even_if_have():
-    graph = {"Virmire": _page("Virmire", links=["Saren"]), "Saren": _page("Saren")}
-    fetched: list[str] = []
+def test_crawl_checkpoint_fires_periodically_and_at_end():
+    graph = {f"P{i}": _page(f"P{i}", links=[f"P{i+1}"]) for i in range(10)}
+    calls: list[int] = []
+    scrape_wiki.crawl(["P0"], depth=20, cap=6, fetch=graph.get, errors=[],
+                      checkpoint=lambda q, s: calls.append(len(s)),
+                      checkpoint_every=2)
+    # every 2 of 6 fetches -> 3, plus the final return checkpoint -> 4
+    assert len(calls) == 4
 
-    def fetch(title):
-        fetched.append(title)
-        return graph.get(title)
 
-    # Virmire is a seed and already on disk, but must still be fetched so its
-    # links rebuild the crawl frontier on resume.
-    got = scrape_wiki.crawl(["Virmire"], depth=1, cap=100, fetch=fetch, errors=[],
-                            have=lambda t: t == "Virmire")
-    assert "Virmire" in fetched
-    assert {p.title for p in got} == {"Virmire", "Saren"}
+def test_state_roundtrip(tmp_path):
+    p = tmp_path / "state.json"
+    scrape_wiki.write_state(p, queue=[("Sovereign", 1), ("Benezia", 2)],
+                            seen={"Virmire", "Saren"}, errors=["Missing", "Missing"])
+    got = scrape_wiki.load_state(p)
+    assert set(got["seen"]) == {"Virmire", "Saren"}
+    assert [tuple(x) for x in got["queue"]] == [("Sovereign", 1), ("Benezia", 2)]
+    assert got["errors"] == ["Missing"]
+
+
+def test_load_state_missing_returns_none(tmp_path):
+    assert scrape_wiki.load_state(tmp_path / "nope.json") is None
+
+
+def test_pending_pages_counts_distinct_unvisited():
+    queue = [("A", 1), ("B", 1), ("A", 2), ("C", 1), ("D", 2)]
+    seen = {"C"}  # already crawled
+    # A (twice) + B + D  ->  3 distinct pages left; C ignored
+    assert scrape_wiki.pending_pages(queue, seen) == 3
+    assert scrape_wiki.pending_pages([], set()) == 0
 
 
 def test_existing_slugs(tmp_path):

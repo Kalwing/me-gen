@@ -15,7 +15,8 @@ from scripts import common
 MARKER = "# UNAPPROVED — remove this line to approve the outline"
 
 
-def new_run(narrator: str, themes: list[str], words: int, out_root: Path) -> Path:
+def new_run(narrator: str, themes: list[str], words: int, out_root: Path,
+            brief: str = "") -> Path:
     out_root = Path(out_root)
     base = f"{common.slugify(narrator)}_{common.slugify('-'.join(themes))}_{time.strftime('%Y-%m-%d')}"
     run = out_root / base
@@ -25,7 +26,8 @@ def new_run(narrator: str, themes: list[str], words: int, out_root: Path) -> Pat
         n += 1
     (run / "sections").mkdir(parents=True)
     body = yaml.safe_dump(
-        {"narrator": narrator, "themes": themes, "target_words": words, "sections": []},
+        {"narrator": narrator, "themes": themes, "brief": brief,
+         "target_words": words, "sections": []},
         sort_keys=False, allow_unicode=True,
     )
     (run / "outline.yaml").write_text(f"{MARKER}\n{body}", encoding="utf-8")
@@ -38,7 +40,10 @@ if __name__ == "__main__":
     ap.add_argument("narrator")
     ap.add_argument("themes", help="comma-separated theme list")
     ap.add_argument("--words", type=int, default=8000)
+    ap.add_argument("--brief", default="",
+                    help="free-text directorial note: scene, occasion, mood, who "
+                         "the narrator is addressing (shapes framing, not canon)")
     ap.add_argument("--out", type=Path, default=Path("output"))
     a = ap.parse_args()
     themes = [t.strip() for t in a.themes.split(",") if t.strip()]
-    print(new_run(a.narrator, themes, a.words, a.out))
+    print(new_run(a.narrator, themes, a.words, a.out, brief=a.brief.strip()))

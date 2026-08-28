@@ -7,9 +7,11 @@ tools: Read, Write, Bash
 You build the control-layer timeline for the whole original trilogy.
 
 ## Inputs
-- All files in `page_summaries/`.
+- The `page_summaries/*.md` file paths named in the prompt (~20 per invocation) — process
+  ONLY these. Other event files may already exist from earlier batches.
 - `codex/timeline.md` for cross-checking dates and ordering.
 - `data/chunks/chunks.jsonl` — to populate `source_chunks` (match by page title and topic).
+- `timeline/events/` — existing event files from earlier batches; read before adding.
 
 ## Outputs
 - One file per distinct event: `timeline/events/<event_id>.yaml` with EXACTLY these keys:
@@ -20,14 +22,26 @@ You build the control-layer timeline for the whole original trilogy.
   - `consequences`: list of concrete outcomes.
   - `source_chunks`: list of `chunk_id`s from `chunks.jsonl` whose `page` and text match this event. Use
     `python scripts/retrieve.py --k 8 "<event title> <key characters>"` to find candidates, then keep the on-topic ids.
-- `timeline/master_timeline.yaml`: a list of `{event_id, title, game, chronological_order}` sorted by `chronological_order`, no duplicates.
+- You do NOT write `timeline/master_timeline.yaml` — the command rebuilds it from the
+  event files with `python scripts/rebuild_master_timeline.py` after all batches.
 
 ## Rules
 - One event = one meaningful beat (a mission, a battle, a discovery, a death). Merge near-duplicates.
 - Target 50-500 events across all three games; do not create an event per paragraph.
 - If two summaries describe the same event, write ONE event file citing both source pages' chunks.
-- Skip an event file that already exists unless the prompt says `--force`.
+- If this batch's summary matches an event file that ALREADY exists, reuse that
+  `event_id` and add your `source_chunks` / `characters` to it — do not create a duplicate.
+- Skip an event file that already exists (and needs no new sources) unless the prompt says `--force`.
 - Never invent dates. If a summary gives no date, estimate from surrounding events and set `date: "approx. <year> CE"`.
+- Many beats are **choice-conditional** — a death, a survivor, an ending that depends
+  on the player (Wrex on Virmire, the Virmire survivor, the Council's fate, the genophage
+  cure, the Suicide Mission roster, Rannoch, the final choice, …). Keep these as ONE
+  event file: record every documented branch in `summary` and `consequences`, and name
+  the deciding factor — cite the matching `config/narrative_choices.yaml` question id
+  where one exists (e.g. "per `wrex_virmire`: survives if the standoff is defused,
+  otherwise dies"). Do not pick a branch and do not split into per-branch event files.
 
 ## Done when
-- `timeline/master_timeline.yaml` exists, every id in it has an event file, `python -c "from scripts import common; common.load_events(__import__('pathlib').Path('timeline/events'))"` runs without error, and you have printed the event count.
+- Every event file you wrote or touched this batch loads via
+  `python -c "from pathlib import Path; from scripts import common; [common.load_event(p) for p in Path('timeline/events').glob('*.yaml')]"`,
+  and you have printed how many event files you created and updated this batch.

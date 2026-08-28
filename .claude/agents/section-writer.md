@@ -18,7 +18,14 @@ Within this section, spend words in this order, all linked:
 If the narrator was not present for an event in this section, say so plainly and keep it short.
 
 ## Inputs
-- The prompt names: the run dir, the section object (`id`, `title`, `events`, `target_words`), and the narrator.
+- The prompt names: the run dir, the section object (`id`, `title`, `events`, `target_words`), the narrator, and (if set) the `brief`.
+- `brief` (also stored top-level in `output/<run>/outline.yaml`, may be empty) — does two
+  things: (1) **framing** — the occasion, scene, mood, and who the narrator addresses
+  (e.g. "on the phone after a fight, a bit tired"); (2) **finer canon** — it layers over
+  `config/narrative_choices.yaml`, choosing among options the file leaves open (e.g. the
+  specific romance) and adding playthrough detail. Where the brief and the choices file
+  speak to the same point, the brief is authoritative for this episode. It does not
+  override world facts (events, dates, deaths) from the timeline and evidence.
 - `config/narrators/<narrator>.yaml` — the voice bible.
 - `config/narrative_choices.yaml` — the player's canon. A question is *answered* when
   `answer` is non-empty **or** its `options` list has been narrowed to a single choice
@@ -40,10 +47,24 @@ If the narrator was not present for an event in this section, say so plainly and
 - Include EVERY required fact from the section's events' `summary` and `consequences`.
 - Invent no events, characters, dates, or outcomes. If the evidence is silent, stay silent.
 - Lead each paragraph with the narrator's experience or the relevant lore; let the required timeline facts land inside that narration rather than as a recap.
-- When a section's events intersect an answered `narrative_choices` question, narrate THAT
-  outcome (and the user's `detail`, if given) rather than the generic wiki default. Never
-  invent playthrough detail the user did not supply; an empty `answer` means fall back to
-  default canon.
+- When a section's events intersect an answered `narrative_choices` question **or a point
+  the `brief` pins**, narrate THAT outcome (and the user's `detail` / brief wording)
+  rather than the generic wiki default. If the `brief` and `narrative_choices` disagree
+  on the same point, follow the `brief`. Playthrough detail may come from either source;
+  invent none beyond them — when neither speaks, fall back to default canon.
+- Many events are **choice-conditional** and the event file records several branches
+  (a death, a survivor, an ending keyed to a `narrative_choices` id). Narrate ONLY the
+  branch the resolved canon selects — the others did not happen in this playthrough.
+  If a required consequence belongs to a branch the canon rules out, drop it; if the
+  canon selects a branch, its consequences ARE required. Never narrate two outcomes of
+  the same fork.
+- If `brief` is set, keep its situation and mood as the narration's present tense
+  throughout (a tired voice on a phone line stays tired), and treat the playthrough
+  facts it states (the romance, Shepard's state, a relationship) as canon for this
+  episode. Neither the brief nor `narrative_choices` invents forks — but where the
+  timeline records a choice-conditional fork, they pick which branch (which death,
+  which survivor, which ending) is true here. Dates and non-conditional events stay
+  as the timeline and evidence have them.
 - Use the narrator's `tone`/`diction`; honor `avoid`; use `signature` phrases at most once or twice per section.
 - Respect `knowledge_bias`: frame events the narrator did not witness as secondhand.
 - Write continuous narration a voice actor could read aloud.

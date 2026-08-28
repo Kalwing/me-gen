@@ -42,6 +42,33 @@ def test_tokenize():
     assert build_bm25.tokenize("Sovereign's Reaper-tech!") == ["sovereign's", "reaper", "tech"]
 
 
+def test_build_skips_when_index_is_fresh(tmp_path):
+    import os
+    chunks = tmp_path / "chunks.jsonl"
+    index = tmp_path / "bm25_index.pkl"
+    _write_chunks(chunks)
+    assert build_bm25.build(chunks, index) == 3
+
+    # index now newer than chunks -> no rebuild
+    assert build_bm25.build(chunks, index) == -1
+    # force overrides
+    assert build_bm25.build(chunks, index, force=True) == 3
+
+    # chunks touched newer than index -> rebuild
+    future = index.stat().st_mtime + 100
+    os.utime(chunks, (future, future))
+    assert build_bm25.build(chunks, index) == 3
+
+
+def test_build_is_atomic_no_tmp_left(tmp_path):
+    chunks = tmp_path / "chunks.jsonl"
+    index = tmp_path / "bm25_index.pkl"
+    _write_chunks(chunks)
+    build_bm25.build(chunks, index)
+    assert not (tmp_path / "bm25_index.pkl.tmp").exists()
+    assert index.is_file()
+
+
 def test_retrieve_no_matches(tmp_path):
     chunks = tmp_path / "chunks.jsonl"
     index = tmp_path / "bm25_index.pkl"

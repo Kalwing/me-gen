@@ -6,11 +6,15 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-ALL PLAN TASKS DONE (1-17). Final review addressed (commit fcb9ef7). Task 16 complete
-(commit 087b5b8): all 16 ddl/ transcripts hand-corrected into lore/manual/ (24 pages +
-README), me-build-lore wired to feed them. Suite 58 green. STOP — wait for user.
-Deferred to a later user-initiated session: live wiki scrape, real /me-build-lore +
-/me-build-timeline runs, first real /me-generate episode, live fact-preservation QA.
+Phase 5 live run in progress. All Phase 5 code (resumable scrape frontier / chunk /
+build / timeline, `--brief`) committed at HEAD (was uncommitted through 2026-08-28;
+reconciled + committed this session, suite 76 green). Corpus: 2981 scraped pages,
+19824 chunks, BM25 index rebuilt. `/me-build-lore` summary sweep is the active task:
+~205 / ~1634 filtered pages summarized, resumable. NEXT ACTION: resume the
+page-summarizer sweep in batches of ~15 until page_summaries/ covers the filtered
+corpus, then `/me-build-timeline`, then first `/me-generate`.
+Known gap: me-build-lore.md does not subtract data/lore_skipped.txt (1372 rows) — the
+corpus filter is applied by hand when forming batches; wire it in or accept manual.
 Standing ruling: every script doing `from scripts...` needs the sys.path bootstrap.
 
 ## Current Phase
@@ -19,9 +23,30 @@ Phase 5 — user-initiated live run (deferred items).
 ### Phase 5: Live corpus build (user-initiated 2026-08-28)
 - [x] scrape_wiki: incremental page writes + resumable crawl (commit) + progress print every 20 pages
 - [x] scrape_wiki: drop images (no ![](), no data:image base64, no figure captions)
-- [~] `/me-scrape --rate 30` relaunched (pid 21098, cap 1000, depth 2, image-free). Monitor bf35tkrq0.
-- [ ] On scrape exit: `chunk.py` → `build_bm25.py` → verify with `retrieve.py "Sovereign Reaper"`; report page/chunk/error/stub counts.
-- [ ] Then (separate go-ahead): `/me-build-lore`, `/me-build-timeline`, first `/me-generate`.
+- [x] scrape_wiki: persist the crawl frontier to `data/crawl_state.json` (pending
+      [title,depth] queue + seen set), checkpointed every 10 pages / on exit /
+      on SIGTERM+SIGINT. Resume loads it and drains the saved queue — no API
+      re-walk. `--cap` is now a per-run fetch bound; re-run to fetch more.
+      Dropped the have()/re-fetch-seeds mechanism. 65 green (3 tests swapped).
+- [x] scrape run 1 done (pid 30635, --rate 7, cap 1000, depth 2): 880 pages on disk
+      (779 new + 101 prior), 2 fetch errors (disambig titles), 0 stubs. crawl_state.json
+      holds the frontier; ~42k raw links queued (dedup count shows next run). Re-run
+      `/me-scrape --rate 7` (raise --cap) to fetch the next batch.
+- [x] chunk.py + build_bm25.py made interrupt-safe/resumable (user request):
+      chunk appends per page + `.done` manifest + drops partial page on resume;
+      build_bm25 atomic temp-rename + skip-if-fresh. 70 green.
+- [x] scrape stop message: report DISTINCT pages left to crawl (pending_pages), not
+      the dup-inflated raw queue len. 71 green.
+- [x] me-build-timeline resumable: batches of ~20 + `timeline/.done` manifest;
+      master_timeline.yaml now derived by scripts/rebuild_master_timeline.py
+      (atomic, skips malformed). timeline-extractor.md batch-scoped. 76 green.
+- [x] me-generate `--brief "<free text>"`: directorial note beside themes, stored
+      as `brief:` in outline.yaml; new_run/outline-writer/section-writer wired.
+- [x] Pipeline built: chunk.py → 7729 chunks (data/chunks/chunks.jsonl + .done manifest);
+      build_bm25.py → data/bm25_index.pkl (20M). retrieve "Sovereign …" → sovereign_005
+      (20.4), saren-arterius_007, sovereign_004 — on-topic. Re-run of both = no-op. 76 green.
+- [ ] Then (separate go-ahead): more `/me-scrape` batches if wanted, then `/me-build-lore`,
+      `/me-build-timeline`, first `/me-generate`.
 - **Status:** in_progress
 
 ## Phases

@@ -19,8 +19,16 @@ def test_new_run_creates_expected_shape(tmp_path):
     data = yaml.safe_load(text)
     assert data["narrator"] == "garrus"
     assert data["themes"] == ["the cost of war", "loyalty"]
+    assert data["brief"] == ""
     assert data["target_words"] == 8000
     assert data["sections"] == []
+
+
+def test_new_run_records_brief(tmp_path):
+    run = new_run.new_run("tali", ["home"], 6000, tmp_path,
+                          brief="speaks by phone after a fight, a bit tired")
+    data = yaml.safe_load((run / "outline.yaml").read_text())
+    assert data["brief"] == "speaks by phone after a fight, a bit tired"
 
 
 def test_new_run_disambiguates(tmp_path):

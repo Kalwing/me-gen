@@ -4,13 +4,13 @@ from pathlib import Path
 from scripts import chunk, common
 
 
-def _make_page(tmp_path, sentences, heading="Mission"):
+def _make_page(tmp_path, sentences, heading="Mission", name="virmire", title="Virmire"):
     body = f"## {heading}\n\n" + " ".join(sentences) + "\n"
-    p = tmp_path / "virmire.md"
+    p = tmp_path / f"{name}.md"
     common.write_frontmatter_md(
         p,
-        {"title": "Virmire", "game": "Mass Effect",
-         "url": "https://masseffect.fandom.com/wiki/Virmire"},
+        {"title": title, "game": "Mass Effect",
+         "url": f"https://masseffect.fandom.com/wiki/{title}"},
         body,
     )
     return p
@@ -42,6 +42,7 @@ def test_chunk_page_ids_and_metadata(tmp_path):
     rows = chunk.chunk_page(p, size=40, overlap=8)
     assert rows[0]["chunk_id"] == "virmire_001"
     assert rows[1]["chunk_id"] == "virmire_002"
+    assert rows[0]["source"] == "virmire"
     assert rows[0]["page"] == "Virmire"
     assert rows[0]["game"] == "Mass Effect"
     assert rows[0]["section"] == "Mission"
@@ -55,3 +56,56 @@ def test_chunk_dir_writes_jsonl(tmp_path):
     lines = out.read_text().strip().splitlines()
     assert n == len(lines) >= 1
     assert json.loads(lines[0])["chunk_id"].startswith("virmire_")
+
+
+def test_chunk_dir_resumes_only_new_pages(tmp_path):
+    pages = tmp_path / "pages"
+    pages.mkdir()
+    _make_page(pages, [f"Alpha {i}." for i in range(40)], name="a", title="A")
+    _make_page(pages, [f"Bravo {i}." for i in range(40)], name="b", title="B")
+    out = tmp_path / "chunks.jsonl"
+
+    first = chunk.chunk_dir(pages, out, size=30, overlap=5)
+    assert first > 0
+    manifest = (tmp_path / "chunks.jsonl.done").read_text().split()
+    assert set(manifest) == {"a", "b"}
+
+    _make_page(pages, [f"Charlie {i}." for i in range(40)], name="c", title="C")
+    second = chunk.chunk_dir(pages, out, size=30, overlap=5)
+    sources = {json.loads(ln)["source"] for ln in out.read_text().splitlines()}
+    assert sources == {"a", "b", "c"}
+    # only C was chunked the second time
+    assert second > 0
+    c_lines = sum(1 for ln in out.read_text().splitlines()
+                  if json.loads(ln)["source"] == "c")
+    assert second == c_lines
+
+
+def test_chunk_dir_drops_partial_page_from_killed_run(tmp_path):
+    pages = tmp_path / "pages"
+    pages.mkdir()
+    _make_page(pages, [f"Alpha {i}." for i in range(40)], name="a", title="A")
+    out = tmp_path / "chunks.jsonl"
+    chunk.chunk_dir(pages, out, size=30, overlap=5)
+
+    # simulate a crash mid-way through page "b": some b-rows + a truncated line,
+    # with "b" never recorded in the manifest
+    with out.open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps({"chunk_id": "b_001", "source": "b", "text": "x"}) + "\n")
+        fh.write('{"chunk_id": "b_002", "source": "b", "tex')  # truncated
+    _make_page(pages, [f"Bravo {i}." for i in range(40)], name="b", title="B")
+
+    chunk.chunk_dir(pages, out, size=30, overlap=5)
+    rows = [json.loads(ln) for ln in out.read_text().splitlines()]
+    assert all(len(r) > 3 for r in rows if r["source"] == "b")  # real rows, not the stub
+    assert not any(r.get("text") == "x" for r in rows)
+
+
+def test_chunk_dir_force_rechunks_all(tmp_path):
+    pages = tmp_path / "pages"
+    pages.mkdir()
+    _make_page(pages, [f"Alpha {i}." for i in range(40)], name="a", title="A")
+    out = tmp_path / "chunks.jsonl"
+    chunk.chunk_dir(pages, out, size=30, overlap=5)
+    again = chunk.chunk_dir(pages, out, size=30, overlap=5, force=True)
+    assert again > 0  # force ignores the manifest
