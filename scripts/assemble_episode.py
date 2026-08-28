@@ -26,7 +26,7 @@ def assemble(run_dir: Path) -> Path:
     if not common.outline_is_approved(run_dir):
         raise RuntimeError(f"{run_dir}: outline.yaml is missing or still marked UNAPPROVED")
     outline = yaml.safe_load((run_dir / "outline.yaml").read_text(encoding="utf-8"))
-    sections = outline.get("sections", [])
+    sections = outline.get("sections") or []
     missing = [s["id"] for s in sections if not (run_dir / "sections" / f"{s['id']}.md").exists()]
     if missing:
         raise FileNotFoundError(f"{run_dir}: missing section drafts: {missing}")

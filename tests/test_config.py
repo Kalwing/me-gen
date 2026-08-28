@@ -12,6 +12,9 @@ NARRATOR_FILES = sorted((ROOT / "config" / "narrators").glob("*.yaml"))
 def test_seeds_yaml_shape():
     cfg = yaml.safe_load((ROOT / "config" / "seeds.yaml").read_text())
     assert isinstance(cfg["seeds"], list) and cfg["seeds"]
+    assert all(isinstance(s, str) and s.strip() for s in cfg["seeds"]), (
+        "every seed must be a plain string — an unquoted 'Key: Value' entry parses as a dict"
+    )
     assert isinstance(cfg["depth"], int)
     assert isinstance(cfg["cap"], int)
     assert isinstance(cfg["rate"], (int, float))

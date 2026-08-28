@@ -108,6 +108,12 @@ def test_load_choices_rejects_missing_key(tmp_path, missing):
         nc.load_choices(p)
 
 
+def test_main_handles_missing_file(tmp_path, capsys):
+    rc = nc.main([str(tmp_path / "nope.yaml")])
+    assert rc == 0
+    assert capsys.readouterr().out.strip() == "all questions unanswered"
+
+
 def test_summary_only_names_answered_questions(tmp_path):
     p = tmp_path / "partial.yaml"
     p.write_text(BLANK)

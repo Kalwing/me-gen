@@ -22,7 +22,7 @@ Usage:
 
 ## Generation phase (`--continue <run-dir>`)
 1. Refuse unless
-   `python -c "from pathlib import Path,sys; from scripts import common; sys.exit(0 if common.outline_is_approved(Path('<run-dir>')) else 1)"`
+   `python -c "import sys; from pathlib import Path; from scripts import common; sys.exit(0 if common.outline_is_approved(Path('<run-dir>')) else 1)"`
    exits 0. If it fails, tell the user the outline is still unapproved and stop.
 2. For each section in `outline.yaml`, in order: dispatch `section-writer` with the run dir, that
    section object, and the narrator. Run sequentially. Retry a failed section once, then log to

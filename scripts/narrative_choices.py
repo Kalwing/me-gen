@@ -7,6 +7,7 @@ matches their playthrough. Unanswered questions mean "use default canon".
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 
 import yaml
@@ -92,7 +93,8 @@ def summary_for_prompt(choices: dict) -> str:
         if not answered:
             continue
         if group == "shepard":
-            parts.append(f"{label}: " + " ".join(a for _, a in answered))
+            fields = "; ".join(f"{q['id'].replace('_', ' ')} {a}" for q, a in answered)
+            parts.append(f"{label}: {fields}")
         else:
             for q, a in answered:
                 parts.append(f"{label} {q['id'].replace('_', ' ')}: {a}")
@@ -105,6 +107,11 @@ def main(argv: list[str] | None = None) -> int:
     )
     ap.add_argument("path", type=Path, help="path to narrative_choices.yaml")
     args = ap.parse_args(argv)
+    if not args.path.exists():
+        # No working copy yet — generation should fall back to default canon, not crash.
+        print(f"{args.path}: not found — treating every question as unanswered", file=sys.stderr)
+        print("all questions unanswered")
+        return 0
     choices = load_choices(args.path)
     if is_blank(choices):
         print("all questions unanswered")
