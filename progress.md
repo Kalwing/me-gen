@@ -341,3 +341,19 @@
   section. section-writer.md + outline-writer.md read it when present (YAML bible stays
   authoritative for tone/avoid/signature). Runs as a post-sweep step in me-build-lore,
   alongside /me-build-timeline.
+- Parts 1-3 committed at 54b6b47. Suite 79 green. chunks.jsonl 19984 (160 manual),
+  bm25 index rebuilt --force. Batch path files for the whole remaining sweep
+  pre-sliced to $CLAUDE_JOB_DIR/tmp/batches/b00..b77.txt (15 pages each, 1160 total).
+- Wave 5 dispatched: w5s0..w5s4 (b00..b04), pages crooks..eclipse-trooper.
+  Codex bullets -> codex/_inbox/w5s*-<group>.md; merge after wave, recompute, next wave.
+- Wave 5 DONE: 75/75 summaries (550 total). Inbox merge hit a zsh multi-file `cat`
+  bug + premature `rm` — recovered all bullets from agent .output transcripts (jq),
+  re-merged clean: characters 66->88, species 12->19, tech 55->60, factions 9->17.
+  Wrote robust $CLAUDE_JOB_DIR/tmp/merge_inbox.sh for future waves (dedupe+sort, rm last).
+- Wave 6 dispatched: w6s0..w6s4 (b05..b09), eclipse-vanguard..fortinbras-plague.
+  Remaining before wave 6: 1085.
+- Wave 6 DONE: 75/75 (625 total). Merged: characters 88->121, species 19->20,
+  tech 60->66, factions 17. merge_inbox.sh fixed for empty-glob groups.
+- Wave 7 dispatched: w7s0..w7s4 (b10..b14), forvan..hades-nexus-prothean-sphere
+  (incl garrus-vakarian, genophage, geth, grunt + grunt-unique-dialogue).
+  Remaining before wave 7: 1010.
