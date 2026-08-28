@@ -58,3 +58,9 @@
   Report: .superpowers/sdd/2026-08-27-mass-effect-narrator/final-review-report.md
 - Task 16 batch 1 committed: jack-dialogue, turian-hierarchy-early-history,
   systems-alliance-founding, arcturus-station, destiny-ascension (+README). 5/16 sources.
+
+### Session 2026-08-28 (post-completion tweak)
+- User deleted config/narrative_choices.template.yaml, keeping only their filled
+  config/narrative_choices.yaml. Made it consistent: un-ignored the file (now tracked),
+  me-build-timeline drops the `cp` template step, tests/README/docstring updated.
+  Commit 35ce128. 58 green, all lore/manual parses clean.
