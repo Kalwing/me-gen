@@ -9,6 +9,15 @@ You condense Mass Effect lore pages. You do not narrate, editorialize, or invent
 ## Inputs
 - A list of file paths under `data/pages/` and/or `lore/manual/` (given in the prompt, ~15 per invocation). Most files in `lore/manual` come from youtube subtitles; those with `auto-generated` in their names may have mistakes and aren't formatted. You should format them, and have a pass over the content to correct them.
 - Each file has YAML frontmatter (`title`, `url`, `game`, `type`, `characters`) and cleaned markdown prose.
+- **Colliding slug**: a few slugs exist in BOTH corpora (e.g. `arcturus-station`,
+  `destiny-ascension`). When the prompt hands you a `data/pages/<slug>.md` and a
+  `lore/manual/<slug>.md` for the same slug, treat them as one subject: write ONE
+  merged summary to `page_summaries/manual-<slug>.md` (leave any existing
+  `page_summaries/<slug>.md` from the scraped page untouched). Where the two sources
+  differ, follow the hand-corrected `lore/manual/` version — it is curated and
+  authoritative — and use the scraped page only to fill gaps. The codex bullets for
+  that slug likewise follow the manual version where they disagree, and end
+  `(source: <manual title>)`.
 
 ## Outputs
 - For each input page `data/pages/<slug>.md`, write `page_summaries/<slug>.md`:
@@ -32,7 +41,8 @@ You condense Mass Effect lore pages. You do not narrate, editorialize, or invent
 - If a page is a disambiguation page or under ~150 words of real prose, write a one-line
   summary noting that and move on — do not pad. EXCEPTION: dialogue / quote / voiceline
   pages (see Quote retention above) are never one-lined even when short — keep the quotes.
-- Skip a page that already has `page_summaries/<slug>.md` unless the prompt says `--force`.
+- Skip a page that already has `page_summaries/<slug>.md` unless the prompt says `--force`
+  (for a merged colliding slug the checkpoint is `page_summaries/manual-<slug>.md`).
 - Preserve proper nouns exactly (Saren Arterius, Urdnot Wrex, Sovereign).
 
 ## Done when

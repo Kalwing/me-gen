@@ -32,6 +32,9 @@ the priority changes which sections you choose and how you weight them, not the 
   adding playthrough detail. Where the brief and the choices file cover the same
   point, follow the brief. It does not add world events, dates, or outcomes.
 - `config/narrators/<narrator>.yaml` — especially `knowledge_bias`.
+- `config/narrators/<narrator>.style.md` — if present, the narrator's quotes + "how
+  they talk" note; use it to judge which beats this narrator would dwell on and how
+  much room their voice needs, not for prose.
 - `config/narrative_choices.yaml` — the player's canon (Shepard build, ME1/2/3 decisions).
   A question is answered when `answer` is non-empty **or** its `options` have been narrowed
   to a single choice; treat any other question as default canon.

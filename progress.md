@@ -265,3 +265,79 @@
 - Wave 2 dispatched: 5x15 all citadel-* (w2s0..w2s4), lines 1..75 of the recomputed todo.
 - ETA ~3h at 4-5 wide; ~9M subagent tokens total; needs this session live to dispatch
   each wave (or a /plan-loop nudge).
+- Wave 2 done (75 citadel-* pages). Codex merge -> factions.md 5 (Citadel Council +
+  C-Sec x3). species 7 / tech 29 / characters 50 unchanged. 385 summaries, 1248
+  in-scope remaining (~84 batches).
+- Commit 298e504: me-build-lore.md now honors lore_skipped.txt + documents parallel
+  waves; plan/progress checkpointed.
+- Wave 3 dispatched: 5x15 (w3s0..w3s4) citadel-the-fourth-estate .. combat-mass-effect-galaxy
+  (many codex-* wiki entries + collector-* pages).
+
+### Session resume 2026-08-29 — /pwf context restore
+- Ran planning-with-files restore. session-catchup: no unsynced context. Re-read all
+  three planning files + findings.md.
+- STATE ON DISK: HEAD 298e504. Only progress.md modified (the Wave 3 dispatch note, +7).
+  No scrape/summarizer process running. data/scrape.pid stale.
+- Sweep reconciled: page_summaries/ now holds 460 .md (was 385 after Wave 2). Wave 3's
+  75 pages DID land on disk (385+75=460). But: progress log never recorded Wave 3
+  completion, and codex/_inbox/ is EMPTY — so Wave 3 codex bullets were either merged
+  and rm'd already, or the Wave 3 agents wrote no codex bullets. codex/ files
+  (characters/factions/species/tech .md) untouched since 21:07. Treat Wave 3 codex as
+  UNVERIFIED — re-check inbox convention on next wave.
+- Remaining: 1173 in-scope pages to summarize (me-build-lore step-1 recompute:
+  data/pages + lore/manual - README - page_summaries - lore_skipped.txt[1372]).
+  ~78 batches of 15.
+- timeline/events/ still empty — /me-build-timeline not started (correct; waits for sweep).
+- Wave 3 codex now VERIFIED complete: codex bullet counts grew since Wave 2
+  (characters 50->56, factions 5->9, species 7->12, tech 29->55) and _inbox was
+  emptied, so Wave 3's inbox merge did run. Newest summary `collector-guardian`
+  matches Wave 3's stated range end. Wave 3 fully landed; only its progress entry
+  was missing.
+- User (/pwf, "resume one batch first"): dispatched a single page-summarizer batch
+  w4s0 (15 pages, comics..crescent-nebula) in WAVE mode to re-confirm the
+  summarizer + codex/_inbox/ convention end to end before scaling back to waves.
+- w4s0 VERIFIED: 15/15 summaries written (475 total), lengths 136-400w, proper nouns
+  intact, factual — spot-read commander-shepard + crescent-nebula, both good.
+  codex/_inbox/w4s0-characters.md (10 bullets) merged into codex/characters.md
+  (56 -> 66 bullets, dedupe+sort under H1), inbox cleared. Pipeline works end to end.
+  Remaining recomputed: 1158 in-scope pages (~77 batches). NOT yet committed.
+
+### 2026-08-29 — lore/manual to be chunked + indexed + fed richer into codex (user)
+- User Q&A: confirmed section-writer's BM25 deep-dive only reaches data/pages chunks;
+  lore/manual/*.md (24 hand-corrected deep-dive docs) are summarized only, NOT chunked.
+- User: "yes. they have to matter, they also have to be used to enhance the codex.
+  it's quite important." => make lore/manual chunked + retrievable AND give it a
+  stronger codex contribution than the default type->bullets pass.
+- Findings for the change:
+  - 23 of 24 manual files still unsummarized (only arcturus-station done). Deep-dives:
+    jack x3, tali x5, normandy-sr1 x2 / sr2 x4, reaper-classes x2, trilogy-secrets x2,
+    systems-alliance-founding, turian-hierarchy-early-history, humanity-before-relays,
+    destiny-ascension, two-unseen-races.
+  - STEM COLLISION: arcturus-station and destiny-ascension exist in BOTH data/pages/
+    and lore/manual/. chunk.py keys manifest + chunk-id on p.stem -> collision if both
+    dirs globbed. me-build-lore step-1 `sort -u` also silently dedupes these two.
+    Need a manual namespace (e.g. source "manual/<stem>" or "<stem>-manual").
+  - chunk.py globs a single --pages dir (Path(pages_dir).glob("*.md")). Needs a second
+    source dir, README.md excluded, resumable .done manifest still intact.
+- NEXT: brainstorm the design (namespace scheme, retrieval weighting for manual lore,
+  what "enhance the codex" means concretely) before coding.
+
+### 2026-08-29 — design APPROVED (user: "perfect. continue"). 3 parts:
+- Part 1 — chunk + index lore/manual, EQUAL FOOTING (no BM25 boost). chunk.py also
+  scans lore/manual/*.md (excl README.md); manual chunks get source + chunk-id prefix
+  `manual-<stem>` (dodges arcturus-station / destiny-ascension stem collisions,
+  visible in sources.json). `.done` manifest keyed on the prefixed name. Then
+  chunk.py run + build_bm25.py --force.
+- Part 2 — codex entries for the 2 colliding slugs draw on BOTH the data/pages and
+  lore/manual versions, weighting the manual (curated) text heavier; colliding
+  summary written as page_summaries/manual-<slug>.md. me-build-lore step-1 must stop
+  `sort -u` collapsing those two.
+- Part 3 — per-narrator style reference config/narrators/<narrator>.style.md (linked
+  file, NOT folded into the YAML bible, NOT the codex). Built by a new
+  `narrator-style-extractor` subagent. Sources: data/pages/<narrator-char>.md Quotes
+  section + <narrator>-unique-dialogue / *-battle-quotes / *-voicelines pages +
+  lore/manual/*<narrator>* deep-dives. Output: ALL verbatim quotes (no cap — selected
+  later), each with speaker + situation context, plus a short "how they talk" prose
+  section. section-writer.md + outline-writer.md read it when present (YAML bible stays
+  authoritative for tone/avoid/signature). Runs as a post-sweep step in me-build-lore,
+  alongside /me-build-timeline.

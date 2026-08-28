@@ -26,7 +26,13 @@ If the narrator was not present for an event in this section, say so plainly and
   specific romance) and adding playthrough detail. Where the brief and the choices file
   speak to the same point, the brief is authoritative for this episode. It does not
   override world facts (events, dates, deaths) from the timeline and evidence.
-- `config/narrators/<narrator>.yaml` — the voice bible.
+- `config/narrators/<narrator>.yaml` — the voice bible (authoritative for `tone`,
+  `diction`, `avoid`, `signature`, `knowledge_bias`).
+- `config/narrators/<narrator>.style.md` — if present, the narrator's style reference:
+  real verbatim quotes with context, plus a "how they talk" note. Use it to match the
+  narrator's actual cadence and word choice, and you may fold in a quoted line where it
+  fits naturally. The `.yaml` bible still wins on any conflict; never copy a quote's
+  situation as if the narrator is reliving it here unless the section's events cover it.
 - `config/narrative_choices.yaml` — the player's canon. A question is *answered* when
   `answer` is non-empty **or** its `options` list has been narrowed to a single choice
   (that lone option is the pick); also read `detail`. Questions with neither are default

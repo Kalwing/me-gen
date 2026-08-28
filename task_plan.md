@@ -6,15 +6,21 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-Phase 5 live run in progress. All Phase 5 code (resumable scrape frontier / chunk /
-build / timeline, `--brief`) committed at HEAD (was uncommitted through 2026-08-28;
-reconciled + committed this session, suite 76 green). Corpus: 2981 scraped pages,
-19824 chunks, BM25 index rebuilt. `/me-build-lore` summary sweep is the active task:
-~205 / ~1634 filtered pages summarized, resumable. NEXT ACTION: resume the
-page-summarizer sweep in batches of ~15 until page_summaries/ covers the filtered
-corpus, then `/me-build-timeline`, then first `/me-generate`.
-me-build-lore.md now subtracts data/lore_skipped.txt (1372 rows) in its step-1 source
-list — the corpus filter is wired into the command, no longer applied by hand.
+Phase 5 live run in progress. Corpus: 2981 scraped pages + 24 lore/manual docs now
+chunked = 19984 chunks; BM25 index rebuilt (--force). Suite 79 green.
+2026-08-29: lore/manual pipeline change APPROVED + IMPLEMENTED (see progress.md
+"design APPROVED"): chunk.py chunks lore/manual/*.md with a `manual-` namespace
+(equal-footing retrieval); page-summarizer + me-build-lore merge the 2 colliding
+slugs (arcturus-station, destiny-ascension) weighting the manual version;
+new narrator-style-extractor subagent -> config/narrators/<slug>.style.md, read by
+section-writer + outline-writer; me-build-lore step 5 runs it post-sweep.
+NEXT ACTION: commit the above, then resume the `/me-build-lore` summary sweep —
+1160 in-scope pages remaining (recompute via new step-1), parallel waves, codex
+bullets via codex/_inbox/<WAVE_ID>-<group>.md then controller-merge. When
+page_summaries/ covers the corpus: run me-build-lore step 5 (narrator style refs),
+then `/me-build-timeline`, then first `/me-generate`.
+me-build-lore.md subtracts data/lore_skipped.txt (1372 rows) in its step-1 source
+list — corpus filter is wired into the command, not applied by hand.
 Standing ruling: every script doing `from scripts...` needs the sys.path bootstrap.
 
 ## Current Phase
@@ -45,6 +51,11 @@ Phase 5 — user-initiated live run (deferred items).
 - [x] Pipeline built: chunk.py → 7729 chunks (data/chunks/chunks.jsonl + .done manifest);
       build_bm25.py → data/bm25_index.pkl (20M). retrieve "Sovereign …" → sovereign_005
       (20.4), saren-arterius_007, sovereign_004 — on-topic. Re-run of both = no-op. 76 green.
+- [x] lore/manual into the retrieval + voice pipeline (user-approved 2026-08-29):
+      chunk.py `manual-` namespace + index rebuild (79 green); page-summarizer /
+      me-build-lore merge colliding slugs, manual weighted; narrator-style-extractor
+      subagent + config/narrators/*.style.md wired into section-/outline-writer and
+      me-build-lore step 5.
 - [ ] Then (separate go-ahead): more `/me-scrape` batches if wanted, then `/me-build-lore`,
       `/me-build-timeline`, first `/me-generate`.
 - **Status:** in_progress

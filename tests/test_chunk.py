@@ -101,6 +101,65 @@ def test_chunk_dir_drops_partial_page_from_killed_run(tmp_path):
     assert not any(r.get("text") == "x" for r in rows)
 
 
+def test_chunk_dir_includes_manual_dir_with_prefix(tmp_path):
+    pages = tmp_path / "pages"
+    pages.mkdir()
+    manual = tmp_path / "manual"
+    manual.mkdir()
+    _make_page(pages, [f"Alpha {i}." for i in range(40)], name="a", title="A")
+    _make_page(manual, [f"Deep {i}." for i in range(40)], name="b", title="B")
+    (manual / "README.md").write_text("# not lore\n", encoding="utf-8")
+    out = tmp_path / "chunks.jsonl"
+
+    chunk.chunk_dir(pages, out, size=30, overlap=5, manual_dir=manual)
+    rows = [json.loads(ln) for ln in out.read_text().splitlines()]
+    sources = {r["source"] for r in rows}
+    assert sources == {"a", "manual-b"}  # README.md excluded
+    assert all(r["chunk_id"].startswith("manual-b_")
+               for r in rows if r["source"] == "manual-b")
+    assert (tmp_path / "chunks.jsonl.done").read_text().split() == ["a", "manual-b"] \
+        or set((tmp_path / "chunks.jsonl.done").read_text().split()) == {"a", "manual-b"}
+
+
+def test_chunk_dir_manual_stem_collision_keeps_both(tmp_path):
+    pages = tmp_path / "pages"
+    pages.mkdir()
+    manual = tmp_path / "manual"
+    manual.mkdir()
+    _make_page(pages, [f"Wiki {i}." for i in range(40)],
+               name="arcturus-station", title="Arcturus Station")
+    _make_page(manual, [f"Transcript {i}." for i in range(40)],
+               name="arcturus-station", title="Arcturus Station")
+    out = tmp_path / "chunks.jsonl"
+
+    chunk.chunk_dir(pages, out, size=30, overlap=5, manual_dir=manual)
+    rows = [json.loads(ln) for ln in out.read_text().splitlines()]
+    sources = {r["source"] for r in rows}
+    assert sources == {"arcturus-station", "manual-arcturus-station"}
+    wiki_text = " ".join(r["text"] for r in rows if r["source"] == "arcturus-station")
+    manual_text = " ".join(r["text"] for r in rows
+                           if r["source"] == "manual-arcturus-station")
+    assert "Wiki 0" in wiki_text and "Transcript 0" in manual_text
+
+
+def test_chunk_dir_resumes_new_manual_file_only(tmp_path):
+    pages = tmp_path / "pages"
+    pages.mkdir()
+    manual = tmp_path / "manual"
+    manual.mkdir()
+    _make_page(pages, [f"Alpha {i}." for i in range(40)], name="a", title="A")
+    _make_page(manual, [f"Deep {i}." for i in range(40)], name="m1", title="M1")
+    out = tmp_path / "chunks.jsonl"
+    chunk.chunk_dir(pages, out, size=30, overlap=5, manual_dir=manual)
+
+    _make_page(manual, [f"More {i}." for i in range(40)], name="m2", title="M2")
+    second = chunk.chunk_dir(pages, out, size=30, overlap=5, manual_dir=manual)
+    assert second > 0
+    m2_lines = sum(1 for ln in out.read_text().splitlines()
+                   if json.loads(ln)["source"] == "manual-m2")
+    assert second == m2_lines  # only the new manual file was chunked
+
+
 def test_chunk_dir_force_rechunks_all(tmp_path):
     pages = tmp_path / "pages"
     pages.mkdir()

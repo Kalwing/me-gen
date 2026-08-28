@@ -69,14 +69,15 @@ def split_into_chunks(body: str, *, size: int = 800, overlap: int = 120):
     return out
 
 
-def chunk_page(path: Path, *, size: int = 800, overlap: int = 120) -> list[dict]:
+def chunk_page(path: Path, *, size: int = 800, overlap: int = 120,
+               prefix: str = "") -> list[dict]:
     fm, body = common.read_frontmatter_md(path)
-    slug = common.slugify(fm.get("title", path.stem))
+    slug = prefix + common.slugify(fm.get("title", path.stem))
     rows = []
     for i, (section, text) in enumerate(split_into_chunks(body, size=size, overlap=overlap), start=1):
         rows.append({
             "chunk_id": f"{slug}_{i:03d}",
-            "source": path.stem,
+            "source": prefix + path.stem,
             "page": fm.get("title", path.stem),
             "section": section,
             "game": fm.get("game", ""),
@@ -119,9 +120,30 @@ def _rewrite_kept_lines(out_path: Path, done: set[str]) -> int:
     return len(kept)
 
 
+def _iter_sources(pages_dir: Path, manual_dir: Path | None):
+    """Yield ``(path, prefix, source_id)`` for every page to chunk.
+
+    Scraped pages keep a bare stem; hand-corrected ``lore/manual`` docs get a
+    ``manual-`` prefix on both the chunk id and the manifest key so they never
+    collide with a same-named scraped page (arcturus-station, destiny-ascension).
+    ``README.md`` in the manual dir is not lore.
+    """
+    items: list[tuple[Path, str, str]] = []
+    for p in sorted(Path(pages_dir).glob("*.md")):
+        items.append((p, "", p.stem))
+    if manual_dir is not None and Path(manual_dir).is_dir():
+        for p in sorted(Path(manual_dir).glob("*.md")):
+            if p.name.lower() == "readme.md":
+                continue
+            items.append((p, "manual-", f"manual-{p.stem}"))
+    return items
+
+
 def chunk_dir(pages_dir: Path, out_path: Path, *, size: int = 800, overlap: int = 120,
-              force: bool = False, progress_every: int = 50) -> int:
-    """Chunk every ``*.md`` under ``pages_dir`` into ``out_path`` (JSONL).
+              force: bool = False, progress_every: int = 50,
+              manual_dir: Path | None = None) -> int:
+    """Chunk every ``*.md`` under ``pages_dir`` (and ``manual_dir`` if given)
+    into ``out_path`` (JSONL).
 
     Returns the number of chunks written *this run*. Safe to interrupt and
     re-run: finished pages (tracked in ``<out>.done``) are skipped and a
@@ -131,7 +153,7 @@ def chunk_dir(pages_dir: Path, out_path: Path, *, size: int = 800, overlap: int 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     manifest = _manifest_path(out_path)
 
-    all_pages = sorted(Path(pages_dir).glob("*.md"))
+    all_pages = _iter_sources(pages_dir, manual_dir)
     if force:
         out_path.unlink(missing_ok=True)
         manifest.unlink(missing_ok=True)
@@ -139,7 +161,7 @@ def chunk_dir(pages_dir: Path, out_path: Path, *, size: int = 800, overlap: int 
     else:
         done = set(_read_manifest(manifest))
 
-    pages = [p for p in all_pages if p.stem not in done]
+    pages = [t for t in all_pages if t[2] not in done]
     if not pages:
         return 0
     if not force:
@@ -156,12 +178,12 @@ def chunk_dir(pages_dir: Path, out_path: Path, *, size: int = 800, overlap: int 
 
     with out_path.open("a", encoding="utf-8") as fh, \
             manifest.open("a", encoding="utf-8") as mh:
-        for n, p in enumerate(pages, start=1):
-            rows = chunk_page(p, size=size, overlap=overlap)
+        for n, (p, prefix, source_id) in enumerate(pages, start=1):
+            rows = chunk_page(p, size=size, overlap=overlap, prefix=prefix)
             # one write per page keeps a killed run from splitting a line
             fh.write("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows))
             fh.flush()
-            mh.write(p.stem + "\n")
+            mh.write(source_id + "\n")
             mh.flush()
             written += len(rows)
             if n % progress_every == 0:
@@ -177,11 +199,14 @@ def chunk_dir(pages_dir: Path, out_path: Path, *, size: int = 800, overlap: int 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Chunk cleaned pages into chunks.jsonl")
     ap.add_argument("--pages", type=Path, default=Path("data/pages"))
+    ap.add_argument("--manual", type=Path, default=Path("lore/manual"),
+                    help="hand-corrected deep-dive docs; chunked with a manual- prefix")
     ap.add_argument("--out", type=Path, default=Path("data/chunks/chunks.jsonl"))
     ap.add_argument("--size", type=int, default=800)
     ap.add_argument("--overlap", type=int, default=120)
     ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
-    n = chunk_dir(a.pages, a.out, size=a.size, overlap=a.overlap, force=a.force)
+    n = chunk_dir(a.pages, a.out, size=a.size, overlap=a.overlap, force=a.force,
+                  manual_dir=a.manual)
     total = sum(1 for _ in a.out.open(encoding="utf-8")) if a.out.is_file() else 0
     print(f"wrote {n} chunks this run; {total} total in {a.out}")
