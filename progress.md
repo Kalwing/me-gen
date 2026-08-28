@@ -357,3 +357,10 @@
 - Wave 7 dispatched: w7s0..w7s4 (b10..b14), forvan..hades-nexus-prothean-sphere
   (incl garrus-vakarian, genophage, geth, grunt + grunt-unique-dialogue).
   Remaining before wave 7: 1010.
+- Wave 7 DONE: 700 total. characters 148, species 25, tech 87, factions 18.
+- Wave 8 DONE: 775 total. characters 179, species 31, tech 103, factions 20,
+  timeline 6 (first timeline bullets, from humanity-before-the-mass-relays — the
+  lore/manual doc was already ASR-corrected). Committed checkpoint 1c874f5.
+- Wave 9 dispatched: w9s0..w9s4 (b20..b24), irune-book-of-plenix..khalisah-al-jilani.
+  w9s0 = Jack-heavy (jack + 3 lore/manual jack-* docs + jack/jacob dialogue pages).
+  Remaining before wave 9: 860.
