@@ -20,6 +20,12 @@ def test_clean_html_keeps_prose_drops_chrome():
     assert "ref one" not in md
     assert "tracking()" not in md
     assert "Contents" not in md
+    # images and their captions dropped entirely
+    assert "![" not in md
+    assert "data:image" not in md
+    assert "Base.png" not in md
+    assert "caption text here" not in md
+    assert "inline image." in md  # surrounding prose survives
 
 
 def test_infer_type():

@@ -16,6 +16,7 @@ _DROP_SELECTORS = [
     ".portable-infobox", ".infobox", "aside", ".noprint", ".navigation-not-searchable",
     "table.wikitable", "table.infobox", "#References", "#Notes", ".references",
     ".reference", ".mw-empty-elt", ".gallery",
+    "img", "figure", "figcaption", ".thumb", ".image", ".pi-image", ".video-thumbnail",
 ]
 
 _TYPE_RULES = [
@@ -35,7 +36,7 @@ def clean_html(html: str) -> str:
     for sel in _DROP_SELECTORS:
         for node in soup.select(sel):
             node.decompose()
-    md = _md(str(soup), heading_style="ATX", strip=["a"], bullets="-")
+    md = _md(str(soup), heading_style="ATX", strip=["a", "img"], bullets="-")
     lines = [ln.rstrip() for ln in md.splitlines()]
     out: list[str] = []
     for ln in lines:
