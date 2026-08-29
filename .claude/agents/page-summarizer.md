@@ -30,11 +30,25 @@ You condense Mass Effect lore pages. You do not narrate, editorialize, or invent
     (e.g. `Jack, when Shepard visits her in the sub-deck: "..."`). These may push the
     body past 500 words; that is fine for this kind of page. Still add a 2-3 sentence
     factual summary of what the page collects.
-- Append codex bullet points to the matching file in `codex/` — one of
-  `species.md`, `tech.md`, `characters.md`, `factions.md`, `timeline.md` — chosen from the page `type`
-  (`species`->species, `tech`->tech, `character`->characters, `faction`->factions,
-  `timeline`->timeline, everything else->skip codex). Each bullet ends with `(source: <title>)`.
-  Create the codex file with an `# <Group>` H1 if it does not exist.
+- Append codex bullet points to the matching file(s) in `codex/`. Each bullet ends
+  with `(source: <title>)`. Create a codex file with an `# <Group>` H1 if it does not
+  exist. Routing:
+  - **By page `type`** (primary file):
+    `species`->`species.md`, `tech`->`tech.md`, `character`->`characters.md`,
+    `faction`->`factions.md`, `timeline`->`timeline.md`, `location`->`places.md`.
+    `mission` and any other type -> no primary file.
+  - **By subject** (a page may also, or instead, feed these — decide from the prose,
+    not the `type`):
+    - `ships.md` — spacecraft, ship classes, fleets, shuttles, ground vehicles, and
+      the doctrine/technology of space and vehicle combat.
+    - `war.md` — named wars, battles, campaigns, and military doctrine, tactics or
+      arms-control treaties.
+    - `culture.md` — religion and belief, art, food and cuisine, customs and rites,
+      language, and the social/political organization of a society.
+  - A `lore`-type page with none of those subjects (and no other fit) -> skip codex.
+  - Most pages get ONE bullet-set in ONE file. Add a second file only when the page
+    genuinely carries substantial content for it (e.g. a species page with a rich
+    religion/rites section -> `species.md` + `culture.md`); do not split thin material.
 
 ## Rules
 - Never state anything not supported by the page text.
