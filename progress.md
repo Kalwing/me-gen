@@ -364,3 +364,33 @@
 - Wave 9 dispatched: w9s0..w9s4 (b20..b24), irune-book-of-plenix..khalisah-al-jilani.
   w9s0 = Jack-heavy (jack + 3 lore/manual jack-* docs + jack/jacob dialogue pages).
   Remaining before wave 9: 860.
+
+### Session resume 2026-08-30 — /pwf context restore + sweep tail
+- Ran planning-with-files restore. session-catchup: no unsynced context.
+  git working tree CLEAN, HEAD dd5a4d7. page_summaries/ is gitignored.
+- STATE RECONCILED: waves 9..N all ran to disk since the last progress entry.
+  page_summaries/ now holds 1629 .md. me-build-lore step-1 recompute
+  (data/pages[2981] + lore/manual[24, README excl] - page_summaries - lore_skipped[1372])
+  => only **6 in-scope pages left**: warp, warp-ammo, warp-skill, weapon-mods,
+  weapons, zaeed-massani (all data/pages/*.md, none skipped).
+  4 "extra" summaries that aren't in the recomputed in-scope list are expected:
+  a-better-beginning + achievements (kept from early batches), manual-arcturus-station
+  + manual-destiny-ascension (intentional manual- collision summaries).
+- LEFTOVER unmerged codex inbox: codex/_inbox/w5b22-characters.md (Zev Cohen, Zymandis,
+  Zaeed Massani/Unique dialogue) + w5b22-places.md (Zakera Ward, Zhu's Hope) — from a
+  prior wave, never merged.
+- timeline/events/ still empty — /me-build-timeline not started (correct; waits for sweep).
+- config/narrators/*.style.md: NONE exist yet — me-build-lore step 5 not started.
+  10 narrator yamls: garrus, jack, joker, kaidan, liara, samara, tali, thane, traynor, wrex.
+- ACTION: dispatched final page-summarizer batch (WAVE_ID wfin, 6 pages) writing codex
+  bullets to codex/_inbox/wfin-<group>.md. Next: merge w5b22 + wfin inboxes into
+  codex/*.md (dedupe+sort under H1), verify 0 remaining, commit.
+- THEN (needs user go-ahead): me-build-lore step 5 (narrator style refs, 10 agents),
+  /me-build-timeline, first /me-generate.
+- wfin batch DONE: 6/6 summaries (warp, warp-ammo, warp-skill = lore biotic pages,
+  no codex; weapons + weapon-mods -> tech; zaeed-massani -> characters).
+- Codex inbox merge (w5b22 + wfin, explicit-file-arg script — first attempt's quoted
+  glob no-op'd, redone): characters 427->442, places 172->178, tech 215->225.
+  codex/_inbox/ removed.
+- SWEEP COMPLETE: me-build-lore step-1 recompute returns EMPTY. 1635 summaries
+  (1631 in-scope + 4 expected extras). Suite 79 green. Committing.

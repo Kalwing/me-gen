@@ -6,19 +6,22 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-Phase 5 live run in progress. Corpus: 2981 scraped pages + 24 lore/manual docs now
-chunked = 19984 chunks; BM25 index rebuilt (--force). Suite 79 green.
-2026-08-29: lore/manual pipeline change APPROVED + IMPLEMENTED (see progress.md
-"design APPROVED"): chunk.py chunks lore/manual/*.md with a `manual-` namespace
-(equal-footing retrieval); page-summarizer + me-build-lore merge the 2 colliding
-slugs (arcturus-station, destiny-ascension) weighting the manual version;
-new narrator-style-extractor subagent -> config/narrators/<slug>.style.md, read by
-section-writer + outline-writer; me-build-lore step 5 runs it post-sweep.
-NEXT ACTION: commit the above, then resume the `/me-build-lore` summary sweep —
-1160 in-scope pages remaining (recompute via new step-1), parallel waves, codex
-bullets via codex/_inbox/<WAVE_ID>-<group>.md then controller-merge. When
-page_summaries/ covers the corpus: run me-build-lore step 5 (narrator style refs),
-then `/me-build-timeline`, then first `/me-generate`.
+2026-08-30: `/me-build-lore` summary SWEEP COMPLETE. 1635 summaries in page_summaries/
+(1631 in-scope + 4 expected extras: a-better-beginning, achievements,
+manual-arcturus-station, manual-destiny-ascension). 0 in-scope pages remaining
+(me-build-lore step-1 recompute returns empty). All codex/_inbox/ merged into
+codex/*.md (characters 442, places 178, species, tech 225, factions, ships, war,
+culture, timeline). Suite 79 green.
+NEXT ACTION (needs user go-ahead — bigger token spends):
+  1. me-build-lore step 5 — narrator style references. Dispatch narrator-style-extractor
+     once per config/narrators/<slug>.yaml (garrus, jack, joker, kaidan, liara, samara,
+     tali, thane, traynor, wrex) -> config/narrators/<slug>.style.md. None exist yet.
+     Safe as a parallel wave (one output file per narrator).
+  2. `/me-build-timeline` — timeline/events/ is empty. Resumable batches of ~20
+     summaries + timeline/.done manifest; rebuild_master_timeline.py derives
+     master_timeline.yaml.
+  3. First `/me-generate <narrator> "<themes>" [--brief ...]` — outline gate, then
+     --continue.
 me-build-lore.md subtracts data/lore_skipped.txt (1372 rows) in its step-1 source
 list — corpus filter is wired into the command, not applied by hand.
 Standing ruling: every script doing `from scripts...` needs the sys.path bootstrap.
@@ -56,8 +59,11 @@ Phase 5 — user-initiated live run (deferred items).
       me-build-lore merge colliding slugs, manual weighted; narrator-style-extractor
       subagent + config/narrators/*.style.md wired into section-/outline-writer and
       me-build-lore step 5.
-- [ ] Then (separate go-ahead): more `/me-scrape` batches if wanted, then `/me-build-lore`,
-      `/me-build-timeline`, first `/me-generate`.
+- [x] `/me-build-lore` summary sweep COMPLETE (2026-08-30): 1635 summaries, 0 in-scope
+      remaining, all codex/_inbox/ merged, suite 79 green. Committed.
+- [ ] Then (separate go-ahead): me-build-lore step 5 (narrator style refs),
+      `/me-build-timeline`, first `/me-generate`. Optionally more `/me-scrape` batches
+      (crawl_state.json frontier still has ~1600 distinct pages).
 - **Status:** in_progress
 
 ## Phases
