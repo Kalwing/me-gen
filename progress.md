@@ -462,3 +462,38 @@
   routing update + TODO (everything except mass.zip), then continue the TODO: verify
   narrative_choices is otherwise sound (done), `/me-build-timeline`, surface any
   timeline-driven open choices to the user, then generation readiness.
+
+### 2026-09-01 (cont.) — thorough texture pass: keyword search instead of blind re-mine
+- User: "there's no Ryncol for flagged relevant pages... take the keywords/idea I gave
+  you, add synonyms... create a whole cloud of ideas... search the pages with a
+  script/bash command and only process the relevant ones with a model." Confirmed gap:
+  data/pages/ryncol.md (krogan liquor, own dedicated page, cited in 15 other pages) has
+  a page_summaries entry but zero codex/culture.md or everyday.md bullets — same
+  failure mode as Blasto.
+- Built scripts/texture_keywords.txt (curated cloud of synonyms/adjacent terms per
+  category: religion, culture/arts, food/drink, games, medicine/objects,
+  economy/politics, prejudice/social friction, flirting/humor, fashion/architecture/
+  fauna-flora) + scripts/find_texture_candidates.py (deterministic, no-LLM grep over
+  data/pages + lore/manual, cross-referenced against existing codex/{culture,social,
+  everyday}.md source citations to mark already-covered vs new).
+  - First pass: naive prefix-matching (`art*`, `opera*`) hit 2451 pages — mostly noise
+    ("art" matched "Arterius", "opera" matched "operative"). Fixed to whole-word
+    matching by default (opt-in `*` suffix only for real stems), pruned generic
+    sci-fi vocabulary (council/government/corporation/market/trade/device/merchant)
+    that would flag most of the corpus and defeat the point of a filter. Also caught
+    "custom*" matching "customer"/"customize" — narrowed to specific phrases.
+  - Re-run: 807 keyword hits -> 521 new uncovered candidates (248 filtered via
+    data/lore_skipped.txt, mostly legit Andromeda pages e.g. Jaal/Aya — spot-checked,
+    no more Blasto-style false positives found in this batch).
+  - User: also fold in Shadow Broker dossiers + Citadel pages for social.md, read full
+    raw pages not just summaries (they're relationship-rich but don't reliably hit
+    generic keywords). Added 12 dossier + 87 citadel-*.md pages (70 not already in
+    keyword candidates) -> data/texture_final_candidates.txt, 592 total slugs
+    (gitignored, regenerate via the script; script + keyword file are committed).
+- User: start small, extraction-only (append codex bullets, do NOT rewrite
+  page_summaries/*.md bodies — cheaper per-page than the original full sweep).
+  Dispatched trial batch (agent a9feebb6ae41477da): 12 Shadow Broker dossiers + top-20
+  multi-keyword-hit pages (ashley-williams, james-vega, asari, krogan codex pages,
+  etc.) = 32 pages, extraction-only, running.
+- NEXT: review trial batch yield/quality with user, then decide sequential vs
+  parallel-wave pacing for the remaining ~560 candidates in data/texture_final_candidates.txt.
