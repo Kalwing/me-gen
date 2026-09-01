@@ -511,3 +511,13 @@
   the codex got. Added a grep-codex step + a rule to weave in a matching bullet as
   grounding color when one fits; outline-writer's lore step now explicitly names
   world-texture so it isn't crowded out by plot-only sections. Committed (b811e1c).
+
+### 2026-09-01 (cont.) — full texture sweep, wave 1
+- User: "continue" (fuller pass past the trial). Marked the 37 trial-batch slugs done
+  in data/texture_candidates.done, recomputed remaining: 555 candidates
+  (data/texture_remaining.txt). Split into 28 batches of 20
+  (data/texture_batch_000..027, gitignored working files).
+- Wave 1 dispatched: 5 parallel agents, batches 000-004 (100 pages: alliance news
+  network pages, armor/weapon pages, bioware-stories dev interviews + bonus-content-disc
+  creature/environment featurettes, cerberus-daily-news archives, citadel-arena +
+  chora's den pages). Extraction-only, page_summaries/ untouched.
