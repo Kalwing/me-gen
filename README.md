@@ -92,6 +92,46 @@ the **timeline** is the chronological skeleton and the required-facts source,
 **narrator config + narrative choices** decide voice and which version of
 events actually happened in this playthrough.
 
+### How `outline-writer` actually weighs its inputs
+
+`outline-writer` isn't a sequential pipeline of steps — it's one subagent call
+that reads all its inputs at once and reasons over them together. But the
+order it's told to *weight* them is fixed, and that fixed order is effectively
+the "flow":
+
+1. **Timeline first, as raw material.** It reads `master_timeline.yaml` +
+   `timeline/events/*.yaml` — every possible event, tagged with `characters`,
+   `event_id`, and (for forked events) multiple branches.
+2. **`narrative_choices.yaml` + `brief` decide which branch is real**, not
+   just which sections exist. Many events are choice-conditional (e.g. "Wrex
+   dies on Virmire" vs. "Wrex survives"). For any forked event, only the
+   branch the answered choices select is real — `brief` wins if it conflicts
+   with `narrative_choices`; the other branch's sections simply aren't built.
+   Unanswered questions are ignored; default canon applies.
+3. **The narrator's own arc is the spine.** From the surviving branch of the
+   timeline, the agent pulls every event where this narrator is in the
+   `characters` list, in chronological order — the backbone of the outline,
+   weighted by the narrator's `.yaml` `knowledge_bias` (events they lived get
+   more sections/words than ones they only heard about).
+4. **`page_summaries/` + `codex/*.md` fill in around that spine.** This
+   doesn't add new events — it tells the agent which existing timeline events
+   deserve their own section vs. a passing mention, and which lore-heavy
+   sections (including culture/social/everyday world-texture) to add
+   alongside plot sections.
+5. **Non-personal galaxy events are last resort** — brief connective/bridging
+   sections only, never the bulk.
+6. **`brief`, if given, sets the frame on top of all that** — occasion, mood,
+   who's addressed — and can pin an otherwise-unanswered canon choice for
+   just this episode.
+7. **The narrator's `.style.md`** (quotes + "how they talk") isn't used for
+   section *selection* at all — only to judge how much room this narrator's
+   voice needs per beat.
+
+`section-writer` then works section by section using the same priority order
+(narrator's lived experience → lore/texture → required timeline facts as the
+skeleton the first two hang on) — see its Content priority in
+`.claude/agents/section-writer.md`.
+
 ### The narrative-choices questionnaire
 
 `config/narrative_choices.yaml` is a structured questionnaire, not a
