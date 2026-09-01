@@ -119,6 +119,25 @@ descoped to README/suite/status, live run + real episode generation moved to
 - Fact-preservation check: moved to Deferred (first real generation session)
 - **Status:** complete
 
+### Phase 6: TODO sweep (2026-09-01, user: "now do the TODO")
+- [x] Narrator style refs: verified suite green (79) + spot-checked traynor/wrex, committed (9fb325e).
+- [ ] Culture/codex enrichment: fixed Blasto false-positive Andromeda filter (removed from
+      data/lore_skipped.txt). Dispatched page-summarizer to summarize blasto.md + backfill
+      codex/culture.md from 14 already-summarized flavor pages whose content never reached
+      the codex (fornax, fortack, game-shop, drinks, foods, elcor, entertainment,
+      codex-publications, news-stories, silversun-strip, samara-the-ardat-yakshi,
+      kite-s-nest-pillars-of-strength, irune-book-of-plenix, mass-effect-blasto-eternity-is-forever).
+      Agent a92a54c0636d0df34 running.
+- [ ] World-texture grounding system (TODO item 3) — user flagged this as genuinely
+      open-ended ("I don't know where all that should be kept"). NOT started; needs a
+      design decision (where retrievable, keyword-search shape, resumability) before
+      building. Asking user for direction rather than guessing.
+- [ ] Verify narrative_choices.yaml config is functional/well-written.
+- [ ] `/me-build-timeline` (timeline/events/ still empty).
+- [ ] Surface any timeline-driven choices not covered by narrative_choices.yaml, ask user.
+- [ ] Final process/system wrap-up for generation readiness.
+- **Status:** in_progress
+
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
