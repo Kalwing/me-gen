@@ -521,3 +521,14 @@
   network pages, armor/weapon pages, bioware-stories dev interviews + bonus-content-disc
   creature/environment featurettes, cerberus-daily-news archives, citadel-arena +
   chora's den pages). Extraction-only, page_summaries/ untouched.
+
+### 2026-09-01 (cont.) — wave 1 committed, wave 2 dispatched
+- Wave 1 (batches 000-004, 100 pages) results: culture.md +17, social.md +17,
+  everyday.md +14 (48 bullets). Spot-checked good quality, well-sourced,
+  specific (turian dueling customs, Ardat-Yakshi monastery economy, AI-rights
+  advocacy, Chora's Den rumors, cross-species mourning after Vallum Blast, etc).
+  Suite 79 green. Committed a2729e1.
+- Wave 2 dispatched: 5 parallel agents, batches 005-009 (100 pages) — almost
+  entirely `citadel-*` side-quest/assignment pages (per user instruction to
+  mine Citadel files fully) plus a few in-game codex entries and misc
+  character pages. Extraction-only, page_summaries/ untouched.
