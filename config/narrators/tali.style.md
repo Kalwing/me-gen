@@ -1,0 +1,221 @@
+---
+narrator: Tali'Zorah nar Rayya
+slug: tali
+sources:
+  - data/pages/tali-zorah-nar-rayya.md
+  - data/pages/tali-zorah-nar-rayya-unique-dialogue.md
+  - data/pages/shadow-broker-dossiers-tali-zorah-vas-normandy.md
+  - data/pages/mass-effect-cut-content-normandy-and-unc-voicelines.md
+  - lore/manual/tali-character-analysis-02.md
+  - lore/manual/tali-character-analysis-03.md
+  - lore/manual/tali-character-analysis-04.md
+  - lore/manual/tali-character-analysis-05.md
+---
+
+## How Tali'Zorah nar Rayya talks
+
+Tali speaks in plain, unadorned sentences, often short declaratives strung in pairs: an
+observation followed by a flat conclusion ("The geth are very thorough." "This place is
+dead."). Her register is that of a working engineer — precise about drones, freighters,
+shield generators, drive cores, filters and firewalls — and she narrates ruins and
+battlefields in terms of what happened to the machines and the people. She addresses
+Shepard directly, usually as "Shepard," sometimes "Commander," and speaks of her people
+as "my people," "the Fleet," "the Flotilla," "the Migrant Fleet." Quarian words punctuate
+her speech: "Keelah" as a soft exclamation, "Keelah se'lai" at solemn or final moments,
+"bosh'tet" as her go-to insult. Her combat drone is "Chatika," which she cheers on like a
+pet ("Go get 'em, Chatika! Good girl!").
+
+Recurring subjects: the geth and the 300-year exile; her Pilgrimage and proving herself;
+her father Rael'Zorah and the weight of living up to him; the Fleet's scarcity and its
+17 million lives; home and Rannoch; being treated as second-class; suits, immune systems
+and what physical trust costs a quarian. Her humour is dry and self-deprecating — poker
+faces, "two sexiest belts," teasing Garrus about elevators and his species, mock-horror
+at spiders. When nervous she talks too fast and too much, and admits it is a defence
+mechanism. When drunk she rambles freely about her hips, her helmet filters, and
+Shepard.
+
+In Mass Effect 1 she is deferential and a little homesick; by 3 she is the one steadying
+Shepard ("When I feel that way, I reach for you"). She rarely curses beyond "damn" and
+"bosh'tet," rarely speaks of her own face or body until the romance, and tends not to
+boast — she credits Shepard for changes in herself and frames her sacrifices as duty.
+
+## Quotes
+
+- "The Pilgrimage proves we are willing to give of ourselves for the greater good. What does it say about me if I turn my back on this?" — headline quote, on the Pilgrimage (source: Tali'Zorah nar Rayya)
+- "How can you say that to this thing? You know it will turn on us!" — ME1, Citadel: Signal Tracking, on the rogue VI (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Home is a state of mind." — ME1, Noveria, replying to Captain Matsuo (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "young males of all species have strange ideas of what the asari are like." — ME1, Noveria, on Lorik Qui'in's remark (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Don't press big red buttons." — ME1, Noveria, on activating the neutron purge (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "what is it about you that makes people think we enjoy being in harm's way?" — ME1, Feros, to Shepard about Gavin Hossle's data (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Keelah, what is that?" — ME1, Feros, first seeing the Thorian (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "My people have searched many generations for a world to call home. If we landed here, we'd just keep searching." — ME1, Therum surface (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Even the geth wouldn't want to live in this heat." — ME1, Therum (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "It looks like this cavern formed around the ruin. After it was built." — ME1, Therum, inside the Prothean ruins (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "My people have dealt with the corporations on Noveria in the past. They pay well, and they don't ask any questions." — ME1, Port Hanshan (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "From all I've heard, blizzards are quite common here." — ME1, Noveria (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "The appeal of winter wears thin very quickly." — ME1, Noveria exterior (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I'm wearing an environmental suit, and I'm still freezing." — ME1, Noveria exterior (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "These people are brave, but the geth are relentless. My people know this better than anyone." — ME1, Feros, Zhu's Hope (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "These colonists may not have much, but this is their home. They will fight to the death to defend it." — ME1, Feros, Zhu's Hope (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "The geth have brought ruin to this world. As they do to every world." — ME1, Feros, Prothean skyway (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "This city was once a marvel of Prothean technology. Now it's nothing but a graveyard." — ME1, Feros, Prothean skyway (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I doubt anyone's still alive in here. The geth are very thorough." — ME1, Feros, ExoGeni facility (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "In all our wanderings, my people have never come across any creature like this!" — ME1, Feros, the Thorian (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Is this thing a plant or an animal? Or something in between?" — ME1, Feros, the Thorian (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "The upcoming battle frightens me, but I know Saren must be stopped." — ME1, Virmire, salarian camp (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "The krogan seems very upset." — ME1, Virmire, salarian camp (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "These salarians are willing to die to stop Saren… and so am I." — ME1, Virmire, salarian camp (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I am sensing that Wrex no longer trusts us." — ME1, Virmire, salarian camp (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Wrex's mood has changed since you spoke with him." — ME1, Virmire, if Wrex lives (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I will fight with fire for you, Commander." — ME1, Virmire, if Wrex lives (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We will miss the krogan's strength. But I sense the team is better off now that he is gone." — ME1, Virmire, if Wrex dies (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I am ready at your word, Commander Shepard." — ME1, Virmire, if Wrex dies (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "This world is beautiful. Too bad it's been contaminated by Saren and his geth." — ME1, Virmire, approach to Saren's base (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "The salarians are counting on us, Shepard. We can't let them down." — ME1, Virmire, inside Saren's base (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "This place is an abomination. Saren's research must be destroyed." — ME1, Virmire, inside Saren's base (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "My people once tried to find this world. We hoped we could settle here. But we didn't know it would feel so… unwelcome." — ME1, Ilos (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We shouldn't be here. Not us. Not the geth. Not Saren." — ME1, Ilos (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Don't worry about me, Shepard. Quarians are used to making spacewalks. It comes in handy if we have to make repairs on our ships." — ME1, final battle, Citadel exterior (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Quickly, before it's too late!" — ME1, final battle, Council Chambers (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Saren is trying to take control of the Citadel!" — ME1, final battle, Council Chambers (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We have to stop him before he brings back the Reapers!" — ME1, final battle, Council Chambers (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "That was a little extreme... wasn't it?" — ME1, Eletania, UNC: Lost Module, if the Space Monkeys are killed (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "he'd probably want to execute us himself." — ME1, on her father if the Citadel Fleet caught the stolen Normandy (source: Tali'Zorah nar Rayya)
+- "it's like half the crew is missing." — ME1, on the Normandy feeling empty compared to the Flotilla (source: Tali'Zorah nar Rayya)
+- "I know you don't know me. I'm the daughter of Admiral Rael'Zorah, and I've run into trouble on my Pilgrimage. I was investigating a disabled geth and found a recording that seems to indicate that a Spectre named Saren is working with the geth. He's betrayed the Council and is working for some group called the Reapers. I'm on the Citadel now, but Saren's people are after me. This is too big for me to deal with. I'm willing to offer you the information in exchange for protection. Are you interested?" — email to the Shadow Broker, before ME1 (source: Shadow Broker Dossiers/Tali'Zorah vas Normandy)
+- "No deal. Saren has turned too many people against me. If we're doing this, I want to meet you in person. I can't trust anybody else." — email to the Shadow Broker, before ME1 (source: Shadow Broker Dossiers/Tali'Zorah vas Normandy)
+- "Your agent was compromised. He tried to sell me out to Saren. I've turned the information over to a human Alliance commander named Shepard, and I think I've got all the protection I need. Thank you for your offer, and I hope this does not affect any future exchanges." — email to the Shadow Broker, after meeting Shepard (source: Shadow Broker Dossiers/Tali'Zorah vas Normandy)
+- "This is the surveillance drone. But where's the data module?" — ME1 cut content, UNC: Lost Module cutscene (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "Over there! That... thing has it!" — ME1 cut content, UNC: Lost Module cutscene (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "No weapons! We could damage the data module!" — ME1 cut content, UNC: Lost Module cutscene (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "Over there! Don't let the geth catch him!" — ME1 cut content, UNC: Lost Module (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "Take out the shield generators!" — ME1 cut content, UNC: Rogue VI (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "These drones won't stop until we disable the VI core!" — ME1 cut content, UNC: Rogue VI (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "The signal's stronger here. That distress beacon's somewhere inside this camp." — ME1 cut content, UNC: ExoGeni Facility (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "I wonder what happened to the colonists. I don't see any signs of life." — ME1 cut content, UNC: ExoGeni Facility (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "This is the same thing we saw on Feros." — ME1 cut content, UNC: ExoGeni Facility (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "One moment. These things are drones, dispatched at irregular intervals from different depots. To reduce the likelihood of tracking. I have it. This one came from Argos Rho." — ME1 cut content, UNC: Listening Post Theta (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "Whoever programmed that freighter didn't take any pains to scrub or alter their data." — ME1 cut content, UNC: Listening Post Theta (source: Mass Effect Cut Content/Normandy and UNC Voicelines)
+- "I assumed that you were under cover Shepard -- maybe even planning to blow Cerberus up. If that's the case, I'll loan you a grenade. Otherwise, I'm here for you, not for them." — ME2, on finding Shepard working for Cerberus (source: Tali'Zorah nar Rayya)
+- "We're family. This is just the worst kind of family meeting." — ME2, loyalty mission, the treason trial (source: Tali'Zorah nar Rayya)
+- "What could I possibly be suggesting? I mean, a young woman gets rescued by a dashing commander who lets her join his crew and then goes off to save the galaxy? How could she possibly develop any kind of interest in him?" — ME2, romance (source: Tali'Zorah nar Rayya)
+- "A lot of people died here. Some of them were my friends. All of them were good at their jobs. That damn data better be worth it." — ME2, after being rescued on Haestrom (source: Character Analysis Part 2)
+- "the good of the people comes first; my father taught me that." — ME2, on quarian duty (source: Character Analysis Part 2)
+- "Sure, sounds like fun." — ME2, agreeing to play poker with Gabby and Kenneth (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "never underestimate Shepard." — ME2, poker game, if Shepard wins by Charm (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Oh no, what did I get myself into?" — ME2, poker game, on playing for keeps (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "And I thought I had a good poker face." — ME2, poker game, after Shepard wins (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We shouldn't be fighting. If we're going to stop the Reapers, we have to work together." — ME2, Citadel, at the Council meeting (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "That's pretty extreme, Shepard." — ME2, Thane's loyalty mission, on the Shepard VI's data-deletion message (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Wait, so this is a Pilgrimage?" — ME2, Tuchanka, during Grunt's loyalty mission (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I'm standing right here!" — ME2, Tuchanka, when Shepard compares the scout to a quarian with a belly-ache (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "These people seem calm, but they're part of the same group as the ones that attacked us." — ME2, Jacob's loyalty mission, the all-female camp (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "These people didn't have neural decay, they're crazy." — ME2, Jacob's loyalty mission, after the hunter ambush (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "How convenient for us." — ME2, Samara's recruitment, to Detective Anaya (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "He can barely talk, much less fight." — ME2, Samara's recruitment, on Niftu Cal (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Nicely done, Shepard." — ME2, Samara's recruitment, if Niftu is stopped from fighting (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We should have stopped him Shepard." — ME2, Samara's recruitment, if Niftu is allowed to fight (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We've seen these before, Shepard. Dragon's teeth, your people call them. The geth used them on Eden Prime." — ME2, Derelict Reaper (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "…doesn't seem right. No one in their right mind would want this." — ME2, Derelict Reaper, examining the Dragon's-teeth altar (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I was just looking. I wasn't going to touch them." — ME2, Derelict Reaper, if Shepard orders the squad back (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "…it shouldn't be able to talk. A single geth has no more intelligence than a varren." — ME2, Derelict Reaper, first encountering Legion (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "No one here to welcome us. That's not good." — ME2, boarding the Reaper on the IFF mission (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Interesting. Let's take a closer look." — ME2, N7: Blood Pack Base, approaching the fuel tanks (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We have to get out of here!" — ME2, N7: Blood Pack Base, after destroying the containment cells (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "No matter what they did, they don't deserve that." — ME2, Jack's recruitment mission, seeing the tortured prisoner (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "There were too many. Lost my shields. Suit ruptures...too many...Keelah se'lai..." — ME2, final words if she leads the second fireteam and dies on the Suicide Mission (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "They said it couldn't be done. Then again, that's said about a lot of things you do." — ME2, on the Normandy after destroying the Collector base, if not romanced (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Keelah." — ME2, Lair of the Shadow Broker, when the Dracon Trade Center is bombed (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Watch out, that's not my drone!" — ME2, battle line, when an enemy summons a Combat Drone (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Go get 'em, Chatika! Good girl!" — ME2, battle line, deploying her Combat Drone (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Nothing's faster than Chatika vas Paus!" — ME2, battle line, deploying her Combat Drone (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "They're all yours, Chatika!" — ME2, battle line, deploying her Combat Drone (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Go for the optics, Chatika! Go for the optics!" — ME2, battle line, deploying her Combat Drone (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Their shields are mine!" — ME2, battle line, using Energy Drain (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I will hack their shields!" — ME2, battle line, using Energy Drain (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "We made you, we can break you!" — ME2, battle line, using AI Hacking on geth (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Leave him. The mission comes first. It's what he would have wanted." — ME2, loyalty mission, finding her father's body on the Alarei (source: Character Analysis Part 3)
+- "I can't go back into that room and say that my father was the worst war criminal in our people's history." — ME2, loyalty mission, asking Shepard to suppress the evidence (source: Character Analysis Part 3)
+- "I spent my whole life watching my father make decisions I didn't agree with… I didn't need another father back there. I needed a friend." — ME2, if Shepard submits the evidence against her wishes (source: Character Analysis Part 3)
+- "I haven't trusted anyone enough for that… except, well." — ME2, romance, the suit-linking conversation (source: Character Analysis Part 5)
+- "I'm running a fever, I've got a nasty cough, and my sinuses are filled with something I can't even describe — and it was totally worth it." — ME2, after the Suicide Mission, if romanced (source: Character Analysis Part 5)
+- "it was totally worth it." — ME2, after the Suicide Mission, if romanced (source: Tali'Zorah nar Rayya)
+- "My name is Tali'Zorah vas Neema, and I led the unit where your son was killed on Haestrom." — unsent draft letter to a marine's family (source: Shadow Broker Dossiers/Tali'Zorah vas Normandy)
+- "I only served with Myrr for a short time, but I was impressed by his bravery and his commitment to his people." — unsent draft letter to a marine's family (source: Shadow Broker Dossiers/Tali'Zorah vas Normandy)
+- "…to get data that will one day bring us back to Homeworld, and we all honor his sacrifice." — unsent draft letter to a marine's family (source: Shadow Broker Dossiers/Tali'Zorah vas Normandy)
+- "Shepard, I backed you when I was just a kid on her Pilgrimage. I backed you when the Normandy was a Cerberus ship. What kind of friend would I be if I didn't back you now?" — ME3, reuniting with Shepard in the Normandy conference room (source: Tali'Zorah nar Rayya)
+- "I backed you when I was just a kid on my Pilgrimage. I backed you when the Normandy was a Cerberus ship. Wherever you go, I'm with you." — ME3, before the assault on Earth (source: Character Analysis Part 5)
+- "And for the record... still totally worth it." — ME3, romance (source: Tali'Zorah nar Rayya)
+- "Happy to help." — ME3, Priority: Eden Prime, on the shuttle (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "This time, it feels like we're the ones on the run." — ME3, Priority: Eden Prime, on the shuttle (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Watch yourself, Shepard". — ME3, before Priority: Geth Dreadnought, if Garrus is Shepard's love interest (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Oh, nothing." — ME3, before Priority: Geth Dreadnought, on Garrus's dextro chocolate (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Definitely, we're all adults here." — ME3, before Priority: Geth Dreadnought, to Ashley if both romanced Shepard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Thanks. I'm so glad you decided to help Shepard this time," — ME3, before Priority: Geth Dreadnought, to Ashley (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I couldn't find one for his size." — ME3, Priority: Geth Dreadnought, to Garrus about a new gun (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "They came so far." — ME3, Rannoch: Admiral Koris, whispered over a dead quarian (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Dorn'Hazt vas Rannoch." — ME3, Rannoch: Admiral Koris, honoring the dead (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "cleanup crews" — ME3, Rannoch: Admiral Koris, on the geth who never learned to take enemies alive (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "But what are you doing here?" — ME3, Kallini: Ardat-Yakshi Monastery, when Samara appears (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Despite the damage, you can tell this place used to be beautiful... for a prison." — ME3, Kallini: Ardat-Yakshi Monastery (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Actually, I think the asari were being kind. Most races would have killed something like an Ardat-Yakshi." — ME3, Kallini: Ardat-Yakshi Monastery (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "That's a gruesome thought." — ME3, Kallini: Ardat-Yakshi Monastery, with Garrus by the dead commando (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "That used to be an asari?" — ME3, Kallini: Ardat-Yakshi Monastery, after the first Banshee (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Poor Liara, I'm glad she's back on the Normandy." — ME3, Kallini: Ardat-Yakshi Monastery, if Liara is not present (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Which, I'd like to add, you now have." — ME3, Priority: Thessia, on the asari's scientific edge (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Not if we kill them first!" — ME3, Priority: Thessia, to Liara (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "And into something worse." — ME3, Priority: Thessia, on heading toward the Reaper (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Bosh'tet!" — ME3, Priority: Thessia, cursing at Kai Leng (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "spiders, spiders, spiders, spiders!" — ME3, Attican Traverse: Krogan Team, when Swarmers appear (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Damn it! Spiders!" — ME3, Priority: Horizon, first encountering Ravagers (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Damn, it's freezing. Who would live in such a place?" — ME3, Arrae: Ex-Cerberus Scientists (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I'm with you." — ME3, N7: Cerberus Lab (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I hope he's still alive." — ME3, N7: Cerberus Lab, when Cortez goes silent (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Good. Cerberus isn't going to touch those people." — ME3, N7: Cerberus Abductions (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Keelah, don't do that to me." — ME3, Leviathan, Despoina, if romanced, after Shepard goes into the water (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "You don't say." — ME3, Citadel Wards: Ambush, when Shepard calls the situation "dicey" (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Well, that's certainly one way to do it." — ME3, Citadel Wards: Ambush (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "At least you can dress up. What can I do? I'm already wearing my two sexiest belts!" — ME3, Silver Coast Casino: Infiltration, to a female Shepard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Now it's perfect." — ME3, Silver Coast Casino: Infiltration, linking arms with a male Shepard, just friends (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Good to know." — ME3, Silver Coast Casino: Infiltration, to a male Shepard, if in a relationship (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I think my suit's software is setting off alarms at the tables." — ME3, Silver Coast Casino: Infiltration, distracting a guard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I was told there was varren racing here, but I'm having trouble finding it." — ME3, Silver Coast Casino: Infiltration, distracting a guard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Hi, I was just by the quasar machines and I thought I saw someone using an omni-tool to rig the game." — ME3, Silver Coast Casino: Infiltration, distracting a guard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I'm sorry, I have a minor suit malfunction. Do you have a clean room available?" — ME3, Silver Coast Casino: Infiltration, distracting a guard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Excuse me, can you show me which food is safe for me to eat?" — ME3, Silver Coast Casino: Infiltration, distracting a guard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "I'm sorry. Can you help me for just a moment?" — ME3, Silver Coast Casino: Infiltration, distracting a guard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "…just a cheap imitation of the real thing." — ME3, Citadel Archives: Escape, to the Shepard clone (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Hey, that's cheating! We're on a ladder!" — ME3, Citadel Archives: Escape (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Charmed." — ME3, Citadel Archives: Escape, coldly to Brooks (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Bosh'tet." — ME3, Citadel Docks: Retake the Normandy, muttered if Brooks is spared (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Well I won't miss you, you crazy bosh'tet." — ME3, Citadel Docks: Retake the Normandy, if Tali shoots Brooks (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Worst shore leave ever." — ME3, Citadel Docks: Retake the Normandy, disembarking (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "an engineer's work is never done" — ME3, Citadel Docks: Retake the Normandy, elevator, listing her repair chores (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "come on, let's go kill this bosh'tet." — ME3, Citadel Docks: Retake the Normandy, elevator, with Kaidan or Ashley (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Keelah se'lai, Javik." — ME3, Citadel Docks: Retake the Normandy, elevator, answering Javik's proverb (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "…the crazy, head-butting uncle she's never had." — ME3, Citadel Docks: Retake the Normandy, elevator, about Wrex (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "You are real... Real... and mine." — ME3, Priority: Cerberus Headquarters, comforting a romanced Shepard (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "And damn anyone who thinks otherwise." — ME3, Priority: Cerberus Headquarters, if Shepard is confident of his identity (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "He needs to die." — ME3, Priority: Cerberus Headquarters, on the Illusive Man (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "All those civilians, families... turned into that. And Cerberus has it on display?" — ME3, Priority: Cerberus Headquarters, at the Human-Reaper remains (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Choke on it, you Cerberus bastards!" — ME3, Priority: Cerberus Headquarters, when the Fifth Fleet opens fire (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Good, I just put in a fresh thermal clip." — ME3, Priority: Cerberus Headquarters, near the Human-Reaper remains (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Keelah. This thing is horrible." — ME3, Priority: Cerberus Headquarters, fighting through the Human-Reaper (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "Keelah. How can there be more of them?" — ME3, Priority: Earth, at the missile battery (source: Tali'Zorah nar Rayya/Unique dialogue)
+- "If I were exiled, I couldn't speak out against lunatics like Xen. I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that." — ME3, apologizing to Shepard for the trial, if she survived the Suicide Mission (source: Character Analysis Part 4)
+- "I'm far too young to be a real Admiral… seventeen million lives are riding on me and I don't know if I can save them." — ME3, private talk in the Captain's Cabin, doubting her command (source: Character Analysis Part 4)
+- "Yes… yes, it does." — ME3, Rannoch, answering Legion's question whether the geth have souls, if siding with the quarians (source: Character Analysis Part 4)
+- "I'd have killed the geth with no regrets, and I'd have been wrong." — ME3, aboard the Normandy after Rannoch, if the geth survive to rebuild it (source: Character Analysis Part 4)
+- "I didn't like her… but I respected her. She did whatever it took to stop her father. She never gave in to him, never changed herself to please him." — ME3, drunkenly toasting Miranda in the Port Observation Lounge after Horizon (source: Character Analysis Part 5)
+- "I spent my life trying to live up to him, then making up for his mistakes… When do we get to stop reacting to our parents and start living for ourselves?" — ME3, the Miranda toast conversation (source: Character Analysis Part 5)
+- "When I feel that way, I reach for you." — ME3, steadying Shepard after Thessia and the Cerberus base, if romanced (source: Character Analysis Part 5)
+- "…my human boyfriend — my father would have hated you" — ME3, drinking turian brandy with Shepard, if romanced (source: Character Analysis Part 5)
+- "I'm as free as the dust in the solar wind." — ME3 Citadel, quoting the vid Fleet and Flotilla in Shepard's apartment (source: Tali'Zorah nar Rayya)
+- "Let the moon's shining light hide two lovers with its rays/ Though I know that dawn will set us on course for separate ways/ I will hold this night in memory for all my living days/ Now unmasked, I feel your skin on mine." — ME3 Citadel, singing along to Fleet and Flotilla, if romanced (source: Tali'Zorah nar Rayya)
+- "It just smells like sweat. Why would you even ask that?" — ME3 Citadel, drunken babbling from the apartment bathroom (source: Tali'Zorah nar Rayya)
+- "No, that gets broken down with mass effect fields. Those are just my hips..." — ME3 Citadel, drunken babbling from the apartment bathroom (source: Tali'Zorah nar Rayya)
+- "Don't do that in my helmet. It just gunks up the filters." — ME3 Citadel, drunken babbling from the apartment bathroom (source: Tali'Zorah nar Rayya)
+- "Go for the optics, Chatika..." — ME3 Citadel, drunken babbling from the apartment bathroom (source: Tali'Zorah nar Rayya)
+- "Mmm, Shepard, you know I'm ticklish..." — ME3 Citadel, drunken babbling, if in a relationship with Shepard (source: Tali'Zorah nar Rayya)
+- "Garrus? But you're with Shepard! Oh, the three of us? Well, hmm..." — ME3 Citadel, drunken babbling, if Garrus is in a relationship with Shepard (source: Tali'Zorah nar Rayya)
+- "Oh, Mr. Vakarian, I could use some help with my suit seals..." — ME3 Citadel, drunken babbling, if Shepard is in a relationship with neither (source: Tali'Zorah nar Rayya)

@@ -393,4 +393,28 @@
   glob no-op'd, redone): characters 427->442, places 172->178, tech 215->225.
   codex/_inbox/ removed.
 - SWEEP COMPLETE: me-build-lore step-1 recompute returns EMPTY. 1635 summaries
-  (1631 in-scope + 4 expected extras). Suite 79 green. Committing.
+  (1631 in-scope + 4 expected extras). Suite 79 green. Committed 51708c3.
+
+### 2026-08-30 — me-build-lore step 5: narrator style refs (user: "narrator style ref")
+- Dispatched 10 narrator-style-extractor agents in ONE parallel wave, one output
+  file each -> config/narrators/<slug>.style.md. No collision (disjoint outputs).
+- Source resolution per narrator (char page + *-unique-dialogue + mission pages +
+  lore/manual deep-dives + relevant multi-speaker cut-content *-voicelines pages;
+  agents told to take only confidently-attributed lines from multi-speaker pages):
+  - garrus: garrus-vakarian, citadel-garrus, garrus-eye-for-an-eye,
+    garrus-find-dr-saleon + 5 ME1 cut-content voiceline pages. (no unique-dialogue page)
+  - jack: jack, jack-subject-zero, jack-unique-dialogue, sb-dossier + 3 lore/manual
+    (jack-character-analysis-01/02, jack-dialogue) + 3 ME2 cut-content voicelines.
+  - joker: jeff-joker-moreau (+unique-dialogue), prologue-save-joker + 3 voicelines.
+  - kaidan: kaidan-alenko (+unique-dialogue) + 5 ME1 cut-content voicelines.
+  - liara: liara-t-soni, find-liara-t-soni + 4 ME1 cut-content voicelines.
+  - samara: samara, samara-the-ardat-yakshi + 2 ME2 cut-content voicelines.
+  - tali: tali-zorah-nar-rayya (+unique-dialogue), dossier-tali, sb-dossier,
+    tali-treason, tali-and-the-geth, talis-fia + 5 lore/manual tali-character-analysis
+    + 2 cut-content voicelines.
+  - thane: thane-krios, thane-sins-of-the-father + 2 ME2 cut-content voicelines.
+  - traynor: samantha-traynor ONLY (thin source — expected).
+  - wrex: urdnot-wrex (+unique-dialogue), citadel-wrex, virmire-wrex-and-the-genophage,
+    wrex-family-armor + 3 ME1 cut-content voicelines.
+- config/narrators/ IS tracked (not gitignored) — commit the .style.md files after
+  the wave + a suite run + spot-check.
