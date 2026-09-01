@@ -52,6 +52,46 @@ detail per section, and the narrator bible supplies style. Deterministic steps
 are Python scripts in `scripts/`; reasoning steps are Claude Code subagents in
 `.claude/agents/`.
 
+### Where each piece fits, build time vs. generation time
+
+The pipeline has a **build phase** (run once against the scraped corpus,
+produces reusable artifacts) and a **generation phase** (run per episode,
+consumes those artifacts). Nothing in the generation phase re-reads the raw
+scraped pages — everything a narrator agent sees was distilled during the
+build phase.
+
+**Build phase** (`/me-scrape` → `/me-build-lore` → `/me-build-timeline`):
+
+| Artifact | Built by | What it is | Consumed by |
+|---|---|---|---|
+| `data/pages/*.md` | `/me-scrape` | Raw cleaned wiki pages, one per topic | `page-summarizer` only — nothing downstream reads these directly |
+| `data/bm25_index.pkl` | `/me-scrape` (via `scripts/build_bm25.py`) | Search index over chunked `data/pages/` + `lore/manual/` text | `scripts/retrieve.py`, called by `section-writer` for per-section grounding chunks |
+| `page_summaries/<slug>.md` | `page-summarizer` (via `/me-build-lore`) | 200–500 word factual prose summary of one page | `outline-writer` (background/lore reading); not read section-by-section — it's outline-time context |
+| `codex/{characters,factions,places,species,tech,ships,war,timeline,culture,social,everyday}.md` | `page-summarizer`, appending bullets as it summarizes | Deduplicated one-line facts, grouped by subject, each tagged `(source: <page title>)` | `outline-writer` (which lore to prioritize) **and** `section-writer` (culture/social/everyday are grepped live per section as world-texture grounding — see the Rules in `.claude/agents/section-writer.md`) |
+| `timeline/events/<event_id>.yaml` + `timeline/master_timeline.yaml` | `timeline-extractor` (via `/me-build-timeline`) | Deduplicated, chronologically ordered events, each with `characters`, `summary`, `consequences`, and source chunk ids | `outline-writer` (picks which events become sections) **and** `section-writer` (each section's required facts) |
+
+**Config, hand-authored, read at generation time only:**
+
+| File | What it is | Read by |
+|---|---|---|
+| `config/narrators/<name>.yaml` | The voice bible: `tone`, `diction`, `avoid`, `signature`, `knowledge_bias` | `outline-writer` (pacing/weighting) and `section-writer` (prose voice) |
+| `config/narrators/<name>.style.md` | Optional: real verbatim quotes with context + a "how they talk" note, built once per narrator by `narrator-style-extractor` | `section-writer` (cadence/word choice reference; the `.yaml` bible still wins on conflicts) |
+| `config/narrative_choices.yaml` | The player's canon questionnaire (Shepard build, ME1–3 decisions) — a question counts as answered once `answer` is set or `options` narrows to one value | `outline-writer` (which branch of a choice-conditional event exists) and `section-writer` (which branch to narrate); unanswered questions fall back to default canon |
+
+**Generation phase** (`/me-generate <narrator> "<themes>" [--brief ...]` → approve outline → `--continue`):
+
+1. `outline-writer` reads the master timeline + `page_summaries/` + `codex/*.md` + the narrator's `.yaml`/`.style.md` + `narrative_choices.yaml` (+ optional free-text `brief`) and writes `output/<run>/outline.yaml` — section list with event ids and word targets. Stops for user approval (`# UNAPPROVED` marker).
+2. Once approved, `section-writer` writes each section: pulls that section's `timeline/events/*.yaml` for required facts, runs `scripts/retrieve.py` (BM25 over the scraped corpus) for supporting detail, greps `codex/culture.md` / `social.md` / `everyday.md` for texture bullets touching the section's people/places/species, and writes prose in the narrator's voice — required to weave in at least one texture bullet when one genuinely fits.
+3. `consistency-checker` and `smoother` pass over the assembled `output/<run>/sections/` afterward for continuity, without touching facts or voice.
+
+So: **summaries** feed the outline (big-picture judgment of what matters), the
+**codex** feeds both the outline (what lore to prioritize) and every section
+(live grounding detail, including the culture/social/everyday world-texture),
+the **timeline** is the chronological skeleton and the required-facts source,
+**BM25** is per-section supporting detail pulled from the raw corpus, and the
+**narrator config + narrative choices** decide voice and which version of
+events actually happened in this playthrough.
+
 ### The narrative-choices questionnaire
 
 `config/narrative_choices.yaml` is a structured questionnaire, not a
