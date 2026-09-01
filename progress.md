@@ -497,3 +497,17 @@
   etc.) = 32 pages, extraction-only, running.
 - NEXT: review trial batch yield/quality with user, then decide sequential vs
   parallel-wave pacing for the remaining ~560 candidates in data/texture_final_candidates.txt.
+
+### 2026-09-01 (cont.) — trial texture batch results
+- Trial (37 pages: 12 Shadow Broker dossiers + 20 high-keyword-density pages,
+  extraction-only, page_summaries/ untouched): 18 new bullets (culture.md 97->104,
+  social.md 37->42, everyday.md 13->19). ~50% yield — richest sources were Shadow
+  Broker character dossiers (personal logs/purchase histories) and Cerberus Daily
+  News archives (tabloid/culture content); walkthrough/plot-synopsis pages mostly
+  had nothing left to extract. Spot-checked, well-sourced, suite still 79 green.
+- Also wired the codex into actual generation (user request, separate from the sweep):
+  section-writer.md never read codex/*.md directly (only BM25 chunk retrieval from
+  raw pages) — the culture/social/everyday content could sit unused however thorough
+  the codex got. Added a grep-codex step + a rule to weave in a matching bullet as
+  grounding color when one fits; outline-writer's lore step now explicitly names
+  world-texture so it isn't crowded out by plot-only sections. Committed (b811e1c).
