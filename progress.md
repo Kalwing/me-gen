@@ -532,3 +532,70 @@
   entirely `citadel-*` side-quest/assignment pages (per user instruction to
   mine Citadel files fully) plus a few in-game codex entries and misc
   character pages. Extraction-only, page_summaries/ untouched.
+
+### 2026-09-01 (cont.) — wave 4 committed, wave 5 hit rate limit (checkpoint)
+- Wave 3 (batches 010-014, 100 pages) results: culture.md +13, social.md +41,
+  everyday.md +16 (70 bullets) — notably landed the Book of Plenix bullet the
+  original TODO flagged as under-covered (Kahje's Nyahir holiday too). Suite 79
+  green. Committed 60d01ec.
+- Answered a user process question about how outline-writer weighs its inputs
+  (timeline -> narrative_choices/brief resolve forks -> narrator's own arc as
+  spine -> codex/summaries fill gaps -> galaxy events as connective tissue).
+  Wrote this up in README.md as a new "How outline-writer actually weighs its
+  inputs" section, plus an earlier "Where each piece fits" data-flow table
+  (build phase vs generation phase, what reads what: raw pages -> BM25/
+  summaries/codex -> timeline -> narrator config/style/narrative_choices ->
+  outline -> sections). Committed 9208095.
+- Wave 4 dispatched and committed (batches 015-019, 100 pages): culture.md +10,
+  social.md +21, everyday.md +14. Character loyalty-mission pages, cut-content
+  voicelines, in-universe comics (Foundation, Redemption), Normandy SR-2 crew
+  texture. Committed 8f74c1a.
+- User clarified scope: "finish the waves" = finish the codex world-texture
+  extraction sweep only, not the other parked TODO items (timeline build,
+  narrative_choices review, generation-readiness wrap-up).
+- Wave 5 dispatched (batches 020-024) but hit the session's API rate limit
+  ("You've hit your session limit, resets 4:30pm Europe/Paris") — agents
+  020, 021, 022 all failed/terminated early before writing anything to codex
+  files (confirmed via `git status --short` = clean, nothing to salvage).
+  Batches 023-024 were never dispatched this round.
+- STATE AT CHECKPOINT: batches 000-019 done (marked in
+  data/texture_candidates.done, 337 entries). Batches 020-027 (8 batches,
+  ~160 pages) remain undispatched/failed. No uncommitted codex changes.
+  Resume by re-dispatching wave 5 as page-summarizer agents over
+  data/texture_batch_020 through data/texture_batch_027 once the session rate
+  limit resets (~16:30 Europe/Paris), same extraction-only brief pattern as
+  waves 1-4, 5 batches per wave, commit + mark .done + pytest after each wave.
+
+### 2026-09-01 (cont.) — world-texture sweep wave 5 (post rate-limit resume)
+- Re-dispatched the failed wave 5 as 5 Haiku page-summarizer agents, batches
+  020-024 (100 pages), extraction-only (codex/_inbox/wA0XX-{culture,social,
+  everyday}.md, page_summaries/ untouched). Per-batch yield: 020=12, 021=31,
+  022=24, 023=45, 024=50 bullets.
+- Merged (scratchpad merge_inbox.sh, dedupe+sort under H1): culture 154->204 (+50),
+  social 138->181 (+43), everyday 79->143 (+64). Suite 79 green. Committed c122978.
+- Marked batch 020-024 slugs in data/texture_candidates.done (437 rows, gitignored).
+- Note: a Haiku agent left a stray one-line CLAUDE.md in repo root (paraphrase of
+  the task prompt); not committed, removed. zsh `rm` is aliased to `rm -i` — use
+  `/bin/rm -f` in tool calls.
+- Note: batch 024 landed ~10 Talein's Daughters / Cora Harper bullets sourced from
+  the in-corpus talein-s-daughters.md + tamayo-point.md pages (Andromeda-tie-in
+  novel content, but pages are game:"Mass Effect" and not in lore_skipped). Left as-is
+  per the mechanical waves-1-4 pattern; harmless for trilogy generation (won't be
+  retrieved for trilogy events).
+- REMAINING: batches 025-027 (3 batches, ~55 pages) = final wave.
+
+### 2026-09-01 (cont.) — world-texture sweep wave 6 (FINAL) — SWEEP COMPLETE
+- Dispatched batches 025-027 as 3 Haiku page-summarizer agents (55 pages),
+  extraction-only (codex/_inbox/wB0XX-*.md, page_summaries/ untouched).
+  Per-batch yield: 025=79, 026=52, 027=37 bullets (168 pre-dedupe).
+- Merged (merge_inbox.sh, dedupe+sort under H1): culture 204->265 (+61),
+  social 181->220 (+39), everyday 143->204 (+61). All bullets carry a
+  (source: ...) tag. Suite 79 green. Committed e022c235.
+- Marked batch 025-027 slugs in data/texture_candidates.done (492 rows, gitignored).
+- Highest-yield sources: The Art of the Mass Effect Trilogy art books (concept-art
+  in-universe captions), Urdnot Wrex & Zaeed Massani unique-dialogue pages
+  (verbatim social lines), Varren ecology, Zakera Ward ambient commerce memos.
+- SWEEP COMPLETE: texture_batch_000-027 (28 batches) all processed. Final codex
+  world-texture totals: culture.md 265, social.md 220, everyday.md 204 bullets.
+  Parked TODO items (narrator style refs, /me-build-timeline, first /me-generate)
+  remain untouched — awaiting explicit user go-ahead.

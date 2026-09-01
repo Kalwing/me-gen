@@ -6,13 +6,12 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-08-30: `/me-build-lore` summary SWEEP COMPLETE. 1635 summaries in page_summaries/
-(1631 in-scope + 4 expected extras: a-better-beginning, achievements,
-manual-arcturus-station, manual-destiny-ascension). 0 in-scope pages remaining
-(me-build-lore step-1 recompute returns empty). All codex/_inbox/ merged into
-codex/*.md (characters 442, places 178, species, tech 225, factions, ships, war,
-culture, timeline). Suite 79 green.
-NEXT ACTION (needs user go-ahead — bigger token spends):
+2026-09-01: world-texture codex extraction sweep is COMPLETE. All 28 batches
+(texture_batch_000-027, ~560 pages) processed across waves 1-6; 492 slugs in
+data/texture_candidates.done. Final codex world-texture totals: culture.md 265,
+social.md 220, everyday.md 204 bullets (all source-tagged). Last commit e022c235.
+See progress.md for per-wave bullet counts and commit hashes.
+The parked TODO items below stay parked until the user explicitly asks for them.
   1. me-build-lore step 5 — narrator style references. Dispatch narrator-style-extractor
      once per config/narrators/<slug>.yaml (garrus, jack, joker, kaidan, liara, samara,
      tali, thane, traynor, wrex) -> config/narrators/<slug>.style.md. None exist yet.
