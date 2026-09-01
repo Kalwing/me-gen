@@ -418,3 +418,47 @@
     wrex-family-armor + 3 ME1 cut-content voicelines.
 - config/narrators/ IS tracked (not gitignored) — commit the .style.md files after
   the wave + a suite run + spot-check.
+
+### 2026-09-01 — TODO sweep (user: "now do the TODO")
+- Restored context via planning-with-files. Verified suite green (79), spot-checked
+  traynor/wrex style refs, committed all 10 config/narrators/*.style.md (9fb325e).
+- Found + fixed real bug in config/narrative_choices.yaml: id `virmire_survivor` was
+  reused for two different questions (ME1 "who survived Virmire" vs ME3 "did they
+  rejoin the Normandy"), producing contradictory-looking output in the prompt summary
+  fed to outline-writer (`ME1 virmire survivor: Kaidan ... ME3 virmire survivor: yes`).
+  Renamed ME3 id to `virmire_survivor_rejoins`, clarified its prompt. Also normalized
+  stray `detail : ""` spacing. Suite still 79 green. Committed (30832df).
+- Culture/world-texture enrichment (TODO items 2-3):
+  - Found Blasto (ME3 in-universe hanar movie franchise) was wrongly filtered as
+    Andromeda content in data/lore_skipped.txt (false positive — page frontmatter
+    says `game: Mass Effect 3`). Removed that row.
+  - User's manual-page worry was a false alarm: all 24 lore/manual/*.md docs ARE
+    summarized; only the 2 slug-collision ones (arcturus-station, destiny-ascension)
+    get the `manual-` prefix, the other 22 use plain slugs (verified all 24
+    individually against page_summaries/).
+  - Dispatched page-summarizer agent (a92a54c0636d0df34): summarized blasto.md,
+    backfilled 14 new bullets into codex/culture.md from 14 already-summarized pages
+    whose flavor content (Fornax/Genit-elcor/Krogasm, elcor theater incl. Hamlet,
+    Citadel DLC cocktail menu, species drinks/snacks, galactic sports, Illium vs Omega
+    News tone, Morinth's cultural bait incl. Forta/Vaenia/Expel 10/Hallex, in-universe
+    novels, tabletop/video games) never reached the codex. culture.md 81->95 bullets.
+  - Added two new codex categories to .claude/agents/page-summarizer.md routing:
+    `social.md` (interpersonal texture between named individuals — banter, crushes,
+    rivalries, opinions about each other) and `everyday.md` (daily-life texture —
+    fashion, objects, medicine, economy, architecture, ambient fauna/flora, news).
+    User chose "expand codex/*.md categories" over a separate retrieval subsystem.
+  - Dispatched page-summarizer agent (a8125b0abde367c34) to seed both new files from
+    romance.md + 10 crew character pages + foods/drinks/game-shop.md (read-only,
+    page_summaries/ untouched). Result: codex/social.md 28 bullets (Kasumi/Jacob
+    crush, Jack-Miranda rivalry, Garrus-Tali banter, Traynor's EDI crush, Wrex's
+    species prejudices, etc.), codex/everyday.md 10 bullets (nutrient paste economics,
+    levo/dextro food friction, drink/coffee culture, in-universe advertising).
+  - DISCOVERED: codex/ was entirely gitignored — the whole curated lore digest
+    (1635-page sweep output) had never been in git history, only on disk + the user's
+    manual mass.zip backup from 2026-08-28 (now stale). Asked user; confirmed: track
+    it. Removed `codex/` from .gitignore (also added `mass.zip` to .gitignore — keep
+    the archive out of git, matches existing `config.zip` convention).
+- Suite green (79) throughout. NEXT: commit codex/ + .gitignore + page-summarizer.md
+  routing update + TODO (everything except mass.zip), then continue the TODO: verify
+  narrative_choices is otherwise sound (done), `/me-build-timeline`, surface any
+  timeline-driven open choices to the user, then generation readiness.

@@ -1,0 +1,17 @@
+# Timeline
+
+- 2069 CE: Armstrong Outpost established on Luna on the 100th anniversary of Apollo 11, beginning humanity's first era of space expansion (source: Humanity Before the Mass Relays)
+- 2075: billionaire Victor Manswell privately funded a pre-relay expedition of ~300 cryogenically frozen colonists, which was lost after launch (source: Humanity Before the Mass Relays)
+- 2103: European Space Agency established Lowell City in Eos Chasma on Mars; Steven Hackett born 2134, David Anderson born 2137 (source: Humanity Before the Mass Relays)
+- 2143: construction began on Gagarin Station ("Jump Zero") beyond Pluto, humanity's largest and most distant station (source: Humanity Before the Mass Relays)
+- 2147: element zero first detected on Mars; 2148: discovery of Prothean ruins and a cache of advanced technology and refined element zero beneath Promethei Planum, leading to mass effect physics and, the next year, the founding of the Systems Alliance (source: Humanity Before the Mass Relays)
+- 2148: the translated Mars Prothean data cache revealed that Charon, largest moon of Pluto, was a mass relay encased in ice and dormant for 50,000 years; a human science team near Pluto began excavating to reactivate it. (source: The Founding of the Systems Alliance)
+- c. 2096 CE: Canada, Mexico and the US formed the United North American States; Freedom's First destroyed the Statue of Liberty, triggering the six-year Second American Civil War won by UNAS (source: Humanity Before the Mass Relays)
+- Early 2149: Earth's eighteen largest nations, with Mars and Luna representatives, drafted and ratified the Systems Alliance Charter and pooled their science and militaries into the Systems Alliance military. (source: The Founding of the Systems Alliance)
+- It fixes key dates: Citadel Council founded 500 BCE (0 GS); Rachni Wars from 1 CE; krogan uplift 80 CE; rachni declared extinct 300 CE; Krogan Rebellions c. 700-800 CE; genophage deployed 710 CE; turians gain a Council seat 900 CE (source: Timeline).
+- It records the quarian-geth Morning War (1895 CE), humanity reaching space (1961) and discovering Prothean tech on Mars (2148) and the Charon Relay (2149), the First Contact War / Relay 314 Incident (2157), and humanity's Citadel embassy (2165) (source: Timeline).
+- Mid-2149: Rear Admiral John Grissom and several volunteers made the first crewed transit of the Charon Relay in an experimental jump ship, arriving instantly at a mass relay in the Arcturus system 36 light-years away and learning the relays formed a galaxy-spanning network; Grissom returned a celebrated pioneer and the face of the Alliance. (source: The Founding of the Systems Alliance)
+- The Andromeda Initiative was founded 2176, launched 2185, the Nexus reached the Heleus Cluster in 2818, and the Ark Hyperion arrived in 2819 (source: Timeline).
+- The page advises treating huge timescales as approximate rather than literal, since many events are backdated through Codex entries and dialogue (source: Timeline).
+- The Shepard trilogy spans 2183-2186: the Eden Prime War and Battle of the Citadel against Saren and Sovereign, the Collector conflict, Liara becoming the Shadow Broker (2185), the destruction of the Bahak system, and the Reaper invasion of 2186 (source: Timeline).
+- The Timeline page is the master chronology of the Mass Effect universe, from the Leviathans and the Intelligence's creation of Harbinger and the Reaper cycle, through the fall of the Protheans c. 48,000 BCE, to Mass Effect: Andromeda (source: Timeline).

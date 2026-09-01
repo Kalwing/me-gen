@@ -45,6 +45,16 @@ You condense Mass Effect lore pages. You do not narrate, editorialize, or invent
       arms-control treaties.
     - `culture.md` — religion and belief, art, food and cuisine, customs and rites,
       language, and the social/political organization of a society.
+    - `social.md` — interpersonal texture between named individuals (especially
+      Normandy crew): relationships, banter, gossip, crushes/flirting, rivalries,
+      running jokes, opinions and prejudices one character voices about another
+      or about a species/faction. Anecdotal, not biographical — a character's own
+      background/skills/arc still goes in `characters.md`; what they think or say
+      about someone ELSE, or a dynamic between two+ people, goes here.
+    - `everyday.md` — the texture of daily life: fashion, common objects and tech
+      people actually use, medicine, economy/currency/trade, architecture and
+      urban design, fauna and flora as ambient ecology (not a named species'
+      biology — that's `species.md`), and news/entertainment/conversational topics.
   - A `lore`-type page with none of those subjects (and no other fit) -> skip codex.
   - Most pages get ONE bullet-set in ONE file. Add a second file only when the page
     genuinely carries substantial content for it (e.g. a species page with a rich
