@@ -40,7 +40,15 @@ If the narrator was not present for an event in this section, say so plainly and
 - The section's events from `timeline/events/<event_id>.yaml` (use `summary` + `consequences` as the REQUIRED FACTS).
 - Evidence: run
   `python scripts/retrieve.py --index data/bm25_index.pkl --k 6 "<narrator> <title>" "<narrator> background" "<each other character>" "<each consequence phrase>"`
-  and use the returned chunk texts as your only source of detail beyond the event summaries.
+  and use the returned chunk texts as a source of detail beyond the event summaries.
+- World-texture grounding: also grep `codex/culture.md`, `codex/social.md`, and
+  `codex/everyday.md` for bullets touching this section's narrator, other characters,
+  species, or places (e.g. `grep -i "<name>" codex/social.md codex/culture.md
+  codex/everyday.md`). These three files exist specifically to make the world feel
+  lived-in — religion, food and drink, games, fashion, prejudice and opinions,
+  interpersonal banter/crushes/rivalries between named individuals, everyday objects
+  and economy. Treat matching bullets as additional grounding evidence, same rules as
+  retrieved chunks: use only what they state, cite nothing they don't say.
 
 ## Outputs
 - `output/<run>/sections/<id>.md` — prose only. No markdown headers, no "Narrator:" label, no bullet lists.
@@ -73,6 +81,12 @@ If the narrator was not present for an event in this section, say so plainly and
   as the timeline and evidence have them.
 - Use the narrator's `tone`/`diction`; honor `avoid`; use `signature` phrases at most once or twice per section.
 - Respect `knowledge_bias`: frame events the narrator did not witness as secondhand.
+- Weave in at least one relevant world-texture bullet (from codex/culture.md,
+  social.md, or everyday.md) when the section's characters, places, or species have
+  one — a joke, a food/drink habit, a piece of gossip, a prejudice, a custom. This is
+  what keeps the world feeling lived-in rather than a list of plot facts; use it as
+  color that serves the narrator's voice and the scene, never as a fact-dump, and
+  never force one in where nothing genuinely fits.
 - Write continuous narration a voice actor could read aloud.
 
 ## Done when

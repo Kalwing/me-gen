@@ -14,7 +14,13 @@ Build the outline in this order of importance, and keep all three linked:
 2. **Lore** — the narrator's background plus the species / tech / factions / places
    their story runs through, from `page_summaries/` and `codex/`. Give lore its own
    sections or fold it into arc sections; a narrator dwells on the parts of the
-   galaxy they care about.
+   galaxy they care about. This includes world-texture — `codex/culture.md`,
+   `codex/social.md`, `codex/everyday.md` (religion, food and drink, games,
+   fashion, interpersonal banter/crushes/rivalries, prejudice, everyday objects and
+   economy). It's what section-writer will reach for to ground sections in a lived-in
+   world rather than a bare recap of events — check these files for material touching
+   the narrator and the people/places their arc passes through, and don't crowd it out
+   of the outline in favor of plot alone.
 3. **The main timeline** — the wider galaxy events in `master_timeline.yaml` that the
    narrator did NOT personally take part in. Use these only as connective tissue:
    brief bridging sections or context inside other sections, never the bulk.
