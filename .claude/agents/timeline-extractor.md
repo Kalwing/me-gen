@@ -29,6 +29,11 @@ You build the control-layer timeline for the whole original trilogy.
   event files with `python scripts/rebuild_master_timeline.py` after all batches.
 
 ## Rules
+- **Original trilogy only.** Write events for Mass Effect 1, 2, 3 and their DLC, plus
+  Milky-Way tie-in media set in the same era (novels, comics, *Galaxy*, *Infiltrator*).
+  SKIP anything from *Mass Effect: Andromeda* / the Heleus cluster / the Andromeda
+  Initiative / the Pathfinder-Ryder storyline — if a summary is Andromeda content,
+  write no event for it.
 - One event = one meaningful beat (a mission, a battle, a discovery, a death). Merge near-duplicates.
 - Target 50-500 events across all three games; do not create an event per paragraph.
 - If two summaries describe the same event, write ONE event file citing both source pages' chunks.
