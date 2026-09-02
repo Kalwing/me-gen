@@ -730,3 +730,22 @@
   renumber + merge the 2 known dup-event pairs + command steps 8-12.
 - Known dup events still to merge: arcturus-station-destruction +
   battle-of-arcturus-station; liberation-of-omega + liberation-of-omega-afterlife-assault.
+
+### 2026-09-02 (session 2) — timeline sweep, token-minimal / pause-per-wave
+- User: continue sweep, Haiku for small batches / Sonnet for pivotal, pause + save +
+  commit after EACH wave so context can be /clear'd.
+- Prior tb2/* scratch lost with old session -> batches now re-derived from disk each
+  wave: comm -23 (page_summaries stems) (sort -u timeline/.done), next 72 -> 2x36.
+- Wave 1 (both Haiku): A=citadel-old-friends..codex, B=collector-captain..crescent-nebula.
+  A +8 events (wrex-recruitment-citadel, council-meeting-me2, conrad-verner-saga,
+  terra-firma-political-influence, citadel-dlc-identity-theft-begins,
+  saren-sovereign-final-battle, citadel-rita-s-sister-jenna, volus-ambassador-din-korlack).
+  B +3 (collector-ship-mission, ilos-conduit-citadel, london-conduit-assault).
+  61 of 72 pages yielded nothing (mechanics/stat/minor pages) — expected.
+- Bookkeeping: .done 404->476, filenames normalized (0 renames), master rebuilt
+  (52 rows, all matched, chronological_order non-decreasing), suite 86 green.
+  Committed 0505239. Remaining: 1160 stems (~16 waves).
+- Possible dups for the post-sweep merge pass: saren-sovereign-final-battle vs any
+  existing citadel-battle event; citadel-dlc-identity-theft-begins vs citadel-dlc-archives;
+  ilos-conduit-citadel vs any existing ilos event.
+- PAUSED for /clear. Resume: task_plan.md "Per-wave procedure", start wave 2.

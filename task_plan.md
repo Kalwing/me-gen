@@ -36,7 +36,10 @@ REMAINING at wave-1 start: 1232 stems (page_summaries 1636 − timeline/.done 40
 9. STOP. Tell the user the wave is done and they may /clear.
 
 ### Wave log
-- Wave 1: batches A=citadel-old-friends..codex (36), B=collector-captain..crescent-nebula (36). Both Haiku. Status: dispatched.
+- Wave 1 DONE (commit 0505239): A=citadel-old-friends..codex, B=collector-captain..crescent-nebula. Both Haiku. +11 events -> 52. .done 404->476. Suite 86. Remaining: 1160.
+- Wave 2 next: re-derive remaining.txt (step 1), take next 72. NOTE: `crucible` is near
+  the front of remaining — its batch should run on **sonnet** (endings/Catalyst lore).
+  Run pytest via `.venv/bin/python -m pytest -q`.
 
 POST-SWEEP (still TODO): (1) chronological_order renumber pass — batches each number
 10/20/30 independently so master ordering is not truly chronological (see findings.md);
