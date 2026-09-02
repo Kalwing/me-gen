@@ -6,14 +6,31 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-02: committed the sync_narrative_choices work (7638e14) — CATALOG of ~60
-canonical trilogy decision points + backfilled config/narrative_choices.yaml with
-its stubs (player canon recorded, 8 shorthand answers normalized to option strings
-so the validator passes), wired into /me-build-timeline step 8, me-gen.zip gitignored.
-Suite 86 green. STOPPED here for user review per their instruction.
+2026-09-02: /me-build-timeline is RUNNING and PAUSED at user request ("stop and save").
+State on disk (committed a683f51): 41 event files in timeline/events/, master_timeline.yaml
+rebuilt (41 rows, all matched), all dates 2157-2186 CE (scope clean). Suite 86 green.
+
+RESUME: re-run `/me-build-timeline`. It reads timeline/.done (404 stems) and continues
+with the un-done summaries. Working batch files: $SCRATCH/tb2/b000..b043 (36 stems each);
+$SCRATCH/mkpaths.sh <batchfile> emits the page_summaries/*.md path list. tb2 batches
+b000-b007 + b009 are marked done; **b008 was killed before writing and is NOT marked** —
+it re-runs. ~35 of 44 tb2 batches remain (~18 waves of 2). Use Haiku for the low-yield
+batches, Sonnet for pivotal choice-heavy missions (Virmire, Rannoch/geth-quarian,
+Tuchanka/genophage cure, Crucible endings, Citadel coup). 2 agents max at a time.
+Per wave: append batch stems to timeline/.done, normalize filenames, rebuild master,
+commit every ~2 waves.
+
+POST-SWEEP (still TODO): (1) chronological_order renumber pass — batches each number
+10/20/30 independently so master ordering is not truly chronological (see findings.md);
+(2) merge parallel-batch dup events: arcturus-station-destruction + battle-of-arcturus-station,
+liberation-of-omega + liberation-of-omega-afterlife-assault; (3) command steps 8-12
+(load check, sync_narrative_choices, report, Verify).
+
+Earlier this session (committed): sync_narrative_choices work (7638e14); timeline
+resume hardening (563d220); Andromeda cutoff rules (df.., timeline-extractor.md);
+filename==event_id fix (7d53ab1).
 World-texture codex sweep remains COMPLETE (28 batches, culture 265 / social 220 /
-everyday 204). The remaining parked TODO items stay parked until the user asks:
-`/me-build-timeline` (timeline/events/ still empty), generation-readiness wrap-up,
+everyday 204). Other parked TODO: narrator style refs (DONE, committed 9fb325e),
 first `/me-generate <narrator> "<themes>"`.
   1. me-build-lore step 5 — narrator style references. Dispatch narrator-style-extractor
      once per config/narrators/<slug>.yaml (garrus, jack, joker, kaidan, liara, samara,

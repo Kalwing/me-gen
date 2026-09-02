@@ -98,3 +98,13 @@ decision MCQs (council, Wrex, Rachni, Virmire survivor, Collector Base, genophag
 geth/quarians, final choice Destroy/Control/Synthesis/Refuse, Shepard's fate) each
 with an `answer` field + free-text `detail`. Generation agents read the answered
 subset; unanswered = default canon (warn, don't block).
+
+## Timeline build — chronological_order needs a post-run renumber (2026-09-02)
+`/me-build-timeline` runs 82 alphabetical batches; each `timeline-extractor`
+independently numbers its events 10,20,30… so across batches `chronological_order`
+collides heavily and does not reflect real chronology (alphabetical ≠ chronological).
+`rebuild_master_timeline.py` sorts by `(chronological_order, event_id)` so it stays
+deterministic and non-decreasing (Verify passes), but the ordering is not meaningful.
+FIX AFTER THE SWEEP: a renumber pass that sorts events by (game order ME1<ME2<ME3<
+tie-in, then parsed `date`) and reassigns `chronological_order` in tens, then
+re-runs `rebuild_master_timeline.py`. Not yet written.

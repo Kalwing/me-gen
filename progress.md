@@ -642,3 +642,91 @@
 - Phase 6 checkboxes updated: "verify narrative_choices" + "surface timeline-driven
   choices" now [x]. Remaining: /me-build-timeline, generation-readiness wrap-up.
 - STOPPED for user review per instruction.
+
+### 2026-09-02 (cont.) — /me-build-timeline: harden resume, then run
+- User: "make sure generate-timeline can be stopped and resumed; run it; Haiku for
+  easy agents; no more than 2 agents at a time."
+- Hardened /me-build-timeline resume (commit 563d220):
+  - Command step 2 now `mkdir -p timeline/events`, `rm -f *.yaml.tmp`, and drops any
+    event file that fails `common.load_event` (half-written by a hard stop — its
+    stems aren't in timeline/.done so the next batch rebuilds it).
+  - timeline-extractor.md: write each event file atomically (<id>.yaml.tmp then mv).
+  - Documented the resume contract (interrupted batch is redone idempotently; agent
+    skips existing event files) + 2-agent concurrency cap; only the controller
+    appends timeline/.done, one batch at a time.
+  - Suite 86 green.
+- RUN STARTED: 1636 summaries, batches of 20 -> 82 batches
+  ($SCRATCH/tbatches/b000..b081), 2 Haiku agents per wave = 41 waves. Resumable via
+  timeline/.done (currently empty). timeline/events/ empty at start.
+- Wave 1 dispatched: b000 (2175-aeia..aeian-t-goni), b001 (aethyta..anto).
+  NOTE: b001 prompt had a copy-paste smudge (duplicated first 3 path lines + stray
+  $(cat)) but carries an explicit disambiguation naming the real 20-file range.
+- On each wave complete: append batch stems to timeline/.done, then next wave.
+  After all waves: rebuild_master_timeline.py, load check, sync_narrative_choices,
+  report + Verify.
+- Wave 1 (b000-b001): 13 events. Removed 1 Andromeda false-positive (Prodromos/Eos
+  2819 CE from "a-better-beginning"); patched timeline-extractor.md with an explicit
+  "original trilogy only, skip Andromeda" rule (commit df... after 563d220).
+- Wave 2 (b002-b003): +13 -> 26 events. The Arrival/Bahak relay, Arcturus Station
+  destruction, Leviathan discovery, Omega liberation, Aria merc-recruit beats,
+  Normandy SR-1 first flight, Lesuss monastery.
+- FINDINGS note added: chronological_order collides across batches (each numbers
+  10,20,30 independently). Needs a post-sweep renumber pass (sort by game+date,
+  reassign in tens, rebuild). rebuild_master_timeline stays deterministic meanwhile.
+- Wave 3 (b004-b005) dispatched, then user interrupted the session (killed the
+  agents). b004 still completed post-kill (+arrae-ex-cerberus-scientists-rescue,
+  merged sources into arrival-bahak). b005 lost. Neither in timeline/.done -> both
+  redone. Disk reconciled: 27 event files, no .tmp, all parse, dates all <=2186 CE.
+- User asks: (a) watch main-process token growth; (b) hard cutoff = nothing after
+  Mass Effect: Andromeda's start (Initiative DEPARTURE from Milky Way ~2185 is OK;
+  Heleus / ~2819 arrival / Ryder are OUT).
+  - (b): sharpened timeline-extractor.md rule + committed. "Drop any event dated
+    after ~2190 CE." Current events clean.
+  - (a): batch size 20 -> 36 (44 batches, ~22 waves instead of 39); bookkeeping
+    (append .done + rebuild) now every 2 waves not every wave; terser prompts.
+- NEW BATCHING: $SCRATCH/tb2/b000..b043 (36 stems each), rebuilt from the 1556
+  stems not yet in timeline/.done. $SCRATCH/mkpaths.sh emits the path list.
+- KNOWN dup events from parallel batches (need an end-of-sweep merge pass):
+  arcturus-station-destruction + battle-of-arcturus-station;
+  liberation-of-omega + liberation-of-omega-afterlife-assault.
+- Wave "tb2-1" dispatched: tb2/b000 (armor-piercing-ammo..attican-beta),
+  tb2/b001 (attican-traverse..bethany-westmoreland).
+- tb2-1 DONE: tb2/b000 = 0 created / 7 enriched (idempotent merge, good).
+  tb2/b001 = +6 (Benezia/Noveria death, Kasumi/Bekenstein, Shadow Broker/Baria,
+  Avernus adjutant, Attican Traverse rachni, Benning evidence).
+  Old interrupted b005 also completed late (+5: Virmire-survivor choice,
+  Bring-Down-the-Sky, Overlord, Ashley/Eden Prime, Citadel coup) — subsumed by
+  tb2 ranges, merged fine.
+- BUG FOUND + FIXED (commit 7d53ab1): a Haiku batch wrote foo_bar.yaml for
+  event_id foo-bar (5 files), breaking master<->file match. Renamed all 5; added
+  a filename-normalize step to /me-build-timeline (now step 6, before rebuild);
+  agent def now says filename MUST equal <event_id>.yaml. Suite 86 green.
+- CHECKPOINT COMMIT 7f9608f: timeline/ first tracked (38 events). master rebuilt,
+  all 38 master rows have matching files. Dates all <=2186 CE (scope clean).
+- Wave "tb2-2" dispatched: tb2/b002 (binary-helix..bonus-content-disc-creatures-hanar),
+  tb2/b003 (bonus-content-disc-creatures-humans..caleston) — both very low-yield
+  (biotic skills, merc enemy types, dev-commentary featurettes).
+- timeline/.done = 152 stems. tb2 batches done: b000,b001 (2/44).
+- tb2-2: b002 = 0 events, b003 = 0 created / 2 enriched. (all skill/enemy/dev pages)
+- tb2-3 (b004 caleston-cut..cerberus-daily-news-july, b005 ..charles-saracino):
+  both 0 events (Cerberus armor/news archives, character-index pages).
+- tb2-4 (b006 charn..codex, b007 citadel-cerberus-retribution..citadel-oculon-syndicate):
+  b006 +1 citadel-dlc-archives (Citadel DLC clone); b007 +1 expose-saren-citadel-hearing
+  + 2 enriched (leviathan-discovery, cerberus-coup). -> 40 events. Committed 7129448.
+- tb2-5: b008 Haiku (minor citadel quests) + b009 SONNET (Suicide Mission, needs
+  branch care). b009 DONE: +1 suicide-mission (one choice-conditional event, all
+  death permutations + Collector Base fate, cites suicide_mission/collector_base/
+  iff_delay/loyalty_missions/kelly_chambers). b008 KILLED by user "stop and save"
+  before writing anything -> NOT in timeline/.done, re-runs on resume.
+
+### 2026-09-02 — /me-build-timeline PAUSED at user request ("stop and save")
+- Stopped agent tb2-b008. Reconciled disk: rm *.yaml.tmp (none), dropped 0 partials,
+  0 filename mismatches. Marked tb2/b009 done. Rebuilt master.
+- STATE (committed a683f51): 41 event files, master_timeline.yaml 41 rows all matched,
+  dates 2157-2186 CE (scope clean, nothing post-Andromeda). Suite 86 green.
+  timeline/.done = 404 stems. tb2 done: b000-b007 + b009 (9/44). ~35 batches remain.
+- RESUME: re-run /me-build-timeline (or continue the tb2/bNNN waves manually per
+  task_plan.md Next Step). b008 will redo. Then post-sweep: chronological_order
+  renumber + merge the 2 known dup-event pairs + command steps 8-12.
+- Known dup events still to merge: arcturus-station-destruction +
+  battle-of-arcturus-station; liberation-of-omega + liberation-of-omega-afterlife-assault.
