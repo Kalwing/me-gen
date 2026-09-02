@@ -37,9 +37,17 @@ REMAINING at wave-1 start: 1232 stems (page_summaries 1636 − timeline/.done 40
 
 ### Wave log
 - Wave 1 DONE (commit 0505239): A=citadel-old-friends..codex, B=collector-captain..crescent-nebula. Both Haiku. +11 events -> 52. .done 404->476. Suite 86. Remaining: 1160.
-- Wave 2 next: re-derive remaining.txt (step 1), take next 72. NOTE: `crucible` is near
-  the front of remaining — its batch should run on **sonnet** (endings/Catalyst lore).
-  Run pytest via `.venv/bin/python -m pytest -q`.
+- Wave 2 DONE (commit PENDING): A=crooks..din-korlack (sonnet, had `crucible`), B=director..eclipse-heavy (haiku).
+  +15 events -> 67. .done 476->548. Suite 86 green. Remaining: 1088 (~15 waves).
+  A: crucible-superweapon-project, derelict-reaper-iff-mission, desolas-arterius-palaven-coup,
+  sidon-research-station-attack, dekuuna-elcor-evacuation, fehl-prime-collector-attack,
+  horizon-collector-attack (+3 updated: normandy-first-test-flight, overlord-david-archer,
+  volus-ambassador-din-korlack). B: 8 ME2 recruitment dossiers (garrus/tali/jack/samara/
+  mordin/zaeed/grunt-recruitment-*, drell-rescue-kahje).
+- Wave 3 next: re-derive remaining.txt (step 1), take next 72. Run pytest via `.venv/bin/python -m pytest -q`.
+- Dup-merge candidates for post-sweep: horizon-collector-attack vs any existing horizon event;
+  derelict-reaper-iff-mission vs any existing reaper-iff/legion event.
+- NOTE: commit 0505239 accidentally added mass2.zip (29MB binary). Flag to user for history cleanup.
 
 POST-SWEEP (still TODO): (1) chronological_order renumber pass — batches each number
 10/20/30 independently so master ordering is not truly chronological (see findings.md);

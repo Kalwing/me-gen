@@ -749,3 +749,19 @@
   existing citadel-battle event; citadel-dlc-identity-theft-begins vs citadel-dlc-archives;
   ilos-conduit-citadel vs any existing ilos event.
 - PAUSED for /clear. Resume: task_plan.md "Per-wave procedure", start wave 2.
+
+### 2026-09-02 (session 2) — timeline sweep wave 2
+- Wave 2: A=crooks..din-korlack (sonnet — batch held `crucible`), B=director..eclipse-heavy (haiku).
+  +15 events -> 67. .done 476->548. Suite 86 green. Remaining: 1088 stems (~15 waves).
+- Batch A +7 new: crucible-superweapon-project, derelict-reaper-iff-mission,
+  desolas-arterius-palaven-coup, sidon-research-station-attack, dekuuna-elcor-evacuation,
+  fehl-prime-collector-attack, horizon-collector-attack. +3 updated: normandy-first-test-flight,
+  overlord-david-archer, volus-ambassador-din-korlack.
+- Batch B +8 new: garrus/tali/jack/samara/mordin/zaeed/grunt-recruitment-* (ME2 dossiers),
+  drell-rescue-kahje. ~26 of 36 pages yielded nothing (mechanics/enemy-type/lore-catalog) — expected.
+- Bookkeeping: filenames normalized (0 renames), master rebuilt (67 rows, all matched,
+  chronological_order non-decreasing, first abrudas-trap-shanxi / last london-conduit-assault).
+- Dup-merge candidates for post-sweep: horizon-collector-attack vs existing horizon event;
+  derelict-reaper-iff-mission vs existing reaper-iff/legion event.
+- Noted: commit 0505239 accidentally committed mass2.zip (29MB binary) — flagged to user.
+- PAUSED for /clear. Resume: task_plan.md "Per-wave procedure", start wave 3.
