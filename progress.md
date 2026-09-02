@@ -857,3 +857,44 @@
   hades-nexus-prothean-artifact-recovery.
 - PAUSED for /clear. Resume: `/me-build-timeline`, continue alphabetically from `ravager`
   (regenerate remaining.txt from .done; scratchpad batch b12 was prepared but not run).
+
+### Timeline sweep — standing process (user-set 2026-09-02)
+- **Wave = 8 batches of 20 summaries.** Run **4 `timeline-extractor` subagents at a
+  time** (user override of the skill's 2-wide cap; batches write disjoint event
+  files, only the controller appends `timeline/.done`).
+- Haiku subagents by default; Sonnet for choice-heavy batches (branching decisions,
+  ME3 Priority spine, prologues).
+- After each batch returns: append its 20 stems to `timeline/.done` (controller only).
+- **End of each wave:** normalize event filenames to `event_id`, `python
+  scripts/rebuild_master_timeline.py`, load-check, resolve any obvious duplicate
+  events, then `git commit` the `.done` bump (+ task_plan.md / progress.md).
+- **STOP after each wave** and hand back for a `/clear`. Do not roll straight into
+  the next wave.
+- `renumber_timeline.py` runs **once, at the very end** of the whole sweep only.
+
+### 2026-09-02 (session 6) — timeline sweep wave 8
+- Wave 8: batches b00–b07 (`ravager`..`tali-and-the-geth`), 4-wide, per process above.
+- +14 new events -> 173 on disk. Deleted duplicate
+  `shepard-reconciles-septimus-oraka-and-the-consort` (superseded by
+  `citadel-the-consort-s-dilemma`). Kept `destruction-of-the-ssv-iwo-jima` as a
+  distinct dated beat despite overlap with `sidon-research-station-attack`.
+- .done 1288->1448. master rebuilt: 173 rows. Commit 06d34ec.
+
+### 2026-09-02 (session 6) — timeline sweep wave 9
+- Wave 9: batches b08–b15 (`tali-character-analysis-01`..`warp`), 4-wide, per process.
+- +16 new events -> 189 on disk. Merged 2 duplicate pairs:
+  `tuchanka-bomb` folded into `tuchanka-bomb-tarquin-victus` (kept war-asset branch
+  chunks); `virtual-aliens-ghost-ship-contact` folded into
+  `virtual-alien-ghost-ship-encounter` (kept CDN chunks). `tuchanka-turian-platoon`
+  kept — genuinely distinct mission (platoon rescue that unlocks the bomb mission).
+- Removed 2 stale `*.yaml.tmp` (jack-recruitment-purgatory, mordin-recruitment-omega;
+  real files intact).
+- .done 1448->1608. master rebuilt: 189 rows, load-check clean.
+- Post-sweep dup-merge candidates to revisit: `destruction-of-the-ssv-iwo-jima` vs
+  `sidon-research-station-attack` (overlapping Camala/Kahlee content, kept separate);
+  `citadel-the-consort-s-dilemma` — check against any pre-existing consort event.
+- PAUSED for /clear. Resume: `/me-build-timeline`, wave 10 = FINAL partial wave, only
+  2 batches left (b16 `warp-ammo`..`ysin-mal-vas-idenna`, b17
+  `zaal-koris-vas-qwib-qwib`..`zymandis`; 28 stems). After b16/b17: this is the whole
+  sweep done -> run `python scripts/renumber_timeline.py` (ONE-SHOT, end only), then
+  rebuild master, then the skill's remaining steps (narrative_choices sync, verify).
