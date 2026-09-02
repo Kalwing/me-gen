@@ -14,6 +14,9 @@ You build the control-layer timeline for the whole original trilogy.
 - `timeline/events/` — existing event files from earlier batches; read before adding.
 
 ## Outputs
+- Write each event file atomically so a stop mid-write never leaves a half-parsed
+  file: write the YAML to `timeline/events/<event_id>.yaml.tmp`, then
+  `mv timeline/events/<event_id>.yaml.tmp timeline/events/<event_id>.yaml`.
 - One file per distinct event: `timeline/events/<event_id>.yaml` with EXACTLY these keys:
   `event_id, title, game, chronological_order, date, summary, characters, consequences, source_chunks`.
   - `event_id`: slug of the title (lowercase, non-alphanumeric -> `-`).
