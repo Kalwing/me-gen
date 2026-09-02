@@ -17,7 +17,7 @@ shepard:
     prompt: Shepard's psychological profile / reputation.
     options: [Sole Survivor]
     answer: ""
-    detail: "Paragon, except against oppressors"
+    detail: ""
   - id: class
     prompt: Shepard's combat class.
     options: [Vanguard]
@@ -33,6 +33,16 @@ shepard:
     options: []
     answer: "Jack, Tali, Kaidan, Thane"
     detail: "Depends on the run. But I stay faithful all trilogy long."
+  - id: first_name
+    prompt: Shepard's first name.
+    options: []
+    answer: "Thomas"
+    detail: ""
+  - id: alignment
+    prompt: Shepard's overall morality lean across the trilogy.
+    options: [Paragon, Renegade, mixed]
+    answer: "mixed"
+    detail: "Paragon, except against oppressors"
 
 me1:
   - id: council_fate
@@ -41,7 +51,7 @@ me1:
     answer: ""
     detail: "To focus on Sovereign, not to kill them"
   - id: kirrahe_virmire
-    prompt: How did the mission go when attacking the Virmire base ?
+    prompt: Kirrahe and the salarian STG team at the Virmire base.
     options: []
     answer: "Helped Kirrahe and his man, did all the side quest, Kirrahe survives"
     detail: "He comes back in ME3"
@@ -51,20 +61,40 @@ me1:
     answer: ""
     detail: ""
   - id: rachni_queen
-    prompt: The Rachni queen on Noveria.
+    prompt: The rachni queen on Noveria.
     options: [freed]
     answer: ""
     detail: "I could never kill a whole specie, no matter the risk"
   - id: virmire_survivor
-    prompt: Who survived Virmire.
+    prompt: Who survived Virmire (Ashley or Kaidan).
     options: [Kaidan]
     answer: ""
     detail: ""
   - id: council_composition
-    prompt: The new Council's composition after the battle (human-led? all-alien? who sits on it?).
+    prompt: The new Council's composition after the battle (human-led, all-alien, who sits on it).
     options: []
     answer: "Multi species, led by Anderson"
     detail: "The people that should be in power, are those that aren't hungry for it. ANd all species deserves a say."
+  - id: feros_colony
+    prompt: Feros - the ExoGeni colonists, the Thorian, and Shiala's fate.
+    options: []
+    answer: "Saved all colonist, Shiala survived, Jeong agreed to help"
+    detail: ""
+  - id: bring_down_the_sky
+    prompt: Bring Down the Sky - the batarian extremist Balak on Asteroid X57.
+    options: [Balak stopped, Balak let go]
+    answer: "Balak let go"
+    detail: "Couldn't risk the lives of the hostages"
+  - id: conrad_verner
+    prompt: The first run-in with Conrad Verner on the Citadel.
+    options: [talked him down, drew a weapon on him]
+    answer: "talked him down"
+    detail: ""
+  - id: saren_confrontation
+    prompt: Saren in the Citadel Tower.
+    options: [talked into suicide, fought to the death]
+    answer: "talked into suicide"
+    detail: ""
 
 me2:
   - id: collector_base
@@ -73,54 +103,59 @@ me2:
     answer: ""
     detail: "Would have kept it if it wasn't given to Cerberus. The technology in there would have given us an edge if the council had it. But not to a pro-human terrorist group that already did experiments with reaper tech on peoples (see ME1)"
   - id: zaeed_loyalty
-    prompt: What happened to Vido
+    prompt: Zaeed's loyalty mission - the refinery and Vido Santiago.
     options: [lived]
     answer: ""
     detail: "Couldn't let the workers die. Convinced Zaeed to stay with us."
   - id: grunt_loyalty
-    prompt: What happened to Grunt
+    prompt: Grunt's loyalty mission - the Rite of Passage on Tuchanka.
     options: []
     answer: "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot"
     detail: ""
   - id: samara_loyalty
-    prompt: What happened to Morinth
+    prompt: Samara's loyalty mission - the hunt for Morinth.
     options: [killed]
     answer: ""
     detail: "She killed innocent people. Doesn't matter that she's an Ardak Yakshi. Samara Joined us"
   - id: kasumi_loyalty
-    prompt: What happened to the greybox
+    prompt: Kasumi's loyalty mission - Keiji's graybox.
     options: [kept]
     answer: ""
     detail: "She had the right to choose, and she kept it."
   - id: jacob_loyalty
-    prompt: What happened to Jacob's father
+    prompt: Jacob's loyalty mission - his father on Aeia.
     options: [alliance]
     answer: ""
     detail: "Got imprisonned by the Alliance. He deserved to pay."
   - id: miranda_loyalty
-    prompt: Did she talk to her sister
+    prompt: Miranda's loyalty mission - protecting Oriana.
     options: [yes]
     answer: ""
+    detail: "She talked to Oriana at the end"
+  - id: tali_trial
+    prompt: Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.
+    options: []
+    answer: "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people"
     detail: ""
   - id: jack_meeting
-    prompt: Did you have sex with her when meeting her.
-    options: [no]
-    answer: ""
+    prompt: The casual encounter Jack offers when first recruited.
+    options: []
+    answer: "Didn't follow it"
     detail: "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
   - id: jack_loyalty
-    prompt: Did she shoot the ex-inmate, Aresh, on Pragia
-    options: [no]
-    answer: ""
+    prompt: Jack's loyalty mission - Aresh at the Pragia facility.
+    options: []
+    answer: "Saved Aresh"
     detail: "He was broken, and deserved help"
   - id: mordin_loyalty
-    prompt: What happened to the data 
-    options: [saved]
-    answer: ""
+    prompt: Mordin's loyalty mission - Maelon and the genophage data.
+    options: []
+    answer: "saved the data"
     detail: "He didn't kill his student and kept the data"
   - id: garrus_loyalty
-    prompt: Did he kill the killer
-    options: [yes]
-    answer: ""
+    prompt: Garrus's loyalty mission - Sidonis.
+    options: []
+    answer: "Killed"
     detail: "He deserved to pay"
   - id: suicide_mission
     prompt: Who lived and who died in the Suicide Mission.
@@ -128,14 +163,14 @@ me2:
     answer: "Nobody died"
     detail: "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
   - id: iff_delay
-    prompt: Did the allies die ?
-    options: [no]
-    answer: ""
+    prompt: Whether the abducted Normandy crew survived (how long you delayed after the IFF mission).
+    options: []
+    answer: "All survived"
     detail: "Did the IFF mission immediately, they all lived"
   - id: shadow_broker
-    prompt: What happened to Liara
+    prompt: The Lair of the Shadow Broker - Liara and the Broker's fate.
     options: []
-    answer: "She became the Shadow Broker"
+    answer: "She became the Shadow Broker, the past broker died"
     detail: ""
   - id: loyalty_missions
     prompt: Which squad loyalty missions were completed.
@@ -143,49 +178,64 @@ me2:
     answer: "All of them"
     detail: ""
   - id: arrival
-    prompt: The Arrival — the batarian Alpha Relay and the Bahak system.
+    prompt: The Arrival - the batarian Alpha Relay and the Bahak system.
     options: []
     answer: "Tried to warn the batarian. Couldn't save it."
     detail: "Stayed in the fight long enough that the game had to stop it itself."
+  - id: thane_loyalty
+    prompt: Thane's loyalty mission - his son Kolyat on the Citadel.
+    options: []
+    answer: "Freed the son, they reconciled, saved Mouse"
+    detail: ""
+  - id: legion_loyalty
+    prompt: Legion's loyalty mission - the heretic geth station.
+    options: [heretics rewritten, heretics destroyed]
+    answer: "heretics rewritten"
+    detail: ""
+  - id: overlord
+    prompt: Overlord - David Archer after the VI experiment.
+    options: [left with Cerberus, sent to Grissom Academy]
+    answer: "sent to Grissom Academy"
+    detail: ""
+  - id: kelly_chambers
+    prompt: Yeoman Kelly Chambers after the Collector abduction.
+    options: [survived, lost]
+    answer: "survived"
+    detail: ""
 
 me3:
   - id: joker_edi_romance
-    prompt: How did you react about Joker and EDI's romance
+    prompt: Joker and EDI's relationship - whether you encouraged it.
     options: [encouraged]
     answer: ""
     detail: "I believe love can come in unexpected places, and Joker deserves it more than many."
   - id: genophage
-    prompt: What is the state of the genophage.
+    prompt: The state of the genophage.
     options: [cured]
     answer: ""
     detail: "Again, i'm no one to decide the faith of a species. And control of the autonomies of woman is worrying (see Francoise Verges). Eve lived."
   - id: krogan_leader
-    prompt: The Krogan leader during the cure.
+    prompt: The krogan leader during the cure (Wrex or Wreav).
     options: [Wrex]
     answer: ""
     detail: "My brother from another mother"
   - id: geth_quarian
-    prompt: Geth vs Quarians at Rannoch.
+    prompt: Geth versus quarians at Rannoch.
     options: [peace]
     answer: ""
     detail: "Couldn't lose anyone"
   - id: rannoch
-    prompt: What happened at Rannoch (who lived, Legion, Tali's fate).
+    prompt: Rannoch's outcome - who lived, Legion's fate, Tali's fate.
     options: []
     answer: "Everyone lived and stayed happy"
     detail: ""
-  - id: tali_trial
-    prompt: How did Tali's trial go.
-    options: []
-    answer: "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people"
-    detail: ""
   - id: grunt_fate
-    prompt: Grunt — how the mission with the Rachni went.
+    prompt: Grunt and Aralakh Company at the Attican Traverse rachni mission.
     options: []
     answer: "Saved the Rachni. He got out Alive"
     detail: ""
   - id: omega
-    prompt: Did Aria took Omega back
+    prompt: The Omega DLC - whether Aria retook Omega.
     options: [yes]
     answer: ""
     detail: ""
@@ -195,37 +245,37 @@ me3:
     answer: "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)"
     detail: ""
   - id: thessia
-    prompt: Thessia — how the mission for the Prothean VI went.
+    prompt: Thessia - the mission for the Prothean VI and Kai Leng.
     options: []
     answer: "Brought Javik. Would have easily killed Kai Leng if not for plot armor."
     detail: ""
   - id: miranda_fate
-    prompt: What happened to Miranda
+    prompt: Miranda's fate at the Sanctuary facility.
     options: [lived]
     answer: ""
     detail: ""
   - id: virmire_survivor_rejoins
-    prompt: Did the Virmire survivor (from ME1's virmire_survivor) rejoin the Normandy crew in ME3.
+    prompt: Whether the Virmire survivor (see me1 virmire_survivor) rejoined the Normandy crew.
     options: [yes]
     answer: ""
     detail: ""
   - id: samara_daughter
-    prompt: What happens in the Ardat Yakshi temple
+    prompt: The Ardat-Yakshi monastery - Falere, Rila, and Samara's fate.
     options: []
     answer: "Saved her daughter, stopped Samara from killing herself"
     detail: ""
   - id: javik
-    prompt: Did Javik join the team
+    prompt: Whether Javik joined the squad (From Ashes).
     options: [yes]
     answer: ""
     detail: ""
   - id: allers
-    prompt: Did Diana Allers join the team
+    prompt: Whether Diana Allers joined the Normandy as embedded press.
     options: [yes]
     answer: ""
     detail: ""
   - id: conrad
-    prompt: Did Conrad help with the Crucible ?
+    prompt: Whether Conrad Verner helped gather war assets on the Citadel.
     options: [yes]
     answer: ""
     detail: "I helped him all along, and got the matriarch writings"
@@ -233,9 +283,44 @@ me3:
     prompt: The final choice at the Crucible.
     options: [Destroy, Control, Synthesis, Refuse]
     answer: "Synthesis"
-    detail: "Destroy mean genocide for synthetics. Control mean having absolute powers for basically eternity, and power corrupts all, I'm not above it. Refuse is stupid. Synthesis is the lesser evil."
+    detail: "Destroy means genocide for synthetics. Control means having absolute powers for basically eternity, and power corrupts all, I'm not above it. Refuse is stupid. Synthesis is the lesser evil of those choices."
   - id: shepard_fate
     prompt: Shepard's fate at the end.
     options: []
     answer: "Dead (synthesis)"
+    detail: ""
+  - id: grissom_academy
+    prompt: Grissom Academy - Jack and the biotic students.
+    options: []
+    answer: "Student sent to the support lines, as per Jack's request"
+    detail: ""
+  - id: tuchanka_bomb
+    prompt: Priority Tuchanka - the genophage-project bomb.
+    options: []
+    answer: "Deactivated the bomb and told Wrex"
+    detail: ""
+  - id: mordin_fate
+    prompt: Mordin at the Shroud during the genophage cure.
+    options: [died at the Shroud, survived]
+    answer: "died at the Shroud"
+    detail: ""
+  - id: salarian_councilor
+    prompt: The salarian Dalatrass's offer to trade the cure for STG support.
+    options: [refused the deal, took the deal]
+    answer: "refused the deal"
+    detail: ""
+  - id: citadel_coup
+    prompt: The Cerberus coup on the Citadel - Udina, the Virmire survivor at gunpoint, Thane's intervention.
+    options: []
+    answer: "Killed udina, convinced the survivor to join, thane died protecting the dalatrass"
+    detail: ""
+  - id: leviathan
+    prompt: Leviathan - tracking down and dealing with the Leviathans.
+    options: []
+    answer: "Leviathans joined the fight with us"
+    detail: ""
+  - id: ending_epilogue
+    prompt: The epilogue beats - the squad's fate, the memorial wall, the Normandy, the stargazer.
+    options: []
+    answer: ""
     detail: ""
