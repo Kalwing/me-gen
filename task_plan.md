@@ -6,12 +6,15 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-01: world-texture codex extraction sweep is COMPLETE. All 28 batches
-(texture_batch_000-027, ~560 pages) processed across waves 1-6; 492 slugs in
-data/texture_candidates.done. Final codex world-texture totals: culture.md 265,
-social.md 220, everyday.md 204 bullets (all source-tagged). Last commit e022c235.
-See progress.md for per-wave bullet counts and commit hashes.
-The parked TODO items below stay parked until the user explicitly asks for them.
+2026-09-02: committed the sync_narrative_choices work (7638e14) — CATALOG of ~60
+canonical trilogy decision points + backfilled config/narrative_choices.yaml with
+its stubs (player canon recorded, 8 shorthand answers normalized to option strings
+so the validator passes), wired into /me-build-timeline step 8, me-gen.zip gitignored.
+Suite 86 green. STOPPED here for user review per their instruction.
+World-texture codex sweep remains COMPLETE (28 batches, culture 265 / social 220 /
+everyday 204). The remaining parked TODO items stay parked until the user asks:
+`/me-build-timeline` (timeline/events/ still empty), generation-readiness wrap-up,
+first `/me-generate <narrator> "<themes>"`.
   1. me-build-lore step 5 — narrator style references. Dispatch narrator-style-extractor
      once per config/narrators/<slug>.yaml (garrus, jack, joker, kaidan, liara, samara,
      tali, thane, traynor, wrex) -> config/narrators/<slug>.style.md. None exist yet.
@@ -131,9 +134,12 @@ descoped to README/suite/status, live run + real episode generation moved to
       open-ended ("I don't know where all that should be kept"). NOT started; needs a
       design decision (where retrievable, keyword-search shape, resumability) before
       building. Asking user for direction rather than guessing.
-- [ ] Verify narrative_choices.yaml config is functional/well-written.
+- [x] Verify narrative_choices.yaml config is functional/well-written — validator clean
+      after 8 answer normalizations; committed 7638e14.
+- [x] Surface timeline-driven choices not covered by narrative_choices.yaml — done via
+      scripts/sync_narrative_choices.py CATALOG (~60 decision points, --check gate);
+      user filled canon for the new stubs. Committed 7638e14.
 - [ ] `/me-build-timeline` (timeline/events/ still empty).
-- [ ] Surface any timeline-driven choices not covered by narrative_choices.yaml, ask user.
 - [ ] Final process/system wrap-up for generation readiness.
 - **Status:** in_progress
 

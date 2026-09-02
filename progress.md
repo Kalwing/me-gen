@@ -599,3 +599,46 @@
   world-texture totals: culture.md 265, social.md 220, everyday.md 204 bullets.
   Parked TODO items (narrator style refs, /me-build-timeline, first /me-generate)
   remain untouched — awaiting explicit user go-ahead.
+
+### Session resume 2026-09-02 — /pwf context restore
+- Ran planning-with-files restore. session-catchup: no unsynced context. Re-read all
+  three planning files + findings.md. HEAD cddb2ca.
+- STATE RECONCILED against git — there is UNCOMMITTED, UNLOGGED work on disk:
+  - NEW `scripts/sync_narrative_choices.py` (233 lines) + `tests/test_sync_narrative_choices.py`
+    (108 lines, +7 tests). A CATALOG of ~60 canonical trilogy decision points
+    (shepard/me1/me2/me3); `sync` appends a blank stub (answer:""/detail:"", options
+    pre-filled where discrete) for every catalogue id absent from the file, touching
+    nothing that already exists; `--check` reports gaps and exits 1.
+  - `config/narrative_choices.yaml` MODIFIED (+157/-41): the sync script has been run
+    against it — many stub questions added (first_name, alignment, feros_colony,
+    bring_down_the_sky, conrad_verner, saren_confrontation, all me2 loyalty missions,
+    most me3 beats…), plus several existing prompts reworded to drop `": "` so they
+    emit unquoted. Existing answers/details preserved.
+  - `.claude/commands/me-build-timeline.md` MODIFIED: new step 8 runs
+    `sync_narrative_choices.py` after the load check; steps renumbered; Verify section
+    adds a `--check` assertion.
+  - Untracked `me-gen.zip` (28 MB, 2026-08-30) — user backup archive, keep out of git
+    (matches config.zip / mass.zip convention; not yet in .gitignore).
+- Suite: `.venv/bin/pytest -q` → 86 passed (was 79; +7 from the new test file). Green.
+- This directly advances Phase 6 TODO items "Verify narrative_choices.yaml config" and
+  "Surface timeline-driven choices not covered by narrative_choices.yaml". Looks
+  complete and tested; needs a commit decision + user review of the new blank stubs.
+- NEXT: get user direction — commit the sync work, then choose among remaining Phase 6
+  items (/me-build-timeline, generation-readiness wrap-up) or first /me-generate.
+- User chose: "just commit the sync work" then stop for review.
+- Pre-commit check caught that config/narrative_choices.yaml did NOT validate:
+  8 stub answers the user filled were shorthand not matching the pre-filled option
+  strings (bring_down_the_sky 'Let go', conrad_verner 'Talked him down',
+  saren_confrontation 'Talked into suicide', legion_loyalty 'Rewritten',
+  overlord 'sent to Grissom', kelly_chambers 'Survived', mordin_fate 'Died',
+  salarian_councilor 'Refused'). The test suite never loads the real config so
+  pytest stayed green. User chose "normalize my answers to the option strings" —
+  rewrote all 8 to the option verbatim. `scripts/narrative_choices.py
+  config/narrative_choices.yaml` now clean; `sync_narrative_choices.py --check`
+  reports complete.
+- Committed 7638e14: sync_narrative_choices.py + test (+7), backfilled
+  narrative_choices.yaml, me-build-timeline.md step 8 + Verify assertion,
+  .gitignore += me-gen.zip. Suite 86 green. Working tree clean.
+- Phase 6 checkboxes updated: "verify narrative_choices" + "surface timeline-driven
+  choices" now [x]. Remaining: /me-build-timeline, generation-readiness wrap-up.
+- STOPPED for user review per instruction.
