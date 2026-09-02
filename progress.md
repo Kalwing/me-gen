@@ -765,3 +765,30 @@
   derelict-reaper-iff-mission vs existing reaper-iff/legion event.
 - Noted: commit 0505239 accidentally committed mass2.zip (29MB binary) — flagged to user.
 - PAUSED for /clear. Resume: task_plan.md "Per-wave procedure", start wave 3.
+
+### 2026-09-02 (session 3) — timeline sweep wave 4 (PARTIAL) + chronological_order concern
+- Ran batches 000–004 (100 stems, `eva-cor`..`greg-adams`). .done 588→688. Events 76→98 on disk.
+  Batches 005–009 dispatched but 005 & 006 died on session rate limit (resets 12:40 Paris);
+  005–009 NOT in .done — re-run next session (idempotent, extractor skips existing event files).
+  Deleted accidental mass2.zip (29MB) in this commit.
+- New events this wave incl: first-contact-war, priority-mars, priority-sur-kesh,
+  genophage-cure-tuchanka, shadow-broker-base-hagalaz, morning-war /
+  quarian-geth-morning-war, genophage-deployed-*, geth-heretic-schism,
+  legion-a-house-divided-heretic-station, rannoch-quarian-geth-war-resolution,
+  freedom-s-progress-investigation, garrus-eye-for-an-eye, grunt-rite-of-passage-tuchanka,
+  ascension-project-cerberus-exposure, cerberus-assault-on-the-idenna.
+- **OPEN ISSUE (user-flagged): `chronological_order` integers are unreliable across batches.**
+  Each timeline-extractor batch runs isolated/parallel and guesses a *global* integer from
+  ~20 summaries + existing files; no coordination, and NOTHING renumbers them afterward.
+  Result: ME3 events (2186) interleaved into the ME1 range — e.g. adjutant-outbreak-omega
+  (2186) at order 40 between two Eden Prime (2183) events; council-meeting-me2 (2185) at 155
+  mid-ME1; battle-of-arcturus-station (2186) tied at 310 with arrival-bahak (2185).
+  The skill "Verify" check ("non-decreasing") is vacuous — rebuild sorts by that key.
+  Every event DOES carry a `date` field (`YYYY CE` / `approx. YYYY CE` / `YYYY-YYYY CE`).
+  PROPOSED FIX (needs user decision): add `scripts/renumber_timeline.py` — deterministic
+  pass run once after the sweep: sort by (parsed year, game rank ME1<ME2<ME3, current
+  order as local hint), reassign chronological_order in steps of 10. Intra-year order
+  (2183 ~20 events, 2186 dozens) stays approximate unless a mission-sequence anchor list
+  is added. Until then the integers are only locally meaningful within one batch.
+- PAUSED for /clear (rate limit + awaiting user call on the renumber approach).
+  Resume: re-run wave 4 batches 005–009, then continue alphabetically from `grenade-upgrades`.
