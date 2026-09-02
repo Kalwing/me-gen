@@ -45,27 +45,39 @@ idempotent (no duplicate events).
      [ -n "$id" ] && [ "$id" != "$(basename "$f" .yaml)" ] && mv "$f" "timeline/events/$id.yaml"
    done
    ```
-7. Rebuild the master index: `python scripts/rebuild_master_timeline.py`
+7. **Renumber — only when the whole sweep is done** (the step-3 to-do list came
+   back empty): `python scripts/renumber_timeline.py`. Each `timeline-extractor`
+   batch guesses a *global* `chronological_order` in isolation, so mid-sweep the
+   integers are only locally sorted (ME3 events land in the ME1 range). This
+   one-shot deterministic pass re-derives the order from data every event already
+   carries — `(year parsed from date, game rank ME1<ME2<ME3, prior order as a
+   hint)` — and rewrites `chronological_order` as 10, 20, 30, … It is idempotent,
+   touches only the `chronological_order:` line of each file, and also rebuilds
+   `master_timeline.yaml` (so step 8 is then a no-op). **Skip it on a partial
+   sweep** — run it once, at the very end.
+8. Rebuild the master index: `python scripts/rebuild_master_timeline.py`
    (atomic; safe to run repeatedly).
-8. Run the load check:
+9. Run the load check:
    `python -c "from pathlib import Path; from scripts import common; print(len(common.load_events(Path('timeline/events'))), 'events')"`
-9. Check the player's canon file: `test -f config/narrative_choices.yaml`. It is a
+10. Check the player's canon file: `test -f config/narrative_choices.yaml`. It is a
    tracked file and should always be present.
-10. Backfill the canon catalogue:
+11. Backfill the canon catalogue:
    `python scripts/sync_narrative_choices.py config/narrative_choices.yaml`.
    This appends a blank stub (`answer: ""`, `detail: ""`, with `options` pre-filled
    where the outcome is discrete) for every canonical trilogy decision point not
    already in the file — existing questions, answers and ordering are never touched,
    so it is a no-op once the file is complete. Report which ids (if any) it added.
-11. Remind the user to review `config/narrative_choices.yaml` and set `answer`/`detail`
+12. Remind the user to review `config/narrative_choices.yaml` and set `answer`/`detail`
    (or narrow `options` to one value) for whatever they remember of their playthrough
-   (Shepard background/profile/class, ME1/2/3 decisions), including any stubs step 10
+   (Shepard background/profile/class, ME1/2/3 decisions), including any stubs step 11
    just added. Anything left blank falls back to default canon.
-12. Report the event count and the first/last entries of `timeline/master_timeline.yaml`.
+13. Report the event count and the first/last entries of `timeline/master_timeline.yaml`.
 
 ## Verify
 - Every `event_id` in `master_timeline.yaml` has a matching `timeline/events/<id>.yaml`.
 - `chronological_order` is non-decreasing in `master_timeline.yaml`.
+- After a completed sweep, `python scripts/renumber_timeline.py --check` reports
+  nothing out of place (events ordered by in-universe year, then game).
 - Event count is between 50 and 500.
 - Spot-check 3 events: `source_chunks` ids exist in `chunks.jsonl` and are on-topic.
 - `config/narrative_choices.yaml` exists and `python scripts/narrative_choices.py config/narrative_choices.yaml` runs clean.

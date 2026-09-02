@@ -16,7 +16,8 @@ def test_lore_commands_present_and_reference_their_tools():
     checks = {
         "me-scrape": ["scripts/scrape_wiki.py", "scripts/chunk.py", "scripts/build_bm25.py"],
         "me-build-lore": ["page-summarizer"],
-        "me-build-timeline": ["timeline-extractor", "config/narrative_choices.yaml"],
+        "me-build-timeline": ["timeline-extractor", "config/narrative_choices.yaml",
+                              "scripts/renumber_timeline.py"],
     }
     for name, needles in checks.items():
         p = CMDS / f"{name}.md"

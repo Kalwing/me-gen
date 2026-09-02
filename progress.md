@@ -792,3 +792,18 @@
   is added. Until then the integers are only locally meaningful within one batch.
 - PAUSED for /clear (rate limit + awaiting user call on the renumber approach).
   Resume: re-run wave 4 batches 005–009, then continue alphabetically from `grenade-upgrades`.
+
+### 2026-09-02 (session 3 cont.) — renumber decision: RESOLVED
+- User: "Renumber at the end of all timeline generation ... Add that as a script/command after."
+- Built `scripts/renumber_timeline.py`: deterministic one-shot pass. Sort key
+  `(parse_year(date), game_rank ME1<ME2<ME3, current chronological_order, event_id)`;
+  rewrites chronological_order as 10,20,30,… touching only that one line per file;
+  idempotent; also rebuilds master. Flags: `--dry-run`, `--check` (exit 1 on drift),
+  `--no-rebuild`. Intra-year order stays approximate (no mission anchors — accepted).
+- Wired into `/me-build-timeline` as **step 7**, guarded "only when the whole sweep is
+  done" (step-3 to-do list empty); steps 7–12 renumbered to 8–13. Added Verify line:
+  `renumber_timeline.py --check` clean after a completed sweep.
+- Tests: `tests/test_renumber_timeline.py` (7 cases) + needle in `test_command_defs.py`.
+  Full suite 92 green. NOT run against real data yet — sweep is still partial (688/~1276).
+- Still to do: finish the sweep (wave 4 batches 005–009, then batches 010+), THEN run
+  `python scripts/renumber_timeline.py` once. Dedup/merge pass still pending too.
