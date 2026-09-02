@@ -44,9 +44,27 @@ REMAINING at wave-1 start: 1232 stems (page_summaries 1636 − timeline/.done 40
   horizon-collector-attack (+3 updated: normandy-first-test-flight, overlord-david-archer,
   volus-ambassador-din-korlack). B: 8 ME2 recruitment dossiers (garrus/tali/jack/samara/
   mordin/zaeed/grunt-recruitment-*, drell-rescue-kahje).
-- Wave 3 next: re-derive remaining.txt (step 1), take next 72. Run pytest via `.venv/bin/python -m pytest -q`.
+- Waves 3–6 DONE (commits 92e0cf2, e8a316c, cb3ad0a..f8769e4, 89af54a, 530e84c). .done 548->1048.
+- Wave 7 DONE (this commit): 12 batches of 20 (b00..b11), stems `mechs`..`rannoch-geth-fighter-squadrons`,
+  4 subagents in flight at a time. Haiku default; Sonnet for b01 (mordin/morinth), b09 (ME3
+  priority spine), b10 (protect-the-council / prologues), b11 (rachni queen choice).
+  +17 new events -> 159 on disk; ~12 existing events got source-chunk merges. .done 1048->1288.
+  Suite 92 green. master rebuilt (159 rows, all files present, non-decreasing). Remaining: 348 (~15 batches).
+  New: mindoir-raid, priority-palaven, tali-treason-trial-alarei, samara-the-ardat-yakshi,
+  nassana-dantius-assassination, noveria-geth-interest, noveria-espionage,
+  normandy-sr1-destruction-alchera, normandy-crash-site-memorial, priority-the-citadel-i,
+  priority-perseus-veil, priority-the-citadel-iii, rachni-wars, rachni-queen-noveria-choice,
+  rannoch-admiral-koris, reaper-invasion-of-earth-shepard-flees-vancouver,
+  project-firewalker-the-prothean-site-on-kopis.
+- Wave 8 next: re-derive remaining.txt (step 1), continue alphabetically from `ravager`
+  (batch b12 was prepared but NOT run). Run pytest via `.venv/bin/python -m pytest -q`.
 - Dup-merge candidates for post-sweep: horizon-collector-attack vs any existing horizon event;
-  derelict-reaper-iff-mission vs any existing reaper-iff/legion event.
+  derelict-reaper-iff-mission vs any existing reaper-iff/legion event;
+  noveria-geth-interest / noveria-espionage vs benezia-death-noveria (all ME1 Noveria);
+  normandy-sr1-destruction-alchera vs any existing ME2-opening / Collector-ambush event;
+  project-firewalker-the-prothean-site-on-kopis vs hades-nexus-prothean-artifact-recovery.
+- NOTE: `git add -A` will stage `me3.zip` (30MB backup archive, like me-gen.zip) — it is NOT
+  in .gitignore. Keep it untracked; add it to .gitignore or delete it.
 - NOTE: commit 0505239 accidentally added mass2.zip (29MB binary). Flag to user for history cleanup.
 
 POST-SWEEP (still TODO): (1) chronological_order renumber pass — batches each number

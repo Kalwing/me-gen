@@ -827,3 +827,33 @@
 - renumber_timeline.py NOT run (sweep still partial: 788/1636 summaries, ~948 stems left).
 - PAUSED for /clear. Resume: `/me-build-timeline`, continue alphabetically from batch 010
   (`jaal-*` onward — fresh todo regenerates from .done, old scratchpad batches still valid).
+
+### 2026-09-02 (session 5) — timeline sweep waves 5–7
+- Waves 5–6 were run in a prior session that /clear'd without a progress.md entry
+  (commits 89af54a, 530e84c): .done 788->1048, event files ->142.
+- Wave 7 (this session): 12 batches of 20 (`mechs`..`rannoch-geth-fighter-squadrons`),
+  running 4 `timeline-extractor` subagents at a time (user asked for 4-wide). Haiku by
+  default; Sonnet for the choice-heavy batches: b01 (mordin-old-blood / morinth),
+  b09 (the ME3 Priority: * mission spine), b10 (protect-the-council + ME1/ME3 prologues),
+  b11 (the rachni-queen Noveria choice).
+- +17 new event files -> 159 on disk. ~12 existing events picked up source-chunk merges
+  (attack-on-eden-prime, normandy-sr1-destruction-alchera, benezia-death-noveria,
+  liberation-of-omega, london-conduit-assault, overlord-david-archer, paul-grayson-*,
+  rannoch-quarian-geth-war-resolution, freedom-s-progress-investigation,
+  samara-recruitment-illium, miranda-the-prodigal, discovery-of-the-kholas-array).
+  Note: one subagent reported Edit tooling disabled and could not append minor chunk
+  ids to two already-complete Citadel-DLC events — cosmetic, events themselves complete.
+- .done 1048->1288. Suite 92 green. master rebuilt: 159 rows, every id has a file,
+  chronological_order non-decreasing (still only locally sorted — renumber pass is
+  post-sweep). first krogan-rebellions / last london-conduit-assault.
+- `timeline/events/` and `timeline/master_timeline.yaml` are gitignored by design; the
+  wave commit is `timeline/.done` + task_plan.md + progress.md only.
+- me3.zip (30MB) sits untracked in the worktree and is NOT in .gitignore — flagged in
+  task_plan.md; do not `git add -A` it into history.
+- renumber_timeline.py NOT run (sweep partial: 1288/1636, 348 stems left, ~15 batches).
+- Post-sweep dup-merge candidates added (see task_plan.md wave log): noveria-geth-interest
+  / noveria-espionage vs benezia-death-noveria; normandy-sr1-destruction-alchera vs any
+  ME2-opening event; project-firewalker-the-prothean-site-on-kopis vs
+  hades-nexus-prothean-artifact-recovery.
+- PAUSED for /clear. Resume: `/me-build-timeline`, continue alphabetically from `ravager`
+  (regenerate remaining.txt from .done; scratchpad batch b12 was prepared but not run).
