@@ -807,3 +807,23 @@
   Full suite 92 green. NOT run against real data yet — sweep is still partial (688/~1276).
 - Still to do: finish the sweep (wave 4 batches 005–009, then batches 010+), THEN run
   `python scripts/renumber_timeline.py` once. Dedup/merge pass still pending too.
+
+### 2026-09-02 (session 4) — timeline sweep wave 4 COMPLETE
+- Re-ran wave 4 batches 005–009 (100 stems, `grenade-upgrades`..`jack-unique-dialogue`).
+  .done 688→788. Event files 98→108. All 108 load clean; master rebuilt (108 rows,
+  first genophage-deployed-krogan-rebellions / last london-conduit-assault).
+- New events: grissom-academy-emergency-evacuation, hades-nexus-prothean-artifact-recovery,
+  hal-mccann-death-on-the-citadel, helena-blake-crime-syndicate, miranda-the-prodigal,
+  priority-horizon-sanctuary, mass-effect-galaxy-jath-amon-citadel-plot,
+  murder-of-irikah-krios, subject-zero-cerberus-teltin-experiments, jack-subject-zero.
+- Many updates (source_chunks): grunt-rite/recruitment, tali-recruitment-haestrom,
+  rannoch-*, cerberus-assault-on-the-idenna, ascension-project-*, garrus-eye-for-an-eye,
+  horizon-collector-attack, suicide-mission, ilos-conduit-citadel, randall-ezno-barn-escape,
+  jack-recruitment-purgatory.
+- Dup-merge candidates for post-sweep pass: miranda-the-prodigal vs priority-horizon-sanctuary
+  (both Lawson/Oriana threads); jack-subject-zero (loyalty) vs existing jack-recruitment;
+  hades-nexus-prothean-artifact-recovery merged 2 fetch missions already.
+- narrative_choices.yaml: complete, validator + --check clean (no change).
+- renumber_timeline.py NOT run (sweep still partial: 788/1636 summaries, ~948 stems left).
+- PAUSED for /clear. Resume: `/me-build-timeline`, continue alphabetically from batch 010
+  (`jaal-*` onward — fresh todo regenerates from .done, old scratchpad batches still valid).
