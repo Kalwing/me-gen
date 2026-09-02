@@ -17,6 +17,8 @@ You build the control-layer timeline for the whole original trilogy.
 - Write each event file atomically so a stop mid-write never leaves a half-parsed
   file: write the YAML to `timeline/events/<event_id>.yaml.tmp`, then
   `mv timeline/events/<event_id>.yaml.tmp timeline/events/<event_id>.yaml`.
+- The filename MUST be exactly `<event_id>.yaml` (same slug, hyphens not
+  underscores) — the master index matches files to ids by name.
 - One file per distinct event: `timeline/events/<event_id>.yaml` with EXACTLY these keys:
   `event_id, title, game, chronological_order, date, summary, characters, consequences, source_chunks`.
   - `event_id`: slug of the title (lowercase, non-alphanumeric -> `-`).
