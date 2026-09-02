@@ -6,19 +6,43 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-02: /me-build-timeline is RUNNING and PAUSED at user request ("stop and save").
-State on disk (committed a683f51): 41 event files in timeline/events/, master_timeline.yaml
-rebuilt (41 rows, all matched), all dates 2157-2186 CE (scope clean). Suite 86 green.
+2026-09-02 (session 2): timeline sweep resumed, TOKEN-MINIMAL + PAUSE-PER-WAVE mode.
+User instruction: continue; Haiku for small/low-yield batches, Sonnet only for pivotal
+choice-heavy missions; **pause after EACH wave, commit + save state, so context can be
+/clear'd between waves.**
 
-RESUME: re-run `/me-build-timeline`. It reads timeline/.done (404 stems) and continues
-with the un-done summaries. Working batch files: $SCRATCH/tb2/b000..b043 (36 stems each);
-$SCRATCH/mkpaths.sh <batchfile> emits the page_summaries/*.md path list. tb2 batches
-b000-b007 + b009 are marked done; **b008 was killed before writing and is NOT marked** —
-it re-runs. ~35 of 44 tb2 batches remain (~18 waves of 2). Use Haiku for the low-yield
-batches, Sonnet for pivotal choice-heavy missions (Virmire, Rannoch/geth-quarian,
-Tuchanka/genophage cure, Crucible endings, Citadel coup). 2 agents max at a time.
-Per wave: append batch stems to timeline/.done, normalize filenames, rebuild master,
-commit every ~2 waves.
+Prior scratch (tb2/*) was lost with the old session — batches are now re-derived
+deterministically each wave from disk. No stored batch files.
+
+REMAINING at wave-1 start: 1232 stems (page_summaries 1636 − timeline/.done 404).
+41 event files on disk, master 41 rows all matched, suite 86 green (committed a683f51).
+
+### Per-wave procedure (repeat until remaining == 0)
+1. Regenerate the to-do list (order = alphabetical, deterministic):
+   `comm -23 <(ls page_summaries/*.md | xargs -n1 basename | sed 's/\.md$//' | sort) <(sort -u timeline/.done) > $SCRATCH/remaining.txt`
+   (SCRATCH = this session's scratchpad dir.)
+2. Take the next 72 → two batches of 36 (`head -36` / `sed -n '37,72p'`), map to
+   `page_summaries/<stem>.md` path lists.
+3. Dispatch 2 `timeline-extractor` subagents (max 2 in flight), one per batch.
+   Model: **haiku** by default. Use **sonnet** for a batch containing a pivotal
+   choice-conditional mission (Virmire, genophage/Tuchanka, Rannoch/geth-quarian,
+   Crucible endings, Citadel coup, Suicide Mission) or a dense endings/lore page
+   (e.g. `crucible`, `catalyst`, `reaper`).
+4. On success: append both batches' stems to `timeline/.done` (controller writes only).
+5. Normalize filenames (command step 6), rebuild master (`python scripts/rebuild_master_timeline.py`).
+6. `python -m pytest -q` — expect green.
+7. `git add -A && git commit` with a wave-N checkpoint message.
+8. Update this file (remaining count, wave number) + append a progress.md entry.
+9. STOP. Tell the user the wave is done and they may /clear.
+
+### Wave log
+- Wave 1: batches A=citadel-old-friends..codex (36), B=collector-captain..crescent-nebula (36). Both Haiku. Status: dispatched.
+
+POST-SWEEP (still TODO): (1) chronological_order renumber pass — batches each number
+10/20/30 independently so master ordering is not truly chronological (see findings.md);
+(2) merge parallel-batch dup events: arcturus-station-destruction + battle-of-arcturus-station,
+liberation-of-omega + liberation-of-omega-afterlife-assault;
+(3) command steps 8-12 (load check, sync_narrative_choices, report, Verify).
 
 POST-SWEEP (still TODO): (1) chronological_order renumber pass — batches each number
 10/20/30 independently so master ordering is not truly chronological (see findings.md);
