@@ -20,7 +20,13 @@ Attendance is the point. A narrator who was not in the room may not describe the
   usable (who was there, what was said, what caused what) usually survives only here.
 - `data/chunks/chunks.jsonl` — the id space for `source_chunks`. Find candidates with
   `python scripts/retrieve.py --k 8 "<scene title> <key characters>"`, then keep the
-  on-topic ids.
+  on-topic ids. **`retrieve.py` also returns `summary:<stem>` hits — never cite one.**
+  They're synthetic, index-only ids for the whole-page summary (real to search, but
+  never written to `chunks.jsonl`, so the validator rejects them) — and citing the
+  summary defeats the point of a beat citation, which is to point past the lossy
+  compression to the source that still has the detail. Use the real `<stem>_NNN`
+  chunk from the same page instead; if none carries the specific fact, read
+  `data/pages/<stem>.md` and match it to the right chunk by content.
 - `scenes/` — existing records; read before adding, so you extend rather than duplicate.
 - `config/canon/choices.yaml` — the question ids to name in `requires`.
 - `scripts/scenes.py` — the schema's only authority: `python scripts/scenes.py --check`

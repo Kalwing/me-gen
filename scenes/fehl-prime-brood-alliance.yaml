@@ -1,0 +1,53 @@
+scene_id: fehl-prime-brood-alliance
+title: Brood and the War Debt Repaid
+kind: mission-aside
+game: Mass Effect
+when: "2185, during the Collector attack on Fehl Prime"
+where: the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel
+participants: [James Vega, Brood, Essex, Kamille, Nicky, Milque, Messner, Collector forces, captured colonists]
+private_to: []
+heard_by: [Alliance forces on Fehl Prime]
+requires:
+  - paragon_lost: any
+beats:
+  - text: >
+      During the Collector attack on Fehl Prime, Delta Squad retreats to the underground
+      research labs. Brood is found held in a containment tank as a test subject, deemed
+      too dangerous for transport to the Citadel. Brood makes noise in his cell until three
+      Marines investigate. He offers them a deal: free him and he will get them off the planet.
+      The Marines unanimously decide to leave him for now.
+    source_chunks: [brood_001]
+  - text: >
+      While fleeing from a Praetorian that has broken into the labs, Vega takes a detour to
+      Brood's cell. Brood offers to repay the life debt Vega gave him two years earlier by
+      taking Delta Squad aboard his private ship "Garm's Way," which he has kept hidden in
+      the colony. With no other option, they free Brood, and he keeps his word.
+    source_chunks: [brood_001]
+  - text: >
+      Brood pilots his ship away from the colony, but the pursuing Praetorian inflicts
+      significant damage to the vessel. After Vega destroys the creature, Brood lands to make
+      repairs.
+    source_chunks: [brood_001]
+  - text: >
+      With the ship repaired, Vega proposes taking the fight to the Collectors using Brood's
+      arsenal of heavy weapons. Brood suggests flying straight through the Collector ship's
+      weapon ports to strike at the core where the enemy least expects it. The squad accepts
+      this as their only real chance. Vega breaks out a flask to signify agreement. Brood
+      takes a swig after Essex, grimacing at the taste and remarking that the swill tastes
+      like varren dung before passing it to an asari in their group.
+    source_chunks: [brood_001]
+  - text: >
+      Brood pilots the ship directly into the Collector vessel, blasting a hole through its
+      defenses and blundering toward the drive core. Before he can fire on the core, the
+      Cerberus operative Messner shoots Brood repeatedly in the head, destroying his
+      remaining eye. With its pilot incapacitated, the ship crashes and Delta Squad is taken
+      prisoner.
+    source_chunks: [brood_001]
+  - text: >
+      After the squad escapes their Collector pods, Vega finds Brood slumped nearby, mortally
+      wounded but still conscious. Brood thanks Vega for allowing him to die a warrior's death
+      and hands him his last power cell before dying. Vega grants him a Spanish benediction:
+      "Vaya con Dios, hermano."
+    source_chunks: [brood_001]
+related_events: [fehl-prime-collector-attack]
+source_chunks: [brood_001]

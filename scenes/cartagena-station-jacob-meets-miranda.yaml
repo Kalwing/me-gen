@@ -1,0 +1,36 @@
+scene_id: cartagena-station-jacob-meets-miranda
+title: Jacob Meets Miranda at the Fringe
+kind: mission-aside
+game: Mass Effect
+when: "before 2183, Cartagena Station, the Nemean Abyss (Mass Effect Galaxy)"
+where: the Fringe, a two-storey bar on Cartagena Station
+
+participants: [Jacob Taylor, Miranda Lawson, Derek Izunami, Clint Darragh]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      On Derek Izunami's suggestion, Jacob Taylor goes to the Fringe on Cartagena Station
+      to meet a contact — Miranda Lawson, though he does not yet know her.
+    source_chunks: [cartagena-station_002]
+  - text: >
+      Jacob arrives to find the bar under attack by the pirate Clint "Black Eye" Darragh
+      and his men. He talks his way past the C-Pat officers guarding the entrance, then
+      fights through Black Eye's men.
+    source_chunks: [cartagena-station_002]
+  - text: >
+      Jacob confronts Black Eye himself, either in a firefight or by convincing him to
+      surrender.
+    source_chunks: [cartagena-station_002]
+    conditional: {black_eye_outcome: killed_or_talked_down}
+  - text: >
+      Miranda, who had watched the whole confrontation from inside the bar, greets Jacob
+      once it's over — their first meeting.
+    source_chunks: [cartagena-station_002]
+
+related_scenes: []
+related_events: []
+source_chunks: [cartagena-station_001, cartagena-station_002]

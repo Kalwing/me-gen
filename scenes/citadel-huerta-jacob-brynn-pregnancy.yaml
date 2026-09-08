@@ -1,0 +1,29 @@
+scene_id: citadel-huerta-jacob-brynn-pregnancy
+title: Jacob Reveals Brynn's Pregnancy
+kind: banter
+game: Mass Effect 3
+when: "2186, Citadel, after the rescue of the ex-Cerberus scientists from Gellix"
+where: Huerta Memorial Hospital
+participants: [Shepard, Jacob Taylor]
+private_to: [Shepard, Jacob Taylor]
+heard_by: [Normandy crew]
+requires:
+  - jacob_taylor: alive
+  - gellix_brynn_rescued: yes
+beats:
+  - text: >
+      Jacob sends Shepard an email saying he can be found recovering at Huerta Memorial
+      Hospital on the Citadel. When Shepard visits to say hello, Jacob reveals that
+      Dr. Brynn Cole is pregnant with his child — a daughter.
+    source_chunks: [jacob-taylor_009]
+  - text: >
+      Jacob expresses his determination to become a better father than his own. Brynn
+      has suggested naming their daughter after Commander Shepard, which Shepard takes
+      as an honor. However, Jacob plans to talk Brynn out of that choice.
+    source_chunks: [jacob-taylor_009, brynn-cole_003]
+  - text: >
+      Intercepted correspondence on Liara's Broker Terminal later reveals the depth of
+      affection between Jacob and Brynn.
+    source_chunks: [brynn-cole_003]
+related_events: [arrae-ex-cerberus-scientists-rescue]
+source_chunks: [jacob-taylor_009, brynn-cole_003]
