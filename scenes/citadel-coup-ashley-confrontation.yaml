@@ -28,12 +28,14 @@ beats:
       him, Ashley does.
     source_chunks: [ashley-williams_010]
     conditional: {citadel_coup: survivor_stands_with_shepard}
+    choice: Ashley stands with Shepard
   - text: >
       Shepard fails to persuade Ashley to stand down and is forced to kill her, or another
       squad member shoots her instead. Her name is later added to the memorial wall
       aboard the Normandy.
     source_chunks: [ashley-williams_010]
     conditional: {citadel_coup: survivor_killed}
+    choice: Ashley killed
   - text: >
       If Ashley survives, she meets Shepard at the docks as he is about to return to the
       Normandy. She reflects that they had both nearly killed each other doing what they
@@ -44,12 +46,14 @@ beats:
       has to work to persuade her.
     source_chunks: [ashley-williams_010]
     conditional: {citadel_coup: survivor_stands_with_shepard}
+    choice: Ashley stands with Shepard
   - text: >
       If assigned to Hackett's team instead of rejoining the Normandy, Ashley later sends
       Shepard an email, "Checking in," saying she is settling into the new post, getting a
       handle on the scale of the war, and putting her knack for practical thinking to use.
     source_chunks: [ashley-williams_011]
     conditional: {citadel_coup: survivor_stands_with_shepard}
+    choice: Ashley stands with Shepard
 
 related_scenes: [citadel-cerberus-coup-bailey-headquarters, citadel-huerta-ashley-recovery]
 related_events: [cerberus-coup-citadel-ashley]

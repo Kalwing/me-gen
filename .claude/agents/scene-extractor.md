@@ -62,10 +62,12 @@ Attendance is the point. A narrator who was not in the room may not describe the
         A branch of the same occasion.
       source_chunks: [grunt_005]
       conditional: {let_garrus_win: true}
+      choice: let Garrus take the shot
   variants:
     - condition: {romance: Garrus}
       text: The same outing played as a first date.
       source_chunks: [garrus-vakarian_016]
+      choice: romanced Garrus
   related_scenes: [citadel-party-apartment]
   related_events: [citadel-dlc-archives]
   source_chunks: [grunt_005, krogan-monument_001]
@@ -108,6 +110,13 @@ Attendance is the point. A narrator who was not in the room may not describe the
   one exists (`wrex_virmire`, `tali_trial`, `genophage`, `romance`, …) and otherwise to
   a plain survival/availability condition (`garrus_alive`, `citadel_dlc: any`). Never
   pick a branch, and never split an occasion into per-branch files.
+- **Every branch names itself and says how it ends.** Any beat with `conditional` or
+  variant with `condition` needs a short `choice:` string alongside it — a plain-language
+  tag of what's being decided (`choice: graybox destroyed`, `choice: released to Grissom
+  Academy`) — so a branch point is visible without reading the prose, and the validator
+  rejects a conditional beat with no `choice`. The `text` itself must still narrate what
+  actually happens in that branch, not just gesture at "Shepard makes a choice" — if the
+  wiki page names the options, say what they are and how each one resolves.
 - `requires` lists the canon conditions for the occasion to exist at all — the Aralakh
   Company cannot be drinking after Utukku killed them.
 - Factual register only. No prose voice, no narrator flourishes, no invented dialogue —

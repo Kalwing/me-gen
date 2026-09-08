@@ -20,6 +20,7 @@ beats:
       mission or was never released from his tank, by Urdnot Dagg.
     source_chunks: [attican-traverse-krogan-team_002, attican-traverse-krogan-team_004]
     conditional: {grunt_status: alive}
+    choice: Grunt alive, leading Aralakh Company
   - text: >
       Descending into the tunnels beneath the surface, Shepard's team finds the bodies of
       the missing krogan scouts and discovers the Reapers have built a breeding operation,
@@ -39,6 +40,7 @@ beats:
       kept loyal through his own Rite of Passage on Tuchanka. This Grunt, loyal, survives.
     source_chunks: [attican-traverse-krogan-team_010]
     conditional: {grunt_loyalty: loyal}
+    choice: Grunt loyal
   - text: >
       Back aboard the Normandy, whichever krogan leader survived debriefs Shepard in the
       War Room, disapproving of sparing the Queen; if he did not survive, the disapproval

@@ -24,6 +24,7 @@ beats:
       Conrad's distraction to sabotage the dispensers.
     source_chunks: [citadel-medi-gel-sabotage_003]
     conditional: {conrad_verner_alive: true}
+    choice: Conrad Verner alive
   - text: >
       Conrad hands over his Dark Energy Dissertation, a War Asset that contributes to the
       Crucible's construction, its value quintupled if Shepard had, in the first game,
@@ -31,6 +32,7 @@ beats:
       Combine armory license.
     source_chunks: [citadel-medi-gel-sabotage_003]
     conditional: {conrad_verner_alive: true}
+    choice: Conrad Verner alive
   - text: >
       Shepard repairs three of the four dispensers scattered around the Docks and reports
       back to the doctor, who thanks Shepard and laments being unable to track down the
@@ -42,12 +44,14 @@ beats:
       intercept the shot, giving Shepard the opening to strike the contact down.
     source_chunks: [citadel-medi-gel-sabotage_003]
     conditional: {conrad_verner_alive: true}
+    choice: Conrad Verner alive
   - text: >
       If Jenna had been extracted from Chora's Den back in Citadel: Rita's Sister, she has
       sabotaged the contact's gun beforehand, saving Conrad's life; the two wander off
       together afterward. Otherwise Conrad is shot and killed.
     source_chunks: [citadel-medi-gel-sabotage_003]
     conditional: {rita_s_sister_jenna_saved: any}
+    choice: Jenna saved from Chora's Den
 
 related_scenes: []
 related_events: []

@@ -49,6 +49,7 @@ beats:
 
 variants:
   - condition: {tali_trial: cleared without her father's evidence}
+    choice: Tali cleared without evidence
     text: >
       Shepard argues from Tali's own history that she would never betray her people — and,
       having heard the admirals out beforehand, that the trial is being worked for political
@@ -56,12 +57,14 @@ variants:
       stands.
     source_chunks: [tali-treason_008, tali-treason_013]
   - condition: {tali_trial: cleared with her father's evidence}
+    choice: Tali cleared with evidence
     text: >
       Shepard presents the evidence of Rael'Zorah's crimes. Tali is declared innocent and her
       father is posthumously exiled, his name struck from the rolls of every ship he served
       on, and the Fleet balkanises over what to do with the research.
     source_chunks: [tali-treason_008, tali-treason_013]
   - condition: {tali_trial: exiled}
+    choice: Tali exiled
     text: >
       Shepard says no evidence was found. Tali is convicted, exiled, and given six hours to
       leave — and takes it in good spirits, having no ties left to confuse the question of

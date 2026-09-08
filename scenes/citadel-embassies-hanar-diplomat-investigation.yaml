@@ -38,11 +38,13 @@ beats:
       shoots and kills Zymandis; a rigged console explodes, apparently killing Kasumi.
     source_chunks: [jondum-bau_002]
     conditional: {kasumi_present: true}
+    choice: Kasumi present
   - text: >
       Without Kasumi, Shepard must choose between saving Bau with a Renegade interrupt
       or stopping the upload alone. If Shepard stops the upload, Bau fights off and
       shoots the bodyguard and Zymandis himself, taking a gut wound but surviving.
     source_chunks: [jondum-bau_002]
     conditional: {kasumi_present: false}
+    choice: Kasumi absent
 related_events: [hanar-diplomat-zymandis-investigation]
 source_chunks: [jondum-bau_001, jondum-bau_002, zymandis_001, citadel-hanar-diplomat_002, citadel-hanar-diplomat_003]

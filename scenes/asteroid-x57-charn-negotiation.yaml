@@ -33,11 +33,13 @@ beats:
       over a pass card to the main facility and warns that Balak is a "mean bastard."
     source_chunks: [charn_001]
     conditional: {charn_persuaded: true}
+    choice: Charn persuaded, spared
   - text: >
       If Shepard attacks Charn instead, either on sighting the squad or after hearing him out,
       judging Balak's slaving raid reason enough to fight, Shepard takes the facility pass from
       Charn's corpse.
     source_chunks: [charn_001]
     conditional: {charn_persuaded: false}
+    choice: Charn killed
 related_events: [bring-down-the-sky-x57]
 source_chunks: [charn_001]

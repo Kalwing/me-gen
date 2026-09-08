@@ -46,11 +46,13 @@ beats:
       at the bomb dies holding the line.
     source_chunks: [virmire-assault_012]
     conditional: {virmire_survivor: Kaidan}
+    choice: saved Kaidan
   - text: >
       Shepard chose to return to the bomb site and carry Ashley out wounded, leaving Kaidan
       to hold the AA tower alone; the tower falls and Kaidan is killed there.
     source_chunks: [virmire-assault_012]
     conditional: {virmire_survivor: Ashley}
+    choice: saved Ashley
   - text: >
       Kirrahe and the surviving salarian STG team are rescued regardless of which squadmate
       Shepard chose to save.
@@ -64,6 +66,7 @@ beats:
       the loss and went on to become close with the rest of Shepard's multi-species crew.
     source_chunks: [ashley-williams_006]
     conditional: {virmire_survivor: Ashley}
+    choice: saved Ashley
 
 related_scenes: []
 related_events: [battle-of-virmire, virmire-survivor-choice]

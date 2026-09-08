@@ -47,11 +47,13 @@ beats:
       given the gun, Aeian commits suicide, demoralizing the hospital staff.
     source_chunks: [aeian-t-goni_001]
     conditional: {aeian_firearm: granted}
+    choice: gave Aeian the firearm
   - text: >
       Shepard can refuse to grant Aeian a firearm, leaving her alive but still struggling
       with her trauma.
     source_chunks: [aeian-t-goni_001]
     conditional: {aeian_firearm: denied}
+    choice: refused Aeian the firearm
 
 related_scenes: []
 related_events: []

@@ -32,11 +32,13 @@ beats:
       protest satisfied.
     source_chunks: [citadel-our-own-worst-enemy_003]
     conditional: {endorse_saracino: true}
+    choice: endorsed Saracino
   - text: >
       If Shepard refuses to endorse Saracino, the Commander earns Paragon points. Saracino is
       still grateful for Shepard's respect of the democratic process despite the rejection and
       returns to the protest.
     source_chunks: [citadel-our-own-worst-enemy_003]
     conditional: {endorse_saracino: false}
+    choice: refused to endorse Saracino
 related_events: [terra-firma-political-influence]
 source_chunks: [citadel-our-own-worst-enemy_001, citadel-our-own-worst-enemy_003, charles-saracino_001]

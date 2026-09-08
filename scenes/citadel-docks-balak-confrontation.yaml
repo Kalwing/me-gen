@@ -23,11 +23,13 @@ beats:
     source_chunks: [citadel-batarian-codes_001, ka-hairal-balak_004]
   - conditional:
       balak_persuaded: true
+    choice: Balak persuaded
     text: >
       If Shepard reasoned with Balak by appealing to his sense of patriotism, Balak left, and the investigation on his actions was dropped due to Shepard's Spectre authority. Balak grudgingly committed what remained of the batarian fleet to the war effort against the Reapers. His leadership, drive, and barely restrained fury had a noticeable effect on the batarians' overall effectiveness in the war.
     source_chunks: [citadel-batarian-codes_001, ka-hairal-balak_004]
   - conditional:
       balak_killed: true
+    choice: Balak killed
     text: >
       If Shepard killed Balak with his own pistol, the Alliance Third Fleet War Asset decreased in value, and the batarians' external operations fell into chaos, directly resulting in their defeat against the Reapers.
     source_chunks: [citadel-batarian-codes_001, ka-hairal-balak_004]

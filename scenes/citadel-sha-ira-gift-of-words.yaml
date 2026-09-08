@@ -19,11 +19,13 @@ beats:
     source_chunks: [citadel-asari-consort_003, citadel-asari-consort_004]
   - conditional:
       xeltan_complete: true
+    choice: Xeltan's Complaint completed first
     text: >
       If Shepard had completed Citadel: Xeltan's Complaint before returning, Sha'ira gave a bonus Prothean-design trinket usable at ruins on Eletania, which triggered a brief vision of Protheans studying cavemen on Earth.
     source_chunks: [citadel-asari-consort_005]
   - conditional:
       xeltan_complete: false
+    choice: Xeltan's Complaint not done first
     text: >
       If Shepard did not speak to Xeltan before returning, Sha'ira's door remained locked and the trinket was forfeited.
     source_chunks: [citadel-asari-consort_005]

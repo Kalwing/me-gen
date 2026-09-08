@@ -167,16 +167,19 @@ beats:
 
 variants:
   - condition: {miranda_alive: true, jack_present: true}
+    choice: Miranda and Jack both present
     text: >
       Miranda and Jack end up in the den insulting each other. Shepard can push them to
       reconcile or egg them on; Kasumi uncloaks either way and makes it worse.
     source_chunks: [citadel-party_005, jack_009]
   - condition: {romance: Garrus}
+    choice: romanced Garrus
     text: >
       Liara calls the apartment the "Shepard-Vakarian love nest"; if Shepard is with someone
       else, Garrus is the one making the love-nest joke and promising not to interrupt.
     source_chunks: [garrus-vakarian_014]
   - condition: {virmire_survivor: Ashley}
+    choice: Ashley survived Virmire
     text: >
       Ashley sits with James by the ground-floor couches in the first phase, teasing Cortez.
       In an energetic second phase, if she and James are both unromanced, James tries to

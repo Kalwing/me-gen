@@ -66,6 +66,11 @@ def load_scene(path: Path) -> dict:
             raise ValueError(f"{path}: beat {i} has no text")
         if not beat.get("source_chunks"):
             raise ValueError(f"{path}: beat {i} has no source_chunks — every beat is traceable")
+        if beat.get("conditional") and not str(beat.get("choice", "")).strip():
+            raise ValueError(
+                f"{path}: beat {i} has a conditional but no choice label — "
+                "name what's being decided, e.g. choice: graybox destroyed"
+            )
 
     participants = {_norm(p) for p in data["participants"]}
     stray = [p for p in (data.get("private_to") or []) if _norm(p) not in participants]
@@ -75,6 +80,11 @@ def load_scene(path: Path) -> dict:
     for i, variant in enumerate(data.get("variants") or []):
         if not variant.get("source_chunks"):
             raise ValueError(f"{path}: variant {i} has no source_chunks")
+        if variant.get("condition") and not str(variant.get("choice", "")).strip():
+            raise ValueError(
+                f"{path}: variant {i} has a condition but no choice label — "
+                "name what's being decided, e.g. choice: romanced Garrus"
+            )
 
     data.setdefault("private_to", [])
     data.setdefault("heard_by", [])

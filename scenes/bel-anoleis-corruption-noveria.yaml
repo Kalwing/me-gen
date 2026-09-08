@@ -27,22 +27,26 @@ beats:
 
 variants:
   - condition: {noveria_anoleis_evidence: qui_in}
+    choice: evidence given to Qui'in
     text: >
       Shepard gives the evidence to Qui'in. Anoleis is pressured by the executive board into
       resigning.
     source_chunks: [bel-anoleis_001]
   - condition: {noveria_anoleis_evidence: anoleis}
+    choice: evidence given to Anoleis
     text: >
       Shepard reports the evidence to Anoleis directly. He dismisses it as fabrication and
       bribes Shepard with credits and access to Benezia.
     source_chunks: [bel-anoleis_001]
   - condition: {noveria_anoleis_evidence: expose_parasini}
+    choice: Parasini exposed to Anoleis
     text: >
       Shepard exposes Parasini as an undercover Noveria Internal Affairs agent to Anoleis.
       He summons her, and the two kill each other in a shootout, drawing a security response
       led by Captain Maeko Matsuo.
     source_chunks: [bel-anoleis_001, gianna-parasini_001]
   - condition: {noveria_anoleis_evidence: qui_in_testifies}
+    choice: Qui'in convinced to testify
     text: >
       Shepard convinces Qui'in to testify, which helps Parasini's undercover investigation.
       Anoleis is hauled away protesting, having left no records of his crimes beyond Qui'in's

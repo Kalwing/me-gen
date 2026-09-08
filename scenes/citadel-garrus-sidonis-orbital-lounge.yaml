@@ -39,6 +39,7 @@ beats:
 
 variants:
   - condition: {let_sidonis_live: true}
+    choice: let Sidonis live
     text: >
       Warned, Sidonis is terrified and tries to explain — he sold the team to save himself,
       and has been haunted by it since. Shepard talks Garrus down; Sidonis thanks him for a
@@ -47,6 +48,7 @@ variants:
       him to.
     source_chunks: [garrus-eye-for-an-eye_012, garrus-vakarian_007]
   - condition: {let_sidonis_live: false}
+    choice: let Garrus kill Sidonis
     text: >
       Shepard steps aside and Garrus takes the shot. C-Sec investigates the death afterwards
       and gets nowhere.

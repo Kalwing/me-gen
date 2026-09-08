@@ -27,11 +27,15 @@ beats:
       Stopped from uploading, it turns hostile, and Tali kills it with her boot knife to save
       Shepard.
     source_chunks: [tali-zorah-nar-rayya_009]
+    conditional: {geth_quarian: geth_saved}
+    choice: stopped the upload — geth destroyed
   - text: >
       Allowed to upload, Tali watches the entire Migrant Fleet come down burning through
       Rannoch's atmosphere, takes off her mask, says she is sorry, and steps off the cliff
       before Shepard can reach her.
     source_chunks: [tali-zorah-nar-rayya_009]
+    conditional: {geth_quarian: quarians_sacrificed}
+    choice: let the upload finish — quarians destroyed
   - text: >
       With Legion alive and the quarians talked into standing down, there is peace — and
       Legion spends itself giving every geth autonomy, having first confirmed that the answer

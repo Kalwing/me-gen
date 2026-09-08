@@ -35,6 +35,7 @@ beats:
       losing the fight and begging for his life.
     source_chunks: [chorban_002, citadel-jahleed-s-fears_005]
     conditional: {learned_from_jahleed_first: true}
+    choice: learned of the threat from Jahleed first
   - text: >
       However the meeting begins, Chorban admits he and Jahleed lost perspective but remains
       eager to keep studying the keepers, and again offers Shepard the scanning work. He says
@@ -59,6 +60,7 @@ beats:
       one else on the Citadel will listen to him.
     source_chunks: [chorban_003]
     conditional: {chorban_alive: true, keeper_scans: most_or_all}
+    choice: Chorban survived, most keepers scanned
 
 related_scenes: []
 related_events: []

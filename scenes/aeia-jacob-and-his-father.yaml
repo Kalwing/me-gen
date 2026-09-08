@@ -23,13 +23,45 @@ beats:
     source_chunks: [jacob-taylor_007]
   - text: >
       2175 Aeia is a remote world named for an asari scientist, on the list of forbidden mass
-      relays.
-    source_chunks: [2175-aeia_001, 2175-aeia_002]
+      relays. The Gernsback crashed there in 2175; Captain Fairchild died in the crash, and
+      Ronald, promoted to acting Captain, found the food on the planet toxic and the ship's
+      own stores too thin to last until the damaged distress beacon could be repaired.
+    source_chunks: [2175-aeia_001, 2175-aeia_002, ronald-taylor_002]
   - text: >
-      Jacob's verdict on what his father did there is that the man does not know right from
-      wrong.
-    source_chunks: [jacob-taylor_007]
+      Rather than ration fairly, Ronald hoarded the food for himself and his officers,
+      assigned the surviving women to himself and his men as pets, and refused to activate
+      the beacon once it was fixed rather than answer for what he'd done. When one officer
+      grew remorseful, Ronald turned the security mechs on him, then killed the rest of the
+      officers within a week and exiled or "trained" the remaining men, ruling alone off the
+      ship's stores for seven years — until the exiled men, gone feral, returned as hunters
+      and began waging war on his mechs, forcing him to finally set off the beacon himself.
+    source_chunks: [ronald-taylor_002, ronald-taylor_003]
+  - text: >
+      Landing on Aeia, Shepard's team fights through the feral hunters and Ronald's security
+      mechs. Jacob confronts his father, who is shocked to see him; Jacob accuses him of doing
+      unspeakable things to his crew to live out a "juvenile fantasy," and is unmoved by
+      Ronald's attempts to justify it. Jacob's verdict is that the man does not know right
+      from wrong.
+    source_chunks: [jacob-taylor_007, ronald-taylor_002]
+  - text: >
+      Ronald's fate is Shepard's to decide: turned over to Alliance courts.
+    source_chunks: [ronald-taylor_002]
+    conditional: {ronald_taylor_fate: turned_over_to_alliance}
+    choice: turned Ronald over to the Alliance
+  - text: >
+      Or left on Aeia to face his degenerated crew.
+    source_chunks: [ronald-taylor_002]
+    conditional: {ronald_taylor_fate: left_on_aeia}
+    choice: left Ronald to his crew
+  - text: >
+      Or given a pistol to end it himself.
+    source_chunks: [ronald-taylor_002]
+    conditional: {ronald_taylor_fate: given_pistol}
+    choice: gave Ronald a pistol
+  - text: >
+      Whichever way it goes, Jacob is left knowing Ronald is no longer the father he knew.
+    source_chunks: [ronald-taylor_002]
 
 related_scenes: [citadel-party-apartment]
 related_events: []
-source_chunks: [jacob-taylor_007, 2175-aeia_001, 2175-aeia_002]
+source_chunks: [jacob-taylor_007, 2175-aeia_001, 2175-aeia_002, ronald-taylor_002, ronald-taylor_003]

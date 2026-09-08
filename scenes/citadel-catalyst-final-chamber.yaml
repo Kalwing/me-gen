@@ -22,17 +22,20 @@ beats:
     source_chunks: [catalyst_003]
 variants:
   - condition: {final_choice: Destroy}
+    choice: chose Destroy
     text: >
       Shepard chose to destroy all synthetic life, wiping out the Reapers and the
       Catalyst itself in the process. The Catalyst was presumed lost in this option.
     source_chunks: [catalyst_003]
   - condition: {final_choice: Control}
+    choice: chose Control
     text: >
       Shepard chose to take control of the Reapers. A digital copy of Shepard's
       consciousness replaced the Catalyst as the Reapers' master AI, while the
       Catalyst itself was presumed lost.
     source_chunks: [catalyst_003]
   - condition: {final_choice: Synthesis}
+    choice: chose Synthesis
     text: >
       Shepard chose to merge organic and synthetic life, achieving the Synthesis that
       the Catalyst had attempted many times before but always failed. What became of
@@ -40,6 +43,7 @@ variants:
       events in a distant future spoke of a time free of the Reaper threat.
     source_chunks: [catalyst_003]
   - condition: {final_choice: Refuse}
+    choice: chose Refuse
     text: >
       Shepard refused the Catalyst's intervention. What transpired afterward remained
       shrouded in the Catalyst's uncertainty, though the Stargazer spoke of a time

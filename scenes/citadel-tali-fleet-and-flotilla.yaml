@@ -33,12 +33,14 @@ beats:
 
 variants:
   - condition: {romance: Tali}
+    choice: romanced Tali
     text: >
       She adds that they had memorised the whole musical. On screen the quarian asks her lover
       to see her face and the turian answers that he already has; Tali says that works for
       her, and Shepard removes her mask.
     source_chunks: [tali-zorah-nar-rayya_012]
   - condition: {romance: other}
+    choice: not romancing Tali
     text: >
       She just gets nostalgic, and promises to send extranet links and captioned animations
       afterwards.

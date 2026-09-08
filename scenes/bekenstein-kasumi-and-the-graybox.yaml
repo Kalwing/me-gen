@@ -36,9 +36,23 @@ beats:
       in the fighting.
     source_chunks: [chief-roe_001]
   - text: >
-      What she wants afterwards is time with Keiji — or what is left of him in the graybox.
-    source_chunks: [kasumi-goto_005]
+      On the ride back, Kasumi examines the graybox and is shown her own memories of Keiji,
+      along with a warning that the information inside — evidence of an Alliance black ops
+      raid on a batarian lab studying Reaper technology, one that turned into a massacre the
+      Alliance then covered up — could be dangerous if made public. Shepard can persuade her
+      to keep it or destroy it; either way, Kasumi is loyal.
+    source_chunks: [kasumi-stealing-memory_013]
+  - text: >
+      Kasumi keeps the graybox, preserving what's left of Keiji with her.
+    source_chunks: [kasumi-stealing-memory_017, kasumi-goto_005]
+    conditional: {graybox_fate: kept}
+    choice: graybox kept
+  - text: >
+      Kasumi destroys the graybox, and with it the last of Keiji's memories.
+    source_chunks: [kasumi-stealing-memory_017]
+    conditional: {graybox_fate: destroyed}
+    choice: graybox destroyed
 
 related_scenes: [citadel-party-apartment]
 related_events: []
-source_chunks: [kasumi-goto_004, kasumi-goto_005, chief-roe_001]
+source_chunks: [kasumi-goto_004, kasumi-goto_005, chief-roe_001, kasumi-stealing-memory_013, kasumi-stealing-memory_017]

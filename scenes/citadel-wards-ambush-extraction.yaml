@@ -65,16 +65,19 @@ beats:
 
 variants:
   - condition: {romance: Garrus}
+    choice: romanced Garrus
     text: >
       Garrus, filled in by Joker, calls to ask if Shepard is all right and meets her at the
       Cision Motors skycar lot for the extraction.
     source_chunks: [garrus-vakarian_014]
   - condition: {romance: Tali}
+    choice: romanced Tali
     text: >
       Tali is the first to reach Shepard. Afterwards she is put out that the sushi place was
       destroyed — she had always wanted to go there.
     source_chunks: [tali-zorah-nar-rayya_012]
   - condition: {wrex_virmire: alive, genophage: cured}
+    choice: Wrex alive, genophage cured
     text: >
       Wrex, on the Citadel to argue krogan expansion with the Council, arrives by
       body-slamming the shuttle that has Shepard pinned, then clears out the ambushers inside
@@ -82,6 +85,7 @@ variants:
       can shoot it 46 more times?"
     source_chunks: [urdnot-wrex_012, citadel-wards-ambush_011]
   - condition: {wrex_virmire: dead}
+    choice: Wrex dead
     text: >
       James Vega comes over comms to assist in Wrex's place, shooting the ambush shuttle down
       with a Cobra Missile Launcher.

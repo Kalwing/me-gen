@@ -42,12 +42,14 @@ beats:
       him not to come looking for David.
     source_chunks: [gavin-archer_002]
     conditional: {david_archer_fate: released_to_grissom}
+    choice: David released to Grissom Academy
   - text: >
       If Shepard instead leaves David hooked into the project, Shepard punches Gavin and
       tells him the only reason he's still breathing is that his research might prevent
       a war with the geth.
     source_chunks: [gavin-archer_002]
     conditional: {david_archer_fate: kept_with_cerberus}
+    choice: David kept with the project
 
 related_scenes: []
 related_events: []
