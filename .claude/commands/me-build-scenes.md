@@ -60,6 +60,14 @@ interface. This sweep fills the layer in behind that interface; it must not degr
    ```
 7. Validate the whole set: `python scripts/scenes.py --check`. Fix or drop what it
    names — an unparseable or unreferenced record breaks every later `build_pack.py`.
+   The validator does not (and cannot) check that a `participants` name is actually
+   *evidenced* in the record's cited chunks — an agent can invent attendance from a
+   general association with the location or topic. Spot-check the wave's new files
+   this way: for each participant name, grep the text of that beat's/record's
+   `source_chunks` in `data/chunks/chunks.jsonl` for the name; if it never appears,
+   the attendance is fabricated and the name must be dropped or re-sourced. Do this
+   for at least the new records with 3+ participants each wave; a single ungrounded
+   name here is exactly the failure the scene layer exists to prevent.
 8. **Pause at the end of each wave**: commit (`scenes/` + `scenes/.done`), report the
    wave's counts and how many stems remain, and stop. The sweep spans 1,600+ summaries;
    waves are the resume points, and context can be cleared between them.

@@ -1,0 +1,53 @@
+scene_id: bel-anoleis-corruption-noveria
+title: Exposing Administrator Anoleis at Port Hanshan
+kind: mission-aside
+game: Mass Effect
+when: 2183, Port Hanshan, Noveria, during the hunt for Saren
+where: Anoleis's office and the Port Hanshan hotel bar
+
+participants: [Shepard, Bel Anoleis, Gianna Parasini, Lorik Qui'in]
+
+beats:
+  - text: >
+      Shepard needs a garage pass to leave Port Hanshan and reach Peak 15, where Matriarch
+      Benezia has gone. Administrator Bel Anoleis stonewalls the request despite Shepard's
+      Spectre status, citing bad weather and Peak 15's private status, and prioritizing
+      investor interests over the investigation.
+    source_chunks: [bel-anoleis_002]
+  - text: >
+      Anoleis's secretary, Gianna Parasini, redirects Shepard to Lorik Qui'in at the hotel
+      bar. Qui'in reveals that Anoleis has seized direct control of laboratory rents, taken
+      bribes, and — to cover his tracks — falsely accused Qui'in of corruption and paid
+      security to ransack Qui'in's office at Synthetic Insights, where the evidence of his
+      own crimes is stored.
+    source_chunks: [lorik-qui-in_001, synthetic-insights-ltd_002]
+  - text: >
+      Shepard recovers the evidence from Synthetic Insights and decides what to do with it.
+    source_chunks: [lorik-qui-in_001]
+
+variants:
+  - condition: {noveria_anoleis_evidence: qui_in}
+    text: >
+      Shepard gives the evidence to Qui'in. Anoleis is pressured by the executive board into
+      resigning.
+    source_chunks: [bel-anoleis_001]
+  - condition: {noveria_anoleis_evidence: anoleis}
+    text: >
+      Shepard reports the evidence to Anoleis directly. He dismisses it as fabrication and
+      bribes Shepard with credits and access to Benezia.
+    source_chunks: [bel-anoleis_001]
+  - condition: {noveria_anoleis_evidence: expose_parasini}
+    text: >
+      Shepard exposes Parasini as an undercover Noveria Internal Affairs agent to Anoleis.
+      He summons her, and the two kill each other in a shootout, drawing a security response
+      led by Captain Maeko Matsuo.
+    source_chunks: [bel-anoleis_001, gianna-parasini_001]
+  - condition: {noveria_anoleis_evidence: qui_in_testifies}
+    text: >
+      Shepard convinces Qui'in to testify, which helps Parasini's undercover investigation.
+      Anoleis is hauled away protesting, having left no records of his crimes beyond Qui'in's
+      testimony and files.
+    source_chunks: [bel-anoleis_001]
+
+related_events: [bel-anoleis-corruption, benezia-death-noveria]
+source_chunks: [bel-anoleis_002, bel-anoleis_001, lorik-qui-in_001, gianna-parasini_001, synthetic-insights-ltd_002]

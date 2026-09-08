@@ -1,0 +1,28 @@
+scene_id: dracon-trade-center-vasir-revealed
+title: Vasir's Betrayal at the Baria Frontiers Office
+kind: argument
+game: Mass Effect 2
+when: "2185, Illium, Dracon Trade Center, during the Lair of the Shadow Broker mission"
+where: "Baria Frontiers office, third floor of the Dracon Trade Center"
+participants: [Shepard, Liara, Tela Vasir, Sekat]
+heard_by: [Illium authorities, Shadow Broker operatives]
+requires:
+  - lair-of-the-shadow-broker: any
+beats:
+  - text: >
+      After fighting through the devastated Dracon Trade Center against Shadow Broker mercenaries, Shepard and squad reached the third-floor Baria Frontiers office where Liara had been meeting with her contact Sekat to learn the Shadow Broker's location. The building had exploded minutes earlier; Vasir had claimed she would cover from her skycar while Shepard pushed from below.
+    source_chunks: [baria-frontiers_001, lair-of-the-shadow-broker-mission_004, storyline-ii_042]
+  - text: >
+      In the office, Shepard found Sekat dead on the floor. Tela Vasir stood over his body, explaining that she had arrived too late to stop a Shadow Broker mercenary from killing him. She asked if Shepard had found Liara's body.
+    source_chunks: [baria-frontiers_001, tela-vasir_003]
+  - text: >
+      Liara emerged from the shadows with her M-4 Shuriken drawn and pointed at Vasir. She told Shepard that Vasir was the one who tried to assassinate her at her apartment, and that Vasir had killed Sekat to take his data on the Shadow Broker's location. Shepard and the squad immediately drew their weapons on the Spectre, realizing they had been deceived all along.
+    source_chunks: [baria-frontiers_001, tela-vasir_003, liara-t-soni_012]
+  - text: >
+      Exposed, Vasir revealed an OSD containing Sekat's data, confirming what Liara had said. Before Shepard could move, Vasir used her biotics to shatter the office windows. She hurled the shattered glass at the squad as a distraction and made for the broken window.
+    source_chunks: [tela-vasir_003, baria-frontiers_001]
+  - text: >
+      Liara generated a biotic barrier field to protect the squad from the flying glass. Shepard moved to intercept Vasir but was unable to stop her from jumping out the third-story window; Shepard fell as Liara pursued Vasir through the air.
+    source_chunks: [baria-frontiers_001, liara-t-soni_012, storyline-ii_042]
+related_events: [shadow-broker-baria-explosion]
+source_chunks: [baria-frontiers_001, tela-vasir_003, storyline-ii_042, liara-t-soni_012]

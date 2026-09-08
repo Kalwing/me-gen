@@ -1,0 +1,28 @@
+scene_id: baat-vyrnnus-death
+title: Rahna's Broken Arm and the Death of Vyrnnus
+kind: argument
+game: Mass Effect
+when: 2168, Gagarin Station ("Jump Zero"), during the BAaT biotic training programme
+where: a training session at Biotic Acclimation and Temperance Training
+
+participants: [Kaidan Alenko, Commander Vyrnnus, Rahna]
+private_to: [Kaidan Alenko, Commander Vyrnnus, Rahna]
+
+beats:
+  - text: >
+      Vyrnnus, the turian mercenary hired to accelerate the trainees' progress, runs an
+      exceptionally harsh session. When Rahna, a fellow teenage trainee close to Kaidan,
+      reaches for water without permission, Vyrnnus breaks her arm as punishment.
+    source_chunks: [rahna_002, kaidan-alenko_003]
+  - text: >
+      Kaidan lashes out at Vyrnnus with a biotic attack. Vyrnnus draws a combat knife; in
+      the ensuing struggle Kaidan kills him, breaking his neck.
+    source_chunks: [vyrnnus_003, kaidan-alenko_003]
+  - text: >
+      The Alliance shuts BAaT down afterward and seals its records to hide its own
+      culpability for the programme's abuses. Rahna, frightened by what Kaidan did, cuts
+      off contact with him.
+    source_chunks: [rahna_003, vyrnnus_001]
+
+related_events: [baat-vyrnnus-death]
+source_chunks: [rahna_002, rahna_003, vyrnnus_003, kaidan-alenko_003, vyrnnus_001]
