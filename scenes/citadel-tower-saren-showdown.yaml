@@ -27,11 +27,55 @@ beats:
       destroyed.
     source_chunks: [citadel-tower_002]
   - text: >
+      Before the killing blow, Joker radios in: he's holding the entire Arcturus Fleet at the
+      relay, and can save the flagship Destiny Ascension — with the Council aboard — from the
+      geth ships tearing it apart, if Shepard opens the Citadel's arms. Squadmates argue both
+      ways: one wants the Council left to die for what humanity hasn't gotten from them, the
+      other that Sovereign threatens the whole galaxy and the fleet can't be spared. It is
+      Shepard's call.
+    source_chunks: [race-against-time-final-battle_008]
+  - text: >
+      Ordering the fleet to save the Ascension, the Alliance ships take losses but destroy the
+      geth attacking it; Hackett then throws every remaining ship at Sovereign.
+    source_chunks: [race-against-time-final-battle_008]
+    conditional: {council_fate: saved}
+    choice: Council saved
+  - text: >
+      Ordering the fleet to hold back — whether to let the Council die or to concentrate
+      everything on Sovereign — the Ascension is left undefended and destroyed by the geth as
+      the Alliance fleet passes it by; Hackett then throws every remaining ship at Sovereign.
+    source_chunks: [race-against-time-final-battle_008]
+    conditional: {council_fate: died}
+    choice: Council left to die
+  - text: >
       When the Alliance and the remaining Citadel Fleet destroy Sovereign outside, a large
       piece of debris crashes into the Tower, nearly burying and crushing Shepard's team,
       until a rescue party led by Captain Anderson finds them.
     source_chunks: [citadel-tower_002]
+  - text: >
+      If the Council survived, they thank and honor humanity's sacrifice — more grudgingly if
+      Shepard leans Renegade, warier of the war still coming — and offer humanity the open
+      Council seat. The Asari Councilor says Shepard's vote on who fills it will carry weight.
+    source_chunks: [race-against-time-final-battle_011]
+    conditional: {council_fate: saved}
+    choice: Council saved — seat offered
+  - text: >
+      Shepard can nominate Anderson, seat Udina instead, or defer the choice to the
+      politicians, which seats Udina by default; whichever way it goes, both men accept the
+      outcome.
+    source_chunks: [race-against-time-final-battle_011]
+    conditional: {council_fate: saved}
+    choice: Human Councilor named
+  - text: >
+      If the Council died, Udina summons Anderson and Shepard, arguing this is humanity's
+      chance to take the Council for itself — Shepard can talk him down or go along with it.
+      Either way Udina asks who should chair the resulting human-led or all-human Council;
+      Shepard can name Udina or Anderson, and Udina becomes Chairman by default if Shepard
+      declines to choose.
+    source_chunks: [race-against-time-final-battle_012]
+    conditional: {council_fate: died}
+    choice: Council died — new Council formed
 
 related_scenes: []
 related_events: []
-source_chunks: [citadel-tower_002]
+source_chunks: [citadel-tower_002, race-against-time-final-battle_008, race-against-time-final-battle_011, race-against-time-final-battle_012]

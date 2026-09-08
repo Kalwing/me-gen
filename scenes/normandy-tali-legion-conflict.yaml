@@ -23,11 +23,22 @@ beats:
       tests, and their plans to attack.
     source_chunks: [tali-zorah-nar-rayya_006]
   - text: >
-      Unless Shepard steps in without taking a side, one of the two stops trusting the
-      Commander. Handled impartially, Tali thanks Legion for agreeing not to transmit, and
-      offers it unclassified Flotilla data instead.
-    source_chunks: [tali-zorah-nar-rayya_006]
+      Handled impartially, with enough Paragon or Renegade points, Tali thanks Legion for
+      agreeing not to transmit, and offers it unclassified Flotilla data instead; both stay
+      loyal.
+    source_chunks: [tali-zorah-nar-rayya_006, legion-a-house-divided_011]
+    conditional: {tali_legion_conflict: resolved_impartially}
+    choice: resolved without picking a side
+  - text: >
+      Without enough points, Shepard has to side with one of them, telling Legion to stop its
+      transmission or letting it continue; whichever one is not sided with loses trust in the
+      Commander and its loyalty — Legion's loyalty can still be salvaged afterward by lying
+      to it (with a high Renegade score) that the "lie" about stopping the transmission was
+      what kept Tali happy, which Legion accepts as "a logical decision."
+    source_chunks: [legion-a-house-divided_011]
+    conditional: {tali_legion_conflict: sided_with_one}
+    choice: sided with one — the other loses loyalty
 
 related_scenes: [flotilla-tali-treason-trial]
 related_events: []
-source_chunks: [tali-zorah-nar-rayya_006]
+source_chunks: [tali-zorah-nar-rayya_006, legion-a-house-divided_011]

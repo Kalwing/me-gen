@@ -33,9 +33,19 @@ beats:
       goes after Vido.
     source_chunks: [zaeed-massani_005]
   - text: >
-      Put the fires out and Vido leaves in a gunship, and Zaeed has to be talked — with
-      difficulty — into shelving the vengeance until the Collectors are dealt with.
+      Put the fires out, and the workers are saved, but Vido escapes in a gunship. Zaeed is
+      enraged; Shepard can talk him around, with great difficulty, into shelving the
+      vengeance until the Collectors are dealt with, securing his loyalty.
     source_chunks: [zaeed-massani_005]
+    conditional: {zorya_choice: fires_out}
+    choice: put out the fires — Vido escapes
+  - text: >
+      Pursue Vido instead, and the workers burn, but Zaeed gets his revenge: he shoots Vido
+      in the leg, then kills him by throwing a heatsink into the puddle of fuel Vido is lying
+      in, burning him to death.
+    source_chunks: [zaeed-massani_005]
+    conditional: {zorya_choice: pursued_vido}
+    choice: pursued Vido — Vido killed
 
 related_scenes: [citadel-party-apartment]
 related_events: []

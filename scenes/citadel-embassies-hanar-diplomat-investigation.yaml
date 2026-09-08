@@ -18,7 +18,7 @@ beats:
       technology are believed to have been indoctrinated there; Bau's source was either
       Kasumi Goto or arms dealer Donovan Hock, depending on whether Kasumi: Stealing
       Memory had been completed.
-    source_chunks: [jondum-bau_001, jondum-bau_002]
+    source_chunks: [jondum-bau_001]
   - text: >
       Using the Spectre Terminal and a series of terminals across the Embassies, the
       Office Suite, and the Docks Holding Area, Shepard investigates suspicious money
@@ -32,19 +32,26 @@ beats:
       the automated defenses of the hanar homeworld, Kahje, reasoning that because the
       Protheans became Collectors who serve the Reapers, the hanar should serve them
       too. A human bodyguard attacks Bau.
-    source_chunks: [zymandis_001, jondum-bau_002]
+    source_chunks: [zymandis_001, jondum-bau_001]
   - text: >
       If Kasumi is present, she stops the upload while Shepard frees Bau, who then
       shoots and kills Zymandis; a rigged console explodes, apparently killing Kasumi.
-    source_chunks: [jondum-bau_002]
+    source_chunks: [jondum-bau_001]
     conditional: {kasumi_present: true}
     choice: Kasumi present
   - text: >
       Without Kasumi, Shepard must choose between saving Bau with a Renegade interrupt
       or stopping the upload alone. If Shepard stops the upload, Bau fights off and
       shoots the bodyguard and Zymandis himself, taking a gut wound but surviving.
-    source_chunks: [jondum-bau_002]
-    conditional: {kasumi_present: false}
-    choice: Kasumi absent
+    source_chunks: [jondum-bau_001]
+    conditional: {kasumi_present: false, zymandis_choice: stop_upload}
+    choice: stopped the upload — Bau wounded but alive
+  - text: >
+      If Shepard instead saves Bau from the bodyguard, the upload succeeds and Kahje's
+      planetary defenses are crippled; Bau shoots Zymandis anyway, but is shaken by the
+      cost, telling Shepard he should have let the upload be stopped instead.
+    source_chunks: [jondum-bau_001]
+    conditional: {kasumi_present: false, zymandis_choice: save_bau}
+    choice: saved Bau — Kahje's defenses crippled
 related_events: [hanar-diplomat-zymandis-investigation]
-source_chunks: [jondum-bau_001, jondum-bau_002, zymandis_001, citadel-hanar-diplomat_002, citadel-hanar-diplomat_003]
+source_chunks: [jondum-bau_001, zymandis_001, citadel-hanar-diplomat_002, citadel-hanar-diplomat_003]

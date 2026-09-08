@@ -15,26 +15,46 @@ requires:
 
 beats:
   - text: >
-      With the tower coming apart around them, it is Shepard's call whether Mordin goes up to
-      fix the sabotage.
+      With the tower coming apart around them, and explosions from sabotage throughout the
+      structure, it is Shepard's call whether Mordin goes up to fix it — unless Wreav leads
+      the krogan clans and Maelon's data was destroyed, in which case Mordin can instead be
+      convinced the krogan would only repeat the Rebellions under Wreav, and agrees to fake
+      his own death and disappear rather than deliver the cure.
     source_chunks: [mordin-solus_008]
   - text: >
       Let up, he is grateful for it, and repeats his reason: it had to be him, someone else
       might have gotten it wrong. He is killed by a direct explosion in the control room.
     source_chunks: [mordin-solus_008, mordin-solus_006]
+    conditional: {mordin_shroud_fate: died_completing_cure}
+    choice: let Mordin go up — died delivering the cure
   - text: >
       If he sang for Shepard during the Collector business, he dies singing "Scientist
       Salarian", at peace with the genophage work at last.
     source_chunks: [mordin-solus_008]
+    conditional: {mordin_shroud_fate: died_completing_cure}
+    choice: died singing
   - text: >
       Shot to stop him, he still gets the elevator up and crawls for the console, and does not
       reach it in time.
     source_chunks: [mordin-solus_008]
+    conditional: {mordin_shroud_fate: shot_by_shepard}
+    choice: shot to stop him — cure sabotaged
+  - text: >
+      With Wreav as clan leader and the cure sabotaged as a result, Mordin lets Shepard believe
+      he died, and quietly walks away to survive; the salarians keep their support along with
+      Wreav's krogan, neither aware the cure never went out. He continues working for Shepard
+      from the shadows, later lending his expertise to the Crucible project.
+    source_chunks: [mordin-solus_008]
+    conditional: {mordin_shroud_fate: faked_death_survived}
+    choice: talked into faking his death — survives
   - text: >
       With Wrex and Eve both alive, Eve insists their first child be named Mordin.
     source_chunks: [mordin-solus_008]
+    conditional: {mordin_shroud_fate: died_completing_cure}
+    choice: Mordin dead — Eve names her child for him
   - text: >
-      However he dies, his name goes on the Normandy's memorial wall.
+      However he dies, his name goes on the Normandy's memorial wall; if he survived by faking
+      his death, or the cure was never delivered without him, it does not.
     source_chunks: [mordin-solus_008]
 
 related_scenes: [tuchanka-mordin-and-maelon, normandy-cockpit-garrus-and-joker,

@@ -23,8 +23,27 @@ beats:
     source_chunks: [legion_003]
   - text: >
       On the station Legion works out that the same virus could be turned around: rewritten to
-      bring the heretics peacefully back into the consensus rather than killing them.
-    source_chunks: [legion_003]
+      bring the heretics peacefully back into the consensus rather than killing them. Fighting
+      through the geth defending it, Shepard's squad reaches the console holding the virus;
+      Legion cannot decide between the two paths itself and leaves the choice to Shepard.
+    source_chunks: [legion_003, legion-a-house-divided_009]
+  - text: >
+      Rewrite the heretics: the station releases an EMP that will also damage any unshielded
+      organic tissue in a large radius, folding the heretics' memories into the geth
+      collective and making the geth as a whole stronger.
+    source_chunks: [legion-a-house-divided_009]
+    conditional: {heretics_fate: rewritten}
+    choice: rewrote the heretics
+  - text: >
+      Destroy the heretics: Legion collapses the antimatter confinement bottle in the
+      station's core, destroying the station and everything aboard it, though other heretic
+      holdouts remain elsewhere.
+    source_chunks: [legion-a-house-divided_009]
+    conditional: {heretics_fate: destroyed}
+    choice: destroyed the heretics
+  - text: >
+      Either way there are three minutes to evacuate before the station goes.
+    source_chunks: [legion-a-house-divided_010]
   - text: >
       Legion's own framing of the split — how could we have become so different, why can we no
       longer understand each other, what did we do wrong.
@@ -32,4 +51,4 @@ beats:
 
 related_scenes: [normandy-tali-legion-conflict]
 related_events: []
-source_chunks: [legion_003]
+source_chunks: [legion_003, legion-a-house-divided_009, legion-a-house-divided_010]

@@ -19,10 +19,25 @@ beats:
       Cerberus's part in what was done to Jack.
     source_chunks: [jack_005, jack-subject-zero_010]
   - text: >
-      Handled without picking a side, both agree to shelve it until the Collectors are dealt
-      with. Siding with Miranda costs Jack's trust — recoverable later in conversation, except
-      in a romance, which she ends and will not restart.
-    source_chunks: [jack_005]
+      Jack flings a chair across Miranda's office before Shepard breaks it up; Jack is furious
+      that Miranda won't admit what Cerberus did to her was wrong. Ending it without
+      alienating either of them takes a high Paragon or Renegade score — fewer Renegade
+      points are needed than Paragon.
+    source_chunks: [jack-subject-zero_010]
+  - text: >
+      With enough points, both crewmembers keep their loyalty and any relationship already
+      underway with either continues.
+    source_chunks: [jack-subject-zero_010]
+    conditional: {jack_miranda_confrontation: both_kept}
+    choice: kept both Jack and Miranda
+  - text: >
+      Without enough points, Shepard alienates one of them, losing that crewmember's loyalty
+      (recoverable later in conversation with a high enough score) and ending any romance
+      with them for good; siding with Miranda costs Jack's trust this way, and siding with
+      Jack costs Miranda's.
+    source_chunks: [jack-subject-zero_010, jack_005]
+    conditional: {jack_miranda_confrontation: sided_with_one}
+    choice: sided with one — the other alienated
 
 related_scenes: [pragia-jack-teltin-facility, citadel-party-apartment]
 related_events: []

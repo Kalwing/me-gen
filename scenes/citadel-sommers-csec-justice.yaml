@@ -22,6 +22,27 @@ beats:
       Shepard could resolve the situation in four ways: persuade Sommers to call off the hit by pointing out that Sommers would dishonor the uniform himself (Paragon); invoke Spectre authority and sanction the killing (Renegade); warn Sommers he would be arrested if he attempted murder; or look the other way and feign ignorance, allowing Sommers to proceed.
     source_chunks: [citadel-cerberus-retribution_001, citadel-cerberus-retribution_003]
   - text: >
+      Persuaded, Sommers apologizes and shuts the operation down — the officer is not killed.
+    source_chunks: [citadel-cerberus-retribution_003]
+    conditional: {sommers_resolution: persuaded}
+    choice: persuaded Sommers to stand down
+  - text: >
+      Sanctioned with Spectre authority, Sommers kills the officer legally.
+    source_chunks: [citadel-cerberus-retribution_003]
+    conditional: {sommers_resolution: sanctioned}
+    choice: sanctioned the killing
+  - text: >
+      Warned of arrest, Sommers leaves disappointed in Shepard's apparent lack of zeal
+      against Cerberus, and does not go through with it.
+    source_chunks: [citadel-cerberus-retribution_003]
+    conditional: {sommers_resolution: warned}
+    choice: warned Sommers off
+  - text: >
+      Looking the other way, Shepard feigns ignorance and lets the plot proceed.
+    source_chunks: [citadel-cerberus-retribution_003]
+    conditional: {sommers_resolution: ignored}
+    choice: looked the other way
+  - text: >
       The outcome granted Shepard morality points based on the choice made, plus 210 experience and 5,000 credits.
     source_chunks: [citadel-cerberus-retribution_001]
 source_chunks: [citadel-cerberus-retribution_001, citadel-cerberus-retribution_003]

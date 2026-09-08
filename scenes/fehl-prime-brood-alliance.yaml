@@ -4,7 +4,7 @@ kind: mission-aside
 game: Mass Effect
 when: "2185, during the Collector attack on Fehl Prime"
 where: the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel
-participants: [James Vega, Brood, Essex, Kamille, Nicky, Milque, Messner, Collector forces, captured colonists, Christine, April]
+participants: [James Vega, Brood, Essex, Kamille, Nicky, Milque, Messner, Collector forces, captured colonists, Christine, April, Treeya]
 private_to: []
 heard_by: [Alliance forces on Fehl Prime]
 requires:
@@ -68,9 +68,14 @@ beats:
       core is destroyed, she holds onto April.
     source_chunks: [christine_001]
   - text: >
-      Vega then faces a difficult choice. Whichever option he takes costs the lives of all
-      the colonists, including Christine and April, as the ship crashes onto the surface.
-    source_chunks: [christine_001]
+      As the crippled ship goes down, Vega has to choose between freeing the colonists —
+      Christine and April among them — from their pods, or pulling out the asari Treeya
+      Nuwani, who holds intelligence on the Collectors vital enough to be worth the trade.
+      He goes for Treeya. The colonists, unable to be freed in time, are lost when the ship
+      crashes; the Alliance later erects a monument on Fehl Prime to their memory, and
+      commends Vega for the choice even though Shepard's later destruction of the Collector
+      base makes the intelligence unnecessary.
+    source_chunks: [fehl-prime_003, fehl-prime_004]
 related_scenes: [fehl-prime-blood-pack-siege-2183]
 related_events: [fehl-prime-collector-attack]
-source_chunks: [brood_001, christine_001]
+source_chunks: [brood_001, christine_001, fehl-prime_003, fehl-prime_004]

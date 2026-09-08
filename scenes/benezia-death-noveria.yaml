@@ -33,9 +33,31 @@ beats:
       asari religion.
     source_chunks: [storyline_034, benezia_003]
   - text: >
-      Shepard then decides the fate of the Rachni Queen, whose mind Benezia's extraction left
-      partially stripped, before taking the tram back to the Normandy.
+      Weakened, the Rachni Queen sees the opportunity to appeal to Shepard for forgiveness,
+      using the body of one of Benezia's dead commandos to translate. She says the rachni
+      queens were driven to war by a "sour yellow note," implying they were not fully
+      responsible for the Rachni Wars, and that she wants only to rebuild her species
+      peacefully. She asks what Shepard will do: kill her with the lab's acid tanks,
+      consigning her to the "great silence," or free her.
+    source_chunks: [rachni-queen_002]
+  - text: >
+      Freed, she escapes into the wilds of Noveria, remembering the kindness Shepard showed
+      and meaning to pass those lessons to her new offspring.
+    source_chunks: [rachni-queen_002]
+    conditional: {rachni_queen_fate: freed}
+    choice: Rachni Queen freed
+  - text: >
+      Killed, she makes one more appeal, asking if fear of the rachni's threat factored into
+      the decision; if Shepard ignores it, she orders her thrall to work the controls, and
+      Shepard pushes the dying commando aside and activates the acid bath personally. The
+      Council later scolds Shepard for making the rachni extinct a second time, the turian
+      representative asking whether humans take pleasure in genocide.
+    source_chunks: [rachni-queen_002]
+    conditional: {rachni_queen_fate: killed}
+    choice: Rachni Queen killed
+  - text: >
+      Shepard takes the tram back to the Normandy.
     source_chunks: [storyline_034]
 
 related_events: [benezia-death-noveria, rachni-queen-noveria-choice, noveria-espionage]
-source_chunks: [storyline_034, benezia_003, noveria-matriarch-benezia_001]
+source_chunks: [storyline_034, benezia_003, noveria-matriarch-benezia_001, rachni-queen_002]

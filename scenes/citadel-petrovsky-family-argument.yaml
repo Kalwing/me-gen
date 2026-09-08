@@ -25,6 +25,24 @@ beats:
       the family.
     source_chunks: [citadel-family-matter_003]
   - text: >
+      Persuaded into the gene therapy, Rebekah's prejudice against it fades and she and
+      Michael reconcile, going on to discuss further modifications for Jake.
+    source_chunks: [citadel-family-matter_001]
+    conditional: {petrovsky_argument: therapy}
+    choice: argued for the therapy
+  - text: >
+      Persuaded to respect Rebekah's wishes instead, Michael and Rebekah likewise reconcile,
+      settling on the safer, less effective treatments.
+    source_chunks: [citadel-family-matter_001]
+    conditional: {petrovsky_argument: no_therapy}
+    choice: argued against the therapy
+  - text: >
+      Staying neutral leaves them unable to resolve it themselves — the rift between them
+      never closes on its own.
+    source_chunks: [citadel-family-matter_001]
+    conditional: {petrovsky_argument: neutral}
+    choice: stayed neutral
+  - text: >
       By 2185, with the child born and named Jake after his father's nickname, Rebekah and
       Michael are found still arguing on the 26th floor of the Zakera Ward market — this time
       over Jacob's legacy and how to raise him — with no way for Shepard to intervene. Their

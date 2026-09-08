@@ -5,7 +5,7 @@ game: Mass Effect 2
 when: 2185, when Miranda's father finally locates her sister
 where: Illium
 
-participants: [Shepard, Miranda Lawson, Oriana Lawson]
+participants: [Shepard, Miranda Lawson, Oriana Lawson, Niket, Enyala]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -24,8 +24,46 @@ beats:
     source_chunks: [miranda-lawson_014]
   - text: >
       A contact warns Miranda that he has found her, and Cerberus arranges a relocation.
-      Miranda insists on going, to make sure nothing goes wrong.
-    source_chunks: [miranda-lawson_014]
+      Miranda insists on going, to make sure nothing goes wrong. Her childhood friend Niket,
+      one of the few people from her old life she trusts, is supposed to help with the
+      transfer — but Niket has sold her out to the mercenary Enyala, stalling the transfer so
+      Enyala's Eclipse can take Oriana instead.
+    source_chunks: [miranda-lawson_014, miranda-the-prodigal_010]
+  - text: >
+      Confronting Niket, Miranda draws her gun to kill him.
+    source_chunks: [miranda-the-prodigal_010]
+  - text: >
+      Left alone, Miranda shoots Niket dead before the fight with Enyala's mercs begins.
+    source_chunks: [miranda-the-prodigal_010]
+    conditional: {niket_fate: killed_by_miranda}
+    choice: Niket killed by Miranda
+  - text: >
+      A Paragon interrupt stops Miranda from firing; Niket apologizes, and Enyala shoots him
+      in the back instead.
+    source_chunks: [miranda-the-prodigal_010]
+    conditional: {niket_fate: killed_by_enyala}
+    choice: Niket spared by Miranda, killed by Enyala
+  - text: >
+      With Oriana safe and in sight of her family, Miranda is happy she can live a normal
+      life and moves to leave without approaching them.
+    source_chunks: [miranda-the-prodigal_011]
+  - text: >
+      Shepard can convince Miranda to go meet Oriana and her family, or respect her decision
+      to walk away and leave them undisturbed.
+    source_chunks: [miranda-the-prodigal_011]
+  - text: >
+      Convinced to meet them, Miranda later reports Oriana's family was shocked to learn the
+      truth but adjusted quickly, and Oriana goes on to email Shepard herself, having tracked
+      down the address on her own.
+    source_chunks: [miranda-the-prodigal_011, miranda-lawson_017]
+    conditional: {oriana_reveal: met}
+    choice: Miranda meets Oriana
+  - text: >
+      Left alone, Miranda is less upbeat about it afterward, but still satisfied Oriana's
+      safety is assured.
+    source_chunks: [miranda-the-prodigal_011]
+    conditional: {oriana_reveal: not_met}
+    choice: Miranda stays hidden from Oriana
   - text: >
       Miranda came to see that she had escaped her father's control only to do the same thing
       to someone else.
@@ -33,4 +71,4 @@ beats:
 
 related_scenes: [normandy-jack-miranda-confrontation, citadel-party-apartment]
 related_events: []
-source_chunks: [miranda-lawson_014, miranda-lawson_017]
+source_chunks: [miranda-lawson_014, miranda-lawson_017, miranda-the-prodigal_010, miranda-the-prodigal_011]
