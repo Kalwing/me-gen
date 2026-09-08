@@ -1,0 +1,48 @@
+scene_id: citadel-old-friends-finch-weisman
+title: Finch Comes Looking for the Old Gang
+kind: argument
+game: Mass Effect
+when: 2183, Citadel, after the first core mission world
+where: outside Chora's Den, then Chora's Den itself, the Wards
+
+participants: [Shepard, Finch, Curt Weisman]
+private_to: []
+heard_by: []
+
+requires:
+  - background: Earthborn
+
+beats:
+  - text: >
+      Finch, a human Shepard once ran with in the Tenth Street Reds gang on Earth, accosts
+      Shepard in passing outside Chora's Den. He asks Shepard to lean on a turian guard
+      inside to get a fellow Reds member, Curt Weisman, released — arrested by the turians
+      for a "minor offence" committed in turian space — and threatens to expose Shepard's
+      gang past if refused.
+    source_chunks: [citadel-old-friends_001, citadel-old-friends_003]
+  - text: >
+      The turian guard tells Shepard the Reds have become a violent anti-alien group, and
+      that Weisman's "minor offence" was a hate crime: poisoning medical cargo meant for a
+      turian colony, which could have killed millions.
+    source_chunks: [citadel-old-friends_003]
+  - text: >
+      Shepard decides how to play it: negotiate Weisman's release, warn the guard that Finch
+      will try to free him regardless, or refuse to help after hearing what Weisman actually
+      did.
+    source_chunks: [citadel-old-friends_003]
+  - text: >
+      If Weisman stays locked up, Finch confronts Shepard and threatens to tell the galaxy
+      about the Commander's Reds past and its anti-alien agenda. Shepard can talk him down,
+      shoot him, or use Spectre authority to intimidate him into silence. The guard's opinion
+      of Shepard tracks the outcome — killing Finch earns his respect, letting Finch walk
+      away loses it.
+    source_chunks: [citadel-old-friends_003]
+
+variants:
+  - condition: {weisman_released: true}
+    text: Weisman is freed and leaves with Finch; no confrontation follows.
+    source_chunks: [citadel-old-friends_003]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-old-friends_001, citadel-old-friends_003]

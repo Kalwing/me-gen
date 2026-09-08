@@ -1,0 +1,27 @@
+scene_id: citadel-skycar-omega-planning
+title: Skycar Ride with Aria T'Loak
+kind: banter
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Palaven"
+where: a skycar circling the Presidium
+participants: [Shepard, Aria T'Loak, Bray]
+private_to: [Shepard, Aria T'Loak, Bray]
+heard_by: []
+requires:
+  - omega: yes
+  - citadel_dlc: any
+beats:
+  - text: >
+      Shepard met Bray, one of Aria's batarian guards, at Dock 42 on the Citadel. Aria joined them and the three boarded a skycar for a joyride around the Presidium, kept private because of the sensitive nature of the plan.
+    source_chunks: [citadel-aria-t-loak_001, citadel-aria-t-loak_003]
+  - text: >
+      Aria explained her intention to retake Omega from Cerberus: she had assembled a fleet to break through the Cerberus ships guarding the station, but expected the real fighting to happen on foot through the station. She named the leader of the occupation as Oleg Petrovsky, admitted she had little intelligence on enemy ground forces, but claimed to know exploitable secrets about Omega.
+    source_chunks: [citadel-aria-t-loak_001, citadel-aria-t-loak_003, aria-t-loak_011]
+  - text: >
+      Aria offered Shepard troops and supplies for the Reaper war in exchange for help retaking Omega, on the condition that Shepard come alone, without squadmates, while her forces engaged the bulk of the enemy elsewhere. She emphasized the need for discretion while on the Citadel. No morality points were awarded.
+    source_chunks: [citadel-aria-t-loak_001, aria-t-loak_011]
+  - text: >
+      The skycar dropped Shepard and Bray at a docking bay. Aria left her fleet's coordinates with Bray and urged Shepard to keep the plan secret. Shepard was then automatically returned to the Normandy SR-2.
+    source_chunks: [citadel-aria-t-loak_001, bray_002]
+related_events: [liberation-of-omega]
+source_chunks: [citadel-aria-t-loak_001, citadel-aria-t-loak_003, aria-t-loak_011, bray_002]

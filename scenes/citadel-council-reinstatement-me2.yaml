@@ -1,0 +1,39 @@
+scene_id: citadel-council-reinstatement-me2
+title: Reporting Back to the Council After Two Years Dead
+kind: ceremony
+game: Mass Effect 2
+when: 2185, on first return to the Citadel after Freedom's Progress
+where: the human embassy and the Council Chambers, the Presidium
+
+participants: [Shepard, David Anderson, Donnel Udina, Tevos, Valern, Sparatus]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Anderson messages Shepard on taking command of the new Normandy, asking to meet on the
+      Citadel to answer the rumours in person — noting either that Shepard put the Council
+      (or Anderson himself) in power, or put humanity on top, depending on whether the
+      original Council was saved from Sovereign.
+    source_chunks: [citadel-the-council_003]
+  - text: >
+      Shepard travels to the Presidium and is met by Anderson at the human embassy. If the
+      Council was saved, a meeting is already underway and Shepard is admitted; if it died,
+      the new Council refuses to meet at all.
+    source_chunks: [citadel-the-council_003]
+  - text: >
+      Where the Council does meet Shepard, it is openly skeptical of the mission against the
+      Collectors and does not believe the Reaper threat is real.
+    source_chunks: [citadel-the-council_003]
+  - text: >
+      If the Council survived, or if it died and Anderson took the seat, Shepard can be
+      reinstated as a Spectre; there is no such option if Udina holds the human seat instead.
+      Udina arrives late in every version and is visibly upset that Anderson arranged things
+      without telling him first.
+    source_chunks: [citadel-the-council_003]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-the-council_003]

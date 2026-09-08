@@ -1,0 +1,49 @@
+scene_id: citadel-wrex-recruitment
+title: Recruiting Wrex at C-Sec Academy
+kind: mission-aside
+game: Mass Effect
+when: "2183, after Citadel: Expose Saren"
+where: the bank in the Presidium financial district, then C-Sec Academy, the Citadel
+
+participants: [Shepard, Barla Von, Urdnot Wrex, Fist]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Anderson sends Shepard to Barla Von, a Shadow Broker agent at the Presidium bank.
+      Barla Von explains, for free, that Saren betrayed the Shadow Broker and turned a
+      former Broker agent named Fist to his side, and that the Broker hired a krogan bounty
+      hunter, Urdnot Wrex, to deal with Fist in retaliation.
+    source_chunks: [citadel-wrex_002, citadel-wrex_003]
+  - text: >
+      At C-Sec Academy, Shepard finds C-Sec officers holding Wrex over threats he made
+      against Fist. Wrex tells them flatly he will kill Fist regardless. After a tense
+      standoff the officers back off and leave, and Wrex turns to Shepard; their goals align
+      closely enough that he agrees to join the squad.
+    source_chunks: [citadel-wrex_003]
+  - text: >
+      If Garrus was recruited first and Fist already dealt with at Chora's Den, Wrex is found
+      instead leaning against the Dock 422 elevator, frustrated that Shepard handled his
+      contract. Out of professional pride he gifts Fist's bounty to Shepard rather than
+      collecting it, and asks to join — he wants to be "where the action is" and reads Saren
+      as the start of a larger conflict, disgusted by the krogan serving him for having
+      abandoned krogan pride.
+    source_chunks: [citadel-wrex_003]
+  - text: >
+      Shepard can refuse a krogan on the team; Wrex, mildly annoyed, says he will wait at
+      Chora's Den and can be recruited there later. The bounty is paid to Shepard either way.
+    source_chunks: [citadel-wrex_003]
+
+variants:
+  - condition: {garrus_first: true}
+    text: >
+      Completing Citadel: Garrus first has Garrus himself press Shepard to recruit Wrex, and
+      Shepard can go straight to C-Sec Academy without visiting Barla Von.
+    source_chunks: [citadel-wrex_002]
+
+related_scenes: [citadel-garrus-recruitment]
+related_events: []
+source_chunks: [citadel-wrex_002, citadel-wrex_003]

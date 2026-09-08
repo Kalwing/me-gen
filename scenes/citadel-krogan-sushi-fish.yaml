@@ -1,0 +1,32 @@
+scene_id: citadel-krogan-sushi-fish
+title: Fish for Kargesh
+kind: banter
+game: Mass Effect 2
+when: 2185, after Freedom's Progress
+where: Zakera Ward market, Level 27, and the Dark Star Lounge, Level 28
+
+participants: [Shepard, Kargesh, Rukar]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Shepard overhears two krogan, Kargesh and Rukar, on Level 27 of the Zakera Ward market —
+      Kargesh wants to taste fish from the Presidium lakes.
+    source_chunks: [citadel-krogan-sushi_001, citadel-krogan-sushi_002]
+  - text: >
+      A turian groundskeeper in the Dark Star Lounge on Level 28 tells Shepard the Presidium
+      lakes are water reservoirs with no fish in them, and that the only fish sold on the
+      Citadel is at Citadel Souvenirs.
+    source_chunks: [citadel-krogan-sushi_003]
+  - text: >
+      Shepard can tell Kargesh the truth, or buy a fish from Citadel Souvenirs and sell it to
+      him claiming it came from the Presidium. Either way Shepard is paid 1,000 credits, and
+      any fish bought still turns up in the Normandy's aquarium.
+    source_chunks: [citadel-krogan-sushi_003]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-krogan-sushi_001, citadel-krogan-sushi_002, citadel-krogan-sushi_003]

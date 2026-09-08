@@ -1,0 +1,43 @@
+scene_id: citadel-docks-talitha-standoff
+title: Talking Talitha Down at Dock 422
+kind: mission-aside
+game: Mass Effect
+when: 2183, Citadel, after the first core mission world
+where: the Citadel docking bay near the SSV Normandy's berth, Dock 422
+
+participants: [Shepard, Lieutenant Girard, Talitha]
+private_to: []
+heard_by: []
+
+requires:
+  - background: Colonist
+
+beats:
+  - text: >
+      Leaving the elevator from Dock 422, Shepard is called by Lieutenant Girard about a
+      traumatized, armed woman barricaded behind shipping containers near the Normandy's
+      berth — Talitha, a survivor of the Mindoir colony raid, the same batarian slaver raid
+      that killed Shepard's family, escaped from captivity. Girard wants her talked into a
+      sedative so she can be moved to a psychiatric facility, and keeps a sniper on standby
+      only as a last resort.
+    source_chunks: [citadel-i-remember-me_001, citadel-i-remember-me_003]
+  - text: >
+      Shepard talks to Talitha at a distance, across the batarian raid, her escape, her
+      parents' fate, and Shepard's own childhood, stepping closer only as she calms.
+      Approaching too fast, or answering with anything accusatory or tactless, makes her
+      shoot herself; a Paragon or Renegade beat on each topic is what actually settles her.
+    source_chunks: [citadel-i-remember-me_003]
+  - text: >
+      Talked down over three careful steps, Shepard convinces or forces her to take the
+      sedative; she asks if she will have bad dreams before going under. Shepard reports back
+      to Girard. Alternatively Shepard can order Girard to have her shot instead.
+    source_chunks: [citadel-i-remember-me_003]
+  - text: >
+      Sedated and later treated, Talitha writes to Shepard's private terminal in 2185 to say
+      thank you — she has been placed in a special school and is doing better, and asks
+      Shepard to help others being taken as she was.
+    source_chunks: [citadel-i-remember-me_004]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-i-remember-me_001, citadel-i-remember-me_003, citadel-i-remember-me_004]

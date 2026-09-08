@@ -3,9 +3,9 @@ title: Out Through the Wards, No Armour, One Pistol
 kind: mission-aside
 game: Mass Effect 3
 when: 2186, Citadel shore leave, minutes after the sushi bar
-where: Citadel Wards maintenance levels down to the Cision Motors skycar lot
+where: Ryuusei's Sushi Bar down through the Citadel Wards maintenance levels to the Cision Motors skycar lot
 
-participants: [Shepard, Maya Brooks]
+participants: [Shepard, Jeff "Joker" Moreau, Maya Brooks]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -14,19 +14,53 @@ requires:
 
 beats:
   - text: >
+      Armed mercenaries walk into Ryuusei's, knock the host unconscious and fire into the
+      ceiling. Shepard grabs Joker, pulls him down and flips a table for cover; Brooks hides
+      behind another table until a mercenary finds and drags her off. Shepard sends Joker to
+      get the crew and goes after Brooks.
+    source_chunks: [citadel-wards-ambush_004]
+  - text: >
+      A mercenary spots Joker breaking for the exit; Shepard grabs the man and kills him with
+      a heavy melee, over Joker's complaint about being used as bait, and takes his pistol — a
+      unique M-11 Suppressor.
+    source_chunks: [citadel-wards-ambush_004]
+  - text: >
       Shepard fights out of the restaurant outnumbered, in civilian clothes, with no armour
-      and no squad — cover and a borrowed weapon the whole way.
+      and no squad, and reaches Brooks.
     source_chunks: [citadel-wards-ambush_005]
   - text: >
-      A merc lines up a Mattock on Shepard; Brooks sees it and shoves Shepard clear.
+      A merc lines up a Mattock on Shepard; Brooks sees it and shoves Shepard clear, taking
+      the shot herself. The gunfire shatters the restaurant's glass floor and Shepard falls
+      through into the lower Wards, landing hard on a platform, down to one segment of health.
     source_chunks: [citadel-wards-ambush_006]
   - text: >
-      Two Normandy crewmates answer the comm and meet Shepard on the way to the skycar lot,
-      joining as squad. Which two depends on who is alive and aboard.
-    source_chunks: [citadel-wards-ambush_008, citadel-wards-ambush_010]
+      Brooks calls in: she has burned all her medi-gel on herself and found a secure
+      terminal. Shepard tells her to alert C-Sec and stay off the comm, since it is probably
+      how the attackers found them in the first place.
+    source_chunks: [citadel-wards-ambush_006]
   - text: >
-      The C-Sec shuttle that arrives at the extraction zone turns out to be another ambush.
-      Joker pulls them out instead, at the Cision Motors skycar lot.
+      Shepard descends alone through maintenance platforms and a frozen-fish storage room,
+      then a market level, using stealth against CAT6 mercenaries, snipers and drones, toward
+      a landing pad Brooks identifies as belonging to Cision Motors.
+    source_chunks: [citadel-wards-ambush_006, citadel-wards-ambush_007]
+  - text: >
+      Two Normandy crewmates answer the comm and meet Shepard on the way to the skycar lot,
+      joining as squad. Which two depends on who is alive and aboard; Brooks objects to the
+      channel being unsecured until Shepard vouches for her.
+    source_chunks: [citadel-wards-ambush_008, citadel-wards-ambush_009, citadel-wards-ambush_010]
+  - text: >
+      Bypassing a locked-down bridge with Spectre authorization trips an alarm and draws
+      everyone in the area. Shepard fights clear and reaches the Cision Motors car lot, where
+      the first crewmate joins the fight and helps hold off two mercenaries.
+    source_chunks: [citadel-wards-ambush_008, citadel-wards-ambush_009]
+  - text: >
+      At a locked back door, the crewmate stops Shepard from shooting the lock and instead
+      knocks and talks a frightened volus manager into opening it.
+    source_chunks: [citadel-wards-ambush_010]
+  - text: >
+      The C-Sec shuttle that arrives at the extraction zone turns out to be another ambush,
+      backed by a Geth Spitfire. Joker pulls them out instead, at the Cision Motors skycar
+      lot.
     source_chunks: [citadel-wards-ambush_011, garrus-vakarian_014]
 
 variants:
@@ -42,16 +76,20 @@ variants:
     source_chunks: [tali-zorah-nar-rayya_012]
   - condition: {wrex_virmire: alive, genophage: cured}
     text: >
-      Wrex, on the Citadel to argue krogan expansion with the Council, arrives by body-slamming
-      the shuttle that has Shepard pinned, then stays on as a squadmate for the rest of it —
-      "Why shoot something once when you can shoot it 46 more times?"
-    source_chunks: [urdnot-wrex_012]
+      Wrex, on the Citadel to argue krogan expansion with the Council, arrives by
+      body-slamming the shuttle that has Shepard pinned, then clears out the ambushers inside
+      it and stays on as a squadmate for the rest of it — "Why shoot something once when you
+      can shoot it 46 more times?"
+    source_chunks: [urdnot-wrex_012, citadel-wards-ambush_011]
   - condition: {wrex_virmire: dead}
-    text: James Vega comes over comms to assist in Wrex's place.
-    source_chunks: [james-vega_017]
+    text: >
+      James Vega comes over comms to assist in Wrex's place, shooting the ambush shuttle down
+      with a Cobra Missile Launcher.
+    source_chunks: [james-vega_017, citadel-wards-ambush_011]
 
 related_scenes: [citadel-sushi-with-joker]
 related_events: [citadel-dlc-identity-theft-begins]
-source_chunks: [citadel-wards-ambush_005, citadel-wards-ambush_006, citadel-wards-ambush_008,
+source_chunks: [citadel-wards-ambush_004, citadel-wards-ambush_005, citadel-wards-ambush_006,
+                citadel-wards-ambush_007, citadel-wards-ambush_008, citadel-wards-ambush_009,
                 citadel-wards-ambush_010, citadel-wards-ambush_011, garrus-vakarian_014,
                 tali-zorah-nar-rayya_012, urdnot-wrex_012, james-vega_017]

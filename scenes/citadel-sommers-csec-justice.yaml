@@ -1,0 +1,27 @@
+scene_id: citadel-sommers-csec-justice
+title: "Captain Sommers' Vendetta in C-Sec"
+kind: argument
+game: Mass Effect 3
+when: "2186, Citadel Presidium Commons, after Priority: The Citadel II"
+where: "C-Sec office, Presidium Commons"
+participants: [Shepard, Captain Aaron Sommers, C-Sec personnel]
+heard_by: [Citadel residents, Alliance personnel]
+requires:
+  - citadel_coup: any
+beats:
+  - text: >
+      On the stairs leading to the C-Sec Outpost in Presidium Commons, Shepard encountered two arguing citizens planning to kill someone in C-Sec custody. One was conflicted while the other sought justice for their murdered spouses. While questioning them, they received a call from Captain Aaron Sommers, a retired Alliance marine, saying he was in position at C-Sec and needed them to distract security while he moved in for the kill.
+    source_chunks: [citadel-cerberus-retribution_001, citadel-cerberus-retribution_003]
+  - text: >
+      Shepard entered the C-Sec office and confronted Sommers. The retired Alliance marine explained that a C-Sec officer in custody had aided Cerberus during their attack on the Citadel. The officer was now giving C-Sec intelligence on Cerberus in exchange for a lighter sentence, but Sommers argued the officer deserved death for murdering innocents and executing his own friends.
+    source_chunks: [citadel-cerberus-retribution_001, citadel-cerberus-retribution_003]
+  - text: >
+      Sommers claimed that because the C-Sec officer was an Alliance veteran like himself, and his actions dishonored the uniform, it was Sommers' duty as a fellow Alliance veteran to deliver justice with his own hands.
+    source_chunks: [citadel-cerberus-retribution_003]
+  - text: >
+      Shepard could resolve the situation in four ways: persuade Sommers to call off the hit by pointing out that Sommers would dishonor the uniform himself (Paragon); invoke Spectre authority and sanction the killing (Renegade); warn Sommers he would be arrested if he attempted murder; or look the other way and feign ignorance, allowing Sommers to proceed.
+    source_chunks: [citadel-cerberus-retribution_001, citadel-cerberus-retribution_003]
+  - text: >
+      The outcome granted Shepard morality points based on the choice made, plus 210 experience and 5,000 credits.
+    source_chunks: [citadel-cerberus-retribution_001]
+source_chunks: [citadel-cerberus-retribution_001, citadel-cerberus-retribution_003]

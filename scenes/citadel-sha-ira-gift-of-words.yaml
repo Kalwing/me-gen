@@ -1,0 +1,30 @@
+scene_id: citadel-sha-ira-gift-of-words
+title: Sha'ira's Gift of Words
+kind: banter
+game: Mass Effect
+when: "2183, Citadel Presidium, after Shepard reconciled Septimus and Xeltan"
+where: the Consort's Chambers
+participants: [Shepard, Sha'ira]
+private_to: [Shepard, Sha'ira]
+heard_by: [Citadel Presidium]
+beats:
+  - text: >
+      After Shepard convinced Septimus to stop spreading lies about Sha'ira and cleared her name with Xeltan, Shepard returned to the Consort's Chambers. Sha'ira received Shepard and rewarded the Commander with credits, experience, and a personalized affirmation.
+    source_chunks: [citadel-asari-consort_001, citadel-asari-consort_003]
+  - text: >
+      Sha'ira offered a "gift of words," an affirmation of who Shepard was and who would become. The second phrase varied with Shepard's pre-service history: Spacer saw themselves as a soldier born to the uniform; Colonist's path was forged by pain and loss; Earthborn's strength was unyielding as scales. The third phrase reflected their psychological profile: Sole Survivor stressed the strength that kept them alive; War Hero emphasized the leadership others followed; Ruthless noted how strength terrified foes.
+    source_chunks: [citadel-asari-consort_003, citadel-asari-consort_004]
+  - text: >
+      Shepard could respond with gratitude ("Glad to help" for 2 Paragon points), demand payment ("Let's talk payment" for 2 Renegade points), or simply accept ("No problem" for no morality effect). If Shepard expressed dissatisfaction with the reward, Sha'ira initiated a sexual encounter with no morality effect.
+    source_chunks: [citadel-asari-consort_003, citadel-asari-consort_004]
+  - conditional:
+      xeltan_complete: true
+    text: >
+      If Shepard had completed Citadel: Xeltan's Complaint before returning, Sha'ira gave a bonus Prothean-design trinket usable at ruins on Eletania, which triggered a brief vision of Protheans studying cavemen on Earth.
+    source_chunks: [citadel-asari-consort_005]
+  - conditional:
+      xeltan_complete: false
+    text: >
+      If Shepard did not speak to Xeltan before returning, Sha'ira's door remained locked and the trinket was forfeited.
+    source_chunks: [citadel-asari-consort_005]
+source_chunks: [citadel-asari-consort_001, citadel-asari-consort_003, citadel-asari-consort_004, citadel-asari-consort_005]

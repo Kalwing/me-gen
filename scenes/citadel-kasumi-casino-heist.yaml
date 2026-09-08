@@ -1,0 +1,29 @@
+scene_id: citadel-kasumi-casino-heist
+title: Kasumi's Suspicious Device
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the Khan investigation closed
+where: the Silver Coast Casino, near the varren racing games
+
+participants: [Shepard, Kasumi Goto]
+private_to: [Shepard, Kasumi Goto]
+heard_by: []
+
+requires:
+  - kasumi_loyalty: any
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Kasumi, if she stayed on the Citadel after the incident with Jondum Bau and Zymandis,
+      is found staging a heist in the casino Shepard had already infiltrated once. Shepard
+      inspects a "suspicious device" she has installed near the varren racing games, which
+      turns into a short, impromptu reunion.
+    source_chunks: [silver-coast-casino_003]
+  - text: >
+      Shepard can let her carry on with the heist or talk her out of it.
+    source_chunks: [silver-coast-casino_003]
+
+related_scenes: [silver-coast-casino-infiltration-khan-gala]
+related_events: []
+source_chunks: [silver-coast-casino_003]

@@ -1,0 +1,51 @@
+scene_id: citadel-garrus-recruitment
+title: Recruiting Garrus at the Med Clinic
+kind: mission-aside
+game: Mass Effect
+when: "2183, after Citadel: Expose Saren"
+where: outside Chora's Den, then Dr. Chloe Michel's Med Clinic, the Wards
+
+participants: [Shepard, Garrus Vakarian, Chloe Michel, Harkin]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Tracking Garrus down, Shepard is ambushed by two assassins outside Chora's Den, then
+      finds Harkin, a barfly and ex-C-Sec cop, who claims Anderson was once a Spectre
+      dismissed for botching a trial mission before directing Shepard to Dr. Michel's Med
+      Clinic, where Garrus was last seen.
+    source_chunks: [citadel-garrus_003]
+  - text: >
+      At the clinic, Fist's thugs are threatening Michel while Garrus waits hidden for an
+      opening; when the thugs spot Shepard's squad, Garrus shoots one through the head and
+      the fight breaks open.
+    source_chunks: [citadel-garrus_004]
+  - text: >
+      Michel explains the thugs were sent by Fist, hunting an injured quarian fugitive she
+      treated who is carrying information about the geth. Garrus concludes the data links the
+      geth to Saren, and demands to join Shepard's mission — insisting, when pressed on going
+      after a fellow turian, that Saren is a traitor and a disgrace to his people.
+    source_chunks: [citadel-garrus_004]
+  - text: >
+      If Wrex has not yet been recruited, Garrus joins automatically at the end of the
+      conversation and points Shepard toward Wrex as another lead. If Wrex is already
+      aboard, Shepard can refuse him; Garrus then waits, first at the clinic and later at
+      C-Sec Academy by the Dock 422 elevator, and can be recruited whenever Shepard changes
+      their mind. At the Academy he reveals he has quit C-Sec, disgusted at being unable to
+      do anything meaningful about Saren, frustrated by its bureaucracy and red tape compared
+      to how quickly Shepard operates.
+    source_chunks: [citadel-garrus_004, citadel-garrus_003]
+
+variants:
+  - condition: {wrex_first: true}
+    text: >
+      Completing Citadel: Wrex first has Wrex give Garrus's location directly, skipping
+      Harkin, and the assassins outside Chora's Den are no longer waiting.
+    source_chunks: [citadel-garrus_003]
+
+related_scenes: [citadel-wrex-recruitment]
+related_events: []
+source_chunks: [citadel-garrus_003, citadel-garrus_004]

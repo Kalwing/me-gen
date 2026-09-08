@@ -1,0 +1,46 @@
+scene_id: citadel-homecoming-bhatia-body
+title: Samesh Bhatia Wants His Wife's Body Back
+kind: argument
+game: Mass Effect
+when: 2183, Citadel, after Tali joins the squad
+where: the human embassy reception desk and the Embassies Lounge, the Presidium
+
+participants: [Shepard, Samesh Bhatia, Clerk Bosker, Ashley Williams, Kaidan Alenko]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Samesh Bhatia stops Shepard near the embassy reception desk. His wife, Nirali Bhatia, a
+      soldier of the 212 killed on Eden Prime, has had her body retained by the Alliance; he
+      wants it back so he can give her a respectful cremation.
+    source_chunks: [citadel-homecoming_002, citadel-homecoming_003]
+  - text: >
+      Clerk Bosker, in the nearby Embassies Lounge, explains the Alliance is holding Nirali's
+      body for tests meant to improve defences against geth attacks, with results possibly
+      years away.
+    source_chunks: [citadel-homecoming_003]
+  - text: >
+      Bringing Ashley Williams, who served with Nirali in the 212, adds her perspective to
+      the conversation with Samesh; if Kaidan is present without her, he notes that Ashley
+      knew Nirali and might want to speak with Samesh herself.
+    source_chunks: [citadel-homecoming_003]
+  - text: >
+      Shepard decides whether the Alliance keeps the body for research or returns it to
+      Samesh, and has to actually persuade Samesh of the choice — leaving the Alliance in
+      possession without convincing him leaves him angry and gets nothing resolved. Bosker
+      and Samesh both leave the Citadel once it is settled.
+    source_chunks: [citadel-homecoming_003, citadel-homecoming_002]
+
+variants:
+  - condition: {nirali_body: returned}
+    text: >
+      Samesh later emails Shepard's private terminal: he has opened the restaurant Nirali had
+      planned to start, and made it free to all Alliance personnel in gratitude.
+    source_chunks: [citadel-homecoming_004]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-homecoming_002, citadel-homecoming_003, citadel-homecoming_004]

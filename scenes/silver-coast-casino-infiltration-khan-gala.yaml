@@ -1,0 +1,44 @@
+scene_id: silver-coast-casino-infiltration-khan-gala
+title: The Charity Gala at Khan's Casino
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel shore leave, the evening after Identity Theft I
+where: the Silver Coast Casino, during Elijah Khan's black-tie charity gala for war refugees
+
+participants: [Shepard, Maya Brooks]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      With the recovered M-11 Suppressor traced to casino owner and arms dealer Elijah Khan,
+      Shepard and the crew plan a small, stealthy, no-gunplay infiltration of his casino
+      during that evening's black-tie charity gala for war refugees. Only Brooks can
+      plausibly go in alongside Shepard and one other squadmate — EDI is barred as a
+      mech/AI.
+    source_chunks: [silver-coast-casino-infiltration_003]
+  - text: >
+      Shepard's squadmate is waved through the red carpet with Shepard while Brooks heads
+      straight for a ventilation shaft. Shepard mingles with the gala's guests, distracting
+      guards and cameras at Brooks's call while she works her way toward Khan's panic room,
+      using resonance emitter lenses from Liara that turn Shepard's eyes yellow to trace the
+      underground wiring.
+    source_chunks: [silver-coast-casino-infiltration_003]
+  - text: >
+      Brooks is briefly caught near the panic room; Shepard reaches the guard first and talks
+      it off as a false alarm before she is discovered.
+    source_chunks: [silver-coast-casino-infiltration_003]
+  - text: >
+      Brooks gets into the safe room and finds Khan already dead. Shepard notices the killers
+      wiped the terminal but not the comm and activates it; a face distorted beyond
+      recognition by signal degradation appears over the mantel and vows to take everything
+      Shepard is and owns before cutting the call. Brooks cannot trace it. Shepard orders the
+      drives pulled for EDI to analyze.
+    source_chunks: [silver-coast-casino-infiltration_004]
+
+related_scenes: [citadel-garrus-casino-bar, citadel-wrex-casino-ice]
+related_events: [citadel-dlc-identity-theft-begins]
+source_chunks: [silver-coast-casino-infiltration_003, silver-coast-casino-infiltration_004]

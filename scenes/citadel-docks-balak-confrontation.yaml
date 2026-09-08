@@ -1,0 +1,37 @@
+scene_id: citadel-docks-balak-confrontation
+title: Balak's Vendetta at the Docks
+kind: argument
+game: Mass Effect 3
+when: "2186, Citadel Docks, after Shepard disabled the final batarian code at Bay E28"
+where: "Docks: Holding Area near Bay E28"
+participants: [Shepard, Ka'hairal Balak]
+heard_by: [C-Sec, Alliance military on the Citadel]
+requires:
+  - bring_down_the_sky: "Balak let go"
+beats:
+  - text: >
+      After Shepard disabled the final batarian diplomatic code at the Docks, someone put a pistol to the Commander's back. It was Ka'hairal Balak, the batarian extremist Shepard had allowed to escape from Asteroid X57.
+    source_chunks: [citadel-batarian-codes_001, citadel-batarian-codes_003]
+  - text: >
+      Balak blamed Shepard for the destruction of Bahak and everything that had befallen the batarians. Whether Shepard had actually destroyed Bahak or the batarians had simply suffered from the Reapers' invasion of their homeworld Khar'shan, Balak held Shepard responsible and wanted vengeance.
+    source_chunks: [citadel-batarian-codes_001, ka-hairal-balak_004]
+  - text: >
+      If Shepard had let Balak escape at X57, he had been using the batarian codes for petty sabotage: he cut power to life-support machines at Huerta Memorial Hospital and killed 117 Alliance soldiers in a ship crash at the docks. If Shepard had instead fought and left him for dead at X57, Balak used the codes to secure more provisions for his people.
+    source_chunks: [ka-hairal-balak_004, citadel-batarian-codes_003]
+  - text: >
+      Shepard could kill Balak with his own gun or convince him to lend his support against the Reapers with a Reputation check. No morality points were awarded during the confrontation itself.
+    source_chunks: [citadel-batarian-codes_001, ka-hairal-balak_004]
+  - conditional:
+      balak_persuaded: true
+    text: >
+      If Shepard reasoned with Balak by appealing to his sense of patriotism, Balak left, and the investigation on his actions was dropped due to Shepard's Spectre authority. Balak grudgingly committed what remained of the batarian fleet to the war effort against the Reapers. His leadership, drive, and barely restrained fury had a noticeable effect on the batarians' overall effectiveness in the war.
+    source_chunks: [citadel-batarian-codes_001, ka-hairal-balak_004]
+  - conditional:
+      balak_killed: true
+    text: >
+      If Shepard killed Balak with his own pistol, the Alliance Third Fleet War Asset decreased in value, and the batarians' external operations fell into chaos, directly resulting in their defeat against the Reapers.
+    source_chunks: [citadel-batarian-codes_001, ka-hairal-balak_004]
+  - text: >
+      Shepard gained 210 experience and morality points depending on the choices made.
+    source_chunks: [citadel-batarian-codes_001]
+source_chunks: [citadel-batarian-codes_001, citadel-batarian-codes_003, ka-hairal-balak_004]
