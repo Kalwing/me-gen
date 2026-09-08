@@ -1,0 +1,49 @@
+scene_id: citadel-catalyst-final-chamber
+title: Confrontation with the Catalyst
+kind: argument
+game: Mass Effect 3
+when: 2186, Citadel, final assault on the Reapers
+where: The Catalyst's chamber at the heart of the Citadel
+participants: [Shepard, Catalyst]
+private_to: [Shepard]
+requires:
+  - final_choice: any
+beats:
+  - text: >
+      At the end of the war, Shepard climbed to the Catalyst's chamber deep within the
+      Citadel. There, as the Crucible — the superweapon constructed across the galaxy
+      — docked with the station, the Catalyst revealed itself. It took the form of a
+      translucent boy Shepard had seen killed during the Reaper invasion of Earth,
+      expressing irritation at Shepard's arrival if the galaxy was ill-prepared, or
+      conducting itself in a more neutral manner otherwise. The Catalyst explained that
+      it was the first organic being ever to stand in its chamber and converse with it,
+      and this conversation caused it to reassess its solution. It could not, however,
+      bring about a change without Shepard's intervention.
+    source_chunks: [catalyst_003]
+variants:
+  - condition: {final_choice: Destroy}
+    text: >
+      Shepard chose to destroy all synthetic life, wiping out the Reapers and the
+      Catalyst itself in the process. The Catalyst was presumed lost in this option.
+    source_chunks: [catalyst_003]
+  - condition: {final_choice: Control}
+    text: >
+      Shepard chose to take control of the Reapers. A digital copy of Shepard's
+      consciousness replaced the Catalyst as the Reapers' master AI, while the
+      Catalyst itself was presumed lost.
+    source_chunks: [catalyst_003]
+  - condition: {final_choice: Synthesis}
+    text: >
+      Shepard chose to merge organic and synthetic life, achieving the Synthesis that
+      the Catalyst had attempted many times before but always failed. What became of
+      the Catalyst in this outcome remained unknown, though the Stargazer who narrated
+      events in a distant future spoke of a time free of the Reaper threat.
+    source_chunks: [catalyst_003]
+  - condition: {final_choice: Refuse}
+    text: >
+      Shepard refused the Catalyst's intervention. What transpired afterward remained
+      shrouded in the Catalyst's uncertainty, though the Stargazer spoke of a time
+      when the Reaper threat was ended.
+    source_chunks: [catalyst_003]
+related_events: [crucible-superweapon-project]
+source_chunks: [catalyst_003]
