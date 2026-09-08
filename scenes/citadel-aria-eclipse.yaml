@@ -1,0 +1,41 @@
+scene_id: citadel-aria-eclipse
+title: Springing Jona Sederis for Aria
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Palaven and the primarch's retrieval from Palaven, part of Aria's mercenary-band trilogy"
+where: the Citadel Embassies, the Presidium Commons C-Sec outpost, and the Docks holding area, the Citadel
+
+participants: [Shepard, Armando-Owen Bailey, Jona Sederis, Sayn]
+private_to: []
+heard_by: [Aria T'Loak]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Aria sends Shepard to secure the release of jailed Eclipse founder and leader Jona
+      Sederis. At the Citadel Embassies, Commander Bailey insists Shepard speak with Sederis
+      first before he will consider it; Aria has already leaned on the Council to order the
+      release, and Bailey is stalling because he fears what a murderous psychopath like
+      Sederis would do loose.
+    source_chunks: [aria-eclipse_003, armando-owen-bailey_005]
+  - text: >
+      Shepard talks to Sederis by vidcomm at the Presidium Commons C-Sec outpost, gaining
+      morality points for the conversation.
+    source_chunks: [aria-eclipse_003]
+  - text: >
+      Shepard can then either pressure Bailey to release Sederis, who resumes command of
+      Eclipse, or track down her salarian second-in-command, Sayn, in the processing area of
+      the Docks holding area, where he is plotting to break Sederis out.
+    source_chunks: [aria-eclipse_003]
+  - text: >
+      Shepard reminds Sayn he is already in charge, and convinces him either to let Sederis
+      rot in jail or to have her killed upon her "release." Either way, Sayn takes over
+      Eclipse.
+    source_chunks: [aria-eclipse_003]
+
+related_scenes: [citadel-purgatory-aria-mercenary-proposal]
+related_events: []
+source_chunks: [aria-eclipse_001, aria-eclipse_002, aria-eclipse_003, aria-eclipse_004,
+                aria-eclipse_005, aria-eclipse_006, armando-owen-bailey_005]

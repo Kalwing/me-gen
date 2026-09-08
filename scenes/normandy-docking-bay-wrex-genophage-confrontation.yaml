@@ -1,0 +1,28 @@
+scene_id: normandy-docking-bay-wrex-genophage-confrontation
+title: Wrex Comes for Shepard Over the Genophage
+kind: argument
+game: Mass Effect 3
+when: "2186, Citadel, after the sabotaged genophage cure comes to light"
+where: the Normandy SR-2 docking bay, the Citadel
+
+participants: [Shepard, Wrex, Armando-Owen Bailey]
+private_to: []
+heard_by: []
+
+requires:
+  - genophage: sabotaged
+
+beats:
+  - text: >
+      With Wrex as the krogan leader, Wrex confronts Shepard in the Normandy SR-2 docking bay
+      over the sabotaged genophage cure and attempts to kill the Commander.
+    source_chunks: [armando-owen-bailey_005]
+  - text: >
+      Bailey arrives with a security detail and helps Shepard take Wrex down. After Wrex is
+      dead, Bailey contacts the morgue about the corpse, noting the body is too heavy and will
+      need to be spaced.
+    source_chunks: [armando-owen-bailey_005]
+
+related_scenes: []
+related_events: []
+source_chunks: [armando-owen-bailey_005]

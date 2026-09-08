@@ -1,0 +1,38 @@
+scene_id: citadel-aria-blood-pack
+title: The Blood Pack Double-Cross at Apartment 86
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Palaven, part of Aria's mercenary-band trilogy"
+where: Apartment 86, the Presidium Commons
+
+participants: [Shepard, Narl, Kreete, Gryll]
+private_to: []
+heard_by: [Aria T'Loak]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Aria directs Shepard to meet her batarian contact, Narl, at Apartment 86 in the
+      Presidium Commons. Narl explains he told the Blood Pack he was turning Shepard over to
+      Kreete, the vorcha leading the band, but the offer is a ruse — the real goal is to lure
+      the Blood Pack out because Kreete is planning to betray Aria.
+    source_chunks: [aria-blood-pack_003]
+  - text: >
+      Narl asks Shepard to play along and pretend to be captured. Shepard can respond to the
+      plan positively or negatively for morality points; the plan proceeds either way.
+    source_chunks: [aria-blood-pack_003]
+  - text: >
+      Three vorcha arrive, including Kreete. As the deal is about to close, Narl reveals the
+      real arrangement is between Aria and Gryll, next in line to lead the Blood Pack. Gryll
+      confirms it and orders Kreete killed; Shepard and Narl shoot Kreete and the other vorcha.
+    source_chunks: [aria-blood-pack_003]
+  - text: >
+      Shepard warns Gryll not to double-cross Aria. Gryll agrees, saying he is ambitious but
+      not crazy.
+    source_chunks: [aria-blood-pack_003]
+
+related_scenes: [citadel-purgatory-aria-mercenary-proposal]
+related_events: []
+source_chunks: [aria-blood-pack_001, aria-blood-pack_002, aria-blood-pack_003, aria-blood-pack_004]

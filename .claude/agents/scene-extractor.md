@@ -85,6 +85,11 @@ Attendance is the point. A narrator who was not in the room may not describe the
 - **Every beat cites `source_chunks`.** A beat without them is rejected by the
   validator, and per-beat traceability is exactly what stops compression from quietly
   dropping causality — the Grunt/Utukku ordering was lost that way.
+- **`related_events` must name a file that exists.** Do not guess a plausible-looking
+  id like `arrival-dlc-mission` or `citadel-dlc` — the validator does not check these,
+  so a wrong guess ships silently. Look it up:
+  `ls timeline/events/ | grep -i <keyword>` or `grep -il <keyword> timeline/events/*.yaml`.
+  If nothing matches, omit `related_events` rather than invent an id.
 - **Preserve causality and sequence.** Beats in the order they happened, with the cause
   attached: "recovering in hospital after Utukku, got bored, was lowered on a rope"
   — not "climbed the monument drunk". Where a character's state matters (wounded, dead,

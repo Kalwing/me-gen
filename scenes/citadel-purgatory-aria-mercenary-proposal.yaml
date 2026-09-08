@@ -1,0 +1,54 @@
+scene_id: citadel-purgatory-aria-mercenary-proposal
+title: Aria's Proposal to Unite the Mercenary Bands
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Palaven"
+where: the Purgatory Bar, the Citadel
+
+participants: [Shepard, Aria T'Loak]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Aria, exiled from Omega and confined to the Citadel, summons Shepard to the Purgatory
+      Bar. She snaps at Shepard for finding her situation funny, angrily listing what is
+      making her life hell: confinement under C-Sec's watch, a nightclub she considers a
+      poor excuse for Afterlife, and no Noverian rum.
+    source_chunks: [aria-t-loak_010]
+  - text: >
+      Aria proposes a deal: she wants Shepard to unite the Blue Suns, Eclipse, and Blood Pack
+      mercenary bands under her control, in exchange for their commitment to the war effort
+      against the Reapers. She claims to have already laid groundwork with all three groups,
+      but offers Shepard little detail on how to bring each one to heel.
+    source_chunks: [aria-t-loak_010, aria-blood-pack_001, aria-eclipse_001]
+  - text: >
+      If Shepard unites all three groups, Aria assesses what the Commander has assembled: an
+      army willing to fight dirty, to do what "respectable militaries" won't.
+    source_chunks: [aria-t-loak_010]
+  - text: >
+      On the Blue Suns: Aria says she expected Darner Vosque's demands to be unreasonable,
+      but he turned out to be the biggest pushover of the three; she needed a proxy because
+      of his sexual harassment. If General Oraka died in the process, she expresses regret,
+      since many of his people died with him, and warns Shepard never to presume they know
+      her — she has turian friends in her own organization.
+    source_chunks: [aria-t-loak_010]
+  - text: >
+      On the Blood Pack: Aria remarks she couldn't have asked for a better puppet than Gryll.
+      She knew Kreete would be unable to resist getting his hands on Shepard; Shepard tells
+      her to warn them next time they are used as bait, and Aria offhandedly considers it.
+    source_chunks: [aria-t-loak_010]
+  - text: >
+      On Eclipse: Aria leaned on the Citadel Council to secure Jona Sederis' release, in
+      direct defiance of Commander Bailey. She is pleased by either outcome Shepard delivers —
+      Sederis released but cowed, or her second-in-command Sayn usurping the leadership at
+      Shepard's goading — and remarks in the latter case that her control over Eclipse ran
+      deeper than she expected.
+    source_chunks: [aria-t-loak_010]
+
+related_scenes: [citadel-aria-blue-suns, citadel-aria-blood-pack, citadel-aria-eclipse, citadel-skycar-omega-planning]
+related_events: []
+source_chunks: [aria-t-loak_010, aria-blood-pack_001, aria-eclipse_001]

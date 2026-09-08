@@ -1,0 +1,58 @@
+scene_id: illium-nos-astra-anaya-investigation
+title: Detective Anaya's Murder Investigation
+kind: banter
+game: Mass Effect 2
+when: 2185, Illium, during Samara's loyalty mission
+where: a police station in Nos Astra on Illium
+participants: [Shepard, Detective Anaya, Samara]
+private_to: []
+heard_by: [Illium Law Enforcement, Normandy crew]
+requires:
+  - samara_loyalty: any
+beats:
+  - text: >
+      When Commander Shepard arrived at the Illium spaceport, Detective Anaya was
+      investigating the murder of Dakni Kur, business partner of Pitne For.
+      Shepard arrived looking for information about Eclipse mercenaries, and Anaya
+      briefed the Commander on the details of the killing. She granted Shepard
+      permission to investigate the crime scene.
+    source_chunks: [anaya_001]
+  - text: >
+      Anaya noted that the justicar Samara was also investigating the crime, which
+      made the detective unhappy. When Samara arrived to interview Anaya, the
+      detective was reluctant to detain the justicar but had no choice due to
+      orders from superiors who feared a cross-species incident.
+    source_chunks: [anaya_001]
+  - text: >
+      Samara willingly submitted to a day of detention. Anaya, fearing for her own
+      life if she obstructed the justicar's investigation, expressed relief when
+      Samara pledged herself to Shepard's service after obtaining the information
+      she needed.
+    source_chunks: [anaya_001]
+  - text: >
+      If Shepard passed along information about a recent volus murder, Anaya
+      initially declared the evidence inadmissible until Samara vouched for the
+      Commander, forcing Anaya to concur.
+    source_chunks: [anaya_001]
+    conditional: {anaya_evidence: passed}
+  - text: >
+      Anaya formed an opinion of Shepard based on how she was treated. If handled
+      professionally, Anaya expressed relief that trusting a stranger paid off and
+      advised Shepard to value the justicar. If Shepard was rude, Anaya remarked
+      they weren't big on charm but got the job done, though she resented being
+      talked down to.
+    source_chunks: [anaya_001]
+  - text: >
+      Shepard could hand over evidence of Pitne For's illegal smuggling activities
+      in exchange for a monetary reward.
+    source_chunks: [anaya_001]
+    conditional: {anaya_smuggling: reported}
+  - text: >
+      After Samara joined Shepard's squad, Anaya sent an email expressing
+      gratitude and relief that the Eclipse mercenaries had gone quiet and her
+      superiors had backed off. She swore she would tell her grandchildren about
+      working with a justicar, grateful that Shepard had given her the chance to
+      live long enough to have them.
+    source_chunks: [anaya_001]
+related_events: [samara-recruitment-illium]
+source_chunks: [anaya_001]

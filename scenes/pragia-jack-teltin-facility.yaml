@@ -36,10 +36,14 @@ beats:
 variants:
   - condition: {jack_loyalty: Aresh spared}
     text: >
-      If Jack is talked into sparing Aresh, a news alert reaches Shepard about him later.
-    source_chunks: [jack-subject-zero_012]
+      If Jack is talked into sparing Aresh, he survives the destruction of Teltin and later
+      takes up work on the colony of Elysium. In 2186 Shepard receives a news alert: Aresh
+      saved a shuttle full of children evacuating the Reaper-occupied colony and died doing
+      it, reportedly killing several dozen Reaper creatures in the defence. The report names
+      his surname, Aghdashloo, for the first time.
+    source_chunks: [jack-subject-zero_012, aresh-aghdashloo_003]
 
 related_scenes: [normandy-jack-miranda-confrontation]
 related_events: []
 source_chunks: [jack_005, jack-subject-zero_001, jack-subject-zero_005, jack-subject-zero_007,
-                jack-subject-zero_009, jack-subject-zero_012]
+                jack-subject-zero_009, jack-subject-zero_012, aresh-aghdashloo_003]

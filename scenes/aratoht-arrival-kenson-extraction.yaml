@@ -1,0 +1,39 @@
+scene_id: aratoht-arrival-kenson-extraction
+title: Breaking Out of Aratoht Prison
+kind: mission-aside
+game: Mass Effect 2
+when: 2186, Arrival DLC, Aratoht batarian prison
+where: a batarian prison complex on Aratoht
+participants: [Shepard, Amanda Kenson]
+private_to: [Shepard, Amanda Kenson]
+heard_by: [Admiral Hackett, Normandy crew]
+requires:
+  - arrival: any
+beats:
+  - text: >
+      Shepard broke into the batarian prison on Aratoht to extract Dr. Amanda Kenson.
+      Overhearing her protests as she was dragged to interrogation, Shepard found her
+      in a cell moments before she was to be beaten. Shepard knocked out the guard
+      and gave Kenson a weapon.
+    source_chunks: [amanda-kenson_003]
+  - text: >
+      Kenson vented her rage at the guard, stomping on his throat. She and Shepard
+      fought through the prison complex, with Kenson directing Shepard through
+      enemy positions from behind cover. They reached a security console where
+      Kenson hacked the system to override security and disable the orbital
+      tracking grid.
+    source_chunks: [amanda-kenson_003]
+  - text: >
+      Fighting through the hangar, Shepard and Kenson boarded a shuttle and
+      escaped, incinerating pursuing guards with thruster exhaust as they launched.
+    source_chunks: [amanda-kenson_003]
+  - text: >
+      With autopilot engaged, Kenson briefed Shepard on her situation: her research
+      group called "the Project" had discovered a Reaper artifact, "Object Rho,"
+      that gave visions of an imminent Reaper invasion. They planned to destroy the
+      Alpha Relay in the Bahak system by ramming an asteroid into it. Instead of
+      heading to Arcturus Station, Kenson took Shepard to Project Base on the
+      asteroid.
+    source_chunks: [amanda-kenson_003]
+related_events: [arrival-bahak-relay-destruction]
+source_chunks: [amanda-kenson_003]

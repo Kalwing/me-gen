@@ -1,0 +1,52 @@
+scene_id: citadel-bryson-lab-leviathan-research
+title: Ann Bryson Grieves Her Father
+kind: downtime
+game: Mass Effect 3
+when: 2186, Citadel, after extracting Ann from Namakli
+where: Dr. Garret Bryson's lab on the Citadel
+participants: [Shepard, Ann Bryson, EDI, James Vega]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - leviathan: any
+beats:
+  - text: >
+      When leaving Namakli, Shepard informed Ann of her father's death. Ann,
+      overcome with grief, returned to his lab on the Citadel where Shepard found
+      her crying. Shepard offered words of sympathy.
+    source_chunks: [ann-bryson_002]
+  - text: >
+      Through sobs, Ann regretted that her last conversation with her father had
+      been an argument over something trivial. She reminisced about how great a man
+      he was and vowed to find the monster that murdered him.
+    source_chunks: [ann-bryson_002]
+  - text: >
+      As Ann moved around the lab, she began explaining the connection between
+      Leviathan's artifacts and rachni communication. She theorized that Leviathan
+      used the artifacts to induce a quantum entanglement state to stimulate neural
+      activity, similar to how rachni communicated. She speculated that Leviathan
+      might have been preparing the rachni to fight the Reapers.
+    source_chunks: [ann-bryson_002]
+  - text: >
+      Discussing with EDI, Ann concluded that Leviathan's communication system
+      required a pulse to simulate the effect, and that the artifacts functioned as
+      receivers most of the time but switched to transmitters while possessing a
+      victim. She determined the only way to track Leviathan would be to expose
+      herself to an artifact, despite Shepard's reluctance.
+    source_chunks: [ann-bryson_002]
+  - text: >
+      Ann insisted on allowing Leviathan to possess her through the artifact while
+      EDI monitored to narrow down Leviathan's location. James Vega stood by to
+      intervene if necessary.
+    source_chunks: [ann-bryson_002]
+    conditional: {ann_bryson_artifact_attempt: yes}
+  - text: >
+      If Shepard stopped the process twice, Ann was incapacitated and James walked
+      her out for medical treatment. If she emerged relatively unharmed, she told
+      Shepard that Leviathan was angry and wanted to kill the Commander, and later
+      assisted Admiral Hackett with paleotechnology research for the Crucible
+      project.
+    source_chunks: [ann-bryson_002]
+related_scenes: [namakli-ann-bryson-extraction]
+related_events: [leviathan-discovery-alliance]
+source_chunks: [ann-bryson_002]

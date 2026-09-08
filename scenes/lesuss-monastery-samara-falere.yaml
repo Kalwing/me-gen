@@ -1,0 +1,44 @@
+scene_id: lesuss-monastery-samara-falere
+title: The Ardat-Yakshi Monastery on Lesuss
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, during the Reaper war
+where: the Ardat-Yakshi monastery on Lesuss
+
+participants: [Shepard, Samara, Falere]
+private_to: []
+heard_by: []
+
+beats:
+  - text: >
+      The Ardat-Yakshi monastery on Lesuss comes under Reaper attack; the Reapers' objective
+      is to capture the afflicted asari and convert them into Banshees. Asari High Command's
+      commandos, sent to investigate, fail to report back, implicitly tasking Shepard with the
+      investigation.
+    source_chunks: [ardat-yakshi_004]
+  - text: >
+      Samara travels to the monastery too, to check on her daughters Rila and Falere. She
+      tells Shepard she is there both out of motherly concern and because her duties as a
+      justicar demand it — the Justicar Code requires her to execute any Ardat-Yakshi who
+      cannot be safely sequestered.
+    source_chunks: [ardat-yakshi_004]
+  - text: >
+      Unable to bring herself to execute Falere, her last living child, Samara attempts
+      suicide rather than carry out the sentence. Shepard stops her.
+    source_chunks: [ardat-yakshi_004]
+  - text: >
+      Samara agrees to Falere's plan: Falere will go on living in total isolation at the ruined
+      monastery.
+    source_chunks: [ardat-yakshi_004]
+
+variants:
+  - condition: {samara_alive: false}
+    text: >
+      If Samara is not present at Lesuss, Falere is left behind at the monastery as its sole
+      survivor, or Shepard shoots her as a security risk in case the Reapers return to convert
+      her.
+    source_chunks: [ardat-yakshi_004]
+
+related_scenes: [omega-samara-and-morinth]
+related_events: []
+source_chunks: [ardat-yakshi_003, ardat-yakshi_004]

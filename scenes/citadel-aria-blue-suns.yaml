@@ -1,0 +1,45 @@
+scene_id: citadel-aria-blue-suns
+title: Talking Oraka Down for the Blue Suns
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Palaven and the turian primarch's retrieval, part of Aria's mercenary-band trilogy"
+where: the Docks holding area, the Presidium Commons courtyard, and the Cipritine Armory in Meridian Place Market, the Citadel
+
+participants: [Shepard, Darner Vosque, Septimus Oraka, Kannik]
+private_to: []
+heard_by: [Aria T'Loak]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Blue Suns leader Darner Vosque tells Shepard, at the Docks holding area, that he wants
+      turian General Septimus Oraka removed before he will commit the Suns to Aria; Oraka has
+      been investigating Vosque's raids on C-Sec weapons.
+    source_chunks: [aria-blue-suns_003]
+  - text: >
+      Shepard contacts Aria, who instructs the Commander to persuade Oraka to back off rather
+      than kill him.
+    source_chunks: [aria-blue-suns_003]
+  - text: >
+      Shepard finds Oraka relocated from Chora's Den to the Presidium Commons courtyard. Oraka
+      says he needs high-grade weapons to prepare the Citadel for the coming Reaper attack,
+      and directs Shepard to a salarian named Kannik at the Cipritine Armory in Meridian Place
+      Market.
+    source_chunks: [aria-blue-suns_003]
+  - text: >
+      Kannik will trade only for rare artifacts, one of which is located on the planet Vana in
+      the Vular system, Kite's Nest. Shepard returns the artifact to Kannik and speaks with
+      Oraka again to close the deal on the Paragon path.
+    source_chunks: [aria-blue-suns_003, aria-blue-suns_004]
+  - text: >
+      Alternatively, Shepard can order a hit on Oraka instead, completing the mission
+      instantly on the Renegade path.
+    source_chunks: [aria-blue-suns_003, aria-blue-suns_004]
+    conditional: {alignment: renegade}
+
+related_scenes: [citadel-purgatory-aria-mercenary-proposal]
+related_events: []
+source_chunks: [aria-blue-suns_001, aria-blue-suns_002, aria-blue-suns_003, aria-blue-suns_004,
+                aria-blue-suns_005, aria-blue-suns_006]

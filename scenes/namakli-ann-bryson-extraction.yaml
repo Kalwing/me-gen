@@ -1,0 +1,30 @@
+scene_id: namakli-ann-bryson-extraction
+title: Extracting Ann from Namakli
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Geth Dreadnought and before Citadel DLC"
+where: the planet Namakli in the Pylos Nebula
+participants: [Shepard, Ann Bryson, Leviathan, Marauders]
+private_to: []
+heard_by: [Normandy crew, Task Force Aurora]
+requires:
+  - leviathan: any
+beats:
+  - text: >
+      After investigating Dr. Bryson's lab on the Citadel, Shepard determined that
+      Dr. Garret Bryson's daughter, Ann, led Project Scarab in the Pylos Nebula
+      on the planet Namakli. Shepard traveled there to extract her.
+    source_chunks: [ann-bryson_002]
+  - text: >
+      Shepard found Ann pinned down by Reaper forces. The Commander extracted her,
+      though the rest of her team was killed. Ann showed Shepard a Leviathan
+      artifact she had discovered.
+    source_chunks: [ann-bryson_002]
+  - text: >
+      A trio of Marauders activated the artifact, and Ann was possessed by
+      Leviathan. Shepard was forced to destroy the artifact to break Leviathan's
+      control.
+    source_chunks: [ann-bryson_002]
+related_scenes: [citadel-bryson-lab-leviathan-research]
+related_events: [leviathan-discovery-alliance]
+source_chunks: [ann-bryson_002]
