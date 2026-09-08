@@ -1,0 +1,33 @@
+scene_id: arcturus-station-desolas-exchange
+title: Desolas Exchanges Prisoners with General Williams at Arcturus
+kind: banter
+game: Mass Effect
+when: 2157, after the First Contact War ends, at Arcturus Station
+where: Arcturus Station
+
+participants: [Desolas Arterius, General Williams, Jack Harper, Eva Coré]
+private_to: [Desolas Arterius, General Williams, Jack Harper, Eva Coré]
+
+requires: []
+
+beats:
+  - text: >
+      General Desolas Arterius arrives at Arcturus Station to conduct a prisoner
+      exchange with Alliance General Williams. Jack Harper and Eva Coré are
+      traded for a group of turian soldiers. Insults are traded by both sides.
+    source_chunks: [arcturus-station_006, general-williams_002]
+  - text: >
+      When Desolas realizes Jack can understand turian, he attempts to recapture
+      the human. General Williams refuses and orders Desolas and his guards
+      off Arcturus Station.
+    source_chunks: [general-williams_002]
+  - text: >
+      Williams examines Jack's condition in the medical bay afterward, impressed
+      by his vitals but offering condolences for Ben Hislop's death on Shanxi.
+      Williams then gives Jack and Eva a personal shuttle to help them continue
+      investigating Desolas and his plans.
+    source_chunks: [general-williams_002]
+
+related_scenes: [shanxi-ambush-desolas-captured, temple-palaven-ben-hislop-death]
+related_events: [first-contact-war]
+source_chunks: [arcturus-station_006, general-williams_002]

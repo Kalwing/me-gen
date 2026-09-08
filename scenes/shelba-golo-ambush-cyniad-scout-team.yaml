@@ -1,0 +1,39 @@
+scene_id: shelba-golo-ambush-cyniad-scout-team
+title: The Ambush on Shelba
+kind: mission-aside
+game: Mass Effect
+when: "2183, during the events of Mass Effect: Ascension"
+where: the planet Shelba, at Golo's meeting site
+participants: [Feda'Gazu vas Idenna, Golo, Pel, Hilo'Jaa vas Idenna]
+private_to: [Feda'Gazu vas Idenna, Golo, Pel, Hilo'Jaa vas Idenna]
+heard_by: [crew of the Idenna]
+requires: []
+beats:
+  - text: >
+      Golo, a quarian exiled from the Migrant Fleet and now a Cerberus contact on Omega,
+      had promised Pel he could obtain the Fleet's transmission codes. He contacted the
+      Idenna's scout ship Cyniad claiming to have vital technology to sell. Feda'Gazu vas
+      Idenna, who commanded the Cyniad, agreed to meet him on Shelba, coming prepared for
+      treachery.
+    source_chunks: [golo_002, pel_001]
+  - text: >
+      The meeting was a Cerberus ambush. Golo had planted an explosive in his truck; Feda
+      defused it, but the trap overloaded her weapon and knocked out her shields.
+    source_chunks: [feda-gazu-vas-idenna_001]
+  - text: >
+      Pel, watching from over a mile off through a sniper scope, shot Feda with a Volkov
+      rifle — twice, in the shoulder and the knee — then killed her with a shot to the
+      head.
+    source_chunks: [feda-gazu-vas-idenna_001, pel_001]
+  - text: >
+      Golo and Pel's team took the Cyniad's pilot, Hilo'Jaa vas Idenna, the only quarian
+      captured alive. When Hilo cursed Golo by his discarded names, Golo smashed the
+      faceplate of Hilo's environment suit.
+    source_chunks: [golo_002, pel_001]
+  - text: >
+      Pel's team stripped Feda's environment suit, and one of them wore it to ambush the
+      rest of the Cyniad's crew.
+    source_chunks: [feda-gazu-vas-idenna_001]
+related_scenes: []
+related_events: [cerberus-assault-on-the-idenna]
+source_chunks: [feda-gazu-vas-idenna_001, golo_002, pel_001]

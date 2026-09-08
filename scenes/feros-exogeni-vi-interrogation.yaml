@@ -1,0 +1,39 @@
+scene_id: feros-exogeni-vi-interrogation
+title: The ExoGeni VI Interrogation at Headquarters
+kind: mission-aside
+game: Mass Effect
+when: "2183, during Feros: Geth Attack mission"
+where: the ExoGeni headquarters server room on Feros
+participants: [Shepard, Krogan Commander, ExoGeni VI, Lizbeth Baynham]
+private_to: []
+heard_by: []
+beats:
+  - text: >
+      When Shepard's squad reaches the ExoGeni headquarters, they find the ExoGeni VI
+      being interrogated by the Krogan Commander, who is attempting to extract
+      information about the colony. The VI, a red-tinted male hologram, politely refuses
+      to release confidential data without sufficient security clearance. The krogan,
+      enraged, threatens to blast the VI's "virtual ass into actual dust" for its
+      obstinacy.
+    source_chunks: [exogeni-vi_001]
+  - text: >
+      The VI informs the krogan that other users are queuing to use the console. The
+      krogan assumes this is a dismissal, unaware that Shepard's squad is approaching
+      from behind up the stairs. Shepard's team kills the krogan.
+    source_chunks: [exogeni-vi_001, feros-geth-attack_014]
+  - text: >
+      After the krogan's defeat, the VI addresses Shepard as Lizbeth Baynham (because
+      Lizbeth had given Shepard her high-level ID card earlier). When asked what the
+      krogan wanted, the VI explains that the krogan was trying to learn about Species
+      37, also known as the Thorian. The VI then reveals the horrifying truth about
+      Zhu's Hope: ExoGeni had deliberately allowed the colonists to be infected with
+      mind-controlling alien spores in order to study the Thorian's properties.
+    source_chunks: [exogeni-vi_001]
+  - text: >
+      The VI notes that Lizbeth Baynham had been placed on probation for vehemently
+      opposing the Zhu's Hope experimentation, opposing her employer's unethical research.
+      However, the VI cannot provide useful information about the geth activity in the
+      building because the geth have blocked its sensors.
+    source_chunks: [exogeni-vi_001]
+related_events: [feros-thorian-mission]
+source_chunks: [exogeni-vi_001, feros-geth-attack_014]

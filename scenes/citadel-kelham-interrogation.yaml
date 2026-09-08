@@ -1,0 +1,28 @@
+scene_id: citadel-kelham-interrogation
+title: Interrogating Elias Kelham
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Citadel, during the search for Kolyat Krios
+where: C-Sec office in Zakera Ward
+participants: [Shepard, Thane Krios, Elias Kelham, Captain Bailey]
+private_to: [Shepard, Thane Krios, Elias Kelham, Captain Bailey]
+heard_by: [Normandy crew]
+requires:
+  - thane_loyalty: any
+beats:
+  - text: >
+      Captain Bailey, who maintains a corrupt arrangement with Elias Kelham in exchange for bribes,
+      agrees to arrest Kelham so Shepard and Thane can interrogate him at the C-Sec office before
+      his lawyer arrives. Confident in his power and influence, Kelham proves to have a high tolerance
+      for interrogation.
+    source_chunks: [elias-kelham_001, thane-sins-of-the-father_005]
+  - text: >
+      Shepard's approach varies: threatening Kelham with Spectre authority causes an almost instant
+      confession (Thane remarks it may be the shortest interrogation in history); using physical violence
+      through Renegade interrupts (slapping, punching, and choking threats) also breaks him; or Shepard
+      and Thane employ good cop/bad cop tactics with charm or guile to wear down his resistance while
+      his lawyer is delayed. Regardless of method, Kelham eventually confesses that he hired Kolyat
+      to assassinate Joram Talid, a turian politician running on an anti-human platform. If brutalized,
+      Kelham loses consciousness; otherwise he berates his late-arriving lawyer.
+    source_chunks: [elias-kelham_001, thane-sins-of-the-father_005, interrupt_009]
+source_chunks: [elias-kelham_001, thane-sins-of-the-father_005, interrupt_009]

@@ -1,0 +1,62 @@
+scene_id: feros-thorian-lair-shiala
+title: Fai Dan's Death and the Fall of the Thorian
+kind: mission-aside
+game: Mass Effect
+when: 2183, the Feros mission, fighting back into Zhu's Hope after the ExoGeni bunker
+where: Zhu's Hope and the Thorian's lair beneath the crashed freighter Borealis, Feros
+participants: [Shepard, Fai Dan, Shiala]
+heard_by: [Normandy crew]
+requires: []
+beats:
+  - text: >
+      Fighting back into the colony, Shepard met Thorian Creepers and mind-controlled
+      colonists — among them Ian Newstead and May O'Connell — and either knocked them out
+      with the anti-Thorian gas grenades and melee or killed them, gaining morality either
+      way.
+    source_chunks: [feros-the-thorian_008, feros-the-thorian_010]
+  - text: >
+      Fai Dan, forced by the Thorian to try to kill Shepard, approached with a pistol while
+      fighting the control, lamenting that he had failed the colonists he was meant to
+      protect. He raised the pistol, then broke the Thorian's grip and shot himself in the
+      head before Shepard could fire.
+    source_chunks: [fai-dan_002, thorian_005]
+  - text: >
+      Freighter crane controls exposed a stairwell down into the lair, which stank of
+      rotting compost. The enormous Thorian expelled a green-skinned asari clone that
+      called itself the "Old Growth" and demanded awe; asked its story, it explained
+      through the clone that it had absorbed the essence of the Protheans and traded that
+      knowledge, plus the asari Shiala, to Saren in exchange for being left alone — and
+      that Saren had broken the deal and attacked.
+    source_chunks: [feros-the-thorian_010, thorian_005]
+  - text: >
+      Shepard threw the clone into the abyss and destroyed the six Thorian Neural Nodes up
+      through the ascending levels, fighting waves of creepers and more asari clones, until
+      the Thorian tore loose and plunged through the ruins to its death.
+    source_chunks: [feros-the-thorian_010, feros-the-thorian_013]
+  - text: >
+      A pod at the last node released the violet-skinned Shiala, formerly of Matriarch
+      Benezia's service. She explained that Saren had given her to the Thorian for the
+      Cipher and then tried to destroy the creature to keep Shepard from it, and she was
+      almost saddened by its death as a unique life-form. Her fate was Shepard's to decide.
+    source_chunks: [feros-the-thorian_014, thorian_005]
+  - text: >
+      Shepard spared Shiala to help the colony recover.
+    source_chunks: [feros-the-thorian_014, feros-the-thorian_015]
+    conditional: {feros_colony: shiala-spared}
+    choice: spared Shiala
+  - text: >
+      Or Shepard killed her at the node.
+    source_chunks: [feros-the-thorian_014]
+    conditional: {feros_colony: shiala-killed}
+    choice: killed Shiala
+  - text: >
+      Back at Zhu's Hope the surviving colonists and the ExoGeni personnel from the bunker
+      gathered to greet Shepard with respect or distrust. Whether Feros lived turned on a
+      formula of colony health plus leadership reaching thirteen — Shiala's survival worth
+      five, Jeong's agreement to help worth twelve. Meeting it, the colonists cheered the
+      colony's future; falling short, they explained dejectedly that the colony was being
+      shut down.
+    source_chunks: [feros-the-thorian_015]
+related_scenes: [feros-shiala-cipher-transfer, feros-exogeni-bunker-jeong-confrontation]
+related_events: [feros-the-thorian, feros-thorian-mission]
+source_chunks: [fai-dan_002, feros-the-thorian_010, feros-the-thorian_014, feros-the-thorian_015, thorian_005]

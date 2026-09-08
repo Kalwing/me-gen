@@ -1,0 +1,63 @@
+scene_id: illium-samara-recruitment-oath
+title: Samara's Oath on Illium
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Horizon
+where: the commercial spaceport and Eclipse hideout of Nos Astra on Illium
+participants: [Shepard, Samara, Liara T'Soni, Detective Anaya, Elnora, Niftu Cal, Wasea, Jacob Taylor]
+heard_by: [Illium Law Enforcement, Normandy crew]
+requires:
+  - samara_loyalty: any
+beats:
+  - text: >
+      On Illium, Liara T'Soni directs Shepard to Tracking Officer Dara, who places the
+      justicar Samara at the commercial spaceport.
+    source_chunks: [dossier-the-justicar_004]
+  - text: >
+      At the spaceport, Detective Anaya is investigating the murder of Dakni Kur, the
+      volus Pitne For's business partner. She gives Shepard permission to enter the
+      crime scene, warning that Eclipse control the back alleys.
+    source_chunks: [dossier-the-justicar_005]
+  - text: >
+      At the crime scene Shepard watches Samara interrogate the last surviving Eclipse
+      lieutenant for the name of a ship carrying a fugitive she hunts. When the merc
+      refuses, Samara hurls her from a height with biotics, asks again, and breaks her
+      neck. Samara introduces herself and declines to join until her own mission is done.
+    source_chunks: [dossier-the-justicar_006]
+  - text: >
+      Anaya arrives, ordered by her superiors to detain Samara — which would likely get
+      her killed. Samara says the Justicar Code lets her submit to one day's detention,
+      after which she will kill anyone in her path. Shepard offers to obtain the ship's
+      name so Samara can leave Illium lawfully.
+    source_chunks: [dossier-the-justicar_006]
+  - text: >
+      Questioning Pitne For reveals he was smuggling the biotic-boosting chemical
+      Minagen X3 and red sand to the Eclipse, who now want him dead; he hands Shepard a
+      pass card to the Eclipse base.
+    source_chunks: [dossier-the-justicar_007]
+  - text: >
+      Fighting up through the Eclipse hideout past toxic Minagen X3 canisters, Shepard
+      meets Elnora, a young initiate who confesses to killing the volus, and the drugged
+      volus Niftu Cal, who believes himself a "biotic god."
+    source_chunks: [dossier-the-justicar_008, dossier-the-justicar_010]
+  - text: >
+      Captain Wasea fights Shepard with an M-300 Claymore and hurled Minagen containers;
+      her datapad names the fugitive's ship as the AML Demeter.
+    source_chunks: [dossier-the-justicar_011]
+  - text: >
+      Told the ship's name, Samara swears an oath of service to Shepard for the length
+      of the mission, kneeling with her biotics flaring, overriding the Code.
+    source_chunks: [dossier-the-justicar_012]
+  - text: >
+      Shepard hands Elnora's recorded confession to Anaya; Anaya calls it inadmissible
+      until Samara vouches for Shepard, and her superiors have since backed off.
+    source_chunks: [dossier-the-justicar_012, dossier-the-justicar_015]
+    conditional: {elnora_evidence: given_to_anaya}
+    choice: Elnora's confession given to Anaya
+  - text: >
+      Back on the Normandy, Jacob welcomes Samara aboard; she asks for a room with a
+      view of space and is given the Starboard Observation Deck to meditate.
+    source_chunks: [dossier-the-justicar_013]
+related_scenes: [illium-nos-astra-anaya-investigation]
+related_events: [samara-recruitment-illium]
+source_chunks: [dossier-the-justicar_004, dossier-the-justicar_005, dossier-the-justicar_006, dossier-the-justicar_007, dossier-the-justicar_011, dossier-the-justicar_012, dossier-the-justicar_013]

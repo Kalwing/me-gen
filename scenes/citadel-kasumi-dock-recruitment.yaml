@@ -1,0 +1,31 @@
+scene_id: citadel-kasumi-dock-recruitment
+title: Welcoming Kasumi Aboard
+kind: banter
+game: Mass Effect 2
+when: 2185, after Freedom's Progress
+where: the Normandy's dock in Zakera Ward on the Citadel
+participants: [Shepard, Kasumi Goto]
+heard_by: [Normandy crew]
+requires:
+  - kasumi_loyalty: any
+beats:
+  - text: >
+      At the Normandy's dock, Shepard finds Kasumi Goto's advertisement terminal. She
+      speaks through it while transmitting from the catwalks overhead; if left alone she
+      cycles through pointed "advertisements" and finally asks outright why she is being
+      ignored.
+    source_chunks: [dossier-the-master-thief_003]
+  - text: >
+      Through the terminal Shepard can draw out her history with Cerberus and the deal
+      she struck, the planned heist against Donovan Hock, how grayboxes work, and the
+      evening wear she has procured for Shepard. Recruitment is completed simply by
+      welcoming her aboard.
+    source_chunks: [dossier-the-master-thief_003]
+  - text: >
+      The terminal retracts into the floor; Kasumi speaks to Shepard in person from the
+      catwalk, then cloaks. She can afterward be found in the port observation lounge on
+      the crew deck.
+    source_chunks: [dossier-the-master-thief_003]
+related_scenes: [bekenstein-kasumi-and-the-graybox]
+related_events: [kasumi-stolen-memory]
+source_chunks: [dossier-the-master-thief_003]

@@ -1,0 +1,43 @@
+scene_id: desert-planet-randall-inali-duel
+title: Randall Faces His Huskified Handler on the Desert Planet
+kind: mission-aside
+game: Mass Effect
+when: "Mass Effect: Infiltrator, after the Access Corridor mission"
+where: a Cerberus outpost on LV426, the desert planet
+
+participants: [Randall Ezno, Inali Renata]
+private_to: [Randall Ezno, Inali Renata]
+
+requires: []
+
+beats:
+  - text: >
+      Randall Ezno steals a shuttle to reach the desert planet LV426, where he
+      enters a Cerberus outpost for an Alliance-arranged extraction. He is
+      trapped by the Cerberus Director, who deploys a weapon against him: Inali
+      Renata, Randall's former handler and friend, now heavily modified and
+      huskified.
+    source_chunks: [desert-planet_002]
+  - text: >
+      The modified Inali fights Randall with assault rifle fire and powerful
+      biotic attacks such as Salvo. She uses tactical cloak and fast movement to
+      flank him, regenerating her barrier quickly when not taking damage.
+    source_chunks: [desert-planet_002]
+  - text: >
+      Randall defeats Inali in combat.
+    source_chunks: [desert-planet_002]
+  - text: >
+      Depending on Randall's moral alignment, he either spares Inali or kills her.
+    source_chunks: [desert-planet_002]
+    conditional: {}
+    choice: Randall chooses Inali's fate
+  - text: >
+      Either way, Randall vows to take revenge on the Cerberus Director who
+      experimented on his former handler and friend. He leaves the planet to
+      pursue the Director and provide the Alliance with intelligence on Cerberus
+      activities.
+    source_chunks: [desert-planet_002]
+
+related_scenes: []
+related_events: []
+source_chunks: [desert-planet_002]

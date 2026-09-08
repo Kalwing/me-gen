@@ -1,0 +1,75 @@
+scene_id: haestrom-tali-recruitment
+title: Recruiting Tali on Haestrom
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Horizon, deep in geth-controlled space
+where: the ruined quarian research site on Haestrom, under its dying sun
+participants: [Shepard, Tali'Zorah, Kal'Reegar, Legion, Jacob Taylor]
+heard_by: [Normandy crew]
+requires:
+  - tali_recruited: true
+beats:
+  - text: >
+      Tali is on Haestrom, a former quarian colony, studying why its sun is dying early.
+      The planet is under geth attack and the solar radiation strips kinetic and biotic
+      shields, forcing Shepard to move cover to cover through the shade.
+    source_chunks: [dossier-tali_004]
+  - text: >
+      Shepard finds the bodies of Tali's quarian marine escort and answers a radio to
+      reach Kal'Reegar, the marines' commander. A Geth Dropship strafing run kills the
+      last marines and collapses a pillar, blocking the path to Tali.
+    source_chunks: [dossier-tali_006]
+  - text: >
+      Shepard retrieves two demolition charges — one from a garage, one from a bunker —
+      under heavy geth resistance, and blows the pillar.
+    source_chunks: [dossier-tali_007, dossier-tali_009]
+  - text: >
+      At the quarian base camp, where quarians and geth have killed each other to the
+      last, Tali hails on holo, unlocks the base camp door, and asks Shepard to keep
+      Reegar alive.
+    source_chunks: [dossier-tali_010]
+  - text: >
+      Past the door Shepard meets Kal'Reegar in person, the sole surviving marine. A
+      self-repairing Geth Colossus and waves of geth block the way to Tali's observatory.
+    source_chunks: [dossier-tali_013]
+  - text: >
+      Shepard uses a Paragon interrupt to order the wounded Reegar to stand down; he
+      argues he can still fight and his job is to protect Tali, but complies and survives.
+    source_chunks: [dossier-tali_013]
+    conditional: {kal_reegar: stood_down}
+    choice: Kal'Reegar ordered to stand down
+  - text: >
+      Shepard lets Reegar stay in the fight; he takes potshots at the Colossus with his
+      missile launcher, and if Shepard is slow to close the distance the Colossus turns
+      its fire on him and kills him.
+    source_chunks: [dossier-tali_013]
+    conditional: {kal_reegar: kept_fighting}
+    choice: Kal'Reegar kept in the fight
+  - text: >
+      Shepard closes to melee range to permanently disable the Colossus's repair
+      protocol, then destroys it and the infinitely spawning geth.
+    source_chunks: [dossier-tali_015]
+  - text: >
+      In the observatory Shepard asks Tali to join. If Reegar survived he uploads the
+      mission data; if he died, Tali uploads it herself, dismayed at being her team's
+      only survivor.
+    source_chunks: [dossier-tali_015]
+  - text: >
+      If Legion is in the squad, Tali opens fire on it, shouting a warning about enemy
+      geth; Legion takes cover, and Tali agrees to defer the argument.
+    source_chunks: [dossier-tali_015]
+    conditional: {brought_legion: true}
+    choice: brought Legion to Haestrom
+  - text: >
+      Aboard the Normandy, Jacob greets Tali in the briefing room; she voices concerns
+      about working with Cerberus, then takes a post in main engineering across from
+      Gabriella Daniels and Kenneth Donnelly. Kelly suggests to a male Shepard that Tali
+      may want more than friendship.
+    source_chunks: [dossier-tali_016]
+  - text: >
+      Admiral Rael'Zorah, Tali's father, emails Shepard confirming her approved transfer
+      and warning that harm to her through negligence will bring severe consequences.
+    source_chunks: [dossier-tali_017]
+related_scenes: [normandy-tali-legion-conflict]
+related_events: [tali-recruitment-haestrom]
+source_chunks: [dossier-tali_004, dossier-tali_006, dossier-tali_007, dossier-tali_010, dossier-tali_013, dossier-tali_015, dossier-tali_016, dossier-tali_017]

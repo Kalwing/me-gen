@@ -1,0 +1,40 @@
+scene_id: shanxi-ambush-desolas-captured
+title: Ambushing Desolas Arterius on Occupied Shanxi
+kind: mission-aside
+game: Mass Effect
+when: 2157, Shanxi, during the First Contact War
+where: an abandoned human settlement on Shanxi
+
+participants: [Jack Harper, Ben Hislop, Eva Coré, Desolas Arterius]
+private_to: [Jack Harper, Ben Hislop, Eva Coré, Desolas Arterius]
+
+requires: []
+
+beats:
+  - text: >
+      Jack Harper, Ben Hislop, and Eva Coré ambush a turian patrol on occupied
+      Shanxi led by General Desolas Arterius in an abandoned human settlement.
+      They capture the turian general and kill his squad.
+    source_chunks: [eva-cor_002, desolas-arterius_001]
+  - text: >
+      Using Desolas's own datapad, Jack locates a turian camp and sends a fake
+      message from the captured general to lure the turians into a trap.
+    source_chunks: [desolas-arterius_001]
+  - text: >
+      While Eva guards the turian prisoners, Jack and Ben investigate a cave
+      where the Arca Monolith—the artifact Desolas was sent to recover—is hidden.
+    source_chunks: [desolas-arterius_001]
+  - text: >
+      After fending off guardians in the cave, Ben touches the artifact and is
+      struck by an energy bolt. Jack, attempting to help Ben, is blinded by the
+      same energy discharge. Outside the cave, Eva is distracted by the strange
+      lights from the artifact, giving the turians an opening to overpower her.
+    source_chunks: [desolas-arterius_001]
+  - text: >
+      Desolas regains command. He takes Jack and Eva prisoner and orders his
+      soldiers to take Ben's body away for study.
+    source_chunks: [desolas-arterius_001]
+
+related_scenes: [arcturus-station-desolas-exchange, temple-palaven-ben-hislop-death]
+related_events: [first-contact-war]
+source_chunks: [eva-cor_002, desolas-arterius_001]

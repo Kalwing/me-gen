@@ -1,0 +1,29 @@
+scene_id: feros-skyway-weigh-station-refugees
+title: The Refugees at the Skyway Weigh Station
+kind: mission-aside
+game: Mass Effect
+when: 2183, the Feros mission, crossing the Prothean skyway toward ExoGeni headquarters
+where: the Skyway Weigh Station on Feros, where ExoGeni survivors had taken shelter
+participants: [Shepard, Juliana Baynham, Ethan Jeong, Gavin Hossle]
+heard_by: [Normandy crew]
+requires: []
+beats:
+  - text: >
+      Driving the Mako across the skyway, Shepard heard the refugees' radio chatter, then
+      stopped at the weigh station and went down to them. Juliana Baynham, one of the
+      voices from the radio, thanked the Commander, described the geth attack, and said her
+      daughter Lizbeth might still be alive at ExoGeni headquarters; she asked Shepard to
+      look for her.
+    source_chunks: [feros-geth-attack_011]
+  - text: >
+      The ExoGeni manager Ethan Jeong was uncooperative, more worried about the company's
+      reputation and a possible lawsuit than about the colonists, while Juliana acted as the
+      voice of reason among the survivors.
+    source_chunks: [feros-geth-attack_011, juliana-baynham_001]
+  - text: >
+      Gavin Hossle, off to the side, gave Shepard a small task: recover ExoGeni corporate
+      data from the headquarters the Commander was already headed to.
+    source_chunks: [feros-geth-attack_011]
+related_scenes: [feros-exogeni-hq-vi-thorian-revealed, feros-exogeni-bunker-jeong-confrontation]
+related_events: [feros-thorian-mission]
+source_chunks: [feros-geth-attack_011, juliana-baynham_001]

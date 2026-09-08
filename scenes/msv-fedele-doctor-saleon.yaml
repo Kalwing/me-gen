@@ -1,0 +1,40 @@
+scene_id: msv-fedele-doctor-saleon
+title: Boarding the MSV Fedele for Dr. Saleon
+kind: mission-aside
+game: Mass Effect
+when: 2183, after Garrus joins the Normandy
+where: the Citadel, then the MSV Fedele adrift in space
+participants: [Shepard, Garrus Vakarian, Doctor Saleon]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Garrus tells Shepard about an old C-Sec case: a spike in black-market body parts,
+      with no way to tell whether a lab was selling organs or a killer was dismembering
+      people. A DNA check on a recovered turian liver found the supposed donor alive and
+      working for the salarian geneticist Dr. Saleon.
+    source_chunks: [doctor-saleon_001]
+  - text: >
+      Garrus searched Saleon's lab and found nothing; during interrogations one of
+      Saleon's employees began bleeding from fresh incisions. Saleon had been growing
+      cloned organs inside his poor, desperate employees and cutting them out to sell,
+      leaving failed organs inside them.
+    source_chunks: [doctor-saleon_001]
+  - text: >
+      When C-Sec moved to arrest him, Saleon destroyed his lab, seized some employees,
+      and fled the Citadel; Garrus wanted the ship shot down but C-Sec overrode him and
+      Saleon escaped. Garrus has the transponder codes for Saleon's new ship, the MSV
+      Fedele, and asks Shepard to take him along.
+    source_chunks: [doctor-saleon_001]
+  - text: >
+      Boarding the Fedele, Shepard's team finds test subjects resembling Thorian
+      Creepers in the cargo bay and Saleon in a rear compartment. If Garrus is along he
+      recognises the salarian, who feigns innocence.
+    source_chunks: [doctor-saleon_001]
+    conditional: {garrus_present: true}
+    choice: brought Garrus aboard the Fedele
+  - text: >
+      Shepard decides whether to let Garrus execute Saleon on the spot or talk him into
+      an arrest. Either way, Saleon refuses to surrender and is killed in the firefight.
+    source_chunks: [doctor-saleon_001]
+related_events: [garrus-find-dr-saleon, garrus-eye-for-an-eye]
+source_chunks: [doctor-saleon_001]

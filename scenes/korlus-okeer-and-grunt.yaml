@@ -1,0 +1,67 @@
+scene_id: korlus-okeer-and-grunt
+title: Okeer's Legacy on Korlus
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Freedom's Progress
+where: Jedore's Blue Suns camp and Okeer's cloning lab on Korlus; then the Normandy
+participants: [Shepard, Okeer, Jedore, Grunt, Tank-Grown Krogan, Rana Thanoptis, Miranda Lawson, Jacob Taylor, Kelly Chambers]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      On Korlus, Jedore, the Blue Suns garrison commander, harangues Shepard over
+      loudspeakers while the squad fights through her mercs. A wounded merc, a compulsory
+      encounter, gives up information about Okeer and the tank-bred krogan; Shepard can
+      let him go, or kill him if he raises the alarm.
+    source_chunks: [dossier-the-warlord_004]
+  - text: >
+      Shepard helps a lone krogan in Phoenix armour fighting the Blue Suns. He is a
+      Tank-Grown Krogan, seven days old, one of Okeer's rejects; he opens a wall panel to
+      let the squad into the research base but will not come along.
+    source_chunks: [dossier-the-warlord_004, dossier-the-warlord_005]
+  - text: >
+      Inside, if Shepard spared Rana Thanoptis on Virmire, she reappears, says she knows
+      how Shepard works, and is allowed to flee.
+    source_chunks: [dossier-the-warlord_009]
+    conditional: {rana_thanoptis: spared_on_virmire}
+    choice: Rana Thanoptis spared on Virmire
+  - text: >
+      Okeer reveals he has been mass-producing and flash-indoctrinating tank-bred krogan
+      in search of the "perfect" specimen, handing his rejects to Jedore as an army she
+      cannot command, and wants to trade his Collector knowledge for escape. Jedore
+      announces over the PA that Okeer released the krogan without authorisation and
+      begins pumping krogan-killing gas into the facility; Okeer stays behind to protect
+      the tank holding his legacy.
+    source_chunks: [dossier-the-warlord_009]
+  - text: >
+      Shepard fights Jedore — rocket launcher and a YMIR Mech, tank-bred krogan breaking
+      loose around her — and kills her.
+    source_chunks: [dossier-the-warlord_010]
+  - text: >
+      Returning to the lab, Shepard finds Okeer already dead from the toxins. His
+      recorded last words ask Shepard to protect his legacy and admit he never knew what
+      the Collectors wanted with the human colonists. Shepard has the tank taken to the
+      Normandy.
+    source_chunks: [dossier-the-warlord_010]
+  - text: >
+      Aboard the Normandy, Jacob and Miranda argue over the tank; Kelly Chambers offers
+      cautionary words about waking its occupant.
+    source_chunks: [dossier-the-warlord_011]
+  - text: >
+      Opening the tank releases Grunt, who charges and slams Shepard against a wall.
+      Shepard, holding a pistol to his stomach the whole time, either talks him down —
+      earning his approval, "Offer one hand, but arm the other" — or fires to put him
+      down, after which krogan regeneration brings him back. Either way he joins,
+      impressed by Shepard's strength.
+    source_chunks: [dossier-the-warlord_012]
+    conditional: {grunt_released: true}
+    choice: Grunt released from the tank
+  - text: >
+      If Grunt is released, the Illusive Man emails that it was a dangerous decision but
+      Shepard has free rein; if Grunt proves unreliable and has to be put down, Shepard
+      is told to keep the body for its Collector-based genetic data.
+    source_chunks: [dossier-the-warlord_013]
+    conditional: {grunt_released: true}
+    choice: Grunt released from the tank
+related_scenes: [tuchanka-grunt-rite-of-passage, citadel-grunt-csec-noodles]
+related_events: [grunt-recruitment-korlus]
+source_chunks: [dossier-the-warlord_004, dossier-the-warlord_005, dossier-the-warlord_009, dossier-the-warlord_010, dossier-the-warlord_011, dossier-the-warlord_012, dossier-the-warlord_013]

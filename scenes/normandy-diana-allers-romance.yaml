@@ -1,0 +1,44 @@
+scene_id: normandy-diana-allers-romance
+title: Diana Allers and Shepard After Rannoch
+kind: downtime
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Rannoch"
+where: the Normandy SR-2
+
+participants: [Shepard, Diana Allers]
+private_to: [Shepard, Diana Allers]
+
+requires:
+  - allers: yes
+  - diana_second_interview: completed
+
+beats:
+  - text: >
+      After Shepard's third and final interview with Diana Allers regarding the
+      geth and quarians, Diana suggests her story can wait. She tells Shepard she
+      has a good lead, knows how to finish it, and just needs "the right body,"
+      strongly hinting at her romantic interest.
+    source_chunks: [diana-allers_006]
+  - text: >
+      If Shepard pursues the relationship, Diana cautiously remarks that they
+      must keep it secret or her career will be jeopardized. Shepard reassures
+      her the relationship will stay between them.
+    source_chunks: [diana-allers_006]
+    conditional: {diana_romance: yes}
+    choice: Shepard chooses to pursue Diana
+  - text: >
+      Diana and Shepard kiss.
+    source_chunks: [diana-allers_006]
+    conditional: {diana_romance: yes}
+    choice: Shepard chooses to pursue Diana
+  - text: >
+      If Shepard has already locked in a romance with another person, Diana and
+      Shepard simply have a professional conversation, and she is reminded to get
+      her story out to the people.
+    source_chunks: [diana-allers_006]
+    conditional: {diana_romance: no}
+    choice: Shepard declines or is in another romance
+
+related_scenes: [citadel-copeland-diana-allers-dock, normandy-copeland-diana-allers-terra-nova]
+related_events: []
+source_chunks: [diana-allers_006]

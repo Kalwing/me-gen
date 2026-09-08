@@ -1,0 +1,46 @@
+scene_id: omega-mordin-clinic-recruitment
+title: Recruiting Mordin from the Omega Clinic
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Freedom's Progress
+where: the quarantined plague district and Mordin's clinic in the slums of Omega
+participants: [Shepard, Mordin Solus, Aria T'Loak, Daniel, Jacob Taylor]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      EDI warns that Mordin's district is sealed off by a plague lethal to every species
+      except humans and vorcha. Shepard gets information from Aria T'Loak at Afterlife.
+    source_chunks: [dossier-the-professor_004]
+  - text: >
+      A turian district guard, hired by Aria to seal the quarantine zone, blocks the
+      transport hub. Shepard talks him into radioing ahead for the others to stand down;
+      if the talk fails, the guards open fire on the squad's arrival.
+    source_chunks: [district-guard_001, dossier-the-professor_005]
+  - text: >
+      In the slums, the Blue Suns have sealed plague victims in to contain the outbreak
+      while the Blood Pack pushes into their territory. Shepard can spend medi-gel on a
+      dying batarian who has convinced himself humans caused the plague.
+    source_chunks: [dossier-the-professor_006]
+  - text: >
+      At the clinic Mordin, talking fast, deduces Shepard's Cerberus ties, says he has
+      already made a cure but must disperse it through the district's air-control system,
+      held by Blood Pack vorcha. The air flow then shuts off entirely. Shepard volunteers
+      to clear Environmental Control; Mordin hands over the M-6 Carnifex and asks that
+      his assistant Daniel, gone alone into vorcha territory, be brought back alive.
+    source_chunks: [dossier-the-professor_008]
+  - text: >
+      Shepard fights through Blood Pack forces and vorcha working with the Collectors,
+      reactivates both ventilation fans, and disperses the cure across the district.
+    source_chunks: [dossier-the-professor_011, dossier-the-professor_013]
+  - text: >
+      Shepard rescues Daniel from batarians holding him at gunpoint; afterward he emails
+      thanks and reports the clinic recovering.
+    source_chunks: [dossier-the-professor_010, dossier-the-professor_016]
+    conditional: {daniel_rescued: true}
+    choice: Daniel brought back alive
+  - text: >
+      With plague levels dropping, Mordin joins the crew and sets up the Normandy's tech
+      lab; Jacob brings him up to speed on the Collector threat.
+    source_chunks: [dossier-the-professor_014, dossier-the-professor_015]
+related_events: [mordin-recruitment-omega]
+source_chunks: [dossier-the-professor_004, dossier-the-professor_005, dossier-the-professor_006, dossier-the-professor_008, dossier-the-professor_011, dossier-the-professor_015, district-guard_001]

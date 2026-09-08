@@ -1,0 +1,65 @@
+scene_id: therum-freeing-liara-prothean-ruins
+title: Cutting Liara Out of the Prothean Barrier on Therum
+kind: mission-aside
+game: Mass Effect
+when: 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system
+where: the Prothean ruins in a mining dig on Therum, then aboard the Normandy
+participants: [Shepard, Liara T'Soni, Kaidan Alenko, Ashley Williams, Joker]
+heard_by: [Normandy crew, Citadel Council]
+requires: []
+beats:
+  - text: >
+      Anderson had stepped down and handed Shepard the Normandy; Udina pointed the hunt for
+      the asari archaeologist Liara T'Soni, Saren's next target and Matriarch Benezia's
+      daughter, at the Artemis Tau cluster, and the world with Prothean ruins was Therum.
+      The Normandy dropped the Mako on a volcanically active surface where the lava would
+      destroy the vehicle on contact.
+    source_chunks: [find-liara-t-soni_002, find-liara-t-soni_004]
+  - text: >
+      Shepard fought up the road past refinery turrets and geth armatures, then a Geth
+      Colossus, and outside the ruin entrance a dropship deposited snipers, shock troopers,
+      Geth Hoppers and an Armature; the door stayed locked until nearly all of them were
+      cleared.
+    source_chunks: [find-liara-t-soni_005, find-liara-t-soni_008]
+  - text: >
+      Descending by elevators and broken platforms, the squad found Liara floating trapped
+      inside a Prothean security barrier she had triggered by accident while hiding from the
+      geth. She warned of more geth led by a krogan and directed Shepard to a nearby mining
+      laser.
+    source_chunks: [find-liara-t-soni_009]
+  - text: >
+      Shepard entered the code at the laser terminal, boring a tunnel past the barrier
+      curtains, then used the central console to raise an elevator to Liara's level and
+      freed her. A tremor followed, which Liara put down to the laser causing a seismic
+      event, and Shepard radioed Joker to bring the Normandy to the ruins.
+    source_chunks: [find-liara-t-soni_009]
+  - text: >
+      On the top level Shepard fought a standoff against geth and a Krogan Battlemaster. As
+      the last enemy fell the ruins began collapsing; the squad and Liara ran for the exit
+      and stopped only outside, with the Normandy hovering above them.
+    source_chunks: [find-liara-t-soni_010]
+  - text: >
+      Aboard the Normandy, Joker's welcome was sarcastic. Kaidan pressed Liara on her link
+      to Saren; she knew nothing of his plans but relayed her research, culminating in a
+      theory of recurrent galactic extinctions with the Protheans the latest to vanish.
+      Shepard tied this to the Reapers and the Eden Prime beacon vision. Ashley grew
+      impatient and steered the talk back to Saren and the Conduit. Liara called the
+      Normandy a safe haven from Saren, offered her Prothean expertise to interpret the
+      vision, and joined the crew; afterward the Council raised security concerns about her
+      and the turian Councilor questioned the destruction of the site.
+    source_chunks: [find-liara-t-soni_011]
+variants:
+  - condition: {liara_recruited: after-virmire}
+    text: >
+      If Shepard delayed Therum until after Virmire, Liara refused to believe the squad was
+      real until physically released from the barrier, insisting she was conjuring a
+      protective figure to keep from going mad, and cringed from the Krogan Battlemaster,
+      begging Shepard not to let him take her. At the debrief, hearing the evidence of the
+      Reapers, the Cipher from Feros and Shepard's beacon visions, she reacted with anger
+      that her decades of research had been stripped away, calming only when she realized
+      her expertise was the one way to read the vision.
+    source_chunks: [find-liara-t-soni_012]
+    choice: recruited Liara last, after Virmire
+related_scenes: [feros-shiala-cipher-transfer]
+related_events: [find-liara-t-soni]
+source_chunks: [find-liara-t-soni_002, find-liara-t-soni_009, find-liara-t-soni_011]

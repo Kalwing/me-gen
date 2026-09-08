@@ -1,0 +1,44 @@
+scene_id: feros-exogeni-bunker-jeong-confrontation
+title: Ethan Jeong Orders the Colony Purged
+kind: argument
+game: Mass Effect
+when: 2183, the Feros mission, returning from ExoGeni HQ toward Zhu's Hope
+where: the ExoGeni bunker at the Skyway Weigh Station, Feros
+participants: [Shepard, Ethan Jeong, Juliana Baynham, Lizbeth Baynham]
+heard_by: [Normandy crew]
+requires: []
+beats:
+  - text: >
+      Coming down the ramp, Shepard and Lizbeth watched from cover: a stressed Jeong,
+      asserting his authority as an ExoGeni representative, had security restrain Juliana
+      as she told him he would not get away with it. Lizbeth broke cover; Shepard reached
+      for her and missed; Juliana pulled free and the two embraced.
+    source_chunks: [feros-the-thorian_006]
+  - text: >
+      Jeong ordered the squad out and, with comms restored, said ExoGeni wanted the colony
+      purged and the colonists gone.
+    source_chunks: [feros-the-thorian_006]
+  - text: >
+      With enough standing, Shepard talked Jeong down — either an against-all-odds appeal
+      that the colony was worth ExoGeni's money, or a threat backed by Spectre authority —
+      and Jeong agreed to support and expand Zhu's Hope with company resources. Juliana
+      thanked the Commander.
+    source_chunks: [feros-the-thorian_006]
+    conditional: {feros_colony: jeong-agrees-to-help}
+    choice: talked Jeong into backing the colony
+  - text: >
+      Otherwise Jeong drew his pistol and Shepard shot him. Juliana read it as a bad sign,
+      fearing ExoGeni would now pull out entirely.
+    source_chunks: [feros-the-thorian_006]
+    conditional: {feros_colony: jeong-shot-dead}
+    choice: shot Jeong when he drew on the squad
+  - text: >
+      Juliana, shocked to hear of the Thorian but quick to grasp it, gave Shepard
+      Anti-Thorian Gas grenades — a sub-weapons-grade nerve gas that would harmlessly
+      incapacitate the immune-weakened colonists, as would melee — while noting Shepard
+      could also simply kill them. The grenades were required before the door back to
+      Zhu's Hope would open.
+    source_chunks: [feros-the-thorian_006]
+related_scenes: [feros-exogeni-hq-vi-thorian-revealed, feros-thorian-lair-shiala]
+related_events: [feros-thorian-mission]
+source_chunks: [feros-the-thorian_006, juliana-baynham_001]

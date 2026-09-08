@@ -1,0 +1,42 @@
+scene_id: feros-jeong-crisis
+title: Ethan Jeong's Crisis at the Weigh Station
+kind: argument
+game: Mass Effect
+when: "2183, during Feros: The Thorian mission"
+where: the Skyway Weigh Station / ExoGeni Bunker on Feros
+participants: [Shepard, Ethan Jeong, Juliana Baynham]
+private_to: []
+heard_by: []
+requires:
+  - feros_visited: true
+beats:
+  - text: >
+      While Shepard is away at the ExoGeni headquarters learning about the Thorian,
+      communications are restored with ExoGeni corporation. Jeong learns that ExoGeni
+      is planning to purge the entire colony to keep the Thorian project secret and
+      cover up the infection of the colonists.
+    source_chunks: [ethan-jeong_001]
+  - text: >
+      Jeong forces Juliana Baynham away from the radio console and has her restrained.
+      He draws a pistol on Juliana, threatening her as the colony is about to be
+      destroyed on corporate orders. When Shepard returns and finds them, the situation
+      is tense and dangerous.
+    source_chunks: [ethan-jeong_001, juliana-baynham_001]
+  - text: >
+      Shepard confronts Jeong. With sufficient Persuade or Intimidate, Shepard can
+      convince Jeong to abandon the purge plan and instead support and expand the
+      colony. If Shepard fails to persuade him, Jeong draws his pistol again and
+      Shepard is forced to shoot him in self-defense. If Jeong is killed, two ExoGeni
+      guards attempt to respond but back down when Shepard's teammates draw their
+      weapons.
+    source_chunks: [ethan-jeong_001]
+  - text: >
+      If Jeong survives, he takes leadership of the colony. If Shepard had raised the
+      idea of business opportunities on Feros, Jeong says ExoGeni will be interested
+      in the proposal. After the Thorian's destruction, Jeong and the other Weigh
+      Station survivors appear at Zhu's Hope. If Jeong survived and the colony is saved,
+      Juliana praises him for negotiating well on the colonists' behalf, though she
+      still views him as corrupt.
+    source_chunks: [ethan-jeong_001, juliana-baynham_001]
+related_events: [feros-the-thorian]
+source_chunks: [ethan-jeong_001, juliana-baynham_001]

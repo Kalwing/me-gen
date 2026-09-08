@@ -1,0 +1,74 @@
+scene_id: omega-archangel-garrus-last-stand
+title: Archangel's Last Stand
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Omega, recruiting the Illusive Man's first batch of dossiers
+where: Garrus's bridge-fortified hideout in the Kima District of Omega
+participants: [Shepard, Garrus Vakarian, Aria T'Loak, Jaroth, Garm, Tarak]
+heard_by: [Normandy crew]
+requires:
+  - garrus_recruitment: any
+beats:
+  - text: >
+      On arriving at Omega, Shepard is directed by Aria T'Loak to Archangel, a lone
+      vigilante whom Eclipse, the Blue Suns, and the Blood Pack have allied to kill.
+      Aria points Shepard to a side room in Afterlife to sign on as a freelancer.
+    source_chunks: [dossier-archangel_004]
+  - text: >
+      Posing as hired help, Shepard crosses the merc staging area in the Kima District,
+      meeting Salkie and then the three gang leaders in turn — Jaroth of Eclipse, the
+      krogan battlemaster Garm of the Blood Pack, and Tarak of the Blue Suns — and can
+      sabotage a YMIR Mech so it turns on the mercs when deployed.
+    source_chunks: [dossier-archangel_004, dossier-archangel_005]
+  - text: >
+      At the gunship hangar Shepard has the option to take a sparking welder and jam it
+      into Sergeant Cathka, crippling the repairs on Tarak's gunship before it can fly.
+    source_chunks: [dossier-archangel_006]
+    conditional: {cathka_sabotaged: true}
+    choice: jammed a welder into Cathka
+  - text: >
+      Shepard crosses the last barricade, turns on the freelancers, and fights up to the
+      sniper nest. Archangel calmly snipes one last merc, then removes his helmet: it is
+      Garrus Vakarian.
+    source_chunks: [dossier-archangel_006]
+  - text: >
+      Garrus explains he resigned from C-Sec in frustration, came to Omega, and led a
+      twelve-man vigilante band against the gangs, earning the name "Archangel" from the
+      locals. The band was wiped out in a betrayal; their shrouded bodies lie in groups
+      around the hideout.
+    source_chunks: [dossier-archangel_006]
+  - text: >
+      Eclipse attacks first. Shepard defends Garrus through the assault, which ends with
+      the YMIR Mech and then Jaroth entering the fight; both are killed.
+    source_chunks: [dossier-archangel_007, dossier-archangel_008]
+  - text: >
+      A distant blast breaches the tunnels Garrus had sealed. Shepard goes down to the
+      basement and closes three shutters to lock the lower level, then returns to the
+      ground floor, where Garm and the Blood Pack have broken in; Garm charges straight
+      for Garrus and is killed upstairs.
+    source_chunks: [dossier-archangel_009, dossier-archangel_010, dossier-archangel_012]
+  - text: >
+      The Blue Suns come last, deploying Jentha and Tarak's A-61 Mantis Gunship. The
+      gunship gets the drop on Garrus and a rocket blast leaves him unconscious in a
+      pool of his own blood. Shepard shoots the gunship down and orders a squadmate to
+      radio Joker to be ready for them.
+    source_chunks: [dossier-archangel_013, dossier-archangel_014]
+  - text: >
+      Back on the Normandy, Garrus is given cybernetic reconstruction but keeps a
+      permanent facial scar and cracked armour for the rest of the mission, and takes up
+      residence in the main battery.
+    source_chunks: [dossier-archangel_015]
+  - text: >
+      If Garrus served with Shepard against Saren, Joker remarks that it is good to have
+      him back aboard.
+    source_chunks: [dossier-archangel_015]
+    conditional: {garrus_served_me1: true}
+    choice: Garrus served with Shepard against Saren
+  - text: >
+      Nalah Butler, widow of one of Garrus's squad members, emails Shepard asking that
+      Garrus be helped to stop blaming himself for the team's deaths, and asking that he
+      not be told she wrote.
+    source_chunks: [dossier-archangel_016]
+related_scenes: [omega-cathka-hangar, omega-garrus-calls-castis]
+related_events: [garrus-recruitment-archangel]
+source_chunks: [dossier-archangel_004, dossier-archangel_005, dossier-archangel_006, dossier-archangel_012, dossier-archangel_014, dossier-archangel_015, dossier-archangel_016]

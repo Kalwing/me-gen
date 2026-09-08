@@ -1,0 +1,43 @@
+scene_id: derelict-reaper-iff-mission
+title: Retrieving the Reaper IFF from the Derelict
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after the Collector Ship mission
+where: a derelict Reaper orbiting Mnemosyne in the Thorne system
+
+participants: [Shepard]
+private_to: []
+
+requires:
+  - collector_ship: any
+
+beats:
+  - text: >
+      After the Collector Ship mission, the Illusive Man orders Commander Shepard
+      to investigate a derelict Reaper orbiting the failed star Mnemosyne. A
+      Cerberus research team led by Dr. Chandana had been sent to study the Reaper
+      but has ceased communicating.
+    source_chunks: [derelict-reaper_003]
+  - text: >
+      Shepard's squad boards the massive, disabled vessel. The ship's kinetic
+      barriers immediately engage and trap them aboard. The barriers can only be
+      disengaged by destroying the Reaper's core, which will also release the mass
+      effect field keeping it from falling into Mnemosyne's gravity well.
+    source_chunks: [derelict-reaper_003]
+  - text: >
+      Shepard and the squad fight through waves of husks—the indoctrinated remains
+      of Chandana's Cerberus team—while searching for the IFF transponder.
+    source_chunks: [derelict-reaper_003, stop-the-collectors_008]
+  - text: >
+      At the Reaper's core, the squad discovers a lone geth overwhelmed by husks.
+      Shepard destroys the core, disabling the kinetic barriers and releasing the
+      mass effect field.
+    source_chunks: [derelict-reaper_003]
+  - text: >
+      Shepard recovers the IFF and escapes with the inactive geth to the Normandy
+      just before the Reaper is destroyed by Mnemosyne's atmosphere.
+    source_chunks: [derelict-reaper_003]
+
+related_scenes: []
+related_events: [suicide-mission]
+source_chunks: [derelict-reaper_003, stop-the-collectors_008]
