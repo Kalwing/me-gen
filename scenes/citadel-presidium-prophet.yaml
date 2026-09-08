@@ -1,0 +1,38 @@
+scene_id: citadel-presidium-prophet
+title: The C-Sec Officer and the Hanar Preacher
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, after the Council dismisses the charges against Saren"
+where: near the Wards Access corridor on the Presidium
+participants: [Shepard, a turian C-Sec officer, a hanar preacher]
+private_to: [Shepard, a turian C-Sec officer, a hanar preacher]
+heard_by: [Citadel patrons]
+beats:
+  - text: >
+      On the way to the Citadel Tower and the Relay Monument, Shepard overhears an argument
+      between a turian C-Sec officer and a religious hanar. The officer says the hanar is
+      preaching in a non-designated area without an evangelical permit and is harassing the
+      public; the hanar insists it is not preaching but merely stating the truth about the
+      Enkindlers, which needs no permit.
+    source_chunks: [citadel-presidium-prophet_001, citadel-presidium-prophet_003]
+  - text: >
+      After hearing both sides, Shepard chooses whom to help. Buying the hanar a permit for
+      150 credits lets it leave to preach legally elsewhere, with no morality change.
+    source_chunks: [citadel-presidium-prophet_003]
+    conditional: {prophet_resolution: permit}
+    choice: bought the hanar a permit
+  - text: >
+      Alternatively, Shepard can persuade the hanar to leave by arguing the Enkindlers would
+      not want their gift of language used to break society's laws, earning Paragon points;
+      this satisfies the officer, who thanks Shepard and hands over omni-gel.
+    source_chunks: [citadel-presidium-prophet_003]
+    conditional: {prophet_resolution: hanar_leaves}
+    choice: talked the hanar into leaving
+  - text: >
+      Or Shepard can persuade the officer to leave by getting him to admit no one had actually
+      complained, earning Renegade points; the hanar rewards Shepard with medi-gel packs
+      before resuming its preaching to passers-by.
+    source_chunks: [citadel-presidium-prophet_003]
+    conditional: {prophet_resolution: officer_leaves}
+    choice: talked the officer into leaving
+source_chunks: [citadel-presidium-prophet_001, citadel-presidium-prophet_002, citadel-presidium-prophet_003, citadel-presidium-prophet_004]

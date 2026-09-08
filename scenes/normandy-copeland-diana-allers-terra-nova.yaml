@@ -1,0 +1,41 @@
+scene_id: normandy-copeland-diana-allers-terra-nova
+title: Copeland Confronts Diana Allers Over Her Terra Nova Opinion Piece
+kind: argument
+game: Mass Effect 3
+when: 2186, Citadel visit, after Copeland boards the Normandy with Diana Allers
+where: the Normandy SR-2
+
+participants: [Copeland, Diana Allers, Shepard]
+private_to: []
+heard_by: [Normandy crew]
+
+requires: [allers: yes]
+
+beats:
+  - text: >
+      Aboard the ship, Copeland confronts war correspondent Diana Allers about her
+      opinion piece arguing that Terra Nova colony should be sacrificed to save several
+      other colonies. As a native of Terra Nova, Copeland takes this personally, noting
+      that Shepard had saved the colony years earlier.
+    source_chunks: [copeland_001]
+  - text: >
+      Copeland accuses Allers of being traitorous for her position, especially when
+      more influential entities like the Asari Republics might take such an argument
+      seriously.
+    source_chunks: [copeland_001]
+  - text: >
+      If Shepard sides with Copeland, he rubs in the victory as Allers has no choice but
+      to pull the piece.
+    source_chunks: [copeland_001]
+    conditional: {}
+    choice: Shepard sides with Copeland
+  - text: >
+      If Shepard sides with Allers, Copeland stands down and grudgingly accepts Diana's
+      compromise that the opinion will be clearly labeled as her own personal view.
+    source_chunks: [copeland_001]
+    conditional: {}
+    choice: Shepard sides with Diana Allers
+
+related_scenes: [citadel-copeland-diana-allers-dock]
+related_events: []
+source_chunks: [copeland_001]

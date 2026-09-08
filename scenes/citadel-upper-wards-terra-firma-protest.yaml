@@ -4,16 +4,22 @@ kind: banter
 game: Mass Effect
 when: "2183, Citadel, after Sovereign's attack, during shore leave"
 where: Upper Wards of the Citadel, near the stairs by Flux
-participants: [Shepard, Charles Saracino]
-private_to: [Shepard, Charles Saracino]
+participants: [Shepard, Charles Saracino, Ashley Williams, Kaidan Alenko, Liara T'Soni, Garrus Vakarian, Urdnot Wrex]
+private_to: [Shepard, Charles Saracino, Ashley Williams, Kaidan Alenko, Liara T'Soni, Garrus Vakarian, Urdnot Wrex]
 heard_by: [Citadel patrons]
 beats:
   - text: >
-      A Terra Firma party protest gathers on the Citadel Upper Wards near Flux, with a group
-      of people chanting slogans against alien influence on humanity. Charles Saracino, the
-      current leader of Terra Firma, stands at the front of the group and calls Shepard over
-      for a conversation.
-    source_chunks: [citadel-our-own-worst-enemy_001, citadel-our-own-worst-enemy_003]
+      After Captain Anderson summons Shepard to meet him at Flux, a Terra Firma party protest
+      is found gathered on the Citadel Upper Wards near Flux, a group of people chanting slogans
+      against alien influence on humanity. Charles Saracino, the current leader of Terra Firma,
+      stands at the front of the group and calls Shepard over for a conversation.
+    source_chunks: [citadel-our-own-worst-enemy_001, citadel-our-own-worst-enemy_002, citadel-our-own-worst-enemy_003]
+  - text: >
+      Whichever squadmates Shepard brought have their own reactions to Saracino. If Ashley
+      Williams is present she voices her own objections to him, which Shepard can encourage or
+      curtail; Kaidan Alenko, Liara T'Soni, Garrus Vakarian, and Urdnot Wrex each have their
+      own complaints to make as well.
+    source_chunks: [citadel-our-own-worst-enemy_003]
   - text: >
       Saracino, a vehement critic of the Alliance's policy toward alien races, believes
       humanity should resist alien influences by any means necessary—even militarily in the
@@ -29,16 +35,18 @@ beats:
   - text: >
       If Shepard endorses Saracino's candidacy, the Commander earns Renegade points and
       Saracino is grateful for Shepard's respect of the democratic process. He returns to the
-      protest satisfied.
-    source_chunks: [citadel-our-own-worst-enemy_003]
+      protest satisfied. Cut news reports, restored in Legendary Edition, later show the
+      Terra Firma Party gaining support in Parliament.
+    source_chunks: [citadel-our-own-worst-enemy_003, citadel-our-own-worst-enemy_004]
     conditional: {endorse_saracino: true}
     choice: endorsed Saracino
   - text: >
       If Shepard refuses to endorse Saracino, the Commander earns Paragon points. Saracino is
       still grateful for Shepard's respect of the democratic process despite the rejection and
-      returns to the protest.
-    source_chunks: [citadel-our-own-worst-enemy_003]
+      returns to the protest. Cut news reports, restored in Legendary Edition, later show
+      Saracino pleading guilty to tax evasion.
+    source_chunks: [citadel-our-own-worst-enemy_003, citadel-our-own-worst-enemy_004]
     conditional: {endorse_saracino: false}
     choice: refused to endorse Saracino
 related_events: [terra-firma-political-influence]
-source_chunks: [citadel-our-own-worst-enemy_001, citadel-our-own-worst-enemy_003, charles-saracino_001]
+source_chunks: [citadel-our-own-worst-enemy_001, citadel-our-own-worst-enemy_002, citadel-our-own-worst-enemy_003, citadel-our-own-worst-enemy_004, charles-saracino_001]

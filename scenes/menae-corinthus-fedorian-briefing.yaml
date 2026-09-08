@@ -1,0 +1,29 @@
+scene_id: menae-corinthus-fedorian-briefing
+title: Corinthus Informs Shepard of Primarch Fedorian's Death
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Menae, when Shepard arrives to rescue Primarch Fedorian
+where: Menae command, turian outpost on Menae
+
+participants: [Shepard, General Corinthus]
+private_to: []
+heard_by: [turian military]
+
+requires: []
+
+beats:
+  - text: >
+      After Commander Shepard arrives on Menae to extract Primarch Fedorian, General
+      Corinthus, responsible for organizing the turian counterattack against the Reapers
+      on Menae, informs Shepard that Fedorian's shuttle was shot down and the primarch
+      (a close friend of Corinthus) is presumed dead.
+    source_chunks: [corinthus_001]
+  - text: >
+      Once communication with the Turian Hierarchy is reestablished, Corinthus learns
+      that General Adrien Victus is next in line for the primarch position and tasks
+      Shepard with retrieving him.
+    source_chunks: [corinthus_001]
+
+related_scenes: []
+related_events: [priority-palaven]
+source_chunks: [corinthus_001]

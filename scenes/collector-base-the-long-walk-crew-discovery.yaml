@@ -1,0 +1,48 @@
+scene_id: collector-base-the-long-walk-crew-discovery
+title: Discovery of Abducted Crew in Stasis Pods
+kind: downtime
+game: Mass Effect 2
+when: 2185, during the assault on the Collector Base
+where: a chamber holding giant stasis pods in the Collector Base
+participants: [Shepard, squad members, Lilith, Kelly Chambers, Dr. Chakwas, Normandy crew]
+private_to: [Shepard, squad members, Dr. Chakwas]
+heard_by: [Joker, EDI]
+requires:
+  - collector-base-mission: any
+beats:
+  - text: >
+      Upon entering a vast chamber holding colonists and Normandy crew in stasis pods,
+      Shepard wipes condensation from one pod and discovers either Lilith (if Shepard
+      departed immediately after the crew's abduction) or Kelly Chambers (if Shepard delayed
+      to complete other missions). The occupant stirs, screams, and is liquefied by the
+      Collectors' processing system before Shepard can do anything. Shepard immediately
+      orders the remaining pods opened. Depending on how quickly Shepard acted to mount
+      the rescue, either the entire crew is saved, half the crew is saved, or only
+      Dr. Chakwas survives.
+    source_chunks: [collector-base-the-long-walk_003]
+    conditional: {crew_rescue_speed: immediate}
+    choice: went to Collector Base immediately after crew abduction
+  - text: >
+      Shepard rescues the surviving crew members. Dr. Chakwas emerges, either grateful
+      and relieved if most or all crew were saved, or angry and accusatory if Shepard
+      delayed too long. Chakwas explains that the Collectors have been processing humans
+      into a gray paste of genetic material, routing the results to another part of the
+      station for unknown purposes. Shepard deduces the Collectors are using the crew to
+      construct something and determines the group must follow the tubes to their destination.
+      EDI reports that the only remaining route is infested with Seeker Swarms too numerous
+      for Mordin's countermeasures to handle—a biotic specialist will need to maintain a
+      protective field for a small squad to pass through safely.
+    source_chunks: [collector-base-the-long-walk_003]
+  - text: >
+      Shepard selects a biotic specialist to hold the protective field over the squad's
+      advance: ideally a loyal Samara, Jack, or Morinth; a non-ideal choice will result in
+      the specialist collapsing from exhaustion during the final sprint. Shepard also selects
+      a fire-team leader for the distraction team (ideally Miranda, or a loyal Garrus or Jacob;
+      non-ideal choices result in the leader being shot when entering). Finally, Shepard decides
+      whether to assign an escort for the crew's return to the Normandy. Assigning a loyal
+      teammate saves the crew but costs that squadmate's life in the final battle. Refusing to
+      assign an escort preserves all squadmates for the final fight but condemns the crew.
+    source_chunks: [collector-base-the-long-walk_003]
+    choice: selected biotic specialist, fire-team leader, and crew escort
+related_events: [suicide-mission]
+source_chunks: [collector-base-the-long-walk_003]

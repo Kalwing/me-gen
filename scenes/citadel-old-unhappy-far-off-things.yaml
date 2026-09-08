@@ -1,0 +1,35 @@
+scene_id: citadel-old-unhappy-far-off-things
+title: Lieutenant Zabaleta Asks Shepard for Credits
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, during the search for Saren"
+where: Wards Access corridor, the Citadel
+participants: [Shepard, Lieutenant Zabaleta, Hannah Shepard]
+private_to: [Shepard, Lieutenant Zabaleta, Hannah Shepard]
+heard_by: [Normandy crew]
+requires:
+  - background: Spacer
+beats:
+  - text: >
+      Walking through the Wards Access corridor, Shepard is addressed by name by an older man
+      who introduces himself as Lieutenant Zabaleta and claims to know Shepard's mother. He
+      asks for 20 credits, saying he is down on his luck and stranded on the Citadel because
+      he cannot afford a ticket home. Shepard can give him the money, lie about having none,
+      or refuse outright.
+    source_chunks: [citadel-old-unhappy-far-off-things_001, citadel-old-unhappy-far-off-things_003]
+  - text: >
+      Calling the SSV Kilimanjaro from the Normandy's comm room reaches Hannah Shepard, to
+      whom the ship is assigned. She explains that Zabaleta suffers from post-traumatic stress
+      disorder after being at Mindoir, and says he should go to the Veterans' Affairs Office
+      for help.
+    source_chunks: [citadel-old-unhappy-far-off-things_003]
+  - text: >
+      Returning to Zabaleta, the lieutenant again asks for credits, this time for whiskey to
+      stop the dreams. Shepard can give him money, set him up with an account at a grocery
+      store to stop him drinking, refuse again, or, with enough Charm or Intimidate, convince
+      him to go to the Veterans' Affairs Office. Whatever the outcome, Zabaleta then leaves
+      the location for good.
+    source_chunks: [citadel-old-unhappy-far-off-things_003]
+    conditional: {zabaleta_outcome: any}
+    choice: gave money, set up a grocery account, refused, or talked him to Veterans' Affairs
+source_chunks: [citadel-old-unhappy-far-off-things_001, citadel-old-unhappy-far-off-things_002, citadel-old-unhappy-far-off-things_003, citadel-old-unhappy-far-off-things_004]

@@ -1,0 +1,39 @@
+scene_id: citadel-planting-a-bug
+title: Wong's Bug for the C-Sec Traffic Controllers
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, second visit, during the search for Saren"
+where: the Citadel Tower, below the Council's audience chamber
+participants: [Shepard, Emily Wong]
+private_to: [Shepard, Emily Wong]
+heard_by: [Citadel patrons]
+beats:
+  - text: >
+      On a return visit to the Citadel, reporter Emily Wong is waiting at the Citadel Tower
+      below the Council's audience chamber. She explains she is planning a story on overworked
+      C-Sec traffic controllers and asks Shepard to plant a listening bug, which she describes
+      as harmless, in the C-Sec traffic control center. Agreeing is required to take the
+      assignment; refusing ends it permanently.
+    source_chunks: [citadel-planting-a-bug_001, citadel-planting-a-bug_002, citadel-planting-a-bug_003]
+  - text: >
+      Shepard reaches the C-Sec Academy control room and can plant the bug in an inconspicuous
+      spot near a keeper, or leave without planting it. Either way, Shepard returns to Wong to
+      report back.
+    source_chunks: [citadel-planting-a-bug_003]
+    conditional: {bug_planted: true}
+    choice: planted the bug as agreed
+  - text: >
+      With four ranks of Charm, Shepard can instead refuse Wong on the grounds that the
+      controllers might lose their jobs, or accuse her of chasing ratings, earning more
+      Paragon points than simply planting the bug. With five ranks of Intimidate, Shepard can
+      lie that the bug was planted, gaining Renegade points and omni-gel instead. A player can
+      also abort outright by telling Wong not to hold her breath, ending the assignment with
+      no reward.
+    source_chunks: [citadel-planting-a-bug_003]
+    conditional: {bug_planted: false}
+    choice: refused over job losses, lied about planting it, or aborted outright
+  - text: >
+      An elevator news report plays afterward if the bug was planted as agreed or if Shepard
+      refused over concern for the controllers' jobs.
+    source_chunks: [citadel-planting-a-bug_004]
+source_chunks: [citadel-planting-a-bug_001, citadel-planting-a-bug_002, citadel-planting-a-bug_003, citadel-planting-a-bug_004]

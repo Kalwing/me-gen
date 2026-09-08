@@ -1,0 +1,51 @@
+scene_id: citadel-schells-the-gambler
+title: Schells' Cheating Device at Flux
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, after Citadel: Rita's Sister, during the hunt for Saren"
+where: Flux, on the Citadel
+
+participants: [Shepard, Schells, Doran]
+private_to: [Shepard, Schells, Doran]
+heard_by: [Citadel patrons]
+
+requires: []
+
+beats:
+  - text: >
+      On entering Flux, Shepard sees a salarian named Schells thrown out by the bouncer for
+      cheating at the Quasar gambling machines. Schells claims he was not cheating but
+      gathering data with a device to perfect a system for predicting Quasar outcomes, one
+      that tampers with the machines to raise his odds of winning. Flux's owner Doran has
+      accused him of cheating. Schells asks Shepard to collect the data for him and waits at
+      the entrance until Shepard agrees.
+    source_chunks: [citadel-schells-the-gambler_001, citadel-schells-the-gambler_002]
+  - text: >
+      With the device, Shepard can play Quasar until winning five times, at which point it
+      signals it has enough data, and can be returned to Schells for credits and experience
+      but no morality reward.
+    source_chunks: [citadel-schells-the-gambler_003, citadel-schells-the-gambler_004]
+    conditional: {schells_device: returned_to_schells}
+    choice: recorded the data and returned it to Schells
+  - text: >
+      If Shepard keeps playing greedily and reaches seven wins, Doran, who has been watching,
+      confiscates the device and all of Shepard's winnings and ejects Shepard from the bar,
+      ending the assignment with no reward.
+    source_chunks: [citadel-schells-the-gambler_005]
+    conditional: {schells_device: confiscated}
+    choice: got greedy and had the device confiscated
+  - text: >
+      Alternatively, Shepard can give the device to Doran, even after using it, for an
+      experience reward and credits, plus a few rounds of Quasar on the house that Shepard
+      can simply keep.
+    source_chunks: [citadel-schells-the-gambler_006]
+    conditional: {schells_device: given_to_doran}
+    choice: gave the device to Doran instead
+  - text: >
+      Afterward, Doran can be found dancing on the club floor, and Shepard can join him; a
+      love interest present in the party dances with Shepard as well.
+    source_chunks: [citadel-schells-the-gambler_007]
+
+related_scenes: [citadel-chellick-jax-arms-sting]
+related_events: []
+source_chunks: [citadel-schells-the-gambler_001, citadel-schells-the-gambler_002, citadel-schells-the-gambler_003, citadel-schells-the-gambler_004, citadel-schells-the-gambler_005, citadel-schells-the-gambler_006, citadel-schells-the-gambler_007]

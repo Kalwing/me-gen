@@ -1,0 +1,34 @@
+scene_id: collector-ship-normandy-debrief
+title: Collector Ship Debrief on the Normandy
+kind: downtime
+game: Mass Effect 2
+when: 2185, after infiltrating the derelict Collector Cruiser
+where: the Normandy SR-2 briefing room
+participants: [Shepard, Illusive Man, Jacob Taylor, Miranda Lawson, Mordin Solus, EDI]
+private_to: [Jacob Taylor, Miranda Lawson, Mordin Solus, Shepard]
+heard_by: []
+requires: []
+beats:
+  - text: >
+      After escaping the Collector vessel, Shepard faces the Illusive Man in conversation,
+      confronting him about sending the team into a trap. The Illusive Man acknowledges the
+      risk but maintains it was necessary; he explains that Cerberus researchers discovered
+      from Collector data how the Collectors navigate the Omega-4 Relay using an advanced
+      Identify Friend/Foe device. He directs Shepard to seek an IFF code from a derelict
+      Reaper in the Thorne system of the Hawking Eta Cluster, warning that passage through
+      the relay will likely be one-way.
+    source_chunks: [collector-ship-mission_015]
+  - text: >
+      Jacob Taylor, Miranda Lawson, and Mordin Solus join Shepard in the briefing room.
+      The three discuss Shepard's response to the Illusive Man's gamble; despite its risks,
+      they agree the mission was a success. EDI reports a stunning discovery: analyzing the
+      Collector ship's course through the Omega-4 Relay, she has calculated the location of
+      the Collector homeworld. The path traces to the galactic core, shocking everyone present.
+      Jacob expresses skepticism that anything could survive there, while Mordin theorizes
+      that a shielded artificial installation could operate at the core. Shepard can
+      contextualize this within the Reapers' demonstrated capabilities—constructing Mass
+      Relays and the Citadel itself—making a base at the galaxy's heart not implausible.
+      The group discusses whether to pursue the IFF immediately or continue preparing the team.
+    source_chunks: [collector-ship-mission_015]
+related_events: [collector-ship-mission]
+source_chunks: [collector-ship-mission_015]

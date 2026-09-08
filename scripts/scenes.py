@@ -13,6 +13,7 @@ Usage::
     python scripts/scenes.py --list --for wrex     # with attendance marked
     python scripts/scenes.py --show citadel-party-apartment
     python scripts/scenes.py --check               # validate the whole set
+    python scripts/scenes.py --drop-unparseable     # delete files a hard stop half-wrote
 """
 from __future__ import annotations
 
@@ -184,8 +185,24 @@ def main(argv: list[str] | None = None) -> int:
                     help="mark attendance for this narrator")
     ap.add_argument("--check", action="store_true",
                     help="validate every record and its chunk references")
+    ap.add_argument("--drop-unparseable", action="store_true",
+                    help="delete *.yaml files that fail to parse or validate, "
+                         "e.g. left half-written by a killed agent")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args(argv)
+
+    if args.drop_unparseable:
+        dropped = []
+        for p in sorted(Path(args.scenes_dir).glob("*.yaml")):
+            try:
+                load_scene(p)
+            except Exception:
+                dropped.append(p)
+                p.unlink()
+        for p in dropped:
+            print(f"dropped partial {p}")
+        print(f"{len(dropped)} file(s) dropped")
+        return 0
 
     loaded = load_scenes(args.scenes_dir)
 

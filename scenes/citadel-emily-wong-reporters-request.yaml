@@ -1,0 +1,36 @@
+scene_id: citadel-emily-wong-reporters-request
+title: Emily Wong's Request for Evidence on Fist
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, during the hunt for Saren"
+where: near the stairs to Flux in the Upper Wards, then the Wards again
+
+participants: [Shepard, Emily Wong]
+private_to: [Shepard, Emily Wong]
+heard_by: [Citadel patrons]
+
+requires: []
+
+beats:
+  - text: >
+      After Shepard's first audience with the Citadel Council and gaining access to the
+      Upper Wards, reporter Emily Wong waves Shepard down near the stairs leading to Flux.
+      She explains she is investigating crime and corruption on the Citadel and asks Shepard
+      to pass along any useful information found.
+    source_chunks: [citadel-reporter-s-request_001, citadel-reporter-s-request_002]
+  - text: >
+      After Shepard's squad storms Chora's Den and confronts Fist, an OSD holding evidence of
+      Fist's illegal activities is left behind in his office. Shepard can bring the OSD back
+      to Wong in the Wards.
+    source_chunks: [citadel-reporter-s-request_003]
+  - text: >
+      If Shepard spoke with Wong before raiding Chora's Den, a Charm or Intimidate option
+      adds credits to the reward, and the Intimidate option also grants Renegade points.
+      Denying Wong the OSD still completes the assignment, but with no reward.
+    source_chunks: [citadel-reporter-s-request_003]
+    conditional: {osd_given_to_wong: true}
+    choice: handed over Fist's OSD, or denied Wong the evidence
+
+related_scenes: [citadel-chora-s-den-fist-confrontation, citadel-planting-a-bug]
+related_events: []
+source_chunks: [citadel-reporter-s-request_001, citadel-reporter-s-request_002, citadel-reporter-s-request_003]

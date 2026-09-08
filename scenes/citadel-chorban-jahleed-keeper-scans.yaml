@@ -21,6 +21,12 @@ beats:
       his curiosity, and offers Shepard the chance to continue the scanning for him.
     source_chunks: [chorban_002]
   - text: >
+      Shepard can take up the scanning work across the Citadel's 21 keepers for credits and
+      experience, with a bonus for scanning them all, or abandon the assignment through
+      dialogue with Chorban for Paragon points instead — both rewards can be earned by
+      scanning every keeper before then choosing to abandon the work.
+    source_chunks: [citadel-scan-the-keepers_002, citadel-scan-the-keepers_003]
+  - text: >
       Jahleed, hiding in the C-Sec offices and refusing to leave, tells Shepard he believes
       his business partner Chorban is trying to kill him, though the details are vague. He
       asks Shepard to meet Chorban in the Lower Markets to find out what is going on.
@@ -58,10 +64,10 @@ beats:
       the last such interval coinciding with the Protheans' disappearance and due again
       around now, meaning old technology might have "nasty surprises" waiting. He notes no
       one else on the Citadel will listen to him.
-    source_chunks: [chorban_003]
+    source_chunks: [chorban_003, citadel-scan-the-keepers_007]
     conditional: {chorban_alive: true, keeper_scans: most_or_all}
     choice: Chorban survived, most keepers scanned
 
 related_scenes: []
 related_events: []
-source_chunks: [chorban_002, chorban_003, citadel-jahleed-s-fears_004, citadel-jahleed-s-fears_005, citadel-jahleed-s-fears_006]
+source_chunks: [chorban_002, chorban_003, citadel-jahleed-s-fears_004, citadel-jahleed-s-fears_005, citadel-jahleed-s-fears_006, citadel-scan-the-keepers_002, citadel-scan-the-keepers_003, citadel-scan-the-keepers_007]

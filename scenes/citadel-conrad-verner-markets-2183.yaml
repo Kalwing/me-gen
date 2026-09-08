@@ -1,0 +1,68 @@
+scene_id: citadel-conrad-verner-markets-2183
+title: Conrad Verner's Three Encounters in the Upper Markets
+kind: banter
+game: Mass Effect
+when: "2183, Citadel, across three return visits during the hunt for Saren"
+where: the top of the stairs in the Upper Markets, Citadel Wards
+
+participants: [Shepard, Conrad Verner]
+private_to: [Shepard, Conrad Verner]
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      After gaining free rein of the Citadel following Citadel: Expose Saren, Shepard is
+      approached by Conrad Verner, a self-proclaimed "huge fan," at the top of the stairs in
+      the Upper Markets. Having heard about the Eden Prime mission, he politely asks for an
+      autograph to impress his wife. Shepard can give the autograph or tell him to forget it,
+      either way without further incident.
+    source_chunks: [citadel-the-fan_002, citadel-the-fan_003, citadel-the-fan_004, conrad-verner_002]
+  - text: >
+      After Shepard completes a core mission world (Therum, Feros, or Noveria) and returns,
+      Conrad reappears in the same spot and congratulates Shepard on becoming a Spectre,
+      asking for a photo as proof he met humanity's first Spectre. If Shepard was rude in the
+      first interaction, Conrad brushes it off as Shepard being "too busy to notice him" and
+      asks anyway.
+    source_chunks: [citadel-the-fan_005]
+  - text: >
+      Refusing the photo ends the assignment for good; an elevator news report later reports
+      that Conrad, trying to prove himself, picked a fight with a group of turians and was
+      killed.
+    source_chunks: [citadel-the-fan_005, citadel-the-fan_009]
+    conditional: {conrad_verner_photo: refused}
+    choice: refused Conrad the photo
+  - text: >
+      If Shepard gives Conrad the photo, he reappears a third time after another completed
+      core mission world and asks Shepard to sign him up as a fellow Spectre and squad member.
+    source_chunks: [citadel-the-fan_005, citadel-the-fan_006]
+    conditional: {conrad_verner_photo: given}
+    choice: gave Conrad the photo
+  - text: >
+      Telling Conrad to get lost leads to the same fatal outcome as before: he marches off
+      determined to prove himself and is later reported killed. Otherwise Shepard can Charm
+      him into staying home with his wife, or Intimidate him into accepting he is not Spectre
+      material by putting a gun in his face — both let him live and earn morality points.
+    source_chunks: [citadel-the-fan_006]
+    conditional: {conrad_verner: "talked him down"}
+    choice: charmed or intimidated Conrad into standing down, rather than telling him to get lost
+  - text: >
+      If Conrad survived and the save carried over to Mass Effect 2, he appears on Illium in
+      knock-off N7 armor, threatening a bartender and claiming Shepard once shoved a gun in
+      his face.
+    source_chunks: [citadel-the-fan_007]
+    conditional: {conrad_verner_alive: true}
+    choice: Conrad survived into Mass Effect 2
+  - text: >
+      In Mass Effect 3, if Conrad survived both prior games and Citadel: Rita's Sister was
+      completed, Jenna uses an omni-tool trick learned from Chellick to hack a Cerberus
+      agent's gun as Conrad leaps to take a bullet meant for Shepard, saving his life; the two
+      become acquainted afterward.
+    source_chunks: [citadel-the-fan_008]
+    conditional: {conrad_verner_alive: true, rita_s_sister: completed}
+    choice: Jenna saves Conrad in Mass Effect 3
+
+related_scenes: [illium-eternity-bar-conrad-verner, citadel-medi-gel-sabotage-conrad-verner, citadel-chellick-jax-arms-sting]
+related_events: []
+source_chunks: [citadel-the-fan_002, citadel-the-fan_003, citadel-the-fan_004, citadel-the-fan_005, citadel-the-fan_006, citadel-the-fan_007, citadel-the-fan_008, citadel-the-fan_009, conrad-verner_002]

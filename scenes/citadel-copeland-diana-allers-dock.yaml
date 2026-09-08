@@ -1,0 +1,30 @@
+scene_id: citadel-copeland-diana-allers-dock
+title: Copeland Stonewalls Diana Allers at the Normandy Dock
+kind: banter
+game: Mass Effect 3
+when: 2186, Citadel, while Shepard is at the Council discussing Mars findings
+where: Normandy Dock Bay D24, Citadel
+
+participants: [Copeland, Diana Allers, Shepard]
+private_to: []
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      While Shepard is at the Citadel Council discussing the Mars findings, Ensign
+      Copeland is lounging at Normandy Dock Bay D24. Battlespace reporter Diana Allers
+      approaches and repeatedly stonewalls her with questions about Shepard's whereabouts,
+      since the Normandy was last seen on Earth. Shepard notices the commotion.
+    source_chunks: [copeland_001]
+  - text: >
+      If Shepard permits Diana Allers to stay aboard the Normandy, Copeland disappears
+      from the lounge.
+    source_chunks: [copeland_001]
+    conditional: {allers: "yes"}
+    choice: Shepard allows Diana Allers aboard
+
+related_scenes: [normandy-copeland-diana-allers-terra-nova]
+related_events: []
+source_chunks: [copeland_001]

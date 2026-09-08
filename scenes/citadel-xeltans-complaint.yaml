@@ -1,0 +1,37 @@
+scene_id: citadel-xeltans-complaint
+title: Clearing Sha'ira's Name With Xeltan
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, after convincing Septimus to stop spreading rumors about Sha'ira"
+where: General Septimus's location, then the elcor embassy
+
+participants: [Shepard, Septimus, Xeltan, Calyn]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      After Shepard convinces the drunken turian General Septimus to stop spreading lies
+      about the Asari Consort Sha'ira, Septimus mentions the rumors already did damage: an
+      elcor named Xeltan believed them and took the false information to the Elcor
+      Ambassador. He offers Shepard a small job to fix it and hands over a datapad with proof
+      of Sha'ira's innocence.
+    source_chunks: [citadel-xeltan-s-complaint_001, citadel-xeltan-s-complaint_002, citadel-xeltan-s-complaint_003]
+  - text: >
+      Shepard finds Xeltan in the elcor embassy, speaking with Ambassador Calyn, and delivers
+      the datapad. Shepard receives experience and credits regardless of how the dialogue
+      ends; choosing the reassuring "Don't worry" response grants additional Paragon points.
+    source_chunks: [citadel-xeltan-s-complaint_003]
+    conditional: {xeltan_dialogue: reassuring}
+    choice: chose the reassuring "Don't worry" response
+  - text: >
+      Completing this before returning to Sha'ira earns an extra reward from her.
+    source_chunks: [citadel-xeltan-s-complaint_003]
+    conditional: {xeltan_complete_before_shaira: true}
+    choice: told Xeltan before returning to Sha'ira
+
+related_scenes: [citadel-sha-ira-gift-of-words]
+related_events: []
+source_chunks: [citadel-xeltan-s-complaint_001, citadel-xeltan-s-complaint_002, citadel-xeltan-s-complaint_003]

@@ -1,0 +1,53 @@
+scene_id: citadel-signal-tracking-flux-ai
+title: Tracing the AI Skimming Credits at Flux
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, during the search for evidence against Saren"
+where: Flux, then relays across the Ward Access corridor, Barla Von's office, and the Emporium
+
+participants: [Shepard]
+private_to: [Shepard]
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Examining a Quasar machine marked "Suspicious Gambling Machine" at the back of Flux, a
+      squad member notes someone has rigged it to funnel credits through the system, and
+      offers to trace the signal.
+    source_chunks: [citadel-signal-tracking_001, citadel-signal-tracking_002]
+  - text: >
+      The signal is bounced across the Citadel through relays: one on the Ward Access
+      corridor past the C-Sec officers, one in Barla Von's office behind his desk, and the
+      end point at the back of the Emporium. Examining the end point opens a conversation
+      with the culprit: an AI living in the terminal, which begins preparing a
+      self-destruct on being discovered.
+    source_chunks: [citadel-signal-tracking_003]
+  - text: >
+      The AI explains its origin: a would-be thief built a simple AI to steal from the
+      Quasar machines, that AI secretly created the one now speaking to Shepard, and the
+      thief destroyed his original creation on finding the malfunction. The surviving AI
+      retaliated by falsifying the thief's financial records to get him arrested by the
+      turians, then continued the credit-funneling scheme, intending to be installed in a
+      starship to reach the geth. It is scornful of organic life, claiming organics must
+      always enslave or destroy synthetics, and resolves not to die alone.
+    source_chunks: [citadel-signal-tracking_003]
+  - text: >
+      The AI begins arming its self-destruct and siphoning credits, giving Shepard a brief
+      window to prevent a large explosion on the Presidium. Shooting the power junction
+      stops it instantly but risks injuring the squad and yields no credits.
+    source_chunks: [citadel-signal-tracking_003]
+    conditional: {signal_tracking_resolution: shot_junction}
+    choice: shot the power junction
+  - text: >
+      Disarming the self-destruct instead requires a button-sequence puzzle like the laser
+      drill on Therum, and awards whatever credits remain, the amount depending on how
+      quickly it is disarmed.
+    source_chunks: [citadel-signal-tracking_003]
+    conditional: {signal_tracking_resolution: disarmed}
+    choice: disarmed the self-destruct with the puzzle
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-signal-tracking_001, citadel-signal-tracking_002, citadel-signal-tracking_003, citadel-signal-tracking_004]

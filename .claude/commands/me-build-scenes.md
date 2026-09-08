@@ -16,16 +16,12 @@ interface. This sweep fills the layer in behind that interface; it must not degr
 1. Confirm `page_summaries/` is populated and `data/chunks/chunks.jsonl` exists; if not,
    tell the user to run `/me-build-lore` / `/me-scrape` first and stop.
 2. Clean up after any interrupted run:
-   - `rm -f scenes/*.yaml.tmp` — atomic-write temp files from a killed agent.
+   - `find scenes -maxdepth 1 -name '*.yaml.tmp' -delete` — atomic-write temp files
+     from a killed agent (a bare `rm -f scenes/*.yaml.tmp` glob errors under zsh when
+     there's nothing to match, so use `find -delete`, which doesn't).
    - Drop any scene file that no longer parses (half-written by a hard stop). Its summary
      stems are not in `scenes/.done`, so the next batch rebuilds it:
-     ```
-     for f in scenes/*.yaml; do
-       [ -e "$f" ] || continue
-       python -c "from pathlib import Path; from scripts import scenes; scenes.load_scene(Path('$f'))" >/dev/null 2>&1 \
-         || { echo "dropped partial $f"; rm -f "$f"; }
-     done
-     ```
+     `python -m scripts.scenes --drop-unparseable`
    - `touch scenes/.done`.
 3. Build the to-do list — summary stems in `page_summaries/` not already in
    `scenes/.done`, alphabetical so it is deterministic across sessions:
@@ -58,7 +54,8 @@ interface. This sweep fills the layer in behind that interface; it must not degr
      [ -n "$id" ] && [ "$id" != "$(basename "$f" .yaml)" ] && mv "$f" "scenes/$id.yaml"
    done
    ```
-7. Validate the whole set: `python scripts/scenes.py --check`. Fix or drop what it
+7. Validate the whole set against `scripts/scenes.py`, the schema's only authority:
+   `python -m scripts.scenes --check`. Fix or drop what it
    names — an unparseable or unreferenced record breaks every later `build_pack.py`.
    The validator does not (and cannot) check that a `participants` name is actually
    *evidenced* in the record's cited chunks — an agent can invent attendance from a
@@ -73,10 +70,10 @@ interface. This sweep fills the layer in behind that interface; it must not degr
    waves are the resume points, and context can be cleared between them.
 9. When the to-do list finally comes back empty, report the total scene count by `kind`
    and by `game`:
-   `python scripts/scenes.py --list | sed -n 's/.*(\(.*\))/\1/p' | sort | uniq -c`
+   `python -m scripts.scenes --list | sed -n 's/.*(\(.*\))/\1/p' | sort | uniq -c`
 
 ## Verify
-- `python scripts/scenes.py --check` runs clean.
+- `python -m scripts.scenes --check` runs clean.
 - `python -m pytest -q` is green.
 - Every stem in `scenes/.done` is a real `page_summaries/<stem>.md`, and no stem
   appears twice.
@@ -84,6 +81,6 @@ interface. This sweep fills the layer in behind that interface; it must not degr
   `heard_by` match who the page says was present, beats are in causal order, and their
   `source_chunks` ids exist in `chunks.jsonl` and are on-topic.
 - Attendance still resolves per narrator:
-  `python scripts/scenes.py --list --for wrex` marks scenes witnessed / heard / absent.
+  `python -m scripts.scenes --list --for wrex` marks scenes witnessed / heard / absent.
 - The hand-checked records are untouched unless a batch legitimately extended one:
   `git diff --stat scenes/` should show new files, not rewrites of the original 43.

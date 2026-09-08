@@ -1,0 +1,44 @@
+scene_id: citadel-ghorek-mercy
+title: Ghorek's Request for Mercy
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after the Cerberus coup during Priority: The Citadel II"
+where: the Docks Holding Area, back of Cargo Hold C, among the batarian refugees
+
+participants: [Shepard, Ghorek, a turian nurse]
+private_to: [Shepard, Ghorek, a turian nurse]
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      In the Presidium Commons, Shepard overhears an angry turian veteran and a human
+      civilian discussing a wounded batarian terrorist named Ghorek, currently being held on
+      the Citadel. The Spectre Terminal updates with his location.
+    source_chunks: [citadel-wounded-batarian_002, citadel-wounded-batarian_003]
+  - text: >
+      At the Docks Holding Area, in the back of Cargo Hold C among many batarian refugees, a
+      turian nurse stands outside a refugee accommodation. She tells Shepard about Ghorek's
+      poor chances of survival, then allows Shepard to speak with him.
+    source_chunks: [citadel-wounded-batarian_003]
+  - text: >
+      Ghorek explains his terrorist attacks were driven by a desire to avenge his homeworld,
+      the batarian colony Aratoht, destroyed in the Alpha Relay explosion. His motivation is
+      the same whether or not Shepard carried out Arrival, though the exchange is more
+      personal on both sides if Shepard was there. Ghorek asks Shepard for mercy, to be taken
+      off life support.
+    source_chunks: [citadel-wounded-batarian_003]
+    conditional: {arrival: any}
+    choice: exchange colored by whether Shepard was at Bahak for Arrival
+  - text: >
+      Shepard can disable his life support, after which Ghorek thanks the Commander before
+      dying, drawing no reaction from the nurse, or let the nurse administer a sedative
+      instead.
+    source_chunks: [citadel-wounded-batarian_003]
+    conditional: {ghorek_mercy: life_support_disabled}
+    choice: disabled Ghorek's life support, or let the nurse sedate him
+
+related_scenes: []
+related_events: [arrival-bahak-relay-destruction]
+source_chunks: [citadel-wounded-batarian_001, citadel-wounded-batarian_002, citadel-wounded-batarian_003]

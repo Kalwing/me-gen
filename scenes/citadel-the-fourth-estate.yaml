@@ -1,0 +1,55 @@
+scene_id: citadel-the-fourth-estate
+title: Al-Jilani's Interview With Shepard
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, after returning from Therum, Noveria, or Feros"
+where: outside the C-Sec Academy lift from Dock 422, the Citadel
+
+participants: [Shepard, Khalisah Al-Jilani]
+private_to: [Shepard, Khalisah Al-Jilani]
+heard_by: [Citadel patrons, Alliance command]
+
+requires: []
+
+beats:
+  - text: >
+      On returning to the Citadel after completing Therum, Noveria, or Feros, Shepard is
+      approached outside the C-Sec Academy lift by Khalisah Al-Jilani, a reporter for
+      Westerlund News, who says she wants to show people back home how Shepard will
+      represent humanity as a Spectre. Shepard can refuse, ending the assignment once she
+      leaves, or agree to the interview.
+    source_chunks: [citadel-the-fourth-estate_002, citadel-the-fourth-estate_003]
+  - text: >
+      Al-Jilani asks leading questions about Shepard's Spectre status, whether the Council's
+      interests conflict with the Alliance's, and about the SSV Normandy's development and
+      command. A further question depends on which world Shepard has completed: after
+      Noveria she asks whether the Council ordered Shepard to sabotage the labs at Peak 15,
+      confused reports having reached the Citadel due to stonewalling by Binary Helix and
+      Administrator Anoleis; after Feros, if the colonists were killed, she asks why the
+      colony was destroyed. She also asks whether humanity will get the respect it deserves,
+      and presses for confirmation that Shepard is hunting a rogue Spectre.
+    source_chunks: [citadel-the-fourth-estate_003]
+  - text: >
+      Shepard can use Charm or Intimidate to gain the upper hand, end the interview politely,
+      walk away on realizing her agenda, or take a Renegade option and punch her in the face.
+    source_chunks: [citadel-the-fourth-estate_003]
+    conditional: {al_jilani_interview: any}
+    choice: charmed, intimidated, ended politely, walked away, or punched Al-Jilani
+  - text: >
+      Afterward, aboard the Normandy, Admiral Hackett transmits either praise or a reprimand
+      for Shepard's conduct in the interview. If Shepard named Saren Arterius as behind the
+      Eden Prime attack, Hackett notes it caused a minor diplomatic stir with the Council,
+      which had been trying to downplay Spectre involvement. A later Citadel elevator news
+      report gives the media's response.
+    source_chunks: [citadel-the-fourth-estate_004]
+  - text: >
+      Khalisah reappears for further interviews in Mass Effect 2 on the Zakera Ward and in
+      Mass Effect 3 in the Citadel Embassies, referencing whether Shepard had punched her
+      before.
+    source_chunks: [citadel-the-fourth-estate_005, citadel-the-fourth-estate_006]
+    conditional: {al_jilani_punched: true}
+    choice: punched Al-Jilani, referenced in later games
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-the-fourth-estate_002, citadel-the-fourth-estate_003, citadel-the-fourth-estate_004, citadel-the-fourth-estate_005, citadel-the-fourth-estate_006]

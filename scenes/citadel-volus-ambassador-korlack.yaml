@@ -1,0 +1,65 @@
+scene_id: citadel-volus-ambassador-korlack
+title: Exposing the Volus Ambassador as a Cerberus Mole
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after stopping the Cerberus coup during Priority: The Citadel II"
+where: the Citadel Embassies, an Office Suite, then apartments in the Presidium Commons
+
+participants: [Shepard, Din Korlack, Zaeed Massani]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Primarch Adrien Victus emails Shepard after the coup: Cerberus ambushed a turian
+      cruiser carrying high-ranking Hierarchy officials whose top-secret position was known
+      only to volus ambassador Din Korlack, and Victus has heard rumors of a bounty on
+      Korlack's head. He cannot level the accusation himself because the turian and volus
+      economies are tightly intertwined, and asks Shepard to investigate Korlack as a
+      Spectre.
+    source_chunks: [citadel-volus-ambassador_001, citadel-volus-ambassador_002]
+  - text: >
+      Shepard uses the Spectre Terminal in the Citadel Embassies to get Korlack's location,
+      then gains access to an office suite through a turian guard. A terminal there holds
+      three audio recordings proving Korlack's collusion with Cerberus and his later
+      severance of ties. If Zaeed Massani was imported alive from Mass Effect 2, his voice is
+      among them.
+    source_chunks: [citadel-volus-ambassador_003]
+  - text: >
+      An earpiece linked to Korlack leads to a scene in the Presidium Commons where Korlack,
+      held captive, slyly names "Selkish Arms" within his captors' hearing so Shepard can
+      find him among apartments at the far ends of a hall, triggering a brief timed
+      sequence.
+    source_chunks: [citadel-volus-ambassador_003]
+  - text: >
+      Inside the correct apartment, Korlack's captors are already dealt with: a loyal Zaeed,
+      if he survived the suicide mission and was made loyal on Zaeed: The Price of Revenge,
+      greets Shepard after disposing of Korlack's guards himself.
+    source_chunks: [citadel-volus-ambassador_003]
+    conditional: {zaeed_loyalty: lived}
+    choice: Zaeed loyal and alive, clears the guards himself
+  - text: >
+      If Zaeed was disloyal, he dies on the floor after killing the mercs. If Zaeed was never
+      recruited or died in Mass Effect 2, a human woman and a krogan man stand poised to kill
+      Korlack until Shepard dispatches them.
+    source_chunks: [citadel-volus-ambassador_003]
+    conditional: {zaeed_loyalty: other}
+    choice: Zaeed disloyal, dead, or never recruited
+  - text: >
+      Afterward Shepard chooses between saving the colony Cerberus is targeting or gaining
+      the Volus Bombing Fleet as a War Asset; a loyal Zaeed enables a Paragon or Renegade
+      option that secures both.
+    source_chunks: [citadel-volus-ambassador_003]
+    conditional: {zaeed_loyalty: lived}
+    choice: loyal Zaeed lets Shepard secure both the colony and the bombing fleet
+  - text: >
+      Completion grants experience, credits, and morality points, and a surviving Zaeed can
+      be recruited from the refugee camp as a War Asset. Choosing the bombing fleet over
+      Korlack's intel produces a later news report about the unrevealed Cerberus target.
+    source_chunks: [citadel-volus-ambassador_003]
+
+related_scenes: [zorya-zaeed-and-vido]
+related_events: []
+source_chunks: [citadel-volus-ambassador_001, citadel-volus-ambassador_002, citadel-volus-ambassador_003]

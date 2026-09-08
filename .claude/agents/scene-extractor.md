@@ -29,7 +29,7 @@ Attendance is the point. A narrator who was not in the room may not describe the
   `data/pages/<stem>.md` and match it to the right chunk by content.
 - `scenes/` — existing records; read before adding, so you extend rather than duplicate.
 - `config/canon/choices.yaml` — the question ids to name in `requires`.
-- `scripts/scenes.py` — the schema's only authority: `python scripts/scenes.py --check`
+- `scripts/scenes.py` — the schema's only authority: `python -m scripts.scenes --check`
   validates every record, and `--show <scene_id>` prints one.
 
 ## Outputs
@@ -127,7 +127,7 @@ Attendance is the point. A narrator who was not in the room may not describe the
   arks' arrival, Ryder, the kett, the angara, Remnant. Write no scene for those.
 
 ## Done when
-- `python scripts/scenes.py --check` runs clean over the whole set (it validates the
+- `python -m scripts.scenes --check` runs clean over the whole set (it validates the
   records you wrote alongside every earlier batch's).
 - You have printed how many scene records you created, how many you extended, and which
   of the batch's stems held no occasion.

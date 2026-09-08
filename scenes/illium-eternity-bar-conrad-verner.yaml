@@ -1,0 +1,49 @@
+scene_id: illium-eternity-bar-conrad-verner
+title: Conrad Verner's Con at the Eternity Bar
+kind: banter
+game: Mass Effect 2
+when: 2185, Illium
+where: the Eternity bar, Illium
+
+participants: [Shepard, Conrad Verner, Matriarch Aethyta]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Conrad Verner is found in the Eternity bar on Illium, impersonating an Alliance
+      officer in replica N7 armor, causing trouble. He is demanding the deed to the bar
+      from bartender Matriarch Aethyta. Regardless of Shepard's past treatment of him on
+      the Citadel, Conrad remembers Shepard pointing a gun at him.
+    source_chunks: [conrad-verner_003]
+  - text: >
+      Conrad insists he is working for an undercover officer investigating red sand sales
+      at the Eternity bar, claiming he must help defeat crime after Shepard's supposed
+      death left a void in galactic justice.
+    source_chunks: [conrad-verner_003]
+  - text: >
+      Shepard can hit Conrad, fire a grazing shot at him, or simply ask him why he is
+      impersonating the Commander. Whatever Shepard chooses, investigation reveals the
+      "officer" is a con artist who used Conrad's distraction to obtain the bar's deeds,
+      planning to sell them.
+    source_chunks: [conrad-verner_003]
+  - text: >
+      After Shepard confronts the fake officer at Gateway Personal Defense and exposes the
+      con, Conrad praises Shepard and thanks the Commander for returning from the dead,
+      then leaves. News later reports that Conrad has founded a refugee and orphan charity
+      called "Shepards."
+    source_chunks: [conrad-verner_003]
+    choice: Shepard exposes the con artist
+  - text: >
+      If Shepard tells Conrad to get lost when first talking to him in the bar, Conrad
+      storms off unhappily. A news report later describes him being killed attempting to
+      capture transient youths hitchhiking on top of a bus—he fell from the bus, struck
+      several passing cars, and fell into a bio-mass recycling facility's power turbine.
+    source_chunks: [conrad-verner_003]
+    choice: Shepard tells Conrad to get lost
+
+related_scenes: [citadel-conrad-verner-markets-2183, citadel-medi-gel-sabotage-conrad-verner]
+related_events: []
+source_chunks: [conrad-verner_003]

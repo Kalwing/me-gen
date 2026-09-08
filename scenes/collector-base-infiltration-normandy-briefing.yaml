@@ -1,0 +1,34 @@
+scene_id: collector-base-infiltration-normandy-briefing
+title: Suicide Mission Briefing Before Collector Base Infiltration
+kind: ceremony
+game: Mass Effect 2
+when: 2185, after crash-landing on the Collector Base, before the assault begins
+where: the Normandy SR-2 briefing room
+participants: [Shepard, EDI, Miranda Lawson, squad members]
+private_to: [Shepard, EDI, squad members]
+heard_by: [Normandy crew]
+requires:
+  - collector-base-mission: any
+beats:
+  - text: >
+      Shepard and the crew gather in the Normandy's briefing room as EDI projects a scan
+      of the Collector Base's layout. EDI identifies the station's weak point in the central
+      control center—likely where the captured Normandy crew and remaining colonists are held.
+      Two routes lead to the center, but both require a tech specialist to pass through a
+      thermal vent and open the way for two squads. Shepard selects the specialist: ideally
+      a loyal Legion, Tali, or Kasumi, though any of these can be chosen regardless of loyalty
+      at greater risk—a non-ideal choice will result in the specialist being shot before
+      closing the door behind them.
+    source_chunks: [collector-base-infiltration_003]
+  - text: >
+      Miranda volunteers to lead the diversion team, though Shepard can assign another squad
+      member. An ideal fire-team leader is Garrus, Miranda, or Jacob; a non-ideal choice
+      will result in both the leader and specialist being shot. After this selection, Shepard
+      addresses the troops, giving them a rousing speech before final preparations. Shepard
+      then selects a squad to accompany them into combat, knowing they will face waves of
+      Collectors with repeated Harbinger possessions and time pressure to keep the specialist
+      alive during the vent passage. The team disembarks.
+    source_chunks: [collector-base-infiltration_003]
+    choice: selected tech specialist and fire-team leader
+related_events: [suicide-mission]
+source_chunks: [collector-base-infiltration_003]

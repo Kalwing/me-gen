@@ -1,0 +1,64 @@
+scene_id: collector-base-final-battle-normandy-epilogue
+title: "Normandy Aftermath: Mourning Dead or Celebrating Survival"
+kind: downtime
+game: Mass Effect 2
+when: "2185, immediately after the Collector Base is destroyed or preserved"
+where: the Normandy SR-2
+participants: [Shepard, Joker, Kelly Chambers, Dr. Chakwas, Thane, Legion, Jack, Grunt, Garrus]
+private_to: []
+heard_by: []
+requires:
+  - collector-base-mission: any
+beats:
+  - text: >
+      The Normandy rushes to escape the Collector Base's destruction. If Shepard chose to
+      destroy the facility, it explodes in a massive blast the ship barely outrun. If Shepard
+      chose to preserve it, a blue radiation pulse kills all remaining organic matter inside
+      while leaving the structure intact. After the escape, Shepard speaks with the Illusive Man.
+      If the base was destroyed, the star behind him appears blue and he expresses fury that
+      the Collectors' technology—which could have aided humanity against the Reapers—has been
+      lost. If the base was preserved, the star appears red and he compliments Shepard's
+      decision, grinning contemplatively at a hologram of the intact station.
+    source_chunks: [collector-base-final-battle_007]
+    conditional: {base_destroyed: true}
+    choice: destroyed the Collector Base
+  - text: >
+      The Normandy rushes to escape the Collector Base's destruction. If Shepard chose to
+      destroy the facility, it explodes in a massive blast the ship barely outrun. If Shepard
+      chose to preserve it, a blue radiation pulse kills all remaining organic matter inside
+      while leaving the structure intact. After the escape, Shepard speaks with the Illusive Man.
+      If the base was destroyed, the star behind him appears blue and he expresses fury that
+      the Collectors' technology—which could have aided humanity against the Reapers—has been
+      lost. If the base was preserved, the star appears red and he compliments Shepard's
+      decision, grinning contemplatively at a hologram of the intact station.
+    source_chunks: [collector-base-final-battle_007]
+    conditional: {base_destroyed: false}
+    choice: preserved the Collector Base for Cerberus
+  - text: >
+      If Shepard was killed in the final escape, Joker speaks with the Illusive Man instead,
+      standing over Shepard's casket marked with the N7 symbol. Regardless of whether the base
+      was preserved or destroyed, the Illusive Man frames the outcome as another step toward
+      humanity's future and mentions salvage ships moving toward the base.
+    source_chunks: [collector-base-final-battle_007]
+    conditional: {shepard_alive: false}
+    choice: Shepard died during the mission
+  - text: >
+      If anyone in the squad died during the suicide mission, Shepard is shown mourning over
+      their caskets aboard the Normandy as it travels through space. A datapad showing Reaper
+      schematics is handed to Shepard, and a cutscene reveals hundreds or thousands of Reapers
+      advancing on the Milky Way, setting the stage for the Reapers' arrival.
+    source_chunks: [collector-base-final-battle_007]
+    conditional: {squad_casualties: true}
+    choice: squad members died during the suicide mission
+  - text: >
+      If everyone survives the mission, the Normandy is shown in space with various crew
+      members repairing hull breaches. Kelly Chambers walks by in the distance. Shepard is
+      briefly greeted by Thane in passing, then walks past Legion, Jack, Grunt, and Garrus,
+      who nod acknowledgment to the Commander. Joker hands Shepard a datapad displaying
+      Reaper schematics. A cutscene reveals hundreds or thousands of Reapers advancing on the
+      Milky Way.
+    source_chunks: [collector-base-final-battle_007]
+    conditional: {squad_casualties: false}
+    choice: entire squad survived the suicide mission
+related_events: [suicide-mission]
+source_chunks: [collector-base-final-battle_007]

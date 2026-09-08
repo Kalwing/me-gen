@@ -3,9 +3,9 @@ title: Chellick's Sting on the Arms Dealer Jax
 kind: mission-aside
 game: Mass Effect
 when: "2183, Citadel, during the hunt for Saren"
-where: outside Chora's Den, Chellick's C-Sec office, the Markets
+where: Flux, then Chora's Den, then Chellick's C-Sec office and the Markets
 
-participants: [Shepard, Chellick, Jax]
+participants: [Shepard, Doran, Rita, Jenna, Chellick, Jax]
 private_to: []
 heard_by: []
 
@@ -13,18 +13,25 @@ requires: []
 
 beats:
   - text: >
-      Chellick is using an informant named Jenna, working undercover, to combat illegal
-      arms trading on the Citadel. When Shepard talks to Jenna about the risks of being a
-      C-Sec informant, Chellick — disguised as a drunk — bumps into Shepard leaving Chora's
-      Den and whispers for Shepard to come to C-Sec before staggering off.
-    source_chunks: [chellick_003]
+      On a first visit to Flux, Shepard overhears the volus manager Doran speaking with his
+      waitress Rita about her sister. Rita is worried her sister Jenna, working undercover
+      for C-Sec, is in over her head, and asks Shepard to check on her.
+    source_chunks: [citadel-rita-s-sister_001, citadel-rita-s-sister_002]
+  - text: >
+      Shepard finds Jenna at the bar in Chora's Den, but talking to her about the risk only
+      irritates her; she refuses to quit the job. Chellick — disguised as a drunk — bumps
+      into Shepard leaving Chora's Den and whispers to come to C-Sec before staggering off.
+    source_chunks: [citadel-rita-s-sister_003, chellick_003]
   - text: >
       In his office, Chellick is annoyed Shepard nearly blew Jenna's cover, but explains he
-      is using her only for lack of better help. He offers to release her from the job if
-      Shepard will instead meet his krogan contact Jax, who is smuggling illegal weapon
-      modifications onto the Citadel, and receive the mods while posing as a buyer in the
-      Markets.
-    source_chunks: [chellick_003]
+      is using her only for lack of better help; she is gathering information on illegal
+      weapon mods. Shepard can Charm or Intimidate Chellick into releasing Jenna at once, or
+      take on a task to close her case: meeting his krogan contact Jax, who is smuggling
+      illegal weapon modifications onto the Citadel, and receiving the mods while posing as a
+      buyer in the Lower Markets.
+    source_chunks: [chellick_003, citadel-rita-s-sister_003]
+    conditional: {jax_sting: talked_free}
+    choice: charmed or intimidated Chellick into releasing Jenna immediately
   - text: >
       Shepard can play the buyer straight, keeping Chellick's contacts intact, or break
       cover and try to arrest Jax. If Shepard shoots Jax, Chellick loses all his leads and
@@ -34,7 +41,18 @@ beats:
     source_chunks: [chellick_003]
     conditional: {jax_sting: cover_maintained}
     choice: kept cover, played it straight
+  - text: >
+      However the case is resolved, Jenna leaves Chora's Den and returns to Flux; speaking
+      to Rita there closes out the affair.
+    source_chunks: [citadel-rita-s-sister_003]
+  - text: >
+      In Mass Effect 3, if this assignment and both of Conrad Verner's Citadel assignments
+      were completed, Jenna intercepts a bullet from a Cerberus contact to save Conrad's
+      life during a mission; otherwise Conrad dies.
+    source_chunks: [citadel-rita-s-sister_004]
+    conditional: {jenna_and_conrad_completed: true}
+    choice: Jenna saves Conrad Verner in Mass Effect 3
 
 related_scenes: []
 related_events: []
-source_chunks: [chellick_003]
+source_chunks: [chellick_003, citadel-rita-s-sister_001, citadel-rita-s-sister_002, citadel-rita-s-sister_003, citadel-rita-s-sister_004]
