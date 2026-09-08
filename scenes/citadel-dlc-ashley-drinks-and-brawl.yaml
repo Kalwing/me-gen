@@ -1,0 +1,30 @@
+scene_id: citadel-dlc-ashley-drinks-and-brawl
+title: Drinking Contest at the Silver Coast Casino, Interrupted
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave (Citadel DLC), once real R&R opportunities open up
+where: the upper bar, Silver Coast Casino, the Silversun Strip
+
+participants: [Shepard, Ashley Williams]
+private_to: [Shepard, Ashley Williams]
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+  - virmire_survivor: Ashley
+
+beats:
+  - text: >
+      Ashley requests a meet with Shepard at the Silver Coast Casino's upper bar and dares
+      him to a drinking contest to settle who is a "real Spectre" and who's just pretending
+      to be one. Shepard can match her shot-for-shot or let her win.
+    source_chunks: [ashley-williams_013]
+  - text: >
+      Their evening is interrupted by a batarian and a vorcha; the batarian keeps poking
+      Shepard and announcing his dislike of "Alliance types." Shepard tells Ashley "rain
+      check," and the two Alliance officers beat up the aggressors together.
+    source_chunks: [ashley-williams_013]
+
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [ashley-williams_013]

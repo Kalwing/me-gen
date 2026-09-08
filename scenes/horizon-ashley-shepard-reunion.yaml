@@ -1,0 +1,52 @@
+scene_id: horizon-ashley-shepard-reunion
+title: Finding Ashley Paralyzed on Horizon
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after the Collector attack on Horizon
+where: the Horizon colony, Terminus Systems
+
+participants: [Shepard, Ashley Williams, Garrus Vakarian]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - virmire_survivor: Ashley
+
+beats:
+  - text: >
+      Two years after Shepard's death, Ashley — now an Operations Chief who never
+      stopped believing rumors that Shepard was alive and working for Cerberus — was
+      sent to Horizon to update the colony's defense grid against an expected Cerberus
+      attack. The grid was not yet operational when the Collectors struck instead.
+    source_chunks: [ashley-williams_008]
+  - text: >
+      During the assault Ashley was caught and paralyzed by a seeker swarm. Shepard's
+      team found her after the Collectors withdrew.
+    source_chunks: [ashley-williams_008]
+  - text: >
+      Ashley is glad Shepard is alive but unsettled by finding him working for Cerberus,
+      suspecting he may feel indebted to the organization for resurrecting him. If Garrus
+      is present, Ashley is also surprised to find him working with Cerberus, and Garrus
+      argues that her feelings about Cerberus are blinding her to the truth behind the
+      Collector attacks.
+    source_chunks: [ashley-williams_008]
+  - text: >
+      Ashley leaves, telling Shepard to be careful.
+    source_chunks: [ashley-williams_008]
+  - text: >
+      If Shepard and Ashley had been together before Shepard's death, their reunion is
+      more personal: she is relieved he's alive but angry he never tried to contact her
+      during the two years she grieved him.
+    source_chunks: [ashley-williams_009]
+  - text: >
+      Afterward Ashley sends Shepard an apologetic email, "Hey there," admitting she
+      prayed for him every day and reread Tennyson thinking of him, and that she keeps
+      returning to the memory of the night before Ilos. She says she can't go where he's
+      going but wishes him luck, and signs off "stay alive out there... Skipper." If
+      Shepard remains faithful to her, he looks at her picture in his quarters and smiles
+      on the way to the Collector base.
+    source_chunks: [ashley-williams_009]
+
+related_scenes: [me1-ashley-ilos-night]
+related_events: [horizon-collector-attack]
+source_chunks: [ashley-williams_008, ashley-williams_009]

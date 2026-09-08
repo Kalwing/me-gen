@@ -1,0 +1,53 @@
+scene_id: utukku-aralakh-company-rachni-confrontation
+title: Utukku — Aralakh Company and the Rachni Queen's Return
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, after Priority: Sur'Kesh"
+where: the planet Utukku, Mulla Xul system, Ninmah Cluster
+
+participants: [Shepard, Grunt, Urdnot Dagg]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - rachni_queen: freed
+
+beats:
+  - text: >
+      A krogan scouting team goes missing investigating rumors of activity beyond the
+      rachni relay. The Normandy travels to Utukku, where Shepard meets Aralakh Company,
+      an elite krogan unit led by Grunt — or, if Grunt died in the Mass Effect 2 suicide
+      mission or was never released from his tank, by Urdnot Dagg.
+    source_chunks: [attican-traverse-krogan-team_002, attican-traverse-krogan-team_004]
+    conditional: {grunt_status: alive}
+  - text: >
+      Descending into the tunnels beneath the surface, Shepard's team finds the bodies of
+      the missing krogan scouts and discovers the Reapers have built a breeding operation,
+      using rachni to grow a biological army of Ravagers, Swarmers, and other troops.
+    source_chunks: [attican-traverse-krogan-team_004, attican-traverse-krogan-team_005]
+  - text: >
+      At the central chamber, Shepard confronts the original rachni Queen from Noveria —
+      spared in Mass Effect — rather than the Reaper-made Breeder. She asks to be freed to
+      help the war effort; the squad argues for leaving her to die at her own indoctrinated
+      offspring's hands and is skeptical of the decision either way. Aralakh Company's
+      leader interjects over the radio that freeing her means ordering the krogan into a
+      suicidal last stand to hold the position.
+    source_chunks: [attican-traverse-krogan-team_010]
+  - text: >
+      Shepard orders Aralakh Company to hold so the Queen can escape. Urdnot Dagg always
+      dies in the stand; Grunt survives it only if he was loyal — freed from his tank and
+      kept loyal through his own Rite of Passage on Tuchanka. This Grunt, loyal, survives.
+    source_chunks: [attican-traverse-krogan-team_010]
+    conditional: {grunt_loyalty: loyal}
+  - text: >
+      Back aboard the Normandy, whichever krogan leader survived debriefs Shepard in the
+      War Room, disapproving of sparing the Queen; if he did not survive, the disapproval
+      arrives instead as a recorded message. Garrus is later found in the Port Observation
+      Lounge telling Ensign Copeland stories about the rachni.
+    source_chunks: [attican-traverse-krogan-team_011]
+
+related_scenes: [normandy-garrus-rachni-stories-copeland, normandy-war-room-rachni-debrief]
+related_events: [rachni-queen-noveria-choice, attican-traverse-rachni]
+source_chunks: [attican-traverse-krogan-team_002, attican-traverse-krogan-team_004,
+                attican-traverse-krogan-team_005, attican-traverse-krogan-team_010,
+                attican-traverse-krogan-team_011]

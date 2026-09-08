@@ -1,0 +1,33 @@
+scene_id: normandy-garrus-rachni-stories-copeland
+title: Garrus Tells Rachni Stories in the Port Observation Lounge
+kind: downtime
+game: Mass Effect 3
+when: 2186, after the mission to Utukku and the rachni Queen or Breeder
+where: the Port Observation Lounge and the War Room, Normandy SR-2
+
+participants: [Garrus Vakarian, Ensign Copeland, Diana Allers, Samantha Traynor, Shepard, Urdnot Wrex, Urdnot Wreav]
+private_to: []
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      After Shepard's team confronts the rachni Queen (or the Reaper-made Breeder) beneath
+      Utukku and Aralakh Company holds the line to get them out, whichever krogan clan
+      leader is still aboard the Normandy debriefs Shepard in the War Room, disapproving if
+      Shepard let the Queen or Breeder live; if he isn't aboard, he sends an email instead.
+    source_chunks: [attican-traverse-krogan-team_011, attican-traverse-krogan-team_014]
+  - text: >
+      Garrus is found in the Port Observation Lounge regaling Ensign Copeland, a young crew
+      member, with stories about the rachni.
+    source_chunks: [attican-traverse-krogan-team_011]
+  - text: >
+      If war correspondent Diana Allers is aboard, she can be overheard talking with
+      Specialist Traynor about what a scoop it would be to reveal the rachni to the
+      galaxy.
+    source_chunks: [attican-traverse-krogan-team_011]
+
+related_scenes: []
+related_events: []
+source_chunks: [attican-traverse-krogan-team_011, attican-traverse-krogan-team_014]

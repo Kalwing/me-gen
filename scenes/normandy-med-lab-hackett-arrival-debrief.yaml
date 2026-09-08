@@ -1,0 +1,33 @@
+scene_id: normandy-med-lab-hackett-arrival-debrief
+title: Hackett Debriefs Shepard After the Arrival
+kind: mission-aside
+game: Mass Effect 2
+when: 2186, Arrival DLC, aboard the Normandy after Project Base
+where: the Normandy medical lab
+participants: [Shepard, Admiral Steven Hackett, Dr. Chakwas]
+private_to: []
+heard_by: [Alliance command, Normandy crew]
+requires:
+  - arrival: any
+beats:
+  - text: >
+      In the Normandy medical lab, Dr. Chakwas was speaking with Admiral Hackett
+      when Shepard returned from the Arrival assignment. Chakwas departed as
+      Hackett approached Shepard, who was sitting on a med lab bed recovering.
+    source_chunks: [steven-hackett_006]
+  - text: >
+      Hackett debriefed Shepard on the mission's outcome. Regardless of Shepard's
+      explanation or justification for destroying the Alpha Relay—whether they
+      emphasized the Reaper threat they had confirmed or accepted responsibility
+      for the batarian system's destruction—Hackett interrupted to acknowledge
+      the magnitude of what Shepard had accomplished, calling it "one hell of a thing."
+    source_chunks: [steven-hackett_006]
+  - text: >
+      Hackett warned Shepard that the batarians would inevitably seek answers and
+      retribution for their destroyed system and 300,000 dead colonists. He told
+      Shepard to be prepared: eventually, Earth would call the Commander to answer
+      for the destruction, and Shepard needed to be ready to face those
+      consequences.
+    source_chunks: [steven-hackett_006]
+related_events: [arrival-bahak-relay-destruction]
+source_chunks: [steven-hackett_006]

@@ -1,0 +1,56 @@
+scene_id: citadel-coup-ashley-confrontation
+title: Ashley Guards the Council During the Cerberus Coup
+kind: argument
+game: Mass Effect 3
+when: "2186, Citadel, during Cerberus's assault on the Citadel (Priority: The Citadel II)"
+where: the Citadel Tower, near the Council chambers, then the Citadel docks
+
+participants: [Shepard, Ashley Williams, Donnel Udina]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - virmire_survivor: Ashley
+
+beats:
+  - text: >
+      When Cerberus invades the Citadel, Ashley is assigned to protect the Councilors,
+      unaware that Udina is working with Cerberus to seize control of the Council. This
+      puts her and Shepard into direct conflict, and Shepard has to convince her of the
+      truth about Udina.
+    source_chunks: [ashley-williams_010]
+  - text: >
+      Whether Ashley can be talked down depends on Shepard's past rapport with her.
+    source_chunks: [ashley-williams_010]
+  - text: >
+      Shepard succeeds in talking Ashley down. She turns her gun on Udina and orders him
+      to stand down. Udina raises his gun on the asari Councilor; if Shepard doesn't shoot
+      him, Ashley does.
+    source_chunks: [ashley-williams_010]
+    conditional: {citadel_coup: survivor_stands_with_shepard}
+  - text: >
+      Shepard fails to persuade Ashley to stand down and is forced to kill her, or another
+      squad member shoots her instead. Her name is later added to the memorial wall
+      aboard the Normandy.
+    source_chunks: [ashley-williams_010]
+    conditional: {citadel_coup: survivor_killed}
+  - text: >
+      If Ashley survives, she meets Shepard at the docks as he is about to return to the
+      Normandy. She reflects that they had both nearly killed each other doing what they
+      believed was right. She mentions being offered a place on Admiral Hackett's team,
+      but says that if she has any choice in the matter she would rather be on the
+      Normandy. Shepard can allow her back aboard or leave her with Hackett; if their
+      relationship isn't strong enough, she won't offer to return on her own and Shepard
+      has to work to persuade her.
+    source_chunks: [ashley-williams_010]
+    conditional: {citadel_coup: survivor_stands_with_shepard}
+  - text: >
+      If assigned to Hackett's team instead of rejoining the Normandy, Ashley later sends
+      Shepard an email, "Checking in," saying she is settling into the new post, getting a
+      handle on the scale of the war, and putting her knack for practical thinking to use.
+    source_chunks: [ashley-williams_011]
+    conditional: {citadel_coup: survivor_stands_with_shepard}
+
+related_scenes: [citadel-cerberus-coup-bailey-headquarters, citadel-huerta-ashley-recovery]
+related_events: [cerberus-coup-citadel-ashley]
+source_chunks: [ashley-williams_010, ashley-williams_011]

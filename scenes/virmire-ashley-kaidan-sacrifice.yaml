@@ -1,0 +1,70 @@
+scene_id: virmire-ashley-kaidan-sacrifice
+title: The Salarian Camp Argument and the Bomb at Virmire
+kind: mission-aside
+game: Mass Effect
+when: 2183, the assault on Saren's krogan-breeding base on Virmire
+where: Captain Kirrahe's salarian STG camp on the beach, then the AA tower and the bomb site inside the base
+
+participants: [Shepard, Ashley Williams, Kaidan Alenko, Kirrahe]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - virmire_survivor: any
+
+beats:
+  - text: >
+      At the salarian STG camp, Ashley and Kaidan are found arguing with Kirrahe, who says
+      he needs more time to devise a plan. Kirrahe introduces himself to Shepard as commander
+      of the 3rd Infiltration Regiment, reports his transmission for reinforcements was
+      garbled and only the Normandy responded, and explains he lost half his men
+      investigating the base, which is heavily fortified by geth and where Saren is breeding
+      a krogan army using a genophage cure.
+    source_chunks: [virmire-mission_009]
+  - text: >
+      Kirrahe devises a plan: his men will hit the base from three directions while Shepard's
+      team sneaks in from behind, but he needs one of Shepard's squad members to lead one of
+      his teams. Both Ashley and Kaidan volunteer; Shepard sends one of them with Kirrahe,
+      and that squadmate is unavailable for the rest of the mission.
+    source_chunks: [virmire-mission_009]
+  - text: >
+      During the assault, the squadmate who stayed with Shepard carries the nuclear device —
+      the Normandy's own drive core, converted into a bomb — down to the base's geothermal
+      taps and begins arming it while Shepard's team pushes on toward the AA tower with the
+      other half of the squad.
+    source_chunks: [virmire-assault_011]
+  - text: >
+      Both positions come under overwhelming attack at once: geth pour into the bomb site
+      while the squadmate sent with Kirrahe is pinned down at the AA tower. The squadmate
+      guarding the bomb insists on finishing the arming sequence rather than retreating, to
+      make sure it goes off no matter what, and both squad members separately insist Shepard
+      go save the other one. There is no time to save both.
+    source_chunks: [virmire-assault_012]
+  - text: >
+      Shepard chose to go to the AA tower and save Kaidan, leaving Ashley to make a final
+      stand at the bomb site; the bomb detonates, destroying the facility, and the squadmate
+      at the bomb dies holding the line.
+    source_chunks: [virmire-assault_012]
+    conditional: {virmire_survivor: Kaidan}
+  - text: >
+      Shepard chose to return to the bomb site and carry Ashley out wounded, leaving Kaidan
+      to hold the AA tower alone; the tower falls and Kaidan is killed there.
+    source_chunks: [virmire-assault_012]
+    conditional: {virmire_survivor: Ashley}
+  - text: >
+      Kirrahe and the surviving salarian STG team are rescued regardless of which squadmate
+      Shepard chose to save.
+    source_chunks: [virmire-assault_012]
+  - text: >
+      Back aboard the Normandy, Ashley confronted Shepard over the decision, angry that
+      Kaidan — her superior officer — had died in her place instead of the reverse. Shepard
+      pushed back by asking how far Ashley was willing to go to clear her grandfather's name;
+      Ashley questioned her own place in the fight against Saren and the coming Reapers,
+      calling herself just infantry, and Shepard told her she was needed. She worked through
+      the loss and went on to become close with the rest of Shepard's multi-species crew.
+    source_chunks: [ashley-williams_006]
+    conditional: {virmire_survivor: Ashley}
+
+related_scenes: []
+related_events: [battle-of-virmire, virmire-survivor-choice]
+source_chunks: [virmire-mission_009, virmire-assault_011, virmire-assault_012, ashley-williams_006]

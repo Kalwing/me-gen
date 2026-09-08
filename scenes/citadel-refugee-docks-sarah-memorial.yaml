@@ -1,0 +1,30 @@
+scene_id: citadel-refugee-docks-sarah-memorial
+title: Sarah's Husband's Memorial at the Refugee Docks
+kind: downtime
+game: Mass Effect 3
+when: 2186, during the Reaper War, after Sarah Williams's husband is killed in action
+where: the Memorial Wall, Refugee Docks, the Citadel
+
+participants: [Shepard, Ashley Williams, Sarah Williams]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - virmire_survivor: Ashley
+
+beats:
+  - text: >
+      Ashley's younger sister Sarah's husband, a marine recalled to active duty, is killed
+      in action. Ashley emails Shepard once preparations for the memorial service are
+      complete; it is held at the Refugee Docks' Memorial Wall.
+    source_chunks: [ashley-williams_012]
+  - text: >
+      Shepard visits the sisters there. Ashley compares Sarah's composed demeanor under
+      stress to their father's — all smiles regardless. If Shepard commends it, Ashley
+      goes further into memories of their father, and the two sisters share the
+      remembrance together.
+    source_chunks: [ashley-williams_012]
+
+related_scenes: [citadel-huerta-ashley-recovery, normandy-ashley-romance-and-farewell]
+related_events: []
+source_chunks: [ashley-williams_012]

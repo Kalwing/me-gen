@@ -1,0 +1,49 @@
+scene_id: citadel-huerta-ashley-recovery
+title: Ashley's Recovery at Huerta Memorial
+kind: downtime
+game: Mass Effect 3
+when: 2186, after Mars, during Ashley's recuperation at Huerta Memorial Hospital
+where: Huerta Memorial Hospital, the Citadel
+
+participants: [Shepard, Ashley Williams]
+private_to: [Shepard, Ashley Williams]
+heard_by: [Normandy crew]
+
+requires:
+  - virmire_survivor: Ashley
+
+beats:
+  - text: >
+      While Ashley recuperates from the wound Dr. Eva gave her on Mars, Udina offers her
+      Spectre status. Shepard can visit her in the hospital after every major mission,
+      choosing to be friendly or hostile. Ashley admits her doubts about Shepard's
+      Cerberus ties are still present but promises to trust and work with him. She talks
+      about the hard time her sister Sarah is having now that Sarah's marine husband has
+      been called back into action. Asked about her promotion to Lieutenant Commander,
+      Ashley jokes the old "Williams curse" must be losing its grip; Shepard tells her she
+      earned it.
+    source_chunks: [ashley-williams_010]
+  - text: >
+      Once recovered, Ashley accepts Udina's Spectre offer. Talking with Shepard about it
+      at Huerta, the conversation turns to her family: they have made it onto the Citadel,
+      but Sarah's husband was killed in action, and Ashley wants to say a few words at his
+      memorial service.
+    source_chunks: [ashley-williams_010]
+  - text: >
+      If Shepard visits her in the hospital while in a relationship with her, she calls
+      him out for pursuing someone else while working with Cerberus if that happened. She
+      is judgmental of Miranda and Jack as rivals but more at ease with Tali, calling her
+      "like a little sister" and saying she approves — "not that you needed my approval" —
+      though without a strong enough rapport she can still show jealousy of Tali later, on
+      the geth dreadnought.
+    source_chunks: [ashley-williams_014]
+  - text: >
+      If Shepard has stayed faithful to Ashley, these hospital visits are warmer and less
+      confrontational, and the relationship deepens further if Shepard buys her a copy of
+      "The Collected Alfred Tennyson" from Sirta Supplies.
+    source_chunks: [ashley-williams_014]
+    conditional: {romance: Ashley}
+
+related_scenes: [mars-archives-eva-shoots-ashley]
+related_events: [priority-mars]
+source_chunks: [ashley-williams_010, ashley-williams_014]
