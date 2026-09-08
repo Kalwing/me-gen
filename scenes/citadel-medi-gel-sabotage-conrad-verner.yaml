@@ -1,0 +1,54 @@
+scene_id: citadel-medi-gel-sabotage-conrad-verner
+title: Repairing the Sabotaged Dispensers and Conrad Verner's Near-Fatal Mistake
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel, after the Cerberus attack on the Citadel
+where: the refugee camp, Docks Holding Area, Citadel
+
+participants: [Shepard, Conrad Verner]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      After the Cerberus attack, the Clinic Doctor in Cargo Hold B tells Shepard the
+      refugee camp's medi-gel dispensers have been sabotaged, and, if Conrad Verner is
+      alive, that someone has also been recruiting refugees to join Cerberus.
+    source_chunks: [citadel-medi-gel-sabotage_003]
+  - text: >
+      Shepard finds Conrad Verner near Bay E24 by the Memorial Wall. Conrad admits he had
+      been preaching to refugees about joining Cerberus; told that Cerberus had just tried
+      to assassinate the Council, he realizes his mistake. His Cerberus contact had used
+      Conrad's distraction to sabotage the dispensers.
+    source_chunks: [citadel-medi-gel-sabotage_003]
+    conditional: {conrad_verner_alive: true}
+  - text: >
+      Conrad hands over his Dark Energy Dissertation, a War Asset that contributes to the
+      Crucible's construction, its value quintupled if Shepard had, in the first game,
+      completed UNC: Asari Writings and Feros: Data Recovery and purchased the Elkoss
+      Combine armory license.
+    source_chunks: [citadel-medi-gel-sabotage_003]
+    conditional: {conrad_verner_alive: true}
+  - text: >
+      Shepard repairs three of the four dispensers scattered around the Docks and reports
+      back to the doctor, who thanks Shepard and laments being unable to track down the
+      saboteur.
+    source_chunks: [citadel-medi-gel-sabotage_003]
+  - text: >
+      Reporting back with Conrad's Cerberus subplot active triggers a final confrontation:
+      Conrad's contact draws a gun on Shepard, and Conrad dives in front of the Commander to
+      intercept the shot, giving Shepard the opening to strike the contact down.
+    source_chunks: [citadel-medi-gel-sabotage_003]
+    conditional: {conrad_verner_alive: true}
+  - text: >
+      If Jenna had been extracted from Chora's Den back in Citadel: Rita's Sister, she has
+      sabotaged the contact's gun beforehand, saving Conrad's life; the two wander off
+      together afterward. Otherwise Conrad is shot and killed.
+    source_chunks: [citadel-medi-gel-sabotage_003]
+    conditional: {rita_s_sister_jenna_saved: any}
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-medi-gel-sabotage_003]

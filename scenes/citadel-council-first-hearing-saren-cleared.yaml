@@ -1,0 +1,39 @@
+scene_id: citadel-council-first-hearing-saren-cleared
+title: The Council Clears Saren for Lack of Evidence
+kind: mission-aside
+game: Mass Effect
+when: 2183, Citadel, shortly after the Prologue, before the hunt for Fist and Wrex
+where: the Petitioner's Stage, Council Chambers, Citadel Tower
+
+participants: [Shepard, Donnel Udina, David Anderson, Saren Arterius]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Shepard and Anderson join Udina on the Petitioner's Stage before the asari, salarian,
+      and turian councilors. The asari councilor allows the Eden Prime geth attack is "of
+      some concern" but the Council will not accept that Saren was involved.
+    source_chunks: [citadel-expose-saren_004]
+  - text: >
+      Saren calls Nihlus a friend and fellow Spectre; Anderson's interjection is rebuffed.
+      Udina raises the eyewitness Powell, which the salarian councilor dismisses as
+      unreliable, and Anderson raises Shepard's beacon vision, which Saren dismisses as
+      dreams he cannot be expected to defend himself against. The turian councilor agrees.
+    source_chunks: [citadel-expose-saren_004]
+  - text: >
+      Finding insufficient evidence, the asari councilor rules Saren is not disbarred from
+      the Spectres and dismisses the hearing. Udina lingers, defeated.
+    source_chunks: [citadel-expose-saren_004]
+  - text: >
+      Off to the side, Udina tells Shepard and Anderson it was a mistake bringing Anderson,
+      hinting at unspecified history between Anderson and Saren. Pressed for a way forward,
+      Udina points Shepard to C-Sec informant Harkin; Anderson suggests Barla Von as an
+      alternate lead.
+    source_chunks: [citadel-expose-saren_004]
+
+related_scenes: [citadel-chora-s-den-fist-confrontation, citadel-garrus-recruitment, citadel-tali-rescue-and-spectre-induction]
+related_events: [expose-saren-citadel-hearing]
+source_chunks: [citadel-expose-saren_004]

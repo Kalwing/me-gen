@@ -1,0 +1,39 @@
+scene_id: citadel-tactus-medical-supplies-trade
+title: Bargaining With Tactus Over Refugee Medical Supplies
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel, after the Cerberus coup attempt
+where: the refugee medical center, Cargo Hold B, Docks Holding Area
+
+participants: [Shepard, Tactus]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Back aboard the Normandy, Specialist Traynor relays that the ship's medical officer
+      (Dr. Chakwas or Dr. Michel, depending who was recruited) wants to speak with Shepard.
+      The doctor has learned of a refugee group holding military medical supplies who need
+      basic civilian necessities in return, and asks Shepard to broker the trade.
+    source_chunks: [citadel-medical-supplies_003]
+  - text: >
+      In the refugee medical center, Shepard finds a turian named Tactus, who recognizes
+      Shepard but refuses to give up the supplies, citing distrust of the Alliance, his
+      people's dire situation, and the supplies' value.
+    source_chunks: [citadel-medical-supplies_003]
+  - text: >
+      With enough reputation, Shepard can persuade Tactus by stressing mutual benefit or
+      military necessity, or simply give away supplies for nothing in return. Pressing him
+      further without the standing to back it up only draws a refusal, since Tactus expects
+      a better offer from the black market; the conversation can be reopened later.
+    source_chunks: [citadel-medical-supplies_003]
+  - text: >
+      Once the trade succeeds, Shepard reports back to the ship's medical officer, closing
+      out the exchange.
+    source_chunks: [citadel-medical-supplies_003]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-medical-supplies_003]

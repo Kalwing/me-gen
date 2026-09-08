@@ -1,0 +1,31 @@
+scene_id: citadel-kalara-tomi-forged-id
+title: Clearing Kalara Tomi's Flagged Travel Papers
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Citadel, after Garrus's or Thane's loyalty mission
+where: Level 27 stairs, the Citadel
+
+participants: [Shepard, Kalara Tomi]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Shepard speaks with an asari named Kalara Tomi, seated near the Level 27 stairs with a
+      companion. She complains she has been wrongly flagged as a geth-infiltration security
+      risk, preventing the pair from leaving the Citadel. On an imported save where Shepard
+      abandoned the Council, Kalara is openly hostile toward Shepard and humanity.
+    source_chunks: [citadel-found-forged-id_003]
+  - text: >
+      Shepard can resolve it directly by handing Kalara forged IDs recovered elsewhere on
+      the Citadel in exchange for 1,000 credits, or instead go to the C-Sec Customs officer
+      at the Citadel entrance and charm, intimidate, or invoke reinstated Spectre authority
+      to have her cleared to leave. Telling Kalara honestly how it was done afterward earns
+      further goodwill.
+    source_chunks: [citadel-found-forged-id_003]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-found-forged-id_003]

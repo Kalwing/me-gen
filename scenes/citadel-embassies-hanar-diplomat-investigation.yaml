@@ -1,0 +1,48 @@
+scene_id: citadel-embassies-hanar-diplomat-investigation
+title: Unmasking the Indoctrinated Hanar Diplomat
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Palaven, before Priority: Tuchanka"
+where: the Citadel Embassies, the Office Suite, the Docks Holding Area, and the hanar embassy
+participants: [Shepard, Jondum Bau, Zymandis, Bailey]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      Salarian Spectre Jondum Bau emails Shepard asking for discreet help investigating
+      whether a member of the hanar diplomatic delegation on the Citadel had been
+      indoctrinated. Meeting Bau outside Commander Bailey's office, Shepard learns that
+      hanar operatives present at an Alliance raid on a batarian lab studying Reaper
+      technology are believed to have been indoctrinated there; Bau's source was either
+      Kasumi Goto or arms dealer Donovan Hock, depending on whether Kasumi: Stealing
+      Memory had been completed.
+    source_chunks: [jondum-bau_001, jondum-bau_002]
+  - text: >
+      Using the Spectre Terminal and a series of terminals across the Embassies, the
+      Office Suite, and the Docks Holding Area, Shepard investigates suspicious money
+      transfers by two hanar, Bolohn and Oloon, and clears both. The true suspect is
+      identified as Zymandis, a recent arrival from Kahje who had been on the Alliance
+      raid team and on a "special research assignment" since. If Kasumi is alive, she
+      cloaks and assists throughout without Bau's knowledge.
+    source_chunks: [citadel-hanar-diplomat_002, citadel-hanar-diplomat_003]
+  - text: >
+      Bau and Shepard confront Zymandis, who reveals he uploaded a virus to shut down
+      the automated defenses of the hanar homeworld, Kahje, reasoning that because the
+      Protheans became Collectors who serve the Reapers, the hanar should serve them
+      too. A human bodyguard attacks Bau.
+    source_chunks: [zymandis_001, jondum-bau_002]
+  - text: >
+      If Kasumi is present, she stops the upload while Shepard frees Bau, who then
+      shoots and kills Zymandis; a rigged console explodes, apparently killing Kasumi.
+    source_chunks: [jondum-bau_002]
+    conditional: {kasumi_present: true}
+  - text: >
+      Without Kasumi, Shepard must choose between saving Bau with a Renegade interrupt
+      or stopping the upload alone. If Shepard stops the upload, Bau fights off and
+      shoots the bodyguard and Zymandis himself, taking a gut wound but surviving.
+    source_chunks: [jondum-bau_002]
+    conditional: {kasumi_present: false}
+related_events: [hanar-diplomat-zymandis-investigation]
+source_chunks: [jondum-bau_001, jondum-bau_002, zymandis_001, citadel-hanar-diplomat_002, citadel-hanar-diplomat_003]

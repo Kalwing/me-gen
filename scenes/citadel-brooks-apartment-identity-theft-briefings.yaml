@@ -1,0 +1,66 @@
+scene_id: citadel-brooks-apartment-identity-theft-briefings
+title: Regrouping at the Apartment After the Ambush
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel shore leave, immediately after the ambush in the Wards and again after Khan's death
+where: the Personal Apartment, Citadel
+
+participants: [Shepard, Maya Brooks, Liara T'Soni, Glyph, EDI, Joker, James Vega, Steve Cortez, Javik, Garrus Vakarian, Tali'Zorah, Ashley Williams, Kaidan Alenko, Urdnot Wrex]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Shepard and the crew regroup at the Personal Apartment straight after escaping the
+      Wards ambush. Brooks talks Shepard out of contacting Commander Bailey, warning it could
+      make him a target, and Shepard cuts the comm link.
+    source_chunks: [citadel-identity-theft-i_003]
+  - text: >
+      Shepard asks Brooks how she got pulled into the investigation. She explains she wrote a
+      fraud-detection program tracking officer IDs, and it flagged someone hacking Shepard's
+      file and combing through personal and classified records. The recovered M-11 Suppressor
+      becomes the investigation's starting point.
+    source_chunks: [citadel-identity-theft-i_003]
+  - text: >
+      Liara examines the pistol and sets Glyph to compiling data as Joker and the rest of the
+      crew arrive. James, EDI, and Cortez are present in every playthrough, joined by whoever
+      else Shepard has recruited (Javik, Garrus, Tali, Ashley or Kaidan, and Wrex if the
+      genophage cure was genuine). Several crew members needle Shepard over the wrecked sushi
+      bar floor, and Joker is still sore about being used as a decoy during the ambush.
+    source_chunks: [citadel-identity-theft-i_003]
+  - text: >
+      After Shepard speaks to one crew member, Liara reports her findings: the gun traces to
+      casino owner Elijah Khan, suspected of smuggling weapons onto the Citadel with his
+      fortune, and she plays an intercepted call between voice-modulated conspirators who are
+      not Khan. The mercenaries are identified as CAT6, dishonorably discharged Alliance
+      soldiers. The group settles on a small, stealthy, no-gunplay infiltration of Khan's
+      Silver Coast Casino that evening during a charity gala for war refugees; only Brooks
+      can plausibly accompany Shepard to disable the panic room's camera, and Liara notes the
+      event is black-tie.
+    source_chunks: [citadel-identity-theft-i_003]
+  - text: >
+      After the gala and Khan's death, the crew regroups at the apartment again. Shepard
+      orders Brooks and EDI to check Khan's recovered data drives while the squad waits;
+      EDI and Liara have swapped positions in the apartment from the previous visit.
+    source_chunks: [citadel-identity-theft-ii_003]
+  - text: >
+      Speaking to Brooks advances the case: she and EDI have cracked a communication
+      detailing large weapons purchases, including mechs. Glyph then reports Shepard's
+      Spectre access code was just used at the Citadel Archives; a squadmate (Garrus, or
+      Liara if he is dead) notes they were unable to enter the Archives themselves despite
+      supposedly having the authority. A volus delivers a double-pepperoni pizza James
+      ordered and asks for the bill to be settled.
+    source_chunks: [citadel-identity-theft-ii_003]
+  - text: >
+      Shepard orders everyone to gear up for the Archives. Brooks remarks it's a shame not
+      everyone can come; Shepard says why not, prompting the room to audibly clear its
+      throat at the prospect. Shepard picks a squad while the rest split into two support
+      teams to come along.
+    source_chunks: [citadel-identity-theft-ii_003]
+
+related_scenes: [silver-coast-casino-infiltration-khan-gala, citadel-archives-escape-clone-confrontation]
+related_events: []
+source_chunks: [citadel-identity-theft-i_003, citadel-identity-theft-ii_003]

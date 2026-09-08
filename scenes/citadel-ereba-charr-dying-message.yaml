@@ -1,0 +1,46 @@
+scene_id: citadel-ereba-charr-dying-message
+title: Delivering Charr's Dying Message to Ereba
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel, after finding Charr's body on the mission to Utukku
+where: Nos Astra Sporting Goods, Meridian Place Market, Citadel Presidium Commons
+
+participants: [Shepard, Ereba]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Partway through the mission to Utukku, Shepard finds the body of a dying krogan
+      behind webbing just before a one-way drop, and takes his final message to deliver
+      to an asari merchant named Ereba, whom the krogan asks for by name.
+    source_chunks: [citadel-krogan-dying-message_002]
+  - text: >
+      Shepard finds Ereba at Nos Astra Sporting Goods in the Meridian Place Market and
+      plays her the recording. The dead krogan is revealed to be Charr, whose relationship
+      with Ereba could have been shaped earlier by Shepard's involvement in the Illium
+      assignment Blue Rose of Illium. Ereba begins crying as she listens; Shepard can stay
+      with her or leave her to listen alone.
+    source_chunks: [citadel-krogan-dying-message_003]
+  - text: >
+      If Ereba had broken off with Charr, or the earlier Illium assignment was never done,
+      his recorded message still dwells on her as his "Blue Rose of Illium," remembering
+      her fondly and hoping his death shelters her going forward.
+    source_chunks: [citadel-krogan-dying-message_004]
+    conditional: {blue_rose_of_illium: broke_off_or_not_done}
+  - text: >
+      If Ereba had been convinced to take Charr back, his message instead speaks of dying
+      among krannt rather than kindness, and references a child the two of them had
+      planted together, asking that his broken bones build a wall to keep her and their
+      "flower" safe.
+    source_chunks: [citadel-krogan-dying-message_004]
+    conditional: {blue_rose_of_illium: reconciled}
+  - text: >
+      At the end of the recording, Ereba says she has to go.
+    source_chunks: [citadel-krogan-dying-message_003]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-krogan-dying-message_002, citadel-krogan-dying-message_003, citadel-krogan-dying-message_004]

@@ -1,0 +1,66 @@
+scene_id: citadel-tali-rescue-and-spectre-induction
+title: Saving Tali in the Alley, Then Standing Before the Council as a Spectre
+kind: mission-aside
+game: Mass Effect
+when: 2183, Citadel, immediately after the raid on Fist at Chora's Den
+where: a back alley behind the Wards markets, then Udina's office and the Council Chambers, Citadel Tower
+
+participants: [Shepard, Tali'Zorah nar Rayya, Donnel Udina, David Anderson]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Racing from Chora's Den on a four-minute clock, Shepard's squad reaches a back alley
+      where the quarian is confronting a turian and armed assassins over a promised meeting
+      with the Shadow Broker. She throws a grenade to scatter them; Shepard's squad kills
+      the assassins.
+    source_chunks: [citadel-expose-saren_006, citadel-expose-saren_007]
+  - text: >
+      With the assassins down, the quarian vents her anger at Fist for the setup, then tells
+      Shepard she has a way to repay her rescuer: information. A squadmate suggests
+      continuing the conversation in the Ambassador's office.
+    source_chunks: [citadel-expose-saren_007]
+  - text: >
+      In Udina's office, Udina complains about the firefights Shepard has left in their wake
+      before noticing the quarian. She gives her name, Tali'Zorah nar Rayya, and explains she
+      left the flotilla on her pilgrimage, tracked reports of the geth, isolated one, and
+      salvaged its memory core before Saren's agents pursued her to the Citadel.
+    source_chunks: [citadel-expose-saren_008]
+  - text: >
+      Tali plays an audio file that clearly implicates Saren in the Eden Prime attack,
+      along with a second, unidentified voice referencing the Reapers. Anderson dismisses
+      the second voice as irrelevant beside proof of Saren's treachery; Tali notes the geth
+      revere the Reapers and regard Saren as their prophet. Udina, elated, moves to take the
+      evidence to the Council. Shepard can invite Tali to join the squad or ask her to stay
+      behind; either way she becomes available afterward.
+    source_chunks: [citadel-expose-saren_008]
+  - text: >
+      On the Citadel Tower, while Shepard and Anderson walk to rejoin Udina, Tali's evidence
+      is played for the Council; the turian councilor calls it irrefutable and the Council
+      strips Saren of his Spectre status.
+    source_chunks: [citadel-expose-saren_008]
+  - text: >
+      Udina presses further, demanding a Citadel Fleet lockdown, which the Council warns
+      could provoke war with the Terminus Systems. Shepard argues instead for naming a human
+      Spectre as an alternative to a fleet deployment. The turian councilor accepts the
+      logic, and the asari councilor calls Shepard forward: Shepard is named the first human
+      Spectre.
+    source_chunks: [citadel-expose-saren_008]
+  - text: >
+      Afterward, Udina and Anderson discuss what Shepard will need to begin the hunt for
+      Saren before Udina pulls Anderson away to help with preparations. Anderson tells
+      Shepard to check in with C-Sec Requisitions and that Spectre status has unlocked
+      Spectre Training and higher Charm and Intimidate.
+    source_chunks: [citadel-expose-saren_008]
+  - text: >
+      Leaving the Tower, Anderson is relieved of command of the SSV Normandy, which passes
+      to Shepard; his posture makes clear he is not happy about it, though he says nothing
+      against it.
+    source_chunks: [citadel-expose-saren_009]
+
+related_scenes: [citadel-chora-s-den-fist-confrontation, citadel-council-first-hearing-saren-cleared, citadel-michel-treats-tali-eden-prime-data]
+related_events: []
+source_chunks: [citadel-expose-saren_006, citadel-expose-saren_007, citadel-expose-saren_008, citadel-expose-saren_009]

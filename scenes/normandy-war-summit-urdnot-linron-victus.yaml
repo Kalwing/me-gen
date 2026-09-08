@@ -1,0 +1,47 @@
+scene_id: normandy-war-summit-urdnot-linron-victus
+title: The War Summit—Krogan, Turian, Salarian Impasse
+kind: argument
+game: Mass Effect 3
+when: "2186, Citadel, during the Reaper War, before Priority: Sur'Kesh"
+where: the Normandy SR-2 war room
+participants: [Shepard, Urdnot Wrex, Urdnot Wreav, Dalatrass Linron, Primarch Adrien Victus]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      Primarch Victus, newly elevated to his rank by Palaven's succession laws, takes charge
+      of a war summit aboard the Normandy with salarian Dalatrass Linron, the Urdnot clan
+      leader (Wrex or Wreav), and Commander Shepard. The turians need krogan help to hold
+      the Reapers off Palaven, but the krogan refuse to aid unless the genophage is cured;
+      the salarians refuse to cure it, fearing the krogan would become a galactic threat once
+      the Reapers are defeated.
+    source_chunks: [clan-urdnot_004, adrien-victus_003]
+  - text: >
+      Dalatrass Linron becomes openly hostile toward the Urdnot leader, vehemently protesting
+      that curing the genophage would only lead to the krogan waging war on the galaxy.
+      Victus surmises that a cure would take years to develop—an impasse.
+    source_chunks: [linron_002]
+  - text: >
+      The Urdnot leader produces video evidence from an inside source: surviving fertile female
+      krogan from Maelon's genophage experiments are being held captive on Sur'Kesh, in a
+      salarian STG base. Linron questions the authenticity of the evidence but is called out
+      on the lie.
+    source_chunks: [linron_002, clan-urdnot_004]
+  - text: >
+      Faced with indisputable evidence and pressure from both Primarch Victus and Commander
+      Shepard, Dalatrass Linron is forced to reveal the exact location of the surviving
+      female krogan. At the conclusion of the meeting, she tries to press her point about the
+      long-term consequences of curing the genophage, though Shepard can optionally cut her off.
+    source_chunks: [linron_002]
+  - text: >
+      After the initial summit, Victus can be spoken to and appears cautiously optimistic
+      about curing the genophage and forging a turian-krogan alliance. He acknowledges
+      Dalatrass Linron's concerns about krogan expansion but says he would rather have a
+      grateful ally than an angry enemy. He also voices his fear of becoming Palaven's last
+      primarch.
+    source_chunks: [adrien-victus_003]
+related_scenes: []
+related_events: [priority-sur-kesh]
+source_chunks: [clan-urdnot_004, adrien-victus_003, linron_002]

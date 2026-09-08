@@ -25,12 +25,30 @@ beats:
       itself to the Normandy, and destroys it.
     source_chunks: [atlas-station_001]
   - text: >
-      Shepard then discovers what Project Overlord actually was: Gavin's autistic brother
-      David Archer had been forcibly fused with the VI, which overwhelmed him — David had
-      simply wanted the ordeal to stop. Shepard makes a moral choice about the future of
-      the project and of David before leaving Aite.
-    source_chunks: [atlas-station_001]
+      Shepard then discovers what Project Overlord actually was: Gavin's autistic,
+      mathematically gifted brother David Archer had volunteered to be fused with the VI
+      so it could commune with the geth, and when the Illusive Man threatened to shut the
+      project down for lack of results, Gavin forced the merger through, causing David
+      great pain. Overwhelmed, David became the rampaging virus — he had simply wanted it
+      to stop.
+    source_chunks: [gavin-archer_002, project-overlord_002]
+  - text: >
+      Confronted with what he'd done, Gavin asks to keep caring for David so the project
+      can continue — "if my work spares a million mothers mourning the loss of a million
+      sons, my conscience will rest easy" — but backs down and asks Shepard to let him
+      keep David when pressed on whether he'd trade his brother's happiness for his own
+      ambition. Gavin violently objects when Shepard says David is going to Grissom
+      Academy instead, drawing a gun; Shepard can pistol-whip him in response, and warns
+      him not to come looking for David.
+    source_chunks: [gavin-archer_002]
+    conditional: {david_archer_fate: released_to_grissom}
+  - text: >
+      If Shepard instead leaves David hooked into the project, Shepard punches Gavin and
+      tells him the only reason he's still breathing is that his research might prevent
+      a war with the geth.
+    source_chunks: [gavin-archer_002]
+    conditional: {david_archer_fate: kept_with_cerberus}
 
 related_scenes: []
 related_events: []
-source_chunks: [atlas-station_001]
+source_chunks: [atlas-station_001, gavin-archer_002, project-overlord_002]

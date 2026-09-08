@@ -3,7 +3,7 @@ title: Chorban's Keeper Scans and His Falling-Out With Jahleed
 kind: mission-aside
 game: Mass Effect
 when: "2183, Citadel, during the hunt for Saren"
-where: the Citadel Tower, then the Lower Markets of the Wards
+where: the Citadel Tower, the C-Sec offices, then the Lower Markets of the Wards
 
 participants: [Shepard, Chorban, Jahleed]
 private_to: []
@@ -21,21 +21,33 @@ beats:
       his curiosity, and offers Shepard the chance to continue the scanning for him.
     source_chunks: [chorban_002]
   - text: >
+      Jahleed, hiding in the C-Sec offices and refusing to leave, tells Shepard he believes
+      his business partner Chorban is trying to kill him, though the details are vague. He
+      asks Shepard to meet Chorban in the Lower Markets to find out what is going on.
+    source_chunks: [citadel-jahleed-s-fears_004]
+  - text: >
       Chorban and Jahleed later fall out. Shepard can agree to mediate, finding Chorban in
       the Lower Markets guarded by two salarian bodyguards. If Shepard already knows about
-      the research, Chorban sends the guards away and speaks openly. If Shepard only learned
-      of it from Jahleed, Chorban assumes Shepard was sent to seize his keeper data, refuses
-      to believe otherwise, and attacks with his bodyguards, losing the fight and begging for
-      his life.
-    source_chunks: [chorban_002]
+      the research, Chorban sends the guards away and speaks openly, admitting he only meant
+      to threaten Jahleed to get the scanning data from him. If Shepard only learned of it
+      from Jahleed, Chorban assumes Shepard was sent to seize his keeper data, refuses to
+      believe otherwise, and attacks with his bodyguards near scattered explosive canisters,
+      losing the fight and begging for his life.
+    source_chunks: [chorban_002, citadel-jahleed-s-fears_005]
     conditional: {learned_from_jahleed_first: true}
   - text: >
       However the meeting begins, Chorban admits he and Jahleed lost perspective but remains
       eager to keep studying the keepers, and again offers Shepard the scanning work. He says
       he does not really want Jahleed dead, but assumes the volus wants the discovery to
       himself. Shepard can take up or continue the keeper scans, talk Chorban out of the
-      research, or kill him if the meeting started as a fight.
-    source_chunks: [chorban_002]
+      research, kill him if the meeting started as a fight, or, if Shepard never agreed to
+      scan for him, turn him in to a C-Sec officer for the theft, charm or intimidate him
+      into turning himself in, or simply demand a cash payoff.
+    source_chunks: [chorban_002, citadel-jahleed-s-fears_006]
+  - text: >
+      Returning to Jahleed with the news, he apologizes to Shepard for lying about the
+      threat on his life and departs, closing out the affair.
+    source_chunks: [citadel-jahleed-s-fears_006]
   - text: >
       If Chorban survived and Shepard scanned all or most of the keepers, he emails Shepard
       in 2185 with his findings: the keepers are bio-engineered, and comparison with material
@@ -50,4 +62,4 @@ beats:
 
 related_scenes: []
 related_events: []
-source_chunks: [chorban_002, chorban_003]
+source_chunks: [chorban_002, chorban_003, citadel-jahleed-s-fears_004, citadel-jahleed-s-fears_005, citadel-jahleed-s-fears_006]

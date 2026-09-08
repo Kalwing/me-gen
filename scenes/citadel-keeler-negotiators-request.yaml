@@ -1,0 +1,41 @@
+scene_id: citadel-keeler-negotiators-request
+title: Keeler's Stimulant Request at Flux
+kind: mission-aside
+game: Mass Effect
+when: 2183, Citadel, after the Battle of the Citadel
+where: outside Flux, the Wards
+
+participants: [Shepard, Keeler]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Summoned by Captain Anderson to meet him at Flux, Shepard is stopped near the entrance
+      by an Alliance negotiator named Keeler, who says he urgently needs a legal but
+      regulated mental stimulant to perform well in an upcoming treaty negotiation with the
+      salarians. Conversation reveals he is addicted to it.
+    source_chunks: [citadel-negotiator-s-request_003]
+  - text: >
+      Keeler says if he cannot attend, his assistant Thomas Kent would take over, and
+      disparages Kent as an alien sympathizer who bends over backwards to accommodate the
+      Citadel races, arguing humans instead need to be more aggressive with the salarians.
+    source_chunks: [citadel-negotiator-s-request_003]
+  - text: >
+      Shepard can talk Keeler out of using the stimulant (Charm or Intimidate), after which
+      he leaves to get treatment and lets Kent take over; fetch the stimulant from the Med
+      Clinic and give it to him; or buy a depressant sedative from Dr. Michel and give him
+      that instead, leaving him drowsy and insulting before he staggers off.
+    source_chunks: [citadel-negotiator-s-request_003]
+  - text: >
+      A later elevator news report reveals the negotiation's outcome: given the stimulant,
+      the Alliance wins billions of credits but the Salarian Union complains of hardline
+      tactics; given the sedative, or talked into treatment, Kent's efforts to find mutually
+      beneficial terms impress the Salarian Union instead.
+    source_chunks: [citadel-negotiator-s-request_003]
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-negotiator-s-request_003]
