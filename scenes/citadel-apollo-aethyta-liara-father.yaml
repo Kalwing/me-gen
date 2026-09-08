@@ -1,0 +1,56 @@
+scene_id: citadel-apollo-aethyta-liara-father
+title: Aethyta Reveals Herself as Liara's Father
+kind: banter
+game: Mass Effect 3
+when: "2186, Citadel, during shore leave after talking with Liara in Presidium Commons"
+where: Apollo's Cafe in Presidium Commons
+participants: [Shepard, Matriarch Aethyta, Liara T'Soni]
+private_to: [Shepard, Matriarch Aethyta]
+heard_by: [Normandy crew, Citadel patrons]
+requires:
+  - citadel_dlc: any
+beats:
+  - text: >
+      After Shepard speaks to Liara at her table in Presidium Commons, Matriarch Aethyta
+      appears at Apollo's Cafe nearby. If Shepard assisted Liara in a Shadow Broker mission,
+      Shepard mentions a video showing Aethyta studying a picture of Liara; otherwise Shepard
+      speculates the matriarch's presence relates to Liara. Aethyta confirms she is Liara's
+      biological "father" and reveals she has been watching Liara on behalf of other asari
+      matriarchs who are suspicious of Liara's work as an information broker, her ties to
+      Matriarch Benezia (her mother), and her connection to Shepard—particularly Shepard's
+      prior affiliation with Cerberus. Aethyta warns that the matriarchs might order a hit
+      on Liara if she steps out of line.
+    source_chunks: [aethyta_003, liara-t-soni_017]
+  - text: >
+      Shepard can explain that they only worked with Cerberus to stop the Reapers and no
+      longer serve them. Aethyta responds that she already knew this, or she would never
+      have allowed Shepard near Liara, making her point with a veiled threat. Shepard can
+      also respond more aggressively to the threat on Liara.
+    source_chunks: [aethyta_003, interrupt-mass-effect-3_010]
+  - text: >
+      If Shepard has been friendly toward Liara, they echo Aethyta's earlier line: "Nobody
+      messes with my girl." Aethyta is amused by this and concedes that Shepard might be
+      good enough for Liara after all.
+    source_chunks: [aethyta_003, interrupt-mass-effect-3_010]
+    conditional: {romance: Liara}
+  - text: >
+      Shepard tells Aethyta that Liara would love to meet her, though Aethyta is not
+      optimistic about a productive conversation. Shepard can then speak to Liara, who
+      admits she already knows who Aethyta is but has no intention of meeting her. Shepard
+      can egg Liara on to change her mind.
+    source_chunks: [aethyta_003, liara-t-soni_017]
+  - text: >
+      If Shepard convinces Liara to speak with Aethyta, the two begin conversations that
+      start awkwardly but deepen as they reminisce about Liara's mother, Benezia. In these
+      conversations, Aethyta and Liara discuss the matriarchs' surveillance of Liara and
+      her Illium office, asari military doctrine during the Reaper War, Liara's krogan
+      grandfather and Aethyta's century-long relationship with Benezia. Aethyta reveals
+      she was married to Benezia and still loves her. She also explains that she coined
+      Liara's childhood nickname "Little Wing." After these reconciliatory talks, Aethyta
+      gives Liara asari commando and Eclipse mercenary support against the Reapers as a
+      "gift," and Liara calls Aethyta "the best father a girl could wish for."
+    source_chunks: [aethyta_003, liara-t-soni_017]
+variants: []
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [aethyta_003, interrupt-mass-effect-3_010, liara-t-soni_017]

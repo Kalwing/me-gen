@@ -1,0 +1,58 @@
+scene_id: citadel-huerta-aeian-ptsd
+title: Aeian T'Goni at Huerta Memorial Hospital
+kind: downtime
+game: Mass Effect 3
+when: 2186, Citadel, before the Cerberus attack
+where: Huerta Memorial Hospital, Patient Lounge
+participants: [Shepard, Aeian T'Goni, asari psychotherapist]
+private_to: []
+heard_by: [hospital staff]
+
+requires: []
+
+beats:
+  - text: >
+      Aeian T'Goni, labeled in-game as "PTSD Soldier," is found in the entrance hall of
+      Huerta Memorial Hospital recounting her last assignment to an asari psychotherapist.
+      She refuses to shower, repeatedly asks if her eyes are still their normal color, and
+      requests a firearm and a transfer to a facility without humans.
+    source_chunks: [aeian-t-goni_001]
+  - text: >
+      Aeian describes her mission to the human colony Tiptree: she landed with a group of
+      asari commandos to assist evacuation during the Reaper invasion. Her friend Neaira,
+      an asari commando, was present; their relationship had been prevented by Neaira's
+      medical condition, presumably Ardat-Yakshi.
+    source_chunks: [aeian-t-goni_001]
+  - text: >
+      While Aeian showered at a human farm, the farm was attacked by husks and by Neaira,
+      who had been turned into a banshee. Unarmed, Aeian fled to the hills with a human
+      girl named Hilary. Aeian's commander judged the farm overrun and never sent a shuttle
+      back.
+    source_chunks: [aeian-t-goni_001]
+  - text: >
+      After two days without food, Aeian and Hilary snuck back to retrieve the radio Aeian
+      had left behind. Hilary, unaware the surviving farmers were indoctrinated, freed them.
+      The farmers raised an alarm and attacked. Aeian used her biotics to carve a path to
+      escape, but Hilary broke her leg and could not run or stay quiet.
+    source_chunks: [aeian-t-goni_001]
+  - text: >
+      At risk of being discovered by Neaira, Aeian was forced to kill Hilary. She escaped
+      with data that earned her a medal. Afterward, she blamed herself for the deaths of
+      the farmers and Hilary, believing Neaira was controlled by the Reapers while she had
+      merely lowered her guard for base needs. She felt intense guilt about the adrenaline
+      rush she experienced killing the indoctrinated humans.
+    source_chunks: [aeian-t-goni_001]
+  - text: >
+      Shepard can use Spectre authority to override security and grant Aeian a firearm. If
+      given the gun, Aeian commits suicide, demoralizing the hospital staff.
+    source_chunks: [aeian-t-goni_001]
+    conditional: {aeian_firearm: granted}
+  - text: >
+      Shepard can refuse to grant Aeian a firearm, leaving her alive but still struggling
+      with her trauma.
+    source_chunks: [aeian-t-goni_001]
+    conditional: {aeian_firearm: denied}
+
+related_scenes: []
+related_events: []
+source_chunks: [aeian-t-goni_001]
