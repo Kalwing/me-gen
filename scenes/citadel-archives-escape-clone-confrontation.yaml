@@ -1,0 +1,59 @@
+scene_id: citadel-archives-escape-clone-confrontation
+title: Cornering the Shepard Clone in the Citadel Archives
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, Citadel DLC, after Citadel: Identity Theft II"
+where: skycars en route, then the Citadel Archives
+
+participants: [Shepard, Brooks, James Vega, Urdnot Wrex, Steve Cortez, Samantha Traynor, Garrus Vakarian, Tali'Zorah, Kaidan Alenko, Ashley Williams, Shepard's clone]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      With the identity thief confirmed to be a clone of Shepard, the Commander, chosen
+      squadmates, and Brooks ride skycars toward the Citadel Archives to catch it before it
+      can escape. Shepard asks for the best way in; Brooks says they are below the Wards and
+      suggests a direct route.
+    source_chunks: [citadel-archives-escape_004]
+  - text: >
+      James breaches a wall with a bomb to get the team inside; if Wrex is along, he rushes
+      in first. The team fights through CAT6 mercenaries deeper into the archives.
+    source_chunks: [citadel-archives-escape_003, citadel-archives-escape_006]
+  - text: >
+      The clone appears on a catwalk holding Brooks hostage and orders Shepard's group to
+      surrender, revealing itself to Shepard's surprise as a copy of the Commander.
+    source_chunks: [citadel-archives-escape_005, citadel-archives-escape_007]
+  - text: >
+      The clone explains it was grown by Cerberus during the Lazarus Project as a source of
+      spare parts in case the real Shepard needed them, but the Illusive Man abandoned the
+      project once the original Shepard was recovered. It stayed comatose until roughly six
+      months earlier, around the time Shepard was arrested, then was taught to behave human
+      through neural implants. It intends to impersonate Shepard and fly off with the
+      Normandy, and has already contacted Traynor using Shepard's own codes to prepare an
+      emergency departure, ordering its men to execute Shepard and the squad.
+    source_chunks: [citadel-archives-escape_007]
+  - text: >
+      Shepard's team fights through successive CAT6 units — Specialists, Snipers, Heavies,
+      an Atlas mech — covered by fire from squadmates left behind and by Cortez and Brooks,
+      and persuades the VI Glyph to help track the clone.
+    source_chunks: [citadel-archives-escape_008, citadel-archives-escape_009, citadel-archives-escape_010, citadel-archives-escape_011]
+  - text: >
+      Reaching a vault, Shepard finds the clone with Brooks, who is revealed as ex-Cerberus:
+      she assembled the Suicide Mission dossiers a year earlier, grew disillusioned as the
+      Illusive Man sought alien help and descended into what she saw as madness, and
+      activated the clone six months prior.
+    source_chunks: [citadel-archives-escape_012, citadel-archives-escape_013]
+  - text: >
+      The clone updates the archives' handprint records, which cannot be perfectly
+      duplicated, seals Shepard and the squad inside an iridium vault, and departs for the
+      Normandy with Brooks, taunting Shepard with "I should go." Shepard summons Glyph to
+      free the team.
+    source_chunks: [citadel-archives-escape_013]
+
+related_scenes: []
+related_events: [citadel-dlc-archives]
+source_chunks: [citadel-archives-escape_004, citadel-archives-escape_005, citadel-archives-escape_006, citadel-archives-escape_007, citadel-archives-escape_008, citadel-archives-escape_012, citadel-archives-escape_013]

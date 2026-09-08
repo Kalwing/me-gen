@@ -1,0 +1,42 @@
+scene_id: citadel-upper-wards-terra-firma-protest
+title: Saracino Seeks Shepard's Endorsement at the Terra Firma Protest
+kind: banter
+game: Mass Effect
+when: "2183, Citadel, after Sovereign's attack, during shore leave"
+where: Upper Wards of the Citadel, near the stairs by Flux
+participants: [Shepard, Charles Saracino]
+private_to: [Shepard, Charles Saracino]
+heard_by: [Citadel patrons]
+beats:
+  - text: >
+      A Terra Firma party protest gathers on the Citadel Upper Wards near Flux, with a group
+      of people chanting slogans against alien influence on humanity. Charles Saracino, the
+      current leader of Terra Firma, stands at the front of the group and calls Shepard over
+      for a conversation.
+    source_chunks: [citadel-our-own-worst-enemy_001, citadel-our-own-worst-enemy_003]
+  - text: >
+      Saracino, a vehement critic of the Alliance's policy toward alien races, believes
+      humanity should resist alien influences by any means necessary—even militarily in the
+      worst case. He is running for a political office in the Alliance Parliament and
+      considers the support of the first human Spectre invaluable.
+    source_chunks: [citadel-our-own-worst-enemy_003, charles-saracino_001]
+  - text: >
+      Saracino asks Shepard to endorse him for a seat in the Alliance parliament. Shepard can
+      agree or refuse the endorsement, possibly believing it would be unwise or that humans
+      need to cooperate with alien races instead. Even if Shepard refuses, Saracino asks whether
+      Shepard would at least make a public statement of support for his candidacy.
+    source_chunks: [citadel-our-own-worst-enemy_003]
+  - text: >
+      If Shepard endorses Saracino's candidacy, the Commander earns Renegade points and
+      Saracino is grateful for Shepard's respect of the democratic process. He returns to the
+      protest satisfied.
+    source_chunks: [citadel-our-own-worst-enemy_003]
+    conditional: {endorse_saracino: true}
+  - text: >
+      If Shepard refuses to endorse Saracino, the Commander earns Paragon points. Saracino is
+      still grateful for Shepard's respect of the democratic process despite the rejection and
+      returns to the protest.
+    source_chunks: [citadel-our-own-worst-enemy_003]
+    conditional: {endorse_saracino: false}
+related_events: [terra-firma-political-influence]
+source_chunks: [citadel-our-own-worst-enemy_001, citadel-our-own-worst-enemy_003, charles-saracino_001]

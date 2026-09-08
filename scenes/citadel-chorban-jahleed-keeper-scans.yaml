@@ -1,0 +1,53 @@
+scene_id: citadel-chorban-jahleed-keeper-scans
+title: Chorban's Keeper Scans and His Falling-Out With Jahleed
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, during the hunt for Saren"
+where: the Citadel Tower, then the Lower Markets of the Wards
+
+participants: [Shepard, Chorban, Jahleed]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Shepard first finds Chorban, a self-proclaimed salarian scientist, at the Citadel
+      Tower trying to get a scanner reading on a stationary keeper. He explains he and his
+      volus partner Jahleed stole the plans for an advanced medical scanner from the company
+      they worked for and reconfigured it to study the keepers, about whom very little is
+      known. He is hesitant to work openly, worried the authorities would take a dim view of
+      his curiosity, and offers Shepard the chance to continue the scanning for him.
+    source_chunks: [chorban_002]
+  - text: >
+      Chorban and Jahleed later fall out. Shepard can agree to mediate, finding Chorban in
+      the Lower Markets guarded by two salarian bodyguards. If Shepard already knows about
+      the research, Chorban sends the guards away and speaks openly. If Shepard only learned
+      of it from Jahleed, Chorban assumes Shepard was sent to seize his keeper data, refuses
+      to believe otherwise, and attacks with his bodyguards, losing the fight and begging for
+      his life.
+    source_chunks: [chorban_002]
+    conditional: {learned_from_jahleed_first: true}
+  - text: >
+      However the meeting begins, Chorban admits he and Jahleed lost perspective but remains
+      eager to keep studying the keepers, and again offers Shepard the scanning work. He says
+      he does not really want Jahleed dead, but assumes the volus wants the discovery to
+      himself. Shepard can take up or continue the keeper scans, talk Chorban out of the
+      research, or kill him if the meeting started as a fight.
+    source_chunks: [chorban_002]
+  - text: >
+      If Chorban survived and Shepard scanned all or most of the keepers, he emails Shepard
+      in 2185 with his findings: the keepers are bio-engineered, and comparison with material
+      from Saren's flagship Sovereign shows they were engineered millions of years ago by the
+      same makers, meaning the Citadel likely was not built by the Protheans. His genetic
+      readings suggest the keepers are set to react to a signal roughly every 50,000 years,
+      the last such interval coinciding with the Protheans' disappearance and due again
+      around now, meaning old technology might have "nasty surprises" waiting. He notes no
+      one else on the Citadel will listen to him.
+    source_chunks: [chorban_003]
+    conditional: {chorban_alive: true, keeper_scans: most_or_all}
+
+related_scenes: []
+related_events: []
+source_chunks: [chorban_002, chorban_003]

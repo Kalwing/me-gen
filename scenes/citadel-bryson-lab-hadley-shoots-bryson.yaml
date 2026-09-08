@@ -1,0 +1,41 @@
+scene_id: citadel-bryson-lab-hadley-shoots-bryson
+title: Hadley Shoots Dr. Bryson
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, after Priority: Palaven"
+where: Dr. Garret Bryson's laboratory, the Citadel
+
+participants: [Shepard, Garret Bryson, Derek Hadley, EDI]
+private_to: []
+heard_by: []
+
+requires:
+  - leviathan: any
+
+beats:
+  - text: >
+      Acting on an urgent message from Admiral Hackett, Shepard meets Dr. Garret Bryson in
+      his Citadel lab. Bryson explains he works for Task Force Aurora, investigating myths
+      and legends about the Reapers, with most of his team out chasing leads.
+    source_chunks: [citadel-dr-bryson_004]
+  - text: >
+      Bryson asks his assistant Derek Hadley for data on something called "Leviathan." Before
+      Bryson can say more, Hadley shoots him dead and turns his pistol on Shepard, who
+      subdues him. C-Sec arrives, and EDI helps sort through Bryson's files.
+    source_chunks: [citadel-dr-bryson_004]
+  - text: >
+      Hadley has no memory of what he just did. EDI concludes he has been indoctrinated. When
+      the conversation turns to Leviathan, Hadley seizes up, cryptically warns Shepard against
+      pursuing it, and collapses; C-Sec guards take him for medical attention.
+    source_chunks: [citadel-dr-bryson_004]
+  - text: >
+      EDI plays two video logs between Bryson and Admiral Hackett: Bryson believed the
+      Leviathan of Dis, uncovered by the batarians, was a dead Reaper, and that whatever
+      killed it — the true "Leviathan" — was being shadowed by the Reapers as Bryson's teams
+      searched for it. Bryson had formally requested assistance tracking it down, and it is
+      Shepard he gets.
+    source_chunks: [citadel-dr-bryson_004]
+
+related_scenes: [citadel-bryson-lab-leviathan-research]
+related_events: [leviathan-discovery-alliance]
+source_chunks: [citadel-dr-bryson_004]

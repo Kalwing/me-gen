@@ -3,9 +3,11 @@ title: Chasing the Name Armistan Banes
 kind: mission-aside
 game: Mass Effect
 when: 2183, Citadel, during the hunt for Saren
-where: Dr. Michel's clinic, Anderson's office, and Rear Admiral Kahoku's office, the Citadel
+where: >
+  Dr. Michel's clinic, Morlan's shop in the Lower Markets, Anderson's office, and Rear
+  Admiral Kahoku's office, the Citadel
 
-participants: [Shepard, Chloe Michel, David Anderson, Kahoku]
+participants: [Shepard, Chloe Michel, Morlan, David Anderson, Kahoku]
 private_to: []
 heard_by: []
 
@@ -13,11 +15,24 @@ requires: []
 
 beats:
   - text: >
-      The name Armistan Banes comes up when a krogan blackmailer tries to extort medical
-      supplies from Dr. Michel, claiming to act on Banes' behalf. Michel tells Shepard she and
-      Banes worked together years earlier but lost contact; as far as she knows he was
-      contracted by the Alliance for research in the Attican Traverse.
-    source_chunks: [armistan-banes_002]
+      Shepard finds Dr. Michel receiving a blackmail demand: someone has learned of her
+      dismissal from a previous job and threatens to expose it, costing her license, unless
+      she hands over medical supplies. Shepard offers to deliver the supplies and uncover
+      the blackmailer.
+    source_chunks: [citadel-doctor-michel_003]
+  - text: >
+      Shepard takes the supplies to Morlan, a salarian shop owner in the Lower Markets.
+      After a brief conversation the real blackmailer, a krogan, steps in and says "I told
+      Banes you'd screw this up," then confronts Shepard. Shepard can defuse him with a
+      Charm or Intimidate check for extra morality points, or fight him; either way Morlan
+      claims to know nothing about Banes beyond the krogan being his only contact.
+    source_chunks: [citadel-doctor-michel_003, morlan_002]
+  - text: >
+      Back at the clinic, Michel is grateful and gives Shepard a discount and better resale
+      prices. Asked about Armistan Banes, she tells Shepard she and Banes worked together
+      years earlier but lost contact; as far as she knows he was contracted by the Alliance
+      for research in the Attican Traverse.
+    source_chunks: [citadel-doctor-michel_003, armistan-banes_002]
   - text: >
       A squad member suggests asking Captain Anderson. Anderson is surprised by the question,
       asks where Shepard heard the name, then decides he does not want to know. He reveals
@@ -32,7 +47,13 @@ beats:
       cold if Citadel: Doctor Michel is not completed before UNC: Missing Marines, since Kahoku
       leaves the Citadel afterward.
     source_chunks: [armistan-banes_002]
+  - text: >
+      If the blackmail was resolved, Michel later emails Shepard in Mass Effect 2, relieved
+      the Commander survived the Normandy's destruction and asking whether Shepard and
+      Garrus can visit.
+    source_chunks: [citadel-doctor-michel_004]
+    conditional: {citadel_doctor_michel_completed: true}
 
-related_scenes: []
+related_scenes: [citadel-garrus-recruitment, normandy-michel-adams-banes-conversation]
 related_events: []
-source_chunks: [armistan-banes_002]
+source_chunks: [citadel-doctor-michel_003, citadel-doctor-michel_004, morlan_002, armistan-banes_002]

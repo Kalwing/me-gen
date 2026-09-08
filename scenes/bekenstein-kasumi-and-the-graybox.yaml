@@ -5,7 +5,7 @@ game: Mass Effect 2
 when: 2185
 where: Donovan Hock's estate on Bekenstein
 
-participants: [Shepard, Kasumi Goto, Donovan Hock]
+participants: [Shepard, Kasumi Goto, Donovan Hock, Chief Roe]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -27,9 +27,18 @@ beats:
       small army of Eclipse mercenaries running Hock's security.
     source_chunks: [kasumi-goto_004]
   - text: >
+      During the party, Kasumi briefly impersonates Security Chief Roe, the aloof leader of
+      Hock's Eclipse guard detail, over the comm to get herself and Shepard into Hock's
+      private quarters.
+    source_chunks: [chief-roe_001]
+  - text: >
+      In Hock's vault, Roe leads a team of guards to attack Shepard and Kasumi and is killed
+      in the fighting.
+    source_chunks: [chief-roe_001]
+  - text: >
       What she wants afterwards is time with Keiji — or what is left of him in the graybox.
     source_chunks: [kasumi-goto_005]
 
 related_scenes: [citadel-party-apartment]
 related_events: []
-source_chunks: [kasumi-goto_004, kasumi-goto_005]
+source_chunks: [kasumi-goto_004, kasumi-goto_005, chief-roe_001]

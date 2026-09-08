@@ -1,0 +1,43 @@
+scene_id: asteroid-x57-charn-negotiation
+title: Negotiating with Charn at the Fusion Torch
+kind: mission-aside
+game: Mass Effect
+when: "2183, Asteroid X57, during Bring Down the Sky DLC"
+where: Asteroid X57, fusion torch location
+participants: [Shepard, Charn]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - bring_down_the_sky: any
+beats:
+  - text: >
+      On Asteroid X57, Charn, a batarian and Balak's second-in-command, is found guarding the
+      last fusion torch as a final line of defense. Originally, Charn and his underlings had
+      signed on for a quick and efficient slave raid, but Balak's arrival transformed the
+      mission into a plot to destroy the human colony on Terra Nova by sending the asteroid
+      on a collision course with the world.
+    source_chunks: [charn_001]
+  - text: >
+      Charn harbors rebellious and resentful feelings about the mission change but remains on
+      the asteroid, fearing Balak would "skin him alive out of spite" if he left. When Charn
+      confronts Commander Shepard and the squad, he does not attack immediately but instead
+      tries to negotiate, telling Shepard "this doesn't have to end in bloodshed."
+    source_chunks: [charn_001]
+  - text: >
+      Charn insists that he and his men had enlisted only for a slaving mission, not for
+      wiping out a colony. He makes clear his misgivings about the plan's escalation.
+    source_chunks: [charn_001]
+  - text: >
+      If Shepard persuades Charn to abandon the asteroid peacefully, promising that Balak
+      will be killed and Charn will be left in charge, Charn accepts immediately. He hands
+      over a pass card to the main facility and warns that Balak is a "mean bastard."
+    source_chunks: [charn_001]
+    conditional: {charn_persuaded: true}
+  - text: >
+      If Shepard attacks Charn instead, either on sighting the squad or after hearing him out,
+      judging Balak's slaving raid reason enough to fight, Shepard takes the facility pass from
+      Charn's corpse.
+    source_chunks: [charn_001]
+    conditional: {charn_persuaded: false}
+related_events: [bring-down-the-sky-x57]
+source_chunks: [charn_001]

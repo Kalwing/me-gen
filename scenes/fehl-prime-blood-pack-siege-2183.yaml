@@ -1,0 +1,28 @@
+scene_id: fehl-prime-blood-pack-siege-2183
+title: Christine Holds the Line Against the Blood Pack
+kind: mission-aside
+game: Mass Effect
+when: 2183, when Blood Pack mercenaries lay siege to the Fehl Prime colony
+where: the Fehl Prime colony
+
+participants: [Christine, Treeya]
+private_to: []
+heard_by: []
+
+requires:
+  - paragon_lost: any
+
+beats:
+  - text: >
+      When Blood Pack mercenaries lay siege to the colony, Christine rallies the other
+      colonists and fights alongside them despite being outmatched and outgunned.
+    source_chunks: [christine_001]
+  - text: >
+      A vorcha nearly shoots her. Treeya tells her she is not a soldier and should stop, but
+      Christine refuses to give up. Her stand buys the colonists enough time for Alliance
+      marines to arrive and engage the Blood Pack.
+    source_chunks: [christine_001]
+
+related_scenes: [fehl-prime-brood-alliance]
+related_events: [fehl-prime-blood-pack-attack]
+source_chunks: [christine_001]

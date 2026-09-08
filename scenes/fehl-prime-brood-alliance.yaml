@@ -4,12 +4,23 @@ kind: mission-aside
 game: Mass Effect
 when: "2185, during the Collector attack on Fehl Prime"
 where: the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel
-participants: [James Vega, Brood, Essex, Kamille, Nicky, Milque, Messner, Collector forces, captured colonists]
+participants: [James Vega, Brood, Essex, Kamille, Nicky, Milque, Messner, Collector forces, captured colonists, Christine, April]
 private_to: []
 heard_by: [Alliance forces on Fehl Prime]
 requires:
   - paragon_lost: any
 beats:
+  - text: >
+      Two years after the Blood Pack siege, the colony is flourishing. Christine and her
+      daughter April visit Delta Squad often; April has taken a special liking to Lieutenant
+      Vega, and Christine is happy about her daughter's affection for him, telling April the
+      colony's defense cannon is there to protect them and that Vega will save them all again
+      if the worst happens.
+    source_chunks: [christine_001]
+  - text: >
+      When the Collectors attack, Christine and April are paralyzed by Seeker Swarms and
+      carried aboard the Collector ship as Delta Squad watches helplessly.
+    source_chunks: [christine_001]
   - text: >
       During the Collector attack on Fehl Prime, Delta Squad retreats to the underground
       research labs. Brood is found held in a containment tank as a test subject, deemed
@@ -49,5 +60,17 @@ beats:
       and hands him his last power cell before dying. Vega grants him a Spanish benediction:
       "Vaya con Dios, hermano."
     source_chunks: [brood_001]
+  - text: >
+      After Delta Squad infiltrates the Collector ship and administers the antidote through
+      its processing plant, Christine reawakens with the other colonists, consoles a
+      frightened April, and assures her Vega is coming. When Collector forces attack, she
+      fights alongside the others; as the ship descends toward the planet after its drive
+      core is destroyed, she holds onto April.
+    source_chunks: [christine_001]
+  - text: >
+      Vega then faces a difficult choice. Whichever option he takes costs the lives of all
+      the colonists, including Christine and April, as the ship crashes onto the surface.
+    source_chunks: [christine_001]
+related_scenes: [fehl-prime-blood-pack-siege-2183]
 related_events: [fehl-prime-collector-attack]
-source_chunks: [brood_001]
+source_chunks: [brood_001, christine_001]

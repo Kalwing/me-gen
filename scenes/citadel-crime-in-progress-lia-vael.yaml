@@ -1,0 +1,41 @@
+scene_id: citadel-crime-in-progress-lia-vael
+title: Clearing Lia'Vael of Theft on Level 26
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Citadel, Level 26 marketplace
+where: the marketplace on Level 26 of the Citadel, then Saronis Applications on the same level
+
+participants: [Shepard, Kor Tun, Officer Tammert, Lia'Vael nar Ulnay, Tali'Zorah, Marab]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Shepard passes a disturbance on Level 26: a volus, Kor Tun, is telling C-Sec officer
+      Tammert to arrest a quarian, Lia'Vael nar Ulnay, claiming she stole his credit chit
+      after bumping into him outside the Sirta Foundation.
+    source_chunks: [citadel-crime-in-progress_002]
+  - text: >
+      Shepard offers to look into it. If Tali is in the squad, she commiserates with
+      Lia'Vael and pushes back against the racial prejudice coming from Kor Tun and Tammert;
+      Shepard's other companion may react to how forcefully she does it.
+    source_chunks: [citadel-crime-in-progress_003]
+    conditional: {tali_in_squad: true}
+  - text: >
+      At Saronis Applications on the same level, the salarian clerk Marab explains Kor Tun
+      made purchases and left his credit chit behind before Marab could return it. Shepard
+      reports back to Kor Tun, who is unrepentant and insists the quarian still could have
+      stolen it; Tammert warns Lia'Vael to get a permanent residence or be run in for
+      vagrancy.
+    source_chunks: [citadel-crime-in-progress_003]
+  - text: >
+      Shepard can use a Paragon interrupt to stand up for Lia'Vael. If Tali is present, she
+      wishes Lia'Vael good luck as the encounter ends.
+    source_chunks: [citadel-crime-in-progress_003]
+    conditional: {tali_in_squad: true}
+
+related_scenes: []
+related_events: []
+source_chunks: [citadel-crime-in-progress_002, citadel-crime-in-progress_003]

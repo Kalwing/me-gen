@@ -1,0 +1,58 @@
+scene_id: citadel-docks-retake-the-normandy
+title: Retaking the Normandy From the Clone
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel, Citadel DLC, immediately after Citadel Archives: Escape"
+where: the Citadel docks, then the Normandy SR-2's CIC and Cargo Bay
+
+participants: [Shepard, Joker, EDI, Samantha Traynor, Steve Cortez, James Vega, Brooks, Shepard's clone]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Freed from the archives vault, Shepard learns the clone is trying to steal the
+      Normandy. Joker has room in the shuttle for Shepard plus two, and the squadmates left
+      behind are resentful. During the ride, EDI, if brought along, briefly goes offline
+      because the clone has blocked her connection and taken control of the ship.
+    source_chunks: [citadel-docks-retake-the-normandy_003, citadel-docks-retake-the-normandy_004]
+  - text: >
+      Joker gets the squad close before the Citadel's auto-targeting downs the shuttle, and
+      Shepard fights through waves of CAT6 mercenaries, including Heavies and Snipers,
+      across the platform toward the Normandy.
+    source_chunks: [citadel-docks-retake-the-normandy_004]
+  - text: >
+      On the boarding ramp, Communications Specialist Samantha Traynor is furious: the
+      clone, whom she took for the real Shepard, fired and discharged her for conduct
+      unbecoming. Shepard convinces her the clone is an impostor. Sealed out of the airlock,
+      Traynor uses her mass-effect toothbrush to open its emergency hatch.
+    source_chunks: [citadel-docks-retake-the-normandy_005]
+  - text: >
+      The Normandy jets away with the clone and Brooks aboard. Shepard's team fights through
+      the CIC, recovers a mercenary payment worth 15,000 credits, and finds the clone has had
+      Shepard's cabin belongings dumped.
+    source_chunks: [citadel-docks-retake-the-normandy_006, citadel-docks-retake-the-normandy_007]
+  - text: >
+      In the Cargo Bay the clone appears in full N7 armor. During a two-stage fight against
+      the clone and a cloaking, sniping Brooks, Cortez and Joker fly a skycar to stop the
+      Normandy from jumping to FTL, leaving the shuttle bay doors open.
+    source_chunks: [citadel-docks-retake-the-normandy_007, citadel-docks-retake-the-normandy_008]
+  - text: >
+      In the final brawl, both Shepards end up dangling over the open bay. Shepard's loyal
+      squad pulls the Commander to safety; Shepard can offer the clone a hand or kick it off
+      the ship, and it falls to its death either way. Brooks is then talked down and
+      arrested, or shot while fleeing.
+    source_chunks: [citadel-docks-retake-the-normandy_008]
+    conditional: {brooks_fate: arrested_or_killed}
+  - text: >
+      Back at the apartment, Joker starts planning a party, inviting Traynor, EDI, and
+      Cortez, with Cortez bringing James and Glyph notifying Liara; Shepard is free to
+      explore the Citadel Strip.
+    source_chunks: [citadel-docks-retake-the-normandy_008]
+
+related_scenes: [citadel-archives-escape-clone-confrontation, citadel-party-apartment]
+related_events: [citadel-dlc-archives]
+source_chunks: [citadel-docks-retake-the-normandy_003, citadel-docks-retake-the-normandy_004, citadel-docks-retake-the-normandy_005, citadel-docks-retake-the-normandy_006, citadel-docks-retake-the-normandy_007, citadel-docks-retake-the-normandy_008]

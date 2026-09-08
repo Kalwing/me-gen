@@ -1,0 +1,64 @@
+scene_id: normandy-michel-ship-doctor
+title: Michel Comes Aboard as the Normandy's Doctor
+kind: downtime
+game: Mass Effect 3
+when: "2186, after Priority: Earth, aboard the Normandy SR-2 and the Citadel"
+where: Huerta Memorial Hospital and the Normandy SR-2's med-bay, mess hall, and crew quarters
+
+participants: [Shepard, Chloe Michel, Gregory Adams]
+private_to: []
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      By 2186 Michel is the human medical lead at Huerta Memorial Hospital; after Shepard
+      gets off Mars following the attack on Earth, she oversees treatment of the Virmire
+      survivor, Ashley Williams or Kaidan Alenko. Shepard can recruit her as the Normandy's
+      doctor, though if Dr. Chakwas survived the suicide mission Shepard must first deny
+      Chakwas's request to return and then convince Michel to come aboard instead.
+    source_chunks: [chloe-michel_005]
+  - text: >
+      During Michel's initial examination of Shepard aboard the Normandy, she notes the
+      cybernetic implants Cerberus used to reconstruct the Commander and remarks the med-bay
+      upgrade must have cost a considerable amount. She regrets how much more intensive her
+      new work is, but believes the chance to make a real difference with the crew is worth
+      it.
+    source_chunks: [chloe-michel_005]
+  - text: >
+      After the Cerberus attack on the Citadel, Michel asks Shepard to broker a trade with
+      Tactus, the refugees' leader on the Citadel: the refugees have excess medical supplies
+      for wounded soldiers, while the Normandy has excess supplies suited to civilian use.
+      She explains Tactus distrusts the Alliance military and will not deal with her
+      directly, but believes Shepard can make the trade happen, and that the new supplies
+      will let her improve medi-gel's efficiency.
+    source_chunks: [chloe-michel_005]
+  - text: >
+      Michel and Engineer Adams talk often aboard ship. While Mordin Solus or Padok Wiks is
+      treating Eve in the med-bay, Michel can be found in the crew quarters talking with
+      Adams about her history with Armistan Banes, and later asks him about his working
+      relationship with Dr. Chakwas.
+    source_chunks: [chloe-michel_005]
+  - text: >
+      If Garrus survived the suicide mission and has rejoined the crew, Michel brings him
+      turian chocolates she bought on the Citadel, saying she saw them and thought of him,
+      and brings up the time he saved her life in the Wards in 2183. Asked by Adams about
+      it, she just says Garrus is a friend.
+    source_chunks: [chloe-michel_005]
+    conditional: {garrus_alive: true}
+  - text: >
+      Sometime after the geth dreadnought is destroyed above Rannoch, Michel and Adams argue
+      in the mess hall about whether synthetics count as a valid form of life; like Dr.
+      Chakwas, Michel does not believe they do, citing their inherently artificial nature.
+    source_chunks: [chloe-michel_005]
+  - text: >
+      If Shepard never interacts with Michel, she disappears from Huerta Memorial Hospital
+      after the Cerberus attack on the Citadel, and also disappears after a second visit to
+      the recovering Virmire survivor while they are awake and Shepard is leaving the
+      hospital.
+    source_chunks: [chloe-michel_005]
+
+related_scenes: [citadel-huerta-ashley-recovery, normandy-michel-adams-banes-conversation]
+related_events: []
+source_chunks: [chloe-michel_005]

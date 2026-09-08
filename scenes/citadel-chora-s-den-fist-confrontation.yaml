@@ -1,0 +1,40 @@
+scene_id: citadel-chora-s-den-fist-confrontation
+title: Raiding Chora's Den and Confronting Fist
+kind: mission-aside
+game: Mass Effect
+when: "2183, Citadel, during the hunt for Saren"
+where: Chora's Den, then Fist's turret-defended office at the rear, the Wards
+
+participants: [Shepard, Fist, Urdnot Wrex]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Hearing Fist has been in contact with a quarian holding evidence of Saren's treachery,
+      Shepard's squad raids the shut-down Chora's Den. Fist's thugs and bar employees open
+      fire but cannot stop the squad from breaking through to his office at the rear,
+      defended by turrets.
+    source_chunks: [chora-s-den_003, fist_003]
+  - text: >
+      Fist surrenders and admits he sent the quarian to a nearby alley, telling her she was
+      meeting the Shadow Broker when in fact he had set her up with Saren's associates.
+      Held at gunpoint, he pleads to be let go, promising to vanish and hide from the
+      Broker.
+    source_chunks: [fist_003]
+  - text: >
+      If Wrex is in the squad, he kills Fist on the spot to fulfill his contract with the
+      Shadow Broker regardless of Shepard's choice. Otherwise Shepard can execute Fist or
+      release him. An OSD of Fist's private files can be recovered from the office and later
+      handed to reporter Emily Wong.
+    source_chunks: [fist_003]
+    conditional: {wrex_in_squad: true}
+  - text: >
+      With Fist out of the picture, Chora's Den reopens for business soon after.
+    source_chunks: [chora-s-den_003]
+
+related_scenes: [citadel-wrex-recruitment, citadel-garrus-recruitment]
+related_events: []
+source_chunks: [chora-s-den_003, fist_003]
