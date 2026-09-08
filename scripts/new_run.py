@@ -16,7 +16,7 @@ MARKER = "# UNAPPROVED — remove this line to approve the outline"
 
 
 def new_run(narrator: str, themes: list[str], words: int, out_root: Path,
-            brief: str = "") -> Path:
+            brief: str = "", form: str = "") -> Path:
     out_root = Path(out_root)
     base = f"{common.slugify(narrator)}_{common.slugify('-'.join(themes))}_{time.strftime('%Y-%m-%d')}"
     run = out_root / base
@@ -25,8 +25,12 @@ def new_run(narrator: str, themes: list[str], words: int, out_root: Path,
         run = out_root / f"{base}_{n}"
         n += 1
     (run / "sections").mkdir(parents=True)
+    (run / "packs").mkdir()
+    # `form` / `form_note` are placeholders the outline-writer fills — see config/forms.yaml.
+    # They are scaffolded empty so the shape of an outline is visible before one is written.
     body = yaml.safe_dump(
         {"narrator": narrator, "themes": themes, "brief": brief,
+         "form": form, "form_note": "",
          "target_words": words, "sections": []},
         sort_keys=False, allow_unicode=True,
     )
@@ -43,7 +47,12 @@ if __name__ == "__main__":
     ap.add_argument("--brief", default="",
                     help="free-text directorial note: scene, occasion, mood, who "
                          "the narrator is addressing (shapes framing, not canon)")
+    ap.add_argument("--form", default="",
+                    help="episode form id from config/forms.yaml; blank lets "
+                         "outline-writer choose one")
     ap.add_argument("--out", type=Path, default=Path("output"))
     a = ap.parse_args()
     themes = [t.strip() for t in a.themes.split(",") if t.strip()]
-    print(new_run(a.narrator, themes, a.words, a.out, brief=a.brief.strip()))
+    if a.form and a.form not in common.load_forms():
+        raise SystemExit(f"unknown form {a.form!r}; known: {', '.join(common.load_forms())}")
+    print(new_run(a.narrator, themes, a.words, a.out, brief=a.brief.strip(), form=a.form))

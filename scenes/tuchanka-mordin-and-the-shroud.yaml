@@ -1,0 +1,43 @@
+scene_id: tuchanka-mordin-and-the-shroud
+title: Mordin Goes Up the Shroud
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, the genophage cure
+where: the Shroud tower, Tuchanka
+
+participants: [Shepard, Mordin Solus]
+private_to: [Shepard, Mordin Solus]
+heard_by: [Normandy crew]
+
+requires:
+  - genophage: any
+  - mordin_fate: any
+
+beats:
+  - text: >
+      With the tower coming apart around them, it is Shepard's call whether Mordin goes up to
+      fix the sabotage.
+    source_chunks: [mordin-solus_008]
+  - text: >
+      Let up, he is grateful for it, and repeats his reason: it had to be him, someone else
+      might have gotten it wrong. He is killed by a direct explosion in the control room.
+    source_chunks: [mordin-solus_008, mordin-solus_006]
+  - text: >
+      If he sang for Shepard during the Collector business, he dies singing "Scientist
+      Salarian", at peace with the genophage work at last.
+    source_chunks: [mordin-solus_008]
+  - text: >
+      Shot to stop him, he still gets the elevator up and crawls for the console, and does not
+      reach it in time.
+    source_chunks: [mordin-solus_008]
+  - text: >
+      With Wrex and Eve both alive, Eve insists their first child be named Mordin.
+    source_chunks: [mordin-solus_008]
+  - text: >
+      However he dies, his name goes on the Normandy's memorial wall.
+    source_chunks: [mordin-solus_008]
+
+related_scenes: [tuchanka-mordin-and-maelon, normandy-cockpit-garrus-and-joker,
+                 normandy-memorial-wall-after-thessia]
+related_events: []
+source_chunks: [mordin-solus_006, mordin-solus_008]

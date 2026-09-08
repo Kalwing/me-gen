@@ -1,0 +1,57 @@
+scene_id: citadel-garrus-sidonis-orbital-lounge
+title: The Shot Garrus Set Up on Sidonis
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Horizon
+where: the Citadel — Fade's hideout in the Factory District, then the Orbital Lounge
+
+participants: [Shepard, Garrus Vakarian, Sidonis, Harkin]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - garrus_loyalty: any
+
+beats:
+  - text: >
+      Garrus's account of Omega: Sidonis, one of his own squad, called him away on a job that
+      turned out to be nothing. He came back to find the team massacred — all but two already
+      dead, and those two did not last. Sidonis had emptied his accounts and booked passage
+      off Omega just before the attack.
+    source_chunks: [garrus-vakarian_007]
+  - text: >
+      Sidonis surfaces on the Citadel in the company of a forger called Fade, and Garrus
+      intends to collect the blood debt. He asks for Shepard's help if there is time.
+    source_chunks: [garrus-vakarian_007]
+  - text: >
+      Fade turns out to be Harkin, the ex-C-Sec cop. Shepard can let Garrus put a round through
+      his knee or stop him; stopped, Garrus headbutts him instead.
+    source_chunks: [garrus-vakarian_007]
+  - text: >
+      They take a skycar to the Orbital Lounge. Garrus will not be talked out of it: he points
+      out his sniper perch, tells Shepard to draw Sidonis into the open, and gets out of the
+      cab.
+    source_chunks: [garrus-eye-for-an-eye_012]
+  - text: >
+      Shepard stands in front of Sidonis with Garrus's crosshairs on him and decides how the
+      conversation goes.
+    source_chunks: [garrus-eye-for-an-eye_012]
+
+variants:
+  - condition: {let_sidonis_live: true}
+    text: >
+      Warned, Sidonis is terrified and tries to explain — he sold the team to save himself,
+      and has been haunted by it since. Shepard talks Garrus down; Sidonis thanks him for a
+      second chance and walks away. Emily Wong later reports that he turned himself in for ten
+      murders, and that C-Sec can do little about it with no government on Omega to extradite
+      him to.
+    source_chunks: [garrus-eye-for-an-eye_012, garrus-vakarian_007]
+  - condition: {let_sidonis_live: false}
+    text: >
+      Shepard steps aside and Garrus takes the shot. C-Sec investigates the death afterwards
+      and gets nowhere.
+    source_chunks: [garrus-eye-for-an-eye_012, garrus-eye-for-an-eye_013]
+
+related_scenes: []
+related_events: []
+source_chunks: [garrus-vakarian_007, garrus-eye-for-an-eye_012, garrus-eye-for-an-eye_013]

@@ -76,3 +76,81 @@ def test_retrieve_no_matches(tmp_path):
     build_bm25.build(chunks, index)
     hits = retrieve.retrieve(index, ["xyzabc defgh"], k=10)
     assert hits == []
+
+
+# --- kind-tagged index ----------------------------------------------------
+
+def _tiny_corpus(tmp_path):
+    """A chunks file, a page summary and a scene — one of each kind."""
+    chunks = tmp_path / "chunks.jsonl"
+    chunks.write_text(
+        '{"chunk_id": "party_001", "source": "party", "page": "Citadel: Party", '
+        '"section": "", "game": "Mass Effect 3", "text": "Joker suggests throwing a party.", '
+        '"url": "u"}\n', encoding="utf-8")
+
+    summaries = tmp_path / "page_summaries"
+    summaries.mkdir()
+    (summaries / "krogan-monument.md").write_text(
+        "---\ntitle: Krogan Monument\nurl: u\ngame: Mass Effect 3\ntype: location\n"
+        "characters: [Grunt]\n---\n\nA statue of a krogan warrior in the Presidium lake.\n",
+        encoding="utf-8")
+
+    scenes_dir = tmp_path / "scenes"
+    scenes_dir.mkdir()
+    (scenes_dir / "citadel-grunt-csec.yaml").write_text(
+        "scene_id: citadel-grunt-csec\ntitle: Bailing Grunt Out\nkind: hangout\n"
+        "game: Mass Effect 3\nwhen: 2186\nwhere: a noodle stand\n"
+        "participants: [Shepard, Grunt]\n"
+        "beats:\n  - text: Grunt threw a bottle of ryncol at a C-Sec shuttle.\n"
+        "    source_chunks: [grunt_005]\n"
+        "source_chunks: [grunt_005]\n", encoding="utf-8")
+    return chunks, summaries, scenes_dir
+
+
+def test_build_tags_every_chunk_with_a_kind(tmp_path):
+    from scripts import build_bm25, retrieve as r
+    chunks, summaries, scenes_dir = _tiny_corpus(tmp_path)
+    out = tmp_path / "index.pkl"
+    n = build_bm25.build(chunks, out, summaries_dir=summaries, scenes_dir=scenes_dir)
+    assert n == 3
+    _, rows = r.load_index(out)
+    assert {row["kind"] for row in rows} == {"page", "summary", "scene"}
+
+
+def test_scene_chunks_carry_their_scene_id(tmp_path):
+    from scripts import build_bm25, retrieve as r
+    chunks, summaries, scenes_dir = _tiny_corpus(tmp_path)
+    out = tmp_path / "index.pkl"
+    build_bm25.build(chunks, out, summaries_dir=summaries, scenes_dir=scenes_dir)
+    _, rows = r.load_index(out)
+    scene_rows = [row for row in rows if row["kind"] == "scene"]
+    assert scene_rows and scene_rows[0]["scene_id"] == "citadel-grunt-csec"
+
+
+def test_retrieve_can_demand_a_kind(tmp_path):
+    from scripts import build_bm25, retrieve as r
+    chunks, summaries, scenes_dir = _tiny_corpus(tmp_path)
+    out = tmp_path / "index.pkl"
+    build_bm25.build(chunks, out, summaries_dir=summaries, scenes_dir=scenes_dir)
+    hits = r.retrieve(out, ["krogan monument statue"], k=5, kinds=["summary"])
+    assert hits and all(h["kind"] == "summary" for h in hits)
+
+
+def test_retrieve_per_kind_k_spreads_the_budget(tmp_path):
+    # 6 of whatever scores highest is how a party section ended up with nine chunks
+    # about mercenaries. A pack asks for n of each kind instead.
+    from scripts import build_bm25, retrieve as r
+    chunks, summaries, scenes_dir = _tiny_corpus(tmp_path)
+    out = tmp_path / "index.pkl"
+    build_bm25.build(chunks, out, summaries_dir=summaries, scenes_dir=scenes_dir)
+    hits = r.retrieve_by_kind(out, ["krogan monument ryncol party"],
+                              per_kind={"scene": 1, "summary": 1, "page": 1})
+    assert {h["kind"] for h in hits} == {"page", "summary", "scene"}
+
+
+def test_retrieve_without_kinds_is_unchanged(tmp_path):
+    from scripts import build_bm25, retrieve as r
+    chunks, summaries, scenes_dir = _tiny_corpus(tmp_path)
+    out = tmp_path / "index.pkl"
+    build_bm25.build(chunks, out, summaries_dir=summaries, scenes_dir=scenes_dir)
+    assert len(r.retrieve(out, ["party"], k=5)) >= 1

@@ -1,0 +1,43 @@
+scene_id: citadel-garrus-casino-bar
+title: Drinks with Garrus at the Silver Coast
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the clone is defeated
+where: the bar on the upper floor of the Silver Coast Casino, Silversun Strip
+
+participants: [Shepard, Garrus Vakarian]
+private_to: [Shepard, Garrus Vakarian]
+heard_by: [Normandy crew]
+
+requires:
+  - garrus_alive: true
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Garrus messages Shepard to check out the bar scene — the Silver Coast Casino, upper
+      floor — and signs off hoping there are no dead arms dealers this time.
+    source_chunks: [personal-apartment_013, silver-coast-casino_008]
+  - text: >
+      The Silver Coast is Elijah Khan's casino on the Silversun Strip, three floors, quasar
+      terminals, roulette, varren racing broadcast live from Tuchanka, and a dance floor
+      upstairs.
+    source_chunks: [silver-coast-casino_001, silver-coast-casino_002, silver-coast-casino_007]
+
+variants:
+  - condition: {romance: Garrus}
+    text: >
+      The two of them roleplay a first date until Garrus runs out of banter, at which point he
+      hauls a reluctant Shepard onto the dance floor and they tango.
+    source_chunks: [garrus-vakarian_014]
+  - condition: {romance: other}
+    text: >
+      Shepard plays wingman instead, pointing Garrus at a female turian. He is visibly
+      uncomfortable and his first attempt is clumsy; with Shepard's coaching and a beer he
+      goes back in and does considerably better.
+    source_chunks: [garrus-vakarian_014]
+
+related_scenes: [citadel-party-apartment]
+related_events: [citadel-dlc-archives]
+source_chunks: [garrus-vakarian_014, personal-apartment_013, silver-coast-casino_001,
+                silver-coast-casino_002, silver-coast-casino_007, silver-coast-casino_008]

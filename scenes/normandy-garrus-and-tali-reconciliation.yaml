@@ -1,0 +1,34 @@
+scene_id: normandy-garrus-and-tali-reconciliation
+title: Garrus Apologises to Tali
+kind: banter
+game: Mass Effect 3
+when: 2186, after Rannoch
+where: aboard the Normandy SR-2
+
+participants: [Shepard, Garrus Vakarian, Tali'Zorah vas Normandy]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - rannoch: resolved
+
+beats:
+  - text: >
+      Garrus denies having judged the quarians the way Tali says he did, then stops and
+      apologises properly, admitting he was wrong about them.
+    source_chunks: [tali-zorah-nar-rayya_010]
+  - text: >
+      Tali's read is that losing Palaven gave him a new perspective on her people, and he
+      agrees. He turns her own opening question back on her — any regrets about serving on a
+      human ship — and she has none.
+    source_chunks: [tali-zorah-nar-rayya_010]
+  - text: >
+      Elsewhere Tali asks EDI why the Reapers have not made husks of quarians. EDI's answer is
+      not that they are useless but that the Reapers have not met them in numbers, and that
+      the Normandy has benefited enormously from quarian engineering. Tali takes the comfort
+      and thanks her.
+    source_chunks: [tali-zorah-nar-rayya_010]
+
+related_scenes: [normandy-memorial-wall-after-thessia, normandy-main-battery-goodbyes]
+related_events: []
+source_chunks: [tali-zorah-nar-rayya_010]

@@ -1,0 +1,36 @@
+scene_id: illium-miranda-and-oriana
+title: Getting Oriana Off Illium
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, when Miranda's father finally locates her sister
+where: Illium
+
+participants: [Shepard, Miranda Lawson, Oriana Lawson]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - miranda_loyalty: any
+
+beats:
+  - text: >
+      Miranda has a twin, Oriana, made as part of their father's intended dynasty. Protecting
+      Oriana — and herself — is why she joined Cerberus in the first place.
+    source_chunks: [miranda-lawson_014]
+  - text: >
+      Their father stopped hunting Miranda. He never stopped hunting Oriana. Cerberus helped
+      Miranda build Oriana a life on Illium, an ordinary one their father would never have
+      permitted.
+    source_chunks: [miranda-lawson_014]
+  - text: >
+      A contact warns Miranda that he has found her, and Cerberus arranges a relocation.
+      Miranda insists on going, to make sure nothing goes wrong.
+    source_chunks: [miranda-lawson_014]
+  - text: >
+      Miranda came to see that she had escaped her father's control only to do the same thing
+      to someone else.
+    source_chunks: [miranda-lawson_017]
+
+related_scenes: [normandy-jack-miranda-confrontation, citadel-party-apartment]
+related_events: []
+source_chunks: [miranda-lawson_014, miranda-lawson_017]

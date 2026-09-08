@@ -1,0 +1,55 @@
+scene_id: tuchanka-grunt-rite-of-passage
+title: Grunt's Rite of Passage
+kind: ceremony
+game: Mass Effect 2
+when: 2185, after Horizon, once Grunt is woken from his tank
+where: Tuchanka — Clan Urdnot's camp, then the Rite grounds
+
+participants: [Shepard, Grunt, Urdnot Wrex, Gatatog Uvenk, the Urdnot Shaman]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - grunt_loyalty: any
+
+beats:
+  - text: >
+      Grunt believes he is seriously ill and asks to be taken to Tuchanka for a diagnosis.
+      Shepard takes it to the leader of Clan Urdnot.
+    source_chunks: [grunt-rite-of-passage_001, grunt-rite-of-passage_004]
+  - text: >
+      The Rite runs in three waves, each summoned by striking the keystone. Varren first, in
+      numbers.
+    source_chunks: [grunt-rite-of-passage_005, grunt-rite-of-passage_006]
+  - text: >
+      Second wave: klixen, fire-breathers, dropped in by harvester.
+    source_chunks: [grunt-rite-of-passage_007]
+  - text: >
+      Third is not a wave. It is a thresher maw, and it is meant to be survived rather than
+      killed — the timer runs five minutes.
+    source_chunks: [grunt-rite-of-passage_008]
+  - text: >
+      Gatatog Uvenk interrupts the aftermath with an offer conditional on Grunt knowing his
+      place, and it ends in a fight.
+    source_chunks: [grunt-rite-of-passage_009]
+  - text: >
+      Grunt joins Clan Urdnot. The Shaman writes to Shepard afterwards.
+    source_chunks: [grunt-rite-of-passage_010, grunt-rite-of-passage_013]
+  - text: >
+      Wrex himself killed a thresher maw during his own Rite — the feat that made his name in
+      Clan Urdnot.
+    source_chunks: [urdnot-wrex_002]
+
+variants:
+  - condition: {grunt_loyalty: killed the thresher maw}
+    text: >
+      Killing the maw outright rather than surviving the timer is the rarer outcome, and the
+      one that gets talked about.
+    source_chunks: [grunt-rite-of-passage_008]
+
+related_scenes: [citadel-grunt-csec-noodles, citadel-party-apartment]
+related_events: []
+source_chunks: [grunt-rite-of-passage_001, grunt-rite-of-passage_004, grunt-rite-of-passage_005,
+                grunt-rite-of-passage_006, grunt-rite-of-passage_007, grunt-rite-of-passage_008,
+                grunt-rite-of-passage_009, grunt-rite-of-passage_010, grunt-rite-of-passage_013,
+                urdnot-wrex_002]

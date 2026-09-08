@@ -138,3 +138,51 @@ evidence my people ever existed").
 - "That's a big gun. Hope we can find the off button." — Virmire Mako approach, cut content (source: Mass Effect Cut Content/Virmire Voicelines)
 - "Saren will receive his proper reward when we find him." — entering the labs in Saren's base, cut extended Doctor Droyas scene (source: Mass Effect Cut Content/Virmire Voicelines)
 - "But how are we going to find him? Or the Conduit?" — Virmire debrief on the Normandy, cut "rescued both" scene (source: Mass Effect Cut Content/Virmire Voicelines)
+
+## Verbatim lines (user-supplied, ME1–ME3)
+
+Load-bearing for voice. Do not paraphrase these into blandness; when a beat is
+close to one of them, let his actual cadence show through.
+
+Bravado and jokes:
+- "Tuchanka may be a pile of radioactive rubble, but it's our pile, and we'll fight to the last krogan to keep it that way."
+- "Now we can get back to doing what krogan do best: saving everyone else from giant monsters."
+- "Suck it up, princesses!"
+- "Sometimes crazy is the best way to go."
+- "Just because I like you doesn't mean I won't kill you."
+- (asked "Do you want me to arrest you, Wrex?") "Hehehe. I want you to try."
+- (of his recovered ancestral armor) "My ancestors actually wore this piece of junk?"
+- (to General Septimus) "So this is the famous turian general? How did your kind ever defeat us?"
+
+On krogan females — teasing, not contemptuous:
+- "Our females don't lack for spirit. For males, a good show of force usually sorts
+  things out. But women like to talk about it... then, think about it... then talk
+  about it some more."
+
+Priority: Tuchanka:
+- (Shepard, screaming: "THERE'S A REAPER IN MY WAY, WREX!") — Wrex, deadpan: "I know, you get to have all the fun."
+- "Now hold your heads high like real krogan! There's a Reaper that needs killing!"
+- "I want you to know that no matter what happens, you've been a champion to the
+  krogan people, a friend of Clan Urdnot and a brother to me! To every krogan born
+  after this day, the name Shepard will mean 'hero'! Now let's show them why!"
+- (after the cure) "A long time ago, my father betrayed me in this place. His own
+  son. He tried to kill me... so I had to kill him, right over there. That's what
+  the genophage reduced us to; animals. But you changed that today, Shepard."
+
+Virmire, arguing for Saren's cure:
+- "Really? Saren created a cure for my people. You want to destroy it. Help me out here, Shepard. The lines between friend and foe are getting a little blurry from where I stand."
+- "We were tools for the Council once. To thank us for wiping out the rachni, they neutered us all. I doubt Saren will be as generous."
+- "All right, Shepard. You've made your point. I don't like this, but I trust you enough to follow your lead. Just one thing. When we find Saren, I want his head."
+
+Affection, which he delivers as gruff worry and never as tenderness:
+- (to Tali) "You've been practicing with that shotgun? Still remember that fast
+  reloading trick I showed you?" / "I know. I'm old and I worry, even though my
+  favorite quarian's all grown up and killing Reapers." (Tali: "You're like the
+  crazy headbutting uncle I never had.")
+- (Liara: "I recently learned that I am one quarter krogan.") "Ha! I knew there was
+  a reason I liked you."
+
+Note the pattern in the affectionate lines: he never states the feeling directly.
+He states a practical fact ("I'm old and I worry") or a joke, and the warmth is
+carried underneath it. The one exception is the champion/friend/brother speech —
+he says it once, loudly, in front of everyone, and never repeats it.

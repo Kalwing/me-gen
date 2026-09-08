@@ -1,0 +1,48 @@
+scene_id: normandy-gabby-and-kenneth-thermal-ducts
+title: Double-Checking the Thermal Ducts
+kind: banter
+game: Mass Effect 3
+when: 2186, aboard the Normandy during the war
+where: the engineering deck and the sub-deck of the Normandy SR-2
+
+participants: [Shepard, Gabriella Daniels, Kenneth Donnelly]
+private_to: []
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      Both were taken into custody when the Alliance impounded the Normandy, and Shepard has
+      to clear them back aboard.
+    source_chunks: [gabriella-daniels_003, kenneth-donnelly_003]
+  - text: >
+      Kenneth will not talk about the abduction. Asked outright by Gabby whether he ever
+      thinks about it, he says no and closes the subject.
+    source_chunks: [kenneth-donnelly_004]
+  - text: >
+      Gabby finally calls it: he comments on every other woman aboard and has never once
+      appreciated her. Kenneth's objection is that a relationship would cost the mission.
+    source_chunks: [kenneth-donnelly_004]
+  - text: >
+      If Shepard sides with Gabby, the argument he accepts is that the war is being fought for
+      the people close to them — after which he starts complimenting her legs. The two can
+      later be caught in the sub-deck "double-checking the thermal ducts", and if nobody
+      catches them they stay down there indefinitely, still commenting on Tali's jury-rigging
+      of the venting from where they are.
+    source_chunks: [kenneth-donnelly_004]
+  - text: >
+      Before the final push on Earth, Kenneth wishes he could be at Shepard's side. Gabby
+      mocks his shooting; he amends it to wishing he could shoot better and then join.
+    source_chunks: [kenneth-donnelly_004]
+
+variants:
+  - condition: {gabby_alive: false}
+    text: >
+      With Gabby dead in the Collector attack, Kenneth still comes aboard but is quieter, has
+      stopped the deck banter entirely, and tells Shepard only to make the Reapers feel it.
+    source_chunks: [kenneth-donnelly_004]
+
+related_scenes: [normandy-engineering-gabby-and-kenneth, normandy-tali-stealth-experiment]
+related_events: []
+source_chunks: [gabriella-daniels_003, kenneth-donnelly_003, kenneth-donnelly_004]

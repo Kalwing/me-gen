@@ -1,0 +1,52 @@
+scene_id: citadel-grunt-csec-noodles
+title: Bailing Grunt Out at the Noodle Stand
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after Shepard has been in and out of the apartment a few times
+where: a noodle stand on the Silversun Strip, C-Sec holding him there
+
+participants: [Shepard, Grunt]
+private_to: [Shepard, Grunt]
+heard_by: [Normandy crew]
+
+requires:
+  - grunt_fate: alive
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      C-Sec emails Shepard about a troublemaking krogan and asks the Commander to report to
+      the officer on patrol on the Silversun Strip. Shepard finds Grunt detained at a noodle
+      stand and politely muscles C-Sec off his back before getting the story.
+    source_chunks: [grunt_005, personal-apartment_013]
+  - text: >
+      Grunt had been recovering in Huerta Memorial Hospital after the battle on Utukku, and
+      got bored. He was broken out by being lowered on a rope, which did not work — he fell
+      several storeys.
+    source_chunks: [grunt_005]
+  - text: >
+      The night went on to the Krogan Memorial statue on the Presidium, which they climbed
+      rather than looked at, taking pictures of themselves on it.
+    source_chunks: [grunt_005, krogan-monument_002]
+  - text: >
+      When C-Sec arrived, Grunt threw a bottle of ryncol at their shuttle and set it alight.
+      The pilot jumped clear; Grunt got in and took it for a joyride until he crashed it into
+      a noodle stand.
+    source_chunks: [grunt_005, krogan-monument_002]
+  - text: >
+      C-Sec caught up with him while he was buying noodles, because he was hungry. He dropped
+      Shepard's name to avoid the brig — which is why Shepard is standing there at all.
+    source_chunks: [grunt_005]
+  - text: >
+      The Krogan Monument itself is a statue of a krogan warrior standing in the lake near the
+      Citadel Tower on the Presidium, commissioned to commemorate the krogan.
+    source_chunks: [krogan-monument_001]
+
+variants:
+  - condition: {arena_ally_license: true}
+    text: Grunt can be bought in as an ally for Shepard's matches at the Armax Arsenal Arena.
+    source_chunks: [grunt_005]
+
+related_scenes: [citadel-party-apartment, citadel-armax-arena-matches]
+related_events: []
+source_chunks: [grunt_005, krogan-monument_001, krogan-monument_002, personal-apartment_013]

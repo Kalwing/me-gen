@@ -1,0 +1,39 @@
+scene_id: citadel-armax-arena-matches
+title: The Armax Arsenal Arena
+kind: downtime
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after retaking the Normandy
+where: the Armax Arsenal Arena combat simulator, Silversun Strip
+
+participants: [Shepard]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      The Arena is a huge rectangular room that projects fully immersive holographic
+      environments and scenarios; Shepard fights holographic enemies for score and prizes.
+    source_chunks: [armax-arsenal-arena_002, armax-arsenal-arena_003]
+  - text: >
+      Armax writes to Shepard directly. They are fans; they reskinned the holographic enemies
+      as Cerberus troops for morale and awareness, the way they added geth a few years back
+      after the attack on the Citadel, and they are adding Reaper forces. There is a
+      complimentary pass waiting whenever the Commander wants it.
+    source_chunks: [personal-apartment_014]
+  - text: >
+      Squadmates fight alongside Shepard as allies, each one licensed separately, and matches
+      are scored with modifiers and prize ranks — bronze, silver, gold.
+    source_chunks: [armax-arsenal-arena_004, armax-arsenal-arena_007, armax-arsenal-arena_009]
+  - text: >
+      Shepard climbs the Arena scoreboard and gets arena-specific mail for it as the rankings
+      move.
+    source_chunks: [armax-arsenal-arena_014]
+
+related_scenes: [citadel-jack-arena-brimstone]
+related_events: []
+source_chunks: [armax-arsenal-arena_002, armax-arsenal-arena_003, armax-arsenal-arena_004,
+                armax-arsenal-arena_007, armax-arsenal-arena_009, armax-arsenal-arena_014,
+                personal-apartment_014]

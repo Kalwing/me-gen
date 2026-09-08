@@ -1,0 +1,74 @@
+scene_id: flotilla-tali-treason-trial
+title: Tali's Trial Aboard the Rayya
+kind: ceremony
+game: Mass Effect 2
+when: 2185, some time after Tali rejoined Shepard
+where: the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber
+
+participants: [Shepard, Tali'Zorah vas Normandy, Shala'Raan vas Tonbay, Kar'Danna vas Rayya]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - tali_trial: any
+
+beats:
+  - text: >
+      The Normandy is a registered Cerberus vessel and the Fleet treats it as such; only
+      Tali's passphrase gets them docked with the Rayya. Captain Kar'Danna meets them with a
+      marine detail — weapons raised, if Legion came along.
+    source_chunks: [tali-treason_004]
+  - text: >
+      The charge is smuggling active geth into the Fleet. Tali had been sending deactivated
+      geth samples home on the orders of her father, Admiral Rael'Zorah, and insists she took
+      every precaution.
+    source_chunks: [tali-treason_004, tali-zorah-nar-rayya_006]
+  - text: >
+      In the garden plaza Admiral Shala'Raan greets her as "Tali'Zorah vas Normandy". Tali
+      hugs her — Auntie Raan, a friend of her father — then hears what the name means: she has
+      been stripped of her quarian ship's name before the trial has even opened. Raan reminds
+      her she is entitled to be represented by her current ship's captain, which is Shepard.
+    source_chunks: [tali-treason_004]
+  - text: >
+      The Admiralty Board reveals mid-hearing that the lab ship Alarei has been overrun by
+      geth and that Tali's father, working aboard, is presumed dead. Tali refuses to accept it.
+      Shepard and Tali propose to retake the Alarei; the hearing recesses pending what they
+      find.
+    source_chunks: [tali-treason_004, tali-treason_005]
+  - text: >
+      They come back to find the admirals about to declare Tali dead and judge her in
+      absentia. Walking in stops that.
+    source_chunks: [tali-treason_008]
+  - text: >
+      The Board also carries a political argument of its own about war with the geth, which
+      Shepard can uncover by talking to the admirals before leaving for the Alarei.
+    source_chunks: [tali-treason_008]
+  - text: >
+      Whatever the verdict, the title sticks: she is Tali'Zorah vas Normandy from here on.
+    source_chunks: [tali-zorah-nar-rayya_006]
+
+variants:
+  - condition: {tali_trial: cleared without her father's evidence}
+    text: >
+      Shepard argues from Tali's own history that she would never betray her people — and,
+      having heard the admirals out beforehand, that the trial is being worked for political
+      ammunition. The Board exonerates her. Her father's evidence is never spent, and his name
+      stands.
+    source_chunks: [tali-treason_008, tali-treason_013]
+  - condition: {tali_trial: cleared with her father's evidence}
+    text: >
+      Shepard presents the evidence of Rael'Zorah's crimes. Tali is declared innocent and her
+      father is posthumously exiled, his name struck from the rolls of every ship he served
+      on, and the Fleet balkanises over what to do with the research.
+    source_chunks: [tali-treason_008, tali-treason_013]
+  - condition: {tali_trial: exiled}
+    text: >
+      Shepard says no evidence was found. Tali is convicted, exiled, and given six hours to
+      leave — and takes it in good spirits, having no ties left to confuse the question of
+      loyalty.
+    source_chunks: [tali-treason_008, tali-treason_013]
+
+related_scenes: [normandy-tali-legion-conflict]
+related_events: []
+source_chunks: [tali-treason_004, tali-treason_005, tali-treason_008, tali-treason_013,
+                tali-zorah-nar-rayya_006]

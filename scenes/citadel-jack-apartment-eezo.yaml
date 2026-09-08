@@ -1,0 +1,42 @@
+scene_id: citadel-jack-apartment-eezo
+title: Jack Brings a Varren to the Apartment
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the Arena meet-up
+where: Shepard's personal apartment, the Wards
+
+participants: [Shepard, Jack]
+private_to: [Shepard, Jack]
+heard_by: []
+
+requires:
+  - grissom_academy: evacuated
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Jack messages that she has more free time, and Shepard invites her up to the apartment.
+    source_chunks: [jack_009]
+  - text: >
+      She brings Eezo, a varren from Thessia she pulled out of a shelter. Exposure to element
+      zero in the Thessian environment left him biotic; biotic varren run short-tempered,
+      which is why they get abused and abandoned. He arrived angry and mistrustful of
+      everyone, and enough patience turned him into, in her words, a big old softy — he plays
+      catch with Shepard.
+    source_chunks: [jack_009]
+  - text: >
+      Shepard can point out how much Eezo's history sounds like Jack's. She says she has no
+      idea what Shepard is talking about, and Shepard drops it.
+    source_chunks: [jack_009]
+
+variants:
+  - condition: {romance: Jack}
+    text: >
+      Instead of the varren she brings tattoo equipment and marks Shepard's back. Pressed on
+      the design, she admits she did it so the body would be identifiable whatever happens in
+      the final battle, and tears up at the thought until Shepard holds her.
+    source_chunks: [jack_009]
+
+related_scenes: [citadel-jack-arena-brimstone, citadel-party-apartment]
+related_events: []
+source_chunks: [jack_009]

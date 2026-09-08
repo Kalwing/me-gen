@@ -1,0 +1,74 @@
+scene_id: citadel-party-morning-after
+title: The Morning After, and the Ride Back to the Docks
+kind: downtime
+game: Mass Effect 3
+when: 2186, the morning after the party, the last hours of shore leave
+where: Shepard's personal apartment, then the observation window over the Normandy at Docking Bay D24
+
+participants:
+  - Shepard
+  - Jeff "Joker" Moreau
+  - EDI
+  - Liara T'Soni
+  - James Vega
+  - Steve Cortez
+  - Samantha Traynor
+  - Garrus Vakarian
+  - Tali'Zorah vas Normandy
+  - Urdnot Wrex
+  - Grunt
+  - Jack
+  - Javik
+  - Zaeed Massani
+  - Samara
+  - Kasumi Goto
+  - Miranda Lawson
+  - Jacob Taylor
+  - Kaidan Alenko
+  - Ashley Williams
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Shepard wakes, possibly with their love interest, and takes stock. If Mordin lived long
+      enough to finish the genophage arc, a datapad of his recordings is on the floor beside
+      the bed.
+    source_chunks: [citadel-party_007]
+  - text: >
+      Everyone has scattered. Javik nurses a hangover by the hot tub, Tali does the same on the
+      guest bed. Liara is in the upstairs lounge with Garrus and Glyph; Samara meditates in the
+      rock garden near them; Kasumi is on the balcony.
+    source_chunks: [citadel-party_007]
+  - text: >
+      James cooks breakfast in the kitchen with Miranda, Grunt and the Virmire survivor. Cortez
+      is on a couch by the piano with Zaeed; EDI stands by the piano looking out the window.
+      Joker is hung over at the bar by the window with Wrex on a couch nearby. Traynor hides in
+      the den, searching the extranet for embarrassing recordings of the previous night. Jacob
+      does sit-ups in the downstairs bedroom while Jack does pull-ups.
+    source_chunks: [citadel-party_007]
+  - text: >
+      Garrus and Liara trade terms: he will cut down on the calibrations jokes if she stops
+      saying "by the goddess". He is also relieved at the number of bathrooms, given how long
+      Miranda takes over her hair.
+    source_chunks: [garrus-vakarian_014]
+  - text: >
+      Shepard signals the Rapid Transit beside the Armax Arsenal Arena and takes everyone back
+      to Docking Bay D24, reminding them the war is still going. The crew gathers at the
+      observation window overlooking the Normandy. Shepard's love interest shares some private
+      words there; otherwise Joker is the one reminiscing. Shepard boards last.
+    source_chunks: [citadel-party_007]
+
+variants:
+  - condition: {romance: Thane}
+    text: >
+      After everyone else has boarded, Thane's spirit appears at the window with words of
+      support for his siha, and only then does Shepard go aboard.
+    source_chunks: [citadel-party_007]
+
+related_scenes: [citadel-party-apartment]
+related_events: [citadel-dlc-archives]
+source_chunks: [citadel-party_007, garrus-vakarian_014]

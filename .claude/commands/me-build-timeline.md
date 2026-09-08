@@ -59,15 +59,15 @@ idempotent (no duplicate events).
    (atomic; safe to run repeatedly).
 9. Run the load check:
    `python -c "from pathlib import Path; from scripts import common; print(len(common.load_events(Path('timeline/events'))), 'events')"`
-10. Check the player's canon file: `test -f config/narrative_choices.yaml`. It is a
+10. Check the player's canon file: `test -f config/canon/choices.yaml`. It is a
    tracked file and should always be present.
 11. Backfill the canon catalogue:
-   `python scripts/sync_narrative_choices.py config/narrative_choices.yaml`.
+   `python scripts/sync_narrative_choices.py config/canon/choices.yaml`.
    This appends a blank stub (`answer: ""`, `detail: ""`, with `options` pre-filled
    where the outcome is discrete) for every canonical trilogy decision point not
    already in the file — existing questions, answers and ordering are never touched,
    so it is a no-op once the file is complete. Report which ids (if any) it added.
-12. Remind the user to review `config/narrative_choices.yaml` and set `answer`/`detail`
+12. Remind the user to review `config/canon/choices.yaml` and set `answer`/`detail`
    (or narrow `options` to one value) for whatever they remember of their playthrough
    (Shepard background/profile/class, ME1/2/3 decisions), including any stubs step 11
    just added. Anything left blank falls back to default canon.
@@ -80,5 +80,5 @@ idempotent (no duplicate events).
   nothing out of place (events ordered by in-universe year, then game).
 - Event count is between 50 and 500.
 - Spot-check 3 events: `source_chunks` ids exist in `chunks.jsonl` and are on-topic.
-- `config/narrative_choices.yaml` exists and `python scripts/narrative_choices.py config/narrative_choices.yaml` runs clean.
-- `python scripts/sync_narrative_choices.py config/narrative_choices.yaml --check` reports nothing missing.
+- `config/canon/choices.yaml` exists and `python scripts/canon.py` runs clean.
+- `python scripts/sync_narrative_choices.py config/canon/choices.yaml --check` reports nothing missing.

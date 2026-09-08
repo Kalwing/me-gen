@@ -1,0 +1,35 @@
+scene_id: heretic-station-legion-a-house-divided
+title: What Legion Asked Shepard to Decide
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Legion comes aboard
+where: an old heretic-held quarian space station
+
+participants: [Shepard, Legion]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - legion_loyalty: any
+
+beats:
+  - text: >
+      Legion's correction to everyone's assumption: the geth are indifferent to organics. The
+      ones fighting are heretics, following the Reapers — what the geth call the Old Machines.
+    source_chunks: [legion_003]
+  - text: >
+      The heretics are building a virus that would turn every geth into a follower of the
+      Reapers. Legion asks Shepard to help destroy it.
+    source_chunks: [legion_003]
+  - text: >
+      On the station Legion works out that the same virus could be turned around: rewritten to
+      bring the heretics peacefully back into the consensus rather than killing them.
+    source_chunks: [legion_003]
+  - text: >
+      Legion's own framing of the split — how could we have become so different, why can we no
+      longer understand each other, what did we do wrong.
+    source_chunks: [legion_003]
+
+related_scenes: [normandy-tali-legion-conflict]
+related_events: []
+source_chunks: [legion_003]

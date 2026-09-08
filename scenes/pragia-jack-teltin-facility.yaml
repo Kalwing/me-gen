@@ -1,0 +1,45 @@
+scene_id: pragia-jack-teltin-facility
+title: Blowing Up the Place That Made Her
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Horizon
+where: the Teltin facility on Pragia, Dakka system, Nubian Expanse
+
+participants: [Shepard, Jack, Aresh]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - jack_loyalty: any
+
+beats:
+  - text: >
+      After going through her files, Jack wants one thing: to reach the centre of the place,
+      her cell, put a bomb in it, and watch from orbit when it goes.
+    source_chunks: [jack_005]
+  - text: >
+      Cerberus raised her in that facility and experimented on her there. On the shuttle down
+      she talks about what was done.
+    source_chunks: [jack-subject-zero_001, jack-subject-zero_005]
+  - text: >
+      The facility is not empty: Blood Pack mercenaries are in it. Moving through, Jack points
+      out where she broke through during her escape.
+    source_chunks: [jack_005, jack-subject-zero_007]
+  - text: >
+      In her cell they find Aresh, another test subject, who hired the mercs to restore Teltin
+      in exchange for salvage. Jack wants him dead; Shepard can stop her.
+    source_chunks: [jack_005, jack-subject-zero_009]
+  - text: >
+      They plant the bomb in her cell and take the shuttle out before it goes.
+    source_chunks: [jack_005]
+
+variants:
+  - condition: {jack_loyalty: Aresh spared}
+    text: >
+      If Jack is talked into sparing Aresh, a news alert reaches Shepard about him later.
+    source_chunks: [jack-subject-zero_012]
+
+related_scenes: [normandy-jack-miranda-confrontation]
+related_events: []
+source_chunks: [jack_005, jack-subject-zero_001, jack-subject-zero_005, jack-subject-zero_007,
+                jack-subject-zero_009, jack-subject-zero_012]

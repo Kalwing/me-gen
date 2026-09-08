@@ -1,0 +1,188 @@
+scene_id: citadel-party-apartment
+title: The Party at Shepard's Apartment
+kind: party
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station
+where: Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden
+
+# The one occasion of the shore leave where everyone was in the same room. Every other
+# Citadel meet-up is a pair or a trio; this is the exception, and it is the only Citadel
+# scene most of the crew can narrate first-hand.
+participants:
+  - Shepard
+  - Jeff "Joker" Moreau
+  - EDI
+  - Liara T'Soni
+  - James Vega
+  - Steve Cortez
+  - Samantha Traynor
+  - Garrus Vakarian
+  - Tali'Zorah vas Normandy
+  - Urdnot Wrex
+  - Grunt
+  - Jack
+  - Javik
+  - Zaeed Massani
+  - Samara
+  - Kasumi Goto
+  - Miranda Lawson
+  - Jacob Taylor
+  - Kaidan Alenko
+  - Ashley Williams
+  - Glyph
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+  # Only survivors whose ME3 arcs are complete can attend; the canon store decides which.
+  - virmire_survivor: any
+  - grunt_fate: alive
+  - wrex_virmire: alive
+
+beats:
+  - text: >
+      Joker suggests the party immediately after the attempted hijacking of the Normandy.
+      Shepard buys Party Provisions from the kiosk at the bar on the second floor of the
+      Silver Coast Casino for 100 credits, then sends the invitations from the private
+      terminal in the apartment office.
+    source_chunks: [citadel-party_002, citadel-party_003]
+  - text: >
+      Joker, EDI, Liara, James Vega, Steve Cortez and Samantha Traynor are automatic. Everyone
+      else is an optional invite, and only surviving squadmates whose Mass Effect 3 arcs are
+      finished can come at all.
+    source_chunks: [citadel-party_003]
+  - text: >
+      Absences nobody explains: Gardner, Allers, Chakwas, Chambers, Adams, Donnelly and
+      Daniels are all missing. Traynor mentions in the kitchen that Chakwas is dealing with a
+      medical emergency on the Citadel. The rest are simply not addressed.
+    source_chunks: [citadel-party_003]
+  - text: >
+      Glyph asks the Commander what kind of party this is — quiet or energetic — and the
+      answer sets the opening conversations. The groupings themselves are set by the guest
+      list, not the theme.
+    source_chunks: [citadel-party_004]
+  - text: >
+      Opening arrangement: Liara and Traynor in the kitchen with Tali, Samara and Garrus. EDI
+      and Joker at the bar by the window with Miranda and Jacob. James and Cortez on the
+      couches by the piano with the Virmire survivor and Jack. Wrex and Grunt upstairs on the
+      balcony with Zaeed and Javik. Kasumi flits between the bar and the kitchen, uncloaking
+      to interject.
+    source_chunks: [citadel-party_004]
+  - text: >
+      Wrex and Grunt spend the opening trading krogan insults over who is stronger — Grunt
+      calling Wrex a fossil and belittling his age. If the mood is energetic they headbutt each
+      other to settle it and Shepard has to stop them before the furniture goes.
+    source_chunks: [grunt_005, urdnot-wrex_012]
+  - text: >
+      Grunt tells Wrex that two of Aralakh Company's recruits had opposed his appointment, and
+      that only one of them had to be dealt with, the other having been killed in a fight.
+    source_chunks: [grunt_005]
+  - text: >
+      Garrus's verdict on the place is that it would be a good place to retire, its sightlines
+      appealing to his sniper sensibilities. He complains at a quiet party about the lack of
+      hard drinks and at an energetic one dares Shepard to try the swill on offer.
+    source_chunks: [garrus-vakarian_014]
+  - text: >
+      Traynor cannot get over the size of the apartment — the electric bill alone would have
+      covered her college tuition. Tali's version is that the same bill would have bought her
+      an air conditioner for her suit, which she does not have, and it gets hot in there.
+    source_chunks: [samantha-traynor_005, tali-zorah-nar-rayya_012]
+  - text: >
+      The group toasts the Normandy. Traynor admits she still feels like an outsider next to
+      people who have histories with Shepard, and everyone weighs in.
+    source_chunks: [tali-zorah-nar-rayya_013, samantha-traynor_005]
+  - text: >
+      Traynor gets everyone recounting how they met Shepard. Tali's memory is that all she
+      could think about was hoping Shepard had showered, because her filter needed replacing
+      and humans carry a lot of germs. Liara notes that three years on she is drinking
+      Shepard's booze through a straw, and calls that progress.
+    source_chunks: [tali-zorah-nar-rayya_013]
+  - text: >
+      Second phase, energetic: Liara and James argue on the balcony about whether biotics or
+      muscle wins, with Jacob, Miranda, Jack and the Virmire survivor taking sides. James shows
+      off his "fine example of peak physical form"; Liara says she is going to challenge him to
+      a pull-up contest, which gives him pause. Shepard picks a side. If Shepard backs biotics,
+      Liara lifts him off the floor with no visible effort and Kasumi uncloaks to goad him into
+      sit-ups; if Shepard backs muscle, the push-ups happen instead.
+    source_chunks: [james-vega_018, citadel-party_005]
+  - text: >
+      Second phase, energetic, at the bar: Joker gets ganged up on by Cortez, Garrus, Wrex and
+      Javik or Zaeed over refusing to keep a sidearm in the cockpit. Garrus's line is that a
+      weapon he cannot get to is no weapon at all. Wrex offers Tuchanka as the harshest planet
+      alive and dares anyone present to last a day there, says krogan parties involve a lot of
+      violent deaths, and announces he needs to shoot something. If Shepard keeps the mood up
+      and backs the shooting practice, he makes good on it — bottles on the counter, with
+      Javik and Zaeed joining in.
+    source_chunks: [urdnot-wrex_012, garrus-vakarian_014, citadel-party_005]
+  - text: >
+      Second phase, energetic, at the door: Grunt works the vid-phone as bouncer, distinguishing
+      fake salarian lip-hair from the real thing and establishing that Shepard has no
+      half-brother named Sheppy the Volus. He is briefly tempted by cookies and turns them away
+      anyway.
+    source_chunks: [grunt_005, citadel-party_005]
+  - text: >
+      Second phase, quiet: Grunt dares Wrex into a drinking contest and will not accept his
+      excuses, goading him with "logic is for salarians" and the observation that the great
+      Urdnot Wrex has backed down from a challenge. Elsewhere Liara and James compare the SSV
+      Normandy with the SR-2 in the den, with Tali acting out both ships' handling and engine
+      noise and reporting that the SR-2 is harder to perform. Garrus and Zaeed stand on the
+      balcony discussing how to make the apartment defensible.
+    source_chunks: [grunt_005, tali-zorah-nar-rayya_013, garrus-vakarian_014, citadel-party_005]
+  - text: >
+      Traynor and Joker — or Traynor and EDI, extremely awkwardly — work through Traynor's
+      recorded opinion of EDI's voice, while Tali nearly poisons herself with cheese trying to
+      change the subject.
+    source_chunks: [citadel-party_005, tali-zorah-nar-rayya_013]
+  - text: >
+      Third phase, quiet: Tali ends up on the floor of the downstairs bathroom, wasted and
+      barely comprehensible, having got an omni-tattoo at Jack's suggestion. Shepard tells her
+      to get some rest and hears fragments of her muttering while passing the door afterwards.
+      Grunt is wherever the food or the drink is, announcing his hunger. Liara and James play
+      cards in the den with Javik and a cloaked Kasumi, Glyph dealing if Shepard sends it there.
+    source_chunks: [tali-zorah-nar-rayya_013, grunt_005, citadel-party_006]
+  - text: >
+      Third phase, energetic: Grunt is wasted under the running shower upstairs, muttering
+      about being a Space Cowboy, asking whether someone is a wizard, mourning that hanar
+      cannot wear sweaters and reporting that he found a blue rock for Liara. Downstairs the
+      dancing starts between the kitchen and the conference room — Traynor, Cortez, Jack,
+      Samara, Garrus and Tali — with Glyph setting up the floor if sent. Kasumi is in the
+      downstairs bedroom closet going through Shepard's underwear drawer.
+    source_chunks: [grunt_005, citadel-party_006, tali-zorah-nar-rayya_013]
+  - text: >
+      Garrus on watching Shepard dance: record it and broadcast it at the Reapers, because
+      they will either run, melt down, or fall in love. Someone starts reciting the periodic
+      table; at "element 69" the humans snicker and Garrus reminds them it is thulium.
+    source_chunks: [garrus-vakarian_014]
+  - text: >
+      Garrus's quiet-party alternative is micro-filaments — tiny explosives laid in a grid
+      across the glass by the door that shred anyone coming through — coordinated with Zaeed
+      over comms, and he later gets to name a booby-trapped coffee maker "caffeine rush".
+    source_chunks: [garrus-vakarian_014]
+  - text: >
+      At the end Shepard assembles everyone by the couch for a group photo. Couples face each
+      other; everyone else looks at the camera. The photograph hangs afterwards by the
+      downstairs bar, opposite the fireplace.
+    source_chunks: [citadel-party_006]
+
+variants:
+  - condition: {miranda_alive: true, jack_present: true}
+    text: >
+      Miranda and Jack end up in the den insulting each other. Shepard can push them to
+      reconcile or egg them on; Kasumi uncloaks either way and makes it worse.
+    source_chunks: [citadel-party_005, jack_009]
+  - condition: {romance: Garrus}
+    text: >
+      Liara calls the apartment the "Shepard-Vakarian love nest"; if Shepard is with someone
+      else, Garrus is the one making the love-nest joke and promising not to interrupt.
+    source_chunks: [garrus-vakarian_014]
+
+related_scenes: [citadel-party-morning-after, citadel-grunt-csec-noodles, citadel-wrex-casino-ice,
+                 citadel-traynor-kepesh-yakshi, citadel-tali-fleet-and-flotilla,
+                 citadel-garrus-casino-bar, citadel-jack-apartment-eezo,
+                 citadel-biotiball-night, citadel-thane-memorial]
+related_events: [citadel-dlc-archives]
+source_chunks: [citadel-party_002, citadel-party_003, citadel-party_004, citadel-party_005,
+                citadel-party_006, garrus-vakarian_014, grunt_005, urdnot-wrex_012,
+                tali-zorah-nar-rayya_012, tali-zorah-nar-rayya_013, samantha-traynor_005,
+                james-vega_018, jack_009]

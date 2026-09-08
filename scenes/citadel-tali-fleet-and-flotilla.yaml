@@ -1,0 +1,49 @@
+scene_id: citadel-tali-fleet-and-flotilla
+title: Fleet and Flotilla, With Sing-Along Mode On
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the sushi-bar ambush
+where: Shepard's personal apartment, the Wards
+
+participants: [Shepard, Tali'Zorah vas Normandy]
+private_to: [Shepard, Tali'Zorah vas Normandy]
+heard_by: []
+
+requires:
+  - rannoch: resolved
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Tali writes that next time they are on the Citadel she would love to come by — no rush,
+      but it is nice that Shepard has a place there to call home. Shepard invites her up.
+    source_chunks: [personal-apartment_012, tali-zorah-nar-rayya_012]
+  - text: >
+      Asked what the plan for the evening is, she answers with a line from the vid
+      Fleet and Flotilla — "I'm as free as the dust in the solar wind" — assumes Shepard has
+      seen it, and is genuinely shocked to learn otherwise. That settles the evening.
+    source_chunks: [tali-zorah-nar-rayya_012]
+  - text: >
+      They watch it. She explains she and her friends watched it at every sleepover when they
+      were young, and finds the sing-along mode, and sings along:
+      "Let the moon's shining light hide two lovers with its rays / Though I know that dawn
+      will set us on course for separate ways / I will hold this night in memory for all my
+      living days / Now unmasked, I feel your skin on mine."
+    source_chunks: [tali-zorah-nar-rayya_012]
+
+variants:
+  - condition: {romance: Tali}
+    text: >
+      She adds that they had memorised the whole musical. On screen the quarian asks her lover
+      to see her face and the turian answers that he already has; Tali says that works for
+      her, and Shepard removes her mask.
+    source_chunks: [tali-zorah-nar-rayya_012]
+  - condition: {romance: other}
+    text: >
+      She just gets nostalgic, and promises to send extranet links and captioned animations
+      afterwards.
+    source_chunks: [tali-zorah-nar-rayya_012]
+
+related_scenes: [citadel-party-apartment, citadel-wards-ambush-extraction]
+related_events: []
+source_chunks: [tali-zorah-nar-rayya_012, personal-apartment_012]

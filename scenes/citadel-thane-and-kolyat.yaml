@@ -1,0 +1,31 @@
+scene_id: citadel-thane-and-kolyat
+title: Finding Kolyat Before He Takes the Shot
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, during Thane's time aboard the Normandy
+where: the Citadel
+
+participants: [Shepard, Thane Krios, Kolyat Krios]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - thane_loyalty: any
+
+beats:
+  - text: >
+      Thane brings Shepard his son. For all his effort to keep Kolyat off his own path, the
+      boy has taken a job as a hitman on the Citadel.
+    source_chunks: [thane-krios_006]
+  - text: >
+      Thane asks Shepard's help finding him before he goes irrevocably down what Thane calls a
+      path of sin — not a path he should walk.
+    source_chunks: [thane-krios_006]
+  - text: >
+      Years later Shepard and Kolyat are both with Thane at the end, and Kolyat recites a
+      drell prayer of redemption — one meant for someone else, not for the dying.
+    source_chunks: [thane-krios_009]
+
+related_scenes: [citadel-thane-memorial]
+related_events: []
+source_chunks: [thane-krios_006, thane-krios_009]

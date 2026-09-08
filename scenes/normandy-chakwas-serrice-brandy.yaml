@@ -1,0 +1,45 @@
+scene_id: normandy-chakwas-serrice-brandy
+title: The Bottle of Serrice Ice Brandy
+kind: downtime
+game: Mass Effect 2
+when: 2185, aboard the Normandy SR-2 before the Omega 4 Relay
+where: the medical bay, Normandy SR-2
+
+participants: [Shepard, Karin Chakwas]
+private_to: [Shepard, Karin Chakwas]
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      Chakwas was aboard the SSV Normandy when the Collectors destroyed it and got out by
+      escape pod. After Shepard's death she was posted to the Mars Naval Medical Center, missed
+      the excitement of a starship, and took the SR-2's chief medical officer post. Her line
+      on it is that she does not work for Cerberus; she works for Shepard. She has lived
+      through the liberation of Shanxi and the Skyllian Blitz and has no regrets.
+    source_chunks: [karin-chakwas_003]
+  - text: >
+      Asked whether she needs anything, she mentions a bottle of Serrice Ice Brandy she lost
+      with the old Normandy and never opened. It costs a thousand credits and can be bought at
+      Ratch's Wares on Tuchanka, the Dark Star Lounge on the Citadel, Eternity on Illium, or
+      Afterlife on Omega. It is bluish.
+    source_chunks: [karin-chakwas_003, drinks_012]
+  - text: >
+      Bring her one and she invites Shepard to drink it with her. Some way in, she is
+      reminiscing about Corporal Jenkins and Lieutenant Alenko.
+    source_chunks: [karin-chakwas_003]
+  - text: >
+      That is where Shepard learns why she really joined Cerberus: Joker. He will always need
+      help with his Vrolik syndrome and will never admit it, and she needs stability. Serving
+      on the Normandy with him and Shepard is where she finds it.
+    source_chunks: [karin-chakwas_003]
+  - text: >
+      She ends the evening passed out on one of the medical beds, apologises the next time for
+      being unprofessional, offers Shepard a turn to vent, and asks the Commander to promise
+      they will share a bottle every year.
+    source_chunks: [karin-chakwas_003]
+
+related_scenes: [normandy-chakwas-and-adams-crew-quarters]
+related_events: []
+source_chunks: [karin-chakwas_003, drinks_012]

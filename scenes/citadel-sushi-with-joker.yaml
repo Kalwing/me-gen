@@ -1,0 +1,49 @@
+scene_id: citadel-sushi-with-joker
+title: Dinner at Ryuusei's, and the Woman Who Interrupted It
+kind: downtime
+game: Mass Effect 3
+when: 2186, first day of Citadel shore leave, the Normandy in dry dock
+where: Ryuusei's sushi restaurant, Citadel Wards
+
+participants: [Shepard, Jeff "Joker" Moreau, Maya Brooks]
+private_to: [Shepard, Jeff "Joker" Moreau, Maya Brooks]
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Hackett orders the Normandy into dry dock for retrofits and the whole crew onto shore
+      leave — an order, not an offer — and tells Shepard that Anderson keeps an apartment on
+      the Wards worth visiting.
+    source_chunks: [citadel-shore-leave_002]
+  - text: >
+      Anderson calls from Earth and hands the apartment over outright, saying he no longer
+      needs it. A message from Joker is waiting on the private terminal: dinner at the
+      Ryuusei sushi place down in the Wards, his treat.
+    source_chunks: [citadel-shore-leave_004]
+  - text: >
+      There is a queue outside Ryuusei's; the host waves Shepard past it, table already
+      waiting. Joker complains about letting "shifty aerospace engineers" put their hands on
+      his ship, and an Alliance soldier in dress uniform keeps trying to catch Shepard's eye
+      from the far side of the host's defensive line.
+    source_chunks: [citadel-shore-leave_005]
+  - text: >
+      Joker asks why Shepard invited him. Shepard did not — Joker's name was on the
+      invitation Shepard received. Neither of them sent it.
+    source_chunks: [citadel-shore-leave_005]
+  - text: >
+      The soldier finally breaks through: Staff Analyst Maya Brooks, Alliance intelligence,
+      talking fast about someone hacking Shepard's accounts and communications. Joker's dry
+      read is that people trying to kill Shepard is not news.
+    source_chunks: [citadel-shore-leave_005, maya-brooks_014]
+  - text: >
+      Mercenaries walk into the restaurant before Brooks can finish, and the meal ends in a
+      firefight through the kitchens.
+    source_chunks: [citadel-wards-ambush_002, citadel-wards-ambush_004, maya-brooks_014]
+
+related_scenes: [citadel-wards-ambush-extraction]
+related_events: [citadel-dlc-identity-theft-begins]
+source_chunks: [citadel-shore-leave_002, citadel-shore-leave_004, citadel-shore-leave_005,
+                citadel-wards-ambush_002, citadel-wards-ambush_004, maya-brooks_014]

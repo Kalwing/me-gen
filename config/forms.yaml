@@ -1,0 +1,62 @@
+# Episode forms — the shapes an episode can take.
+#
+# A reference set, not a straitjacket. `outline-writer` picks one (or takes the one the
+# brief names), records it in `outline.yaml` as `form:` with a one-line `form_note:`
+# explaining the choice, and shapes the sections accordingly. The user overrides it at
+# the same gate where they approve section titles.
+#
+# Form is the skeleton. The narrator bible is the gait: `digressions` governs how far and
+# how often the narration strays inside the form, and how it comes back.
+#
+# Fields:
+#   spine          — where sections come from. `events` = timeline/events/ (missions);
+#                    `scenes` = scenes/ (occasions); `mixed` = both.
+#   section_count  — [min, max] sections. Advisory; the brief can stretch it.
+
+forms:
+  - id: arc
+    description: >
+      Chronological personal arc across the trilogy — the narrator's own life, start to
+      finish. Sections are chapters. The long-standing default, and the right choice when
+      the brief asks for the whole story rather than one night of it.
+    spine: events
+    section_count: [12, 20]
+
+  - id: evening
+    description: >
+      One occasion, one night. Anecdote-driven, small-scale, digressive. Sections are
+      subjects raised in conversation rather than chapters of a life, and they may double
+      back, contradict each other's mood, or trail off the way talk does.
+    spine: scenes
+    section_count: [8, 14]
+
+  - id: one-relationship
+    description: >
+      One other person, start to finish, through the narrator's eyes. The galaxy appears
+      only where it touches the two of them. Sections track the relationship's turns, not
+      the war's.
+    spine: mixed
+    section_count: [8, 14]
+
+  - id: one-place
+    description: >
+      A world, station or ship — its history, its people, and what it did to them. Lore
+      and worldbuilding carry the weight here; the narrator's own arc is the thread
+      through it rather than the subject.
+    spine: mixed
+    section_count: [8, 16]
+
+  - id: postmortem
+    description: >
+      After the fact. What it cost, who is missing, what it was for. Told backwards from
+      an ending the narrator already knows, which changes how every earlier beat lands.
+    spine: events
+    section_count: [10, 16]
+
+  - id: argument
+    description: >
+      A position the narrator is defending — about a species, a decision, a person, the
+      war — with evidence marshalled from their own life. Sections are moves in the
+      argument; chronology serves the case, not the other way round.
+    spine: mixed
+    section_count: [8, 14]

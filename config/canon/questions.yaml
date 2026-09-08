@@ -1,0 +1,10 @@
+# Questions — the agent inbox.
+#
+# Agents append here when they hit something the canon store cannot settle.
+# Answer in place: fill `answer` and set `status: answered`. Answered questions
+# become part of the resolved canon on the next run.
+#
+# Appended by: `python scripts/canon.py --ask <yaml-fragment>`
+# Open questions warn; they never block a run.
+
+questions:

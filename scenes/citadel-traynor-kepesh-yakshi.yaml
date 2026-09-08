@@ -1,0 +1,44 @@
+scene_id: citadel-traynor-kepesh-yakshi
+title: Traynor's Tournament at the Castle Arcade
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the clone is defeated
+where: the upper floor of the Castle Arcade, Silversun Strip
+
+participants: [Shepard, Samantha Traynor, Polgara T'Suzsa]
+private_to: [Shepard, Samantha Traynor, Polgara T'Suzsa]
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Traynor emails Shepard to meet her in the arcade area for lunch. Shepard arrives to find
+      her mid-tournament instead, playing Kepesh-Yakshi against a salarian.
+    source_chunks: [samantha-traynor_004, personal-apartment_013]
+  - text: >
+      Kepesh-Yakshi is asari, and translates as "blade of the night winds"; Shepard calls it
+      space-chess. It is played with a homeworld planet and ships — dreadnoughts, cruisers,
+      frigates, evac shuttles — on opposing sides of a board, with named openings like the
+      Bay-Lucien Gambit. Sacrificing ships casually earns the player a neural shock, and
+      losing outright is a shock hard enough to knock them off the seat.
+    source_chunks: [castle-arcade_005]
+  - text: >
+      Traynor beats the salarian and apologises for missing lunch — she entered on impulse and
+      expected to be knocked out in an early round.
+    source_chunks: [samantha-traynor_004]
+  - text: >
+      An asari named Polgara T'Suzsa, a rival of hers, challenges her on the spot and promises
+      to finish it in under twenty moves. Shepard can offer encouragement or an order, and can
+      trash-talk T'Suzsa, distract her while Traynor thinks, or stay quiet. Traynor wins.
+    source_chunks: [samantha-traynor_004]
+  - text: >
+      Traynor's follow-up message thanks Shepard for sticking around to watch her go
+      head-to-head with T'Suzsa and asks for a rain check on the lunch.
+    source_chunks: [personal-apartment_012]
+
+related_scenes: [citadel-party-apartment]
+related_events: [citadel-dlc-archives]
+source_chunks: [samantha-traynor_004, castle-arcade_005, personal-apartment_012,
+                personal-apartment_013]

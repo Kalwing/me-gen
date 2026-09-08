@@ -1,0 +1,42 @@
+scene_id: zorya-zaeed-and-vido
+title: Zaeed's Twenty-Year Contract
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, immediately after Zaeed joins
+where: a Blue Suns refinery on Zorya
+
+participants: [Shepard, Zaeed Massani, Vido Santiago]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - zaeed_loyalty: any
+
+beats:
+  - text: >
+      Zaeed's terms on joining: he has an older contract still open, and he wants Shepard to
+      help him close it on Zorya.
+    source_chunks: [zaeed-massani_005]
+  - text: >
+      The target is Vido Santiago, with whom he co-founded the Blue Suns. They fell out over
+      letting batarians in — Vido called them cheaper labour, Zaeed called them terrorists —
+      and Vido shot him in the face.
+    source_chunks: [zaeed-massani_005]
+  - text: >
+      Twenty years of it, in his own words: he has seen that man every time he closed his
+      eyes, every time he sighted a target, every time he heard a gunshot, and he will not have
+      it called a grudge.
+    source_chunks: [zaeed-massani_005]
+  - text: >
+      Finding Vido in the base, Zaeed deliberately starts a compressed-gas fire that spreads
+      through the refinery with the workers still in it. Shepard either puts the fires out or
+      goes after Vido.
+    source_chunks: [zaeed-massani_005]
+  - text: >
+      Put the fires out and Vido leaves in a gunship, and Zaeed has to be talked — with
+      difficulty — into shelving the vengeance until the Collectors are dealt with.
+    source_chunks: [zaeed-massani_005]
+
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [zaeed-massani_005]

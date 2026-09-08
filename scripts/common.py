@@ -50,15 +50,64 @@ def load_events(events_dir: Path) -> dict[str, dict]:
     return out
 
 
-def outline_is_approved(run_dir: Path) -> bool:
-    p = Path(run_dir) / "outline.yaml"
-    if not p.exists():
-        return False
-    for line in p.read_text(encoding="utf-8").splitlines():
+def _marker_is_approved(path: Path) -> bool:
+    """True when the file's first non-blank line is not an `# UNAPPROVED` marker."""
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
         if line.strip():
             return not line.strip().startswith("# UNAPPROVED")
     return False
 
 
+def outline_is_approved(run_dir: Path) -> bool:
+    p = Path(run_dir) / "outline.yaml"
+    return p.exists() and _marker_is_approved(p)
+
+
+def voice_check_state(run_dir: Path) -> str:
+    """Where the run stands on the first-section voice checkpoint.
+
+    `missing`  — the checkpoint has not been reached; write section 1 and stop.
+    `pending`  — `voice_check.md` is waiting on the user; stop and say so.
+    `approved` — the user cleared the marker; write the remaining sections.
+    """
+    p = Path(run_dir) / "voice_check.md"
+    if not p.exists():
+        return "missing"
+    return "approved" if _marker_is_approved(p) else "pending"
+
+
 def word_count(text: str) -> int:
     return len(re.findall(r"\S+", text))
+
+
+FORMS_PATH = REPO_ROOT / "config" / "forms.yaml"
+_SPINES = ("events", "scenes", "mixed")
+_FORM_REQUIRED = ("id", "description", "spine", "section_count")
+
+
+def load_forms(path: Path | None = None) -> dict[str, dict]:
+    """Load `config/forms.yaml` — the episode-form reference set, keyed by id.
+
+    A form is the episode's skeleton: where its sections come from (`spine`) and roughly
+    how many there are. The narrator bible supplies the gait.
+    """
+    path = Path(path or FORMS_PATH)
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    forms = data.get("forms") or []
+    if not isinstance(forms, list) or not forms:
+        raise ValueError(f"{path}: `forms:` must be a non-empty list")
+    out: dict[str, dict] = {}
+    for form in forms:
+        missing = [k for k in _FORM_REQUIRED if k not in form]
+        if missing:
+            raise ValueError(f"{path}: form {form.get('id', '?')!r} missing keys: {missing}")
+        fid = str(form["id"])
+        if fid in out:
+            raise ValueError(f"{path}: duplicate form id {fid!r}")
+        if form["spine"] not in _SPINES:
+            raise ValueError(f"{path}: form {fid!r} spine must be one of {_SPINES}")
+        count = form["section_count"]
+        if not (isinstance(count, list) and len(count) == 2 and 1 <= count[0] <= count[1]):
+            raise ValueError(f"{path}: form {fid!r} section_count must be [min, max]")
+        out[fid] = form
+    return out

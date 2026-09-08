@@ -1,0 +1,43 @@
+scene_id: normandy-memorial-wall-after-thessia
+title: At the Memorial Wall After Thessia
+kind: downtime
+game: Mass Effect 3
+when: 2186, immediately after the defeat on Thessia
+where: the memorial wall outside the crew-deck elevator, Normandy SR-2
+
+participants: [Shepard, Tali'Zorah vas Normandy, Garrus Vakarian, Liara T'Soni]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - thessia: any
+
+beats:
+  - text: >
+      The memorial wall sits just outside the crew-deck elevator: a record of the ship's
+      casualties, going back to the beacon on Eden Prime. Names of anyone lost at the Collector
+      base are on it.
+    source_chunks: [normandy-sr-2_012, garrus-vakarian_009]
+  - text: >
+      After Thessia, Shepard reports the defeat and the team converges on the war room to work
+      out what comes next.
+    source_chunks: [priority-thessia_011]
+  - text: >
+      Tali is found at the memorial wall. Kaidan, if aboard, is in engineering with Adams;
+      Liara goes to see Javik and then shuts herself in her quarters.
+    source_chunks: [priority-thessia_011]
+  - text: >
+      Tali and Garrus can be overheard on the comm working out which of them should go and
+      talk to Liara. Tali wants to help and is afraid she is the wrong person for it — she has
+      just got her homeworld back, and Liara has lost hers. Shepard can take it instead.
+    source_chunks: [priority-thessia_011, tali-zorah-nar-rayya_010]
+  - text: >
+      Garrus does his own version of this after the Cerberus coup, standing in front of the
+      wall until Shepard joins him.
+    source_chunks: [garrus-vakarian_011]
+
+related_scenes: [normandy-garrus-and-tali-reconciliation, normandy-cockpit-garrus-and-joker,
+                 normandy-main-battery-goodbyes]
+related_events: []
+source_chunks: [normandy-sr-2_012, priority-thessia_011, tali-zorah-nar-rayya_010,
+                garrus-vakarian_009, garrus-vakarian_011]

@@ -1,0 +1,42 @@
+scene_id: citadel-purgatory-jack-and-her-students
+title: Jack at the Purgatory, Reading Duty Rosters
+kind: downtime
+game: Mass Effect 3
+when: 2186, after the attempted Cerberus coup
+where: the Purgatory Bar, Citadel
+
+participants: [Shepard, Jack]
+private_to: [Shepard, Jack]
+heard_by: [Normandy crew]
+
+requires:
+  - grissom_academy: evacuated
+
+beats:
+  - text: >
+      Jack is on shore leave in the Purgatory and reading duty rosters for her students
+      anyway. Shepard can tell her to keep at it or push her to lighten up, and it colours the
+      whole conversation.
+    source_chunks: [jack_008]
+  - text: >
+      Told she has taken to military life, her answer is that their little suicide squad
+      apparently taught her something about teamwork.
+    source_chunks: [jack_008]
+  - text: >
+      If her kids went to the front, she is watching the higher-ups so they are not handed
+      something out of their league, and is openly surprised at how they hold up under fire.
+      If they took support roles, they are spread through Alliance units running barriers and
+      modding ammo and saving a lot of lives.
+    source_chunks: [jack_008]
+  - text: >
+      Where she takes the job seriously, her kids saw action on Palaven — Prangley's biotics
+      against cannibals, Rodriguez not panicking.
+    source_chunks: [jack_008]
+  - text: >
+      By 2186 she has grown her hair out and, in her own summary, become dependable, which she
+      blames on Shepard.
+    source_chunks: [jack_007]
+
+related_scenes: [citadel-jack-arena-brimstone, citadel-jack-apartment-eezo]
+related_events: []
+source_chunks: [jack_007, jack_008]

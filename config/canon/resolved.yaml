@@ -1,0 +1,42 @@
+# Resolved — the audit log.
+#
+# Agents append here when split authority settled a conflict on the user's behalf:
+# the canon store said WHICH branch happened, the corpus said HOW it was staged, and
+# the two were reconciled without stopping to ask. Read this to see what was decided
+# for you, rather than discovering it in the prose.
+#
+# Appended by: `python scripts/canon.py --log-resolution <yaml-fragment>`
+# Never read back as canon — it is a record, not a source.
+
+resolved:
+  - id: r-2026-09-07-001
+    run: wrex_one-last-night-before-earth_2026-09-07
+    section: the-noodle-stand
+    config_said: Aralakh Company was wiped out holding the tunnel at Utukku. Grunt survived
+      alone and was recovering in Huerta Memorial during shore leave. Any source showing the
+      company alive on the Citadel is wrong for this playthrough.
+    evidence_said: scenes/citadel-grunt-csec-noodles.yaml — Bailing Grunt Out at the Noodle
+      Stand
+    resolution: override 'aralakh-company-died-at-utukku' is authoritative over the corpus;
+      where the scene record disagrees, the override is narrated and the record is not
+    date: '2026-09-07'
+  - id: r-2026-09-07-002
+    run: wrex_one-last-night-before-earth_2026-09-07
+    section: the-rite
+    config_said: Aralakh Company was wiped out holding the tunnel at Utukku. Grunt survived
+      alone and was recovering in Huerta Memorial during shore leave. Any source showing the
+      company alive on the Citadel is wrong for this playthrough.
+    evidence_said: scenes/tuchanka-grunt-rite-of-passage.yaml — Grunt's Rite of Passage
+    resolution: override 'aralakh-company-died-at-utukku' is authoritative over the corpus;
+      where the scene record disagrees, the override is narrated and the record is not
+    date: '2026-09-07'
+  - id: r-2026-09-07-003
+    run: wrex_one-last-night-before-earth_2026-09-07
+    section: one-last-party
+    config_said: Aralakh Company was wiped out holding the tunnel at Utukku. Grunt survived
+      alone and was recovering in Huerta Memorial during shore leave. Any source showing the
+      company alive on the Citadel is wrong for this playthrough.
+    evidence_said: scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment
+    resolution: override 'aralakh-company-died-at-utukku' is authoritative over the corpus;
+      where the scene record disagrees, the override is narrated and the record is not
+    date: '2026-09-07'

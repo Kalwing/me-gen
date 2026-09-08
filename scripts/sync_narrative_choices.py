@@ -1,4 +1,4 @@
-"""Backfill ``config/narrative_choices.yaml`` with any canonical decision point
+"""Backfill ``config/canon/choices.yaml`` with any canonical decision point
 it is still missing.
 
 The questionnaire captures the player's canon (see ``narrative_choices.py``).
@@ -10,8 +10,8 @@ the script is safe to re-run and a no-op once the file is complete.
 
 Run it after ``/me-build-timeline``:
 
-    python scripts/sync_narrative_choices.py config/narrative_choices.yaml
-    python scripts/sync_narrative_choices.py config/narrative_choices.yaml --check
+    python scripts/sync_narrative_choices.py config/canon/choices.yaml
+    python scripts/sync_narrative_choices.py config/canon/choices.yaml --check
 """
 from __future__ import annotations
 
@@ -198,13 +198,15 @@ def sync(path: Path, *, write: bool = True) -> list[tuple[str, str]]:
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("path", type=Path, help="path to narrative_choices.yaml")
+    ap.add_argument("path", type=Path, nargs="?", default=nc.CHOICES_PATH,
+                    help="path to the choices questionnaire (default: config/canon/choices.yaml)")
     ap.add_argument(
         "--check",
         action="store_true",
         help="report missing choices and exit 1 without writing",
     )
     args = ap.parse_args(argv)
+    args.path = nc.resolve_path(args.path)
 
     if not args.path.exists():
         print(f"{args.path}: not found", file=sys.stderr)

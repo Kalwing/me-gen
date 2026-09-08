@@ -1,0 +1,44 @@
+scene_id: omega-samara-and-morinth
+title: Baiting Morinth in Afterlife
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Samara traces her daughter off Illium
+where: Omega — a victim's apartment, the VIP area of Afterlife, then Morinth's apartment
+
+participants: [Shepard, Samara, Morinth]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - samara_loyalty: any
+
+beats:
+  - text: >
+      Samara's request is stated without softening: help find her long-lost daughter, and kill
+      her.
+    source_chunks: [samara_003]
+  - text: >
+      With the name of the ship Morinth used to leave Illium, Samara tracks her to Omega and
+      finds she has just killed again. They go through the victim's apartment.
+    source_chunks: [samara_003]
+  - text: >
+      Samara's plan puts Shepard in as bait. The victim's effects yield the password to
+      Afterlife's VIP area, and Shepard goes in alone to be noticed.
+    source_chunks: [samara_003]
+  - text: >
+      Morinth comes over, moves Shepard to a private table on the strength of shared
+      interests, and when she is convinced, takes the Commander back to her apartment.
+    source_chunks: [samara_003]
+  - text: >
+      Shepard keeps her talking about the things in her rooms. When she finally moves to
+      seduce, Samara comes through the door and the two of them fight. If Shepard held out
+      against Morinth's suggestions the fight deadlocks, and Shepard chooses which of them
+      walks out.
+    source_chunks: [samara_003]
+  - text: >
+      One of them dies either way, and the survivor stays with Shepard.
+    source_chunks: [samara-the-ardat-yakshi_007]
+
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [samara_003, samara-the-ardat-yakshi_007]

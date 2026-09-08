@@ -1,0 +1,40 @@
+scene_id: citadel-biotiball-night
+title: Biotiball on the Big Screen
+kind: downtime
+game: Mass Effect 3
+when: 2186, Citadel shore leave, before or after the party
+where: Shepard's personal apartment, in front of the vid screen
+
+participants: [Shepard, James Vega, Steve Cortez]
+private_to: [Shepard, James Vega, Steve Cortez]
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Cortez writes it up: the Seattle Sorcerers against the Usaru Maestros, Shepard has just
+      acquired an apartment with a sweet vid screen, and neither he nor James thinks that is a
+      coincidence. Shepard provides the couch; they bring the refreshments.
+    source_chunks: [personal-apartment_012, james-vega_018]
+  - text: >
+      Both make their case. Cortez teases that James backs the Maestros because their players
+      are beautiful asari rather than for any skill, and James sheepishly admits he has the
+      hots for them.
+    source_chunks: [james-vega_018]
+  - text: >
+      Shepard is asked to back a team. The Sorcerers always win the game — but the bet was
+      never on the game. It was on whether the Commander would pick right.
+    source_chunks: [james-vega_018]
+
+variants:
+  - condition: {cortez_closure: true}
+    text: >
+      Cortez only sends the invitation if Shepard has helped him reach some closure over his
+      husband's death.
+    source_chunks: [james-vega_018]
+
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [james-vega_018, personal-apartment_012]

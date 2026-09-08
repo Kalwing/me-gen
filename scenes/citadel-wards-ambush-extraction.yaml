@@ -1,0 +1,57 @@
+scene_id: citadel-wards-ambush-extraction
+title: Out Through the Wards, No Armour, One Pistol
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel shore leave, minutes after the sushi bar
+where: Citadel Wards maintenance levels down to the Cision Motors skycar lot
+
+participants: [Shepard, Maya Brooks]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Shepard fights out of the restaurant outnumbered, in civilian clothes, with no armour
+      and no squad — cover and a borrowed weapon the whole way.
+    source_chunks: [citadel-wards-ambush_005]
+  - text: >
+      A merc lines up a Mattock on Shepard; Brooks sees it and shoves Shepard clear.
+    source_chunks: [citadel-wards-ambush_006]
+  - text: >
+      Two Normandy crewmates answer the comm and meet Shepard on the way to the skycar lot,
+      joining as squad. Which two depends on who is alive and aboard.
+    source_chunks: [citadel-wards-ambush_008, citadel-wards-ambush_010]
+  - text: >
+      The C-Sec shuttle that arrives at the extraction zone turns out to be another ambush.
+      Joker pulls them out instead, at the Cision Motors skycar lot.
+    source_chunks: [citadel-wards-ambush_011, garrus-vakarian_014]
+
+variants:
+  - condition: {romance: Garrus}
+    text: >
+      Garrus, filled in by Joker, calls to ask if Shepard is all right and meets her at the
+      Cision Motors skycar lot for the extraction.
+    source_chunks: [garrus-vakarian_014]
+  - condition: {romance: Tali}
+    text: >
+      Tali is the first to reach Shepard. Afterwards she is put out that the sushi place was
+      destroyed — she had always wanted to go there.
+    source_chunks: [tali-zorah-nar-rayya_012]
+  - condition: {wrex_virmire: alive, genophage: cured}
+    text: >
+      Wrex, on the Citadel to argue krogan expansion with the Council, arrives by body-slamming
+      the shuttle that has Shepard pinned, then stays on as a squadmate for the rest of it —
+      "Why shoot something once when you can shoot it 46 more times?"
+    source_chunks: [urdnot-wrex_012]
+  - condition: {wrex_virmire: dead}
+    text: James Vega comes over comms to assist in Wrex's place.
+    source_chunks: [james-vega_017]
+
+related_scenes: [citadel-sushi-with-joker]
+related_events: [citadel-dlc-identity-theft-begins]
+source_chunks: [citadel-wards-ambush_005, citadel-wards-ambush_006, citadel-wards-ambush_008,
+                citadel-wards-ambush_010, citadel-wards-ambush_011, garrus-vakarian_014,
+                tali-zorah-nar-rayya_012, urdnot-wrex_012, james-vega_017]

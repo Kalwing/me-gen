@@ -10,6 +10,7 @@ def test_new_run_creates_expected_shape(tmp_path):
     assert run.parent == tmp_path
     assert run.name.startswith("garrus_the-cost-of-war-loyalty_")
     assert (run / "sections").is_dir()
+    assert (run / "packs").is_dir()
     assert json.loads((run / "sources.json").read_text()) == {}
 
     text = (run / "outline.yaml").read_text()
@@ -22,6 +23,12 @@ def test_new_run_creates_expected_shape(tmp_path):
     assert data["brief"] == ""
     assert data["target_words"] == 8000
     assert data["sections"] == []
+    assert data["form"] == "" and data["form_note"] == ""
+
+
+def test_new_run_records_a_named_form(tmp_path):
+    run = new_run.new_run("wrex", ["war"], 9000, tmp_path, form="evening")
+    assert yaml.safe_load((run / "outline.yaml").read_text())["form"] == "evening"
 
 
 def test_new_run_records_brief(tmp_path):

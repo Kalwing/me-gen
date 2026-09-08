@@ -1,0 +1,44 @@
+scene_id: rannoch-the-choice-above-the-fleet
+title: Rannoch, and What Tali Watched
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, after the Reaper on Rannoch is destroyed
+where: Rannoch, on the cliffs, with both fleets overhead
+
+participants: [Shepard, Tali'Zorah vas Normandy, Legion, Han'Gerrel vas Neema]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - rannoch: any
+  - geth_quarian: any
+
+beats:
+  - text: >
+      With the Reaper down, the geth are weakened and Admiral Han'Gerrel throws the whole
+      quarian fleet at them.
+    source_chunks: [tali-zorah-nar-rayya_009]
+  - text: >
+      The geth unit rescued from the dreadnought — Legion, or a VI built in its likeness —
+      moves to upload the Reaper code and restore the geth to full strength, which would catch
+      the quarian fleet unready and destroy it.
+    source_chunks: [tali-zorah-nar-rayya_009]
+  - text: >
+      Stopped from uploading, it turns hostile, and Tali kills it with her boot knife to save
+      Shepard.
+    source_chunks: [tali-zorah-nar-rayya_009]
+  - text: >
+      Allowed to upload, Tali watches the entire Migrant Fleet come down burning through
+      Rannoch's atmosphere, takes off her mask, says she is sorry, and steps off the cliff
+      before Shepard can reach her.
+    source_chunks: [tali-zorah-nar-rayya_009]
+  - text: >
+      With Legion alive and the quarians talked into standing down, there is peace — and
+      Legion spends itself giving every geth autonomy, having first confirmed that the answer
+      to its own question about souls was yes.
+    source_chunks: [tali-zorah-nar-rayya_009]
+
+related_scenes: [normandy-garrus-and-tali-reconciliation, flotilla-tali-treason-trial,
+                 heretic-station-legion-a-house-divided]
+related_events: []
+source_chunks: [tali-zorah-nar-rayya_009]

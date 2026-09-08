@@ -51,7 +51,7 @@ You build the control-layer timeline for the whole original trilogy.
   on the player (Wrex on Virmire, the Virmire survivor, the Council's fate, the genophage
   cure, the Suicide Mission roster, Rannoch, the final choice, …). Keep these as ONE
   event file: record every documented branch in `summary` and `consequences`, and name
-  the deciding factor — cite the matching `config/narrative_choices.yaml` question id
+  the deciding factor — cite the matching `config/canon/choices.yaml` question id
   where one exists (e.g. "per `wrex_virmire`: survives if the standoff is defused,
   otherwise dies"). Do not pick a branch and do not split into per-branch event files.
 

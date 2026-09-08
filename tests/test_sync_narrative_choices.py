@@ -3,7 +3,7 @@ from pathlib import Path
 from scripts import narrative_choices as nc
 from scripts import sync_narrative_choices as sync
 
-REAL = Path(__file__).parent.parent / "config" / "narrative_choices.yaml"
+REAL = Path(__file__).parent.parent / "config" / "canon" / "choices.yaml"
 
 MINIMAL = (
     "# header comment\n"

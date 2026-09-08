@@ -108,3 +108,37 @@ deterministic and non-decreasing (Verify passes), but the ordering is not meanin
 FIX AFTER THE SWEEP: a renumber pass that sorts events by (game order ME1<ME2<ME3<
 tie-in, then parsed `date`) and reassigns `chronological_order` in tens, then
 re-runs `rebuild_master_timeline.py`. Not yet written.
+
+## Generation overhaul — brainstorm 2026-09-07 (after 3 episodes reviewed)
+Full design: `docs/superpowers/specs/2026-09-07-generation-overhaul-design.md`.
+
+Reviewing the Jack/Tali/Wrex episodes surfaced failures that are structural, not prompting:
+1. **One index, plot-shaped, queried by guesswork.** `section-writer` composes its own BM25
+   queries; for an *occasion* rather than a *mission* they land on the mission pages next
+   door. Wrex's party section retrieved 9 chunks, all CAT6/Brooks/Archives, none about the
+   party — `page_summaries/citadel-party.md` was never fetched. Silent retrieval failure is
+   indistinguishable from success; the fallback is parametric memory.
+2. **The timeline is the only spine** — 190 mission-shaped events, no `event_id` for any
+   hangout/party/banter/relationship. `outline-writer` must anchor sections to real event
+   ids, so it cannot build a section out of anecdote. The uniform "character arc ->
+   overarching story" shape is the shape of the data structure.
+3. **Canon is a string, not a constraint** — 55 answers on one unpunctuated line, unfiltered
+   per section, never verified. `virmire_survivor: [Kaidan]` was answered and ignored.
+4. **Facts live in prompts and lossy codex bullets, and rot authoritatively.**
+   `section-writer.md` carries 4 wrong Citadel facts I added from memory last session;
+   `codex/places.md:176` asserts Grunt+Aralakh climbing the Krogan Monument with the Huerta
+   Memorial / Utukku causality compressed out — that bullet is the source of the Wrex error.
+5. **The verification pass never holds the evidence.** `consistency-checker` never reads
+   `sources.json` chunks, so its central rule is unenforceable, and it never opens
+   `narrative_choices.yaml` at all.
+
+Decisions locked: scene layer beside `timeline/events/`; retrieval planned at outline time
+and executed deterministically into per-section evidence packs (hard-stop on thin evidence);
+explicit episode forms altered by the brief, settled at the outline gate, with the narrator
+bible governing excursion inside the form; split authority on conflicts (user canon decides
+the branch, corpus decides the staging) with genuine mismatches surfaced; canon becomes a
+living store at `config/canon/` split by writer, agents append resolved conflicts and open
+questions, README documents it; one `episode-auditor` holding the packs replaces
+`consistency-checker` and absorbs `smoother`, judging richness by pack coverage and allowed
+to swap but never append. Build generation side first against a targeted scene set, prove it
+with one run, then the full sweep.

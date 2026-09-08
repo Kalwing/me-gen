@@ -1,0 +1,29 @@
+scene_id: normandy-jack-miranda-confrontation
+title: Jack and Miranda, Below Decks
+kind: argument
+game: Mass Effect 2
+when: 2185, on return from Pragia, if Miranda's loyalty mission is already done
+where: aboard the Normandy SR-2
+
+participants: [Shepard, Jack, Miranda Lawson]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - jack_loyalty: any
+  - miranda_loyalty: any
+
+beats:
+  - text: >
+      Back aboard after Pragia, Shepard has to settle a fight between Jack and Miranda over
+      Cerberus's part in what was done to Jack.
+    source_chunks: [jack_005, jack-subject-zero_010]
+  - text: >
+      Handled without picking a side, both agree to shelve it until the Collectors are dealt
+      with. Siding with Miranda costs Jack's trust — recoverable later in conversation, except
+      in a romance, which she ends and will not restart.
+    source_chunks: [jack_005]
+
+related_scenes: [pragia-jack-teltin-facility, citadel-party-apartment]
+related_events: []
+source_chunks: [jack_005, jack-subject-zero_010]

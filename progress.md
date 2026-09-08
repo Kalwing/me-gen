@@ -898,3 +898,21 @@
   `zaal-koris-vas-qwib-qwib`..`zymandis`; 28 stems). After b16/b17: this is the whole
   sweep done -> run `python scripts/renumber_timeline.py` (ONE-SHOT, end only), then
   rebuild master, then the skill's remaining steps (narrative_choices sync, verify).
+
+## 2026-09-08 — Phase 2 opened: scene-sweep tooling
+- Verified Phase 2 item 10 was already complete: `page_summaries` 1,636 == `timeline/.done`
+  1,636, 190 event files, master 190 rows, `renumber_timeline.py --check` clean.
+- Built Phase 2 item 9's tooling (the sweep itself is un-run):
+  `.claude/agents/scene-extractor.md` and `.claude/commands/me-build-scenes.md`, mirroring
+  `/me-build-timeline` — alphabetical batches of ~20, controller-owned `scenes/.done`,
+  4 agents in flight, Haiku default with Sonnet for attendance-/branch-heavy batches,
+  pause-and-commit per wave.
+- Agent rules target the TODO2.md failures directly: read `data/pages/` when the summary is
+  thin, attendance from the page not from memory, per-beat `source_chunks`, causality and
+  sequence preserved, Shepard's agency recorded, branches kept in one record via
+  `conditional`/`variants` keyed to `config/canon/choices.yaml` ids.
+- Tests first: 3 new checks in `tests/test_agent_defs.py` / `tests/test_command_defs.py`
+  (schema fields named, ledger not agent-written, every expected command exists).
+  Suite 166 -> 169 green.
+- Not committed — the tree still holds the whole uncommitted Phase 1 overhaul, and
+  `me3.zip` (30MB) is untracked and not in `.gitignore`.

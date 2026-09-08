@@ -1,0 +1,35 @@
+scene_id: aeia-jacob-and-his-father
+title: What Was Left of the Hugo Gernsback
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, after Horizon
+where: 2175 Aeia, Alpha Draconis system
+
+participants: [Shepard, Jacob Taylor, Ronald Taylor]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - jacob_loyalty: any
+
+beats:
+  - text: >
+      Jacob gets a disturbing message through Cerberus channels. His father Ronald went
+      missing ten years ago with the ship he served on, the MSV Hugo Gernsback.
+    source_chunks: [jacob-taylor_007]
+  - text: >
+      A distress signal from the Gernsback has been picked up from a planet in the Alpha
+      Draconis system, and Jacob wants to know whether his father is alive.
+    source_chunks: [jacob-taylor_007]
+  - text: >
+      2175 Aeia is a remote world named for an asari scientist, on the list of forbidden mass
+      relays.
+    source_chunks: [2175-aeia_001, 2175-aeia_002]
+  - text: >
+      Jacob's verdict on what his father did there is that the man does not know right from
+      wrong.
+    source_chunks: [jacob-taylor_007]
+
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [jacob-taylor_007, 2175-aeia_001, 2175-aeia_002]

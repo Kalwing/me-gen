@@ -1,0 +1,35 @@
+scene_id: bekenstein-kasumi-and-the-graybox
+title: The Heist at Donovan Hock's
+kind: mission-aside
+game: Mass Effect 2
+when: 2185
+where: Donovan Hock's estate on Bekenstein
+
+participants: [Shepard, Kasumi Goto, Donovan Hock]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - kasumi_loyalty: any
+
+beats:
+  - text: >
+      Kasumi wants her old partner's graybox back. Donovan Hock — weapons dealer, smuggler —
+      took it, and she means to get it.
+    source_chunks: [kasumi-goto_004]
+  - text: >
+      Hock killed her partner Keiji Okuda, and is trying to break into the graybox: a neural
+      implant holding Keiji's personal memories along with every secret he ever saw. One of
+      them implicates the Alliance badly enough to start a war.
+    source_chunks: [kasumi-goto_004]
+  - text: >
+      They go in through a gala full of prominent underworld figures and come out through a
+      small army of Eclipse mercenaries running Hock's security.
+    source_chunks: [kasumi-goto_004]
+  - text: >
+      What she wants afterwards is time with Keiji — or what is left of him in the graybox.
+    source_chunks: [kasumi-goto_005]
+
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [kasumi-goto_004, kasumi-goto_005]

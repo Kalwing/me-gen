@@ -1,6 +1,6 @@
 """Load and summarise the player's narrative-choices questionnaire.
 
-The questionnaire (``config/narrative_choices.yaml``) captures the player's canon
+The questionnaire (``config/canon/choices.yaml``) captures the player's canon
 so generation matches their playthrough. A question is answered when ``answer`` is
 set or its ``options`` are narrowed to a single value; anything left blank means
 "use default canon".
@@ -12,6 +12,12 @@ import sys
 from pathlib import Path
 
 import yaml
+
+from scripts.common import REPO_ROOT
+
+#: Where the questionnaire lives now. It is one file of the canon store — see
+#: ``scripts/canon.py`` for the resolved view agents actually consume.
+CHOICES_PATH = REPO_ROOT / "config" / "canon" / "choices.yaml"
 
 REQUIRED_KEYS = ("id", "prompt", "options", "answer", "detail")
 
@@ -47,13 +53,31 @@ def _answer(question: dict) -> str:
     return ""
 
 
+def resolve_path(path: Path) -> Path:
+    """Redirect the pre-canon-store path to its new home, loudly.
+
+    ``config/narrative_choices.yaml`` moved to ``config/canon/choices.yaml``. This shim
+    keeps old callers working for one release so an interrupted migration cannot break a
+    run mid-flight; it is deleted once every caller names the new path.
+    """
+    path = Path(path)
+    if path.exists() or path.name != "narrative_choices.yaml" or not CHOICES_PATH.exists():
+        return path
+    print(
+        f"deprecated: {path} moved to {CHOICES_PATH} — update the caller, this shim "
+        "goes away next release",
+        file=sys.stderr,
+    )
+    return CHOICES_PATH
+
+
 def load_choices(path: Path) -> dict:
     """Parse the questionnaire YAML.
 
     Raises ``ValueError`` if a question is missing a required key, or if an
     ``answer`` is non-empty but not one of that question's non-empty ``options``.
     """
-    path = Path(path)
+    path = resolve_path(path)
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     for group, questions in data.items():
         if not isinstance(questions, list):
@@ -106,8 +130,10 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(
         description="Print the player's narrative-choices summary for prompt injection."
     )
-    ap.add_argument("path", type=Path, help="path to narrative_choices.yaml")
+    ap.add_argument("path", type=Path, nargs="?", default=CHOICES_PATH,
+                    help="path to the choices questionnaire (default: config/canon/choices.yaml)")
     args = ap.parse_args(argv)
+    args.path = resolve_path(args.path)
     if not args.path.exists():
         # No working copy yet — generation should fall back to default canon, not crash.
         print(f"{args.path}: not found — treating every question as unanswered", file=sys.stderr)

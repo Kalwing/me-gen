@@ -1,0 +1,41 @@
+scene_id: citadel-anderson-hands-over-the-apartment
+title: Anderson Gives Shepard the Apartment
+kind: downtime
+game: Mass Effect 3
+when: 2186, the first hour of Citadel shore leave
+where: Anderson's apartment on the Wards, becoming Shepard's
+
+participants: [Shepard, David Anderson]
+private_to: [Shepard, David Anderson]
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Anderson calls from Earth and turns the apartment over to Shepard outright, saying he no
+      longer needs it.
+    source_chunks: [citadel-shore-leave_004]
+  - text: >
+      It is a large place on two floors — three bedrooms each with its own bathroom, a big
+      seating area with a fireplace, a kitchen, a poker den, a bar by the window, a balcony, a
+      hot tub, a rock garden, and a modest art gallery on the upper floor overlooking the main
+      seating area.
+    source_chunks: [personal-apartment_002, personal-apartment_003, personal-apartment_004]
+  - text: >
+      It can be furnished and decorated to taste, including with accessories won off the claw
+      game at the Castle Arcade.
+    source_chunks: [personal-apartment_005, personal-apartment_006, personal-apartment_007]
+  - text: >
+      A computer in the study starts beeping almost immediately with a message that can be
+      ignored, and the private terminal downstairs is where every invitation from the crew
+      lands.
+    source_chunks: [citadel-shore-leave_004, personal-apartment_012]
+
+related_scenes: [citadel-sushi-with-joker, citadel-party-apartment,
+                 citadel-silversun-strip-shore-leave]
+related_events: [citadel-dlc-identity-theft-begins]
+source_chunks: [citadel-shore-leave_004, personal-apartment_002, personal-apartment_003,
+                personal-apartment_004, personal-apartment_005, personal-apartment_006,
+                personal-apartment_007, personal-apartment_012]

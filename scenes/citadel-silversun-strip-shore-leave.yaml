@@ -1,0 +1,42 @@
+scene_id: citadel-silversun-strip-shore-leave
+title: The Silversun Strip
+kind: downtime
+game: Mass Effect 3
+when: 2186, Citadel shore leave
+where: the Silversun Strip, Citadel Wards
+
+participants: [Shepard]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      The Strip holds the Armax Arsenal Arena, the Silver Coast Casino and the Castle Arcade,
+      with a Rapid Transit stop where Cortez can be met.
+    source_chunks: [silversun-strip_001, silversun-strip_002]
+  - text: >
+      Half the crew's invitations name a spot on it: Garrus at the casino's upper floor, Jack
+      at the combat simulator, Jacob outside the arcade, Javik outside the casino at the far
+      end of the Strip — which, as he points out, is neither silver nor near a sun — Miranda
+      in the casino in red, Traynor in the arcade, and Cortez taking the shuttle down.
+    source_chunks: [personal-apartment_013]
+  - text: >
+      The Castle Arcade runs Shattered Eezo, a claw game, and Relay Defense, with
+      Kepesh-Yakshi tables upstairs and a Towers of Hanoi console under the staircase that
+      Shepard declines to touch.
+    source_chunks: [castle-arcade_001, castle-arcade_002, castle-arcade_003,
+                    castle-arcade_004, castle-arcade_005]
+  - text: >
+      The Strip stays open after the DLC's story closes; anything missed can still be
+      finished until the Citadel itself becomes unreachable.
+    source_chunks: [citadel-party_007]
+
+related_scenes: [citadel-armax-arena-matches, citadel-traynor-kepesh-yakshi,
+                 citadel-garrus-casino-bar, citadel-grunt-csec-noodles]
+related_events: []
+source_chunks: [silversun-strip_001, silversun-strip_002, personal-apartment_013,
+                castle-arcade_001, castle-arcade_002, castle-arcade_003, castle-arcade_004,
+                castle-arcade_005, citadel-party_007]

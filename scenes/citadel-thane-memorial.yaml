@@ -1,0 +1,40 @@
+scene_id: citadel-thane-memorial
+title: The Memorial Service for Thane
+kind: ceremony
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after Thane's death
+where: the Citadel, a service arranged through the Council at Kolyat's request
+
+participants: [Shepard, Kolyat Krios]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - thane_alive: false
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Kolyat emails Shepard. The Council contacted him about holding what humans call a
+      memorial service; where it happens matters less than who attends. He wants Shepard
+      there, and the Normandy people who knew his father, and he wants Shepard to speak, since
+      that is what humans do — admitting he is nervous he will recall an inappropriate memory
+      in front of everyone.
+    source_chunks: [personal-apartment_012, kolyat-krios_005]
+  - text: >
+      Thane's former crewmates take turns remembering him.
+    source_chunks: [tali-zorah-nar-rayya_012, kolyat-krios_005]
+  - text: >
+      Tali speaks about his memory — that he could recall everything in his life down to the
+      smallest detail, including all of his mistakes — and says she would have been a nervous
+      wreck with an ability like that.
+    source_chunks: [tali-zorah-nar-rayya_012]
+  - text: >
+      Garrus refuses the word assassin for him. They covered each other in firefights; that
+      made them partners.
+    source_chunks: [garrus-vakarian_014]
+
+related_scenes: [citadel-party-apartment]
+related_events: []
+source_chunks: [kolyat-krios_005, personal-apartment_012, tali-zorah-nar-rayya_012,
+                garrus-vakarian_014]

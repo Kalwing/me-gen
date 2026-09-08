@@ -1,0 +1,27 @@
+# Overrides — canon that beats the corpus.
+#
+# User-owned. Agents read this and never write to it.
+#
+# An override is how a divergence from the wiki is made *deliberate*. Without one,
+# a shorthand answer in `choices.yaml` only settles WHICH branch happened; the corpus
+# still owns the staging. An entry here settles both.
+#
+#   kind: au         — a deliberate divergence from published canon.
+#   kind: correction — the corpus is wrong or lossy and this fixes it.
+#
+# Fields:
+#   id         — kebab-case, unique. Referenced from resolved.yaml.
+#   scope      — entities, scene ids or event ids this governs. Empty = applies everywhere.
+#   statement  — what is true, in prose. This is what reaches the narrator.
+#   overrides  — what it beats, named so a reader can check the conflict.
+#   added      — ISO date.
+
+overrides:
+  - id: shepard-born-on-the-normandy
+    kind: au
+    scope: [Shepard]
+    statement: >
+      Shepard was born aboard a ship called the Normandy, parentless, ran with a gang
+      as a child and had a drug problem before Anderson pulled him into N7.
+    overrides: "Earthborn background as the wiki describes it"
+    added: 2026-09-07

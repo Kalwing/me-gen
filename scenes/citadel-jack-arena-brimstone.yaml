@@ -1,0 +1,44 @@
+scene_id: citadel-jack-arena-brimstone
+title: Two Rounds on Brimstone with Jack
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after at least one Arena match
+where: the Armax Arsenal Arena, Brimstone map
+
+participants: [Shepard, Jack]
+private_to: [Shepard, Jack]
+heard_by: [Normandy crew]
+
+requires:
+  - grissom_academy: evacuated
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Jack messages Shepard that the Strip has a combat simulator and she feels like kicking
+      the crap out of something — get down here if you're game. The message only comes after
+      Shepard has played at least one match.
+    source_chunks: [jack_009, personal-apartment_013]
+  - text: >
+      They take a two-round match against elite Cerberus troops on the Brimstone map. When the
+      Atlas mech spawns, Jack takes it down herself, and thanks Shepard for the get-together.
+    source_chunks: [jack_009]
+  - text: >
+      Her ally licence can be bought afterwards, so she can be brought back into the simulator
+      again.
+    source_chunks: [jack_009]
+  - text: >
+      Her follow-up message is warmer than she would admit to: good to see you haven't lost it
+      without me around to keep you in line.
+    source_chunks: [personal-apartment_012]
+
+variants:
+  - condition: {romance: Jack}
+    text: >
+      During the last fight she tells Shepard she is turned on, and they make out as the Atlas
+      goes up behind them.
+    source_chunks: [jack_009]
+
+related_scenes: [citadel-armax-arena-matches, citadel-jack-apartment-eezo]
+related_events: []
+source_chunks: [jack_009, personal-apartment_012, personal-apartment_013]

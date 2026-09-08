@@ -4,7 +4,7 @@ import pytest
 
 from scripts import narrative_choices as nc
 
-CHOICES = Path(__file__).parent.parent / "config" / "narrative_choices.yaml"
+CHOICES = Path(__file__).parent.parent / "config" / "canon" / "choices.yaml"
 
 BLANK = (
     "shepard:\n"
@@ -127,3 +127,17 @@ def test_summary_only_names_answered_questions(tmp_path):
     assert "wrex" not in summary.lower()
     assert "genophage" not in summary.lower()
     assert nc.is_blank(choices) is False
+
+
+def test_legacy_path_redirects_to_the_canon_store(tmp_path, capsys):
+    # The pre-canon-store path must keep working for one release.
+    legacy = Path(__file__).parent.parent / "config" / "narrative_choices.yaml"
+    assert not legacy.exists()
+    assert nc.resolve_path(legacy) == CHOICES
+    assert "deprecated" in capsys.readouterr().err
+
+
+def test_resolve_path_leaves_real_files_alone(tmp_path):
+    p = tmp_path / "narrative_choices.yaml"
+    p.write_text("shepard: []\n")
+    assert nc.resolve_path(p) == p

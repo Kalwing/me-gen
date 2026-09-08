@@ -1,0 +1,40 @@
+scene_id: citadel-wrex-casino-ice
+title: Wrex, a Drink, and a Bag of Ice
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, before or after the party
+where: the casino bar, Silver Coast Casino
+
+participants: [Shepard, Urdnot Wrex]
+private_to: [Shepard, Urdnot Wrex]
+heard_by: [Normandy crew]
+
+requires:
+  - wrex_virmire: alive
+  - genophage: cured
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      Wrex is on the Citadel to argue krogan expansion with the Council. Shepard finds him at
+      the casino bar, exhausted, ordering a drink and a bag of ice.
+    source_chunks: [urdnot-wrex_012]
+  - text: >
+      With the krogan fertile again, and with his part in curing the genophage known, Wrex has
+      been hounded by every female krogan on Tuchanka to sire their firstborn. He got no
+      respite even on the shuttle to the Citadel — two more of them on the way. The worst of
+      it, to him, is that Urdnot Bakara encourages it.
+    source_chunks: [urdnot-wrex_012]
+  - text: >
+      He shoves the ice into his armour to relieve his overworked quad while Shepard looks
+      pointedly in another direction.
+    source_chunks: [urdnot-wrex_012]
+  - text: >
+      They drink to how far they have come, Wrex shouting "Korbal" — roughly, victory or
+      death. Shepard points out he cannot die now: he has a family. A really, very big family.
+      Wrex puts his head on the table and calls for more ice.
+    source_chunks: [urdnot-wrex_012]
+
+related_scenes: [citadel-party-apartment, citadel-wards-ambush-extraction]
+related_events: []
+source_chunks: [urdnot-wrex_012]

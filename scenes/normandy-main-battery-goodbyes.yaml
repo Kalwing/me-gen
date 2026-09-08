@@ -1,0 +1,42 @@
+scene_id: normandy-main-battery-goodbyes
+title: Goodbyes at the Main Battery
+kind: downtime
+game: Mass Effect 3
+when: 2186, the eve of the assault on Earth
+where: the main battery, Normandy SR-2
+
+participants: [Shepard, Garrus Vakarian, Tali'Zorah vas Normandy]
+private_to: [Shepard, Garrus Vakarian, Tali'Zorah vas Normandy]
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      Garrus keeps the main battery, calibrating the guns, and turns up in the port
+      observation lounge when he is not there.
+    source_chunks: [garrus-vakarian_009]
+  - text: >
+      Tali comes down to the main battery to say goodbye to Garrus and to bet him on who kills
+      more. Shepard can thank them both for being there through all of it and for believing in
+      the Commander regardless; Tali's answer is that they will finish it the way it started,
+      together.
+    source_chunks: [tali-zorah-nar-rayya_016]
+  - text: >
+      Garrus's own version of the goodbye is an order dressed as insubordination: come back
+      alive, it would be an awfully empty galaxy without you.
+    source_chunks: [garrus-vakarian_015]
+
+variants:
+  - condition: {romance: Tali}
+    text: >
+      Before the last push Tali's nerve about retaking Earth wavers for a moment and she says
+      she wants more time. If she follows Shepard on the charge to the Conduit she is critically
+      wounded and evacuated to the Normandy, begging not to be left; Shepard tells her to live
+      and build a home on Rannoch, and she answers that she already has a home and asks him to
+      come back.
+    source_chunks: [tali-zorah-nar-rayya_016]
+
+related_scenes: [normandy-memorial-wall-after-thessia, normandy-garrus-and-tali-reconciliation]
+related_events: []
+source_chunks: [garrus-vakarian_009, garrus-vakarian_015, tali-zorah-nar-rayya_016]

@@ -6,16 +6,22 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-02 (session 2): timeline sweep resumed, TOKEN-MINIMAL + PAUSE-PER-WAVE mode.
-User instruction: continue; Haiku for small/low-yield batches, Sonnet only for pivotal
-choice-heavy missions; **pause after EACH wave, commit + save state, so context can be
-/clear'd between waves.**
+2026-09-08 (session N): the timeline sweep is COMPLETE — 1,636/1,636 stems in
+`timeline/.done`, 190 event files, master 190 rows, `renumber_timeline.py --check`
+clean. The generation overhaul's Phase 1 test run passed ("came out great").
 
-Prior scratch (tb2/*) was lost with the old session — batches are now re-derived
-deterministically each wave from disk. No stored batch files.
-
-REMAINING at wave-1 start: 1232 stems (page_summaries 1636 − timeline/.done 404).
-41 event files on disk, master 41 rows all matched, suite 86 green (committed a683f51).
+Work now follows `docs/superpowers/specs/2026-09-07-generation-overhaul-design.md`
+**Phase 2**, not the wave procedure below (kept for reference):
+- [x] Phase 2 item 10 — timeline sweep + renumber.
+- [x] Phase 2 item 9 (tooling) — `/me-build-scenes` + `scene-extractor` written,
+      mirroring `/me-build-timeline`: alphabetical batches of ~20, `scenes/.done`
+      ledger owned by the controller, 4 agents in flight, Haiku default / Sonnet for
+      attendance- and branch-heavy batches, pause-and-commit per wave. 169 tests green.
+- [ ] Phase 2 item 9 (the sweep) — 1,636 stems pending, un-run. Token-heavy; run in
+      waves and `/clear` between them.
+- [ ] Phase 2 item 11 — codex correction pass for compressed-causality bullets of the
+      Krogan Monument kind.
+- [ ] TODO2.md line-level corrections to the test-run output (Jack/Tali/Wrex).
 
 ### Per-wave procedure (repeat until remaining == 0)
 1. Regenerate the to-do list (order = alphabetical, deterministic):

@@ -1,0 +1,33 @@
+scene_id: normandy-tali-legion-conflict
+title: Tali Catches Legion Scanning Her Omni-Tool
+kind: argument
+game: Mass Effect 2
+when: 2185, after both Tali's and Legion's loyalty missions
+where: aboard the Normandy SR-2
+
+participants: [Shepard, Tali'Zorah vas Normandy, Legion]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - legion_loyalty: any
+  - tali_trial: any
+
+beats:
+  - text: >
+      Tali catches Legion scanning her omni-tool for information on the Flotilla to send back
+      to the geth.
+    source_chunks: [tali-zorah-nar-rayya_006]
+  - text: >
+      Legion's position is that it is warning the geth about a real threat — the quarians'
+      tests, and their plans to attack.
+    source_chunks: [tali-zorah-nar-rayya_006]
+  - text: >
+      Unless Shepard steps in without taking a side, one of the two stops trusting the
+      Commander. Handled impartially, Tali thanks Legion for agreeing not to transmit, and
+      offers it unclassified Flotilla data instead.
+    source_chunks: [tali-zorah-nar-rayya_006]
+
+related_scenes: [flotilla-tali-treason-trial]
+related_events: []
+source_chunks: [tali-zorah-nar-rayya_006]

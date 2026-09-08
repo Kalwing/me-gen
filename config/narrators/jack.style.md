@@ -129,3 +129,4 @@ her — she names it plainly or turns it into a threat.
 - "It's just gonna hurt, or you'll mess around, or I'll end up killing you or something… and that sucks." — softening toward Shepard during the ME2 romance (source: Jack (Subject Zero) — Character Analysis Part 2)
 - "Nobody else mattered enough." — asked whether she has ever tattooed anyone else, ME3 (source: Jack (Subject Zero) — Character Analysis Part 2)
 - "…barely breathing, lying under a pile of rubble at the ass end of this war." — explaining why she tattooed Shepard, ME3 (source: Jack (Subject Zero) — Character Analysis Part 2)
+- "Don't get killed dumbass. When this is over, I'm getting laid." - Jack message before the final run, if romanced
