@@ -1,0 +1,52 @@
+scene_id: lazarus-station-rasa-steals-clone
+title: Rasa Steals Shepard's Clone from Lazarus Station
+kind: mission-aside
+game: Mass Effect 2
+when: "2184, Lazarus Research Station (Mass Effect: Foundation 13)"
+where: the clone laboratory, corridors and an airlock of the Lazarus Research Station, then a Cerberus debrief and a hidden location
+
+participants: [Rasa, Miranda Lawson, The Illusive Man]
+private_to: []
+heard_by: []
+
+requires:
+  - game: Mass Effect 2
+
+beats:
+  - text: >
+      The order has gone out to terminate Commander Shepard's backup clone. The Cerberus
+      agent Rasa, unwilling to let Cerberus own anything of hers or dispose of an asset she
+      values, moves instead to steal it. Backed by a single LOKI mech she seizes the
+      clone's tank in the lab; when a staffer recognizes her, she kills every other agent
+      present.
+    source_chunks: [mass-effect-foundation-13_004, mysterious-figure_002]
+  - text: >
+      Elsewhere on the station Miranda Lawson gets reports of the clone lab going dark.
+      The corridor camera feeds have been hijacked to play footage of Blasto, and a virus
+      Rasa planted has crippled the station mainframe, stalling Miranda and her security
+      team as they mobilize.
+    source_chunks: [mass-effect-foundation-13_004]
+  - text: >
+      Rasa suits up beside an airlock with the fire-suppression systems running. Miranda
+      corners her there with a squad and her own LOKI and YMIR mechs, but Rasa anticipated
+      it: the mechs switch to her side and massacre Miranda's human troops.
+    source_chunks: [mass-effect-foundation-13_004]
+  - text: >
+      Rasa, her LOKI and the clone tank are almost at an escape Kodiak outside the hull
+      when a sniper round from a recovered Miranda hits the mech. The LOKI disconnects the
+      tank harness, fixes it to Rasa's own body, and puts itself in Miranda's path. As the
+      two women argue about how much each owes Cerberus — Miranda content with the help she
+      was given, Rasa refusing to pay its hidden costs — the LOKI creeps up behind Miranda,
+      buying Rasa time to load the clone and fly off.
+    source_chunks: [mass-effect-foundation-13_004]
+  - text: >
+      At the postmortem debrief Miranda tells the Illusive Man she is assembling a
+      retrieval team. He orders her to scrub it, calling Rasa and the clone irrelevant
+      beside the coming of the Reapers and the real Shepard. At an undisclosed location
+      Rasa monologues to the dormant clone about trust and betrayal, vowing to make it
+      superior to the original.
+    source_chunks: [mass-effect-foundation-13_004, illusive-man_013, mysterious-figure_002]
+
+related_scenes: [citadel-archives-escape-clone-confrontation, minuteman-station-rasa-reassigned-dossiers]
+related_events: [lazarus-project-shepard-revival]
+source_chunks: [mass-effect-foundation-13_004, illusive-man_013, mysterious-figure_002]

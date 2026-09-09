@@ -1,0 +1,41 @@
+scene_id: minuteman-station-rasa-reassigned-dossiers
+title: Rasa Pulled From the Field and Put on the Dossiers
+kind: mission-aside
+game: Mass Effect 2
+when: "before the Reaper war, Minuteman Station (Mass Effect: Foundation 8 and 4), after Rasa's near-fatal Citadel job"
+where: the Minuteman Station medical bay and the Illusive Man's sanctum, then Rasa's quarters
+
+participants: [Rasa, Miranda Lawson, The Illusive Man, Kai Leng]
+private_to: []
+heard_by: []
+
+requires:
+  - game: Mass Effect 2
+
+beats:
+  - text: >
+      Days after the alley, Rasa reaches Minuteman Station on a gurney, still weak. She
+      tries to warn Miranda about the virus in the disc while being treated; Miranda takes
+      the disc back and tells her to focus on recovery.
+    source_chunks: [mass-effect-foundation-8_005, maya-brooks_009]
+  - text: >
+      Over the following days Miranda extracts the Shepard data and counteracts Vasir's
+      virus, and squeezes extra funding for the Lazarus Project out of the incident. In
+      the Illusive Man's sanctum she reports the job complete. He is pleased, notes Vasir
+      now knows of Cerberus's interest in Shepard, lets the clone project continue only
+      as a testbed, and agrees Rasa's cover is blown and her field days are over — but
+      says he still has a use for her: drawing up the dossiers for Shepard's prospective
+      team.
+    source_chunks: [mass-effect-foundation-8_005, storyline-ii_019]
+  - text: >
+      Later, Rasa is up all night in her quarters going over those dossiers when Kai Leng
+      knocks to tell her she missed a debrief. She vents that Shepard's crew is a ragtag
+      set of broken cases and aliens, and that Cerberus should be studying the Commander,
+      not them. Leng dares her to say so to the Illusive Man, warns her not to, and leaves
+      reminding her about the next debrief. Glancing at Kaidan Alenko's profile, she
+      promises she won't miss it.
+    source_chunks: [maya-brooks_005, kai-leng_006, mass-effect-foundation-4_004]
+
+related_scenes: [citadel-thane-spares-rasa, lazarus-station-rasa-steals-clone, cerberus-labs-miranda-briefs-rasa-lazarus]
+related_events: [cerberus-agent-rasa-shepard-dossiers]
+source_chunks: [mass-effect-foundation-8_005, storyline-ii_019, maya-brooks_005, maya-brooks_009, kai-leng_006, mass-effect-foundation-4_004]

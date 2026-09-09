@@ -1,0 +1,48 @@
+scene_id: noveria-arrival-weapons-standoff
+title: The Weapons Standoff at Port Hanshan
+kind: argument
+game: Mass Effect
+when: 2183, arrival at Noveria, during the hunt for Saren
+where: the hangar entrance to Port Hanshan, Noveria
+participants: [Shepard, Maeko Matsuo, Kaira Stirling, Gianna Parasini]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect
+beats:
+  - text: >
+      On approach the Normandy is not on Noveria's arrival list and traffic control tracks
+      the ship with defense systems until Joker invokes Citadel business and a Council
+      Spectre aboard. The ship is cleared to land, pending identity confirmation on arrival
+      on penalty of impounding.
+    source_chunks: [noveria-geth-interest_004]
+  - text: >
+      Leaving the ship, Shepard's ground team is blocked from Port Hanshan by Captain Maeko
+      Matsuo, Sergeant Kaira Stirling, and a turian guard. Matsuo signals Stirling to
+      confiscate the team's weapons under Port Hanshan's strict no-firearms policy; the
+      squad instead draws and levels their guns at the guards. Shepard can stand the team
+      down to defuse it or refuse to hand over the guns.
+    source_chunks: [noveria-geth-interest_004]
+  - text: >
+      Gianna Parasini breaks in over the intercom and orders Matsuo to stand down: Shepard's
+      Spectre identity is confirmed, and with it the privilege to carry arms. Matsuo is
+      compelled to let the Commander into the port.
+    source_chunks: [noveria-geth-interest_004]
+  - text: >
+      Past the customs scanners an alarm trips on the team's weapons. Parasini, waiting
+      there, tells Shepard not to worry, introduces herself as administrative assistant to
+      port Administrator Anoleis, and explains the heavy security exists to protect the
+      corporations' interests and privacy. Pressed about unusual visitors, she admits
+      Matriarch Benezia arrived recently and went up to Peak 15, but that Anoleis must
+      approve any request to leave Port Hanshan.
+    source_chunks: [noveria-geth-interest_004]
+  - text: >
+      If Liara has joined the crew but is not in the squad, a squadmate urges Shepard to
+      bring her along for her family tie to Benezia; otherwise Liara raises it herself, and
+      Shepard can question whether she can be trusted to side with the team against her
+      mother, or send her back to the ship and swap squadmates on the spot.
+    source_chunks: [noveria-geth-interest_004]
+    conditional: {liara_for_noveria: raised}
+    choice: whether Liara is trusted along for Noveria
+related_scenes: [citadel-dock-422-shepard-takes-command, bel-anoleis-corruption-noveria, benezia-death-noveria]
+related_events: [noveria-geth-interest]
+source_chunks: [noveria-geth-interest_004]

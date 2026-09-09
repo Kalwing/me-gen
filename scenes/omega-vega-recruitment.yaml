@@ -1,0 +1,22 @@
+scene_id: omega-vega-recruitment
+title: Vega's Bar Fight on Omega
+kind: argument
+game: Mass Effect 3
+when: Days after the destruction of Bahak, during galactic turmoil over Shepard's alleged actions
+where: A bar on Omega, then an Alliance aircar en route to the Normandy SR-2
+participants: [James Vega, Admiral Anderson]
+private_to: [James Vega, Admiral Anderson]
+heard_by: [Systems Alliance, Omega Station]
+requires:
+  - arrival_dlc: any
+beats:
+  - text: >
+      James Vega watches a newscast about the Citadel Council's denunciation of Shepard and the Batarian Hegemony's call for retribution. As the report plays, Vega rips the wall-mounted screen down and offers to pay the krogan bartender for the damage. The batarians he was playing cards with accuse him of being a "Shepard Lover." When Vega tries to calm them, they attack. He bashes one with the screen and crashes through a window with another; the remaining batarians surround him.
+    source_chunks: [mass-effect-conviction_003]
+    choice: defended Shepard's reputation
+  - text: >
+      Admiral Anderson arrives with Alliance soldiers and breaks up the fight. He tells Vega he's being brought in for more training to get past "the incident on Fehl." As they board an aircar, Anderson tells Vega he must become the soldier they expect. When Vega demands to be thrown in the brig instead, Anderson reveals Vega will be guarding the brig—with one special prisoner: Commander Shepard.
+    source_chunks: [mass-effect-conviction_003]
+    choice: recruited to guard Shepard
+related_events: [arrival-bahak-relay-destruction, mass-effect-conviction-james-vega-guards-shepard]
+source_chunks: [mass-effect-conviction_001, mass-effect-conviction_002, mass-effect-conviction_003, mass-effect-conviction_004]

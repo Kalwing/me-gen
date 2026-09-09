@@ -1,0 +1,28 @@
+scene_id: citadel-dock-422-shepard-takes-command
+title: Shepard Given Command of the Normandy at Dock 422
+kind: ceremony
+game: Mass Effect
+when: 2183, Citadel, after Shepard is named a Spectre and Saren is exposed
+where: Dock 422, Citadel, beside the SSV Normandy
+participants: [Shepard, Udina, Anderson]
+private_to: [Shepard, Udina, Anderson]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect
+beats:
+  - text: >
+      Reporting to Dock 422 after being made a Spectre, Shepard is met by Ambassador Udina,
+      who announces that Anderson is stepping down as commanding officer of the SSV Normandy
+      and that the ship is now Shepard's to command. Udina passes on the Council's tasking:
+      reports of geth interest in the corporate research colony of Noveria, and a need to
+      know why.
+    source_chunks: [noveria-geth-interest_002, noveria-geth-interest_001]
+  - text: >
+      Asked about the assignment, Anderson warns Shepard that Noveria has always been
+      trouble, that Spectres are the only Council agents the colony's businesses will
+      respect, and that even a Spectre's visit will barely be tolerated. He tells Shepard
+      to take care.
+    source_chunks: [noveria-geth-interest_002]
+related_scenes: [noveria-arrival-weapons-standoff]
+related_events: [noveria-geth-interest]
+source_chunks: [noveria-geth-interest_001, noveria-geth-interest_002]

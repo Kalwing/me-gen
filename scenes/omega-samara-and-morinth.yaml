@@ -38,7 +38,33 @@ beats:
   - text: >
       One of them dies either way, and the survivor stays with Shepard.
     source_chunks: [samara-the-ardat-yakshi_007]
+  - text: >
+      If Shepard sided with Morinth and killed Samara, Morinth leaves Omega with the squad,
+      passing herself off as her mother. Aboard the Normandy Kelly Chambers and Kasumi Goto
+      both notice "Samara" behaving unlike herself; Kasumi names her outright after the
+      suicide mission and warns Shepard away from her. In her claimed quarters in the Port
+      Observation Lounge Morinth disables EDI's surveillance and speaks in her own voice,
+      airing her contempt for Samara's dutiful, loveless upbringing and its lessons of
+      self-denial.
+    source_chunks: [morinth_003, morinth_004]
+    conditional: {samara_loyalty: sided_with_morinth}
+    choice: Shepard helped Morinth kill Samara — Morinth joins impersonating her mother
+  - text: >
+      Morinth tells Shepard her lovers felt pleasure past any ordinary meld and presses to
+      mate with the Commander, claiming Shepard is too strong-willed to die from it. If both
+      survive the suicide mission and Shepard takes her up on it, the joining kills Shepard,
+      her assurances proven false.
+    source_chunks: [morinth_005]
+    conditional: {romance: Morinth}
+    choice: Shepard mates with Morinth after the Collector Base — Shepard dies
+  - text: >
+      In 2186, if Morinth lived, she slips off the Normandy without a word during the Reaper
+      war and later emails Shepard "A belated goodbye," glad the Commander survived the
+      attack on Earth and still grateful Shepard took a chance on her.
+    source_chunks: [morinth_006]
+    conditional: {samara_loyalty: sided_with_morinth}
+    choice: Morinth survives into Mass Effect 3
 
-related_scenes: [citadel-party-apartment]
+related_scenes: [citadel-party-apartment, lesuss-monastery-samara-falere]
 related_events: []
-source_chunks: [samara_003, samara-the-ardat-yakshi_007]
+source_chunks: [samara_003, samara-the-ardat-yakshi_007, morinth_003, morinth_004, morinth_005, morinth_006]

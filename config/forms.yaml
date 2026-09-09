@@ -12,6 +12,9 @@
 #   spine          — where sections come from. `events` = timeline/events/ (missions);
 #                    `scenes` = scenes/ (occasions); `mixed` = both.
 #   section_count  — [min, max] sections. Advisory; the brief can stretch it.
+#   requires       — optional. A precondition the brief and themes must meet for the form
+#                    to fit. `romance` = the episode is told through an established Shepard
+#                    romance; `outline-writer` picks the form only when that holds.
 
 forms:
   - id: arc
@@ -53,6 +56,49 @@ forms:
     spine: events
     section_count: [10, 16]
 
+  - id: motivational
+    description: >
+      A speech meant to move someone to act — the narrator talking Shepard (or whoever is
+      listening) up off the floor and back into the fight. Sections are the rising beats of
+      an address: the stakes named, the doubt named plainly, the evidence from a life lived
+      that it can be done, the call. The narrator's own history is fuel for the exhortation,
+      not the subject of it.
+    spine: mixed
+    section_count: [6, 12]
+
+  - id: bedtalk
+    description: >
+      Pillow talk. One place, late, the war held at arm's length. The narrator says
+      everything at once — where they came from, what their people are like, how the two of
+      them started and what each turn of it meant — and keeps circling back to reassurance:
+      that Shepard is good, that what they did was right, that this was worth it. Tender,
+      unguarded, digressive the way talk is when no one is keeping time. Sections are
+      subjects the pillow raises, not chapters.
+    spine: mixed
+    section_count: [8, 14]
+    requires: romance
+
+  - id: reminiscing
+    description: >
+      Two old friends going back over the campaigns over beers. Warm, unhurried, no case
+      to make — just "remember when." Sections are adventures recalled, and the narration
+      keeps losing the thread onto opinions about lore, culture and how things work, then
+      circling back. Runs everything against the Shepard it remembers — this persona's
+      choices, temper and habits are the yardstick the stories and the digressions get
+      measured by.
+    spine: mixed
+    section_count: [8, 14]
+
+  - id: upward
+    description: >
+      The narrator imagining after. Taking the world as it stands, their own life and the
+      adventures shared, and spinning them forward — what the galaxy looks like once the
+      war ends, how everyone (them, Shepard, anyone) grows into the peace. It assumes a
+      happy ending and builds on it; sections are futures pictured. The narrator knows this
+      is wishful and says so, or refuses to and means it.
+    spine: mixed
+    section_count: [8, 14]
+
   - id: argument
     description: >
       A position the narrator is defending — about a species, a decision, a person, the
@@ -60,3 +106,132 @@ forms:
       argument; chronology serves the case, not the other way round.
     spine: mixed
     section_count: [8, 14]
+
+  - id: tunnel
+    description: >
+      One enthusiasm followed all the way down. The narrator opens on a subject they
+      love and know cold — how a mass relay actually throws a ship, the grammar of their
+      homeworld's oldest language, the breeding lines behind a varren pit — and talks it
+      out well past where a listener would have stopped them, then follows a seam into
+      the next subject and the next. An infodump, but a personal one: every fact is here
+      because the narrator went and got it, and why they cared runs under the telling —
+      the childhood that started it, the person who taught them, the love and the plain
+      curiosity of it. Sections are subjects, each opening where the last one's tangent
+      left off.
+    spine: mixed
+    section_count: [8, 30]
+
+  - id: lecture
+    description: >
+      A prepared talk to an audience that came to learn something — a species, a
+      technology, an institution, an era. Delivered with a syllabus's discipline:
+      terms defined first, then the evidence, then the parts still argued over, then
+      what nobody knows yet. The narrator's own history is the fieldwork the lecture
+      rests on and the reason they get to give it, cited the way a scholar cites their
+      own digs. Sections are the points on the syllabus, in teaching order.
+    spine: mixed
+    section_count: [8, 24]
+
+  - id: briefing
+    description: >
+      A mission briefing given against the clock. Situation, objective, assets on hand,
+      what will get you killed, the call — compressed and ranked, no ornament, the next
+      decision always in view. Sections are agenda items. The narrator's past enters
+      only as precedent that bears on the plan — seen this before, here is how it went —
+      and gets dropped the moment it stops being useful.
+    spine: events
+    section_count: [6, 12]
+
+  - id: debrief
+    description: >
+      An operation walked back through after it is over — the plan as briefed, what
+      actually happened, where the two came apart, what that cost, and what changes
+      before the next one. Cooler than a postmortem and pointed forward: the dead are
+      logged, not mourned. Sections are the phases of the job reviewed in sequence, each
+      closing on the lesson drawn from it.
+    spine: events
+    section_count: [6, 24]
+
+  - id: confession
+    description: >
+      An accounting of the narrator's own wrongs and debts, made to someone who can
+      witness them if not absolve them. What they did, who paid for it, what is still
+      owed — set down plainly, without the softening a defence would add. Sections are
+      the debts, the heaviest kept for last; chronology serves the reckoning rather
+      than the other way round.
+    spine: mixed
+    section_count: [8, 24]
+
+  - id: cockpit
+    description: >
+      Running commentary from the seat, talked out over the top of a job the narrator
+      is in the middle of doing. Wry, quick, always ready to break off for the task and
+      pick the thread back up. Sections are legs of the run or stretches of the watch,
+      and the narration keeps getting yanked back to the controls mid-thought. Timing
+      and the aside carry it; the life story arrives in the gaps between course
+      corrections.
+    spine: mixed
+    section_count: [8, 20]
+
+  - id: grievance
+    description: >
+      One long-nursed wrong with the heat still in it. The narrator has an account to
+      settle — with a person, an outfit, an institution — and every section is another
+      piece of why. Not an argument built for a neutral listener; a circling and
+      re-circling of the same injury that picks up the rest of a life as it goes, and
+      only cools, if it cools, at the end.
+    spine: mixed
+    section_count: [8, 20]
+
+  - id: heist
+    description: >
+      One operation rebuilt for the pleasure of telling it: the mark, the plan, the
+      crew, the thing that went wrong, the improvisation, the way out. Sections are the
+      stages of the job in order. Craft and relish carry it — the narrator's history is
+      the run of earlier jobs that taught each trick now being shown off.
+    spine: scenes
+    section_count: [8, 14]
+
+  - id: code
+    description: >
+      The narrator lays out the rules they actually live by and holds each one against
+      their own record. Sections are the precepts; under each, the time it held and the
+      time it nearly didn't. Measured, deliberate, turned inward — where `argument`
+      defends a position to someone else, this is a person auditing their own conduct
+      against their own law.
+    spine: mixed
+    section_count: [6, 14]
+
+  - id: manifesto
+    description: >
+      A political address setting out a vision. The narrator names the ideas they serve,
+      the state of the galaxy they are fighting against, and the thing they are trying
+      to build in its place — each claim carried by data or by an example pulled from a
+      life spent watching it play out. Sections are the planks of the platform, laid in
+      the order that makes the case. Where `motivational` works on one person in a bad
+      hour, this is pitched to a body — a people, a council, a war — and argues for a
+      future, not a next step.
+    spine: mixed
+    section_count: [8, 20]
+
+  - id: lastcall
+    description: >
+      A late call the night before the end. The narrator has a bottle and someone on
+      the line, and they mean to say the things you say when there may not be a
+      tomorrow — not in order, not built to any point, just whatever the drink and the
+      hour raise. Sections are subjects that come up in the talk, and the narration
+      slows as it goes: threads dropped mid-sentence, picked up wrong, the narrator
+      nodding off and coming back. It trails into sleep rather than ending.
+    spine: scenes
+    section_count: [6, 24]
+
+  - id: eulogy
+    description: >
+      The narrator on their feet in a crowded room, speaking about someone who has
+      died. Sections are the things there are to say about the dead — a habit, a fight,
+      a debt, the once they were wrong, the once they were right when it counted. The
+      tone swings: a story that gets a laugh, a line that lands angry, a stretch that
+      can barely be got through. What holds it together is that none of it is polite —
+      every word is meant.
+    spine: mixed
+    section_count: [6, 14]

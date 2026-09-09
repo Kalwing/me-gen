@@ -3,9 +3,9 @@ title: Joker Hijacks the Normandy's Test Flight
 kind: mission-aside
 game: Mass Effect
 when: "2183, Arcturus Station (Mass Effect: He Who Laughs Best)"
-where: Arcturus Station
+where: a shuttle inbound to Arcturus Station, then the station's control room and docks
 
-participants: [Jeff "Joker" Moreau, David Anderson, Dillard, Invectus]
+participants: [Jeff "Joker" Moreau, David Anderson, Dillard, Invectus, Crooks]
 private_to: []
 heard_by: []
 
@@ -13,21 +13,34 @@ requires: []
 
 beats:
   - text: >
-      Arcturus Station hosts the first test flight of the newly completed SSV Normandy, an
-      Alliance stealth frigate designed with the Turian Hierarchy. Alliance captains David
-      Anderson and Dillard attend along with Hierarchy General Invectus.
-    source_chunks: [arcturus-station_007]
+      Joker flies the turian General Invectus in by shuttle for the Normandy's first test
+      flight, making small talk and running down the Alliance's choice of pilot — a job
+      Joker had applied for himself. Invectus cuts him off ("Just drive"), and on arrival
+      tells him a cripple will never control the fleet's most sophisticated starship.
+    source_chunks: [mass-effect-he-who-laughs-best_002, invectus_001]
   - text: >
-      Jeff "Joker" Moreau traps the Normandy's original pilot on the station, locks himself in
-      the cockpit, and hijacks the ship to prove he can fly it better. A patrol of fighters is
-      scrambled to disable the Normandy, but Joker evades them and returns the ship to dock
-      unscathed.
-    source_chunks: [arcturus-station_007]
+      In the control room Captain Dillard complains to David Anderson about the Turian
+      Hierarchy's mistrust and the wait for a turian overseer; Anderson counts sending one
+      turian as close to trust as they will get. A distress call reports the Normandy
+      hijacked, the pilot sealed in the cockpit behind kinetic barriers, the ship still
+      holding its charted flight plan. The assigned pilot, "Crooks," is found locked in a
+      shuttle in the cargo dump and is cleared. Dillard orders a fighter patrol to force
+      the Normandy down or hit its engines, over Anderson's objection.
+    source_chunks: [mass-effect-he-who-laughs-best_002, dillard_001, crooks_001]
   - text: >
-      Impressed, General Invectus pressures the Alliance into assigning Joker as the
-      Normandy's pilot.
-    source_chunks: [arcturus-station_007]
+      Joker comes over the comms: he has read the manifest, memorized the obstacle course,
+      and will bring the ship back when he is done. He evades every shot the patrol fires
+      and docks the Normandy unscathed, gushing that he is in love with it.
+    source_chunks: [mass-effect-he-who-laughs-best_002, dillard_001]
+  - text: >
+      Anderson demands an explanation; Joker says people forget his credentials the moment
+      they see his crutches, so stealing the ship was his only chance to fly it. Dillard
+      promises a court martial, but Invectus intervenes — praising Joker for running
+      circles around station security under fire and keeping his cool — and, citing
+      turian-human relations, insists he be made the pilot. Anderson says Joker will be
+      punished but that he would trust the Normandy to no one else.
+    source_chunks: [mass-effect-he-who-laughs-best_002, invectus_001, dillard_001]
 
-related_scenes: []
-related_events: []
-source_chunks: [arcturus-station_007]
+related_scenes: [arcturus-grissom-anderson-shanxi-discussion]
+related_events: [joker-hijacks-normandy]
+source_chunks: [arcturus-station_007, mass-effect-he-who-laughs-best_002, invectus_001, dillard_001, crooks_001]

@@ -1,0 +1,54 @@
+scene_id: noveria-rift-station-lockdown
+title: Rift Station Under Lockdown; Ventralis's Betrayal
+kind: mission-aside
+game: Mass Effect
+when: 2183, Noveria, during the hunt for Saren, after Peak 15
+where: Rift Station, reached by tram beyond Peak 15
+participants: [Shepard, Captain Ventralis, Zev Cohen, Han Olar, Alestia Iallis]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect
+beats:
+  - text: >
+      The tram from Peak 15 brings Shepard to Rift Station, held by the battered survivors
+      of Binary Helix's science team under a "Watchdog Protocol" lockdown. Shepard takes
+      the elevator up to the Science Station and meets Captain Ventralis and his guards,
+      who explain they have been sealed in for a long while and will not let their security
+      be breached. Ventralis hands Shepard a pass card to the Hot Labs; rachni attack
+      mid-conversation and Shepard and Ventralis put them down together.
+    source_chunks: [noveria-matriarch-benezia_008, noveria-rift-station_001]
+  - text: >
+      On the main level scientists and guards shelter behind the lockdown. Dr. Zev Cohen at
+      the Med Bay gives Shepard the Noveria: Quarantine job — producing a cure. Completing
+      it for him earns a maintenance back-door pass that lets Shepard slip into the Secure
+      Lab past a single rachni soldier without provoking the guards.
+    source_chunks: [noveria-rift-station_005]
+  - text: >
+      Alternatively Shepard hacks through the Restricted Area past the "Watchdog Protocol"
+      doors for extra combat, experience and credits — which turns every Rift Station
+      character permanently hostile, ending trade with the volus merchant Petozi and
+      locking out the Quarantine mission.
+    source_chunks: [noveria-rift-station_002, noveria-rift-station_004]
+    conditional: {noveria_rift_station_entry: restricted_area}
+    choice: fought in through the Restricted Area
+  - text: >
+      Han Olar accosts Shepard after the asari Alestia Iallis attacks during the Quarantine
+      mission, updating Shepard on the situation at the station.
+    source_chunks: [noveria-rift-station_002]
+  - text: >
+      If Shepard pursues the Hot Labs lead before entering the Secure Lab, on returning to
+      the mess hall Captain Ventralis and the entire security force reveal themselves as
+      Benezia's employees and ambush the squad; Shepard fights them down. Olar later reports
+      that Ventralis had most of the civilians killed to cover up Binary Helix's rachni
+      mistake.
+    source_chunks: [noveria-rift-station_006]
+    conditional: {noveria_hot_labs_first: true}
+    choice: Ventralis betrayal in the mess hall
+  - text: >
+      Rift Station stops mattering once Shepard reaches the Secure Lab, which is the
+      mission's point of no return — the mess hall is locked out behind the squad, and the
+      confrontation with Benezia and the Rachni Queen follows.
+    source_chunks: [noveria-matriarch-benezia_009, noveria-rift-station_007]
+related_scenes: [benezia-death-noveria, bel-anoleis-corruption-noveria]
+related_events: [benezia-death-noveria]
+source_chunks: [noveria-matriarch-benezia_008, noveria-matriarch-benezia_009, noveria-rift-station_001, noveria-rift-station_002, noveria-rift-station_004, noveria-rift-station_005, noveria-rift-station_006, noveria-rift-station_007]

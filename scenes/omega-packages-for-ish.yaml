@@ -1,0 +1,52 @@
+scene_id: omega-packages-for-ish
+title: Ish's Packages
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Omega, after Horizon
+where: outside the Afterlife Club near the Market entrance on Omega
+participants: [Shepard, Ish]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Near the Market entrance, the salarian information broker Ish — with another salarian,
+      Sel — asked Shepard to collect two packages for him: one by Marab's shop on the Citadel
+      and one in the bar Eternity on Illium. Pressed on why, Ish was evasive, admitting only
+      that he was gathering information on people on Omega, Aria T'Loak in particular.
+    source_chunks: [omega-packages-for-ish_002, omega-packages-for-ish_003, ish_003]
+  - text: >
+      Retrieving a package revealed that Anto Bek'tall, one of Aria's most trusted bodyguards,
+      was running unsanctioned side work arranging safe passage through the Terminus Systems
+      for smugglers.
+    source_chunks: [omega-packages-for-ish_003, anto-bek-tall_003, ish_003]
+  - text: >
+      Shepard delivered the packages to Ish as agreed, for credits and Renegade points.
+    source_chunks: [omega-packages-for-ish_003, ish_003]
+    conditional: {ish_fate: paid_off}
+    choice: delivered the packages to Ish
+  - text: >
+      Shepard convinced or threatened Ish that Aria was too dangerous and that he should flee
+      Omega; the assignment could be left permanently open in the journal.
+    source_chunks: [omega-packages-for-ish_003, ish_003]
+    conditional: {ish_fate: fled_omega}
+    choice: warned Ish off Omega
+  - text: >
+      Shepard tipped off Anto about Ish's scheme, optionally extorting Anto for silence. Anto
+      thanked Shepard, left to "clean up the mess", and killed Ish, who was never heard from
+      again.
+    source_chunks: [omega-packages-for-ish_003, anto-bek-tall_003, ish_003]
+    conditional: {ish_fate: killed_by_anto}
+    choice: tipped off Anto, who killed Ish
+variants:
+  - condition: {squadmate: Jacob}
+    text: >
+      With Jacob in the party for the first talk, he bitterly reminded Ish of being sent into
+      a nest of turian thugs and a batarian ambush, and warned Shepard not to trust him.
+    source_chunks: [ish_003]
+    choice: brought Jacob, who knew Ish of old
+  - condition: {squadmate: Miranda}
+    text: >
+      With Miranda in the party, she too had history with Ish and advised Shepard not to
+      trust him, with further comments on how Shepard handled the deal.
+    source_chunks: [ish_003]
+    choice: brought Miranda, who knew Ish of old
+source_chunks: [omega-packages-for-ish_001, omega-packages-for-ish_002, omega-packages-for-ish_003, ish_003, anto-bek-tall_003]

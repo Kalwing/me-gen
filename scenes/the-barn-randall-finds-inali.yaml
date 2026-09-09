@@ -1,0 +1,45 @@
+scene_id: the-barn-randall-finds-inali
+title: Randall Finds Inali on the Operating Table
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, the Barn (Mass Effect: Infiltrator), during the events of Mass Effect 3"
+where: Inali Renata's office and a secure medical bay aboard the Cerberus research station "the Barn"
+
+participants: [Randall Ezno, Inali Renata, Director]
+private_to: []
+heard_by: []
+
+requires:
+  - game: Mass Effect 3
+
+beats:
+  - text: >
+      Randall Ezno returns to the Barn from a mission capturing a turian on an ice world,
+      unaware the biotic implants he was field-testing were meant to indoctrinate him and
+      have failed. His handler Inali Renata directs him over comms to her office for
+      medical diagnostics. Turian Hierarchy soldiers assault the station; Randall fights
+      through them alongside Cerberus troops and mechs.
+    source_chunks: [mass-effect-infiltrator_005, randall-ezno_002]
+  - text: >
+      Inali is overheard cordially greeting someone in her office just before her feed
+      cuts out. Randall reaches the office to find it empty. The station's Director tells
+      him Inali "volunteered" for a classified project. A voice on his earpiece claiming
+      to be a volus working with the Alliance guides him to her instead.
+    source_chunks: [mass-effect-infiltrator_005, inali-renata_002, randall-ezno_002]
+  - text: >
+      Randall finds Inali in a secure medical bay, mechanized arms stabbing and cutting
+      into her on the Director's orders. The sight turns him against Cerberus. He vows to
+      kill the Director, and — with the volus feeding him a route — fights toward the comm
+      tower, releasing the Barn's other test subjects along the way and turning the station
+      into a warzone.
+    source_chunks: [mass-effect-infiltrator_005, inali-renata_002, director_001]
+  - text: >
+      In a bonus mission a freed turian test subject makes his own run for the medical bay
+      exit, shooting past Cerberus troops and mechs. He reaches a large empty room; across
+      a window the Director and several Cerberus staff watch and laugh as a turret deploys
+      on his coverless position. There is no escape.
+    source_chunks: [mass-effect-infiltrator_006, director_001]
+
+related_scenes: [desert-planet-randall-inali-duel]
+related_events: [randall-ezno-barn-escape]
+source_chunks: [mass-effect-infiltrator_005, mass-effect-infiltrator_006, inali-renata_002, randall-ezno_002, director_001]

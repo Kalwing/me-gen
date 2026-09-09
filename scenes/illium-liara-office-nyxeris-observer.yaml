@@ -1,0 +1,43 @@
+scene_id: illium-liara-office-nyxeris-observer
+title: The Observer in Liara's Outer Office
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Illium, after Horizon
+where: Liara T'Soni's office above the Nos Astra trading floor, Illium
+participants: [Shepard, Liara, Nyxeris]
+private_to: [Shepard, Liara]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 2
+beats:
+  - text: >
+      Reuniting with Shepard after two years, Liara — now an information broker, colder and
+      harder — cannot speak freely because her office is bugged. Asked what she needs, she
+      asks Shepard to track down the Shadow Broker's agent known as the Observer. Her asari
+      assistant Nyxeris minds the door outside and feeds Liara supplemental data, calling
+      it an honor to work with her and remarking that Liara could wield real political power
+      if she were not fixed on personal goals.
+    source_chunks: [liara-t-soni_010, nyxeris_001]
+  - text: >
+      Nyxeris is herself the Observer, a Shadow Broker plant. If Shepard's investigation
+      establishes the Observer is a woman and reports it to Liara, Liara summons Nyxeris
+      into her office.
+    source_chunks: [nyxeris_001]
+    conditional: {the_observer_outcome: exposed}
+    choice: Observer identified as Nyxeris
+  - text: >
+      On Shepard's next visit Liara says she has killed Nyxeris — "her barriers needed
+      practice. Practice I'm afraid she won't be getting" — and adds that if Nyxeris had
+      been ordered to assassinate her, she would never have seen it coming.
+    source_chunks: [nyxeris_001]
+    conditional: {the_observer_outcome: exposed}
+    choice: Liara kills Nyxeris
+  - text: >
+      If the evidence is too thin, Nyxeris stays undercover and the assignment closes
+      unresolved; with Lair of the Shadow Broker installed, giving Liara the key intel can
+      send her home early, and Nyxeris simply walks off as the assignment auto-completes.
+    source_chunks: [nyxeris_001]
+    conditional: {the_observer_outcome: undercover}
+    choice: Observer never exposed
+related_scenes: [illium-liara-office-shadow-broker-intel, illium-liara-apartment-vasir]
+source_chunks: [nyxeris_001, liara-t-soni_010]

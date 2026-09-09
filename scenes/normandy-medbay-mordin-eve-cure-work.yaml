@@ -1,0 +1,64 @@
+scene_id: normandy-medbay-mordin-eve-cure-work
+title: Mordin Works the Med-Bay With Eve Aboard
+kind: downtime
+game: Mass Effect 3
+when: "2186, between Sur'Kesh and Priority: Tuchanka"
+where: the Normandy SR-2 Med-bay, given over to Mordin's research and to Eve's quarters
+
+participants: [Shepard, Mordin Solus, Eve]
+heard_by: [Normandy crew]
+
+requires:
+  - genophage: any
+  - mordin_fate: any
+
+beats:
+  - text: >
+      After the Sur'Kesh evacuation, Mordin, Eve, and the Urdnot leader come aboard and the
+      plan for curing the genophage is laid out. Mordin commandeers the Med-bay as his
+      research space and as Eve's quarters, and emails Shepard confused about the new
+      Alliance-retrofit layout, asking where his lab has gone.
+    source_chunks: [mordin-solus_006]
+  - text: >
+      Mordin wants tissue "samples" from the Urdnot leader at once. With Wrex leading the
+      krogan, Mordin reads through his bluster and needles him about a fear of needles, then
+      gives his word to look after Eve when Wrex demands it, and afterward tells Shepard he
+      prefers working with krogan females. With Wreav leading, Mordin finds him abrasive,
+      resolves to help the krogan anyway, and offers "no promises" that the extraction will
+      be painless.
+    source_chunks: [mordin-solus_006]
+  - text: >
+      An auditory learner, Mordin thinks aloud constantly; Eve complains, and his attempts
+      to mutter more quietly only make the half-heard words sound worse to her.
+    source_chunks: [mordin-solus_006]
+  - text: >
+      Mordin plays matchmaker aboard ship. Joker seeks him out for advice about EDI, and
+      Shepard overhears Mordin over the intercom recommending strengthening exercises,
+      cushions, pillows and gel packs, and offering to forward charts and videos to EDI
+      before Joker stops him; Mordin promises the pilot that Shepard will not hear of it
+      from him. He also tries to pair Garrus with Eve, arguing the turian is loyal, bright
+      and nearly krogan-like; Eve is not interested.
+    source_chunks: [mordin-solus_006]
+  - text: >
+      Eve badgers Mordin into singing for her, and he obliges in full Gilbert-and-Sullivan
+      style with the "Krogan Queen" song; while working with her he can also be overheard
+      singing about asari-vorcha offspring being allergic to dairy.
+    source_chunks: [mordin-solus_006, mordin-solus_010]
+  - text: >
+      Asked why he reversed his old position that the krogan were better off with the
+      genophage, Mordin cites the Reaper invasion, the turians' need of krogan support, and
+      the krogan's need of a unified enemy — "cooperative symbiosis" — and, pressed further,
+      admits he is getting old but is still the best-placed scientist to get it right.
+      Asked what he will do after the war, he settles on a sunny beach collecting seashells,
+      then concedes he may end up running tests on the seashells.
+    source_chunks: [mordin-solus_006, mordin-solus_007]
+  - text: >
+      Once he confirms he can synthesize a universal cure, Mordin proposes using the
+      salarian Shroud facility as the carrier, then excuses himself to the Med-bay until
+      Shepard calls the mission, later reporting Eve fit to travel to Tuchanka.
+    source_chunks: [mordin-solus_006, mordin-solus_007]
+
+related_scenes: [surkesh-kirrahe-cerberus-rescue, tuchanka-mordin-and-the-shroud,
+                 normandy-cockpit-garrus-and-joker]
+related_events: []
+source_chunks: [mordin-solus_006, mordin-solus_007, mordin-solus_010]

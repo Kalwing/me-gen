@@ -1,0 +1,55 @@
+scene_id: omega-reactor-power-choice
+title: Petrovsky's Trap at the Omega Reactor
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Omega, during Aria's campaign to retake the station
+where: the Cerberus-held eezo mines and reactor of Omega
+participants: [Shepard, Aria T'Loak, Nyreen Kandros, Oleg Petrovsky]
+private_to: [Shepard, Aria T'Loak, Nyreen Kandros]
+heard_by: [Omega population]
+requires:
+  - omega: yes
+beats:
+  - text: >
+      Aria's plan was to shut down the Cerberus reactor in the eezo mines and drop every
+      force field on Omega. Through a powered-down eezo processing plant Shepard, Aria and
+      Nyreen restored power and fought off the Adjutants it drew — Cerberus-made Reaper
+      creatures whose presence explained the sealed districts and the Cerberus corpses
+      everywhere. Aria needled Nyreen for her visible fear of them.
+    source_chunks: [aria-t-loak_012, nyreen-kandros_004]
+  - text: >
+      At the reactor the trio walked into Petrovsky's trap: a force field boxed them in and
+      his hologram declared he had beaten them, having deliberately let them through the mines.
+      Aria hammered the barrier with biotics; she and Nyreen tore a brief gap for Shepard to
+      slip through to the reactor controls.
+    source_chunks: [oleg-petrovsky_004, aria-t-loak_012]
+  - text: >
+      Shepard reached the controls and found the reactor also fed life support to whole
+      sections of Omega, while Aria — swarmed by Rampart Mechs — screamed to cut it and Nyreen
+      begged Shepard not to kill innocents. Shepard rerouted the power the slow way to keep
+      life support running, leaving both squadmates exposed longer; afterward one of them was
+      sharply critical of the delay.
+    source_chunks: [aria-t-loak_012, oleg-petrovsky_004]
+    conditional: {omega_reactor: rerouted_power}
+    choice: rerouted the power, civilians spared
+  - text: >
+      Shepard used a Renegade interrupt to drop the fields at once, cutting life support and
+      killing thousands of Omega civilians to free Aria and Nyreen immediately.
+    source_chunks: [aria-t-loak_012, oleg-petrovsky_004]
+    conditional: {omega_reactor: shut_down_reactor}
+    choice: shut the reactor down, civilians died
+  - text: >
+      An Engineer Shepard alone could skip the Renegade interrupt and take a Paragon interrupt
+      to reroute the power quickly — the only class-specific morality choice in the series —
+      saving the civilians and both squadmates and drawing praise from Aria and Nyreen.
+    source_chunks: [engineer_011, omega-aria-t-loak-mass-effect-3_014]
+    conditional: {omega_reactor: engineer_fast_reroute}
+    choice: Engineer rerouted the power fast, no one lost
+  - text: >
+      Either way the force fields fell, Aria and Nyreen were freed, and Omega's civilians
+      turned on the Cerberus occupiers. Aria pressed Nyreen again about her fear of the
+      Adjutants until Shepard, on a Paragon interrupt, told her to drop it.
+    source_chunks: [aria-t-loak_012, omega-aria-t-loak-mass-effect-3_014]
+related_scenes: [omega-dlc-meet-nyreen-talon-alliance, omega-afterlife-nyreen-sacrifice-petrovsky-fate]
+related_events: [liberation-of-omega]
+source_chunks: [aria-t-loak_012, oleg-petrovsky_004, nyreen-kandros_004, engineer_011, omega-aria-t-loak-mass-effect-3_014]

@@ -1,0 +1,30 @@
+scene_id: illium-honorata-crew-ambush
+title: The Honorata's Crew Is Ambushed on the Illium Docks
+kind: mission-aside
+game: "Mass Effect: Homeworlds"
+when: 2183, during Tali'Zorah's Pilgrimage, before the events of Mass Effect
+where: an Illium docking bay
+
+participants: [Tali'Zorah nar Rayya, Keenah'Breizh, Jacobus]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Fleeing the ice world with the geth memory core, Tali and Keenah bring the Honorata
+      to Illium. Port officials, prejudiced against quarians, refuse the ship docking
+      clearance for days — long enough for Saren's mercenary Commander Jacobus to land
+      first and set an ambush.
+    source_chunks: [mass-effect-homeworlds-2_004, jacobus_001, keenah-breizh_001]
+  - text: >
+      When the Honorata is finally allowed to dock, Jacobus and his men open fire the
+      moment the crew disembark. The Honorata's crew are killed; only Tali and Keenah
+      escape, and with their ship lost to them they stow away on a transport bound for the
+      Citadel.
+    source_chunks: [mass-effect-homeworlds-2_004, jacobus_001, tali-zorah-nar-rayya_002]
+
+related_scenes: [crescent-nebula-tali-keenah-geth-recording, citadel-chellick-tali-freighter-stowaways, citadel-incinerator-keenah-death]
+related_events: [tali-pilgrimage-geth-evidence-jacobus]
+source_chunks: [mass-effect-homeworlds-2_004, jacobus_001, keenah-breizh_001, tali-zorah-nar-rayya_002]

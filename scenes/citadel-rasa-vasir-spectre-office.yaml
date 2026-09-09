@@ -1,0 +1,39 @@
+scene_id: citadel-rasa-vasir-spectre-office
+title: Vasir Unmasks Rasa in the Spectre Office
+kind: argument
+game: Mass Effect 2
+when: "before the Reaper war, Citadel (Mass Effect: Foundation 8)"
+where: a Spectre office on the Citadel
+
+participants: [Rasa, Tela Vasir]
+private_to: []
+heard_by: []
+
+requires:
+  - game: Mass Effect 2
+
+beats:
+  - text: >
+      Posing as a Cerberus defector with artificially lightened skin and a close-cropped
+      blonde wig, Rasa approaches the asari Spectre Tela Vasir, offering a disc of Cerberus
+      secrets in exchange for protection. Vasir takes the disc, leaves her alone in a
+      Spectre office, and goes to verify the contents — exactly as Rasa expected.
+    source_chunks: [tela-vasir_002, maya-brooks_008]
+  - text: >
+      Rasa gets to work on a terminal downloading Shepard's classified files, but Vasir
+      suspected treachery and returns with armed guards. Rasa's cover story fails;
+      Vasir has a guard inject away the fake skin tone and pulls off the wig herself,
+      then takes Rasa's prints and DNA — enough to bar her from every Council-controlled
+      city.
+    source_chunks: [tela-vasir_002, mass-effect-foundation-8_004]
+  - text: >
+      Vasir gives Rasa the choice of prison or working against Cerberus. She hands back the
+      disc — now carrying the Shepard files Rasa came for, plus a hidden virus meant to
+      force the Illusive Man to meet Vasir's demands — and orders her to deliver it to him,
+      threatening to make her a wanted criminal if the virus fails to trigger or Cerberus
+      is warned.
+    source_chunks: [tela-vasir_002, mass-effect-foundation-8_004]
+
+related_scenes: [cerberus-labs-miranda-briefs-rasa-lazarus, citadel-thane-spares-rasa, minuteman-station-rasa-reassigned-dossiers]
+related_events: [cerberus-agent-rasa-shepard-dossiers]
+source_chunks: [tela-vasir_002, maya-brooks_008, mass-effect-foundation-8_004]

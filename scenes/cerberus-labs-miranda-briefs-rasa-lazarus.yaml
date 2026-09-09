@@ -1,0 +1,39 @@
+scene_id: cerberus-labs-miranda-briefs-rasa-lazarus
+title: Miranda Briefs Rasa on the Lazarus Project
+kind: mission-aside
+game: Mass Effect 2
+when: "before the Reaper war, Minuteman Station (Mass Effect: Foundation 8), after the failed attempt to capture Jack"
+where: the Lazarus Project labs and Miranda's office aboard Minuteman Station
+
+participants: [Miranda Lawson, Rasa, Kai Leng]
+private_to: [Miranda Lawson, Rasa]
+heard_by: []
+
+requires:
+  - game: Mass Effect 2
+
+beats:
+  - text: >
+      Rasa and Kai Leng's shuttle returns from the botched Jack mission. Miranda meets them
+      with fresh orders: Leng is sent back to the shuttle for a call with the Illusive Man,
+      while Rasa is told to grab her gear and report to the labs at once. Leng, before
+      leaving, warns Rasa never to be paired with him again.
+    source_chunks: [mass-effect-foundation-8_004, miranda-lawson_006]
+  - text: >
+      In the labs Miranda walks Rasa through the Lazarus Project: Shepard's backup clone in
+      its tank, Shepard's own body mid-reconstruction on the operating table, and screens
+      of everything Cerberus holds on Shepard. She tells Rasa not to worry about Leng —
+      muscle has its uses, but information is more powerful, and Rasa's intelligence has
+      been invaluable to the project. The clone, though, is not what the Illusive Man
+      wants; he wants the real Shepard, known down to the smallest detail.
+    source_chunks: [mass-effect-foundation-8_004, maya-brooks_008]
+  - text: >
+      Back in her office Miranda lays out Rasa's part: steal Shepard's classified Spectre
+      records from the Spectre offices on the Citadel. She hands Rasa a disc of highly
+      classified but outdated Cerberus secrets to trade to the Spectre Tela Vasir for
+      access. Vasir can get her inside; extracting the files is up to Rasa.
+    source_chunks: [mass-effect-foundation-8_004, maya-brooks_008]
+
+related_scenes: [cerberus-facility-kai-leng-rasa-fail-to-catch-jack, citadel-rasa-vasir-spectre-office]
+related_events: [cerberus-agent-rasa-shepard-dossiers, lazarus-project-shepard-revival]
+source_chunks: [mass-effect-foundation-8_004, miranda-lawson_006, maya-brooks_008]

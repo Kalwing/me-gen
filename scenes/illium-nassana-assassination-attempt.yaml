@@ -1,0 +1,68 @@
+scene_id: illium-nassana-assassination-attempt
+title: Nassana's Last Stand in Dantius Towers
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Illium, during Shepard's recruitment
+where: the penthouse of Tower One in Dantius Towers on Nos Astra, Illium
+participants: [Shepard, Nassana Dantius, Thane Krios]
+private_to: []
+heard_by: [Illium underworld, Alliance Intelligence]
+requires: []
+beats:
+  - text: >
+      Nassana Dantius had accumulated considerable power and influence on
+      Illium through unscrupulous business practices, killing anyone who
+      threatened her reputation. This made her a target of the drell assassin
+      Thane Krios, hired by Seryna, a former employee Nassana had fired for
+      speaking out against her practices. Seryna had provided Thane with
+      complete intelligence on Nassana's security arrangements.
+    source_chunks: [nassana-dantius_003]
+  - text: >
+      Aware her life was in danger, Nassana sealed herself in the partially
+      built Dantius Towers penthouse with Eclipse mercenaries for protection.
+      She had ordered the salarian workers throughout the Towers purged by
+      LOKI Mechs shortly before Shepard's arrival.
+    source_chunks: [nassana-dantius_003]
+  - text: >
+      After Shepard fought through the Eclipse security, Nassana confronted
+      the Commander, mistaking them for the assassin. If Shepard had dealt
+      with her in 2183, Nassana recognized them and was shocked to find them
+      alive, noting the irony that the Commander who had killed her sister
+      was now coming for her. If Shepard was flippant about the situation,
+      Nassana eventually came to find it darkly amusing.
+    source_chunks: [nassana-dantius_003]
+    conditional: {nassana_prior_deal: any}
+    choice: recognized Shepard or met for first time
+  - text: >
+      Nassana was convinced Shepard had decimated her security forces to
+      reach her directly. She did not believe they were there to stop an
+      assassin. She offered escalating bribes—double Shepard's standard fee
+      to stand down, and double that again for the name of whoever ordered
+      the hit.
+    source_chunks: [nassana-dantius_003]
+  - text: >
+      If Shepard refused all bribes, Nassana responded with bitter contempt,
+      accusing Shepard of playing god while claiming they were no different,
+      both killing for money.
+    source_chunks: [nassana-dantius_003]
+    conditional: {nassana_bribe: false}
+    choice: refused all bribes
+  - text: >
+      One of Nassana's remaining guards alerted her to a disturbance—Thane
+      infiltrating through the air ducts. She warned Shepard to stay put while
+      they dealt with the intrusion. She never got the chance. Thane
+      surreptitiously killed her guards and shot Nassana at point-blank range.
+      As her last breath left her body, the drell assassin respectfully
+      arranged her hands over her chest.
+    source_chunks: [nassana-dantius_003]
+  - text: >
+      Thane mentioned to Shepard that "she believed that one of her sisters
+      would kill her," implying Nassana may have had more siblings beyond
+      Dahlia. News of her death became public with no suspects identified,
+      though it was widely noted she had accumulated many enemies during her
+      rise to power. Paradoxically, stock prices in her corporation rose
+      following the news.
+    source_chunks: [nassana-dantius_003]
+related_scenes: [citadel-nassana-blackmail-assignment]
+related_events: []
+source_chunks: [nassana-dantius_003]

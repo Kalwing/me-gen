@@ -1,0 +1,72 @@
+scene_id: omega-afterlife-nyreen-sacrifice-petrovsky-fate
+title: Nyreen's Sacrifice and the Fall of Petrovsky
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Omega, the final assault of Aria's campaign to retake the station
+where: the support columns and Gozu District approaches to Afterlife, and the Afterlife Club itself
+participants: [Shepard, Aria T'Loak, Nyreen Kandros, Oleg Petrovsky]
+heard_by: [Omega population]
+requires:
+  - omega: yes
+beats:
+  - text: >
+      With the force fields down, Shepard and Aria split off to defuse the Cerberus bombs
+      rigged to the support columns leading to Afterlife, crossing the water-treatment
+      catwalks and raising the dam. Down in the drained channel Shepard found the wreckage of
+      Aria's old couch — "Is that my couch?"
+    source_chunks: [omega-aria-t-loak-mass-effect-3_015, aria-t-loak_012]
+  - text: >
+      Shepard and Aria studied Cerberus video logs on how the Adjutants had been made and
+      pushed through the Gozu District. Nyreen took her Talons ahead on an independent
+      offensive to protect the civilians.
+    source_chunks: [omega-aria-t-loak-mass-effect-3_016, nyreen-kandros_004]
+  - text: >
+      Scouting ahead of her troops, Nyreen reached the plaza outside Afterlife and found a
+      group of Adjutants charging a crowd of civilians. She drew the creatures in with her
+      biotics, detonated a belt of grenades, and held the blast inside her biotic field —
+      incinerated along with them. Aria and Shepard arrived too late to stop her.
+    source_chunks: [nyreen-kandros_004, aria-t-loak_012]
+  - text: >
+      Enraged, Aria charged the Cerberus troops guarding Afterlife with biotic force like
+      never before and ran straight into Petrovsky's stasis trap. Alone, Shepard destroyed the
+      four generator pylons ringing her prison — each exposed by an override at a corner of
+      the upper level — while Adjutants, Assault Troopers and Nemeses respawned endlessly and
+      each downed generator triggered a friendly biotic pulse from Aria. Freeing her made her
+      unkillable and stopped the respawns, and together they cleared the club.
+    source_chunks: [aria-t-loak_012, omega-aria-t-loak-mass-effect-3_017]
+  - text: >
+      Petrovsky surrendered. Aria swatted him down and choked him; he pleaded, offering the
+      Alliance intelligence on the Illusive Man and reminding her he had once let her escape
+      Omega alive. The mission's overall morality decided what happened next.
+    source_chunks: [aria-t-loak_013, omega-aria-t-loak-mass-effect-3_019]
+  - text: >
+      Aria choked the life out of Petrovsky. If Shepard had been thoroughly accommodating of
+      her through the campaign, she rewarded it with an unsolicited kiss. Shepard could break
+      in with two Paragon interrupts to force her to spare him, which soured her toward the
+      Commander.
+    source_chunks: [aria-t-loak_013, omega-aria-t-loak-mass-effect-3_019]
+    conditional: {petrovsky_fate: killed_by_aria}
+    choice: Aria killed Petrovsky
+  - text: >
+      Aria grudgingly spared Petrovsky and handed him to Shepard. Turned over to the Alliance,
+      he cooperated with interrogators, gave up the location of a Cerberus base, and likely
+      received asylum; he was worth a 30-point War Asset.
+    source_chunks: [aria-t-loak_013, omega-aria-t-loak-mass-effect-3_019, oleg-petrovsky_004]
+    conditional: {petrovsky_fate: alliance_custody}
+    choice: Petrovsky spared and handed to the Alliance
+  - text: >
+      Aria handed Petrovsky to Shepard, and Shepard used two Renegade interrupts to execute
+      him with a headshot, adding 30 points to the Alliance First Fleet and drawing Aria's
+      contempt.
+    source_chunks: [aria-t-loak_013, omega-aria-t-loak-mass-effect-3_019]
+    conditional: {petrovsky_fate: executed_by_shepard}
+    choice: Shepard executed Petrovsky
+  - text: >
+      Aria retook Omega, vowed never to lose it again, and ordered the citizens to round up or
+      cast out the remaining Cerberus forces. Back on the Normandy, Shepard received her email:
+      Petrovsky's chess set had been sent to the cabin. Aria relocated to Purgatory on the
+      Citadel, saying she could coordinate Omega's reconstruction from there.
+    source_chunks: [aria-t-loak_013, omega-aria-t-loak-mass-effect-3_019]
+related_scenes: [omega-reactor-power-choice, omega-dlc-meet-nyreen-talon-alliance, citadel-purgatory-aria-mercenary-proposal]
+related_events: [liberation-of-omega-afterlife-assault, liberation-of-omega]
+source_chunks: [aria-t-loak_012, aria-t-loak_013, nyreen-kandros_004, oleg-petrovsky_004, omega-aria-t-loak-mass-effect-3_015, omega-aria-t-loak-mass-effect-3_016, omega-aria-t-loak-mass-effect-3_017, omega-aria-t-loak-mass-effect-3_019]

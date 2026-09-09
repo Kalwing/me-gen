@@ -1,0 +1,37 @@
+scene_id: citadel-vega-medal-and-n7-orders
+title: Vega Decorated for Fehl Prime
+kind: ceremony
+game: Mass Effect
+when: "2185, Citadel (Mass Effect: Paragon Lost), after the Collector attack on Fehl Prime"
+where: the Citadel
+
+participants: [James Vega, David Anderson, Steven Hackett]
+private_to: []
+heard_by: []
+
+requires:
+  - paragon_lost: any
+
+beats:
+  - text: >
+      On the Citadel, Anderson and Admiral Hackett commend Lieutenant James Vega for
+      Fehl Prime. They tell him the intel he chose to save — pulling out Treeya instead
+      of the colonists — could give the Alliance a short-term edge on the Collectors, an
+      antidote to their Seeker swarms, and new weapons and ship research.
+    source_chunks: [mass-effect-paragon-lost_007, david-anderson_006]
+  - text: >
+      Hackett pins a medal on Vega and promotes him to Lieutenant Commander. Anderson,
+      seeing how hard Vega works to follow in Shepard's footsteps, tells him rumors of the
+      Commander's death are premature and he may get to serve with Shepard one day, then
+      hands him orders to report for N7 training.
+    source_chunks: [mass-effect-paragon-lost_007, david-anderson_006, steven-hackett_004]
+  - text: >
+      Vega, Milque and Treeya return to Fehl Prime while the Alliance sifts the wreckage.
+      Finding April's ruined stuffed animal, Vega breaks down and runs through the ruins;
+      the others catch up with him at the monument raised to the lost colonists, and he
+      resolves to make their deaths mean something.
+    source_chunks: [mass-effect-paragon-lost_007, storyline-ii_030]
+
+related_scenes: [fehl-prime-brood-alliance, citadel-apartment-vega-n7-tattoo]
+related_events: [fehl-prime-collector-attack]
+source_chunks: [mass-effect-paragon-lost_007, storyline-ii_030, david-anderson_006, steven-hackett_004]

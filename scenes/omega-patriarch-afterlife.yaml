@@ -1,0 +1,51 @@
+scene_id: omega-patriarch-afterlife
+title: The Patriarch and the Blood Pack
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Omega, after recruiting Mordin or Archangel
+where: the Afterlife Club — Aria's booth on the upper level, and the Patriarch's room off the lower floor
+participants: [Shepard, Grizz, Patriarch]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Grizz, a turian bodyguard stationed at the foot of the stairs to Aria's booth, asked
+      Shepard to do a job for Aria: move the Patriarch, her old krogan adviser, somewhere
+      safe, because the Blood Pack meant to kill him. Pressed with Charm or Intimidate, Grizz
+      admitted Aria could not be seen protecting her "trophy" without looking weak — Shepard
+      fronting the job masked her hand.
+    source_chunks: [grizz_001, omega-the-patriarch_002, omega-the-patriarch_003]
+  - text: >
+      Shepard found the Patriarch in a small room off the lower Afterlife floor. Once Omega's
+      ruling crime lord, he told how he had hired the dancer Aria, watched her climb to become
+      his most trusted lieutenant, then lost his men and one of his hearts to her in
+      destructive single combat on the club floor. Shepard warned him the Blood Pack attack
+      was coming.
+    source_chunks: [omega-the-patriarch_003, patriarch_002, patriarch_003]
+  - text: >
+      Shepard convinced the Patriarch to let the squad fight for him as his krantt. He first
+      accused Shepard of stealing his glory, then proposed it himself, and his standing as a
+      krogan power on Omega was partly restored. Two Blood Pack krogan met the group at an
+      Afterlife exit and were gunned down by the squad.
+    source_chunks: [omega-the-patriarch_003, patriarch_003]
+    conditional: {patriarch_fate: krantt}
+    choice: made Shepard's squad his krantt
+  - text: >
+      If Grunt was in the squad and his loyalty mission was done, Grunt suggested the krantt
+      himself, so the Patriarch skipped the accusation of glory-theft.
+    source_chunks: [omega-the-patriarch_003]
+    conditional: {grunt_in_squad: true}
+    choice: Grunt proposed the krantt
+  - text: >
+      Shepard instead called the Patriarch a trophy and goaded him; stung by the memory of
+      his old glory, he charged out alone to meet the assassins and died in the fight.
+    source_chunks: [omega-the-patriarch_003, patriarch_003]
+    conditional: {patriarch_fate: last_stand}
+    choice: goaded him into a fatal last stand
+  - text: >
+      Shepard told the Patriarch to hide until the danger passed — the quiet outcome Aria had
+      wanted all along.
+    source_chunks: [omega-the-patriarch_003, patriarch_003]
+    conditional: {patriarch_fate: hiding}
+    choice: sent him into hiding
+related_scenes: [omega-afterlife-aria-first-meeting, omega-archangel-datapad-to-aria]
+source_chunks: [grizz_001, omega-the-patriarch_002, omega-the-patriarch_003, patriarch_002, patriarch_003]

@@ -4,7 +4,7 @@ kind: downtime
 game: Mass Effect
 when: "2183, during Mass Effect: Ascension, at the Jon Grissom Academy"
 where: the Ascension Project's cafeteria and infirmary aboard the Jon Grissom Academy
-participants: [Gillian Grayson, Nick, Hendel Mitra, Jiro Toshiwa]
+participants: [Gillian Grayson, Nick Donahue, Hendel Mitra, Seshaun, Jiro Toshiwa]
 heard_by: [Ascension Project staff and students]
 requires: []
 beats:
@@ -13,12 +13,23 @@ beats:
       biotics; it did strengthen them, and may also have worsened her autism.
     source_chunks: [gillian-grayson_002]
   - text: >
-      In the Academy cafeteria the medication took full effect. Gillian threw a fellow
-      student, Nick, twenty feet, sent the room into chaos, and unleashed a high-level
-      biotic singularity before Hendel Mitra stunned her and brought her down. Hendel had
-      hesitated to stun her and shielded himself with his own biotics; afterward he blamed
-      himself for the damage and considered resigning.
-    source_chunks: [gillian-grayson_002, hendel-mitra_002]
+      Nick Donahue, a biotic student and known bully, had a history of pushing others around
+      with his powers. When his friend Seshaun teased him, Nick reacted by using his biotics
+      to push Seshaun over, earning him three weeks in lockdown from Hendel Mitra.
+    source_chunks: [nick-donahue_002]
+  - text: >
+      On a dare from Seshaun and other students, Nick went to the Academy cafeteria to mock
+      Gillian Grayson and deliberately knocked over her milk using his biotics, thinking it a
+      harmless prank on a vulnerable target.
+    source_chunks: [nick-donahue_002]
+  - text: >
+      In the cafeteria the medication took full effect at that exact moment. Gillian threw Nick
+      twenty feet across the room, sent the cafeteria into chaos with her uncontrolled biotic
+      power, and unleashed a high-level biotic singularity that sucked in furniture and people
+      before Hendel Mitra managed to stun her and bring her down. Hendel had hesitated to stun
+      her and shielded himself with his own biotics; afterward he blamed himself for the damage
+      and considered resigning. Nick survived with a concussion and a bruised spine.
+    source_chunks: [gillian-grayson_002, hendel-mitra_002, nick-donahue_002]
   - text: >
       The next day Toshiwa smuggled Gillian out of the Academy hospital to a secluded spot
       and gave her a second dose, injected into her spine, which triggered a seizure. Hendel
@@ -38,4 +49,4 @@ beats:
     source_chunks: [gillian-grayson_002]
 related_scenes: [idenna-cerberus-assault-grayson-kills-golo]
 related_events: [ascension-project-cerberus-exposure]
-source_chunks: [gillian-grayson_002, hendel-mitra_002, jiro-toshiwa_001]
+source_chunks: [gillian-grayson_002, hendel-mitra_002, jiro-toshiwa_001, nick-donahue_002]

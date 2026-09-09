@@ -1,0 +1,37 @@
+scene_id: omega-aria-collector-slave-deal
+title: Aria Breaks Up the Blue Suns' Sale to the Collectors
+kind: mission-aside
+game: Mass Effect 2
+when: "2183, Omega (Mass Effect: Incursion), one week before the Collectors destroy the Normandy SR-1"
+where: a back room on Omega, then Afterlife
+
+participants: [Aria T'Loak]
+private_to: []
+heard_by: []
+
+requires:
+  - game: Mass Effect 2
+
+beats:
+  - text: >
+      Aria T'Loak and two batarian bodyguards go to check a disturbance on Omega. One
+      bodyguard writes it off as Blue Suns or slavers and says they can handle it without
+      her; Aria senses something worse and comes herself.
+    source_chunks: [mass-effect-incursion_003, storyline-ii_009]
+  - text: >
+      The three walk in on a meeting between Blue Suns mercenaries and a group of
+      Collectors escorted by a Praetorian — the Blue Suns are selling captured humans to
+      the Collectors. Aria orders that no one leaves alive and joins the fight. Every
+      Collector and every captive human dies; Aria loses one bodyguard. Surviving Blue Suns
+      are taken for interrogation and then executed.
+    source_chunks: [mass-effect-incursion_003, storyline-ii_009, blue-suns_004]
+  - text: >
+      Back at Afterlife, Aria is handed a datapad of everything her agents dug up on the
+      deal: human population totals for Horizon, Omega, Freedom's Progress, the Citadel,
+      Eden Prime, Terra Nova and Earth. She concludes the Collectors want far more than a
+      few slaves, and that humanity has made a dangerous enemy.
+    source_chunks: [mass-effect-incursion_003, storyline-ii_009]
+
+related_scenes: [redemption-liara-feron-hunt-shepards-body]
+related_events: [aria-discovers-collector-slave-trade-omega]
+source_chunks: [mass-effect-incursion_003, storyline-ii_009, blue-suns_004]

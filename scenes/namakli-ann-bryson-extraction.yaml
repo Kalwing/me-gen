@@ -3,28 +3,49 @@ title: Extracting Ann from Namakli
 kind: mission-aside
 game: Mass Effect 3
 when: "2186, Citadel, after Priority: Geth Dreadnought and before Citadel DLC"
-where: the planet Namakli in the Pylos Nebula
-participants: [Shepard, Ann Bryson, Leviathan, Marauders]
+where: the planet Namakli in the Pylos Nebula and Cortez's shuttle
+participants: [Shepard, Ann Bryson, Steve Cortez]
 private_to: []
-heard_by: [Normandy crew, Task Force Aurora]
+heard_by: [Normandy crew]
 requires:
   - leviathan: any
 beats:
   - text: >
-      After investigating Dr. Bryson's lab on the Citadel, Shepard determined that
-      Dr. Garret Bryson's daughter, Ann, led Project Scarab in the Pylos Nebula
-      on the planet Namakli. Shepard traveled there to extract her.
-    source_chunks: [ann-bryson_002]
+      In the shuttle en route to Namakli, Shepard and the squad discussed the
+      intelligence gathered so far. Cortez noted that if Ann was on the planet,
+      she had not been responding to hails. Aware that Reapers were swarming
+      around the dig site, Cortez dropped the landing party off but was
+      immediately chased away by Harvesters circling overhead.
+    source_chunks: [namakli-leviathan_004]
   - text: >
-      Shepard found Ann pinned down by Reaper forces. The Commander extracted her,
-      though the rest of her team was killed. Ann showed Shepard a Leviathan
-      artifact she had discovered.
-    source_chunks: [ann-bryson_002]
+      As Shepard advanced through the dig site fighting Reaper forces, Ann
+      contacted the Commander by radio, initially planning to meet them but
+      Shepard insisted she stay in place while they came to her. Ann gave them
+      a nav point to her location at the elevator.
+    source_chunks: [namakli-leviathan_005, namakli-leviathan_006]
   - text: >
-      A trio of Marauders activated the artifact, and Ann was possessed by
-      Leviathan. Shepard was forced to destroy the artifact to break Leviathan's
-      control.
-    source_chunks: [ann-bryson_002]
+      Upon reaching Ann at the elevator, Shepard found she was the only
+      survivor of her team. Ann explained what she knew about Leviathan and
+      showed Shepard an orb-shaped artifact she had discovered, which was
+      emitting energy toward the surrounding Reaper creatures.
+    source_chunks: [namakli-leviathan_006]
+  - text: >
+      A trio of Marauders activated the artifact, and Ann lost control,
+      speaking in a deep voice not her own as Leviathan seized her.
+      Shepard's squadmates shot the artifact to destroy it, breaking the
+      enthrallment.
+    source_chunks: [namakli-leviathan_006]
+  - text: >
+      Shepard called Cortez for extraction while ordering Ann to run to the
+      shuttle. The team fought a running retreat as Marauders pursued, with
+      Cortez unable to land until the last Harvester was neutralized.
+    source_chunks: [namakli-leviathan_006, namakli-leviathan_007]
+  - text: >
+      Aboard the shuttle, Ann did not remember being enthralled. She wanted
+      to contact her father right away, but Shepard broke the news of Dr.
+      Bryson's death. Stunned, Ann asked to meet Shepard at her father's lab
+      on the Citadel to understand what had happened.
+    source_chunks: [namakli-leviathan_008, ann-bryson_002]
 related_scenes: [citadel-bryson-lab-leviathan-research]
 related_events: [leviathan-discovery-alliance]
-source_chunks: [ann-bryson_002]
+source_chunks: [namakli-leviathan_004, namakli-leviathan_005, namakli-leviathan_006, namakli-leviathan_007, namakli-leviathan_008, ann-bryson_002]

@@ -1,0 +1,37 @@
+scene_id: citadel-thane-spares-rasa
+title: Thane Spares Rasa in a Presidium Alley
+kind: mission-aside
+game: Mass Effect 2
+when: "before the Reaper war, Citadel (Mass Effect: Foundation 8), hours after the Spectre office job"
+where: a Citadel bar, then the Presidium and a deserted alley
+
+participants: [Rasa, Thane Krios]
+private_to: [Rasa, Thane Krios]
+heard_by: []
+
+requires:
+  - game: Mass Effect 2
+
+beats:
+  - text: >
+      Rasa, contracted for death, is stalked by the drell assassin Thane Krios. At a
+      Citadel bar a salarian bartender gives her a drink from an anonymous gentleman;
+      she drains it before realizing Thane has spiked it. She cuts her comm to Miranda
+      mid-report and stumbles out.
+    source_chunks: [thane-krios_002, maya-brooks_008]
+  - text: >
+      Reaching the Presidium, she collapses. A turian C-Sec officer holds her up for
+      public drunkenness, disbelieving her claim of being drugged. A stranger takes
+      responsibility for her, pulls her free, and sets her down in a deserted alley —
+      Thane, knife drawn and ready to use it.
+    source_chunks: [thane-krios_002, maya-brooks_009]
+  - text: >
+      Groggy, Rasa blurts that she does not want to die here, because she has never lived
+      her life. Thane studies her, decides he sees no murder in her, and concludes he was
+      misinformed about her purpose. He apologizes, carries her off, and prays to Kalahira
+      to guide her.
+    source_chunks: [thane-krios_002, maya-brooks_009]
+
+related_scenes: [citadel-rasa-vasir-spectre-office, minuteman-station-rasa-reassigned-dossiers]
+related_events: [cerberus-agent-rasa-shepard-dossiers]
+source_chunks: [thane-krios_002, maya-brooks_008, maya-brooks_009]

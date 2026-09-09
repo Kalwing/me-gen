@@ -1,0 +1,51 @@
+scene_id: noveria-espionage-vargas-wiretap
+title: Wiretapping Rafael Vargas for Mallene Calis
+kind: mission-aside
+game: Mass Effect
+when: 2183, Port Hanshan, Noveria, during the hunt for Saren
+where: the Port Hanshan Mezzanine bar
+participants: [Shepard, Mallene Calis, Rafael Vargas]
+private_to: [Shepard, Mallene Calis, Rafael Vargas]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect
+beats:
+  - text: >
+      On reaching the Port Hanshan Mezzanine, an asari named Mallene Calis calls Shepard
+      over. She works for the Armali Council and wants intelligence on Binary Helix's
+      biotic engineering. She hands Shepard a device that injects monitoring viruses into a
+      target's personal wireless network and asks Shepard to use it on Rafael Vargas, a
+      Binary Helix salesman across the bar, by posing as a customer and keeping him talking
+      while it works. She warns that Vargas is shrewd, spotted her own attempt, and rubs
+      the back of his neck when uncomfortable — press him then.
+    source_chunks: [noveria-espionage_002, noveria-espionage_003]
+  - text: >
+      Shepard refuses outright and takes no part.
+    source_chunks: [noveria-espionage_004]
+    conditional: {noveria_espionage: refused}
+    choice: refused to help Calis
+  - text: >
+      Shepard approaches Vargas as a prospective buyer; Vargas talks up Binary Helix's
+      military genetic-modification packages while insisting the company obeys every Citadel
+      Council regulation. Shepard keeps him talking through the persuasion checks until the
+      device finishes, then excuses himself and collects 500 credits from Calis, or 750 if
+      Shepard charms or intimidates her.
+    source_chunks: [noveria-espionage_005, binary-helix_004]
+    conditional: {noveria_espionage: wiretapped}
+    choice: wiretap carried out
+  - text: >
+      Shepard instead tells Vargas what Calis asked. Vargas thanks Shepard, saying Binary
+      Helix can now feed the Armali Council false data, and leaves. Shepard returns and
+      tells Calis the truth; she hurries offworld before she can be caught, with no payout.
+    source_chunks: [noveria-espionage_004]
+    conditional: {noveria_espionage: warned_vargas}
+    choice: warned Vargas, Calis flees
+  - text: >
+      Shepard warns Vargas, then lies to Calis that the job is done and collects the reward
+      anyway, with the option to persuade her up to the 750-credit payout.
+    source_chunks: [noveria-espionage_005]
+    conditional: {noveria_espionage: warned_then_lied}
+    choice: warned Vargas but claimed the reward
+related_scenes: [bel-anoleis-corruption-noveria, noveria-arrival-weapons-standoff]
+related_events: [noveria-espionage]
+source_chunks: [noveria-espionage_001, noveria-espionage_002, noveria-espionage_003, noveria-espionage_004, noveria-espionage_005, binary-helix_004]

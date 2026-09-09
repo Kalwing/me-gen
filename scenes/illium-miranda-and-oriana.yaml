@@ -5,7 +5,7 @@ game: Mass Effect 2
 when: 2185, when Miranda's father finally locates her sister
 where: Illium
 
-participants: [Shepard, Miranda Lawson, Oriana Lawson, Niket, Enyala]
+participants: [Shepard, Miranda Lawson, Oriana Lawson, Niket, Enyala, Lanteia]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -30,6 +30,28 @@ beats:
       Enyala's Eclipse can take Oriana instead.
     source_chunks: [miranda-lawson_014, miranda-the-prodigal_010]
   - text: >
+      On Illium, Miranda's asari contact Lanteia meets her at the Eternity bar and names
+      Niket as the one arranging Oriana's transfer. Shepard asks whether Niket can be
+      trusted; Miranda says he is the only person she trusts from her old life.
+    source_chunks: [miranda-the-prodigal_004]
+  - text: >
+      Flying to the cargo terminal, Shepard's cab is ambushed — Eclipse gunships led by a
+      mercenary lieutenant drop troops who open fire. Once he confirms Miranda is aboard he
+      calls a ceasefire, forces the damaged cab down, and tells her that Enyala is already
+      moving on Oriana and Niket will not be helping her, then stalls to let his snipers get
+      into position. A Renegade interrupt: Shepard snaps his neck while Miranda shoots the
+      merc behind him, then Shepard shoots an overhead fuel container that drops and kills
+      the rest; otherwise he orders the attack with the squad still in the open. Either way
+      the squad fights through Eclipse troopers, heavies and vanguards to the terminal
+      elevator.
+    source_chunks: [merc-leader_001, miranda-the-prodigal_005]
+    conditional: {eclipse_lieutenant: renegade_interrupt}
+    choice: Renegade interrupt kills the Eclipse lieutenant and his mercs
+  - text: >
+      In the elevator Miranda taps into an Eclipse radio and tells Shepard she took Oriana
+      as a baby and left behind everything from her old life except Niket.
+    source_chunks: [miranda-the-prodigal_005]
+  - text: >
       Confronting Niket, Miranda draws her gun to kill him.
     source_chunks: [miranda-the-prodigal_010]
   - text: >
@@ -43,6 +65,11 @@ beats:
     source_chunks: [miranda-the-prodigal_010]
     conditional: {niket_fate: killed_by_enyala}
     choice: Niket spared by Miranda, killed by Enyala
+  - text: >
+      Miranda biotically flings Enyala across the room and the final battle begins: Shepard's
+      squad holds Dock 94 against waves of Eclipse — an asari Vanguard and a salarian Eclipse
+      Operative among them — before Enyala herself is killed.
+    source_chunks: [miranda-the-prodigal_010, captain-enyala_001]
   - text: >
       With Oriana safe and in sight of her family, Miranda is happy she can live a normal
       life and moves to leave without approaching them.
@@ -71,4 +98,4 @@ beats:
 
 related_scenes: [normandy-jack-miranda-confrontation, citadel-party-apartment]
 related_events: []
-source_chunks: [miranda-lawson_014, miranda-lawson_017, miranda-the-prodigal_010, miranda-the-prodigal_011]
+source_chunks: [miranda-lawson_014, miranda-lawson_017, miranda-the-prodigal_004, miranda-the-prodigal_005, miranda-the-prodigal_010, miranda-the-prodigal_011, merc-leader_001, captain-enyala_001]

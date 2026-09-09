@@ -1,0 +1,30 @@
+scene_id: fehl-prime-memorial-monument
+title: The Memorial Monument on Fehl Prime
+kind: ceremony
+game: Mass Effect
+when: 2185, after the Collector attack, once the Alliance has begun sifting the wreckage
+where: a monument raised in the ruins of the Fehl Prime colony
+participants: [James Vega, Milque, Treeya]
+private_to: [James Vega, Milque, Treeya]
+heard_by: [Alliance forces on Fehl Prime]
+requires:
+  - paragon_lost: any
+beats:
+  - text: >
+      Vega chose to save Treeya and her Collector intel over the revived colonists; the
+      Collector ship carrying them crashed into Fehl Prime with everyone aboard killed, and
+      Milque, at the controls beside him, judged it the wrong choice at the time. On the
+      Citadel afterward, David Anderson and Admiral Hackett commended and promoted Vega,
+      told him the intel could yield an antidote and new weapons and that Commander Shepard
+      was seemingly alive after all, and ordered him to report for N7 training.
+    source_chunks: [milque_004, mass-effect-paragon-lost_007]
+  - text: >
+      Vega, Milque and Treeya returned to Fehl Prime with the Alliance recovery teams. Vega
+      found a ruined stuffed animal belonging to the girl April, became distraught and ran
+      through the wreckage; Milque and Treeya followed him and came to rest at the monument
+      raised for the lost colonists. They paid homage to the dead, and Vega resolved to do
+      what he could to make sure the sacrifice was not in vain.
+    source_chunks: [mass-effect-paragon-lost_007, storyline-ii_030]
+related_scenes: [fehl-prime-brood-alliance, fehl-prime-blood-pack-siege-2183]
+related_events: [fehl-prime-collector-attack]
+source_chunks: [milque_004, mass-effect-paragon-lost_007, storyline-ii_030]

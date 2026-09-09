@@ -1,0 +1,37 @@
+scene_id: noveria-opold-package-inamorda
+title: Opold's Package Through Port Hanshan Security
+kind: mission-aside
+game: Mass Effect
+when: 2183, Noveria, during the hunt for Matriarch Benezia
+where: Opold's shop in Port Hanshan Plaza, Noveria
+participants: [Shepard, Opold]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Opold, a hanar shopkeeper in Port Hanshan Plaza, asked Shepard to carry a package
+      through Port Hanshan's security — Shepard's Spectre status meant the scanners would not
+      flag its contents, an experimental weapons mod. He was anxious: the delivery was already
+      late and the recipient, a short-tempered krogan named Inamorda, was losing patience.
+      Opold paid Shepard, who could pressure him for a larger cut.
+    source_chunks: [opold_001]
+  - text: >
+      Shepard carried the mod through and delivered it as asked.
+    source_chunks: [opold_001]
+    conditional: {opold_package: delivered}
+    choice: smuggled the mod to Inamorda for Opold
+  - text: >
+      Shepard dealt with Inamorda directly instead — the krogan, hearing Opold's name, offered
+      to buy the package straight from Shepard and could be haggled up — or reported Opold to
+      Administrator Anoleis. Either way Opold was angry but kept trading with Shepard,
+      grudgingly.
+    source_chunks: [opold_001, inamorda_001]
+    conditional: {opold_package: cut_opold_out}
+    choice: cut Opold out or reported him
+  - text: >
+      Shepard kept the mod and told Opold so. Inamorda and a gang of krogan ambushed the squad
+      the next time it returned to the Normandy. Afterward Opold was unbothered, saying the mod
+      no longer mattered and the galaxy was better off without Inamorda.
+    source_chunks: [opold_001, inamorda_001]
+    conditional: {opold_package: kept_the_mod}
+    choice: kept the mod, survived Inamorda's ambush
+source_chunks: [opold_001, inamorda_001]

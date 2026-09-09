@@ -1,0 +1,40 @@
+scene_id: omega-daniel-hostage-batarians
+title: Daniel at Gunpoint in Vorcha Territory
+kind: mission-aside
+game: Mass Effect 2
+when: "2185, Omega slums, during Dossier: The Professor"
+where: a side room off the plague-quarantined slums of Omega, on the way to environmental controls
+participants: [Shepard, Daniel]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      In his clinic in the Omega slums, Mordin Solus told Shepard his assistant Daniel had
+      gone missing in vorcha territory and asked Shepard to find him while clearing the plague
+      from the district.
+    source_chunks: [omega-the-professor-missing-assistant_001, omega-the-professor-missing-assistant_002]
+  - text: >
+      Past a heavy fight with krogan and vorcha, Shepard found Daniel behind a door on the way
+      to environmental controls, held at gunpoint by a group of shady batarians.
+    source_chunks: [omega-the-professor-missing-assistant_003]
+  - text: >
+      Shepard used Charm or Intimidate to convince the batarians that Daniel was there to help
+      cure the plague. They released him and were allowed to leave. Daniel returned to the
+      clinic and later emailed Shepard about the improvements there.
+    source_chunks: [omega-the-professor-missing-assistant_003]
+    conditional: {daniel_fate: saved}
+    choice: talked the batarians down, Daniel lived
+  - text: >
+      Shepard freed Daniel but voiced distrust of the batarians; they turned hostile and were
+      killed offscreen while Daniel covered his eyes.
+    source_chunks: [omega-the-professor-missing-assistant_003]
+    conditional: {daniel_fate: saved_batarians_killed}
+    choice: freed Daniel, then killed the batarians
+  - text: >
+      Shepard refused the persuasion options or signalled the squad to attack; the batarians
+      shot Daniel dead, then turned hostile and were gunned down. His corpse could be examined
+      for squadmate comments.
+    source_chunks: [omega-the-professor-missing-assistant_003]
+    conditional: {daniel_fate: killed}
+    choice: batarians executed Daniel
+related_scenes: [omega-mordin-clinic-recruitment]
+source_chunks: [omega-the-professor-missing-assistant_001, omega-the-professor-missing-assistant_002, omega-the-professor-missing-assistant_003]

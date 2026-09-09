@@ -1,0 +1,45 @@
+scene_id: citadel-nassana-blackmail-assignment
+title: Nassana's Blackmail Scheme
+kind: banter
+game: Mass Effect
+when: 2183, Citadel, during Shepard's first deployment
+where: the Embassy Lounge at the Presidium
+participants: [Shepard, Nassana Dantius]
+private_to: [Shepard, Nassana Dantius]
+heard_by: []
+beats:
+  - text: >
+      Nassana Dantius, an asari diplomatic emissary at the Citadel,
+      requested a discreet meeting with Shepard. She explained that her
+      sister Dahlia had been kidnapped by privateers and taken to Sharjila
+      in the Artemis Tau cluster, claiming she had paid the ransom privately
+      contrary to Citadel policy rather than involve authorities.
+    source_chunks: [nassana-dantius_002]
+  - text: >
+      Shepard could agree to rescue Dahlia or refuse. Whether Shepard
+      accepted or declined, they could independently discover the pirate
+      base and eliminate the mercenaries there.
+    source_chunks: [nassana-dantius_002]
+    choice: accepted or declined assignment
+  - text: >
+      When Shepard recovered evidence establishing Nassana and Dahlia as
+      sisters and revealing Dahlia's leadership of the pirate slavers,
+      Nassana dropped her concerned-sister facade. She thanked Shepard for
+      eliminating an embarrassment, expressing indifference to her sister's
+      death despite their blood relation.
+    source_chunks: [nassana-dantius_002]
+  - text: >
+      Nassana offered payment for the work. Shepard could accept credits,
+      refuse and have her transfer them anyway with the suggestion to donate
+      them, negotiate for a higher payment, or negotiate for placement on the
+      buyers list for prototype asari mods—the Armali Council armory license.
+    source_chunks: [nassana-dantius_002]
+    choice: payment negotiation
+  - text: >
+      Shepard and Nassana concluded their association on amicable or
+      impersonal terms depending on how the Commander treated the reward
+      discussion.
+    source_chunks: [nassana-dantius_002]
+related_scenes: []
+related_events: []
+source_chunks: [nassana-dantius_002]

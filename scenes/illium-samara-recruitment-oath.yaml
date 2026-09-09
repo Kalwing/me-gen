@@ -37,9 +37,37 @@ beats:
     source_chunks: [dossier-the-justicar_007]
   - text: >
       Fighting up through the Eclipse hideout past toxic Minagen X3 canisters, Shepard
-      meets Elnora, a young initiate who confesses to killing the volus, and the drugged
-      volus Niftu Cal, who believes himself a "biotic god."
-    source_chunks: [dossier-the-justicar_008, dossier-the-justicar_010]
+      encounters a drugged volus standing before a vending machine in a daze. The volus,
+      Niftu Cal, turns around and waddles into Shepard, nearly falling over. After regaining
+      his balance, he paces frantically, boasting of newfound godlike biotic powers and
+      immortality. The Eclipse had pumped him full of biotic-enhancing drugs to experiment on
+      him. Shepard can respond in three ways.
+    source_chunks: [niftu-cal_001]
+  - text: >
+      Shepard persuades Niftu Cal to stop fighting the mercenaries and find a place to rest.
+      Later, after Shepard's business on Illium is finished, Niftu reappears at the spaceport
+      with his wits restored. Grateful and lucid again, he thanks Shepard for stopping him.
+    source_chunks: [niftu-cal_001]
+    conditional: {niftu_cal_outcome: persuaded}
+    choice: Shepard persuades Niftu Cal to rest
+  - text: >
+      Shepard encourages Niftu Cal to charge the mercenaries and show them his godlike power.
+      Niftu attempts to attack Captain Wasea with a feeble Warp field that dissipates harmlessly
+      in front of her. Wasea retaliates with a biotic blast of her own, hurling the volus
+      across the room and into boxes. Niftu is never seen again.
+    source_chunks: [niftu-cal_001]
+    conditional: {niftu_cal_outcome: encouraged_to_fight}
+    choice: Shepard encourages Niftu Cal to attack the mercs
+  - text: >
+      Shepard ignores the drugged volus entirely and moves on. Niftu does not reappear at the
+      spaceport afterward.
+    source_chunks: [niftu-cal_001]
+    conditional: {niftu_cal_outcome: ignored}
+    choice: Shepard ignores Niftu Cal
+  - text: >
+      Shepard also meets Elnora, a young Eclipse initiate who confesses to killing the volus
+      business partner Dakni Kur as part of her initiation into the gang.
+    source_chunks: [dossier-the-justicar_008]
   - text: >
       Captain Wasea fights Shepard with an M-300 Claymore and hurled Minagen containers;
       her datapad names the fugitive's ship as the AML Demeter.
@@ -60,4 +88,4 @@ beats:
     source_chunks: [dossier-the-justicar_013]
 related_scenes: [illium-nos-astra-anaya-investigation]
 related_events: [samara-recruitment-illium]
-source_chunks: [dossier-the-justicar_004, dossier-the-justicar_005, dossier-the-justicar_006, dossier-the-justicar_007, dossier-the-justicar_011, dossier-the-justicar_012, dossier-the-justicar_013]
+source_chunks: [dossier-the-justicar_004, dossier-the-justicar_005, dossier-the-justicar_006, dossier-the-justicar_007, dossier-the-justicar_008, dossier-the-justicar_011, dossier-the-justicar_012, dossier-the-justicar_013, dossier-the-justicar_015, niftu-cal_001]
