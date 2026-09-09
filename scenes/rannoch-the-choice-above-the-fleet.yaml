@@ -5,7 +5,7 @@ game: Mass Effect 3
 when: 2186, after the Reaper on Rannoch is destroyed
 where: Rannoch, on the cliffs, with both fleets overhead
 
-participants: [Shepard, Tali'Zorah vas Normandy, Legion, Han'Gerrel vas Neema]
+participants: [Shepard, Tali'Zorah vas Normandy, Legion, Shala'Raan vas Tonbay, Han'Gerrel vas Neema]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -42,7 +42,25 @@ beats:
       to its own question about souls was yes.
     source_chunks: [tali-zorah-nar-rayya_009]
 
+variants:
+  - condition: {legion_status: geth_vi}
+    choice: the Geth VI stands in for Legion
+    text: >
+      If Legion was sold to Cerberus, never activated, or died at the Collector Base, the
+      unit rescued from the dreadnought is the Geth VI — physically Legion's twin down to the
+      holographic N7 shoulder piece and the hole in its torso, but with no memory of anything
+      after Saren's attack on Eden Prime and a colder view of organics, and it insists
+      throughout "We are not Legion." No peaceful outcome is possible with the VI present.
+      If Shepard lets the geth die, the VI violently assaults Shepard — "[our people] were
+      correct to distrust organics" — and tries to upload the Reaper code before Tali knifes
+      it in the back, or, if Tali is absent, Shala'Raan kills it with a shotgun; the quarians
+      then win the battle overhead. If Shepard uploads the code to save the geth, the VI
+      thanks Shepard, says its "skepticism was misplaced," and dissolves itself into the
+      consensus to grant every geth true intelligence, and the upgraded geth defeat the
+      quarian fleet.
+    source_chunks: [geth-vi_002, geth-vi_004]
+
 related_scenes: [normandy-garrus-and-tali-reconciliation, flotilla-tali-treason-trial,
                  heretic-station-legion-a-house-divided]
 related_events: []
-source_chunks: [tali-zorah-nar-rayya_009]
+source_chunks: [tali-zorah-nar-rayya_009, geth-vi_002, geth-vi_004]

@@ -958,3 +958,33 @@
   enrichment) but are left OUT of `.done` — they redo idempotently next wave.
 - `python -m pytest -q` → 169 passed.
 - Committed. Remaining: ~996 stems, resume alphabetically from `game-shop`.
+
+### 2026-09-09 (cont.) — scene sweep wave 14 (8 batches, 160 stems)
+- User set wave size to **8 batches of 20** (two rounds of 4 scene-extractors in flight).
+  Stems `game-shop`..`jana`. Haiku for the stat-page batches (B geth-units, G ammo/powers),
+  Sonnet for A/C/E/H (Garrus & Jacob loyalty, Ascension-novel cluster, Horizon, Jack/Vega banter).
+- **13 new scene records:**
+  citadel-presidium-garrus-shooting-cans, citadel-garrus… (see extended),
+  idenna-cerberus-assault-grayson-kills-golo, grissom-academy-gillian-grayson-biotic-outburst,
+  omega-golo-dealings-and-the-trap-for-lemm, horizon-sanctuary-lawson-standoff,
+  citadel-helena-blake-syndicate-offer, omega-grayson-finds-dying-hilo,
+  me1-ilos-find-the-conduit, illium-nos-astra-thax-vorak, citadel-huerta-thane-final-moments,
+  normandy-shuttle-bay-vega-sparring, citadel-apartment-vega-n7-tattoo,
+  normandy-engineering-jack-confidences.
+- **6 records extended:** citadel-garrus-sidonis-orbital-lounge (Eye for an Eye front half:
+  Bailey stop, volus/krogan warehouse, Fade-is-Harkin, factory battle, Harkin pinned,
+  shoot-leg vs headbutt branch), bel-anoleis-corruption-noveria, rannoch-the-choice-above-the-fleet
+  (Geth VI variant), tuchanka-grunt-rite-of-passage (Wreav-leads variant + ME3 Utukku death
+  consequence), flotilla-tali-treason-trial (Han'Gerrel added), horizon-ashley-shepard-reunion
+  (broadened to the whole Virmire-survivor reunion, Kaidan branch + Delan).
+- Batches B, G and the tail of A/D produced nothing (geth-unit / ammo / power / enemy stat pages).
+- Attendance spot-check (idenna, grissom-gillian, omega-golo, huerta-thane, vega-sparring):
+  every participant name appears in that scene's cited-page chunk text. No fabrication.
+- Fixed 2 fabricated `related_events` ids caught by `test_related_events_resolve`:
+  `race-against-time-sovereign` → `ilos-conduit-citadel`;
+  `citadel-coup-priority` → `cerberus-coup-citadel-ashley`.
+- `scripts.scenes --check` → 212 scenes clean. `pytest -q` → 169 passed.
+- `.done` append: all 8 batches were dispatched by the controller and returned success,
+  so the full 160-stem range `game-shop`..`jana` is appended (no reconstruction guesswork).
+  `scenes/.done` 640 → 800. Remaining: **836 stems**.
+- Committed. Resume alphabetically from `japan` / `jarrahe-station` (next stem after `jana`).

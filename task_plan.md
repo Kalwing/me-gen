@@ -6,19 +6,12 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-09 (/pwf restore + wave 13 finalized): scene sweep **640/1,636** stems in
-`scenes/.done` (13 waves committed), 199 scene files, `scripts.scenes --check` clean,
-169 tests green. ~996 stems remain (~50 waves).
+2026-09-09 (waves 13 + 14 done): scene sweep **800/1,636** stems in `scenes/.done`
+(14 waves committed), 212 scene files, `scripts.scenes --check` clean, 169 tests green.
+**836 stems remain** (~5 more 160-stem waves).
 
-Wave 13 was committed this session (was uncommitted in the tree from a session that
-died before the controller's `.done`-append step). Its `.done` append was reconstructed
-conservatively — `fish`..`gagarin-station` only; stems `game-shop`..`gatatog-warrior`
-redo idempotently next wave.
-
-Next: re-run `/me-build-scenes` — resumes alphabetically from `game-shop` per step 3.
-`game-shop`..`garvug` and the two `garrus-*` loyalty-quest pages (garrus-eye-for-an-eye,
-garrus-find-dr-saleon, garret-bryson/Dr Bryson) are the first stems and may hold
-occasions not yet extracted — do not assume the aborted wave covered them.
+Next: re-run `/me-build-scenes` — resumes alphabetically from `japan` (first stem after
+`jana`). Wave = 8 batches of ~20, two rounds of 4 scene-extractors.
 
 Deferred generation-overhaul items (spec `docs/superpowers/specs/2026-09-07-generation-overhaul-design.md`):
 - [ ] Phase 2 item 11 — codex correction pass for compressed-causality bullets of the
@@ -116,8 +109,13 @@ Phase 7 — scene sweep (generation-overhaul Phase 2 item 9). 620/1,636 done, wa
 uncommitted in the tree. See `## Next Step`.
 
 ### Phase 7: Scene sweep (generation-overhaul design, item 9)
+Wave = **8 batches of ~20** (user-set 2026-09-09), run 4 scene-extractors in flight
+(two rounds of 4). Haiku default; Sonnet for loyalty/branch/banter-heavy batches.
+Finalize the whole 160-stem wave together: `.done` append, filename normalize,
+`scripts.scenes --check`, attendance spot-check, pytest, commit, pause for /clear.
+
 - [x] Tooling: `/me-build-scenes` + `scene-extractor` (committed f3a6704).
-- [~] The sweep — 640/1,636 stems in `scenes/.done`, 199 scene files. Waves 1–13
+- [~] The sweep — 800/1,636 stems in `scenes/.done`, 212 scene files. Waves 1–14
       committed (7a4b139 … this session).
 - [ ] Post-sweep: reconcile scene choice-branches → `config/canon/choices.yaml` blank
       stubs (memory [[scene-sweep-then-backfill-choices]]).

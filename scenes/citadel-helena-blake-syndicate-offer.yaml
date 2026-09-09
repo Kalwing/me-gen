@@ -1,0 +1,61 @@
+scene_id: citadel-helena-blake-syndicate-offer
+title: Helena Blake's Business Proposition
+kind: mission-aside
+game: Mass Effect
+when: "2183, during UNC: Hostile Takeover"
+where: near the Emporium on the Citadel Presidium, then Blake's hideout on Amaranthine in the Fortuna system
+
+participants: [Shepard, Helena Blake]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - helena_blake_fate: any
+
+beats:
+  - text: >
+      Helena Blake, a senior member of a crime syndicate and a C-Sec person of interest,
+      stopped Shepard near the Presidium Emporium with a business proposition. She admitted
+      her criminal affiliation openly but said her two partners had gone too far — dealing
+      the biotic drug red sand and moving into the slave trade — and offered to pay Shepard
+      to kill them.
+    source_chunks: [helena-blake_002]
+  - text: >
+      Shepard could agree, or refuse — Blake handed over the two bosses' coordinates in the
+      Han and Dis systems regardless, asking whether Shepard's conscience could stand
+      letting them live. Shepard could instead threaten to arrest Blake; unconcerned, she
+      cited her excellent legal representation.
+    source_chunks: [helena-blake_002]
+  - text: >
+      If Shepard killed both crime bosses, Shepard could travel to Blake's hideout on
+      Amaranthine for the reward. She thanked Shepard and promised the syndicate would keep
+      to gambling and smuggling illegal tech from then on.
+    source_chunks: [helena-blake_002]
+  - text: >
+      Shepard accepted her word and left; Blake kept her reduced operation running.
+    source_chunks: [helena-blake_002, helena-blake_003]
+    conditional: {helena_blake_fate: let_go}
+    choice: Blake left alone, folds her syndicate into Aria's organization
+  - text: >
+      Shepard persuaded Blake to walk away entirely. She conceded "those two idiots" had
+      ruined her operation beyond repair and agreed to disband the syndicate permanently.
+    source_chunks: [helena-blake_002, helena-blake_003]
+    conditional: {helena_blake_fate: retired}
+    choice: Blake talked into disbanding the syndicate
+  - text: >
+      Shepard tried to arrest Blake at the hideout. She said she would rather die than go
+      to prison, ordered her goons to "neutralize the Spectre," joined the fight herself,
+      and was killed in the firefight.
+    source_chunks: [helena-blake_002]
+    conditional: {helena_blake_fate: killed}
+    choice: Blake arrested, dies fighting
+  - text: >
+      If Blake survived 2183, Shepard could run into her two years later on Omega, in the
+      passageways of the Afterlife Club: working as a social worker helping Omega's people
+      if she had retired, or serving as an underboss in Aria T'Loak's organization if
+      Shepard had simply let her go.
+    source_chunks: [helena-blake_003]
+
+related_scenes: []
+related_events: [helena-blake-crime-syndicate]
+source_chunks: [helena-blake_002, helena-blake_003]

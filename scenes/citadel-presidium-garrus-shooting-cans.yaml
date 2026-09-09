@@ -1,0 +1,41 @@
+scene_id: citadel-presidium-garrus-shooting-cans
+title: Shooting Cans off the Presidium with Garrus
+kind: hangout
+game: Mass Effect 3
+when: 2186, during a lull in the war, before the assault on the Illusive Man's base
+where: the Citadel — Normandy dock D24, then the top of the Presidium
+participants: [Shepard, Garrus Vakarian]
+private_to: [Shepard, Garrus Vakarian]
+heard_by: [Normandy crew]
+
+requires:
+  - garrus_alive: true
+
+beats:
+  - text: >
+      During one of the calmer stretches of the war, Garrus asks Shepard to meet him at the
+      Normandy's D24 docking bay. He wants one more outing together before the final battle on
+      Earth. They take a skycar to the top of the Presidium.
+    source_chunks: [garrus-vakarian_013]
+  - text: >
+      The two set beverage cans on a railing and shoot them off with sniper rifles,
+      reminiscing about everything they have been through as a team. If Shepard deliberately
+      misses the second shot, Garrus cannot contain himself: "I'm Garrus Vakarian, and this is
+      now my favorite spot on the Citadel." If Shepard hits it, he grumbles about adding a
+      herd of rampaging klixen next time to "separate the rookies from the pros."
+    source_chunks: [garrus-vakarian_013]
+
+variants:
+  - condition: {romance: Garrus}
+    choice: romanced Garrus
+    text: >
+      On the ride over Garrus asks whether Shepard is ready to commit — ready to be "a one
+      turian kind of woman." Shepard says the only thing that made leaving Earth bearable was
+      knowing he was out there, tells him she loves him, and they kiss. Then comes the
+      bottle-shooting round; if Shepard misses, Garrus consoles her with "There, there, it's
+      okay. I know there are other things you're good at."
+    source_chunks: [garrus-vakarian_015]
+
+related_scenes: [citadel-garrus-casino-bar, normandy-cockpit-garrus-and-joker]
+related_events: []
+source_chunks: [garrus-vakarian_013, garrus-vakarian_015]

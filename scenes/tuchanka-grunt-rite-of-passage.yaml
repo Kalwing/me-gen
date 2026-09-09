@@ -53,8 +53,20 @@ beats:
       Wrex himself killed a thresher maw during his own Rite — the feat that made his name in
       Clan Urdnot.
     source_chunks: [urdnot-wrex_002]
+  - text: >
+      If Shepard never runs the Rite, Grunt earns no clan and no krantt. In Mass Effect 3,
+      if Shepard then spares the rachni Queen on Utukku during Attican Traverse: Krogan Team,
+      Grunt dies covering her escape.
+    source_chunks: [grunt-rite-of-passage_011]
 
 variants:
+  - condition: {wrex_virmire: dead}
+    choice: Wrex dead — Wreav leads Clan Urdnot
+    text: >
+      If Wrex was killed on Virmire or never recruited, the krogan who receives Shepard,
+      explains that Grunt is not sick, and refers the party to the Shaman is his brother
+      Wreav, not Wrex.
+    source_chunks: [grunt-rite-of-passage_004]
   - condition: {grunt_loyalty: killed the thresher maw}
     choice: killed the thresher maw
     text: >
@@ -65,9 +77,10 @@ variants:
       him.
     source_chunks: [grunt-rite-of-passage_008, gatatog-uvenk_003]
 
-related_scenes: [citadel-grunt-csec-noodles, citadel-party-apartment]
+related_scenes: [citadel-grunt-csec-noodles, citadel-party-apartment,
+                 utukku-aralakh-company-rachni-confrontation]
 related_events: []
 source_chunks: [grunt-rite-of-passage_001, grunt-rite-of-passage_004, grunt-rite-of-passage_005,
                 grunt-rite-of-passage_006, grunt-rite-of-passage_007, grunt-rite-of-passage_008,
-                grunt-rite-of-passage_009, grunt-rite-of-passage_010, grunt-rite-of-passage_013,
-                gatatog-uvenk_003, gatatog-warrior_001, urdnot-wrex_002]
+                grunt-rite-of-passage_009, grunt-rite-of-passage_010, grunt-rite-of-passage_011,
+                grunt-rite-of-passage_013, gatatog-uvenk_003, gatatog-warrior_001, urdnot-wrex_002]

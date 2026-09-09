@@ -3,11 +3,18 @@ title: Exposing Administrator Anoleis at Port Hanshan
 kind: mission-aside
 game: Mass Effect
 when: 2183, Port Hanshan, Noveria, during the hunt for Saren
-where: Anoleis's office and the Port Hanshan hotel bar
+where: the Port Hanshan docking bay, Anoleis's office, and the hotel bar
 
 participants: [Shepard, Bel Anoleis, Gianna Parasini, Lorik Qui'in]
+heard_by: [Noveria Internal Affairs, executive board]
 
 beats:
+  - text: >
+      Dock guards try to disarm Shepard on arrival at Port Hanshan. Anoleis's secretary,
+      Gianna Parasini, orders them to stand down, having confirmed Shepard's Spectre status,
+      then meets Shepard at the port entrance and mentions in passing that Matriarch Benezia
+      is on Noveria and has recently gone up to Peak 15.
+    source_chunks: [gianna-parasini_002]
   - text: >
       Shepard needs a garage pass to leave Port Hanshan and reach Peak 15, where Matriarch
       Benezia has gone. Administrator Bel Anoleis stonewalls the request despite Shepard's
@@ -21,6 +28,19 @@ beats:
       security to ransack Qui'in's office at Synthetic Insights, where the evidence of his
       own crimes is stored.
     source_chunks: [lorik-qui-in_001, synthetic-insights-ltd_002]
+  - text: >
+      Shepard raids the Synthetic Insights office for the evidence. It is a fight: Shepard
+      is forced to shoot several Elanus Risk Control guards, among them Kaira Stirling.
+    source_chunks: [lorik-qui-in_001, gianna-parasini_002]
+  - text: >
+      Parasini intercepts Shepard on the stairs afterward, asks about the "reports of
+      noise," and asks Shepard to meet her for a drink at the hotel bar. If Shepard goes,
+      she drops the secretary act: she is an Internal Affairs agent working for the
+      executive board, six months undercover on Anoleis and still without anything that
+      would convict him — "He's a crook, not a moron! He doesn't keep logs on his computer
+      saying 'This month I stole three million credits!'" She asks Shepard to talk Qui'in
+      into testifying, and will hand over a garage pass for it.
+    source_chunks: [gianna-parasini_002]
   - text: >
       Shepard recovers the evidence from Synthetic Insights and decides what to do with it.
     source_chunks: [lorik-qui-in_001]
@@ -49,9 +69,13 @@ variants:
     choice: Qui'in convinced to testify
     text: >
       Shepard convinces Qui'in to testify, which helps Parasini's undercover investigation.
-      Anoleis is hauled away protesting, having left no records of his crimes beyond Qui'in's
-      testimony and files.
-    source_chunks: [bel-anoleis_001]
+      Parasini arrests Anoleis herself, hauling him off as he demands Shepard have her
+      arrested for what she has done; on her way out she cheerfully tells Shepard she owes
+      him a beer. Anoleis is left with no records of his crimes beyond Qui'in's testimony
+      and files.
+    source_chunks: [bel-anoleis_001, gianna-parasini_002]
 
+related_scenes: [illium-parasini-beer-and-hermia]
 related_events: [bel-anoleis-corruption, benezia-death-noveria]
-source_chunks: [bel-anoleis_002, bel-anoleis_001, lorik-qui-in_001, gianna-parasini_001, synthetic-insights-ltd_002]
+source_chunks: [bel-anoleis_002, bel-anoleis_001, lorik-qui-in_001, gianna-parasini_001,
+                gianna-parasini_002, synthetic-insights-ltd_002]

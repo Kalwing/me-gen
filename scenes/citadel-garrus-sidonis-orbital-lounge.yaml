@@ -3,9 +3,11 @@ title: The Shot Garrus Set Up on Sidonis
 kind: mission-aside
 game: Mass Effect 2
 when: 2185, after Horizon
-where: the Citadel — Fade's hideout in the Factory District, then the Orbital Lounge
+where: >
+  the Citadel — a shipping warehouse near the Neon Markets in Zakera Ward, then Fade's
+  hideout in the Factory District, then the Orbital Lounge
 
-participants: [Shepard, Garrus Vakarian, Sidonis, Harkin]
+participants: [Shepard, Garrus Vakarian, Sidonis, Harkin, Captain Bailey]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -20,13 +22,38 @@ beats:
       off Omega just before the attack.
     source_chunks: [garrus-vakarian_007]
   - text: >
-      Sidonis surfaces on the Citadel in the company of a forger called Fade, and Garrus
-      intends to collect the blood debt. He asks for Shepard's help if there is time.
-    source_chunks: [garrus-vakarian_007]
+      Sidonis surfaced on the Citadel with the help of a forger called Fade, who specialises
+      in making people disappear. Garrus intends to collect the blood debt and asks for
+      Shepard's help if there is time; he has arranged a meeting with Fade at a shipping
+      warehouse near the Neon Markets in Zakera Ward.
+    source_chunks: [garrus-vakarian_007, garrus-eye-for-an-eye_004]
   - text: >
-      Fade turns out to be Harkin, the ex-C-Sec cop. Shepard can let Garrus put a round through
-      his knee or stop him; stopped, Garrus headbutts him instead.
-    source_chunks: [garrus-vakarian_007]
+      On arrival EDI suggests checking with C-Sec first. If Shepard does, Captain Bailey says
+      Fade runs his business through contacts in the warehouses.
+    source_chunks: [garrus-eye-for-an-eye_005]
+  - text: >
+      At the warehouse the contact is a volus flanked by two krogan bodyguards. A Renegade
+      interrupt has Shepard and Garrus gun the bodyguards down; otherwise the pair draw their
+      weapons and the bodyguards flee. The volus gives Fade up as former C-Sec officer Harkin,
+      holed up in an old prefab factory in the Factory District under Blue Suns protection.
+      Shepard lets the volus go; Garrus warns they will be back for him if Harkin does not pan
+      out.
+    source_chunks: [garrus-eye-for-an-eye_005]
+  - text: >
+      Harkin runs the moment he sees Shepard and Garrus at the factory. Shepard's team fights
+      through Blue Suns troopers, legionnaires and commanders and waves of reprogrammed LOKI
+      mechs, plus three YMIR mechs — two of them at once in the final yard.
+    source_chunks: [garrus-eye-for-an-eye_011, harkin_003]
+  - text: >
+      Cornered, Harkin will not give up Sidonis — "it's bad for business." Garrus slams him
+      into a wall, knocks him to the floor and pins him with a foot to the throat, telling him
+      a broken neck is also bad for business, until Harkin staggers to a terminal and sets a
+      midday meeting with Sidonis outside the Orbital Lounge. Garrus then levels his pistol at
+      Harkin's leg; Shepard can let him fire, to slow Harkin's escape from the authorities, or
+      trigger a Paragon interrupt so Garrus headbutts him instead. A female Shepard who lets
+      the leg-shot happen can tell Harkin, "You're lucky. I wouldn't have shot you in the
+      leg." EDI later confirms C-Sec took Harkin into custody.
+    source_chunks: [garrus-eye-for-an-eye_011, garrus-eye-for-an-eye_017, harkin_003]
   - text: >
       They take a skycar to the Orbital Lounge. Garrus will not be talked out of it: he points
       out his sniper perch, tells Shepard to draw Sidonis into the open, and gets out of the
@@ -46,14 +73,16 @@ variants:
       second chance and walks away. Emily Wong later reports that he turned himself in for ten
       murders, and that C-Sec can do little about it with no government on Omega to extradite
       him to.
-    source_chunks: [garrus-eye-for-an-eye_012, garrus-vakarian_007]
+    source_chunks: [garrus-eye-for-an-eye_012, garrus-eye-for-an-eye_013, garrus-vakarian_007]
   - condition: {let_sidonis_live: false}
     choice: let Garrus kill Sidonis
     text: >
       Shepard steps aside and Garrus takes the shot. C-Sec investigates the death afterwards
-      and gets nowhere.
+      and gets nowhere; if Garrus is in the party he answers the report with "what a shame."
     source_chunks: [garrus-eye-for-an-eye_012, garrus-eye-for-an-eye_013]
 
-related_scenes: []
+related_scenes: [omega-archangel-garrus-last-stand]
 related_events: []
-source_chunks: [garrus-vakarian_007, garrus-eye-for-an-eye_012, garrus-eye-for-an-eye_013]
+source_chunks: [garrus-vakarian_007, garrus-eye-for-an-eye_004, garrus-eye-for-an-eye_005,
+                garrus-eye-for-an-eye_011, garrus-eye-for-an-eye_012, garrus-eye-for-an-eye_013,
+                garrus-eye-for-an-eye_017, harkin_003]

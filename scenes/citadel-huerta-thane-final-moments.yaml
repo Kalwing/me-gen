@@ -1,0 +1,47 @@
+scene_id: citadel-huerta-thane-final-moments
+title: Thane's Final Prayer at Huerta Hospital
+kind: ceremony
+game: Mass Effect 3
+when: 2186, Citadel, after the Cerberus coup attack, during Thane's final hours
+where: Huerta Memorial Hospital, Thane's patient room
+participants: [Shepard, Thane Krios, Kolyat Krios]
+private_to: [Shepard, Thane Krios, Kolyat Krios]
+heard_by: []
+requires:
+  - thane_alive: true
+beats:
+  - text: >
+      Thane is in his final moments, wracked by the late stages of Kepral's Syndrome worsened
+      by wounds from his duel with Kai Leng. Kolyat, who donated blood to try to save his
+      father, stands vigil at his bedside and has brought a prayer book. Thane murmurs the
+      opening prayer to Kalahira, the goddess of oceans and the afterlife: "Kalahira, mistress
+      of inscrutable depths, I ask forgiveness. Kalahira, whose waves wear down stone and
+      sand—Kalahira, wash the sins from this one, and set him on the distant shore of the
+      infinite spirit." Pain seizes him, and Kolyat continues for him, then asks Shepard to
+      join in the blessing for the dying.
+    source_chunks: [thane-krios_009]
+  - text: >
+      If Shepard participates in the prayer, Kolyat's recitation becomes a blessing intended
+      for Shepard, not Thane: "Kalahira, this one's heart is pure, but beset by wickedness
+      and contention. Guide this one to where the traveler never tires, the lover never leaves,
+      the hungry never starve. Guide this one, Kalahira, and she will be a companion to you as
+      she was to me." Kolyat explains that Thane did not ask forgiveness for his final heroic
+      act—saving the salarian councilor—because he had already asked it for all the rest. His
+      last words to Shepard are that she will not be alone for long. Thane passes away, his
+      name later added to the Normandy's memorial wall.
+    source_chunks: [thane-krios_009]
+    conditional: {thane_loyalty: true}
+    choice: Shepard joins Kolyat in prayer
+  - text: >
+      If Shepard does not join the prayer, Kolyat recites alone, shaping the blessing to his
+      own grief: "Kalahira, this one's heart is pure, but beset by wickedness and contention.
+      Guide him to where all hunters return, where all storms become still, where all stars show
+      the path. Guide him, Kalahira, and he will be a companion to you as he was a father to
+      me." Shepard says goodbye, telling him he won't be alone for long. Thane passes away,
+      his name later added to the Normandy's memorial wall.
+    source_chunks: [thane-krios_009]
+    conditional: {thane_loyalty: false}
+    choice: Shepard does not join the prayer
+related_scenes: [citadel-thane-memorial, citadel-thane-and-kolyat]
+related_events: [cerberus-coup-citadel-ashley]
+source_chunks: [thane-krios_009]

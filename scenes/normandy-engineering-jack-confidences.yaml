@@ -1,0 +1,71 @@
+scene_id: normandy-engineering-jack-confidences
+title: Jack's Hidey Hole on the Engineering Deck
+kind: hangout
+game: Mass Effect 2
+when: 2185, across the run-up to the Omega 4 Relay, from after Horizon
+where: Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck
+
+participants: [Shepard, Jack]
+private_to: [Shepard, Jack]
+heard_by: [Normandy crew]
+
+beats:
+  - text: >
+      After Horizon, Kelly Chambers passes word that Jack wants Shepard in her "hidey hole" on
+      the engineering deck — a crawlspace under the drive core where she has claimed a cot.
+      Shepard keeps coming back to ask questions.
+    source_chunks: [jack-subject-zero_002, manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007]
+  - text: >
+      The repeat visits make Jack suspicious: "People usually walk by now. Why are you really
+      asking all these things? ... if this is just about sex, maybe you should just say so."
+      Shepard says there is no hurry and wants to know what makes her tick first. Jack: "You
+      don't need to know someone to sleep with them. You just have to know where to put it."
+    source_chunks: [manual-jack-in-game-dialogue-and-banter_005]
+  - text: >
+      Kelly warns Shepard that Jack pushes people away yet approaches sex casually, may make
+      advances, and that if Shepard wants her respect he should think twice.
+    source_chunks: [manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003]
+  - text: >
+      Over repeated visits Jack gives up pieces of her past. The tattoos are a record —
+      prisons she has been in, memorable kills, personal reasons, some "just because." The
+      shaved head is from the cult she ran with. She wears little clothing on purpose, to read
+      what people really want from her.
+    source_chunks: [manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003]
+  - text: >
+      The one person who never used her was Murtock, a man she loved and ran jobs with. After
+      robbing a heavily guarded weapons frigate they were separated; Murtock came back for her
+      instead of running with the score. Jack reached a shuttle and escaped; he was left
+      behind. Days later the shuttle played his pre-recorded message about the future they
+      were meant to have and how much he loved her. Jack denies it was her fault.
+    source_chunks: [manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_006]
+  - text: >
+      On the Citadel, in the bathroom of the bar, Jack tells Shepard about being sexually
+      assaulted in the Purgatory prison showers, and then hunting down and murdering every one
+      of her attackers.
+    source_chunks: [jack-unique-dialogue_004]
+  - text: >
+      If Shepard sleeps with her early, Jack cuts the conversation off — "nothing to talk
+      about" — and the trust is broken.
+    source_chunks: [manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007]
+    conditional: {romance: Jack early}
+    choice: slept with Jack early, trust broken
+
+variants:
+  - condition: {romance: Jack}
+    choice: romanced Jack
+    text: >
+      Declining her early advance confuses her and her shell begins to crack; with steady,
+      non-sexual interest a relationship forms and she admits she really does need someone. In
+      place of a love scene before the Omega 4 Relay, she and Shepard only kiss and lie in
+      bed together, Shepard holding her.
+    source_chunks: [manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007,
+                    manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_009]
+
+related_scenes: [pragia-jack-teltin-facility, normandy-jack-miranda-confrontation, citadel-purgatory-jack-and-her-students]
+related_events: [subject-zero-cerberus-teltin-experiments]
+source_chunks: [jack-subject-zero_002, jack-unique-dialogue_004,
+                manual-jack-in-game-dialogue-and-banter_005,
+                manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003,
+                manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_006,
+                manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007,
+                manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_009]

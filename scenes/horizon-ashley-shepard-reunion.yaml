@@ -1,52 +1,86 @@
 scene_id: horizon-ashley-shepard-reunion
-title: Finding Ashley Paralyzed on Horizon
+title: The Virmire Survivor's Reunion on Horizon
 kind: mission-aside
 game: Mass Effect 2
-when: 2185, after the Collector attack on Horizon
-where: the Horizon colony, Terminus Systems
+when: 2185, immediately after the Collector attack on Horizon was driven off
+where: the Horizon colony spaceport, Terminus Systems
 
-participants: [Shepard, Ashley Williams, Garrus Vakarian]
+participants: [Shepard, Ashley Williams, Kaidan Alenko, Delan, Garrus Vakarian]
 private_to: []
 heard_by: [Normandy crew]
 
 requires:
-  - virmire_survivor: Ashley
+  - virmire_survivor: any
 
 beats:
   - text: >
-      Two years after Shepard's death, Ashley — now an Operations Chief who never
-      stopped believing rumors that Shepard was alive and working for Cerberus — was
-      sent to Horizon to update the colony's defense grid against an expected Cerberus
-      attack. The grid was not yet operational when the Collectors struck instead.
-    source_chunks: [ashley-williams_008]
+      Two years after Shepard's death, the Virmire survivor — an Alliance officer who had
+      been hearing rumors that Shepard was alive and tied to Cerberus — was sent to Horizon
+      to install GARDIAN defense towers as cover for investigating whether Cerberus was
+      behind the colony abductions. The towers' targeting was badly miscalibrated and not
+      operational when the Collectors struck instead. The survivor was stung and paralyzed
+      by a seeker swarm but shook it off and avoided capture.
+    source_chunks: [ashley-williams_008, kaidan-alenko_007]
   - text: >
-      During the assault Ashley was caught and paralyzed by a seeker swarm. Shepard's
-      team found her after the Collectors withdrew.
-    source_chunks: [ashley-williams_008]
+      Shepard raced to Horizon with the squad, moved through the colony under Mordin's
+      anti-seeker countermeasure, and powered up the GARDIAN towers, which drove the
+      Collector cruiser off with about a third of the colonists already taken.
+    source_chunks: [horizon-mission_015]
   - text: >
-      Ashley is glad Shepard is alive but unsettled by finding him working for Cerberus,
-      suspecting he may feel indebted to the organization for resurrecting him. If Garrus
-      is present, Ashley is also surprised to find him working with Cerberus, and Garrus
-      argues that her feelings about Cerberus are blinding her to the truth behind the
-      Collector attacks.
-    source_chunks: [ashley-williams_008]
+      With the coast clear, the mechanic Delan emerged from his garage and berated Shepard
+      for failing to save his friends and neighbors. He only showed a flicker of
+      recognition once a squadmate said Shepard's name. Indignant that the Alliance rep had
+      survived while so many colonists had not, Delan walked off, done with the Alliance for
+      good.
+    source_chunks: [horizon-mission_015, delan-mass-effect-2_001]
   - text: >
-      Ashley leaves, telling Shepard to be careful.
-    source_chunks: [ashley-williams_008]
+      The Virmire survivor announced themselves by reciting Shepard's accomplishments, then
+      turned cold on learning Shepard was working with Cerberus. They revealed the Alliance
+      had sent them to Horizon on a tip that it would be the next colony hit, and that they
+      had also come to find out whether Cerberus was behind the attacks. They questioned
+      Shepard's loyalty, refused to rejoin the mission regardless of old camaraderie, and
+      left — telling Shepard to be careful.
+    source_chunks: [horizon-mission_015, kaidan-alenko_007]
   - text: >
-      If Shepard and Ashley had been together before Shepard's death, their reunion is
-      more personal: she is relieved he's alive but angry he never tried to contact her
-      during the two years she grieved him.
+      If the survivor was Ashley Williams: she is an Operations Chief who never stopped
+      believing Shepard was alive. If Garrus is in the squad, Ashley is also thrown to see
+      him with Cerberus, and Garrus argues her feelings about Cerberus are blinding her to
+      the truth behind the Collector attacks.
+    source_chunks: [ashley-williams_008]
+    conditional: {virmire_survivor: Ashley}
+    choice: the Virmire survivor is Ashley
+  - text: >
+      If the survivor was Kaidan Alenko: now a Staff Commander carrying survivor's guilt
+      over losing the first Normandy and Shepard, he insists he is an Alliance soldier and
+      always will be, and that he can never trust Cerberus, before leaving to report to the
+      Citadel.
+    source_chunks: [kaidan-alenko_007]
+    conditional: {virmire_survivor: Kaidan}
+    choice: the Virmire survivor is Kaidan
+  - text: >
+      If Shepard and the survivor had been romantically together before Shepard's death,
+      the reunion is more personal and affectionate at first: relief that Shepard is alive,
+      then anger that Shepard never made contact during the two years of grief.
+    source_chunks: [horizon-mission_015, ashley-williams_009]
+  - text: >
+      Afterward Ashley sends Shepard an apologetic email, "Hey there," admitting she prayed
+      for him every day and reread Tennyson thinking of him, and that she keeps returning to
+      the memory of the night before Ilos. She says she can't go where he's going but wishes
+      him luck, signing off "stay alive out there... Skipper." If Shepard stays faithful to
+      her, he looks at her picture in his quarters and smiles on the way to the Collector
+      base.
     source_chunks: [ashley-williams_009]
-  - text: >
-      Afterward Ashley sends Shepard an apologetic email, "Hey there," admitting she
-      prayed for him every day and reread Tennyson thinking of him, and that she keeps
-      returning to the memory of the night before Ilos. She says she can't go where he's
-      going but wishes him luck, and signs off "stay alive out there... Skipper." If
-      Shepard remains faithful to her, he looks at her picture in his quarters and smiles
-      on the way to the Collector base.
+    conditional: {romance: Ashley}
+    choice: romanced Ashley
+
+variants:
+  - condition: {romance: Ashley}
+    text: >
+      Played as a lovers' reunion: the affection is unmistakable before the argument, and
+      the follow-up email reads as a letter from someone still in love and grieving twice.
     source_chunks: [ashley-williams_009]
+    choice: romanced Ashley
 
 related_scenes: [me1-ashley-ilos-night]
 related_events: [horizon-collector-attack]
-source_chunks: [ashley-williams_008, ashley-williams_009]
+source_chunks: [ashley-williams_008, ashley-williams_009, horizon-mission_015, kaidan-alenko_007, delan-mass-effect-2_001]

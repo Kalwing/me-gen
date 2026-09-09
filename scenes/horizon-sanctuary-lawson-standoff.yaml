@@ -1,0 +1,63 @@
+scene_id: horizon-sanctuary-lawson-standoff
+title: Henry Lawson's Standoff at Sanctuary
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, during Priority: Horizon, as the Reapers overrun Sanctuary"
+where: the upper laboratories of the Sanctuary facility, Horizon
+
+participants: [Shepard, Henry Lawson, Oriana Lawson, Miranda Lawson, Kai Leng]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - miranda_fate: any
+
+beats:
+  - text: >
+      Shepard's squad reached Sanctuary tracking Kai Leng after Thessia. The facility,
+      advertised galaxy-wide as a refugee haven, was a Cerberus operation run by Henry
+      Lawson: refugees were processed into husks and test subjects while Henry researched
+      copying the Reaper signal that controlled them. Henry had located Oriana and brought
+      her there; the Reapers, detecting his work, were assaulting the facility as Shepard
+      arrived.
+    source_chunks: [henry-lawson_004, oriana-lawson_003]
+  - text: >
+      The Illusive Man sent Kai Leng ahead to take Henry's husk-control research data. Leng
+      seized it and left, abandoning Henry to the invading Reapers.
+    source_chunks: [henry-lawson_004]
+  - text: >
+      Cornered in his labs with no way out, Henry grabbed Oriana as a human shield and tried
+      to bargain with Shepard. He said Oriana had tried to shoot him and blamed it on her
+      sister's "poisonous influence"; Shepard could answer that the disappointing part was
+      that she missed. Pressed on his motives, Henry defended the work — few had the
+      "stomach" to do what survival required — and boasted, "I will be seen as the savior of
+      the human race."
+    source_chunks: [henry-lawson_004]
+  - text: >
+      Miranda present: Miranda had tracked Oriana to Sanctuary and gone in alone ahead of
+      Shepard. In the standoff she had no interest in bargaining. If Shepard talked Henry
+      into releasing Oriana, or shot Oriana in the leg to clear the line, Miranda mustered
+      her biotics and hurled Henry through the cracked window to his death. If her
+      relationship with Shepard had frayed, Henry realised what was coming and shot Miranda
+      in the stomach as he was thrown — he still died, but the wound killed her shortly
+      after. Otherwise Miranda survived, comforted Oriana, and took her out of Sanctuary.
+    source_chunks: [henry-lawson_004, oriana-lawson_003]
+    conditional: {miranda_fate: lived}
+    choice: Miranda kills Henry at Sanctuary
+  - text: >
+      Miranda absent (dead on the Collector Base): Oriana herself had exposed Sanctuary over
+      the radio and left the video logs. In the standoff Shepard could talk Henry down and
+      let him go free in exchange for Oriana, or shoot Henry and/or Oriana during the
+      negotiation. If Shepard neither convinced him nor shot Oriana loose, Oriana dragged
+      her father with her through the cracked window and both fell to their deaths.
+    source_chunks: [henry-lawson_004, oriana-lawson_003]
+    conditional: {miranda_fate: dead}
+    choice: Shepard resolves the standoff without Miranda
+  - text: >
+      The surviving sister shut down Sanctuary's scrambling tower so the warning could
+      broadcast, and the squad recovered data pointing to Cerberus Headquarters.
+    source_chunks: [oriana-lawson_003]
+
+related_scenes: [illium-miranda-and-oriana]
+related_events: [priority-horizon-sanctuary]
+source_chunks: [henry-lawson_004, oriana-lawson_003]

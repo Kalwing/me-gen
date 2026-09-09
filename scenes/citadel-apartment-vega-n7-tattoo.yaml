@@ -1,0 +1,56 @@
+scene_id: citadel-apartment-vega-n7-tattoo
+title: Vega Shows Off the N7 Tattoo
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the CAT6 mercenaries are driven off
+where: Shepard's personal apartment on the Silversun Strip
+
+participants: [Shepard, James Vega]
+private_to: [Shepard, James Vega]
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      After helping fend off the CAT6 mercenaries pursuing Shepard during the archives escape,
+      James emails the Commander asking for face time at the new apartment. Invited over, he
+      gives his verdict on the place and steers the talk to relationships, claiming he stopped
+      fraternising before he joined the military, then fishes about Shepard's love life and
+      which shipmates might be paramours. With a female Shepard who has traded flirty banter
+      with him, he admits he cannot tell whether she is yanking his chain. If Shepard is with
+      Garrus or Tali, he asks about the "anatomy," thinks better of it, and withdraws the
+      question.
+    source_chunks: [james-vega_017]
+  - text: >
+      The real reason for the visit: James takes off his shirt to show the N7 tattoo on his
+      back. He had doubted he deserved the N7 training he was offered; he took it, and the
+      tattoo marks that. He reaffirms his commitment to the mission and makes to leave,
+      saying Esteban needs help on the shuttle.
+    source_chunks: [james-vega_017]
+  - text: >
+      On the way out he finds the punching bag in the lower bedroom, complains that Shepard
+      has been holding out on him, and works the bag. Shepard can step up to the pull-up bar;
+      James says his record is 182 and calls out milestones — 10, 20, 50, 91, 100, around 110
+      — as Shepard goes.
+    source_chunks: [james-vega_017]
+  - text: >
+      Shepard clears 182 and keeps going. James is left at a loss for words, and just asks
+      how the Commander is doing it; if Shepard offers to go another round he scoffs and
+      defers. He earns Shepard the nickname "Loco" (or "Lola") for the stunt, and tells the
+      Commander not to let anyone say they have lost a step.
+    source_chunks: [james-vega_017]
+    conditional: {citadel_pullup_contest: shepard_won}
+    choice: beat Vega's pull-up record
+  - text: >
+      Shepard falls short of 182. James asks whether the Commander wants a mulligan, or —
+      if Shepard fails badly more than once — marvels that he has finally seen something
+      Shepard is not good at.
+    source_chunks: [james-vega_017]
+    conditional: {citadel_pullup_contest: vega_won}
+    choice: lost the pull-up contest
+
+related_scenes: [citadel-biotiball-night, citadel-party-apartment]
+related_events: []
+source_chunks: [james-vega_017]

@@ -1,0 +1,41 @@
+scene_id: grissom-academy-gillian-grayson-biotic-outburst
+title: Gillian Grayson's Outburst at the Ascension Project
+kind: downtime
+game: Mass Effect
+when: "2183, during Mass Effect: Ascension, at the Jon Grissom Academy"
+where: the Ascension Project's cafeteria and infirmary aboard the Jon Grissom Academy
+participants: [Gillian Grayson, Nick, Hendel Mitra, Jiro Toshiwa]
+heard_by: [Ascension Project staff and students]
+requires: []
+beats:
+  - text: >
+      Dr. Jiro Toshiwa had been dosing Gillian Grayson with a drug, ostensibly to boost her
+      biotics; it did strengthen them, and may also have worsened her autism.
+    source_chunks: [gillian-grayson_002]
+  - text: >
+      In the Academy cafeteria the medication took full effect. Gillian threw a fellow
+      student, Nick, twenty feet, sent the room into chaos, and unleashed a high-level
+      biotic singularity before Hendel Mitra stunned her and brought her down. Hendel had
+      hesitated to stun her and shielded himself with his own biotics; afterward he blamed
+      himself for the damage and considered resigning.
+    source_chunks: [gillian-grayson_002, hendel-mitra_002]
+  - text: >
+      The next day Toshiwa smuggled Gillian out of the Academy hospital to a secluded spot
+      and gave her a second dose, injected into her spine, which triggered a seizure. Hendel
+      Mitra, already suspicious of Toshiwa, arrived and ordered him away from her. While
+      Hendel was distracted by Gillian's condition, Toshiwa shocked him repeatedly with a
+      standard-issue stunner; Hendel stayed conscious and kept Gillian alive with CPR until
+      the EMTs arrived.
+    source_chunks: [hendel-mitra_002, jiro-toshiwa_001]
+  - text: >
+      Toshiwa fled the scene, ran into Kahlee Sanders, and was subdued after a brief
+      struggle. Under later Alliance interrogation he held out but admitted to being a
+      Cerberus operative.
+    source_chunks: [jiro-toshiwa_001]
+  - text: >
+      Gillian was hospitalised in the Project infirmary. Under cover of being a worried
+      parent, Paul Grayson then took her, Kahlee Sanders and Hendel Mitra off to Omega.
+    source_chunks: [gillian-grayson_002]
+related_scenes: [idenna-cerberus-assault-grayson-kills-golo]
+related_events: [ascension-project-cerberus-exposure]
+source_chunks: [gillian-grayson_002, hendel-mitra_002, jiro-toshiwa_001]
