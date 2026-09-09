@@ -1,0 +1,62 @@
+scene_id: normandy-ai-core-legion-activation
+title: Waking the Geth in the AI Core
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, straight after the Reaper IFF is recovered from the Derelict Reaper
+where: >
+  the Normandy SR-2 — the debriefing room, then the AI Core where the disabled geth is
+  held under guard
+
+participants: [Shepard, Miranda Lawson, Jacob Taylor, Legion, EDI]
+private_to: []
+heard_by: [Normandy crew]
+
+beats:
+  - text: >
+      The geth sniper wearing a piece of Shepard's old N7 armour had helped the squad
+      through the husks aboard the Derelict Reaper before a husk knocked it out. Shepard
+      made the call to haul the disabled platform back to the Normandy; the squad tossed
+      it through the airlock in microgravity as they evacuated.
+    source_chunks: [legion_002, reaper-iff_009, geth_007]
+  - text: >
+      In the debriefing Miranda reported the geth was being kept in EDI's AI Core. She
+      and Jacob argued over it — Jacob wanted it thrown out the airlock, Miranda wanted it
+      handed to Cerberus for research, intact geth being hard to come by.
+    source_chunks: [reaper-iff_009]
+  - text: >
+      The Illusive Man messaged that if Shepard judged the geth trustworthy, Shepard could
+      activate it, provided EDI was protected against any attempt at hacking.
+    source_chunks: [reaper-iff_010]
+  - text: >
+      Shepard sold the disabled platform to Cerberus for research. It never joined the
+      crew; in its place a Geth VI built in its likeness turns up later, and the platform
+      itself reappears as a Cerberus enemy during the assault on Cronos Station.
+    source_chunks: [reaper-iff_011, legion_004]
+    conditional: {legion_status: sold_to_cerberus}
+    choice: sold the geth to Cerberus
+  - text: >
+      Shepard had the platform reactivated in the AI Core and interrogated it. It was not
+      hostile; it said it wanted to help Shepard's mission, and on that basis Shepard let
+      it join the squad.
+    source_chunks: [legion_002, reaper-iff_011]
+    conditional: {legion_status: activated}
+    choice: activated the geth and let it join
+  - text: >
+      Shepard asked the platform its name and it answered only "Geth." Shepard kept
+      rephrasing the question until EDI cut in, counting the 1,183 programs in the single
+      body and quoting Mark 5:9 — "My name is Legion: for we are many." The geth accepted
+      it as an appropriate metaphor and was Legion from then on.
+    source_chunks: [legion_002, legion_001]
+    conditional: {legion_status: activated}
+    choice: activated the geth and let it join
+  - text: >
+      Pressed on why it had used a piece of Shepard's N7 armour to repair itself, Legion
+      became evasive — first "there was a hole," then "no data available."
+    source_chunks: [legion_002]
+    conditional: {legion_status: activated}
+    choice: activated the geth and let it join
+
+related_scenes: [heretic-station-legion-a-house-divided, normandy-tali-legion-conflict]
+related_events: [derelict-reaper-iff-mission]
+source_chunks: [legion_001, legion_002, legion_004, geth_007,
+                reaper-iff_009, reaper-iff_010, reaper-iff_011]

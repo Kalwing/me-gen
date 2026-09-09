@@ -5,7 +5,7 @@ game: Mass Effect 2
 when: 2185, some time after Tali rejoined Shepard
 where: the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber
 
-participants: [Shepard, Tali'Zorah vas Normandy, Shala'Raan vas Tonbay, Han'Gerrel vas Neema, Kar'Danna vas Rayya]
+participants: [Shepard, Tali'Zorah vas Normandy, Shala'Raan vas Tonbay, Han'Gerrel vas Neema, Kar'Danna vas Rayya, Kal'Reegar, Veetor'Nara]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -18,6 +18,15 @@ beats:
       Tali's passphrase gets them docked with the Rayya. Captain Kar'Danna meets them with a
       marine detail — weapons raised, if Legion came along.
     source_chunks: [tali-treason_004]
+  - text: >
+      If Legion is present, Kar'Danna refuses it entry outright — neither geth nor Cerberus
+      is welcome in the Flotilla. Shepard can Charm or Intimidate him into allowing Legion
+      aboard the Rayya; otherwise Legion returns to the Normandy and Shepard picks another
+      squadmate. Throughout, Danna addresses Shepard as "Captain", reasoning that a
+      commanding officer's decisions on their own ship carry weight even outside the Alliance.
+    source_chunks: [tali-treason_004, kar-danna-vas-rayya_002]
+    conditional: {legion_present: true}
+    choice: Legion allowed aboard the Rayya or left on the Normandy
   - text: >
       The charge is smuggling active geth into the Fleet. Tali had been sending deactivated
       geth samples home on the orders of her father, Admiral Rael'Zorah, and insists she took
@@ -52,6 +61,19 @@ beats:
       Shepard can uncover by talking to the admirals before leaving for the Alarei.
     source_chunks: [tali-treason_008]
   - text: >
+      If Kal'Reegar lived through Haestrom, he is in the crowd — one of the few quarians who
+      openly respects Tali — and can be called as a character witness. Asked what the
+      quarians should do about a homeworld, he says a war with the geth to retake it would be
+      futile and bad for the Fleet, though he would never shirk his duty. Raan and Gerrel
+      seek out his read on the trial and take his advice to let Tali retake the Alarei to win
+      the crowd. If Shepard rallies the room, Reegar steps up beside Veetor'Nara, says Tali
+      has done more for the Fleet than any admiral, and that if she is exiled he should be
+      too. Afterward he tells Tali he only spoke because Shepard did, and notes she never
+      mentioned her evidence.
+    source_chunks: [kal-reegar_003, tali-treason_008]
+    conditional: {kal_reegar: survived_haestrom}
+    choice: Kal'Reegar survived Haestrom and testifies for Tali
+  - text: >
       Whatever the verdict, the title sticks: she is Tali'Zorah vas Normandy from here on.
     source_chunks: [tali-zorah-nar-rayya_006]
 
@@ -79,7 +101,8 @@ variants:
       loyalty.
     source_chunks: [tali-treason_008, tali-treason_013]
 
-related_scenes: [normandy-tali-legion-conflict]
+related_scenes: [normandy-tali-legion-conflict, haestrom-tali-recruitment]
 related_events: []
 source_chunks: [tali-treason_004, tali-treason_005, tali-treason_008, tali-treason_013,
-                tali-zorah-nar-rayya_006, han-gerrel-vas-neema_002]
+                tali-zorah-nar-rayya_006, han-gerrel-vas-neema_002, kar-danna-vas-rayya_002,
+                kal-reegar_003]

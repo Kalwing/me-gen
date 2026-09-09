@@ -1,0 +1,42 @@
+scene_id: normandy-kaidan-starboard-observation
+title: Kaidan Back Aboard, in the Starboard Lounge
+kind: downtime
+game: Mass Effect 3
+when: 2186, after the Cerberus coup, once Kaidan rejoins the Normandy
+where: the Starboard Observation Lounge, the Crew Quarters, and the Port Observation Lounge, Normandy SR-2
+participants: [Shepard, Kaidan Alenko, James Vega]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - virmire_survivor: Kaidan
+  - virmire_survivor_rejoins: yes
+beats:
+  - text: >
+      Kaidan sets up in the Starboard Observation Lounge. Shepard first finds him at the
+      glass staring out at the stars, saying he cannot save the millions the war is
+      grinding up, and telling Shepard his mother is alone now, cut off from his father by
+      the fighting. Shepard can offer sympathy and tell him to be strong.
+    source_chunks: [kaidan-alenko_009, mail-mass-effect-datapad_024]
+  - text: >
+      After the Cerberus scientists are rescued, Kaidan asks Shepard to the Crew Quarters
+      and tries to square the Cerberus he knew in 2185 with the one that just betrayed
+      everyone, and the Illusive Man turning from ally to enemy. Shepard says nobody saw
+      the betrayal coming and warns him not to dwell on the Illusive Man. If they are
+      together, it opens with flirting. He also says he dodged a bullet on Lesuss and never
+      wants to see the Ardat-Yakshi side of the asari again.
+    source_chunks: [kaidan-alenko_009]
+  - text: >
+      Kaidan invites Shepard to lunch on the Citadel for "a sanity check." If Shepard is
+      unattached he makes a pass; otherwise he calls Shepard a good friend, and Shepard can
+      answer that Kaidan is a brother.
+    source_chunks: [kaidan-alenko_009, kaidan-alenko_010]
+  - text: >
+      After the Battle for Rannoch, Shepard finds Kaidan playing poker with James Vega in
+      the Port Observation Lounge and steadily losing — Vega plays regularly on the
+      Citadel. If Shepard walked the geth consensus, Kaidan sets aside a Spectre expense
+      report to pester Shepard for the details and decides it will be the best chapter of
+      Shepard's memoir.
+    source_chunks: [kaidan-alenko_010, mail-mass-effect-datapad_024]
+related_scenes: [citadel-apartment-kaidan-canadian-meal, citadel-coup-kaidan-confrontation]
+related_events: []
+source_chunks: [kaidan-alenko_009, kaidan-alenko_010, mail-mass-effect-datapad_024]

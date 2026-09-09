@@ -1,0 +1,63 @@
+scene_id: prologue-awakening-lazarus-station
+title: Shepard Wakes on the Lazarus Station
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, the Lazarus Project's final stage, during the mech sabotage
+where: >
+  the Lazarus Research Station — a Cerberus deep-space station: the medical bay, the
+  corridors and docking area, the shuttle-bay door, then the escape shuttle
+
+participants: [Shepard, Jacob Taylor, Wilson, Miranda Lawson]
+private_to: []
+heard_by: []
+
+beats:
+  - text: >
+      Cerberus had spent two years and over four billion credits rebuilding Shepard's
+      corpse on this station under Miranda Lawson, with the medical officer Wilson on the
+      bio wing. The reconstruction — cybernetic skeleton, regrown skin, restarted organs
+      — was all but finished; the Illusive Man had refused Miranda's proposal to implant
+      a control chip.
+    source_chunks: [lazarus-project_001, lazarus-cell_001, miranda-lawson_012]
+  - text: >
+      Wilson hacked and reprogrammed the station's LOKI and YMIR security mechs to kill
+      the staff, and most of the Lazarus Cell's personnel died. Shepard was jolted awake
+      ahead of schedule by the alarms and gunfire, half-healed, in the medical bay.
+    source_chunks: [lazarus-research-station_003, wilson_001, lazarus-cell_001]
+  - text: >
+      Miranda woke Shepard over the intercom, talked the Commander through grabbing a
+      pistol and armour from a locker and taking cover before the door blew, and guided
+      Shepard toward the station's last shuttle. Her radio link broke up as Shepard moved
+      deeper into the station.
+    source_chunks: [miranda-lawson_012, prologue-awakening_003, prologue-awakening_005]
+  - text: >
+      Shepard found Jacob Taylor pinned down fighting LOKI mechs. Jacob joined up, and as
+      they pushed toward the shuttle bay he admitted what Shepard had not been told: the
+      Lazarus Project was a Cerberus operation and Cerberus had brought Shepard back from
+      the dead.
+    source_chunks: [prologue-awakening_005, prologue-awakening_006, jacob-taylor_006]
+  - text: >
+      Further on they came on Wilson with a gunshot wound to the leg. Shepard treated him
+      with medi-gel; more mechs closed in, and Wilson called out overloading the explosive
+      crates blocking the route and helped fight a path to the shuttle bay.
+    source_chunks: [wilson_001, prologue-awakening_006]
+  - text: >
+      Miranda was waiting on the far side of the shuttle-bay door. As it opened she shot
+      Wilson dead without ceremony, telling Shepard he was the traitor who had hacked the
+      mechs and killed the staff. Shepard could press her for more before the three
+      boarded the shuttle and left; the station was later destroyed by remote detonation
+      and a Cerberus team sent to erase any evidence.
+    source_chunks: [prologue-awakening_006, wilson_001, wilson_003, lazarus-research-station_003]
+  - text: >
+      On the shuttle ride to the next Cerberus facility, Miranda ran Shepard through
+      memory-check questions — pre-service history, psychological profile, the squadmate
+      who died on Virmire, and, on an imported save, who joined the Council. Jacob thought
+      the exercise pointless; Shepard could cut it off at any time.
+    source_chunks: [prologue-awakening_007]
+
+related_scenes: [freedom-s-progress-veetor-and-tali, cartagena-station-jacob-meets-miranda]
+related_events: [lazarus-project-shepard-revival]
+source_chunks: [lazarus-project_001, lazarus-cell_001, lazarus-research-station_003,
+                miranda-lawson_012, wilson_001, wilson_003, jacob-taylor_006,
+                prologue-awakening_003, prologue-awakening_005, prologue-awakening_006,
+                prologue-awakening_007]

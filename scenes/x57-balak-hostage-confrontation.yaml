@@ -1,0 +1,52 @@
+scene_id: x57-balak-hostage-confrontation
+title: Balak's Ultimatum in the Main Facility
+kind: argument
+game: Mass Effect
+when: "2183, Asteroid X57, during the batarian terrorist attack on the asteroid and Terra Nova"
+where: "the main facility on Asteroid X57"
+participants: [Ka'hairal Balak, Commander Shepard, Kate Bowman, other hostages, Charn]
+heard_by: []
+requires:
+  - bring_down_the_sky: any
+beats:
+  - text: >
+      After Shepard landed on Asteroid X57 and began shutting down the fusion torches that Balak had rigged
+      to send the asteroid on a collision course with Terra Nova, Balak sent his forces after the Commander
+      and hunted for the engineers hiding in the main facility who were aiding Shepard.
+    source_chunks: [ka-hairal-balak_002]
+  - text: >
+      Balak found Kate Bowman hiding with other colonists and demanded to know who was attacking his forces.
+      When Kate refused to answer, Balak killed her brother Aaron Bowman and sent Charn after Shepard.
+    source_chunks: [ka-hairal-balak_002, kate-bowman_003]
+  - text: >
+      When Shepard launched an assault on the main facility, the Commander confronted Balak, who had planted
+      a bomb among the hostages in the offices. Balak talked angrily about the thwarted Skyllian Blitz.
+      If Shepard had a background as a War Hero, Balak held Shepard personally responsible for the Blitz's failure.
+      If Shepard had a Ruthless background, Balak accused Shepard of murdering batarians at Torfan.
+    source_chunks: [ka-hairal-balak_002]
+  - conditional:
+      bring_down_the_sky: "Balak stopped"
+    choice: Balak killed or arrested
+    text: >
+      Shepard chose to attack Balak, forcing a direct confrontation. Balak detonated the bomb, killing the hostages
+      including Kate Bowman. Cornered, Balak taunted Shepard about the similarity of their actions, rhetorically asking
+      the Commander "who's the real terrorist" now. Shepard could fire warning shots or seriously wound him, but Balak
+      continued spouting batarian jingoism unless Shepard killed him outright. Balak was then executed after interrogation,
+      left to die, or handed over to the Systems Alliance on Terra Nova.
+    source_chunks: [ka-hairal-balak_002]
+  - conditional:
+      bring_down_the_sky: "Balak let go"
+    choice: Balak freed to save hostages
+    text: >
+      Shepard chose to release Balak in order to save the hostages, including Kate Bowman. Balak was allowed to walk free.
+    source_chunks: [ka-hairal-balak_002]
+  - conditional:
+      bring_down_the_sky: "Balak let go"
+    choice: hostages survive — Kate thanks Shepard
+    text: >
+      With the other bombs in the facility defused, the hostages are set free. Kate speaks with her rescuer and finally
+      learns it is Commander Shepard. She thanks the Commander for everything but grieves Aaron, whose body was stashed in
+      a dark corner of the office, and asks Shepard to remember her brother if the Commander ever crosses paths with Balak
+      again.
+    source_chunks: [kate-bowman_003]
+source_chunks: [ka-hairal-balak_002, kate-bowman_003]

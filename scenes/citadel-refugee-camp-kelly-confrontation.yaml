@@ -1,0 +1,66 @@
+scene_id: citadel-refugee-camp-kelly-confrontation
+title: Kelly in the Refugee Camp and the Cerberus Question
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel, in the refugee camp during the Reaper war
+where: Cargo Hold B of the Citadel, used as a makeshift refugee camp
+
+participants: [Shepard, Kelly Chambers]
+private_to: [Shepard, Kelly Chambers]
+heard_by: [Citadel refugees]
+
+requires:
+  - kelly_alive: true
+  - kelly_dinner: true
+
+beats:
+  - text: >
+      If Shepard had a private dinner with Kelly aboard the Normandy and she survived the Collectors,
+      she can be found at the back of Cargo Hold B working in the refugee camp months later. She is
+      enthusiastic to see Shepard, having worried about the Commander since the Reaper invasion began.
+      Kelly reveals she has deserted Cerberus over its methods, which go against her conscience.
+    source_chunks: [kelly-chambers_005]
+  - text: >
+      Kelly politely declines Shepard's invitation to return to the Normandy, citing recurring
+      nightmares of her abduction by the Collectors and preferring to stay and help the refugees
+      instead.
+    source_chunks: [kelly-chambers_005]
+  - text: >
+      When they meet again, Kelly apologizes and confesses that while aboard the Normandy she sent
+      reports on Shepard and the crew to the Illusive Man. If Shepard keeps fish on the Normandy,
+      she returns them, saying nobody else was going to care for them.
+    source_chunks: [kelly-chambers_005]
+  - text: >
+      If Shepard reprimands Kelly for the espionage reports, she breaks down crying. Later, overcome
+      by depression from her traumatic abduction and the weight of her betrayal, she ingests a cyanide
+      pill and dies.
+    source_chunks: [kelly-chambers_005]
+    conditional: {kelly_cerberus_reports: reprimand}
+    choice: reprimanded Kelly for spying
+  - text: >
+      If Shepard reassures her and tells her not to worry about the reports, Kelly is relieved. After
+      the Cerberus attack on the Citadel, if Shepard did not tell her to change her identity, Kelly
+      is killed by Cerberus during the coup. Shepard finds out by overhearing refugees or hearing
+      Kenneth and Gabriella's chatter on the Normandy.
+    source_chunks: [kelly-chambers_005]
+    conditional: {kelly_cerberus_reports: reassure}
+    choice: reassured Kelly, did not advise identity change
+  - text: >
+      If Shepard tells Kelly to change her identity, she dyes her hair blonde and takes the name
+      "Felicia Hannigan," allowing her to survive the Cerberus attack on the Citadel. She later
+      thanks Shepard, revealing how close Cerberus came to lining her up with the others and
+      shooting her.
+    source_chunks: [kelly-chambers_005]
+    conditional: {kelly_cerberus_reports: reassure}
+    choice: reassured Kelly and advised identity change
+  - text: >
+      After using the new identity to escape, Kelly sends Shepard an email revealing that she
+      encountered her former Cerberus colleagues who had also defected and changed their identities.
+      She provides contact information for these engineers who could help with the war effort.
+    source_chunks: [kelly-chambers_005]
+    conditional: {kelly_cerberus_reports: reassure}
+    choice: Kelly survives as Felicia Hannigan
+
+related_scenes: [normandy-kelly-dinner-captain-cabin]
+related_events: [cerberus-coup-citadel-ashley]
+source_chunks: [kelly-chambers_005]

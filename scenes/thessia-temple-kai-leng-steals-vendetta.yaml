@@ -1,0 +1,41 @@
+scene_id: thessia-temple-kai-leng-steals-vendetta
+title: Kai Leng Takes Vendetta at the Temple of Athame
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, during the Reaper assault on Thessia (Priority: Thessia)"
+where: the Temple of Athame above the ruins of a Thessian city
+participants: [Shepard, Liara T'Soni, Kai Leng]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      Shepard's team reaches the Temple of Athame to find the asari scientists who were
+      waiting for them dead by the central statue. The non-Liara squadmate checks the
+      bodies and reports their throats were slit — not Reaper work. Concentrating on the
+      statue, Shepard realizes it hides a Prothean Beacon the asari government kept secret
+      for millennia.
+    source_chunks: [priority-thessia_009]
+  - text: >
+      Activating artifacts around the chamber wakes the Prothean VI Vendetta, which holds
+      the location of the Catalyst. Kai Leng, hidden until now, reveals himself; Vendetta
+      shuts down on detecting he is indoctrinated. Leng releases a drone that projects the
+      Illusive Man, who argues with Shepard and, failing to sway anyone, orders Leng to
+      take the VI.
+    source_chunks: [kai-leng_012]
+  - text: >
+      Leng fights Shepard's squad, sending shockwaves that strip shields, a gunship
+      covering him while he recharges. When his shields finally break, he overpowers both
+      of Shepard's squadmates and orders the gunship to bring down the temple floor.
+      Shepard is left alive but pinned in the rubble as Leng walks to the beacon, takes the
+      Vendetta data, and escapes.
+    source_chunks: [priority-thessia_010]
+  - text: >
+      Afterward Leng sends Shepard a taunting message disguised as asari military command
+      ("Evacuating Thessia"), gloating that "your best wasn't good enough to stop me" and
+      that "the legend of Shepard needs to be re-written... It ends with your death. -KL".
+    source_chunks: [kai-leng_012]
+related_scenes: [cronos-station-kai-leng-last-fight, normandy-memorial-wall-after-thessia]
+related_events: [priority-thessia]
+source_chunks: [priority-thessia_009, priority-thessia_010, kai-leng_012]

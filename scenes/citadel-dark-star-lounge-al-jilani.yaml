@@ -1,0 +1,40 @@
+scene_id: citadel-dark-star-lounge-al-jilani
+title: Al-Jilani's Ambush Outside the Dark Star Lounge
+kind: banter
+game: Mass Effect 2
+when: 2185, Citadel Zakera Ward, after the events at the Collector Ship or during recruitment
+where: outside the Dark Star Lounge, Citadel
+
+participants: [Shepard, Khalisah Al-Jilani]
+private_to: [Shepard, Khalisah Al-Jilani]
+heard_by: [Citadel patrons]
+
+requires: []
+
+beats:
+  - text: >
+      Khalisah Al-Jilani, the reporter for Westerlund News who confronted Shepard on the Citadel in
+      2183, ambushes the Commander in a far corner outside the Dark Star Lounge. She again requests
+      an interview and asks loaded questions drawing irrelevant conclusions about the Battle of the
+      Citadel and the 2183 Council's fate, attempting to show Shepard in a negative light regardless
+      of responses.
+    source_chunks: [khalisah-al-jilani_004]
+  - text: >
+      Shepard can respond by charming the audience by painting the sacrificed people as heroes,
+      noting how the death of the Council allowed other species to excel. Alternatively, Shepard
+      can rebuke her by saying the audience and families of those who died deserve better than her
+      tactics. Shepard can also simply walk away without engaging.
+    source_chunks: [khalisah-al-jilani_004]
+    conditional: {al_jilani_me2: any}
+    choice: charmed audience, rebuked her, or walked away
+  - text: >
+      Shepard can interrupt the interview by punching her in the face, blackening her eye and causing
+      other facial injuries. This renegade option shocks Al-Jilani but also resonates with parts of
+      the audience.
+    source_chunks: [khalisah-al-jilani_004]
+    conditional: {al_jilani_me2: punch}
+    choice: punched Al-Jilani
+
+related_scenes: [citadel-the-fourth-estate, citadel-embassies-al-jilani]
+related_events: []
+source_chunks: [khalisah-al-jilani_004]

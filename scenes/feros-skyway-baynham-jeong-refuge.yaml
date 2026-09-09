@@ -1,0 +1,27 @@
+scene_id: feros-skyway-baynham-jeong-refuge
+title: Moral Standoff in the Skyway
+kind: argument
+game: Mass Effect
+when: "2183, after the geth attack on Feros, while Shepard investigated the ExoGeni facility"
+where: "the Skyway Weigh Station, Feros"
+participants: [Juliana Baynham, Ethan Jeong, survivors hiding on the Skyway]
+private_to: [Juliana Baynham, Ethan Jeong]
+heard_by: [other survivors on the Skyway]
+requires:
+  - feros_colony: any
+beats:
+  - text: >
+      After the geth attacked Feros, Juliana Baynham and other colonists hid on the Skyway, though she became separated from her daughter Lizbeth.
+      Juliana and Ethan Jeong became the de facto leaders of the survivors, with Juliana acting as the voice of morality and reason
+      in contrast to Jeong's expedient focus on ExoGeni's interests.
+    source_chunks: [juliana-baynham_001]
+  - text: >
+      While Shepard was away investigating ExoGeni headquarters, communications were restored to the Skyway.
+      Juliana discovered that ExoGeni was planning to purge the entire colony. She tried to send a transmission asking for help,
+      but Jeong forced her away from the radio and had her restrained just as Shepard returned from the facility.
+    source_chunks: [juliana-baynham_001]
+  - text: >
+      After Jeong was dealt with, Juliana was shocked to learn about the Thorian but quickly grasped the situation.
+      She offered Shepard Thorian-specific nerve gas grenades to incapacitate the colonists at Zhu's Hope.
+    source_chunks: [juliana-baynham_001]
+source_chunks: [juliana-baynham_001]

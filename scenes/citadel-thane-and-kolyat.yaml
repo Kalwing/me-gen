@@ -5,7 +5,7 @@ game: Mass Effect 2
 when: 2185, during Thane's time aboard the Normandy
 where: the Citadel
 
-participants: [Shepard, Thane Krios, Kolyat Krios]
+participants: [Shepard, Thane Krios, Kolyat Krios, Captain Bailey, Elias Kelham, Mouse, Joram Talid]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -15,17 +15,96 @@ requires:
 beats:
   - text: >
       Thane brings Shepard his son. For all his effort to keep Kolyat off his own path, the
-      boy has taken a job as a hitman on the Citadel.
-    source_chunks: [thane-krios_006]
+      boy has taken a job as a hitman on the Citadel. Thane, contemplating his mortality, asks
+      Shepard's help finding him before he goes irrevocably down what Thane calls a path of sin
+      — not a path he should walk.
+    source_chunks: [kolyat-krios_003, thane-krios_006]
   - text: >
-      Thane asks Shepard's help finding him before he goes irrevocably down what Thane calls a
-      path of sin — not a path he should walk.
-    source_chunks: [thane-krios_006]
+      Shepard consults Captain Bailey at C-Sec, who traces a lead to Mouse, a street kid from
+      the Citadel whom Thane once used as a child informant. Mouse confirms that Kolyat was hired
+      by Elias Kelham, a small-time criminal who rose to power after the geth attack killed many
+      crime bosses.
+    source_chunks: [thane-sins-of-the-father_005]
   - text: >
-      Years later Shepard and Kolyat are both with Thane at the end, and Kolyat recites a
-      drell prayer of redemption — one meant for someone else, not for the dying.
-    source_chunks: [thane-krios_009]
+      Bailey, who has an corrupt arrangement with Kelham, agrees to arrest him so Shepard and
+      Thane can interrogate him before his lawyer arrives. Kelham has a high tolerance for
+      interrogation, confident in his power and influence. Shepard can threaten him with Spectre
+      authority for an instant confession (Thane remarks it may be the shortest interrogation in
+      history), use physical violence, or employ charm and guile to break down his resistance.
+      Regardless of method, Kelham eventually confesses that he hired Kolyat to assassinate
+      Joram Talid, a turian politician running for local office on an anti-human platform.
+    source_chunks: [elias-kelham_001, thane-sins-of-the-father_005]
+  - text: >
+      Shepard shadows Talid from the catwalks above, periodically updating Thane on his position
+      while the turian moves between a shop and a nightclub. Shepard must navigate past a stock
+      boy, Jim Reynolds. If Shepard fails to keep track of Talid or loses sight for too long,
+      Kolyat succeeds in killing him and escapes in a skycar, leaving Thane devastated and his
+      son lost to the life Thane tried to prevent.
+    source_chunks: [kolyat-krios_003, thane-sins-of-the-father_006]
+    conditional: {thane_loyalty: false}
+    choice: Shepard loses track of Talid
+  - text: >
+      Shepard maintains contact with Thane and tracks Talid successfully. Kolyat wounds Talid's
+      Blood Pack bodyguard and corners the turian in his apartment. Shepard, Thane, and Captain
+      Bailey arrive just as Kolyat is ready to execute Talid. Shepard uses a Paragon interrupt to
+      distract and disarm Kolyat, restoring at least a moment of control and preventing a murder.
+    source_chunks: [thane-sins-of-the-father_007, kolyat-krios_003]
+    conditional: {thane_loyalty: true}
+    choice: Shepard disarms Kolyat with Paragon interrupt
+  - text: >
+      Shepard maintains contact with Thane and tracks Talid successfully. Kolyat wounds Talid's
+      Blood Pack bodyguard and corners the turian in his apartment. Shepard, Thane, and Captain
+      Bailey arrive, but Shepard chooses a more direct response, wounding Kolyat to stop him
+      from completing the execution.
+    source_chunks: [thane-sins-of-the-father_007, kolyat-krios_003]
+    conditional: {kolyat_outcome: wound}
+    choice: Shepard wounds Kolyat
+  - text: >
+      Shepard maintains contact with Thane and tracks Talid successfully. Kolyat wounds Talid's
+      Blood Pack bodyguard and corners the turian in his apartment. Shepard, Thane, and Captain
+      Bailey arrive, but rather than risk Kolyat's escape or further danger, Shepard shoots and
+      kills Joram Talid, deciding the turian is guilty of anti-human sedition and not worth the risk.
+    source_chunks: [thane-sins-of-the-father_007, kolyat-krios_003]
+    conditional: {kolyat_outcome: kill_talid}
+    choice: Shepard kills Talid to prevent Kolyat's murder
+  - text: >
+      Kolyat is furious at the interruption and at seeing Thane again, bitterly aggrieved at
+      his father's lifelong absence even after his mother died. Thane explains why Irikah was
+      killed and why he could not bear to return, revealing the depth of his own regret. Thane
+      calls Kolyat the only good thing he ever added to the world, having taken many bad things
+      out of it. Kolyat finally begins to shed tears and calm down as the truth reaches him.
+    source_chunks: [kolyat-krios_003]
+  - text: >
+      Shepard and Bailey give Thane and Kolyat time to speak privately in the C-Sec interrogation
+      room. Bailey then consults with Shepard and Thane about Kolyat's legal fate. Shepard can
+      convince Bailey through charm to arrange community service, sparing Kolyat from serious
+      punishment and allowing him to help with cleaning up the Wards.
+    source_chunks: [thane-sins-of-the-father_007, kolyat-krios_003]
+    conditional: {kolyat_fate: community_service}
+    choice: Community service arranged
+  - text: >
+      Shepard and Bailey give Thane and Kolyat time to speak privately in the C-Sec interrogation
+      room. Bailey then consults with Shepard and Thane about Kolyat's legal fate. Shepard can
+      intimidate Bailey into privately employing Kolyat under C-Sec, giving him a chance to
+      channel his skills into legitimate work and keeping him close to the system.
+    source_chunks: [thane-sins-of-the-father_007, kolyat-krios_003]
+    conditional: {kolyat_fate: work_for_bailey}
+    choice: Kolyat employed by Bailey
+  - text: >
+      Shepard and Bailey give Thane and Kolyat time to speak privately in the C-Sec interrogation
+      room. Bailey then consults with Shepard and Thane about Kolyat's legal fate. With no special
+      intervention, Kolyat faces trial for attempted murder, a path that would separate him from
+      his father even after their reconciliation.
+    source_chunks: [thane-sins-of-the-father_007, kolyat-krios_003]
+    conditional: {kolyat_fate: trial}
+    choice: Kolyat sent to trial
+  - text: >
+      In any case, Thane stays in contact with his son, making an effort to rebuild what was lost
+      years ago. Thane has dealt with his personal matter, though at great cost to his belief in
+      his own redemption, and remains clear of further distractions from Shepard's mission on the
+      Normandy.
+    source_chunks: [kolyat-krios_003]
 
-related_scenes: [citadel-thane-memorial]
+related_scenes: [citadel-thane-memorial, citadel-huerta-thane-final-moments]
 related_events: []
-source_chunks: [thane-krios_006, thane-krios_009]
+source_chunks: [kolyat-krios_003, thane-krios_006, elias-kelham_001, thane-sins-of-the-father_005, thane-sins-of-the-father_006, thane-sins-of-the-father_007]

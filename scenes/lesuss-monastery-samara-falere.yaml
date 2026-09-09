@@ -2,44 +2,85 @@ scene_id: lesuss-monastery-samara-falere
 title: The Ardat-Yakshi Monastery on Lesuss
 kind: mission-aside
 game: Mass Effect 3
-when: 2186, during the Reaper war
-where: the Ardat-Yakshi monastery on Lesuss
-
-participants: [Shepard, Samara, Falere]
-private_to: []
-heard_by: []
-
+when: "2186, after Priority: The Citadel II, during the Reaper war"
+where: the darkened Ardat-Yakshi monastery on Lesuss, Mesana system — entry rooms, courtyard, antechamber, the Great Hall
+participants: [Shepard, Liara T'Soni, Samara, Falere, Rila]
+heard_by: [Normandy crew]
+requires:
+  - samara_daughter: any
 beats:
   - text: >
-      The Ardat-Yakshi monastery on Lesuss comes under Reaper attack; the Reapers' objective
-      is to capture the afflicted asari and convert them into Banshees. Asari High Command's
-      commandos, sent to investigate, fail to report back, implicitly tasking Shepard with the
-      investigation.
-    source_chunks: [ardat-yakshi_004]
+      After the coup debrief with Anderson and Hackett, Liara passes on that Asari High
+      Command wants Shepard to answer a distress signal that has swallowed several commando
+      squads. On approach she reveals — in person or by screen — that the signal came from
+      an Ardat-Yakshi monastery, which is why the asari were cagey about details.
+    source_chunks: [kallini-ardat-yakshi-monastery_002, kallini-ardat-yakshi-monastery_004]
   - text: >
-      Samara travels to the monastery too, to check on her daughters Rila and Falere. She
-      tells Shepard she is there both out of motherly concern and because her duties as a
-      justicar demand it — the Justicar Code requires her to execute any Ardat-Yakshi who
-      cannot be safely sequestered.
-    source_chunks: [ardat-yakshi_004]
+      If Samara survived the Collector base, a recently parked vehicle by the landing pad
+      tells the squad someone got here first. Inside the dark entry rooms Shepard finds
+      asari corpses and consoles showing Matriarch Gallae and Superintendent Jethra had cut
+      the students' extranet access to stop Reaper rumors and refused to evacuate. Examining
+      a body triggers word of a bomb planted in the Great Hall.
+    source_chunks: [kallini-ardat-yakshi-monastery_005, kallini-ardat-yakshi-monastery_006]
   - text: >
-      Unable to bring herself to execute Falere, her last living child, Samara attempts
-      suicide rather than carry out the sentence. Shepard stops her.
-    source_chunks: [ardat-yakshi_004]
+      In the next room Shepard meets Samara, there both as a mother checking on her
+      daughters Rila and Falere and as a justicar — the Code obliges her to kill any
+      Ardat-Yakshi who cannot be safely kept in a monastery.
+    source_chunks: [kallini-ardat-yakshi-monastery_005, ardat-yakshi_004]
+    conditional: {samara_loyalty: killed}
+    choice: Samara survived Mass Effect 2 and is present
   - text: >
-      Samara agrees to Falere's plan: Falere will go on living in total isolation at the ruined
-      monastery.
-    source_chunks: [ardat-yakshi_004]
-
-variants:
-  - condition: {samara_alive: false}
-    choice: Samara dead
-    text: >
-      If Samara is not present at Lesuss, Falere is left behind at the monastery as its sole
-      survivor, or Shepard shoots her as a security risk in case the Reapers return to convert
-      her.
-    source_chunks: [ardat-yakshi_004]
-
-related_scenes: [omega-samara-and-morinth]
-related_events: []
-source_chunks: [ardat-yakshi_003, ardat-yakshi_004]
+      The courtyard holds the game's first Banshee — a Reaper conversion of an
+      Ardat-Yakshi — then Cannibals. Beyond it a cutscene shows Falere fighting a Cannibal;
+      Shepard or Samara kills it. Falere explains the Reapers are turning all Ardat-Yakshi
+      into Banshees and begs Shepard to save Rila from the Great Hall. Told about the bomb,
+      she turns furious, accuses Shepard of not trying to help people, and runs ahead alone;
+      Samara, if present, goes after her.
+    source_chunks: [kallini-ardat-yakshi-monastery_006, falere_001]
+  - text: >
+      If Morinth was kept alive in Mass Effect 2, a console here carries Jethra's report to
+      Gallae about Morinth trying to contact her sisters and the security risk that poses.
+    source_chunks: [kallini-ardat-yakshi-monastery_006]
+    conditional: {samara_loyalty: morinth_spared}
+    choice: Morinth alive — she has been contacting the monastery
+  - text: >
+      Fighting through a second Banshee and more corpses, Shepard reaches the Great Hall,
+      where Falere is trying to wake Rila by the bomb and Samara stands guard. Arming the
+      bomb wakes Rila, who is already being indoctrinated and attacks Falere until
+      Falere or Samara knocks her out. Shepard looks for the detonator and instead has to
+      hold off two Banshees and four Husks trying to sabotage the bomb.
+    source_chunks: [kallini-ardat-yakshi-monastery_008, rila_001]
+  - text: >
+      Rila finds the detonator, fights down the Reapers' hold long enough to order her
+      family out, and stays behind. Falere fights it; Shepard drags her to the elevator.
+      Three Banshees seize Rila and one mortally wounds her; she declares "The Ardat-Yakshi
+      are not the Reapers' slaves" and triggers the bomb. Shepard and Falere — pounding on
+      the elevator doors — get clear as the monastery goes up.
+    source_chunks: [kallini-ardat-yakshi-monastery_009, rila_001]
+  - text: >
+      Outside, Falere rounds on Shepard for letting Rila die. If Samara is present she
+      calmly draws her pistol, says the Justicar Code demands the death of any Ardat-Yakshi
+      living outside a monastery, and turns it on herself rather than kill her last
+      daughter. A Paragon interrupt stops her; Falere resolves to stay on in the ruins, and
+      Samara joins the war effort.
+    source_chunks: [kallini-ardat-yakshi-monastery_009, ardat-yakshi_004]
+    conditional: {samara_daughter: samara_stopped}
+    choice: Samara present — Shepard stops her suicide, Falere stays
+  - text: >
+      If Samara is dead or was not present, Shepard decides alone: leave Falere at the
+      monastery, where she swears the Reapers will not take her alive, or shoot her as a
+      risk if they come back to convert her.
+    source_chunks: [kallini-ardat-yakshi-monastery_009, falere_001]
+    conditional: {samara_daughter: no_samara}
+    choice: no Samara — Shepard lets Falere live or kills her
+  - text: >
+      Back aboard, the asari Councilor thanks Shepard for a difficult, sensitive job and
+      redirects the next commando squad to Hackett; the Asari Commandos become a war asset
+      (and Samara, if she lived). Captain Coreen Lemaes emails thanks — she knew some of the
+      commandos who died there, and hearing the place burned is the only good news she has
+      had in weeks. Garrus is in the port lounge debating the nature of war with Ensign
+      Copeland, joined by Javik if Eden Prime was done.
+    source_chunks: [kallini-ardat-yakshi-monastery_010, kallini-ardat-yakshi-monastery_014]
+related_scenes: [omega-samara-and-morinth, normandy-garrus-rachni-stories-copeland]
+related_events: [lesuss-monastery-reaper-attack, samara-the-ardat-yakshi]
+source_chunks: [kallini-ardat-yakshi-monastery_002, kallini-ardat-yakshi-monastery_004, kallini-ardat-yakshi-monastery_005, kallini-ardat-yakshi-monastery_006, kallini-ardat-yakshi-monastery_008, kallini-ardat-yakshi-monastery_009, kallini-ardat-yakshi-monastery_010, kallini-ardat-yakshi-monastery_014, falere_001, rila_001, ardat-yakshi_004]

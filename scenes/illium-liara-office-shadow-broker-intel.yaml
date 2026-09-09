@@ -1,0 +1,33 @@
+scene_id: illium-liara-office-shadow-broker-intel
+title: Handing Liara the Cerberus Intel
+kind: mission-aside
+game: Mass Effect 2
+when: "2185, Illium, after Horizon, at the start of Lair of the Shadow Broker"
+where: "Liara T'Soni's office above the trading floor, Nos Astra, Illium"
+participants: [Shepard, Liara]
+private_to: [Shepard, Liara]
+heard_by: [Normandy crew]
+requires:
+  - lair-of-the-shadow-broker: any
+beats:
+  - text: >
+      After Horizon, Cerberus sent Shepard a message offering intel on the Shadow Broker's
+      location, citing the Broker's past work for the Collectors, and suggested Shepard pass
+      it to Liara as a goodwill gesture. Shepard travelled to Illium and delivered the data
+      to Liara in her office above the trading floor.
+    source_chunks: [storyline-ii_041, lair-of-the-shadow-broker-mission_002, lair-of-the-shadow-broker-mission_004]
+  - text: >
+      Liara examined it and was elated: an intercepted conversation between Shadow Broker
+      agents hinted at his location. The same data showed that Feron, her drell partner who
+      had sacrificed himself two years earlier to save Liara and Shepard's body, was still
+      alive and held by the Broker.
+    source_chunks: [storyline-ii_041, feron_004, lair-of-the-shadow-broker-mission_004]
+  - text: >
+      Liara said that after two years she had not known Feron lived, and looked at Shepard's
+      old dog tags sitting on her desk. She recounted how Feron had betrayed her yet given
+      himself up to save them both, then left the office to plan, telling Shepard to meet her
+      at her apartment.
+    source_chunks: [lair-of-the-shadow-broker-mission_004, storyline-ii_041]
+related_scenes: [illium-liara-apartment-vasir, dracon-trade-center-vasir-revealed]
+related_events: [shadow-broker-baria-explosion]
+source_chunks: [storyline-ii_041, feron_004, lair-of-the-shadow-broker-mission_002, lair-of-the-shadow-broker-mission_004]

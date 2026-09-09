@@ -2,25 +2,37 @@ scene_id: bekenstein-hock-kills-okuda
 title: Hock Takes Keiji's Graybox
 kind: mission-aside
 game: "Mass Effect: Foundation"
-when: before 2185, during a botched heist
+when: before 2185, during a botched heist a day after leaving Illium
 where: Donovan Hock's estate on Bekenstein
-participants: [Donovan Hock, Keiji Okuda]
-private_to: [Donovan Hock, Keiji Okuda]
-heard_by: [Kasumi Goto]
+participants: [Donovan Hock, Keiji Okuda, Kasumi Goto]
+private_to: [Donovan Hock, Keiji Okuda, Kasumi Goto]
+heard_by: [Cerberus]
 beats:
   - text: >
-      Two thieves break into Hock's property on Bekenstein and hit heavier resistance
-      than expected, forcing them to split up.
-    source_chunks: [donovan-hock_002]
+      Kasumi and Keiji drop onto Hock's property from a ship overhead using flight suits
+      Kasumi had tested on an earlier job, land in style, and go in expecting light security.
+      Inside they find far more guards than their recon showed, and Keiji wonders aloud
+      whether they were expected.
+    source_chunks: [kasumi-goto_002, keiji-okuda_002]
   - text: >
-      Hock, on his estate, personally kills one of the thieves, Keiji Okuda.
-    source_chunks: [donovan-hock_002, donovan-hock_003]
+      They split up. Kasumi cloaks and scouts ahead, counting six professional guards, then
+      draws them off Keiji by beating them down and running a decoy program Keiji had
+      stolen. Keiji pushes on alone to the far end of a third-floor hall.
+    source_chunks: [kasumi-goto_002, keiji-okuda_002]
   - text: >
-      Hock stabs a device into Okuda's head to forcibly extract his graybox, wanting the
-      secrets inside — one that would implicate the Systems Alliance. He remarks that he
-      has never stolen a person's memories before and tells the dying man to consider it
-      an honour.
-    source_chunks: [donovan-hock_002, donovan-hock_003]
-related_scenes: [bekenstein-kasumi-and-the-graybox]
+      Mid-sentence over the comm, Keiji screams and the channel cuts out: Hock has caught him
+      and stabbed a device into his head, forcibly extracting his graybox — wanting the
+      secrets inside, one that would implicate the Systems Alliance. Hock remarks he has
+      never stolen a person's memories before and tells the dying man to consider it an
+      honour, then leaves him to bleed out.
+    source_chunks: [donovan-hock_002, donovan-hock_003, keiji-okuda_002]
+  - text: >
+      Kasumi fights through the guards pursuing her, beating two down with their own batons,
+      and reaches Keiji lying in a pool of his own blood. She cradles him. With his last
+      words he tells his "Little Bird" to survive and to get the graybox back so they can be
+      together again. She holds him a final time, then cloaks and leaves the body as guards
+      pound on the sealed door, vowing to find him again.
+    source_chunks: [keiji-okuda_002, kasumi-goto_002]
+related_scenes: [bekenstein-kasumi-and-the-graybox, illium-kasumi-keiji-apartment-heist-plan]
 related_events: [keiji-okuda-death-bekenstein]
-source_chunks: [donovan-hock_002, donovan-hock_003]
+source_chunks: [donovan-hock_002, donovan-hock_003, keiji-okuda_002, kasumi-goto_002]

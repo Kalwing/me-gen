@@ -5,7 +5,7 @@ game: Mass Effect 2
 when: 2185, after Horizon
 where: the Teltin facility on Pragia, Dakka system, Nubian Expanse
 
-participants: [Shepard, Jack, Aresh]
+participants: [Shepard, Jack, Aresh, Kureck]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -22,9 +22,11 @@ beats:
       she talks about what was done.
     source_chunks: [jack-subject-zero_001, jack-subject-zero_005]
   - text: >
-      The facility is not empty: Blood Pack mercenaries are in it. Moving through, Jack points
+      The facility is not empty: a Blood Pack crew under the krogan Battlemaster Kureck,
+      hired by Aresh to guard the salvage, is holed up inside. Kureck opens fire when
+      Shepard's squad reaches him and is killed in the firefight. Moving through, Jack points
       out where she broke through during her escape.
-    source_chunks: [jack_005, jack-subject-zero_007]
+    source_chunks: [jack_005, jack-subject-zero_007, kureck_001, blood-pack_004]
   - text: >
       In her cell they find Aresh, another test subject, who hired the mercs to restore Teltin
       in exchange for salvage. Jack wants him dead; Shepard can stop her.
@@ -47,4 +49,5 @@ variants:
 related_scenes: [normandy-jack-miranda-confrontation]
 related_events: []
 source_chunks: [jack_005, jack-subject-zero_001, jack-subject-zero_005, jack-subject-zero_007,
-                jack-subject-zero_009, jack-subject-zero_012, aresh-aghdashloo_003]
+                jack-subject-zero_009, jack-subject-zero_012, aresh-aghdashloo_003,
+                kureck_001, blood-pack_004]

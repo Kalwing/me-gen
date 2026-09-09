@@ -1,0 +1,30 @@
+scene_id: illium-liara-apartment-vasir
+title: Meeting Tela Vasir at Liara's Ransacked Apartment
+kind: mission-aside
+game: Mass Effect 2
+when: "2185, Illium, during Lair of the Shadow Broker, right after meeting Liara in her office"
+where: "Liara T'Soni's ransacked apartment, Nos Astra, Illium"
+participants: [Shepard, Tela Vasir]
+heard_by: [Illium authorities, Normandy crew]
+requires:
+  - lair-of-the-shadow-broker: any
+beats:
+  - text: >
+      Shepard arrived at Liara's apartment to find it ransacked and cordoned off by Illium
+      police. The asari Spectre Tela Vasir waved the officers off with her Spectre authority
+      and let Shepard investigate, explaining there had been an attempt on Liara's life and
+      that Liara had fled only moments before.
+    source_chunks: [tela-vasir_003, storyline-ii_041]
+  - text: >
+      Searching the apartment, Shepard turned up a backup disk. Vasir played it: a recorded
+      conversation between Liara and a salarian contact, Sekat, who said he had pinpointed
+      the Shadow Broker's location and asked Liara to meet him at the Baria Frontiers office
+      in the Dracon Trade Center.
+    source_chunks: [storyline-ii_041, tela-vasir_003]
+  - text: >
+      With the meeting point known, Shepard and Vasir left together for the Dracon Trade
+      Center to intercept Liara.
+    source_chunks: [storyline-ii_041, tela-vasir_003]
+related_scenes: [dracon-trade-center-vasir-revealed, nos-astra-vasir-skycar-chase-azure]
+related_events: [shadow-broker-baria-explosion]
+source_chunks: [tela-vasir_003, storyline-ii_041]

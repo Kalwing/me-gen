@@ -1,0 +1,64 @@
+scene_id: citadel-embassies-al-jilani
+title: Al-Jilani's Accusations at the Citadel Embassies
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel, during the Reaper war before the Cerberus coup
+where: the Citadel Embassies, near the Avina terminal
+
+participants: [Shepard, Khalisah Al-Jilani]
+private_to: [Shepard, Khalisah Al-Jilani]
+heard_by: [Citadel patrons]
+
+requires: []
+
+beats:
+  - text: >
+      Believing an anti-human conspiracy is taking place during the Reaper war, Khalisah
+      Al-Jilani attempts to obtain an interview with the Council. When Commander Bailey
+      stonewalls her attempts, she threatens to use her viewership to force her way in.
+      Bailey dismisses her, and she storms out claiming she will camp out until granted
+      an audience. Shepard encounters her outside Bailey's office.
+    source_chunks: [khalisah-al-jilani_005]
+  - text: >
+      Al-Jilani loiters near the Avina terminal at the Citadel Embassies, criticizing
+      Shepard for abandoning Earth while countless innocents die. Her reflexes have
+      sharpened from prior encounters with the Commander.
+    source_chunks: [khalisah-al-jilani_005]
+  - text: >
+      If Shepard attempts to punch her, Al-Jilani dodges. If Shepard had punched her both
+      times they previously met, she declares "not this time you military thug!" Shepard
+      can then headbutt her, and Al-Jilani slumps unconscious against the wall for the
+      remainder of Shepard's visit. Otherwise, if Shepard does not headbutt her after
+      the dodge, Al-Jilani counters with an uppercut that knocks Shepard to the floor.
+    source_chunks: [khalisah-al-jilani_005]
+    conditional: {al_jilani_me3_punch: true}
+    choice: attempted to punch Al-Jilani
+  - text: >
+      If Shepard refrained from ever punching Al-Jilani in the past, Shepard can convince
+      her they are doing the right thing and ask for her assistance. Shepard tells her they
+      need all the help they can get. Al-Jilani agrees to stay on the Citadel and continue
+      asking tough questions, promising to help in her way.
+    source_chunks: [khalisah-al-jilani_005]
+    conditional: {al_jilani_me3_punch: false}
+    choice: convinced Al-Jilani to help the war effort
+  - text: >
+      Before leaving, Al-Jilani reflects on her prior interactions with Shepard. If Shepard
+      had punched her, she calls the Commander a violent thug. If not, she says they have
+      not always seen eye-to-eye. Either way, she expresses that she is glad Shepard is on
+      humanity's side.
+    source_chunks: [khalisah-al-jilani_005]
+  - text: >
+      If Shepard elects not to engage with Al-Jilani at all, the Commander tells her to
+      "get some help" and walks away from the encounter.
+    source_chunks: [khalisah-al-jilani_005]
+    conditional: {al_jilani_me3_punch: none}
+    choice: ignored Al-Jilani and walked away
+  - text: >
+      During the Cerberus coup on the Citadel, Al-Jilani uses a Westerlund News van to
+      broadcast an alert requesting C-Sec reinforcements at the station's communication
+      towers, contributing to the defense effort.
+    source_chunks: [khalisah-al-jilani_005]
+
+related_scenes: [citadel-the-fourth-estate, citadel-dark-star-lounge-al-jilani]
+related_events: [cerberus-coup-citadel-ashley]
+source_chunks: [khalisah-al-jilani_005]

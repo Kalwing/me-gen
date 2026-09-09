@@ -1,0 +1,50 @@
+scene_id: presrop-confrontation-father-kyle
+title: Facing Father Kyle in the Sanctuary
+kind: argument
+game: Mass Effect
+when: "2183, after Admiral Hackett's orders on the biotic commune"
+where: "the Sanctuary at the back of the underground bunker, Major Kyle's biotic commune on Presrop, Century system, Hawking Eta"
+participants: [Shepard, Kyle, Kyle's biotic followers]
+private_to: [Shepard, Kyle, Kyle's biotic followers]
+heard_by: [Alliance Command]
+beats:
+  - text: >
+      Hackett had sent Shepard to deal with Major Kyle, a discharged Torfan officer running
+      a biotic commune on Presrop whose followers had killed two Alliance negotiators.
+      Shepard reached the compound: a two-storey prefab and an underground bunker. At the
+      prefab door a conversation began. Asking for the man in charge, or using persuasion or
+      intimidation, got the squad in without a fight; threatening to force entry ended the
+      talk, turned the commune hostile, and meant fighting through eight biotic cultists in
+      the prefab and more in the bunker to reach the Sanctuary.
+    source_chunks: [unc-major-kyle_001, unc-major-kyle_002, unc-major-kyle_004, unc-major-kyle_006]
+  - text: >
+      In the Sanctuary Kyle waited with at least two of his followers. If Shepard had fought
+      in, Kyle ordered them to hold, saying he wanted no more bloodshed. He said he had no
+      quarrel with Shepard and asked why the commune could not be left in peace.
+    source_chunks: [unc-major-kyle_007, kyle_002]
+  - text: >
+      If Shepard had the Ruthless background, Kyle had been Shepard's commanding officer at
+      the Siege of Torfan in 2178; he had received Shepard willingly at the door, recognised
+      the Commander, and addressed Shepard as "the Butcher of Torfan."
+    source_chunks: [kyle_001, unc-major-kyle_002, unc-major-kyle_007]
+    conditional: {background: Ruthless}
+    choice: Ruthless Shepard, Kyle's former CO at Torfan
+  - text: >
+      Shepard pressed Kyle that he was not keeping his followers safe, then talked him into
+      surrender by persuasion or intimidation. Kyle asked for an hour to prepare his flock,
+      was then picked up at the compound gates without incident and taken for psychiatric
+      treatment, and the cult disbanded peacefully.
+    source_chunks: [kyle_002, unc-major-kyle_007]
+    conditional: {kyle_fate: talked down}
+    choice: Kyle talked into surrender
+  - text: >
+      On any other reply the talk collapsed and Shepard shot Kyle dead. His remaining
+      followers turned hostile and Shepard's squad had to fight back out through the commune.
+    source_chunks: [kyle_002, unc-major-kyle_007]
+    conditional: {kyle_fate: killed}
+    choice: Shepard shot Kyle
+  - text: >
+      Back aboard the Normandy, Shepard was debriefed by Admiral Hackett on the outcome.
+    source_chunks: [unc-major-kyle_007]
+related_events: [cult-of-father-kyle-presrop]
+source_chunks: [kyle_001, kyle_002, unc-major-kyle_001, unc-major-kyle_002, unc-major-kyle_004, unc-major-kyle_006, unc-major-kyle_007]

@@ -1,0 +1,37 @@
+scene_id: normandy-kelly-dinner-captain-cabin
+title: A Private Dinner With Kelly in the Captain's Cabin
+kind: downtime
+game: Mass Effect 2
+when: 2185, after the mission on Horizon, aboard the Normandy SR-2
+where: the Captain's Cabin, Normandy SR-2
+
+participants: [Shepard, Kelly Chambers]
+private_to: [Shepard, Kelly Chambers]
+heard_by: [Normandy crew]
+
+requires:
+  - kelly_alive: true
+  - romance: any
+
+beats:
+  - text: >
+      After building chemistry through flirting about new squad members and other mission outcomes,
+      Kelly accepts Shepard's invitation to have dinner together in the Captain's Cabin. She had been
+      hoping for private time with the Commander.
+    source_chunks: [kelly-chambers_004]
+  - text: >
+      Kelly is exhausted the morning after, remarking she hasn't stayed up that late since her college
+      days, but says she enjoyed herself immensely. Shepard's fish collection catches her eye during
+      the meal, so she later offers to feed the fish while the Commander is away on missions.
+    source_chunks: [kelly-chambers_004]
+  - text: >
+      After the suicide mission, if Kelly is among the saved crewmates, Shepard checks in with her
+      in the CIC. If Shepard has no other romantic attachments and the two shared a meal together,
+      Kelly will send Shepard a suggestive follow-up message offering a second cabin date.
+    source_chunks: [kelly-chambers_004]
+    conditional: {romance: Kelly}
+    choice: romanced Kelly in the cabin
+
+related_scenes: [collector-base-the-long-walk-crew-discovery, citadel-refugee-camp-kelly-confrontation]
+related_events: []
+source_chunks: [kelly-chambers_004]

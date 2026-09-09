@@ -3,7 +3,7 @@ title: The Heist at Donovan Hock's
 kind: mission-aside
 game: Mass Effect 2
 when: 2185
-where: Donovan Hock's estate on Bekenstein
+where: Donovan Hock's lakeside estate on Bekenstein
 
 participants: [Shepard, Kasumi Goto, Donovan Hock, Chief Roe]
 private_to: []
@@ -23,18 +23,40 @@ beats:
       them implicates the Alliance badly enough to start a war.
     source_chunks: [kasumi-goto_004]
   - text: >
-      They go in through a gala full of prominent underworld figures and come out through a
-      small army of Eclipse mercenaries running Hock's security.
-    source_chunks: [kasumi-goto_004]
+      Only Shepard and Kasumi go. On the ride over Kasumi briefs the plan: they attend Hock's
+      party under a forged identity — Solomon or Alison Gunn — in formal wear, with their
+      weapons and armour hidden inside a golden statue of Saren offered as tribute.
+    source_chunks: [kasumi-stealing-memory_004]
   - text: >
-      During the party, Kasumi briefly impersonates Security Chief Roe, the aloof leader of
-      Hock's Eclipse guard detail, over the comm to get herself and Shepard into Hock's
-      private quarters.
-    source_chunks: [chief-roe_001]
+      At the door a guard scans the statue and turns up nothing; Hock comes out, welcomes
+      "Gunn", but bars Kasumi because he does not like the way she looks. Kasumi cloaks and
+      walks in beside Shepard anyway.
+    source_chunks: [kasumi-stealing-memory_005, donovan-hock_003]
   - text: >
-      In Hock's vault, Roe leads a team of guards to attack Shepard and Kasumi and is killed
-      in the fighting.
-    source_chunks: [chief-roe_001]
+      Kasumi examines the vault door and names three things needed to open it: a recording of
+      Hock's voice, a sample of his DNA, and the power cut to the kinetic barrier. Shepard
+      draws Hock into a self-satisfied speech about the "cleaners" who keep the galaxy
+      spinning — the guests give him a standing ovation — which supplies the voiceprint.
+    source_chunks: [kasumi-stealing-memory_006, donovan-hock_003]
+  - text: >
+      For the DNA, Shepard either talks the guard Samuels into granting access to Hock's
+      private quarters, with Kasumi impersonating security chief Roe over the comm, or breaks
+      in from the balcony past three Eclipse guards; inside, Shepard scans Hock's effects for
+      a usable sample. Shepard then pulls a statue by the fireplace to kill the barrier's
+      power.
+    source_chunks: [kasumi-stealing-memory_006, eclipse-security-guard_001, chief-roe_001]
+  - text: >
+      In the vault — stocked with stolen art including Michelangelo's David and the head of
+      the Statue of Liberty — Shepard and Kasumi arm up and take the graybox. A holographic
+      Hock threatens them while Kasumi starts cracking it, then Chief Roe leads an Eclipse
+      assault into the vault; Roe is killed in the fighting.
+    source_chunks: [kasumi-stealing-memory_008, chief-roe_001]
+  - text: >
+      They fight out through a garage full of YMIR mechs, past a parked M-080 mass
+      accelerator, and onto a landing platform, where Hock attacks in a shielded A-61 Mantis
+      gunship backed by mercs and LOKI mechs. Kasumi gets in close and disables the
+      gunship's shield; she and Shepard shoot it down, killing Hock in the explosion.
+    source_chunks: [kasumi-stealing-memory_009, kasumi-stealing-memory_011, kasumi-stealing-memory_012, donovan-hock_003]
   - text: >
       On the ride back, Kasumi examines the graybox and is shown her own memories of Keiji,
       along with a warning that the information inside — evidence of an Alliance black ops
@@ -53,6 +75,9 @@ beats:
     conditional: {graybox_fate: destroyed}
     choice: graybox destroyed
 
-related_scenes: [citadel-party-apartment]
-related_events: []
-source_chunks: [kasumi-goto_004, kasumi-goto_005, chief-roe_001, kasumi-stealing-memory_013, kasumi-stealing-memory_017]
+related_scenes: [citadel-party-apartment, bekenstein-hock-kills-okuda, citadel-embassies-hanar-diplomat-investigation]
+related_events: [kasumi-stolen-memory]
+source_chunks: [kasumi-goto_004, kasumi-goto_005, chief-roe_001, kasumi-stealing-memory_004,
+                kasumi-stealing-memory_005, kasumi-stealing-memory_006, kasumi-stealing-memory_008,
+                kasumi-stealing-memory_009, kasumi-stealing-memory_011, kasumi-stealing-memory_012,
+                kasumi-stealing-memory_013, kasumi-stealing-memory_017, donovan-hock_003, eclipse-security-guard_001]

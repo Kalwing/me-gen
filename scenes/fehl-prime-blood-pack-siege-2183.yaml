@@ -1,11 +1,11 @@
 scene_id: fehl-prime-blood-pack-siege-2183
-title: Christine Holds the Line Against the Blood Pack
+title: The Blood Pack Siege of Fehl Prime
 kind: mission-aside
 game: Mass Effect
 when: 2183, when Blood Pack mercenaries lay siege to the Fehl Prime colony
 where: the Fehl Prime colony
 
-participants: [Christine, Treeya]
+participants: [Christine, Treeya, James Vega, Kamille, Essex, Brood, Captain Toni]
 private_to: []
 heard_by: []
 
@@ -22,7 +22,18 @@ beats:
       Christine refuses to give up. Her stand buys the colonists enough time for Alliance
       marines to arrive and engage the Blood Pack.
     source_chunks: [christine_001]
+  - text: >
+      Delta Squad's Kodiak is shot down mid strafing run. With Captain Toni down, Lieutenant
+      James Vega takes command. In the counterattack Kamille and Essex flank the mercs —
+      Kamille firing heavy, Essex covering with biotics — and cut through their ranks.
+    source_chunks: [kamille_001]
+  - text: >
+      Essex panics and biotically flings a varren that was creeping up on him onto Kamille
+      instead. She shakes it off; Essex is taken down by Brood while trying to help her.
+      Vega disables Brood. Kamille punches Essex in the gut, then thanks Vega and tells the
+      squad they owe the win to him.
+    source_chunks: [kamille_001]
 
 related_scenes: [fehl-prime-brood-alliance]
 related_events: [fehl-prime-blood-pack-attack]
-source_chunks: [christine_001]
+source_chunks: [christine_001, kamille_001]

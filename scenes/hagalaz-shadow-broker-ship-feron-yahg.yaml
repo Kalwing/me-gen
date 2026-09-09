@@ -1,0 +1,65 @@
+scene_id: hagalaz-shadow-broker-ship-feron-yahg
+title: Storming the Broker's Ship and Freeing Feron
+kind: mission-aside
+game: Mass Effect 2
+when: "2185, during Lair of the Shadow Broker, after the death of Tela Vasir on Illium"
+where: "the Shadow Broker's storm-riding ship in the atmosphere of Hagalaz, Sowilo system, Hourglass Nebula"
+participants: [Shepard, Liara, Feron, the Shadow Broker]
+heard_by: [Normandy crew]
+requires:
+  - lair-of-the-shadow-broker: any
+beats:
+  - text: >
+      Sekat's data placed the Broker aboard a huge ship riding the perpetual storm front of
+      Hagalaz. Shepard, Liara and a third squadmate shuttled down and fought across the
+      ship's exterior against maintenance drones that took them for storm debris, then Broker
+      agents, heavies and mechs, amid discharging lightning capacitors.
+    source_chunks: [storyline-ii_043, lair-of-the-shadow-broker-mission_013, lair-of-the-shadow-broker-mission_014]
+  - text: >
+      At a locked hatch Liara ran a hacking device while the squad held the spot through a
+      long five-wave siege of Shadow Broker forces, including rocket drones, then pushed
+      inside toward the prison block.
+    source_chunks: [storyline-ii_043, lair-of-the-shadow-broker-mission_016]
+  - text: >
+      They reached Feron, pinned in a restraint rig. Liara tried to free him and only
+      triggered a shock; Feron said pulling him loose would fry his brain, and questions
+      about the Broker shocked him again. Shepard remarked it had been too easy. Shepard and
+      Liara decided to confront the Broker directly.
+    source_chunks: [storyline-ii_043, lair-of-the-shadow-broker-mission_018, feron_004]
+  - text: >
+      In his office the Broker waited behind his desk, a giant of a species none of them
+      recognised. If the Collectors were still active, he said his standing offer for
+      Shepard's body held; if they were beaten, he meant to take the Normandy SR-2's Reaper
+      IFF to salvage Collector technology. He dismissed Liara, claiming to know her every
+      secret.
+    source_chunks: [storyline-ii_043, shadow-broker_008]
+  - text: >
+      Liara named him: a yahg, taken off his homeworld as a trophy, who had killed the
+      original Shadow Broker and taken his place some sixty years earlier. Enraged, he
+      smashed his desk and hurled it, knocking out the third squadmate. Shepard and Liara
+      fought the yahg through a three-stage battle.
+    source_chunks: [storyline-ii_043, shadow-broker_008, lair-of-the-shadow-broker-mission_019]
+  - text: >
+      On Liara's cue, Shepard drew the Broker's attention while Liara used her biotics to
+      drop the electrified fluid tank above him. His barrier overloaded and exploded, killing
+      him.
+    source_chunks: [storyline-ii_043, lair-of-the-shadow-broker-mission_019]
+  - text: >
+      With comms glitching, the Broker's agents called in for orders. Liara answered in the
+      Broker's modulated voice, told them it was a hardware fault, and ordered every
+      operation to report within one solar day. Feron came in with a drawn pistol, then
+      lowered it. Liara said she was now the Shadow Broker. Shepard could hold her as she
+      wept that her two-year hunt was finally over; she granted Shepard permanent access to
+      the base and its network.
+    source_chunks: [storyline-ii_044]
+variants:
+  - condition: {romance: Liara}
+    text: >
+      If Shepard had romanced Liara in Mass Effect, she later met Shepard aboard the Normandy
+      SR-2 and returned Shepard's old dog tags, recovered from the wreck of the Normandy
+      SR-1; they were kept afterwards in the captain's cabin.
+    source_chunks: [lair-of-the-shadow-broker-mission_023, lair-of-the-shadow-broker_003]
+    choice: romanced Liara in Mass Effect
+related_scenes: [nos-astra-vasir-skycar-chase-azure, alingon-liara-feron-shadow-broker-base]
+related_events: [shadow-broker-base-hagalaz]
+source_chunks: [storyline-ii_043, storyline-ii_044, lair-of-the-shadow-broker-mission_013, lair-of-the-shadow-broker-mission_014, lair-of-the-shadow-broker-mission_016, lair-of-the-shadow-broker-mission_018, lair-of-the-shadow-broker-mission_019, feron_004, shadow-broker_008, lair-of-the-shadow-broker-mission_023, lair-of-the-shadow-broker_003]

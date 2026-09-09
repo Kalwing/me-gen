@@ -1,0 +1,46 @@
+scene_id: surkesh-kirrahe-cerberus-rescue
+title: Kirrahe Covers Shepard During the Sur'Kesh Mission
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Sur'Kesh, STG facility overrun by Reapers and Cerberus
+where: an STG facility conducting experiments on female krogan
+
+participants: [Shepard, Kirrahe, Garrus Vakarian, Liara T'Soni, Javik]
+private_to: []
+heard_by: []
+
+requires:
+  - kirrahe_alive: true
+
+beats:
+  - text: >
+      Kirrahe, now promoted to Major, is on Sur'Kesh during the Reaper invasion. He stands near
+      the elevator entrance of an STG facility running experiments on female krogan. Kirrahe
+      mentions that he found the krogan females on Tuchanka and brought them to Sur'Kesh himself.
+      He promises Shepard that regardless of political decisions, he would gladly support
+      retaking Earth.
+    source_chunks: [kirrahe_004]
+  - text: >
+      If Garrus and/or Liara is present with Shepard, Kirrahe greets them enthusiastically,
+      remarking that the Reapers have a way of bringing old friends together. If Javik, the
+      Prothean, is present, Kirrahe repeatedly and humorously assumes Javik is a genetically
+      modified drell or turian for psychological operations rather than an actual Prothean.
+    source_chunks: [kirrahe_004]
+  - text: >
+      When Shepard descends to extract the only remaining female krogan, Cerberus launches a
+      surprise attack to prevent Shepard from acquiring her. During the fighting, Shepard
+      encounters Kirrahe in a firefight with Cerberus troops. Demolishing a wave of enemies
+      with a Scorpion pistol, Kirrahe expresses his pleasure at working with Shepard again
+      before covering the Commander's team in the firefight.
+    source_chunks: [kirrahe_004]
+  - text: >
+      After the Cerberus troops are defeated, Kirrahe remains behind to protect Shepard's flank
+      while the Commander proceeds to the Species Observation Area to complete the mission.
+      Following the mission, Kirrahe sends Shepard an email reiterating that the STG will
+      provide support when needed, regardless of political climate, and reminding Shepard
+      that the salarians were there when the Commander needed them.
+    source_chunks: [kirrahe_004]
+
+related_scenes: [virmire-ashley-kaidan-sacrifice, citadel-coup-kirrahe-salarian-defense]
+related_events: [priority-sur-kesh]
+source_chunks: [kirrahe_004]

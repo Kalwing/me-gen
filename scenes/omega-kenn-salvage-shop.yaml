@@ -1,0 +1,53 @@
+scene_id: omega-kenn-salvage-shop
+title: Haggling With Kenn at His Salvage Shop
+kind: downtime
+game: Mass Effect 2
+when: 2185, Omega station, during the recruitment phase for the Suicide Mission
+where: Kenn's Salvage shop, Omega
+
+participants: [Shepard, Kenn, Harrot]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Shepard encounters Kenn, a young quarian merchant running Kenn's Salvage on Omega. Kenn arrived
+      at Omega during his Pilgrimage but became stranded when all his money was stolen, leaving him
+      unable to afford passage off the station. Another merchant, Harrot, prevents him from earning
+      enough by forcing him to sell his goods at inflated prices, costing Kenn business.
+    source_chunks: [kenn_001]
+  - text: >
+      Kenn also sells the T6-FBA coupling that the Normandy SR-2's engineers need to ease their
+      maintenance work. If asked, Kenn tells Shepard about his situation with Harrot.
+    source_chunks: [kenn_001]
+  - text: >
+      Shepard can persuade Kenn to lower his prices, negotiate with Harrot directly to nullify his
+      agreement, or arrange for Harrot to buy out Kenn's shop entirely. Alternatively, Shepard can
+      simply give Kenn a thousand credits to buy passage off Omega.
+    source_chunks: [kenn_001]
+    conditional: {kenn_help: any}
+    choice: helped Kenn with his situation
+  - text: >
+      If Shepard intimidates Harrot into nullifying the agreement, Kenn shows his gratitude by offering
+      a discount on his wares if he hadn't already received one from Shepard.
+    source_chunks: [kenn_001]
+    conditional: {kenn_help: intimidate_harrot}
+    choice: intimidated Harrot into releasing Kenn
+  - text: >
+      If Shepard convinces Harrot to buy out Kenn's shop, the quarian disappears from his kiosk but the
+      discount Harrot gives to all his stores also applies to Kenn's former shop location.
+    source_chunks: [kenn_001]
+    conditional: {kenn_help: harrot_buyout}
+    choice: convinced Harrot to buy Kenn's shop
+  - text: >
+      If Shepard straightaway gives Kenn the thousand credits for passage off Omega without haggling,
+      Kenn leaves with no discount offered on his wares.
+    source_chunks: [kenn_001]
+    conditional: {kenn_help: direct_payment}
+    choice: gave Kenn credits without negotiating
+
+related_scenes: []
+related_events: []
+source_chunks: [kenn_001]

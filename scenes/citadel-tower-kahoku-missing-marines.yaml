@@ -1,0 +1,46 @@
+scene_id: citadel-tower-kahoku-missing-marines
+title: Reporting Back to Admiral Kahoku
+kind: mission-aside
+game: Mass Effect
+when: 2183, Citadel, after Shepard became a Spectre, during the hunt for Saren
+where: the Citadel Tower, by a console near the steps up to the Council chamber; then Edolus, Sparta system
+participants: [Shepard, Kahoku]
+private_to: []
+heard_by: [Normandy crew]
+requires: []
+beats:
+  - text: >
+      Rear Admiral Kahoku is in the Citadel Tower near the steps to the Council chamber,
+      unable to get an audience, trying to find out what happened to a recon team of his
+      marines who vanished in the Sparta system of Artemis Tau after being sent to
+      investigate suspicious activity around the wreck of Armistan Banes' ship. He asks
+      Shepard, newly a Spectre, to look into it. Shepard can also pick the job up without
+      meeting him, from the marines' distress call heard on the Normandy's approach to
+      Edolus, or from Anderson while chasing the Banes lead.
+    source_chunks: [kahoku_002, unc-missing-marines_002]
+  - text: >
+      On Edolus, Shepard follows the distress beacon north of the landing zone to a burned
+      M29 Grizzly and several dead marines. Approaching the transmitter triggers a thresher
+      maw; Shepard's squad kills it, then concludes the beacon was planted deliberately to
+      lure the marines onto the nest.
+    source_chunks: [unc-missing-marines_003, edolus_004]
+  - text: >
+      Shepard returns to the Citadel Tower and tells Kahoku his men were led to their
+      deaths. Kahoku leaves, vowing to find who was behind it.
+    source_chunks: [kahoku_002, unc-missing-marines_003]
+  - text: >
+      Kahoku later contacts Shepard by the galaxy map: he has traced the ambush to a group
+      called Cerberus and located three of their research facilities on Binthu, which he
+      passes to Shepard. Cerberus is already hunting him.
+    source_chunks: [unc-cerberus_002, kahoku_002]
+  - text: >
+      If Shepard raids the Cerberus labs on Binthu, the squad finds Kahoku's corpse caged
+      with other test subjects, needle marks on his arm. Shepard can avenge him by
+      assaulting the Cerberus base on Nepheron. A Citadel news report later calls his death
+      natural causes and notes he left a wife and three children.
+    source_chunks: [kahoku_002]
+    conditional: {raided_binthu: true}
+    choice: Shepard raids Binthu and finds Kahoku dead
+related_scenes: [citadel-armistan-banes-thread]
+related_events: [admiral-kahoku-missing-marines]
+source_chunks: [kahoku_002, unc-missing-marines_002, unc-missing-marines_003, unc-cerberus_002, edolus_004]

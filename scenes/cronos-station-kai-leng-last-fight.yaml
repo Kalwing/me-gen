@@ -1,0 +1,44 @@
+scene_id: cronos-station-kai-leng-last-fight
+title: Killing Kai Leng in the Illusive Man's Office
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, the Alliance assault on Cronos Station, after Horizon and Sanctuary
+where: the Illusive Man's inner office, Cronos Station, orbiting Anadius
+participants: [Shepard, Kai Leng, EDI]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      Fighting through Cronos Station, Shepard's squad passes video logs of Kai Leng
+      fuming that the Illusive Man keeps refusing to have Shepard killed.
+    source_chunks: [kai-leng_012]
+  - text: >
+      In the Illusive Man's office the Prothean VI Vendetta reveals the Catalyst is the
+      Citadel, but the Illusive Man already knew, has fled there, and has told the Reapers
+      the plan; they have seized the station and are moving it to Earth. As Shepard tries
+      to warn Admiral Hackett, Kai Leng decloaks and attacks.
+    source_chunks: [storyline-iii_031]
+  - text: >
+      Shepard's team fights Leng through the collapsing office while he summons waves of
+      Assault Troopers, Phantoms and Nemeses. Shepard taunts him about the leg wounds
+      Anderson gave him and every time he has run; the taunt about running enrages him. His
+      shields go down and the squad drops him.
+    source_chunks: [kai-leng_012, kai-leng_013]
+  - text: >
+      Wounded, Leng picks up his sword and creeps up behind Shepard for a stealth kill.
+      Shepard senses him and counters — shattering the blade with an omni-blade stab, or
+      dodging first and then driving the omni-blade home.
+    source_chunks: [kai-leng_013]
+  - text: >
+      Shepard dedicates the kill aloud to whoever died by Leng's hand: "That was for Thane
+      / Miranda / Kirrahe, you son of a bitch." If none of them are dead-by-Leng, Shepard
+      instead says, "No gunship this time, you son of a bitch." Cerberus's best assassin is
+      dead; the team returns to the Normandy for a debrief with Anderson.
+    source_chunks: [kai-leng_013]
+    conditional: {leng_kill_dedication: any}
+    choice: Shepard names the dead as the omni-blade goes in
+related_scenes: [thessia-temple-kai-leng-steals-vendetta, normandy-memorial-wall-after-thessia]
+related_events: []
+source_chunks: [kai-leng_012, kai-leng_013, storyline-iii_031]

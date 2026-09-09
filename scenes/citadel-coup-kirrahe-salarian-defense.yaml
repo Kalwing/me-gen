@@ -1,0 +1,37 @@
+scene_id: citadel-coup-kirrahe-salarian-defense
+title: Kirrahe's Final Stand Protecting the Salarian Councilor
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Citadel, during Cerberus's attack on the Council chambers
+where: the Citadel Council chambers and the surrounding corridor
+
+participants: [Shepard, Kirrahe, Kai Leng, Salarian Councilor]
+private_to: []
+heard_by: []
+
+requires:
+  - kirrahe_alive: true
+  - thane_alive: false
+
+beats:
+  - text: >
+      During the Cerberus attack on the Citadel, Kai Leng moves to assassinate the salarian
+      councilor. If Kirrahe is alive and Thane Krios is dead or never spoke with Shepard
+      before the attack, Kirrahe intercepts Kai Leng instead. Shot at point-blank range
+      by Leng while cloaked, Kirrahe is gravely wounded.
+    source_chunks: [kirrahe_004]
+  - text: >
+      Despite his injuries, Kirrahe manages to limp a considerable distance in pursuit of Kai
+      Leng, refusing to let the assassin escape. He reaches a nearby door before collapsing,
+      critically wounded.
+    source_chunks: [kirrahe_004]
+  - text: >
+      Encountering Shepard, Kirrahe reflects on their long partnership. If they share camaraderie,
+      he says it was an honor fighting alongside the Commander again. Otherwise, he quips that he
+      never liked the idea of getting old. With his final words, Kirrahe entrusts Shepard with
+      the pursuit of Kai Leng before dying from his wounds.
+    source_chunks: [kirrahe_004]
+
+related_scenes: [surkesh-kirrahe-cerberus-rescue, virmire-ashley-kaidan-sacrifice, citadel-huerta-thane-final-moments]
+related_events: [cerberus-coup-citadel-ashley]
+source_chunks: [kirrahe_004]

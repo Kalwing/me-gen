@@ -4,7 +4,7 @@ kind: mission-aside
 game: Mass Effect
 when: "2185, during the Collector attack on Fehl Prime"
 where: the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel
-participants: [James Vega, Brood, Essex, Kamille, Nicky, Milque, Messner, Collector forces, captured colonists, Christine, April, Treeya]
+participants: [James Vega, Brood, Essex, Kamille, Mason, Nicky, Milque, Messner, Collector forces, captured colonists, Christine, April, Treeya]
 private_to: []
 heard_by: [Alliance forces on Fehl Prime]
 requires:
@@ -21,6 +21,12 @@ beats:
       When the Collectors attack, Christine and April are paralyzed by Seeker Swarms and
       carried aboard the Collector ship as Delta Squad watches helplessly.
     source_chunks: [christine_001]
+  - text: >
+      Covering the squad's retreat to the underground labs from a tram roof, Kamille and
+      Essex hold off Collector troopers until the seeker swarms arrive. Essex is distracted
+      for a moment; Kamille, out of thermal clips, is grabbed by the legs by a single
+      Collector and flown away.
+    source_chunks: [kamille_001, kamille_002]
   - text: >
       During the Collector attack on Fehl Prime, Delta Squad retreats to the underground
       research labs. Brood is found held in a containment tank as a test subject, deemed
@@ -61,6 +67,15 @@ beats:
       "Vaya con Dios, hermano."
     source_chunks: [brood_001]
   - text: >
+      Kamille has been processed into a Praetorian; her head and mostly intact torso are
+      still recognizably human among the creature's other heads when it attacks the labs.
+      Mason, seeing only Kamille, walks toward the abomination and is incinerated by its
+      particle weapon. The Praetorian goes on hounding the team and stabs Nicky in the gut;
+      Vega leaps onto its back and empties his weapon into it, and with Essex's help jumps
+      clear before it crashes into an industrial vat, where it and any last trace of Kamille
+      disintegrate.
+    source_chunks: [kamille_002]
+  - text: >
       After Delta Squad infiltrates the Collector ship and administers the antidote through
       its processing plant, Christine reawakens with the other colonists, consoles a
       frightened April, and assures her Vega is coming. When Collector forces attack, she
@@ -78,4 +93,4 @@ beats:
     source_chunks: [fehl-prime_003, fehl-prime_004]
 related_scenes: [fehl-prime-blood-pack-siege-2183]
 related_events: [fehl-prime-collector-attack]
-source_chunks: [brood_001, christine_001, fehl-prime_003, fehl-prime_004]
+source_chunks: [brood_001, christine_001, fehl-prime_003, fehl-prime_004, kamille_001, kamille_002]

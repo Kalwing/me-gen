@@ -1,0 +1,50 @@
+scene_id: citadel-blasto-7-film-shoot
+title: "Blasto 7: Blasto Goes to War (Film Shoot)"
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Citadel shore leave, Citadel DLC"
+where: "film set on the Silversun Strip, casino and arcade district"
+
+participants: [Shepard, Javik, salarian director, vorcha Councilor, volus Councilor, salarian Councilor, Blasto]
+private_to: []
+heard_by: [Citadel inhabitants]
+
+requires:
+  - citadel_dlc: any
+  - javik: yes
+
+beats:
+  - text: >
+      After the Normandy is hijacked, Javik informs Commander Shepard that he has been invited
+      to star in a morale-boosting vid waiting for them at the casino and arcade end of the
+      Silversun Strip. The vid turns out to be "Blasto 7: Blasto Goes to War!"
+    source_chunks: [javik_010]
+  - text: >
+      The salarian director immediately preps the set upon their arrival, demoting the stunt
+      double apparently reserved for Shepard since the real thing has arrived. Shepard is
+      briefed by the vorcha, volus, and salarian Councilors—with the salarian speaking for
+      the other two—who explain that Blasto has apparently found Shepard in a refrigerator and
+      defrosted the Commander. The salarian Councilor asks the "wise Prothean elder" what
+      wisdom of the ages Javik might share, and Javik responds by describing the best way to
+      serve salarian kidneys.
+    source_chunks: [javik_010, blasto_007]
+  - text: >
+      Blasto, the hanar actor, insists he does not share top billing. The director and Javik
+      convince him otherwise. Javik gives further "encouragement" to the actor, asking the
+      hanar how he would like to be served: boiled or fried.
+    source_chunks: [javik_010, blasto_007]
+  - text: >
+      The director cuts to a new scene: Sovereign's half-brother Sluggard attacks, seeking
+      revenge. The vorcha Councilor is revealed to be indoctrinated and threatens the heroes.
+      While Shepard and Blasto can argue over who gets to shoot, Javik decides enough is
+      enough, declares his wish that he was still frozen in the refrigerator, and strikes the
+      vorcha actor with a biotic attack, knocking him off his feet.
+    source_chunks: [javik_010, blasto_007]
+  - text: >
+      Shepard and Javik leave disappointed as the director is overheard calling for a new
+      vorcha actor so they can start work on "Blasto 8: Blasto Cures the Genophage!"
+    source_chunks: [javik_010, blasto_007]
+
+related_scenes: []
+related_events: [citadel-dlc-identity-theft-begins]
+source_chunks: [javik_010, blasto_007]

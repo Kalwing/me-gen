@@ -1,0 +1,55 @@
+scene_id: citadel-coup-kaidan-confrontation
+title: Kaidan Guards the Council During the Cerberus Coup
+kind: argument
+game: Mass Effect 3
+when: "2186, Citadel, during Cerberus's assault on the Citadel (Priority: The Citadel II)"
+where: a landing pad above the Presidium Commons, by the last Council elevator; then the Citadel docks
+participants: [Shepard, Kaidan Alenko, Donnel Udina]
+private_to: []
+heard_by: [Normandy crew]
+requires:
+  - virmire_survivor: Kaidan
+beats:
+  - text: >
+      With Cerberus loose on the Citadel, Kaidan — now a Major and humanity's second
+      Spectre — is assigned to protect the Councilors and does not know Udina is working
+      with Cerberus. He detects Shepard landing on the elevator cab and fires through the
+      roof; the Council exits to find their escape shuttle destroyed. Shepard's squad
+      reaches them and jams the elevator door against the pursuing Cerberus troops. Kaidan
+      stands between Shepard and the Council with his gun raised, and Shepard has to
+      convince him of Udina's treachery.
+    source_chunks: [priority-the-citadel-ii_011, kaidan-alenko_009]
+  - text: >
+      Whether Kaidan stands down turns on a running trust total from earlier choices —
+      romancing him, saving the Council under Sovereign, keeping Kirrahe or Thane alive to
+      protect the salarian councilor, being kind to him on Mars, and visiting him at
+      Huerta — plus, in the middle band, a reputation check. Lowering weapons first raises
+      it.
+    source_chunks: [priority-the-citadel-ii_011]
+  - text: >
+      If Kaidan trusts Shepard, he lowers his weapon and turns it on Udina, ordering him
+      off the door console. Udina refuses, shoves the asari Councilor aside and draws on
+      her; Shepard shoots him, or Kaidan does if Shepard does not. Kai Leng, hearing C-Sec
+      close in, abandons Udina and flees.
+    source_chunks: [priority-the-citadel-ii_011, donnel-udina_006]
+    conditional: {citadel_coup: survivor_stands_with_shepard}
+    choice: Kaidan stands with Shepard, Udina shot
+  - text: >
+      If Kaidan does not trust Shepard enough, he refuses to move and Shepard is forced to
+      shoot him, or a squadmate does. His name is later added to the Normandy's memorial
+      wall.
+    source_chunks: [priority-the-citadel-ii_011, kaidan-alenko_009]
+    conditional: {citadel_coup: survivor_killed}
+    choice: Kaidan killed at the podium
+  - text: >
+      If Kaidan lives, he meets Shepard afterward at the docks. He can rejoin the Normandy
+      squad or take a place on Admiral Hackett's staff; if their rapport is thin, Shepard
+      has to talk him into coming back. If he goes to Hackett he sends a farewell email,
+      "Good luck," calling his Normandy years one of the most important experiences of his
+      life.
+    source_chunks: [kaidan-alenko_009]
+    conditional: {citadel_coup: survivor_stands_with_shepard}
+    choice: Kaidan survives — rejoins or goes to Hackett
+related_scenes: [citadel-coup-ashley-confrontation, citadel-cerberus-coup-bailey-headquarters, normandy-kaidan-starboard-observation]
+related_events: [cerberus-coup-citadel-ashley]
+source_chunks: [priority-the-citadel-ii_011, kaidan-alenko_009, donnel-udina_006]

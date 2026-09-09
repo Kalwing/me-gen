@@ -1,0 +1,50 @@
+scene_id: citadel-apartment-kaidan-canadian-meal
+title: Kaidan Cooks a Canadian Meal
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the Cerberus coup on the Citadel
+where: Apollo's Cafe in the Presidium Commons, then Shepard's personal apartment on the Silversun Strip
+participants: [Shepard, Kaidan Alenko]
+private_to: [Shepard, Kaidan Alenko]
+heard_by: [Normandy crew]
+requires:
+  - virmire_survivor: Kaidan
+  - citadel_dlc: any
+beats:
+  - text: >
+      Kaidan asks Shepard out for a drink at Apollo's Cafe, orders batarian shard wine
+      when Canadian lager turns out to be hard to find in Citadel space, and reminisces
+      about beers on his parents' porch overlooking English Bay in Vancouver. He reflects
+      on where he and Shepard stand and whether they have a future; if they were together
+      in 2183 he also forgives Shepard for the two years apart and for anyone Shepard was
+      with in 2185.
+    source_chunks: [kaidan-alenko_009, drinks_007, kaidan-alenko_012]
+  - text: >
+      Shepard invites Kaidan up to the personal apartment. He arrives insisting on cooking
+      "beef, bacon and beer, the food of my people," and splits a bottle with Shepard
+      before he starts. He gets distracted, burns the garlic, and Shepard suggests hot
+      sauce.
+    source_chunks: [kaidan-alenko_012]
+  - text: >
+      If Shepard and Kaidan are lovers, they compare cooking histories — Kaidan learned
+      during his Conatix biotic training — and after dinner either curl up on the couch or
+      go upstairs to "burn off" the calories.
+    source_chunks: [kaidan-alenko_012]
+    conditional: {romance: Kaidan}
+    choice: romanced Kaidan — the meal plays as a date
+  - text: >
+      If it is platonic, Shepard mock-threatens him with a month of kitchen detail
+      alongside Adams and jokes the meal was more dangerous than their years of near
+      misses; Kaidan shakes his head, indignant, and they trade accusations of being too
+      sensitive.
+    source_chunks: [kaidan-alenko_012]
+    conditional: {romance: not_Kaidan}
+    choice: platonic — Shepard trashes the cooking
+  - text: >
+      Before the final battle Kaidan comes to Shepard's cabin offering "a quick drink." If
+      they are lovers they talk about their first night together and then admit the drink
+      was a pretext; otherwise they talk through the coming fight and their feelings.
+    source_chunks: [kaidan-alenko_009]
+related_scenes: [normandy-kaidan-starboard-observation]
+related_events: []
+source_chunks: [kaidan-alenko_009, kaidan-alenko_012, drinks_007]
