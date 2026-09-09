@@ -1,0 +1,52 @@
+scene_id: omega-afterlife-forvan-poisoned-drink
+title: The Batarian Bartender Poisons Shepard's Drink
+kind: argument
+game: Mass Effect 2
+when: "2185, after Freedom's Progress, on a visit to Omega"
+where: the lower-level bar of the Afterlife Club, and the walkway outside it
+participants: [Shepard, Forvan, Henner, Ogrinn]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Shepard orders a drink from Forvan, the batarian working the lower Afterlife bar.
+      Forvan serves it, then walks off with a smug backward glance as Shepard passes out.
+    source_chunks: [forvan_001, omega-batarian-bartender_003]
+  - text: >
+      Shepard wakes on the walkway outside Afterlife. The squad has plenty to say about it.
+      A human passer-by, Henner, explains that Forvan poisons the drinks he serves to humans:
+      his brothers died when Jacob Taylor's crew raided a batarian mining colony on Bekke,
+      an attack said to have pre-empted a batarian terrorist strike on the Citadel, and
+      Forvan has been "returning the favour" ever since.
+    source_chunks: [forvan_001, omega-batarian-bartender_003]
+  - text: >
+      Shepard can go back to the bar and let it drop with a shake of the head, leaving Forvan
+      untouched.
+    source_chunks: [omega-batarian-bartender_003]
+    conditional: {forvan_fate: walked_away}
+    choice: let it drop and walked away
+  - text: >
+      Shepard can loudly and correctly accuse Forvan of routinely poisoning human customers.
+      Forvan denies it and draws an M-6 Carnifex on Shepard; a turian patron named Ogrinn,
+      who heard the accusation, shoots him dead.
+    source_chunks: [forvan_001, omega-batarian-bartender_003]
+    conditional: {forvan_fate: shot_by_ogrinn}
+    choice: incited the crowd, Ogrinn executes Forvan
+  - text: >
+      Shepard can instead force Forvan to drink from his own poisoned stock; he swallows it
+      and collapses on the floor.
+    source_chunks: [forvan_001, omega-batarian-bartender_003]
+    conditional: {forvan_fate: own_poison}
+    choice: made Forvan drink his own poison
+  - text: >
+      Shepard can tell Forvan he is not worth the Commander's time; Forvan vows never to do
+      it again and runs off alive.
+    source_chunks: [forvan_001, omega-batarian-bartender_003]
+    conditional: {forvan_fate: spared}
+    choice: dismissed him, Forvan leaves alive
+  - text: >
+      However it ends, Forvan is replaced behind that bar by a salarian who serves Shepard
+      free, harmless drinks on later visits.
+    source_chunks: [forvan_001, omega-batarian-bartender_003]
+related_scenes: []
+related_events: []
+source_chunks: [forvan_001, omega-batarian-bartender_002, omega-batarian-bartender_003, afterlife-club_008]

@@ -1,0 +1,44 @@
+scene_id: citadel-flux-anderson-steal-the-normandy
+title: Anderson's Plan to Bust the Normandy Loose
+kind: mission-aside
+game: Mass Effect
+when: "2183, after Virmire, with the Normandy grounded and Shepard a step from mutiny"
+where: a quiet table in Flux, the Citadel nightclub off the Upper Wards
+participants: [Shepard, David Anderson]
+private_to: [Shepard, David Anderson]
+beats:
+  - text: >
+      Back from Virmire with the Prothean vision complete and Ilos identified, Shepard finds
+      the Council will only blockade the relays, not send a fleet, and Udina locks out the
+      Normandy's systems and grounds the ship. If Shepard is romancing a squadmate there is a
+      short scene with them before Anderson's message comes through asking for a discreet
+      meeting at Flux.
+    source_chunks: [storyline_037, mass-effect-guide_010]
+  - text: >
+      At Flux, Anderson tells Shepard he believes the Reaper threat and knows the Normandy is
+      the only ship that can reach Ilos in time. He will unlock her systems himself so Shepard
+      can steal the ship. Shepard warns he will be arrested for treason, or worse; Anderson
+      says his career is a small price against galactic genocide.
+    source_chunks: [storyline_037, david-anderson_004, mass-effect-guide_010]
+  - text: >
+      Anderson has two ways to break the lockdown, and Shepard can pick one or leave it to
+      him. If Shepard sends him to unlock the systems directly, he fights past armed C-Sec
+      patrols and is shot in the leg doing it.
+    source_chunks: [david-anderson_004, mass-effect-guide_010]
+    conditional: {anderson_lockdown_method: csec_override}
+    choice: Anderson overrides the lockdown at the C-Sec console, is shot in the leg
+  - text: >
+      If Shepard sends him to Udina's office instead — the option Anderson takes if left to
+      choose — he breaks in and knocks Udina unconscious with a punch to countermand the
+      order.
+    source_chunks: [david-anderson_004, mass-effect-guide_010]
+    conditional: {anderson_lockdown_method: udina_office}
+    choice: Anderson breaks into Udina's office and punches him out
+  - text: >
+      Shepard boards the Normandy and waits on the bridge with Joker. Anderson's plan works,
+      the systems come back online, and the Normandy slips off the Citadel for Ilos with
+      Shepard now a wanted fugitive and mutineer.
+    source_chunks: [storyline_037, mass-effect-guide_010]
+related_scenes: [citadel-anderson-drowns-his-divorce-at-choras-den]
+related_events: [ilos-conduit-citadel]
+source_chunks: [storyline_037, david-anderson_004, mass-effect-guide_010, flux_002]

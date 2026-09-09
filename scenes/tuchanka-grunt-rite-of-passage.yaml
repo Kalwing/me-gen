@@ -5,7 +5,7 @@ game: Mass Effect 2
 when: 2185, after Horizon, once Grunt is woken from his tank
 where: Tuchanka — Clan Urdnot's camp, then the Rite grounds
 
-participants: [Shepard, Grunt, Urdnot Wrex, Gatatog Uvenk, the Urdnot Shaman]
+participants: [Shepard, Grunt, Urdnot Wrex, Gatatog Uvenk, the Urdnot Shaman, Gatatog Warriors]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -18,6 +18,16 @@ beats:
       Shepard takes it to the leader of Clan Urdnot.
     source_chunks: [grunt-rite-of-passage_001, grunt-rite-of-passage_004]
   - text: >
+      The Urdnot leader explains Grunt is not sick, only of the age to take the Rite of
+      Passage, and sends the party to the clan Shaman. Gatatog Uvenk, a traditionalist from
+      the Urdnot border camp, protests loudly that Grunt is tank-bred and has no right to the
+      Rite, going over the leader's head to appeal directly to the Shaman, who is plainly
+      irritated by him. Shepard makes Uvenk back down — either humbling him with words or
+      answering his insults with a headbutt — by agreeing before the Shaman to serve as
+      Grunt's krantt. Uvenk withdraws his objection but warns he will settle the matter
+      elsewhere.
+    source_chunks: [grunt-rite-of-passage_004, gatatog-uvenk_003]
+  - text: >
       The Rite runs in three waves, each summoned by striking the keystone. Varren first, in
       numbers.
     source_chunks: [grunt-rite-of-passage_005, grunt-rite-of-passage_006]
@@ -29,9 +39,13 @@ beats:
       killed — the timer runs five minutes.
     source_chunks: [grunt-rite-of-passage_008]
   - text: >
-      Gatatog Uvenk interrupts the aftermath with an offer conditional on Grunt knowing his
-      place, and it ends in a fight.
-    source_chunks: [grunt-rite-of-passage_009]
+      The Rite over, a shuttle lands carrying Uvenk and several Gatatog Warriors. Uvenk offers
+      to take Grunt into Clan Gatatog — but only as a trophy and an in-name-only member, to
+      raise Uvenk's own standing. Grunt, his identity, krantt and lineage disrespected,
+      violently rejects the offer, and whatever Shepard says the encounter ends in a
+      firefight. Shepard kills Uvenk and all the Gatatog Warriors. On the Normandy afterward
+      Grunt thanks Shepard and says plainly he is glad Uvenk is dead.
+    source_chunks: [grunt-rite-of-passage_009, gatatog-uvenk_003, gatatog-warrior_001]
   - text: >
       Grunt joins Clan Urdnot. The Shaman writes to Shepard afterwards.
     source_chunks: [grunt-rite-of-passage_010, grunt-rite-of-passage_013]
@@ -45,12 +59,15 @@ variants:
     choice: killed the thresher maw
     text: >
       Killing the maw outright rather than surviving the timer is the rarer outcome, and the
-      one that gets talked about.
-    source_chunks: [grunt-rite-of-passage_008]
+      one that gets talked about. When Uvenk arrives he first acknowledges Grunt's strength
+      before making his trophy offer; if the maw was only survived, he instead tells Grunt he
+      is impure and unworthy of any clan. Either way the offer ends in the fight that kills
+      him.
+    source_chunks: [grunt-rite-of-passage_008, gatatog-uvenk_003]
 
 related_scenes: [citadel-grunt-csec-noodles, citadel-party-apartment]
 related_events: []
 source_chunks: [grunt-rite-of-passage_001, grunt-rite-of-passage_004, grunt-rite-of-passage_005,
                 grunt-rite-of-passage_006, grunt-rite-of-passage_007, grunt-rite-of-passage_008,
                 grunt-rite-of-passage_009, grunt-rite-of-passage_010, grunt-rite-of-passage_013,
-                urdnot-wrex_002]
+                gatatog-uvenk_003, gatatog-warrior_001, urdnot-wrex_002]

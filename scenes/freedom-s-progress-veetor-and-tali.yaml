@@ -1,0 +1,65 @@
+scene_id: freedom-s-progress-veetor-and-tali
+title: Finding Veetor in the Abandoned Colony
+kind: mission-aside
+game: Mass Effect 2
+when: "2185, hours after the Collectors emptied Freedom's Progress, the prologue's final mission"
+where: the deserted prefabs, walkways and cargo docks of Freedom's Progress
+participants: [Shepard, Jacob Taylor, Miranda Lawson, Tali'Zorah, Prazza, Veetor]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      The Illusive Man sends Shepard to investigate the vanished colony with the two Cerberus
+      officers assigned to the team, Jacob Taylor and Miranda Lawson; there is no other squad
+      option for this mission. In the shuttle Jacob asks for orders and Shepard sets the tone,
+      stressing the search for survivors or stressing the mission itself. On the ground Jacob
+      and Miranda both note the total absence of bodies or signs of a fight.
+    source_chunks: [freedom-s-progress-mission_004, freedom-s-progress_002]
+  - text: >
+      The team fights through waves of the colony's own security — LOKI and FENRIS mechs, then
+      assault and rocket drones — which Veetor'Nara has reprogrammed to attack anyone in the
+      area.
+    source_chunks: [freedom-s-progress-mission_004, veetor-nara_001]
+  - text: >
+      In prefab 92 Shepard's squad meets Tali'Zorah vas Neema and a group of quarians who
+      openly distrust Cerberus. Tali is briefly overjoyed to find Shepard alive, then dismayed
+      to see the Commander working for Cerberus; she tells herself Shepard must be undercover.
+      If Shepard gave Tali the geth data in 2183, Shepard can ask whether it helped her
+      Pilgrimage, and her yes settles her that it is still the same Shepard. Tali explains they
+      are hunting Veetor, an unstable quarian on Pilgrimage whose damaged suit and infection
+      left him paranoid enough to turn the mechs on. The two squads agree to work together.
+    source_chunks: [tali-zorah-nar-rayya_005, freedom-s-progress-mission_004]
+  - text: >
+      Prazza leads the other quarians ahead against Tali's orders, meaning to reach Veetor and
+      pull him out before Cerberus can question him. A reprogrammed YMIR Mech slaughters
+      Prazza and nearly all of his team at the cargo docks. Tali opens the door remotely and
+      hides; Shepard's squad destroys the YMIR.
+    source_chunks: [prazza_001, freedom-s-progress-mission_004]
+  - text: >
+      In building 7 Veetor is babbling about monsters and watching garbled security footage.
+      Shepard's first dialogue choice sets up a Renegade interrupt — shooting one of the
+      screens — or a Paragon interrupt — shutting them all off with the omni-tool; either one
+      calms him. Tali follows him in. Veetor has stitched the colony's camera footage together
+      to show the Collectors carrying the colonists off; the group guesses he was passed over
+      because the Collectors scanned only for human life signs. His footage and his omni-tool
+      data on the Seeker Swarms are the proof the Illusive Man needed.
+    source_chunks: [freedom-s-progress-mission_004, veetor-nara_001]
+  - text: >
+      Miranda wants Veetor taken into custody for interrogation; Tali demands he go back to
+      the Flotilla for medical care. Shepard hands Veetor to Tali, and he is later found
+      recovering under Dr. Elan'Shiya's care and can testify at Tali's treason trial.
+    source_chunks: [freedom-s-progress-mission_004, veetor-nara_001]
+    conditional: {veetor_fate: returned_to_flotilla}
+    choice: released Veetor to Tali and the Migrant Fleet
+  - text: >
+      Alternatively Shepard hands Veetor to Cerberus; he is interrogated and only released to
+      the Flotilla once Cerberus is satisfied he has told them everything.
+    source_chunks: [freedom-s-progress-mission_004]
+    conditional: {veetor_fate: cerberus_custody}
+    choice: handed Veetor to Cerberus for interrogation
+  - text: >
+      The squads part on the docks. Tali returns to the Migrant Fleet for a mission in
+      geth-held space she will not discuss — the run to Haestrom.
+    source_chunks: [tali-zorah-nar-rayya_005]
+related_scenes: [haestrom-tali-recruitment, flotilla-tali-treason-trial]
+related_events: [freedom-s-progress-investigation]
+source_chunks: [freedom-s-progress-mission_004, freedom-s-progress_002, veetor-nara_001, tali-zorah-nar-rayya_005, prazza_001]

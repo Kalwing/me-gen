@@ -1,0 +1,27 @@
+scene_id: citadel-hannah-shepard-call
+title: Shepard Calls Mom from the Apartment
+kind: banter
+game: Mass Effect 3
+when: 2186, Citadel DLC, after foiling the identity theft plot
+where: Personal Apartment, Silversun Strip — Shepard's end of the call
+
+participants: [Shepard, Hannah Shepard]
+private_to: [Shepard, Hannah Shepard]
+
+requires:
+  - spacer_background: true
+  - citadel_dlc: any
+
+beats:
+  - text: >
+      After Shepard foils the identity theft attempt that had infiltrated the Citadel, a
+      message arrives from Hannah Shepard asking the Commander to call her.
+    source_chunks: [hannah-shepard_005]
+  - text: >
+      Shepard calls Hannah from the apartment. The two speak briefly about Shepard's
+      childhood. Hannah tells her child how proud she is of what Shepard has accomplished,
+      leading the fight against the Reapers.
+    source_chunks: [hannah-shepard_005]
+
+related_events: [citadel-dlc-identity-theft-begins]
+source_chunks: [hannah-shepard_005]

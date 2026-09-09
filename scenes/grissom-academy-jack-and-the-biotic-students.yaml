@@ -1,0 +1,105 @@
+scene_id: grissom-academy-jack-and-the-biotic-students
+title: Getting the Biotic Students Off Grissom Academy
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, after Priority: Palaven, before Priority: The Citadel II"
+where: Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy
+participants: [Shepard, Samantha Traynor, EDI, Joker, Kahlee Sanders, Jack, Jason Prangley, Rodriguez, Reiley Bellarmine, Seanne Bellarmine, Octavia, David Archer]
+heard_by: [Normandy crew, Alliance command]
+requires:
+  - grissom_academy: any
+beats:
+  - text: >
+      After Priority: Palaven, Samantha Traynor tells Shepard she picked an Academy evac
+      request off Alliance comm channels answered by a turian vessel, and that she and EDI
+      traced the answering signal to Cerberus — the rescue is a fake and the station is
+      still under attack. Cerberus is assaulting Grissom Academy to abduct its students,
+      most of whom build Alliance tech or train as military biotics.
+    source_chunks: [grissom-academy-emergency-evacuation_002]
+  - text: >
+      Too many Cerberus ships blockade the Academy for the Normandy to fight or sneak
+      through. Kahlee Sanders calls in, reports Cerberus holds the docking bays, and opens
+      a cargo hold. Joker flies a diversion so Shepard's shuttle can slip into the hold.
+    source_chunks: [grissom-academy-emergency-evacuation_005]
+  - text: >
+      Kahlee is trapped in the security office by Cerberus Assault Troopers trying to
+      breach the door. Shepard opens it; Kahlee immediately kills the two troopers by the
+      door, Shepard clears the rest, and Shepard forces the damaged door and frees her.
+    source_chunks: [grissom-academy-emergency-evacuation_005]
+  - text: >
+      Shepard fights through classrooms and corridors while a Cerberus commander tells
+      students over the intercom they will be safe if they do not resist and operatives
+      drag students off. Shepard rescues scattered students, among them Reiley Bellarmine
+      and his badly wounded sister Seanne.
+    source_chunks: [grissom-academy-emergency-evacuation_006, morality-guide-mass-effect-3_022]
+  - text: >
+      In Orion Hall a group of biotic students is holding off Assault Troopers behind a
+      barrier when an Atlas breaks in. Shepard clears the room before the barrier fails.
+    source_chunks: [grissom-academy-emergency-evacuation_007]
+  - text: >
+      Jack, alive after the Suicide Mission and now the students' Alliance biotics
+      instructor, is the one leading them. She greets Shepard with a punch to the face.
+    source_chunks: [grissom-academy-emergency-evacuation_007, jack_007]
+    conditional: {jack_survived_collector_base: true}
+    choice: Jack survived the Suicide Mission and leads the students
+  - text: >
+      If Shepard romanced Jack, the punch is followed by a kiss.
+    source_chunks: [grissom-academy-emergency-evacuation_007, jack_007]
+    conditional: {romance: Jack}
+    choice: romanced Jack
+  - text: >
+      If Jack is dead or was never recruited, Ensign Jason Prangley — a student who came to
+      Grissom at six and studied battles obsessively — steps up and takes command of the
+      biotic students instead.
+    source_chunks: [grissom-academy-emergency-evacuation_007, jason-prangley_001]
+    conditional: {jack_survived_collector_base: false}
+    choice: Jack absent, Prangley leads the students
+  - text: >
+      Shepard pushes through both halves of the Atrium and a docking area against heavy
+      waves of Centurions, Guardians, Combat Engineers and Atlas mechs, using empty Atlas
+      mechs left on the field and helped by the covering fire of the biotic students.
+    source_chunks: [grissom-academy-emergency-evacuation_008, grissom-academy-emergency-evacuation_009]
+  - text: >
+      Tech students including Octavia are fending off troopers with a shield device;
+      Octavia distrusts Shepard until Shepard contacts Kahlee, a squadmate drops the
+      shield, or Shepard shoots through it. If Overlord was finished on the Paragon route,
+      David Archer is present and vouches for Shepard, unlocking a security office.
+    source_chunks: [grissom-academy-emergency-evacuation_010, grissom-academy-emergency-evacuation_011]
+  - text: >
+      During the final escape the wounded Rodriguez falls behind, calling for medi-gel.
+      Whoever is leading the biotic students smashes the glass to reach her. If Jack leads,
+      every student gets out alive.
+    source_chunks: [grissom-academy-emergency-evacuation_009, jack_007]
+    conditional: {jack_survived_collector_base: true}
+    choice: Jack leads — all students survive
+  - text: >
+      If Prangley is leading the students, he breaks the glass to save Rodriguez and is
+      shot and killed doing it.
+    source_chunks: [grissom-academy-emergency-evacuation_009, jason-prangley_001]
+    conditional: {jack_survived_collector_base: false}
+    choice: Prangley leads — Prangley is killed in the escape
+  - text: >
+      Back aboard the Normandy, Shepard decides how the students serve: as support folded
+      into the Alliance 103rd Marine Division for barrier work and ammo modding (+50 war
+      assets, Paragon), or as a frontline Biotic Company (+75 war assets, Renegade). The
+      choice also fixes Jack's epilogue — shown back with her class, or mourning at their
+      graves.
+    source_chunks: [grissom-academy-emergency-evacuation_013]
+    conditional: {grissom_academy: support}
+    choice: students assigned as Alliance support
+  - text: >
+      Shepard has a video conference with Anderson about the war and about Kahlee. Kahlee
+      later emails thanks, forwarded through Admiral Hackett, saying her tech-minded
+      students stayed behind to help with the Crucible.
+    source_chunks: [grissom-academy-emergency-evacuation_012, grissom-academy-emergency-evacuation_018]
+  - text: >
+      If the mission is not run before Priority: The Citadel II it is failed permanently:
+      Jack is captured, turned into a Cerberus Phantom, and has to be fought and killed at
+      Cerberus Headquarters, and if David Archer was sent here after Overlord, Gavin Archer
+      may kill himself during Arrae: Ex-Cerberus Scientists.
+    source_chunks: [grissom-academy-emergency-evacuation_019]
+    conditional: {grissom_academy: failed}
+    choice: mission expired — Jack captured and lost
+related_scenes: [citadel-purgatory-jack-and-her-students, aite-atlas-station-david-archer]
+related_events: [grissom-academy-emergency-evacuation]
+source_chunks: [grissom-academy-emergency-evacuation_002, grissom-academy-emergency-evacuation_005, grissom-academy-emergency-evacuation_006, grissom-academy-emergency-evacuation_007, grissom-academy-emergency-evacuation_008, grissom-academy-emergency-evacuation_009, grissom-academy-emergency-evacuation_010, grissom-academy-emergency-evacuation_011, grissom-academy-emergency-evacuation_012, grissom-academy-emergency-evacuation_013, grissom-academy-emergency-evacuation_018, grissom-academy-emergency-evacuation_019, jack_007, jason-prangley_001, morality-guide-mass-effect-3_022]

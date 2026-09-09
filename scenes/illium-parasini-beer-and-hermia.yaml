@@ -1,0 +1,48 @@
+scene_id: illium-parasini-beer-and-hermia
+title: Parasini Collects on Illium
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, Nos Astra, Illium, during the recruitment of Thane and Samara
+where: near a Serrice Technology kiosk on Nos Astra
+participants: [Shepard, Gianna Parasini, Hermia]
+private_to: [Shepard, Gianna Parasini]
+heard_by: [Normandy crew]
+requires:
+  - parasini_alive: true
+beats:
+  - text: >
+      Shepard runs into Gianna Parasini on Nos Astra. She has left Anoleis's outer office
+      behind, wears an outfit with pants now, and is working a fresh white-collar case for
+      her superiors.
+    source_chunks: [gianna-parasini_003, nos-astra_003]
+  - text: >
+      If Shepard helped her pin the corruption evidence on Anoleis at Port Hanshan, she
+      makes good on her promise and buys Shepard the beer she owed. If Shepard did not
+      help her on Noveria, there is no beer.
+    source_chunks: [gianna-parasini_003]
+    conditional: {noveria_parasini_helped: true}
+    choice: helped Parasini convict Anoleis on Noveria
+  - text: >
+      She excuses herself quickly, leaving Shepard a note asking for help again — this time
+      arresting an asari smuggler named Hermia.
+    source_chunks: [gianna-parasini_003]
+  - text: >
+      Shepard helps take Hermia down. A male Shepard who also helped Parasini on Noveria
+      gets a kiss on the cheek for it.
+    source_chunks: [gianna-parasini_003]
+    conditional: {hermia_fate: arrested}
+    choice: helped Parasini arrest Hermia
+  - text: >
+      Alternatively, Shepard warns Hermia, who runs. Parasini is left asking herself, "why
+      do I even bother?"
+    source_chunks: [gianna-parasini_003]
+    conditional: {hermia_fate: warned_and_fled}
+    choice: warned Hermia, who escaped
+  - text: >
+      In conversation Parasini tells Shepard she grew up poor and had wanted to be a cop or
+      a C-Sec officer, but prefers white-collar crime — the thrill of the chase without the
+      disturbing parts. She mentions her superiors are interested in dark energy and whether
+      it is something to worry about, possibly connected to the rapidly aging star Dholen.
+    source_chunks: [gianna-parasini_003]
+related_scenes: [bel-anoleis-corruption-noveria]
+source_chunks: [gianna-parasini_003, nos-astra_003]

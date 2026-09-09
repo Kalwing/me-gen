@@ -916,3 +916,45 @@
   Suite 166 -> 169 green.
 - Not committed — the tree still holds the whole uncommitted Phase 1 overhaul, and
   `me3.zip` (30MB) is untracked and not in `.gitignore`.
+
+## Session resume 2026-09-09 — /pwf context restore
+- Ran planning-with-files restore. `session-catchup.py` produced no output (no unsynced
+  context recorded). Re-read all three planning files + findings.md.
+- STATE RECONCILED against git — planning files were ~13 commits stale:
+  - The Phase 1 overhaul + scene-sweep tooling DID commit (f3a6704); progress.md's last
+    entry saying "Not committed" was wrong.
+  - The **scene sweep has run 12 waves** (7a4b139, 0defc02, 0dc6121, 8e27b4f, cf754ea,
+    fe4e507, 4b09640, 284fb8e, a5b0331, 6d2f7a5, 9d04c2e, d1d766c) plus two choice-branch
+    fix commits (301f421, 9dddae3). None of this was logged in progress.md.
+  - `scenes/.done` = 620 stems; `scenes/*.yaml` = 199 files; `page_summaries/` = 1,636.
+    ~1,016 stems remain.
+  - **Wave 13 is uncommitted in the working tree**: `scenes/tuchanka-grunt-rite-of-passage.yaml`
+    modified + 7 new untracked scene files (citadel-flux-anderson-steal-the-normandy,
+    citadel-hannah-shepard-call, freedom-s-progress-veetor-and-tali,
+    grissom-academy-jack-and-the-biotic-students, illium-parasini-beer-and-hermia,
+    omega-afterlife-forvan-poisoned-drink, omega-fist-dockworker-grudge). Stems NOT in
+    `scenes/.done`. Covers the `f*`/`g*` alphabetical range.
+- task_plan.md updated: new `## Next Step`, `## Current Phase` → Phase 7, added
+  `### Phase 7: Scene sweep`.
+- User chose: finalize & commit wave 13, then stop for /clear.
+
+### 2026-09-09 (cont.) — scene sweep wave 13 finalized
+- Cleanup: 0 `.tmp`, `scenes --drop-unparseable` dropped 0, 0 filename renames.
+- `python -m scripts.scenes --check` → 199 scenes checked, clean.
+- Wave 13's 8 tree files: 7 new + `tuchanka-grunt-rite-of-passage` enriched
+  (Uvenk krantt confrontation + Gatatog Warriors post-Rite firefight, all beats cite
+  `gatatog-uvenk_003` / `gatatog-warrior_001`).
+- Attendance spot-check (all 3+-participant new records — grissom-academy-jack…,
+  freedom-s-progress-veetor-and-tali, + the enrichment): every participant name
+  (Octavia, Rodriguez, Bellarmine, Seanne, David Archer, Kahlee, Prazza, Veetor,
+  Prangley, Hermia, Miranda, Jacob …) appears verbatim in that beat's cited chunks.
+  No fabricated attendance.
+- `.done` append: the wave's batch was NOT logged (dispatched right after wave 12's
+  commit, session died before the controller step). Reconstructed conservatively —
+  cited page_summary stems (fist #2, flux #6, forvan #12, freedom-s-progress #14/#15)
+  confirm batch 1 ran fully; appended the safe contiguous prefix **`fish`..`gagarin-station`
+  (20 stems)**. `scenes/.done` 620 → 640. Stems #21–31 (game-shop..gatatog-warrior)
+  were likely also touched (gatatog-uvenk/-warrior chunks are in the committed tuchanka
+  enrichment) but are left OUT of `.done` — they redo idempotently next wave.
+- `python -m pytest -q` → 169 passed.
+- Committed. Remaining: ~996 stems, resume alphabetically from `game-shop`.

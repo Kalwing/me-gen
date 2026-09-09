@@ -6,22 +6,29 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-08 (session N): the timeline sweep is COMPLETE — 1,636/1,636 stems in
-`timeline/.done`, 190 event files, master 190 rows, `renumber_timeline.py --check`
-clean. The generation overhaul's Phase 1 test run passed ("came out great").
+2026-09-09 (/pwf restore + wave 13 finalized): scene sweep **640/1,636** stems in
+`scenes/.done` (13 waves committed), 199 scene files, `scripts.scenes --check` clean,
+169 tests green. ~996 stems remain (~50 waves).
 
-Work now follows `docs/superpowers/specs/2026-09-07-generation-overhaul-design.md`
-**Phase 2**, not the wave procedure below (kept for reference):
-- [x] Phase 2 item 10 — timeline sweep + renumber.
-- [x] Phase 2 item 9 (tooling) — `/me-build-scenes` + `scene-extractor` written,
-      mirroring `/me-build-timeline`: alphabetical batches of ~20, `scenes/.done`
-      ledger owned by the controller, 4 agents in flight, Haiku default / Sonnet for
-      attendance- and branch-heavy batches, pause-and-commit per wave. 169 tests green.
-- [ ] Phase 2 item 9 (the sweep) — 1,636 stems pending, un-run. Token-heavy; run in
-      waves and `/clear` between them.
+Wave 13 was committed this session (was uncommitted in the tree from a session that
+died before the controller's `.done`-append step). Its `.done` append was reconstructed
+conservatively — `fish`..`gagarin-station` only; stems `game-shop`..`gatatog-warrior`
+redo idempotently next wave.
+
+Next: re-run `/me-build-scenes` — resumes alphabetically from `game-shop` per step 3.
+`game-shop`..`garvug` and the two `garrus-*` loyalty-quest pages (garrus-eye-for-an-eye,
+garrus-find-dr-saleon, garret-bryson/Dr Bryson) are the first stems and may hold
+occasions not yet extracted — do not assume the aborted wave covered them.
+
+Deferred generation-overhaul items (spec `docs/superpowers/specs/2026-09-07-generation-overhaul-design.md`):
 - [ ] Phase 2 item 11 — codex correction pass for compressed-causality bullets of the
       Krogan Monument kind.
 - [ ] TODO2.md line-level corrections to the test-run output (Jack/Tali/Wrex).
+- [ ] Scene-sweep → backfill scene choice-branches into `config/canon/choices.yaml` as
+      blank stubs for Thomas (per memory [[scene-sweep-then-backfill-choices]]).
+
+Wave procedure below is the timeline sweep's (kept for reference); the scene sweep's is
+in `.claude/commands/me-build-scenes.md`.
 
 ### Per-wave procedure (repeat until remaining == 0)
 1. Regenerate the to-do list (order = alphabetical, deterministic):
@@ -105,7 +112,18 @@ list — corpus filter is wired into the command, not applied by hand.
 Standing ruling: every script doing `from scripts...` needs the sys.path bootstrap.
 
 ## Current Phase
-Phase 5 — user-initiated live run (deferred items).
+Phase 7 — scene sweep (generation-overhaul Phase 2 item 9). 620/1,636 done, wave 13
+uncommitted in the tree. See `## Next Step`.
+
+### Phase 7: Scene sweep (generation-overhaul design, item 9)
+- [x] Tooling: `/me-build-scenes` + `scene-extractor` (committed f3a6704).
+- [~] The sweep — 640/1,636 stems in `scenes/.done`, 199 scene files. Waves 1–13
+      committed (7a4b139 … this session).
+- [ ] Post-sweep: reconcile scene choice-branches → `config/canon/choices.yaml` blank
+      stubs (memory [[scene-sweep-then-backfill-choices]]).
+- **Status:** in_progress
+
+### Phase 5 (superseded): user-initiated live run
 
 ### Phase 5: Live corpus build (user-initiated 2026-08-28)
 - [x] scrape_wiki: incremental page writes + resumable crawl (commit) + progress print every 20 pages

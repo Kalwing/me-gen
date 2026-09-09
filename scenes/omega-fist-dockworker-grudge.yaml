@@ -1,0 +1,28 @@
+scene_id: omega-fist-dockworker-grudge
+title: Running Into Fist on Omega
+kind: banter
+game: Mass Effect 2
+when: "2185, on a visit to Omega, if Fist survived the raid on Chora's Den"
+where: the lower floor of the Afterlife Club on Omega
+participants: [Shepard, Fist]
+private_to: [Shepard, Fist]
+heard_by: [Normandy crew]
+requires:
+  - fist_fate: alive
+beats:
+  - text: >
+      If Shepard spared Fist on the Citadel two years earlier, he has resurfaced on Omega
+      working as a dockworker, and can be found on Afterlife's lower floor with a pair of
+      asari.
+    source_chunks: [fist_004]
+  - text: >
+      Fist rounds on Shepard for ruining his life and for bothering to chase a small-time
+      criminal across the galaxy, points to his honest job, and tells the Commander to leave
+      him alone.
+    source_chunks: [fist_004]
+  - text: >
+      Pressed again, he adds that on his time off he likes to "get friendly with the whores".
+    source_chunks: [fist_004]
+related_scenes: [citadel-chora-s-den-fist-confrontation]
+related_events: []
+source_chunks: [fist_004]
