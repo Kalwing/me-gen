@@ -44,5 +44,17 @@ beats:
       assign an escort preserves all squadmates for the final fight but condemns the crew.
     source_chunks: [collector-base-the-long-walk_003]
     choice: selected biotic specialist, fire-team leader, and crew escort
+variants:
+  - condition: {mordin_biotic: cut content}
+    choice: cut option — Mordin volunteers to hold the biotic field
+    text: >
+      In a cut version of this huddle Mordin was a biotic and could volunteer to maintain
+      the barrier through the seeker swarms himself, alongside Samara, Jack, Jacob, Thane
+      and Miranda as options. Miranda always noted that in theory any biotic could do it
+      and asked Shepard who should hold the field; whoever Shepard named would take a small
+      team through while the rest ran the main passage as a diversion and opened the
+      security doors from the far side.
+    source_chunks: [mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_009, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_010]
+related_scenes: [collector-base-cut-human-reaper-reveal]
 related_events: [suicide-mission]
-source_chunks: [collector-base-the-long-walk_003]
+source_chunks: [collector-base-the-long-walk_003, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_009, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_010]

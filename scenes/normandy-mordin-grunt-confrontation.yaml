@@ -1,0 +1,59 @@
+scene_id: normandy-mordin-grunt-confrontation
+title: Grunt and Mordin Square Off in the Science Labs (Cut)
+kind: argument
+game: Mass Effect 2
+when: 2185, cut content — after both Grunt's and Mordin's loyalty missions, never shipped
+where: the Normandy SR-2's science labs
+participants: [Shepard, Grunt, Mordin Solus, Jeff "Joker" Moreau]
+private_to: []
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      A confrontation was written for Grunt and Mordin, on the pattern of the Tali/Legion
+      and Jack/Miranda fights, and cut from the game. Joker called Shepard over the comm —
+      "Grunt and Mordin are about to go at it in the science labs. I wouldn't put money on
+      Mordin" — and Shepard went down. Grunt, taking his new Clan Urdnot membership
+      seriously, had turned on Mordin as a threat to his clan, goading him to fight; Mordin
+      refused to raise a weapon near the bulkhead and instead insulted Grunt's parentage,
+      "factually inaccurate in your case."
+    source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_012, grunt_008, mordin-solus_011]
+  - text: >
+      Grunt's complaint was that the genophage was not history — Mordin was still modifying
+      it, and Urdnot, his clan now, would suffer for it, which to Grunt made them enemies.
+      Mordin agreed with Shepard that it was pointless but said Grunt refused to see reason.
+    source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_012]
+  - text: >
+      With a Charm option, Shepard defused it by redirecting the rivalry: settle it by
+      out-fighting the Collectors, krogan might against salarian guile. Mordin took it as a
+      motivator and Grunt agreed to let it go "for now"; the peace held.
+    source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_012]
+    conditional: {mordin_grunt_conflict: kept the peace by charm}
+    choice: turned the fight into a Collector-killing rivalry
+  - text: >
+      With an Intimidate option, Shepard reminded Grunt that Shepard was still his
+      battlemaster and told both to drop the "ancient crap" now. Mordin apologised and
+      promised not to goad the krogan; the peace held.
+    source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_012]
+    conditional: {mordin_grunt_conflict: kept the peace by intimidation}
+    choice: ordered both to stand down
+  - text: >
+      Shepard could side with Grunt, arguing that Clan Urdnot's continued existence alone
+      proves Mordin's work failed. Grunt, satisfied his people had beaten Mordin "by
+      existing," dropped it and left; Mordin was insulted, told Shepard to leave, and his
+      loyalty had to be regained afterward in the tech lab by a top-difficulty check —
+      convincing him Shepard was only humouring Grunt.
+    source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_012, mass-effect-2-cut-content-prologue-and-normandy-voicelines_014, mordin-solus_011]
+    conditional: {mordin_grunt_conflict: sided with Grunt}
+    choice: backed Grunt; Mordin's loyalty lost and later regained
+  - text: >
+      Shepard could side with Mordin, goading Grunt into admitting the genophage had
+      already doomed the krogan regardless — fighting Mordin now "like running with your
+      head cut off." Grunt left saying he would not risk the Normandy; Mordin's loyalty had
+      to be regained afterward with Grunt in the henchmen deck, convincing him he was tough
+      enough to take being overruled.
+    source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_012, mass-effect-2-cut-content-prologue-and-normandy-voicelines_013, grunt_008]
+    conditional: {mordin_grunt_conflict: sided with Mordin}
+    choice: backed Mordin; Grunt sulks and is later smoothed over
+related_scenes: [tuchanka-grunt-rite-of-passage, tuchanka-mordin-and-maelon]
+related_events: []
+source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_012, mass-effect-2-cut-content-prologue-and-normandy-voicelines_013, mass-effect-2-cut-content-prologue-and-normandy-voicelines_014, grunt_008, mordin-solus_011]

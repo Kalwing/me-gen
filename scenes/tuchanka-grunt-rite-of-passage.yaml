@@ -47,6 +47,18 @@ beats:
       Grunt thanks Shepard and says plainly he is glad Uvenk is dead.
     source_chunks: [grunt-rite-of-passage_009, gatatog-uvenk_003, gatatog-warrior_001]
   - text: >
+      A cut Normandy conversation would have followed if Shepard had ordered Grunt not to
+      speak for himself against Uvenk's offer rather than letting him answer. Grunt, now
+      settled that his place as a krogan is real, tells Shepard he liked the Rite but still
+      has a problem: making that decision for him "was going too far," and if Shepard
+      cannot trust him with Uvenk's clumsy offer, will there be a gun at his back against
+      the Collectors? Unless Shepard takes a hard line, Grunt gets annoyed at every excuse
+      offered — "get consistent, Shepard... maybe I start thinking someone else should
+      lead" — though his loyalty is never actually at risk.
+    source_chunks: [mass-effect-2-cut-content-prologue-and-normandy-voicelines_011, grunt-rite-of-passage_016]
+    conditional: {grunt_uvenk_choice: Shepard chose for Grunt}
+    choice: overruled Grunt on Uvenk's offer instead of letting him answer
+  - text: >
       Grunt joins Clan Urdnot. The Shaman writes to Shepard afterwards.
     source_chunks: [grunt-rite-of-passage_010, grunt-rite-of-passage_013]
   - text: >
@@ -78,9 +90,11 @@ variants:
     source_chunks: [grunt-rite-of-passage_008, gatatog-uvenk_003]
 
 related_scenes: [citadel-grunt-csec-noodles, citadel-party-apartment,
-                 utukku-aralakh-company-rachni-confrontation]
+                 utukku-aralakh-company-rachni-confrontation, normandy-mordin-grunt-confrontation]
 related_events: []
 source_chunks: [grunt-rite-of-passage_001, grunt-rite-of-passage_004, grunt-rite-of-passage_005,
                 grunt-rite-of-passage_006, grunt-rite-of-passage_007, grunt-rite-of-passage_008,
                 grunt-rite-of-passage_009, grunt-rite-of-passage_010, grunt-rite-of-passage_011,
-                grunt-rite-of-passage_013, gatatog-uvenk_003, gatatog-warrior_001, urdnot-wrex_002]
+                grunt-rite-of-passage_013, grunt-rite-of-passage_016, gatatog-uvenk_003,
+                gatatog-warrior_001, urdnot-wrex_002,
+                mass-effect-2-cut-content-prologue-and-normandy-voicelines_011]

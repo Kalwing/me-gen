@@ -1,0 +1,63 @@
+scene_id: msv-ontario-burns-hostage
+title: Talking the L2 Biotics Down Aboard the MSV Ontario
+kind: mission-aside
+game: Mass Effect
+when: 2183, after the Alliance Subcommittee voted down L2 biotic reparations
+where: >
+  the cargo hold and the holding room of the freighter MSV Ontario, run to ground in the
+  Farinata system before it could reach the asteroid belt
+participants: [Shepard, Martin Burns, the L2 Biotic Terrorist Leader, L2 biotic terrorists, Kaidan Alenko]
+private_to: []
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      A group of L2 biotics with severe implant side effects, ignored after writing to
+      Chairman Martin Burns's Subcommittee for Transhuman Studies, kidnapped Burns and
+      fled aboard the MSV Ontario, trying to lose themselves in the Farinata asteroid
+      belt. Shepard picked up the job from Admiral Hackett on entering the system, or off
+      a Citadel elevator news report. The Normandy caught the freighter first, and Shepard
+      led a boarding party through its empty forward compartments to the main cargo hold.
+    source_chunks: [martin-burns_001, unc-hostage_004]
+  - text: >
+      Six biotic terrorists and their leader held the hold. They carried only pistols but
+      threw biotics constantly, knocking the squad down and rushing them in the tight space
+      by the door; explosive crates were scattered through the hold. Shepard could fight
+      across to the far side or, moving fast enough, skip the fight entirely and run
+      straight for the holding-room door.
+    source_chunks: [unc-hostage_004]
+  - text: >
+      Opening the door, Shepard faced the terrorist leader holding Burns at gunpoint with a
+      shotgun. Burns begged for his life and claimed he had changed his mind; the L2s said
+      he had had his chance and blew it, and argued that a grand gesture was the only thing
+      that ever got attention for suffering L2s.
+    source_chunks: [martin-burns_001, unc-hostage_004]
+  - text: >
+      Shepard chose "Take them down!" and started a close-quarters firefight — the
+      shotgun-armed leader the main threat — killing the leader and the terrorists. In this
+      resolution the L2s shot Burns dead before they died.
+    source_chunks: [unc-hostage_004]
+    conditional: {burns_fate: killed in the standoff}
+    choice: forced the confrontation; L2s execute Burns
+  - text: >
+      Shepard argued the L2s down with Charm or Intimidate, pointing out that they still
+      needed Burns's political connections alive to get anything changed. If Kaidan Alenko
+      was in the squad he revealed he was an L2 himself and vouched that Burns could be
+      trusted to follow through. The surviving terrorists stood down and could not be
+      fought afterward; Burns, shaken, said he had never realised how desperate they were
+      and swore the reparations would come.
+    source_chunks: [unc-hostage_004, martin-burns_001]
+    conditional: {burns_fate: talked down and rescued}
+    choice: reasoned with the L2s; Burns freed alive
+  - text: >
+      If Burns lived, he kept his word: by Mass Effect 2 the L2 biotics had received
+      reparations for their implants. A Galactic News report carried his thanks to biotics
+      everywhere and a promise of more help for people "forgotten by the system," and he
+      sent Shepard a message routed through Udina, "Thank you again," admitting he had
+      taken the job for power, that he had been wrong, and offering his aid despite the
+      political heat.
+    source_chunks: [martin-burns_003, unc-hostage_005]
+    conditional: {burns_fate: talked down and rescued}
+    choice: Burns delivers the L2 reparations
+related_scenes: []
+related_events: [chairman-burns-hostage-crisis]
+source_chunks: [martin-burns_001, martin-burns_003, unc-hostage_004, unc-hostage_005]

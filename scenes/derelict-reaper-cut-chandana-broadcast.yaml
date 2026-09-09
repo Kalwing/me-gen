@@ -1,0 +1,45 @@
+scene_id: derelict-reaper-cut-chandana-broadcast
+title: Chandana's Broadcast and the Intact Geth (Cut)
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, cut content — during Reaper IFF aboard the derelict, material only partly used or never shipped
+where: the airlocks and the core chamber of the derelict Reaper orbiting Mnemosyne
+participants: [Shepard, Legion]
+private_to: []
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      A Cerberus VI meant to greet the squad in the Reaper's airlocks was cut. Equalising
+      pressure inward, it warned that the site was Cerberus property and that removing
+      artifacts "for personal use will result in immediate termination"; equalising
+      outward, it chirped that "safety is everyone's concern" and that the team had "gone
+      five days without a workplace death."
+    source_chunks: [mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_002]
+  - text: >
+      Dr. Chandana's full indoctrination monologue — only partly used in the shipped game
+      before he appears as a husk — played over the IFF comm as the squad moved through
+      the hulk. He rambled that the Reaper "was lonely," that its "Masters" were lost when
+      it was shattered, that his team had "become an echo of Their echo," inviting Shepard
+      to join and "remember all our lives," reciting dictionary definitions of "reaper" and
+      "harvest," and ending: "They know you. They wish you to understand. They are
+      shepherds, too."
+    source_chunks: [mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_003]
+  - text: >
+      When the intact geth in the core chamber called out Shepard's name, a round of cut
+      squad reactions would have triggered — Garrus "it's... speaking?", Tali "what is it
+      saying? We can't understand you!", Grunt "great, now machines waste time talking?",
+      Kasumi "how cute, it's trying to talk to us!" — the line heard being squad-dependent.
+    source_chunks: [mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_004]
+  - text: >
+      A cut choice would have let Shepard leave the disabled geth platform behind rather
+      than being forced to recover it. The squad split: Tali urged "leave it there... if it
+      gets into Normandy's computers," with Jacob and Garrus agreeing, while Mordin,
+      Miranda, Kasumi, Samara and Thane pushed to take an unprecedented intact geth for
+      study. Shepard could order it grabbed or order it left; taking it, over Tali's
+      objection, is what the shipped game does anyway.
+    source_chunks: [mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_005, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_006]
+    conditional: {reaper_iff_geth: cut leave-it option}
+    choice: recover or abandon the intact geth platform
+related_scenes: [derelict-reaper-iff-mission, normandy-ai-core-legion-activation]
+related_events: [derelict-reaper-iff-mission]
+source_chunks: [mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_002, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_003, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_004, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_005, mass-effect-2-cut-content-reaper-iff-and-suicide-mission-voicelines_006]
