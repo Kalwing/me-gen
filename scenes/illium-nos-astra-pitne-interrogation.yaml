@@ -1,0 +1,34 @@
+scene_id: illium-nos-astra-pitne-interrogation
+title: Questioning Pitne For at the Spaceport
+kind: banter
+game: Mass Effect 2
+when: "2185, Illium, during Dossier: The Justicar"
+where: the commercial spaceport in Nos Astra on Illium
+participants: [Shepard, Pitne For]
+heard_by: [Illium Law Enforcement, Normandy crew]
+requires:
+  - samara_loyalty: any
+beats:
+  - text: >
+      When Commander Shepard arrived at the Illium spaceport looking to recruit the justicar
+      Samara, they encountered Pitne For, a volus merchant. Pitne was eager to leave the
+      planet, fearing for his life after his business partner Dakni Kur was murdered in Nos
+      Astra by Eclipse mercenaries. Despite protection from two turian bodyguards, Pitne
+      remained frightened, also wary of the justicar Samara who was investigating the same
+      crime.
+    source_chunks: [pitne-for_001]
+  - text: >
+      Shepard questioned Pitne about his involvement in the district and the details of
+      Dakni Kur's death. Pitne claimed to run only legitimate business and said he had no
+      idea why the Eclipse would target him and his partner. He told Shepard that Dakni
+      Kur had been killed with a modded shotgun, the type used by the Eclipse mercenaries.
+    source_chunks: [pitne-for_001]
+  - text: >
+      Later, at Samara's prompting, Shepard confronted Pitne again and pressured him for the
+      truth. Pitne finally admitted that he and Dakni Kur had swindled the Eclipse by selling
+      them a biotic-enhancing drug without mentioning that lethality was a possible side effect
+      of the drug. Realizing he had no way out, Pitne handed Shepard his pass card to the
+      Eclipse base.
+    source_chunks: [pitne-for_001]
+related_events: [samara-recruitment-illium]
+source_chunks: [pitne-for_001]

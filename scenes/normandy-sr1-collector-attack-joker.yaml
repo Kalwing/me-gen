@@ -1,0 +1,46 @@
+scene_id: normandy-sr1-collector-attack-joker
+title: Shepard Dies Getting Joker Off the Dying Normandy
+kind: mission-aside
+game: Mass Effect 2
+when: "2183, the Amada System of the Omega Nebula, on geth-cleanup patrol after the Battle of the Citadel (Prologue: Save Joker)"
+where: the crippled command deck and cockpit of the SSV Normandy SR-1, an escape pod, then open space above Alchera
+participants: [Shepard, Jeff "Joker" Moreau, Kaidan Alenko]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 2
+beats:
+  - text: >
+      On patrol hunting the last geth after Sovereign's defeat, the Normandy was ambushed by
+      an unidentified ship whose beam weapon cut straight through the kinetic barriers and
+      armour, knocking out weapons in a single hit and breaching the hull in several places.
+      Over twenty crew were killed, Navigator Pressly among them. Shepard gave the order to
+      abandon ship.
+    source_chunks: [prologue-save-joker_003, ssv-normandy_011]
+  - text: >
+      A squadmate — the survivor of Virmire, Ashley Williams or Kaidan Alenko — radioed that
+      Joker was refusing to leave the cockpit. Shepard sent them to the escape pods with the
+      rest of the crew and went forward alone through the burning, hull-breached command deck,
+      now open to vacuum, and through an airlock to the bridge.
+    source_chunks: [prologue-save-joker_003]
+  - text: >
+      Joker insisted he could still save the ship. Shepard talked him down — gently or by
+      force — and carried him aft to the last escape pod, buckling him in.
+    source_chunks: [prologue-save-joker_003, jeff-joker-moreau_005]
+  - text: >
+      Before Shepard could climb in, the attacker made another pass; the blast threw Shepard
+      clear of the pod, and Shepard ejected it with only Joker aboard. A final hit destroyed
+      the Normandy and flung Shepard into space, where the hardsuit tore and leaked air.
+      Shepard lost consciousness drifting toward Alchera. Joker lived; the crew presumed
+      Shepard killed in action.
+    source_chunks: [prologue-save-joker_003, ssv-normandy_011, jeff-joker-moreau_005]
+variants:
+  - condition: {romance: Liara}
+    text: >
+      If Liara T'Soni was Shepard's love interest — and always in the PlayStation 3 version,
+      regardless of imported choices — Liara was the squadmate who stayed to argue Joker's
+      case and whom Shepard ordered to the pods.
+    source_chunks: [prologue-save-joker_003, prologue-save-joker_004]
+    choice: Liara is the squadmate on the bridge
+related_scenes: [prologue-awakening-lazarus-station]
+related_events: [normandy-sr1-destruction-alchera]
+source_chunks: [prologue-save-joker_003, prologue-save-joker_004, ssv-normandy_011, jeff-joker-moreau_005]

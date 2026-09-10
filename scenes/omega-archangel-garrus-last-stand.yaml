@@ -4,7 +4,7 @@ kind: mission-aside
 game: Mass Effect 2
 when: 2185, Omega, recruiting the Illusive Man's first batch of dossiers
 where: Garrus's bridge-fortified hideout in the Kima District of Omega
-participants: [Shepard, Garrus Vakarian, Aria T'Loak, Jaroth, Garm, Tarak]
+participants: [Shepard, Garrus Vakarian, Aria T'Loak, Jaroth, Garm, Tarak, Salkie]
 heard_by: [Normandy crew]
 requires:
   - garrus_recruitment: any
@@ -20,6 +20,21 @@ beats:
       krogan battlemaster Garm of the Blood Pack, and Tarak of the Blue Suns — and can
       sabotage a YMIR Mech so it turns on the mercs when deployed.
     source_chunks: [dossier-archangel_004, dossier-archangel_005]
+  - text: >
+      Salkie, the batarian Blue Suns merc running logistics for the assault, debriefs
+      Shepard's group where the shuttle set down. Relieved the recruiter finally sent
+      people who can fight, he gives a tactical overview, says it is only a matter of time
+      before Archangel is captured or killed, answers questions on the plan and the battle
+      so far, and sends the Commander on to Sergeant Cathka.
+    source_chunks: [salkie_001]
+  - text: >
+      If the eager freelancer Jonn Whitson signed on as well, he turns up at the staging
+      area at the same time; Salkie briefly wonders whether the gung-ho human is with
+      Shepard, then sarcastically waves him onward and debriefs the better-armed group
+      instead.
+    source_chunks: [salkie_001]
+    conditional: {jonn_whitson_recruited: true}
+    choice: Jonn Whitson signed on as a freelancer
   - text: >
       At the gunship hangar Shepard has the option to take a sparking welder and jam it
       into Sergeant Cathka, crippling the repairs on Tarak's gunship before it can fly.
@@ -71,4 +86,4 @@ beats:
     source_chunks: [dossier-archangel_016]
 related_scenes: [omega-cathka-hangar, omega-garrus-calls-castis]
 related_events: [garrus-recruitment-archangel]
-source_chunks: [dossier-archangel_004, dossier-archangel_005, dossier-archangel_006, dossier-archangel_012, dossier-archangel_014, dossier-archangel_015, dossier-archangel_016]
+source_chunks: [dossier-archangel_004, dossier-archangel_005, dossier-archangel_006, dossier-archangel_012, dossier-archangel_014, dossier-archangel_015, dossier-archangel_016, salkie_001]

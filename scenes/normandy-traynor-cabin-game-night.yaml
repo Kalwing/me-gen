@@ -1,0 +1,52 @@
+scene_id: normandy-traynor-cabin-game-night
+title: Traynor's Game Night in the Cabin
+kind: hangout
+game: Mass Effect 3
+when: 2186, during the war, off-duty hours
+where: Commander Shepard's cabin aboard the Normandy SR-2
+participants: [Shepard, Samantha Traynor]
+private_to: [Shepard, Samantha Traynor]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      After Shepard has made a point of chatting with her a few times, Comm Specialist
+      Samantha Traynor sends an email with the subject "Game night?", asking to come up
+      during her off-duty hours; Shepard can invite her to the cabin, where she marvels
+      that the quarters are bigger than some apartments she has seen and that Shepard has a
+      private shower.
+    source_chunks: [samantha-traynor_002, samantha-traynor_008]
+  - text: >
+      Traynor brings a holographic chess set and challenges Shepard to a game. Shepard
+      loses badly by subjecting the pieces to real-world rules rather than board rules;
+      Traynor points out that what works in real combat will not work in chess. She is
+      reminded of a joke: "What's the difference between Commander Shepard and a krogan?
+      One is an unstoppable juggernaut of head-butting destruction..."
+    source_chunks: [samantha-traynor_002, samantha-traynor_008]
+  - text: >
+      If Shepard is not trying to woo her, Shepard supplies the punchline; if it lands on
+      her she is impressed, calling it better than the "number of testicles" original, and
+      offers a rematch. If Shepard jokingly pulls rank about performance reviews she snarks
+      about the Commander feeling defensive. Either way Shepard congratulates her on
+      adjusting to life outside the lab.
+    source_chunks: [samantha-traynor_002, samantha-traynor_003]
+  - text: >
+      A male Shepard still gets the "Game Night" email; Traynor notes she only came up to
+      play chess, and if Shepard makes a pass she excuses herself — the Commander is not
+      "her type" — joking that she can now tell everyone she beat Shepard at chess and
+      broke his heart.
+    source_chunks: [samantha-traynor_008]
+    conditional: {gender: Male}
+    choice: male Shepard makes a pass — Traynor turns him down
+variants:
+  - condition: {romance: Traynor}
+    choice: romanced Traynor
+    text: >
+      With a female Shepard, the same visit opens the romance: Traynor takes the offered
+      shower, calls out that a week of stress is washing off, and Shepard can join her.
+      Pursuing it here locks Traynor in as the love interest. Near the endgame she tells
+      Shepard she wants "a house with a white picket fence, a dog, and two children"
+      together, and that she loves her.
+    source_chunks: [samantha-traynor_008]
+related_scenes: [citadel-traynor-kepesh-yakshi, citadel-party-apartment]
+related_events: []
+source_chunks: [samantha-traynor_002, samantha-traynor_003, samantha-traynor_008]

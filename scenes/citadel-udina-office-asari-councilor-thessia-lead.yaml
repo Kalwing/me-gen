@@ -1,0 +1,27 @@
+scene_id: citadel-udina-office-asari-councilor-thessia-lead
+title: The Asari Councilor Points Shepard at Thessia
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, the Citadel, after the liberation of Rannoch (Priority: The Citadel III)"
+where: the late Donnel Udina's office in the Citadel Embassies
+participants: [Shepard, Asari Councilor]
+private_to: [Shepard, Asari Councilor]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      The asari Councilor contacted Shepard on the vid-com the moment the Normandy returned
+      from Rannoch, saying she had information too important to give over a channel and had
+      to meet in person. Shepard came to the Citadel and found her waiting in Udina's old
+      office.
+    source_chunks: [priority-the-citadel-iii_001, priority-the-citadel-iii_003]
+  - text: >
+      She told Shepard the Asari Republics had taken a sharp turn for the worse, then
+      disclosed that a Prothean artifact lay hidden in the Temple of Athame on Thessia and
+      might reveal the location of the Catalyst. Dismissed, Shepard left with the lead;
+      Priority: Thessia opened.
+    source_chunks: [priority-the-citadel-iii_003]
+related_scenes: [thessia-temple-kai-leng-steals-vendetta, normandy-docking-bay-wrex-genophage-confrontation]
+related_events: [priority-thessia]
+source_chunks: [priority-the-citadel-iii_001, priority-the-citadel-iii_003]

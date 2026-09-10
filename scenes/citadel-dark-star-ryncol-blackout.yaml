@@ -1,0 +1,27 @@
+scene_id: citadel-dark-star-ryncol-blackout
+title: Five Drinks at the Dark Star
+kind: downtime
+game: Mass Effect 3
+when: 2186, Citadel shore leave during the Citadel DLC
+where: the Dark Star Lounge on the Silversun Strip, Citadel
+participants: [Shepard, Dark Star bartender]
+private_to: []
+heard_by: [Citadel patrons, Normandy crew]
+requires:
+  - citadel_dlc: any
+beats:
+  - text: >
+      Shepard asks the turian bartender at the Dark Star Lounge for five drinks in a row.
+      He serves ryncol — krogan liquor that Grunt says "hits aliens like ground glass" —
+      and jokes that Shepard will "set off radiological alarms" after drinking it.
+    source_chunks: [ryncol_001]
+  - text: >
+      For the last one the bartender mixes a green ryncol cocktail from separate
+      components, predicting it will knock Shepard out. It does: the scene cuts to Shepard
+      coming to groggily on the floor of the Dark Star's bathroom. The bartender claims
+      that as far as he can recall, only Shepard has ever stayed on their feet after
+      chugging one.
+    source_chunks: [ryncol_001, drinks_006]
+related_scenes: [citadel-dlc-ashley-drinks-and-brawl]
+related_events: []
+source_chunks: [ryncol_001, drinks_006]

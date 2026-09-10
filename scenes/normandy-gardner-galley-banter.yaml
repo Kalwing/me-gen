@@ -1,0 +1,40 @@
+scene_id: normandy-gardner-galley-banter
+title: Gardner in the Galley
+kind: banter
+game: Mass Effect 2
+when: 2185, aboard the Normandy SR-2 during the Collector mission
+where: the mess hall and galley on the crew deck of the Normandy SR-2
+participants: [Shepard, Rupert Gardner]
+private_to: []
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Mess Sergeant Rupert Gardner, the SR-2's cook and all-around handyman, tells Shepard
+      he is "damn proud" of Cerberus — the Alliance and Council have their heads buried too
+      deep to see straight. He was a family man working the frontier element-zero rigs
+      until batarian raiders cost him everything, then joined Cerberus to make a
+      difference. He calls himself a jack-of-all-trades who handles whatever "falls through
+      the cracks," janitorial work and plumbing included, and concedes he cannot fight.
+    source_chunks: [rupert-gardner_002]
+  - text: >
+      Gardner asks Shepard to buy high-grade provisions for the crew's meals, available at
+      the Zakera Cafe store on the Citadel.
+    source_chunks: [rupert-gardner_002, normandy-special-ingredients_003]
+  - text: >
+      If Shepard brings back the provisions, the crew notice the better food — Ken and
+      Gabby down in Engineering, and Kasumi if she is aboard — and Gardner offers Shepard a
+      sample of his calamari gumbo, revealing it is based on an asari recipe and joking
+      that it seems mildly cannibalistic for a tentacled race to eat squid, though the
+      asari "know good grub."
+    source_chunks: [rupert-gardner_002, foods_040]
+    conditional: {normandy_special_ingredients: bought}
+    choice: Shepard buys the high-grade provisions
+  - text: >
+      Gardner's fate turns on the Omega 4 Relay timing: delay after the Collectors abduct
+      the crew and he is processed into raw material with the rest; use the relay
+      immediately and he is saved alongside Kelly Chambers and Dr. Chakwas. If he died at
+      the Collector base, his name is added to the Normandy's Memorial Wall.
+    source_chunks: [rupert-gardner_002, rupert-gardner_003]
+related_scenes: []
+related_events: []
+source_chunks: [rupert-gardner_002, rupert-gardner_003, foods_040, normandy-special-ingredients_003]

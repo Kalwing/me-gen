@@ -1,0 +1,28 @@
+scene_id: normandy-liara-pureblood-conversation
+title: Liara Talks About Her Father
+kind: downtime
+game: Mass Effect
+when: 2183, during the hunt for Saren, between missions aboard the Normandy
+where: the Normandy's medical bay, where Liara keeps to herself
+participants: [Shepard, Liara T'Soni]
+private_to: [Shepard, Liara T'Soni]
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      Between missions Shepard draws Liara T'Soni out about her parentage. She explains the
+      asari term "pureblood" — the child of two asari, spoken of by some as wasteful
+      because "nothing has been gained," and cruel to say to a pureblood's face.
+    source_chunks: [pureblood_002]
+  - text: >
+      Liara believes she is one. Matriarch Benezia never named her other parent; Liara has
+      concluded her "second parent" was another asari, which she offers as the reason for
+      Benezia's silence and the humiliation Benezia wished to avoid. She finds the subject
+      painful, and admits she has long wondered who her "father" was and what passed
+      between her parents.
+    source_chunks: [pureblood_002]
+
+related_scenes: [citadel-apollo-aethyta-liara-father]
+source_chunks: [pureblood_002]

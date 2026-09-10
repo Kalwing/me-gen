@@ -1,0 +1,31 @@
+scene_id: normandy-bar-tali-rael-toast
+title: Tali Talks About Her Father Over Drinks
+kind: downtime
+game: Mass Effect 3
+when: 2186, after the mission on Horizon, Rannoch already reclaimed
+where: the Normandy SR-2 bar
+
+participants: [Shepard, Tali'Zorah vas Normandy]
+private_to: [Shepard, Tali'Zorah vas Normandy]
+heard_by: [Normandy crew]
+
+requires:
+  - rannoch: any
+
+beats:
+  - text: >
+      With Rannoch behind her and Horizon just done, Tali drinks at the Normandy's bar and
+      finally talks about Rael'Zorah — how distant and hard on her he was, and the house he
+      meant to build for the family on the homeworld. She draws the parallel to Miranda Lawson
+      and her own father.
+    source_chunks: [rael-zorah_004]
+  - text: >
+      If she and Shepard are together, Tali muses that Rael would have hated her human partner.
+      Shepard offers a toast to his memory.
+    source_chunks: [rael-zorah_004]
+    conditional: {romance: Tali}
+    choice: romanced Tali
+
+related_scenes: [alarei-rael-zorah-body, rannoch-the-choice-above-the-fleet]
+related_events: []
+source_chunks: [rael-zorah_004]

@@ -1,0 +1,58 @@
+scene_id: earth-fob-final-goodbyes
+title: Goodbyes at the Forward Operating Base
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Priority: Earth, before the armoured assault on the conduit"
+where: the Hammer Forward Operating Base in ruined London
+participants: [Shepard, Anderson, Coats, Garrus Vakarian, Adrien Victus, Liara T'Soni, Javik, Tali'Zorah, EDI, Urdnot Wrex]
+heard_by: [Normandy crew]
+requires:
+  - final_choice: any
+beats:
+  - text: >
+      The evac shuttle off the first landing zone reunited Shepard with Admiral Anderson,
+      who introduced Major Coats, the officer who had covered the extraction. Anderson said
+      it had taken the Reapers to bring the galaxy together; a squadmate answered that
+      Shepard was the true unifying force.
+    source_chunks: [priority-earth_005]
+  - text: >
+      At the FOB, Coats told Shepard how inspiring the Commander would be to the troops, then
+      left to rejoin his unit. Shepard walked the base holding final conversations with the
+      surviving squad — as few as three or as many as seven, depending on who had lived
+      through the trilogy and whether Javik had been recruited.
+    source_chunks: [priority-earth_006]
+  - text: >
+      On a ramp Shepard found Primarch Victus and, if he lived, Garrus; past a husk turret
+      gun, Liara, whose mood turned on how many husks had got through; then Javik and the
+      krogan leader giving a rallying speech to the troops, with Kirrahe or another STG
+      officer alongside if Shepard had sabotaged the genophage under Wrex.
+    source_chunks: [priority-earth_006]
+  - text: >
+      In the last room Shepard found EDI, Tali, and Anderson conferring with Coats. Anderson
+      laid out the battle plan — a frontal armoured assault on the conduit past a parked
+      Reaper Destroyer — and Shepard made an inspiring or grimly determined speech and picked
+      the final squad.
+    source_chunks: [priority-earth_006]
+variants:
+  - condition: {krogan_leader: Wreav}
+    choice: Wreav leads the krogan
+    text: >
+      If Wreav rather than Wrex led the krogan, he gave the rallying speech in Wrex's place,
+      and no salarian STG officer stood beside him.
+    source_chunks: [priority-earth_006]
+  - condition: {geth_quarian: geth}
+    choice: the geth won at Rannoch
+    text: >
+      If the geth wiped out the quarians at Rannoch, a Geth Prime stood in the final room
+      where Tali would be; if the quarians won but Tali had died in Mass Effect 2, Admiral
+      Raan took that place instead.
+    source_chunks: [priority-earth_006]
+  - condition: {garrus_alive: false}
+    choice: Garrus died in Mass Effect 2
+    text: >
+      If Garrus did not survive, only Victus stood on the ramp and the squad Shepard said
+      goodbye to was smaller.
+    source_chunks: [priority-earth_006]
+related_scenes: [earth-conduit-harbinger-last-run, citadel-catalyst-final-chamber]
+related_events: [london-conduit-assault]
+source_chunks: [priority-earth_005, priority-earth_006]

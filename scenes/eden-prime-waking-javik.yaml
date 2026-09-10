@@ -1,0 +1,45 @@
+scene_id: eden-prime-waking-javik
+title: Waking the Last Prothean on Eden Prime
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel"
+where: the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster
+participants: [Shepard, Liara T'Soni, Javik]
+heard_by: [Normandy crew]
+requires:
+  - javik: yes
+beats:
+  - text: >
+      Alliance command reported that Cerberus had attacked and occupied Eden Prime to secure
+      a major Prothean artifact. Shepard infiltrated the colony with Liara T'Soni as a
+      mandatory squadmate; on the shuttle in the team talked about the last time Shepard had
+      been to Eden Prime.
+    source_chunks: [priority-eden-prime_002, priority-eden-prime_003, priority-eden-prime_004]
+  - text: >
+      A cutscene at the dig site revealed that Cerberus had excavated a living Prothean held
+      in stasis, and had damaged his lifepod during the dig, leaving his life signs
+      unstable. Liara worked out that opening the pod without killing him needed both a
+      command signal to end stasis and a safe physical method of opening it, each being
+      researched at a separate Cerberus laboratory.
+    source_chunks: [priority-eden-prime_005]
+  - text: >
+      At the lab terminals Shepard's eyes glowed green while watching Prothean footage of the
+      Reaper invasion 50,000 years earlier — the VI Victory sealing bunker bulkheads, some
+      300,000 lifepods destroyed, the stasis-readiness signal broadcast while refugees were
+      still trying to reach shelter. Liara saw only static, and deduced that Shepard's
+      exposure to the Prothean Cipher on Feros (or the Eden Prime beacon in a non-imported
+      game) let the Commander read the images.
+    source_chunks: [priority-eden-prime_006, priority-eden-prime_007]
+  - text: >
+      Shepard returned to the pod, transmitted the command signal, and held the site against
+      waves of Cerberus troops and an Atlas mech.
+    source_chunks: [priority-eden-prime_009]
+  - text: >
+      The pod opened. Shepard spoke with the Prothean on the planet and again back aboard the
+      Normandy; he introduced himself as Javik and joined the squad, found afterward in the
+      port cargo hold. He stayed out of combat until Priority: Palaven was done, saying he
+      was still recovering from stasis.
+    source_chunks: [priority-eden-prime_009, priority-eden-prime_010]
+related_scenes: [eden-prime-beacon-mission]
+related_events: [priority-eden-prime-javik]
+source_chunks: [priority-eden-prime_002, priority-eden-prime_003, priority-eden-prime_004, priority-eden-prime_005, priority-eden-prime_006, priority-eden-prime_007, priority-eden-prime_009, priority-eden-prime_010]

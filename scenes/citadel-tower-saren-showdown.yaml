@@ -3,7 +3,7 @@ title: Saren's Fall in the Council Chambers
 kind: mission-aside
 game: Mass Effect
 when: 2183, the Battle of the Citadel
-where: the Council Chambers, Citadel Tower
+where: the Presidium, the Citadel Tower exterior, and the Council Chambers
 
 participants: [Shepard]
 private_to: []
@@ -13,49 +13,103 @@ requires: []
 
 beats:
   - text: >
-      Sovereign settles onto the Citadel Tower and extrudes cables into it to force open the
-      relay to dark space. Pursuing Saren, Shepard's squad reaches the station's master
-      control unit in the Council's audience chamber.
-    source_chunks: [citadel-tower_002]
+      The Conduit throws Shepard's Mako out onto the Presidium, where it crushes two
+      investigating geth and rolls to a stop. Shepard and the squad climb from the wreck.
+      Three Dragon's Teeth drop and release husks; the squad puts them down to clear the
+      elevator. The VI Avina reports the Presidium's damage, that Saren is nearing the
+      Council Chambers, that C-Sec cannot respond, and that the Council and nearly ten
+      thousand inhabitants have been evacuated to the Destiny Ascension.
+    source_chunks: [race-against-time-final-battle_003]
   - text: >
-      Shepard confronts Saren there. Saren dies and falls through the glass into the garden
-      below the stage.
-    source_chunks: [citadel-tower_002]
+      Sovereign forces past the closing arms, destroys a turian cruiser, and wraps its
+      limbs around the Citadel Tower. The elevator carrying Shepard's squad shudders to a
+      halt partway up. Shepard orders the squad to seal their suits; a shot shatters the
+      window and they step out onto the tower's exterior. In zero-g, held to the hull by
+      magnetic boots, they cross the Maintenance Shaft, Exhaust Plain and Exterior Defense
+      Grid, fighting geth Destroyers, Juggernauts and turrets, a Geth Dropship, and krogan
+      Warriors, Warlords and a Battlemaster.
+    source_chunks: [race-against-time-final-battle_004, race-against-time-final-battle_005, race-against-time-final-battle_006]
   - text: >
-      Saren's body is reanimated as an avatar of Sovereign; the transformation collapses the
-      stage, and Shepard's squad fights the creature down in the garden until it is
-      destroyed.
-    source_chunks: [citadel-tower_002]
+      Sovereign has extruded cables into the tower to force open the relay to dark space.
+      The squad enters the burning Council Chambers, clears Saren's last geth line, and
+      reaches the station's Master Control Terminal.
+    source_chunks: [citadel-tower_002, race-against-time-final-battle_007]
   - text: >
-      Before the killing blow, Joker radios in: he's holding the entire Arcturus Fleet at the
-      relay, and can save the flagship Destiny Ascension — with the Council aboard — from the
-      geth ships tearing it apart, if Shepard opens the Citadel's arms. Squadmates argue both
-      ways: one wants the Council left to die for what humanity hasn't gotten from them, the
-      other that Sovereign threatens the whole galaxy and the fleet can't be spared. It is
-      Shepard's call.
+      Saren appears on his hover platform, throws a grenade to scatter the squad, and
+      reveals that Sovereign implanted him and has fully indoctrinated him. He warns that
+      the Reapers cannot be stopped and will return.
+    source_chunks: [race-against-time-final-battle_007, saren-arterius_008]
+  - text: >
+      If Shepard reached the man behind the indoctrination on Virmire, Saren admits he
+      could not stop thinking about what Shepard said, and that Sovereign implanted him
+      when it sensed his hesitation. Shepard talks him into fighting the implants; Saren
+      pulls his pistol and shoots himself in the head to keep from opening the relay —
+      "Goodbye, Shepard. Thank you."
+    source_chunks: [race-against-time-final-battle_007, saren-arterius_008]
+    conditional: {saren_confrontation: talked into suicide}
+    choice: Saren talked into suicide
+  - text: >
+      Otherwise Shepard fights Saren across the chamber; immune on his platform to most
+      biotics, he is worn down with gunfire and tech powers until he takes enough damage,
+      falls from the platform, and crashes through the skylight into the garden below.
+    source_chunks: [race-against-time-final-battle_007, saren-arterius_008]
+    conditional: {saren_confrontation: fought to the death}
+    choice: Saren fought to the death
+  - text: >
+      Shepard walks to the Master Control Terminal and uploads Vigil's data file, taking
+      temporary control of every Citadel system, then opens a comm channel.
     source_chunks: [race-against-time-final-battle_008]
   - text: >
-      Ordering the fleet to save the Ascension, the Alliance ships take losses but destroy the
-      geth attacking it; Hackett then throws every remaining ship at Sovereign.
+      The first traffic is a mayday from the Destiny Ascension — shields failing, engines
+      offline, the Council aboard. Then Joker cuts in: he is holding the entire Arcturus
+      Fleet at the Andura relay and can save the flagship if Shepard opens the Citadel's
+      arms. Squadmates argue both ways — one wants the Council left to die for what
+      humanity has not gotten from them, the other that Sovereign threatens the whole
+      galaxy and the fleet cannot be spared. It is Shepard's call.
+    source_chunks: [race-against-time-final-battle_008]
+  - text: >
+      Ordering the fleet to save the Ascension, the Alliance ships — led by the Normandy —
+      take losses but destroy the geth tearing at it; Hackett then throws every remaining
+      ship at Sovereign.
     source_chunks: [race-against-time-final-battle_008]
     conditional: {council_fate: saved}
     choice: Council saved
   - text: >
       Ordering the fleet to hold back — whether to let the Council die or to concentrate
-      everything on Sovereign — the Ascension is left undefended and destroyed by the geth as
-      the Alliance fleet passes it by; Hackett then throws every remaining ship at Sovereign.
+      everything on Sovereign — the Ascension is left undefended, its hail to the Alliance
+      fleet cut off, and it is destroyed by the geth as the fleet passes it by; Hackett
+      then throws every remaining ship at Sovereign.
     source_chunks: [race-against-time-final-battle_008]
     conditional: {council_fate: died}
     choice: Council left to die
   - text: >
-      When the Alliance and the remaining Citadel Fleet destroy Sovereign outside, a large
-      piece of debris crashes into the Tower, nearly burying and crushing Shepard's team,
-      until a rescue party led by Captain Anderson finds them.
+      Shepard orders the squad to confirm Saren dead; one puts another round into the
+      corpse. The station rocks, red lightning floods the chamber, and Sovereign
+      reanimates the body — the flesh burns away to a metal skeleton that leaps off. The
+      platform under Shepard drops the Commander into the garden.
+    source_chunks: [citadel-tower_002, race-against-time-final-battle_008]
+  - text: >
+      Saren's Sovereign-driven avatar fights like a Geth Hopper, jumping and throwing
+      powers; Shepard keeps moving through the garden and cuts it down until it collapses
+      into dust.
+    source_chunks: [citadel-tower_002, race-against-time-final-battle_009]
+  - text: >
+      With the avatar dead, Sovereign's shields drop and it releases the tower. Joker
+      radios the fleet, Hackett orders everything to fire, and the Normandy swings hard
+      and puts a missile clean through Sovereign; secondary explosions tear the Reaper
+      apart. A large piece of debris crashes into the Council Chambers; Shepard orders the
+      squad to run.
+    source_chunks: [race-against-time-final-battle_010]
+  - text: >
+      An Alliance rescue party led by Captain Anderson combs the wreckage, finds Shepard's
+      squadmates, and fears the Commander lost — until an injured, exhausted Shepard climbs
+      over the debris and limps over to join them.
     source_chunks: [citadel-tower_002]
   - text: >
-      If the Council survived, they thank and honor humanity's sacrifice — more grudgingly if
-      Shepard leans Renegade, warier of the war still coming — and offer humanity the open
-      Council seat. The Asari Councilor says Shepard's vote on who fills it will carry weight.
+      If the Council survived, they thank and honor humanity's sacrifice — more grudgingly
+      if Shepard leans Renegade, warier of the war still coming — and offer humanity the
+      open Council seat. The Asari Councilor says Shepard's vote on who fills it will carry
+      weight.
     source_chunks: [race-against-time-final-battle_011]
     conditional: {council_fate: saved}
     choice: Council saved — seat offered
@@ -76,6 +130,9 @@ beats:
     conditional: {council_fate: died}
     choice: Council died — new Council formed
 
-related_scenes: []
-related_events: []
-source_chunks: [citadel-tower_002, race-against-time-final-battle_008, race-against-time-final-battle_011, race-against-time-final-battle_012]
+related_scenes: [me1-ilos-find-the-conduit, me1-ilos-conduit-run]
+related_events: [saren-sovereign-final-battle, battle-of-the-citadel-destiny-ascension]
+source_chunks: [citadel-tower_002, race-against-time-final-battle_003, race-against-time-final-battle_004,
+                race-against-time-final-battle_005, race-against-time-final-battle_006, race-against-time-final-battle_007,
+                race-against-time-final-battle_008, race-against-time-final-battle_009, race-against-time-final-battle_010,
+                race-against-time-final-battle_011, race-against-time-final-battle_012, saren-arterius_008]

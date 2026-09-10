@@ -1,0 +1,37 @@
+scene_id: presidium-preaching-hanar-dispute
+title: The Preaching Hanar and the C-Sec Officer
+kind: argument
+game: Mass Effect
+when: 2183, after the Council first dismissed the charges against Saren
+where: the Citadel Presidium, near the Wards Access corridor on the way to the Citadel Tower
+participants: [Shepard, Preaching Hanar, C-Sec Officer]
+beats:
+  - text: >
+      A turian C-Sec officer and a deeply religious hanar were arguing over whether the hanar
+      could preach about the Enkindlers on the Presidium. The officer said evangelising there
+      was illegal, that the Citadel had designated preaching areas elsewhere, and that the
+      hanar had no evangelical permit; the hanar stayed calm and polite despite the officer's
+      rudeness, arguing that stating the truth was not preaching and needed no permit.
+      Shepard overheard and stepped in.
+    source_chunks: [citadel-presidium-prophet_001, citadel-presidium-prophet_002, preaching-hanar_001]
+  - text: >
+      Shepard bought the hanar an evangelical permit for 150 credits so it could go preach
+      legally elsewhere; no morality shift.
+    source_chunks: [citadel-presidium-prophet_003]
+    conditional: {presidium_hanar: permit_bought}
+    choice: bought the hanar a permit
+  - text: >
+      Shepard told the hanar it was misusing the Enkindlers' gift of speech and sentience by
+      breaking the law to spread their message; the hanar conceded its enthusiasm had got the
+      better of it and left, and the C-Sec officer thanked Shepard and paid a reward.
+    source_chunks: [citadel-presidium-prophet_003, preaching-hanar_001]
+    conditional: {presidium_hanar: hanar_leaves}
+    choice: talked the hanar into leaving
+  - text: >
+      Shepard pressed the officer on whether anyone had actually complained; forced to admit
+      no one had, he was persuaded to leave. The hanar stayed on the Presidium, preaching to
+      passers-by about the glory of the Enkindlers, and rewarded Shepard.
+    source_chunks: [citadel-presidium-prophet_003, preaching-hanar_001]
+    conditional: {presidium_hanar: officer_leaves}
+    choice: talked the officer into backing off
+source_chunks: [citadel-presidium-prophet_001, citadel-presidium-prophet_002, citadel-presidium-prophet_003, preaching-hanar_001]

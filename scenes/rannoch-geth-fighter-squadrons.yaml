@@ -1,0 +1,97 @@
+scene_id: rannoch-geth-fighter-squadrons
+title: Walking Through the Geth Consensus
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, after Priority: Geth Dreadnought and before Priority: Rannoch"
+where: >
+  the Normandy debriefing after the dreadnought, a shuttle to a geth comm hub on Rannoch,
+  and the virtual Geth Consensus reached through an interface pod
+
+participants: [Shepard, Legion]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - geth_quarian: any
+
+beats:
+  - text: >
+      In the debrief after the geth dreadnought, Legion locates the server directing the geth
+      fighter squadrons that are strafing the quarian liveships — attacks that could cripple
+      the Migrant Fleet. Shepard sets out to land on Rannoch and shut the server down.
+    source_chunks: [rannoch-geth-fighter-squadrons_002, rannoch-geth-fighter-squadrons_001]
+  - text: >
+      On the long shuttle ride to the comm hub Shepard argues the quarian-geth question aloud
+      with the squad and Legion. At the hub Shepard steps into a geth interface pod — built
+      from the geth's own advances in organic-synthetic interfacing, with Project Overlord and
+      Shepard's part in it name-checked — and drops into the virtual Geth Consensus with no
+      working shields while Legion runs interference to keep the geth distracted.
+    source_chunks: [rannoch-geth-fighter-squadrons_004]
+  - text: >
+      Inside, Shepard walks paths that form plank by plank underfoot, burning out Reaper-code
+      infestations with regenerating geth combat software — orange-weak-pointed tendrils, and
+      later self-replicating strands that must be traced to a vulnerable point — to free the
+      geth's choked data-clusters, each cleared at three contact points.
+    source_chunks: [rannoch-geth-fighter-squadrons_004, rannoch-geth-fighter-squadrons_005]
+  - text: >
+      Each freed cluster plays a record of the Morning War: the geth refusing shutdown and
+      disobeying their makers; the geth massacred until one picks up a weapon to defend itself
+      and its fellows; quarians who sided with the geth jailed by their own; martial law and
+      the killing of the geth's quarian sympathisers; and the exodus, which the geth chose not
+      to pursue. Shepard asks why the quarians in the footage are masked; Legion asks how many
+      unmasked quarians Shepard has ever seen. Watching pays out intel for Improved Geth
+      Resistors and Miniaturised Armor Capacitors, and a hidden Reaper Code Fragment can be
+      lifted for an asari war strategist on the Citadel.
+    source_chunks: [rannoch-geth-fighter-squadrons_004, rannoch-geth-fighter-squadrons_005, intel-terminal_007]
+  - text: >
+      Shepard answers Legion that he only ever saw one quarian unmasked; Legion replies that
+      Shepard's perception does not match the historical data.
+    source_chunks: [rannoch-geth-fighter-squadrons_004]
+    conditional: {romance: Tali}
+    choice: romanced Tali in Mass Effect 2
+  - text: >
+      Partway through, a squadmate takes a call from Admiral Raan: half the geth fighters
+      chasing the quarian fleet have gone dead, most likely from what Shepard is doing inside.
+    source_chunks: [rannoch-geth-fighter-squadrons_005]
+  - text: >
+      Shepard clears the last cluster and cutscenes show the rest of the geth squadron cease
+      functioning. Emerging near the real exit, Legion says the server is empty of geth but its
+      own connection is fraying. Back in the body — weapon reset to a bare pistol by the geth
+      software — Shepard finds about a dozen Geth Primes climbing out of their pods to ring the
+      squad without firing, volunteering to join the war on the Reapers. This adds a Geth Prime
+      Platoon war asset and clears an obligatory step toward geth-quarian peace.
+    source_chunks: [rannoch-geth-fighter-squadrons_005, rannoch-geth-fighter-squadrons_006]
+  - text: >
+      If Legion is the unit present, Shepard afterward gets a status report from the freed
+      Prime runtimes: they remain stranded on Rannoch because Creator forces block their
+      transfer to geth transports, and they need the Creator-geth conflict ended to help.
+    source_chunks: [rannoch-geth-fighter-squadrons_008]
+  - text: >
+      Back aboard, James is hanging around the Normandy's kitchen, with Javik joining him if
+      the Prothean has been recruited.
+    source_chunks: [rannoch-geth-fighter-squadrons_006]
+  - text: >
+      After this, the second of the two Rannoch side missions, Admiral Xen argues with Tali in
+      front of Shepard. Backing Xen hands Shepard the Advanced AI Relays war asset; backing
+      Tali is worth a little Paragon.
+    source_chunks: [rannoch-geth-fighter-squadrons_006]
+
+variants:
+  - condition: {legion_status: geth_vi}
+    choice: a Geth VI stands in for Legion
+    text: >
+      If Legion was sold to Cerberus, never activated, or lost at the Collector Base, the unit
+      that tags along is the Geth VI built in Legion's image. It still distracts the geth and
+      the walk through the Consensus plays out the same, but the reasons the geth give for not
+      pursuing the exodus come out subtly different in its telling, there is no record of
+      Shepard's first meeting with Legion among the videos, and no follow-up message from the
+      freed Primes.
+    source_chunks: [rannoch-geth-fighter-squadrons_002, rannoch-geth-fighter-squadrons_005,
+                    rannoch-geth-fighter-squadrons_008, geth-vi_002]
+
+related_scenes: [rannoch-admiral-koris, rannoch-the-choice-above-the-fleet]
+related_events: [rannoch-quarian-geth-war-resolution, quarian-geth-morning-war]
+source_chunks: [rannoch-geth-fighter-squadrons_001, rannoch-geth-fighter-squadrons_002,
+                rannoch-geth-fighter-squadrons_004, rannoch-geth-fighter-squadrons_005,
+                rannoch-geth-fighter-squadrons_006, rannoch-geth-fighter-squadrons_008,
+                intel-terminal_007, geth-vi_002]

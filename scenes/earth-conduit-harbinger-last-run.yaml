@@ -1,0 +1,58 @@
+scene_id: earth-conduit-harbinger-last-run
+title: The Last Run to the Beam, and Anderson on the Citadel
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Priority: Earth, the final push to the Citadel transport beam"
+where: the streets of occupied London around the Reaper conduit, then the reconfigured Citadel
+participants: [Shepard, Anderson, Coats, Harbinger, Illusive Man]
+heard_by: [Normandy crew]
+requires:
+  - final_choice: any
+beats:
+  - text: >
+      With the missile battery secured and EDI coordinating Thanix missiles from the
+      Normandy, the team destroyed the Reaper Destroyer guarding the conduit. Anderson then
+      rolled up in an armoured personnel carrier with Coats and the remnants of Hammer.
+    source_chunks: [priority-earth_010, priority-earth_011]
+  - text: >
+      Inside the APC on the approach, Anderson said they only needed a handful of troops
+      through the beam; Shepard made a last Paragon or Renegade remark and a squadmate
+      answered, before an explosion crippled the vehicle. Outside, the conduit was a few
+      hundred metres off — and Harbinger had arrived, settling onto the conduit and
+      annihilating the ground forces with its main guns. Shepard ran.
+    source_chunks: [priority-earth_011]
+  - text: >
+      In the Extended Cut the squadmates Shepard brought lived or died by Effective Military
+      Strength (below 4200 EMS in Legendary Edition they died); if they lived, the Normandy
+      made an emergency drop and pulled them out for a last farewell. Shepard went on alone,
+      was caught by one of Harbinger's beams, and reached the beam badly wounded and by
+      themselves, fighting through three Husks and a Marauder with an infinite-clip pistol.
+    source_chunks: [priority-earth_011, priority-earth_012]
+  - text: >
+      Through the beam, Shepard came out on the reconfigured Citadel among corpses and
+      prowling keepers, disoriented, speaking with Anderson over comms — Anderson had
+      followed up but exited elsewhere. They crossed a narrow walkway and met on a platform,
+      where Anderson was held hostage by a radically altered Illusive Man who could now
+      puppeteer both of them.
+    source_chunks: [priority-earth_013]
+  - text: >
+      Having taken the Paragon line with the Illusive Man at every prior meeting — Mars,
+      Thessia, Cronos Station — Shepard convinced him he was indoctrinated; he took
+      Anderson's sidearm and shot himself.
+    source_chunks: [priority-earth_013]
+    conditional: {illusive_man_end: paragon}
+    choice: talked the Illusive Man into suicide
+  - text: >
+      Otherwise Shepard took the Renegade interrupt and killed the Illusive Man; not taking
+      the final interrupt was a mission failure.
+    source_chunks: [priority-earth_013]
+    conditional: {illusive_man_end: renegade}
+    choice: shot the Illusive Man
+  - text: >
+      Shepard opened the arms of the Citadel so the Crucible could dock. If Anderson still
+      lived, the two shared one last quiet conversation before Shepard blacked out and woke
+      to the Catalyst.
+    source_chunks: [priority-earth_013]
+related_scenes: [earth-fob-final-goodbyes, citadel-catalyst-final-chamber, cronos-station-illusive-man-and-kai-leng]
+related_events: [london-conduit-assault]
+source_chunks: [priority-earth_010, priority-earth_011, priority-earth_012, priority-earth_013]

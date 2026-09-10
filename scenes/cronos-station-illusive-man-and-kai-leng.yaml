@@ -1,0 +1,62 @@
+scene_id: cronos-station-illusive-man-and-kai-leng
+title: The Third Meeting, and the End of Kai Leng
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Priority: Cerberus Headquarters, the assault on Cronos Station — the point of no return"
+where: the Illusive Man's inner sanctum aboard Cronos Station, orbiting Anadius in the Horse Head Nebula
+participants: [Shepard, EDI, Illusive Man, Kai Leng]
+heard_by: [Normandy crew]
+requires:
+  - final_choice: any
+beats:
+  - text: >
+      As the Normandy moved to dock at Cerberus's headquarters — Cronos Station in orbit of
+      Anadius — Admiral Hackett warned Shepard over vidcomm that this attack would expose
+      the Crucible to the Reapers and had to be treated as the first phase of the assault on
+      the Reapers themselves, offering one last chance to back out. Shepard committed. EDI
+      came as a mandatory squadmate, with a second member (often Shepard's love interest)
+      chosen for the run.
+    source_chunks: [priority-cerberus-headquarters_003, priority-cerberus-headquarters_004]
+  - text: >
+      The team fought through the hangar bay — stopping Cerberus from venting it into space —
+      and the rotation and drive sections toward the Illusive Man's sanctum, passing video
+      terminals that laid out the Lazarus Project that rebuilt Shepard, EDI's own origin as
+      the Rogue VI, Kai Leng, and Cerberus's Reaper-implant research. A love interest in the
+      squad had personal things to say at the Lazarus Project console.
+    source_chunks: [priority-cerberus-headquarters_006, priority-cerberus-headquarters_007]
+  - text: >
+      If Shepard had turned Legion over to Cerberus after the Reaper IFF mission, it appeared
+      among the Human-Reaper larva's remains as a unique "Legion Assassin" and had to be
+      killed.
+    source_chunks: [priority-cerberus-headquarters_008]
+    conditional: {legion_status: given_to_cerberus}
+    choice: Legion was handed to Cerberus in Mass Effect 2
+  - text: >
+      If Grissom Academy: Emergency Evacuation had not been completed, an indoctrinated Jack
+      appeared here as a unique Phantom and had to be killed.
+    source_chunks: [priority-cerberus-headquarters_008]
+    conditional: {grissom_academy: not_completed}
+    choice: Grissom Academy was left undone
+  - text: >
+      In the sanctum Shepard confronted the Illusive Man by hologram for the third time; he
+      spoke again of controlling the Reapers, and Charm or Intimidate options taken here
+      carried into the final confrontation on the Citadel. He cut the link as the team
+      reached the Prothean VI Vendetta, which revealed the Catalyst was the Citadel itself —
+      but the Illusive Man, having overridden Vendetta's security, already knew, had fled to
+      the Citadel, and had alerted the Reapers, who seized the station and moved it to Earth.
+    source_chunks: [priority-cerberus-headquarters_009]
+  - text: >
+      Kai Leng then attacked. After a running battle through the collapsing sanctum against
+      Leng and three waves of Cerberus reinforcements, Shepard broke him. Leng tried a final
+      sneak attack; with an optional Renegade interrupt Shepard caught and shattered the
+      blade, otherwise dodged it, and finished him with an omni-blade.
+    source_chunks: [priority-cerberus-headquarters_010]
+  - text: >
+      Shepard had a last exchange with Vendetta (a Renegade interrupt, or a Paragon one if
+      Shepard waited), then returned to the Normandy for a debrief with Anderson, who
+      confirmed the Citadel now orbited Earth. Priority: Earth opened, with Sol the only
+      reachable system.
+    source_chunks: [priority-cerberus-headquarters_010, priority-cerberus-headquarters_011]
+related_scenes: [citadel-catalyst-final-chamber, earth-conduit-harbinger-last-run]
+related_events: [priority-cerberus-headquarters]
+source_chunks: [priority-cerberus-headquarters_003, priority-cerberus-headquarters_004, priority-cerberus-headquarters_006, priority-cerberus-headquarters_007, priority-cerberus-headquarters_008, priority-cerberus-headquarters_009, priority-cerberus-headquarters_010, priority-cerberus-headquarters_011]

@@ -2,31 +2,59 @@ scene_id: mars-archives-eva-shoots-ashley
 title: Dr. Eva Guns Down the Virmire Survivor on Mars
 kind: mission-aside
 game: Mass Effect 3
-when: 2186, the Prothean Archives mission on Mars, during the Reaper invasion of Earth
-where: the Prothean dig site on Mars
+when: "2186, Priority: Mars, during the Reaper invasion of Earth"
+where: the Prothean archives dig site on Mars, from the facility to the rooftop landing pad
 
-participants: [Shepard, Ashley Williams, Liara T'Soni]
+participants: [Shepard, Liara T'Soni, James Vega, Ashley Williams, Kaidan Alenko]
 private_to: []
 heard_by: [Normandy crew]
 
 requires:
-  - virmire_survivor: Ashley
+  - virmire_survivor: any
 
 beats:
   - text: >
-      After evacuating Shepard from Earth, Ashley — now a Lieutenant Commander — joins
-      Shepard and Liara on a mission to Mars to recover Prothean data Liara believes could
-      help defeat the Reapers. Ashley still mistrusts Shepard's Cerberus ties, and
-      discovering Cerberus troops holding the dig site, and that Cerberus has processed
-      its own people, deepens her worry about what was done to Shepard.
-    source_chunks: [ashley-williams_010]
+      After evacuating Shepard from Earth, the Virmire survivor joined Shepard and James Vega
+      aboard the Normandy for the run to the Prothean archives on Mars, where Hackett wanted
+      data that might stop the Reapers. As the elevator pressurised into the facility the
+      survivor and Shepard talked; the survivor still mistrusted Shepard's Cerberus ties, and
+      finding Cerberus troops executing the Alliance researchers — the first time Cerberus
+      fought Shepard as an enemy faction — deepened the worry about what had been done to
+      Shepard.
+    source_chunks: [priority-mars_005, ashley-williams_010]
   - text: >
-      Near the end of the mission, chasing down the Cerberus mole Dr. Eva, Ashley is
-      critically wounded when the Illusive Man orders Eva to "finish her." Shepard
-      disables Eva and flees Mars with Ashley, taking her to Huerta Memorial Hospital on
-      the Citadel.
+      Inside, Shepard reunited with Dr. Liara T'Soni, who revealed she had found Prothean
+      plans for a device — the Crucible — capable of stopping the Reapers, and that Cerberus
+      was there to seize them. Shepard sent Vega back to guard the shuttle and took Liara
+      forward through the complex, learning that the Cerberus operatives had been implanted
+      with Reaper technology.
+    source_chunks: [priority-mars_005]
+  - text: >
+      In the archive chamber the Illusive Man appeared by hologram. The Cerberus infiltrator
+      Dr. Eva Coré was caught stealing the Prothean data, triggering a rooftop chase; Eva
+      reached a shuttle and Vega crashed his into hers, and her organic disguise was
+      destroyed, revealing a mech infiltration unit.
+    source_chunks: [priority-mars_010]
+  - text: >
+      On the Illusive Man's order, Eva gravely wounded the Virmire survivor before Shepard
+      shot her down. Shepard ordered James to bring the body aboard; the Normandy left Mars
+      orbit just as the Reapers arrived, the wounded crewmate was rushed to the med bay, and
+      Shepard ordered Joker to set course for the Citadel.
+    source_chunks: [priority-mars_011, ashley-williams_010]
+  - text: >
+      If the survivor was Ashley Williams — a newly promoted Lieutenant Commander who had
+      never stopped believing Shepard was alive — she was taken to Huerta Memorial Hospital
+      on the Citadel to recover.
     source_chunks: [ashley-williams_010]
+    conditional: {virmire_survivor: Ashley}
+    choice: the Virmire survivor is Ashley
+  - text: >
+      If the survivor was Major Kaidan Alenko, he was likewise critically wounded by Eva and
+      taken to Huerta Memorial Hospital on the Citadel.
+    source_chunks: [priority-mars_011]
+    conditional: {virmire_survivor: Kaidan}
+    choice: the Virmire survivor is Kaidan
 
-related_scenes: [citadel-huerta-ashley-recovery]
+related_scenes: [citadel-huerta-ashley-recovery, normandy-edi-takes-the-mech-body]
 related_events: [priority-mars]
-source_chunks: [ashley-williams_010]
+source_chunks: [priority-mars_005, priority-mars_010, priority-mars_011, ashley-williams_010]

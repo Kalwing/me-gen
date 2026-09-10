@@ -1,0 +1,60 @@
+scene_id: virmire-rana-thanoptis-office
+title: Rana Thanoptis Under the Desk
+kind: mission-aside
+game: Mass Effect
+when: 2183, the assault on Saren's base on Virmire
+where: Rana Thanoptis's office inside Saren's cloning and indoctrination facility
+
+participants: [Shepard, Rana Thanoptis]
+private_to: [Shepard, Rana Thanoptis]
+heard_by: [Normandy crew]
+
+beats:
+  - text: >
+      Pushing through Saren's base, Shepard's squad enters an office and finds Rana Thanoptis,
+      Saren's asari neurospecialist, hiding under her desk. She begs them not to shoot and
+      offers information for her life.
+    source_chunks: [rana-thanoptis_001, rana-thanoptis_002]
+  - text: >
+      She was assigned to study Sovereign's effect on organic minds and found that
+      indoctrination spreads past the test subjects — the captive salarians — to the support
+      staff; her own first subject was her predecessor. She tells Shepard about indoctrination,
+      and that Saren fears it is working on him too. She says her posting turned out more
+      "permanent" than promised and she wants out before she becomes a subject herself.
+    source_chunks: [rana-thanoptis_002]
+  - text: >
+      In trade she gives the squad access to Saren's private lab, where another Prothean Beacon
+      is stored.
+    source_chunks: [rana-thanoptis_002]
+  - text: >
+      Once she has given up everything useful, Shepard shoots her where she stands as she
+      pleads that she was only following orders.
+    source_chunks: [rana-thanoptis_002]
+    conditional: {rana_fate: killed}
+    choice: killed Rana on Virmire
+  - text: >
+      Once she has given up everything useful, Shepard tells her to start running. She is
+      horrified to learn the facility is about to be destroyed and bolts.
+    source_chunks: [rana-thanoptis_002]
+    conditional: {rana_fate: spared}
+    choice: let Rana go on Virmire
+  - text: >
+      Spared, she crosses Shepard's path again on Korlus in 2185 during the hunt for Dr. Okeer,
+      now writing mind-imprint routines for his tank-bred krogan, most of whom die. She admits
+      she shut off the facility's cameras when she saw Shepard approaching. Let go a second
+      time, she quips that she "knows how Shepard works" and means to get well clear before
+      anything blows up.
+    source_chunks: [rana-thanoptis_003]
+    conditional: {rana_fate: spared}
+    choice: let Rana go on Virmire
+  - text: >
+      If she lived through Virmire, a 2186 ANN report says she murdered several senior asari
+      military officials and then killed herself, having told investigators in custody that she
+      was hearing "voices" — a mark of indoctrination.
+    source_chunks: [rana-thanoptis_004]
+    conditional: {rana_fate: spared}
+    choice: let Rana go on Virmire
+
+related_scenes: [virmire-ashley-kaidan-sacrifice, korlus-okeer-and-grunt]
+related_events: [battle-of-virmire]
+source_chunks: [rana-thanoptis_001, rana-thanoptis_002, rana-thanoptis_003, rana-thanoptis_004]

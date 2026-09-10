@@ -1,0 +1,96 @@
+scene_id: rannoch-admiral-koris
+title: Landing to Pull Admiral Koris Off Rannoch
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, after Priority: Geth Dreadnought and before Priority: Rannoch"
+where: >
+  the Normandy debriefing after the dreadnought, then geth-held territory on the
+  Rannoch surface and a shuttle over it
+
+participants: [Shepard, Steve Cortez, Shala'Raan vas Tonbay, Dorn'Hazt, Zaal'Koris vas Qwib-Qwib]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - geth_quarian: any
+
+beats:
+  - text: >
+      In the debrief after the geth dreadnought, Admiral Shala'Raan reports that Zaal'Koris
+      threw his own ship into a geth planetary defence cannon to knock it out, destroying the
+      cannon and crash-landing on Rannoch. The Civilian Fleet he commands is now leaderless,
+      and its captains are preparing to break formation and run the gauntlet of the geth guns
+      for the mass relay. Shepard volunteers to land and bring Koris back.
+    source_chunks: [rannoch-admiral-koris_002, rannoch-admiral-koris_001, zaal-koris-vas-qwib-qwib_003]
+  - text: >
+      On the shuttle down, Admiral Daro'Xen radios that the Civilian Fleet has taken losses
+      and that Koris's escape pod went down inside the range of a geth jamming tower before
+      contact was lost. Cortez's shuttle is driven off by anti-aircraft guns, so he sets
+      Shepard's squad down on foot: the plan is to take the AA emplacements offline so Cortez
+      can destroy the jamming tower and get a fix on Koris.
+    source_chunks: [rannoch-admiral-koris_004]
+  - text: >
+      The squad pushes through geth country on foot — Troopers, Rocket Troopers, cloaked
+      Hunters, Geth Primes and fields of trip mines — reaching two AA control points in turn.
+      At each one a squadmate takes the guns offline while Shepard and the others hold off
+      drop-in waves, Shepard turning a captured geth turret on one of them. A Javelin sniper
+      rifle and other salvage are recovered along the route past a crashed quarian escape pod.
+    source_chunks: [rannoch-admiral-koris_004, rannoch-admiral-koris_005, rannoch-admiral-koris_006]
+  - text: >
+      In a clearing full of disabled geth the squad finds Dorn'Hazt, a mortally wounded
+      crewman off Koris's ship. He tells them the Civilian Fleet never wanted a war with the
+      geth and will scatter without Koris to hold it together, asks Shepard to tell his son
+      Jona that he reached the homeworld, and points the way to the admiral before he dies.
+    source_chunks: [rannoch-admiral-koris_005, rannoch-admiral-koris_012]
+  - text: >
+      Cortez destroys the jamming tower and Shepard raises Koris by comm. He is pinned in a
+      firefight and refuses rescue outright, ordering Shepard to save his stranded crew
+      instead. With enough standing, Shepard can talk him into being picked up rather than
+      dying where he stands.
+    source_chunks: [rannoch-admiral-koris_007, zaal-koris-vas-qwib-qwib_003]
+  - text: >
+      Shepard convinces Koris to accept extraction. Whoever is being lifted out, Shepard mans
+      the shuttle's door turret and shoots down Geth Rocket Troopers and the missiles they
+      fire — which are actually aimed at the shuttle, not the target — until the rescued party
+      is aboard. Koris survives as a war asset worth 25, later talks the Civilian Fleet
+      captains into holding formation, and lends Shepard his authority when Shepard calls a
+      quarian ceasefire during Priority: Rannoch.
+    source_chunks: [rannoch-admiral-koris_007, rannoch-admiral-koris_008, zaal-koris-vas-qwib-qwib_003]
+    conditional: {koris_fate: rescued}
+    choice: talked Koris into being rescued
+  - text: >
+      Shepard obeys Koris's order and leaves him, diverting the shuttle to lift out his crew;
+      Shepard still works the door turret against the Rocket Troopers and their missiles until
+      the crew is aboard. Koris dies on the ground, priming a grenade and charging a Geth
+      Prime and its troops. The Quarian Civilian Fleet war asset drops by 75 Military
+      Strength, and if the quarians otherwise survive the war their leaderless Civilian Fleet
+      panics and some captains are cut down fleeing; depending on Shepard's other choices this
+      can make quarian-geth peace impossible.
+    source_chunks: [rannoch-admiral-koris_007, rannoch-admiral-koris_008, zaal-koris-vas-qwib-qwib_003]
+    conditional: {koris_fate: died}
+    choice: left Koris to die and saved his crew
+  - text: >
+      After this, the first of the two Rannoch side missions, Admiral Raan and Admiral
+      Han'Gerrel fall to arguing in front of Shepard over how hard to push the geth. Shepard
+      can back Raan, weakening the Quarian Heavy Fleet asset, or back Gerrel, strengthening it.
+    source_chunks: [rannoch-admiral-koris_008]
+  - text: >
+      If Javik is aboard the Normandy, he is found afterward in the AI Core arguing with EDI
+      about synthetic life, and Shepard can weigh in on one side or the other.
+    source_chunks: [rannoch-admiral-koris_008]
+    conditional: {javik: recruited}
+    choice: Javik aboard for the Rannoch missions
+  - text: >
+      If Koris was brought home alive, Shepard later gets a thank-you message from Captain
+      Nav'Teel vas Ghrigult, Dorn'Hazt's cousin, grateful that the admiral stopped so many
+      ships from flying into the geth guns and that Dorn did not die alone.
+    source_chunks: [rannoch-admiral-koris_011]
+    conditional: {koris_fate: rescued}
+    choice: talked Koris into being rescued
+
+related_scenes: [rannoch-geth-fighter-squadrons, rannoch-the-choice-above-the-fleet]
+related_events: [rannoch-admiral-koris]
+source_chunks: [rannoch-admiral-koris_001, rannoch-admiral-koris_002, rannoch-admiral-koris_004,
+                rannoch-admiral-koris_005, rannoch-admiral-koris_006, rannoch-admiral-koris_007,
+                rannoch-admiral-koris_008, rannoch-admiral-koris_011, rannoch-admiral-koris_012,
+                zaal-koris-vas-qwib-qwib_003]

@@ -1,0 +1,42 @@
+scene_id: citadel-galaxy-jacob-stops-jathamon
+title: Jacob Stops Jath'Amon at the Peace Talks
+kind: mission-aside
+game: Mass Effect
+when: "2183, the closing mission of Mass Effect Galaxy, after the batarian investigation missions"
+where: Jacob Taylor's ship, then the Citadel Tower and the Council Chambers
+participants: [Jacob Taylor, Miranda Lawson, Illo Nazario, Jath'Amon]
+heard_by: [Normandy crew]
+
+requires: []
+
+beats:
+  - text: >
+      Aboard Jacob Taylor's ship, the ailing Illo Nazario trades information for medical
+      care: the batarian extremists' real target is the Citadel Council, not Ambassador
+      Jath'Amon — Jath'Amon is himself the extremists' leader, and means to release an
+      engineered virus on the Council during his peace talks, safely vaccinated himself.
+      Jacob and Miranda Lawson set course for the Citadel.
+    source_chunks: [protect-the-council_002, jath-amon_002]
+  - text: >
+      On arrival Miranda tells Jacob that the vaccine recovered from Batha will protect him
+      from the bioweapon. Jacob heads for the Council tower alone, is stopped by a C-Sec
+      officer who turns out to be a batarian — the terrorists have infiltrated Citadel
+      Security — and fights up through two combat zones of Terrorists and their leaders.
+    source_chunks: [protect-the-council_002, protect-the-council_003]
+  - text: >
+      Jacob enters the Council Chambers mid-speech. The asari council representative
+      challenges his intrusion; Jacob lays out the evidence against Jath'Amon, who denies
+      it, and she refuses to act until she is certain. The furious ambassador then reveals
+      his plan, sprays the virus into the chamber from a concealed pump in his hover chair,
+      and flies off.
+    source_chunks: [protect-the-council_003, jath-amon_002]
+  - text: >
+      Jacob shouts for everyone to evacuate and fights through five more combat zones of
+      batarian terrorists and turrets to a final stand against Jath'Amon, his two
+      bodyguards and two turrets. Jacob beats him down and detains him; Jath'Amon, led
+      away by C-Sec, tells Jacob they are not so different and swears revenge on him and
+      the Council. Miranda thanks him.
+    source_chunks: [protect-the-council_003, jath-amon_002]
+
+related_events: [mass-effect-galaxy-jath-amon-citadel-plot]
+source_chunks: [protect-the-council_002, protect-the-council_003, jath-amon_002]

@@ -1,0 +1,32 @@
+scene_id: citadel-council-me3-refuses-earth
+title: The Council Refuses to Defend Earth
+kind: argument
+game: Mass Effect 3
+when: "2186, the Citadel, after Mars (Priority: The Citadel I)"
+where: the Citadel Council Chambers, then Councilor Udina's office in the Embassies
+participants: [Shepard, Liara T'Soni, Donnel Udina, Turian Councilor, Asari Councilor, Salarian Councilor]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      An asari assistant led Shepard into the Council Chambers, where Liara was already
+      laying out the Prothean data on the Crucible to the councilors and Udina. The non-human
+      councilors did not dismiss the weapon outright but were sceptical and would not commit
+      to building it; with their own homeworlds under Reaper attack, they flatly refused to
+      send any military aid to Earth. Shepard argued the point, to no effect.
+    source_chunks: [priority-the-citadel-i_004]
+  - text: >
+      The meeting adjourned and Shepard and Udina returned to his office. The Turian
+      Councilor came in and reported that the turians had lost contact with Primarch
+      Fedorian, who had been about to convene a war summit, and asked Shepard to retrieve
+      him. Shepard could answer plainly, somewhat cynically, or very cynically.
+    source_chunks: [priority-the-citadel-i_004]
+  - text: >
+      If Shepard's Spectre status had not been restored in the previous game, it was
+      reinstated here. Hackett's follow-up letter cited Emergency War Powers regulations,
+      returned command of the Normandy SR-2, and granted Shepard diplomatic authority to
+      make treaties with non-human races.
+    source_chunks: [priority-the-citadel-i_004, priority-the-citadel-i_005]
+related_scenes: [citadel-bailey-first-greeting-me3, menae-corinthus-fedorian-briefing]
+source_chunks: [priority-the-citadel-i_004, priority-the-citadel-i_005]

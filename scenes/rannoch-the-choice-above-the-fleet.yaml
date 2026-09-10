@@ -2,9 +2,8 @@ scene_id: rannoch-the-choice-above-the-fleet
 title: Rannoch, and What Tali Watched
 kind: mission-aside
 game: Mass Effect 3
-when: 2186, after the Reaper on Rannoch is destroyed
+when: "2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after"
 where: Rannoch, on the cliffs, with both fleets overhead
-
 participants: [Shepard, Tali'Zorah vas Normandy, Legion, Shala'Raan vas Tonbay, Han'Gerrel vas Neema]
 private_to: []
 heard_by: [Normandy crew]
@@ -15,14 +14,26 @@ requires:
 
 beats:
   - text: >
+      After the Normandy's bombing run cracked the Reaper base open, a Reaper Destroyer
+      climbed out of the crater. Legion secured a geth ship and flew the squad clear while
+      Shepard manned its turret and called in an orbital strike that briefly downed the
+      Reaper. EDI synced the quarian fleet to the Normandy's targeting systems, and Shepard
+      stayed on the plateau alone, dodging the Destroyer's beam through three targeting
+      solutions and a final slow-motion shot while the fleet fired. Mortally hit, the Reaper
+      addressed Shepard by name, said Harbinger judged the Commander a worthy opponent, spoke
+      of Reapers as "order" against organic "chaos" and the harvest as necessary
+      "intervention," and — if no interrupt was taken — left the threat, "Finish your war. We
+      will be waiting."
+    source_chunks: [priority-rannoch_007, priority-rannoch_008]
+  - text: >
       With the Reaper down, the geth are weakened and Admiral Han'Gerrel throws the whole
       quarian fleet at them.
-    source_chunks: [tali-zorah-nar-rayya_009]
+    source_chunks: [tali-zorah-nar-rayya_009, priority-rannoch_009]
   - text: >
       The geth unit rescued from the dreadnought — Legion, or a VI built in its likeness —
       moves to upload the Reaper code and restore the geth to full strength, which would catch
       the quarian fleet unready and destroy it.
-    source_chunks: [tali-zorah-nar-rayya_009]
+    source_chunks: [tali-zorah-nar-rayya_009, priority-rannoch_009]
   - text: >
       Stopped from uploading, it turns hostile, and Tali kills it with her boot knife to save
       Shepard.
@@ -61,6 +72,6 @@ variants:
     source_chunks: [geth-vi_002, geth-vi_004]
 
 related_scenes: [normandy-garrus-and-tali-reconciliation, flotilla-tali-treason-trial,
-                 heretic-station-legion-a-house-divided]
-related_events: []
-source_chunks: [tali-zorah-nar-rayya_009, geth-vi_002, geth-vi_004]
+                 heretic-station-legion-a-house-divided, geth-dreadnought-freeing-legion]
+related_events: [rannoch-quarian-geth-war-resolution]
+source_chunks: [tali-zorah-nar-rayya_009, geth-vi_002, geth-vi_004, priority-rannoch_007, priority-rannoch_008, priority-rannoch_009]

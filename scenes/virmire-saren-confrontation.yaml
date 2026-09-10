@@ -1,0 +1,42 @@
+scene_id: virmire-saren-confrontation
+title: Face to Face with Saren on Virmire
+kind: mission-aside
+game: Mass Effect
+when: 2183, during Virmire's assault, at Saren's research base
+where: a platform above the AA tower and krogan breeding trenches of Saren's cloning facility on Virmire
+participants: [Shepard, Saren Arterius]
+private_to: []
+heard_by: [Normandy crew]
+requires: []
+beats:
+  - text: >
+      After being hunted across half a dozen worlds, Saren Arterius meets Shepard in person
+      for the first time, appearing on his hovering platform. He tries to recruit the
+      Commander to his cause: serving the Reapers, he argues, is the only way to save
+      organic life by proving its worth to them.
+    source_chunks: [saren-arterius_007, saren_002]
+  - text: >
+      Shepard tells Saren to his face that he is indoctrinated — Sovereign is manipulating
+      him so gradually that he cannot feel it happening. Saren denies the accusation
+      outright.
+    source_chunks: [saren-arterius_007]
+  - text: >
+      Saren fights from the platform, opening with tech attacks including a high-level
+      Damping that can put the squad's powers on cooldown, firing a Geth-Rocket-Trooper
+      rocket launcher, hovering over the battlefield's fuel tanks, and using Throw in the
+      confrontation cutscene; he is immune to biotics except Warp and Stasis.
+    source_chunks: [saren_002, saren_003]
+  - text: >
+      Worn down, Saren steps off the platform, casts his rifle aside, seizes Shepard and
+      holds the Commander out over the edge. Something catches his attention; Shepard lands
+      a right hook to his chin, and he drops the Commander, retreats to his platform and
+      flies off as the Normandy sweeps in overhead.
+    source_chunks: [virmire-assault_015]
+  - text: >
+      Saren narrowly escapes the salarian drive-core nuclear blast that levels the base.
+      Shepard's accusation breeds doubt in him afterward; Sovereign, sensing his conviction
+      falter, gives him further cybernetic implants that effectively erase his free will.
+    source_chunks: [saren-arterius_007]
+related_scenes: [virmire-ashley-kaidan-sacrifice, virmire-rana-thanoptis-office, citadel-tower-saren-showdown]
+related_events: [battle-of-virmire]
+source_chunks: [saren-arterius_007, saren_002, saren_003, virmire-assault_015]

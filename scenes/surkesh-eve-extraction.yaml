@@ -1,0 +1,58 @@
+scene_id: surkesh-eve-extraction
+title: Extracting the Last Krogan Female from Sur'Kesh
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, an STG research base on Sur'Kesh, during the Reaper War (Priority: Sur'Kesh)"
+where: a salarian STG base on Sur'Kesh, from the containment labs down through the facility to the shuttle pad
+participants: [Shepard, Mordin Solus, Eve, Urdnot Wrex]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+  - genophage: any
+beats:
+  - text: >
+      After the summit aboard the Normandy, Shepard shuttled down to the STG base holding
+      the krogan females who had survived Maelon's experiments. The Urdnot leader — Wrex if
+      he lived Virmire, otherwise Wreav — came along and could brief Shepard on the ground.
+    source_chunks: [priority-sur-kesh_004]
+  - text: >
+      At the containment level a cutscene revealed the salarian scientist waiting there:
+      Mordin Solus, or Padok Wiks if Mordin had died on the Collector base. He admitted he
+      was Clan Urdnot's inside source and introduced Shepard to the sole surviving female.
+      The Urdnot leader then warned that Cerberus was assaulting the base to stop a
+      genophage-free krogan population, and Shepard had to fight through the facility to
+      free her.
+    source_chunks: [priority-sur-kesh_004]
+  - text: >
+      Shepard fought Cerberus Assault Troopers, Centurions, Combat Engineers and their
+      automated turrets, Guardians and finally an Atlas mech, keeping the shield on the
+      female's containment pod intact. An imprisoned yahg broke loose mid-fight and blocked
+      a corridor with flame, forcing a detour.
+    source_chunks: [priority-sur-kesh_006, priority-sur-kesh_007, priority-sur-kesh_010]
+  - text: >
+      With the Atlas destroyed and the last wave down, the Urdnot leader spoke to the female
+      and she proved she could fight for herself, killing two Cerberus soldiers. As the
+      squad moved to the shuttle, Shepard stopped over a dying, bloodied Cerberus soldier
+      and tried to interrogate him, but he died before saying anything.
+    source_chunks: [priority-sur-kesh_010]
+  - text: >
+      Back aboard the Normandy, Hackett reported the Crucible's construction had begun. The
+      Urdnot leader moved to the war room and insisted every krogan receive the cure; the
+      female took the name "Eve" and settled into the med-bay with the salarian scientist.
+    source_chunks: [priority-sur-kesh_011]
+variants:
+  - condition: {mordin_alive: false}
+    text: >
+      If Mordin died in the assault on the Collector base, the salarian who meets Shepard,
+      reveals himself as Clan Urdnot's source and later tends Eve is Padok Wiks.
+    source_chunks: [priority-sur-kesh_004]
+    choice: Padok Wiks stands in for Mordin
+  - condition: {wrex_virmire: dead}
+    text: >
+      If Wrex died on Virmire, Urdnot Wreav is the clan leader present for the extraction
+      and for the war-room demand afterward.
+    source_chunks: [priority-sur-kesh_004, priority-sur-kesh_011]
+    choice: Wreav leads the krogan
+related_scenes: [normandy-war-summit-urdnot-linron-victus, surkesh-kirrahe-cerberus-rescue, normandy-medbay-mordin-eve-cure-work]
+related_events: [priority-sur-kesh]
+source_chunks: [priority-sur-kesh_004, priority-sur-kesh_006, priority-sur-kesh_007, priority-sur-kesh_010, priority-sur-kesh_011]

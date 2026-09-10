@@ -1,28 +1,41 @@
 scene_id: normandy-docking-bay-wrex-genophage-confrontation
-title: Wrex Comes for Shepard Over the Genophage
+title: Wrex Comes for Shepard Over the Sabotaged Cure
 kind: argument
 game: Mass Effect 3
-when: "2186, Citadel, after the sabotaged genophage cure comes to light"
-where: the Normandy SR-2 docking bay, the Citadel
-
-participants: [Shepard, Wrex, Armando-Owen Bailey]
-private_to: []
-heard_by: []
-
+when: "2186, the Citadel, after Rannoch, when the sabotaged genophage cure comes to light (Priority: The Citadel III)"
+where: "Normandy Dock: Bay D24, the Citadel"
+participants: [Shepard, Urdnot Wrex, Armando-Owen Bailey]
+heard_by: [Normandy crew]
 requires:
   - genophage: sabotaged
-
+  - krogan_leader: Wrex
 beats:
   - text: >
-      With Wrex as the krogan leader, Wrex confronts Shepard in the Normandy SR-2 docking bay
-      over the sabotaged genophage cure and attempts to kill the Commander.
+      Once Shepard had met the asari Councilor for Priority: The Citadel III, Wrex was
+      waiting at Normandy Dock: Bay D24. He had a recording of Shepard's private conversation
+      with Dalatrass Linron and played it back — Shepard's own voice saying "If I sabotage
+      the cure" — as proof of the betrayal.
+    source_chunks: [priority-the-citadel-iii_003, priority-the-citadel-iii_006]
+  - text: >
+      Enraged, Wrex attacked Shepard in the docking bay and tried to kill the Commander. He
+      could not be talked down by any dialogue choice.
+    source_chunks: [priority-the-citadel-iii_003, armando-owen-bailey_005]
+  - text: >
+      Two Renegade interrupts let Shepard draw and shoot Wrex first. If Shepard declined
+      both, Bailey arrived with a C-Sec security detail and they gunned Wrex down together.
+    source_chunks: [priority-the-citadel-iii_003, armando-owen-bailey_005]
+    conditional: {wrex_docking_bay: killed_by_csec}
+    choice: declined the interrupts — Bailey and C-Sec kill Wrex
+  - text: >
+      With Wrex dead, Bailey contacted the morgue about the body, noting it was too heavy
+      and would have to be spaced.
     source_chunks: [armando-owen-bailey_005]
   - text: >
-      Bailey arrives with a security detail and helps Shepard take Wrex down. After Wrex is
-      dead, Bailey contacts the morgue about the corpse, noting the body is too heavy and will
-      need to be spaced.
-    source_chunks: [armando-owen-bailey_005]
-
-related_scenes: []
-related_events: []
-source_chunks: [armando-owen-bailey_005]
+      Killing Wrex cost Shepard the Clan Urdnot and krogan mercenary War Assets. The
+      incident was afterward covered up, evidenced by an ANN mail on the Normandy. If Urdnot
+      Wreav led the krogan instead, he never learned of the deception and stayed oblivious
+      through the end of the game.
+    source_chunks: [priority-the-citadel-iii_005]
+related_scenes: [normandy-war-summit-urdnot-linron-victus, tuchanka-mordin-and-the-shroud, tuchanka-hollows-eve-rallies-the-clans]
+related_events: [genophage-cure-tuchanka]
+source_chunks: [priority-the-citadel-iii_003, priority-the-citadel-iii_005, priority-the-citadel-iii_006, armando-owen-bailey_005]

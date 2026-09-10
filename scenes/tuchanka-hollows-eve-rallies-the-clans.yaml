@@ -1,0 +1,47 @@
+scene_id: tuchanka-hollows-eve-rallies-the-clans
+title: Eve Rallies the Krogan Clans at the Hollows
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Tuchanka, delivering the genophage cure (Priority: Tuchanka)"
+where: the Hollows, a sacred krogan meeting ground, then the stalled convoy road toward the Shroud
+participants: [Shepard, Eve, Urdnot Wrex, Urdnot Wreav]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+  - genophage: any
+beats:
+  - text: >
+      With a Reaper Destroyer holding the Shroud, the plan was set — the krogan would hit
+      the Reaper from the ground under turian air cover. Dalatrass Linron then contacted
+      Shepard privately and revealed the Shroud had been sabotaged so no cure could ever
+      disperse; she offered salarian war support if Shepard let the krogan believe a fake
+      cure had gone out.
+    source_chunks: [priority-tuchanka_004]
+  - text: >
+      The Urdnot leader had summoned the clans to the Hollows, their sacred meeting ground.
+      In the conversation there Shepard could reveal Linron's offer to the krogan or stay
+      silent; choosing to reveal it was cut short by word that the Hollows were under Reaper
+      attack, and Shepard's squad fought off waves of husks across the meeting pit.
+    source_chunks: [priority-tuchanka_005]
+  - text: >
+      After the husks, with Wrex leading, the tension broke open between him and his brother
+      Wreav, one of his most disloyal supporters. Eve stepped into the rising argument and
+      made a rallying call for the clans to set their divisions aside and unite against the
+      Reapers.
+    source_chunks: [priority-tuchanka_005]
+  - text: >
+      The clans set out for the Shroud in a convoy. On the road Shepard was offered the
+      reveal-or-conceal choice about Linron's deal again, just before the convoy halted at a
+      road wrecked by a downed turian fighter, splitting Shepard's squad off through the
+      ancient catacombs.
+    source_chunks: [priority-tuchanka_006]
+variants:
+  - condition: {krogan_leader: Wreav}
+    text: >
+      If Wrex died on Virmire, Urdnot Wreav leads the krogan and the friction at the Hollows
+      is between Wreav and Jorgal Thurak rather than between the two brothers.
+    source_chunks: [priority-tuchanka_005]
+    choice: Wreav leads the krogan
+related_scenes: [tuchanka-mordin-and-the-shroud, normandy-war-summit-urdnot-linron-victus, normandy-medbay-mordin-eve-cure-work]
+related_events: [genophage-cure-tuchanka]
+source_chunks: [priority-tuchanka_004, priority-tuchanka_005, priority-tuchanka_006]

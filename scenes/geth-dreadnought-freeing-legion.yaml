@@ -1,0 +1,52 @@
+scene_id: geth-dreadnought-freeing-legion
+title: Cutting the Reaper Signal on the Geth Dreadnought
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing"
+where: the geth dreadnought broadcasting the Reaper control signal, over Rannoch
+participants: [Shepard, Tali'Zorah vas Normandy]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      After the Migrant Fleet's admirals briefed Shepard in the Normandy's war room, Shepard
+      was sent to board and disable the geth dreadnought broadcasting the Reaper control
+      signal that had trapped the quarian fleet. Tali'Zorah vas Normandy came as a mandatory
+      squadmate.
+    source_chunks: [priority-geth-dreadnought_002, priority-geth-dreadnought_003]
+  - text: >
+      Shepard crossed to the dreadnought alone on a slow magnetic-boot spacewalk down a
+      circular docking tube, bantering with the team over comm at the sight of the
+      dreadnought, at Rannoch below, and three-quarters of the way down. The tube then
+      detached, cutting Shepard off from the squad and the Normandy.
+    source_chunks: [priority-geth-dreadnought_004]
+  - text: >
+      Tali rejoined at the docking controls. The team fought through the geth defence network
+      and the operations centre — the first Geth Hunters, using optical camouflage — where
+      Tali set up to shut down the Reaper signal and found they had to reach the drive core.
+    source_chunks: [priority-geth-dreadnought_004, priority-geth-dreadnought_005]
+  - text: >
+      Crossing the main battery twice under the main gun's electromagnetic shockwaves and
+      surviving a collapsing elevator platform, the team reached the drive core.
+    source_chunks: [priority-geth-dreadnought_006]
+  - text: >
+      The Reaper signal was being distributed through Legion, wired into the drive core.
+      Shepard freed Legion, which shut the signal and the drive core down. The team fought
+      off geth reinforcements including Geth Primes and escaped on a geth fighter from the
+      hangar. Afterward Legion took up residence in the Normandy's war room.
+    source_chunks: [priority-geth-dreadnought_007, priority-geth-dreadnought_008]
+variants:
+  - condition: {legion_status: geth_vi}
+    choice: a Geth VI stands in for Legion
+    text: >
+      If Legion did not survive Mass Effect 2 — sold to Cerberus, never activated, or lost at
+      the Collector Base — the unit wired into the drive core was a generic Geth VI. Freeing
+      it had the same effect, and the VI took Legion's place in the war room.
+    source_chunks: [priority-geth-dreadnought_007, priority-geth-dreadnought_003]
+  - condition: {tali_status: dead}
+    choice: Tali died in Mass Effect 2
+    text: >
+      If Tali'Zorah had died in Mass Effect 2, she was not the squadmate; Admiral Xen guided
+      the mission by comm instead and Shepard chose the second squadmate freely.
+    source_chunks: [priority-geth-dreadnought_003]
+related_scenes: [quarian-envoy-admiralty-briefing, rannoch-the-choice-above-the-fleet]
+source_chunks: [priority-geth-dreadnought_002, priority-geth-dreadnought_003, priority-geth-dreadnought_004, priority-geth-dreadnought_005, priority-geth-dreadnought_006, priority-geth-dreadnought_007, priority-geth-dreadnought_008]

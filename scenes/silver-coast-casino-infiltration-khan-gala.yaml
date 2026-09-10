@@ -5,7 +5,7 @@ game: Mass Effect 3
 when: 2186, Citadel shore leave, the evening after Identity Theft I
 where: the Silver Coast Casino, during Elijah Khan's black-tie charity gala for war refugees
 
-participants: [Shepard, Maya Brooks]
+participants: [Shepard, Maya Brooks, Rolan Quarn]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -28,6 +28,13 @@ beats:
       underground wiring.
     source_chunks: [silver-coast-casino-infiltration_003]
   - text: >
+      While mingling, Shepard encounters Rolan Quarn, the veteran turian impersonator who is
+      himself staking out the gala as a potential mark. Going barefaced for the occasion,
+      Quarn allows Shepard to learn his insights about Khan and the crowd. Shepard deduces
+      Quarn's nature and half-declares an intent to turn him in, only for Quarn to reveal
+      he knows of Shepard's ulterior motives. The meeting ends in mutual respect.
+    source_chunks: [rolan-quarn_003]
+  - text: >
       Brooks is briefly caught near the panic room; Shepard reaches the guard first and talks
       it off as a false alarm before she is discovered.
     source_chunks: [silver-coast-casino-infiltration_003]
@@ -41,4 +48,4 @@ beats:
 
 related_scenes: [citadel-garrus-casino-bar, citadel-wrex-casino-ice]
 related_events: [citadel-dlc-identity-theft-begins]
-source_chunks: [silver-coast-casino-infiltration_003, silver-coast-casino-infiltration_004]
+source_chunks: [silver-coast-casino-infiltration_003, silver-coast-casino-infiltration_004, rolan-quarn_003]

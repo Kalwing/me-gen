@@ -1,0 +1,51 @@
+scene_id: menae-victus-becomes-primarch
+title: Making a Primarch on Menae
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Priority: Palaven, during the Reaper assault on Palaven"
+where: a turian forward camp and the ridgelines of Menae, Palaven's moon
+participants: [Shepard, Liara T'Soni, James Vega, Garrus Vakarian, General Corinthus, Adrien Victus]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Primarch Fedorian had called a war summit that would let the Alliance ask for help
+      building the Crucible, but he was caught in the Reaper attack on Palaven. Shepard flew
+      to Menae with Liara T'Soni and James Vega; the Kodiak made a hot landing at a turian
+      forward camp under husk assault — the first sustained fighting against Reaper ground
+      forces.
+    source_chunks: [priority-palaven_003, priority-palaven_004]
+  - text: >
+      General Corinthus told Shepard that Fedorian was already dead. To learn who the new
+      Primarch was, the team repaired a comm tower overrun by husks, defending it in waves
+      while one squadmate made the repairs.
+    source_chunks: [priority-palaven_005]
+  - text: >
+      With the tower fixed, Garrus Vakarian rejoined — his first appearance in Mass Effect 3
+      — taking Liara's place in the squad after Joker reported Normandy system malfunctions
+      and Liara left to investigate.
+    source_chunks: [priority-palaven_005]
+    conditional: {garrus_alive: true}
+    choice: Garrus survived Mass Effect 2
+  - text: >
+      Corinthus named General Adrien Victus as next in the line of succession. The team
+      defended an airfield and a barricade against husks, Marauders, Cannibals and a Brute,
+      using a mounted turret, then advanced down a long path past crashed turian frigates
+      toward Victus's last known position.
+    source_chunks: [priority-palaven_005, priority-palaven_007]
+  - text: >
+      Shepard found Victus's position under heavy attack, fought through Cannibals, Marauders
+      and multiple Brutes, and reached him. Victus reluctantly accepted the role of Primarch
+      and returned with Shepard to the Normandy, taking up residence in the war room; Shepard
+      then conferred with the asari Councilor and Admiral Hackett.
+    source_chunks: [priority-palaven_008]
+variants:
+  - condition: {garrus_alive: false}
+    choice: Garrus died in Mass Effect 2
+    text: >
+      If Garrus did not survive Mass Effect 2 he never appeared on Menae; Liara stayed the
+      squadmate for the whole mission and covered his lines, and Shepard only promised Joker
+      to look into the Normandy's malfunctions afterward.
+    source_chunks: [priority-palaven_005]
+related_scenes: [normandy-edi-takes-the-mech-body]
+related_events: [priority-palaven]
+source_chunks: [priority-palaven_003, priority-palaven_004, priority-palaven_005, priority-palaven_007, priority-palaven_008]

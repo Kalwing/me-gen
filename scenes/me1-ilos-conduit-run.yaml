@@ -1,0 +1,45 @@
+scene_id: me1-ilos-conduit-run
+title: The Mako Run to the Conduit
+kind: mission-aside
+game: Mass Effect
+when: 2183, on Ilos immediately after Vigil's warning, as the Battle of the Citadel begins
+where: the Ilos aqueducts, ending at the Conduit
+participants: [Shepard]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - virmire_survivor: alive
+
+beats:
+  - text: >
+      Leaving Vigil's chamber, Shepard's two squadmates argue over what they have just
+      heard — that even the Protheans, for all their power and knowledge, fell for the
+      Reapers' traps — and one answers that they have no intention of ending the same way.
+      Shepard takes the Mako back down the path, now clear of the forcefields that blocked
+      it earlier, chasing Saren before he can reach the Conduit.
+    source_chunks: [race-against-time-conduit_003]
+  - text: >
+      Geth Rocket Troopers hold the mouth of a long trench run. Shepard drives it through,
+      fighting Rocket Troopers, Troopers, a Shock Trooper and a Geth Colossus, then further
+      groups of Rocket Troopers, before the Mako halts at a ledge over a downward slope
+      with the Conduit in the distance — one squadmate admiring the view, the other urging
+      haste.
+    source_chunks: [race-against-time-conduit_003]
+  - text: >
+      A long cutscene shows the Battle of the Citadel opening: Sovereign and its geth
+      arrive through the relay and fire a broadside into the Citadel Fleet, the Citadel's
+      arms fail to seal, and the commander of the Destiny Ascension orders the Council
+      evacuated. On the Presidium a geth throws an asari's body aside as Saren and his
+      escort take the elevator toward the Council Chambers.
+    source_chunks: [race-against-time-conduit_003, race-against-time-conduit_004]
+  - text: >
+      Shepard has forty seconds to reach the Conduit. Four Geth Colossi stand in the way,
+      too many to fight; Shepard guns the Mako down the slope, following the river and
+      weaving through their fire, and drives into the Conduit, which seizes the vehicle and
+      transports it to the Citadel.
+    source_chunks: [race-against-time-conduit_004]
+
+related_scenes: [me1-ilos-find-the-conduit, citadel-tower-saren-showdown]
+related_events: [ilos-conduit-citadel]
+source_chunks: [race-against-time-conduit_003, race-against-time-conduit_004]

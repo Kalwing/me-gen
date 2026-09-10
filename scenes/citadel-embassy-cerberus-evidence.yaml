@@ -1,0 +1,51 @@
+scene_id: citadel-embassy-cerberus-evidence
+title: Turian Embassy Meeting on Cerberus Evidence
+kind: banter
+game: Mass Effect
+when: "2186, during Mass Effect Retribution, after Kahlee Sanders obtains Paul Grayson's Cerberus data"
+where: the turian embassy on the Citadel
+participants: [Orinia, David Anderson, Kahlee Sanders, Venari Pallin]
+private_to: [Orinia, David Anderson, Kahlee Sanders]
+heard_by: [Citadel Council, Alliance leadership]
+
+requires:
+  - retribution_novel: any
+
+beats:
+  - text: >
+      When Kahlee Sanders passes Paul Grayson's evidence of Cerberus activities to David
+      Anderson, Anderson knows he cannot trust anyone in the Alliance government. He takes
+      the evidence to turian Ambassador Orinia, a former general who served in the First
+      Contact War. Orinia notes that Cerberus was the reason turians opposed humanity's
+      addition to the Council, but Anderson counters with the example of Saren Arterius,
+      and she agrees to listen to what they have to say.
+    source_chunks: [orinia_001]
+  - text: >
+      After the conversation, Orinia allows Kahlee to shelter in the turian embassy for
+      protection, at Anderson's request.
+    source_chunks: [orinia_001]
+  - text: >
+      Having only a limited number of troops under her command, Orinia must choose targets
+      carefully for an operation against Cerberus. She asks Executor Venari Pallin, a former
+      subordinate who now heads C-Sec, for assistance. Pallin readily agrees because he
+      had served under Orinia during his military career, and he forms an all-turian task
+      force. With Anderson's assistance, they organize the strikes against Cerberus.
+    source_chunks: [orinia_001, venari-pallin_003]
+  - text: >
+      When Kahlee asks to join the mission, Orinia reminds her that the commanders had
+      spent thousands of hours preparing and honing their teams, and that she would only
+      get in the way.
+    source_chunks: [orinia_001]
+  - text: >
+      After the strikes against Cerberus succeed, Orinia informs Kahlee of their victory
+      and reports that Citadel Councilor Udina is furious. After discussion in which Kahlee
+      reminds Orinia that turians do not think like humans and Anderson emphasizes that
+      they have limited time to find missing turian teams, Orinia relents and allows Kahlee
+      and Anderson to visit the base where Paul Grayson is being held. She sends a half-dozen
+      scientists with them to assist in analyzing the Cerberus data and warns that turians
+      are punctual—the shuttle will leave in one hour whether they are there or not.
+    source_chunks: [orinia_001]
+
+related_scenes: []
+related_events: []
+source_chunks: [orinia_001, venari-pallin_003]

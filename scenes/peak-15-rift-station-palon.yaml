@@ -1,0 +1,44 @@
+scene_id: peak-15-rift-station-palon
+title: Meeting Dr. Palon at Rift Station
+kind: downtime
+game: Mass Effect
+when: "2183, during Noveria: Matriarch Benezia, at Peak 15"
+where: Rift Station on Peak 15, Noveria
+participants: [Shepard, Dr. Palon]
+private_to: []
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      Shepard finds Dr. Palon, a toxicologist working at Binary Helix, sleeping at the
+      back of Rift Station's main area near the entrance to the maintenance section, past
+      Petozi. Shepard can wake him to talk.
+    source_chunks: [palon_001]
+  - text: >
+      Palon is somewhat jumpy but willing to talk about the station's current situation.
+      He tells Shepard about the labs and points the Commander toward Han Olar. He also
+      mentions a biotoxin accident that affected Dr. Zev Cohen's team but offers no details
+      about it. When asked about Matriarch Benezia, Palon says he has not seen her; he notes
+      that Dr. Iallis is the only asari present at the station, though he would notice if
+      she went missing.
+    source_chunks: [palon_001]
+  - text: >
+      If asked about his own research, Palon remains committed to his non-disclosure
+      agreement, as he wants to keep his job if he survives. He discusses working at Peak 15,
+      explaining that he dislikes the station but that it pays better than anywhere else.
+      He says the isolated environment means there is "only the discovery," making it easy
+      to forget why science is guided by ethics in the outside world.
+    source_chunks: [palon_001]
+  - text: >
+      If fighting breaks out between Shepard and Rift Station's guards, Palon cowers in his
+      corner like the other civilians and angrily orders Shepard away, fearing the guards
+      will shoot him to reach the Spectre. If Shepard dealt with the hot labs first, Palon
+      and the other civilians go missing; Han Olar later suggests Captain Ventralis had
+      everyone else killed.
+    source_chunks: [palon_001]
+
+related_scenes: []
+related_events: []
+source_chunks: [palon_001]

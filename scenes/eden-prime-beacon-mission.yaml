@@ -4,7 +4,7 @@ kind: mission-aside
 game: Mass Effect
 when: 2183, the Normandy's shakedown run, the day of Saren's geth attack
 where: the SSV Normandy en route from the Arcturus Prime relay, then the fields, dig site and spaceport of Eden Prime
-participants: [Shepard, Kaidan Alenko, Richard L. Jenkins, Nihlus Kryik, Ashley Williams, Saren Arterius, Powell, Anderson, Joker]
+participants: [Shepard, Kaidan Alenko, Richard L. Jenkins, Nihlus Kryik, Ashley Williams, Saren Arterius, Powell, Anderson, Joker, Cole]
 heard_by: [Normandy crew, Citadel Council]
 beats:
   - text: >
@@ -41,8 +41,18 @@ beats:
     source_chunks: [storyline_031, saren-arterius_006, nihlus-kryik_003]
   - text: >
       Shepard's squad reached Nihlus's body and met Powell, who described Saren gunning Nihlus
-      down. Fighting through geth troopers, shock troopers and a Geth Destroyer, Shepard took a
-      tram to Spaceport Platform Two, where Saren had already used the beacon and gone; Shepard
+      down. Powell said Nihlus had been surprised to see Saren but grateful for the help against
+      the geth; Nihlus dropped his guard and Saren shot him without warning. Shepard got
+      directions to pursue Saren along the cargo train route.
+    source_chunks: [prologue-find-the-beacon_003, storyline_031, nihlus-kryik_003]
+  - text: >
+      Shepard questioned Powell about his smuggling operation. Powell ran a small ring, paying a
+      man named Cole to store his goods. Shepard persuaded Powell to hand over useful equipment,
+      and with further pressure convinced him to part with some prototype technology as well.
+    source_chunks: [powell_001]
+  - text: >
+      Fighting through geth troopers, shock troopers and a Geth Destroyer, Shepard took a tram
+      to Spaceport Platform Two, where Saren had already used the beacon and gone; Shepard
       disarmed the four demolition charges before a five-minute timer ran out.
     source_chunks: [prologue-find-the-beacon_003, storyline_031]
   - text: >
@@ -52,4 +62,4 @@ beats:
       Shepard unconscious. Only Shepard received the visions.
     source_chunks: [prologue-find-the-beacon_003]
 related_events: [attack-on-eden-prime, ashley-williams-eden-prime]
-source_chunks: [prologue-find-the-beacon_003, storyline_030, storyline_031, richard-l-jenkins_001, nihlus-kryik_003, saren-arterius_006]
+source_chunks: [prologue-find-the-beacon_003, storyline_030, storyline_031, richard-l-jenkins_001, nihlus-kryik_003, saren-arterius_006, powell_001]

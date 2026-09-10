@@ -1,0 +1,31 @@
+scene_id: tuchanka-eve-funeral-pyre
+title: Eve's Funeral at the Hollows
+kind: ceremony
+game: Mass Effect 3
+when: "2186, Tuchanka, after Priority: Tuchanka, if Maelon's data was destroyed"
+where: "the Hollows, the sacred krogan burial ground on Tuchanka"
+participants: [Shepard, Eve, Urdnot Wrex, Urdnot Wreav, Shaman, krogan clans]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+  - maelon_data: destroyed
+  - eve_alive: false
+beats:
+  - text: >
+      If Shepard destroyed Maelon's data during Mass Effect 2, Eve died of complications
+      from having incomplete data during the genophage cure procedure on Tuchanka,
+      regardless of whether Shepard sabotaged the cure or not. This caused several krogan
+      clans to fall into conflict over who was responsible for her death, weakening krogan
+      forces as a whole. The krogan held a funeral for her at the Hollows, the sacred
+      krogan burial ground, attended by many krogan, the Urdnot leader (either Wrex or
+      Wreav), and Shepard.
+    source_chunks: [eve_005]
+  - text: >
+      Eve's body was brought to the center of the Hollows and incinerated in a funeral
+      pyre—a krogan tradition reserved for those who died particularly valorous deaths,
+      such as those who saved the future of the entire race. Eve's eulogy was given by
+      the Urdnot Shaman, the keeper of krogan rites and traditions.
+    source_chunks: [eve_005, krogan_012]
+related_scenes: [tuchanka-hollows-eve-rallies-the-clans, surkesh-eve-extraction, normandy-medbay-mordin-eve-cure-work]
+related_events: [genophage-cure-tuchanka]
+source_chunks: [eve_005, krogan_012]

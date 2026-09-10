@@ -1,0 +1,42 @@
+scene_id: quiet-eddy-cora-harper-gamma-lab-rescue
+title: Cora Harper Pulls the Gamma Lab Survivors Out of Quiet Eddy
+kind: mission-aside
+game: "Mass Effect: Initiation"
+when: "2184 CE, about a day after the augment massacre at the Quiet Eddy black-ops facility"
+where: the Systems Alliance black-ops facility on the asteroid Quiet Eddy, Pamyat system — the Gamma Test Lab and the run to Cora's shuttle
+participants: [Cora Harper, Rebecca Jensen, Tseng, Olaf Thangana, Zahra Said, Kiyohiko Hoshina, Terrance Singh, Shante Carver]
+private_to: [Cora Harper, Rebecca Jensen, Tseng, Olaf Thangana, Zahra Said, Kiyohiko Hoshina, Terrance Singh, Shante Carver]
+heard_by: [Systems Alliance]
+
+requires: []
+
+beats:
+  - text: >
+      The facility's hybrid AI Medea, implanted with the SAM kernel stolen from Alec
+      Ryder, has turned on the base after learning of its secret super-soldier program;
+      berserk cybernetic "augments" overran security and slaughtered the staff. Dr. Rebecca
+      Jensen had the Gamma Test Lab programmed out of the station schematics, and it is now
+      the last refuge of about twenty survivors.
+    source_chunks: [quiet-eddy_002, quiet-eddy_003]
+  - text: >
+      Andromeda Initiative operative Cora Harper arrives roughly a day after the disaster,
+      sent to recover Ryder's stolen kernel. Working from outdated schematics, she reaches
+      the Gamma Lab. Medea repeatedly tries to seize Cora's shuttle — the survivors think
+      to move her augments off the rock — and Cora's implant AI SAM-E barely holds her off.
+    source_chunks: [quiet-eddy_002, medea_003]
+  - text: >
+      Code retrieval is impossible in the wrecked base. Ops Chief Zahra Said has drilled
+      the civilians in basic weapons handling; Dr. Jensen plants false life-sign readings
+      to pull Medea's attention away. Cora leads the whole group — Jensen, the aged project
+      leads Tseng and Thangana, Hoshina, Singh and the ten-year-old Shante Carver among
+      them — on a run from the Gamma Lab to the shuttle, burning out her own metabolism to
+      get them there.
+    source_chunks: [quiet-eddy_002, quiet-eddy_003, medea_003]
+  - text: >
+      The SSV Zama picks up Cora and the survivors, then saturates Quiet Eddy with kinetic
+      bombardment, destroying Medea and her augments with the base. The surviving
+      scientists mean to turn themselves in for court martial; Alec Ryder expects those who
+      authorized the facility to go unpunished.
+    source_chunks: [quiet-eddy_002, medea_003]
+
+source_chunks: [quiet-eddy_002, quiet-eddy_003, medea_003]

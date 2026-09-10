@@ -1,0 +1,37 @@
+scene_id: sur-kesh-stg-base-padok-defuses
+title: Padok Defuses the Krogan Landing Crisis
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, during Priority: Sur'Kesh, at the STG base on Sur'Kesh"
+where: the STG base on Sur'Kesh
+participants: [Shepard, Padok Wiks, STG sharpshooters, krogan leader]
+private_to: []
+heard_by: []
+
+requires:
+  - mordin_alive: false
+
+beats:
+  - text: >
+      When Commander Shepard arrives at the STG base on Sur'Kesh, the krogan leader's shuttle
+      makes a violent landing. STG sharpshooters immediately train their weapons on the
+      krogan, ready to fire. Padok Wiks, the salarian STG base commander, quickly steps in
+      to defuse the potential conflict, apologizing for the incident and explaining that
+      the war has everyone on edge.
+    source_chunks: [padok-wiks_002]
+  - text: >
+      Padok then directs Shepard to the elevator down to see the remaining krogan females
+      and gives the Commander a brief orientation to the facility.
+    source_chunks: [padok-wiks_002]
+  - text: >
+      If Mordin Solus did not survive the Collector attacks on the Normandy, Padok
+      accompanies Shepard to the genophage research area and shows the Commander the
+      last surviving krogan female. Shortly after, the base comes under attack from
+      Cerberus forces.
+    source_chunks: [padok-wiks_002]
+    conditional: {mordin_alive: false}
+    choice: Mordin did not survive the Collector attack
+
+related_scenes: []
+related_events: []
+source_chunks: [padok-wiks_002, special-tasks-group_005]

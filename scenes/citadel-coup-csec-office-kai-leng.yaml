@@ -1,0 +1,59 @@
+scene_id: citadel-coup-csec-office-kai-leng
+title: Kai Leng Strikes in the Executor's Office
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, the Citadel, during Cerberus's coup against the Council (Priority: The Citadel II)"
+where: C-Sec Headquarters, the Citadel — the approach, the interior, and the executor's office above the cafe
+participants: [Shepard, Salarian Councilor, Kai Leng, Armando-Owen Bailey, Thane Krios]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      The Normandy was refused landing clearance. Joker raised a contact inside the station
+      — Thane Krios if he was alive and had been visited at Huerta before Tuchanka,
+      otherwise Commander Bailey — who reported Cerberus had seized C-Sec Headquarters and
+      the Docks. Shepard took a squad down by shuttle.
+    source_chunks: [priority-the-citadel-ii_004]
+  - text: >
+      Shepard fought uphill to C-Sec HQ, reached the wounded Bailey outside and was let in.
+      Inside, a C-Sec corpse showed the attack was another inside job with Cerberus sleeper
+      agents planted in the target, as on Mars; the squad also passed Cerberus troops
+      executing a C-Sec sleeper who had outlived his use.
+    source_chunks: [priority-the-citadel-ii_005, priority-the-citadel-ii_006, priority-the-citadel-ii_007]
+  - text: >
+      In the executor's office the executor was dead and the salarian councilor missing —
+      Valern if the Council was saved under Sovereign, Esheel otherwise. A noise in the cafe
+      below revealed the councilor, who had been hiding under cloak the whole time. Kai Leng
+      arrived before Shepard could reach him. The councilor got out the key fact — Udina was
+      leading a coup against the Council — as Leng moved in to kill him.
+    source_chunks: [priority-the-citadel-ii_008, donnel-udina_006]
+  - text: >
+      Thane dropped in and fought Kai Leng hand to hand, holding him off long enough to save
+      the councilor but taking Leng's blade through the body. He was carried to Huerta
+      Memorial, where Shepard could be with him in his final moments with Kolyat present.
+    source_chunks: [priority-the-citadel-ii_008, priority-the-citadel-ii_012]
+    conditional: {citadel_coup: thane died protecting the dalatrass}
+    choice: Thane intervenes and is fatally stabbed
+  - text: >
+      If Thane was not present but Kirrahe had survived Virmire, a cloaked Kirrahe stepped
+      between Leng and the councilor and took the killing blow instead, dying on the spot.
+      Never a Normandy crew member, his name did not reach the ship's memorial wall.
+    source_chunks: [priority-the-citadel-ii_008]
+    conditional: {citadel_coup: kirrahe takes the blow}
+    choice: Kirrahe dies shielding the councilor
+  - text: >
+      If neither Thane nor Kirrahe was alive to intervene, Kai Leng killed the salarian
+      councilor outright.
+    source_chunks: [priority-the-citadel-ii_008]
+    conditional: {citadel_coup: salarian councilor killed}
+    choice: the salarian councilor is killed
+  - text: >
+      Kai Leng broke off and fled toward the Council. Shepard pursued through C-Sec and the
+      Presidium Commons against Cerberus Phantoms and Nemeses; Bailey made his own way to
+      Shepard's position, forcing Leng to abandon the fight, guessing Leng had judged
+      Udina's plan already lost.
+    source_chunks: [priority-the-citadel-ii_009, armando-owen-bailey_005]
+related_scenes: [citadel-cerberus-coup-bailey-headquarters, citadel-coup-kirrahe-salarian-defense, citadel-coup-kaidan-confrontation, citadel-coup-ashley-confrontation, citadel-huerta-thane-final-moments]
+related_events: [cerberus-coup-citadel-ashley]
+source_chunks: [priority-the-citadel-ii_004, priority-the-citadel-ii_005, priority-the-citadel-ii_006, priority-the-citadel-ii_007, priority-the-citadel-ii_008, priority-the-citadel-ii_009, priority-the-citadel-ii_012, donnel-udina_006, armando-owen-bailey_005]

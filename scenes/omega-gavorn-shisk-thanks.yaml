@@ -1,21 +1,35 @@
 scene_id: omega-gavorn-shisk-thanks
-title: Captain Gavorn's New Best Friend (Cut)
+title: Captain Gavorn and the Vorcha Problem
 kind: banter
 game: Mass Effect 2
-when: 2185, cut content — after Shepard beat information out of the vorcha Shisk, a greeting that never shipped
-where: the Omega docking bay
-participants: [Shepard, Preitor Gavorn]
+when: 2185, on Omega, around Shepard's dealings with the vorcha loitering under Afterlife
+where: beneath Afterlife and by the club entrance on Omega
+participants: [Shepard, Preitor Gavorn, Shisk]
 private_to: []
 heard_by: [Normandy crew]
 beats:
   - text: >
-      Cut dialogue gave Captain Preitor Gavorn, head of Omega's vorcha "task force," an
-      extra greeting if Shepard had laid out the vorcha Shisk. He hailed Shepard on the
-      dock — "You're the human who laid out Shisk! The only thing those vorcha bastards
-      understand is a good smack in the mouth" — confirmed who he was when Shepard named
-      him, and declared Shepard "my new best friend" before the conversation folded back
-      into its normal course.
+      Loitering with other vorcha beneath Afterlife, a vorcha named Shisk told Shepard to
+      pass Captain Preitor Gavorn — the turian Aria T'Loak paid to keep vorcha out of the
+      club — word that they would "kill no one today" and that they "know his tricks."
+    source_chunks: [preitor-gavorn_001]
+  - text: >
+      After Shepard had dealt with the vorcha, Gavorn asked coyly whether the Commander had
+      anything to do with the many dead vorcha. Shepard could note that his job had gotten
+      easier or deny all knowledge; either way Gavorn said to "keep up the good work." Asked
+      what the vorcha were planning, he laughed and called them a "pestilence" — if they
+      could actually plan, everyone would be in trouble — and reckoned the lull would not
+      last, given how fast they breed.
+    source_chunks: [preitor-gavorn_001]
+  - text: >
+      Cut dialogue gave Gavorn an extra greeting if Shepard had laid out Shisk specifically.
+      He hailed Shepard on the dock — "You're the human who laid out Shisk! The only thing
+      those vorcha bastards understand is a good smack in the mouth" — confirmed who he was
+      when Shepard named him, and declared Shepard "my new best friend" before the
+      conversation folded back into its normal course.
     source_chunks: [mass-effect-2-cut-content-omega-and-citadel-voicelines_008]
+    conditional: {cut_content: true}
+    choice: cut greeting, never shipped
 related_scenes: []
 related_events: []
-source_chunks: [mass-effect-2-cut-content-omega-and-citadel-voicelines_008]
+source_chunks: [preitor-gavorn_001, mass-effect-2-cut-content-omega-and-citadel-voicelines_008]

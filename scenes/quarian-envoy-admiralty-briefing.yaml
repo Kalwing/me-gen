@@ -1,0 +1,45 @@
+scene_id: quarian-envoy-admiralty-briefing
+title: The Admiralty Board's Ask, and Tali's Return
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, Priority: Perseus Veil, after the failed Cerberus coup on the Citadel"
+where: the Normandy's war room, docked with the Quarian Envoy Ship at Dholen in the Far Rim
+participants: [Shepard, Tali'Zorah, Shala'Raan vas Tonbay]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      After the failed Cerberus attack on the Citadel, Admiral Hackett told Shepard the
+      quarians would contribute technical specialists and support ships; the Normandy
+      travelled to Dholen and docked with the Quarian Envoy Ship.
+    source_chunks: [priority-perseus-veil_002, priority-perseus-veil_003]
+  - text: >
+      In the Normandy's war room the Migrant Fleet's admirals explained that they had opened
+      an all-out war on the geth, pushing them back toward Rannoch, after the Reapers
+      upgraded the geth — and that their fleet was now trapped. They asked the Normandy to
+      disable a geth dreadnought broadcasting the Reaper signal.
+    source_chunks: [priority-perseus-veil_003]
+  - text: >
+      If Tali'Zorah had survived Mass Effect 2 she rejoined the squad. If she had never been
+      exiled she had been made an admiral in her late father Rael'Zorah's place; if she had
+      been exiled she was present anyway for her knowledge of the geth, with the other
+      admirals hiding her from the rest of the quarians, which prompted Shepard to call her
+      their "dirty little secret."
+    source_chunks: [priority-perseus-veil_003, priority-perseus-veil_005]
+    conditional: {tali_status: alive}
+    choice: Tali survived Mass Effect 2
+  - text: >
+      Shepard could take Tali up to the captain's cabin to talk privately, continuing or
+      locking in a romance; on a first playthrough this unlocked Energy Drain as a bonus
+      power. Afterward Admiral Shala'Raan took up residence in the war room and Tali became
+      a temporary squad member.
+    source_chunks: [priority-perseus-veil_003, priority-perseus-veil_004]
+variants:
+  - condition: {tali_status: dead}
+    choice: Tali died in Mass Effect 2
+    text: >
+      If Tali had not survived Mass Effect 2 she was absent entirely; the admirals briefed
+      Shepard without her, and Admiral Xen later guided the dreadnought mission by comm.
+    source_chunks: [priority-perseus-veil_003, priority-geth-dreadnought_003]
+related_scenes: [geth-dreadnought-freeing-legion]
+related_events: [priority-perseus-veil]
+source_chunks: [priority-perseus-veil_002, priority-perseus-veil_003, priority-perseus-veil_004, priority-perseus-veil_005]

@@ -5,7 +5,7 @@ game: Mass Effect
 when: "2183, during Mass Effect: Ascension, after Golo sent Lemm to Pel's warehouse"
 where: Pel's warehouse on Omega, then a stolen shuttle to the Migrant Fleet
 
-participants: [Lemm'Shal nar Tesleya, Kahlee Sanders, Paul Grayson, Gillian Grayson, Hendel Mitra]
+participants: [Lemm'Shal nar Tesleya, Kahlee Sanders, Paul Grayson, Gillian Grayson, Hendel Mitra, Pel]
 private_to: []
 heard_by: [Cerberus, crew of the Idenna]
 
@@ -32,6 +32,12 @@ beats:
       the others.
     source_chunks: [lemm-shal-nar-tesleya_001]
   - text: >
+      Left behind in the warehouse as Lemm escaped with the others, Paul Grayson saw his
+      chance. When Pel, attempting to prevent their getaway, tried to blow up the rover with
+      a rocket launcher without noticing Grayson behind him, Grayson shot Pel's teammate and
+      then killed Pel himself in revenge for the double-cross.
+    source_chunks: [pel_001, paul-grayson_003, storyline-ii_023]
+  - text: >
       Hoping to introduce Kahlee to the Idenna's captain and earn a place on the crew,
       Lemm let the three humans hide from Cerberus on the Migrant Fleet and flew them there
       in a stolen shuttle, using his code phrase — "the quest for knowledge sent me away
@@ -42,4 +48,4 @@ beats:
 
 related_scenes: [omega-golo-dealings-and-the-trap-for-lemm, idenna-cerberus-assault-grayson-kills-golo]
 related_events: [cerberus-assault-on-the-idenna]
-source_chunks: [lemm-shal-nar-tesleya_001, golo_002]
+source_chunks: [lemm-shal-nar-tesleya_001, golo_002, pel_001, paul-grayson_003, storyline-ii_023]
