@@ -1,0 +1,53 @@
+scene_id: citadel-hanar-embassy-zymandis-arrest
+title: Cornering Zymandis in the Hanar Embassy
+kind: mission-aside
+game: Mass Effect 3
+when: "2186, during Citadel: Hanar Diplomat, after Priority: Palaven and before Priority: Tuchanka"
+where: the Private Offices of the hanar delegation in the Citadel Embassies
+participants: [Shepard, Jondum Bau, Zymandis, Kasumi Goto]
+private_to: []
+heard_by: []
+
+requires:
+  - hanar_diplomat: any
+
+beats:
+  - text: >
+      Salarian Spectre Jondum Bau, meeting Shepard outside Bailey's office, lays out the
+      case: an Alliance black-ops raid on a batarian lab studying Reaper tech turned into a
+      massacre, and the hanar operatives who were there are believed to have been
+      indoctrinated. One is now on the Citadel diplomatic staff. Bau has Shepard use the
+      Spectre Terminal and a run of embassy terminals to trace suspicious transfers; two
+      hanar are cleared and the third, Zymandis, a recent arrival from Kahje, is the agent.
+    source_chunks: [citadel-hanar-diplomat_004, citadel-hanar-diplomat_005, jondum-bau_001]
+  - text: >
+      Bau and Shepard enter the private offices to arrest Zymandis. Shepard can question him
+      or move straight to the arrest; either way he is plainly indoctrinated, laying out the
+      logic that because the Protheans became the Collectors and the Collectors serve the
+      Reapers, the hanar should serve them too. He announces he has just uploaded a virus to
+      shut down the automated planetary defences of Kahje. Bau moves to block the
+      transmission and a human bodyguard at the door gets his hands around Bau's throat.
+    source_chunks: [citadel-hanar-diplomat_006, zymandis_001, jondum-bau_001]
+  - text: >
+      With Kasumi Goto along — cloaked, without Bau's knowledge — she rushes the console and
+      kills the upload while Shepard takes down the bodyguard; Bau shoots Zymandis dead. A
+      rigged console then explodes, and Bau leaves believing Kasumi sacrificed herself. Kahje
+      is saved and Shepard gains both the Spectre Unit and the Hanar and Drell Forces war
+      assets.
+    source_chunks: [citadel-hanar-diplomat_006, citadel-hanar-diplomat_007, zymandis_001, jondum-bau_001]
+    conditional: {kasumi_present: true}
+    choice: Kasumi present — both Bau and the upload saved
+  - text: >
+      Without Kasumi, Shepard must choose. Break off to save Bau and he shoots Zymandis but
+      reaches the console too late, the virus goes through, and Kahje is overrun by Reaper
+      forces; Bau says Shepard should have let him die. Go for the console and stop the
+      upload, and Bau fights the bodyguard off himself, shoots him and Zymandis, and takes a
+      gut wound but lives, calling it an honour to have worked with Shepard.
+    source_chunks: [citadel-hanar-diplomat_006, jondum-bau_001, zymandis_001]
+    conditional: {kasumi_present: false}
+    choice: no Kasumi — chose between saving Bau and stopping the virus
+
+related_scenes: [illium-kasumi-keiji-apartment-heist-plan]
+related_events: [hanar-diplomat-zymandis-investigation]
+source_chunks: [citadel-hanar-diplomat_004, citadel-hanar-diplomat_005, citadel-hanar-diplomat_006,
+                citadel-hanar-diplomat_007, zymandis_001, jondum-bau_001]

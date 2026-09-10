@@ -4,7 +4,7 @@ kind: mission-aside
 game: Mass Effect
 when: "2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Migrant Fleet"
 where: the quarian ship Idenna in the Migrant Fleet — the isolation shuttle, Seeto'Hodda nar Idenna's quarters, and a corridor
-participants: [Golo, Paul Grayson, Kahlee Sanders, Gillian Grayson, Hendel Mitra]
+participants: [Golo, Paul Grayson, Kahlee Sanders, Gillian Grayson, Hendel Mitra, Ysin'Mal vas Idenna]
 heard_by: [crew of the Idenna, Migrant Fleet]
 requires: []
 beats:
@@ -24,6 +24,13 @@ beats:
       crew in the surprise assault.
     source_chunks: [golo_002, gillian-grayson_002]
   - text: >
+      Captain Ysin'Mal vas Idenna rallied his people and fought on the front lines himself,
+      but the defenders were being overwhelmed. They were saved only by Gillian Grayson
+      intervening and by Paul Grayson switching sides — warning them he had planted
+      explosives to cripple the ship. Mal and Hendel Mitra worked together to disable the
+      charges and save the Idenna.
+    source_chunks: [ysin-mal-vas-idenna_002, gillian-grayson_002]
+  - text: >
       Gillian, told to hide in Seeto'Hodda nar Idenna's quarters, was unsettled by the
       rearranged room and started back toward the shuttle. She met Cerberus operatives on
       the way and, her abilities honed by Hendel, killed them with ease, dropping a six-ton
@@ -42,7 +49,7 @@ beats:
       Flotilla, out of Cerberus's reach, with Hendel, who had bonded with her. The Idenna's
       captain chose both Hendel and Gillian to accompany him on the search for a new quarian
       homeworld.
-    source_chunks: [gillian-grayson_002]
-related_scenes: [shelba-golo-ambush-cyniad-scout-team]
+    source_chunks: [gillian-grayson_002, ysin-mal-vas-idenna_002]
+related_scenes: [shelba-golo-ambush-cyniad-scout-team, idenna-captain-mal-confides-in-kahlee]
 related_events: [cerberus-assault-on-the-idenna]
-source_chunks: [golo_002, gillian-grayson_002]
+source_chunks: [golo_002, gillian-grayson_002, ysin-mal-vas-idenna_002]

@@ -1,0 +1,50 @@
+scene_id: normandy-zaeed-cargo-hold-anecdotes
+title: Zaeed's War Stories in the Starboard Cargo Hold
+kind: downtime
+game: Mass Effect 2
+when: 2185, between missions, after Zaeed joins on Omega
+where: the starboard cargo hold on the Normandy SR-2's engineering deck, Zaeed's quarters
+participants: [Shepard, Zaeed Massani]
+private_to: [Shepard, Zaeed Massani]
+heard_by: [Normandy crew]
+
+requires:
+  - zaeed_loyalty: any
+
+beats:
+  - text: >
+      Zaeed takes the starboard cargo hold as his room and fills it with keepsakes: a
+      battered M-8 Avenger, a Blood Pack helmet, and a turian frigate model. The wall
+      opposite carries a "55" mark with five knives driven into it, and a nearby crate is
+      scarred from use as a knife dartboard. He has no dialogue wheel aboard ship — Shepard
+      inspects the objects and he talks.
+    source_chunks: [zaeed-massani_004, zaeed-massani-unique-dialogue_005]
+  - text: >
+      The rifle is "Jessie," the M-8 Avenger, which he retired around 2180 and never once
+      had to re-sight; he says he would give up every weapon he owns for one more mission
+      with it, and boasts that more men have been killed by that gun than died in the
+      Skyllian Blitz.
+    source_chunks: [zaeed-massani-unique-dialogue_005]
+  - text: >
+      The other trophies each have a story: the frigate is the turian ship Verrikan, his
+      first "suicide mission," leading five men to wreck it from the inside — he was the only
+      one who walked away. He pried the Blood Pack helmet off the krogan Gesark in 2168 after
+      a one-on-one duel in which he shot out Gesark's legs.
+    source_chunks: [zaeed-massani-unique-dialogue_005]
+  - text: >
+      Prompted around the ship and on missions, he keeps adding to it: an asari lover who
+      sold him to the Blood Pack; a botched job on Vatar where mercenaries strapped grenades
+      to a kidnapped girl; an eight-year-old abductee from the Skepsis system who fought her
+      kidnappers off; and, if Mordin is aboard, a skilled salarian tech specialist he once
+      worked with and later had to kill for a contract when the salarian signed on with
+      Eclipse — Mordin reminds him of the man.
+    source_chunks: [zaeed-massani-unique-dialogue_004, zaeed-massani-unique-dialogue_006]
+  - text: >
+      He notes offhand that he has killed more than fifty Cerberus operatives over the years
+      and figures the Illusive Man "must be big on forgiveness" to still be paying his fee.
+    source_chunks: [zaeed-massani-unique-dialogue_002, zaeed-massani-unique-dialogue_006]
+
+related_scenes: [omega-zaeed-alley-recruitment, zorya-zaeed-and-vido, verrikan-zaeed-and-tristana-raid]
+related_events: []
+source_chunks: [zaeed-massani_004, zaeed-massani-unique-dialogue_002, zaeed-massani-unique-dialogue_004,
+                zaeed-massani-unique-dialogue_005, zaeed-massani-unique-dialogue_006]

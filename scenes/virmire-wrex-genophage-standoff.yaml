@@ -66,6 +66,15 @@ beats:
     source_chunks: [virmire-wrex-and-the-genophage_004, urdnot-wrex_006]
     conditional: {wrex_virmire: dead}
     choice: Wrex dead — Wreav inherits Clan Urdnot
+  - text: >
+      In the odd case where Shepard's squad numbered only four — Kaidan, Tali, Wrex and
+      Ashley, which requires having sought Barla Von rather than Garrus to prove Saren's
+      guilt and never recruiting Garrus or Liara — Wrex had no fifth companion to back a
+      hard line and simply submitted to the decision to destroy the base, with no pistol
+      drawn and no persuasion check. He lived and went on to lead Clan Urdnot.
+    source_chunks: [virmire-wrex-and-the-genophage_003]
+    conditional: {wrex_virmire: alive}
+    choice: four-squadmate case — Wrex submits without a standoff
 related_scenes: [virmire-ashley-kaidan-sacrifice, normandy-docking-bay-wrex-genophage-confrontation, hollows-thurak-wreav-argument]
 related_events: [battle-of-virmire]
 source_chunks: [virmire-wrex-and-the-genophage_001, virmire-wrex-and-the-genophage_003,

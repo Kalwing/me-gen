@@ -28,6 +28,11 @@ beats:
       among them.
     source_chunks: [citadel-volus-ambassador_003]
   - text: >
+      In fact Korlack had cut his Cerberus ties after the invasion, and it was Zaeed's own
+      crew, contracted for the job, who kidnapped him. Over the earpiece Shepard convinces
+      Zaeed he was duped into taking the contract.
+    source_chunks: [zaeed-massani_006]
+  - text: >
       An earpiece linked to Korlack leads to a scene in the Presidium Commons where Korlack,
       held captive, slyly names "Selkish Arms" within his captors' hearing so Shepard can
       find him among apartments at the far ends of a hall, triggering a brief timed
@@ -36,8 +41,8 @@ beats:
   - text: >
       Inside the correct apartment, Korlack's captors are already dealt with: a loyal Zaeed,
       if he survived the suicide mission and was made loyal on Zaeed: The Price of Revenge,
-      greets Shepard after disposing of Korlack's guards himself.
-    source_chunks: [citadel-volus-ambassador_003]
+      greets Shepard after turning on and killing his fellow mercs to save Korlack himself.
+    source_chunks: [citadel-volus-ambassador_003, zaeed-massani_006]
     conditional: {zaeed_loyalty: lived}
     choice: Zaeed loyal and alive, clears the guards himself
   - text: >
@@ -62,4 +67,5 @@ beats:
 
 related_scenes: [zorya-zaeed-and-vido]
 related_events: []
-source_chunks: [citadel-volus-ambassador_001, citadel-volus-ambassador_002, citadel-volus-ambassador_003]
+source_chunks: [citadel-volus-ambassador_001, citadel-volus-ambassador_002, citadel-volus-ambassador_003,
+                zaeed-massani_006]

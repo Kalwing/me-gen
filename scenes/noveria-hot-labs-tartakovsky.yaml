@@ -1,0 +1,43 @@
+scene_id: noveria-hot-labs-tartakovsky
+title: Tartakovsky Dies Handing Over the Purge Codes
+kind: mission-aside
+game: Mass Effect
+when: "2183, during Noveria: Matriarch Benezia, after Rift Station"
+where: the hot labs, a facility built into a stable glacier beyond Rift Station on Peak 15, Noveria
+participants: [Shepard, Yaroslev Tartakovsky]
+private_to: []
+heard_by: [Normandy crew]
+
+requires:
+  - game: Mass Effect
+
+beats:
+  - text: >
+      Reaching the hot labs, Shepard's squad finds Yaroslev Tartakovsky, a Binary Helix
+      researcher, slumped in a chair and visibly weakened by some unnamed injury or illness —
+      how he lived through the rachni breach that gutted the facility is never explained.
+    source_chunks: [yaroslev-tartakovsky_001, peak-15_005]
+  - text: >
+      Tartakovsky tells Shepard the truth about the project: Binary Helix recovered an egg
+      from a drifting rachni ship and meant to clone an army from it. The egg hatched a
+      queen; the researchers separated her young from her to make them tractable, and the
+      isolated rachni went insane without her.
+    source_chunks: [yaroslev-tartakovsky_001]
+  - text: >
+      He holds the codes the station VI Mira needs to fire the hot labs' neutron purge. As
+      he rises to hand them over, a Rachni Soldier impales him through the chest. Shepard
+      kills the rachni and takes the codes from his body; near the end he says wryly,
+      "mother always said I would come to a bad end." The recovered purge code is
+      875-020-079.
+    source_chunks: [yaroslev-tartakovsky_001, yaroslev-tartakovsky_002]
+  - text: >
+      If Shepard never takes the codes from Tartakovsky, Mira in the hot labs control room
+      past him will explain the purge system instead and warn of the radiation it releases —
+      lethal to every living thing in the facility.
+    source_chunks: [mira_003, peak-15_005]
+    conditional: {tartakovsky_codes: skipped}
+    choice: got the purge instructions from Mira rather than Tartakovsky
+
+related_scenes: [noveria-rift-station-lockdown, benezia-death-noveria]
+related_events: [benezia-death-noveria]
+source_chunks: [yaroslev-tartakovsky_001, yaroslev-tartakovsky_002, mira_003, peak-15_005]

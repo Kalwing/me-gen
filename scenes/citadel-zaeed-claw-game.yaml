@@ -1,0 +1,29 @@
+scene_id: citadel-zaeed-claw-game
+title: Zaeed Versus the Claw Machine
+kind: hangout
+game: Mass Effect 3
+when: 2186, Citadel shore leave, after the clone conspiracy
+where: the Castle Arcade on the Silversun Strip, in front of the claw game
+participants: [Shepard, Zaeed Massani]
+private_to: [Shepard, Zaeed Massani]
+heard_by: [Normandy crew]
+
+requires:
+  - citadel_dlc: any
+  - zaeed_loyalty: lived
+
+beats:
+  - text: >
+      A kid had been crying by the claw game, having spent all his credits without winning
+      anything, and asked Zaeed to try. By the time Shepard catches up Zaeed is alone at the
+      machine, the "snivelling brat" long gone, and still losing.
+    source_chunks: [zaeed-massani_007]
+  - text: >
+      Talked to, Zaeed hits Shepard up for credits — which Shepard can hand over or refuse —
+      and keeps feeding the machine while cursing the man who designed it. He eventually wins
+      a volus doll and, rudely, gives it to a nearby asari.
+    source_chunks: [zaeed-massani_007]
+
+related_scenes: [citadel-silversun-strip-shore-leave, citadel-party-apartment]
+related_events: []
+source_chunks: [zaeed-massani_007]
