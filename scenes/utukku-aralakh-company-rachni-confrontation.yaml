@@ -22,6 +22,25 @@ beats:
     conditional: {grunt_status: alive}
     choice: Grunt alive, leading Aralakh Company
   - text: >
+      If Grunt is dead or was never released from his tank, Clan Urdnot's leader — Wrex or
+      Wreav — has instead given Aralakh Company to Urdnot Dagg, a soldier respected and
+      feared enough that his superiors expected him to bring the unit greater unity. Meeting
+      Shepard, Dagg voices both admiration and jealousy that the Commander has the Reapers
+      for enemies, wondering aloud what Shepard did to earn that; told he came highly
+      recommended, he explains his selection. He boasts every krogan under him wants blood,
+      and if a female Shepard says she will leave some for them, barks "the female has bite!"
+      When Shepard first drops into the rachni nest, Dagg assumes it was a deliberate charge
+      into the fight.
+    source_chunks: [urdnot-dagg_001, attican-traverse-krogan-team_002]
+    conditional: {grunt_status: dead}
+    choice: Grunt dead — Urdnot Dagg leads Aralakh Company
+  - text: >
+      Where the squad can watch Aralakh Company fight the rachni, Dagg has more trouble than
+      Grunt would — pinned down and unable to break cover.
+    source_chunks: [urdnot-dagg_001]
+    conditional: {grunt_status: dead}
+    choice: Dagg leads — struggles against the rachni
+  - text: >
       Descending into the tunnels beneath the surface, Shepard's team finds the bodies of
       the missing krogan scouts and discovers the Reapers have built a breeding operation,
       using rachni to grow a biological army of Ravagers, Swarmers, and other troops.
@@ -52,4 +71,4 @@ related_scenes: [normandy-garrus-rachni-stories-copeland, normandy-war-room-rach
 related_events: [rachni-queen-noveria-choice, attican-traverse-rachni]
 source_chunks: [attican-traverse-krogan-team_002, attican-traverse-krogan-team_004,
                 attican-traverse-krogan-team_005, attican-traverse-krogan-team_010,
-                attican-traverse-krogan-team_011]
+                attican-traverse-krogan-team_011, urdnot-dagg_001]

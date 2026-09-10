@@ -1,0 +1,30 @@
+scene_id: citadel-kodiak-joyride-cortez
+title: Kodiak Joyride with the Inertial Dampeners Off
+kind: downtime
+game: Mass Effect 3
+when: 2186, Citadel DLC, after the Normandy was retaken from the Shepard clone
+where: a Kodiak shuttle over the Silversun Strip
+participants: [Shepard, Steve Cortez]
+private_to: [Shepard, Steve Cortez]
+heard_by: [Normandy crew]
+requires:
+  - citadel_dlc: any
+beats:
+  - text: >
+      After the clone is defeated and the Normandy recovered, Cortez sends Shepard an invitation
+      to the Silversun Strip and picks him up in the Kodiak for a joyride.
+    source_chunks: [steve-cortez_005]
+  - text: >
+      During the ride Cortez reveals he has disabled the shuttle's inertial dampeners, giving
+      Shepard a taste of flight without mass effect fields - the way flying felt before mass
+      effect technology.
+    source_chunks: [steve-cortez_005]
+  - text: >
+      If they are romantically involved, Shepard can take Cortez's hand and the two cuddle in
+      the back of the Kodiak while it flies on autopilot.
+    source_chunks: [steve-cortez_005]
+    conditional: {romance: Cortez}
+    choice: cuddled in the back of the Kodiak
+related_scenes: [citadel-docks-retake-the-normandy, citadel-party-apartment]
+related_events: [joker-hijacks-normandy]
+source_chunks: [steve-cortez_005]

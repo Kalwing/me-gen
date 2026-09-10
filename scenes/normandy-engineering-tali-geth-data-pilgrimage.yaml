@@ -1,0 +1,49 @@
+scene_id: normandy-engineering-tali-geth-data-pilgrimage
+title: Tali Asks for the Geth Data as Her Pilgrimage Gift
+kind: downtime
+game: Mass Effect
+when: 2183, after the Alliance campaign against geth incursions clears the geth base on Solcrum
+where: the engineering bay of the Normandy SR-1
+participants: [Shepard, Tali'Zorah nar Rayya]
+private_to: [Shepard, Tali'Zorah nar Rayya]
+heard_by: [Normandy crew]
+
+beats:
+  - text: >
+      Purging the last geth stronghold on Solcrum, Shepard hacks a data terminal in a back
+      room and pulls a cache of geth files tracing how the geth evolved since their split
+      from the quarians. Tali says nothing about it on the ground; Shepard has to raise it
+      with her back aboard the Normandy.
+    source_chunks: [tali-and-the-geth_001, unc-geth-incursions_012]
+  - text: >
+      In the engineering bay Tali asks for a copy. The cache is heavily encrypted and might
+      take years to decipher, but it would be a perfect gift for her Pilgrimage — something
+      of value the Migrant Fleet could not produce for itself.
+    source_chunks: [tali-and-the-geth_003, tali-zorah-nar-rayya_004]
+  - text: >
+      Shepard gives her a copy. She is very grateful — it means she can return to her people
+      once the hunt for Saren is done — and renews her pledge to see that hunt through. The
+      assignment closes in the journal as "Tali's Pilgrimage".
+    source_chunks: [tali-and-the-geth_003, tali-zorah-nar-rayya_004]
+    conditional: {tali_geth_data: given}
+    choice: gave Tali the geth data
+  - text: >
+      Shepard refuses, ruling it classified Alliance data that cannot be handed out. Tali
+      tries to reason through it, but once Shepard is firm the decision is final. She is not
+      hopeful the Alliance will ever release the files to the Fleet, pouts that Shepard put
+      humanity's interests ahead of the quarians', and resolves to leave the crew once the
+      mission is over to find something of equal worth on her own.
+    source_chunks: [tali-and-the-geth_003, tali-zorah-nar-rayya_004]
+    conditional: {tali_geth_data: withheld}
+    choice: withheld the geth data
+  - text: >
+      Two years later on Freedom's Progress, a wary Tali who thinks Shepard died with the
+      first Normandy can be steadied by mention of this data: if it was given, she confirms
+      it completed her Pilgrimage and decides this is still the same Shepard; if it was
+      withheld, Shepard cannot reassure her that way, though she stays only mildly
+      suspicious and completes her Pilgrimage with some other gift.
+    source_chunks: [tali-and-the-geth_004]
+
+related_scenes: [freedom-s-progress-veetor-and-tali]
+related_events: []
+source_chunks: [tali-and-the-geth_001, tali-and-the-geth_003, tali-and-the-geth_004, tali-zorah-nar-rayya_004, unc-geth-incursions_012]

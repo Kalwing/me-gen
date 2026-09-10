@@ -1,0 +1,38 @@
+scene_id: camala-iwo-jima-sanders-ambush
+title: Skarr Brings Down the Iwo Jima
+kind: mission-aside
+game: Mass Effect
+when: 2165, minutes before the Iwo Jima's planned pickup of Kahlee Sanders (Mass Effect - Revelation)
+where: a stretch of open ground on the batarian colony world of Camala, around an overturned Alliance APC
+participants: [Kahlee Sanders, Skarr, Alliance marine escort]
+private_to: [Kahlee Sanders, Skarr, Alliance marine escort]
+heard_by: []
+requires: []
+beats:
+  - text: >
+      The SSV Iwo Jima is sent to Camala to evacuate Alliance scientist Kahlee Sanders.
+      Acting on a tip-off deliberately planted by Saren Arterius, the krogan Battlemaster
+      Skarr and a Blue Suns force intercept the APC carrying Sanders and her marine escort
+      minutes before the rendezvous.
+    source_chunks: [ssv-iwo-jima_001, skarr_001]
+  - text: >
+      Blue Suns rovers overrun the APC. It fails to break away, collides with a rover, and
+      flips onto its side. Sanders and the marines climb out and take cover behind the
+      overturned vehicle.
+    source_chunks: [ssv-iwo-jima_001]
+  - text: >
+      As a rover moves to flank the survivors, the Iwo Jima arrives and destroys it with her
+      GARDIAN defense lasers. Her kinetic barriers are down so she can land and recover the
+      shore party. Skarr fires hundreds of explosive rounds into her at point-blank range from
+      a portable mass accelerator cannon; the hypervelocity shrapnel punches through the
+      unshielded hull and shreds the crew inside. The frigate careens off, crashes on Camala,
+      and is destroyed on impact.
+    source_chunks: [ssv-iwo-jima_001, skarr_001]
+  - text: >
+      Skarr captures Sanders and takes her to the element-zero refinery Edan Had'dah is using
+      as a hideout, staying close to her so she cannot escape and forcing her to help Dr. Shu
+      Qian with his research under threat of torture.
+    source_chunks: [skarr_001, kahlee-sanders_002]
+related_scenes: [camala-saren-kills-edan-haddah]
+related_events: []
+source_chunks: [ssv-iwo-jima_001, skarr_001, kahlee-sanders_002]

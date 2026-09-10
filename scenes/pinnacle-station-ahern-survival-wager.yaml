@@ -1,0 +1,51 @@
+scene_id: pinnacle-station-ahern-survival-wager
+title: Ahern's Wager on the Survival Scenario
+kind: mission-aside
+game: Mass Effect
+when: 2183, after Shepard is named a Spectre, during the Pinnacle Station training visit
+where: the simulator control booth and combat deck of Pinnacle Station, an asteroid in the Phoenix system; then Shepard's won apartment on Intai'sei
+participants: [Shepard, Tadius Ahern]
+private_to: [Shepard, Tadius Ahern]
+heard_by: [Pinnacle Station personnel]
+
+requires:
+  - pinnacle_station_dlc: any
+
+beats:
+  - text: >
+      Shepard works through the combat scenario tiers of Pinnacle Station, a Citadel Council
+      elite-training facility that Admiral Tadius Ahern commands. Ahern watches from the
+      control booth and comments on every run — encouragement or derision by turns, and
+      backhanded even when Shepard takes first place and sets new records, complimenting
+      Shepard's "ability to weigh the pros and cons of standing in the way of incoming fire"
+      or noting Shepard can add "a broken record" to the list of things they have ruined.
+    source_chunks: [tadius-ahern_003]
+  - text: >
+      Once Shepard has taken first place in every combat scenario, Ahern says there is one
+      special scenario left: a recreation of the module-recovery mission he fought in during
+      the First Contact War, a near-suicidal run with a small squad against dozens of turian
+      mercenaries.
+    source_chunks: [tadius-ahern_003, tadius-ahern_002]
+  - text: >
+      Shepard tells Ahern to turn off the safeties and takes it on as a wager — Ahern stakes
+      his retirement home on Intai'sei, a prefab dropped there by ExoGeni, and Shepard
+      accepts that with the safeties off this may be a fight to the death. Ahern is reluctant
+      to let Shepard try, not wanting the first human Spectre to die in his simulation.
+    source_chunks: [tadius-ahern_003, intai-sei_006]
+  - text: >
+      Shepard clears the survival scenario. Ahern honors the bet, gives up the Intai'sei
+      apartment, and in parting tells Shepard they have earned the right to just call him
+      "Ahern".
+    source_chunks: [tadius-ahern_003]
+    conditional: {pinnacle_station_survival: won}
+    choice: won Ahern's survival wager
+  - text: >
+      In the Intai'sei apartment a personal computer holding a message meant for Ahern lets
+      Shepard order random — occasionally very rare — weapons, armor and upgrades from a
+      local trade convoy across three price tiers. Told later that Shepard is taking his
+      deliveries, Ahern says Shepard can keep whatever they can pay for.
+    source_chunks: [tadius-ahern_003, pinnacle-station_003]
+
+related_scenes: [shanxi-tadius-ahern-strongpoint]
+related_events: []
+source_chunks: [tadius-ahern_003, tadius-ahern_002, intai-sei_006, pinnacle-station_003]

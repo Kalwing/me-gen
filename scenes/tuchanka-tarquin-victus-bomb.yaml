@@ -1,0 +1,98 @@
+scene_id: tuchanka-tarquin-victus-bomb
+title: Tarquin Victus and the Kelphic Valley Bomb
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Tuchanka, after Priority Sur'Kesh, when the turian 9th Platoon went down in the Krogan DMZ
+where: the platoon's crash site at the Downed Vessel, the Cerberus-held bomb site in the Kelphic Valley, then the Normandy War Room
+participants: [Shepard, Tarquin Victus, Garrus Vakarian, Adrien Victus, Admiral Hackett]
+heard_by: [Normandy crew, turian 9th Platoon]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      Now Primarch, Adrien Victus asked Shepard to retrieve his son and the son's missing
+      platoon on Tuchanka, calling it a delicate political matter he would not detail, kept
+      quiet from the nearby Urdnot leader. If Garrus was on the squad, he told Shepard it
+      was likely the Primarch had promoted Tarquin without merit — a dangerous, frowned-upon
+      act in turian culture.
+    source_chunks: [tarquin-victus_001, tarquin-victus_002]
+  - text: >
+      Shepard's squad set down at the Downed Vessel site in the Krogan DMZ and raised
+      Lieutenant Tarquin Victus by radio; under Reaper attack, he marked his position with a
+      flare. The squad fought forward through rubble-choked ruins against Husks, Cannibals,
+      Marauders and a Brute, passing crashed turian escape pods with dead turians around
+      them, and drove off repeated Harvester passes before they could destroy the pods. The
+      final fight in an open area was waves of Cannibals and Marauders with a Brute, then a
+      Harvester as the boss, with a Reaper Blackstar heavy weapon lying nearby to bring it
+      down.
+    source_chunks: [tuchanka-turian-platoon_003, tuchanka-turian-platoon_004, tuchanka-turian-platoon_005, tuchanka-turian-platoon_007]
+  - text: >
+      Shepard reached Tarquin at the crash site, wracked with guilt. He had tried to imitate
+      his father's clever tactics instead of brute force, moving the platoon through narrow
+      ruins to avoid casualties; Reaper ground forces spotted them where there was no room to
+      maneuver, and the platoon was shot down. His attempt to spare lives had cost more, and
+      his men's anger and his own failure left him saying he could not finish the job. His
+      mission was to stop Cerberus from detonating a bomb the turians had planted in the
+      heavily populated Kelphic Valley after the Krogan Rebellions, a last-resort weapon
+      should the krogan rise again — detonation would trigger all-out krogan-turian war.
+      Shepard convinced Tarquin he had to fulfill his duty; he agreed if Shepard would
+      bolster the assault.
+    source_chunks: [tarquin-victus_002]
+  - text: >
+      After the fight Shepard spoke with the demoralized Tarquin and his troops and put the
+      fight back into them, either empathetically or by demanding they pull themselves
+      together, then picked up the timed follow-up to stop the Kelphic Valley bomb and
+      returned to the Normandy.
+    source_chunks: [tuchanka-turian-platoon_007]
+  - text: >
+      Shepard's squad landed at the bomb site under heavy artillery bombardment and fought
+      through Cerberus Assault Troopers, Centurions, Combat Engineers, Guardians, turrets and
+      an Atlas mech to reach the device alongside Tarquin.
+    source_chunks: [tuchanka-bomb_006]
+  - text: >
+      Tarquin asked Shepard to cover him while he worked. He found an error prevented
+      conventional deactivation and climbed onto the bomb to pull the detonator by hand,
+      while Shepard held off waves of shuttle-borne Cerberus infantry and an Atlas trying to
+      kill him — his health could not be allowed to reach zero. The locks released one by one
+      until a final one stalled: the only way to free it would take him with it.
+    source_chunks: [tuchanka-bomb_006, tarquin-victus_003]
+  - text: >
+      Shepard looked up to see Tarquin dangling beside the last lock. As Shepard shouted at
+      him, he answered "victory, at any cost," removed the final piece, and fell to his death
+      with the lock, the bomb defused and the mission complete. This preserved the fragile
+      krogan-turian alliance.
+    source_chunks: [tarquin-victus_003, tuchanka-bomb_006]
+  - text: >
+      If Garrus was on the squad, he remarked that other turians would simply expect this of
+      Tarquin — "we're a hard bunch to please" — but that "he never hesitated," and
+      "whatever he was before, he'll be remembered for this."
+    source_chunks: [tarquin-victus_003]
+    conditional: {squad_tuchanka_bomb: Garrus}
+    choice: brought Garrus to Tuchanka
+  - text: >
+      If Shepard did not reach the bomb in time — the mission was timed and failed
+      permanently once three other missions were completed first — Cerberus detonated it. A
+      large part of the krogan population died and the krogan War Asset was gutted; if Eve
+      had survived Priority: Tuchanka she was killed rallying the clans in the Kelphic
+      Valley. Shepard received furious threats of slaughter from Urdnot Wreav, or despondent
+      messages from Urdnot Wrex about how many krogan had died.
+    source_chunks: [tuchanka-bomb_006, tuchanka-bomb_009]
+    conditional: {tarquin_bomb: failed}
+    choice: bomb detonated, Kelphic Valley lost
+  - text: >
+      Back aboard the Normandy, Shepard debriefed with Admiral Hackett, who ordered that
+      peace be kept between the turian Primarch and the krogan leader — at all costs if both
+      were still aboard, or noted relations were strained but intact if they had already
+      left — then spoke with Primarch Victus. If Tarquin had died defusing the bomb, his
+      father felt great sorrow and regretted not being honest sooner, but took pride that his
+      son died a hero with the respect of his men — as much as any turian father could hope —
+      and thanked Shepard for giving Tarquin a chance to redeem himself. His follow-up email
+      said the sacrifice would go down in the histories of the 9th Platoon. If the bomb had
+      been stopped before Priority: Tuchanka, speaking to Garrus straight afterward brought
+      the Urdnot leader's voice over the Normandy intercom asking Garrus whether he had known
+      about the bomb; if it was done later, Garrus only remarked it was fortunate no krogan
+      had been aboard when the bomb was revealed.
+    source_chunks: [tuchanka-turian-platoon_008, tarquin-victus_003, tuchanka-bomb_009, tuchanka-bomb_007]
+related_scenes: [menae-victus-becomes-primarch, normandy-war-summit-urdnot-linron-victus, normandy-crew-on-victus-situation]
+related_events: [tuchanka-bomb-tarquin-victus, tuchanka-turian-platoon]
+source_chunks: [tarquin-victus_001, tarquin-victus_002, tarquin-victus_003, tuchanka-bomb_006, tuchanka-bomb_007, tuchanka-bomb_009, tuchanka-turian-platoon_003, tuchanka-turian-platoon_004, tuchanka-turian-platoon_005, tuchanka-turian-platoon_007, tuchanka-turian-platoon_008]

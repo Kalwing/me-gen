@@ -1,0 +1,37 @@
+scene_id: stargazer-tells-the-shepard
+title: The Stargazer Finishes the Tale of the Shepard
+kind: downtime
+game: Mass Effect 3
+when: long after the Reaper War, framing the whole story as a tale being told
+where: outdoors under the night sky, a snowy wood, the two of them looking up at the stars
+participants: [the Stargazer, the child]
+private_to: [the Stargazer, the child]
+heard_by: []
+requires: []
+beats:
+  - text: >
+      An older humanoid figure, the Stargazer, sits outdoors with a child beneath the stars,
+      finishing a story about a legendary figure called "The Shepard."
+    source_chunks: [stargazer_001]
+  - text: >
+      If the Crucible was activated at the end of the battle for Earth, the Stargazer is an
+      older man. He closes the tale by saying it all happened a very long time ago and that
+      many of the details have been lost to time.
+    source_chunks: [stargazer_001]
+    conditional: {final_choice: "Destroy, Control or Synthesis — Crucible activated"}
+    choice: Crucible activated
+  - text: >
+      If the Crucible was not activated and the Reapers continued their cycle, the Stargazer
+      is a woman of an unknown species. She closes the tale by explaining that her people know
+      of the Shepard and the war only through archives Liara T'Soni left behind, and that this
+      information saved their generation from the threat and is why they now live in peace.
+    source_chunks: [stargazer_001]
+    conditional: {final_choice: "Refuse — Crucible not activated, Reapers continue the cycle"}
+    choice: Crucible not activated
+  - text: >
+      Either way the child asks to be told more, and the Stargazer answers that there is time
+      for one more story.
+    source_chunks: [stargazer_001]
+related_scenes: []
+related_events: []
+source_chunks: [stargazer_001]

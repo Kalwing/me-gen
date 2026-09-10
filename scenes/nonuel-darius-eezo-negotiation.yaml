@@ -1,0 +1,69 @@
+scene_id: nonuel-darius-eezo-negotiation
+title: Negotiating with Lord Darius Over Element Zero Mining Rights
+kind: argument
+game: Mass Effect
+when: 2183, after Shepard reaches 80% Renegade alignment
+where: the Warlord's Outpost in the center of Nonuel, Plutus system, Hades Gamma cluster
+participants: [Shepard, Darius, Darius Retainers]
+private_to: [Shepard, Darius, Darius Retainers]
+heard_by: [Alliance Command]
+requires:
+  - alignment: 80% Renegade minimum
+beats:
+  - text: >
+      Admiral Hackett sent Shepard to negotiate with Lord Darius, a warlord controlling
+      Nonuel's secondary source of element zero in the Plutus system. Hackett authorized
+      Shepard to make any financial or diplomatic concessions necessary to secure mining
+      rights to the eezo-rich asteroid. Shepard landed on the volcanic surface and traveled
+      to the Warlord's Outpost, where Darius waited in the main room with his retainers.
+    source_chunks: [unc-the-negotiation_001, unc-the-negotiation_004]
+  - text: >
+      Darius opened on the offensive, angered that the Alliance had sent Shepard rather than
+      a trained negotiator, and insulting regardless of Shepard's gender or psychological
+      profile. He made four demands: that Shepard address him as "Lord," that the Alliance
+      apologize for intruding and mining on his territory, that he receive eezo, money, and
+      equipment for manufacturing red sand in exchange for mining rights, and that Shepard
+      ask nicely and say "please" to seal the deal.
+    source_chunks: [unc-the-negotiation_004, lord-darius_001]
+  - text: >
+      Shepard chose to capitulate to all Darius's demands by selecting only the uppermost
+      dialogue options. Darius accepted gracefully and handed Shepard an OSD detailing the
+      arrangement, allowing Shepard to leave without further incident. When Shepard reported
+      back to Hackett, the Admiral revealed he had expected Shepard to kill Darius instead,
+      noting that the Alliance could not officially condone an assassination but would honor
+      any negotiated treaty; Hackett implied Shepard should not be surprised that he used
+      whatever means necessary to achieve Alliance goals.
+    source_chunks: [unc-the-negotiation_004]
+    conditional: {darius_fate: negotiation successful, signed treaty}
+    choice: Shepard capitulated to all demands and signed the treaty
+  - text: >
+      When Shepard objected to Darius's first three demands, Darius revealed that the Alliance
+      had actually installed him as the region's power to stabilize it after driving out the
+      batarians, and was now reneging on their partnership because of his greed over eezo and
+      drug operations. Shepard had to apologize to continue negotiating; any further Renegade
+      or neutral objections triggered a firefight. If Shepard refused to say "please" on the
+      final demand, Darius ordered an attack regardless of prior cooperation.
+    source_chunks: [unc-the-negotiation_004]
+    conditional: {darius_fate: objections and combat}
+    choice: Shepard objected to demands, revealing Alliance's installed Darius
+  - text: >
+      Combat erupted in the large outpost room with Darius and nine retainers of various races
+      (including three krogan) all able to regenerate health and shields. Three power junctions
+      were scattered throughout; an Overload on Darius could detonate the junction on his
+      balcony, blasting him off. Once Shepard eliminated all hostiles and accessed a terminal
+      in the upper room, the exit unlocked.
+    source_chunks: [unc-the-negotiation_004]
+    conditional: {darius_fate: objections and combat}
+    choice: Shepard fought through Darius's retainers
+  - text: >
+      When Shepard reported to Hackett after killing Darius, the Admiral revealed he had
+      expected and wanted Darius dead. He noted the setup was obvious but the Alliance could
+      not officially condone an assassination; Hackett implied Shepard should understand that
+      he did whatever was necessary to get the job done. Galactic News reports later covered
+      both outcomes: pirate attempts to halt Alliance mining failing after Darius's death, or
+      inflated eezo prices if he survived and maintained his treaty.
+    source_chunks: [unc-the-negotiation_004, lord-darius_001]
+    conditional: {darius_fate: killed}
+    choice: Shepard killed Darius; Hackett admits he expected assassination
+related_events: []
+source_chunks: [lord-darius_001, unc-the-negotiation_001, unc-the-negotiation_004]

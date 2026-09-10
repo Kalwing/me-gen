@@ -76,6 +76,17 @@ beats:
   - text: >
       Whatever the verdict, the title sticks: she is Tali'Zorah vas Normandy from here on.
     source_chunks: [tali-zorah-nar-rayya_006]
+  - text: >
+      If Shepard submits her father's evidence to exonerate her against her wishes, Tali is
+      cleared but her loyalty is lost — furious not that she was proven innocent but that
+      Shepard denied her the self-sacrifice she had chosen, going into a mission she does not
+      expect to survive: "I spent my whole life watching my father make decisions I didn't
+      agree with... I didn't need another father back there. I needed a friend." She still
+      backs Shepard but asks him not to speak to her unless he needs something, and can no
+      longer be romanced.
+    source_chunks: [manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_006]
+    conditional: {tali_trial: cleared with her father's evidence}
+    choice: presented the evidence over Tali's objection
 
 variants:
   - condition: {tali_trial: cleared without her father's evidence}
@@ -101,8 +112,8 @@ variants:
       loyalty.
     source_chunks: [tali-treason_008, tali-treason_013]
 
-related_scenes: [normandy-tali-legion-conflict, haestrom-tali-recruitment]
+related_scenes: [normandy-tali-legion-conflict, haestrom-tali-recruitment, alarei-rael-zorah-body]
 related_events: []
 source_chunks: [tali-treason_004, tali-treason_005, tali-treason_008, tali-treason_013,
                 tali-zorah-nar-rayya_006, han-gerrel-vas-neema_002, kar-danna-vas-rayya_002,
-                kal-reegar_003]
+                kal-reegar_003, manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_006]

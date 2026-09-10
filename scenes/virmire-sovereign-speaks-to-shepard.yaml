@@ -1,0 +1,40 @@
+scene_id: virmire-sovereign-speaks-to-shepard
+title: Sovereign Speaks to Shepard in Saren's Lab
+kind: mission-aside
+game: Mass Effect
+when: 2183, during the assault on Saren's base on Virmire
+where: Saren Arterius's communications lab inside the Virmire cloning facility, at a second Prothean beacon
+participants: [Shepard, Sovereign]
+private_to: []
+heard_by: [Normandy crew]
+requires: []
+beats:
+  - text: >
+      Fighting through Saren's base, Shepard reaches his communications lab and uses a second
+      Prothean beacon stored there. The contact alerts Sovereign to the Commander's presence,
+      and the Reaper speaks to Shepard directly through the lab's systems for the first time —
+      a conversation written to make plain that this is not a geth ship or a Prothean relic
+      but something far older and self-aware.
+    source_chunks: [sovereign_005, sovereign_009]
+  - text: >
+      Sovereign voices its contempt for organic life: it imposes order on the chaos of
+      organic evolution, organics exist only because the Reapers allow it and will end when
+      the Reapers demand it, and Shepard's attempt to stop their return is futile. It
+      proclaims that the Reapers are each a nation and that "We are legion."
+    source_chunks: [sovereign_005, sovereign_009]
+  - text: >
+      The cryptic boasts are only explained later. Aboard the Normandy SR-2 in 2185, Legion
+      says Sovereign called itself Nazara to the geth and had spent over a thousand years
+      seeking allies to restart the cycle, and that "we are each a nation" describes the many
+      AI processes running in one Reaper hull; the Collector base then reveals each Reaper is
+      built from the genetic material of a single sentient species — a nation.
+    source_chunks: [sovereign_007]
+  - text: >
+      Sovereign breaks contact and moves to reach Shepard's position on the surface, but
+      Shepard triggers the salarian drive-core nuke that levels the base and lifts off aboard
+      the Normandy before the Reaper arrives. The encounter leaves Saren doubting the Reapers,
+      so Sovereign later implants him with control cybernetics to fully indoctrinate him.
+    source_chunks: [sovereign_005]
+related_scenes: [virmire-rana-thanoptis-office, virmire-saren-confrontation, virmire-ashley-kaidan-sacrifice]
+related_events: [battle-of-virmire]
+source_chunks: [sovereign_005, sovereign_007, sovereign_009]

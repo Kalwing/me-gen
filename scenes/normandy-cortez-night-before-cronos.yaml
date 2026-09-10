@@ -1,0 +1,24 @@
+scene_id: normandy-cortez-night-before-cronos
+title: Cortez Stays the Night Before Cronos Station
+kind: downtime
+game: Mass Effect 3
+when: 2186, aboard the Normandy the night before the assault on the Cerberus Headquarters
+where: Shepard's cabin on the Normandy SR-2
+participants: [Shepard, Steve Cortez]
+private_to: [Shepard, Steve Cortez]
+requires:
+  - romance: Cortez
+beats:
+  - text: >
+      Before the assault on the Cerberus Headquarters at Cronos Station, Cortez visits Shepard's
+      cabin to update him on the armory and shuttle, then says he hopes Shepard wants some
+      company before the order to launch is given.
+    source_chunks: [steve-cortez_006]
+  - text: >
+      If Shepard accepts, the two spend the night together. Shepard cannot sleep, weighed down by
+      the casualties the assault will cost and the responsibility of the whole war. Cortez
+      comforts him, reminding him that it was Shepard who united the entire galaxy.
+    source_chunks: [steve-cortez_006]
+related_scenes: [citadel-purgatory-cortez-dance]
+related_events: [priority-cerberus-headquarters]
+source_chunks: [steve-cortez_006]

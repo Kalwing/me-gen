@@ -1,0 +1,72 @@
+scene_id: ontarom-shepard-confronts-toombs
+title: Shepard Confronts Toombs Holding Dr. Wayne Hostage
+kind: mission-aside
+game: Mass Effect
+when: "2183, during the UNC: Dead Scientists assignment"
+where: Ontarom, in the back room of a cramped mercenary-held facility
+participants: [Shepard, Toombs, Dr. Wayne]
+private_to: [Shepard, Toombs, Dr. Wayne]
+requires:
+  - toombs_fate: alive
+beats:
+  - text: >
+      Corporal Toombs was one of the Alliance marines who survived the thresher maw
+      massacre at Akuze in 2177. Cerberus had deliberately set the maws on his unit as
+      an experiment and, when Toombs was found alive, Cerberus captured him for years
+      of horrific study, including injections of thresher maw acid. After escaping
+      confinement, Toombs began systematically hunting down the scientists responsible,
+      enlisting mercenary help. Commander Shepard investigating a series of dead Alliance
+      scientists crossed paths with Toombs on Ontarom as he was about to kill Dr. Wayne,
+      the last scientist on his list.
+    source_chunks: [toombs_001, toombs_002]
+  - text: >
+      The trail began with an intercepted Noveria security log warning a doctor in the
+      Newton system that his history with "our organization" had leaked, or with a briefing
+      from Admiral Hackett. On Ontarom, Shepard's squad cleared human mercenaries and
+      snipers guarding the base entrance, then fought krogan-backed mercenaries through the
+      cramped, crate-filled facility to the back room, where Dr. Wayne called Toombs crazy
+      and demanded Shepard shoot him.
+    source_chunks: [unc-dead-scientists_002, unc-dead-scientists_003, unc-dead-scientists_004, unc-dead-scientists_005]
+  - text: >
+      With enough Charm, Shepard could talk Toombs down by promising to put Dr. Wayne on
+      public trial for his crimes and offering Toombs psychological treatment; the Alliance
+      then arrested Wayne.
+    source_chunks: [toombs_002, unc-dead-scientists_005]
+    conditional: {toombs_outcome: spared}
+    choice: Talked Toombs down and spared Wayne
+  - text: >
+      Alternatively, Shepard allowed Toombs to kill Dr. Wayne, believing he had earned
+      his revenge after the years of torture.
+    source_chunks: [toombs_002]
+    conditional: {toombs_outcome: killed_by_toombs}
+    choice: Allowed Toombs to kill Wayne
+  - text: >
+      With enough Intimidate, Shepard could kill Dr. Wayne personally, using Spectre
+      authority; if Toombs was left to fire the shot instead, he killed himself afterward.
+    source_chunks: [toombs_002, unc-dead-scientists_005]
+    conditional: {toombs_outcome: killed_by_shepard}
+    choice: Killed Wayne using Spectre authority
+  - text: >
+      As a fourth option, Shepard shot Toombs to prevent his vengeance, allowing the
+      scientist to live, then dispatched the Fifth Fleet to arrest Dr. Wayne and put him
+      on trial.
+    source_chunks: [toombs_002]
+    conditional: {toombs_outcome: shot}
+    choice: Shot Toombs and arrested Wayne
+  - text: >
+      If Shepard had the Sole Survivor background and spared Dr. Wayne while stopping
+      Toombs, Toombs noted that the vids say Shepard was the only survivor of Akuze,
+      added "who am I to argue?", and killed himself.
+    source_chunks: [toombs_002]
+    conditional: {toombs_outcome: spared, shepard_background: sole_survivor}
+    choice: Sole Survivor background; Toombs took his own life
+  - text: >
+      Aftermath, surfacing later in the news: if Toombs was talked down and Wayne lived,
+      both testified before an independent inquiry into Cerberus, with Wayne given immunity
+      in exchange for cooperation. If Shepard shot Wayne using Spectre authority, Toombs'
+      testimony was later dismissed for insufficient evidence. If Toombs survived, in 2185
+      he learned Shepard was working with Cerberus and sent a message of disgust and
+      betrayal, vowing to kill any Cerberus operative he met, the Commander included.
+    source_chunks: [unc-dead-scientists_006, toombs_003]
+related_events: [unc-dead-scientists]
+source_chunks: [toombs_001, toombs_002, toombs_003, unc-dead-scientists_002, unc-dead-scientists_003, unc-dead-scientists_004, unc-dead-scientists_005, unc-dead-scientists_006]

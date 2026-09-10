@@ -1,0 +1,31 @@
+scene_id: citadel-purgatory-cortez-dance
+title: Cortez on the Purgatory Dance Floor
+kind: hangout
+game: Mass Effect 3
+when: 2186, after the attack on the Citadel, once Cortez has begun to move on from Robert
+where: the dance floor of the Purgatory bar on the Citadel
+participants: [Shepard, Steve Cortez]
+private_to: [Shepard, Steve Cortez]
+heard_by: [Normandy crew]
+beats:
+  - text: >
+      Some time after saying goodbye to Robert, Cortez turns up at Purgatory on the dance floor.
+      Shepard notes he looks happier. Cortez agrees Shepard was right that his past is his own and
+      that no moment should be taken for granted, and says there is an energy and life in dancing
+      that he had been missing. He invites Shepard to join him.
+    source_chunks: [steve-cortez_006, steve-cortez_003, purgatory-bar_002]
+  - text: >
+      While they dance, a male Shepard can tell Cortez he wants to be more than friends. Cortez
+      says he had sensed something between them but had been too pessimistic to act on it;
+      Shepard affirms it and kisses him, beginning the relationship.
+    source_chunks: [steve-cortez_006]
+    conditional: {romance: Cortez}
+    choice: began the romance with Cortez
+  - text: >
+      If Shepard signals disinterest instead - openly admiring the club's dancers - the evening
+      simply reinforces their friendship.
+    source_chunks: [steve-cortez_003, purgatory-bar_002]
+    conditional: {romance: not-Cortez}
+    choice: kept it a friendship
+related_scenes: [citadel-cortez-docking-bay-and-memorial-wall]
+source_chunks: [steve-cortez_006, steve-cortez_003, purgatory-bar_002]

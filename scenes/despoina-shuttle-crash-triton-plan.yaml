@@ -1,0 +1,48 @@
+scene_id: despoina-shuttle-crash-triton-plan
+title: Stranded on the Wrecks of 2181 Despoina
+kind: mission-aside
+game: Mass Effect 3
+when: 2186, Leviathan DLC, the descent to the ocean world 2181 Despoina
+where: floating shipwrecks on the ocean of 2181 Despoina, then the ocean floor
+participants: [Shepard, Steve Cortez, Shepard's squad]
+heard_by: [Normandy crew]
+requires:
+  - leviathan: any
+beats:
+  - text: >
+      Coming down toward 2181 Despoina, a mysterious pulse disables the Kodiak. Cortez sets it
+      down on one of the floating shipwrecks that litter the ocean.
+    source_chunks: [steve-cortez_004, despoina-leviathan_006]
+  - text: >
+      A Sovereign-class Reaper descends and drops waves of Husks, Cannibals, Marauders and
+      Brutes while Cortez works to repair the shuttle. He gets it briefly airborne to give the
+      squad air support, but the pulse strikes again and forces him to land on the far side of
+      the wreck.
+    source_chunks: [despoina-leviathan_006]
+  - text: >
+      Cortez reports the Kodiak inoperable; when a squadmate suggests a pickup by the Normandy,
+      he points out the ship would be disabled the same way. The team resolves to press on and
+      find Leviathan on foot. Cortez proposes commandeering a Triton ADS mech sealed inside the
+      wreck; Shepard is skeptical and the squad more so, but it is the only real option.
+    source_chunks: [despoina-leviathan_007, steve-cortez_004]
+  - text: >
+      Cortez has Shepard haul the shuttle's power cells to sockets around the wreck to charge the
+      sealed bay door open, under renewed Reaper attack. Once it opens, Shepard pilots the
+      Triton - which handles like an Atlas - to clear the endlessly reinforcing Brutes, then
+      walks it back to Cortez for a systems check.
+    source_chunks: [despoina-leviathan_007, despoina-leviathan_008]
+  - text: >
+      Cortez clears the mech to dive. Shepard descends alone; partway down, interference cuts
+      the link to Cortez on the surface, and Shepard goes on to meet Leviathan near the earlier
+      probe at a depth around 3,200 metres.
+    source_chunks: [despoina-leviathan_009]
+  - text: >
+      Shepard escapes in the repaired shuttle; a ship-disabling pulse downs the pursuing Reaper
+      into the ocean. Shepard wakes aboard the Kodiak. If Shepard's love interest was in the
+      squad, Cortez scolds "Never do that again"; otherwise he says "We're lucky we got you
+      back." Back on the Normandy, a romanced Cortez tells Shepard he wishes he could have gone
+      with him.
+    source_chunks: [steve-cortez_004, despoina-leviathan_009]
+related_scenes: [citadel-bryson-lab-leviathan-research]
+related_events: [leviathan-discovery-alliance]
+source_chunks: [steve-cortez_004, despoina-leviathan_006, despoina-leviathan_007, despoina-leviathan_008, despoina-leviathan_009]

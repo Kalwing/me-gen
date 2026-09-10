@@ -1,0 +1,46 @@
+scene_id: normandy-sr2-collectors-board-joker
+title: The Normandy Attacked - Joker and EDI Alone Aboard
+kind: mission-aside
+game: Mass Effect 2
+when: 2185, while the Reaper IFF is being installed and Shepard's team is away on a shuttle mission
+where: the Normandy SR-2, boarded in orbit
+participants: [Jeff "Joker" Moreau, EDI, Kelly Chambers, Karin Chakwas, Normandy crew]
+private_to: [Jeff "Joker" Moreau, EDI]
+heard_by: [Shepard, Normandy crew]
+beats:
+  - text: >
+      EDI advises that the Reaper IFF still needs testing, and on her recommendation Shepard
+      takes the entire squad off in the shuttle for the next mission, leaving the Normandy to
+      Joker while the installation finishes.
+    source_chunks: [stop-the-collectors_009]
+  - text: >
+      The IFF is carrying an advanced virus that cripples the ship and broadcasts its position.
+      A Collector cruiser drops in and boards the helpless Normandy. Out of options, EDI tells
+      Joker their only hope is for him to override her shackles and give her full control of
+      the ship.
+    source_chunks: [stop-the-collectors_009, jeff-joker-moreau_005]
+  - text: >
+      Unarmed and barely able to walk, Joker crosses the length of the ship along the guide
+      lights, past Collectors, Scions and a Praetorian, watching crewmen Hadley and Hawthorne
+      and Yeoman Kelly Chambers dragged off, to reach the AI Core and release EDI's locks, then
+      restarts the drive core in engineering.
+    source_chunks: [stop-the-collectors_009, stop-the-collectors_010, jeff-joker-moreau_005]
+  - text: >
+      Unshackled, EDI jumps the Normandy clear, purging the Collectors and Scions still aboard.
+      The entire crew except Joker has been abducted.
+    source_chunks: [stop-the-collectors_010, edi_002, jeff-joker-moreau_005]
+  - text: >
+      In the aftermath Shepard, Joker, Jacob, Miranda and EDI talk it over, and Shepard faces
+      the decision of when to take the Omega 4 Relay: going through at once keeps the whole crew
+      alive; running one to three more missions loses half the crew, Kelly Chambers among them;
+      four or more loses everyone but Doctor Chakwas.
+    source_chunks: [stop-the-collectors_010]
+variants:
+  - condition: {joker_normandy_raid: caught}
+    choice: Joker spotted by the Collectors
+    text: >
+      If Joker is spotted before he finishes, a Scion carries him off or a Praetorian kills him,
+      depending on which creature sees him first.
+    source_chunks: [jeff-joker-moreau_005]
+related_scenes: [collector-ship-normandy-debrief, collector-base-infiltration-normandy-briefing]
+source_chunks: [stop-the-collectors_009, stop-the-collectors_010, jeff-joker-moreau_005, edi_002]

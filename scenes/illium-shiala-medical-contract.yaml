@@ -1,0 +1,47 @@
+scene_id: illium-shiala-medical-contract
+title: Shiala Negotiates the Zhu's Hope Medical Contract
+kind: banter
+game: Mass Effect 2
+when: "2185, Illium, two years after the Feros mission"
+where: somewhere on Illium
+
+participants: [Shepard, Shiala]
+private_to: [Shepard, Shiala]
+heard_by: []
+
+requires:
+  - feros_colony: shiala-spared
+
+beats:
+  - text: >
+      Shiala, transformed by her time with the Thorian, found Shepard on Illium. Her skin
+      had turned green like the clones, her biotics were unstable, and she suffered
+      disconcerting dreams of the Thorian. The colonists of Zhu's Hope had signed a
+      one-sided agreement with the medical company Baria Frontiers to treat their lingering
+      health problems. Shiala appointed herself their intermediary and traveled to Illium to
+      renegotiate the contract.
+    source_chunks: [shiala_004, zhu-s-hope_003]
+  - text: >
+      Shepard offered to negotiate with the company on Shiala's behalf. The negotiation was
+      successful.
+    source_chunks: [shiala_004]
+    conditional: {feros_colony: colony_survived}
+    choice: helped negotiate the contract
+  - text: >
+      With the company's agreement secured, Shiala professed an interest beyond mere
+      friendship, saying "Maybe sometime, when I'm not organizing the colony and you're
+      not... doing whatever you do." She smiled and stroked Shepard's arm before leaving.
+    source_chunks: [shiala_004]
+    conditional: {feros_colony: colony_survived}
+    choice: Shiala flirted with Shepard
+  - text: >
+      If the Feros colony had died but Shiala was spared, she met Shepard differently. She
+      said she was a commando and did not know how to help people, but she would try. She
+      did not flirt once Shepard helped her negotiate.
+    source_chunks: [shiala_004]
+    conditional: {feros_colony: colony_died}
+    choice: colony had died, Shiala distant
+
+related_scenes: [feros-thorian-lair-shiala, feros-shiala-cipher-transfer]
+related_events: [feros-thorian-mission]
+source_chunks: [shiala_004, zhu-s-hope_003]

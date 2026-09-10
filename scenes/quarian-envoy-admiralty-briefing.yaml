@@ -28,6 +28,17 @@ beats:
     conditional: {tali_status: alive}
     choice: Tali survived Mass Effect 2
   - text: >
+      Taken aside, Tali squares things with Shepard about the trial. If she was never exiled
+      she admits he was right — "I was too ready to sacrifice myself for the good of the
+      Fleet. I need to stop doing that." — and says she took her father's Admiralty seat
+      specifically to push back on the Board's worst ideas, people like Daro'Xen. She doubts
+      she is fit for it, with seventeen million lives riding on her; only Shepard and
+      Shala'Raan reassure her. If she was exiled, she instead tells Shepard the trial showed
+      her she belongs "on the Normandy, helping you," aiding the Fleet from the shadows.
+    source_chunks: [tali-zorah-nar-rayya_008, manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_002, manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_003]
+    conditional: {tali_status: alive}
+    choice: Tali survived Mass Effect 2
+  - text: >
       Shepard could take Tali up to the captain's cabin to talk privately, continuing or
       locking in a romance; on a first playthrough this unlocked Energy Drain as a bonus
       power. Afterward Admiral Shala'Raan took up residence in the war room and Tali became
@@ -40,6 +51,8 @@ variants:
       If Tali had not survived Mass Effect 2 she was absent entirely; the admirals briefed
       Shepard without her, and Admiral Xen later guided the dreadnought mission by comm.
     source_chunks: [priority-perseus-veil_003, priority-geth-dreadnought_003]
-related_scenes: [geth-dreadnought-freeing-legion]
+related_scenes: [geth-dreadnought-freeing-legion, flotilla-tali-treason-trial]
 related_events: [priority-perseus-veil]
-source_chunks: [priority-perseus-veil_002, priority-perseus-veil_003, priority-perseus-veil_004, priority-perseus-veil_005]
+source_chunks: [priority-perseus-veil_002, priority-perseus-veil_003, priority-perseus-veil_004, priority-perseus-veil_005,
+                tali-zorah-nar-rayya_008, manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_002,
+                manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_003]

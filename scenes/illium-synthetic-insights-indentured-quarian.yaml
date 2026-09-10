@@ -1,0 +1,33 @@
+scene_id: illium-synthetic-insights-indentured-quarian
+title: Mediating the Indentured Quarian's Contract
+kind: argument
+game: Mass Effect 2
+when: 2185, during Shepard's business on Illium
+where: the Nos Astra trading floor, Illium
+participants: [Shepard, an indentured quarian, her contract broker, a Synthetic Insights representative]
+beats:
+  - text: >
+      Shepard steps in to mediate between an indentured quarian, her contract broker, and a
+      representative of Synthetic Insights, Ltd. The company will not employ slave labour or
+      indentured servants, and since the geth attack on the Citadel gutted public trust in AI
+      research it can least afford another practice the Council disapproves of.
+    source_chunks: [synthetic-insights-ltd_003]
+variants:
+  - condition: {synthetic_insights_outcome: pr_stunt}
+    choice: company hires her as an anti-slavery PR move
+    text: >
+      Shepard convinces Synthetic Insights to seize the moment: it hires the quarian and spins
+      the hire as a public stand against slavery.
+    source_chunks: [synthetic-insights-ltd_003]
+  - condition: {synthetic_insights_outcome: pressured}
+    choice: company forced to hire her
+    text: >
+      Shepard pressures the representative into hiring the quarian under threat of increased
+      scrutiny from Illium's bureaucracy.
+    source_chunks: [synthetic-insights-ltd_003]
+  - condition: {synthetic_insights_outcome: failed}
+    choice: mediation fails
+    text: >
+      Shepard fails to move the representative at all, and the quarian's contract stands.
+    source_chunks: [synthetic-insights-ltd_003]
+source_chunks: [synthetic-insights-ltd_003]

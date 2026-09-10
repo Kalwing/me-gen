@@ -1,0 +1,44 @@
+scene_id: elysium-skarr-grissom-attack
+title: Skarr Attacks Grissom's House
+kind: argument
+game: Mass Effect
+when: "2165, Elysium, during the Sidon investigation"
+where: Jon Grissom's house on Elysium
+
+participants: [Grissom, Kahlee Sanders, David Anderson, Skarr, Saren Arterius]
+private_to: [Grissom, Kahlee Sanders, David Anderson, Skarr]
+heard_by: []
+
+requires: []
+
+beats:
+  - text: >
+      After Kahlee Sanders fled Sidon and sought refuge with her retired father Jon Grissom
+      on Elysium, Grissom hid his daughter and guarded the house with a shotgun by night.
+      He tried to put David Anderson off the case when the young lieutenant came looking for
+      Kahlee, wary of Alliance attention drawing mercenaries to his door.
+    source_chunks: [jon-grissom_002]
+  - text: >
+      Skarr, the krogan Battlemaster hired by Edan Had'dah to kill Kahlee, tracked her to
+      Grissom's house. Skarr burst into the house and was surprised to find a shotgun-wielding
+      Grissom and David Anderson. Skarr injured Grissom with his boot knife as Grissom tried
+      to fight him off.
+    source_chunks: [skarr_001, krogan-battlemaster_002, storyline_017]
+  - text: >
+      Anderson and Grissom fought the krogan, but Skarr appeared to have the upper hand
+      against Anderson, nearly killing him.
+    source_chunks: [skarr_001, krogan-battlemaster_002]
+  - text: >
+      Saren Arterius, who had been tracking Skarr, arrived at the house and intervened in the
+      fight. Skarr was overwhelmed and fled. When pressed by Anderson to follow the krogan,
+      Saren declined, claiming that only an idiot would fight a krogan biotic one-on-one.
+    source_chunks: [skarr_001, krogan-battlemaster_002, storyline_017]
+  - text: >
+      Grissom survived the attack but refused medical treatment to keep Kahlee hidden, as a war
+      hero showing up with gunshot wounds would have attracted too much attention and endangered
+      his daughter's location.
+    source_chunks: [jon-grissom_002]
+
+related_scenes: []
+related_events: []
+source_chunks: [skarr_001, krogan-battlemaster_002, jon-grissom_002, storyline_017]

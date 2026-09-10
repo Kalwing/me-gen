@@ -1,0 +1,73 @@
+scene_id: virmire-wrex-genophage-standoff
+title: Wrex on the Beach at Virmire
+kind: argument
+game: Mass Effect
+when: 2183, at the salarian STG camp on Virmire, before the assault on Saren's base
+where: the beach below Kirrahe's camp, by the tent nearest the base wall
+participants: [Shepard, Urdnot Wrex, Ashley Williams, Kaidan Alenko]
+private_to: [Shepard, Urdnot Wrex, Ashley Williams, Kaidan Alenko]
+heard_by: [Normandy crew]
+requires:
+  - wrex_virmire: any
+beats:
+  - text: >
+      At the camp, Kirrahe reveals that Saren has a working cure for the genophage and is
+      using it to breed a krogan army, and that the plan is to level the base — and the cure
+      with it — with the Normandy's drive core rigged as a nuclear bomb. Wrex, who joined
+      Shepard's crew back on the Citadel, is furious: the one thing that could undo his
+      species' slow death is inside that base. Kirrahe, worried about Wrex's state of mind,
+      refuses to begin the assault until Shepard settles him, and leaves the krogan to the
+      Commander.
+    source_chunks: [virmire-wrex-and-the-genophage_001, kirrahe_002, urdnot-wrex_004]
+  - text: >
+      Wrex has walked off to the beach alone and is firing his shotgun into the surf beside
+      the tent nearest the base wall. Shepard approaches; the confrontation triggers on
+      contact. Wrex demands the cure be preserved, will not be talked past it, and draws a
+      pistol on Shepard. Ashley and Kaidan are both there, weapons up.
+    source_chunks: [virmire-wrex-and-the-genophage_003, urdnot-wrex_013]
+  - text: >
+      Shepard talked Wrex down, arguing that a krogan army born from Saren's cure would only
+      be Saren's puppets — no freedom in that. Wrex conceded the point, decided he wanted
+      Saren punished for it, holstered the pistol, and went into the assault at Shepard's
+      side. He lived, took Clan Urdnot on Tuchanka, and used the victory at Virmire as the
+      rallying point for uniting the clans against the genophage.
+    source_chunks: [virmire-wrex-and-the-genophage_003, virmire-wrex-and-the-genophage_004, urdnot-wrex_006]
+    conditional: {wrex_virmire: alive}
+    choice: talked Wrex down — Wrex lives, leads Clan Urdnot
+  - text: >
+      Because Shepard had earlier helped Wrex recover his family armor from the turian
+      profiteer Tonn Actus, Wrex trusted the Commander enough to listen without a hard
+      argument; taking the lines "I wouldn't do this otherwise" or "We are" was enough to
+      make him stand down and rejoin the assault. He lived and went on to lead Clan Urdnot.
+    source_chunks: [urdnot-wrex_005, virmire-wrex-and-the-genophage_004, urdnot-wrex_006]
+    conditional: {wrex_virmire: alive}
+    choice: Wrex stood down on trust — Wrex lives
+  - text: >
+      Shepard signalled Ashley — pre-arranged before leaving Kirrahe — and she shot Wrex
+      dead on the Commander's order. Alternatively Shepard drew and killed Wrex personally,
+      then answered Kaidan's question about why it was necessary, regretful or dismissive.
+      Either way Ashley and Kaidan moved to stand over the body and Shepard recovered Wrex's
+      gear automatically.
+    source_chunks: [virmire-wrex-and-the-genophage_003, virmire-wrex-and-the-genophage_004]
+    conditional: {wrex_virmire: dead}
+    choice: Shepard or Ashley kills Wrex on Shepard's order
+  - text: >
+      If Shepard stalled too long without progress, Ashley shot Wrex in the back on her own
+      initiative, saying he had been about to kill the Commander. Shepard could thank her or
+      round on her for firing just as Wrex was beginning to listen; Kaidan was angry at her
+      regardless, and Ashley held that it was Wrex or Shepard.
+    source_chunks: [virmire-wrex-and-the-genophage_003]
+    conditional: {wrex_virmire: dead}
+    choice: Ashley shoots Wrex unbidden to protect Shepard
+  - text: >
+      With Wrex dead on the beach, leadership of Clan Urdnot passed to his broodbrother
+      Urdnot Wreav, who on Tuchanka in 2185 gives Shepard an icy welcome but thanks the
+      Commander for destroying Saren's base and letting him seize the clans.
+    source_chunks: [virmire-wrex-and-the-genophage_004, urdnot-wrex_006]
+    conditional: {wrex_virmire: dead}
+    choice: Wrex dead — Wreav inherits Clan Urdnot
+related_scenes: [virmire-ashley-kaidan-sacrifice, normandy-docking-bay-wrex-genophage-confrontation, hollows-thurak-wreav-argument]
+related_events: [battle-of-virmire]
+source_chunks: [virmire-wrex-and-the-genophage_001, virmire-wrex-and-the-genophage_003,
+                virmire-wrex-and-the-genophage_004, kirrahe_002, urdnot-wrex_004,
+                urdnot-wrex_005, urdnot-wrex_006, urdnot-wrex_013]

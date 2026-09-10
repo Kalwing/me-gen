@@ -1,0 +1,59 @@
+scene_id: virmire-kirrahe-hold-the-line-speech
+title: Kirrahe's "Hold the Line" Speech
+kind: ceremony
+game: Mass Effect
+when: 2183, at the salarian STG camp on Virmire, moments before the assault on Saren's base
+where: Captain Kirrahe's camp on the Virmire beach
+participants: [Kirrahe, Shepard, Ashley Williams, Kaidan Alenko, salarian STG teams]
+private_to: []
+heard_by: [Normandy crew]
+requires: []
+beats:
+  - text: >
+      With the plan set, Kirrahe assembles his surviving STG officers — split into three
+      fireteams, Aegohr, Mannovai and Jaeto, named after the first salarian colonies so his
+      men remember what they are fighting for. He has already lost half his command scouting
+      the base and knows the frontal diversion will cost more; he has heard murmurs of
+      discontent, salarians being trained for espionage rather than a stand-up fight where
+      losses are certain.
+    source_chunks: [kirrahe_002, kirrahe_003]
+  - text: >
+      Kirrahe gives the speech. He names it discontent, grants that salarian heroes — the
+      Silent Step, the Ever Alert — won with a single shot or a hidden fact, not open battle,
+      then turns it: "Before the network, there was the fleet. Before diplomacy, there were
+      soldiers. Our influence stopped the rachni, but before that, we held the line. Our
+      influence stopped the krogan, but before that, we held the line! Our influence will
+      stop Saren! In the battle today, we will hold the line!"
+    source_chunks: [kirrahe_003]
+  - text: >
+      Kirrahe has asked Shepard for one squad member to lead a fireteam in the diversion;
+      whichever of Ashley Williams or Kaidan Alenko Shepard assigns goes with the salarians
+      and is unavailable for the rest of Virmire. The speech ends and the operation begins —
+      the STG teams hit the front to draw the geth while Shepard's team, callsign Shadow,
+      infiltrates from the rear.
+    source_chunks: [kirrahe_002, virmire-assisting-kirrahe-s-team_010]
+  - text: >
+      Shepard's rear team destroyed the geth flyers over the refueling platform's fuel
+      tanks, and Kirrahe survived the diversion. He left the Normandy at its next port,
+      telling Shepard he might see them again — and did, on Sur'Kesh and again on the
+      Citadel during the Reaper War.
+    source_chunks: [virmire-assisting-kirrahe-s-team_010, kirrahe_004]
+    conditional: {kirrahe_virmire: survived}
+    choice: geth flyers destroyed — Kirrahe survives
+  - text: >
+      If Shepard left the geth flyers alone, geth air support killed Kirrahe partway through
+      the diversion; Ashley or Kaidan took over the salarian comm chatter, and in the Reaper
+      War Colonel Vaykom led the salarian contingent on Earth in Kirrahe's place.
+    source_chunks: [virmire-assisting-kirrahe-s-team_010]
+    conditional: {kirrahe_virmire: dead}
+    choice: geth flyers ignored — Kirrahe killed by geth air support
+  - text: >
+      The speech outlived the day. Aboard the Normandy in 2185, Mordin Solus — who once
+      served under Kirrahe in the STG and calls him "a bit of a cloaca" — either speaks
+      fondly of the "Hold the Line" speech if Kirrahe lived, or briefly eulogizes him if he
+      did not.
+    source_chunks: [virmire-assisting-kirrahe-s-team_009, kirrahe_006]
+related_scenes: [virmire-ashley-kaidan-sacrifice, virmire-wrex-genophage-standoff, surkesh-kirrahe-cerberus-rescue, citadel-coup-kirrahe-salarian-defense]
+related_events: [battle-of-virmire]
+source_chunks: [kirrahe_002, kirrahe_003, kirrahe_004, kirrahe_006,
+                virmire-assisting-kirrahe-s-team_009, virmire-assisting-kirrahe-s-team_010]

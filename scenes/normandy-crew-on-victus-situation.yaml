@@ -1,0 +1,31 @@
+scene_id: normandy-crew-on-victus-situation
+title: The Crew on the Victus Situation
+kind: banter
+game: Mass Effect 3
+when: 2186, aboard the Normandy after the turian 9th Platoon was rescued on Tuchanka
+where: the Port Observation Lounge, or Engineering
+participants: [Garrus Vakarian, Liara T'Soni, Tali'Zorah, EDI]
+heard_by: [Normandy crew]
+requires:
+  - game: Mass Effect 3
+beats:
+  - text: >
+      If the platoon was rescued before Priority: Tuchanka, Garrus and Liara could be found
+      in the Port Observation Lounge recounting old times; asked about it, Garrus voiced his
+      concern over the Victus situation — a Primarch putting his own untested son in command
+      of a platoon.
+    source_chunks: [tuchanka-turian-platoon_008]
+    conditional: {platoon_before_priority_tuchanka: true}
+    choice: platoon rescued before Priority Tuchanka
+  - text: >
+      If instead the platoon was rescued after Priority: Rannoch and Tali had survived
+      Rannoch, Tali could be found in Engineering arguing somewhat heatedly with EDI; the
+      exchange touched on Joker and on EDI's concern that Tali's morale might be suffering
+      the way Tarquin's had, the two of them both living in the shadow of a famous parent.
+      The dialogue varied slightly if Tali had been in Shepard's squad for the rescue.
+    source_chunks: [tuchanka-turian-platoon_008]
+    conditional: {platoon_after_priority_rannoch: true, tali_survived_rannoch: true}
+    choice: platoon rescued after Priority Rannoch, Tali alive
+related_scenes: [tuchanka-tarquin-victus-bomb]
+related_events: [tuchanka-turian-platoon]
+source_chunks: [tuchanka-turian-platoon_008]

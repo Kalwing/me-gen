@@ -5,7 +5,7 @@ game: Mass Effect 3
 when: 2186, Citadel shore leave, the evening after Identity Theft I
 where: the Silver Coast Casino, during Elijah Khan's black-tie charity gala for war refugees
 
-participants: [Shepard, Maya Brooks, Rolan Quarn]
+participants: [Shepard, Maya Brooks, Rolan Quarn, Tali'Zorah]
 private_to: []
 heard_by: [Normandy crew]
 
@@ -28,6 +28,17 @@ beats:
       underground wiring.
     source_chunks: [silver-coast-casino-infiltration_003]
   - text: >
+      If Tali is the squadmate on Shepard's arm, a female Shepard's remark about her
+      enviro-suit gets "At least you can dress up. What can I do? I'm already wearing my two
+      sexiest belts!"; a male Shepard's outfit is judged to need "a little something" until
+      she links arms — "Now it's perfect" — with a flirtier read if they are together. On
+      distraction duty she talks guards off the floor with staged suit malfunctions, requests
+      for a clean room, dietary questions, and a report of someone rigging a quasar machine
+      with an omni-tool.
+    source_chunks: [tali-zorah-nar-rayya-unique-dialogue_013]
+    conditional: {casino_squadmate: Tali}
+    choice: Tali chosen as the gala escort
+  - text: >
       While mingling, Shepard encounters Rolan Quarn, the veteran turian impersonator who is
       himself staking out the gala as a potential mark. Going barefaced for the occasion,
       Quarn allows Shepard to learn his insights about Khan and the crowd. Shepard deduces
@@ -48,4 +59,4 @@ beats:
 
 related_scenes: [citadel-garrus-casino-bar, citadel-wrex-casino-ice]
 related_events: [citadel-dlc-identity-theft-begins]
-source_chunks: [silver-coast-casino-infiltration_003, silver-coast-casino-infiltration_004, rolan-quarn_003]
+source_chunks: [silver-coast-casino-infiltration_003, silver-coast-casino-infiltration_004, rolan-quarn_003, tali-zorah-nar-rayya-unique-dialogue_013]

@@ -20,6 +20,15 @@ beats:
       and her own father.
     source_chunks: [rael-zorah_004]
   - text: >
+      Drunk, Tali raises a toast to Miranda: she never liked her, but respected that Miranda
+      did whatever it took to stand up to her father and never changed herself to please him.
+      She turns it on herself — "When do we get to stop reacting to our parents and start
+      living for ourselves?" This is the exchange the running "emergency induction port" joke
+      about how a masked quarian drinks comes from.
+    source_chunks: [manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_004, rael-zorah_004]
+    conditional: {miranda_alive: true}
+    choice: Miranda Lawson survived
+  - text: >
       If she and Shepard are together, Tali muses that Rael would have hated her human partner.
       Shepard offers a toast to his memory.
     source_chunks: [rael-zorah_004]
@@ -28,4 +37,4 @@ beats:
 
 related_scenes: [alarei-rael-zorah-body, rannoch-the-choice-above-the-fleet]
 related_events: []
-source_chunks: [rael-zorah_004]
+source_chunks: [rael-zorah_004, manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_004]
