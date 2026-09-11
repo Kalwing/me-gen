@@ -988,3 +988,74 @@
   so the full 160-stem range `game-shop`..`jana` is appended (no reconstruction guesswork).
   `scenes/.done` 640 → 800. Remaining: **836 stems**.
 - Committed. Resume alphabetically from `japan` / `jarrahe-station` (next stem after `jana`).
+
+## Session resume 2026-09-11 — /pwf context restore
+- Ran planning-with-files restore. `session-catchup.py`/hooks produced no unsynced-context
+  signal to check separately; re-read all three planning files directly.
+- STATE RECONCILED against git — planning files were ~7 commits stale (same drift pattern
+  as the 2026-09-09 resume):
+  - Scene sweep actually finished: waves 15-20 committed (748ce42, 82e4d83, 6215978,
+    900e9df, 633c10a, ee3efb8) after the plan file's last logged wave (14). `scenes/.done`
+    now 1,636/1,636, 377 scene files, 0 remaining, `--check` clean.
+  - Choice backfill finished and user-filled: ccc9654 (20 stubs), deb8c75 (33 stubs),
+    5985e10 (playthrough answers filled + 16 stubs loosened to free text).
+  - Untracked-in-plan commit 376cce3 "narrator(wrex): widen Shepard address terms; drop
+    two style-avoid notes" — appears to be a first pass on TODO2.md's Wrex feedback.
+  - Suite: 169 passed.
+- Updated task_plan.md: `## Next Step` rewritten with verified state; Phase 7 marked
+  complete; choice-backfill checklist item marked done; Wrex TODO2 item marked partial.
+- Awaiting user direction on what to work on next (options offered: TODO2.md corrections
+  pass, codex correction pass for Krogan-Monument-style bullets, or something else).
+
+## 2026-09-11 (cont.) — Phase 8 opened: codex correction pass, detection dispatched
+- User picked "Codex correction pass" (generation-overhaul Phase 2 item 11) over
+  TODO2.md corrections and checking the Wrex commit first.
+- Read spec section 7 + Phasing item 11: fix pattern is the `codex/places.md:176`
+  Krogan Monument exemplar (already fixed) — rewrite compressed-causality bullets
+  inline, or point to the matching `scenes/*.yaml` record instead of restating facts
+  from memory.
+- Added task_plan.md Phase 8 with 4 steps (detect / triage / apply / verify).
+- Dispatched 10 general-purpose/sonnet subagents in parallel, one per codex file
+  (characters, culture, everyday, factions, places-minus-known-fix, ships, social,
+  species, tech, timeline+war combined) — detection only, each writes findings to
+  `scratchpad/codex-audit-<file>.md`. Chose sonnet over haiku (memory
+  [[subagent-model-frugality]] default) because cross-referencing prose bullets
+  against scene records for causality mismatches is comprehension-heavy judgment,
+  not summarization.
+- Awaiting all 10 completions before merging into findings.md and triaging fixes.
+
+## 2026-09-11 (cont.) — Phase 8: detection complete, fixes dispatched
+- All 10 detection agents finished: 54 bullets flagged across the 11 codex files
+  (characters 5, culture 4, everyday 6, factions 5, places 6, ships 8, social 7,
+  species 6, tech 4, timeline+war 3, timeline.md 0). Consolidated table written to
+  findings.md.
+- Dispatched 10 fix subagents (same file partition), each told to: re-verify each
+  flagged bullet against its scene record itself (not blindly trust the audit),
+  then Edit the codex file directly — inline rewrite carrying real causality, or
+  pointer-to-scene when too rich to compress, per the places.md:176 exemplar style.
+  No cross-file conflicts (each touches only its own file).
+- war.md agent given extra care instruction: Ashley/Kaidan death-cause bullet must
+  reflect this playthrough's canon (Ashley died, Kaidan lived, per commit 376cce3)
+  and not conflate the bomb-site vs. AA-tower deaths.
+- Awaiting all 10 fix completions, then: pytest, spot-check a few diffs, commit
+  (per-file or small batches).
+
+## 2026-09-11 (cont.) — Phase 8: all fixes applied, verified
+- All 10 fix subagents completed. 54/54 flagged bullets fixed, 0 left alone (every
+  audit claim held up on the fix agent's own re-verification against the scene record).
+- Notable: the war.md fix agent caught a factual error in my own dispatch instructions
+  (I'd told it "AA-tower death is canon" for Ashley/Kaidan) — it verified against
+  `scenes/virmire-ashley-kaidan-sacrifice.yaml` and `config/canon/choices.yaml`
+  (`virmire_survivor: Kaidan`) and wrote the bullet correctly: Ashley dies at the
+  bomb site, Kaidan is saved at the AA tower. Good instance of a subagent not
+  blindly trusting controller-supplied "facts."
+- `pytest -q` → 169 passed. `git diff --stat codex/` → 54 insertions / 54 deletions
+  across the 10 touched files, 1:1 with the fix count. Spot-checked species.md and
+  war.md diffs directly — accurate, terse, matches the places.md:176 exemplar style
+  (inline rewrite vs. pointer-to-scene, chosen per bullet).
+- Noted but NOT touched (unrelated to this session, flagged to user): `TODO` and
+  `TODO2.md` show as deleted in the working tree; new untracked files
+  `config/narrators/{garrus,jack,tali}.pol.md` and `writings_tips.md` exist. Left
+  alone — will ask before staging/committing anything outside codex/ + planning files.
+- Committing codex/*.md (10 files) + task_plan.md/findings.md/progress.md together.
+  Generation-overhaul spec Phase 2 item 11 is now DONE.

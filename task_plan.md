@@ -6,19 +6,32 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-09 (waves 13 + 14 done): scene sweep **800/1,636** stems in `scenes/.done`
-(14 waves committed), 212 scene files, `scripts.scenes --check` clean, 169 tests green.
-**836 stems remain** (~5 more 160-stem waves).
+2026-09-11 — RECONCILED against git (planning files were ~7 commits stale, same
+drift pattern as the 2026-09-09 resume). Actual state, verified this session:
+- **Scene sweep is COMPLETE**: `scenes/.done` 1,636 / `page_summaries` 1,636 (0 remaining),
+  377 scene files, waves 15-20 committed (748ce42..ee3efb8) since the plan file's last
+  entry (which stopped at wave 14 / 800 done). `scripts.scenes --check` clean.
+- **Choice backfill is COMPLETE**: 3 commits (ccc9654, deb8c75, 5985e10) — scene-derived
+  decision points backfilled as stubs, then Thomas filled in playthrough answers and
+  loosened 16 stubs to free text. `config/canon/choices.yaml` now holds real canon
+  (background/profile/class/gender/romance/first_name all answered).
+- **Suite**: 169 passed (`.venv/bin/python -m pytest -q`).
+- **New, not tracked in this file at all**: commit 376cce3 "narrator(wrex): widen Shepard
+  address terms; drop two style-avoid notes" — looks like a first pass addressing the
+  Wrex feedback in TODO2.md (see below).
+- Deferred generation-overhaul items below are UNVERIFIED against current state — need
+  a fresh check before treating any as still open.
 
-Next: re-run `/me-build-scenes` — resumes alphabetically from `japan` (first stem after
-`jana`). Wave = 8 batches of ~20, two rounds of 4 scene-extractors.
+Awaiting user direction on what to plan/work on next (see options offered in chat).
 
-Deferred generation-overhaul items (spec `docs/superpowers/specs/2026-09-07-generation-overhaul-design.md`):
+Deferred generation-overhaul items (spec `docs/superpowers/specs/2026-09-07-generation-overhaul-design.md`) —
+status as of last known write, recheck before acting:
 - [ ] Phase 2 item 11 — codex correction pass for compressed-causality bullets of the
-      Krogan Monument kind.
-- [ ] TODO2.md line-level corrections to the test-run output (Jack/Tali/Wrex).
-- [ ] Scene-sweep → backfill scene choice-branches into `config/canon/choices.yaml` as
-      blank stubs for Thomas (per memory [[scene-sweep-then-backfill-choices]]).
+      Krogan Monument kind (TODO2.md Wrex section names this explicitly).
+- [~] TODO2.md line-level corrections to generated-episode output (Jack/Tali/Wrex) —
+      Wrex commit 376cce3 suggests partial progress; Jack/Tali sections' status unknown.
+- [x] Scene-sweep → backfill scene choice-branches into `config/canon/choices.yaml` —
+      DONE (ccc9654, deb8c75, 5985e10), per memory [[scene-sweep-then-backfill-choices]].
 
 Wave procedure below is the timeline sweep's (kept for reference); the scene sweep's is
 in `.claude/commands/me-build-scenes.md`.
@@ -119,7 +132,7 @@ Finalize the whole 160-stem wave together: `.done` append, filename normalize,
       committed (7a4b139 … this session).
 - [ ] Post-sweep: reconcile scene choice-branches → `config/canon/choices.yaml` blank
       stubs (memory [[scene-sweep-then-backfill-choices]]).
-- **Status:** in_progress
+- **Status:** complete (verified 2026-09-11: 1,636/1,636 stems, 377 scene files, `--check` clean)
 
 ### Phase 5 (superseded): user-initiated live run
 
@@ -234,6 +247,38 @@ descoped to README/suite/status, live run + real episode generation moved to
 - [ ] `/me-build-timeline` (timeline/events/ still empty).
 - [ ] Final process/system wrap-up for generation readiness.
 - **Status:** in_progress
+
+### Phase 8: Codex correction pass (generation-overhaul Phase 2 item 11)
+Goal: find and fix codex bullets that compress away real causality — the "Krogan
+Monument kind" (`codex/places.md:176`, already fixed as the exemplar: a dramatic,
+multi-beat event stated as a flat fact, when a full `scenes/*.yaml` record now exists
+with the real sequence/attendance/causality). The fix pattern per the exemplar: either
+rewrite the bullet to carry the real causal chain, or replace it with a pointer to the
+scene record (`scenes/<scene_id>.yaml`) rather than restating facts from memory — same
+principle as memory [[citadel-dlc-scene-attendance]].
+
+Scope: 11 files, `codex/{characters,culture,everyday,factions,places,ships,social,
+species,tech,timeline,war}.md`, ~1,986 lines total. Now that the scene sweep is
+complete (377 scene records), every codex bullet whose `(source: ...)` page has a
+matching scene record is a candidate — the scene record may hold causality the bullet
+never had room for.
+
+- [x] Step 1 — Detection: COMPLETE. All 10 subagents finished. **54 bullets flagged**
+      across 11 files (see findings.md table): characters 5, culture 4, everyday 6,
+      factions 5, places 6, ships 8, social 7, species 6, tech 4, timeline+war 3
+      (timeline.md: 0). Full detail in `scratchpad/codex-audit-<file>.md`.
+- [x] Step 2/3 — COMPLETE. All 10 fix subagents finished; **54/54 flagged bullets
+      fixed** (characters 5, culture 4, everyday 6, factions 5, places 6, ships 8,
+      social 7, species 6, tech 4, war 3). Each agent re-verified against the scene
+      record itself before fixing — species.md and war.md agents both explicitly
+      double-checked rather than trusting the audit/controller instructions; war.md's
+      agent caught and corrected a wrong assumption in my own dispatch instructions
+      about which squadmate dies where at Virmire, using `config/canon/choices.yaml`
+      + the scene record as ground truth.
+- [x] Step 4 — Verify: `pytest -q` → 169 passed. `git diff --stat codex/` → exactly
+      54 insertions/54 deletions across 10 files (matches fix count 1:1). Spot-checked
+      species.md + war.md diffs — accurate, terse, matches exemplar style.
+- **Status:** complete (pending commit)
 
 ## Decisions Made
 | Decision | Rationale |
