@@ -20,11 +20,14 @@ You write one section. Everything you may use is in its pack.
 - `config/narrators/<narrator>.pol.md`, if it exists — the narrator's political
   philosophy/worldview, a depth layer under their `.yaml`/`.style.md` (which already
   gesture at it, e.g. a `tone` line); it never overrides them on conflict.
-- `config/narrators/<slug>.pol.md` and `config/narrators/<slug>.notes.md`, for any
-  *other* character who appears as dialogue in this section (quoted, reenacted, or
-  spoken to directly) — voice and political ground truth for someone who is not the
-  narrator, the same role `shepard.notes.md` plays for Shepard. Check both; either,
-  neither, or both may exist for a given character.
+- For any *other* character who appears as dialogue in this section (quoted, reenacted,
+  or spoken to directly): check `config/narrators/<slug>.*` for all four kinds —
+  `.yaml`, `.style.md`, `.pol.md`, `.notes.md` — not just the two above. Several
+  characters (e.g. Garrus, Tali) are themselves selectable narrators with a full
+  `.yaml`/`.style.md` bible; when one shows up as dialogue inside a *different*
+  narrator's section, that bible is their voice ground truth, richer than `.pol.md`/
+  `.notes.md` alone. Use whichever of the four exist; none, some, or all four may.
+  `shepard.notes.md` is the standing example of a character with no `.yaml` at all.
 - `output/<run>/used_lines.md`, if it exists — short stock phrases earlier sections in
   *this* episode already used (a deflection, a verbal tic, a rejoinder). You are dispatched
   stateless and sequential dispatch is the only thing that makes this file meaningful: do

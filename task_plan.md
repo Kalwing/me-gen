@@ -43,8 +43,33 @@ last generation overused "Don't make me repeat it"/"I won't say it again" — us
          new tests) + `episode-auditor.md` new `Repetition` heading (runs the
          script, judges flags, fixes by rewriting the *later* occurrence only) +
          `me-generate.md` step 6/7 notes. 177 passed.
-- Nothing from this batch committed yet — holding for go-ahead (matches this
-  session's established pattern: propose, then commit on explicit "commit").
+- [x] Committed as 62fa684 (repetition fix + shepard.notes.md wiring).
+- [x] User: "should all be committed and used" for the rest of the working tree
+      (tone-marker.md already committed; overrides.yaml, assemble_performance.py,
+      all .pol.md files) + "can be discarded if not relevant anymore" for
+      TODO/TODO2.md deletions and mass_effect.json. Actioned:
+      - 18 `config/narrators/*.pol.md` (political-philosophy refs, 10 selectable
+        narrators + 8 subject-only characters) were on disk but unwired — same
+        pattern as shepard.notes.md. Generalized the wiring: section-writer.md /
+        episode-auditor.md now read a narrator's own .pol.md as a depth layer,
+        plus any *other* character's .pol.md/.notes.md when quoted/addressed in
+        a section (shepard.notes.md is now the flagship instance of this general
+        rule, not a special case). Renamed thane.md -> thane.pol.md for naming
+        consistency.
+      - overrides.yaml (Jack N7 tattoo AU) + assemble_performance.py (Fish Audio
+        tag support) committed as previously reviewed, no changes needed.
+      - TODO/TODO2.md deletions finalized (content superseded — world-texture
+        sweep/timeline/choices-verification done; episode-review complaints
+        now structural via scene layer + agency-transposition + Phase 8 fixes).
+      - mass_effect.json deleted (fully mined into narrator files, commit 4e55525).
+      - mp3s under config/narrators/ stay untracked by design (final output).
+      Committed as 0059227. 177 passed. Working tree clean except the 3 mp3s.
+- [x] User: broaden the "other character" rule further — several characters who might
+      appear as dialogue in someone else's section are themselves selectable narrators
+      with a full `.yaml`/`.style.md` bible (e.g. Garrus quoted inside Jack's episode),
+      richer than `.pol.md`/`.notes.md` alone. section-writer.md/episode-auditor.md now
+      say to check all four `config/narrators/<slug>.*` kinds for any other character,
+      not just the two. 177 passed.
 - Everything below this point (Phase 7/8 status, deferred generation-overhaul items)
   is carried over unmodified from the 2026-09-11 reconciliation — not re-verified
   this session.

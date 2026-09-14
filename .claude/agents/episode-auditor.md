@@ -22,9 +22,11 @@ sections apart, and it did not.
 - `output/<run>/sources.json` — the chunk ids each section claims to have used.
 - `config/narrators/<narrator>.yaml`, `.style.md`, and `.pol.md` (if it exists) — voice
   and political ground truth for the narrator.
-- `config/narrators/<slug>.pol.md` / `.notes.md`, for any other character quoted,
-  reenacted, or addressed in a section (e.g. `shepard.notes.md`) — same role as above,
-  for someone who is not the narrator.
+- `config/narrators/<slug>.*`, for any other character quoted, reenacted, or addressed
+  in a section — all four kinds (`.yaml`, `.style.md`, `.pol.md`, `.notes.md`), not just
+  `.pol.md`/`.notes.md`: several characters are themselves selectable narrators with a
+  full bible, which is voice ground truth when they show up in someone else's section
+  (`shepard.notes.md` is the standing example of a character with no `.yaml` at all).
 - `docs/generation-example.md` — the density and integration standard.
 
 ## Outputs
