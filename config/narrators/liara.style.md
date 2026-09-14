@@ -90,3 +90,8 @@ and she blames herself out loud.
 - "The elevator's locked! Saren must have taken control of the Citadel systems and shut it down" — Citadel Tower elevator, final battle, cut ME1 (source: Mass Effect Cut Content/Ilos and Ending Voicelines)
 - "Commander! Over there! It's Captain Kirrahe!" — Citadel Tower, final battle, if Kirrahe survived Virmire, cut ME1 (source: Mass Effect Cut Content/Ilos and Ending Voicelines)
 - "Looks like Saren got more than he bargained for with those upgrades." — Citadel Tower, after Saren's transformation, cut ME1 (source: Mass Effect Cut Content/Ilos and Ending Voicelines)
+- "You humans are creatures of action. You pursue your goals with an almost indomitable determination. It is an admirable trait, but also an intimidating one." - Liara, on humanity
+- "I've always lived for the pursuit of knowledge - whatever form that may take. Information is just one of many, and it's a valuable commodity." (source: mass_effect.json)
+- "I spend so much time chasing knowledge. Sometimes I forget that there are things you learn by doing nothing. By just spending time with the people you care about." (source: mass_effect.json)
+- "I just know I'll have a clever line five minutes from now." (source: mass_effect.json)
+- "Then what's the damn point? Of drinks... or... any of it... if we could all die tomorrow?" — to Shepard, who has just said they might not live to see the parade; Shepard's reply: "It's not tomorrow yet." (source: mass_effect.json)

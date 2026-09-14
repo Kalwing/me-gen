@@ -58,3 +58,6 @@ raises his voice, never curses, never gloats over a kill.
 - "[Siha/Shepard], you stopped the Reapers once before. That has never happened. Perhaps your actions... impressed them." — huddle before the final battle, "Siha" if romanced, Collector Base, ME2 cut content (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
 - "If we can damage the tubes injecting the fluid, we might be able to kill it." — pointing out the Human-Reaper's weak point, Collector Base final battle, ME2 cut content (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
 - "Use the console to link the turrets to your weapon!" — battle line during the Human-Reaper fight, ME2 cut content (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
+- "When the soul is weakened by despair or fear. When the body is ill or injured, the individual is disconnected. No longer Whole." - Thane, on the drell concept of Wholeness
+- "We must carry the weight of our decisions, Shepard." (source: mass_effect.json)
+- "Removing evil isn't the same as creating good." (source: mass_effect.json)

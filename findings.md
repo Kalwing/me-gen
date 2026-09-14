@@ -169,3 +169,31 @@ instructions, per the skill's external-content rule.
 Next: triage + apply fixes per file (Phase 8 Step 2-3 in task_plan.md), same fix
 pattern as the exemplar — inline rewrite carrying the real causal chain, or a pointer
 to the scene record instead of restating from memory.
+
+## 2026-09-14 — new inputs from user, session start
+- `config/narrators/*.mp3` (jack.mp3, wrex.mp3) — **final audio output** of the
+  performance pipeline (assemble_performance.py -> Fish Audio TTS presumably). User:
+  "ignore them, they're the final output." Not source material, not to be read/parsed
+  as input; just note they exist as artifacts. Currently untracked in git.
+- `mass_effect.json` (repo root, untracked) — a flat array of `{lines: [{author, quote}]}`
+  objects, ~140 entries. General cross-character trilogy quote collection (Shepard,
+  Garrus, Wrex, Tali, Javik, Mordin, Jack, Legion, Liara, ME:A cast too — Drack, Peebee,
+  Ryder, Vetra, Liam). NOT narrator-specific (unlike `config/narrators/*.style.md` which
+  are per-narrator verbatim quote pulls from wiki dialogue pages). User: "it's quotes I
+  like." Multi-line entries are exchanges (2 speakers), most are single-line. No
+  source/context field beyond author name. Needs a decision from user on end use before
+  any code changes: (a) fold into an existing narrator's .style.md when the author
+  matches that narrator (would need per-narrator filtering + situation context is
+  missing), (b) new general "favorite quotes" reference file consulted at generation
+  time regardless of narrator (e.g. as connective-tissue color, similar to codex
+  bullets), (c) just a personal keepsake file, not wired into generation at all.
+- Jack generation feedback (user, re: most recent Jack episode): overused two near-
+  identical lines — **"Don't make me repeat it"** / **"I won't say it again"** — to the
+  point of being annoying. Neither phrase appears anywhere in `config/narrators/jack.yaml`,
+  `jack.style.md`, or `jack.pol.md` — so this isn't a config bug, it's the model
+  reaching for a stock Jack-flavored deflection line repeatedly across sections in one
+  generation run. Matches the known audit blind spot "cross-section beat repetition"
+  (memory [[me-generate-audit-blind-spots]]). No fix applied yet — needs a decision:
+  add an explicit `avoid` line to jack.yaml naming these phrases (narrow, only fixes
+  Jack), vs. a cross-section repeated-phrase check in the audit/generation pipeline
+  (general, catches this pattern for any narrator, more work).

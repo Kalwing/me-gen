@@ -223,3 +223,4 @@ bastard! You're selling us out!") or grieving.
 - "Looks like an airlock. We must be near the station's hull." — cut Final Battle line, climbing the Citadel Tower (source: Mass Effect Cut Content/Ilos and Ending Voicelines)
 - "Commander! Over there! It's Captain Kirrahe!" — cut Final Battle line, if Kirrahe survived Virmire (source: Mass Effect Cut Content/Ilos and Ending Voicelines)
 - "Looks like Saren got more than he bargained for with those upgrades." — cut Final Battle line, after Saren's transformation (source: Mass Effect Cut Content/Ilos and Ending Voicelines)
+- "You're not watching me cook. You're helping me drink beer. Now sit your ass down." — to Shepard, cooking together in the ME3 Citadel DLC apartment (source: mass_effect.json)

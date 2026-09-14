@@ -160,3 +160,4 @@ not do solemnity, and never drops the bit for long.
 - "Commander! Grunt and Mordin are about to go at it in the science labs. I wouldn't put money on Mordin." — cut Mordin/Grunt confrontation, ME2 (source: Mass Effect 2 Cut Content/Prologue and Normandy Voicelines)
 - "I know my ship! Just... keep an eye out for claws." — cut line during the Normandy SR-2 crew abduction, ME2 (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
 - "Roger that, Commander. All those tubes lead into the main control room right above you. The route is blocked by a security door, but there's another chamber that runs parallel to the one you're in." — cut line, Collector Base: The Long Walk, ME2 (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
+- "I don't trust anyone who makes more than I do." (source: mass_effect.json)

@@ -130,3 +130,15 @@ her — she names it plainly or turns it into a threat.
 - "Nobody else mattered enough." — asked whether she has ever tattooed anyone else, ME3 (source: Jack (Subject Zero) — Character Analysis Part 2)
 - "…barely breathing, lying under a pile of rubble at the ass end of this war." — explaining why she tattooed Shepard, ME3 (source: Jack (Subject Zero) — Character Analysis Part 2)
 - "Don't get killed dumbass. When this is over, I'm getting laid." - Jack message before the final run, if romanced
+- "Knock that shit off. You're gonna blow the Reapers to hell. And then you're coming back and taking me out dancing." - Jack, before the final run
+- "Shit, you sound like a pussy." - Jack
+- "(about the mission) I don't care. I'm out to survive it, then cut loose." - Jack
+- "Whatever you say, boss man." - Jack
+- "Dead is dead. There's no such thing as a good way to go." - Jack
+- "So fuck you and thanks for asking." (source: mass_effect.json)
+- "Rather do it to them first." (source: mass_effect.json)
+- "I had no idea the king of the Boy Scout would show up." (source: mass_effect.json)
+- "Hey, you look like shit." (source: mass_effect.json)
+- "You're getting this. Hope you like it, 'cause it's too late now." (source: mass_effect.json)
+- "Oh that's just fuckin perfect. Did it occur to you that maybe I'm trying to grow as a goddamn person?" (source: mass_effect.json)
+- "You know, for all the shit we've been through, we've had a damn good ride." — Shepard: "The best." (source: mass_effect.json)

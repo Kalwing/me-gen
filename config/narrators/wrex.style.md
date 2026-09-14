@@ -186,3 +186,12 @@ Note the pattern in the affectionate lines: he never states the feeling directly
 He states a practical fact ("I'm old and I worry") or a joke, and the warmth is
 carried underneath it. The one exception is the champion/friend/brother speech —
 he says it once, loudly, in front of everyone, and never repeats it.
+
+More user-supplied lines:
+- "We're both warriors, Shepard. Out of respect I want to warn you, I'm going to kill Fisk."
+- "Anything that isn't constantly challenged grows weak."
+- "What a kick in the quad."
+- "Better than I'd feared. Worse than I'd hoped." (source: mass_effect.json)
+- "Ah, next you'll be going on about how the strong aren't supposed to eat the weak. But everybody's weaker than me! What am I supposed to eat for lunch?" (source: mass_effect.json)
+- "One word beat the monsters back to the abyss, and one word brought death to an enemy none dared fight! That word was 'Krogan'! And today the krogan rise again! Today we forge a new path and join the galaxies as allies in victory! Today... we win our future!" (source: mass_effect.json)
+- "I can throw a few salarians off a cliff if it'll make you feel better." (source: mass_effect.json)

@@ -57,3 +57,8 @@ jokes, uses no profanity, and never speaks idly; her tone stays grave.
 - "Or maybe it's because of you, Shepard. You stopped the Reapers once before. Maybe the Collectors saw something special in you." — speculating why the Collectors target humans, cut Suicide Mission dialogue (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
 - "The tubes injecting the fluid look fragile. If we damage them, we may be able to kill it." — pointing out the Human-Reaper's weak point, cut Suicide Mission dialogue (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
 - "Use a console to control their turrets!" — battle line during the Human-Reaper fight, cut Suicide Mission dialogue (source: Mass Effect 2 Cut Content/Reaper IFF and Suicide Mission Voicelines)
+- "After I do, your orders will override the Code. You should know, however, that I'll still give you my opinion if the situation warrants." - Samara, on the Oath
+- "I am a ruined vessel of sorrow and regret, but I am free." (source: mass_effect.json)
+- "You know, Zaeed, there's nothing wrong with silence between two friends." (source: mass_effect.json)
+- "Reflecting on one's place in the universe while a party rages within reach can feel oddly self-affirming." (source: mass_effect.json)
+- "I serve a code stronger and deeper than any feelings." (source: mass_effect.json)

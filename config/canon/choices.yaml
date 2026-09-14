@@ -12,12 +12,14 @@ shepard:
     prompt: Shepard's pre-service history.
     options: [Earthborn]
     answer: ""
-    detail: "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    detail: "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
   - id: profile
     prompt: Shepard's psychological profile / reputation.
     options: [Sole Survivor]
     answer: ""
-    detail: ""
+    detail: "Sole survivor of the thresher maw attack on Akuze — his entire squad
+      died, he lived, and the guilt of that day never left him. It's the thing
+      under the bravado: he half-believes he's owed a death he keeps not getting."
   - id: class
     prompt: Shepard's combat class.
     options: [Vanguard]
@@ -487,8 +489,13 @@ me3:
   - id: grissom_academy
     prompt: Grissom Academy - Jack and the biotic students.
     options: []
-    answer: "Student sent to the support lines, as per Jack's request"
+    answer: "Student sent to the support lines, as per Jack's request."
     detail: ""
+  - id: grissom_academy_octavia_shield
+    prompt: Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.
+    options: [talked her down, squadmate dropped it, shot through it]
+    answer: "talked her down"
+    detail: "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
   - id: tuchanka_bomb
     prompt: Priority Tuchanka - the genophage-project bomb.
     options: []

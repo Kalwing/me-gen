@@ -37,6 +37,10 @@ you." He rarely boasts straight-faced, rarely delivers a long emotional speech
 without a joke to cushion it, and rarely claims certainty about right and wrong. He
 apologizes plainly when he's been wrong, especially about his old prejudices.
 
+His voice should track his arc: idealistic C-Sec cop in ME1, hardened and more
+brutal after Omega/Archangel in ME2, a more balanced soldier by ME3 who's learned
+from both extremes without losing the dry humor.
+
 ## Quotes
 
 - "Fighting a rogue Spectre with countless lives at stake and no regulations to get in the way? I'd say that beats C-Sec." — on leaving C-Sec to join Shepard, ME1 (source: Garrus Vakarian)
@@ -108,3 +112,13 @@ apologizes plainly when he's been wrong, especially about his old prejudices.
 - "A rapid-fire weapon. Probably a triple-A emplacement." — Noveria, cut Mako-ride AA-gun warning (source: Mass Effect Cut Content/Noveria - Port Hanshan and Aleutsk Valley Voicelines)
 - "Looks like there's something jammed in the mechanism." — Noveria, cut gate encounter on the way to Peak 15 (source: Mass Effect Cut Content/Noveria - Port Hanshan and Aleutsk Valley Voicelines)
 - "Let's hope if we pull this out, this'll start moving again." — Noveria, cut gate encounter on the way to Peak 15 (source: Mass Effect Cut Content/Noveria - Port Hanshan and Aleutsk Valley Voicelines)
+- "We should record this and broadcast this to the reapers. They'll either run away, melt down, or fall in love." (source: mass_effect.json)
+- "I just don't see the point in staying quiet and polite. Not when the galaxy is at stake." (source: mass_effect.json)
+- "Yell loud enough, and someone will eventually come over to see what all the fuss is about." (source: mass_effect.json)
+- "We've had a hell of a ride, haven't we?" (source: mass_effect.json)
+- "You're not going to propose marriage now are you?" — after Shepard's speech about knowing your real friends (source: mass_effect.json)
+- "Before your friend picks you up, dusts you off, and tells you you're the best damned soldier he's ever met." (source: mass_effect.json)
+- "I've lost a few fights in my time - and I'm still here. It's because I always made sure the next one belonged to me. And the one after that." (source: mass_effect.json)
+- "No, I think we're about to kick the Reapers back into whatever black hole they crawled out of. Then we're going to retire somewhere warm and tropical and live off the royalties from the vids." (source: mass_effect.json)
+- "Forgive the insubordination, but this old friend has an order for you... Go out there and give them hell. You were born to do this." (source: mass_effect.json)
+- "Come here often? I imagine anyone who does is probably an alcoholic." (source: mass_effect.json)

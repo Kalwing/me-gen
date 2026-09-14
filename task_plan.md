@@ -6,6 +6,29 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
+2026-09-14 — Session start (/pwf), user gave 3 notes: (1) `config/narrators/*.mp3`
+are final audio output, ignore as input; (2) `mass_effect.json` is a personal quote
+collection, user chose "fold matching quotes into narrator .style.md files"; (3) Jack's
+last generation overused "Don't make me repeat it"/"I won't say it again" — user chose
+"add explicit avoid-note to jack.yaml". Both actioned:
+- [x] jack.yaml avoid-list += note naming both phrases, done directly.
+- [x] mass_effect.json fold-in: 35 new quotes across 9 of the 10 narrator .style.md
+      files (traynor 0 new, all dupes). 169 passed.
+- [x] Shepard has no .style.md/.yaml (not a selectable narrator) — only
+      `shepard.notes.md`. Its 3 hand-picked lines were already covered by
+      mass_effect.json; added the other 22 Shepard-authored lines from that file.
+- [x] User dropped a full Shepard AU character profile (backstory, personality,
+      appearance, beliefs) + 2 verbatim speeches (crew pre-war address, galaxy
+      pre-final-push address) — consistent with existing `config/canon/choices.yaml`
+      canon (Earthborn/Anderson-rescue/Akuze-Sole-Survivor/Vanguard/faithful-romance/
+      Synthesis), just fleshes it out. Folded into `shepard.notes.md` as new
+      "Full character profile" + "Speeches" sections; added Akuze detail to
+      choices.yaml's `profile` id (was blank). 169 passed.
+- Nothing committed yet — holding per user's earlier question, awaiting go-ahead.
+- Everything below this point (Phase 7/8 status, deferred generation-overhaul items)
+  is carried over unmodified from the 2026-09-11 reconciliation — not re-verified
+  this session.
+
 2026-09-11 — RECONCILED against git (planning files were ~7 commits stale, same
 drift pattern as the 2026-09-09 resume). Actual state, verified this session:
 - **Scene sweep is COMPLETE**: `scenes/.done` 1,636 / `page_summaries` 1,636 (0 remaining),

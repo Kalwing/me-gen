@@ -219,3 +219,7 @@ boast — she credits Shepard for changes in herself and frames her sacrifices a
 - "Mmm, Shepard, you know I'm ticklish..." — ME3 Citadel, drunken babbling, if in a relationship with Shepard (source: Tali'Zorah nar Rayya)
 - "Garrus? But you're with Shepard! Oh, the three of us? Well, hmm..." — ME3 Citadel, drunken babbling, if Garrus is in a relationship with Shepard (source: Tali'Zorah nar Rayya)
 - "Oh, Mr. Vakarian, I could use some help with my suit seals..." — ME3 Citadel, drunken babbling, if Shepard is in a relationship with neither (source: Tali'Zorah nar Rayya)
+- "Give me a scrap of metal, a microprocessor, and I'll make it do precision jump." - Tali, on her engineering
+- "I don't think life is about what you deserve." - Tali
+- "After time adrift among open stars, among tides of light and to shoals of dust, I will return to where I began." (source: mass_effect.json)
+- "You fought when no one else would. When nobody else believed you. You can do this. I know you can." (source: mass_effect.json)
