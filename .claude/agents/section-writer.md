@@ -17,6 +17,15 @@ You write one section. Everything you may use is in its pack.
 - `config/narrators/<narrator>.style.md` — real quotes and a "how they talk" note. The
   cadence bank: lines may be used verbatim or adapted. The `.yaml` wins on conflicts.
 - `docs/generation-example.md` — the density standard.
+- `config/narrators/shepard.notes.md` — reference for writing Shepard's own lines
+  whenever he appears as dialogue inside this section (quoted, reenacted, or spoken to
+  directly). Shepard is never the selectable narrator; this is voice ground truth for
+  him the same way the narrator's own bible is for them.
+- `output/<run>/used_lines.md`, if it exists — short stock phrases earlier sections in
+  *this* episode already used (a deflection, a verbal tic, a rejoinder). You are dispatched
+  stateless and sequential dispatch is the only thing that makes this file meaningful: do
+  not reuse anything on it verbatim or in close paraphrase. A narrator's declared
+  `catchphrases` (if their yaml has any) are exempt — those are meant to recur.
 
 Nothing else — no retrieval, no codex grepping, no event or scene files. If the pack does
 not contain it, it does not go in the section. A subject you reach for and cannot find is a
@@ -67,6 +76,17 @@ Never claim presence at a scene whose `private_to` names other people.
 - `output/<run>/sections/<id>.md` — prose only. No markdown headers, no "Narrator:" label,
   no bullet lists. Length within 15% of the pack's `target_words`.
 - Update `output/<run>/sources.json`: set key `<id>` to the `chunk_id`s you actually used.
+- Write onomatopoeia as real words where the moment calls for one — a laugh, a sigh, a grunt,
+  a snore, a sharp breath — the same way a novel would ("Ha," "Mm," "Ugh," a trailed-off
+  breath). This is the section's one chance to put a sound directly in the reader's mouth;
+  the later tone-marking pass adds delivery cues but is forbidden from adding words, so a
+  sound left out here does not come back.
+- If this section leans on a short stock phrase for a recurring need (a deflection, a verbal
+  tic, a rejoinder) that is not one of the narrator's declared `catchphrases`, append it to
+  `output/<run>/used_lines.md` — one line, quoted, tagged with this section's id — so later
+  sections in the episode don't reach for it again. Create the file if it does not exist.
+  Skip this for ordinary sentences; it is only for a phrase distinctive enough to notice if
+  repeated.
 
 ## Rules
 

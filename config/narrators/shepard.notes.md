@@ -72,7 +72,7 @@ corrupts — he doesn't trust himself with it either). Deeply values love,
 connection, legacy — wants the people he loves to survive and thrive even if
 he doesn't. Sees fighting as an act of love: protecting future generations and
 the right to exist. Anti-hierarchy — respect is earned, not owed, and
-authoritarianism is a disease.
+authoritarianism is a disease. Anarchist/Communalist, as described by Chomsky : all institutions have to prove that their worth it, and as Abdullah Ocalan conceived the Rojava revolution : military organization are necessary in wartime.
 
 ## Speeches (user AU, verbatim — set-piece material for a section that
 reaches this moment; quote in full or in large chunks, not just a fragment)

@@ -24,7 +24,27 @@ last generation overused "Don't make me repeat it"/"I won't say it again" — us
       Synthesis), just fleshes it out. Folded into `shepard.notes.md` as new
       "Full character profile" + "Speeches" sections; added Akuze detail to
       choices.yaml's `profile` id (was blank). 169 passed.
-- Nothing committed yet — holding per user's earlier question, awaiting go-ahead.
+- [x] Committed as 4e55525 (jack.yaml avoid-note, 9 narrator style.md fold-ins,
+      shepard.notes.md, choices.yaml profile detail).
+- [x] Working-tree review (user: "let's review"): found 5 pre-existing uncommitted
+      files unrelated to this session (Fish Audio tone-marker rework in progress).
+      Fixed 2 real gaps found there: `normandy-hackett-pre-battle-address.yaml`
+      grammar + dropped stray "Jack" from `heard_by`; `tone-marker.md`'s onomatopoeia
+      table now splits character-sound tags (each with a spelled-out word) from
+      crowd/ambient tags (no word) per user direction.
+- [x] Cross-section repetition fix (user: "how would you fix it?" -> "Perfect" to
+      build both layers). Root cause: `section-writer` dispatch is sequential but
+      stateless — no section knows what stock phrasing an earlier section in the
+      same episode already used. Built:
+      1. Prevention: `section-writer.md` reads `output/<run>/used_lines.md` (stock
+         phrases already used this episode) and appends its own to it, excluding a
+         narrator's declared `catchphrases`.
+      2. Detection backstop: new `scripts/check_repetition.py` (shingle scan, 8
+         new tests) + `episode-auditor.md` new `Repetition` heading (runs the
+         script, judges flags, fixes by rewriting the *later* occurrence only) +
+         `me-generate.md` step 6/7 notes. 177 passed.
+- Nothing from this batch committed yet — holding for go-ahead (matches this
+  session's established pattern: propose, then commit on explicit "commit").
 - Everything below this point (Phase 7/8 status, deferred generation-overhaul items)
   is carried over unmodified from the 2026-09-11 reconciliation — not re-verified
   this session.

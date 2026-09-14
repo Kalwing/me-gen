@@ -97,11 +97,13 @@ still come only from the timeline and retrieved evidence.
 6. For each **remaining** section in `outline.yaml`, in order: dispatch `section-writer` with
    the run dir and the section id. It reads that section's pack and the narrator files and
    nothing else — do not hand it retrieval results, event files or codex excerpts. Run
-   sequentially. Retry a failed section once, then log to `output/<run>/gen_errors.log` and
-   continue. The approved first section is not rewritten.
+   sequentially (this also lets `output/<run>/used_lines.md` accumulate across sections, so
+   a later section knows what stock phrasing an earlier one already used). Retry a failed
+   section once, then log to `output/<run>/gen_errors.log` and continue. The approved first
+   section is not rewritten.
 7. Dispatch `episode-auditor` for the run dir. It holds the packs and the whole episode, runs
-   its own find-then-fix passes, and absorbs what `smoother` used to do. It must run before
-   any tone pass.
+   its own find-then-fix passes (including a deterministic repetition scan), and absorbs
+   what `smoother` used to do. It must run before any tone pass.
 8. Assemble: `PYTHONPATH=. .venv/bin/python scripts/assemble_episode.py <run-dir>`.
 9. Print the episode path, its word count vs. `target_words`, the `issues.md` summary, and
    the per-section coverage figures the auditor reported.

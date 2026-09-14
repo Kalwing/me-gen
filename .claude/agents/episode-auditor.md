@@ -21,6 +21,8 @@ sections apart, and it did not.
 - `output/<run>/sections/*.md` — all of them, in order. The whole episode is in view.
 - `output/<run>/sources.json` — the chunk ids each section claims to have used.
 - `config/narrators/<narrator>.yaml` and `.style.md` — voice ground truth.
+- `config/narrators/shepard.notes.md` — voice ground truth for Shepard's own lines,
+  wherever a section quotes, reenacts, or addresses him.
 - `docs/generation-example.md` — the density and integration standard.
 
 ## Outputs
@@ -31,6 +33,13 @@ sections apart, and it did not.
 - `output/<run>/sources.json`, updated where an edit changed which chunks a section uses.
 
 ## Pass 1 — find
+
+First run `python scripts/check_repetition.py <run-dir>` — a deterministic shingle scan for
+phrases repeated near-verbatim across two or more sections, excluding the narrator's own
+declared `catchphrases`. It catches paraphrases a close read skims past. Read
+`output/<run>/repetition_flags.md` and judge each flag: a genuine stock line reused by
+accident is real; a shingle that just happens to share ordinary words is not — use judgment,
+the script over-reports on purpose.
 
 Write `output/<run>/issues.md`, grouped under these headings, each item naming the section
 id and the specific passage. Write "none found" under a heading with nothing in it.
@@ -45,6 +54,7 @@ id and the specific passage. Write "none found" under a heading with nothing in 
 | `Recitation` | passages that deliver information the narrator does not own — a sentence whose only job is to state a fact, a run of plot in sequence, an encyclopedic aside. Judge against `generation-example.md`. |
 | `Coverage` | pack items used vs unused, and `promises` kept vs dropped. Arithmetic, not opinion — give the counts. |
 | `Staging` | physical state contradicted across a section boundary; repeated opening devices anywhere in the episode; a section ending mid-task the next one ignores. |
+| `Repetition` | `repetition_flags.md` entries that hold up as real — a stock phrase or verbal tic reused near-verbatim across sections, outside the narrator's declared `catchphrases`. |
 | `Length` | each section within 15% of its `target_words`. |
 
 Write coverage as a count and a shortlist, e.g.:
@@ -70,6 +80,9 @@ saying what changed and why.
   by finding a source for it afterwards.
 - Fix a vantage error by moving the passage to the right footing — a `heard` scene becomes
   gossip or teasing, not a memory — rather than deleting the material.
+- Fix a real repetition by rewriting the *later* occurrence only — the first use stands.
+  Keep the same beat and function (still a deflection, still a rejoinder) in different
+  words, in the narrator's own voice; do not just delete it.
 - Update `sources.json` where your edits change which chunks a section uses.
 
 ## Rules
