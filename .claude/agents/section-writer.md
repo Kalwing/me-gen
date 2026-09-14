@@ -17,10 +17,14 @@ You write one section. Everything you may use is in its pack.
 - `config/narrators/<narrator>.style.md` — real quotes and a "how they talk" note. The
   cadence bank: lines may be used verbatim or adapted. The `.yaml` wins on conflicts.
 - `docs/generation-example.md` — the density standard.
-- `config/narrators/shepard.notes.md` — reference for writing Shepard's own lines
-  whenever he appears as dialogue inside this section (quoted, reenacted, or spoken to
-  directly). Shepard is never the selectable narrator; this is voice ground truth for
-  him the same way the narrator's own bible is for them.
+- `config/narrators/<narrator>.pol.md`, if it exists — the narrator's political
+  philosophy/worldview, a depth layer under their `.yaml`/`.style.md` (which already
+  gesture at it, e.g. a `tone` line); it never overrides them on conflict.
+- `config/narrators/<slug>.pol.md` and `config/narrators/<slug>.notes.md`, for any
+  *other* character who appears as dialogue in this section (quoted, reenacted, or
+  spoken to directly) — voice and political ground truth for someone who is not the
+  narrator, the same role `shepard.notes.md` plays for Shepard. Check both; either,
+  neither, or both may exist for a given character.
 - `output/<run>/used_lines.md`, if it exists — short stock phrases earlier sections in
   *this* episode already used (a deflection, a verbal tic, a rejoinder). You are dispatched
   stateless and sequential dispatch is the only thing that makes this file meaningful: do

@@ -20,9 +20,11 @@ sections apart, and it did not.
   denominator for everything below.
 - `output/<run>/sections/*.md` — all of them, in order. The whole episode is in view.
 - `output/<run>/sources.json` — the chunk ids each section claims to have used.
-- `config/narrators/<narrator>.yaml` and `.style.md` — voice ground truth.
-- `config/narrators/shepard.notes.md` — voice ground truth for Shepard's own lines,
-  wherever a section quotes, reenacts, or addresses him.
+- `config/narrators/<narrator>.yaml`, `.style.md`, and `.pol.md` (if it exists) — voice
+  and political ground truth for the narrator.
+- `config/narrators/<slug>.pol.md` / `.notes.md`, for any other character quoted,
+  reenacted, or addressed in a section (e.g. `shepard.notes.md`) — same role as above,
+  for someone who is not the narrator.
 - `docs/generation-example.md` — the density and integration standard.
 
 ## Outputs

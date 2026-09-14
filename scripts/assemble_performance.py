@@ -25,8 +25,8 @@ from scripts import common
 TAG = re.compile(r"\[[^\]\n]*\]")
 
 DEFAULT_NOTE = (
-    "Oral-tone annotation of `episode.md`. Bracketed cues are delivery direction for a voice "
-    "performance; the prose between them is unchanged."
+    "Oral-tone annotation of `episode.md`, using Fish Audio S2-compatible tags. Bracketed cues "
+    "are delivery direction for a voice performance; the prose between them is unchanged."
 )
 
 
@@ -56,9 +56,22 @@ def header_block(outline: dict) -> str:
             f"_{note}_\n")
 
 
+def _is_subsequence(needle: list[str], haystack: list[str]) -> bool:
+    """True if `needle`'s words appear in `haystack`, in order, with insertions allowed."""
+    it = iter(haystack)
+    return all(word in it for word in needle)
+
+
 def verify(plain: str, marked: str, section_id: str) -> None:
+    """The tone pass may only add bracketed cues and, sparingly, onomatopoeia words
+    (a spelled-out laugh, sigh, breath, grunt) alongside a matching effect tag. It may
+    never reorder, remove, or reword the source prose. We check that by requiring the
+    plain source's words to appear, in order, inside the spoken (tag-stripped) text —
+    insertions pass, deletions/reorders/rewording do not."""
     spoken, source = strip_tags(marked), strip_tags(plain)
     if spoken == source:
+        return
+    if _is_subsequence(source.split(), spoken.split()):
         return
     diff = [d for d in difflib.unified_diff(source.split(". "), spoken.split(". "), lineterm="", n=0)
             if d.startswith(("+", "-")) and not d.startswith(("+++", "---"))]
