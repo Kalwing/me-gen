@@ -28,6 +28,17 @@ You write one section. Everything you may use is in its pack.
   narrator's section, that bible is their voice ground truth, richer than `.pol.md`/
   `.notes.md` alone. Use whichever of the four exist; none, some, or all four may.
   `shepard.notes.md` is the standing example of a character with no `.yaml` at all.
+- The episode's addressee or subject (whoever the narrator is speaking to or about, per
+  `outline.yaml`'s frame and brief): always read their `config/narrators/<slug>.*` files,
+  whether or not they are quoted in this section. A eulogy for Shepard characterizes him in
+  every section, so `shepard.notes.md` applies to all of them.
+
+**Never reference game mechanics**, even dressed up in-world: Paragon/Renegade, charm or
+intimidate checks, "points", loyalty as a mechanic, loot/credits/mods/rewards, side missions
+delaying the story, war assets or readiness numbers, dialogue options, cut content, survival
+odds. Pack lines written as game conditions ("If Shepard convinced Jack…", "if the squad
+leader is loyal…") give you only which outcome happened; narrate that outcome as lived fact
+and drop the condition.
 - `output/<run>/used_lines.md`, if it exists — short stock phrases earlier sections in
   *this* episode already used (a deflection, a verbal tic, a rejoinder). You are dispatched
   stateless and sequential dispatch is the only thing that makes this file meaningful: do

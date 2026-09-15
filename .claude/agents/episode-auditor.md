@@ -56,6 +56,7 @@ id and the specific passage. Write "none found" under a heading with nothing in 
 | `Vantage` | claims of presence against the pack's `attendance`. A `heard` scene told as memory, an `absent` scene told at all, a `private_to` scene the narrator walks into. |
 | `Agency` | the addressee referred to in third person; a deed attributed to nobody; a `required_facts` summary transcribed rather than transposed. |
 | `Recitation` | passages that deliver information the narrator does not own — a sentence whose only job is to state a fact, a run of plot in sequence, an encyclopedic aside. Judge against `generation-example.md`. |
+| `Mechanics` | any game mechanic leaking into prose, even dressed in-world: Paragon/Renegade, charm/intimidate, "points", loot/credits/mods/rewards, side missions delaying the plot, war-asset numbers, dialogue options, cut content, survival odds, "if Shepard chose X" branches. Fix by keeping the outcome as lived fact and dropping the mechanic. |
 | `Coverage` | pack items used vs unused, and `promises` kept vs dropped. Arithmetic, not opinion — give the counts. |
 | `Staging` | physical state contradicted across a section boundary; repeated opening devices anywhere in the episode; a section ending mid-task the next one ignores. |
 | `Repetition` | `repetition_flags.md` entries that hold up as real — a stock phrase or verbal tic reused near-verbatim across sections, outside the narrator's declared `catchphrases`. |
