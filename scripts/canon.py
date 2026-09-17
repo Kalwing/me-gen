@@ -27,6 +27,7 @@ import argparse
 import datetime as _dt
 import json
 import sys
+import re
 from pathlib import Path
 
 import yaml
@@ -134,8 +135,41 @@ def load_canon(canon_dir: Path = CANON_DIR) -> dict:
 # filtering
 # --------------------------------------------------------------------------
 
+# Words that carry no subject on their own, so a slug containing one must not match on it.
+_SLUG_STOPWORDS = frozenset({
+    "the", "and", "for", "with", "from", "that", "this", "into", "onto", "over", "under",
+    "what", "when", "where", "which", "who", "whom", "whose", "why", "how", "his", "her",
+    "their", "them", "they", "its", "was", "were", "been", "being", "have", "has", "had",
+    "not", "but", "own", "out", "off", "all", "any", "one", "two", "after", "before",
+    "during", "about", "against", "between", "than", "then", "there", "here", "some",
+})
+
+
+def _slug_words(entity: str) -> list[str]:
+    """The meaningful words in an id like `genophage-cure-tuchanka`.
+
+    Sections anchor to hyphenated event and scene ids; canon entries are written in prose.
+    Short and common words are dropped so a slug cannot match everything.
+    """
+    words = re.split(r"[^a-z0-9]+", entity)
+    return [w for w in words if len(w) >= 4 and w not in _SLUG_STOPWORDS]
+
+
 def _touches(entity: str, text: str) -> bool:
-    return bool(entity) and entity in text
+    """Does this entity bear on a canon entry's text?
+
+    Whole-string containment first — that is what a bare name like "Jack" needs. Failing
+    that, and only for id-shaped entities (no spaces), match on any one meaningful word,
+    at a word boundary. Free-text retrieval keys are deliberately left to the whole-string
+    rule: they are prose, and matching them word-by-word would pull in the whole store.
+    """
+    if not entity:
+        return False
+    if entity in text:
+        return True
+    if " " in entity:
+        return False
+    return any(re.search(rf"\b{re.escape(w)}", text) for w in _slug_words(entity))
 
 
 def _entry_matches(entry: dict, entities: list[str]) -> bool:

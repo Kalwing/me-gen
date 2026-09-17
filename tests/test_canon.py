@@ -221,3 +221,36 @@ def test_cli_json_for_entity(tmp_path, capsys):
 def test_cli_missing_store_does_not_crash(tmp_path, capsys):
     assert canon.main(["--canon-dir", str(tmp_path / "nope")]) == 0
     assert "unanswered" in capsys.readouterr().out.lower()
+
+
+def test_filter_for_matches_slug_entities_on_their_words(tmp_path):
+    """An event id like `genophage-cure-tuchanka` must reach the `genophage` entry.
+
+    Sections anchor to hyphenated event and scene ids, but canon entries are written in
+    prose. Whole-string matching meant a section narrating the cure got no genophage
+    canon at all and had to hedge a fact the playthrough had already pinned.
+    """
+    d = _write_store(tmp_path, choices=(
+        "me3:\n"
+        "  - id: genophage\n"
+        "    prompt: The state of the genophage.\n"
+        "    options: [cured]\n"
+        "    answer: ''\n"
+        "    detail: 'Eve lived.'\n"
+        "  - id: council_fate\n"
+        "    prompt: The Council\n"
+        "    options: [saved]\n"
+        "    answer: ''\n"
+        "    detail: ''\n"
+    ))
+    store = canon.filter_for(canon.load_canon(d), ["genophage-cure-tuchanka"])
+    ids = {e["id"] for e in store["canon"]}
+    assert "genophage" in ids
+    assert "council_fate" not in ids
+
+
+def test_filter_for_ignores_short_and_common_words_in_slugs(tmp_path):
+    """Token matching must not turn every entity into a match-everything wildcard."""
+    d = _write_store(tmp_path)
+    store = canon.filter_for(canon.load_canon(d), ["the-state-of-his-own"])
+    assert store["canon"] == []
