@@ -219,6 +219,25 @@ def _conflicts(canon_entries: list[dict], scene_records: list[dict]) -> list[dic
 # rendering + writing
 # --------------------------------------------------------------------------
 
+def _form_description(repo: "Repo", form_id: str) -> str:
+    """The form's own description from `config/forms.yaml`, or "" when it can't be read.
+
+    The section-writer sees nothing but the pack, so the form has to travel inside it: an
+    id alone says nothing about what the section is *doing*. A missing or unreadable forms
+    file is not worth failing a build over — the id still ships.
+    """
+    if not form_id:
+        return ""
+    path = repo.root / "config" / "forms.yaml"
+    if not path.is_file():
+        path = common.FORMS_PATH
+    try:
+        form = common.load_forms(path).get(form_id) or {}
+    except (OSError, ValueError):
+        return ""
+    return " ".join(str(form.get("description", "")).split())
+
+
 def _as_markdown(pack: dict) -> str:
     s = pack["section"]
     lines = [f"# Pack — {s['title']}", "",
@@ -229,6 +248,8 @@ def _as_markdown(pack: dict) -> str:
         lines.extend(rows or ["_(none)_"])
         lines.append("")
 
+    block("Form", [f"**{s['form'] or 'unset'}** — {s.get('form_description') or '_(no description)_'}",
+                   "", f"This run's note: {s.get('form_note') or '_(none)_'}"])
     block("Promises", [f"- {p}" for p in pack["promises"]])
     block("Required facts", [f"- ({f['event_id']}) {f['fact']}" for f in pack["required_facts"]])
     block("Canon", [f"- **{c['id']}** [{c['authority']}] "
@@ -270,10 +291,13 @@ def build(repo: Repo, run_dir: Path, section_id: str, *, allow_thin: bool = Fals
             raise ThinPack("; ".join(gaps))
         warnings.extend(gaps)
 
+    form_id = outline.get("form", "")
     pack = {
         "section": {"id": section["id"], "title": section.get("title", section["id"]),
                     "target_words": section.get("target_words", 0),
-                    "form": outline.get("form", ""), "narrator": narrator},
+                    "form": form_id, "form_description": _form_description(repo, form_id),
+                    "form_note": outline.get("form_note", "") or "",
+                    "narrator": narrator},
         "promises": list(section.get("promises") or []),
         "required_facts": required_facts,
         "canon": entries,

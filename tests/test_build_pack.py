@@ -220,3 +220,21 @@ def test_cli_exits_non_zero_and_names_the_gap(world, capsys):
     (run / "outline.yaml").write_text(yaml.safe_dump(outline))
     assert build_pack.main([str(run), "--all", "--root", str(repo.root)]) != 0
     assert "zzzzz" in capsys.readouterr().err
+
+
+def test_pack_carries_the_form_description_and_note(world):
+    """The section-writer only sees the pack, so the form has to travel in it.
+
+    A form id alone ("motivational") does not tell the writer what the section is for;
+    the description from config/forms.yaml and the run's own form_note do.
+    """
+    repo, run = world
+    pack = build_pack.build(repo, run, "one-last-party")
+    section = pack["section"]
+    assert section["form"] == "evening"
+    assert section["form_note"] == "one night"
+    assert "one occasion, one night" in section["form_description"].lower()
+
+    rendered = (run / "packs" / "one-last-party.md").read_text(encoding="utf-8")
+    assert "## Form" in rendered
+    assert "one night" in rendered
