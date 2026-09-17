@@ -1,0 +1,13 @@
+---
+title: The SSV Normandy SR-1 (Part 1) — Purpose and Interior
+url: ""
+game: Mass Effect
+type: tech
+characters: [Commander Shepard, David Anderson, Jeff "Joker" Moreau]
+---
+
+Part 1 of a breakdown of the SSV Normandy SR-1, a stealth frigate co-developed by the Systems Alliance and the Turian Hierarchy under Citadel Council sponsorship. Coming less than three decades after the First Contact War, the joint project represented a notable level of trust between the two civilizations and let the young Alliance integrate its technology with the older civilizations of Council space. The Normandy was the first ship of its class, optimized not as a conventional warship but for long-range reconnaissance and independent covert operations deep in unstable regions such as the Attican Traverse and the Terminus systems. She was a compact three-deck vessel built around technologies suppressing energy emissions and reducing detectability across multiple sensor types.
+
+Unlike most Alliance vessels, the Normandy distributed core systems across the deck rather than centralizing them. Deck 1 held the bridge and Combat Information Center. At the bow was the main bridge, resembling an aircraft flight deck, with the pilot's station in the middle and a secondary co-pilot/navigation seat; the cockpit had an internal kinetic barrier to protect the pilot from vacuum. Just behind the pilot lay the main docking hatch, where most crew embarked, and an escape pod for bridge personnel. A central walkway lined with tactical workstations connected the bridge to the CIC, which was dominated by a large central console resembling an Alliance insignia from above, with the galaxy-map interface at its center. The commanding officer's station sat toward the rear of the CIC, widely attributed to Turian command doctrine favoring elevated oversight; as a prototype the Normandy tested this hybrid command structure under human-led operations, and it proved effective. At the stern of Deck 1 was the communications room, used for debriefings and secure contact with Alliance Command and the Citadel Council.
+
+Deck 2, the habitation deck, was reached by stairwells on either side of the CIC and held the mess hall, crew sleeper pods (used for stasis during rotations and non-relay flights), the captain's private cabin and office, escape-pod access, and the medical bay with an attached small science lab that doubled as storage. Commander Shepard's personal locker was on this deck. Deck 3 held the cargo hold, the M-35 Mako storage bay, an armory, a workshop, strike-team equipment lockers overseen by the Alliance requisitions officer, and main engineering, which contained three monitoring consoles and, at the rear, the Tantalus drive core (covered in Part 2).

@@ -1,0 +1,54 @@
+event_id: battle-of-the-citadel-destiny-ascension
+title: "Battle of the Citadel - Fate of the Destiny Ascension and the Council"
+game: Mass Effect
+chronological_order: 790
+date: "2183 CE"
+summary: |
+  As Saren Arterius' geth fleet, led by the Reaper Sovereign, assaulted the Citadel
+  in 2183, the station stopped responding to commands - including the order to close
+  the Wards arms to shield the civilian population. Matriarch Lidanya, commanding
+  officer of the asari dreadnought Destiny Ascension, flagship of the Citadel Fleet,
+  ordered the Citadel Council evacuated to her ship under standard emergency
+  procedure. The Ascension - four times the size of the largest human warship, with a
+  crew of nearly 10,000 and GARDIAN defences - failed to escape when its main drives
+  were knocked offline, and its kinetic barriers fell toward 40% under sustained fire
+  from the geth fleet and Sovereign.
+
+  The Alliance Fifth Fleet, held in reserve in the Andura Sector on Shepard's orders,
+  was the Ascension's only hope. When Shepard reached the Citadel through the Conduit
+  and contacted the fleet, Commander Shepard (relaying to Admiral Hackett's ships)
+  faced a choice, recorded in `config/narrative_choices.yaml` as `council_fate`: order
+  the Alliance to break off and save the Destiny Ascension, at the cost of many human
+  ships and lives, or concentrate every gun on Sovereign and leave the Ascension to
+  its fate. If the fleet was sent to the Ascension, the Alliance destroyed the geth
+  ships pinning it and the crippled dreadnought limped clear with the Council aboard,
+  while the rest of the fleet engaged Sovereign. If the fleet ignored the Ascension's
+  hails, the dreadnought was overwhelmed - Lidanya's last transmission reporting
+  GARDIAN defences down and kinetic barriers offline - and it was destroyed with all
+  hands, killing the entire sitting Council.
+
+  The player's playthrough this timeline follows takes the second path (per
+  `council_fate`: "sacrificed - to focus on Sovereign, not to kill them"): the
+  Destiny Ascension and the Council are lost so the fleet can bring down Sovereign.
+  In either case the combined Alliance and Citadel fleets then destroyed Sovereign
+  over the station.
+characters:
+  - Lidanya
+  - Commander Shepard
+  - Steven Hackett
+  - Citadel Council
+  - Sovereign (Reaper)
+  - Saren Arterius
+consequences:
+  - "Per `council_fate`: the Alliance Fifth Fleet either saves the Destiny Ascension and the Council survive, or the fleet concentrates on Sovereign and the dreadnought is destroyed with the entire Council aboard"
+  - This timeline: the Destiny Ascension is destroyed and the sitting Citadel Council is killed
+  - The Alliance Navy takes heavy losses regardless, but the combined fleets destroy Sovereign over the Citadel
+  - "If the Ascension survives it undergoes a twenty-colony victory cruise, is later repaired and upgraded, and fights in the final battle over Earth; if destroyed, the asari cede their share of Citadel defence responsibility to the turians"
+  - The Council's fate shapes the post-battle Council composition and humanity's standing on it
+source_chunks:
+  - lidanya_001
+  - lidanya_002
+  - destiny-ascension_003
+  - destiny-ascension_004
+  - destiny-ascension_005
+  - manual-the-destiny-ascension-flagship-of-the-citadel-fleet_001

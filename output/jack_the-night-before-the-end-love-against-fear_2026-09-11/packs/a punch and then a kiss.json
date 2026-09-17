@@ -1,0 +1,940 @@
+{
+  "section": {
+    "id": "a punch and then a kiss",
+    "title": "A Punch and Then a Kiss",
+    "target_words": 900,
+    "form": "bedtalk",
+    "narrator": "jack"
+  },
+  "promises": [
+    "the Cerberus raid on Grissom, why it was really about the students and not a rescue op",
+    "getting every one of her kids out alive, including breaking the glass for Rodriguez",
+    "the punch she gave Shepard when he showed up, and the kiss after it"
+  ],
+  "required_facts": [
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Acquired after Priority: Palaven, once Samantha Traynor and EDI determined that a turian rescue signal answering Grissom Academy's evacuation request was in fact a Cerberus fake and the station remained in danger. Cerberus forces were assaulting the Jon Grissom Academy in the Petra Nebula to abduct its students, most of whom were developing Alliance technology or training as military biotics. The mission had to be run before Priority: The Citadel II or it was permanently failed. With too many Cerberus ships to engage, Joker created a diversion so Shepard's shuttle could slip into a cargo hold opened by Kahlee Sanders, an old associate of Anderson from his Spectre-candidate days. Shepard freed Sanders from the security office and fought through the corridors, rescuing scattered students including Reiley Bellarmine and his dying sister Seanne. In Orion Hall a group of biotic students held off Cerberus Assault Troopers and an Atlas mech. If a Mass Effect 2 save was imported and Jack had survived the Suicide Mission, Jack led the students (greeting Shepard with a punch, and a kiss if romanced); otherwise Ensign Jason Prangley took command. The squad then pushed through heavy waves of Centurions, Guardians, Combat Engineers and Atlas mechs across the Atrium and a docking area, aided by commandeered Atlas mechs and by tech students such as Octavia, with David Archer vouching for Shepard if Overlord had been completed on the Paragon route. During the final escape the wounded student Rodriguez fell behind; whoever led the biotics shattered the glass to save her. If Jack led, everyone survived; if Prangley led, he was shot and killed. Afterward Shepard assigned the students either as support folded into the Alliance 103rd Marine Division (+50 war assets, Paragon) or as a frontline Biotic Company (+75 war assets, Renegade), a choice that also set Jack's epilogue. If the mission expired, Jack was captured, converted into a Cerberus Phantom, and had to be killed at Cerberus Headquarters, and Gavin Archer could commit suicide during Arrae: Ex-Cerberus Scientists.",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Grissom Academy's surviving students and staff are evacuated aboard the Normandy",
+      "actor": ""
+    },
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Cerberus fails to capture the student body for conversion into troops",
+      "actor": ""
+    },
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Shepard assigns the students as Alliance support (+50 war assets) or a Biotic Company (+75 war assets)",
+      "actor": ""
+    },
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Jack survives and rejoins the war effort as a biotics instructor; if the mission is failed she is turned into a Phantom and killed at Cerberus HQ",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Prangley dies during the escape unless Jack leads the biotic students",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Kahlee Sanders is recovered and continues coordinating displaced Academy personnel",
+      "actor": "Kahlee Sanders"
+    },
+    {
+      "event_id": "grissom-academy-emergency-evacuation",
+      "fact": "Rewards include 25,000 credits, weapon mods, the Mnemonic Visor and the Serrice Council Chestplate",
+      "actor": "EDI"
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "iff_delay",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether the abducted Normandy crew survived (how long you delayed after the IFF mission).",
+      "answer": "All survived",
+      "detail": "Did the IFF mission immediately, they all lived"
+    },
+    {
+      "id": "overlord",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Overlord - David Archer after the VI experiment.",
+      "answer": "sent to Grissom Academy",
+      "detail": ""
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "joker_edi_romance",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Joker and EDI's relationship - whether you encouraged it.",
+      "answer": "encouraged",
+      "detail": "I believe love can come in unexpected places, and Joker deserves it more than many."
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "title": "Getting the Biotic Students Off Grissom Academy",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, after Priority: Palaven, before Priority: The Citadel II",
+      "where": "Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy",
+      "participants": [
+        "Shepard",
+        "Samantha Traynor",
+        "EDI",
+        "Joker",
+        "Kahlee Sanders",
+        "Jack",
+        "Jason Prangley",
+        "Rodriguez",
+        "Reiley Bellarmine",
+        "Seanne Bellarmine",
+        "Octavia",
+        "David Archer"
+      ],
+      "heard_by": [
+        "Normandy crew",
+        "Alliance command"
+      ],
+      "requires": [
+        {
+          "grissom_academy": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "After Priority: Palaven, Samantha Traynor tells Shepard she picked an Academy evac request off Alliance comm channels answered by a turian vessel, and that she and EDI traced the answering signal to Cerberus — the rescue is a fake and the station is still under attack. Cerberus is assaulting Grissom Academy to abduct its students, most of whom build Alliance tech or train as military biotics.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_002"
+          ]
+        },
+        {
+          "text": "Too many Cerberus ships blockade the Academy for the Normandy to fight or sneak through. Kahlee Sanders calls in, reports Cerberus holds the docking bays, and opens a cargo hold. Joker flies a diversion so Shepard's shuttle can slip into the hold.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_005"
+          ]
+        },
+        {
+          "text": "Kahlee is trapped in the security office by Cerberus Assault Troopers trying to breach the door. Shepard opens it; Kahlee immediately kills the two troopers by the door, Shepard clears the rest, and Shepard forces the damaged door and frees her.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_005"
+          ]
+        },
+        {
+          "text": "Shepard fights through classrooms and corridors while a Cerberus commander tells students over the intercom they will be safe if they do not resist and operatives drag students off. Shepard rescues scattered students, among them Reiley Bellarmine and his badly wounded sister Seanne.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_006",
+            "morality-guide-mass-effect-3_022"
+          ]
+        },
+        {
+          "text": "In Orion Hall a group of biotic students is holding off Assault Troopers behind a barrier when an Atlas breaks in. Shepard clears the room before the barrier fails.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007"
+          ]
+        },
+        {
+          "text": "Jack, alive after the Suicide Mission and now the students' Alliance biotics instructor, is the one leading them. She greets Shepard with a punch to the face.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007",
+            "jack_007"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": true
+          },
+          "choice": "Jack survived the Suicide Mission and leads the students"
+        },
+        {
+          "text": "If Shepard romanced Jack, the punch is followed by a kiss.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007",
+            "jack_007"
+          ],
+          "conditional": {
+            "romance": "Jack"
+          },
+          "choice": "romanced Jack"
+        },
+        {
+          "text": "If Jack is dead or was never recruited, Ensign Jason Prangley — a student who came to Grissom at six and studied battles obsessively — steps up and takes command of the biotic students instead.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007",
+            "jason-prangley_001"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": false
+          },
+          "choice": "Jack absent, Prangley leads the students"
+        },
+        {
+          "text": "Shepard pushes through both halves of the Atrium and a docking area against heavy waves of Centurions, Guardians, Combat Engineers and Atlas mechs, using empty Atlas mechs left on the field and helped by the covering fire of the biotic students.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_008",
+            "grissom-academy-emergency-evacuation_009"
+          ]
+        },
+        {
+          "text": "Tech students including Octavia are fending off troopers with a shield device; Octavia distrusts Shepard until Shepard contacts Kahlee, a squadmate drops the shield, or Shepard shoots through it. If Overlord was finished on the Paragon route, David Archer is present and vouches for Shepard, unlocking a security office.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_010",
+            "grissom-academy-emergency-evacuation_011"
+          ]
+        },
+        {
+          "text": "During the final escape the wounded Rodriguez falls behind, calling for medi-gel. Whoever is leading the biotic students smashes the glass to reach her. If Jack leads, every student gets out alive.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_009",
+            "jack_007"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": true
+          },
+          "choice": "Jack leads — all students survive"
+        },
+        {
+          "text": "If Prangley is leading the students, he breaks the glass to save Rodriguez and is shot and killed doing it.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_009",
+            "jason-prangley_001"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": false
+          },
+          "choice": "Prangley leads — Prangley is killed in the escape"
+        },
+        {
+          "text": "Back aboard the Normandy, Shepard decides how the students serve: as support folded into the Alliance 103rd Marine Division for barrier work and ammo modding (+50 war assets, Paragon), or as a frontline Biotic Company (+75 war assets, Renegade). The choice also fixes Jack's epilogue — shown back with her class, or mourning at their graves.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_013"
+          ],
+          "conditional": {
+            "grissom_academy": "support"
+          },
+          "choice": "students assigned as Alliance support"
+        },
+        {
+          "text": "Shepard has a video conference with Anderson about the war and about Kahlee. Kahlee later emails thanks, forwarded through Admiral Hackett, saying her tech-minded students stayed behind to help with the Crucible.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_012",
+            "grissom-academy-emergency-evacuation_018"
+          ]
+        },
+        {
+          "text": "If the mission is not run before Priority: The Citadel II it is failed permanently: Jack is captured, turned into a Cerberus Phantom, and has to be fought and killed at Cerberus Headquarters, and if David Archer was sent here after Overlord, Gavin Archer may kill himself during Arrae: Ex-Cerberus Scientists.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_019"
+          ],
+          "conditional": {
+            "grissom_academy": "failed"
+          },
+          "choice": "mission expired — Jack captured and lost"
+        }
+      ],
+      "related_scenes": [
+        "citadel-purgatory-jack-and-her-students",
+        "aite-atlas-station-david-archer"
+      ],
+      "related_events": [
+        "grissom-academy-emergency-evacuation"
+      ],
+      "source_chunks": [
+        "grissom-academy-emergency-evacuation_002",
+        "grissom-academy-emergency-evacuation_005",
+        "grissom-academy-emergency-evacuation_006",
+        "grissom-academy-emergency-evacuation_007",
+        "grissom-academy-emergency-evacuation_008",
+        "grissom-academy-emergency-evacuation_009",
+        "grissom-academy-emergency-evacuation_010",
+        "grissom-academy-emergency-evacuation_011",
+        "grissom-academy-emergency-evacuation_012",
+        "grissom-academy-emergency-evacuation_013",
+        "grissom-academy-emergency-evacuation_018",
+        "grissom-academy-emergency-evacuation_019",
+        "jack_007",
+        "jason-prangley_001",
+        "morality-guide-mass-effect-3_022"
+      ],
+      "private_to": [],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "grissom-academy-jack-and-the-biotic-students": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#01",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy After Priority: Palaven, Samantha Traynor tells Shepard she picked an Academy evac request off Alliance comm channels answered by a turian vessel, and that she and EDI traced the answering signal to Cerberus — the rescue is a fake and the station is still under attack. Cerberus is assaulting Grissom Academy to abduct its students, most of whom build Alliance tech or train as military biotics.",
+      "url": "",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_001",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grissom Academy is under attack by Cerberus forces attempting to kidnap the students. Rescue the students and evacuate the station.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:omega-anderson-kahlee-capture-kai-leng#01",
+      "kind": "scene",
+      "page": "Anderson and Kahlee Haul Kai Leng to Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "omega-anderson-kahlee-capture-kai-leng",
+      "text": "Anderson and Kahlee Haul Kai Leng to Grissom Academy. circa 2185, after Grayson's Reaper transformation, during Mass Effect Retribution Omega's spaceport and a Cerberus shuttle; then the Jon Grissom Academy On Omega, after the Reaper-controlled Grayson fights his way clear of Aria's ambush, Kai Leng — who has been shadowing Grayson for Cerberus — offers David Anderson and Kahlee Sanders a ride off the station in exchange for help bringing Grayson down. They know he is Cerberus and attack him; he beats them, then offers again, this time claiming Grayson's condition can be reversed, knowing Kahlee is the key to finding him. They accept.",
+      "url": "",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:omega-anderson-kahlee-capture-kai-leng#05",
+      "kind": "scene",
+      "page": "Anderson and Kahlee Haul Kai Leng to Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "omega-anderson-kahlee-capture-kai-leng",
+      "text": "Anderson and Kahlee Haul Kai Leng to Grissom Academy. circa 2185, after Grayson's Reaper transformation, during Mass Effect Retribution Omega's spaceport and a Cerberus shuttle; then the Jon Grissom Academy Everyone at Grissom Academy recovers. Anderson decides to study Grayson's remains for anything usable against the Reapers and asks Kahlee to join his team; she agrees, and kisses him.",
+      "url": "",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "war-assets-alliance_009",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Kahlee Sanders",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Complete Grissom Academy: Emergency Evacuation. **Military Strength:** 15 or 20 (Depends if Jason Prangley survives Grissom Academy: Emergency Evacuation or not.) First Lieutenant Kahlee Sanders joined Grissom Academy's board of directors after she gave up her military career. When the Cerberus raid on the academy was thwarted by Commander Shepard, Sanders joined with Alliance engineers working to recreate the Prothean device found on Mars. Her past work as a systems technician, specifically studying synthetic intelligence, has helped decode some of the complex feedback systems that control the weapon's energy output. UPDATED (If all tech students were saved during the Grissom Academy: Emergency Evacuation mission) **Military Strength:** 5 Some of Grissom Academy's more technically minded students were saved from Cerberus by Commander Shepard. They've met up with Sanders, contributing their brainpower to some of the problems she's been tackling. UPDATED (If Project Overlord was discontinued) **Military Strength:** 5 David Archer is another refugee from Grissom Academy working on the device. Despite his youth, Archer's theories on interstellar cross\\-modulation have won him respect with the project's scientists.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#02",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy Too many Cerberus ships blockade the Academy for the Normandy to fight or sneak through. Kahlee Sanders calls in, reports Cerberus holds the docking bays, and opens a cargo hold. Joker flies a diversion so Shepard's shuttle can slip into the hold.",
+      "url": "",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "jon-grissom-academy_008",
+      "kind": "page",
+      "page": "Jon Grissom Academy",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2186 during the Reaper invasion, though war would close most schools, fewer than twenty teachers and students stayed at Grissom Academy to train biotics and prototype technology for the Alliance. Unfortunately, the Academy is attacked by Cerberus forces seeking to capture the students. The attack goes unnoticed because Cerberus uses a turian military signal to broadcast that the station is being evacuated by turian ships. Specialist Traynor and EDI connect the signal to a similar one known to have been used by the Illusive Man to lure Commander Shepard to a Collector Cruiser. If the Commander decides to travel there, upon arrival Jeff \"Joker\" Moreau uses the Normandy SR\\-2 to distract the Cerberus cruiser and fighters guarding the station while Shepard and the team board it. Shepard encounters Kahlee Sanders, who has barricaded herself in a security room, and goes on to rescue the station's remaining students. After the students are evacuated, Grissom Academy is abandoned. The Academy and nearby Elysium later fall to the Reapers. If Shepard decides against going to the academy, the Cerberus kidnapping operation succeeds and the victims are subverted into working for the organization, like Jack if she survived the suicide mission.",
+      "url": "https://masseffect.fandom.com/wiki/Jon_Grissom_Academy",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "vetus_005",
+      "kind": "page",
+      "page": "Vetus",
+      "section": "Grissom Academy",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*Main article: Grissom Academy* - *Mission:* Grissom Academy: Emergency Evacuation - *Mission:* Citadel: Biotic Amp Interfaces",
+      "url": "https://masseffect.fandom.com/wiki/Vetus",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "citadel-biotic-amp-interfaces_002",
+      "kind": "page",
+      "page": "Citadel: Biotic Amp Interfaces",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Priority: Palaven **Prerequisite:** Grissom Academy: Emergency Evacuation An asari standing at the Lab Services section of Huerta Memorial is trying to call Grissom Academy to ask for biotic amp interfaces that she can adapt for asari use but no one there is picking up. Overhearing her troubles activates the mission. You can also acquire the mission if you find the Biotic Amp Interfaces first while trying to rescue some students from Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Biotic_Amp_Interfaces",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "gavin-archer_003",
+      "kind": "page",
+      "page": "Gavin Archer",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2186, Dr. Archer is with a group of ex\\-Cerberus scientists on the run from their former employers. The scientists eventually come under attack from the Illusive Man's troops. If Shepard released David and placed him under Grissom Academy's care in 2185, Gavin begins to regret involving his brother with Cerberus; he refused to obey the Illusive Man's instructions to find a new subject to replace David and eventually fled after erasing all information on Project Overlord, an action that resulted in Cerberus placing a kill order on him. Despite David's release to Grissom Academy, Dr. Gavin Archer still assists in the war effort, lending his extensive expertise on artificial intelligence to improve the Crucible's efficiency. However, if Shepard released David to Grissom Academy but then does not come to the facility's aid on time after being besieged by Cerberus, David is killed in the ensuing attack. Then, if Shepard meets Dr. Gavin Archer later, Gavin pulls out a pistol, walks away, and a gunshot rings out. Even if the Grissom Academy mission was completed beforehand, Shepard can lie to Archer and claim they do not know David's fate, which also causes him to commit suicide. If Shepard allowed David to stay at Project Overlord, Gavin reveals that the data on controlling the geth from Project Overlord was in fact useful, and David eventually calmed down his emotions somewhat but one day just stopped responding to any stimuli at all. Gavin then had to pull the life support plug on David as a mercy killing. This caused Gavin to eventually defect from Cerberus since the guilt finally became too much. After the ex\\-Cerberus scientists are rescued, Dr. Gavin Archer assists in the war effort. If Shepard never dealt with Project Overlord, Gavin introduces himself for the first time and gives a brief rundown on the project. Once prompted about why he defected, he reveals that David eventually had gone out of control to the point of killing several scientists. Eventually, Cerberus used nuclear weapons on the base. Dr. Archer never joins the war effort following the events at Gellix. Should Shepard resolve the situation with the quarians and geth before heading to Arrae, and not save David at any point, revealing to Gavin that the geth are no longer a threat to organic civilizations causes him to realize that David's suffering was for nothing. He then walks off and a gunshot is heard.",
+      "url": "https://masseffect.fandom.com/wiki/Gavin_Archer",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "kahlee-sanders_006",
+      "kind": "page",
+      "page": "Kahlee Sanders",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the war with the Reapers, Kahlee sends out a communication to have her students evacuated from the Academy before it is overrun by the Reapers. Initially, a turian cruiser responds, but after Samantha Traynor aboard the Normandy SR\\-2 under Commander Shepard examines the signal, she finds that it is a fake and that it has the same false signatures that led Shepard into a Collector Ambush the previous year. Traynor says that it is in fact a Cerberus Cruiser heading for the Academy. Should Shepard choose to act on Traynor's information, upon arriving at the Academy, the Normandy finds the cruiser and a dozen fighters blockading the Academy. Kahlee contacts the Normandy and tells them that Cerberus has taken over the docking bays but she can get a cargo hatch open so Shepard's team can board to save her and her students. Joker pulls the Cruiser and fighters out of position and allows Cortez flying one of the Normandy's Kodiaks, and the squad to enter the Academy. After entering the Academy and eliminating the Cerberus troops in the hall, Shepard manages to reach the room she has taken shelter in and after forcing the door open, the Commander tells Kahlee it's safe to leave her cover. Kahlee begins working on a computer in an attempt to locate any remaining students in the Academy while filling in Shepard on their latest efforts to create a Biotic Strike Team composed of their most talented students. Throughout the remainder of the mission, she aids Shepard via comm messages with directions for how to escape the station, eventually finding a way to commandeer two Cerberus shuttles while Shepard is busy shepherding the kids. At the mission's conclusion, she thanks Shepard for the help. Kahlee also voices her opinion that the students, having proved themselves in their recent combat, may be ready to take on more than simple support roles. If Jack is the biotic instructor and Shepard assigns the students to biotic artillery strike teams on the front lines, Kahlee thinks the students are ready for such a role. Otherwise, she vehemently opposes the decision, saying that the students are not up to the task without an instructor. When Shepard mentions Anderson, Kahlee expresses a sense of deep caring and concern for the Admiral and his safety. Later, Shepard can read a message Kahlee sends to Anderson from Liara's terminal, stating that he better stay alive and stay safe, for her sake. Kahlee makes her contribution to the war effort after the Grissom Academy incident, marshaling and coordinating personnel and resources she has at her disposal. If Jack is alive, Kahlee periodically checks in with her and the kids. If Jack is alive, the Grissom survivors were relegated to support duties, and Shepard chooses to use the Crucible at the battle for Earth, Kahlee resumes her old duties at the Alliance, standing alongside Jack and their students from the academy. If Shepard does not go to Grissom Academy in time, Anderson will inform Shepard that the Academy was overrun by Cerberus. He mentions Kahlee during the conversation and presumes she was killed in the attack.",
+      "url": "https://masseffect.fandom.com/wiki/Kahlee_Sanders",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "missions_012",
+      "kind": "page",
+      "page": "Missions",
+      "section": "Galaxy at War Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "None of the following missions are required to complete the game, although they will significantly increase your military preparedness for the final battle. - Apien Crest: Banner of the First Regiment (alternatively named as Citadel: Banner of the First Regiment) - Aria: Blood Pack - Aria: Blue Suns - Aria: Eclipse - Arrae: Ex\\-Cerberus Scientists - Athena Nebula: Hesperia\\-Period Statue - Benning: Evidence (alternatively named as Benning: Dog Tags) - Citadel: Alien Medi\\-Gel Formula - Citadel: Asari Widow - Citadel: Barla Von - Citadel: Batarian Codes - Citadel: Biotic Amp Interfaces - Citadel: Cerberus Automated Turret Schematics - Citadel: Cerberus Ciphers - Citadel: Cerberus Retribution - Citadel: Cerberus Turian Poison - Citadel: Chemical Treatment - Citadel: GX12 Thermal Pipe - Citadel: Hanar Diplomat - Citadel: Heating Unit Stabilizers - Citadel: Improved Power Grid - Citadel: Inspirational Stories - Citadel: Kakliosaur Fossil - Citadel: Krogan Dying Message - Citadel: Medi\\-Gel Sabotage - Citadel: Medical Supplies - Citadel: Reaper Code Fragments - Citadel: Target Jamming Technology - Citadel: Volus Ambassador - Citadel: Wounded Batarian - Dekuuna: Code of the Ancients (alternatively named as Citadel: Code of the Ancients) - Dekuuna: Elcor Extraction - Grissom Academy: Investigation → Grissom Academy: Emergency Evacuation - Hades Nexus: Obelisk of Karza - Hades Nexus: Prothean Sphere - Irune: Book of Plenix - Ismar Frontier: Prototype Components - Kite's Nest: Pillars of Strength (alternatively named as Citadel: Pillars of Strength) - Mesana: Distress Signal → Kallini: Ardat\\-Yakshi Monastery - N7: Cerberus Abductions - N7: Cerberus Attack - N7: Cerberus Fighter Base - N7: Cerberus Lab - N7: Communication Hub - N7: Fuel Reactors - Nimbus Cluster: Library of Asha - Shrike Abyssal: Prothean Obelisk (alternatively named as Citadel: Prothean Obelisk) - Silean Nebula: Rings of Alune - Tuchanka: Bomb - Valhallan Threshold: Prothean Data Drives",
+      "url": "https://masseffect.fandom.com/wiki/Missions",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:jason-prangley",
+      "kind": "summary",
+      "page": "Jason Prangley",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ensign Jason Prangley was a biotic student at Jon Grissom Academy. He arrived at Grissom at age six, a shy child who barely spoke, and was known for constantly reading and studying battles, with some peers calling him a brownnoser. He proved capable of leadership when circumstances demanded it.\n\nDuring the 2186 Reaper invasion, Cerberus attacked Grissom Academy to forcibly conscript its gifted students. If Jack survived the Suicide Mission, Prangley was among the students she protected; he was nearly killed by Atlas fire before his teacher intervened. When Commander Shepard arrived, Jason aided the firefight, providing biotic support strikes so that he and his teacher could retreat to higher ground. Afterward Jack derided his biotic fields as \"weak,\" and he noticeably improved in later battles.\n\nIf Jack did not survive the Suicide Mission, Prangley interacted with Shepard in her place during the evacuation. Shepard found him stepping up to save Ensign Rodriguez from Atlas fire. Jason reported that their commanding officer had been killed, leaving him assuming command, and spoke on the students' behalf that they needed time to recharge after the strenuous exertion of biotics. In this scenario, Prangley later died protecting Rodriguez again from Cerberus troops just short of the hijacked escape shuttles. The survivors eulogized him aboard the shuttles, and Shepard invoked his memory to motivate the other students, either channeling their anger at his loss or holding up his sacrifice as an example to follow. Datapads left by Cerberus troops around the Academy indicate Prangley was specifically targeted as a prized acquisition.",
+      "url": "https://masseffect.fandom.com/wiki/Jason_Prangley",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:citadel-biotic-amp-interfaces",
+      "kind": "summary",
+      "page": "Citadel: Biotic Amp Interfaces",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Biotic Amp Interfaces was a Mass Effect 3 mission with prerequisites Priority: Palaven and Grissom Academy: Emergency Evacuation. An unnamed asari standing at the Lab Services section of Huerta Memorial Hospital was trying to reach Grissom Academy to request improved biotic amp interfaces she could adapt for asari use, but no one answered. Overhearing her troubles activated the mission; alternatively, finding the Biotic Amp Interfaces first during the student rescue triggered it. A second journal entry framed it as schematics recovered from Grissom Academy needing someone on the Citadel who could use them.\n\nThe interfaces were on a terminal in an otherwise empty corridor during Grissom Academy: Emergency Evacuation, past a corridor where Assault Troopers harassed Grissom students behind a shield, including Octavia and others, with David Archer present if he had been sent there. Shepard collected them and delivered them to the asari on the next hospital visit, earning 5 Reputation, 30 experience, and 1,000 credits, and updating the Citadel Defense Force War Asset. If missed, they could be bought from the Spectre Requisitions terminal in the Spectre Office at the Citadel Embassies. After completion, the asari told someone to alert Matriarch Aethyta that her huntresses had received the amp interfaces. The mission had to be completed before Priority: Tuchanka, as it was no longer available after the civilian areas reopened following Priority: The Citadel II.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Biotic_Amp_Interfaces",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:gavin-archer",
+      "kind": "summary",
+      "page": "Gavin Archer",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dr. Gavin Archer was the chief scientist of Cerberus's Project Overlord at the facility on Aite and the project's only surviving researcher. The project sought to merge a human mind with a VI to control the geth. Archer's brother David Archer, an autistic savant with a photographic memory and mathematically gifted mind who could already communicate rudimentarily with geth, volunteered as the test subject. When the Illusive Man threatened to shut Overlord down for lack of results, Gavin forcibly connected David to the VI, causing him great pain. David could not handle the merger and became \"more like a virus,\" seizing control of the facility's technology and threatening a \"technological apocalypse\" if he uploaded off-world.\n\nIn Mass Effect 2 (DLC \"Overlord\"), Gavin contacted Commander Shepard from a locked computer room, directing the Commander to stop the rogue VI by destroying the base's satellite dish and infiltrating Atlas Station via Vulcan and Prometheus Stations. When Shepard subdued David in the Atlas core, Gavin entered, initially wanting to continue the experiment (\"If my work spares a million mothers mourning the loss of a million sons, my conscience will rest easy\"), then relenting and asking to care for his brother. Shepard could send David to Grissom Academy or leave him connected; Gavin could be pistol-whipped or punched and was warned against pursuing David.\n\nIn Mass Effect 3 (2186), Gavin was among ex-Cerberus scientists fleeing the Illusive Man, who had placed a kill order on him after he erased all Project Overlord data. Outcomes varied: if David was safe at Grissom Academy, Gavin lent his AI expertise to improving the Crucible. If David was left at Overlord, Gavin eventually performed a mercy killing when David stopped responding, then defected from guilt. If David died in a Cerberus attack on Grissom Academy, or if Shepard revealed the geth were no longer a threat (making David's suffering pointless), or if Shepard lied about David's fate, Gavin drew a pistol, walked away, and shot himself. He was voiced by Simon Templeman.",
+      "url": "https://masseffect.fandom.com/wiki/Gavin_Archer",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:kahlee-sanders",
+      "kind": "summary",
+      "page": "Kahlee Sanders",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kahlee Sanders was a female human First Lieutenant of the Systems Alliance, one of its top computer and systems technicians and an expert in synthetic intelligence, with rare naturally blonde hair. Born in Earth's Texan Megapolis in 2139 to an unknown mother and Admiral Jon Grissom, she enlisted at twenty-two after her mother's death. In Mass Effect: Revelation she served on Dr. Shu Qian's AI research team at the base on Sidon, discovered Qian's obsessive study of an artifact found near geth space, and fled to Elysium with copied data after the base was destroyed. Nearly captured by the Blue Suns, she sought help from her estranged father, was attacked by the krogan battlemaster Skarr, and was saved when Saren Arterius drove Skarr off. She lied to Saren that the research was into biotics, then escaped Elysium with Lieutenant David Anderson, giving him an OSD naming Qian as the traitor. After the Dah'tan lead on Camala, she was captured by Skarr and coerced into assisting Qian until Anderson rescued her; she and Anderson were mutually attracted but did not pursue a relationship.\n\nIn Mass Effect: Ascension she joined the Ascension Project's board on the Jon Grissom Academy, growing devoted to the biotic children, especially Gillian Grayson. She exposed the Cerberus agent Jiro Toshiwa, was nearly sold to the Collectors by Pel, and was rescued by Lemm'Shal nar Tesleya, reaching the Migrant Fleet. Aboard the Idenna she defended the ship against Paul Grayson and Cerberus, appealing to Grayson's love for Gillian until he turned on Golo. In Mass Effect: Retribution she brought Grayson's Cerberus files to Anderson; they enlisted the turian ambassador Orinia, were taken hostage to Omega by Aria T'Loak's men, and were offered a ride by the Cerberus assassin Kai Leng, whom Anderson incapacitated. At Grissom Academy, Anderson and Leng killed the Reaper-mutated Grayson; Kahlee, nearly indoctrinated, afterward joined Anderson's research team and kissed him.\n\nDuring the Reaper War in 2186 Kahlee signaled for her students to be evacuated before Cerberus attacked the Academy. Samantha Traynor identified the responding signal as a Cerberus fake. If Shepard intervened, Kahlee opened a cargo hatch for the boarding team, helped locate remaining students, discussed forming a Biotic Strike Team, and commandeered Cerberus shuttles to aid the escape. She expressed deep concern for Anderson's safety. If Shepard did not reach the Academy in time, Anderson presumed her killed. She was voiced by Grey DeLisle.",
+      "url": "https://masseffect.fandom.com/wiki/Kahlee_Sanders",
+      "for_key": "Cerberus attack on Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#11",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy During the final escape the wounded Rodriguez falls behind, calling for medi-gel. Whoever is leading the biotic students smashes the glass to reach her. If Jack leads, every student gets out alive.",
+      "url": "",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "manual-jack-in-game-dialogue-and-banter_006",
+      "kind": "page",
+      "page": "Jack — In-Game Dialogue and Banter",
+      "section": "Grissom Academy and the student squad (Mass Effect 3)",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Shepard finds Jack leading a squad of biotic students at Grissom Academy during the Reaper War. She had \"some free time\" after Mass Effect 2; the Alliance brass knew she had helped Shepard and offered her the teaching post, and the students \"responded well to her teaching style.\" She calls herself \"The Psychotic Biotic.\" Her students include Rodriguez, whom she rides hard: \"I will destroy you.\" — \"You couldn't destroy wet tissue paper. Drink your juice, Rodriguez.\" Getting the students out alive, Jack promises them tattoos — \"my treat\" — an Ascension Project logo, a glowing fist, \"maybe a unicorn for Rodriguez.\" Afterward there is an argument about how the students should be deployed. Jack and the students trained for barrier work to protect frontline squads; the Alliance wants to use them as another artillery unit. Shepard say they will be deployed as supports, as per Jack's recommendation to protect them. Once the students are formally military, the crew needle her: will she wear a uniform, or \"just get the officer bars tattooed on\"? Joker jokes about a swear jar — \"I bet if we empty that thing we can afford another cruiser\" — because Jack \"promised to watch her language to maintain the necessary professionalism.\" Jack tells Shepard that the \"little shits are useless without me, so I've got to stick with them — I'm dependable now, apparently. I blame you for this.\" She credits Shepard's \"little suicide squad\" with teaching her something about teamwork.",
+      "url": "",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#06",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy Jack, alive after the Suicide Mission and now the students' Alliance biotics instructor, is the one leading them. She greets Shepard with a punch to the face.",
+      "url": "",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "jack_007",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I'm dependable now. I blame you for this, Shepard.” In 2186, provided she survived the Suicide Mission, Jack has altered her appearance, having grown out her hair into a pony tail, but retaining the shaven sides. She now sports a punky studded jacket over a white top that reveals her midriff and its numerous tattoos. She has become more mature, and states that some of Shepard's attitude rubbed off on her. Sometime after the Collectors' defeat, Jack was approached by the Systems Alliance and offered a teaching position at the Grissom Academy to train biotics for combat. She accepted and agreed to tone down her profanity to maintain the level of professionalism expected from teachers. Her students apparently responded well to her unconventional teaching style, mimicking her trash talk (\"I will destroy you!\") and sticking affectionate appellations like \"the psychotic biotic\". Jack herself grew attached to her charges in return, considering them the family she never had, and promises to exact retribution against anyone who screws with her kids. Jack is present on the station during Cerberus' attempt to kidnap gifted students for their cause, defending hers from being captured. Shepard finds Jack in the middle of shielding one of her students from incoming Atlas fire, and while Shepard's team takes care of the opposition Jack rallies to her kids on higher ground, helping project a biotic barrier and supporting biotic strikes. Jack's fist lands on Shepard's face the moment the smoke clears, the exact reason why depends on Shepard's previous actions. If a male Shepard romanced her, she hit him for leaving her, then immediately kisses him passionately afterwards. If Shepard expresses misgivings about previously working with Cerberus, Jack cites either handing over the Collector Base to them or the deaths they've caused as her reason. If Shepard merely reminds her how they saved her ass, Jack sarcastically asks if they want a medal. Whichever the case, Shepard's squadmates interject and Jack has some choice replies for some of them. After giving instructions to her students and admonishments to Jason Prangley, Jack relates to Shepard the things she's been up to over the past few months. If the conversation turns into improving the students' endurance and conditioning, Jack specifically recalls her time in the Suicide Mission either throwing husks around or being Shepard's biotic bubble specialist whenever the students complain, telling the kids she kept thinking that she should've let Mordin handle her job instead as he can \"talk \\[the Collectors] to death.\" If Mordin died, though, Jack feels bad, recalling the \"wicked sex advice\" he often gave. Once all the catch\\-up is over she stays put until Shepard paves the way for their exit route. One of her students, Ensign Rodriguez, wavers when Cerberus starts messaging the students, and Jack gives the student a dressing\\-down. Jack either gives Rodriguez her coarse affirmation of her student's abilities, or shoves the surgery scars inflicted during her Cerberus captivity into her scared student's view, angrily asserting that surrender is tantamount to being meat on a slab. The Ensign sets her head straight after this, and Jack leads the students in shadowing Shepard's team from higher ground while the squad clears out the bulk of Cerberus resistance. Privately, Jack believes her kids aren't yet ready for the realities of war, but Shepard can influence her into letting the students run loose for a while even if they're only fighting from relatively safe positions. Jack, Shepard and Kahlee Sanders eventually manage to help the students escape. Jack, in a good mood, wants to treat her kids to tattoos at the next place they dock. If a male Shepard chose to break with her earlier, Jack even mentions hanging on to the N7 tattoo on her ass she previously planned to burn off. As they make their way back to the Normandy, Jack decides to break her self\\-censoring when Joker takes note of the fact and wisecracks that if Jack had a swear jar the cash inside would've been sufficient to buy a cruiser. After the rescue from Jon Grissom Academy, Jack can be found on the Citadel in Purgatory Bar after the attempted Cerberus coup reading duty rosters for her kids even while on shore leave. Shepard can either tell her to keep at it, or convince her to lighten up a bit, which colors Jack's responses throughout the conversation. If Shepard thinks Jack fits in snugly to military life, Jack says that their little suicide squad apparently taught her something about teamwork. If the students had been sent to the front lines, Jack mentions her kids are being sent into hot spots for hit\\-and\\-runs and she's making sure the higher\\-ups won't give them something way out of their league.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#12",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy If Prangley is leading the students, he breaks the glass to save Rodriguez and is shot and killed doing it.",
+      "url": "",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "storyline-ii_017",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Mass Effect: Foundation \\#7",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Dr. Angersol frantically comms for backup when the doors to his office are demolished by sheer biotic power. Jack steps inside and executes the doctor, a figure from her Subject Zero past. The Illusive Man appears before her via hologram, attempting to reason with her, but Jack would hear none of it. At a remote Cerberus outpost elsewhere, Kai Leng hooks in Rasa for a mission. A Cerberus training facility is under attack, and the Illusive Man dispatches them both to retrieve the perpetrator, Jack: dead or alive, through whatever means necessary. Leng and Rasa arrive at the training facility a short time later, finding huge swathes of destruction in Subject Zero's wake. The presence of multiple people out to get the target makes Rasa think about Jack's possible origins and the threat she poses. Leng simply suggests they should find her before the others \\- the Blue Suns mercenaries \\- do. With the facility in lockdown, Jack makes her way to its main reactor. She comes across a bald man claiming to be a biotic trainee of the facility. The man doesn't know where the reactor is, but he takes her to his fellow students when she orders him to. The man claims to have had a better life under Cerberus tutelage, but Jack's own experiences with the organization tells her otherwise. On finding the other students she gives them a chance to learn the truth behind Cerberus by escaping with her, or stay and keep hoping that Cerberus is as benevolent as it seems to be. A good number of the students follow Jack as they try to make it out of the facility. A trio of Blue Suns mercs block their way, so Jack orders the students to sneak across while she presents herself as a diversion. Rasa and Leng arrive behind Jack when she's done bringing down the ceiling on the mercs. Brandishing his sword, Leng gives her one chance to surrender. Jack responds by unleashing a powerful biotic blast on the Cerberus operatives. She warns Rasa to stay down, but Leng is actually coming down on her from above. She senses it and biotically blasts the assassin again, this time hurling him higher up. More Blue Suns arrive at the scene and open fire on Jack, forcing her to throw up a biotic shield. She sees the students she's with securely behind Blue Suns lines. Enraged at the turn of events she starts making everything in the vicinity fly. Unfortunately, a krogan merc sneaks up from behind and docks her at the head, knocking her unconscious. The merc picks her up and hauls her away, to the Cerberus agents' consternation. The Illusive Man can still have Subject Zero, but the krogan wants triple the usual pay for all the losses he has incurred. As Leng and the students recover from the turn of events he chalks up the post\\-mortem as a \"colossal waste of time\", but Rasa begs to differ: at the very least, the Illusive Man will now know what Jack is capable of.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#08",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy If Jack is dead or was never recruited, Ensign Jason Prangley — a student who came to Grissom at six and studied battles obsessively — steps up and takes command of the biotic students instead.",
+      "url": "",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "jason-prangley_001",
+      "kind": "page",
+      "page": "Jason Prangley",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Ensign Jason Prangley** is a biotic student at Jon Grissom Academy. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | Jason came to Grissom when he was six, a shy youngster who barely spoke a word. His fellows observed him always reading and studying battles, with some even calling him a brownnoser. He proved competent enough to take on leadership roles, however, when the occasion warrants it. During the 2186 Reaper invasion of the galaxy, Cerberus attacks Grissom Academy to forcibly recruit the gifted students there into their troops. If Jack is alive, Prangley is among the students she's protecting, and he was about to be obliterated by incoming Atlas fire when his teacher steps in to intervene. Jason later aids in the firefight when Commander Shepard arrives and gives him and his teacher the opportunity to retreat to higher ground, shooting biotic support strikes against enemies in his line of sight. After the battle, Jack derides Jason's biotic fields as \"weak\", berating him that Cerberus won't lie down out of pity like a girl he once took to prom. He considerably shapes up his performance afterward in the succeeding battles. If Jack did not survive the Suicide Mission, however, Prangley interacts with Shepard in her stead when they arrive to evacuate the students. The Commander finds him stepping up to save Ensign Rodriguez from incoming Atlas fire. Jason informs Shepard that their commanding officer has been killed, which left the young man assuming he's in charge. Shepard tries getting the recruits to immediately move out, but Jason speaks on their behalf that the students need time to recharge after burning a lot of calories; biotics being a strenuous activity. If Jack died, Prangley later dies trying to protect Ensign Rodriguez again from Cerberus troops mere meters away from the escape shuttles they hijacked. The survivors eulogize him aboard the shuttles afterwards. Shepard uses Jason's memory to incite his fellow students to fight, either by using their anger at losing him to take on a more offensive role, or the fact that his act of saving lives should inspire them to follow his example. Several datapads left by enemy troops around the Academy indicate that Prangley is especially targeted as a prized acquisition for Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jason_Prangley",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_007",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Orion Hall",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "As you approach the door, Kahlee will tell you that she has just received an emergency message from the students in Orion Hall. Before entering, take out the generator to the right of the door, which will allow Kahlee to address the students over the PA. She will inform them that help is here, and will warn the students not to let Cerberus take them alive. Proceed through the second door at the end of the corridor to see the biotic students defending themselves against Assault Troopers. If a Mass Effect 2 save was imported and Jack survived the Suicide Mission, she will be with the students; otherwise, Ensign Jason Prangley will step up and take charge. An Atlas breaks into the room. The students retreat behind a biotic barrier; you must defeat the enemies before the barrier wears down. The Atlas is dangerous if you get in its line of fire, but it is slow and will not take any more interest in Shepard than in your squadmates. The Assault Troopers and Centurions in the middle of the room are fast and may drift dangerously around your flanks, though they often get distracted attacking the students. **Tip:** On higher difficulty levels, you may want to concentrate on lowering the population of troopers before taking on the Atlas, particularly because it can regenerate its shields if left alone for a time. At the beginning of the encounter, the troopers will be huddled together, so using a few Power Combos can make quick work of them. Sabotage can force the Atlas to assist you temporarily if you have it available. After the battle, Jack punches Shepard in the face. If a male Shepard had a relationship with Jack in Mass Effect 2, the punch is followed up with a kiss, and the reason given for the punch is Shepard leaving her. Otherwise, the reason given is for previously trusting Cerberus. There will be opportunities for some unique interactions between Jack and several squad members, with an interesting variation if Garrus is present and also the love interest of a female Shepard. If Jack is not present, the students say that their CO was killed, leaving Prangley in charge. In addition, without the benefit of Jack as their teacher, a student, Ensign Rodriguez, will ask you if you ever forget the first time you kill someone, giving you extra Paragon or Renegade points. The students need a few minutes to rest and recharge after their ordeal fending off Cerberus. Cortez comes over the communications channel to say that the Cerberus cruiser is returning, and it's too dangerous for him to keep the shuttle docked for more than another two minutes. Shepard orders him to get back to the Normandy, then informs Kahlee, who comes up with an alternative way out of the facility. Relative to where you first entered the room, immediately turn left and find a data log (\\+20 XP) listing Prangley as a high\\-priority capture target, and the Cerberus camera control Kahlee tasks you with finding. On the opposite side of the room is a Med Kit. In the balcony room where the students are, you will find the Assault Rifle Precision Scope at the back of the room and a datapad (\\+1875 Credits) at the front. Use the door override controls in the middle of the back wall to open the door to the Atrium. **Tip:** If this is a first playthrough it may be a good time to check if you have leveled up. Head back downstairs. You can speak to Jack for some exposition if she is present. If asked, she will express her opinion that the students are likely better off as support units rather than on the front lines. Her dialog here can vary depending on if she was the biotic specialist during the Suicide Mission, and also depending on the fate of Mordin Solus if this is after Priority: Tuchanka. Save here because you won't get to save after you open the door. When ready, proceed to the door to the Atrium, located at the end of the corridor under the balcony room. The biotics suggest that they follow a different route to the squad, attacking Cerberus from above. Respond however you like, then get treated to the Cerberus announcer telling the students that the Alliance soldiers are going to get them killed and that they should just surrender. Again, respond how you wish; Jack's response here will vary depending on your dialog choice.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "jack_003",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect: Foundation",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack assaulted a Cerberus facility and headed straight for Doctor Angersol, an administrator who was one of the people involved during her formative years as Subject Zero. She demanded her life back from the doctor, then executed him since it was impossible. The Illusive Man appeared before her via hologram, but Jack raged against him and what his facility represented before he can get anywhere. She just dared the Cerberus leader to take his best shot at stopping her. The Cerberus facility went on lockdown, and Jack set about looking for its main reactor. She came across an unarmed man and threatened him for directions, but became astonished to hear that the man was a student trainee at the facility, not a worker. Curious, she ordered the man to take her to his peers. Jack learned that the students perceive they have better lives under Cerberus care, with most of them having lost their parents from an early age. She revealed an ugly truth to her trainee companion: that's just what Cerberus told their subjects, and she found out her parents were murdered just so they can get her. The other students milled about their dormitory due to the alarms going off across the base, so when Jack and her companion reached them she gave them all a choice: discard what they knew about Cerberus and escape with her, or stay and continue to hope that Cerberus won't just discard them once they're useless. She drew upon personal experience to convince them further, that Cerberus won't ever let them go without a fight. A number of students, albeit panicked, heeded her words and followed her around the facility. Jack brushed off suggestions to head to the hangar, as she anticipated their pursuers there. She heard voices around a corner they're supposed to go in, so she ordered the students to sneak past once she diverted the hostiles' attention. A trio of bored Blue Suns mercs got biotically pelted by heavy objects Jack sent their way. She brought down the ceiling above the mercs as she ordered the students to run. A couple of Cerberus agents showed up shortly afterward intending to do her harm, and Jack mused to herself she thought she killed all of them. Jack paid no concern to their threats; she simply unleashed a wave of biotic energy to knock them backwards. She warned the woman, Rasa, to stay down, but the other one, Kai Leng, was already behind trying to hit her from above. Jack sensed the attack and sent Leng flying again, deeming the move not good enough. More Blue Suns arrived at the commotion, forcing Jack to throw up a biotic barrier when they opened fire. Her rage boiled at what she deemed dirty tactics when she saw her students behind Blue Suns lines. Jack marshaled her powers and sent everything in the vicinity flying, intending to kill everyone. The plan was stopped short, however, when a krogan merc hit her head from behind, causing her to lose consciousness. She was then hauled off to Blue Suns custody, to the consternation of the Cerberus agents sent to catch her. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "summary:jack-dialogue",
+      "kind": "summary",
+      "page": "Jack — In-Game Dialogue and Banter",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "A collection of Jack dialogue and party-banter clips spanning Mass Effect 2 and Mass Effect 3: a cut Mass Effect 2 conversation about red sand, the Mass Effect 3 scene introducing her varren Eezo, Normandy confrontations with Miranda, her time as an instructor at Grissom Academy leading a biotic student squad, a reunion with Garrus, and the Citadel DLC reconciliation with Miranda. It is useful as voice reference and for Jack's personal continuity. Representative lines:\n\n- Jack, in the cut red sand conversation, when Shepard notes she takes drugs herself: \"If I don't, I wake up screaming, with furniture slamming into the wall.\"\n- Jack, on why an asari would use red sand despite already being biotic: \"You get a great high, too.\"\n- Jack, introducing her naturally biotic varren from Thessia: \"Who's my badass biotic? Who's my badass biotic?\"\n- Jack, agreeing to hold off her fight with Miranda for the mission: \"Sure, I'll do my part. I'd hate to see her die before I get a chance to fillet her myself.\"\n- Jack, when Shepard keeps visiting to ask questions in Mass Effect 2: \"You don't need to know someone to sleep with them. You just have to know where to put it.\"\n- Jack, riding her Grissom Academy student: \"You couldn't destroy wet tissue paper. Drink your juice, Rodriguez.\"\n- Jack, on staying with her students in Mass Effect 3: \"The little shits are useless without me, so I've got to stick with them — I'm dependable now, apparently. I blame you for this.\"\n- Jack, reuniting with Garrus: \"As charming as ever. Good to see you again, Garrus.\" — Garrus: \"You still look like [expletive].\"\n- Jack, in the Citadel DLC after Miranda concedes Cerberus was wrong about her: \"Wow. Thanks. I still really hate you, but you have fantastic tits.\" — Miranda: \"All right, I can live with that.\"\n- Jack, to Shepard at the Citadel party: \"The duty rosters can wait. Right now you're on shore leave, Shepard.\" And: \"Everybody knows you can't dance.\"\n\nKelly Chambers' observation is also quoted: \"She pushes people away yet approaches sex casually… If you want her respect, think twice.\" Miranda, during the sub-deck confrontation, insists \"it wasn't Cerberus, not really\" and that Jack \"was clearly a mistake.\"",
+      "url": "",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_010",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "Grissom Academy and Mass Effect 3",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "After the Collector Base and Shepard's surrender to the Alliance, Jack is alone again — until the Alliance offers her a teaching post at Grissom Academy training biotic children (\"Teltin if it were run by good people\"). She becomes the positive figure for kids that she never had. She now wears more clothing and grows her hair out — signs of moving on. When the Alliance wants her students used as biotic artillery, she argues for a defensive, protective support role: the old Jack would have relished commanding destructive biotics; this Jack chooses to protect them. Reunited with Shepard, she says his attitude rubbed off on her, that her students and Shepard are the closest thing to family she has ever had, and grudgingly that \"maybe your little suicide squad taught me something about teamwork.\" During the Reaper War the two are separated again by duty; on shore leave at a bar, doubt briefly reverts her to her old self before Shepard again refuses to leave her. To show her love, she gives Shepard the thing most personal to her — a tattoo. Asked if she has ever tattooed anyone else: \"Nobody else mattered enough.\" She inks a smaller version of her back tattoo on Shepard's right shoulder blade, and confesses the reason: so she can identify him \"barely breathing, lying under a pile of rubble at the ass end of this war.\"",
+      "url": "",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "summary:grissom-academy-emergency-evacuation",
+      "kind": "summary",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grissom Academy: Emergency Evacuation was a Mass Effect 3 mission acquired after Priority: Palaven, when Samantha Traynor and EDI determined that a turian rescue signal answering an Academy evac request was actually a Cerberus fake and the station was still in danger. Cerberus forces were attacking Grissom Academy in the Petra Nebula to kidnap its students, most of whom were producing Alliance tech or training as military biotics. The mission had to be completed before Priority: The Citadel II or it was permanently failed.\n\nWith too many Cerberus ships to fight, Joker created a diversion so Shepard's shuttle could enter a cargo hold opened by Kahlee Sanders, who went back with Anderson to his Spectre-candidate days. Shepard freed Sanders from the security office, then fought through corridors and rooms rescuing scattered students, including Reiley Bellarmine and his dying sister Seanne. In Orion Hall, biotic students held off Assault Troopers and an Atlas; if a Mass Effect 2 save was imported and Jack survived the Suicide Mission, Jack led them and punched Shepard in the face on arrival (followed by a kiss if they had romanced). Otherwise Ensign Jason Prangley took charge. The squad then fought heavy waves of Centurions, Guardians, Combat Engineers, and Atlas mechs through two halves of the Atrium and a docking area, aided by empty Atlas mechs and by tech students including Octavia, with David Archer vouching for Shepard if Overlord was completed on the Paragon route.\n\nDuring the final escape the wounded Rodriguez fell behind; whoever led the biotics smashed the glass to save her. If Jack led, everyone survived; if Prangley led, he was shot and killed. Afterward Shepard chose to assign the students as support (rolled into the Alliance 103rd Marine Division, +50 war assets, Paragon) or as a frontline Biotic Company (+75 war assets, Renegade), a choice that also set Jack's epilogue slide. Rewards included 25,000 credits, weapon mods, the Mnemonic Visor, and the Serrice Council Chestplate. If the mission expired, Jack was captured, turned into a Phantom, and had to be killed at Cerberus Headquarters, and Gavin Archer could commit suicide during Arrae: Ex-Cerberus Scientists.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "summary:jack",
+      "kind": "summary",
+      "page": "Jack",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack, also known as Subject Zero and Jacqueline Nought (birth name Jennifer), was a notorious human criminal and possibly the most powerful human biotic alive. Born in 2161, she was abducted by Cerberus in 2165, reportedly from Eden Prime, after accidental in-utero element zero exposure gave her biotic potential; her mother was told she had died. She became the central subject of Cerberus' experiment at the Teltin facility on Pragia, which sought to maximize human biotic potential regardless of cost. Every successful enhancement was applied to her; other biotic children were used as expendable test subjects and frequently killed. She was tortured physically and psychologically, kept behind a soundproofed one-way mirror, and forced into gladiatorial fights against the other children, being shocked for hesitating and injected with narcotics for killing, conditioning her to associate killing with euphoria. The other children came to hate her as the source of their suffering.\n\nDuring a transfer, the subjects rioted, freeing Jack, who flew into a fury and killed nearly everyone in the facility before stealing a shuttle and escaping into the Dakka system. The ship that picked her up used her and sold her as a slave. The Illusive Man shut Teltin down shortly after, later claiming it had \"gone rogue.\" Jack took the name Jack, reacting violently to \"Subject Zero,\" and lived a violent life of piracy, gang membership, vandalism (crashing a space station into a hanar moon), and a stint in a cult (from which she kept her shaved head). In Mass Effect: Foundation she assaulted a Cerberus facility, killed Doctor Angersol, defied the Illusive Man, tried to free biotic student trainees, fought Kai Leng and Rasa, and was knocked out and captured by Blue Suns.\n\nJack was eventually imprisoned on the Blue Suns prison ship Purgatory, where she was assaulted and raped by guards and prisoners and then murdered every attacker; the Warden kept her in cryostasis until Shepard's team bought her freedom in 2185. Rendered a borderline psychopath but still haunted by her past, she joined Shepard in exchange for her Teltin files, then asked Shepard to help her destroy the abandoned facility with a bomb planted in her old cell (the mission Jack: Subject Zero). There the team encountered Aresh, a fellow test subject trying to restore Teltin; Shepard could stop Jack from killing him. If Miranda's loyalty mission was done, Shepard had to mediate a fight between Jack and Miranda over Cerberus' blame; siding with Miranda cost Jack's loyalty and ended any romance.\n\nJack was a romance option for a male Shepard. Casual sex ended communication; a slower approach revealed her past, including the partner Murtock who died to save her, leaving her survivor's guilt, and culminated in a tender, emotional love scene. Mordin Solus offered Shepard biotics safety advice. Rejecting her as a \"lost cause\" made her hostile.\n\nBy 2186 (if she survived the Suicide Mission), Jack had grown her hair into a ponytail with shaved sides, matured, and taken a teaching post at Grissom Academy training combat biotics, considering her students the family she never had. During Cerberus' raid to kidnap the students (Grissom Academy: Emergency Evacuation), Jack defended them alongside Shepard and Kahlee Sanders, punching Shepard on reunion for reasons depending on prior choices. She disciplined Ensign Rodriguez and Jason Prangley and led the students in support of Shepard's squad. If Shepard did not arrive in time, Jack appeared as an indoctrinated Phantom at Cronos Station and had to be killed. If romanced, she could rekindle or end the relationship at Purgatory Bar. In the final battle she could be contacted by comm; in a surviving-galaxy ending she is seen gazing at the stars, visiting her students' graves, or alive with her students, depending on choices. If killed, her name appears on the Normandy memorial wall as Jacqueline Nought. In the Citadel DLC she fights in the Armax Arena, introduces her biotic varren Eezo from Thessia, and can tattoo a romanced Shepard so his body can be identified. Jack was voiced by Courtenay Taylor and written primarily by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack leading the biotic students out"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_011",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Endgame Mayhem",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The next room has an empty Atlas and a Combat Engineer, who is standing with his back to you. Open the Med Kit on the couch on your right, and access the engineer's data log on the floor (\\+20 XP) to find out that Rodriguez is another high\\-priority target for Cerberus indoctrination. If you wish, you can climb into the Atlas and head up the stairs to the docking area. There is an SMG Magazine Upgrade on the bench to the left of the entrance you came in: **remember** to pick it up after the fighting. You can also examine the statue of Jon Grissom in the middle of the room. There will be many waves of Assault Troopers, Guardians, and Centurions, but you should be able to handle all of them from the Atlas. Just be sure to be near cover if your armor starts to get dangerously low, because you will want to evacuate. However, even on Insanity, the Atlas is pretty sturdy. There will be several waves of ground troops emerging from various points around the room. After almost all of the ground troops are down, an enemy Atlas will come through the door where you entered. When Kahlee shouts that \"the shuttles are almost ready\" you'll know the Atlas will appear soon. **Atlas Tip:** The secondary missile attack of the Atlas is mainly useful for groups of enemies who aren't in cover; its cooldown period isn't surfaced very intuitively, so just remember it is available to fire approximately every five shots from your main gun. **Tip:** By bringing the empty Atlas up and parking it right in the doorway at the top of the staircase, you can block the way of the enemy Atlas and prevent it from entering the room, allowing for an easy kill. Leaving an Atlas in the doorway also prevents the door from shutting, meaning you can retreat down the stairs if necessary. When all hostiles are down, Kahlee will call for you to head to the shuttle. Go through the door at the far right of the room from where you entered. A cutscene will play showing the students and your squad rushing for the shuttle, where it is discovered that the wounded Rodriguez has fallen behind and is being pursued by Cerberus operatives. Shepard will attempt to break through the glass separating the rooms to get to her, but whoever is in charge of the biotics squad will biotically smash the glass first. If it's Jack, everyone makes it to the shuttle. If it's Prangley, he is shot and killed. Once inside the shuttle, if Jack isn't around, Kahlee will request that Shepard rethink having the students play a military role. Otherwise, she will state that perhaps they are ready for front\\-line combat after all. Make your choice.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "scene:citadel-purgatory-jack-and-her-students#04",
+      "kind": "scene",
+      "page": "Jack at the Purgatory, Reading Duty Rosters",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-purgatory-jack-and-her-students",
+      "text": "Jack at the Purgatory, Reading Duty Rosters. 2186, after the attempted Cerberus coup the Purgatory Bar, Citadel Where she takes the job seriously, her kids saw action on Palaven — Prangley's biotics against cannibals, Rodriguez not panicking.",
+      "url": "",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "scene:citadel-wards-ambush-extraction#04",
+      "kind": "scene",
+      "page": "Out Through the Wards, No Armour, One Pistol",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-wards-ambush-extraction",
+      "text": "Out Through the Wards, No Armour, One Pistol. 2186, Citadel shore leave, minutes after the sushi bar Ryuusei's Sushi Bar down through the Citadel Wards maintenance levels to the Cision Motors skycar lot A merc lines up a Mattock on Shepard; Brooks sees it and shoves Shepard clear, taking the shot herself. The gunfire shatters the restaurant's glass floor and Shepard falls through into the lower Wards, landing hard on a platform, down to one segment of health.",
+      "url": "",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "keelah-si-yah_004",
+      "kind": "page",
+      "page": "Keelah Si'yah",
+      "section": "Medbay",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Keelah Si'yah has a lightly\\-stocked but spacious medbay with an operating area, a cargo elevator, and an adjacent iso\\-chamber. The quarians did not see the point of fully supplying the ark's medbay given their own suits, so as a result it only has two sanitary collars, some medi\\-gel, a couple of bandages, and a few vials of vitamin and calcium supplements. Technological items in the medbay include medical scanners, hypodermic injectors, laser scalpels, and an environmental control hob for regulating ambient temperature. The iso\\-chamber is segregated from the rest of the deck and the medbay by a series of disinfecting fields, accessible through the cleanlock vestibule at the end of the hall. A patient could enter from the outside without air exchange between the corridor and the rest of the clinic. It can administer powerful sedatives in case of unruly occupants. Its rear wall contains a diagnostic array that can collect bodily samples and place them into hazmat capsules, which can be passed outside through a drawer within a glass bubble interface. The medbay has thick clear glass walls, which may be tinged red in case of a quarantine.",
+      "url": "https://masseffect.fandom.com/wiki/Keelah_Si'yah",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "mail-mass-effect-datapad_018",
+      "kind": "page",
+      "page": "Mail (Mass Effect: Datapad)",
+      "section": "Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Hey, Shepard. Looks like we're getting ready for the final push. Good luck out there. - Just blew up an entire Reaper base. Brought the whole thing down. Reminded me of you. - Rodriguez just ripped a husk's head off. May be some hope for her yet. - Thanks for helping me out with shore leave. Also, you're still a crappy dancer.",
+      "url": "https://masseffect.fandom.com/wiki/Mail_(Mass_Effect:_Datapad)",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "priority-horizon_015",
+      "kind": "page",
+      "page": "Priority: Horizon",
+      "section": "Bugs",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- In the room where a banshee is trapped behind some glass, the only exit is a door that occasionally causes you harm when you try to access it. The only known fix so far is to restart the mission. To date, this bug has been confirmed for the PC, Playstation3, and Xbox 360 versions. - After the last recorded message from Miranda, you climbed up the ladder and cleared the room of reapers. The game (on PC) can crash when going through the doorway at the end of this room. This is just before getting on the \"tram\" ride. A fix for this is to set the game to windowed mode and turn off both anti aliasing and dynamic shadows. You can now walk through the doorway and turn them back on.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Horizon",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "m-22-eviscerator_007",
+      "kind": "page",
+      "page": "M-22 Eviscerator",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Single\\-player The M\\-22 Eviscerator can be found during the mission Grissom Academy: Emergency Evacuation, behind the barricade after the classroom. A second upgrade can sometimes be found in the security room unlocked by David Archer, if he was rescued in Overlord. It is also purchasable from Batarian State Arms post\\-mission if it was missed. Multiplayer Weapons are randomly rewarded through purchases of item packs. The M\\-22 Eviscerator is categorized as uncommon and requires no multiplayer expansion packs.",
+      "url": "https://masseffect.fandom.com/wiki/M-22_Eviscerator",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "space-hamster_002",
+      "kind": "page",
+      "page": "Space Hamster",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Space Hamster can be bought by Commander Shepard at Citadel Souvenirs for 9,200 credits, barring discounts. Once purchased it appears in the Captain's Cabin of the Normandy SR\\-2 beside the entrance to the bathroom opposite the Commander's personal terminal, in a glass cage consisting of a multi\\-holed box and two trays for food and water. If interacted with, the hamster will come to the glass, look at its owner, then scurry back into its box with an audible squeak. Unlike the fish in the nearby aquarium, the Space Hamster doesn't need to be fed. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Space_Hamster",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "m-96-mattock_007",
+      "kind": "page",
+      "page": "M-96 Mattock",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Single\\-player The M\\-96 Mattock can be found during the mission Grissom Academy: Emergency Evacuation, on a couch before reaching Seanne Bellarmine. A second upgrade can sometimes be found in the security room unlocked by David Archer, if he was rescued in Overlord. It is also purchasable from Kassa Fabrication post\\-mission if it was missed. Multiplayer Weapons are randomly rewarded through purchases of item packs. The M\\-96 Mattock is categorized as uncommon and requires no multiplayer expansion packs.",
+      "url": "https://masseffect.fandom.com/wiki/M-96_Mattock",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "summary:citadel-tower",
+      "kind": "summary",
+      "page": "Citadel Tower",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Citadel Tower stood at the centre of the Citadel, rising parallel to the Wards, and was the station's most distinctive monument and the seat of the Citadel Council, from which all Council decisions were made. It was reached by an elevator on the Presidium near the Relay Monument or from any Citadel Rapid Transit point. The Tower housed the Council Chambers, filled with trees and fountains, with anteroom staircases leading up to the Council's audience chamber; in Mass Effect: Revelation this area was called the Petitioner's Stage, beneath which lay a garden protected by glass. Politicians and petitioners such as Rear Admiral Kahoku gathered there, and Commander Shepard could overhear a salarian and a turian discussing rumours of Saren Arterius' involvement in Eden Prime and the volus bid for a Council seat, which the salarian rated as next to none. According to the VI Avina, the keepers frequently passed through the Tower and Council Chambers on their way elsewhere. The Tower was also used to manually open the Citadel's relay leading to dark space; when Sovereign attacked the station, it settled on the Tower and extruded cables into it. The Council Chambers were the site of the final confrontation between Shepard and Saren: pursuing him to the station's master control unit in the audience chamber, Shepard saw Saren die and fall through the glass into the garden below, after which his transformation into Sovereign's avatar collapsed the stage and the squad destroyed the creature in the garden. When Sovereign was destroyed by the Alliance and the remaining Citadel Fleet, a large piece of debris crashed into the Tower, nearly burying and crushing Shepard's team before a rescue party led by Captain Anderson found them.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Tower",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "summary:dossier-the-professor",
+      "kind": "summary",
+      "page": "Dossier: The Professor",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Dossier: The Professor\" was a Mass Effect 2 recruitment mission acquired automatically after Freedom's Progress. The dossier described Dr. Mordin Solus as a salarian biological weapons expert, formerly of the Special Tasks Group, whose technology might hold the key to countering Collector attacks, currently running a medical clinic in the slums of Omega. Completing it first unlocked the Normandy's tech lab, needed to use tech upgrades found on other missions.\n\nOn Omega, EDI warned that Mordin's district was quarantined due to a plague that affected every species except humans and vorcha. After gathering information from Aria T'Loak at Afterlife, Shepard talked or fought past the turian guard into the slums, where Blue Suns mercenaries had sealed victims in to contain the outbreak and the Blood Pack was moving into Blue Suns territory. Shepard could aid a sick batarian who blamed humans for the plague, and fought through Blue Suns and Blood Pack forces (vorcha, krogan, varren, and Pyros) to reach Mordin's clinic.\n\nMordin, talking rapidly as ever, quickly deduced Shepard's Cerberus ties and revealed he had already developed a cure but needed to distribute it through the district's air-control system, which was held by Blood Pack vorcha. When the air flow then shut down entirely, Shepard volunteered to clear Environmental Control, reactivate the ventilation fans, and disperse the cure. Mordin gave Shepard the M-6 Carnifex Hand Cannon and asked that his assistant Daniel, who had gone into vorcha territory alone, be rescued alive. After fighting through more Blood Pack forces and vorcha working with the Collectors, Shepard restored both fans and distributed the cure. Mordin, satisfied and eager for a new challenge, joined the crew and set up the Normandy's tech lab. If rescued, Daniel emailed Shepard thanking him and reporting the clinic was recovering. Rewards included the M-6 Carnifex, element zero, palladium, platinum, iridium, and Medi-Gel Capacity and Assault Rifle Damage upgrades.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Professor",
+      "for_key": "Rodriguez rescued through the glass"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#07",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy If Shepard romanced Jack, the punch is followed by a kiss.",
+      "url": "",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    },
+    {
+      "chunk_id": "war-assets-alliance_010",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Jack's survival in the Suicide Mission and completing Grissom Academy: Emergency Evacuation. **Military Strength:** 25 Jack, formerly known as Subject Zero, may be the most talented biotic of her time. After helping Shepard destroy the Collectors, she was offered a teaching position at Grissom Academy by the Alliance. Accepting the position for reasons of her own, Jack continued to hone her skills while training her students. Grissom Board of Directors member Kahlee Sanders has vouched for Jack's energetic, if unorthodox, teaching style, impressed with the inroads made with the children under the rogue biotic's care.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    },
+    {
+      "chunk_id": "jack_008",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After the rescue from Jon Grissom Academy, Jack can be found on the Citadel in Purgatory Bar after the attempted Cerberus coup reading duty rosters for her kids even while on shore leave. Shepard can either tell her to keep at it, or convince her to lighten up a bit, which colors Jack's responses throughout the conversation. If Shepard thinks Jack fits in snugly to military life, Jack says that their little suicide squad apparently taught her something about teamwork. If the students had been sent to the front lines, Jack mentions her kids are being sent into hot spots for hit\\-and\\-runs and she's making sure the higher\\-ups won't give them something way out of their league. She expresses her surprise at their ability to hold up under fire, but then Shepard believed in the students' abilities and burned away her doubts. If the students had been assigned support roles, she remarks they've been spread out across Alliance units, saving a lot of lives by providing barrier support, modding ammo and the like, and that they're handling the support duties well. If Shepard convinced Jack to take her job seriously, Jack mentions that her kids even saw action on Palaven, either on the front lines with Prangley displaying exceptional biotic aptitude against Cannibals and Rodriguez not panicking for a change, or that her kids provided barriers for a krogan squad so the latter can get close and break enemy lines. They manage to help the turians evac a thousand civilians to safety. Jack suggests fighting would be more fun with Shepard as the Commander finds bigger fights, but claims the \"little shits\" would be useless without her, and blames Shepard for the perception that she's apparently \"dependable\" now. If Jack was previously romanced, Shepard has the option to rekindle or officially end their relationship at this time. The Commander asks Jack to dance with them, regardless of whether she was romanced or not, claiming that she's on shore leave and the rosters can wait. Jack flat\\-out retorts that everyone knows Shepard can't dance, and with that they both enjoy the music. If Shepard does not help Grissom Academy in time, she will appear as an indoctrinated Phantom when Shepard raids Cerberus Headquarters. An audio log can be found where Jack is heard resisting her captors up until the end. After the squad is forced to kill her, Shepard states that she was no longer herself and that she is \"just one more thing Cerberus will answer for.\" In the final battle on Earth, Shepard can speak with the communications officer in order to call Jack. Jack indicates that she's in the fight but can't reach Shepard's location. If a male Shepard has a romance with Jack, Jack will tell Shepard that he needs to survive, because she is \"getting laid\" after the war is over. If Shepard chooses to use the Crucible, Jack can be seen gazing at the stars in the future. If Jack didn't have a relationship with Shepard by the time the Commander uses the Crucible, her fate will be determined by the path her students took. She will either be seen visiting her students' graves if they were previously sent to the front lines, or she will be seen with her kids — alive — and Kahlee Sanders mulling their next move if the students were relegated to support. If Jack did not survive Shepard's suicide mission or was killed on Cronos Station, her name will be engraved in the memorial wall on the Normandy as Jacqueline Nought, a pseudonym she used at least once in the past.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    },
+    {
+      "chunk_id": "jack_009",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Jack.* If Shepard successfully evacuated Grissom Academy, at the conclusion of Shepard's clone fiasco the Commander may choose to explore the Silversun Strip in their down time. If Shepard plays at least one match at the Armax Arsenal Arena combat simulator, Jack messages the Commander requesting a meet\\-up there. When Shepard arrives, they have a two\\-round match against Elite Cerberus Troops on the Brimstone map. Once the Atlas Mech spawns, Jack takes it down herself and thanks Shepard for the get\\-together. If Jack is romanced, she tells Shepard she's turned on during the final fight, and the two passionately make out as the Atlas explodes. Jack's ally license can be purchased if Shepard wants to fight alongside Jack in the simulator again. Afterwards, Jack sends another message informing Shepard of having more free time. Shepard can then invite Jack to the apartment. Jack brings along Eezo, a varren from Thessia that she had rescued from shelter. Because of his exposure to the element zero in the environment on Thessia, Eezo has developed biotic abilities. According to Jack, biotic abilities in varren make them short\\-tempered, leading to their abuse and abandonment. When Jack first rescued him, Eezo started out very angry and mistrustful of others, but all the love she has shown him has made him a \"big old softy\" to the point where he plays catch with Shepard. Shepard has the option of pointing out the similarities between Eezo and Jack. If Shepard does, Jack will say she doesn't know what Shepard is talking about and Shepard will quickly drop the subject. If Shepard is still in a relationship with Jack at that time, she will instead bring equipment to mark Shepard with a tattoo on his back. As Shepard comments on the design, she confesses she did this to make his body identifiable no matter what happens to him in the final battle, tearing up at the thought of losing him until he hugs her. If invited to the party, Jack is first seen by the fireplace hanging out with Vega and Cortez. If Kaidan is also invited, the conversation within the group arrives at the point where Jack gives James the nickname \"Muscles\", which Cortez will approve. If Miranda is around, Jack is later seen lounging near the poker table having a somewhat prickly conversation with Miranda. Shepard can suggest they should just kiss each other because Shepard believes that there's some sexual tension between them, saying that they're \"two powerful biotics\". They find the notion disgusting. Kasumi, if present, then decloaks, saying that she could film it. Alternately, Shepard can encourage their rivalry, with Jack making repeated references to whooping Miranda's ass. Kasumi, again if around, decloaks, claiming she doesn't follow their conversation and just assumes they are going somewhere dirty with it. If Miranda is not around, Jack is hanging out with Liara and James on the balcony at the second phase of an energetic party, watching the two argue about physical vs biotic supremacy. If the second phase of the party is quieter, then regardless of Miranda's presence or absence Jack will be at the bar with EDI and Cortez, where Jack may note that crème de menthe hits her even harder than ryncol. At the third phase of the party, Jack is seen dancing provocatively on a table in the kitchen area if the party is energetic. If Garrus isn't around to comment, Jack's response to Tali's drunken musings while dancing is that she finds the quarian adorable, and says so in her own words: \"If I were a little drunker and knew how to unzip that suit...\" If Tali wonders instead about how humans and asari can dance given the way \"their\" legs bend Jack replies that she doesn't tip over until she found company, telling the quarian to \"watch and learn\" till then. If romanced by Shepard, she tells him not to tire himself out dancing so they can have sex on the table later, making a lewd joke when Steve complains. If the party is relatively restrained at the final leg, Jack is just standing by the upper floor couches, hanging out with Joker, Cortez, and most of the other guests. The morning after the party, she will be joining Jacob's morning workout with pull\\-ups, attributing her hangover immunity to her amp. If romanced, she'll instead wake up in bed with Shepard and express desire to make love to him again.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    },
+    {
+      "chunk_id": "broker-terminal_003",
+      "kind": "page",
+      "page": "Broker Terminal",
+      "section": "Call from Kahlee Sanders to Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack: Hey Sanders. Checking on the kids? Sanders: How are they, Jack? Jack: They'll do good. This gonna be long? I kinda got crap to do. Sanders: I wanted to tell you, I persuaded some Alliance friends to part with that biotic\\-amp you and the children were testing at Grissom. You can pick it up on the Citadel. Jack: Damn! One of the L3\\-X1s? You know how much shit I could tear up with one of those installed? Kahlee: I had an idea. Look after yourself. Jack: Yeah, yeah... and hey. Thanks.",
+      "url": "https://masseffect.fandom.com/wiki/Broker_Terminal",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    },
+    {
+      "chunk_id": "interrupt-mass-effect-3_009",
+      "kind": "page",
+      "page": "Interrupt (Mass Effect 3)",
+      "section": "Other Interactions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "#### Huerta Memorial Hospital: Thane post Priority: Palaven |  | Shepard kisses Thane. This can only be done if Thane was romanced back in Mass Effect 2\\. | | --- | --- | #### Normandy: James post Priority: Mars James asks the Commander if they can \"dance and talk at the same time.\" James describes his former commanding officer, Captain Toni. |  | Shepard darts in and hits James in the face twice, bloodying his nose, to which he comments, \"Nice.\" Otherwise, Shepard blocks James' punches. | | --- | --- | James relates his last mission, which involved a choice between intel and saving his squad. He chose the intel. |  | Shepard steps backward to avoid James' punch and replies, \"Sorry. That's a tough call.\" Otherwise, James hits Shepard and bloodies their nose. Shepard says, \"Tough choice, but it was the right call.\" | | --- | --- | James asks, \"Who says I'm blaming myself?\" |  | Shepard hits James twice in the face and replies, \"I do.\" Otherwise, Shepard blocks James' punches and says, \"Just a guess.\" | | --- | --- | James suggests that his potentially suicidal actions are what is needed to win the war. |  | Shepard grabs James and flips him onto his back, then tells him that he's needed alive. Otherwise, James will punch Shepard in the abdomen. Shepard then says, \"Good to hear it\" and warns him about recklessness. | | --- | --- | #### Normandy: Garrus post Priority: Palaven |  | Shepard kisses Garrus. This can only be done if Garrus was romanced back in Mass Effect 2\\. | | --- | --- | #### Normandy: Kaidan post Priority: The Citadel II |  | Shepard tells Kaidan to think about Earth, how it looked when they left, and how it will look when they get back, guns blazing and the whole galaxy behind them. | | --- | --- | #### Normandy: Javik and Liara post Priority: Thessia After Priority: Thessia, Liara angrily confronts Javik in his room on the engineering deck. |  | When Liara flares biotically after Javik refers to her patronizingly as \"Asari\" for the umpteenth time, Shepard can interrupt her ordering \"Hey, settle down!\" If this interrupt is not used, Liara will power down on her own, saying that Javik isn't worth this, and storms out of the room. | | --- | --- | #### Normandy: Liara post Priority: Thessia Liara sulks back into her quarters, straight after the mission if Javik is absent or after the resolution of their confrontation in Javik's quarters if otherwise. Liara makes a point of asking how many asari died because she demanded their assistance. |  | Shepard replies \"none\": Liara is not responsible for any of the asari killed, reminding her how their warnings about the Reapers were ignored, and that Thessia may have fallen, but the asari have not. Her morale strengthened, Liara returns to her monitor, suggesting she can help the refugees.If the interrupt isn't taken, two dialogue choices appear instead. | | --- | --- | #### Citadel Embassies: Khalisah al\\-Jilani After leaving Commander Bailey's office, speak to Khalisah, who is standing near the Avina Terminal. She proceeds to berate Commander Shepard for leaving Earth. |  | The Commander states, \"I've had enough of your tabloid journalism,\" and takes a jab at Khalisah. | | --- | --- | Khalisah will dodge the Commander's first punch and get into a fighting stance, saying, \"Ha! You want some?\". If she was previously punched, then her dialogue changes to \"Not this time, you military thug!\" |  | Khalisah's attack is countered with a headbutt, and she herself ends up on the ground. The Commander will then state: \"You're angry, I get that. But I came here to get help for Earth. Not answer your questions. Stay down!\" Otherwise Khalisah will land her punch, knocking the Commander down, and say, \"On second thought, never mind. I don't have any more questions for you.\" | | --- | --- | If the first Renegade interrupt is ignored, Shepard will say, \"I came to get help for Earth. For everyone.\" Khalisah will continue pressing the Commander, asking what they plan to do. |  | The Commander reassures Khalisah by saying, \"Khalisah. We're doing everything we can. I'm going to stop the Reapers or die trying, but I need your help. Keep asking the hard questions. Don't let the Council forget about Earth.\" | | --- | --- | If all interrupts are ignored, Shepard will say, \"The same thing I've been doing for the past three years: Find a way to stop the Reapers. Get some help Khalisah, I've got work to do,\" then walk away. #### Purgatory: Lower Bar: James Vega",
+      "url": "https://masseffect.fandom.com/wiki/Interrupt_(Mass_Effect_3)",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    },
+    {
+      "chunk_id": "interrupt-mass-effect-3_007",
+      "kind": "page",
+      "page": "Interrupt (Mass Effect 3)",
+      "section": "Galaxy at War Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "#### Grissom Academy: Emergency Evacuation *Main article: Grissom Academy: Emergency Evacuation* |  | Shepard and Jack passionately kiss on the shuttle at the end of the mission. This is only available if Shepard previously romanced Jack. | | --- | --- | #### Citadel: Hanar Diplomat *Main article: Citadel: Hanar Diplomat* After Zymandis uploads the virus to Kahje's defense system Jondum Bau starts his omni\\-tool in an attempt to stop the virus. The man guarding the door then chokes Bau. If Kasumi Goto is not present, Shepard will need to make a decision between saving Bau or the hanar homeworld. |  | Shepard will turn to save Bau. Otherwise, Shepard will stop the upload. | | --- | --- | #### Kallini: Ardat\\-Yakshi Monastery *Main article: Kallini: Ardat\\-Yakshi Monastery* After rescuing Falere, Samara will attempt suicide as the Justicar Code cannot permit an Ardat\\-Yakshi to live outside a monastery that no longer exists, yet she cannot bring herself to lose her remaining daughter. |  | Shepard will restrain Samara, convincing her she cannot throw her life away, and Falere states she will remain in the monastery.Otherwise, Samara will kill herself, and Shepard will have the option of sparing or executing Falere. | | --- | --- | If Samara killed herself or is not present. |  | Shepard shoots and kills Falere. | | --- | --- | #### Citadel: Dr. Bryson's Lab *Main article: Citadel: Dr. Bryson's Lab* Derek Hadley shoots and kills Dr. Bryson, then turns the gun toward Shepard. |  | Shepard throws a datapad to disarm Hadley before he can shoot, then tackles him. Otherwise, Hadley shoots and misses, then Shepard throws him to the ground and punches him. | | --- | --- | After C\\-Sec arrives, Shepard begins interrogating Hadley. |  | Shepard grabs him by the arm to force him to look at Bryson's body and says something that differs based on the previous conversation choice. Otherwise, Shepard points at Bryson's body and says something that differs based on the previous conversation choice. | | --- | --- | #### Citadel: Leviathan III *Main article: Citadel: Leviathan III* Dr. Ann Bryson volunteers herself in order to track down Leviathan's signal. Once Leviathan has gained control of Bryson's body she begins to struggle while James tries to restrain her. When EDI reports that they have a partial lock, James wants to raise the containment shield to protect Bryson. |  | Shepard orders, \"Belay that, Lieutenant.\" Otherwise Shepard allows James to raise the shield. | | --- | --- | If Shepard ordered James to stay the course, then EDI is able to further refine the origin of the signal. James will again want to raise the containment shield for Bryson's sake. |  | Shepard yells, \"Back off!\" at James and attempts to interrogate Leviathan through Bryson. Otherwise, Shepard allows him to raise the shield. | | --- | --- | #### Omega: Aria T'Loak *Main article: Omega: Aria T'Loak (Mass Effect 3\\)* After deactivating Omega's defenses, allowing for Aria's fleet to move in, Shepard notices a surveillance camera spying on them. |  | Shepard shoots the camera. Otherwise, Shepard will warn Aria, who will shoot the camera herself. | | --- | --- | After reaching the reactor that powers the force fields on Omega, General Oleg Petrovsky informs Shepard that deactivating it will also cut off life support to several wards. Aria doesn't care and wants Shepard to shut the reactor down now. Nyreen argues that Shepard should reroute power instead. |  | An interrupt will appear three times, offering the choice to sacrifice many civilians on the station.Otherwise, Shepard will take up Nyreen's advice to reroute power from the force fields. | | --- | --- | |  | If Shepard is an Engineer, an interrupt will allow them to reroute power quickly instead of waiting for the three Renegade interrupts to pass. | | --- | --- | After the force fields are shut down, Aria will start to criticize Nyreen for her fear of facing the Adjutants. |  | Shepard tells Aria to lay off and that Nyreen just saved her. Aria retorts that she's trying to help Nyreen. Otherwise, Aria continues mouthing off. Shepard replies with a neutral answer before telling the team to move out. | | --- | --- | After retaking Omega, if Shepard has performed mostly Paragon actions throughout the mission, then Aria will choose to hand Petrovsky over to Shepard. Petrovsky attempts to strike a deal with Shepard and offers to aid the Alliance in exchange for amnesty. |  | Shepard points their gun at Petrovsky and says that maybe Aria was right about Petrovsky. Otherwise, Shepard orders Aria's henchman Bray to escort Petrovsky off the station. | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Interrupt_(Mass_Effect_3)",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    },
+    {
+      "chunk_id": "manual-jack-in-game-dialogue-and-banter_008",
+      "kind": "page",
+      "page": "Jack — In-Game Dialogue and Banter",
+      "section": "Mass Effect 3: Citadel DLC — reconciliation with Miranda",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "At the Citadel bar, Shepard can steer Jack and Miranda through a long round of insults that ends in a grudging peace. Miranda is still weak from fighting Kai Leng; Jack has been \"fighting [expletive] and marauders on the front lines of this war.\" Shepard suggests, deadpan, that \"it might help if you two just kissed and got it over with — this is all just sexual tension, right?\" (\"You are a terrible human being, Shepard. I need another drink.\") Eventually Miranda concedes: \"I hate to say it, but Cerberus was wrong about you. You're still violent and maladjusted, but the Illusive Man never would have predicted you'd bond with the Grissom Academy kids. You are growing despite everything Cerberus did to you. I find that extremely admirable.\" Jack: \"Wow. Thanks. I still really hate you, but you have fantastic tits.\" Miranda: \"All right, I can live with that.\"",
+      "url": "",
+      "for_key": "Jack punches then kisses Shepard at Grissom"
+    }
+  ],
+  "codex": [],
+  "conflicts": [],
+  "warnings": []
+}

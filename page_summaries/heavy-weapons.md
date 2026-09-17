@@ -1,0 +1,13 @@
+---
+title: Heavy Weapons
+url: https://masseffect.fandom.com/wiki/Heavy_Weapons
+game: Mass Effect 3
+type: tech
+characters: []
+---
+
+Heavy Weapons were a weapon class designed for destruction beyond conventional means, typically damaging through all types of protection but suffering high power consumption that made their use situational but devastating. They were available to all player classes in Mass Effect 2 and Mass Effect 3.
+
+In Mass Effect 2 heavy weapons used power cells found on missions rather than universal thermal clips; expended ammunition could only be regained by finding more cells, and the weapons fired continuously without reloading. They had high damage potential, often hitting areas or multiple enemies, and several could hit targets behind cover. The M-920 Cain and M-490 Blackstorm could damage enemies directly through intervening terrain. Heavy weapons received no damage upgrades, only power cell capacity increases (Microfusion Array, +15% per rank), and gained no benefit from powers, ammo powers, or armor, except the Collector Particle Beam and M-451 Firestorm, which benefited from Adrenaline Rush and Tactical Cloak and were subject to range scaling. The M-100 Grenade Launcher, ML-77 Missile Launcher, and M-920 Cain could cause friendly fire. All heavy weapons had longer switch animations that slowed Shepard. The ML-77 Missile Launcher, M-622 Avalanche, and M-920 Cain were researched in the Normandy SR-2's tech lab; others came from missions or DLC. Models included the ML-77 Missile Launcher (Armax Arsenal), M-100 Grenade Launcher (Elanus Risk Control Services), M-451 Firestorm (Systems Alliance), M-490 Blackstorm (Wegner Arms), M-622 Avalanche, M-920 Cain (base damage 10,000), Arc Projector (Cerberus), and Collector Particle Beam. In Legendary Edition the Arc Projector was available by default and the Blackstorm was purchasable at Harrot's Emporium on Omega.
+
+In Mass Effect 3 heavy weapons could no longer be equipped at the armory; they were picked up on the battlefield and discarded once ammo was spent, though they remained extremely powerful. In single-player, switching weapons dropped the heavy weapon, which could be retrieved later if it still had ammo; in multiplayer it was returned to the player's back. Models included the Cobra Missile Launcher, Geth Combat Software, Geth Spitfire, M-451 Firestorm, M-560 Hydra, M-597 Ladon, M-920 Cain, Reaper Blackstar, and quarian Sync Laser. Mass Effect: Infiltrator added the exclusive M-333 Particle Beam, a Cerberus experimental radiation weapon based on reverse-engineered Collector technology, strong against shields and barriers but weak against armor. In Mass Effect Galaxy, Jacob Taylor had an upgradeable rocket launcher heavy weapon attack.

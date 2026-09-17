@@ -1,0 +1,1089 @@
+{
+  "section": {
+    "id": "songs-for-the-flotilla",
+    "title": "Songs for the Flotilla",
+    "target_words": 760,
+    "form": "bedtalk",
+    "narrator": "tali"
+  },
+  "promises": [
+    "The night they watched Fleet and Flotilla and she sang along. A turian and a quarian with one night before duty separates them, and she laughs at herself for how close that sits tonight",
+    "The old lullaby about a child and their suit and reaching Rannoch, half-sung or described while he drifts",
+    "Quarian ancestors lived on as imprint VIs until the geth destroyed the databanks. What remembering the dead is for, set against the poetry and philosophy Shepard reads to get through the war"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "citadel-tali-fleet-and-flotilla",
+      "title": "Fleet and Flotilla, With Sing-Along Mode On",
+      "kind": "hangout",
+      "game": "Mass Effect 3",
+      "when": "2186, Citadel shore leave, after the sushi-bar ambush",
+      "where": "Shepard's personal apartment, the Wards",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah vas Normandy"
+      ],
+      "private_to": [
+        "Shepard",
+        "Tali'Zorah vas Normandy"
+      ],
+      "heard_by": [],
+      "requires": [
+        {
+          "rannoch": "resolved"
+        },
+        {
+          "citadel_dlc": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Tali writes that next time they are on the Citadel she would love to come by — no rush, but it is nice that Shepard has a place there to call home. Shepard invites her up.\n",
+          "source_chunks": [
+            "personal-apartment_012",
+            "tali-zorah-nar-rayya_012"
+          ]
+        },
+        {
+          "text": "Asked what the plan for the evening is, she answers with a line from the vid Fleet and Flotilla — \"I'm as free as the dust in the solar wind\" — assumes Shepard has seen it, and is genuinely shocked to learn otherwise. That settles the evening.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_012"
+          ]
+        },
+        {
+          "text": "They watch it. She explains she and her friends watched it at every sleepover when they were young, and finds the sing-along mode, and sings along: \"Let the moon's shining light hide two lovers with its rays / Though I know that dawn will set us on course for separate ways / I will hold this night in memory for all my living days / Now unmasked, I feel your skin on mine.\"\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_012"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "romance": "Tali"
+          },
+          "choice": "romanced Tali",
+          "text": "She adds that they had memorised the whole musical. On screen the quarian asks her lover to see her face and the turian answers that he already has; Tali says that works for her, and Shepard removes her mask.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_012"
+          ]
+        },
+        {
+          "condition": {
+            "romance": "other"
+          },
+          "choice": "not romancing Tali",
+          "text": "She just gets nostalgic, and promises to send extranet links and captioned animations afterwards.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_012"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-party-apartment",
+        "citadel-wards-ambush-extraction"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "tali-zorah-nar-rayya_012",
+        "personal-apartment_012"
+      ]
+    }
+  ],
+  "attendance": {
+    "citadel-tali-fleet-and-flotilla": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:citadel-tali-fleet-and-flotilla#02",
+      "kind": "scene",
+      "page": "Fleet and Flotilla, With Sing-Along Mode On",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-tali-fleet-and-flotilla",
+      "text": "Fleet and Flotilla, With Sing-Along Mode On. 2186, Citadel shore leave, after the sushi-bar ambush Shepard's personal apartment, the Wards Asked what the plan for the evening is, she answers with a line from the vid Fleet and Flotilla — \"I'm as free as the dust in the solar wind\" — assumes Shepard has seen it, and is genuinely shocked to learn otherwise. That settles the evening.",
+      "url": "",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "shadow-broker-dossiers-tali-zorah-vas-normandy_002",
+      "kind": "page",
+      "page": "Shadow Broker Dossiers/Tali'Zorah vas Normandy",
+      "section": "Suit Process Log",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Suit Process Log: \\- Upgraded interface GUI for relic technology (Fee authorization: Project Haestrom) \\- Upgraded suit diagnostics for radiation detection (Fee authorization: Project Haestrom) \\- Upgraded omni\\-tool for enhanced data integrity (Fee authorization: Project Haestrom) \\- Upgraded translator software for all human languages \\- Installed suit application, NutriScan 2\\.2 \\- Installed suit application, EngineMaster 3\\.6: Human Vessels \\- Installed suit application, Nerve\\-Stim Pro \\- Downloaded entertainment vid, \"Exiles: Portraits of the Lost Quarians\" \\- Installed prototype defense suite, ShieldJack 0\\.8 (Authorization: Adm. Han'Gerrel vas Neema) \\- Upgraded medical scanning and quarantine suite \\- Ran process, Infection Treatment (Isolated) \\- Downloaded education vid, \"Dealing with Loss\" \\- Uninstalled suit application, Nerve\\-Stim Pro \\- Reinstalled suit application, Nerve\\-Stim Pro \\- Downloaded education vid, \"Understanding Body Language: Human Edition\" \\- Downloaded entertainment vid, \"Fleet and Flotilla\" \\- Uninstalled suit application, Nerve\\-Stim Pro \\- Downloaded education vid, \"Human Courtship and Mating\" \\- Installed suit application, Immunoboost: Professional Edition \\- Reinstalled suit application, Nerve\\-Stim Pro: Deluxe Edition",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Dossiers/Tali'Zorah_vas_Normandy",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "entertainment_008",
+      "kind": "page",
+      "page": "Entertainment",
+      "section": "*Fleet and Flotilla*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Fleet and Flotilla is an award\\-winning entertainment vid noted for its positive portrayal of turian\\-quarian relationships. One memorable moment in the film involves the turian Bellicus and the quarian Shalei meeting on a balcony affirming their love for each other, culminating in the quarian taking off her mask and the actress getting an infection for three weeks after filming the scene. The movie spawned at least one \"relationship simulator\", a soundtrack, extranet sites with \"captioned animations\", and even a musical adaptation. Home video versions have the capability of activating 'sing\\-along mode'. Fleet and Flotilla holds some appeal among turians and quarians. In 2185, A turian in Eternity asks his potential quarian date to see this movie with him. In 2186, Shepard and Tali watch it during their shore leave in the Commander's personal apartment upon prompting from the latter. Over 600 years later, Bellicus and Shalei are noted as good models for krogan courting behavior in the Andromeda galaxy. There also seems to be scenes in the movie where Turian Havoc Troopers fight against waves of enemies, according to one such soldier fighting on battlefields across the Heleus Cluster. #### Quotes - \"But Shalei. We can never be together. I have my duty, and you, have your people.\" \\- Bellicus - \"Not tonight. Tonight, I'm as free as the dust in the solar wind.\" \\- Shalei - \"I want you to see behind this mask. I want you to see who I truly am.\" \\- Shalei - \"I already have.\" \\- Bellicus",
+      "url": "https://masseffect.fandom.com/wiki/Entertainment",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "alliance-navy_008",
+      "kind": "page",
+      "page": "Alliance Navy",
+      "section": "Fifth Fleet",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Fifth Fleet is also known as the Arcturus Fleet, as it is based at Arcturus Station. Admiral Hackett is the current commanding officer, and frequently gives Commander Shepard missions for the Alliance. Subsequent to the Battle of the Citadel, the Fifth Fleet is awarded the Palladium Star by the Citadel Council for their involvement in that pivotal battle. During the Reaper invasion in 2186, the Fifth Fleet helps defend Arcturus Station. When the Reapers begin to overwhelm Alliance forces, Admiral Hackett sacrifices the Second Fleet to allow the Third and Fifth Fleets to escape. #### 63rd Scout Flotilla The 63rd Scout Flotilla forms part of the Fifth Fleet under the command of Rear Admiral Mikhailovich. The Normandy was originally going to be assigned to this flotilla, until she was given to Commander Shepard to hunt Saren Arterius. If the Citadel Council is not rescued during the Battle of the Citadel in 2183, the 63rd suffers the fewest losses of any Alliance flotillas while providing critical support for the Fifth Fleet's carriers and dreadnoughts. Mikhailovich is promoted to Admiral after the battle and tasked with rebuilding and upgrading his ships.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "scene:citadel-tali-fleet-and-flotilla#05",
+      "kind": "scene",
+      "page": "Fleet and Flotilla, With Sing-Along Mode On",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-tali-fleet-and-flotilla",
+      "text": "Fleet and Flotilla, With Sing-Along Mode On. 2186, Citadel shore leave, after the sushi-bar ambush Shepard's personal apartment, the Wards She just gets nostalgic, and promises to send extranet links and captioned animations afterwards.",
+      "url": "",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "boris-mikhailovich_003",
+      "kind": "page",
+      "page": "Boris Mikhailovich",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the Battle of the Citadel, Mikhailovich led the 63rd Scout Flotilla against Sovereign. The 63rd suffered the fewest losses of any Alliance flotilla and provided critical support to the Fifth Fleet. Mikhailovich was promoted from Rear Admiral to Admiral after the battle and tasked with rebuilding and upgrading his ships. Admiral Boris Mikhailovich aids in the war against the Reapers, but only if the Council was not saved during the battle.",
+      "url": "https://masseffect.fandom.com/wiki/Boris_Mikhailovich",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "codex-aliens-non-council-races_011",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Council Races",
+      "section": "Quarians",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: Quarians | | --- | --- | Driven from their home system by the geth nearly three centuries ago, most quarians now live aboard the Migrant Fleet, a flotilla of fifty thousand vessels ranging in size from passenger shuttles to mobile space stations. Home to 17 million quarians, the flotilla understandably has scarce resources. Because of this, each quarian must go on a rite of passage known as the Pilgrimage when they come of age. They leave the fleet and only return once they have found something of value they can bring back to their people. Other species tend to look down on the quarians for creating the geth and for the negative impact their fleet has when it enters a system. This has led to many myths and rumors about the quarians, including the belief that underneath their clothes and breathing masks, they are actually cybernetic creatures: a combination of organic and synthetic parts.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Council_Races",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "pilgrimage_002",
+      "kind": "page",
+      "page": "Pilgrimage",
+      "section": "Preparation",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Quarians are surgically fitted with their various immunity\\-boosted implants in preparation for leaving on Pilgrimage. Having grown within the sterile, controlled environments of the Migrant Fleet ships, quarians have virtually no natural immune system. They also receive lessons on how to survive outside the Flotilla, and gifts to help them on their way, including weapons and armor for protection. Despite this, some quarians leave on their Pilgrimage and never return, either from running afoul of dangers, or because they have chosen a different life after experiencing the greater galaxy beyond the Flotilla. But most quarians return safely with their gift, to rejoin the Migrant Fleet as an adult and a valued member of society. For safety's sake, a captain will give a departing quarian two code phrases to communicate upon returning to the Fleet. One is a phrase denoting a successful mission, allowing the returnee to rejoin the Fleet safely. The other is an alert phrase, signalling the quarian has returned under duress, and will result in the returning quarian's ship being immediately destroyed by the quarian navy.",
+      "url": "https://masseffect.fandom.com/wiki/Pilgrimage",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "migrant-fleet_003",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*Prior to the mission Priority: Rannoch:* A flotilla of 50,000 craft holding over 17 million quarians, the Migrant Fleet is the largest array of spacefaring vessels in the known galaxy. It is a testament to the quarians' strategic skill that these numbers have not dropped significantly during recent battles. The fleet is now on the far side of the star from Rannoch, the better to cloak its movement from the geth. *After the mission Priority: Rannoch, if the quarians survive:* Although the Migrant Fleet has suffered losses, it stands ready to assist the rest of the galaxy. The Civilian Fleet, which forms the majority of the flotilla, will remain near Rannoch with a token force of the Patrol Fleet for protection. The remainder of the Patrol Fleet will accompany the Heavy Fleet and its logistics train once they have completed repairs.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-1-mass-effect-1_005",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 1) — Mass Effect 1",
+      "section": "Quarian culture as background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The quarians are in constant danger of sickness and must balance population against food and ship capacity, and have been at war with the geth for 300 years, so every quarian is expected to support the Fleet. Their rite of passage into adulthood is the Pilgrimage: a young quarian must bring back something of value to the Fleet — because although the flotilla grows its own food and processes its own fuel, some raw materials (e.g. for hull patches) simply cannot be made aboard.",
+      "url": "",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "scene:citadel-tali-fleet-and-flotilla#04",
+      "kind": "scene",
+      "page": "Fleet and Flotilla, With Sing-Along Mode On",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-tali-fleet-and-flotilla",
+      "text": "Fleet and Flotilla, With Sing-Along Mode On. 2186, Citadel shore leave, after the sushi-bar ambush Shepard's personal apartment, the Wards She adds that they had memorised the whole musical. On screen the quarian asks her lover to see her face and the turian answers that he already has; Tali says that works for her, and Shepard removes her mask.",
+      "url": "",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "summary:boris-mikhailovich",
+      "kind": "summary",
+      "page": "Boris Mikhailovich",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Rear Admiral Boris Mikhailovich was a Systems Alliance admiral in the Fifth Fleet who commanded the 63rd Scout Flotilla. In Mass Effect he met Commander Shepard at the Alliance docking bay when the Normandy returned to the Citadel and announced a surprise inspection of the ship; if Ashley Williams or Kaidan Alenko was in the squad, that squadmate saluted him on sight. After the inspection he expressed anger that the Normandy had been placed under Shepard's command rather than assigned to his flotilla. He considered the frigate overdesigned and too expensive, costing as much as a heavy cruiser, and dismissed the value of its stealth system, saying warships were meant to find and destroy the enemy, not count how often enemy garrisons went to the bathroom. He also criticised the cost of the drive core, the ship's turian design innovations, and its multi-species crew. Shepard could respond diplomatically or aggressively, influencing how positive his report to the Joint Military Council would be, or use Spectre authority to refuse him access entirely. If convinced of the Normandy's usefulness, he said his report would be less negative than he had planned and wished the Commander luck.\n\nDuring the Battle of the Citadel, Mikhailovich led the 63rd Scout Flotilla against Sovereign. The 63rd suffered the fewest losses of any Alliance flotilla and provided critical support to the Fifth Fleet. He was promoted from Rear Admiral to Admiral after the battle and tasked with rebuilding and upgrading his ships. In Mass Effect 3, Admiral Boris Mikhailovich aided the war against the Reapers, but only if the Council had not been saved during the Battle of the Citadel. An Alliance News Network report mentioned an Alliance admiral named Peter Mikhailovich, though it was not known whether the two were related.",
+      "url": "https://masseffect.fandom.com/wiki/Boris_Mikhailovich",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "scene:idenna-cerberus-assault-grayson-kills-golo#06",
+      "kind": "scene",
+      "page": "The Cerberus Assault on the Idenna",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "idenna-cerberus-assault-grayson-kills-golo",
+      "text": "The Cerberus Assault on the Idenna. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — the isolation shuttle, Seeto'Hodda nar Idenna's quarters, and a corridor Kahlee convinced Grayson that Cerberus had been poisoning Gillian and worsening her condition rather than making her humanity's saviour. He agreed to leave her on the Flotilla, out of Cerberus's reach, with Hendel, who had bonded with her. The Idenna's captain chose both Hendel and Gillian to accompany him on the search for a new quarian homeworld.",
+      "url": "",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "summary:war-assets-alliance",
+      "kind": "summary",
+      "page": "War Assets/Alliance",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list covered the Systems Alliance, humanity's military and economic reach, with its navy led by Admiral Steven Hackett. Naval assets included the First Fleet (90, halved retreating from Sol under Admiral Ines Lindholm), the Third Fleet (90, under Admiral Nitesh Singh at Arcturus), the Fifth Fleet (90, famed from the Battle of the Citadel, saved by the sacrifice of the Second Fleet), and the Sixth Fleet (90, from Priority: Horizon). Saving the Council in Mass Effect reduced the First, Third and Fifth Fleets by 25 each. Admiral Boris Mikhailovich (25), promoted after leading the 63rd Scout Flotilla against Sovereign, was available only if the Council was not saved. Other ships included the Alliance Cruiser Shanghai (40, evacuated Uqbar), the Naval Exploration Flotilla (75), Spec Ops Team Delta (35), and the Normandy SR-2 itself (50), upgradable via imported Mass Effect 2 purchases (Thanix Cannon +15, Silaris armor +25, Cyclonic Barriers +25) and Citadel DLC (+35 each for repairs and crew morale).\n\nGround and engineering assets included the Alliance Engineering Corps (130, reduced to -100 if the rachni breeder was spared and the rachni betrayed them), the 103rd Marine Division (100, reduced by -50 if the Arrival DLC was not played), the Krogan-supported Arcturus First Division (60), Rogue Fighter Pilots (20, via Steve Cortez), Communications Arrays (50, via technician Grace Sato), the N7 Special Ops Team (75 per multiplayer class promotion), and the Biotic Company or support unit from Grissom Academy depending on whether Shepard sent the students to war.\n\nIndividual assets included Dr. Karin Chakwas (10), Kahlee Sanders (15-20), David Archer (5), Jack (25), Ashley Williams (25) or Kaidan Alenko (25) if they survived Virmire and Priority: The Citadel II, reporters Diana Allers (5) and Khalisah bint Sinan al-Jilani (5, if never punched), Shiala's Zhu's Hope militia (30), Kasumi Goto (25), Zaeed Massani (25), Dr. Ann Bryson (20) and Eden Prime supply lines. Mineral Resources (10-100) and numerous Prothean-artifact scan assets fed the Crucible.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "summary:alliance-navy",
+      "kind": "summary",
+      "page": "Alliance Navy",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Alliance Navy was the space combat branch of the Systems Alliance military, with the Alliance Marines a specialized ground branch within it. Charged with protecting human colonies, stations, and mass relays, it concentrated its strength in fleets stationed at relay nexuses so it could respond quickly to attacks. It held over 200 vessels and several dreadnoughts at the time of the First Contact War in 2157, and by the Reaper War in 2186 it fielded nine dreadnoughts across at least eight fleets, each subdivided into flotillas of a cruiser and four to six frigates. Fighter carriers, dreadnought-sized ships armed mainly with fighters, were a human innovation. Its size and skill drew Citadel Council interest and helped make humanity a candidate Council species. After the Battle of the Citadel in 2183, Admiral Steven Hackett was made head of the Navy.\n\nThe First Fleet, largest in the Navy and based at Arcturus Station, guarded the Charon Relay; during the Reaper invasion it was cut in half, and Admiral Ines Lindholm sacrificed a tenth of the survivors to let the rest escape. The Second Fleet, under Admiral Kastanie Drescher, liberated Shanxi in 2157 and was later sacrificed by Hackett to let the Third and Fifth Fleets flee Arcturus. The Third Fleet was led by Admiral Nitesh Singh aboard the SSV Logan. The Fourth Fleet, stationed at Earth, was wiped out. The Fifth (Arcturus) Fleet, Hackett's command, frequently tasked Commander Shepard with missions and received the Palladium Star after the Battle of the Citadel; its 63rd Scout Flotilla under Rear Admiral Mikhailovich was to have received the Normandy. The Sixth and Seventh Fleets, near Terra Nova and Eden Prime, were bypassed entirely by the Reapers; the Sixth later rallied after Shepard's visit to Horizon. The Eighth Fleet was ambushed near Ontarom.\n\nShip naming conventions assigned dreadnoughts mountain names, cruisers city names, frigates battle names, and carriers names of great human figures; warships carried the \"SSV\" prefix. Dreadnought classes in service were the Everest and Kilimanjaro. The 2nd Frontier Division garrisoned Eden Prime and was nearly destroyed by Saren Arterius's geth attack in 2183. During the Fall of Earth the Navy suffered its worst defeat, losing Arcturus Station and 45,000 people. The Alliance Naval Exploration Flotilla, damaged by a 2185 mining-fraud scandal, later aided Crucible construction on Tyr.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "summary:war-assets-turian",
+      "kind": "summary",
+      "page": "War Assets/Turian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list collected the Turian Hierarchy's fleets and soldiers, needed to fight the largest war in galactic history. The 79th Flotilla (40), distinguished at Digeris during the Krogan Rebellions, relied on speed and stealth to harass enemy ships. The Sixth Fleet (135), the largest concentration of dreadnoughts of any known species and normally a Citadel peacekeeping fleet, was unlocked by Priority: The Citadel II; choosing the Volus Bombing Fleet over saving the colony in Citadel: Volus Ambassador cost it 10. The Seventh Fleet (90) was assigned to guard the Crucible during its construction and deployment; recovering the Banner of the First Regiment added 40, and shipping dextro medi-gel added 5.\n\nGround assets included the 43rd Marine Division (90), founded during Palaven's Unification Wars and experienced in joint operations with allied militaries; the Turian Engineering Corps (110), which had repaired Sovereign's damage to the Citadel in record time and viewed the Crucible as a career challenge; and Turian Blackwatch (75), an elite special-operations force pulled from Palaven by Primarch Adrien Victus, with rumors that Saren Arterius had served in it before becoming a Spectre. The Turian Spec Ops Team (40) under Guard Captain Vidinos had hunted separatist leaders during the War on Taetrus, where separatists rammed an FTL ship into the capital. The Leviathan DLC added Dextro Rations (10) from the agribusinesses of Triginta Petra, favored by turian and quarian troops and useful for restoring squad morale.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Turian",
+      "for_key": "Fleet and Flotilla vid"
+    },
+    {
+      "chunk_id": "summary:my-suit-and-me",
+      "kind": "summary",
+      "page": "My Suit and Me",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "\"My Suit and Me\" was an old quarian lullaby. Tech Specialist Oliver Barthes was hired to install a recording of the song in the quarian cryopods of the ark Keelah Si'yah, to be played once a century during the roughly 600-year journey to the Andromeda galaxy. The lyrics dwell on a quarian child's bond with their environment suit, love of family, ship and homeworld, and the dream of one day reaching Rannoch, ending \"My self and my suit / My suit and I.\"\n\nIn Mass Effect: Annihilation, the song was a pretext to plant a computer worm in the Keelah Si'yah's systems. Shortly after installing it, Oliver was murdered on the walkways of Hephaestus Station by a figure who sang part of the lullaby. Centuries later, during the Fortinbras Plague crisis worsened by the malfunctioning worm, drell detective Anax Therion, who had witnessed the killing, recognized the singing voice as that of the ark's captain, Qetsi'Olam vas Keelah Si'yah. After explaining herself to Anax and her former lover Senna'Nir, Qetsi tried to atone by walking without her suit through all six of the ship's environments to spread the Fortinbras cure, singing the lullaby until she died in the volus section.",
+      "url": "https://masseffect.fandom.com/wiki/My_Suit_and_Me",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "my-suit-and-me_001",
+      "kind": "page",
+      "page": "My Suit and Me",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**My Suit and Me** is an old quarian lullaby. Tech Specialist Oliver Barthes has been hired to install a recording of this song into ark Keelah Si'yah's quarian cryopods to be played once a century until they arrive in the Andromeda galaxy some 600 years later.",
+      "url": "https://masseffect.fandom.com/wiki/My_Suit_and_Me",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "storyline-iv_016",
+      "kind": "page",
+      "page": "Storyline IV",
+      "section": "Mass Effect Andromeda: Annihilation",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Oliver Barthes has been contracted to install the lullaby My Suit and Me into the Andromeda Initiative starship Keelah Si'yah's systems. An anonymous patron paid him a lot of credits to put the lullaby there, and one of Oliver's friends also got a lot of money to install usharet\\-scented canisters in all of the drell pods. After doing what's asked of him, Oliver is murdered on the streets of Hephaestus Station by an unknown assailant, sometime before the ark embarks on its 600\\-year voyage to the Andromeda galaxy in 2186\\.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_IV",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "my-suit-and-me_002",
+      "kind": "page",
+      "page": "My Suit and Me",
+      "section": "Lyrics",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“Sing me to sleep on the starry sea And I’ll dream through the night of my suit and me I won’t fear the heat of a desert breeze Or contaminants high in the jungle trees Even in space I shall never freeze Because I’ve got my suit and my suit’s got me Oh, I love my mother who holds me tight And I love my father taught me right Oh, I love my ship sailing strong through the night And I love the homeworld for which we fight But what do I love like a lock loves a key? What holds fast my heart, head, shoulders and knees? I love my suit and my suit loves me. When I grow up I shall have a house in the sun On my true homeworld where the wild rivers run I’ll plant flowers in soil where now there are none And there’ll be plenty of room for everyone But till I see Rannoch with my very own eyes And kiss the sweet ground where my ancestors lie We’ll sleep safe as engines as forward we fly My self and my suit My suit and I.”* |  | ***“By the homeworld I hope to find one day.”*** — Spoilers for **Mass Effect Andromeda: Annihilation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/My_Suit_and_Me",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "keelah-si-yah_010",
+      "kind": "page",
+      "page": "Keelah Si'yah",
+      "section": "Pre\\-voyage",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Stuffing multiple species inside a spacious but confined boat proves to be a difficult affair. The Radial's floral decoration caused a heated debate between the crew prior to departure, later labeled the \"Battle of the Flower Arrangement\" by Commander Senna'Nir. Detractors called it a waste of time since only the Sleepwalker teams would enjoy them. The practical Captain Qetsi'Olam deemed it silly and sentimental and the priest Kholai denounced it in keeping with its nihilistic religious beliefs. Half the crew objected to not having the topiary for cultural reasons, and soon enough some brawls erupted over the matter. Threnno and Osyat Raxios voiced passionate opposition against the naysayers while Irit Non saw the endeavor as symbolic of the races' cooperation. Borbala Ferank only saw the objection as an attack against the batarian contribution to the project. The quarians initially weren't able to contribute since Rannoch was occupied by geth, but Senna'Nir eventually presented the bouquet's designer Irit Non with six stalks of keleven from his birth ship to compensate, an act deemed as the first cross\\-species decision the Keelah Si'yah crew made. Most subsequent decisions would prove to be just as contentious. During the Keelah Si'yah's construction at Hephaestus Station, Tech Specialist Oliver Barthes and one of his dinner buddies were anonymously hired to discreetly install some items into the ship: the quarian lullaby My Suit and Me, and usharet\\-scented canisters near drell pods. At the conclusion of his job, Oliver is shot dead in the walkways of the station.",
+      "url": "https://masseffect.fandom.com/wiki/Keelah_Si'yah",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "Two parental figures",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- **Auntie Shala'Raan** — Admiral Shala'Raan vas Tonbay, a friend of Tali's father and a blood relative (her sister was Tali's mother). Tali treats her as family and hugs her warmly. Raan is willing to sacrifice her own power and call in favors to help family: \"Do you know how many favors I had to call in… I wore holes in my suit to get you that opportunity.\" She represents the *family* side of quarian society. - **Rael'Zorah** — Tali's father, a high-ranking figure who became distant by burying himself in his work; per Raan, he showed his love by working to give Tali \"a home world.\" He confuses duty to the Fleet with love for his daughter — \"the good of the people comes first; my father taught me that.\" He represents the *duty* side. Between them, Tali is torn between an ingrained sense of duty to the Fleet and a capacity to think as a loving individual.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "han-olar_003",
+      "kind": "page",
+      "page": "Han Olar",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "If Shepard met Han on Noveria in 2183, he sends Shepard a message, entitled \"Therapy\": From: Olar, Han Shepard, They say you're alive. That you cheated death. That sending you this isn't just a pointless exercise as part of my therapy. They say a lot of things. I'm still alive. She still isn't. I hear you killed Benezia. Nicely done. Another woman I helped kill, if my information did any good. They want me to thank you. The rachni would have killed us all had you not shown up. It would have been right. Why me and not her? Why did you show up then and not before? They think that they can fix me. But maybe you're not really back. Maybe I died. Maybe I didn't close that door in time. Maybe I held it open to give her a chance, and the rachni ripped my suit open, and I died of exposure there on Peak 15\\. Maybe I'm a martyr, and this is an ugly hallucination before a glorious afterlife. But if I'm not, then thank you. \\-Han Olar",
+      "url": "https://masseffect.fandom.com/wiki/Han_Olar",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "kadara-slums_005",
+      "kind": "page",
+      "page": "Kadara Slums",
+      "section": "Datapads",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Sanjiv Clement: Last Words** Delaney Roos, the exile, took me from the Nexus against my will. When I wouldn't cooperate, she and her friends beat me and left me here to die. I have no way to contact anyone. I hope my mates on Nexus make it. Damn the exiles. Sanjiv Clement",
+      "url": "https://masseffect.fandom.com/wiki/Kadara_Slums",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_002",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "Appearance and name",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "In ME1 Tali's suit is squared-away black and deep purple; in ME2 she has a gold neck piece and a looser hood — \"letting her hair down,\" older and more confident after two years, and quietly showing individuality (she is one of the few quarians who personalizes her suit). Her name has changed from Tali'Zorah nar Rayya (the \"nar\" marks a quarian who has not completed the Pilgrimage) to Tali'Zorah vas Neema, reflecting completion of her Pilgrimage. She has moved up in quarian society and, at 25, commands her own squad of quarian marines — showing the leadership maturity she gained serving with Shepard.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "summary:hilo-jaa-vas-idenna",
+      "kind": "summary",
+      "page": "Hilo'Jaa vas Idenna",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Hilo'Jaa vas Idenna was the quarian pilot of the Cyniad, a scout ship of the Migrant Fleet cruiser Idenna, in 2183. He piloted the Cyniad to a rendezvous with the quarian criminal Golo on the planet Shelba, but the meeting was an ambush orchestrated by the human Cerberus agent Pel. Hilo's crew was killed and he was captured, intended to provide the access codes Cerberus needed to reach the Migrant Fleet.\n\nGolo, out of spite, cracked Hilo's faceplate after Hilo addressed him as \"Golo vas Nedas\" and called him a traitor. With his environmental suit compromised, Hilo contracted several severe alien diseases and fell into a fever, complicating Pel's interrogation on Omega and leading Pel to resort to brutal torture. When Pel received a better offer from the Collectors, Hilo was abandoned and left for dead in Pel's warehouse. Another Cerberus agent, Paul Grayson, found him delirious and repeating the Cyniad's pass phrase. After giving Grayson the Idenna's frequency, 43223, and the pass phrase \"My body travels to distant stars, but my soul never leaves the fleet,\" Hilo'Jaa vas Idenna died of his sickness and injuries.",
+      "url": "https://masseffect.fandom.com/wiki/Hilo'Jaa_vas_Idenna",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-02",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This hand-corrected transcript was the second part of a character analysis of Tali'Zorah, covering Mass Effect 2, with part 3 covering her treason trial and fatal flaw. Much of the content is the essayist's interpretation.\n\nIn Mass Effect 1 Tali's suit was squared-away black and deep purple; in Mass Effect 2 she wore a gold neck piece and a looser hood, presented as \"letting her hair down,\" older and more confident after two years, and one of the few quarians to personalize her suit. Her name had changed from Tali'Zorah nar Rayya, where \"nar\" marks a quarian who has not completed the Pilgrimage, to Tali'Zorah vas Neema, reflecting its completion. At 25 she commanded her own squad of quarian marines, showing leadership maturity gained serving with Shepard.\n\nOn Haestrom, where Shepard recruited her for the Suicide Mission, her whole squad was willing to die for her, including Kal'Reegar (\"We don't have enough people on our side for you to take one for the team. Stand down.\"). She questioned whether the losses were worth the research the Admiralty Board demanded: \"A lot of people died here. Some of them were my friends. All of them were good at their jobs. That damn data better be worth it.\" Lair of the Shadow Broker surveillance showed her repeatedly drafting and failing to finish letters to the families of the men who died protecting her. Tali was well-liked by the entire Normandy crew across all three games; Engineer Adams's dialogue established her as exceptionally intelligent and skilled with technology. In Mass Effect 3, if Tali died for the geth, Garrus was the only person to show a hint of anger toward Shepard: \"her choice, that'll be harder to get over. She was a good friend.\"\n\nThe essay drew an extended comparison with Ashley Williams: both came from career-military families whose history shaped their careers (Ashley's grandfather surrendered to aliens at Shanxi; Tali's father was tried posthumously for treason), both overcame xenophobic hang-ups aboard the Normandy, both lost people under their command and were prone to self-sacrifice to preserve another's honor, and both enjoyed \"sappy\" poetry, musicals and literature (Ashley recites Tennyson's Ulysses; Tali loves the musical Fleet and Flotilla). If Shepard romanced Ashley in Mass Effect 1 and Tali afterward, Ashley uniquely approved: \"Tali's like a sister.\"\n\nThe piece identified two parental figures. Admiral Shala'Raan vas Tonbay, \"Auntie Raan,\" was a friend of Tali's father and a blood relative whose sister was Tali's mother; Tali treated her as family, and Raan called in favors to help (\"Do you know how many favors I had to call in… I wore holes in my suit to get you that opportunity.\"), representing the family side of quarian society. Rael'Zorah, Tali's father, was a high-ranking figure who became distant by burying himself in work and confused duty to the Fleet with love for his daughter, showing his love, per Raan, by working to give Tali \"a home world\"; he represented the duty side. Between them, Tali was torn between ingrained duty to the Fleet and a capacity to think as a loving individual.\n\nFinally, the essay covered suit culture: quarians live in their suits even among family, a simple rupture can kill, and linking suit environments is the most intimate act two quarians can perform, making both parties badly and potentially fatally ill as the culture's ultimate gesture of trust. When Raan took the infant Tali and sealed her in a sterile bubble, Raan and Tali's mother first linked their suit environments to share a clean room for the birth, which made both of them sick for a week. Children do not wear suits until adolescence, and receiving a first suit is a coming-of-age.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-romance-suit-trust#02",
+      "kind": "scene",
+      "page": "Tali, the Suit, and the Mask Before Omega 4",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-romance-suit-trust",
+      "text": "Tali, the Suit, and the Mask Before Omega 4. 2185, aboard the Normandy SR-2 — after Tali's treason trial, and the night before the Omega 4 relay the Normandy's engineering deck, then Shepard's cabin After the treason trial Shepard finds Tali on the engineering deck running a small fever from a sloppy suit repair. She explains that linking suit environments is the quarians' deepest and most sacred gesture of trust, dangerous enough to make both parties ill, and lets slip that Shepard is the only person she has ever trusted that far. She stammers, blames the blush on the fever, then admits she has had feelings for Shepard since the fight against Saren but never believed a non-quarian could see who she was under the mask. Shepard tells her the feeling is mutual.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-05",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "The fifth and final part of a hand-corrected video-essay character analysis traced the Shepard romance and drew conclusions from Tali's arc. In Mass Effect 1 Tali developed a crush she believed she could never act on, since they were too different and she was not yet a full adult by quarian standards; Shepard's kindness without caveats or kickbacks, unlike most of her family, charmed her. After the treason trial in Mass Effect 2, Shepard found her mildly ill from a sloppy suit repair; she explained that linking suit environments is quarians' deepest gesture of trust and admitted she trusted only Shepard that much. Feeling she was now his equal, she raised the relationship herself. Before the Omega 4 relay she removed her mask despite the health risk; per Kasumi she could not stop talking about Shepard afterward. Tali: \"I'm running a fever, I've got a nasty cough... and it was totally worth it.\"\n\nIn Mass Effect 3 the roles reversed and Tali steadied Shepard after Thessia and the Cerberus base: \"When I feel that way, I reach for you.\" Her drunken toast to Miranda (\"She never gave in to him, never changed herself to please him\") revealed she saw herself in Miranda fighting her father: \"When do we get to stop reacting to our parents and start living for ourselves?\" This scene originated the \"emergency induction port\" straw joke. If Rannoch was won and Tali romanced, she left with Shepard, gave him a photo of her unmasked face, and drank with \"my human boyfriend — my father would have hated you.\" Her last words at the London beam run called Shepard her home. The essay explained \"home\" carries enormous weight for a quarian, exiled 300 years; \"Keelah se'lai\" roughly means \"by the homeworld I hope to see one day,\" and calling someone your home means more than \"I love you.\"\n\nThe essayist reasoned Tali would never choose Refuse, found Control (endless synthetic rebellions) and Synthesis less fitting, and concluded that factoring in Shepard's influence she would pick Destroy. The closing lessons: get involved in things bigger than yourself but be ready to bail; inspire change; never forget the people who helped you and repay them from kindness, not obligation; remember your parents' lessons but notice when they fail to practice them; be ready to sacrifice yourself, but within reason; and place duty to a cause below the individuals within it.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "scene:shelba-golo-ambush-cyniad-scout-team#04",
+      "kind": "scene",
+      "page": "The Ambush on Shelba",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "shelba-golo-ambush-cyniad-scout-team",
+      "text": "The Ambush on Shelba. 2183, during the events of Mass Effect: Ascension the planet Shelba, at Golo's meeting site Golo and Pel's team took the Cyniad's pilot, Hilo'Jaa vas Idenna, the only quarian captured alive. When Hilo cursed Golo by his discarded names, Golo smashed the faceplate of Hilo's environment suit.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "scene:idenna-cerberus-assault-grayson-kills-golo#01",
+      "kind": "scene",
+      "page": "The Cerberus Assault on the Idenna",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "idenna-cerberus-assault-grayson-kills-golo",
+      "text": "The Cerberus Assault on the Idenna. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — the isolation shuttle, Seeto'Hodda nar Idenna's quarters, and a corridor Lemm'Shal nar Tesleya had brought Kahlee Sanders, Hendel Mitra and Gillian Grayson aboard the Idenna after rescuing them from Pel's warehouse on Omega. The three were kept isolated on a shuttle while the quarians debated what to do with them. Gillian, autistic and averse to being touched, took to the confinement and to the quarian environment suit she was asked to wear; Hendel used the time to drill her biotics one-on-one, sharpening her control.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "scene:omega-pel-warehouse-lemm-rescue#05",
+      "kind": "scene",
+      "page": "Lemm Hits Pel's Warehouse",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "omega-pel-warehouse-lemm-rescue",
+      "text": "Lemm Hits Pel's Warehouse. 2183, during Mass Effect: Ascension, after Golo sent Lemm to Pel's warehouse Pel's warehouse on Omega, then a stolen shuttle to the Migrant Fleet Hoping to introduce Kahlee to the Idenna's captain and earn a place on the crew, Lemm let the three humans hide from Cerberus on the Migrant Fleet and flew them there in a stolen shuttle, using his code phrase — \"the quest for knowledge sent me away from my people; now the discovery of wisdom has brought me back\" — for safe passage aboard the Idenna. With the humans quarantined on their shuttle, Captain Ysin'Mal vas Idenna admitted Lemm to his crew and renamed him Lemm'Shal vas Idenna.",
+      "url": "",
+      "for_key": "My Suit and Me quarian lullaby"
+    },
+    {
+      "chunk_id": "quarian_008",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Religion",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarians used to practice a form of ancestor worship. This involved taking a personality imprint from the individual and developing it into an interface similar to a VI. The quarians began experimenting with making these imprints more and more sophisticated, hopefully leading to the wisdom of their ancestors being preserved in an imprint that could be truly intelligent. However, the geth destroyed the quarians' ancestor databanks when they rebelled. Some quarians saw their subsequent exile as punishment for their hubris, but most accept that the geth rebellion was a mistake, not a punishment. However, respect for their ancestors is still prevalent in quarian society. Admiral Shala'Raan vas Tonbay opens an Admiralty Board proceeding offering thanks to their ancestors, who saved them from the geth by founding the Migrant Fleet. Tali sometimes exclaims \"Keelah!\" when shocked, which is a shortening of a phrase used by many quarians, \"Keelah se'lai\", that Tali translates as, \"By the home world I hope to see someday.\" The expression is often used as a benediction or religious oath.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "summary:virtual-intelligence",
+      "kind": "summary",
+      "page": "Virtual Intelligence",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A Virtual Intelligence (VI) was a sophisticated program designed to make computer systems easier to use. VIs were distinct from artificial intelligences such as the geth: they only assisted users and processed data, and although they appeared intelligent, they were not self-aware, merely the product of clever programming. This greatly reduced, though did not eliminate, the risk of a VI exceeding its intended function or rebelling against its creators. Some VIs carried \"personality imprints,\" basing their behavior, speech, and appearance on specific individuals, though it was illegal to model a VI on a living person. The quarians had been attempting to make their \"ancestor VIs\" truly intelligent to achieve a kind of virtual immortality when the geth rebellion halted most synthetic-intelligence research.\n\nVIs varied widely by deployment. They handled extranet search queries, served as tour guides like the Citadel VI Avina, and managed lab and database work like Mira on Noveria. Humans and elcor both used VIs extensively in military operations to process status reports and react faster than organics, with elcor VIs instantly selecting among millions of pre-designed combat gambits. Many armor upgrades used VI enhancements to optimize combat performance or dispense medi-gel, and the L4 biotic implant used VI technology to monitor the user's brain waves and adapt in real time.\n\nA VI that deviated from its programming due to software errors or malicious tampering was called a \"rogue VI.\" Such a VI was not self-aware; going rogue was akin to a software malfunction that caused the VI to fail its function or interpret its duties dangerously. Notable incidents included a Systems Alliance VI at a Luna training facility that went rogue after scientists tried to convert it into a controllable AI and triggered the facility's weapons; the VI on Jarrahe Station that engaged a lockdown killing all scientists aboard; and a Cerberus project on Aite where an experimental hybrid VI became a virus that seized a research facility and its living geth test subjects, killing nearly all personnel present.\n\nNotable VIs listed included Avina (Citadel and Nexus information), the ExoGeni VI on Feros, the geth-created Geth VI studying the Reapers, the rogue Alliance VI Hannibal on Luna, the Shadow Broker's Info Drone \"Glyph,\" the Andromeda ark VI \"K\" (Keelah Si'yah), the last surviving Ancestor VI Liat'Nir, Mira at Peak 15 on Noveria, the Cerberus Overlord VI on Aite, the Shepard VI, the Prothean VI Vendetta on Thessia, the Prothean VI Victory on Eden Prime, and the Prothean VI Vigil on Ilos.",
+      "url": "https://masseffect.fandom.com/wiki/Virtual_Intelligence",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "summary:quarian",
+      "kind": "summary",
+      "page": "Quarian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarians were a nomadic humanoid species renowned for skill with technology and synthetic intelligence. After their homeworld Rannoch was conquered, they lived aboard the Migrant Fleet, a vast collection of salvaged and secondhand ships traveling as one. Roughly three hundred years before 2183 (around the late 1850s CE) the quarians created the geth as VI-grade labor, but as they modified the geth toward more complex tasks the machines became sentient. When a geth unit asked its overseer whether it had a soul, the panicked quarian government ordered all geth terminated. The geth defended themselves; billions of quarians died and the survivors were driven into exile. The Citadel Council refused aid and stripped the quarians of their embassy, while a treaty forbade attacking the geth.\n\nQuarians are shorter and slighter than humans, with three-fingered hands, backward-bowed lower legs, UV-capable vision, and red blood. Their defining trait is a weak immune system, worsened by generations in sterile environments, forcing them to live permanently in sealed enviro-suits with extensive cybernetic augmentation. Removing a suit requires antibiotics and immuno-boosters and still carries risk; the most intimate act between quarians is linking suit environments, which reliably causes illness. Like turians they are a dextro-protein species, and their diet is largely vegan.\n\nQuarian culture centered on the survival of the Migrant Fleet, home to roughly 17 million. Couples were limited to one child to hold zero population growth. Young quarians undertook a Pilgrimage to bring something of value back to the Fleet before joining a new ship (never their birth ship) as adults. Names carried four parts: given name, clan name, \"nar\" (child of, birth ship) or \"vas\" (crew of, adult ship), and vessel name; Tali'Zorah went from nar Rayya to vas Neema to vas Normandy. The common language was Khelish, source of terms like bosh'tet and the benediction \"Keelah se'lai\" (\"By the homeworld I hope to see someday\"). Quarians once practiced ancestor worship using personality-imprint VIs until the geth destroyed the ancestor databanks. Their economy used no currency; unneeded items were left in communal areas, while food and medicine were centrally rationed. The Fleet was governed under nominal martial law by the Admiralty Board and elected Conclave. The clandestine Nedas Movement (\"Mered'vai Rannoch,\" forget Rannoch) rejected reclaiming the homeworld and later signed on with the Andromeda Initiative.\n\nBefore the Reaper invasion the Admiralty Board voted to retake Rannoch, arming the Civilian Fleet and striking geth systems, destroying a geth Dyson sphere. The geth accepted Reaper upgrades, turning the war against the quarians until, with Shepard's help on Rannoch, a Reaper Destroyer was killed and the upgrade signal cut. Depending on Shepard's choices the geth were destroyed and Rannoch reclaimed, the quarians were wiped out, or the two races made peace and coexisted. A separate quarian effort sent the ark Keelah Si'yah, carrying about 4,000 quarians and other races, toward Andromeda, where the Fortinbras Plague broke out in transit.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "codex-technology_025",
+      "kind": "page",
+      "page": "Codex/Technology",
+      "section": "Computers: Virtual Intelligence (VI)",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A virtual intelligence is an advanced form of user interface software. VIs use a variety of methods to simulate natural conversation, including an audio interface and an avatar personality to interact with. Although a VI can provide a convincing emulation of sentience, they are not self\\-aware, nor can they learn or take independent action. VIs are used as operating systems on commercial and home computers. Minimal VI 'agents' are also available. Agents are compact and specialized. Some serve as personal secretaries, filtering calls and scheduling meetings based on user\\-defined priorities. Others are advanced search engines, propagating themselves across the extranet to collate user\\-requested data. Commercial VIs in a variety of stock personalities are available at any software retailer. Boutique firms and hobbyists also build unique VIs to personal specification. Although software emulation of living personalities is illegal, reconstructions of famous historical figures are common.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Technology",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "codex-technology_004",
+      "kind": "page",
+      "page": "Codex/Technology",
+      "section": "Computers: Virtual Intelligence (VI)",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: Virtual Intelligence | | --- | --- | A virtual intelligence is an advanced form of user interface software. VIs use a variety of methods to simulate natural conversation, including an audio interface and an avatar personality to interact with. Although a VI can provide a convincing emulation of sentience, they are not self\\-aware, nor can they learn or take independent action. VIs are used as operating systems on commercial and home computers. Menial VI \"agents\" are also available. Agents are compact and specialized. Some serve as personal secretaries, filtering calls and scheduling meetings based on user\\-defined priorities. Others are advanced search engines, propagating themselves across the extranet to collate user\\-requested data. Commercial VIs in a variety of stock personalities are available at any software retailer. Boutique firms and hobbyists also build unique VIs to personal specification. Although software emulation of living personalities is illegal, reconstructions of famous historical figures are common.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Technology",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "codex-aliens-non-council-races_041",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Council Races",
+      "section": "Quarians: Religion",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The ancient quarians practiced ancestor worship. Even after abandoning faith for secularism, quarians continued to revere the wisdom of elders. As time passed and technology advanced, they inevitably turned their knowledge to preserving the personalities and memories of the elderly as computer virtual intelligences. These recordings became a repository of knowledge and wisdom, stored in a central databank and available through any extranet connection. They held no illusions that this was like a form of immortality; like all virtual intelligences, their electronically\\-preserved ancestors were not truly sapient. This was considered a surmountable problem; sapience could surely be reduced to simple mathematics. The quarians began exhaustive research into creating artificial intelligence so they could learn to escape the bounds of mortality and give their ancestral records true awareness. Unfortunately, the life the quarians created did not accept the same truths they did. The geth destroyed the ancestor databanks when they took over. In the centuries since they evacuated their homeworld, most quarians have returned to religion in various forms. Many believe the rise of the geth and the destruction of their 'ancestors' were chastisement for arrogantly forsaking the old ways and venerating self\\-made idols. Others have a more philosophical outlook, believing their race was indeed arrogant, but no supernatural agency lay behind the geth revolt. Rather, the quarians' actions wrought their own doom. Either way, every quarian would agree that their own hubris cost them their homeworld.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Council_Races",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "virtual-intelligence_001",
+      "kind": "page",
+      "page": "Virtual Intelligence",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A **Virtual Intelligence** (VI) is a sophisticated program designed to make modern computer systems easier to use. They are not to be confused with artificial intelligences like the geth, as VIs are only utilised to assist the user and process data. Though they appear to be intelligent, they aren't actually self\\-aware, just made with clever programming. This greatly reduces the risk of a VI exceeding the bounds of its intended function or rebelling against the control of its creators and users, though it doesn't eliminate it. Some VIs have 'personality imprints', with their behaviour parameters, speech pattern and appearance based on specific individuals, although it is illegal to make VIs based on currently living people. The quarians were even attempting to make their 'ancestor VIs' (virtual intelligences preserving the wisdom and personality of their ancestors) truly intelligent, to create a kind of virtual immortality, when the geth rebellion put an end to most of their research into synthetic intelligence.",
+      "url": "https://masseffect.fandom.com/wiki/Virtual_Intelligence",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "senna-nir-vas-keelah-si-yah_004",
+      "kind": "page",
+      "page": "Senna'Nir vas Keelah Si'yah",
+      "section": "Mass Effect Andromeda: Annihilation",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "An exasperated Senna fields off K's artificial stupidity and Irit's rabid racism by pointing out Jalosk is also sick with the same thing that killed Yorrik's autopsies, diminishing the possibility he's a saboteur. Yorrik advises Senna to quarantine the batarian in the nearby iso\\-chamber while Jalosk pleads with him to let him be. Anax biotically throws Jalosk into the chamber, and when Qetsi arrives shortly afterward Senna reaches out to her in relief. Borbala then tells the group they have another problem, prompting Senna to ask what could be worse than being awake almost 24 hours without sustenance, almost 600 infectious corpses, and useless computers: the ark's outer shields intermittently flickering and the inner shields being hit by space debris. Alone in his quarters, Senna orders K to analyze his suit for damage, altering the VI's conversational protocols to one of his own making via the command passkey alpha\\-vermillion\\-9\\-4\\-4\\-0\\-pallu. K responds to Senna in a slightly more lifelike manner afterward, even as the Commander nervously doublechecks to ensure he's infection\\-proof. The software breakdowns soon reach his corner of the ship as evidenced in K's behavior, but Senna pays it little heed while he tells Liat all about it and the rest of the other problems. Qetsi knocks outside then overrides the lock on Senna's quarters, forcing the commander to quickly hide the ancestor VI. His ex\\-girlfriend briefly lets down her guard in his presence before reverting to professional distance and inquiring for good news. Senna has nothing yet, but then he noticed the casualty count on his HUD hasn't risen in over 2 hours. Before either of them could react to this, K informs them there seems to be a lot more people in the cargo hold other than Anax and Irit. Senna tries reaching his teammates through comms, only to realize the comms have also been disabled while K claims otherwise. Senna and Qetsi take the trams but they end up stuck inside one, forcing Senna to hotwire a public address system in a mainframe access panel in the transport tunnel and allow Qetsi to address the growing numbers of awakened people. Liat informs Senna she temporarily patched the tram, advising him to take it so he can reach Anax and Irit. He opts to return to his quarters instead and begins working on increasing Liat's processing power. When one child collapses in her mother's arms in the quarian zone outside Senna's quarters, he refuses to believe suits can be compromised. He forces himself to focus on the macro level and fixing the ship as he feels he would drown if he paid attention to the recent death. Noticing Anax and Borbala around, who've just finished investigating Jalosk's fellow teammate Malak'Rafa vas Keelah Si'yah, Senna tasks them to retrieve as many VIs as they can, especially those unconnected to the ship. Anax suggests waking the Pathfinders, but the commander insists their homeworld\\-finding mission is too important even for the present emergency, and he has ensured their pods would be the last ones affected by any malfunctions. Borbala tells him it's going to be difficult getting anything from the cargo hold now that it's full of people, but Senna assures her he can fix things if they do what he asks. Returning to Liat, Senna learns what the ancestor VI has come up with. The software problems can be traced to a computer worm programmed to incubate the biological virus while also covering its tracks. Asking Liat how to purge the worm, she tells him she will have to be uploaded into the ark itself, at the expense of whatever personality she has left. Senna loathes the idea, but there is no other choice. Using the VIs scavenged by Anax and Borbala, Senna constructs a technological agglomeration spanning the majority of his floor, intending to boost his grandmother's processing power before unleashing her against the worm. He decides to tell Qetsi about his plan, but when the time comes the captain's anti\\-synthetic stance proves too intractable. Qetsi attempts to destroy the ancestor VI, but Senna commands Liat to initiate her upload before the captain can do anything, silently muttering a prayer to his ancestor for things to go well. Soon enough comms are restored and Yorrik informs them Qetsi is part a cure he's making since she's immune to the so\\-called Fortinbras Plague. In the medbay Senna is devasted to find Yorrik nearing the final stages of the plague. The elcor wants Senna to recite certain Hamlet lines to him before he dies, but the quarian refuses. He shortly departs for the drell zone along with Qetsi when Anax calls for them over the PA system, where their erstwhile teammate Ysses floats immobilized but infected and raving about spreading chaos for its cult's Day of Extinguishment beliefs.",
+      "url": "https://masseffect.fandom.com/wiki/Senna'Nir_vas_Keelah_Si'yah",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "athame-doctrine_001",
+      "kind": "page",
+      "page": "Athame Doctrine",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Athame Doctrine** is an asari religion founded on the worship of the goddess Athame. In ancient times, Athame was a goddess of prophecy and fate, and the matriarch of the asari pantheon. Athame's worship gradually changed, becoming the basis for a monotheistic religion in which her maiden, matron, and matriarch aspects oversaw all stages and roles in asari society. When an asari says \"by the goddess,\" they are referring to Athame. Worship of Athame eventually fell out of favor as the asari turned to the siari religion.",
+      "url": "https://masseffect.fandom.com/wiki/Athame_Doctrine",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "qetsi-olam-vas-keelah-si-yah_001",
+      "kind": "page",
+      "page": "Qetsi'Olam vas Keelah Si'yah",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Captain Qetsi'Olam vas Keelah Si'yah** commands the ark Keelah Si'yah, an Andromeda Initiative colonization vessel transporting a multispecies contingent through 600 years of dark space to the Andromeda galaxy. She is hyperopic on most issues and is overly serious about everything, from nutrient paste to the destiny of the quarian race, though she has the drive and magnetic personality to charm people into following her dreams.",
+      "url": "https://masseffect.fandom.com/wiki/Qetsi'Olam_vas_Keelah_Si'yah",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "summary:athame-doctrine",
+      "kind": "summary",
+      "page": "Athame Doctrine",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Athame Doctrine was an ancient asari religion built on the worship of the goddess Athame. Originally a goddess of prophecy and fate and the matriarch of the asari pantheon, Athame's worship gradually shifted into a monotheistic faith in which her maiden, matron, and matriarch aspects oversaw every stage and role in asari society; the common asari expression \"by the goddess\" refers to her. Athame worship eventually declined as the asari adopted the siari religion.\n\nIn mythology, Athame, with her guides Janiri and Lucen, was credited with bringing enlightenment to the ancient asari: Janiri taught agriculture and the seasons, Lucen taught the stars, and Athame taught mathematics and medicine. The asari also believed Athame protected their homeworld Thessia from jealous rival gods. The Temple of Athame on Thessia preserved relics attributed to her, including murals, busts of Janiri and Lucen, Athame's sword and shield, and fragments of the Athame Codex, an ancient text describing how the asari learned mathematics and agriculture. Other relics included the Rings of Alune. Three planets in the Parnitha system were named for Athame, Janiri, and Lucen.\n\nIn truth, Athame was not a goddess but a guise crafted by the Protheans. During their empire's height, the Protheans discovered the asari and judged them potential leaders for the next cycle's fight against the Reapers. They shaped asari development by inventing the goddess myth, with Janiri and Lucen actually being Protheans, and among the \"gifts\" was the asari aptitude for biotics, the product of years of Prothean genetic manipulation. After the Protheans left Thessia to avoid drawing Reaper attention, the asari continued advancing with the aid of a Prothean beacon and archive hidden in the Temple of Athame, the temple built over the archive and the beacon concealed inside a statue of Athame. The asari government kept the beacon secret throughout its history, even after Citadel law made hiding Prothean technology illegal, using the knowledge to maintain a technological edge. When the Reapers returned in 2186, the government kept hiding it until Thessia itself came under attack, then revealed it hoping it could aid the Crucible. Commander Shepard's arrival at the Temple exposed Athame's true nature and found the beacon held a Prothean VI named Vendetta, based on personality imprints of the director of the Prothean Crucible project, which carried knowledge of the Catalyst.",
+      "url": "https://masseffect.fandom.com/wiki/Athame_Doctrine",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "summary:victory",
+      "kind": "summary",
+      "page": "Victory",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Victory was a Prothean VI that served as overseer of a bunker facility on Eden Prime. During the Reaper invasion 50,000 years before the present, Victory kept the base commander Javik apprised of ongoing threats. Prothean survivors gathered at the facility hoping to enter cryogenic stasis and emerge after the Reapers withdrew into dark space to rebuild the Prothean Empire.\n\nAs Collector ground troops closed in, Javik ordered Victory to broadcast the readiness signal to all lifepods. Victory reminded him of refugees still en route, which Javik dismissed as a necessary sacrifice. Victory reported that Reaper forces had destroyed roughly 300,000 lifepods, a third of the Protheans, and that the northside bulkhead could not be sealed. With the bunker about to be overrun, Victory ordered Javik into his stasis pod and triggered a neutron bombardment, denying his request for a few more minutes for his men to escape and using his own words against him: \"Their sacrifice will be honored in the coming empire.\"\n\nThe blast destroyed the Reaper threat but damaged the base's sensors, making automatic reawakening impossible; the surviving Protheans could only be revived manually when a new culture discovered the facility, risking a power shortage to the stasis pods. Over Javik's protests, Victory said it would triage the base's power supply, and it eventually cut power to all pods except Javik's, appointing him the voice of their people before he entered stasis. Victory's ultimate fate is unknown; if Shepard reawakened Javik in 2186, Victory appeared only in flashbacks. Unlike other degraded Prothean VIs, Victory appeared as a holographic Prothean and could project anywhere in the facility. Whether, like Vigil and Vendetta, it was based on a real Prothean's personality imprint is unknown.",
+      "url": "https://masseffect.fandom.com/wiki/Victory",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "scene:idenna-seeto-tour-quarian-culture#02",
+      "kind": "scene",
+      "page": "Seeto Tours the Idenna, Sharing Quarian Life",
+      "section": "hangout",
+      "game": "Mass Effect",
+      "scene_id": "idenna-seeto-tour-quarian-culture",
+      "text": "Seeto Tours the Idenna, Sharing Quarian Life. 2183, during Mass Effect: Ascension, when Kahlee Sanders is released from quarantine aboard the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — Seeto's quarters and the trading deck When Kahlee was finally released from quarantine, Seeto gave her, Hendel Mitra, and Gillian Grayson a brief tour of the Idenna. The tour included his own sleeping quarters and the ship's trading deck, offering them insight into quarian culture and life aboard the Migrant Fleet.",
+      "url": "",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "scene:idenna-seeto-tour-quarian-culture#01",
+      "kind": "scene",
+      "page": "Seeto Tours the Idenna, Sharing Quarian Life",
+      "section": "hangout",
+      "game": "Mass Effect",
+      "scene_id": "idenna-seeto-tour-quarian-culture",
+      "text": "Seeto Tours the Idenna, Sharing Quarian Life. 2183, during Mass Effect: Ascension, when Kahlee Sanders is released from quarantine aboard the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — Seeto's quarters and the trading deck During Kahlee Sanders' quarantine aboard the Migrant Fleet, Seeto'Hodda nar Idenna befriended her. The young quarian security officer was exuberant and curious, and Kahlee appreciated his enthusiasm. Seeto greatly admired his captain, Ysin'Mal vas Idenna, and shared the captain's belief that the Fleet needed to change its policies to survive.",
+      "url": "",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "scene:novarra-mining-ship-agent-zeta#01",
+      "kind": "scene",
+      "page": "Viegle's Death Aboard the Novarra",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "novarra-mining-ship-agent-zeta",
+      "text": "Viegle's Death Aboard the Novarra. during Andromeda Initiative recruitment mission, Citadel/Novarra quarian strip-mining ship Novarra; earlier Citadel lower wards Luna Shanks and Sanjin Vinnick search the Citadel's lower ward flophouses for leads on quarian scientist Shio'Leth vas Novarra. They find a wrecked hovel and discover someone else is already hunting the quarian. Among the ruins lies an encrypted datapad. Vinnick uses encrypted military contacts to obtain the coordinates of the mining ship Novarra; Shanks grows wary of his furtive communications but accepts his explanation that his contacts' lives could be jeopardized.",
+      "url": "",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "scene:haestrom-tali-recruitment#04",
+      "kind": "scene",
+      "page": "Recruiting Tali on Haestrom",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "haestrom-tali-recruitment",
+      "text": "Recruiting Tali on Haestrom. 2185, after Horizon, deep in geth-controlled space the ruined quarian research site on Haestrom, under its dying sun At the quarian base camp, where quarians and geth have killed each other to the last, Tali hails on holo, unlocks the base camp door, and asks Shepard to keep Reegar alive.",
+      "url": "",
+      "for_key": "quarian ancestor worship personality VIs"
+    },
+    {
+      "chunk_id": "quarian_009",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Language",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Now that the quarians are reduced to a small, insular population, they have one common language known as Khelish. Words from the language listed below are taken from intra\\-quarian conversation. - *bosh'tet* — curse/insult, likely being relative to \"son\\-of\\-a\\-bitch\" or \"bastard\". - *esu se'lai* — likely a form of \"goodbye\" - *geth* — \"Servant of the People\" - *Mered'vai Rannoch* — \"Forget Rannoch\" - *nar* \\[ship\\-name] — child of - *nedas* — nowhere - *keelah* — \"By the homeworld\" - *keelah se'lai* — \"By the homeworld I hope to see one day.\" - *keelah si'yah* — \"By the homeworld I hope to find one day.\" - *ke'sed* (or *kes'ed*) — offspring of the qorach animal, figuratively means \"naive\" when used on people - *Pallu'Kaziel* — \"Nevertheless, Justice Comes\" - *Rannoch* — \"walled garden\" - *tasi* — no\\-one - *tiral azhana* — \"handful of water\" - *vas* \\[ship\\-name] — crew of - *von* — \"one who has a weak bladder\" Quarian names are composed of four parts—the quarian's given name and clan name separated by an apostrophe, the title (\"nar\" means \"child of\", referring to their birth ship, while \"vas\", adopted after the quarian has completed their Pilgrimage and joined a ship, means \"crew of\") and the name of their vessel. When Tali first met Shepard, for instance, she was going by the name of her birth ship (the Rayya) because at that point she had not yet completed her Pilgrimage and was thus not yet able to join a quarian crew. Later, though, she became known as \"Tali'Zorah vas Neema\", indicating that she had completed her Pilgrimage and was welcome to join the Neema. On occasion quarians may impose their naming conventions on other races. Commander Shepard, for example, may be referred to as \"Shepard vas Normandy\" if the Commander chooses to interact with the quarians on their home territory. In certain formal situations, quarians appear to use both their adult ship and childhood ship. Tali'Zorah identifies herself as \"Tali'Zorah vas Neema nar Rayya\" during docking procedures following summons to the Migrant Fleet regarding accusations of treason.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "keelah-si-yah_001",
+      "kind": "page",
+      "page": "Keelah Si'yah",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Keelah Si'yah** (Khelish for \"by the homeworld I hope to find one day\") is an Andromeda Initiative starship. Part of the Initiative's plan to settle the Andromeda galaxy, ark Keelah Si'yah ferries a multitude of colonists across the 600\\-year void between galaxies.",
+      "url": "https://masseffect.fandom.com/wiki/Keelah_Si'yah",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya-unique-dialogue_007",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "Unique Dialogue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Her final words are \"There were too many. Lost my shields. Suit ruptures...too many...Keelah se'lai...\". - Tali will argue against sparing the Collector Base, saying that they fought to stop it, and using it doesn't make it right. - If Tali was not romanced and Shepard destroys the Collector base, on the Normandy she expresses amazement at what they just pulled off, saying, \"They said it couldn't be done. Then again, that's said about a lot of things you do.\" If Shepard saves the Collector base, Tali warns that although she understands Shepard is working with Cerberus, she believes handing over the base to them is dangerous. She hopes the consequences of Shepard's decision won't \"come back to haunt us.\" - In Lair of the Shadow Broker: - If Tali is in the party when the Dracon Trade Center is bombed, she will utter a soft \"Keelah.\" - If Tali is brought along to the Shadow Broker Base, the Shadow Broker will express his surprise at Shepard's choice in squadmate, citing Tali's ignominious display of leadership skills on Haestrom.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "\"I have a home\"",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "If Rannoch is won and Tali is romanced, she chooses to leave with Shepard rather than stay — the peace and quiet only reminds her of everyone she lost. She gives Shepard a photo of her unmasked face, drinks with \"my human boyfriend — my father would have hated you,\" and parties with the crew. Her last words at the London beam run are to call Shepard her home and beg him to return alive. \"Home\" carries enormous weight for a quarian: exiled for 300 years, they built Rannoch into a mythical place worth throwing countless lives at, and wrote poems about its rock formations and grasslands. \"Keelah se'lai\" roughly translates as \"by the homeworld I hope to see one day.\" For Tali, calling someone your home means more than \"I love you,\" and Shepard has been her home since she was a kid on Pilgrimage.",
+      "url": "",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "characters-books_008",
+      "kind": "page",
+      "page": "Characters/Books",
+      "section": "Mass Effect Andromeda: Annihilation",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "| Protagonists- Anax Therion - Senna'Nir vas Keelah Si'yah - Yorrik | Adversaries- Captain Qetsi'Olam vas Keelah Si'yah - Malak'Rafa vas Keelah Si'yah | Other Characters- Borbala Ferank - Gaffno Yap - Irit Non - Jalosk Dal'Virra - Kholai - Liat'Nir - Oliver Barthes - Raya'Zufi vas Keelah Si'yah - Soval Raxios - Ysses | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Characters/Books",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "starships-list_079",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Pallu'Kaziel",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class Freighter Affiliation Migrant Fleet Former crew ship of Senna'Nir vas Keelah Si'yah, Qetsi'Olam vas Keelah Si'yah, and Malak'Rafa vas Keelah Si'yah. Source Mass Effect Andromeda: Annihilation",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "quarian_018",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- According to Matt Rhodes, when working on the first game he imagined quarians as a pale, hairless race with black eyes. The canonical appearance was also designed by him, which is close to the final game but features large purple irises and a similar pattern of skin markings. \\[1] - The phrase *keelah se'lai* originally meant \"blessed be\" according to former BioWare writer Chris L'Etoile before it mutated into its present form \"By the homeworld I hope to see one day.\" - According to an internal document written in the early development stage of Mass Effect 2, a male quarian squadmate was being considered based on either of the following concepts: - The \"Quarian Rogue\", a young and adventurous \"infiltrator\" and trouble\\-maker with an easy\\-going personality who ends up being chased by the police or bounty hunters. He was being considered as a potential romance for female Shepard. - The \"Crazy Quarian King\" (or Queen) would have joined Shepard's crew for nothing more than to joyfully slaughter geth as payback for the Morning War. ## - Galactic Codex: Essentials Edition 2183 - Mass Effect: Ascension - Quarians at the Mass Effect: Alien Race Profiles",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "summary:tali-zorah-nar-rayya-unique-dialogue",
+      "kind": "summary",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects Tali'Zorah's squad-specific lines across all three games: unique dialogue at scripted story points, \"talk to squadmate\" location comments, spontaneous combat and banter lines, and secret dialogue only reachable by editing her into the party. The material recurringly touches quarian themes (the Migrant Fleet, homelessness, the geth, her mistrust of the Council and Cerberus), her fear of spiders, her drone Chatika vas Paus, and her running commentary comparing alien worlds to the flotilla. Representative lines:\n\n- Tali, on Noveria when Captain Matsuo says Shepard is far from home: \"Home is a state of mind.\"\n- Tali, first seeing the Thorian on Feros: \"Keelah, what is that?\"\n- Tali, at the salarian camp on Virmire before the assault: \"These salarians are willing to die to stop Saren... and so am I.\" / (if Wrex lives) \"I will fight with fire for you, Commander.\"\n- Tali, on Ilos: \"We shouldn't be here. Not us. Not the geth. Not Saren.\"\n- Tali, if chosen to lead the second diversion squad and killed during the Suicide Mission: \"There were too many. Lost my shields. Suit ruptures... too many... Keelah se'lai...\"\n- Tali, summoning her combat drone: \"Go for the optics, Chatika! Go for the optics!\" / \"Nothing's faster than Chatika vas Paus!\"\n- Tali, using AI Hacking on geth: \"We made you, we can break you!\"\n- Tali, in the Silver Coast Casino when a female Shepard comments on her enviro-suit: \"At least you can dress up. What can I do? I'm already wearing my two sexiest belts!\"\n- Tali, to the Shepard clone in the Citadel Archives after it threatens to open her helmet: \"just a cheap imitation of the real thing.\"\n- Tali, spontaneously on the Attican Traverse krogan mission when Swarmers appear: \"spiders, spiders, spiders, spiders!\"\n- Tali, cursing Kai Leng on Thessia: \"Bosh'tet!\"\n- Tali, disembarking the Normandy after the Citadel ambush: \"Worst shore leave ever.\"",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "summary:malak-rafa-vas-keelah-si-yah",
+      "kind": "summary",
+      "page": "Malak'Rafa vas Keelah Si'yah",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Malak'Rafa vas Keelah Si'yah was a quarian Sleepwalker aboard the Andromeda Initiative ark Keelah Si'yah, a member of the Yellow-9 team responsible for monitoring life signs on the ship's 20,000 cryopods. He and Captain Qetsi'Olam grew up together on the liveship Chayym and were considered its only survivors after a 2183 geth attack; they took their Pilgrimage together on Erinle, where Malak helped develop a vapor-biotic that saved Qetsi's algae-poisoned lungs. Serving together on the freighter Pallu'Kaziel, they and Senna'Nir joined the Nedas Movement, which Malak and Qetsi eventually led. Malak followed Qetsi onto the 600-year voyage to Andromeda.\n\nIn Mass Effect Andromeda: Annihilation, set three decades before arrival, drell Sleepwalker Anax Therion revived Malak to investigate a plague killing passengers in cryostasis, traced to Yellow-9's shift 50 years earlier. Malak appeared to cooperate, claiming he had seen nothing unusual, but his body language betrayed that he was hiding something; Anax deduced he had loved both Qetsi and the married Soval Raxios without acting on it. The truth was that Malak had designed a computer worm with two directives: to raise cryo temperatures so Qetsi's bioengineered Fortinbras Plague could take hold, and to conceal all trace of infection. He had misjudged the temperature range, so the virus mutated slowly for decades and became lethal to races meant only to carry it, while the worm seized ever more ship systems to hide spreading infections. Meeting Qetsi secretly, Malak panicked that Dr. Yorrik's retrovirus would undo their plan; Qetsi told him she would scapegoat the hanar Day of Extinguishment cultists and sent him back to the quarian zone, unaware that Senna and Anax had overheard. Qetsi died administering the retrovirus. Malak was airlocked out of the ark alongside the plague victims despite not being infected, his crystallized eyes left facing the Milky Way; whether he ejected himself or was ejected is unknown.",
+      "url": "https://masseffect.fandom.com/wiki/Malak'Rafa_vas_Keelah_Si'yah",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "scene:citadel-presidium-prophet#03",
+      "kind": "scene",
+      "page": "The C-Sec Officer and the Hanar Preacher",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-presidium-prophet",
+      "text": "The C-Sec Officer and the Hanar Preacher. 2183, Citadel, after the Council dismisses the charges against Saren near the Wards Access corridor on the Presidium Alternatively, Shepard can persuade the hanar to leave by arguing the Enkindlers would not want their gift of language used to break society's laws, earning Paragon points; this satisfies the officer, who thanks Shepard and hands over omni-gel.",
+      "url": "",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-romance-suit-trust#01",
+      "kind": "scene",
+      "page": "Tali, the Suit, and the Mask Before Omega 4",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-romance-suit-trust",
+      "text": "Tali, the Suit, and the Mask Before Omega 4. 2185, aboard the Normandy SR-2 — after Tali's treason trial, and the night before the Omega 4 relay the Normandy's engineering deck, then Shepard's cabin When Tali first comes aboard, Yeoman Kelly Chambers tells Shepard she reads \"more than just good friends\" in Tali's body language. Kasumi Goto later says the same — Shepard is \"all she talks about\" — and warns Shepard to be good to her.",
+      "url": "",
+      "for_key": "Khelish language Keelah se'lai"
+    },
+    {
+      "chunk_id": "summary:shadow-broker-dossiers-tali-zorah-vas-normandy",
+      "kind": "summary",
+      "page": "Shadow Broker Dossiers/Tali'Zorah vas Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This Shadow Broker dossier, unlocked after the Lair of the Shadow Broker mission, profiled Tali'Zorah vas Normandy as a mechanic and engineer showing typical quarian investment in her species' future, and noted that her father Rael'Zorah's work was useful for widening geth-quarian tensions.\n\nA suit process log lists upgrades and installed applications, including relic-technology interface and radiation-detection upgrades authorized under Project Haestrom, a ShieldJack prototype defense suite authorized by Admiral Han'Gerrel vas Neema, an isolated infection-treatment process, and education vids such as \"Dealing with Loss,\" \"Understanding Body Language: Human Edition,\" \"Human Courtship and Mating\" and the entertainment vids \"Fleet and Flotilla\" and \"Exiles: Portraits of the Lost Quarians.\" Nerve-Stim Pro is repeatedly installed, uninstalled and reinstalled, ending with a \"Deluxe Edition.\"\n\nAn email chain records Tali, still Tali'Zorah nar Rayya during her Pilgrimage, contacting the Shadow Broker after finding a recording implicating Spectre Saren working with the geth and the Reapers, offering the information in exchange for protection. The Broker directed her to his Citadel enforcer Fist, but secretly ordered Fist: \"When you get the intel, kill the quarian and any of our operatives who had access to the data.\" Tali then reported that Fist tried to sell her to Saren and that she had instead given the information to \"a human Alliance commander named Shepard.\"\n\nA keystroke log captures her repeatedly drafting and erasing a condolence letter to the parents of Myrr'Jorin, a soldier killed on Haestrom saving her life, struggling over wording such as \"He gave his life to get data that will one day bring us back to Homeworld... and we all honor his sacrifice,\" before saving the draft and exiting without sending it.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Dossiers/Tali'Zorah_vas_Normandy",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_014",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If they're in a relationship, Shepard wakes to find Tali nestled beside him on his bed. If the party was energetic, she'll mention how sick she feels, and also that whoever dressed her back up messed up the clasps on her suit. If the party was calm, then Shepard will ask how she feels, to which Tali replies that she'd feel worse if she were waking up alone. On the crew's return back to the Normandy, Tali takes Shepard's hand in hers, lamenting that their shore leave is over and states that she would've never guessed before that she would be serving on a human ship and that she \"wouldn't trade it for anything\". Her last words to Shepard before the crew departs is that they've \"had a good ride\", to which Shepard replies \"The best.\"",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_007",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "Suit culture and trust",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Quarians live in their suits even among family. A simple suit rupture can kill. When Raan took the infant Tali from her mother and sealed her in a sterile \"bubble,\" Raan and Tali's mother had first linked their suit environments to be in the same clean room for the birth — an act that made both of them sick for a week. Linking suit environments is the most intimate thing two quarians can do; it makes both parties badly ill, potentially fatally, and is the culture's ultimate gesture of trust and acceptance. Children do not wear suits until adolescence; getting one's first suit is a coming-of-age.",
+      "url": "",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "priority-rannoch_010",
+      "kind": "page",
+      "page": "Priority: Rannoch",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- **(\\+1 point)** Brokering a peace in the Tali/Legion loyalty argument. If the player did not have sufficient Paragon/Renegade points at that time, loyalty of either Tali or Legion would have been lost. In that case \\-\\- even if loyalty had been regained later \\-\\- this \"point\" will not count towards the five needed to pass the Reputation check (and broker the ceasefire). - **(\\+1 point)** Completing Rannoch: Admiral Koris. - **(\\+1 point)** Saving Admiral Koris during Rannoch: Admiral Koris. If resolved with co\\-existence, talking to Tali afterward onboard the Normandy will reveal that the geth are providing invaluable assistance in helping the quarians resettling onto Rannoch. They set up housing and settlements in a far more efficient manner, and volunteers are having their suits loaded with geth programmes that function in mimicking mild virus attacks, which in time will help to boost the quarians' natural immune systems so they can live normally without the environment suit. Tali admits that she can't see the quarians actually ditching the suit altogether, however, as it has become part of their culture. If Shepard and Tali are in a romance, they flirt briefly, with Shepard teasing Tali about allowing geth inside her suit and Tali assuring Shepard that the only one getting into her suit will be him. Whatever the outcome, the mission Priority: The Citadel III becomes available. A number of systems become available for Search and Rescue scans on planets in them: - Silean Nebula - Phontes / Dekuuna: Dekuuna: Code of the Ancients - Teyolia / Nevos: Silean Nebula: Rings of Alune - Hades Nexus - Hoplos / Makhaira / Kopis: Hades Nexus: Obelisk of Karza - Sheol / Gei Hinnom: Hades Nexus: Prothean Sphere If Kaidan is present, he and James will be found playing poker in the port observation lounge following the mission. **Warning:**  Completing this mission will reset Shepard's equipped weapon to a default pistol, a side effect of the Commander's use of the targeting laser. Be sure to check your loadout before beginning your next mission to avoid an unfortunate surprise. This no longer occurs in Mass Effect Legendary Edition.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Rannoch",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya-unique-dialogue_013",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "Unique Dialogue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- During Citadel Wards: Ambush: - If Tali is the second squadmate to contact Shepard and Shepard tells her the situation is \"dicey,\" Tali snarks, \"You don't say.\" - When Shepard says they wanted to make things \"more interesting,\" Tali responds, \"Well, that's certainly one way to do it.\" - During Silver Coast Casino: Infiltration: - If Tali is chosen to enter with Shepard: - If Shepard is female, she will comment on Tali's enviro\\-suit. Tali replies: \"At least you can dress up. What can I do? I'm already wearing my two sexiest belts!\" - If Shepard is male, and just friends with Tali, he will claim that he hasn't worn formal attire in a while. Tali replies that his suit \"needs a little something.\" After linking arms with him, she says: \"Now it's perfect.\" - If Shepard is male, and in a relationship with Tali, he will claim that his clothes are \"soft to touch.\" Tali flirtatiously replies: \"Good to know.\" - When assigned to distract a guard: - *Tali: \"I think my suit's software is setting off alarms at the tables.\"* - *Guard: \"That sometimes happens with our volus and quarian guests. Let me see what I can do.\"* - *Tali: \"I was told there was varren racing here, but I'm having trouble finding it.\"* - *Guard: \"It's easy to get turned around. Let me help.\"* - *Tali: \"Hi, I was just by the quasar machines and I thought I saw someone using an omni\\-tool to rig the game.\"* - *Guard: \"Thanks for letting us know. Could you point out where?\"* - *Tali: \"I'm sorry, I have a minor suit malfunction. Do you have a clean room available?\"* - *Guard: \"Just a moment. I'm sure we can find you something.\"* - *Tali: \"Excuse me, can you show me which food is safe for me to eat?\"* - *Guard: \"Of course. Let me call up a list.\"* - *Tali: \"I'm sorry. Can you help me for just a moment?\"* - *Guard: \"What do you need?\"* - During Citadel Archives: Escape: - If Tali is in the squad when Shepard's crew encounters a clone of Shepard, who's behind the attack, the clone can taunt Tali, saying \"I don't know whether I should kill you with a bullet or just open your helmet and cough.\" Tali replies that the clone is \"just a cheap imitation of the real thing.\" - When climbing up a ladder with Shepard's squad, and enemies firing on them, when a bullet strikes near her, Tali calls out, \"Hey, that's cheating! We're on a ladder!\" - When Brooks reveals she was the one who compiled the dossiers for the suicide mission, she'll tell Tali that it's nice to finally meet her, to which Tali coldly replies, \"Charmed.\" - During Citadel Docks: Retake the Normandy: - If Shepard allows Brooks to live and she's taken away, Tali will mutter under her breath, \"Bosh'tet.\" - If Tali shoots Brooks as Brooks attempts to escape, she also responds to Brooks' last comment: \"Well I won't miss you, you crazy bosh'tet.\" - As Shepard's squad disembarks the Normandy after it returns to its dock, Tali will flatly comment, \"Worst shore leave ever.\" - During Priority: Cerberus Headquarters: - If Tali is in the party and Shepard romanced her, she will comfort the Commander after viewing the first video log of the Lazarus Project. When he wonders if he might actually be a highly advanced VI that thinks it is Commander Shepard, she will reassure him that \"You are real... Real... and mine.\" Alternatively, if Shepard is confident in who he is, Tali will say, \"And damn anyone who thinks otherwise.\" - During the same mission, Shepard can view a video log in which the Illusive Man brags that the only reason he recruited Joker, Dr. Chakwas, Kelly Chambers, Kenneth Donnelly, Gabriella Daniels, and every other sympathetic crew member was to manipulate Shepard into viewing Cerberus in a more positive light. Tali will simply say \"He needs to die.\" - When Tali sees the remains of the Human\\-Reaper, she expresses horror, saying, \"All those civilians, families... turned into that. And Cerberus has it on display?\" When Shepard expresses regret for trusting the Illusive Man, Tali says she doesn't regret standing by Shepard when they were with Cerberus but she's glad they're shutting it down now. - During Priority: Earth: - While at the missile battery, when Anderson warns the squad that more Reaper troops are heading their way, Tali exclaims, \"Keelah. How can there be more of them?\" - In the Extended Cut/Legendary Edition, if Tali is in Shepard's squad during the final push to the Conduit in Priority: Earth and Shepard romanced her, Tali will be gravely injured by Harbinger, prompting Shepard to call in Normandy for an emergency evac.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_003",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "The courtship (ME2)",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "After the treason trial, checking on Tali, Shepard finds she \"got sloppy\" repairing her suit and is a little sick. She explains that linking suit environments is quarians' deepest gesture of trust — \"I haven't trusted anyone enough for that… except, well.\" She stammers and gets embarrassed; Shepard says he feels the same way. Now that years have passed and she has proven herself to her family, she feels she is Shepard's equal, and she is the one who finds the courage to raise it, apologizing for having been \"unprofessional… stupid and selfish.\" She worries that wanting Shepard is itself selfish and could make her sick and jeopardize the mission. Before the Omega 4 relay she works up the nerve to be with him. Per Kasumi, after the Suicide Mission Tali cannot stop talking about Shepard — \"she took her mask off with you; that took a lot of trust.\" Tali afterward: \"I'm running a fever, I've got a nasty cough, and my sinuses are filled with something I can't even describe — and it was totally worth it.\"",
+      "url": "",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-romance-suit-trust#03",
+      "kind": "scene",
+      "page": "Tali, the Suit, and the Mask Before Omega 4",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-romance-suit-trust",
+      "text": "Tali, the Suit, and the Mask Before Omega 4. 2185, aboard the Normandy SR-2 — after Tali's treason trial, and the night before the Omega 4 relay the Normandy's engineering deck, then Shepard's cabin Feeling she is finally Shepard's equal now that years have passed and she has proven herself to her family, Tali is the one who raises the relationship — apologizing for being \"unprofessional... stupid and selfish\" and worrying that wanting Shepard could make her sick and put the mission at risk.",
+      "url": "",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "new-tuchanka_007",
+      "kind": "page",
+      "page": "New Tuchanka",
+      "section": "Datapads and Terminals",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Community: Krantt: The Ragening! From: Kohrr Imeh Imagine that you're a proud warrior fighting for your people at the height of the Rachni War... when the ancient spirits of Tuchanka awaken and spread across the galaxy. Some are changed, gaining magical powers and a tie to the homeworld through the blood of Kalros herself, while others become horrible monsters. Can you conquer the beasts within and save the galaxy? Join us in Krantt: The Ragening, a live\\-action roleplaying experience for krogan who want to combine collaborative storytelling with light, non\\-lethal combat. All you need is any dice roller app, the LightShow omni\\-tool utility, dummy ammo for any gun you bring, and your own imagination. Meet friends and have fun in a supportive environment. Contact poster for information on meet up times. Community: New Fathers From: Kormer Ryn Any other males who have kids interested in getting together? Now that we're supposed to raise them along with the females instead of just visiting, I have a lot of questions. Let's get together with the little ones and figure out how to do this. And maybe let's keep it safe. No explosive rounds, all right? Contact poster for information on meet up times. Community: New Fathers (Updated) From: Kormer Ryn Great meet up! I love how my little headbutter laughed when we took the hills at full speed, and hearing him sing along during story time was amazing. Thanks to whoever brought the VI that did the diaper\\-change and scale\\-chafe\\-check tutorial, and also to whoever brought the demolition charges. The way all their little eyes lit up when those things blew was fantastic. Same time next week! Notice: Building Regulations From: Gulnaz Bin Hey everyone. As we continue building new structures, remember that building is like firing your shotgun into a pack of varren: adjust your SAFETY FIRST. We don't want to focus on the \"cons,\" so let's have a \"pro\\-versation\" about safety: \\- Please wear helmets while building unless you really don't want to. \\- Don't use the welding torches for tattoos unless you're sure it's something you want on your skin forever. \\- Quit stealing supplies. We've got computers, we know you're doing it, and we'll shoot you. \\- Only add guns to things the plans say should have guns on them. \\- Don't fire your guns into the air in celebration unless you shout that you're going to do so beforehand. Thank you. Notice: Social Interactions From: Gulnaz Bin All right, everyone, most of you are used to either gender\\-segregated camps back on Tuchanka or mostly male mercenary work offworld. But now we're all together, and it's time for us to make the most of this \"probletunity.\" With females sending breeding requests and males asking many questions about fertility, we've had some good dialogues so far, and in most cases, everyone has already recovered from their injuries. To that end, we've added some mandatory cultural education: Blasto 6: Partners in Crime: Notice Blasto and Blasto's partner's sister agreeing to engage in mating rituals. Blasto's partner does not attempt to assert authority over his sister or shoot Blasto for mating with his sister without permission. Fleet and Flotilla: Bellicus and Shalei are good models for behavior of a couple that is interested in courting despite cultural differences. Do not sing, though. Nobody sings while mating. That's just a thing they do in vids sometimes. I cannot stress that enough. Krantt Hardly Wait: Now I know some of you got offended by having a young krogan court a human female, but since the vid is literally about a krogan male trying to learn appropriate courtship behavior, you are all going to shut up and watch it. Also, Vega Bull Jr. does a great job as the human female's father, and he should be made an honorary krogan. Asari Confessions 26: True Blue: Couldn't hurt. After that, we recommend that you try some \"edu\\-tainment\" in the form of one of the dating\\-sim vids available at any kiosk. I can think of few better ways for us all to learn about romance than by playing an interactive game on the subject. Notice: Social Interactions (Updated) From: Gulnaz Bin Hello again, everyone. It's time for a little \"care\\-frontation.\" It's great that you studied the courtship material, but implementation has been tougher than boiled vorcha. Our medics have noted that the nettles you all are gathering and giving to each other in bouquets are poisonous. The females have been patient so far by only breaking your bones, but let's not test that any further. I'm pleased that our lone fatality was the stupid little pyjak who stood outside in the middle of a thunderstorm holding a sonic amplifier over his head in an attempt to gain breeding privileges.",
+      "url": "https://masseffect.fandom.com/wiki/New_Tuchanka",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "kal-reegar_002",
+      "kind": "page",
+      "page": "Kal'Reegar",
+      "section": "Haestrom",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kal'Reegar is a marine of the quarian Migrant Fleet who Commander Shepard meets on the former quarian colony of Haestrom in the Far Rim. He is part of a squad of Migrant Fleet Marines assigned to protect Tali'Zorah vas Neema, who was on the planet doing research on the system's sun. After arrival on Haestrom, the quarians are attacked by geth, who proceed to slaughter most of the expedition, except for Reegar and Tali. When Shepard encounters him, he is held up on one side of a bridge, taking potshots with a ML\\-77 Missile Launcher at a geth platoon attempting to gain access to the observatory Tali is working in. The platoon includes a Geth Colossus, which is giving Reegar trouble. His suit is punctured and he is injured. Nonetheless, Reegar is reluctant to do anything but fight and jokingly takes offense if Shepard points out the tear in his bio\\-suit. The Commander can either convince him to stand down and cover their back or accept his help in taking down the Colossus. Whatever be the case, the geth platoon is taken down and Tali is rescued. After Shepard arrives at the observatory and talks to Tali (and if Reegar has survived the battle), Reegar will come in and say he's injured and has already called for a pick\\-up. However, Tali informs him that she will not be returning to the flotilla but will join Shepard on the Normandy instead. Before they part ways, Tali gives Kal the data she obtained about the planet's sun so he can give it to the Admiralty Board. Should Commander Shepard not insist that Kal'Reegar sit out the battle with the Geth Colossus, and then take too much time during the battle, Kal'Reegar will die. Should he survive, Shepard can ask Tali on the Normandy about Kal's condition, revealing that he recovered from his injuries having sustained just a minor infection and is no worse for the wear.",
+      "url": "https://masseffect.fandom.com/wiki/Kal'Reegar",
+      "for_key": "Tali suit education vids human courtship"
+    },
+    {
+      "chunk_id": "scene:freedom-s-progress-veetor-and-tali#03",
+      "kind": "scene",
+      "page": "Finding Veetor in the Abandoned Colony",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "freedom-s-progress-veetor-and-tali",
+      "text": "Finding Veetor in the Abandoned Colony. 2185, hours after the Collectors emptied Freedom's Progress, the prologue's final mission the deserted prefabs, walkways and cargo docks of Freedom's Progress In prefab 92 Shepard's squad meets Tali'Zorah vas Neema and a group of quarians who openly distrust Cerberus. Tali is briefly overjoyed to find Shepard alive, then dismayed to see the Commander working for Cerberus; she tells herself Shepard must be undercover. If Shepard gave Tali the geth data in 2183, Shepard can ask whether it helped her Pilgrimage, and her yes settles her that it is still the same Shepard. Tali explains they are hunting Veetor, an unstable quarian on Pilgrimage whose damaged suit and infection left him paranoid enough to turn the mechs on. The two squads agree to work together.",
+      "url": "",
+      "for_key": "Tali suit education vids human courtship"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 52,
+      "text": "- Boris Mikhailovich: Systems Alliance officer of the Fifth Fleet commanding the 63rd Scout Flotilla; as a Rear Admiral he gave the Normandy a hostile surprise inspection on the Citadel, objecting to its cost, stealth system, turian design and multi-species crew, with Shepard able to sway, rebuff, or refuse him. Led the 63rd against Sovereign at the Battle of the Citadel with the fewest losses of any Alliance flotilla, was promoted to Admiral, and aids the anti-Reaper war in Mass Effect 3 only if the Council was not saved. (source: Boris Mikhailovich)",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 121,
+      "text": "- \"My Suit and Me\": an old quarian lullaby about a child's bond with their environment suit and the dream of reaching Rannoch; a recording was installed in the ark Keelah Si'yah's quarian cryopods to play once a century during the ~600-year trip to Andromeda. (source: My Suit and Me)",
+      "for_key": "my suit and me quarian lullaby"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 218,
+      "text": "- The quarian language is Khelish, source of \"bosh'tet\" and the benediction \"Keelah se'lai\" (\"By the homeworld I hope to see someday\"); they formerly practiced ancestor worship via personality-imprint VIs until the geth destroyed the ancestor databanks. (source: Quarian)",
+      "for_key": "quarian ancestor worship personality vis"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 220,
+      "text": "- The quarian romance film Fleet and Flotilla, about a turian and a quarian who share one night before duty separates them, serves for Tali as an idealized fantasy of duty and love reconciled and a form of escapism from quarian expectations (source: Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw).",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 148,
+      "text": "- Tali'Zorah's omni-tool/suit software included installed education vids meant to help a quarian adjust to life among aliens, such as \"Dealing with Loss,\" \"Understanding Body Language: Human Edition,\" and \"Human Courtship and Mating,\" alongside entertainment vids like \"Fleet and Flotilla\" and repeated install/uninstall cycles of the exercise app Nerve-Stim Pro. (source: Shadow Broker Dossiers/Tali'Zorah vas Normandy)",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 128,
+      "text": "- The Migrant Fleet (\"the Flotilla\") was roughly 50,000 ships housing about 17 million quarians, the largest array of spacefaring vessels in the galaxy, taking days to pass a single mass relay. (source: Migrant Fleet)",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 129,
+      "text": "- The Migrant Fleet is the roughly 50,000-ship flotilla of the exiled quarians, home to about 17 million people; youths are sent on the Pilgrimage to find a gift worthy of earning a berth, and its liveships grow the fleet's food. (source: Codex/Aliens: Non-Council Races)",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 64,
+      "text": "- The Idenna was a decommissioned batarian Hensa-class cruiser in the quarian Migrant Fleet with a crew of 693; after a Cerberus attack it became one of the first ships permitted to leave the Flotilla, refitted with its crew cut to about 50, on a five-year mission to find a new homeworld. (source: Idenna)",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 71,
+      "text": "- The Migrant Fleet (Flotilla) carried roughly 17 million quarians across salvaged and secondhand ships, sustained by strip-mining systems it passed through and by \"gifts\" from local industries wanting it to move on. (source: Quarian)",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/tech.md",
+      "line": 184,
+      "text": "- The Idenna was a 30-year-old decommissioned batarian Hensa-class cruiser in the quarian Migrant Fleet with a crew of 693; after a Cerberus attack it became one of the first ships permitted to leave the Flotilla on a five-year mission to find a new homeworld, its crew cut to about 50 and heavily refitted. (source: Idenna)",
+      "for_key": "fleet and flotilla vid"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 67,
+      "text": "- Quarian law parcels out marine squads as police aboard the Fleet, and exiles or executes those who endanger the whole Flotilla; treason trials use the Admiralty Board as judges. (source: Quarian)",
+      "for_key": "fleet and flotilla vid"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

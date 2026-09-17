@@ -1,0 +1,1160 @@
+{
+  "section": {
+    "id": "seventeen-million",
+    "title": "Seventeen Million",
+    "target_words": 690,
+    "form": "bedtalk",
+    "narrator": "tali"
+  },
+  "promises": [
+    "Her command as logistics with worse consequences: which ships go in tomorrow, which civilians stay back, and she's too young for it and says so",
+    "Quarian hands on the Crucible, told as an engineer's opinion of the thing, not a status report. Then she catches herself giving one anyway",
+    "Shepard's distrust of hierarchy against her rank. They agree an admiral should have to earn it every day, and she has one more day of earning to do"
+  ],
+  "required_facts": [
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Crucible was an ancient, enormously complex superweapon designed to stop the Reapers. Its blueprint was refined by countless species across millions of years and many extinction cycles, passed secretly from one cycle to the next; no species ever managed to deploy it. The Protheans were the most recent builders, but infighting between a faction that wanted to destroy the Reapers and an indoctrinated faction that wanted to control them stopped them, and the schematics were hidden in a Prothean archive on Mars for 50,000 years. In 2186, after Liara T'Soni recovered encryption keys from a Prothean shrine on Kahje, she traveled to the Mars Archives (the mission Priority: Mars) and recognized the significance of the schematics. The Illusive Man also wanted them and sent the Cerberus infiltration unit Dr. Eva Core to steal the data and wipe the archives. After a chase and firefight, James Vega rammed Eva's shuttle with a truck and Shepard disabled her with the plans intact, though Shepard's Virmire survivor squadmate (Ashley Williams or Kaidan Alenko, per `virmire_survivor` / `virmire_survivor_rejoins`) was gravely injured and evacuated to Huerta Memorial Hospital on the Citadel. Eva's synthetic body was salvaged and later used to give EDI a mobile platform. The schematics were handed to the Systems Alliance, and after the fall of Earth Admiral Hackett authorized a massive galaxy-wide construction effort, with shipyards across many species building sections of the device. Scientists determined the Crucible exploited mass relay technology but could not fully explain how it worked, and that it required a final component, the Catalyst. The Prothean VI Vendetta on Thessia revealed the Catalyst was the Citadel itself, which could massively amplify the Crucible's output. The Illusive Man fled to the Citadel and alerted the Reapers, who seized the station and moved it into orbit around Earth. Hackett committed the combined fleets to Sol, and the completed Crucible was brought in behind a token defense force to dock with the Citadel, setting up the war's final choice (per `final_choice`).",
+      "actor": "Liara T'Soni"
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "Crucible schematics recovered from the Mars Prothean Archives and handed to the Systems Alliance",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "Cerberus infiltration unit Eva Core neutralized; her synthetic frame later becomes EDI's mobile platform",
+      "actor": "Eva Core"
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Virmire survivor (Ashley or Kaidan) is hospitalized on the Citadel with severe injuries (per `virmire_survivor`)",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "Admiral Hackett authorizes a galaxy-wide Crucible construction program after Earth falls",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Catalyst is identified as the Citadel via the Prothean VI on Thessia",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Illusive Man alerts the Reapers, who move the Citadel to Earth",
+      "actor": "The Illusive Man"
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Crucible becomes the linchpin of the final battle and determines the ending (per `final_choice`)",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "quarian-envoy-admiralty-briefing",
+      "title": "The Admiralty Board's Ask, and Tali's Return",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, Priority: Perseus Veil, after the failed Cerberus coup on the Citadel",
+      "where": "the Normandy's war room, docked with the Quarian Envoy Ship at Dholen in the Far Rim",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah",
+        "Shala'Raan vas Tonbay"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "After the failed Cerberus attack on the Citadel, Admiral Hackett told Shepard the quarians would contribute technical specialists and support ships; the Normandy travelled to Dholen and docked with the Quarian Envoy Ship.\n",
+          "source_chunks": [
+            "priority-perseus-veil_002",
+            "priority-perseus-veil_003"
+          ]
+        },
+        {
+          "text": "In the Normandy's war room the Migrant Fleet's admirals explained that they had opened an all-out war on the geth, pushing them back toward Rannoch, after the Reapers upgraded the geth — and that their fleet was now trapped. They asked the Normandy to disable a geth dreadnought broadcasting the Reaper signal.\n",
+          "source_chunks": [
+            "priority-perseus-veil_003"
+          ]
+        },
+        {
+          "text": "If Tali'Zorah had survived Mass Effect 2 she rejoined the squad. If she had never been exiled she had been made an admiral in her late father Rael'Zorah's place; if she had been exiled she was present anyway for her knowledge of the geth, with the other admirals hiding her from the rest of the quarians, which prompted Shepard to call her their \"dirty little secret.\"\n",
+          "source_chunks": [
+            "priority-perseus-veil_003",
+            "priority-perseus-veil_005"
+          ],
+          "conditional": {
+            "tali_status": "alive"
+          },
+          "choice": "Tali survived Mass Effect 2"
+        },
+        {
+          "text": "Taken aside, Tali squares things with Shepard about the trial. If she was never exiled she admits he was right — \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" — and says she took her father's Admiralty seat specifically to push back on the Board's worst ideas, people like Daro'Xen. She doubts she is fit for it, with seventeen million lives riding on her; only Shepard and Shala'Raan reassure her. If she was exiled, she instead tells Shepard the trial showed her she belongs \"on the Normandy, helping you,\" aiding the Fleet from the shadows.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_008",
+            "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_002",
+            "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_003"
+          ],
+          "conditional": {
+            "tali_status": "alive"
+          },
+          "choice": "Tali survived Mass Effect 2"
+        },
+        {
+          "text": "Shepard could take Tali up to the captain's cabin to talk privately, continuing or locking in a romance; on a first playthrough this unlocked Energy Drain as a bonus power. Afterward Admiral Shala'Raan took up residence in the war room and Tali became a temporary squad member.\n",
+          "source_chunks": [
+            "priority-perseus-veil_003",
+            "priority-perseus-veil_004"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "tali_status": "dead"
+          },
+          "choice": "Tali died in Mass Effect 2",
+          "text": "If Tali had not survived Mass Effect 2 she was absent entirely; the admirals briefed Shepard without her, and Admiral Xen later guided the dreadnought mission by comm.\n",
+          "source_chunks": [
+            "priority-perseus-veil_003",
+            "priority-geth-dreadnought_003"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "geth-dreadnought-freeing-legion",
+        "flotilla-tali-treason-trial"
+      ],
+      "related_events": [
+        "priority-perseus-veil"
+      ],
+      "source_chunks": [
+        "priority-perseus-veil_002",
+        "priority-perseus-veil_003",
+        "priority-perseus-veil_004",
+        "priority-perseus-veil_005",
+        "tali-zorah-nar-rayya_008",
+        "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_002",
+        "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_003"
+      ],
+      "private_to": [],
+      "requires": []
+    }
+  ],
+  "attendance": {
+    "quarian-envoy-admiralty-briefing": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "dossier-tali_017",
+      "kind": "page",
+      "page": "Dossier: Tali",
+      "section": "Email",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "After the mission, Admiral Rael'Zorah of the quarian Migrant Fleet (Tali's father) sends Shepard an email (titled \"Transfer Request Approved\") regarding her decision to join Shepard: From: Admiralty Board, Migrant Fleet Commander Shepard, Per Tali'Zorah vas Neema's request included with her data delivery from Haestrom, the Admiralty Board has approved her transfer to your command. She has been informed that additional duties to the Migrant Fleet may still be necessary on occasion, but has been given extended leeway to determine when her mission with you is considered complete. This choice was hers, but your role as de facto captain during her Pilgrimage may have caused her to be more susceptible to your requests. The Admiralty Board trusts that you will treat your new crew member with the respect due an honored member of the Fleet. Should any harm come to her due to negligence on your part, this board will take severe and appropriate action. Admiral Rael'Zorah, Migrant Fleet Admiralty Board",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Tali",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "starships-list_092",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Selani",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class N/A Affiliation Migrant Fleet The crew ship of Anora'Vanya vas Selani, a quarian found guilty by the Admiralty Board of treason. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "daro-xen-vas-moreh_001",
+      "kind": "page",
+      "page": "Daro'Xen vas Moreh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I wish to return the geth to the control of their rightful masters, the quarian race.” **Admiral Daro'Xen vas Moreh** is a member of the quarian Admiralty Board. She is known for her keen scientific interest in the geth. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Daro'Xen_vas_Moreh",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "summary:rael-zorah",
+      "kind": "summary",
+      "page": "Rael'Zorah",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Rael'Zorah was Tali'Zorah's father and a member of the quarian Admiralty Board. As a young trainee alongside Han'Gerrel, he defended the gunship Yaska against a batarian attack, breaking formation in defiance of orders; the Admiralty Board awarded both trainees medals and sent them on their Pilgrimages early. Rael later rose to the Admiralty Board. He was distant and hard on Tali during her upbringing, determined that she become a capable representative of the quarian people, and driven by the goal of reclaiming Rannoch and building a house for his family there. In Mass Effect: Homeworlds and via vid-mail he impressed on Tali the importance of her Pilgrimage and the need for quarians to be strong. He approved her transfer to the Normandy SR-2 after Haestrom and sent Shepard a message about it.\n\nIn 2185 Rael had Tali send him deactivated geth components for a secret project aboard the ship Alarei. He was deliberately reactivating geth to experiment on hacking their neural network, violating sacred quarian laws that predated the flight from the homeworld. He refused his assistants' advice to alert the Admiralty Board, reasoning they would bicker and that he did not want Tali caught in political blowback. The reassembled geth turned on him and killed his entire research team. Tali was charged with treason and exile for sending active geth into the Migrant Fleet. She and Shepard boarded the Alarei, found Rael's corpse, and recovered a message on his omni-tool explaining how to deactivate the geth and instructing her to show the data to Han'Gerrel and Daro'Xen. Whether Shepard presented this evidence to the Admiralty Board affected Tali's trial. Told the truth in secret, Han'Gerrel vowed to keep it hidden. Tali stated that if Rael's deeds were exposed his name would be struck from every ship manifest and he would be remembered as the worst war criminal in quarian history.\n\nIn Mass Effect 3, if Tali survived and was not exiled, she temporarily filled Rael's Admiralty seat. Rael's experiments and Daro'Xen's subsequent breakthroughs directly caused the renewed quarian-geth war. After the events on Horizon, if she survived the reclamation of Rannoch, Tali reflected on her father over drinks at the Normandy bar, drawing parallels to Miranda Lawson's relationship with her own father; if romancing Shepard, she mused that Rael would have hated her human partner, and Shepard offered a toast to his memory.",
+      "url": "https://masseffect.fandom.com/wiki/Rael'Zorah",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "dossier-tali_001",
+      "kind": "page",
+      "page": "Dossier: Tali",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Formerly listed as Tali'Zorah nar Rayya, the quarian engineer earned her adult name after helping Shepard defeat Saren two years ago. Tali is currently on a classified assignment for the Migrant Fleet Admiralty Board on Haestrom, deep in geth\\-controlled space.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Tali",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "migrant-fleet_005",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Politics and Military Policy",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In theory, the Migrant Fleet remains under martial law, meaning the captain of a ship has the final say on disputes, but in practice the quarians are quite democratic. Each ship has an elected civilian council and the captain often defers to their judgment. Overruling the council without a good reason is grounds for the captain to be removed. Representatives from each ship serve on the Conclave, the civilian government. The Conclave makes the day\\-to\\-day decisions about Fleet business: collection of resources, the current course of the Flotilla, policing and so on. Opposition comes from a group called the Outriders' Coalition. The Conclave is overseen by the Admiralty Board, five quarians who can override the Conclave's decisions. Once they have chosen to override the decision, the entire Admiralty Board must resign their posts or be arrested by the quarian military. This rule is in place to ensure that the Admiralty overrides the Conclave only in the most dire situations, when the Conclave is making a mistake that threatens the survival of the quarians as a species. This policy has served the quarians well: in three centuries, the Admiralty Board has only overridden the Conclave four times. Outside the internal politics of the Migrant Fleet, the quarian navy is small, but highly aggressive due to the need to protect ships that effectively safeguard the future of their entire race. If the motives of approaching ships cannot be established, they will shoot to kill.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#01",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch After the Migrant Fleet's admirals briefed Shepard in the Normandy's war room, Shepard was sent to board and disable the geth dreadnought broadcasting the Reaper control signal that had trapped the quarian fleet. Tali'Zorah vas Normandy came as a mandatory squadmate.",
+      "url": "",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "shala-raan-vas-tonbay_001",
+      "kind": "page",
+      "page": "Shala'Raan vas Tonbay",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“We grow tired of wandering the stars, Shepard. We want our world back. We have paid enough for our mistake.” **Admiral Shala'Raan vas Tonbay** is a member of the quarian Admiralty Board. She is an old friend of Tali'Zorah's father, having known the Zorah family for over 25 years. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Shala'Raan_vas_Tonbay",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "scene:idenna-captain-mal-confides-in-kahlee#02",
+      "kind": "scene",
+      "page": "Captain Mal's Warning to Kahlee Sanders",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "idenna-captain-mal-confides-in-kahlee",
+      "text": "Captain Mal's Warning to Kahlee Sanders. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Idenna the quarian cruiser Idenna in the Migrant Fleet At a meeting with Admiralty Board and Conclave representatives, Mal seizes on the mention of the Reapers, arguing the quarians could find and reactivate one to seize control of the geth and retake their homeworlds.",
+      "url": "",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "han-gerrel-vas-neema_001",
+      "kind": "page",
+      "page": "Han'Gerrel vas Neema",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“We're too comfortable now, Shepard. We've got the largest fleet in the galaxy, and we just ride around doing nothing.” **Admiral Han'Gerrel vas Neema** is one of the members of the quarian Admiralty Board. He has had a history of causing trouble along the turian border for a number of years. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Han'Gerrel_vas_Neema",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "zaal-koris-vas-qwib-qwib_001",
+      "kind": "page",
+      "page": "Zaal'Koris vas Qwib-Qwib",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I would argue that the best hope for our people is not to be destroyed in a senseless war. But I fear I am in the minority.” **Admiral Zaal'Koris vas Qwib\\-Qwib** is one of the members of the quarian Admiralty Board. He is outspoken in his sympathetic view of the geth. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Zaal'Koris_vas_Qwib-Qwib",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "scene:alarei-rael-zorah-body#01",
+      "kind": "scene",
+      "page": "Retaking the Alarei, and Finding Rael'Zorah",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "alarei-rael-zorah-body",
+      "text": "Retaking the Alarei, and Finding Rael'Zorah. 2185, during Tali's trial at the Migrant Fleet, the hearing recessed a shuttle from the Rayya, then the geth-overrun quarian lab ship Alarei Mid-trial the Admiralty Board reveals that the lab ship Alarei has been overrun by the reactivated geth and that Rael'Zorah, working aboard, is presumed dead. Tali refuses to accept it. She and Shepard take a shuttle from the Rayya to the Alarei, the hearing recessed until they return.",
+      "url": "",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "summary:ysin-mal-vas-idenna",
+      "kind": "summary",
+      "page": "Ysin'Mal vas Idenna",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Captain Ysin'Mal vas Idenna, usually called Captain Mal, was the quarian captain of the Idenna, a vessel of the Migrant Fleet. Unlike most conservative quarians, he was an aggressive proponent of change, notably advocating long-term missions for ships to leave the Flotilla and search for new homeworlds.\n\nIn Mass Effect: Ascension, Captain Mal welcomed Kahlee Sanders, Hendel Mitra and Gillian Grayson aboard the Idenna but privately warned Kahlee that the Migrant Fleet was less safe than it appeared. During a meeting with Admiralty Board and Conclave representatives he grew excited at mention of the Reapers, suggesting the quarians could find and reactivate one to control the geth and reclaim their homeworlds. He later confided to Kahlee and Hendel that the Flotilla was slowly dying, its ships breaking down faster than they could be replaced. Cerberus then attacked the Idenna; Captain Mal rallied and fought alongside his people but was being overwhelmed until Gillian Grayson intervened and Paul Grayson switched sides, warning them he had planted explosives to cripple the ship. Mal and Hendel disabled the explosives and saved the vessel.\n\nShaken, the Admiralty Board finally approved Mal's proposal, dispatching several cruisers including the Idenna on long-term missions to seek quarian survival through a Reaper or habitable planets. Mal hand-picked a crew of fifty, including Gillian, Hendel and the young quarian Lemm, judged Paul Grayson leniently by making him Kahlee's prisoner, and prepared to lead a five-year mission through a newly activated mass relay into uncharted space. In Mass Effect 2, Captain Ysin'Mal sent Commander Shepard a message of personal thanks for the Normandy SR-2's rescue of Lieutenant Forzan vas Idenna, the sole survivor of the crash of the Cyniad on Gei Hinnom.",
+      "url": "https://masseffect.fandom.com/wiki/Ysin'Mal_vas_Idenna",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "scene:quarian-envoy-admiralty-briefing#01",
+      "kind": "scene",
+      "page": "The Admiralty Board's Ask, and Tali's Return",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "quarian-envoy-admiralty-briefing",
+      "text": "The Admiralty Board's Ask, and Tali's Return. 2186, Priority: Perseus Veil, after the failed Cerberus coup on the Citadel the Normandy's war room, docked with the Quarian Envoy Ship at Dholen in the Far Rim After the failed Cerberus attack on the Citadel, Admiral Hackett told Shepard the quarians would contribute technical specialists and support ships; the Normandy travelled to Dholen and docked with the Quarian Envoy Ship.",
+      "url": "",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "summary:daro-xen-vas-moreh",
+      "kind": "summary",
+      "page": "Daro'Xen vas Moreh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Daro'Xen vas Moreh was a member of the quarian Admiralty Board known for her clinical intellect and keen scientific interest in the geth, whom she regarded as machines built solely to serve their creators. She was said to have performed surgery on her childhood toys without guilt. She wished to return the geth to quarian control.\n\nIn Mass Effect 2, Xen was one of three admirals judging Tali'Zorah's treason trial, alongside Zaal'Koris vas Qwib Qwib and Han'Gerrel vas Neema. She viewed the trial as \"a farce born of fear,\" called Zaal'Koris a coward and Han'Gerrel \"an aging warship,\" and considered war with the geth foolish, though she had no qualms about experimenting on active geth. If Shepard brought Legion, she found it fascinating and mused about experimenting on it, prompting Legion to state it was not available and to call her control plans \"unsound,\" a view Tali shared. Afterward she messaged Shepard that had Rael'Zorah's research been presented, humanity would have benefited; instead the quarians would reclaim their homeworld and the largest synthetic army in the galaxy.\n\nIn Mass Effect 3, Xen's research and development corps created white-noise jamming against geth ladar systems, prompting the Admiralty to vote for war, and she led the Special Projects group. If Tali was absent, Xen provided electronic support during the mission to disable a geth dreadnought, gave Shepard a prototype Arc Pistol, and later left in a geth fighter. She created the Sync Laser marking technology that cut through geth jamming, critical to the assault on the Reaper base on Rannoch. She repeatedly expressed interest in dissecting Legion or the Geth VI, argued with Tali over search-and-rescue versus salvage priorities, and briefed Shepard on the rescue of Admiral Koris. If she survived the geth-quarian war, she was sent to help build the Crucible, where Shala'Raan vas Tonbay described her as dissatisfied with the device but lending her technical skills. She was voiced by Claudia Black.",
+      "url": "https://masseffect.fandom.com/wiki/Daro'Xen_vas_Moreh",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "summary:idenna",
+      "kind": "summary",
+      "page": "Idenna",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Idenna was a starship of the quarian Migrant Fleet, a thirty-year-old decommissioned batarian Hensa-class cruiser with a crew of 693 (compared to about 80 on Alliance cruisers of similar size). She commanded several scout vessels, including the Bavea and the Cyniad.\n\nIn Mass Effect: Ascension, the Idenna served as a refuge for Kahlee Sanders, Gillian Grayson, and Hendel Mitra after they came aboard the Fleet. Her captain was regarded as a maverick and visionary who wanted to use Fleet vessels to search for new homeworlds. After Cerberus attacked the Idenna, the Admiralty Board finally accepted this policy and chose the Idenna as one of the first ships to leave the Flotilla. Her crew was cut from 694 (including newest member Lemm'Shal nar Tesleya) to around 50, and she was extensively refitted with new technology to survive five years without outside contact, a mission likened to Star Trek's Enterprise.\n\nIn Mass Effect 2, the scout Cyniad crashed on Gei Hinnom in the Sheol System, Hades Nexus, killing commanding officer Lieutenant Commander Gorlat vas Idenna; varren then killed the rest of the crew except Lieutenant Forzan vas Idenna, who was rescued by Commander Shepard and the Normandy SR-2. Captain Ysin'Mal vas Idenna sent Shepard a message of thanks for aiding the search for a new quarian homeworld.\n\nIn the first edition of Mass Effect: Deception (acknowledged by BioWare as containing lore discrepancies), the Idenna was attacked by the batarian slave ship Glory of Khar'shan, which used \"drive killers\" to halt her and board. The Idenna's security force, including Gillian Grayson and Hendel Mitra, repelled the boarders and captured the batarian ship. Notable crew also included Seeto'Hodda nar Idenna, Feda'Gazu vas Idenna, Hilo'Jaa vas Idenna, and Lita'Orn nar Idenna.",
+      "url": "https://masseffect.fandom.com/wiki/Idenna",
+      "for_key": "quarian Admiralty Board"
+    },
+    {
+      "chunk_id": "migrant-fleet_001",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Vallhallan Threshold / Raheel\\-Leyya (2185\\); Milky Way / Perseus Veil / Tikkun (2186\\) Also known as the **Flotilla**, the **Migrant Fleet** is the massive collection of starships that became home to the quarians after they were driven from their home world by the geth. The Migrant Fleet consists of roughly fifty thousand ships that house seventeen million quarians in total. The Fleet is so large it can take days for all the ships to pass through a mass relay. Some of the vessels date from the original flight from the geth three centuries ago. The Migrant Fleet is rarely welcoming to outsiders, as any risk to the Fleet is a risk to the quarian species. Quarians rarely leave except to go on Pilgrimage; ships sometimes leave on an individual basis to pursue their own goals, on missions that can last days or years, but usually return. As Tali'Zorah nar Rayya describes her culture: \"Home is a state of mind.\"",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "quarian_010",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "The Migrant Fleet",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*Main article: Migrant Fleet* There are roughly 17 million quarians on the Migrant Fleet (also called the Flotilla). It is technically still under martial law but is now governed by bodies such as the Admiralty Board and the democratically\\-elected Conclave, though ship captains and onboard civilian councils tend to address most issues \"in\\-house\" before it gets that far. Quarians are divided into several clans that can be spread across several ships, or restricted to one.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "migrant-fleet_002",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A fleet of 50,000 craft holding over 17 million quarians, the Migrant Fleet is the largest array of spacefaring vessels in the known galaxy. Though quarians on Pilgrimage have visited most settled worlds in the galaxy, few outsiders have ever stepped foot inside the quarians' ships. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "migrant-fleet_003",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*Prior to the mission Priority: Rannoch:* A flotilla of 50,000 craft holding over 17 million quarians, the Migrant Fleet is the largest array of spacefaring vessels in the known galaxy. It is a testament to the quarians' strategic skill that these numbers have not dropped significantly during recent battles. The fleet is now on the far side of the star from Rannoch, the better to cloak its movement from the geth. *After the mission Priority: Rannoch, if the quarians survive:* Although the Migrant Fleet has suffered losses, it stands ready to assist the rest of the galaxy. The Civilian Fleet, which forms the majority of the flotilla, will remain near Rannoch with a token force of the Patrol Fleet for protection. The remainder of the Patrol Fleet will accompany the Heavy Fleet and its logistics train once they have completed repairs.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "scene:quarian-envoy-admiralty-briefing#04",
+      "kind": "scene",
+      "page": "The Admiralty Board's Ask, and Tali's Return",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "quarian-envoy-admiralty-briefing",
+      "text": "The Admiralty Board's Ask, and Tali's Return. 2186, Priority: Perseus Veil, after the failed Cerberus coup on the Citadel the Normandy's war room, docked with the Quarian Envoy Ship at Dholen in the Far Rim Taken aside, Tali squares things with Shepard about the trial. If she was never exiled she admits he was right — \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" — and says she took her father's Admiralty seat specifically to push back on the Board's worst ideas, people like Daro'Xen. She doubts she is fit for it, with seventeen million lives riding on her; only Shepard and Shala'Raan reassure her. If she was exiled, she instead tells Shepard the trial showed her she belongs \"on the Normandy, helping you,\" aiding the Fleet from the shadows.",
+      "url": "",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_003",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "Feelings of inadequacy",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tali doubts her fitness to command: \"I'm far too young to be a real Admiral… seventeen million lives are riding on me and I don't know if I can save them.\" Only Shepard and Shala'Raan reassure her. She is now responsible for honoring her father properly while making sure people like Daro'Xen do not misuse his research — and she implies Rael's work is what still makes the invasion possible, something that will haunt the flotilla, and her, for the rest of her life.",
+      "url": "",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "starships-list_035",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Iktomi",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class N/A Affiliation Migrant Fleet A ship in the quarian Migrant Fleet held in high regard by Admiral Zaal'Koris vas Qwib Qwib. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "scene:idenna-seeto-tour-quarian-culture#01",
+      "kind": "scene",
+      "page": "Seeto Tours the Idenna, Sharing Quarian Life",
+      "section": "hangout",
+      "game": "Mass Effect",
+      "scene_id": "idenna-seeto-tour-quarian-culture",
+      "text": "Seeto Tours the Idenna, Sharing Quarian Life. 2183, during Mass Effect: Ascension, when Kahlee Sanders is released from quarantine aboard the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — Seeto's quarters and the trading deck During Kahlee Sanders' quarantine aboard the Migrant Fleet, Seeto'Hodda nar Idenna befriended her. The young quarian security officer was exuberant and curious, and Kahlee appreciated his enthusiasm. Seeto greatly admired his captain, Ysin'Mal vas Idenna, and shared the captain's belief that the Fleet needed to change its policies to survive.",
+      "url": "",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "migrant-fleet-marines_001",
+      "kind": "page",
+      "page": "Migrant Fleet Marines",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Migrant Fleet Marines** is a military body within the quarian Migrant Fleet that is tasked with naval\\-infantry and police operations. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet_Marines",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "heretic-station_002",
+      "kind": "page",
+      "page": "Heretic Station",
+      "section": "Description",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Once called Haratar by the quarians, this space station was stripped of its useful technology by the fleeing Migrant Fleet when they left the Perseus Veil 300 years ago. Little more than a cold metal superstructure floating in the void, the station was removed from star charts by 2050 CE. Scans indicate the station was reconstructed and upgraded in a massive effort that must have taken at least ten years, implying that there may have been some geth outside the Veil before their infamous attack on Eden Prime. Needing little but a fuel source, it could have been hidden here for much longer without attracting attention from the barren worlds around Tassrah or the clueless elcor in the Salahiel system. **Heretic Station**, as Legion refers to it, is home to a geth data core, capable of broadcasting vast distances through tightbeam projection. Approximately 6\\.6 million copies of geth software are stored in the station, the majority of which are kept bodiless in servers and downloaded to legged platforms when needed. The station's \"population\" of legged platforms is approximately 2\\.4 million. - **Total Length:** 20\\.5 km - **Total Width:** 11\\.3 km - **Total Height:** 11\\.3 km - **Exterior Armor Thickness:** 8 m - **Gross Weight:** 1\\.55 billion metric tons - **Population:** 6\\.6 million copies, 2\\.4 million platforms, 1 million of which are in storage.",
+      "url": "https://masseffect.fandom.com/wiki/Heretic_Station",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "scene:idenna-seeto-tour-quarian-culture#02",
+      "kind": "scene",
+      "page": "Seeto Tours the Idenna, Sharing Quarian Life",
+      "section": "hangout",
+      "game": "Mass Effect",
+      "scene_id": "idenna-seeto-tour-quarian-culture",
+      "text": "Seeto Tours the Idenna, Sharing Quarian Life. 2183, during Mass Effect: Ascension, when Kahlee Sanders is released from quarantine aboard the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — Seeto's quarters and the trading deck When Kahlee was finally released from quarantine, Seeto gave her, Hendel Mitra, and Gillian Grayson a brief tour of the Idenna. The tour included his own sleeping quarters and the ship's trading deck, offering them insight into quarian culture and life aboard the Migrant Fleet.",
+      "url": "",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "scene:idenna-cerberus-assault-grayson-kills-golo#02",
+      "kind": "scene",
+      "page": "The Cerberus Assault on the Idenna",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "idenna-cerberus-assault-grayson-kills-golo",
+      "text": "The Cerberus Assault on the Idenna. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — the isolation shuttle, Seeto'Hodda nar Idenna's quarters, and a corridor Just as the quarians reached a decision, the Idenna came under attack. Paul Grayson had followed his daughter to the Migrant Fleet with a squad of Cerberus commandos, travelling from Omega in the stolen Cyniad alongside Golo, and boarded the Idenna using Hilo'Jaa's code phrases. Armed by Cerberus, Golo killed many of the Idenna's crew in the surprise assault.",
+      "url": "",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "summary:heretic-station",
+      "kind": "summary",
+      "page": "Heretic Station",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Heretic Station was a geth space station in the Sea of Storms system of the Phoenix Massing cluster, accessible during the mission Legion: A House Divided. Once called Haratar by the quarians, it was stripped of its useful technology by the Migrant Fleet when they fled the Perseus Veil roughly 300 years earlier, leaving little more than a cold metal superstructure that was removed from star charts by 2050 CE. Scans indicated it had been reconstructed and upgraded over an effort of at least ten years, implying some geth existed outside the Veil before their attack on Eden Prime; needing only a fuel source, it could have remained hidden near the barren worlds of Tassrah or the elcor of the Salahiel system.\n\nCalled \"Heretic Station\" by Legion, it housed a geth data core capable of tightbeam broadcasting over vast distances. It stored roughly 6.6 million copies of geth software, most kept bodiless in servers and downloaded to legged platforms as needed, with about 2.4 million platforms present (1 million in storage). The station measured 20.5 km long, 11.3 km wide and tall, with 8 m of exterior armor and a gross weight of 1.55 billion metric tons. It was the setting of the mission Legion: A House Divided.",
+      "url": "https://masseffect.fandom.com/wiki/Heretic_Station",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-04",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The fourth part of a hand-corrected video-essay character analysis covered Tali'Zorah in Mass Effect 3. If she survived the Suicide Mission, she apologized to Shepard for the trial and admitted he had been right: \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" She took an Admiral's seat in her father's place specifically to push back against the Board's worst ideas, the version of Tali the essayist preferred. If exiled, she instead told Shepard the trial had shown her she belonged \"on the Normandy, helping you,\" aiding her people from the shadows.\n\nAs Admiral she doubted her fitness to command, with seventeen million lives riding on her. After speaking with Legion she believed the quarians could sue for peace, but once Daro'Xen turned Rael'Zorah's research into \"an invasion too good to pass up,\" Tali had no choice but to support it \"for the good of the Fleet,\" regressing toward the sacrificial lamb of ME2 and becoming a near-powerless victim of politics again. The essay noted quarian scarcity: 17 million in the flotilla, one child per family unless the population declines, every quarian contributing to the Fleet's survival. Shala'Raan was the reason Tali was permitted to attempt to retake the Alarei.\n\nAt the Rannoch climax Shepard chose between peace, geth genocide, or quarian genocide. Siding with the quarians, Tali killed Legion (or shut the geth down) with a \"flat shovel blade,\" expressed regret, and answered Legion's last question, \"Does this unit have a soul?\", with \"Yes... yes, it does.\" Siding with the geth, Tali begged Shepard not to choose them over her people, then as Admiral called off the quarian fleet's attack while Legion sacrificed himself to disseminate the code. On the botched path, unable to stop Han'Gerrel, Rael and Daro'Xen, Tali watched what remained of the quarian fleet burn in Rannoch's atmosphere, Captain Ysra of the Rayya on the radio, and took her own life before her home ship burned. Afterward, if the geth helped rebuild Rannoch, Tali admitted: \"I'd have killed the geth with no regrets, and I'd have been wrong.\"",
+      "url": "",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "summary:han-gerrel-vas-neema",
+      "kind": "summary",
+      "page": "Han'Gerrel vas Neema",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Han'Gerrel vas Neema was a member of the quarian Admiralty Board and commander of the Heavy Fleet. He had a long history of provoking trouble along the turian border. A committed advocate of reclaiming the quarian homeworld, he argued that the Migrant Fleet had the largest fleet in the galaxy yet did nothing with it; Tali'Zorah countered that the ships might be needed against the Reapers, and he replied the quarians would need a homeworld to shelter non-combatants. Daro'Xen vas Moreh derisively called him \"an aging warship,\" and he in turn dismissed Admiral Zaal'Koris vas Qwib Qwib as a \"whining suit-wetter.\"\n\nHan'Gerrel was a friend of Tali's father, Rael'Zorah, having served with him aboard the gunship Yaska before their Pilgrimage. During a batarian raid that killed six of ten crew, the two, left alone on the bridge and under orders to hold position, disobeyed to recover a tramp freighter; they received medals and were sent on Pilgrimage early. During Tali's treason trial on the Migrant Fleet, Han'Gerrel sympathized with her and believed her innocent. He was the one person Shepard and Tali could confide in about the nature of Rael's experiments on the Alarei; despite his pro-war stance the experiments horrified him, and he vowed to keep the truth quiet to protect what Rael had wanted for the fleet.\n\nHan'Gerrel was among the admirals who pushed for war against the geth, driving the synthetics to ally with the Reapers and trapping the Migrant Fleet within the Perseus Veil. When Shepard helped disable a geth dreadnought, Han'Gerrel ordered the fleet to press the attack on the geth flagship while Shepard's squad was still aboard. Back on the Normandy, Hackett and Shala'Raan condemned his recklessness, Raan threatening a treason charge. Shepard could hear his explanation or punch him and send him off the ship. He later clashed with Raan over comm about fleet maneuvering. After the Reaper controlling the geth was destroyed, Han'Gerrel ordered an all-out attack on the disabled geth fleet; whether he broke off depended on Shepard having earned the quarians' trust, and if not, the assault destroyed the entire Migrant Fleet.",
+      "url": "https://masseffect.fandom.com/wiki/Han'Gerrel_vas_Neema",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "summary:hilo-jaa-vas-idenna",
+      "kind": "summary",
+      "page": "Hilo'Jaa vas Idenna",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Hilo'Jaa vas Idenna was the quarian pilot of the Cyniad, a scout ship of the Migrant Fleet cruiser Idenna, in 2183. He piloted the Cyniad to a rendezvous with the quarian criminal Golo on the planet Shelba, but the meeting was an ambush orchestrated by the human Cerberus agent Pel. Hilo's crew was killed and he was captured, intended to provide the access codes Cerberus needed to reach the Migrant Fleet.\n\nGolo, out of spite, cracked Hilo's faceplate after Hilo addressed him as \"Golo vas Nedas\" and called him a traitor. With his environmental suit compromised, Hilo contracted several severe alien diseases and fell into a fever, complicating Pel's interrogation on Omega and leading Pel to resort to brutal torture. When Pel received a better offer from the Collectors, Hilo was abandoned and left for dead in Pel's warehouse. Another Cerberus agent, Paul Grayson, found him delirious and repeating the Cyniad's pass phrase. After giving Grayson the Idenna's frequency, 43223, and the pass phrase \"My body travels to distant stars, but my soul never leaves the fleet,\" Hilo'Jaa vas Idenna died of his sickness and injuries.",
+      "url": "https://masseffect.fandom.com/wiki/Hilo'Jaa_vas_Idenna",
+      "for_key": "Migrant Fleet seventeen million"
+    },
+    {
+      "chunk_id": "war-assets-asari_014",
+      "kind": "page",
+      "page": "War Assets/Asari",
+      "section": "Asari Engineers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: The scanning of the planet Trikalon, Ialessa, Athena Nebula **Military Strength:** 30 The graceful, soaring spires common to asari architecture look deceptively delicate. But Thessia's palaces, universities, and theaters have stood longer than most civilizations. Asari architectural engineers dispatched to the Crucible are testing the weapon's construction to make sure it can withstand tremendous amounts of pressure. If built improperly, stress could tear the Crucible in half upon activation.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Asari",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "war-assets-crucible_018",
+      "kind": "page",
+      "page": "War Assets/Crucible",
+      "section": "Reaper Brain",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Save the Collector Base in Mass Effect 2 and complete Priority: Cerberus Headquarters. Along with its base value, it also lowers the EMS requirements for the best \"control Reapers\" ending. **Military Strength:** 110 The Illusive Man salvaged the most valuable part of the human proto\\-Reaper under construction by the Collectors: its central processor. This \"brain\" has been reactivated for use as a computational device, crunching unheard amounts of data in nanoseconds. The Crucible's engineers are dissecting the processor, working in strictly supervised, drone\\-assisted shifts. While direct contact with Reapers is dangerous, the engineers feel the risk is worth the potential discovery of vulnerabilities in Reaper construction.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Crucible",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "priority-perseus-veil_001",
+      "kind": "page",
+      "page": "Priority: Perseus Veil",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarian fleet offers both technical specialists and support ships to assist with the Crucible. Meet the quarian admirals and obtain their help in the war effort.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Perseus_Veil",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "war-assets-asari_013",
+      "kind": "page",
+      "page": "War Assets/Asari",
+      "section": "Asari Cruiser Cybaen",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: The scanning of the planet Tevura, Parnitha, Athena Nebula **Military Strength:** 30 The Cybaen is an asari cruiser\\-class warship. A mix\\-up during the cruiser's construction left it with an unusually large drive core and engineers redesigned the ship around the excessive power source. The Cybaen's unusually robust engines provide enough energy to generate kinetic barriers normally reserved for dreadnoughts.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Asari",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "crucible_006",
+      "kind": "page",
+      "page": "Crucible",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The classical definition of the word \"crucible\" is '\"a severe test, as of patience or belief; a trial.\" or \"a ceramic or metal container in which metals or other substances may be melted or subjected to very high temperatures.\" Both definitions are fitting for the superweapon; it is both a test of galactic unity and a project which every race must pour its resources into. - In The Art of the Mass Effect Universe, it is explained that the Crucible's design is meant to evoke an enormous, rocket\\-propelled bomb likened to a cross between a Trinity bomb and a NASA space probe. - The Crucible is visible as a hologram in the background of the Mass Effect 3 main menu. Similar holograms can be seen in the Normandy's War Room, showing the progress of the device's construction as the game itself progresses forward. - If Mordin Solus joins the workforce constructing the Crucible, he sends a subsequent email to Commander Shepard describing the immense and complex project. He compares the Crucible's construction with the human biblical story of the Tower of Babel, as a metaphor for the co\\-operation between multiple species toward a single goal. - Writer Chris Hepler planned to make three Codex entries on the Crucible instead of one, where its features are gradually understood as its construction progresses. The Crucible was supposed to be capable of harnessing the strong nuclear force as a weapon, emitting a burst of energy harmless to objects mostly composed of low atomic weights like carbon (Ar, std(C) \\= 12\\.011\\). Hepler and fellow writer Ann Lemay theorized niobium (Ar, std(Nb) \\= 92\\.90637\\) would be the cutoff point: it is used in surgical implants and could represent what future cybernetics would be composed of, which Shepard has in abundance, and they were slated to die heroically upon the Crucible's activation in most outcomes. Before Hepler could finish the second Codex entry, however, the Destroy/Control/Synthesis scenarios were already locked in. The basic concepts were subsequently recycled into the Reaper Blackstar's workings. - The inspiration behind this undeveloped exploration of the Crucible's science was a similar superweapon from Nancy Kress' novel Probability Moon. - After being sent an overview of the endings by Project Director Casey Hudson, Animation Director Dave Wilkinson chose the red, blue, and green Crucible activation colors as an easy way of differentiating the scenarios from each other during storyboarding, not necessarily expecting them to turn up in the final product. Blue and red represent Paragon and Renegade choices, respectively, while green was merely designated as the \"other one\".",
+      "url": "https://masseffect.fandom.com/wiki/Crucible",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "codex-technology_010",
+      "kind": "page",
+      "page": "Codex/Technology",
+      "section": "The Crucible",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: The Crucible | | --- | --- | The Mars Archives describe a superweapon that the Alliance has named the Crucible, which exploits the technology of mass effect relays. Beyond the basic principles, however, researchers know little about how the weapon actually works. One popular theory suggests that since relays can transfer matter and energy across the galaxy with little regard for distance, it may be possible to create a weapon for which range is barely a factor. Duplicating the advanced science used to build the relays has proven difficult, however. If the Crucible were completed, the challenge would become tuning the weapon to kill a Reaper halfway across the galaxy without inflicting unthinkable levels of collateral damage. What is clear is that the Crucible's construction is a massive effort, drawing resources from throughout explored space. Staggering financial costs have been disregarded in the common effort to create something, anything, that can stop the Reapers.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Technology",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "war-assets-crucible_002",
+      "kind": "page",
+      "page": "War Assets/Crucible",
+      "section": "Advanced Starship Fuel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Complete N7: Fuel Reactors **Military Strength:** 75 Helium\\-3 is used to power the vast majority of commercial starships. Chemical engineers on Cyone added experimental mixtures of compounds to the gas to make a more efficient fuel for ships traveling long distances. One of their new formulas is used in ships transporting major loads of material to the Crucible, speeding up the building process.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Crucible",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "war-assets_002",
+      "kind": "page",
+      "page": "War Assets",
+      "section": "War Assets",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "War Assets and their total military strength can be inspected using the War Terminal located in the War Room on the second deck of the Normandy. - Alien - Alliance - Asari - Crucible - Ex\\-Cerberus - Geth - Krogan - Quarian - Salarian - Turian",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "summary:war-assets-turian",
+      "kind": "summary",
+      "page": "War Assets/Turian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list collected the Turian Hierarchy's fleets and soldiers, needed to fight the largest war in galactic history. The 79th Flotilla (40), distinguished at Digeris during the Krogan Rebellions, relied on speed and stealth to harass enemy ships. The Sixth Fleet (135), the largest concentration of dreadnoughts of any known species and normally a Citadel peacekeeping fleet, was unlocked by Priority: The Citadel II; choosing the Volus Bombing Fleet over saving the colony in Citadel: Volus Ambassador cost it 10. The Seventh Fleet (90) was assigned to guard the Crucible during its construction and deployment; recovering the Banner of the First Regiment added 40, and shipping dextro medi-gel added 5.\n\nGround assets included the 43rd Marine Division (90), founded during Palaven's Unification Wars and experienced in joint operations with allied militaries; the Turian Engineering Corps (110), which had repaired Sovereign's damage to the Citadel in record time and viewed the Crucible as a career challenge; and Turian Blackwatch (75), an elite special-operations force pulled from Palaven by Primarch Adrien Victus, with rumors that Saren Arterius had served in it before becoming a Spectre. The Turian Spec Ops Team (40) under Guard Captain Vidinos had hunted separatist leaders during the War on Taetrus, where separatists rammed an FTL ship into the capital. The Leviathan DLC added Dextro Rations (10) from the agribusinesses of Triginta Petra, favored by turian and quarian troops and useful for restoring squad morale.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Turian",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "summary:war-assets-ex-cerberus",
+      "kind": "summary",
+      "page": "War Assets/Ex-Cerberus",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list collected the personnel, data and equipment that skilled operatives took with them when they abandoned Cerberus as the Illusive Man's methods grew more extreme. Equipment assets came from N7 missions: Cerberus Research Data (50), reports on Reaper unit composition used by Alliance military VIs, and an Advanced Fighter Squadron (75), fast fuel-efficient one-person craft captured on Noveria, repainted and pressed into Alliance service after being swept for bugs.\n\nPersonnel assets largely came from the Arrae: Ex-Cerberus Scientists mission. Ex-Cerberus Scientists (25) rescued from Gellix joined the Crucible project, as did their leader Dr. Brynn Cole (25), who had studied Collector technology and helped dozens of families flee Cerberus. Dr. Gavin Archer (25), a synthetic intelligence specialist from Terra Nova, contributed insights into parallel processing and the geth after David Archer was dealt with in Overlord and Grissom Academy was completed. Jacob Taylor (25) joined after an attack on a former-operative safehouse, working as a consultant on Cerberus tactics; he declined reinstatement into the Alliance marines.\n\nEx-Cerberus Engineers (10) were contacted by Kelly Chambers, who convinced former Cerberus engineers to come out of hiding and help build the Crucible. Miranda Lawson (25), the operative who led the Lazarus Cell that revived Shepard, brought extensive knowledge of the Illusive Man's operations to the Alliance. Cerberus Escapees (40-120, with a bug allowing 160), humans and aliens who broke out of a secret Cerberus holding facility, could be obtained only through the now-unavailable Mass Effect: Infiltrator mobile game.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Ex-Cerberus",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "summary:vendetta",
+      "kind": "summary",
+      "page": "Vendetta",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Vendetta was a Prothean Virtual Intelligence residing within a Prothean beacon in the Temple of Athame on Thessia. It was modeled after Pashek Vran, the overseer of the Protheans' Crucible project, and held valuable information about the Crucible's construction and implementation. During the Reaper assault on Thessia in 2186, Commander Shepard activated Vendetta. After verifying it was in a post-Prothean cycle and detecting Reapers, it attempted to shut down, declaring the cycle had reached its \"extinction terminus,\" but Shepard urged it to wait.\n\nVendetta explained that the Crucible was not of Prothean design, and that the Protheans' attempt to use it had been sabotaged by an indoctrinated splinter group who argued the Reapers should be controlled rather than destroyed, much like Cerberus. It said the Protheans had found that similar patterns of evolution and dissolution recurred in every galactic cycle, too similar to be coincidence, and inferred the Reapers were merely \"servants\" of that pattern, not its creators, its intention being galactic annihilation. If Javik was present, Vendetta identified him as Prothean and revealed it had known of his mission. It agreed to help with the Catalyst once the Crucible was complete, then detected the indoctrinated Kai Leng and entered a fail-safe mode; Kai Leng, aided by an A-61 Mantis Gunship, defeated Shepard, took the VI, and delivered it to the Illusive Man.\n\nAt Cronos Station, Shepard learned from Vendetta that the Catalyst was the Citadel itself, which enhanced dark energy emissions and coordinated the mass relay network to extend the Crucible's range. Vendetta had been programmed to withhold this so the Reapers would not learn of it before the Crucible was finished, but the Illusive Man broke its security and informed the Reapers, who seized the Citadel and moved it into orbit of Earth. After Kai Leng's death, Vendetta reported the Reapers were preparing to complete the harvest of humanity and recommended preserving information for the next cycle. Like the other Prothean VIs Vigil and Victory, its name began with the letter V.",
+      "url": "https://masseffect.fandom.com/wiki/Vendetta",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "summary:kenn",
+      "kind": "summary",
+      "page": "Kenn",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Kenn was a young quarian merchant who ran Kenn's Salvage on Omega station. He had come to Omega during his Pilgrimage but became stranded when all his money was stolen and he could no longer afford passage off the station. A rival merchant, Harrot, kept him from earning enough by forcing him to sell his goods at inflated prices, costing him business. Kenn sold the T6-FBA coupling that the Normandy SR-2's engineers needed to ease their maintenance work.\n\nIf asked, Kenn told Commander Shepard about his situation. Shepard could persuade him to lower his prices, or intimidate Harrot into nullifying their agreement so Kenn could set his own prices, after which a grateful Kenn offered a discount. Kenn still needed a thousand credits for passage off Omega, which Shepard could pay. If Shepard instead convinced Harrot to buy out Kenn's shop, the quarian disappeared from his kiosk but Harrot's store-wide discount applied to the former shop. If Shepard simply gave Kenn the fare without haggling, he left with no discount offered.",
+      "url": "https://masseffect.fandom.com/wiki/Kenn",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "scene:omega-shanks-tiran-zeta-final#02",
+      "kind": "scene",
+      "page": "Tiran Unmasked; Final Confrontation with Agent Zeta",
+      "section": "argument",
+      "game": "Mass Effect",
+      "scene_id": "omega-shanks-tiran-zeta-final",
+      "text": "Tiran Unmasked; Final Confrontation with Agent Zeta. during Andromeda Initiative recruitment mission, Omega Omega Once Shanks has calmed, Tiran tells her his story and she shares her own: how Jien Garson recruited her from her father's construction company, where she worked as a biotic laborer because her father had no male heir. Garson saw her potential and hired her on the spot despite the failed construction bid. Shanks worries Garson's judgement has finally faltered in trusting Tiran. Tiran counters that Garson may know something they do not.",
+      "url": "",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "scene:omega-kenn-salvage-shop#02",
+      "kind": "scene",
+      "page": "Haggling With Kenn at His Salvage Shop",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-kenn-salvage-shop",
+      "text": "Haggling With Kenn at His Salvage Shop. 2185, Omega station, during the recruitment phase for the Suicide Mission Kenn's Salvage shop, Omega Kenn also sells the T6-FBA coupling that the Normandy SR-2's engineers need to ease their maintenance work. If asked, Kenn tells Shepard about his situation with Harrot.",
+      "url": "",
+      "for_key": "Crucible construction quarian engineers"
+    },
+    {
+      "chunk_id": "starships-list_154",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Yaska",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class Gunship Affiliation Migrant Fleet A gunship piloted by Admiral Rael'Zorah and Admiral Han'Gerrel vas Neema as young trainees to defend against a batarian attack. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#10",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber If Kal'Reegar lived through Haestrom, he is in the crowd — one of the few quarians who openly respects Tali — and can be called as a character witness. Asked what the quarians should do about a homeworld, he says a war with the geth to retake it would be futile and bad for the Fleet, though he would never shirk his duty. Raan and Gerrel seek out his read on the trial and take his advice to let Tali retake the Alarei to win the crowd. If Shepard rallies the room, Reegar steps up beside Veetor'Nara, says Tali has done more for the Fleet than any admiral, and that if she is exiled he should be too. Afterward he tells Tali he only spoke because Shepard did, and notes she never mentioned her evidence.",
+      "url": "",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "tali-treason_004",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "The Rayya",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Normandy arrives at the Migrant Fleet. There is suspicion because it is a registered Cerberus vessel, but Tali's passphrase allows the ship to proceed to dock with the ship Rayya. Captain Kar'Danna with a marine detail greets Commander Shepard. If Shepard arrived with Legion, they will have their weapons aimed at the squad. Shepard can use Charm or Intimidate to convince Captain Danna to allow Legion aboard. Otherwise, Legion must return to the Normandy and another squad member selected. Captain Danna reveals that the charges are that Tali smuggled active geth into the fleet. On the orders of her father, Admiral Rael'Zorah, Tali had been sending deactivated geth samples to the fleet. When questioned further, Tali insists she took every precaution to ensure the materials were not dangerous. At the garden plaza where Tali is to be tried, Admiral Shala'Raan greets Tali as \"Tali'Zorah vas Normandy\". Tali hugs the Admiral, calling her \"Auntie Raan,\" and then introduces the Admiral to Shepard as a friend of her father. Tali then reacts to Raan calling her \"vas Normandy\"; it turns out Tali has been stripped of her quarian ship's name, something that portends badly for her chances in her upcoming trial. Raan then reminds Tali that she is still entitled to be represented at the hearing by her current ship's captain: Shepard. The Commander's reaction to being Tali's defense lawyer can garner 2 Paragon or Renegade points. After the conversation ends, Tali and her new advocate make their way into the crowded hearing chamber. Admiral Raan, forced to recuse herself from judging Tali's guilt or innocence due to their close relationship, opens the proceedings. Shepard may use Charm or Intimidate in two separate dialogue choices to gain morality points. The admirals sandbag Tali with the revelation that the lab ship Alarei has been overrun by geth, demanding an explanation. Tali's father, who was working on board, is presumed dead, but Tali, shocked by the news, refuses to accept this and wants to board the ship to look for him. Shepard and Tali propose to retake the Alarei, which the admirals approve. The hearing is recessed pending the recovery of the Alarei and any data that might reveal what truly happened on it. For additional story details and occasional morality points, Shepard can talk with the admirals, Veetor, and Kal'Reegar, if he survived Haestrom. The latter two are strongly supportive of Tali and had come to speak publicly on her behalf, but only if two conditions are met: Veetor was not given over to Cerberus, and Kal'Reegar is alive. Shepard learns that the hearing is a facade for the members of the Admiralty Board to advance their own individual agendas; Tali's guilt or innocence is of only secondary importance. Admiral Xen wants to study AI to regain control of the geth; she will be particularly fascinated by Legion if it is present. Admiral Gerrel advocates a war to retake the quarian home world, believing that the quarians have become complacent as a people. Admiral Koris sympathizes with the geth and believes that Tali and her father need to be made examples of to send a larger message about the evils the quarians inflicted upon their \"children\". Admiral Raan alone appears to be acting out of concern for Tali, admitting that she deliberately prevented Tali from being informed about her father's likely death so that her genuine shock at the news during the trial would garner sympathy and make the other admirals more likely to allow her to board the Alarei to find evidence that could exonerate her. Shepard can also return to talk to Captain Danna, but Shepard will not be able to return to the Normandy or request new squad members.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "rannoch-admiral-koris_008",
+      "kind": "page",
+      "page": "Rannoch: Admiral Koris",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- If Admiral Koris dies, the Quarian Civilian Fleet War Asset will be reduced by 75 Military Strength. Also, depending on your other choices, it may not be possible to make peace between the quarians and geth at the end of Priority: Rannoch. - If Admiral Koris survives, he is added as a War Asset worth 25 Military Strength. - If Javik is present, he will be found in the AI Core arguing with EDI. Shepard can choose to \"support\" one or the other. - Regardless of which mission you do first (Rannoch: Geth Fighter Squadrons or **Rannoch: Admiral Koris**), the two arguments below will occur in this order: - After the first completed mission, Admiral Raan starts arguing with Admiral Gerrel. Shepard can choose to \"support\" one or the other. Supporting Admiral Raan **reduces** the value of the Quarian Heavy Fleet war asset by 10\\. Supporting Admiral Gerrel **increases** the value of the same by 25\\. - After the second completed mission, Admiral Xen starts arguing with Tali. Shepard can choose to \"support\" one or the other. Supporting Admiral Xen gives you the Advanced AI Relays war asset worth 45 war assets, meanwhile supporting Tali will provide 2 Paragon points.",
+      "url": "https://masseffect.fandom.com/wiki/Rannoch:_Admiral_Koris",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_042",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Rannoch Side Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Talk to Admiral Raan and Legion/Geth VI about Old Machine upgrades to the geth (after the first of the two side missions) - 2 Paragon for saying \"Good. We can end this war.\" - 2 Renegade for saying \"Good. We can destroy the geth.\" - Say \"Is that a problem?\" - 2 Paragon for saying \"I agree.\" - 2 Renegade for saying \"No.\" plus - 2 Paragon for saying \"I don't want them destroyed.\" - 2 Renegade for saying \"The geth need to die.\" - 5 Renegade for Renegade interrupt. Admiral Gerrel and Admiral Raan arguing about using the Patrol fleet to protect the Heavy fleet (after the first of the two side missions) - 2 **Reputation** for supporting either. Tali and Admiral Xen arguing about whether to send ships to salvage lifepods or geth dreadnought technology (after the second of the two side missions) - 2 Paragon for supporting Tali. - 2 Renegade for supporting Xen.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_008",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Tali'Zorah vas Normandy.* “Shepard, I backed you when I was just a kid on her Pilgrimage. I backed you when the Normandy was a Cerberus ship. What kind of friend would I be if I didn’t back you now?” If she joined Shepard's team to fight the Collectors and survived the suicide mission, Tali returns to the quarian fleet following Shepard's return to the Alliance. Due to her expertise with the geth, the Admiralty Board requests Tali's assistance in their campaign to retake Rannoch. If Tali was not previously exiled from the fleet, the Admiralty Board appoints her as admiral in place of her father; otherwise, Tali lends her aid in secret. Tali reunites with Shepard when the Normandy joins the quarians in the war against the geth. In the Normandy's conference room, they exchange introductory pleasantries after meeting with the admirals. If Shepard inquires why she never called earlier, Tali replies that she's aware of the Commander's own problems back on Earth, though if Shepard only cares about obtaining the quarian fleet Tali replies more apprehensively but assures the Commander they'll get what they want. Shepard also voices the assumption that she'd support the invasion, though if Tali interacted with Legion she began thinking there may be a chance for peace. Otherwise, she says she didn't think the quarians were strong enough to take on the geth. Shepard presses the issue: if Tali is an admiral, she says public disagreement among the higher\\-ups would divide the fleet. If she is the \"dirty little secret\", she still feels she owes her people. With the chat over, Tali leaves with a hint for catching up in private as she says she needs to keep things strictly business in front of the admirals. While the geth\\-quarian war is ongoing she takes up residence in the Normandy's war room along with Admiral Raan. If Shepard permits the private talk in the Captain's Cabin, Tali immediately voices the doubts she couldn't openly express. She feels the pressure of having 17 million lives counting on her decisions. If Shepard \"comforts\" her by urging acceptance of the fact people will die, Tali is reminded by something her father said: commanders mourn losses, not people. Putting people at a distance was a requisite for making the big decisions, and Tali thinks she can't do that. If Tali's just friends with Shepard and the Commander assures her she's doing everything she can, she feels regret at helping her father's research on the geth as the tech derived from his work made an invasion too good to pass up. If the evidence against Tali's father was turned over to the Admiralty Board, she apologizes to Shepard and admits that they were right. Had she been exiled, she wouldn't have been able to speak out against lunatics like Xen. If Tali was exiled, however, she muses instead that maybe exile was preferable, as that way she won't expect people to listen to her. If Tali became admiral, she takes solace in the fact she can now push back against the worst ideas, and reveals she accepted the position because of Shepard. Tali asked herself what the Commander would do, and interpreted it as taking the chance to make things better. Tali serves as the geth software expert in the team that infiltrates the geth dreadnought, and participates in the mission to deactivate transmission of the Reaper signal controlling the geth. Shortly before storming the Reaper base housing the signal on Rannoch, she marvels at the experience of setting foot on the home of her ancestors, taking in the sweeping vistas of the place. Tali claims a spot of land, hopeful that she'll have a home at the conclusion of the war. With the quarians having been nomads for centuries, Shepard asks if they can go back to living in one place. Tali replies that they've gotten used to carrying their homes with them. Shepard bends down, picks a rock, and hands it over to Tali in a symbolic gesture, who remarks that it's a start. Following the destruction of the Reaper on Rannoch, the geth are weakened and Admiral Han'Gerrel launches a full strike. The geth unit Shepard and Tali rescued from the geth dreadnought, either Legion itself, or a Geth VI constructed in its likeness, attempts to upload the Reaper code to augment all intelligences of the geth collective: an act that would restore the geth to full strength, catching the quarian fleet unaware and leading to their destruction. If Shepard allows the geth to be upgraded, Tali watches in horror as she witnesses the entirety of the Migrant Fleet crash and burn up in Rannoch's atmosphere.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "war-assets-crucible_017",
+      "kind": "page",
+      "page": "War Assets/Crucible",
+      "section": "Advanced AI Relays",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Support Admiral Xen over Tali (does not get added until after Priority: Rannoch) **Military Strength:** 45 Admiral Xen's research teams salvaged advanced AI relays from the wreckage of the geth's dreadnought flagship. Xen used the valuable technology to write a custom VI that oversees the energy output of the Crucible's fusion reactors and adjusts itself automatically.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Crucible",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#03",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber The charge is smuggling active geth into the Fleet. Tali had been sending deactivated geth samples home on the orders of her father, Admiral Rael'Zorah, and insists she took every precaution.",
+      "url": "",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "shala-raan-vas-tonbay_002",
+      "kind": "page",
+      "page": "Shala'Raan vas Tonbay",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tali calls her \"Auntie Raan.\" She and Tali's mother synchronised suits so that they could be in the same clean room for Tali's birth. As a result, she was sick for a week. Raan was the one who placed Tali in her bubble, an environmental unit quarian infants wear. When Tali'Zorah vas Neema is accused of treason against the quarian people, Admiral Raan is seen presiding over her hearing, but had to recuse herself from taking part due to her relationship with the Zorah family. She instead acts as the moderator and the spokesman for the trial. She doesn't inform Tali about the geth attack on the Alarei when she comes aboard the Rayya; instead she reveals this during the opening proceedings to ensure Tali displayed surprise and dismay, something which Raan hopes will convince the judges to let Tali prove her innocence. She is undecided on the geth, not siding with any of the other admirals. Depending on Commander Shepard's actions on Tali's behalf, the Admiral announces the result of the trial: Tali is guilty and sentenced to exile, or the Board has acquitted her of all charges. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Shala'Raan_vas_Tonbay",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#06",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London If the geth wiped out the quarians at Rannoch, a Geth Prime stood in the final room where Tali would be; if the quarians won but Tali had died in Mass Effect 2, Admiral Raan took that place instead.",
+      "url": "",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#06",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Admiral Zaal'Koris vas Qwib-Qwib, the Board's outspoken geth sympathiser, objects to Shepard defending Tali at all — \"a human has no business in such sensitive military matters\" — and Shala'Raan overrules him, since Koris himself declared Tali crew of the Normandy SR-2. If Legion is present he objects instead that the geth should be removed from the courtroom, accusing Tali of trying to intimidate the admirals, and withdraws when reminded the Rayya's captain permitted Legion aboard. Later, quick to assume Shepard and Tali died retaking the Alarei, he moves to have Tali posthumously exiled, drawing sharp objections from Raan and Gerrel. Afterward Shepard can privately endorse or condemn his ideals.",
+      "url": "",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "summary:tali-zorah-nar-rayya-unique-dialogue",
+      "kind": "summary",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects Tali'Zorah's squad-specific lines across all three games: unique dialogue at scripted story points, \"talk to squadmate\" location comments, spontaneous combat and banter lines, and secret dialogue only reachable by editing her into the party. The material recurringly touches quarian themes (the Migrant Fleet, homelessness, the geth, her mistrust of the Council and Cerberus), her fear of spiders, her drone Chatika vas Paus, and her running commentary comparing alien worlds to the flotilla. Representative lines:\n\n- Tali, on Noveria when Captain Matsuo says Shepard is far from home: \"Home is a state of mind.\"\n- Tali, first seeing the Thorian on Feros: \"Keelah, what is that?\"\n- Tali, at the salarian camp on Virmire before the assault: \"These salarians are willing to die to stop Saren... and so am I.\" / (if Wrex lives) \"I will fight with fire for you, Commander.\"\n- Tali, on Ilos: \"We shouldn't be here. Not us. Not the geth. Not Saren.\"\n- Tali, if chosen to lead the second diversion squad and killed during the Suicide Mission: \"There were too many. Lost my shields. Suit ruptures... too many... Keelah se'lai...\"\n- Tali, summoning her combat drone: \"Go for the optics, Chatika! Go for the optics!\" / \"Nothing's faster than Chatika vas Paus!\"\n- Tali, using AI Hacking on geth: \"We made you, we can break you!\"\n- Tali, in the Silver Coast Casino when a female Shepard comments on her enviro-suit: \"At least you can dress up. What can I do? I'm already wearing my two sexiest belts!\"\n- Tali, to the Shepard clone in the Citadel Archives after it threatens to open her helmet: \"just a cheap imitation of the real thing.\"\n- Tali, spontaneously on the Attican Traverse krogan mission when Swarmers appear: \"spiders, spiders, spiders, spiders!\"\n- Tali, cursing Kai Leng on Thessia: \"Bosh'tet!\"\n- Tali, disembarking the Normandy after the Citadel ambush: \"Worst shore leave ever.\"",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "summary:tali-treason",
+      "kind": "summary",
+      "page": "Tali: Treason",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Tali: Treason was Tali'Zorah's loyalty mission in Mass Effect 2, acquired some time after recruiting her when Kelly Chambers noted Tali seemed distraught. The Migrant Fleet's Admiralty Board had charged Tali with treason for smuggling active geth into the flotilla; on her father Admiral Rael'Zorah's orders she had been sending deactivated geth samples home. The Normandy, a registered Cerberus vessel, docked with the liveship Rayya via Tali's passphrase. Captain Kar'Danna met the squad; if Legion was brought, Shepard needed Charm or Intimidate to keep it aboard. Admiral Shala'Raan greeted Tali as \"Tali'Zorah vas Normandy,\" revealing the Board had already stripped her quarian ship-name, a bad omen. Raan, recused from judging due to her closeness to the family, opened proceedings, and Shepard served as Tali's advocate.\n\nThe admirals sprang the news that the lab ship Alarei had been overrun by geth and that Rael'Zorah was presumed dead. Shepard and Tali proposed to retake the Alarei, and the hearing recessed. Speaking with the admirals, Veetor, and Kal'Reegar (present only if Veetor was returned to the Fleet and Kal'Reegar survived Haestrom) revealed the trial was a facade for the admirals' agendas: Xen wanted to study AI to reclaim the geth, Gerrel wanted war to retake Rannoch, Koris wanted Tali and her father made examples of, and Raan admitted she had deliberately withheld news of Rael's death so Tali's shock would win sympathy.\n\nAboard the Alarei, Shepard's team fought through waves of Geth Troopers, Hunters, a Geth Prime, and Combat Drones in close quarters, with Tali's AI Hacking key to survival. Logs showed Rael had ordered safety protocols bypassed. Tali found her father's body and a recorded message ordering her to destroy the main geth hub and deliver the data to Xen and Gerrel. The final console proved Rael had deliberately reactivated and networked geth toward sapience for weapons tests, while clearing Tali of any knowledge. Tali begged Shepard not to reveal it, to preserve her father's name.\n\nBack on the Rayya, Shepard could clear Tali via persuasion (30 morality, loyalty gained), lie that no evidence was found (Tali exiled but loyal), rally the crowd with Veetor and Kal'Reegar, or present the evidence (Tali cleared, Rael posthumously exiled, the Fleet Balkanized, loyalty lost). Tali kept the name \"vas Normandy\" regardless. Rewards included the Energy Drain power for Tali and tech upgrades. The outcome influenced whether quarian-geth peace was possible in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Tali admiral too young"
+    },
+    {
+      "chunk_id": "summary:lidanya",
+      "kind": "summary",
+      "page": "Lidanya",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Matriarch Lidanya was the commanding officer of the Destiny Ascension, the asari dreadnought and flagship of the Citadel Fleet in 2183. During peacetime she engaged with tourists visiting her ship. During Saren Arterius' attack on the Citadel, Lidanya ordered the evacuation of the Council when she realized the station was no longer responding to commands, including the order to close the arms to protect civilians. The evacuation placed the Council aboard the Destiny Ascension, which then sustained heavy damage from the geth fleet and the Reaper Sovereign. If the Alliance Navy reinforcements did not assist the Ascension, it was destroyed, killing Lidanya and everyone aboard. If the Council was sacrificed, Lidanya's dialogue included the line, \"This is the Ascension. We are taking heavy damage. GARDIAN defenses are overwhelmed, kinetic barriers are off-line.\"",
+      "url": "https://masseffect.fandom.com/wiki/Lidanya",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "starships-list_014",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Cyniad",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Cyniad* Class Scout Ship Affiliation Migrant Fleet A quarian scout ship employed by the Idenna. Captured by Cerberus and used in an attack on the Idenna, but reclaimed by the Migrant Fleet. Later crashed on Gei Hinnom in 2185\\. Source Mass Effect: Ascension",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "starships-list_004",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Alarei",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class Lab Ship Affiliation Migrant Fleet A ship used by Admiral Rael'Zorah to carry out his studies on geth countermeasures. Overtaken by reactivated geth units in 2185\\. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "starships-list_146",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Usela",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class N/A Affiliation Migrant Fleet Golo's former crew ship. Source Mass Effect: Ascension",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "starships-list_140",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Tesleya",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class N/A Affiliation Migrant Fleet Lemm'Shal nar Tesleya's birth ship. Source Mass Effect: Ascension",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "n7-cerberus-abductions_001",
+      "kind": "page",
+      "page": "N7: Cerberus Abductions",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cerberus is attacking civilians on Benning. Land on Benning and provide protection while civilians are evacuated.",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Cerberus_Abductions",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "starships-list_003",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Adharion",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class Cruiser Affiliation Citadel Fleet Lead ship of a strike force against a Terminus Systems pirate stronghold in relation to the Kalanhai's disappearance in 2185 (if the Citadel Fleet wasn't decimated in the Battle of the Citadel in 2183\\). Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "starships-list_045",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Moreh",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class N/A Affiliation Migrant Fleet Admiral Daro'Xen vas Moreh's crew ship. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "scene:citadel-tower-saren-showdown#10",
+      "kind": "scene",
+      "page": "Saren's Fall in the Council Chambers",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-tower-saren-showdown",
+      "text": "Saren's Fall in the Council Chambers. 2183, the Battle of the Citadel the Presidium, the Citadel Tower exterior, and the Council Chambers Ordering the fleet to hold back — whether to let the Council die or to concentrate everything on Sovereign — the Ascension is left undefended, its hail to the Alliance fleet cut off, and it is destroyed by the geth as the fleet passes it by; Hackett then throws every remaining ship at Sovereign.",
+      "url": "",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "scene:idenna-cerberus-assault-grayson-kills-golo#03",
+      "kind": "scene",
+      "page": "The Cerberus Assault on the Idenna",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "idenna-cerberus-assault-grayson-kills-golo",
+      "text": "The Cerberus Assault on the Idenna. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — the isolation shuttle, Seeto'Hodda nar Idenna's quarters, and a corridor Captain Ysin'Mal vas Idenna rallied his people and fought on the front lines himself, but the defenders were being overwhelmed. They were saved only by Gillian Grayson intervening and by Paul Grayson switching sides — warning them he had planted explosives to cripple the ship. Mal and Hendel Mitra worked together to disable the charges and save the Idenna.",
+      "url": "",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "summary:starships-list",
+      "kind": "summary",
+      "page": "Starships/List",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This reference page cataloged every identified starship in the Mass Effect universe, giving each ship's class, affiliation, a brief description and its source work. Entries spanned Alliance, turian, asari, salarian, volus, geth, Collector, Reaper, Cerberus, batarian, Migrant Fleet, Andromeda Initiative and independent vessels, drawn from the games, novels, comics, Cerberus Daily News and DLC.\n\nNotable Reaper entries included Sovereign, Harbinger, the Derelict Reaper above Mnemosyne, and the billion-year-old Leviathan of Dis. Council-race capital ships included the asari dreadnought Destiny Ascension (flagship of the Citadel Fleet, commanded by Matriarch Lidanya), the Geth Dreadnought destroyed by Commander Shepard in 2186, the Prothean flagship Penumbra Apex, and the Vol Protectorate's sole dreadnought Kwunu. The Alliance section listed the Everest- and Kilimanjaro-class dreadnoughts (SSV Everest, Kilimanjaro, Orizaba, Logan and others), numerous Fifth Fleet cruisers that fought at the Battle of the Citadel, and both Normandy frigates. Cerberus fielded the cruiser Elbrus under Oleg Petrovsky; the Blue Suns ran the prison ship Purgatory; Liara T'Soni inherited the Shadow Broker Base.\n\nThe Migrant Fleet accounted for many entries, including the liveships Rayya, Chayym and Shellen, Admiralty crew ships such as Neema, Tonbay, Moreh and Qwib-Qwib, and the lab ship Alarei. Dozens of independent MSV freighters (many Kowloon- or Athabasca-class) were logged, most lost to pirates, geth, mechanical failure or crew breakdown. The Andromeda Initiative section covered the arks Hyperion, Nexus, Natanus, Leusinia, Paarchero and Keelah Si'yah, the Pathfinder survey ship Tempest, and the ND1 Nomad; the kett fielded the Archon's flagship Verakan and the Decimation.",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "summary:war-assets-asari",
+      "kind": "summary",
+      "page": "War Assets/Asari",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list collected the forces contributed by the asari, coordinated by Asari High Command. Completing Priority: The Citadel II unlocked the core assets: the Asari Science Team (90), whose long-lived scholars worked on the Crucible; the Second Fleet (90), a nimble frigate-and-fighter force, boosted by 25 if Shepard encouraged Liara T'Soni to speak with Matriarch Aethyta; and the Sixth Fleet (90), the dreadnought-heavy fleet with a fearsome reputation dating to the Rachni Wars and Krogan Rebellions, boosted 40 by recovering the Library of Asha.\n\nThe Destiny Ascension (70), flagship of the Citadel Fleet under Matriarch Lidanya, joined only if it survived the 2183 Battle of the Citadel; the asari repaired and upgraded its shielding and firepower. Asari Commandos (20) came from the Kallini: Ardat-Yakshi Monastery mission, and the justicar Samara (25) joined if she survived Mass Effect 2 and was stopped from suicide with a Paragon interrupt.\n\nNumerous planet scans in the Silean, Athena and Nimbus regions added smaller units and ships: Dr. Jelize (25), whose nanocircuitry theories guided the Crucible's circuit boards; the Armali Sniper Unit (30), commandos with strength-boosting implants firing the M-98 Widow; the Serrice Guard (30), five commandos who forced a Blood Pack slaver force to surrender after nine days; the cruisers Nefrane (30) and Cybaen (30, with dreadnought-grade barriers from an oversized drive core); Asari Research Ships (35); and Asari Engineers (30) who stress-tested the Crucible's structure. The Leviathan DLC added the Husk Neural Map (30), a study of Reaper-creature brain structures useful for civilians evading Reapers on occupied worlds. A Citadel Reaper code fragment passed to Asari High Command added 8.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Asari",
+      "for_key": "fleet ship allocation civilians"
+    },
+    {
+      "chunk_id": "summary:n7-cerberus-abductions",
+      "kind": "summary",
+      "page": "N7: Cerberus Abductions",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "An optional N7 assignment in Mass Effect 3, unlocked after completing either Attican Traverse: Krogan Team or Tuchanka: Turian Platoon. Cerberus was attacking and abducting civilians on the human colony of Benning, in the Euler system of the Arcturus Stream. Shepard landed to protect civilians during their evacuation. The mission plays out on the multiplayer map Firebase Ghost, a tight urban environment of numbered prefab buildings.\n\nShepard's squad fought Cerberus light infantry, Assault Troopers, Combat Engineers, Centurions and Turrets, through the upper streets, then reached a group of civilians and defended them as they moved toward a landing pad for extraction. The civilians were invulnerable and sprinted forward in stages toward the shuttle while Cerberus focused fire on Shepard. Comm logs from Svetlana Alexandrov and other residents warned \"don't trust Cerberus. They're taking people against their will,\" and urged people to run. On the map Shepard could recover the dog tag of Alliance Soldier Bilal Osoba, needed for the side mission Benning: Evidence.\n\nAfter Shepard declared an all-clear and the civilians reached the landing zone, the mission ended when Shepard selected the shuttle. At debriefing, Admiral Hackett said a rogue Cerberus group might be behind the continued civilian attacks; the Alliance regained a foothold on Benning and retook the planet, and Shepard received the Arcturus First Division war asset (+5 Reputation, 20,000 credits, the Capacitor Helmet). A saved civilian, Jessica Frohm, later emailed Shepard thanking her and saying she found hope that her lost friends' memory lived on in her.",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Cerberus_Abductions",
+      "for_key": "fleet ship allocation civilians"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 11,
+      "text": "- Admiral Daro'Xen vas Moreh was a quarian Admiralty Board member with clinical intellect and a scientific obsession with the geth; she judged Tali'Zorah's trial, developed geth ladar jamming that triggered the quarian war, and created the Sync Laser used in the Rannoch Reaper-base assault. She was voiced by Claudia Black. (source: Daro'Xen vas Moreh)",
+      "for_key": "quarian admiralty board"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 12,
+      "text": "- Admiral Han'Gerrel vas Neema was a quarian Admiralty Board member commanding the Heavy Fleet, a longtime troublemaker on the turian border and a leading advocate of retaking the quarian homeworld from the geth (source: Han'Gerrel vas Neema).",
+      "for_key": "quarian admiralty board"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 13,
+      "text": "- Admiral Rael'Zorah was Tali'Zorah's distant, demanding father and a member of the quarian Admiralty Board, obsessed with reclaiming Rannoch; as a trainee he and Han'Gerrel earned early Pilgrimages for defending the gunship Yaska against batarians. (source: Rael'Zorah)",
+      "for_key": "quarian admiralty board"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 15,
+      "text": "- Admiral Shala'Raan vas Tonbay, called \"Auntie Raan\" by Tali, sat on the quarian Admiralty Board and moderated Tali's treason trial after recusing herself; in Mass Effect 3 she took Tali's role if Tali was dead, opposed Han'Gerrel's firing on the geth dreadnought, and afterward renamed herself Shala'Raan vas Rannoch (source: Shala'Raan vas Tonbay).",
+      "for_key": "quarian admiralty board"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 375,
+      "text": "- Tali'Zorah's Mass Effect 2 loyalty mission staged a treason trial before the Admiralty Board that was actually about whether the quarians should go to war with the geth for Rannoch; the Board pre-emptively renamed her \"vas Normandy\" after a human ship to weaken her case (source: Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw).",
+      "for_key": "quarian admiralty board"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 144,
+      "text": "- Quarian ship-names are designations of status in their society—\"nar\" marks an uncompleted Pilgrimage, while \"vas\" marks completion—and stripping a quarian of their assigned ship-name during trial proceedings was used by the Admiralty Board as a method to undercut a defendant's credibility. (source: Tali: Treason)",
+      "for_key": "quarian admiralty board"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 18,
+      "text": "- Before the Reaper invasion the quarian Admiralty Board voted to retake Rannoch, opening with precision strikes on four geth systems; the geth then accepted Reaper upgrades, which neutralized quarian countermeasures and turned the war. (source: Quarian)",
+      "for_key": "quarian admiralty board"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 67,
+      "text": "- Quarian law parcels out marine squads as police aboard the Fleet, and exiles or executes those who endanger the whole Flotilla; treason trials use the Admiralty Board as judges. (source: Quarian)",
+      "for_key": "quarian admiralty board"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

@@ -1,0 +1,13 @@
+---
+title: Storyline III
+url: https://masseffect.fandom.com/wiki/Storyline_III
+game: Mass Effect 3
+type: lore
+characters: [the Illusive Man, Kai Leng, Paul Grayson, Aria T'Loak, Kahlee Sanders, David Anderson, Nick, Gillian Grayson, Hendel Mitra, Bailey, Pallin, Donnel Udina, Oleg Petrovsky, Raymond Ashe, Anto, Randall Ezno, Inali Renata, Liara T'Soni, Shepard, EDI, Garrus Vakarian, Tali'Zorah, Mordin Solus, Urdnot Wrex, Dalatrass Linron, Adrien Victus, Eve, Kai Leng, Miranda Lawson, Henry Lawson, Oriana, Steven Hackett, Samantha Traynor, Harbinger, the Catalyst]
+---
+
+This page is a chronological plot synopsis of the Mass Effect 3-era fiction.
+
+In Mass Effect: Retribution, the Illusive Man had Kai Leng abduct former operative Paul Grayson and infected him with Reaper nanotech; Grayson, turned into a Reaper puppet, was hunted across the galaxy and finally killed at Grissom Academy by David Anderson, Kahlee Sanders and the student Nick. Mass Effect: Inquisition followed C-Sec's Bailey investigating Executor Pallin's supposed corruption at Udina's direction. Mass Effect: Deception continued the Kai Leng, Gillian Grayson and Biotic Underground threads. Mass Effect: Conviction had James Vega brought aboard the Normandy SR-2 to guard the imprisoned Shepard after the Bahak incident. Mass Effect: Invasion recounted Cerberus general Oleg Petrovsky and Colonel Raymond Ashe using an engineered Adjutant crisis to seize Omega from Aria T'Loak, who surrendered the station rather than see it destroyed. Mass Effect: Infiltrator followed rogue Cerberus operative Randall Ezno turning against the Director's Reaper-tech experiments after they mutilated his handler Inali Renata. Homeworlds #4 followed Liara T'Soni, now the Shadow Broker, chasing Prothean leads to Thessia and Kahje.
+
+The Mass Effect 3 recap covered the Reaper invasion of Earth and Anderson staying behind; the Mars Archives and the discovery of the Prothean device (Crucible), with the android Eva Coré and EDI; the war summit and the genophage cure arc on Sur'Kesh and Tuchanka (Mordin Solus or Padok Wiks, Urdnot Wrex or Wreav, Dalatrass Linron, Primarch Adrien Victus, and Eve); the Cerberus coup on the Citadel and Udina's exposure and death; the quarian-geth war over Rannoch, ending in the destruction of a Reaper and peace or genocide; the fall of Thessia and Kai Leng's theft of the Prothean VI data; the pursuit of Cerberus through Sanctuary (Henry, Miranda and Oriana Lawson) to Cronos Station and Leng's death; and the battle for Earth. The synopsis closed with the Illusive Man's death, Anderson's death, and the Catalyst offering Shepard the Destroy, Control, Synthesis or refusal endings, followed by extensive epilogue variations and the Stargazer framing scene.

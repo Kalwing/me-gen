@@ -1,0 +1,13 @@
+---
+title: Dialogue
+url: https://masseffect.fandom.com/wiki/Dialogue
+game: Mass Effect 3
+type: lore
+characters: [Shepard, Ryder, Jonathan Cooper]
+---
+
+Dialogue in the Mass Effect series differed from BioWare's earlier titles by presenting paraphrased options on a radial "conversation wheel" rather than verbatim response text; the spoken line was often longer or more pointed than the wheel label. In the original trilogy the left side of the wheel typically deepened the conversation and held Charm and Intimidate options, an occasional central "Investigate" option let Shepard ask about multiple topics, and the right side moved toward completion with Paragon responses on top, neutral in the middle, and Renegade on the bottom. Charm options appeared blue and Intimidate red; using them depended on Commander Shepard's morality, and options were greyed out if requirements were not met. Dialogue choices affected how others reacted to Shepard, mission rewards, merchant discounts, romance paths, and morality, and could defuse or provoke violence.
+
+In the first Mass Effect, Charm and Intimidate were distinct talents raised with skill points; Paragon and Renegade progress and becoming a Spectre granted extra points, and maxing them unlocked benefits such as the Store Discount, Motivated Buyer, and the Charismatic achievement. In Mass Effect 2 the two were no longer separate skills but tied to morality level, adjustable via class passive powers and armor, and the game introduced interrupts, triggered by button prompts when a Paragon or Renegade icon appeared, which awarded points but carried no requirements and were usually not themselves moral choices. In Mass Effect 3 persuasion tied to a single Reputation meter combining stacked blue Paragon and red Renegade bars, so a pure-Paragon Shepard could still use Intimidate with high enough Reputation; interrupts returned and some awarded War Assets, and overheard arguments let Shepard side with one speaker to adjust War Asset strength.
+
+Mass Effect: Andromeda abandoned the Morality system. Its wheel separated choices that Expand the conversation (Branching Arrows, Question Mark, Two People for friendship, Large Heart for flirtation) from four Tone choices (Emotional, Logical, Casual, Professional) that shaped Ryder's psychological profile and how NPCs viewed the Pathfinder without affecting gameplay. Narrative actions functioned like earlier interrupts. According to lead animator Jonathan Cooper, the close over-the-shoulder conversation camera was inspired by Ricky Gervais's Extras, and the dialogue system's base design was patented (US20070226648A1).

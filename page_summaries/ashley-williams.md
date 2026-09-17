@@ -1,0 +1,13 @@
+---
+title: Ashley Williams
+url: https://masseffect.fandom.com/wiki/Ashley_Williams
+game: Mass Effect 3
+type: character
+characters: [Ashley Williams, Shepard, Kaidan Alenko, Anderson, Corporal Jenkins, Nirali Bhatia, Samesh Bhatia, Liara T'Soni, Benezia, Urdnot Wrex, Garrus Vakarian, Tali, Kirrahe, Sarah Williams, Illusive Man, Udina, Dr. Eva, James Vega, Joker, Harbinger, Maya Brooks, Elijah Khan, Samara, Henry Lawson, General Williams, Saren Arterius]
+---
+
+Ashley Madeline Williams was a human soldier who served in the Systems Alliance as a Gunnery Chief in the 2nd Frontier Division on Eden Prime. Born April 14, 2158 on the colony world Sirona, she came from a long line of Alliance soldiers. She enlisted after high school, trained in Macapá, Brazil, on Titan, and in Earth orbit, and repeatedly earned strong performance reviews but was denied advancement and shipboard postings without explanation. Her grandfather was General Williams, who surrendered the garrison at Shanxi to the turians during the First Contact War, becoming the first human to surrender to an alien force; prejudice against the "Williams curse" stalled her career.
+
+On Eden Prime her unit, the 212, was wiped out by geth seeking a Prothean Beacon. As sole survivor, she was transferred to the SSV Normandy by Captain Anderson, replacing the slain Corporal Jenkins, and joined Commander Shepard's hunt for Saren Arterius. She was tough, blunt, religious, fond of Tennyson's poetry, and distrustful of aliens and the Citadel Council, though not xenophobic. She could become a romance option for a male Shepard, culminating in a night together before Ilos. At Virmire, Shepard could save Ashley at the cost of Kaidan Alenko's life, or vice versa.
+
+If she survived Virmire, Ashley remained with the Alliance after Shepard's death, rose to Operations Chief, and confronted Shepard on Horizon during the Collector abductions, distrustful of Shepard's Cerberus ties. In Mass Effect 3 she returned as a Lieutenant Commander, fought on Mars where Dr. Eva critically injured her on the Illusive Man's orders, recovered at Huerta Memorial Hospital, and was offered Spectre status by Udina. During the Cerberus coup she was tasked with protecting the Councilors and, unaware Udina worked with Cerberus, confronted Shepard; depending on their rapport she could be talked down or killed. She could rejoin the Normandy or serve on Admiral Hackett's team, could resume a romance with Shepard, and could die during the final push to the conduit or survive to mourn at the Normandy memorial wall. If she died on Virmire, Kaidan Alenko took her place throughout.

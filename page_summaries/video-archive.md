@@ -1,0 +1,11 @@
+---
+title: Video Archive
+url: https://masseffect.fandom.com/wiki/Video_Archive
+game: Mass Effect 2
+type: lore
+characters: [Feron, Liara T'Soni, Aria T'Loak, Emily Wong, Donnel Udina, Armando Bailey, David Anderson, Preitor Gavorn, Khalisah al-Jilani, Aethyta, Jacob Taylor, Miranda Lawson, Legion, Garrus Vakarian, Jack, Thane Krios, Fred Mazzei, Urdnot Torsk, Grunt, Samara, Elias Kelham]
+---
+
+The Video Archive was a chamber in the Shadow Broker Base where the Shadow Broker kept archived surveillance clips of observed people across the galaxy. After Liara T'Soni's takeover of the base, Commander Shepard could view the footage freely. The room lay behind the Intel Center's main console, with a waiting lounge where Feron relaxed on a sofa (ambient music adjustable via a datapad) and a raised circular platform displaying the clips. All footage had audio but was unintelligible, so the Broker's Info Drone identified each clip, which were revealed in batches over successive visits.
+
+The clips showed brief, often incriminating or comic moments: Aria T'Loak overseeing a Blue Suns execution and in her Afterlife booth; Emily Wong dancing and interviewing amid burning hovercars; Donnel Udina shoving a C-Sec agent and watching an Afterlife dancer; Captain Armando Bailey drinking by a window and leaving the Zakera Cafe armed; David Anderson meeting a Cerberus agent and punching Udina in the stomach; Captain Preitor Gavorn killing vorcha and fleeing gunfire; Khalisah al-Jilani punched by a krogan, kicked by a volus, and kissing an asari; Matriarch Aethyta viewing a photo of Liara, attacking a volus with biotics, and headbutting a krogan; Jacob Taylor doing shirtless sit-ups; Legion boarding the Derelict Reaper; Garrus attacking mercs; a Keeper disposing of a surveillance camera; Jack leveling Blue Suns mercs during her escape; Thane Krios killing a mercenary on Kahje then shooting the camera; Fred Mazzei witnessing a hit; Urdnot Torsk shoving a salarian into the varren pit and executing a human with Fortack; Grunt punching an Eclipse Trooper; and Samara ensnaring a fleeing merc's hovercar with biotics. At least three additional videos, said to depict Detective Anaya on Illium, Tali'Zorah on Haestrom, and Mordin Solus on Sur'Kesh, were cut during development.

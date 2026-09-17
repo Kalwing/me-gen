@@ -1,0 +1,13 @@
+---
+title: Ronald Taylor
+url: https://masseffect.fandom.com/wiki/Ronald_Taylor
+game: Mass Effect 3
+type: character
+characters: [Ronald Taylor, Jacob Taylor, Harris Fairchild, Commander Shepard]
+---
+
+Ronald Taylor was the First Officer, and later acting Captain, of the MSV Hugo Gernsback, and the father of Jacob Taylor. The Gernsback crashed on the planet 2175 Aeia in 2175. Captain Harris Fairchild died in the crash, and under emergency protocols Ronald was promoted to acting Captain. The distress beacon was damaged and would take about a year to repair, far longer than the crew's food would last, and the local flora proved toxic, causing neural decay if eaten.
+
+Ronald initially rationed the ship's food stores to himself and his officers so someone would stay lucid to repair the beacon, but over time he adapted to the planet, lived "like a king," and assigned the surviving women to himself and his officers as pets. When the beacon was finally repaired around a year after the crash, Ronald refused to activate it, unwilling to answer for his actions and believing the survivors should disappear. When an officer expressed remorse, Ronald turned his security mechs on him, and within a week killed all the other officers, leaving himself in sole control of the food and the mechs. He exiled or killed most of the men as decay lowered their inhibitions and made them violent, "training" the rest as guards. Over the next seven years he stretched the food supply by dining alone.
+
+The exiled men, now feral "hunters," eventually returned and waged war on Ronald's mechs, stealing weapons and killing women who left his camp. As the war strained his security, Ronald set off the beacon remotely and invented a weak cover story. In 2185 the signal was intercepted by Cerberus and forwarded to Jacob aboard the Normandy SR-2. If Shepard permits, they accompany Jacob to Aeia, fight through hunters and mechs, and confront Ronald, who is shocked to see his son. Jacob accuses him of doing unspeakable things to live out a "juvenile fantasy" and is unconvinced by Ronald's justifications. Shepard decides Ronald's fate: turn him over to Alliance courts, leave him to his degenerated crew, or give him a pistol to kill himself. In every case Jacob concludes Ronald is no longer the father he knew. In Mass Effect 3, if Jacob survives the Suicide Mission and is met on Gellix, he says the incident with his father still haunts him. Cut content included an alternate version where Ronald's crew were Cerberus surveyors worshipped by natives, plus unused dialogue variants on his fate (an Alliance prison in Vancouver, a bestselling book and vid, or a burial Jacob gave him on Aeia).

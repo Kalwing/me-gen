@@ -1,0 +1,13 @@
+---
+title: Golo
+url: https://masseffect.fandom.com/wiki/Golo
+game: Mass Effect
+type: character
+characters: [Golo, Pel, the Illusive Man, Paul Grayson, Kahlee Sanders, Hendel Mitra, Gillian Grayson, Lemm'Shal nar Tesleya, Feda'Gazu vas Idenna, Hilo'Jaa vas Idenna]
+---
+
+Golo, once Golo'Mekk vas Usela, was a quarian living on Omega in the Terminus Systems, an exile from the Migrant Fleet who became a contact for Cerberus. Around 2173 CE he was a member of the Usela's crew until he made a deal with the Collectors, who wanted two dozen "pure" quarians who had not yet gone on their Pilgrimage. Golo agreed to sell his own people in exchange for new technology, was discovered, and was punished with exile. He established himself on Omega, surviving its harsh conditions through a long-term deal with an elcor shopkeeper in the Carrd district for purified turian cuisine, and eventually became a useful Cerberus contact.
+
+In Mass Effect: Ascension, with the Illusive Man in 2183 seeking the Migrant Fleet's codes to monitor its movements and communications, Golo promised Pel he would help obtain them. He lured the Idenna scout ship Cyniad by claiming to have vital technology to sell; Feda'Gazu vas Idenna agreed to meet him on the planet Shelba, but the quarians were ambushed by Cerberus forces. Golo helped capture the Cyniad's pilot Hilo'Jaa vas Idenna, and when Hilo raged at Golo for using his old name and calling him "Golo vas Nedas" and "Golo nar Tasi," Golo spitefully smashed Hilo's faceplate. Hilo then contracted a virulent disease, hampering Pel's interrogation, so Golo offered to make amends by relaying a Collector offer to buy healthy human biotics such as Gillian Grayson.
+
+Golo then encountered Lemm'Shal nar Tesleya, who suspected his role in the Cyniad ambush. Under interrogation at gunpoint Golo claimed to be only a middleman and sent Lemm to find Hilo in Pel's warehouse, tipping Pel off beforehand in hopes Pel would kill the young quarian; instead Lemm attacked first and escaped to the Migrant Fleet with Kahlee Sanders, Hendel Mitra, and Gillian Grayson. Eager to recover Gillian, the Illusive Man hired Golo to get his people aboard the Flotilla using his knowledge of Fleet protocol. Golo, motivated by credits and revenge on those who exiled him, traveled to the Fleet with Paul Grayson aboard the stolen Cyniad, boarded the Idenna using Hilo's code phrases, and launched a surprise assault, killing many of the crew with Cerberus weapons. He caught Kahlee Sanders trying to rescue Gillian and beat her while Paul watched. Grayson, who had turned against Cerberus for his daughter's sake and had always despised Golo, warned him to stop; as Golo turned to leave, Paul shot him in the head.

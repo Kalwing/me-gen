@@ -1,0 +1,9 @@
+---
+title: Chasca
+url: https://masseffect.fandom.com/wiki/Chasca
+game: Mass Effect 2
+type: location
+characters: [Emily Wong]
+---
+
+Chasca was a large, low-density world, the second planet of the Matano System in the Maroon Sea, fundamentally similar to its inner neighbor Inti. Tidally locked to its star Matano, it had a permanently scorching dayside and a frozen nightside, with a habitable band around the terminator where temperatures averaged about 30 degrees Celsius. That narrow temperate strip, combined with a nitrogen-oxygen atmosphere, allowed limited human colonization; it was one of the few worlds where going helmetless was safe, despite a light hail of organic particulates in the atmosphere. Chasca was noted for a unique, nearly invisible planetary ring made of small pieces of synthetic material, described as a massive piece of alien "installation art" whose creator and age were unknown; from the ground it caught and scattered Matano's light. As of 2183 the colony was very early in development, with only a few scattered pioneer teams collecting data on native hazards and ecology while a large colonist recruiting drive geared up on Earth. In 2183 the colony was wiped out by a Cerberus experiment that used Dragon's Teeth to convert the colonists into husks. By 2185 the Delta Pavonis Foundation was raising funds from investors and recruiting volunteers for a second stage of colonization. Reporter Emily Wong ran news stories claiming Chasca's colonial growth was back on track with asari investment and that the colony was accepting new recruits, and that the Alliance's Fifth Fleet had recently made a brief visit; her reports blamed the geth for the first colonists' deaths, though Cerberus was the true perpetrator. All planets in the Matano system were named after Inca deities, Chasca being the Inca deity of dawn and twilight.

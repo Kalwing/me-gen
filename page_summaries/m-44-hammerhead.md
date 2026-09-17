@@ -1,0 +1,10 @@
+---
+title: M-44 Hammerhead
+url: https://masseffect.fandom.com/wiki/M-44_Hammerhead
+game: Mass Effect 3
+type: lore
+characters: [Shepard, Cayce, O'Loy, Liara T'Soni, Quoyle, Steve Cortez]
+---
+The M-44 Hammerhead was an infantry fighting vehicle that hovered over the battlefield at up to 120 kilometers an hour, its name likely following the shark theme also used for the M35 Mako. It seated at least three crew, carried an onboard VI that monitored the environment for dangers, and had an integrated mineral collection system. Like the Mako it could be air-dropped from a frigate and use hoverjets to scale obstacles, though sustained hoverjet use overheated them, limiting them to short hops; a boost feature allowed rapid movement but worsened overheating if used with the hoverjets. It was armed with a single vertically swiveling gun with a high rate of fire and a guided missile system. It lacked kinetic barriers, making it vulnerable to sustained fire, though a repair system automatically restored its integrity when undamaged for a brief period, forcing the driver to keep maneuvering out of the line of fire.
+
+In Mass Effect 2's Project Firewalker content, Shepard obtained a Hammerhead from Zeona and used it to explore hostile terrain while pursuing Cerberus scientists Dr. Cayce and Dr. O'Loy, who sought Prothean artifacts; Hermes Station on Aite also kept one for travel between Vulcan, Prometheus and Atlas Stations. In Mass Effect: Homeworlds a cannon-less transport variant capable of underwater movement carried Liara T'Soni and Quoyle to a Prothean site beneath Kahje's oceans before Cerberus crippled it. By 2186 the Hammerhead was absent from the Normandy; Steve Cortez explained it had been taken to an Earth lab to improve its weak armor plating, and the refit was never completed before the Reaper invasion likely destroyed both lab and vehicle. Its levitation technology was inspired by early Mako concepts, and it was initially called the M57 Hammerhead in pre-release material. Its onboard computer was voiced by Brian Bloom.

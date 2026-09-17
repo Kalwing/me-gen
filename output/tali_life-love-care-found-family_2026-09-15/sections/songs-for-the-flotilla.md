@@ -1,0 +1,21 @@
+"I'm as free as the dust in the solar wind." Remember? It's what I said when you asked what we were doing that night in your apartment, and you looked at me like I'd started talking Khelish at you. You'd never seen Fleet and Flotilla. Keelah. A Spectre, a man who reads political theory for fun, and nobody had ever sat you down in front of the most important vid in the galaxy. So that settled the evening.
+
+On the Rayya my friends and I watched it at every sleepover. We knew the whole musical by heart, and there are extranet sites with captioned animations, and a relationship simulator, which I will not be discussing. It's in my suit log, you know. Downloaded right before "Human Courtship and Mating." Don't. Research is research.
+
+The plot's simple. Bellicus is a turian officer, Shalei is a quarian, and he tells her, "We can never be together. I have my duty, and you, have your people." And she says not tonight. Then the balcony, and she takes off her mask for him, and — this part is true — the actress had an infection for three weeks after they filmed it. Every quarian girl knows that. We thought it was the most romantic thing anyone had ever done. A three-week infection. We were very young.
+
+And I found sing-along mode, and you let me, which was a mistake on your part. "Let the moon's shining light hide two lovers with its rays..." The whole verse. Loudly. Then Shalei asks him to see behind her mask, and Bellicus says, "I already have," and I said that worked for me, and you — well. You took mine off. You remember that part. I can tell.
+
+Ha. Oh, listen. A turian and a quarian, one night, duty in the morning. I spent my whole childhood thinking that plot was too neat, and here I am lying in it. You're the wrong species, but I've decided that's a casting note. And the next line, the one about dawn and separate ways — I'm not singing it tonight. Bad writing.
+
+Here, something older. There's a lullaby every quarian child hears before they're old enough for a suit. "My Suit and Me." Yes, we sing babies to sleep about environmental seals, we're a practical people. "Sing me to sleep on the starry sea, and I'll dream through the night of my suit and me." Then you love your mother and your father and your ship, and there's a verse about Rannoch, a house in the sun, wild rivers. I sang that for years without ever having seen a river.
+
+"And kiss the sweet ground where my ancestors lie." I stood on it, you know. Close enough. It's a strange line, though, because we don't really know where most of them lie. Before the Morning War — this is the archives talking, not me — quarians took personality imprints of their elders and built VIs from them. Whole databanks of them. You could ask your great-great-grandmother how to patch a hull. It wasn't really her. VIs aren't aware, they just talk convincingly, and everyone knew that. But the plan was to fix it, to make the ancestors truly aware and keep them forever. That's the research the geth came out of, more or less. And when the geth rose up they wiped the databanks.
+
+Some people on the Fleet still call the exile a punishment for our arrogance. I don't. It was a mistake, we made it, nobody had to send it. But we still thank them. Auntie Raan opened my trial by thanking the ancestors who founded the Fleet, and then they spent the afternoon deciding whether to exile me. Very respectful.
+
+If the databanks had survived, someone would have imprinted my father. Imagine. A VI telling me my wiring was sloppy for the rest of my life.
+
+So I think that's what remembering is for, now. We lost the version that answers back. Nobody gets a grandmother in a terminal anymore, so you carry them yourself, and it's heavier, and it's yours. You do it with your books. Your poets and philosophers, dead people who can't tell you what to do tomorrow, only what they thought when it was their turn. You read them anyway, at three in the morning with the tank light on.
+
+Sorry. Back to the song, you're supposed to be falling asleep. "Till I see Rannoch with my very own eyes... we'll sleep safe as engines as forward we fly." And then the children shout the last part. "My self and my suit —" That's your cue. No? Fine. I'll do both. "My suit and I."

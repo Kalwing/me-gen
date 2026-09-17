@@ -1,0 +1,9 @@
+---
+title: Chora's Den
+url: https://masseffect.fandom.com/wiki/Chora's_Den
+game: Mass Effect 2
+type: location
+characters: [Anderson, Maawda, Harkin, Garrus Vakarian, Fist, Commander Shepard, Jenna, Septimus, Sha'ira]
+---
+
+Chora's Den was a gentlemen's club on the Citadel, located in the lower section of the Wards near the Markets. Its layout consisted of a circular central bar ringed by booths, with a storage area, a small warehouse, and a manager's office at the rear. It was usually busy, with lively music, and its highlight was the asari dancers who offered private shows; it was described as "livelier but deadlier" than the rival club Flux. It had operated under the name Chora's Den since at least 2165, having previously been called the Archos before Fist, a local crime lord, took over ownership. In Mass Effect: Revelation, a newly divorced and depressed then-Lieutenant Anderson visited the Den, where a volus bartender named Maawda served him an asari drink called elasa and offered words of comfort; with a meeting with the human ambassador scheduled for the next morning, Anderson left quickly, resisting the temptation to fight two turian customers he believed were insulting him. In Mass Effect, Harkin, a disgraced former C-Sec officer and known barfly, could help Shepard find Garrus Vakarian during the investigation of Saren. Fist, who held information critical to the case, had shut the club down, and his thugs and employees opened fire on Shepard's team; Shepard broke through and confronted Fist in his office, after which the Den reopened. It remained a good place to gather rumors, frequented by figures such as the retired, honorable turian general Septimus, who went there to try to forget the consort Sha'ira. Gossip at Flux held that Fist had corpses buried under the stage. After the Battle of the Citadel, Chora's Den never reopened, and by 2185 it had been replaced by the Dark Star Lounge in the Zakera Ward.

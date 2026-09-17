@@ -1,0 +1,13 @@
+---
+title: Interrupt
+url: https://masseffect.fandom.com/wiki/Interrupt
+game: Mass Effect 2
+type: lore
+characters: [Commander Shepard, Liara T'Soni, Garrus Vakarian, Mordin Solus, Jack, Miranda Lawson, Zaeed Massani, Kal'Reegar, Grunt, Amanda Kenson]
+---
+
+Interrupts were an addition to the Mass Effect 2 dialogue system that let Commander Shepard take direct, often physical action at certain moments in conversation. A Renegade interrupt (red icon, bottom right) played a metal "gong" sound; a Paragon interrupt (blue icon, bottom left) played an uplifting hum. They were optional, available for only a couple of seconds, awarded significant Paragon or Renegade points, and unlike Charm and Intimidate had no minimum reputation requirement. Not taking an interrupt was usually not itself a moral choice, though there were exceptions. The dialogue-skip button was disabled while an interrupt was available.
+
+The page catalogs interrupts across the game. On Freedom's Progress, Shepard either shoots a monitor to startle Veetor (+5 Renegade) or shuts the monitors down with the omni-tool (+5 Paragon). During Lair of the Shadow Broker, three rapid interrupts let Shepard press Liara about becoming "cold," and a final one lets a Mass Effect 1 love interest kiss her after the Broker's death. In Dossier: Archangel, Renegade interrupts let Shepard electrocute Sergeant Cathka (reducing the gunship's later armor), snipe a LOKI Mech, and destroy a recruit's pistol (+5 Paragon). In Dossier: Tali, a Paragon interrupt pulls Kal'Reegar into cover, ensuring his survival, and another stops Tali shooting Legion. In Dossier: The Assassin, interrupts let Shepard medi-gel a dying salarian, or shove an uncooperative Eclipse mercenary out a window (+5 Renegade). Meeting Mordin offers paired Renegade/Paragon interrupts to cut off his rapid deductions.
+
+Loyalty missions include Garrus grabbing his arm to spare Harkin or blocking his shot at Sidonis; Jack holding Aresh at gunpoint, where Shepard can order the kill (+10 Renegade) or pull Aresh up (+10 Paragon); Miranda's mission, where Shepard breaks a mercenary's neck or lowers Miranda's gun on Niket; Mordin: Old Blood, igniting a gas tank to kill a clanspeaker or sparing Maelon; and Zaeed: The Price of Revenge, where the Paragon dialogue "That was unnecessary." unlocks an interrupt to punch Zaeed for endangering refinery workers. Thane: Sins of the Father features a three-stage Renegade interrogation of Elias Kelham and a +15 Paragon interrupt to disarm Kolyat. In Arrival, Shepard can fatally shoot Amanda Kenson, who still triggers the detonator. Other interactions include punching reporter Khalisah al-Jilani and an awkward-flirt interrupt in Garrus's romance scene.

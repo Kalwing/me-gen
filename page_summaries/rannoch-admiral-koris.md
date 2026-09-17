@@ -1,0 +1,13 @@
+---
+title: 'Rannoch: Admiral Koris'
+url: https://masseffect.fandom.com/wiki/Rannoch:_Admiral_Koris
+game: Mass Effect 3
+type: mission
+characters: [Zaal'Koris, Shala'Raan, Daro'Xen, Han'Gerrel, Steve Cortez, Commander Shepard, Javik, Tali'Zorah, Dorn'Hazt, Nav'Teel]
+---
+
+Rannoch: Admiral Koris was a Mass Effect 3 mission available after Priority: Geth Dreadnought and only before Priority: Rannoch. During the dreadnought debrief, Admiral Shala'Raan reported that Zaal'Koris had sacrificed his ship to destroy a geth planetary defense cannon, crash-landing on Rannoch and leaving the quarian Civilian Fleet without a leader; many Civilian Fleet captains planned to break formation and make a run for the mass relay past the geth guns. Shepard offered to land and rescue him.
+
+En route, Admiral Daro'Xen reported the Civilian Fleet had taken losses and that Koris's escape pod had crashed within range of a jamming tower before communications cut. Steve Cortez's shuttle was driven off by anti-aircraft guns, so Shepard's squad disabled the AA guns on foot so Cortez could destroy the jamming tower. The mission was an incursion into geth territory with heavy shielded synthetics, armored support, Geth Primes, cloaked Geth Hunters, and numerous Geth Trip Mines. Along the way the squad found a Javelin and other salvage and encountered Dorn'Hazt, a mortally wounded quarian from Koris's ship, who explained that the Civilian Fleet had not wanted war with the geth and might flee without Koris's leadership before directing Shepard to Koris's position. Data retrieved along the route unlocked the Target Jamming Technology objective.
+
+Contacted by shuttle, Koris refused rescue and demanded Shepard save his crew instead; with sufficient Reputation he could be persuaded to be picked up. Letting Koris die cost his leadership and, if the quarians survived, caused the Civilian Fleet to panic; it could also make quarian-geth peace impossible depending on other choices. Whatever the choice, Shepard manned a shuttle turret and shot down Geth Rocket Troopers and their missiles, which were actually aimed at the shuttle, until the rescued party was aboard. If Koris died, the Quarian Civilian Fleet war asset lost 75 Military Strength; if he survived he was added as a war asset worth 25. If Javik was present he was found in the AI Core arguing with EDI. After the first of the two Rannoch missions, Raan argued with Han'Gerrel; after the second, Xen argued with Tali, with Shepard's support affecting the Quarian Heavy Fleet, Advanced AI Relays, and Paragon rewards. Completing the mission with Koris alive produced a thank-you email from Captain Nav'Teel vas Ghrigult, Dorn'Hazt's cousin. The mission was written by Sylvia Feketekuty.

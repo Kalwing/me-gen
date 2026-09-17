@@ -1,0 +1,13 @@
+---
+title: Squad Members Guide (Mass Effect 2)
+url: https://masseffect.fandom.com/wiki/Squad_Members_Guide_(Mass_Effect_2)
+game: Mass Effect 2
+type: lore
+characters: [Jacob Taylor, Miranda Lawson, Kasumi Goto, Zaeed Massani, Garrus Vakarian, Grunt, Jack, Mordin Solus, Samara, Morinth, Tali'Zorah vas Neema, Thane Krios, Legion, Liara T'Soni]
+---
+
+This gameplay guide summarizes the combat abilities, strengths, and weaknesses of the squadmates Commander Shepard can recruit in Mass Effect 2, listed roughly in order of availability. In Legendary Edition all former DLC characters are unlocked, though mission-exclusive members remain limited to their missions.
+
+Jacob Taylor combines a shotgun, Incendiary Ammo, and a maxed Pull, the strongest disabling power in the game, though his loyalty Barrier auto-reactivates and interferes with casting Pull. Miranda Lawson is defined by versatility: Overload, Warp, the mid-game Slam for a disable, and the powerful party-wide Cerberus Officer passive; she and Jacob each get 31 power points instead of the usual 30. Kasumi Goto offers Overload plus the unique high-damage Shadow Strike and a wide-radius Flashbang Grenade that hinders even protected enemies. Zaeed Massani is a long-range specialist and the only non-Infiltrator/Soldier with Disruptor Ammo, plus crowd-control Concussive Shot and Inferno Grenade. Garrus Vakarian again pairs weapon proficiency with Overload and gains Armor-Piercing Ammo, making him the only squadmate with both a shield-killing power and an ammo power. Grunt is a near-unkillable close-combat juggernaut with regenerating krogan health, Krogan Vitality upgrades, Fortification, the Claymore shotgun, and Incendiary Ammo.
+
+Jack specializes in biotic crowd control with Pull and Shockwave, and her Warp Ammo is the only ammo power that damages barriers. Mordin Solus has only tech powers, no anti-shield or anti-barrier option, but excels against armor with Incineration Blast and disables groups with Full Cryo Blast. Samara and Morinth are near-identical biotic powerhouses differing only in loyalty power: Samara's Area Reave counters mass barriers, while Morinth's Dominate works like AI Hacking on organics. Tali'Zorah vas Neema is situational until Energy Drain, strong against synthetics, with long-lasting AI Hacking. Thane Krios can build as a pure sniper with Shredder Ammo or as a biotic with Warp. Legion is the only squadmate able to wield the M-98 Widow and can reach the highest weapon damage in the game, but has no defense-stripping power. Liara T'Soni rejoins temporarily during Lair of the Shadow Broker with Singularity, Warp, and a Stasis that stops even protected enemies. The page closes with weapon, power, and outfit reference tables.

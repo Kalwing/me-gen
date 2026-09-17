@@ -1,0 +1,197 @@
+narrator: jack
+themes:
+- focus
+- resolve before war
+brief: Jack motivate Shepard to focus, and get ready for war
+form: motivational
+form_note: >
+  The brief is a speech, not a life story: Jack talking Shepard up in the last hour before
+  the last push, using her own record as proof it can be done. Set after the Cerberus coup,
+  the Citadel DLC shore leave, and the Cronos Station assault, this is the morning of the
+  London conduit assault on Earth — everything is already staged (ships loaded, the plan
+  set, the crew briefed), and the only thing left to do is get up and launch it. Jack is
+  rousing Shepard right before he walks out to fight, not settling him in for the night.
+  Romanced Jack per canon.choices (romance: Jack), consummated per jack_meeting/normandy-engineering
+  scene at the end of ME2, with the Citadel DLC back tattoo. Note: choices.yaml's
+  citadel_coup detail says Thane "died protecting the dalatrass," but the event record
+  (thane-krios-death-defending-the-salarian-councilor) and the coup scene
+  (citadel-coup-csec-office-kai-leng) both have him dying for the Salarian Councilor —
+  treating this as the user's shorthand slip, not a real contradiction, and writing it as
+  the Councilor. Per Thomas's request, "what-cerberus-made-me-for" and "the-kids-at-grissom"
+  were rebuilt off shared Shepard/Jack history and broader lore instead of the Teltin and
+  Grissom backstory events: recruitment off the Purgatory prison ship (jack-recruitment-purgatory)
+  plus the Jack/Miranda confrontation Shepard settled (jack_miranda_dispute: appeased
+  both), and the Suicide Mission itself (Jack held the biotic barrier, all-survived
+  outcome per suicide_mission canon). Pragia/Teltin and Grissom get at most a glancing
+  bridging mention, never the anchor. Jack's framing of "holding a barrier is a focus
+  problem, not a strength problem" and "Cerberus bought a weapon and Shepard made a
+  person" are her own editorializing on the record, not new corpus facts.
+
+  Revision per Thomas: Shepard's own AU record is now a load-bearing second thread, not
+  a token mention. Jack is pitching HIM back to himself — every section now carries at
+  least one beat where she cites something true of Shepard specifically as the proof,
+  not just her own Purgatory/barrier/Brimstone/Murtock record. Sourced from
+  config/canon/choices.yaml's Shepard AU overrides (Normandy-born, no parents, gang and
+  drug problem before Anderson pulled him into N7; Sole Survivor of Akuze, the whole
+  squad dead but him; Vanguard, biotic charge into the guns; alignment "Paragon, except
+  against oppressors"; first name Thomas) plus the ME2/ME3 record most relevant to a
+  focus-and-resolve pitch: Cerberus rebuilding him from a corpse via the Lazarus Project
+  (a direct mirror to Jack's own tank), Mordin's death at the Shroud finishing the
+  genophage cure, and Thessia — the one fight where Kai Leng actually got the better of
+  him and walked off with Vendetta, which Jack uses as the counter-example, not the
+  insult. Kai Leng's death at Cronos Station, days earlier in the same push on Cerberus's
+  headquarters, closes the speech as proof the focus she's asking for is already proven,
+  not a new trick.
+
+  Second revision per Thomas, correcting two errors: (1) the outline had previously let
+  the closing section cite the Illusive Man's suicide as settled proof Jack could point
+  back to. That confrontation happens on the Citadel, concurrent with or immediately
+  after the London conduit assault itself — part of the endgame this speech is walking
+  Shepard out the door toward, not something resolved before it. It has been cut
+  entirely; Kai Leng's death at Cronos Station (a distinct, already-resolved event from
+  the assault on Cerberus's headquarters, which happened before this morning) carries
+  that closing beat on its own. (2) the whole episode was misdated as the evening before,
+  ending in the two of them going to sleep. It is corrected throughout to the morning of
+  the assault itself: the fleet is already massed, the plan already briefed, nothing left
+  to prepare — Jack is waking Shepard and getting him moving, not tucking him in. No
+  section still ends on rest; every "tonight"/"tomorrow" reference has been changed to
+  "today," "now," or "in the next hour," and "The Last Quiet Night" is renamed "The Last
+  Quiet Hour" to hold the tattoo-and-sentiment beat inside a tense pre-launch hush instead
+  of an evening of repose. The Crucible's final choice and Shepard's fate at the end of it
+  remain deliberately left out: that hasn't happened yet either, and reaching for it would
+  still be narrator omniscience, not something Jack could actually voice this morning.
+
+  This does not strain the form. `motivational`'s brief is explicit that "the narrator's
+  own history is fuel for the exhortation, not the subject of it" — and Jack's whole
+  method here is to make Shepard's history do exactly that work on Shepard himself: he's
+  not telling her own story for its own sake, she's holding up his record as the evidence
+  because a room full of only Jack's proof lets him nod along without it landing on him.
+  Spine stays `mixed` — some sections anchor to Jack's own events/scenes, some to
+  Shepard's, most to both at once, which is precisely what a speech that argues from the
+  listener's own life looks like structurally. No change to form.
+target_words: 8000
+sections:
+  - id: the-last-quiet-night
+    title: The Last Quiet Hour
+    events: [akuze-thresher-maw-attack]
+    scenes: [citadel-jack-apartment-eezo, citadel-purgatory-jack-and-her-students]
+    retrieval:
+      - "Jack's back tattoo for Shepard, Citadel DLC"
+      - "why Jack marked Shepard's body before the final battle"
+      - "Eezo the biotic varren from Thessia"
+      - "Jack reading duty rosters at the Purgatory after the coup"
+      - "the fleet massed and the plan briefed for the London conduit assault"
+      - "Shepard's early life aboard the Normandy, the gang, and drugs before Anderson and N7"
+      - "Akuze and the thresher maw attack that killed Shepard's squad"
+    promises:
+      - "the tattoo, what it says, and why Jack cried doing it"
+      - "Jack naming, flatly, that today is Earth — the ships are loaded, the plan is set, there's nothing left to do but get up"
+      - "the contrast between this last still hour and what's already staged and waiting outside the door"
+      - "Jack's own admission that she doesn't do sentiment well, and does it anyway this morning, fast, before either of them can dress it up"
+      - "Jack naming, without softening, where he actually came from — no parents, the gang, the drugs, Anderson hauling him into N7 — and Akuze, the whole squad he buried and the guilt he still wears, as the same proof: he's already survived worse and already rebuilt himself once"
+    target_words: 1100
+  - id: what-cerberus-made-me-for
+    title: What Shepard Bought at Purgatory
+    events: [jack-recruitment-purgatory, lazarus-project-shepard-revival]
+    scenes: [purgatory-jack-breakout, normandy-jack-miranda-confrontation, cerberus-facility-kai-leng-rasa-fail-to-catch-jack]
+    retrieval:
+      - "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+      - "Jack's release from cryostasis and the fight off the ship"
+      - "Cerberus as an institution, how it buys, tests, and discards people"
+      - "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+      - "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+      - "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    promises:
+      - "why Shepard buying her off a prison ship, on Cerberus's own dime, is the reason she owes Shepard anything at all"
+      - "the fight with Miranda over Cerberus's excuses, and how Shepard kept them both without Jack backing down an inch"
+      - "the detail that Kai Leng already tried to drag her back to Cerberus once and lost, years before he became the Illusive Man's knife"
+      - "the pivot: Cerberus built a weapon, Shepard built someone who chooses to stay, and that choice is what she's asking Shepard to make again right now, today, before he's even out the door"
+      - "the mirror Jack draws and doesn't let him dodge: Cerberus built her in a tank and rebuilt him from a corpse on a table, and both of them spat the gift back in Cerberus's face when it counted"
+    target_words: 1200
+  - id: the-kids-at-grissom
+    title: Holding the Bubble
+    events: [suicide-mission]
+    scenes: [collector-base-infiltration-normandy-briefing, collector-base-final-battle-normandy-epilogue]
+    retrieval:
+      - "the Suicide Mission through the Omega-4 relay and the Collector Base assault"
+      - "the biotic barrier that held the squad against Seeker Swarms during the Long Walk"
+      - "biotic amps and the physical cost of holding a barrier under sustained fire"
+      - "the all-survived outcome of the Suicide Mission and what it took to get there"
+      - "biotic discipline and training versus raw power in a fight"
+      - "Shepard's Vanguard biotic charge and the line between reckless and controlled"
+    promises:
+      - "what it took to hold the barrier through the Long Walk while the squad moved past her, and why one slip would have cost someone a name Jack still knows"
+      - "the flat fact that every single one of them walked back onto the Normandy that day, and what that says about doing the job scared instead of not doing it"
+      - "the amp burn and blackout risk that comes with pushing a barrier that long, told as the plain cost of biotics, not a war story"
+      - "turning the memory into the argument: focus is what held that barrier, and it's what has to hold Shepard through the next few hours"
+      - "Jack's read on Shepard's own biotics — charging straight into the guns instead of hanging back and covering — as the same discipline wearing a more reckless-looking coat"
+    target_words: 1100
+  - id: every-body-we-buried-to-get-here
+    title: Every Body We Buried to Get Here
+    events: [cerberus-coup-citadel-ashley, thane-krios-death-defending-the-salarian-councilor, genophage-cure-tuchanka]
+    scenes: []
+    retrieval:
+      - "the Cerberus coup on the Citadel and Udina's betrayal"
+      - "Thane Krios dying to stop Kai Leng and protect the Salarian Councilor"
+      - "the Virmire survivor's choice during the coup"
+      - "grief as something that gets in the way of the job"
+      - "Jack's read on institutions and who they protect when it counts"
+      - "Mordin Solus going up the Shroud tower to finish the genophage cure and dying in the blast"
+    promises:
+      - "Jack's flat account of Udina, the coup, and killing him in the Council chamber"
+      - "Thane's death and why Jack won't let Shepard turn it into a reason to freeze"
+      - "naming the dead plainly, no softening, the way Jack does it"
+      - "the line where grief has to become fuel or it becomes a liability, right now, with the ships already loaded"
+      - "Mordin added to the list without ceremony — going up the Shroud singing rather than send someone else up in his place — and Jack's refusal to let Shepard file it as anything but a cost paid on purpose"
+    target_words: 1250
+  - id: the-arena-and-the-apartment
+    title: The Arena and the Apartment
+    events: []
+    scenes: [citadel-jack-arena-brimstone]
+    retrieval:
+      - "the Armax Arsenal Arena and the Brimstone simulator match"
+      - "Jack taking down an Atlas mech solo"
+      - "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+      - "biotics used well, as competition and release"
+      - "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    promises:
+      - "the Brimstone match and Jack calling it a good time by her standards"
+      - "why Jack picked a fight sim for a date, and what that says about her"
+      - "spelling out what the tattoo actually promises, without going soft about it"
+      - "Jack's argument that what they have is worth surviving for, said sideways rather than sincerely"
+      - "Jack needling him about his own reputation — steady, faithful, practically a Boy Scout except to people who have it coming — and for making her wait until the very end of the war to do anything about it"
+    target_words: 1000
+  - id: what-focus-actually-looks-like
+    title: What Focus Actually Looks Like
+    events: [priority-thessia]
+    scenes: [normandy-engineering-jack-confidences]
+    retrieval:
+      - "Jack's criminal and mercenary background and how she learned to keep her head"
+      - "Murtock, the job that went wrong, and what losing focus cost him"
+      - "biotic discipline versus raw power"
+      - "prison and the practical economics of staying alive"
+      - "Kai Leng beating Shepard back at Thessia and stealing the Prothean VI Vendetta"
+    promises:
+      - "the Murtock story, told the way Jack tells it, and its point: hesitation is what kills you, not fear"
+      - "how she trained herself to focus in places built to break people"
+      - "the distinction Jack draws between being fearless and being useful"
+      - "turning the lesson directly on Shepard: focus is a skill, not a mood, so build it like one, starting the second he stands up"
+      - "Jack throwing Thessia back at him — the one fight where Kai Leng got the better of him and walked off with Vendetta — not as an insult but as the exact lesson she's teaching, landed on the one time it didn't hold"
+    target_words: 1200
+  - id: get-up-boy-scout
+    title: Get Up, Boy Scout
+    events: [london-conduit-assault, priority-cerberus-headquarters]
+    scenes: []
+    retrieval:
+      - "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+      - "who is counting on Shepard to be sharp right now"
+      - "Jack's students and the crew as reasons to come back"
+      - "Jack's discomfort with sincerity and how she covers it"
+      - "Kai Leng's death at Shepard's hands at Cronos Station"
+    promises:
+      - "the direct call to action: up now, sharp, out the door — the assault is already loaded and waiting on him"
+      - "Jack naming who needs Shepard back — her, the crew, her kids at the front"
+      - "one last blunt, unguarded line before she buries it in a joke or an insult"
+      - "the tattoo circled back to one final time: find me under the rubble, but don't end up under it"
+      - "Jack citing Cronos Station back at him — the fight where he beat Kai Leng, not talked to him — as proof the focus she wants right now is already in him, proven days ago, not a new trick he has to learn before he's even out the door"
+    target_words: 1150

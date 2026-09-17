@@ -1,0 +1,15 @@
+---
+title: The SSV Normandy SR-1 (Part 2) — Drive Core, Stealth, and Service History
+url: ""
+game: Mass Effect
+type: tech
+characters: [Commander Shepard, David Anderson, Jeff "Joker" Moreau, Saren Arterius]
+---
+
+Part 2 of a breakdown of the SSV Normandy SR-1, covering its systems and service history. At the rear of main engineering was the Tantalus drive core, the vessel's central nervous system, where power distribution, propulsion, mass effect field generation, and ship-wide integration converged. Powered by a high-output antimatter reactor, it was proportionally twice the size of any other ship's drive core. It enabled the Normandy's unusual propulsion: generating controlled mass distortions the ship "fell into," reducing reliance on heat-emitting thrusters during maneuvering, though fusion drives and conventional thrusters were kept for combat and high acceleration. Its field manipulation had noticeable effects on ship stability, per Joker.
+
+The Internal Emission Sink (IES) stealth system temporarily stored waste heat in high-capacity internal lithium heat sinks embedded through the hull. It could not be used during FTL travel, where relativistic effects overwhelmed it, and even at sublight the ship remained vulnerable to direct visual confirmation or sustained sensor lock. In practice the Normandy could run silent for several hours at full stealth output, longer if drifting; eventually all stored heat had to be vented or the ship and crew would be lost to internal heat build-up. Together the Tantalus core and IES gave the Normandy sustained deep-space operation with minimal detectability.
+
+The ship cost an estimated 120 billion credits, roughly the drive-core cost of thousands of fighters or one heavy cruiser; Rear Admiral Mikhailovich called it an extreme allocation of resources for a single prototype. Otherwise she carried standard Council-space frigate armament: GARDIAN point-defense lasers, kinetic barrier shielding, a spinal mass accelerator cannon, and optional Javelin-class disruptor torpedoes. Her crew was about 50 highly specialized personnel, including CO, XO, chief navigator, chief medical officer, chief engineer, marine detail commander, bridge officers, CIC operators, technical crew, marine security, and a requisitions officer.
+
+The Normandy was named for the 1944 Allied invasion of Normandy. She began service under an Alliance officer whose clash with the Turian chief engineer led to reassignment, after which Captain David Anderson took command. Following trial runs, including an unofficial test flight by Jeff "Joker" Moreau, she launched on her first mission to Eden Prime in 2183. The deployment tied the ship to the rise of humanity's first Spectre, Commander Shepard, who took her as a command platform to pursue Saren Arterius and the geth into the Traverse and Terminus systems. The pursuit culminated in the Battle of the Citadel, where the Normandy played a critical supporting role against Sovereign. Later that year, during operations against remaining geth, the Collectors overwhelmed her with firepower far beyond her design limits and destroyed her above Alchera.

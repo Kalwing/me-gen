@@ -1,0 +1,15 @@
+---
+title: David Anderson
+url: https://masseffect.fandom.com/wiki/David_Anderson
+game: Mass Effect 3
+type: character
+characters: [David Anderson, Commander Shepard, Saren Arterius, Kahlee Sanders, Jon Grissom, Skarr, Donnel Udina, Steven Hackett, James Vega, The Illusive Man, Kai Leng, Paul Grayson, Nihlus Kryik, Anita Goyle, Jeff "Joker" Moreau]
+---
+
+Captain David Edward Anderson was a human war hero, born June 8, 2137 in London to Ursula and Paul Anderson. He was the first graduate of the Alliance's N7 Special Forces program and served with distinction in the First Contact War. In Mass Effect: Revelation (2165), then-Lieutenant Anderson, XO of the SSV Hastings, led the ground team responding to the attack on the Sidon research station, discovered it had harbored a traitor secretly researching AI, and was tasked by Ambassador Anita Goyle to investigate discreetly. He tracked down Kahlee Sanders, daughter of Jon Grissom, protected her from the krogan Skarr, and repeatedly clashed with the turian Spectre Saren Arterius. Saren's destruction of an element zero refinery during the rescue killed many civilians; Saren blamed Anderson, which kept Anderson out of the Spectres. Anderson and Kahlee developed a lasting romance.
+
+In the comic He Who Laughs Best, Anderson observed the SSV Normandy's test flight at Arcturus Station and agreed to make Jeff "Joker" Moreau the ship's pilot after Joker hijacked it. In Mass Effect, Anderson, now a Captain and former commander of the SSV Tokyo, was given command of the Normandy and hand-picked Commander Shepard as his XO and protégé. After the Eden Prime mission and Nihlus Kryik's murder by Saren, Anderson supported Shepard's investigation, stepped down as captain to make Shepard a Spectre, and helped Shepard steal the Normandy to reach Ilos, being either shot in the leg by C-Sec or punching Udina unconscious. After Sovereign's destruction he could be endorsed as the human Council representative.
+
+In Mass Effect 2 Anderson had either joined the Council or become an Admiral advising Councilor Udina; he arranged to restore Shepard's Spectre status and admitted stationing Ashley or Kaidan on Horizon. In the novels Ascension, Retribution, Deception, and Conviction, Anderson continued working with Kahlee Sanders against Cerberus, pursued the Reaper-enslaved Paul Grayson, fought Kai Leng, and recruited James Vega on Omega to guard the imprisoned Shepard.
+
+In Mass Effect 3 (2186), Anderson escorted Shepard to the Defense Committee as the Reaper invasion began, then stayed on Earth to lead the human resistance, reinstating Shepard into the Alliance with new dogtags. He coordinated with Shepard by quantum communicator throughout the war. Reuniting in London for the final assault, Anderson and Shepard reached the Citadel's Control chamber, where the indoctrinated Illusive Man forced Shepard to shoot Anderson. Anderson died of his wound beside Shepard, calling it an honor to have fought beside his greatest protégé; his name was added to the Normandy's memorial wall. In Mass Effect: Andromeda, the first human child born in Andromeda could be named David Edward after him.

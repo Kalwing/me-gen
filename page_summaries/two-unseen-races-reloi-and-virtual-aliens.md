@@ -1,0 +1,13 @@
+---
+title: Two Races We Never See — the Reloi and the "Virtual Aliens"
+url: ""
+game: Mass Effect 2
+type: species
+characters: [Arrika, Jordan Deitweiler, Sygan]
+---
+
+This hand-corrected lore document covers two minor Mass Effect species that never appear in-game, known only from Cerberus Daily News items around 2185–2186.
+
+The Reloi were an avian, feathered, spacefaring race from the planet Tervest, known to the elcor long before the wider galaxy. The asari discovered them in 2184, and in 2185 the Council welcomed them to the galactic community, sending sponsored shuttles to Tervest with visitors and gifts and dispatching a Reloi delegation to the Citadel to study galactic law, culture, history, alien biology and mass effect technology. The contact ceremonies triggered an outbreak of an alien flu among the Reloi, prompting them to wear environmental suits around other species. In 2186 the delegation withdrew completely from the Citadel and isolated itself on Tervest, unwilling and unable to fight the Reapers. A representative named Arrika stated, "We have no wish to battle those who have yet to wrong us, nor have we the capability." The Reloi planned to destroy their orbital satellites and observation equipment so the Reapers would mistake them for a pre-spaceflight civilization; whether this worked is unknown.
+
+The unnamed "virtual aliens" faced their homeworld's star going supernova about 8,000 years before the trilogy. They built a starship with a network of supercomputers and transferred roughly one billion consciousnesses into it along with an entire virtual world, leaving an AI to pilot the ship and maintain the simulation as it drifted for millennia. In 2185 the ship entered a salarian-inhabited system seeking help because its energy source was failing; the salarians initially feared the "ghost ship" was a Reaper vanguard because of its AI. The human exobiologist Dr. Jordan Deitweiler made first contact with the AI and learned of the virtual world and its energy problem. The Council classified all matters involving the ship as top secret but is understood to have assisted. About a month later it emerged that a virtual alien representative, Ambassador Sygan, had been using Deitweiler's body to visit the Citadel and address the Council, revealing the virtual aliens could re-enter the real world in the bodies of those who entered their world. Sygan sought asylum; a volunteer took Deitweiler's place so he could reclaim his body, and afterward around 400 individuals of various races stepped forward to swap places with virtual aliens, who a year later were caught in the Reaper war.

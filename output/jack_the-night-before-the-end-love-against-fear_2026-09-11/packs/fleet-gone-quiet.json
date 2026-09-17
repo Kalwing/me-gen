@@ -1,0 +1,882 @@
+{
+  "section": {
+    "id": "fleet-gone-quiet",
+    "title": "The Fleet Gone Quiet",
+    "target_words": 700,
+    "form": "bedtalk",
+    "narrator": "jack"
+  },
+  "promises": [
+    "Jack sets the scene: hours after Hackett's speech, the fleet holding position, Shepard still awake",
+    "she names plainly what she's doing here — talking him down, not talking about tomorrow",
+    "a first, blunt read on how many days he's gone without real sleep and what that's doing to him"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "title": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "kind": "ceremony",
+      "game": "Mass Effect 3",
+      "when": "2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system",
+      "where": "aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference",
+      "participants": [
+        "Steven Hackett",
+        "Shepard",
+        "David Anderson"
+      ],
+      "heard_by": [
+        "the combined fleets",
+        "the Hammer strike teams",
+        "every soldiers in the fight",
+        "Jack"
+      ],
+      "beats": [
+        {
+          "text": "With the galaxy's combined forces committed to deploying the Crucible against the Reapers in the Sol system, Fleet Admiral Hackett requests clearance to board Shepard's ship. Aboard the Normandy he signals the fleets to mobilize and delivers his pre-battle address to every soldier in the coming fight: \"Never before have so many come together--from all quarters of the galaxy. But never before have we faced an enemy such as this... Stand fast. Stand strong. Stand together. Hackett out.\"\n",
+          "source_chunks": [
+            "steven-hackett_007"
+          ]
+        },
+        {
+          "text": "Afterward Shepard and Hackett hold a holo-conference with Anderson, on Earth, who reports that the Reapers have moved the Citadel into orbit above Earth and closed the Ward arms, so the Crucible cannot dock.\n",
+          "source_chunks": [
+            "steven-hackett_007"
+          ]
+        },
+        {
+          "text": "Hackett lays out the plan: Sword fleet engages the Reapers in orbit; Hammer strike teams help the Earth resistance reach the Reaper-built conduit in London to teleport to the Citadel and open the arms; Hackett's Shield fleet hangs back to guard the Crucible and bring it in during the fighting. The assembled fleets then launch the assault on Earth.\n",
+          "source_chunks": [
+            "steven-hackett_007"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "earth-fob-final-goodbyes",
+        "earth-conduit-harbinger-last-run"
+      ],
+      "related_events": [
+        "london-conduit-assault",
+        "crucible-superweapon-project"
+      ],
+      "source_chunks": [
+        "steven-hackett_007"
+      ],
+      "private_to": [],
+      "requires": [],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "normandy-hackett-pre-battle-address": "heard"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#01",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference With the galaxy's combined forces committed to deploying the Crucible against the Reapers in the Sol system, Fleet Admiral Hackett requests clearance to board Shepard's ship. Aboard the Normandy he signals the fleets to mobilize and delivers his pre-battle address to every soldier in the coming fight: \"Never before have so many come together--from all quarters of the galaxy. But never before have we faced an enemy such as this... Stand fast. Stand strong. Stand together. Hackett out.\"",
+      "url": "",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#03",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference Hackett lays out the plan: Sword fleet engages the Reapers in orbit; Hammer strike teams help the Earth resistance reach the Reaper-built conduit in London to teleport to the Citadel and open the arms; Hackett's Shield fleet hangs back to guard the Crucible and bring it in during the fighting. The assembled fleets then launch the assault on Earth.",
+      "url": "",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#02",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference Afterward Shepard and Hackett hold a holo-conference with Anderson, on Earth, who reports that the Reapers have moved the Citadel into orbit above Earth and closed the Ward arms, so the Crucible cannot dock.",
+      "url": "",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "steven-hackett_008",
+      "kind": "page",
+      "page": "Steven Hackett",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Admiral Hackett was not physically seen in the Mass Effect series until Arrival. - Lance Henriksen voiced Master Gnost\\-Dural for the Galactic Timeline on BioWare's Star Wars: The Old Republic website. - In his physical appearances in the original trilogy games, the shoulders on Hackett's uniform have four gold bars on them. In Mass Effect Legendary Edition, Hackett's uniform in Mass Effect 3 is changed to have just three gold bars on its shoulders, though his uniform in the Legendary Edition version of Mass Effect 2 retains four bars. He also has four bars in Mass Effect: Paragon Lost. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Steven_Hackett",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "scene:presrop-confrontation-father-kyle#06",
+      "kind": "scene",
+      "page": "Facing Father Kyle in the Sanctuary",
+      "section": "argument",
+      "game": "Mass Effect",
+      "scene_id": "presrop-confrontation-father-kyle",
+      "text": "Facing Father Kyle in the Sanctuary. 2183, after Admiral Hackett's orders on the biotic commune the Sanctuary at the back of the underground bunker, Major Kyle's biotic commune on Presrop, Century system, Hawking Eta Back aboard the Normandy, Shepard was debriefed by Admiral Hackett on the outcome.",
+      "url": "",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "summary:steven-hackett",
+      "kind": "summary",
+      "page": "Steven Hackett",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Steven Hackett was a top-ranking Systems Alliance Navy officer and commanding officer of the Fifth Fleet, based at Arcturus Station. Born in Buenos Aires in 2134, he was placed in the Advanced Training Academy for Juveniles after his mother's death in 2146, enlisted in 2152, was commissioned as a second lieutenant in 2156, and fought in the First Contact War; his rise from enlisted man to admiral became an Alliance legend.\n\nIn Mass Effect, Hackett was one of the three officers, alongside Ambassador Donnel Udina and Captain David Anderson, who recommended Commander Shepard as the first human Spectre. He frequently contacted Shepard with assignments vital to Alliance security and was generally more supportive of Shepard's decisions than Udina. During the Battle of the Citadel he commanded the Alliance reinforcements and, on Shepard's judgment, either defended or abandoned the Destiny Ascension; afterward he was promoted to head of the Alliance military. In Mass Effect: Paragon Lost he commended Lieutenant James Vega's Delta Squad on Fehl Prime and later decorated and promoted Vega.\n\nIn Mass Effect 2 Hackett helped plan a memorial for the presumed-dead Shepard, transmitted the location of the Normandy SR-1 crash site so Shepard could place a monument and recover crew dog tags, and in the Arrival DLC asked Shepard to rescue his friend Dr. Amanda Kenson from batarian custody, later debriefing Shepard after the destruction of the Alpha Relay and warning of consequences to face on Earth.\n\nBy Mass Effect 3 Hackett had become Fleet Admiral. Facing the Reaper invasion he sacrificed the Second Fleet to save the Third and Fifth, presided over \"the worst military defeat in human history,\" and directed Shepard to Mars. He oversaw construction of Project Crucible at an undisclosed location, ordered the Illusive Man killed, mobilized the Fifth Fleet against Cerberus at Cronos Station, and delivered a pre-battle address to the assembled fleets before the assault on Earth. He commanded Shield Fleet escorting the Crucible to the Citadel; after its activation he ordered the fleets to withdraw and, in surviving endings, narrated the aftermath and the galaxy's rebuilding.",
+      "url": "https://masseffect.fandom.com/wiki/Steven_Hackett",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "geth-dropship_003",
+      "kind": "page",
+      "page": "Geth Dropship",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Geth Dropships are a key element of the attack on Feros. While one vessel remains anchored to the ExoGeni Corporation headquarters, other vessels begin dropping geth units directly onto the top of the tower that was home to Zhu's Hope, and landing heavy units on the Prothean Skyway. A Geth Dropship—described as a troop ship— is also used on Virmire to send emergency reinforcements to the bomb site during Shepard's attack. If Admiral Hackett's directive to eliminate geth outposts is pursued, the Commander's team may encounter numerous dropships on uncharted planets. While other vessels perform quick troop drops before flying away, the dropship on Casbin in particular stays put over the battlefield, vulnerable to small arms fire. During the Battle of the Citadel, Shepard's team is forced to engage one on foot, which is blocking their way across the Citadel Tower's exhaust plain. It can be dented only by the Citadel's defense turrets. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Geth_Dropship",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "entertainment_054",
+      "kind": "page",
+      "page": "Entertainment",
+      "section": "Sarissa Theris writings",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Sarissa Theris' writings and manuals for Asari Commandos include: - *A Rock in the Maelstrom*, her main work on crisis strategy and emergency response. - *The First Three Centuries: The New Huntress's Path*. Cora Harper has a copy given to her by Nisira. - *Twelve Leaves*, a mixture of meditations and tactical insight co\\-written with R. T'Naya. - A quote from *Twelve Leaves*, verse 132, can be seen in one of Cora's email to Ryder: \"Grief and fear cannot rule you; let them be your faithful servants, protective of their mistress. Loss serves a huntress like fuel serves fire.\" - *Speeches and Silences*, chronicling the Battle of Kerkis and all the politicking that led up to it. Also includes the original battlefield vids of Sarissa shielding a city district with her biotics. - *Essays from the Void*, which includes her induction address to new commandos and a historical analysis of the first asari Spectres.",
+      "url": "https://masseffect.fandom.com/wiki/Entertainment",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "taetrus_002",
+      "kind": "page",
+      "page": "Taetrus",
+      "section": "See also",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Cerberus Daily News - \"Turian Separatists Hijack Cruiser\" storyline - \"The Vallum Blast\" storyline - \"The War on Taetrus\" storyline - \"Reconstruction of Taetrus\" storyline - Alliance News Network Information Partners - \"Primarch address preps turians for war\" by Chisilix Palanurus. - \"Hierarchy fleets defeated in push to Palaven\" by Chisilix Palanurus.",
+      "url": "https://masseffect.fandom.com/wiki/Taetrus",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "pylos-nebula_001",
+      "kind": "page",
+      "page": "Pylos Nebula",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Star Chart from Baria Frontiers store (Mass Effect 2\\) **Prerequisite:** Leviathan: Find Ann Bryson (Mass Effect 3\\) The **Pylos Nebula** lies deep in the Terminus Systems. It is mostly frontier with several races attempting to gain a substantial foothold and the usual pirates to harass them. There are no known extant pre\\-spaceflight cultures in the cluster, although there are signs of pre\\-Citadel spacefaring civilizations in several locations.",
+      "url": "https://masseffect.fandom.com/wiki/Pylos_Nebula",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "citadel-old-friends_002",
+      "kind": "page",
+      "page": "Citadel: Old Friends",
+      "section": "Acquisition",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Prerequisite:** Find Liara T'Soni or Noveria: Matriarch Benezia or Feros: The Thorian This assignment is only available if Commander Shepard has the Earthborn background, and one of the core missions has been completed. A human named Finch can be found outside Chora's Den in the Wards and will address Shepard in passing. Talking to him activates the assignment.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Old_Friends",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "crucible_001",
+      "kind": "page",
+      "page": "Crucible",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | The **Crucible** is an ancient and highly complex device constructed by the Protheans as a superweapon to stop the Reapers, but never successfully implemented before their extinction. Its designs were stored in a Prothean archive on Mars and were later rediscovered by a Systems Alliance archaeological team. During the Reaper invasion of 2186, the designs are recovered by Commander Shepard on Admiral Steven Hackett's orders after the fall of Earth. The Crucible becomes the galaxy's last hope.",
+      "url": "https://masseffect.fandom.com/wiki/Crucible",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "mass-effect-3_003",
+      "kind": "page",
+      "page": "Mass Effect 3",
+      "section": "Retail bonus items",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Depending on where the game is purchased, what edition is purchased and whether or not it was pre\\-ordered, the customer may be entitled to one or more Retail Bonus Items. The following table details which items are available based on which version of the game is purchased, and whether or not the game was pre\\-ordered. |  | Standard Edition | | N7 Collector's Edition | | N7 Digital Deluxe Edition | | | --- | --- | --- | --- | --- | --- | --- | | Item | Preorder | Purchase | Preorder | Purchase | Preorder | Purchase | | Mass Effect 3: N7 Collector's Edition Pack |  |  | ✓ | ✓ | ✓ | ✓ | | Mass Effect 3: From Ashes |  |  | ✓ | ✓ | ✓ | ✓ | | Mass Effect 3: N7 Warfare Gear | ✓ 1 |  | ✓ 1 |  | ✓ 2 |  | | M\\-55 Argus | ✓ 3 |  | ✓ 3 |  | ✓ 3 |  | | AT\\-12 Raider | ✓ 4 |  |  |  | ✓ 4 |  | | 1**Announced for the following retailers:** Amazon (Germany, United Kingdom),  Blockbuster (United Kingdom), EB Games (Canada),  GameStop (Denmark, Finland, Germany, Norway, Sweden, United States),  GAME (Australia, Spain, France),  Game Mania (Belgium, Netherlands),  The Hut (United Kingdom),  Mighty Ape (Australia, New Zealand),  Ozon (Russia),  Play.com (United Kingdom),  ShopTo (United Kingdom),  (X)Zone (Czech Republic),  Xtra\\-vision (Republic of Ireland),  Zavvi (United Kingdom),  Zepy Games (Singapore) 2**Announced for the following services:**EA Origin (Poland, Singapore) 3**Available for most pre\\-ordered copies of the game.** Exclusive to EB Games in Australia (Standard Edition only), Gamestop in Spain (Standard and Collector's Edition). 4**Available exclusively for copies of the game pre\\-ordered through EA Origin.** | | | | | | | |",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "summary:two-unseen-races-reloi-and-virtual-aliens",
+      "kind": "summary",
+      "page": "Two Races We Never See — the Reloi and the \"Virtual Aliens\"",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This hand-corrected lore document covers two minor Mass Effect species that never appear in-game, known only from Cerberus Daily News items around 2185–2186.\n\nThe Reloi were an avian, feathered, spacefaring race from the planet Tervest, known to the elcor long before the wider galaxy. The asari discovered them in 2184, and in 2185 the Council welcomed them to the galactic community, sending sponsored shuttles to Tervest with visitors and gifts and dispatching a Reloi delegation to the Citadel to study galactic law, culture, history, alien biology and mass effect technology. The contact ceremonies triggered an outbreak of an alien flu among the Reloi, prompting them to wear environmental suits around other species. In 2186 the delegation withdrew completely from the Citadel and isolated itself on Tervest, unwilling and unable to fight the Reapers. A representative named Arrika stated, \"We have no wish to battle those who have yet to wrong us, nor have we the capability.\" The Reloi planned to destroy their orbital satellites and observation equipment so the Reapers would mistake them for a pre-spaceflight civilization; whether this worked is unknown.\n\nThe unnamed \"virtual aliens\" faced their homeworld's star going supernova about 8,000 years before the trilogy. They built a starship with a network of supercomputers and transferred roughly one billion consciousnesses into it along with an entire virtual world, leaving an AI to pilot the ship and maintain the simulation as it drifted for millennia. In 2185 the ship entered a salarian-inhabited system seeking help because its energy source was failing; the salarians initially feared the \"ghost ship\" was a Reaper vanguard because of its AI. The human exobiologist Dr. Jordan Deitweiler made first contact with the AI and learned of the virtual world and its energy problem. The Council classified all matters involving the ship as top secret but is understood to have assisted. About a month later it emerged that a virtual alien representative, Ambassador Sygan, had been using Deitweiler's body to visit the Citadel and address the Council, revealing the virtual aliens could re-enter the real world in the bodies of those who entered their world. Sygan sought asylum; a volunteer took Deitweiler's place so he could reclaim his body, and afterward around 400 individuals of various races stepped forward to swap places with virtual aliens, who a year later were caught in the Reaper war.",
+      "url": "",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "summary:alliance-navy",
+      "kind": "summary",
+      "page": "Alliance Navy",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Alliance Navy was the space combat branch of the Systems Alliance military, with the Alliance Marines a specialized ground branch within it. Charged with protecting human colonies, stations, and mass relays, it concentrated its strength in fleets stationed at relay nexuses so it could respond quickly to attacks. It held over 200 vessels and several dreadnoughts at the time of the First Contact War in 2157, and by the Reaper War in 2186 it fielded nine dreadnoughts across at least eight fleets, each subdivided into flotillas of a cruiser and four to six frigates. Fighter carriers, dreadnought-sized ships armed mainly with fighters, were a human innovation. Its size and skill drew Citadel Council interest and helped make humanity a candidate Council species. After the Battle of the Citadel in 2183, Admiral Steven Hackett was made head of the Navy.\n\nThe First Fleet, largest in the Navy and based at Arcturus Station, guarded the Charon Relay; during the Reaper invasion it was cut in half, and Admiral Ines Lindholm sacrificed a tenth of the survivors to let the rest escape. The Second Fleet, under Admiral Kastanie Drescher, liberated Shanxi in 2157 and was later sacrificed by Hackett to let the Third and Fifth Fleets flee Arcturus. The Third Fleet was led by Admiral Nitesh Singh aboard the SSV Logan. The Fourth Fleet, stationed at Earth, was wiped out. The Fifth (Arcturus) Fleet, Hackett's command, frequently tasked Commander Shepard with missions and received the Palladium Star after the Battle of the Citadel; its 63rd Scout Flotilla under Rear Admiral Mikhailovich was to have received the Normandy. The Sixth and Seventh Fleets, near Terra Nova and Eden Prime, were bypassed entirely by the Reapers; the Sixth later rallied after Shepard's visit to Horizon. The Eighth Fleet was ambushed near Ontarom.\n\nShip naming conventions assigned dreadnoughts mountain names, cruisers city names, frigates battle names, and carriers names of great human figures; warships carried the \"SSV\" prefix. Dreadnought classes in service were the Everest and Kilimanjaro. The 2nd Frontier Division garrisoned Eden Prime and was nearly destroyed by Saren Arterius's geth attack in 2183. During the Fall of Earth the Navy suffered its worst defeat, losing Arcturus Station and 45,000 people. The Alliance Naval Exploration Flotilla, damaged by a 2185 mining-fraud scandal, later aided Crucible construction on Tyr.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "summary:voyager-cluster",
+      "kind": "summary",
+      "page": "Voyager Cluster",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Voyager Cluster lay among the outer edges of the Milky Way but was still considered part of Earth Systems Alliance space. It connected via mass relay to the Hades Gamma cluster and contained three systems: Amazon, Columbia, and Yangtze, all named for rivers. Its planets and bodies included Agebinium, Derneuca, Sonedma, Sybin, and Tremar in Amazon; Clojiia, Nepheron, Ontaheter, Gromar, and two asteroid belts in Columbia; and Renshato, Binthu, Dregir, Alrumter, and Patajiri in Yangtze.\n\nAs of 2183, Cerberus maintained a substantial presence in the cluster, operating from planets that were otherwise deserted and therefore went unnoticed. At least four bases, complete with troops and defenses, had been established in the region. Commander Shepard could undertake numerous assignments there, including UNC: Cerberus, UNC: Espionage Probe, UNC: Hades' Dogs, UNC: Locate Signs of Battle, UNC: Prothean Data Discs, UNC: Turian Insignias, and UNC: Valuable Minerals.\n\nThe cluster's name may derive from the real-world Voyager space probe program, or from the French term voyageur, a licensed fur trader who used rivers for travel in pre-road North America, fitting the river-themed system names. During development the cluster was called \"Voyager Xi,\" and unused data pointed to two additional systems that were cut.",
+      "url": "https://masseffect.fandom.com/wiki/Voyager_Cluster",
+      "for_key": "Hackett's pre-battle address"
+    },
+    {
+      "chunk_id": "war-assets_005",
+      "kind": "page",
+      "page": "War Assets",
+      "section": "Sword, Shield, and Hammer",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When the mission Priority: Earth is started, all gathered War Assets combine into three different groups, codenamed Sword, Shield and Hammer. Sword and Shield consist of all allied fleets and starships, and Hammer consists of all ground forces. When Sword attacks the Reaper fleet above Earth, it acts as a distraction to allow Hammer to land on Earth and engage the Reapers on the ground to aid Admiral Anderson's resistance forces. Meanwhile, Shield is held in reserve to escort the Crucible into position to dock with the Citadel. Depending on the number of War Assets gathered and their combined military effectiveness rating, Sword and Hammer will either begin taking heavy losses quickly or be able to hold their own until the end of the mission. The survival and continued defense of Sword and Hammer are pivotal to the success of the final mission. For example, high EMS results in enough suppressive fire for the Normandy to quickly land and extract squad members to safety, as well as allowing the Crucible to dock with little to no damage taken.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "alliance-navy_023",
+      "kind": "page",
+      "page": "Alliance Navy",
+      "section": "Fall of Earth",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Alliance Navy suffered the most devastating defeat in its history when the Reapers invaded the galaxy in 2186 and made their way to Earth. The Sixth and Seventh Fleets, located around Terra Nova and Eden Prime respectively, were completely bypassed as the Reapers committed to a headlong rush to humanity's most important world. Knowing that something was on its way, Admiral Hackett moved the Second, Third, and Fifth Fleets to guard Arcturus Station. When the Reapers arrived, they sent a dozen capital ships as a screen to distract the Alliance fleets while the bulk of Reaper forces used the Arcturus relay to travel to Sol. Hackett was eventually forced to sacrifice the Second Fleet as a distraction to allow the Third and Fifth Fleets to flee, leaving Arcturus Station, the Alliance's capital and home to 45,000 people, to be destroyed. At Sol, the Reapers immediately engaged the First Fleet, which had been stationed at the Charon Relay. This gave the Fourth Fleet, in orbit around Earth, a few minutes of advance warning. This final defense was quickly overwhelmed. The First Fleet was rapidly cut in half, and a tenth of its ships were sacrificed for the rest of the fleet to escape and rejoin Admiral Hackett. The Fourth Fleet was completely wiped out and the Reapers began to land on Earth.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "summary:tamayo-point",
+      "kind": "summary",
+      "page": "Tamayo Point",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Tamayo Point was a space station in the Sol system designated as a tourist jump-off point to the wider galaxy, with extensive commercial amenities catering to human and alien visitors. It possibly took its name from the Cuban cosmonaut Arnaldo Tamayo Méndez.\n\nIn Mass Effect Andromeda: Initiation, Tamayo Point was Cora Harper's first waystation on returning to Sol after four years of military service with the asari. She was almost immediately targeted by xenophobes following an unflattering ambush interview by Khalisah al-Jilani. Her friend Ygara Menoris was also on the station, ostensibly bound for Illium, but turned out to have ulterior motives. After Ygara's betrayal, Cora returned to Tamayo Point and used the station's direct line to the system comm buoy to relay her report to Alec Ryder; because the line was not fully secure, Ryder spoke in hypotheticals whenever the subject touched on illegal topics such as artificial intelligence.\n\nThe station had medical facilities on its higher levels equipped to treat damage from metabolic overdrive. Cora was brought there again after overexertion on Quiet Eddy harmed her body, spending weeks in a coma while Homeward Sol protesters who recognized her from al-Jilani's interview gathered at the hospital, requiring armed guards at her door. When she was discharged, Tamayo Point authorities cleared protesters around her shuttle after her implant AI SAM-E issued a possible bomb threat.",
+      "url": "https://masseffect.fandom.com/wiki/Tamayo_Point",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "summary:alliance-news-network-march-2012",
+      "kind": "summary",
+      "page": "Alliance News Network - March 2012",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page is a short archive with minimal prose. It reproduces the Alliance News Network headline reports delivered via the Mass Effect 3 main menu during March 2012, set in-universe in 2186 during the Reaper invasion. Week Two headlines covered blackouts and bombardment on Earth, batarian refugees in the Exodus Cluster reporting devastated planets, comm buoys going dark across Sol, Arcturus, and Exodus with sightings of insectoid attackers and \"deformed\" batarians, and the start of war in turian space over Taetrus, with Primarch Fedorian vowing \"Whatever civilization we face, it picked the wrong foe.\" Week Three headlines identified the enemy as ancient sapient starships called Reapers, reported a third front opening in asari space with an offline antimatter generator in the Loropi system, noted salarian fleets held back by the Narra bloodline's threat of rebellion while Dalatrass Linron refused martial law, and reported the turian defeat at the Taetrus relay with Reaper forces pushing through to Palaven.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_News_Network_-_March_2012",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "sol_001",
+      "kind": "page",
+      "page": "Sol",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Level 20 (Mass Effect) **Sol** is the home system of the humans and the Systems Alliance. Most of the planets in Sol can be mined by the Normandy SR\\-2, with the exception of Earth and Mars. However, none of the planets have beyond a Good rating for minerals. The system was previously cut off from the galactic relay network due to the Charon Relay being encased in ice. The Prothean Empire used to have an outpost on Mars and research interests on the primitive inhabitants of Earth during their heyday 50,000 years ago.",
+      "url": "https://masseffect.fandom.com/wiki/Sol",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "charon-relay_001",
+      "kind": "page",
+      "page": "Charon Relay",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Local Cluster / Sol The **Charon Relay** is a mass relay in the Sol system of the Local Cluster that orbits Pluto. Encased in a layer of ice hundreds of kilometers thick for thousands of years, the Charon Relay was originally believed to be nothing more than one of Pluto's moons. Following its discovery and reactivation by humanity in 2149, the Charon Relay has served as the point of access between Earth, the cultural and economic heart of human civilization, and the rest of the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Charon_Relay",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "demeter_001",
+      "kind": "page",
+      "page": "Demeter",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Demeter** is a garden world colonized by humans in 2152, and their first extrasolar colony. This planet is in a system within reach of conventional FTL drives from the Sol system and was colonized before any system beyond the Charon Relay. The investment money for this colony is raised by the Delta Pavonis Foundation. By 2185, Demeter is home to the Ross School of Art.",
+      "url": "https://masseffect.fandom.com/wiki/Demeter",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "mars_006",
+      "kind": "page",
+      "page": "Mars",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Mars is the only planet in the Sol System whose population does not appear in the planet card when orbited by the Normandy SR\\-2. - 2103 also marks the founding of the first permanent Martian colonies in the *Star Trek* universe. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Mars",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "solveig_005",
+      "kind": "page",
+      "page": "Solveig",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- In addition to completing Project Firewalker: Rosalie Lost, the Horizon mission is also required to be completed to unlock this system. - The name Solveig is of Norse origin, but has different meanings, the closest of which is \"strong sun\"; from the Norse word for sun \"Sol\" and the Norse word for strength \"veig\". The planets in this system all have Norse names.",
+      "url": "https://masseffect.fandom.com/wiki/Solveig",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "steven-hackett_007",
+      "kind": "page",
+      "page": "Steven Hackett",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Sometime prior to the Reaper invasion in 2186, Hackett has attained the rank of Fleet Admiral. He is alerted to the incoming Reaper fleet as several deep\\-space outposts go dark and begins mobilizing the Alliance Navy. Unfortunately, the Reapers proved too powerful, forcing Hackett to sacrifice the Second Fleet to allow the Third and Fifth to escape, and also resulting in him presiding over the \"worst military defeat in human history.\" He advises Shepard, reinstated into the Alliance military, to go to Mars, where Liara was researching what appeared to be a Prothean superweapon. Hackett regularly appears via the quantum entanglement video communication device to debrief Shepard after missions throughout the war. Following Shepard's errand to the salarian homeworld Sur'Kesh to retrieve a krogan female, Hackett informs the Commander that construction of the Prothean weapon has begun, dubbed \"Project Crucible\", describing it as one of the most ambitious undertakings in human history. Hackett and the bulk of what remains of the Alliance fleets guard and oversee construction of the weapon at an undisclosed location. After the battle for Rannoch, Shepard can ask Hackett the reason for being put in charge of combating the Reapers. Hackett explains it's because Shepard has a loyal crew who followed the Commander against Sovereign and survived the Omega 4 Relay, centrally because they believed in Shepard. Hackett expresses his distaste at the Illusive Man's aim to control the Reapers, asserting that he is \"trying to tame a shark\" and that the whole galaxy could end up paying for his misguided intent. He orders the Commander to kill him. During the assault on Cronos station, Hackett mobilizes the Fifth Fleet against the Cerberus Fleet. He maintains contact with Shepard's team as they fight their way through the station. Later, when Shepard commits the galaxy's combined forces to deploying the Crucible in Sol against the Reapers, he requests clearance to board the Commander's ship. There, he signals the various fleets to mobilize, giving his pre\\-battle address to all the soldiers participating in the upcoming fight: *“Never before have so many come together\\-\\-from all quarters of the galaxy. But never before have we faced an enemy such as this. The Reapers will show us no mercy. We must give them no quarter. They will terrorize our populations. We must stand fast in the face of that terror. They will advance until our last city falls, but we will not fall. We will prevail. Each of us will be defined by our actions in the coming battle. Stand fast. Stand strong. Stand together. Hackett out.”* Afterwards, Shepard and Hackett meet in holo\\-conference with Anderson, who reports that the Reapers had moved the Citadel above Earth and had closed the Ward arms, making it impossible for the Crucible to dock. Hackett then details the plan for Sword fleet to engage the Reapers while Hammer strike teams aid the Earth resistance in reaching the conduit in London to teleport to the Citadel and unlock the Ward arms. The assembled fleets launch the all\\-out assault on Earth while Hackett and Shield fleet hang back to protect the Crucible, escorting it to the Citadel sometime during the heat of the fighting. Arriving in Earth's orbit, Hackett is informed that Shepard made it to the Citadel and orders all allied ships to defend the Crucible. However, when the Crucible successfully docks with the Citadel, the device fails to work immediately and Hackett loses all contact with Shepard. Following Shepard's activation of the Crucible during the battle for Earth, Hackett orders the fleets to retreat to a predesignated rendezvous point before the Crucible fires. If Shepard intended to destroy the Reapers and there are enough assets gathered for the final fight, Hackett relates how the Reapers were defeated. Even though the galaxy is devastated and the mass relays are severely damaged, Hackett is confident they can rebuild, but regrets that so many people will not be able to witness the future that Shepard made possible. If the Reapers were destroyed but Shepard didn't obtain enough forces, Hackett is left to mull the aftermath as he's marooned aboard his disabled dreadnought in Earth's orbit. The victory was Pyrrhic, and it is up to the survivors to rebuild and start again, though Hackett hopes the lessons learned from this war won't die along with the people who fought to win it.",
+      "url": "https://masseffect.fandom.com/wiki/Steven_Hackett",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "summary:sol",
+      "kind": "summary",
+      "page": "Sol",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Sol is the home star system of humanity and the Systems Alliance. In Mass Effect it is accessible after reaching level 20. In Mass Effect 2 most of its planets can be mined by the Normandy SR-2, the exceptions being Earth and Mars, though none of the bodies rate better than \"Good\" for minerals.\n\nThe system was previously cut off from the galactic mass relay network because the Charon Relay orbiting Pluto had been encased in ice; its discovery and activation allowed humanity's expansion into the galaxy. During their height 50,000 years ago, the Prothean Empire maintained an outpost on Mars and studied the primitive inhabitants of Earth.\n\nSol contains nine planets recognized for game purposes: Mercury (first), Venus (second), Earth (third), Mars (fourth), Jupiter (fifth), Saturn (sixth), Uranus (seventh), Neptune (eighth), and Pluto (ninth), along with Luna, a moon of Earth. Associated missions and assignments include Prologue: Earth and Priority: Earth, UNC: Rogue VI on Luna, and Priority: Mars. In Mass Effect and Mass Effect 2, Sol is one of the largest systems in the game, with nine planets where most systems have four or five. Only the Asteroid Belt is depicted in-game, not the Kuiper Belt. The in-game positions of the planets in Mass Effect 2 correspond to a date of 26 January 2185, 175 years after the game's North American release date.",
+      "url": "https://masseffect.fandom.com/wiki/Sol",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "summary:arcturus-station",
+      "kind": "summary",
+      "page": "Arcturus Station",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Arcturus Station was a five-kilometer-diameter Stanford Torus-type space station located at the trailing L5 Lagrangian point of the gas giant Themis in the Arcturus system. Construction began in 2151 and concluded in 2162, using nearby metal-rich asteroids, and the station was inaugurated in 2156. Since the First Contact War it served as the military and political headquarters of the Systems Alliance, housing the Alliance parliament and the nerve center of the military armada. It held a permanent population of 45,000, guarded the mass relay leading to Earth, sat at the nexus of several mass relays, and functioned as a shipyard where the dreadnought SSV Aconcagua was built. Admiral Hackett commanded the Fifth Fleet from Arcturus. Joker grew up there before joining the Academy.\n\nIn Mass Effect: Evolution, after the First Contact War, General Desolas Arterius arrived to exchange prisoners with General Williams; Jack Harper and Eva Core were traded for turian soldiers, examined in a medical bay, and given Williams' personal shuttle to pursue Desolas. In Mass Effect: He Who Laughs Best, in 2183 the station hosted the first test flight of the SSV Normandy, attended by captains David Anderson and Dillard and Hierarchy General Invectus. Jeff \"Joker\" Moreau trapped the Normandy's original pilot on the station, locked himself in the cockpit, hijacked the ship, evaded scrambled fighters, and returned it undamaged, prompting Invectus to pressure the Alliance into assigning Joker as the Normandy's pilot.\n\nIn Mass Effect 3, Arcturus Station was the site of a battle between the Alliance's Second, Third, and Fifth Fleets and Reaper forces heading toward Sol. As the Alliance held off roughly a dozen Reaper capital ships, the bulk of the Reaper fleet rushed through the mass relay. Admiral Steven Hackett, unable to win, abandoned the station and sacrificed the Second Fleet so the Third and Fifth Fleets could escape. The Reapers later destroyed Arcturus Station, fusing its fragments into wreckage that became a grave for 45,000 people. According to Donnel Udina, the entire Alliance Parliament and Prime Minister Amul Shastri were aboard and killed. Intelligence from the Battle of Arcturus could be salvaged from the remains.",
+      "url": "https://masseffect.fandom.com/wiki/Arcturus_Station",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "scene:cronos-station-illusive-man-and-kai-leng#07",
+      "kind": "scene",
+      "page": "The Third Meeting, and the End of Kai Leng",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "cronos-station-illusive-man-and-kai-leng",
+      "text": "The Third Meeting, and the End of Kai Leng. 2186, Priority: Cerberus Headquarters, the assault on Cronos Station — the point of no return the Illusive Man's inner sanctum aboard Cronos Station, orbiting Anadius in the Horse Head Nebula Shepard had a last exchange with Vendetta (a Renegade interrupt, or a Paragon one if Shepard waited), then returned to the Normandy for a debrief with Anderson, who confirmed the Citadel now orbited Earth. Priority: Earth opened, with Sol the only reachable system.",
+      "url": "",
+      "for_key": "the combined fleets gathered in Sol system"
+    },
+    {
+      "chunk_id": "scene:citadel-refugee-camp-kelly-confrontation#02",
+      "kind": "scene",
+      "page": "Kelly in the Refugee Camp and the Cerberus Question",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-refugee-camp-kelly-confrontation",
+      "text": "Kelly in the Refugee Camp and the Cerberus Question. 2186, Citadel, in the refugee camp during the Reaper war Cargo Hold B of the Citadel, used as a makeshift refugee camp Kelly politely declines Shepard's invitation to return to the Normandy, citing recurring nightmares of her abduction by the Collectors and preferring to stay and help the refugees instead.",
+      "url": "",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "achievements_017",
+      "kind": "page",
+      "page": "Achievements",
+      "section": "Mass Effect 3 Achievements/Trophies",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| Image | Name | Requirements, Bonuses, and Additional Info | Gamerscore and Trophy Value | | --- | --- | --- | --- | |  | Driven | ME3: Return to active duty | 5 / Bronze | |  | Bringer of War | ME3: Chase down an assassin | 10 / Bronze | |  | Mobilizer | ME3: Bring a veteran officer aboard | 15 / Bronze | |  | World Shaker | ME3: Destroy an Atlas dropped from orbit | 15 / Bronze | |  | Pathfinder | ME3: Explore a lost city | 15 / Bronze | |  | Tunnel Rat | ME3: Survive the swarm | 15 / Bronze | |  | Party Crasher | ME3: Sabotage a dreadnought | 15 / Bronze | |  | Hard Target | ME3: Call down an orbital strike | 15 / Bronze | |  | Saboteur | ME3: Disable a group of fighter squadrons | 15 / Bronze | |  | Arbiter | ME3: Win a political stand\\-off | 25 / Bronze | |  | Last Witness | ME3: Extract ancient technology | 25 / Bronze | |  | Executioner | ME3: Defeat an old adversary | 25 / Bronze | |  | Well Connected | ME3: Send a warning across the galaxy | 15 / Bronze | |  | Fact Finder | ME3: Discover an enemy's monstrous origin | 15 / Bronze | |  | Liberator | ME3: Stop a Cerberus kidnapping | 15 / Bronze | |  | Problem Solver | ME3: Evacuate a scientific facility | 15 / Bronze | |  | Patriot | ME3: Make the final assault | 25 / Silver | |  | Legend | ME3: Mission accomplished | 50 / Gold | |  | Shopaholic | ME3: Visit a store on the Citadel | 10 / Bronze | |  | Master and Commander | ME3: Deliver most of the Galaxy at War assets to the final conflict | 50 / Gold | |  | Lost and Found | ME3: Dispatch 10 probes to retrieve people or resources in Reaper territory | 25 / Silver | |  | A Personal Touch | ME3: Modify a weapon | 10 / Bronze | |  | Combined Arms | ME3: Perform any combination of 50 biotic combos or tech bursts | 25 / Silver | |  | Focused | ME3: Evolve any of your powers to rank 6 | 25 / Silver | |  | Untouchable | ME3: Escape a Reaper in the galaxy map | 10 / Bronze | |  | Shield Breaker | ME3: Overload the shields of 100 enemies | 15 / Silver | |  | Sky High | ME3: Lift 100 enemies off the ground with powers | 15 / Silver | |  | Pyromaniac | ME3: Set 100 enemies on fire with powers | 15 / Silver | |  | Eye of the Hurricane | ME3: Kill a brute while it's charging you | 10 / Silver | |  | Mail Slot | ME3: Kill 10 guardians with headshots from the front while their shields are raised | 10 / Silver | |  | Hijacker | ME3: Hijack an Atlas mech | 10 / Bronze | |  | Giant Killer | ME3: Defeat a harvester | 10 / Bronze | |  | Always Prepared | ME3: Obtain two non\\-customizable suits of armor (not including the Cerberus armor won at the Armax Arsenal Arena) | 5 / Bronze | |  | Gunsmith | ME3: Upgrade any weapon to level 10 | 25 / Silver | |  | Under Pressure | ME3: Uncover an ancient secret | 50 / Gold | |  | Savior | ME3: Free Omega from Cerberus Occupation | 25 / Silver | |  | Last Resort | ME3: Stop an out\\-of\\-control scheme before it's too late | 50 / Silver | |  | The One and Only | ME3: Defeat a group of Spectre\\-level opponents on Normal, Hardcore, or Insanity | 50 / Silver |",
+      "url": "https://masseffect.fandom.com/wiki/Achievements",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "save-file-transfer_013",
+      "kind": "page",
+      "page": "Save File Transfer",
+      "section": "Reset Powers with Transfer",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "As mentioned above, if the user imports a ME2 character into ME3 and chooses the same class that they had in ME2, the character will retain a close approximation of the abilities / powers from ME2; most ability points will already have been spent on certain class powers. If they choose a different class, the ability points will all be reset and ready to spend in ME3\\. If the user wants to play the same class but start the game fresh with all ability points ready to spend, they could use this workaround: In ME2, reset the skill points for the character using the regular method in the Normandy Tech Lab. Refrain from spending any points. Save the game, and then use that savefile when importing to ME3\\. Since no points were spent in ME2, they will all be available to spend in ME3\\.",
+      "url": "https://masseffect.fandom.com/wiki/Save_File_Transfer",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "pc-tweaks-mass-effect-3_020",
+      "kind": "page",
+      "page": "PC Tweaks (Mass Effect 3)",
+      "section": "Disable the intro movie (EA logo)",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Go to \\[bioengine.ini \\> fullscreenmovie \\> startupmovies] and add a semicolon in front of the ME3\\_sig\\_logo value to show like this ``` ;ME3_sig_logo ```",
+      "url": "https://masseffect.fandom.com/wiki/PC_Tweaks_(Mass_Effect_3)",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "bioware-stories-and-secrets-from-25-years-of-game-development-the-making-of-mass-effect-3_014",
+      "kind": "page",
+      "page": "BioWare: Stories and Secrets from 25 Years of Game Development/The Making of Mass Effect 3",
+      "section": "Bio\\-Trivia: The Kakliosaur Began Life as a Desk Toy Mash\\-Up",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ancient krogan war mounts known as kakliosaurs made an appearance by way of a fossilized skull sought by a salarian scientist in *Mass Effect 3: Citadel*. But the lizard\\-like beasts actually began their life as an inside joke in the writers' room after *ME3* writer John Dombrow placed a Grunt figure on the back of a twelve\\-inch tyrannosaurus toy he had on his desk. Lore was brainstormed to justify the toy mash\\-up before someone asked: Why don't we put it in the game? The writers and editors loved the kakliosaur so much that *ME3* editor Karin Weekes had custom coffee mugs made.",
+      "url": "https://masseffect.fandom.com/wiki/BioWare:_Stories_and_Secrets_from_25_Years_of_Game_Development/The_Making_of_Mass_Effect_3",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "summary:kelly-chambers",
+      "kind": "summary",
+      "page": "Kelly Chambers",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kelly Chambers was Commander Shepard's yeoman aboard the Normandy SR-2 in 2185, a Cerberus operative in the Lazarus Cell holding a psychology degree. Besides managing Shepard's emails and relaying squadmates' meeting requests, she served as counselor, monitoring the psychological state of Shepard and the crew and offering insight on each new squad member and mission outcome. She rejected the idea that she or Cerberus was anti-alien, treating the crew's non-humans with respect. Depending on Shepard's response to her, she was addressed as \"Yeoman Chambers\" or \"Kelly,\" a choice reflected on her CIC character model. She was a potential romance for male or female Shepard: after a private dinner in the Captain's Cabin, she could send a suggestive follow-up message (\"KellyGrrl\" / \"slip into something more comfortable\") and later perform a dancer's routine in Shepard's cabin.\n\nDuring the Suicide Mission the Collectors abducted the Normandy crew. If Shepard delayed, the team arrived to see Kelly dissolved into raw organic material for the Human-Reaper; if Shepard went through the Omega 4 Relay immediately, the colonist Lilith was liquefied instead and Kelly was freed in time. A rescued Kelly vividly recalled her imprisonment.\n\nIn Mass Effect 3, if she survived and had dined privately with Shepard, Kelly was found in the Citadel refugee camp in Cargo Hold B. She revealed she had deserted Cerberus over its methods and declined to rejoin the Normandy due to recurring nightmares of her abduction, preferring to help refugees. She confessed to having sent reports on Shepard and the crew to the Illusive Man while serving as yeoman; if Shepard reprimanded her, she later took a cyanide pill and died. If Shepard reassured her and, crucially, told her to change her identity, she dyed her hair blonde and became \"Felicia Hannigan,\" surviving the Cerberus attack on the Citadel; otherwise Cerberus killed her. If Shepard kept fish on the Normandy, she returned them. She later emailed Shepard connecting him with other defecting Cerberus engineers in disguise. Cronos Station recordings showed the Illusive Man and Miranda Lawson had handpicked her for the Lazarus Cell because her personality would make Cerberus look more sympathetic. Her name appeared on the Normandy memorial wall only if she died during the Suicide Mission itself.",
+      "url": "https://masseffect.fandom.com/wiki/Kelly_Chambers",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "mass-effect-3-multiplayer_030",
+      "kind": "page",
+      "page": "Mass Effect 3 Multiplayer",
+      "section": "Development",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The Art of the Mass Effect Trilogy/Mass Effect 3\\#Multiplayer - BioWare: Stories and Secrets from 25 Years of Game Development/The Making of Mass Effect\\#Mass Effect Multiplayer - BioWare: Stories and Secrets from 25 Years of Game Development/The Making of Mass Effect 3\\#Bio\\-Trivia: Multiplayer Characters in ME3 Were Voiced by Police, Military Personnel - BioWare: Stories and Secrets from 25 Years of Game Development/The Making of Mass Effect 3\\#Balancing Combat: Corey Vs. Brenon: How Designers in Mass Effect 3 Entered an \"Arms Race\" ##",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3_Multiplayer",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "classes_011",
+      "kind": "page",
+      "page": "Classes",
+      "section": "Classes",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  |  |  |  | | --- | --- | --- | --- | --- | | **Adept** (Guide ME, Guide ME2, Guide ME3)Biotic Specialist |  | **Soldier** (Guide ME, Guide ME2, Guide ME3)Combat Specialist |  | **Engineer** (Guide ME, Guide ME2, Guide ME3)Tech Specialist | |  |  |  |  |  | | **Vanguard** (Guide ME, Guide ME2, Guide ME3)Biotic / Combat |  | **Sentinel** (Guide ME, Guide ME2, Guide ME3)Tech / Biotic |  | **Infiltrator** (Guide ME, Guide ME2, Guide ME3)Tech / Combat |",
+      "url": "https://masseffect.fandom.com/wiki/Classes",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "prothean-beacon_002",
+      "kind": "page",
+      "page": "Prothean Beacon",
+      "section": "Overview",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Beacons were a system of near\\-instantaneous communication across the Protheans' galaxy\\-wide empire. They were made to interface with a person's brain, rather than through audio or video. Commander Shepard's 'vision', triggered by accidentally accessing a beacon, was actually a warning about the Reapers sent by the researchers on Ilos, in an attempt to reach any survivors and give them a message of hope. The message sent through them was coded specifically so that only Prothean minds could understand it. The Protheans hoped this would prevent any remaining Reapers from accidentally finding out that Ilos had survived. However, at that point, the Protheans did not fully understand the process of indoctrination, and they did not realise the message could be received and eventually understood by an organic agent of the machines. This precaution—and the damage to the Eden Prime beacon—meant that Shepard received the information as a series of random, vivid images. These caused an initial fifteen hours of unconsciousness, and left Shepard with recurring nightmares. Comprehending the message as it was meant to be seen required the Cipher, which enabled both the commander and Saren Arterius to comprehend the images and archetypes in the beacon's message.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "pc-tweaks-mass-effect-3_004",
+      "kind": "page",
+      "page": "PC Tweaks (Mass Effect 3)",
+      "section": "Location of Configuration File",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Note:**  Before making any edits, make sure to make a backup of an original Coalesced.bin file. If you happen to lose your Coalesced.bin file, right click on ME3 in Origin and do a repair install. It will find Coalesced.bin is invalid and download a new copy. **Windows XP/Vista/7 64bit:** *Mass Effect 3\\\\BIOGame\\\\CookedPCConsole\\\\Coalesced.bin* DLC configurations files are stored in a .sfar archive. It can be found in a specific DLC folder under DLC folder. *Mass Effect 3\\\\BIOGame\\\\DLC\\\\%DLC\\_FOLDER\\_NAME%\\\\CookedPCConsole\\\\Default.sfar* After unpacking Default.sfar you should get a set of catalogue. Configuration files can be found here: *BIOGame\\\\DLC\\\\DLC\\_FOLDER\\_NAME\\\\CookedPCConsole\\\\Default\\_%DLC\\_FOLDER\\_NAME%.bin*",
+      "url": "https://masseffect.fandom.com/wiki/PC_Tweaks_(Mass_Effect_3)",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "summary:prothean-beacon",
+      "kind": "summary",
+      "page": "Prothean Beacon",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Prothean Beacons were rare pieces of surviving Prothean \"paleo-technology.\" They formed a system of near-instantaneous communication across the Prothean empire, interfacing directly with a person's brain rather than through audio or video. The discovery of a beacon on Eden Prime prompted the Alliance to dispatch the SSV Normandy to recover it.\n\nCommander Shepard's \"vision,\" triggered by accidentally accessing the Eden Prime beacon, was a warning about the Reapers sent by the researchers on Ilos to reach any survivors and give them hope. The message was coded so that only Prothean minds could understand it, a precaution meant to keep the Reapers from learning Ilos had survived. Because the Protheans did not yet fully understand indoctrination, they failed to anticipate that an organic Reaper agent could receive it. The Eden Prime beacon was also badly damaged, reportedly in Sovereign's attack, so Shepard received only random, vivid images, suffering fifteen hours of unconsciousness and recurring nightmares. Comprehending the message as intended required the Cipher, which enabled both Shepard and Saren Arterius to understand the archetypes. Liara T'Soni noted Shepard's exceptionally strong will; the beacon exploded after transmitting to Saren and then Shepard, possibly from the strain, possibly because Shepard instinctively resisted the joining.\n\nAn intact beacon with a user interface existed in Saren's lab on Virmire; Shepard coped more easily with its vision, and it was presumably destroyed in the nuclear blast that leveled the base. A Prothean video terminal on Joab held a similar vision, but showed a pair of Collectors instead of a Reaper at the end. Another beacon was hidden on Thessia inside a statue of the goddess Athame, known only to the highest levels of asari government, which secretly used its data to make the asari the galaxy's most advanced race in violation of Council policy. During the Reaper invasion Shepard sensed it with the Cipher and activated it using temple artifacts, releasing the Prothean VI Vendetta, which suggested that the repeating patterns of galactic evolution were not caused by the Reapers, who were merely \"servants\" of that pattern, before Kai Leng stole the data on the final Crucible piece.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "summary:vanguard",
+      "kind": "summary",
+      "page": "Vanguard",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Vanguard was a combat class available across Mass Effect, Mass Effect 2, and Mass Effect 3, and as a profile in Mass Effect: Andromeda. Vanguards combined the offensive biotic powers of the Adept with the weapons and armor training of the Soldier, forming the front line of the squad. They used biotics to disable and soften enemies while shielding themselves long enough to finish foes at close range with gunfire. In Mass Effect they wore light armor (upgradable to medium), could gain specialist training in shotguns and pistols, and equipped advanced bio-amps; the class talent increased shotgun and pistol damage and biotic protection, and could specialize into the combat-oriented Shock Trooper or the biotics-oriented Nemesis. All Krogan Battlemasters, including Urdnot Wrex, belonged to this class.\n\nIn Mass Effect 2 and Mass Effect 3, Vanguards were known for a high-risk, high-reward style, closing quickly on enemies and destroying them at short range. They were outfitted with L5n implants enabling the Biotic Charge, which struck an opponent with great force while bringing the Vanguard into close combat. Powers included Incendiary Ammo, Cryo Ammo, Charge/Biotic Charge, Shockwave, Nova (ME3), and Pull. In Mass Effect 3 the Vanguard had a weight capacity bonus of 15 to 70 depending on Assault Mastery rank. In Mass Effect: Andromeda the Vanguard profile reconfigured Ryder's implant and physiology to absorb energy from enemies on melee impact and channel it into shields, with bonus powers Siphoning Strikes and Biotic Jump & Evades. By July 2021 the Vanguard was the second most-picked class among Mass Effect Legendary Edition players, used by 21%.",
+      "url": "https://masseffect.fandom.com/wiki/Vanguard",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "summary:mysterious-figure",
+      "kind": "summary",
+      "page": "Mysterious Figure",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Mysterious Figure hired a mercenary group to assassinate Commander Shepard while the Normandy crew was on Citadel shore leave in 2186, hiding behind voice and visual disguisers and taking a particular interest in stealing Shepard's identity. It was revealed to be a clone of Shepard, created by Cerberus during the Lazarus Project to supply spare organs and limbs. Stored skinless on life support at Minuteman Station, the clone was deprioritized once Cerberus obtained Shepard's Spectre dossier, and Miranda Lawson continued using it for testing. When its termination was ordered in 2184, Agent Rasa broke with Cerberus in a shootout at the Lazarus Research Station and escaped with the clone's tank, hiding it on an asteroid orbiting Themis.\n\nSix months before the Reaper invasion, Rasa (as Maya Brooks) awoke the clone, which learned \"how to be human\" via neural implants and, lacking Shepard's memories, hired the CAT6 mercenary corporation to kill Shepard and close allies so it could assume the Commander's role for a pro-human agenda. In the Citadel DLC it bought arms through Elijah Khan, stole Shepard's classified files, and set a sushi-restaurant trap to capture the Spectre code, which it obtained though Shepard survived. It then had Khan killed and lured Shepard's team into the Citadel Archives, revealed itself, seized the Normandy's command codes, updated Shepard's biometric records with its own handprints, and trapped the squad in an iridium vault. Taking over the Normandy, it fired Samantha Traynor and discarded Shepard's belongings. Clad in N7 Armor, it fought the real Shepard in the shuttle bay as the ship tried to leave the Citadel; Joker and Cortez blocked the FTL jump. Shepard tackled the clone out the open boarding ramp; as it hung on it demanded to know what made Shepard special. Shepard could try to save it or kick it to its death; if offered help, the clone refused and let go, describing itself as \"the lone wolf Shepard was supposed to be.\" It was intensely xenophobic and viewed its CAT6 mercenaries as expendable cannon fodder, unlike the real Shepard.",
+      "url": "https://masseffect.fandom.com/wiki/Mysterious_Figure",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "scene:terminus-street-lakshmi-meets-jacob-miranda#02",
+      "kind": "scene",
+      "page": "A Street Urchin's Warning",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "terminus-street-lakshmi-meets-jacob-miranda",
+      "text": "A Street Urchin's Warning. 2183, after the Normandy SR-1's destruction, while Miranda and Jacob search a Terminus world for Shepard's body a street market in a Terminus Systems slum A gang of batarian thugs broke up the conversation. In the chaos Lakshmi pulled Jacob and Miranda into cover and handed each of them red and green decorated fabrics to mask their faces in public. Jacob thanked her, and the two adults went on their way.",
+      "url": "",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "scene:namakli-ann-bryson-extraction#04",
+      "kind": "scene",
+      "page": "Extracting Ann from Namakli",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "namakli-ann-bryson-extraction",
+      "text": "Extracting Ann from Namakli. 2186, Citadel, after Priority: Geth Dreadnought and before Citadel DLC the planet Namakli in the Pylos Nebula and Cortez's shuttle A trio of Marauders activated the artifact, and Ann lost control, speaking in a deep voice not her own as Leviathan seized her. Shepard's squadmates shot the artifact to destroy it, breaking the enthrallment.",
+      "url": "",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "scene:minuteman-station-illusive-man-assemble-the-team#02",
+      "kind": "scene",
+      "page": "The Illusive Man Sets Shepard to Assembling a Team",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "minuteman-station-illusive-man-assemble-the-team",
+      "text": "The Illusive Man Sets Shepard to Assembling a Team. 2185, right after the field investigation on Freedom's Progress a Cerberus station, in the holo-comm room, then the hangar The Illusive Man says most of Shepard's old crew have scattered and would not work with Cerberus, and hands over dossiers for a new team - Archangel, the Convict, the Professor, the Warlord, plus the Veteran and the Master Thief where their DLC applies. Whether to involve the Citadel Council is left to Shepard's judgment. Miranda and Jacob will continue under Shepard's command.",
+      "url": "",
+      "for_key": "Shepard's insomnia and nightmares in ME3"
+    },
+    {
+      "chunk_id": "scene:normandy-kelly-dinner-captain-cabin#01",
+      "kind": "scene",
+      "page": "A Private Dinner With Kelly in the Captain's Cabin",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-kelly-dinner-captain-cabin",
+      "text": "A Private Dinner With Kelly in the Captain's Cabin. 2185, after the mission on Horizon, aboard the Normandy SR-2 the Captain's Cabin, Normandy SR-2 After building chemistry through flirting about new squad members and other mission outcomes, Kelly accepts Shepard's invitation to have dinner together in the Captain's Cabin. She had been hoping for private time with the Commander.",
+      "url": "",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "scene:normandy-kelly-dinner-captain-cabin#03",
+      "kind": "scene",
+      "page": "A Private Dinner With Kelly in the Captain's Cabin",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-kelly-dinner-captain-cabin",
+      "text": "A Private Dinner With Kelly in the Captain's Cabin. 2185, after the mission on Horizon, aboard the Normandy SR-2 the Captain's Cabin, Normandy SR-2 After the suicide mission, if Kelly is among the saved crewmates, Shepard checks in with her in the CIC. If Shepard has no other romantic attachments and the two shared a meal together, Kelly will send Shepard a suggestive follow-up message offering a second cabin date.",
+      "url": "",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "scene:normandy-kelly-dinner-captain-cabin#02",
+      "kind": "scene",
+      "page": "A Private Dinner With Kelly in the Captain's Cabin",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-kelly-dinner-captain-cabin",
+      "text": "A Private Dinner With Kelly in the Captain's Cabin. 2185, after the mission on Horizon, aboard the Normandy SR-2 the Captain's Cabin, Normandy SR-2 Kelly is exhausted the morning after, remarking she hasn't stayed up that late since her college days, but says she enjoyed herself immensely. Shepard's fish collection catches her eye during the meal, so she later offers to feed the fish while the Commander is away on missions.",
+      "url": "",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_039",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Priority: The Citadel II",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Talk to EDI (nature and goals of synthetic life) - 2 **Reputation** for interaction. Talk to Allers (doing a report about the Citadel attack in the Captain's Cabin) - 5 **Reputation** for interaction. Talk to James (asking for N7 advice in the Captain's Cabin) - 2 **Reputation** for interaction. Talk to Garrus (in front of the memorial wall, about the conflict with Ashley/Kaidan) - 2 **Reputation** for interaction. Talk to Kaidan (first conversation after being readmitted to the Normandy) - 2 **Reputation** for interaction.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "scene:hagalaz-shadow-broker-ship-feron-yahg#08",
+      "kind": "scene",
+      "page": "Storming the Broker's Ship and Freeing Feron",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "hagalaz-shadow-broker-ship-feron-yahg",
+      "text": "Storming the Broker's Ship and Freeing Feron. 2185, during Lair of the Shadow Broker, after the death of Tela Vasir on Illium the Shadow Broker's storm-riding ship in the atmosphere of Hagalaz, Sowilo system, Hourglass Nebula If Shepard had romanced Liara in Mass Effect, she later met Shepard aboard the Normandy SR-2 and returned Shepard's old dog tags, recovered from the wreck of the Normandy SR-1; they were kept afterwards in the captain's cabin.",
+      "url": "",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "destiny-ascension_006",
+      "kind": "page",
+      "page": "Destiny Ascension",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The Destiny Ascension is only seen twice outside of cutscenes, during the flyby by the Upper Wards and during the SSV Normandy's escape from lockdown in the first game. In Mass Effect Legendary Edition, during the Wards flyby the ship's outer hull lost color and now shows as an all\\-black surface with the contouring of lights retained. - The Destiny Ascension being destroyed is the default condition in an unmodified game of Mass Effect 2 that was not imported from a Mass Effect save file. - In Mass Effect 2 and Mass Effect 3, Shepard is able to purchase a model of the Ascension for the Captain's Cabin on the Normandy SR\\-2. - In Mass Effect: Andromeda, Pathfinder Ryder can find a model of the Ascension on Elaaden for the Captain's Cabin on the Tempest. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Destiny_Ascension",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_043",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Priority: Rannoch",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Talk to Tali - 2 **Reputation** for interaction. Talk to Diana Allers (doing a report on the aftermath of the geth\\-quarian war in the Captain's Cabin) - 5 **Reputation** for interaction.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "model-ships_002",
+      "kind": "page",
+      "page": "Model Ships",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "There are a total of eleven models to collect in Mass Effect 2; the first model, the Normandy SR\\-2, is already on display in the Captain's Cabin on the Normandy. The remaining models can be purchased from various locations, except for the Flotilla Vessel, which is found during Tali's loyalty mission and the Shadow Broker Base which is found during Lair of the Shadow Broker. Once a model is purchased, it will be placed on the model rack. It is possible to obtain discounted prices of the models by speaking to the shopkeeper or completing minor tasks.",
+      "url": "https://masseffect.fandom.com/wiki/Model_Ships",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "mass-effect-guide_011",
+      "kind": "page",
+      "page": "Mass Effect Guide",
+      "section": "Chapter 7: Ilos",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "On Ilos you must pursue Saren as he races to find the Conduit. **Warning:**  Once you head to Ilos and try to land there the game will proceed in locked progression: you will no longer be able to use the Galaxy Map, walk around the Normandy, or complete assignments. If you have been pursuing a relationship with someone, a conversation with them will occur in the captain's cabin that may lead to a romantic cutscene. Ilos: Find the Conduit Ilos: Trench Run",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Guide",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "kelly-chambers_006",
+      "kind": "page",
+      "page": "Kelly Chambers",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Times like these are when you need a love to fight for, someone to confide in. You know... a partner.” If Shepard invited Kelly to the Captain's Cabin in 2185, the Commander may pursue her if they aren't involved in a romantic relationship with anyone else. However, Shepard must have learned that Kelly was secretly reporting on them to the Illusive Man and forgiven her prior to the Cerberus attack on the Citadel. Also, Kelly must have had her identity changed to avoid being killed by Cerberus during the coup attempt. In one of Shepard's visits after the Cerberus attack on the Citadel, Kelly curiously asks if Shepard has anyone special to which the Commander can say that Kelly is the one. She expresses the same feeling, albeit a little concerned of their obligations. With a little coaxing, Kelly leads Shepard into a container. When they reappear moments later, she gives Shepard a picture of her from the time of their first meeting. The picture then appears in the Normandy's Captain's Cabin. In subsequent visits, Kelly reminisces the times she was invited to Shepard's cabin, regretting no longer having the dancer's outfit and wishing the war was over so that they can finally be together.",
+      "url": "https://masseffect.fandom.com/wiki/Kelly_Chambers",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "space-hamster_002",
+      "kind": "page",
+      "page": "Space Hamster",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Space Hamster can be bought by Commander Shepard at Citadel Souvenirs for 9,200 credits, barring discounts. Once purchased it appears in the Captain's Cabin of the Normandy SR\\-2 beside the entrance to the bathroom opposite the Commander's personal terminal, in a glass cage consisting of a multi\\-holed box and two trays for food and water. If interacted with, the hamster will come to the glass, look at its owner, then scurry back into its box with an audible squeak. Unlike the fish in the nearby aquarium, the Space Hamster doesn't need to be fed. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Space_Hamster",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "mass-effect-legendary-edition-changes-from-the-original-mass-effect-trilogy_004",
+      "kind": "page",
+      "page": "Mass Effect Legendary Edition/Changes from the Original Mass Effect Trilogy",
+      "section": "Audiovisual Updates",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Real\\-time reflections in select areas, such as the fish tank in the Captain's Cabin aboard the Normandy SR\\-2. - Assets which appeared in higher quality in Mass Effect 3 have been reverse\\-implemented into the first two games. This also applies to Mass Effect 3 if the assets appeared in higher quality in the DLCs. - Details from some assets moved from textures to models. - Audio is remixed and enhanced across all games. - The Presidium look in Mass Effect and Mass Effect 2 is aligned with its Mass Effect 3 appearance. - Photo Mode allows you to pause the games, move the camera and apply various filters and effects to take screenshots.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Legendary_Edition/Changes_from_the_Original_Mass_Effect_Trilogy",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "summary:model-ships",
+      "kind": "summary",
+      "page": "Model Ships",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Model Ships were a collectibles feature in Mass Effect 2 and Mass Effect 3 with no impact on story or gameplay. Mass Effect 2 had eleven models; the Normandy SR-2 model started on display in the Captain's Cabin, and the rest were bought from vendors, except the Flotilla Vessel (found during Tali's loyalty mission) and the Shadow Broker Base (found during Lair of the Shadow Broker). Purchased models went on a display rack, sometimes at a discount for talking to shopkeepers or doing small tasks. In Mass Effect 3, models acquired in Mass Effect 2 returned scattered around the Normandy, and additional ships became available on the Citadel for 1,000 credits (or 1,100 through Alliance Requisitions in the shuttle bay) after completing priority missions. The model sold as a \"UT-47\" actually matched a \"human heavy cruiser\" concept and was labeled an \"Alliance Shuttle\" in Mass Effect 3. The display drew comparison to the ship models in Star Trek. Mass Effect 3: Citadel added a second Normandy SR-2 model, a Citadel model, a freighter and an original-trilogy Alliance ship design in Shepard's apartment.",
+      "url": "https://masseffect.fandom.com/wiki/Model_Ships",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "summary:priority-perseus-veil",
+      "kind": "summary",
+      "page": "Priority: Perseus Veil",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Perseus Veil was a short, conversation-only mission acquired after Priority: The Citadel II. Following the failed Cerberus attack on the Citadel, Admiral Hackett told Shepard that the quarians were willing to aid the war effort with technical specialists and support ships, and directed the Normandy to the Far Rim. Shepard travelled to Dholen and docked with the Quarian Envoy Ship.\n\nIn the Normandy's war room the admirals of the Migrant Fleet explained that they had launched an open war against the geth, pushing them back toward the quarian homeworld Rannoch, after the Reapers gave the geth upgrades. The admirals asked the Normandy to help disable a geth dreadnought that was broadcasting the Reaper signal.\n\nIf Tali'Zorah had survived Mass Effect 2 she rejoined the squad; if she had not been exiled, she had been appointed an admiral in place of her late father Rael'Zorah. Even if exiled, Tali still appeared because of her knowledge of the geth, with the other admirals keeping her presence hidden, prompting Shepard to call her their \"dirty little secret.\" Shepard could speak with Tali privately in the captain's cabin, continuing or locking in a romance, and on a first playthrough this unlocked Energy Drain as a bonus power.\n\nIn the aftermath, Admiral Shala'Raan vas Tonbay took up residence in the war room, Tali'Zorah vas Normandy became a temporary squad member, and the mission Priority: Geth Dreadnought became available.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Perseus_Veil",
+      "for_key": "the Normandy captain's cabin"
+    },
+    {
+      "chunk_id": "summary:ssv-normandy",
+      "kind": "summary",
+      "page": "SSV Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The SSV Normandy SR-1 (Systems Alliance Space Vehicle Normandy Stealth Reconnaissance-1) was a prototype \"deep scout\" frigate, first of the Normandy class, co-developed by the Systems Alliance and the Turian Hierarchy with Citadel Council sponsorship. Commissioned in 2183 and named for the 1944 Battle of Normandy, she was optimized for solo reconnaissance deep in unstable regions. She was initially commanded by Alliance officer Elli Zander, who was removed after clashing with turian chief engineer Octavio Tatum over the drive core's limits; David Anderson then took command, and shortly after handed the ship to Commander Shepard when Shepard became the first human Spectre.\n\nThe Normandy was built on three decks: a Command Deck with bridge, airlock, CIC and comm room; a habitation deck with quarters, mess, medical bay and captain's cabin; and an engineering and storage level holding the M35 Mako and the drive core. Her defining feature was the IES (internal emission sink) stealth system, which stored waste heat in lithium heat sinks, allowing silent running for hours; the system did not work at FTL and could be defeated by visual scan. It was powered by the experimental Tantalus Drive Core, roughly twice the size of a normal core and costing about 120 billion credits. Like all frigates she carried GARDIAN lasers, kinetic barriers, a spinal mass accelerator, and could mount Javelin disruptor torpedoes. Key crew included Joker (helmsman), Navigator Charles Pressly, Dr. Karin Chakwas, Engineer Greg Adams, Kaidan Alenko, Ashley Williams, and later Tali'Zorah nar Rayya, Garrus Vakarian and Urdnot Wrex.\n\nDuring her shakedown the Normandy went to Eden Prime to recover a Prothean Beacon, which was destroyed during a geth attack. Rear Admiral Mikhailovich later inspected and criticized her as over-designed. When the Council refused to pursue Saren Arterius, Udina locked the ship down; with Anderson's help Shepard stole her and flew to Ilos. At the Battle of the Citadel the Normandy led the assault that destroyed Sovereign. In 2183 an unidentified starship (later revealed as a Collector cruiser) ambushed and destroyed the Normandy near Alchera, killing over twenty crew including Pressly; Shepard died saving Joker. Cerberus later built the larger Normandy SR-2 from the SR-1's design.",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "the Normandy captain's cabin"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/everyday.md",
+      "line": 5,
+      "text": "- After Cerberus general Oleg Petrovsky's capture at Afterlife during the Omega uprising, Aria T'Loak emailed Shepard that his personal chessboard had been sent to the Normandy SR-2's captain's cabin, where it was displayed; for the confrontation itself and Petrovsky's branching fate (killed by Aria, handed to the Alliance, or executed by Shepard), read `scenes/omega-afterlife-nyreen-sacrifice-petrovsky-fate.yaml` rather than a bullet — the causality, starting with Nyreen Kandros's sacrifice against the Adjutants and Aria's own capture in Petrovsky's stasis trap, does not survive compression. (source: Normandy SR-2)",
+      "for_key": "the normandy captain's cabin"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 175,
+      "text": "- The Normandy SR-2's captain's cabin featured a purchasable pet space hamster, an aquarium of fish that needed feeding, a model-ship display case, and a sound system, while the crew's Port Observation lounge had a bar where mixed drinks (blue, red, or a purple blend of both) could visibly intoxicate Shepard. (source: Normandy SR-2)",
+      "for_key": "the normandy captain's cabin"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 87,
+      "text": "- The Normandy SR-2 had five decks: captain's cabin, Combat Information Center, crew's quarters, engineering with the oversized Tantalus core, and a hangar for the Kodiak shuttle and M-44 Hammerhead; weapon, armor and shield upgrades determined crew survival in the suicide mission (source: Normandy SR-2).",
+      "for_key": "the normandy captain's cabin"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

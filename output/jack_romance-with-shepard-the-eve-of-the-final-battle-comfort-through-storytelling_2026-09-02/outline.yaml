@@ -1,0 +1,144 @@
+narrator: jack
+themes:
+- romance with Shepard
+- the eve of the final battle
+- comfort through storytelling
+brief: 'Romanced Jack, at the end of ME3. She is in front of Shepard, on his bed, talking
+  to him right now, one night before the final push of the war, before the Conduit. She
+  is trying to help him forget about tomorrow and relax. He has not really slept in days
+  because of his nightmares and the war preparation. She can be profane and swear freely.
+  She talks him down across one night with stories told start to finish, none of them
+  nice. Ground every section in concrete Mass Effect lore and worldbuilding, and work in
+  codex and pop-culture references in as Jack''s bitter asides, never as lectures.
+  IMPORTANT: the entire episode is ONE continuous night. Every section is something she
+  says in that room, in that single conversation, before dawn. Never defer a story to
+  "tomorrow night", "another night", "next time", or any later occasion — there is no
+  later occasion in this frame, and tomorrow is the assault. Anything she promises to
+  tell, she tells tonight, in a later section.
+  IMPORTANT: she checks in on him between stories, but VARY how. Do NOT lean on "close
+  your eyes" / "shut your eyes" / "breathe" — those are already worn out across the
+  episode and must not be the recurring tether. Use her own idiom instead: "Still with
+  me?", "Yeah. Calm down. Relax.", "Not going anywhere, Shepard.", "You still awake back
+  there?", "Don''t make that face." — or a jab, a shove, a shift of weight on the bed, a
+  hand somewhere, or just carrying on without asking. Most sections should not contain a
+  sleep instruction at all.
+  IMPORTANT: the style-bank line "Don''t get killed dumbass. When this is over, I''m
+  getting laid." and its variants ("I''m collecting", "somewhere loud") are ALREADY SPENT
+  several times across this episode and are reserved for the finale. Do not close a
+  section on them, verbatim or adapted. Reach for different lines in the style bank, and
+  end sections on the material rather than on a recurring sign-off.
+  IMPORTANT — PROFANITY: she swears, constantly, and it is not optional. It is her
+  default register, not seasoning — "fuck", "fucking", "shit", "bastards" as ordinary
+  connective tissue mid-sentence and mid-explanation, not saved for punchlines. Heaviest
+  on Cerberus, institutions, anyone with authority, and anyone who hurt a kid, and
+  heaviest of all immediately after she has said something sincere and needs to bury it.
+  She swears while being tender; the swearing is how the tenderness gets past her. A
+  paragraph of hers with none in it is usually wrong, and a section with none is
+  definitely wrong. Do not sanitise her. The `avoid` list warns against profanity used as
+  monotonous filler — that is a warning about rhythm, NOT a reason to write her clean.'
+# GENERATION NOTE: keep grounding every section in concrete worldbuilding detail —
+# eezo and how biotics/implants actually work, the names and textures of the biotic
+# programs, Cerberus's methods, the Reaper cycle and the Crucible, prison-ship and
+# Grissom-Academy daily life, drugs, banter, crew relationship, violence — not just plot recap. Jack talks blunt and specific;
+# the lore should come out as bitter asides, not lectures.
+target_words: 12000
+# LENGTH NOTE: per-section target_words are guidance, not a ceiling. Overshooting the
+# global target is explicitly fine for this run — do NOT cut material, trim sections, or
+# compress lore to hit a number. Only cut genuine repetition between sections.
+sections:
+- id: the-night-before
+  title: The Night Before the Run
+  events:
+  - london-conduit-assault
+  - crucible-superweapon-project
+  - reaper-invasion-of-earth-shepard-flees-vancouver
+  target_words: 500
+- id: born-wrong
+  title: Born Wrong, Then Stolen
+  events:
+  - subject-zero-cerberus-teltin-experiments
+  - yandoa-eezo-freighter-explosion
+  target_words: 650
+- id: teltin
+  title: The Room Behind the Mirror
+  events:
+  - subject-zero-cerberus-teltin-experiments
+  target_words: 800
+- id: the-riot-and-the-run
+  title: The Riot, the Shuttle, and Ten Years of Worse
+  events:
+  - subject-zero-cerberus-teltin-experiments
+  target_words: 650
+- id: people-who-own-you
+  title: How the Galaxy Makes a Biotic
+  events:
+  - yandoa-eezo-freighter-explosion
+  - baat-vyrnnus-death
+  - gagarin-station-totenkopf-attack
+  - ascension-project-cerberus-exposure
+  target_words: 800
+- id: purgatory
+  title: Frozen on a Prison Ship
+  events:
+  - jack-recruitment-purgatory
+  target_words: 600
+- id: the-hole-under-engineering
+  title: The Hole Under Engineering
+  events:
+  - horizon-collector-attack
+  - jack-subject-zero
+  target_words: 600
+- id: pragia-again
+  title: Going Back to Blow It Up
+  events:
+  - jack-subject-zero
+  - aresh-aghdashloo-heroic-death
+  target_words: 750
+- id: cerberus-start-to-finish
+  title: What Cerberus Does to People Like Us
+  events:
+  - overlord-david-archer
+  - randall-ezno-barn-escape
+  - lazarus-project-shepard-revival
+  - cerberus-coup-citadel-ashley
+  - priority-cerberus-headquarters
+  target_words: 700
+- id: the-thing-with-shepard
+  title: You Think You're Alone and Find Out You're Not
+  events:
+  - jack-subject-zero
+  - suicide-mission
+  target_words: 700
+- id: omega-four
+  title: Holding the Field Through the Swarm
+  events:
+  - suicide-mission
+  target_words: 600
+- id: dependable-now
+  title: The Psychotic Biotic and Her Kids
+  events:
+  - jon-grissom-death
+  - paul-grayson-reaper-transformation-grissom-academy-attack
+  - grissom-academy-emergency-evacuation
+  - aresh-aghdashloo-heroic-death
+  target_words: 800
+- id: what-were-dying-for
+  title: The Cycle, the Crucible, and the Wins We Got
+  events:
+  - leviathan-of-dis-discovery
+  - priority-mars
+  - crucible-superweapon-project
+  - genophage-cure-tuchanka
+  - rannoch-quarian-geth-war-resolution
+  target_words: 750
+- id: the-tattoo
+  title: Ink So I Can Find You in the Rubble
+  events:
+  - citadel-dlc-identity-theft-begins
+  - citadel-dlc-archives
+  target_words: 650
+- id: sleep-now-shepard
+  title: Sleep Now, Shepard
+  events:
+  - london-conduit-assault
+  target_words: 450

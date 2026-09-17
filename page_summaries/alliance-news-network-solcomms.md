@@ -1,0 +1,13 @@
+---
+title: Alliance News Network/SolComms
+url: https://masseffect.fandom.com/wiki/Alliance_News_Network/SolComms
+game: Mass Effect 3
+type: lore
+characters: [Emily Wong, Leisha Martinette, Aidan Pearson, Gordon Soto]
+---
+
+SolComms was a series of short burst messages broadcast during the opening hours of the Reaper invasion of Earth in 2186, released the day before Mass Effect 3's launch to promote the game. FCC News reporter Emily Wong secured a Quantum Entanglement Communicator (QEC) from the University of California, Los Angeles, and used it to live-cast the invasion via the Alliance News Network after the Reapers disabled Earth's comm buoys. The QEC, operated with UCLA researcher Dr. Leisha Martinette, could send only text and communicated with a matched particle in asari space near Trikalon. Each message carried the tag #solcomms, believed to be the only link out of the Sol system during the attack.
+
+Wong reported a massive six-legged ship with red lights and tentacles appearing over Wilshire in Southern California, roughly ten times the size of a monster-movie figure, which she recognized as resembling the geth flagship that attacked the Citadel in 2183. She fled by company skyvan with Dr. Martinette and UCLA-PD Officer Aidan Pearson, navigating over freeways as satellites, GPS, and phone networks failed and a mushroom cloud rose near Fort Irwin. She described "deformed" batarian-featured aliens (later called Cannibals) dropping from the sky, husks impaled on spikes like those seen during Saren's Citadel attack, and a smaller Reaper destroyer firing beams over the 405. AM radio broadcasts first named the invaders "Reapers." Pearson recovered a Reaper weapon after killing a Cannibal but was killed trying to save students at his son's school; Wong took the weapon, and Dr. Martinette studied its violet blast, theorizing it combined micro black holes and fusion effects.
+
+Wong developed and confirmed a theory that the Reaper klaxon used infrasound to induce fear, and that the Reapers repurposed each species' captured civilians into troops used against the next: batarians into Cannibals to attack Earth, humans into husks. She warned listeners to avoid institutions where people gathered, citing spike fields at a West Hollywood prison, Cedars-Sinai hospital, and Dodger Stadium. After meeting Lt. Col. Gordon Soto of the National Guard at El Monte Airport, where human anti-aircraft fire briefly downed alien fighters, an Alliance counterattack of jets and gunships arrived but could not damage the Reaper capital ship. Dr. Martinette was killed by ground fire and Wong was mortally wounded; with the QEC failing and only the skyvan left as a weapon, she flew it at the Reaper at ramming speed before the signal was lost.

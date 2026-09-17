@@ -1,0 +1,937 @@
+{
+  "section": {
+    "id": "meet me after",
+    "title": "Meet Me After",
+    "target_words": 750,
+    "form": "bedtalk",
+    "narrator": "jack"
+  },
+  "promises": [
+    "she gets him to actually sleep, or close enough, before the night's out",
+    "the promise between them — that they meet again tomorrow night, on the other side of it, and what she's telling herself to believe it. She make him promise that he will take her dancing afterward.",
+    "she closes the way she opened, refusing to let the last word be soft, and failing at that on purpose"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "council_composition",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "The new Council's composition after the battle (human-led, all-alien, who sits on it).",
+      "answer": "Multi species, led by Anderson",
+      "detail": "The people that should be in power, are those that aren't hungry for it. ANd all species deserves a say."
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "iff_delay",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether the abducted Normandy crew survived (how long you delayed after the IFF mission).",
+      "answer": "All survived",
+      "detail": "Did the IFF mission immediately, they all lived"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "joker_edi_romance",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Joker and EDI's relationship - whether you encouraged it.",
+      "answer": "encouraged",
+      "detail": "I believe love can come in unexpected places, and Joker deserves it more than many."
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    },
+    {
+      "id": "javik",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether Javik joined the squad (From Ashes).",
+      "answer": "yes",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "earth-fob-final-goodbyes",
+      "title": "Goodbyes at the Forward Operating Base",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, Priority: Earth, before the armoured assault on the conduit",
+      "where": "the Hammer Forward Operating Base in ruined London",
+      "participants": [
+        "Shepard",
+        "Anderson",
+        "Coats",
+        "Garrus Vakarian",
+        "Adrien Victus",
+        "Liara T'Soni",
+        "Javik",
+        "Tali'Zorah",
+        "EDI",
+        "Urdnot Wrex"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "final_choice": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "The evac shuttle off the first landing zone reunited Shepard with Admiral Anderson, who introduced Major Coats, the officer who had covered the extraction. Anderson said it had taken the Reapers to bring the galaxy together; a squadmate answered that Shepard was the true unifying force.\n",
+          "source_chunks": [
+            "priority-earth_005"
+          ]
+        },
+        {
+          "text": "At the FOB, Coats told Shepard how inspiring the Commander would be to the troops, then left to rejoin his unit. Shepard walked the base holding final conversations with the surviving squad — as few as three or as many as seven, depending on who had lived through the trilogy and whether Javik had been recruited.\n",
+          "source_chunks": [
+            "priority-earth_006"
+          ]
+        },
+        {
+          "text": "On a ramp Shepard found Primarch Victus and, if he lived, Garrus; past a husk turret gun, Liara, whose mood turned on how many husks had got through; then Javik and the krogan leader giving a rallying speech to the troops, with Kirrahe or another STG officer alongside if Shepard had sabotaged the genophage under Wrex.\n",
+          "source_chunks": [
+            "priority-earth_006"
+          ]
+        },
+        {
+          "text": "In the last room Shepard found EDI, Tali, and Anderson conferring with Coats. Anderson laid out the battle plan — a frontal armoured assault on the conduit past a parked Reaper Destroyer — and Shepard made an inspiring or grimly determined speech and picked the final squad.\n",
+          "source_chunks": [
+            "priority-earth_006"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "krogan_leader": "Wreav"
+          },
+          "choice": "Wreav leads the krogan",
+          "text": "If Wreav rather than Wrex led the krogan, he gave the rallying speech in Wrex's place, and no salarian STG officer stood beside him.\n",
+          "source_chunks": [
+            "priority-earth_006"
+          ]
+        },
+        {
+          "condition": {
+            "geth_quarian": "geth"
+          },
+          "choice": "the geth won at Rannoch",
+          "text": "If the geth wiped out the quarians at Rannoch, a Geth Prime stood in the final room where Tali would be; if the quarians won but Tali had died in Mass Effect 2, Admiral Raan took that place instead.\n",
+          "source_chunks": [
+            "priority-earth_006"
+          ]
+        },
+        {
+          "condition": {
+            "garrus_alive": false
+          },
+          "choice": "Garrus died in Mass Effect 2",
+          "text": "If Garrus did not survive, only Victus stood on the ramp and the squad Shepard said goodbye to was smaller.\n",
+          "source_chunks": [
+            "priority-earth_006"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "earth-conduit-harbinger-last-run",
+        "citadel-catalyst-final-chamber"
+      ],
+      "related_events": [
+        "london-conduit-assault"
+      ],
+      "source_chunks": [
+        "priority-earth_005",
+        "priority-earth_006"
+      ],
+      "private_to": []
+    }
+  ],
+  "attendance": {
+    "earth-fob-final-goodbyes": "heard"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#06",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London If the geth wiped out the quarians at Rannoch, a Geth Prime stood in the final room where Tali would be; if the quarians won but Tali had died in Mass Effect 2, Admiral Raan took that place instead.",
+      "url": "",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#04",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London In the last room Shepard found EDI, Tali, and Anderson conferring with Coats. Anderson laid out the battle plan — a frontal armoured assault on the conduit past a parked Reaper Destroyer — and Shepard made an inspiring or grimly determined speech and picked the final squad.",
+      "url": "",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#07",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London If Garrus did not survive, only Victus stood on the ramp and the squad Shepard said goodbye to was smaller.",
+      "url": "",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#02",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London At the FOB, Coats told Shepard how inspiring the Commander would be to the troops, then left to rejoin his unit. Shepard walked the base holding final conversations with the surviving squad — as few as three or as many as seven, depending on who had lived through the trilogy and whether Javik had been recruited.",
+      "url": "",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "krogan-warlord-sentinel_003",
+      "kind": "page",
+      "page": "Krogan Warlord Sentinel",
+      "section": "Melee and movement",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | - **Regular Melee (Krogan Headbutt)** – The Krogan Warlord headbutts the enemy, staggering it briefly. \t- **Melee Sequence:** A headbutt followed by two hammer swings, the last one imbued with the respective power. - **Heavy Melee (Battle Hammer)** – The Krogan Warlord Sentinel uses a heavy hammer to strike enemies. \t- **Krogan Charge** \\- When storming, the Warlord instead charges forward a short distance and strikes an enemy with held weapons. - **Grab** – The Krogan Warlord Sentinel is unable to perform a grab. | | --- | --- | |  | - **Dodge** – The Krogan Warlord Sentinel lacks a dodge maneuver. |",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Warlord_Sentinel",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "summary:priority-earth",
+      "kind": "summary",
+      "page": "Priority: Earth",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Earth was the final mission of Mass Effect 3 and the conclusion of Commander Shepard's trilogy. It was acquired after Priority: Cerberus Headquarters; from that point Sol was the only reachable system, and merely traveling there triggered the mission with no way to back out. Allied fleets assaulted the Reapers above Earth while Hammer, the ground force, tried to land troops near the Citadel transport beam.\n\nThe mission had two main stages. First, Shepard's shuttle landed to knock out a Reaper anti-aircraft \"Hades Cannon\" so Hammer could land; the team fought through streets and a ruined house full of Cannibals, Marauders, and Brutes to a crashed assault team, recovered two M-920 Cain shots to destroy the cannon, held off a Banshee (named \"Morinth\" if that character survived Mass Effect 2) and endless Cannibals, and were extracted, reuniting with Anderson and meeting Major Coats. At the Forward Operating Base, Shepard held final conversations with surviving squadmates, allies, and leaders (Victus, Wrex or Wreav, Kirrahe, and others depending on prior choices) before Anderson gave the battle plan: a frontal armored assault on the conduit past a Reaper Destroyer.\n\nThe second stage advanced through occupied London to a missile battery, where Thanix missiles were coordinated with EDI on the Normandy to destroy the Destroyer while the team fought Brutes, Banshees, and a Harvester and dodged the Reaper's beam. Anderson then arrived by APC for the final push, but Harbinger descended on the conduit and annihilated the ground forces. In the Extended Cut, squadmates survived or died based on Effective Military Strength (below 4200 EMS in Legendary Edition they died). A wounded, solitary Shepard fought through Husks and a Marauder with an infinite-clip pistol to reach the beam.\n\nOn the reconfigured Citadel, Shepard reunited by comm with Anderson and found him held hostage by a transformed Illusive Man, who could now control both of them. The confrontation's outcome hinged on the final choice, with full Paragon/Renegade options requiring Paragon/Renegade choices at every prior meeting with the Illusive Man. Paragon made him realize he was indoctrinated and shoot himself; Renegade interrupts let Shepard kill him. Shepard then opened the Citadel arms to let the Crucible dock. The Catalyst appeared and offered Destruction, Control, or Synthesis (Refusal was also possible), with availability and galactic damage set by EMS. Every activated ending crippled the Normandy, and its crew's survival, the epilogue scenes, and the placing of Shepard's name plaque above Anderson's on the memorial wall all depended on EMS and prior choices. After the credits a Stargazer told a child tales of \"the Shepard.\"",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Earth",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "krogan-hammer_004",
+      "kind": "page",
+      "page": "Krogan Hammer",
+      "section": "Strategies",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- A Vanguard Ryder is well\\-suited to wielding the Krogan Hammer, mainly because they gain significant bonuses to melee damage, which the hammer excels at. - The knockback feature of the Hammer is useful for temporarily incapacitating troublesome enemies. Again, this is perfect for a Vanguard, who can Charge the enemy for an first strike, then follow up with Nova and a Hammer strike for a truly devastating opening attack. - Some enemies can be instantly killed by the knockback feature of the Hammer, provided they are close enough to a given ledge over an accompanying abyss. - The Hammer's knockback effect works through obstacles and cover. Use this feature to stagger hunkered\\-down enemies out of cover for follow\\-up attacks, but keep in mind that the Hammer's immense damage quickly destroys most pieces of cover completely, making it impossible for Ryder to use that cover themselves afterwards. - Running towards the target then using the hammer helps offset its slowness as forward momentum propels the character while the weapon animation is executing. Dashing, however, doesn't as there is a momentary pause between the end of the dash and the start of the upswing animation.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Hammer",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "war-assets_005",
+      "kind": "page",
+      "page": "War Assets",
+      "section": "Sword, Shield, and Hammer",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When the mission Priority: Earth is started, all gathered War Assets combine into three different groups, codenamed Sword, Shield and Hammer. Sword and Shield consist of all allied fleets and starships, and Hammer consists of all ground forces. When Sword attacks the Reaper fleet above Earth, it acts as a distraction to allow Hammer to land on Earth and engage the Reapers on the ground to aid Admiral Anderson's resistance forces. Meanwhile, Shield is held in reserve to escort the Crucible into position to dock with the Citadel. Depending on the number of War Assets gathered and their combined military effectiveness rating, Sword and Hammer will either begin taking heavy losses quickly or be able to hold their own until the end of the mission. The survival and continued defense of Sword and Hammer are pivotal to the success of the final mission. For example, high EMS results in enough suppressive fire for the Normandy to quickly land and extract squad members to safety, as well as allowing the Crucible to dock with little to no damage taken.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "krogan-warlord-sentinel_005",
+      "kind": "page",
+      "page": "Krogan Warlord Sentinel",
+      "section": "General Notes",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The Krogan Warlord Sentinel is the only krogan with health regeneration and 1250 base shields. The health regeneration is considerable but still won't be sufficient to withstand a concentrated attack on you on higher difficulties. - Because of the huge size of the krogan and inability to use cover, maps with lots of high cover and walls are favorable for the Warlord as they make the use of \"soft cover\" (i.e. standing behind terrain without clinging to it) more easily. Maps with small \"sections\", or areas that are separated by walls and cover, are good as they make it easier for the Warlord to get within melee range of enemies packed together by the map layout. Conversely, wide open areas are less desirable. - Krogan Charge is replaced with a hammer attack that uses a charge based on the current hammer power. If no charges are present, then it will simply strike with the hammer. - Your current amount of charges is visible on the hammer as holographic rings (Electric Hammer) or biotic charges on the back of the hammer (Biotic Hammer). Keep an eye on it, to make sure you recharge it before using it. - Unlike the Krogan Charge of other krogan characters, the hammer blow will lock onto closer enemies even if they're moving. Geth Bombers are an exception to this; if they increase their height or zoom past the player, the hammer will strike nothing. - Running while executing the heavy melee will still allow the Krogan Warlord to do the Krogan Charge. The Krogan Warlord is unique in that its Krogan Charge deals damage in a small arc in front of the character. - When a Hammer Power is equipped, power damage bonuses increase the damage added by the power to the hammer, in addition to any melee bonuses. When the hammer is uncharged, only melee upgrades affect damage output. - It is possible to use the heavy melee to cancel the animation of any hammer power when being activated (charging), allowing the Warlord to quickly unleash his charged hammer blow. - It is also possible to fire and even reload weapons that have a charged shot function (e.g. the Graal Spike Thrower) during the hammer power activation period, as long as a shot began charging beforehand. The hammer power activation can also be used for reload cancelling like most other powers. - Pressing the melee button again after the Krogan Headbutt allows a second and third hit using the Battle Hammer; the final strike with the Hammer will consume any Hammer Power equipped. - The Warlord has the second highest hit\\-stun resistance in the game, following the Geth Juggernaut Soldier, and it constantly regenerates health, making it one of the best characters to tank with. - Despite its size and low mobility, the Warlord is not immune to sync kills. To effectively fight enemies with sync kill attacks one should stand just out of reach, activate whatever hammer powers will be applied, and utilize conventional weapons until the target initiates one of its other attacks. This opening should easily be long enough to deliver a heavy melee and back off before the subject can recover. - Standing above or below (NOT beside) an enemy on a ramp will make it difficult for it to sync kill you. - The Warlord spends a great deal of its time in melee attacks, making many weapons less useful. Many players, therefore, choose an armament that deals great damage in a very short period of time. Most shotguns naturally fit this role, but the Executioner Pistol proves remarkably effective at slinging exactly one shot between melee hits while also dealing effective damage at moderate range. The Pistol Melee Stunner together with the Pistol Power Magnifier is a viable alternative to the Shotgun Omni\\-Blade for a Warlord who makes frequent use of Tech Armor detonation. - Melee mods are multiplicative with respect to the damage bonuses that they grant, while power mods are additive. While power mods add a minor bonus to Tech Armor, and the hammer powers, a melee mod adds a significant bonus to both hammer powers as well as melee attacks. This makes melee mods a much better choice than power mods. Because hammer powers add damage to the regular melee attack, increasing melee damage indirectly increases hammer power damage by a much larger amount than a power mod could. - The Warlord also spends a lot of time roaring after melee kills (see the main Rage page for details), especially if the Rank 6 Pure Rage evolution of Warlord Rage is taken. The best ways to cancel the roar animations are to hold down sprint after melee kills or to use heavy melee attacks repeatedly.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Warlord_Sentinel",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "summary:krogan-warlord-sentinel",
+      "kind": "summary",
+      "page": "Krogan Warlord Sentinel",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Krogan Warlord Sentinel was a playable class in Mass Effect 3 multiplayer, presented in-fiction as an elder krogan statesman who held no regard for combat honor, resorting to hostage-taking and genocide, and who carried a battle hammer while his maturity granted unsurpassed regeneration. It had 1250 shields and 1000 health, and the powers Tech Armor, Biotic Hammer, Electrical Hammer and Warlord Rage. Its melee was a Krogan Headbutt that could chain into two hammer swings, the last imbued with the equipped hammer power; a sprinting Krogan Charge dealt damage in a small arc. It could not take cover, vault, dodge, or perform grabs, and moved slower than other krogan classes, but could not be grabbed by Husks or Abominations and had the second-highest hit-stun resistance in the game after the Geth Juggernaut.\n\nIt was the only krogan class with both health regeneration and 1250 base shields, making it one of the best tanking characters. The Krogan Charge was replaced by a hammer strike consuming holographic charges based on the current hammer power, which locked onto moving enemies. Melee mods (multiplicative) were far better than power mods since hammer powers added damage to melee attacks; a Biotic Hammer with the Shotgun Omni-Blade V could deal roughly 7,000 to health and shields, 8,000 to barriers and 10,000 to armor. Electrical Hammer's Chill Effect set up devastating Biotic Hammer follow-ups. Extensive player notes covered every faction, stressing that its slow heavy melee left it exposed to sync-kill enemies such as Phantoms, Atlases, Scions, Praetorians, Banshees and Brutes, best handled by striking first or staying just out of reach. It uniquely never used the \"For Tuchanka!\" voice line common to other krogan classes.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Warlord_Sentinel",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "priority-earth_006",
+      "kind": "page",
+      "page": "Priority: Earth",
+      "section": "Meet with Anderson",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "You're now in the Forward Operating Base (FOB), where Hammer will assemble before making a move on the conduit. Your squad and Anderson head into the FOB, leaving you with Coats for a short conversation where he tells you of how inspirational you will be to your comrades in arms before leaving to rejoin his unit. Head down the ladder onto the street. Explore the base to engage in final conversations with your squadmates. The number of squadmates can range from as few as three (if Garrus or Tali did not survive the events of Mass Effect 2, or if Tali did not live through the battle on Rannoch, and if the Virmire Survivor died during the Cerberus coup attempt or was not allowed back on the Normandy in its aftermath) to as many as seven (if all possible squad members survived and Javik was recruited). Through the door on the street is the Communications Tech Officer. You may ask him to speak to Cortez and any previous squadmates from Mass Effect 2 (provided they are alive) via a vidcomm terminal in the building behind the Virmire Survivor's location. There is a datapad across from the street from the Communications Tech officer in between a few trucks. It reads about asking volunteers from the fire patrol. You can listen to interesting updates on the mission by a group of soldiers on the street. Head up a ramp to the left of the door (it blends into the rubble). You will run into Primarch Victus and Garrus (if alive). Head through the door to the walkway. Make sure that you are ready to leave the area, as you cannot go back through the door. A cutscene occurs after which you'll find yourself in a turret\\-gun minigame which ends after a set amount of time. On the other side of the walkway you'll find Liara, two medkits, and a radio conversation if you want to stop and listen. If you speak to Liara, her initial response varies depending on how you performed on the turret: if you allowed **more than seven Husks** to reach the buildings, her response will be that there were heavier losses and some of the wounded \"won't make it\". Otherwise, she will say they haven't brought in many additional wounded. There is also a datapad just through the door to the right. Through the next door is Javik and the current leader of the krogan (Urdnot Wrex/Urdnot Wreav) giving 4 different speeches. If you sabotaged the genophage and Wrex was the krogan leader, Kirrahe or another STG officer (\"Colonel Vaykom\") if he is dead will be found at the same spot as the Urdnot Clan Leader, giving a speech to salarian ground forces instead. Through the final door, you will find EDI, Tali, a medkit, and Anderson, who is conferring with Major Coats. If the geth destroyed the quarians at Rannoch, a Geth Prime will be present instead of Tali. If the quarians were victorious at Rannoch but Tali died in Mass Effect 2, Admiral Raan will take her place. Once you've spoken to everyone you want to, talk to Anderson. He will tell you the percentage of Hammer team that has reported in. The battle plan is simple: a direct, frontal assault on the conduit with tanks and supporting infantry, including your team, in the hopes of getting forces through the transport beam to the Citadel. Of course, resistance is bound to be heavy, and there's one other problem: a Reaper Destroyer is parked near the conduit. After you tell Anderson you're ready to proceed with the attack and make an inspiring or grimly determined speech to your teammates, you'll have a last chance to pick your final squad and make adjustments. You'll be facing the same enemy types as before, just at a higher percentage and density of the various boss types.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Earth",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "m35-mako_006",
+      "kind": "page",
+      "page": "M35 Mako",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Numerous Makos are deployed groundside during the final battle for Earth, where they form the bulk of the Alliance mobile armor under Hammer Team. At the push toward the London Conduit, several vehicles try to outrun Harbinger's attacks, only to fail utterly. One Mako directly sidelines Shepard's squadmates after tumbling on their path, forcing Shepard to proceed alone.",
+      "url": "https://masseffect.fandom.com/wiki/M35_Mako",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "making-an-impression_004",
+      "kind": "page",
+      "page": "Making An Impression",
+      "section": "Place the first seismic hammer",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Go to the navpoint  in the Fairwinds Basin. It's not required to defeat the kett forces in the area before placing the hammer but will help with the upcoming Remnant battle. Place the first seismic hammer. Once the hammer is placed, Remnnant forces will come up from the ground. Defeat them. You will receive XP for killing the enemies.",
+      "url": "https://masseffect.fandom.com/wiki/Making_An_Impression",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "collector-base_006",
+      "kind": "page",
+      "page": "Collector Base",
+      "section": "Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Collector Base: Infiltration - Collector Base: The Long Walk - Collector Base: Final Battle",
+      "url": "https://masseffect.fandom.com/wiki/Collector_Base",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "summary:hades-cannon",
+      "kind": "summary",
+      "page": "Hades Cannon",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Hades Cannon was an anti-aircraft weapon of Reaper design: a massive directed-energy cannon mountable on a four-legged chassis resembling a smaller Destroyer-class Reaper. Highly accurate and powerful, it could shoot down craft as small and nimble as a UT-47A Kodiak Drop Shuttle. The Reapers deployed several Hades Cannons during their assault and occupation of Earth. During the final battle for Earth, Commander Shepard destroyed one of them with an M-920 Cain to clear a landing path for the galactic fleet's ground forces, codenamed \"Hammer.\" This is a short page.",
+      "url": "https://masseffect.fandom.com/wiki/Hades_Cannon",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "summary:suicide-mission",
+      "kind": "summary",
+      "page": "Suicide Mission",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This is a disambiguation page. It notes that \"Suicide Mission\" is the name given both formally and informally to the battle that serves as the finale of Mass Effect 2, in which Commander Shepard leads a counterattack against the Collectors, and links to related articles: Omega 4 Relay, Collector Base, Storyline II, the Mass Effect 2 Guide, Stop the Collectors, and the individual mission walkthroughs (The Normandy Attacked, Collector Base: Infiltration, Collector Base: The Long Walk, and Collector Base: Final Battle). Entering the Omega 4 Relay, which no ship had previously returned from, is considered the start of the Suicide Mission.",
+      "url": "https://masseffect.fandom.com/wiki/Suicide_Mission",
+      "for_key": "the Hammer forward operating base final goodbyes"
+    },
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#03",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference Hackett lays out the plan: Sword fleet engages the Reapers in orbit; Hammer strike teams help the Earth resistance reach the Reaper-built conduit in London to teleport to the Citadel and open the arms; Hackett's Shield fleet hangs back to guard the Crucible and bring it in during the fighting. The assembled fleets then launch the assault on Earth.",
+      "url": "",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "storyline_039",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Ilos",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Sovereign had possibly planned this for centuries after discovering the Protheans' sabotage plan. Vigil gives Shepard a data file that will give the Commander temporary control of the Citadel to stop Sovereign. After leaving Vigil, Shepard heads through the archives, down into an old aqueduct guarded by geth, and reaches the Conduit. Saren had already gone through, leaving geth to stay guard. Meanwhile, Sovereign begins its assault on the Citadel, escorted by a large geth fleet. Matriarch Lidanya, the commander of the Destiny Ascension, attempts to close the Citadel's arms but the station doesn't respond—the operators at Citadel Control are all dead. The Council are forced to evacuate aboard the Ascension. Saren has begun his attack from within. Back on Ilos, Shepard sees the Conduit is closing fast. Rushing to the Conduit, Shepard evades the geth in the process and drives the Mako through, just before the relay closes. On the Presidium, now burning and heavily damaged, two geth troopers notice a blue glow around the Relay Monument. When they go to take a look, the Mako suddenly bursts through and crushes them, before rolling over and crashing against a wall. The race to stop Saren is on.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "conduit-mass-effect-3_001",
+      "kind": "page",
+      "page": "Conduit (Mass Effect 3)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the Reaper structure. For the object in the first game, see Conduit.* | | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | The Reapers construct a massive structure in war\\-torn London in 2186, designed to transport corpses and other matter from groundside directly to the Citadel relocated above Earth. Dubbed a \"**conduit**\" by the allied galactic forces, they attempt to storm it in order to reopen the arms of the Citadel for the second leg of their war strategy, only to be largely annihilated by Harbinger. Only Commander Shepard and David Anderson make it to the Citadel. This conduit follows basic mass relay transport principles but slightly deviates in multiple aspects, starting with the physical attributes. Unlike the spaceborne systems that light up only when transmitting or receiving objects, this conduit emits a constant beam of blue light into the sky. It has no visible element zero core. It can also allow living matter to survive the trip unaided, arriving at ballistic but survivable speeds. Additionally, it appears to have multiple destination termini, as Shepard and Anderson seem to have materialized at slightly different points on the station. In some outcomes of Shepard's ultimate decision, the conduit appears to have been remodeled or rebuilt with prevailing galactic architecture.",
+      "url": "https://masseffect.fandom.com/wiki/Conduit_(Mass_Effect_3)",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "summary:conduit-mass-effect-3",
+      "kind": "summary",
+      "page": "Conduit (Mass Effect 3)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Short lore page. The Conduit of Mass Effect 3 was a massive structure the Reapers built in war-torn London in 2186 to transport corpses and other matter directly from the ground to the Citadel, which had been relocated above Earth. Allied galactic forces called it a \"conduit\" and attempted to storm it in order to reopen the arms of the Citadel for the next stage of the war, but were largely annihilated by Harbinger; only Commander Shepard and David Anderson reached the Citadel.\n\nThe structure followed basic mass relay principles but differed in several ways: it emitted a constant beam of blue light into the sky rather than lighting up only during transmission, had no visible element zero core, allowed living matter to survive the trip unaided (arriving at ballistic but survivable speeds), and appeared to have multiple destination termini, since Shepard and Anderson materialized at slightly different points on the station. In some outcomes of Shepard's final decision, the conduit appeared to have been remodeled or rebuilt using prevailing galactic architecture.",
+      "url": "https://masseffect.fandom.com/wiki/Conduit_(Mass_Effect_3)",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "harbinger_004",
+      "kind": "page",
+      "page": "Harbinger",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the Reaper War, Harbinger is one of the Reapers who leads the attack on Earth. Alliance intelligence suggests that Harbinger is the oldest and largest Reaper of the entire fleet. Harbinger appears during the final battle in London and launches a devastating attack on allied forces attempting to reach the Citadel through the conduit, using weapons that are considerably faster than other Reapers'. It leaves when it appears that Shepard and the rest of the counterattack have been wiped out. Despite its efforts, Shepard and David Anderson make it through, though they are both heavily wounded. If Shepard chooses to activate the Crucible, Harbinger's fate is presumably the same as the other Reapers'. It is either destroyed with all other synthetic life, brought under Shepard's control and used to rebuild and protect the galaxy, or it willingly helps to rebuild the galaxy and disseminate its knowledge after organic and synthetic life are merged. If Shepard refuses to activate the Crucible, then Harbinger is presumably defeated along with the other Reapers in a future cycle.",
+      "url": "https://masseffect.fandom.com/wiki/Harbinger",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "summary:race-against-time",
+      "kind": "summary",
+      "page": "Race Against Time",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Race Against Time was the overarching main mission of Mass Effect, representing Shepard's ongoing effort to stop Saren Arterius. Saren was searching for the Conduit, an ancient relic dating to the Prothean extinction; through the visions burned into Shepard's mind by the Eden Prime beacon, Shepard came to believe the Conduit was a weapon capable of wiping out all life in the galaxy.\n\nThe mission appeared in the Journal after completing two of the three plot missions on Noveria, Feros, or Therum, when the Citadel Council requested a priority holo-meeting in the Normandy's comm room to share the latest intelligence on Saren. It did not correspond to any single point in the game and was completed only by finishing the game. Revealing the location of Ilos required completing Therum, Feros, Noveria, and Virmire in full.\n\nThe mission's name updated at story milestones: \"Race Against Time\" on acquisition, \"Race Against Time: Sovereign\" after meeting Sovereign on Virmire, \"Race Against Time: Conduit\" after speaking with Vigil on Ilos, and \"Race Against Time: Final Battle\" after passing through the Conduit and re-entering the Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Race_Against_Time",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "sovereign_004",
+      "kind": "page",
+      "page": "Sovereign",
+      "section": "The Puppet Master",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Despite Sovereign's contempt for all organic life, the failure of the signal to activate the Citadel due to Prothean sabotage forces it to investigate what had gone wrong, a task for which it requires the aid of organics. Vigil hypothesises it took many years—possibly even centuries—for Sovereign to assemble the pieces of the puzzle, working through agents and keeping its true nature hidden, since revealing its presence would have united all organic races against it. Gradually Sovereign pieces together the actions of the last Prothean survivors and discovers the Protheans sent a final message through their beacons that might lead it to the Conduit. When Dr. Qian's research finally leads Saren to the planet it is orbiting, Sovereign now has the organic ally it needs—a powerful and well\\-connected Spectre. It makes an alliance with Saren, who thinks he can prove that organics could be useful to the Reapers, guaranteeing their survival when the cycle begins again. Saren doesn't realise that this \"alliance\" is empty: Sovereign sees him merely as another tool to be manipulated, used, and discarded. Saren takes Sovereign as his flagship, and is named as Sovereign's \"prophet\" to the geth. However, like so many others, Saren falls under the dominating effects of Sovereign's indoctrination. But he retains some free will, as Sovereign requires Saren's mind intact to find the Conduit and reactivate the Citadel relay. After so many years, Sovereign is finally bold enough—or desperate enough—to begin acting openly. When a Prothean Beacon is unearthed on Eden Prime, Sovereign knows it might contain the location of the Conduit. As a machine it is unable to access the vision itself, as the Prothean message was coded so that only organic minds could understand it. Sovereign brings Saren and an army of geth to the colony to retrieve the beacon. Eden Prime is devastated by the assault, not only from Sovereign's weapons, but also from its engines, which burnt crops for miles around. A distress call is transmitted by the marines on the surface before they are killed, alerting the SSV Normandy. Nonetheless, Saren uses the beacon and through him, Sovereign learns more about the Conduit, a reverse engineered mass relay made by the Protheans, which could function as a backdoor to the Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Sovereign",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "summary:relay-monument",
+      "kind": "summary",
+      "page": "Relay Monument",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Relay Monument was a scale representation of a mass relay standing as a statue on the Citadel Presidium. It was believed to be a piece of Prothean art and had been in place since before the asari arrived on the station. According to the VI Avina, it was a popular topic among Citadel academics, with two competing theories about its meaning: that it was an expression of Prothean vanity proclaiming their galaxy-wide mastery of mass effect technology, or that it was a symbol of unity acknowledging that the relays would eventually bring other races to the Citadel. Commander Shepard's squadmates each offered their own opinions if spoken to nearby.\n\nIn fact the Monument was not a statue but an actual small-scale, inactive mass relay. Its partner relay, the Conduit, lay on Ilos. Together they formed a \"back door\" onto the Citadel, built by hidden Prothean scientists who survived their race's annihilation, allowing passage that bypassed the signal the Reapers used to control the Citadel, in the hope of breaking the cycle for later races. Saren Arterius intended to use the Conduit to bypass the Citadel's defenses and hand control of the station to Sovereign. Shepard drove the Mako through the Conduit in pursuit of Saren and emerged through the Relay Monument on the Presidium, crushing several geth on landing. As the Conduit was already closing during the transit, the Relay Monument was likely inactive again afterward.\n\nTwo years later, during Mass Effect 2, the Monument remained on the Presidium and was by then referred to as the Conduit by the Presidium Groundskeeper.",
+      "url": "https://masseffect.fandom.com/wiki/Relay_Monument",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "saren-arterius_008",
+      "kind": "page",
+      "page": "Saren Arterius",
+      "section": "\"Join us.\"",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The next confrontation between Shepard and Saren occurs on the lost Prothean world of Ilos, where the Conduit is hidden. While Shepard is delayed by the Council, which believes a blockade would stop Saren from attacking the Citadel, Saren is able to reach Ilos first. The activated Conduit allows Saren to travel to the Citadel, bypassing its external defenses, while Sovereign and a geth fleet assault the Citadel from the outside. After killing the operators of Citadel Control, Saren makes his way toward the Citadel's master control unit, intending to transfer control of the Citadel to Sovereign to activate the latent mass relay, paving the way for the rest of the Reapers to enter through from dark space. Saren is interrupted, however, when Shepard and the Ilos ground team rush in, following Saren through the Conduit. Shepard can convince Saren that, indoctrinated or not, he still has a way to stop Sovereign. Saren commits suicide by shooting himself in the head, to prevent himself from opening the Citadel relay, but not before muttering, \"Goodbye, Shepard. Thank you.\" Otherwise, Shepard is forced to battle Saren atop the Council platform. At the end of the fight, Saren falls through the glass floor of the Council Chambers and is fatally impaled by a large glass shard. Shepard's team assures Saren's death by shooting the rogue Spectre in the head. Sovereign, however, reanimates the misguided turian's body, burning away all of Saren's flesh, revealing the extent of the cybernetic \"upgrades\". By controlling Saren's corpse and speaking in his voice, Sovereign has the turian fight one last battle. Shepard and the team manage to destroy the nightmarish construct, and Saren's synthetic remains disintegrate. The avatar's destruction corrupts the signal used by Sovereign to control Saren's body and causes it to lose control of its shields, allowing the Alliance fleet to destroy it. Despite the victory, Shepard knows that fundamentally, Saren was right. Sooner or later the Reapers will return, and Shepard vows to find some way to stop them. |  | ***“Salvation comes with a cost.”*** — Spoilers for **Mass Effect: Ascension** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Saren_Arterius",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "race-against-time_001",
+      "kind": "page",
+      "page": "Race Against Time",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Saren is searching for the Conduit, an ancient relic dating back to the Prothean extinction. Through the visions burned into your mind by the beacon on Eden Prime, you believe that the Conduit is a weapon capable of wiping out all life in the galaxy. Saren must be stopped!",
+      "url": "https://masseffect.fandom.com/wiki/Race_Against_Time",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "race-against-time-conduit_004",
+      "kind": "page",
+      "page": "Race Against Time: Conduit",
+      "section": "Walkthrough",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The commander of the Destiny Ascension then orders the evacuation of the Council. The reason for the station's unresponsiveness becomes clear as the scene shifts to the Presidium where a geth throws the lifeless body of an asari aside while Saren and more of his mechanical minions enter the elevator leading to the Citadel Tower and the Council Chambers. ***When you regain control you have only 40 seconds to get to the Conduit and use it.*** You will **not** make it on time if on foot, so you must drive, and fast. However, there are four Geth Colossi in your way who will try to stop you. Therefore, you have no time to combat them, just hit the gas and take the most direct route to the Conduit while avoiding their projectiles. Following the small river and zigzagging a little to reduce the machine gun fire from the Colossi is a reasonable plan, though driving straight at the Conduit generally works just as well. **Legendary Edition:** While in the original game you'll probably be cutting it close even at top speed, the Mako's rear thrusters can now ensure you reach the Conduit with a comfortable lead (but still not enough of one to kill all Colossi). Be aware that the Mako's shields will be automatically depleted to a couple of bars when it hits the bottom of the ramp. When you get close enough to the Conduit, it will automatically take the Mako and send it to the Citadel. **Warning:**  Attempting to enter the Conduit on foot will result in instant death. **Tip:** It is possible to take out 2 of the 4 Colossi *before you even start the cutscene*. Your best and only vantage point is a few feet from the top entrance, the boundary defined by the walls textured with many horizontal stripes: any farther out and the cutscene will start. The Colossi can be destroyed with sniper rifles, but as it will take an infernally long time to do so even with the Mako's weaponry, it isn't advisable. Kill them with the Mako gun and cannon instead. One Colossus is to the right of the bottom of the ramp and the other is to the far left. Look for the faint blue lights. You can double zoom your sight to make it easier to see over the lip of the canyon: the left Colossus should appear as a moving white blur obscured by foliage while the right one should have much more definition.",
+      "url": "https://masseffect.fandom.com/wiki/Race_Against_Time:_Conduit",
+      "for_key": "the plan to assault the conduit through London"
+    },
+    {
+      "chunk_id": "scene:idenna-seeto-tour-quarian-culture#02",
+      "kind": "scene",
+      "page": "Seeto Tours the Idenna, Sharing Quarian Life",
+      "section": "hangout",
+      "game": "Mass Effect",
+      "scene_id": "idenna-seeto-tour-quarian-culture",
+      "text": "Seeto Tours the Idenna, Sharing Quarian Life. 2183, during Mass Effect: Ascension, when Kahlee Sanders is released from quarantine aboard the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — Seeto's quarters and the trading deck When Kahlee was finally released from quarantine, Seeto gave her, Hendel Mitra, and Gillian Grayson a brief tour of the Idenna. The tour included his own sleeping quarters and the ship's trading deck, offering them insight into quarian culture and life aboard the Migrant Fleet.",
+      "url": "",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "scene:peak-15-rift-station-palon#01",
+      "kind": "scene",
+      "page": "Meeting Dr. Palon at Rift Station",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "peak-15-rift-station-palon",
+      "text": "Meeting Dr. Palon at Rift Station. 2183, during Noveria: Matriarch Benezia, at Peak 15 Rift Station on Peak 15, Noveria Shepard finds Dr. Palon, a toxicologist working at Binary Helix, sleeping at the back of Rift Station's main area near the entrance to the maintenance section, past Petozi. Shepard can wake him to talk.",
+      "url": "",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "tempest_018",
+      "kind": "page",
+      "page": "Tempest",
+      "section": "Storage",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The storage room in the Deck 3 aft section has been appropriated by Liam Kosta for his quarters. It has his worn\\-out sleeping couch prominent among other items.",
+      "url": "https://masseffect.fandom.com/wiki/Tempest",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "seeto-hodda-nar-idenna_001",
+      "kind": "page",
+      "page": "Seeto'Hodda nar Idenna",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | ***“Salvation comes with a cost.”*** — Spoilers for **Mass Effect: Ascension** follow. |  | | --- | --- | --- | **Seeto'Hodda nar Idenna** is a quarian aboard the Idenna, mostly serving as security detail. During Kahlee Sanders' quarantine aboard the Migrant Fleet, Seeto befriends her; Kahlee likes the young quarian's exuberance and curiosity. Seeto also greatly admires his captain, Ysin'Mal vas Idenna, and shares his belief that the Fleet needs to change its policies if it is to survive. When she is finally released Seeto gives Kahlee, Hendel Mitra and Gillian Grayson a brief tour of the Idenna \\- including his own sleeping quarters and the Idenna's trading deck \\- giving an insight into quarian culture. Seeto's father is a navigator; his mother is on the Idenna's civilian Council. Unusually for a quarian, Seeto also has an older sister who joined the Rayya's crew after her Pilgrimage. It is possible, therefore, that Seeto was born during a period when the prohibition against single births in quarian families had been lifted. Unfortunately Seeto never gets the chance to go on his own Pilgrimage. He is part of the security detail sent to meet the Cyniad when she returns to the Idenna, not realising she is carrying a Cerberus strike team. Seeto dies along with his comrades when Golo and the other Cerberus operatives storm the ship.",
+      "url": "https://masseffect.fandom.com/wiki/Seeto'Hodda_nar_Idenna",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "cryo-bay_002",
+      "kind": "page",
+      "page": "Cryo Bay",
+      "section": "Details",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is the starting location for any new game of Mass Effect: Andromeda. Here Ryder wakes after being in stasis during the trip to Andromeda and the Hyperion has its first encounter with the Scourge. Ryder's sibling is kept here in a mild coma for a portion of the main story after the stasis pod they were sleeping in was damaged in the opening sequence of the story.",
+      "url": "https://masseffect.fandom.com/wiki/Cryo_Bay",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "scene:me1-ilos-find-the-conduit#03",
+      "kind": "scene",
+      "page": "The Race to Ilos and Vigil's Warning",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "me1-ilos-find-the-conduit",
+      "text": "The Race to Ilos and Vigil's Warning. 2183, after breaking the Citadel lockdown, en route to and on Ilos for the final assault on Saren the SSV Normandy bridge and cargo bay, then the Ilos surface and Archives Shepard boards the Mako and drives through the Archives. While traversing the long underground corridor lined with what appear to be Prothean stasis pods, squadmates comment that they expected Saren to lay a trap in such a perfect ambush location; another speculates that the pods once housed sleeping Protheans. Partway through, the Mako encounters Saren's rear guard—a few Geth Rocket Troopers—whom they quickly dispatch. As they continue, twin forcefields trap the Mako. The squad exits and enters an elevator, which descends deeper into the facility.",
+      "url": "",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "scene:citadel-apartment-vega-n7-tattoo#05",
+      "kind": "scene",
+      "page": "Vega Shows Off the N7 Tattoo",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-apartment-vega-n7-tattoo",
+      "text": "Vega Shows Off the N7 Tattoo. 2186, Citadel shore leave, after the CAT6 mercenaries are driven off Shepard's personal apartment on the Silversun Strip Shepard falls short of 182. James asks whether the Commander wants a mulligan, or — if Shepard fails badly more than once — marvels that he has finally seen something Shepard is not good at.",
+      "url": "",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "task-cultivation_002",
+      "kind": "page",
+      "page": "Task: Cultivation",
+      "section": "Acquisition",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Speak to Doctor Camden at Nexus Hydroponic Gardens just outside The Vortex. Pathfinder Ryder will need to choose the \"That's not very polite\" dialogue option to start the conversation for this mission. As head of Hydroponics Sciences, Camden's responsible for the Nexus' primary source of air, food and water. In order to help the Initiative's own specimens acclimatize, he tasks Pathfinder Ryder with bringing him samples of Heleus flora. **Note:** Doctor Camden is not there until Sleeping Dragons is completed.",
+      "url": "https://masseffect.fandom.com/wiki/Task:_Cultivation",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "summary:powell",
+      "kind": "summary",
+      "page": "Powell",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Powell was a human spaceport dockworker on Eden Prime. He ran a small smuggling ring, paying a man named Cole to store his goods. Powell had been sleeping behind some crates during his shift when the geth attacked the colony in 2183, and this negligence saved his life. When Commander Shepard's squad arrived on Eden Prime, they found Powell near the corpse of the Spectre Nihlus.\n\nPowell told the Commander that he had witnessed Saren Arterius murder Nihlus, his fellow Spectre, and he directed Shepard toward Saren along the cargo train route. Shepard could confront Powell about his smuggling operation and persuade him to hand over useful equipment, and with further pressure some prototype technology.\n\nPowell was later contacted by the Alliance to give an official testimony supporting the accusation that Saren had turned traitor. The salarian Councilor dismissed his account, arguing that the word of \"one traumatised dockworker\" was insufficient evidence of Saren's alleged treachery.",
+      "url": "https://masseffect.fandom.com/wiki/Powell",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "garrus-eye-for-an-eye_018",
+      "kind": "page",
+      "page": "Garrus: Eye for an Eye",
+      "section": "Cut Content",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- According to an early development design document, this mission was first envisioned with a few notable differences: the mole would have been working for a \"cartel\", and eliminating them would have been Shepard and Garrus' first objective. Finally, when confronting the mole, Shepard could persuade him to confess for his betrayal; if not, Garrus shoots him dead.",
+      "url": "https://masseffect.fandom.com/wiki/Garrus:_Eye_for_an_Eye",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "summary:palon",
+      "kind": "summary",
+      "page": "Palon",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Dr. Palon was a toxicologist working at Rift Station on Peak 15, on the world Noveria. Commander Shepard found him sleeping at the back of the station's main area near the entrance to the maintenance section, past Petozi, and could wake him to talk. Jumpy but cooperative, Palon told Shepard about the labs, pointed the Commander toward Han Olar, and mentioned a biotoxin accident that had affected Dr. Zev Cohen's team without giving details. He had not seen Matriarch Benezia and said Dr. Iallis was the only asari present, though he would notice if Iallis went missing.\n\nAsked about his own research, Palon held to his non-disclosure agreement, hoping to keep his job if he survived. He said he disliked working at Peak 15 but that it paid better than anywhere else, and that its isolation left \"only the discovery\", making it easy to forget why science was guided by ethics elsewhere. If fighting broke out between Shepard and Rift Station's guards, Palon cowered in his corner like the other civilians and angrily ordered Shepard away, fearing the guards would shoot him to reach the Spectre. If Shepard cleared the hot labs first, Palon and the other civilians went missing, and Han Olar suggested Captain Ventralis had had everyone else killed.",
+      "url": "https://masseffect.fandom.com/wiki/Palon",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "powell_001",
+      "kind": "page",
+      "page": "Powell",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Powell** is a human spaceport dockworker on Eden Prime. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | Powell operated a small smuggling ring, paying Cole to store his items. When Commander Shepard's squad arrives at Eden Prime, they meet Powell near Nihlus' corpse. Powell was sleeping behind the crates during his shift, which saved his life when the geth attacked the planet. Shepard can confront Powell about his smuggling ring and convince him to part with useful items, and further persuade him to hand over some prototype technology. Powell also describes how he witnessed Saren Arterius murder his fellow Spectre, Nihlus, and points the Commander in Saren's direction, along the cargo train. Powell is later contacted by the Alliance for an official testimony to support their accusations against Saren, but the salarian Councilor claims the word of \"one traumatised dockworker\" is insufficient evidence of Saren's alleged treachery.",
+      "url": "https://masseffect.fandom.com/wiki/Powell",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "manual-mass-effect-trilogy-secrets-many-players-missed-part-2-secrets-6-10_006",
+      "kind": "page",
+      "page": "Mass Effect Trilogy Secrets Many Players Missed, Part 2 — Secrets 6–10",
+      "section": "10. The refund guy",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "In Mass Effect 1 a man is seen doggedly trying to get a refund. He is at it again in Mass Effect 2. In Mass Effect 3 Shepard can finally intervene, either helping him get his refund or talking him out of it — a total of 15 credits, fought over for three years.",
+      "url": "",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "meridian-the-way-home_003",
+      "kind": "page",
+      "page": "Meridian: The Way Home",
+      "section": "Walkthrough",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Note:**  If you want Captain Nozomi Dunn to survive the crash landing of the Hyperion, Pathfinder Ryder must have convinced Avitus Rix to become the turian Pathfinder during Turian Ark: Lost But Not Forgotten. Four pathfinders are required to keep Nozomi alive and Avitus as a pathfinder makes the total four. **Warning:**  This mission concludes the main mission arc of the game. After completing this mission, certain side missions and any missions involving the Hyperion will be locked out. Complete these missions before starting this mission. - Contagion - Sleeping Dragons - Station Sabotage - Task: An Exile Raid - Task: Better Crafting - Task: Investigating Embezzlement - Task: Lost Brother - The Firefighters",
+      "url": "https://masseffect.fandom.com/wiki/Meridian:_The_Way_Home",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "summary:unc-listening-post-theta",
+      "kind": "summary",
+      "page": "UNC: Listening Post Theta",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "UNC: Listening Post Theta was an assignment in Mass Effect, part of the Cerberus rachni experiment chain (prerequisite: Noveria: Matriarch Benezia, which opened access to the Styx Theta gateway cluster). An Alliance base in the Acheron system was believed to be in danger, and Commander Shepard was sent to find out what was happening. Unusually, the journal entry for the assignment was received already marked complete, from a terminal at the far end of the facility; if Shepard had already finished UNC: Listening Post Alpha, Lieutenant Durand would have mentioned this post going offline three days earlier.\n\nThe base was on Altahe, at the south center of the map, defended by four nests of three Rachni Soldiers each. After clearing them one at a time, Shepard entered the underground base on the north side. The interior was mostly clear at first, with two hardened weapon lockers behind a defense barrier and a corpse in the back of the first room. The main room held eight Rachni Workers and two Rachni Soldiers; the fast-moving Workers had to be killed before they could explode, and explosive cryo containment cells were available. A sleeping-quarters room to the southeast held a wetware kit, storage lockers, charred corpses, and strange triangular eggs that could only be destroyed. The comm room to the southwest held the objectives: accessing the Emergency FTL Comm played a distress call from Lt. Durand and granted the UNC: Listening Post Alpha assignment, or, if that was already done, the UNC: Depot Sigma-23 assignment.\n\nThe assignment was written by Chris L'Etoile and is referred to internally as \"Rachni Rebirth: Listening Post Theta.\" A cut Investigate option was removed from the game.",
+      "url": "https://masseffect.fandom.com/wiki/UNC:_Listening_Post_Theta",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "summary:omega-batarian-bartender",
+      "kind": "summary",
+      "page": "Omega: Batarian Bartender",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Omega: Batarian Bartender\" was an assignment in Mass Effect 2, available after Freedom's Progress once Commander Shepard had access to Omega. It began by asking the bartender in the lower area of the Afterlife nightclub for a drink and choosing to buy one.\n\nThe batarian bartender, Forvan, served Shepard a drink that caused the Commander to fall unconscious; squadmates commented on this on waking. A passerby named Henner then explained that Forvan held a personal bias against humans after an incident in which several batarians were killed, and had been poisoning drinks served to humans in revenge.\n\nShepard could confront Forvan with several outcomes. Shepard could simply leave. With a high Renegade score, Shepard could force Forvan to drink his own poisoned drink, causing him to collapse. With a high Paragon score, Shepard could incite the crowd; Forvan would deny the allegations, draw a gun on Shepard, and be shot dead by a turian patron named Ogrinn. Shepard could also tell Forvan he was finished poisoning people, then still use Charm or Intimidate, or finally tell him he was not worth the trouble, letting him run away for Paragon points.\n\nRegardless of resolution, Forvan was replaced by a salarian bartender who served Shepard free drinks on future visits to Afterlife. The assignment rewarded 40 (50) experience. It was internally referred to as \"(Omega:) Bekke.\"",
+      "url": "https://masseffect.fandom.com/wiki/Omega:_Batarian_Bartender",
+      "for_key": "Shepard finally sleeping"
+    },
+    {
+      "chunk_id": "miranda-lawson_016",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Nobody's perfect.” Miranda returns to fight the Reapers, provided she survived the assault on the Collector base. Since the Collector base, she has resigned from Cerberus and has indicated that the Illusive Man now wants her eliminated, causing her to go on the run again for a while. For both her own and Shepard's safety, she decided not to make contact with the latter during their incarceration by the Alliance. For much of the galactic war, Miranda spends her time investigating what happened to her sister Oriana and tracking her down. Over time she requests Shepard to meet with her three times, which the Commander can oblige or ignore, majorly influencing whether she survives the war alive or else. Shepard gets a message from Miranda asking to meet on the Citadel at Docking Bay D24 one mission after the rescue of Primarch Victus for a war summit. Miranda is concerned that Oriana had been found by their father. Even if Shepard assisted her in relocating Oriana, Miranda believes her father is persistent enough to try again, only this time she suspects he succeeded. In addition to seeing Shepard, Miranda's on the Citadel to talk to some people and call in some favors for leads on her sister. - Imported save file - Romance import - Non\\-import game with default conditions **Meet me on the Citadel** --- From: Miranda Lawson Commander: I heard about your stay with the Alliance. I can only imagine what nonsense they cooked up to keep you there. We should talk. It's safer in person. You'll find me on the Citadel by Bay D24\\. Miranda **Meet me on the Citadel** --- From: Miranda Lawson Shepard: I'm relieved nothing happened to you. I can't guess what nonsense the Alliance cooked up to justify what they did. I'm just glad you're safe. I'll be waiting on the Citadel by Bay D24\\. Miranda **Meet me on the Citadel** --- From: Miranda Lawson Commander: It's been a while since we've worked together. But I trust you. A very rare commodity since I walked away from Cerberus and the Illusive Man. We should talk. It's safer in person. You'll find me on the Citadel by Bay D24\\. Miranda After the Cerberus attack on the Citadel, Miranda sends Shepard a message requesting another meet (or the first, if Shepard ignored her earlier message). However, she makes contact via Spectre Terminal hologram in the Citadel Embassies instead of in\\-person in light of recent events. Miranda has confirmation that her father abducted her sister; snatched right off the street. Additionally, he appears to have joined forces with the Illusive Man on a mysterious project, enticed by his obsessive need to \"preserve his legacy.\" Figuring she needs to stop running and confront her father once and for all, Miranda resolves to deal with this issue on her own. If Shepard read Anderson's forwarded dossier on Kai Leng and warns Miranda of his involvement in the Citadel attack, Miranda is surprised to learn he's still alive and promises to be on her guard. - Missed first meeting - Second meeting **We should meet** --- From: Miranda Lawson Shepard: I missed you last time I was here. I'm back on the Citadel. I'll find a place to meet and send you a NavPoint when you get here. Miranda **Found something** --- From: Miranda Lawson Shepard: I discovered a few things about my sister. It's bad. But there's something else going on. I'm back on the Citadel. I'll find a place to meet and send you a NavPoint when you get here. Miranda Miranda later sends a message to Shepard to meet her in a private room at the Presidium Commons. Once Shepard arrives, Miranda asks them for control of Alliance resources, but refuses to reveal the reason for it. Shepard can choose to allow or deny her access. After making this decision, Miranda confesses her guilt for wanting to implant a control chip into Shepard's brain during their reconstruction, as that time she felt Shepard was a complete unknown. She eventually realized she escaped her father's highly controlling nature only to do the same to someone else. Shepard can comfort her saying that it was Miranda who brought them back to life, regardless of her opinions about them back then, and either accepts her apology or tells her not to dwell on the past. **Important** --- From: Miranda Lawson Shepard: I have something important to tell you. I need to do this in person. Can you meet me in the Commons? I'll send a NavPoint. No vids this time. I promise. Miranda Miranda eventually determines Oriana is being held at her father's Sanctuary facility on Horizon. She arrives there only to find it under attack from Reaper forces.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "task-waking-up-to-the-future_002",
+      "kind": "page",
+      "page": "Task: Waking up to the Future",
+      "section": "Acquisition",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This task is available after establishing an outpost  on Eos during A Better Beginning. Start the mission by interacting with a terminal (marked with a) in the first floor of a building in Prodromos. Formal request for Darket Tiervian, \\#28 Making the request again, Bradley. I know it's not your fault. I know she's supposed to be second wave. But I want a trail so that when all this calms down in a few years, we can get proper outraged about how long it took to reunite families. Especially ones hurt during the Site 1/2 mess. You know \"Broken Promise\" is a thing, right? Requesting the deployment of Darket Tiervian, W\\-84\\-Krispin. Exo\\-studies specialist. Reason: she's an asset that will help viability. She's also my daughter.",
+      "url": "https://masseffect.fandom.com/wiki/Task:_Waking_up_to_the_Future",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "a-dying-planet_011",
+      "kind": "page",
+      "page": "A Dying Planet",
+      "section": "Find Taavos",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A cutscene dialogue immediately starts when you enter the middle building. Taavos is ready to die, but you instead convince him to hold Zorai's gauntlet. He puts it on and suddenly gains knowledge of an underground monolith, along with emotions not his own. He reluctantly agrees to meet at a set of coordinates and lead the squad to the monolith. When the dialogue has concluded you can talk to Taavos again to learn more about his motivations and beliefs. In the building with Taavos is a large container and a Roekaar Terminal.",
+      "url": "https://masseffect.fandom.com/wiki/A_Dying_Planet",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "tali-treason_006",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "The Alarei",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "If you go downstairs, understand there is not a lot of cover and the Geth Hunters and Geth Troopers will come down the stairs after you. Do as much damage as you can while you retreat down the stairs or you'll be stuck in a small room with lots of geth. After the battle the door magically opens again. After the battle, inside the chemistry lab there is a crate of Refined Palladium (\\+2000 palladium) and a med\\-kit with medi\\-gel. The adjacent room will have a Wall Console, which starts a testy conversation with Tali. She is concerned that the risky research on the Alarei was motivated by her father's promise to build her a house on the quarian homeworld. Shepard can advocate taking back the homeworld or suggest giving up on that dream for up to 4 Renegade or Paragon points. There's also a Wall Safe (\\+3000 credits) that can be bypassed. **Note:**  Save your game at this point before opening the door as the next battle will again be close quarters combat. After going through the door, Shepard will be on the second\\-floor of a two\\-level room. Geth Troopers and Geth Hunters will be coming into the room through a door on the lower level. A few Geth Troopers will also come in through a door on the upper floor from the left. **Warning:**  The door into the chemistry lab slams shut when you activate the door and you are now stuck in this tough battle until it is over. There is a glitch listed below to help with the door shutting but understand that if the glitch doesn't work that the door isn't open, Shepard and the squad are now in a tiny little room and there are Geth Hunters and Geth Troopers on their way to your location. The geth will close the distance rapidly and won't go to cover until the Hunters are dead. Even after the Hunters are dead sometimes a Geth Trooper will enter the little room. There is almost no cover and the geth outside the little room will shred your squad unless you are very far to the right in the little room. After the battle the door back to the chemistry lab reopens. **Combat Strategy:** The ramp up to the upper level makes a natural chokepoint, and a Combat Drone can be used to impede geth progress up the ramp. Sending a Combat Drone *inside* the downstairs door at the beginning of the battle will usually stop further enemies from spawning. Hacking unshielded geth also works well, and is particularly useful for distracting the deadly Geth Hunters. One thing to be careful about is hacking the Geth Hunters themselves if they are on the ramp, because while attacking the other geth they will often \"back up\" (toward you), leaving you in an extremely delicate position when the hack runs out. It is better in this case to hack one of the nearby lesser geth to distract the Hunter. Another technique that works well in this fight is to have the M\\-622 Avalanche and fire a volley of shots down at the lower level door as the first large group of geth comes through. Taking cover at the upper ledge becomes a much safer proposition if you can freeze any Hunters before they climb up to your level; otherwise, you should wait in the back room for the Hunters to come to you and hopefully take them out quickly there. The Geth Plasma Shotgun will greatly even the odds against Hunters at close quarters. **Glitch Strategy:** There is also a notable glitch here that will make the room much easier on Hardcore or Insanity. Station one of your squad in the chemistry lab and proceed to open the door. If you feel you are overwhelmed, retreat through into the chemistry lab and take cover near a small counter near the door; some of the geth will not enter the lab, and will stand by the doorway; however, this is far from foolproof, since other geth will follow you relentlessly anyway, in which case you should prepare for close\\-quarters combat. **Exploit Strategy:** There is another way of handling this battle that can greatly simplify it, though it's basically an exploit. Immediately charge forward and down the ramp at the geth, and use a heavy weapon with high disruption such as the Avalanche, Arc Projector, Grenade Launcher, or Blackstorm to disable or destroy the geth waiting for you down there. Without pausing, keep going until you reach the door leading out; encountering the dead quarian's body just beyond triggers a cutscene that immediately ends the battle and eliminates all hostiles. Use Unity when needed to keep your health and shields up.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "scene:msv-ontario-burns-hostage#06",
+      "kind": "scene",
+      "page": "Talking the L2 Biotics Down Aboard the MSV Ontario",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "msv-ontario-burns-hostage",
+      "text": "Talking the L2 Biotics Down Aboard the MSV Ontario. 2183, after the Alliance Subcommittee voted down L2 biotic reparations the cargo hold and the holding room of the freighter MSV Ontario, run to ground in the Farinata system before it could reach the asteroid belt\n If Burns lived, he kept his word: by Mass Effect 2 the L2 biotics had received reparations for their implants. A Galactic News report carried his thanks to biotics everywhere and a promise of more help for people \"forgotten by the system,\" and he sent Shepard a message routed through Udina, \"Thank you again,\" admitting he had taken the job for power, that he had been wrong, and offering his aid despite the political heat.",
+      "url": "",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "tali-treason_005",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "The Alarei",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Shepard and the team take a shuttle from the Rayya to the Alarei. Shepard enters a room that has two Geth Troopers. They are quickly reinforced by more Geth Troopers and two Geth Hunters. The key here is not to have the ever\\-advancing cloaked Hunters reach point\\-blank range where their shotguns are deadly and where low cover will not shield you from them due to their height. **Combat Strategy:** Since you have Tali in your party, her AI Hacking ability can be most useful in keeping a Geth Hunter at bay. In addition to the obvious possibility of using it on a de\\-shielded Geth Hunter, it can be used on a Geth Troopers standing *near* a Geth Hunter and will tend to cause the Geth Hunter to become distracted and even move away from you. Since Geth Troopers are much easier to shoot the shields off of than Geth Hunters, this tactic will come in handy repeatedly throughout the entire mission. This battle will be at close quarters with a swarm of geth closing quickly (a preview of things to come): act decisively or you'll be overrun. In the room is a med\\-kit with medi\\-gel, a laptop (\\+1500 credits), a second laptop (\\+1800 credits), power cells, and a Quarian Log. The Quarian Log when accessed shows a quarian scientist reporting that something is slowing down the systems, so they're taking down the firewalls as apparently Admiral Rael'Zorah ordered them to bypass standard safeties. Down the hallway is a medbay. In the medbay is medical station with medi\\-gel, a hackable Terminal (\\+4200 credits), and a Repair Drone that Tali had sent to her father. Tali talks about what geth parts she sent to her father and how she did it when you access the Repair Drone. Continuing down the hallway there is a small office with a hackable Monitor that awards a Geth Shield Strength upgrade. In the hallway between the medbay and the small office is another Quarian Log. The Quarian Log when accessed shows a quarian researcher realizing that geth have infiltrated their computers. Shepard can continue through the door into the next room but beware as a Geth Hunter comes down the stairs from the rear and right of the room so take the Geth Hunter out quickly. In this room is a laptop (\\+1800 credits) and a second laptop (\\+2100 credits). Near the stairs upwards is a Wall Safe (\\+4200 credits) that can be bypassed and another Quarian Log that shows a researcher's last moments before being overrun by the geth. **Note:**  Save your game at this point before going up the stairs as the next battle will again be close\\-quarters combat. You can then go up the stairs into another area that looks like a chemistry laboratory with convenient workbenches for cover. **Combat Strategy:** Get in cover behind the nearest table ahead of you, as Geth Troopers and Geth Hunters will come through the doors, in several waves. On higher difficulties there are at least three Hunters and they will all try to close to point blank range with you, leaping right over tables to blast you with their shotguns. Apart from shooting them quickly, you can again resort to Tali's AI Hacking ability to keep them distracted—even if you don't hack the Hunters themselves, they are easily distracted by other geth near them that you hack and will leave off pursuing you. The nature of the cover in this room, along with the additional waves of enemies arriving, means that if you seek cover elsewhere in the room you are likely to be exposed to deadly flanking fire. If a Geth Hunter starts approaching too closely, it's best to flee back down the stairs to the prior room instead. The geth will follow you downstairs and you'll hopefully be able to take them out quickly enough. As always, liberal and precise use of AI Hacking is key to not being overwhelmed. **Warning:**  The door in the room downstairs slams shut and you are now stuck in this nasty battle until it is over. If you go downstairs, understand there is not a lot of cover and the Geth Hunters and Geth Troopers will come down the stairs after you. Do as much damage as you can while you retreat down the stairs or you'll be stuck in a small room with lots of geth. After the battle the door magically opens again. After the battle, inside the chemistry lab there is a crate of Refined Palladium (\\+2000 palladium) and a med\\-kit with medi\\-gel. The adjacent room will have a Wall Console, which starts a testy conversation with Tali. She is concerned that the risky research on the Alarei was motivated by her father's promise to build her a house on the quarian homeworld.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "mass-effect-cut-content-ilos-and-ending-voicelines_011",
+      "kind": "page",
+      "page": "Mass Effect Cut Content/Ilos and Ending Voicelines",
+      "section": "end90\\_final\\_cutscene",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Note:**  this dialogue was retranscribed directly from the dialogue file Mass Effect\\\\BioGame\\\\CookedPC\\\\Packages\\\\Dialog\\\\END90\\\\end90\\_final\\_cutscene\\_D.upk or Mass Effect Legendary Edition\\\\Game\\\\ME1\\\\BioGame\\\\Content\\\\Packages\\\\ISACT\\\\end90\\_final\\_cutscene.isb, where it was made non\\-functional, despite audio being present. All text was copied accurately, and any typos or errors are verbatim. Note that different options resulting in the same voiceline is not an error, it occurs regularly through the first game. **Context:** Race Against Time: Final Battle: right after Sovereign's destruction, the cutscene where Shepard comes out of the debris in the Citadel Tower would have had different dialogue. Note that at one point for Mass Effect 2, Executor Pallin was said to have been killed in the battle, which is contradicted by this cut appearance, but that retconn was subsequently cut too, back to him having survived. **Speakers**: - David Anderson - Commander Shepard - Venari Pallin *(as \"Executor\")* - Unnamed human C\\-Sec officer --- **Citadel Security**: Captain Anderson! We've found them! They're in here. **Captain Anderson**: Take it easy... it's over. You're safe now. Where's the commander? Where's Shepard? **Citadel Security**: Captain, we need to clear out. This entire area's unstable. Ships are waiting to evacuate us. **Captain Anderson**: Commander Shepard is still missing. We don't leave anyone behind! **Citadel Security**: We've got partial decompression and loss of power all over the deck. And we need to get these survivors back to the med lab. **Captain Anderson**: Contact the evac ships. Have them pick us up at the airlock. **Citadel Security**: Rescue 17, this is ground team. Meet us at the airlock for immediate evacuation. **Executor**: No sign of Commander Shepard. It doesn't look good. **Captain Anderson**: Shepard! Shepard! You gave us a hell of scare, Shepard. But you'll make a better hero than a martyr. - Good to see you, too. - My thoughts exactly. - You're not under arrest? **Shepard**: Thought I'd need a prison pass to see you again, Captain. **Captain Anderson**: They dropped the charges after Sovereign attacked the Citadel. Guess they figured helping you escape wasn't such a crime after all. You've been through a hell of a lot, Commander. But there's one more thing you need to take care of. **Shepard**: Thought I'd need a prison pass to see you again, Captain. **Captain Anderson**: They dropped the charges after Sovereign attacked the Citadel. Guess they figured helping you escape wasn't such a crime after all. You've been through a hell of a lot, Commander. But there's one more thing you need to take care of. **Shepard**: I thought you were going to be court\\-martialed. **Captain Anderson**: They dropped the charges after Sovereign attacked the Citadel. Guess they figured helping you escape wasn't such a crime after all. You've been through a hell of a lot, Commander. But there's one more thing you need to take care of.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Cut_Content/Ilos_and_Ending_Voicelines",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-november-2010_002",
+      "kind": "page",
+      "page": "Cerberus Daily News - November 2010",
+      "section": "*11/01/2010 \\- Isenberg\\-Wyatt Toys Unveil 'Battle Buddies'*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“Parents, beware: Isenberg\\-Wyatt Toys has unveiled a new robot that's already flying off shelves. Battle Buddies appear to be simple blocks, but when their owners pit holograms of the toys against each other via the extranet, the real\\-life robots change in color, configuration, and sophistication. \"They're great,\" young Battle Buddy enthusiast Paul Von Kern confided. \"Once you finish enough tournaments, they look really scary, and you can make them fight from school even if you leave them home.\" All this fun comes with a price tag, though: basic Battle Buddies start at 5,000 credits; tournaments, which promise special transformations for the winners, have entry fees attached.”*",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_November_2010",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "scene:citadel-keeler-negotiators-request#01",
+      "kind": "scene",
+      "page": "Keeler's Stimulant Request at Flux",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-keeler-negotiators-request",
+      "text": "Keeler's Stimulant Request at Flux. 2183, Citadel, after the Battle of the Citadel outside Flux, the Wards Summoned by Captain Anderson to meet him at Flux, Shepard is stopped near the entrance by an Alliance negotiator named Keeler, who says he urgently needs a legal but regulated mental stimulant to perform well in an upcoming treaty negotiation with the salarians. Conversation reveals he is addicted to it.",
+      "url": "",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "summary:hangar-bay",
+      "kind": "summary",
+      "page": "Hangar Bay",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Hangar Bay was a mission in Mass Effect: Infiltrator, following the Ice Giant mission and preceding Medical Bay. After his mission on the Ice Giant, Cerberus operative Randall Ezno returned by shuttle to the Cerberus station known as the Barn, a facility dedicated to weapons and biotics advancement through adapted Reaper technology and alien experimentation. The mission had two checkpoints.\n\nIn the first checkpoint, Randall opened a radio communication with Inali Renata and moved through the Hangar Bay toward her office for a medical diagnostic. The hangar was then attacked by Turian Troopers, presumably dispatched by the Turian Hierarchy. With the aid of Cerberus troops and friendly Orcus Mechs, Randall cleared the hangar; side walls held consoles and wall safes yielding 50 credits each. In the second checkpoint, Inali contacted Randall again but the communication was cut, prompting him to run for her office. More turian troops, including Turian Snipers, attacked. UDI, the Barn's AI, opened a door after ten seconds to a corridor full of turians. After receiving his Combat Analysis, Randall gained access to the station's Medical Bay and moved on to try to meet Inali. Enemies encountered were Turian Troopers and Turian Snipers.",
+      "url": "https://masseffect.fandom.com/wiki/Hangar_Bay",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "liara-t-soni_014",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "Lair of the Shadow Broker",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Back in Shepard's cabin on the Normandy, Liara comments on the Normandy and mentions running into Joker. If Shepard is a male and in a relationship with Liara, Liara mentions that Joker asked her to record any parts of the conversation with the Commander where her eyes do that \"freaky black eternity thing\". If Shepard is a female, Liara relays Joker's interest in whether or not the two would be \"acting out scenes from a vid called Vaenia.\" If the Commander chose to continue the romance, the conversation then focuses on Liara asking Shepard about their future. Shepard jokes about marrying, growing old and having lots of \"little blue children\". Feeling burdened at the thought of losing Shepard again, Liara needs to be reassured of Shepard's return. Shepard teases Liara for asking a big promise but subtly suggests about needing something special to come back to and hints to her for an offer. In response, Liara says she's open to suggestions, then gasps as Shepard reaches behind her. |  | ***“You've got to walk your own path...”*** — Spoilers for **Mass Effect: Homeworlds** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "scene:citadel-presidium-garrus-shooting-cans#01",
+      "kind": "scene",
+      "page": "Shooting Cans off the Presidium with Garrus",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-presidium-garrus-shooting-cans",
+      "text": "Shooting Cans off the Presidium with Garrus. 2186, during a lull in the war, before the assault on the Illusive Man's base the Citadel — Normandy dock D24, then the top of the Presidium During one of the calmer stretches of the war, Garrus asks Shepard to meet him at the Normandy's D24 docking bay. He wants one more outing together before the final battle on Earth. They take a skycar to the top of the Presidium.",
+      "url": "",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-apartment-eezo#04",
+      "kind": "scene",
+      "page": "Jack Brings a Varren to the Apartment",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-apartment-eezo",
+      "text": "Jack Brings a Varren to the Apartment. 2186, Citadel shore leave, after the Arena meet-up Shepard's personal apartment, the Wards Instead of the varren she brings tattoo equipment and marks Shepard's back. Pressed on the design, she admits she did it so the body would be identifiable whatever happens in the final battle, and tears up at the thought until Shepard holds her.",
+      "url": "",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "summary:jaal-ama-darav-angaran-affection",
+      "kind": "summary",
+      "page": "Jaal Ama Darav: Angaran Affection",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A Mass Effect: Andromeda romance mission available only if Ryder romanced Jaal Ama Darav and completed The Journey to Meridian and Jaal Ama Darav: Flesh and Blood. Jaal sends an email (\"From Your Romantic Friend Jaal\") asking Ryder to meet him on Aya for a surprise.\n\nRyder meets Jaal at a balcony overlook near the Resistance Headquarters on Aya. Jaal, covering Ryder's eyes, leads them toward a waterfall in a secluded, visitor-free spot he arranged so they would not be disturbed. There is an interrupt option to kiss Jaal. After talking about Ryder's favorite place, Jaal professes that he has fallen in love with Ryder, then, flustered, asks about sex. Ryder can decline, in which case the moment stays tender and Jaal praises Ryder warmly, with an interrupt to \"Declare Love\" before a hug and fade to grey. If Ryder accepts, Jaal disrobes and enters the water, Ryder follows (shown nude), Jaal again praises Ryder, and after the optional \"Declare Love\" interrupt the two have sex before the scene fades.\n\nAfterward Jaal sends \"A Letter of Love and Admiration,\" with slightly different text for a female or male Ryder, recalling taking Ryder to the most beautiful place on the most beautiful planet, admiring Ryder's body and also intellect and work ethic, and ending \"I love you. Jaal.\" The mission gives no rewards.",
+      "url": "https://masseffect.fandom.com/wiki/Jaal_Ama_Darav:_Angaran_Affection",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "summary:saren",
+      "kind": "summary",
+      "page": "Saren",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page covered gameplay information and tactics for fighting Saren Arterius in Mass Effect; the general biography is on the Saren Arterius page. The former Spectre searched the galaxy for the Conduit, a means of bringing back the Reapers, and Commander Shepard confronted him face to face on two occasions.\n\nThe first fight took place on Virmire, where Saren fought from a special hovercraft, using powerful tech attacks alongside a rocket launcher similar to those of Geth Rocket Troopers. He often hovered over fuel tanks, which could be shot, Sabotaged, or Overloaded to take him out quickly. He opened with tech attacks including a high-level Damping that could put a squad's abilities on cooldown, and was immune to biotics except Warp and Stasis. In the Legendary Edition he summoned geth troops. The final confrontation occurred on the Citadel during the battle for the station; Saren again rode his hovercraft, but Shepard could attempt to convince him he was indoctrinated. If not convinced, he fought once more.\n\nAfter Saren's death in the Council Chambers, by suicide or in combat, Sovereign reanimated his body into a Husk-like state, controlling the corpse and speaking in his voice for one last battle. This second avatar retained tech powers and was more powerful and dangerous than the original, behaving like a Geth Hopper: it jumped around frequently, was highly resistant to low-level biotics but vulnerable to Master-rank Lift and Stasis, hit Shepard with an immediate Sabotage, and fired a version of Carnage as rapid energy balls that largely ignored shields. A cutscene triggered when its health dropped a little above 50 percent, after which it regained its shields. Destroying it corrupted Sovereign's control signal, causing the Reaper to lose its shields and allowing the Alliance fleet to destroy it.",
+      "url": "https://masseffect.fandom.com/wiki/Saren",
+      "for_key": "a promise to meet again after a battle"
+    },
+    {
+      "chunk_id": "summary:emilio-vega",
+      "kind": "summary",
+      "page": "Emilio Vega",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Emilio Vega was James Vega's uncle and a father figure who lived in Escondido, California, and encouraged James to join the Systems Alliance Marines. Before James's mother died she made Emilio promise to look out for her son. Emilio helped James enlist in 2176. After James argued with his father, Joshua Sanders, and feared Josh would report to the military that James had bought drugs for him in San Diego, Emilio reassured him that Josh would never admit to a drug deal made through a minor, and told James that only he could choose how to live his life. James went on to join the Alliance. During the Reaper invasion of 2186, James sought news of his father and uncle, both still on Earth, but Citadel authorities could not contact them.",
+      "url": "https://masseffect.fandom.com/wiki/Emilio_Vega",
+      "for_key": "a promise to meet again after a battle"
+    }
+  ],
+  "codex": [],
+  "conflicts": [],
+  "warnings": []
+}

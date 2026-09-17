@@ -1,0 +1,13 @@
+---
+title: Special Tasks Group
+url: https://masseffect.fandom.com/wiki/Special_Tasks_Group
+game: Mass Effect 3
+type: faction
+characters: [Kirrahe, Mordin Solus, Maelon Heplorn, Padok Wiks, Jondum Bau, Eve, Urdnot Wrex]
+---
+
+The Special Tasks Group (STG) is a salarian espionage organization, usually deployed by the Citadel Council or the Salarian Union. Operators work in small independent cells performing counterterrorism, infiltration, reconnaissance, assassination, and sabotage. The STG forms a large part of the salarian military because of its emphasis on gathering intelligence before acting, and it is used to monitor developing situations and quietly handle troublesome individuals while attracting less attention than Spectres. Operators are brutally practical and highly flexible, accustomed to working on minimal resources. Mission records are sealed and top agents are known only by codenames, such as the Ever Alert, who kept armies at bay with hidden facts, and the Silent Step, who once defeated a nation with a single shot. STG units seconded to the Council are known as Infiltration Regiments, considered a separate but complementary arm to the Spectres; unlike Spectres they enjoy full government funding and did not have to buy their own weapons. The Spectres themselves were modeled on the STG, and exceptional STG operatives were among the first Spectre candidates.
+
+One of the earliest known STG operations was hunting down the League of One shortly after the Council formed in 500 BCE; the League was deemed wiped out afterward. In Mass Effect, the STG 3rd Infiltration Regiment under Captain Kirrahe was deployed on Virmire to locate Saren Arterius, discovered his base, and its attempt to alert the Council reached them as an empty message, drawing Commander Shepard there; casualties among the operatives depend on Shepard's actions during the base's destruction.
+
+In Mass Effect 3, an STG facility on Sur'Kesh researched the genophage and applications for uplifting varren, vorcha, and yahg. After Maelon Heplorn's genophage-cure work, the STG moved the surviving krogan females there, including Eve, and Urdnot Wrex learned of it through STG sources and tasked Shepard with returning them to Tuchanka; Cerberus, fed information by STG agents opposed to a cure, attacked the base during Eve's transfer. After the Krogan Rebellions the STG had sabotaged the Shroud on Tuchanka to prevent dissemination of any cure, sabotage that Padok Wiks or Mordin Solus can repair, or leave unfixed. Jondum Bau is both an STG operative and a Spectre. Depending on Shepard's actions, STG elements can join the war against the Reapers.

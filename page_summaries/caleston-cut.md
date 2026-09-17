@@ -1,0 +1,13 @@
+---
+title: Caleston (Cut)
+url: https://masseffect.fandom.com/wiki/Caleston_(Cut)
+game: Mass Effect
+type: location
+characters: [Liara T'Soni, Commander Shepard, Tombiri]
+---
+
+Caleston (Cut) documented the original version of the Mass Effect planet that was ultimately released as Therum; the wiki flags the material as cut content and not canon in any way. Caleston was the planet's name before a large amount of planned content was cut. Like Therum, it was where Commander Shepard would find Liara T'Soni, but it also had a hub area with several missions, assignments and characters called Throw Down, beneath which lay an element zero refinery that was the focal point of an ongoing gang war between the Miners' Union and the Cartel. Some distance from Throw Down, a set of Prothean ruins called Knossos sat inside a supervolcano caldera nicknamed the "Ring of Fire," which is where the player lands on the final Therum; neither name is spoken in the shipped game, though the star system is called Knossos. Cut dialogue and development images consistently depicted Caleston with a clear yellow/green sky rather than Therum's dark, stormy one, and Throw Down's administrator Tombiri claimed there were "hundreds" of Prothean ruins on Caleston, though most were not as well preserved as Knossos. Caleston was described as a moon, not a planet, orbiting Cernunnos, and the "Caleston DLC" (a misnamed prototype demo for Bring Down the Sky) placed it in a new Ankyra System in the Hades Gamma cluster.
+
+Two surviving descriptions covered it. The Caleston DLC description read: "Geysers of molten suphur dot the rugged landscape of this volcanic moon, its atmosphere a toxic layer of sulphur dioxide," with Eldfell-Ashland Energy mining element zero left by an ancient meteor strike to make it "the largest source of starship drive core material in the Attican Traverse." The X06 trailer description called it "the hostile moon of Caleston," the largest satellite of Cernunnos, "wracked by constant volcanism, due to the tidal stresses from Cernunnos," with silicon-based native organic life whose populations "seem to be in decline."
+
+Planned content included the missions Caleston: Last Man Standing and Find Liara T'Soni and the assignments Caleston: Redemption, Caleston: Reactivate Production and Caleston: Free Prostitutes. Caleston recurred in Mass Effect trailers up to release, variously placed in the "Perseus Cluster," the "Hades G Cluster," and, in a 2007 television ad, chosen by Shepard over a distress call from Noveria. Much of Throw Down's architecture was later repurposed as the final fight location in Bring Down the Sky, and its background story served as a basis for the criminal haven on Omega.

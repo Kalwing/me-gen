@@ -1,0 +1,11 @@
+---
+title: 'Bonus Content Disc/Environments: Citadel'
+url: https://masseffect.fandom.com/wiki/Bonus_Content_Disc/Environments:_Citadel
+game: Mass Effect
+type: lore
+characters: [Derek Watts, Matt Rhodes]
+---
+
+This page transcribed art director Derek Watts's gallery commentary for "The Environments of Mass Effect: Citadel," from the 2007 Mass Effect bonus content disc. Watts described an early production painting of the Presidium as the game's main hub: a clean, utopian ring-world with arcs, panel lines, water and vegetation, influenced by Japanese gardens, Syd Mead artwork and old NASA photos. Interior concepts included an apartment with a large fish tank, part of a running joke about placing fish tanks throughout the Citadel that was never realized, and a scene whose caped background figure Matt Rhodes later painted over as the basis for one of the game's aliens.
+
+Watts explained the Wards were conceived as a city area out on the Citadel's folding arms, with a tiered layout, glass walls onto the city, floating cars for transport, and beams originally made of Prothean material, of which only a few structures used it before the team added Prothean material everywhere later. He walked through the design process: quick walkable-area maps marking doors in red and paths in orange, block levels built in 3ds Max, and small fully textured and lit test rooms used as concept references for the large Presidium and Council Chambers. The Council Chambers changed significantly, was loosely based on a building in Spain, and had its washed-out lighting darkened and tinted rose. Considerable effort went into the hangar where the Normandy docks, including disc-like arms that grip and suction onto the ship so it needs no landing gear, and a jet-bridge-style gangway added because the Normandy's texture would not hold up to close viewing beside other buildings. Watts also described the late-game sequence of walking on the outside of the Citadel tower with the city overhead, which he had hoped they would never have to build but which turned out well. Trivia noted the Marshal's training ground became the C-Sec Academy, and its combat-simulator idea was reused for the Pinnacle Station DLC and later the Armax Arsenal Arena in the Mass Effect 3: Citadel DLC.

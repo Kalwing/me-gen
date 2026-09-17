@@ -1,0 +1,15 @@
+---
+title: 'Ilos: Find the Conduit'
+url: https://masseffect.fandom.com/wiki/Ilos:_Find_the_Conduit
+game: Mass Effect
+type: mission
+characters: [Shepard, Saren Arterius, Joker, Pressly, Liara T'Soni, Kaidan Alenko, Ashley Williams, Vigil, Ksad Ishan, Sovereign]
+---
+
+Ilos: Find the Conduit was the penultimate mission of Mass Effect, acquired as part of Race Against Time after the objectives on Therum, Feros, Noveria, and Virmire were complete and Shepard broke the Normandy free of Citadel lockdown. From this point the game proceeded in locked progression with no access to the Galaxy Map, shops, assignments, or the Normandy, so players were advised to finish outstanding business first. The squad chosen here was fixed for the rest of the game.
+
+Saren Arterius and his geth had landed on Ilos and disappeared into a sealed bunker. Because the nearest landing zone was two kilometers from Saren and the Mako needed 100 meters to drop where only 20 were available, Joker performed a daring dive, pulling the Normandy out at the last second so the Mako roared from the cargo bay and rolled to a stop just as Saren sealed the doors. Unable to breach the doors, Shepard's team explored the surrounding Prothean ruins to find Saren's route, fighting through geth including Troopers, Armatures, Shock Troopers, Rocket Troopers, Destroyers, Sappers, Stalkers, and a Geth Prime, with optional Armature Control consoles to turn Armatures against their allies. A security console disabled the archive door lock and played a distorted Prothean warning about the Reapers that Shepard could partly understand thanks to the Cipher.
+
+Driving the Mako through the long underground Archives, lined with what the squad guessed were Prothean stasis pods, the team was trapped between two forcefields and directed to an elevator. Below, they met Vigil, a badly damaged Prothean VI created with input from Ksad Ishan, chief researcher at the Ilos facility. Vigil explained that the Citadel was an enormous mass relay and a trap: when activated it let the Reapers pour in from Dark Space to exterminate all organic civilization each cycle, then vanish. The Reapers had used the Protheans' own census and map data to hunt them systematically, and indoctrinated "refugees" betrayed their own people. Ilos survived only because all records of its project were destroyed in the initial attack. The facility's scientists went into cryostasis; as power failed Vigil deactivated most pods, leaving only twelve top researchers alive, who spent years devising a way to alter the Citadel's signal to the keepers so the relay could not be activated remotely. They used the Conduit, a prototype mass relay linked directly to the Citadel, to travel there and stop Sovereign from signaling the keepers, dying trapped on the station afterward.
+
+Vigil gave Shepard a data file granting temporary full access to the Citadel's systems, usable only from the Master Control Terminal, and told Shepard to follow Saren, who had not yet reached the Conduit. Liara could ask to remain with Vigil. Completing the mission updated Race Against Time: Sovereign to Race Against Time: Conduit.

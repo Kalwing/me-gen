@@ -1,0 +1,9 @@
+---
+title: Chakram Launcher
+url: https://masseffect.fandom.com/wiki/Chakram_Launcher
+game: Mass Effect 3
+type: tech
+characters: [Liara T'Soni, Shepard, Todd McFarlane]
+---
+
+The Chakram Launcher was an assault rifle in Mass Effect 3, manufactured by Ama-Lur Equipment. An internal fabricator produced lightweight ammunition discs wrapped in holographic tracers that exploded on impact and sent shrapnel through the target; because the fabrication process generated intense heat, the weapon required thermal clips to prevent a lethal circuitry meltdown. In single-player it was a bonus item for playing the Kingdoms of Amalur: Reckoning demo on an EA/BioWare account linked to Mass Effect 3, which also delivered an e-mail from Liara T'Soni saying an agent had smuggled a crate of experimental weapons out of Ama-Lur's research complex and delivered prototypes to the Normandy. It was later also available in the Mass Effect 3: Omega DLC, found during "The Mines" segment, or purchased as a single upgrade level from the Spectre Requisitions terminal for 7,000 credits. In multiplayer it was a rare weapon for players who completed the Amalur demo in 2012. Its discs dealt damage on impact and again on detonation, could be charged for up to triple damage, stunned light targets, suffered no damage penalty against armor, and punched through the handheld shields of Guardians and CAT6 Heavies, but could not penetrate solid objects or score headshot bonuses. It was frequently compared to the Scorpion heavy pistol. The weapon was designed by Todd McFarlane, creator of Spawn, and its black, red and white color scheme references that character; the manufacturer name "Ama-Lur" puns on Kingdoms of Amalur: Reckoning, the game the crossover promotion referenced, and a chakram is a circular metal-ring throwing weapon.

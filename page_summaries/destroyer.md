@@ -1,0 +1,13 @@
+---
+title: Destroyer
+url: https://masseffect.fandom.com/wiki/Destroyer
+game: Mass Effect 3
+type: tech
+characters: [Shepard, EDI, Kalros]
+---
+
+Destroyers were a type of Reaper that appeared during the galaxy-wide Reaper invasion of 2186. Standing roughly 160 meters tall, they were far smaller than Sovereign-class capital ships, which exceeded two kilometers, but they made up the majority of the Reaper fleet. They were believed to be constructed from harvested species not used to build capital ships. Despite their size, Destroyers were formidable: their main gun could destroy a cruiser in seconds, though a cruiser could also bring one down fairly quickly. Their design featured four main legs and five jointed appendages around the "head," with frontal plates that folded aside to expose a powerful beam weapon. They escorted capital ships and destroyed smaller targets such as frigates. On the ground, they unfolded their legs to walk as heavy walkers supporting husks, nearly immune to ground vehicle fire. Being smaller, they were more agile than capital ships and could land directly on larger spacecraft to attack at point-blank range.
+
+Commander Shepard encountered five Destroyers during the Reaper War, four of which were seen destroyed. While escaping Earth aboard the Normandy SR-2 during the initial attack, Shepard witnessed a Destroyer shoot down a shuttle carrying a boy the Commander had met earlier. On Tuchanka, during the mission to disseminate the genophage cure, Shepard summoned the thresher maw Kalros to attack a Destroyer guarding the Shroud; the Reaper was crushed and dragged underground. On Rannoch, while freeing the geth from Reaper control, Shepard discovered that a Destroyer's main weapon firing chamber in its "eye" was vulnerable while charging, and destroyed the Reaper by directing quarian fleet orbital strikes with a handheld laser designator and the Normandy's weapon guidance systems. Before dying, that Destroyer told Shepard the Reapers' cycle must continue or all organic life was doomed, and that the explanation was beyond Shepard's comprehension.
+
+During the battle for Earth, Shepard helped destroy two more Destroyers: one mounting a Hades Cannon was killed with an M-920 Cain to let Hammer forces land in London, and a second guarding the Citadel beam was destroyed when EDI programmed multiple Thanix missile batteries to strike its main weapon, which Shepard activated manually, succeeding on the second attempt. According to BioWare, the Destroyer design was based on a leaf insect nymph, which had also been an early basis for Sovereign's design.

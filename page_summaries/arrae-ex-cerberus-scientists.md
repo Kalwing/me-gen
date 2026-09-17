@@ -1,0 +1,13 @@
+---
+title: 'Arrae: Ex-Cerberus Scientists'
+url: https://masseffect.fandom.com/wiki/Arrae:_Ex-Cerberus_Scientists
+game: Mass Effect 3
+type: mission
+characters: [Shepard, Jacob Taylor, Brynn Cole, Gavin Archer, David Archer, Webber, Traynor, Garrus, Tali, Kaidan, Ashley, James, the Illusive Man, Horace Armstrong, Damini Sengupta]
+---
+
+Arrae: Ex-Cerberus Scientists was a Mass Effect 3 mission in which a group of top-level scientists cut ties with Cerberus and fled their former employer, forcing Commander Shepard to rescue them before Cerberus could find them. It was acquired from Specialist Traynor after the Cerberus assault on the Citadel (Priority: The Citadel II), and took place on the planet Gellix in the Arrae system, reached via the Minos Wasteland cluster.
+
+The mission began with a landing at a facility already under Cerberus assault. If Jacob Taylor survived Mass Effect 2, he was present and wounded in the firefight; otherwise a stand-in named Dr. Webber was hit. The refugee leader, Dr. Brynn Cole, initially distrusted Shepard because of past Cerberus ties, requiring Shepard to fight more Assault Troopers before entering. Inside, Shepard learned that some scientists had brought their families, and that the installation's roof-mounted anti-aircraft guns were offline. Dr. Gavin Archer could be found at the top of the first stairs; if the Overlord DLC had been completed in Mass Effect 2, speaking with him under specific conditions regarding his brother David Archer and the fate of the geth could yield him as a War Asset. Datapads revealed the scientists' research into an implant-based neurological delivery system for the Illusive Man, that Dr. Horace Armstrong had been sabotaging his own work and was later lost, that Dr. Damini Sengupta could not determine the research's purpose, and that Cerberus had murdered numerous departing colleagues under the euphemism "contracts terminated."
+
+Shepard restored satellite telemetry and reactivated the AA emplacements across the satellite control area and two AA towers, fighting Cerberus infantry, Combat Engineers, Phantoms, and an Atlas Mech, alongside pre-planted Shield Generators and Pylons. During the evacuation a Cerberus fighter suicided into an AA gun, breaching the defenses, and troops crashed through the skylights. Jacob or Brynn piloted the extraction shuttle. Jacob survived the mission and the rest of Mass Effect 3 regardless of prior loyalty. Completing the mission added Ex-Cerberus Scientists and Dr. Brynn Cole as War Assets, plus Jacob and, conditionally, Dr. Gavin Archer. Afterward Garrus and James held a war-stories contest in the Normandy kitchen, and Kaidan or Ashley, if aboard, offered thoughts on the scientists.

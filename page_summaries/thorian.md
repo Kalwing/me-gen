@@ -1,0 +1,15 @@
+---
+title: Thorian
+url: https://masseffect.fandom.com/wiki/Thorian
+game: Mass Effect 3
+type: character
+characters: [Shepard, Shiala, Saren Arterius, Lizbeth Baynham, Ian Newstead, Fai Dan, Ledra, Garret Bryson]
+---
+
+The Thorian, also called Species 37, was an ancient sentient plant at least fifty thousand years old, its true age unknowable because it could hibernate for millennia. It was a unique creature with telepathic and mind-controlling abilities and a massive sensory network, releasing airborne spores that let it control anyone who inhaled them, using pain to enforce obedience. These "thralls" tended the Thorian and obeyed its will. According to the ExoGeni Corporation VI, it was essentially "a weave of tendrils" covering much of the surface of Feros, with some sensory tendrils kilometres long, gathered in places into neural nodes. It regarded other sentients only as potential thralls and called itself "The Old Growth."
+
+The Thorian existed on Feros before the Protheans arrived. It studied the Protheans as they built their metropolis, made some into thralls and absorbed them after death, and its mind gradually acquired the knowledge that formed the Cipher. It survived the cataclysm that destroyed the Protheans and kept growing for fifty thousand years. In the late 2170s ExoGeni settled a colony, Zhu's Hope, in a ruined skyscraper above its lair. In 2183 a survey team stumbled into the lair and was infected; ExoGeni isolated the colony to study the Thorian instead of protecting the colonists, and within a month 85% of Zhu's Hope was enthralled. Some, like Ian Newstead, resisted for a time.
+
+Saren Arterius learned of the Thorian's link to the Protheans and traded the asari commando Shiala to it as a sacrifice; Shiala melded with it, gained the Cipher, and transferred it to Saren, who then ordered his geth to destroy the Thorian and all evidence of it. The enthralled colonists blocked the lair with the wrecked freighter Borealis and fought to the death. Commander Shepard arrived to investigate; the Thorian initially had the colonists and the merchant Ledra help Shepard fight the geth, then turned them hostile once Shepard learned the truth at the ExoGeni building. Fai Dan broke the Thorian's control and shot himself rather than attack Shepard. In the lair the Thorian produced a clone of Shiala to speak for it, dismissed humans as "meat, good only to dig or decompose," and sent clones and Thorian Creepers at the squad. Shepard destroyed the neural nodes, dislodging the Thorian and sending it plunging to its death. Shiala, if spared, mourned it as a unique life form.
+
+Afterward ExoGeni removed the remains, but lingering spore effects gave former victims headaches and shared pain sensations; Shiala's skin turned green and her biotics became unstable. In 2186 the residual hive-mind effects helped the colonists coordinate against the Reapers long enough to evacuate. In the Leviathan investigation, Dr. Garret Bryson cited the Thorian as a species that developed using only organic tools, without mass relays or Reaper technology, and compared Leviathan's long survival to it.

@@ -1,0 +1,1315 @@
+{
+  "section": {
+    "id": "nar-normandy",
+    "title": "Nar Normandy",
+    "target_words": 880,
+    "form": "bedtalk",
+    "narrator": "tali"
+  },
+  "promises": [
+    "Shepard was born in Normandie, in France, with no parents, and the ship he commands carries that place's name. To a quarian that makes him 'nar Normandy' twice over, and she means it as more than a joke",
+    "Her own name's journey: nar Rayya, vas Neema, vas Normandy, and what each change cost and meant",
+    "What a Pilgrimage gift is for (you prove you won't be a burden), and her own gift, the geth data that brought her to him"
+  ],
+  "required_facts": [
+    {
+      "event_id": "tali-pilgrimage-geth-evidence-jacobus",
+      "fact": "As told in Mass Effect: Homeworlds, the young quarian Tali'Zorah nar Rayya set out on her Pilgrimage in 2183 aboard the vessel Honorata, crewed by her friend Keenah'Breizh. Investigating the growing geth presence, the pair landed on an ice planet in the Crescent Nebula where geth were excavating Prothean artifacts on behalf of Saren Arterius. There Tali recovered a data core containing a recording of a geth transmitting to Saren - proof that the rogue Spectre was commanding the geth - along with references to Sovereign and the Conduit. Commander Jacobus, a turian mercenary in Saren's service, had been tasked with securing the site. Knowing Saren would kill him and his team for failure, Jacobus pursued the quarians relentlessly. He tracked them to Illium, where his men ambushed and killed the crew of the Honorata, then chased Tali and Keenah to the Citadel, wounding both. He cornered them in a maintenance incinerator where Keenah had already died of his wounds. Tali sprang a trap, sealed Jacobus inside the incinerator and activated it, killing him. Injured and alone, Tali limped into a clinic on the Citadel calling for help, carrying the evidence against Saren. She subsequently sought a buyer for the data through the underworld fixer Fist, which drew the attention of both Saren's agents and the Shadow Broker and set up her rescue by Commander Shepard during the hunt to expose Saren.",
+      "actor": "Tali'Zorah nar Rayya"
+    },
+    {
+      "event_id": "tali-pilgrimage-geth-evidence-jacobus",
+      "fact": "Tali obtains a recording proving Saren commands the geth, plus mentions of Sovereign and the Conduit",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-pilgrimage-geth-evidence-jacobus",
+      "fact": "The crew of the Honorata is killed by Jacobus's mercenaries on Illium",
+      "actor": "Jacobus"
+    },
+    {
+      "event_id": "tali-pilgrimage-geth-evidence-jacobus",
+      "fact": "Keenah'Breizh dies of his wounds on the Citadel",
+      "actor": "Keenah'Breizh"
+    },
+    {
+      "event_id": "tali-pilgrimage-geth-evidence-jacobus",
+      "fact": "Tali kills Jacobus by trapping him in an incinerator",
+      "actor": "Jacobus"
+    },
+    {
+      "event_id": "tali-pilgrimage-geth-evidence-jacobus",
+      "fact": "Tali reaches the Citadel wounded and seeks a buyer for the data through Fist",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-pilgrimage-geth-evidence-jacobus",
+      "fact": "The evidence enables Shepard to expose Saren before the Citadel Council",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "normandy-engineering-tali-geth-data-pilgrimage",
+      "title": "Tali Asks for the Geth Data as Her Pilgrimage Gift",
+      "kind": "downtime",
+      "game": "Mass Effect",
+      "when": "2183, after the Alliance campaign against geth incursions clears the geth base on Solcrum",
+      "where": "the engineering bay of the Normandy SR-1",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah nar Rayya"
+      ],
+      "private_to": [
+        "Shepard",
+        "Tali'Zorah nar Rayya"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "Purging the last geth stronghold on Solcrum, Shepard hacks a data terminal in a back room and pulls a cache of geth files tracing how the geth evolved since their split from the quarians. Tali says nothing about it on the ground; Shepard has to raise it with her back aboard the Normandy.\n",
+          "source_chunks": [
+            "tali-and-the-geth_001",
+            "unc-geth-incursions_012"
+          ]
+        },
+        {
+          "text": "In the engineering bay Tali asks for a copy. The cache is heavily encrypted and might take years to decipher, but it would be a perfect gift for her Pilgrimage — something of value the Migrant Fleet could not produce for itself.\n",
+          "source_chunks": [
+            "tali-and-the-geth_003",
+            "tali-zorah-nar-rayya_004"
+          ]
+        },
+        {
+          "text": "Shepard gives her a copy. She is very grateful — it means she can return to her people once the hunt for Saren is done — and renews her pledge to see that hunt through. The assignment closes in the journal as \"Tali's Pilgrimage\".\n",
+          "source_chunks": [
+            "tali-and-the-geth_003",
+            "tali-zorah-nar-rayya_004"
+          ],
+          "conditional": {
+            "tali_geth_data": "given"
+          },
+          "choice": "gave Tali the geth data"
+        },
+        {
+          "text": "Shepard refuses, ruling it classified Alliance data that cannot be handed out. Tali tries to reason through it, but once Shepard is firm the decision is final. She is not hopeful the Alliance will ever release the files to the Fleet, pouts that Shepard put humanity's interests ahead of the quarians', and resolves to leave the crew once the mission is over to find something of equal worth on her own.\n",
+          "source_chunks": [
+            "tali-and-the-geth_003",
+            "tali-zorah-nar-rayya_004"
+          ],
+          "conditional": {
+            "tali_geth_data": "withheld"
+          },
+          "choice": "withheld the geth data"
+        },
+        {
+          "text": "Two years later on Freedom's Progress, a wary Tali who thinks Shepard died with the first Normandy can be steadied by mention of this data: if it was given, she confirms it completed her Pilgrimage and decides this is still the same Shepard; if it was withheld, Shepard cannot reassure her that way, though she stays only mildly suspicious and completes her Pilgrimage with some other gift.\n",
+          "source_chunks": [
+            "tali-and-the-geth_004"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "freedom-s-progress-veetor-and-tali"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "tali-and-the-geth_001",
+        "tali-and-the-geth_003",
+        "tali-and-the-geth_004",
+        "tali-zorah-nar-rayya_004",
+        "unc-geth-incursions_012"
+      ],
+      "requires": [],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "normandy-engineering-tali-geth-data-pilgrimage": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "quarian_009",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Language",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Now that the quarians are reduced to a small, insular population, they have one common language known as Khelish. Words from the language listed below are taken from intra\\-quarian conversation. - *bosh'tet* — curse/insult, likely being relative to \"son\\-of\\-a\\-bitch\" or \"bastard\". - *esu se'lai* — likely a form of \"goodbye\" - *geth* — \"Servant of the People\" - *Mered'vai Rannoch* — \"Forget Rannoch\" - *nar* \\[ship\\-name] — child of - *nedas* — nowhere - *keelah* — \"By the homeworld\" - *keelah se'lai* — \"By the homeworld I hope to see one day.\" - *keelah si'yah* — \"By the homeworld I hope to find one day.\" - *ke'sed* (or *kes'ed*) — offspring of the qorach animal, figuratively means \"naive\" when used on people - *Pallu'Kaziel* — \"Nevertheless, Justice Comes\" - *Rannoch* — \"walled garden\" - *tasi* — no\\-one - *tiral azhana* — \"handful of water\" - *vas* \\[ship\\-name] — crew of - *von* — \"one who has a weak bladder\" Quarian names are composed of four parts—the quarian's given name and clan name separated by an apostrophe, the title (\"nar\" means \"child of\", referring to their birth ship, while \"vas\", adopted after the quarian has completed their Pilgrimage and joined a ship, means \"crew of\") and the name of their vessel. When Tali first met Shepard, for instance, she was going by the name of her birth ship (the Rayya) because at that point she had not yet completed her Pilgrimage and was thus not yet able to join a quarian crew. Later, though, she became known as \"Tali'Zorah vas Neema\", indicating that she had completed her Pilgrimage and was welcome to join the Neema. On occasion quarians may impose their naming conventions on other races. Commander Shepard, for example, may be referred to as \"Shepard vas Normandy\" if the Commander chooses to interact with the quarians on their home territory. In certain formal situations, quarians appear to use both their adult ship and childhood ship. Tali'Zorah identifies herself as \"Tali'Zorah vas Neema nar Rayya\" during docking procedures following summons to the Migrant Fleet regarding accusations of treason.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "migrant-fleet_015",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Notable Vessels",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- **Alarei**: The lab ship where Tali's father was experimenting with geth hardware and subsequently killed. - **Chayym**: One of the Migrant Fleet's three Liveships. Birth vessel of Keelah Si'yah's Captain Qetsi'Olam vas Keelah Si'yah. - **Idenna** and her scout vessels, **Cyniad** and **Bavea**: The Idenna is a decommissioned Hensa\\-class batarian cruiser. It was attacked by Cerberus. - **Honorata**: A small vessel crewed by Keenah'Breizh that Tali'Zorah traveled on at the start of her Pilgrimage. It was abandoned on Illium after Tali and the crew were ambushed by Jacobus. - **Lestiak**: Kahlee presented herself before the Admiralty and Conclave on this ship. - **Moreh**: The home vessel of Admiral Daro'Xen vas Moreh. - **Neema**: The vessel Tali'Zorah joined after completing her Pilgrimage, taking the name Tali'Zorah vas Neema. The Neema is also the home vessel of Admiral Han'Gerrel vas Neema. - **Qwib\\-Qwib**: The home vessel of Admiral Zaal'Koris vas Qwib\\-Qwib. The crew of the Qwib\\-Qwib has had difficulty getting the registry changed and renaming it. Admiral Zaal'Koris is proud of his home ship and its name, and will defend it harshly if questioned. Based on a conversation with Tali, this apparently happens quite frequently. The admiral notes that he sometimes considers transferring to another vessel to avoid the stigma of an alien surname. He wistfully considers traditional names such as \"vas Defrahnz\" or \"vas Iktomi\". - **Rayya**: One of the Migrant Fleet's three Liveships. Notable for being Tali'Zorah nar Rayya's birth ship. Seeto'Hodda nar Idenna's sister also joined the Rayya after completing her Pilgrimage. - **Shellen**: One of the Migrant Fleet's three Liveships. If Admiral Zaal'Koris wasn't rescued, the loss of his leadership leaves the liveship vulnerable to the geth and it indeed suffers enough damage for its crew to initiate evac procedures via escape pods. - **Tonbay**: A vessel which Admiral Shala'Raan vas Tonbay joined after going on Pilgrimage. - **Usela**: The quarian traitor Golo, as 'Golo'Mekk vas Usela', was accepted into the Usela's crew after his Pilgrimage. He was exiled after trying to sell his fellow quarians to the Collectors. - **Yaska**: A gunship that Admiral Han'Gerrel vas Neema and Admiral Rael'Zorah served on when they were younger. It had or has a crew of ten.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "scene:idenna-seeto-tour-quarian-culture#01",
+      "kind": "scene",
+      "page": "Seeto Tours the Idenna, Sharing Quarian Life",
+      "section": "hangout",
+      "game": "Mass Effect",
+      "scene_id": "idenna-seeto-tour-quarian-culture",
+      "text": "Seeto Tours the Idenna, Sharing Quarian Life. 2183, during Mass Effect: Ascension, when Kahlee Sanders is released from quarantine aboard the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — Seeto's quarters and the trading deck During Kahlee Sanders' quarantine aboard the Migrant Fleet, Seeto'Hodda nar Idenna befriended her. The young quarian security officer was exuberant and curious, and Kahlee appreciated his enthusiasm. Seeto greatly admired his captain, Ysin'Mal vas Idenna, and shared the captain's belief that the Fleet needed to change its policies to survive.",
+      "url": "",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "idenna_005",
+      "kind": "page",
+      "page": "Idenna",
+      "section": "Notable Crewmembers",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- Captain Ysin'Mal vas Idenna - Lieutenant Commander Gorlat vas Idenna - Lieutenant Forzan vas Idenna - Seeto'Hodda nar Idenna - Feda'Gazu vas Idenna - Hilo'Jaa vas Idenna - Lita'Orn nar Idenna - Lemm'Shal nar Tesleya - Gillian Grayson - Hendel Mitra",
+      "url": "https://masseffect.fandom.com/wiki/Idenna",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "quarian_015",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Notable Quarians",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| - Keenah'Breizh - Captain Kar'Danna vas Rayya - Feda'Gazu vas Idenna - Admiral Han'Gerrel vas Neema - Golo - Seeto'Hodda nar Idenna - Hilo'Jaa vas Idenna - Kenn - Admiral Zaal'Koris vas Qwib Qwib - Captain Ysin'Mal vas Idenna | - Veetor'Nara - Prazza - Captain Qetsi'Olam vas Keelah Si'yah - Admiral Shala'Raan vas Tonbay - Kal'Reegar - Lemm'Shal nar Tesleya - Lia'Vael nar Ulnay - Admiral Daro'Xen vas Moreh - Admiral Rael'Zorah - Shio'Leth vas Novarra - Tali'Zorah | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "summary:idenna",
+      "kind": "summary",
+      "page": "Idenna",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Idenna was a starship of the quarian Migrant Fleet, a thirty-year-old decommissioned batarian Hensa-class cruiser with a crew of 693 (compared to about 80 on Alliance cruisers of similar size). She commanded several scout vessels, including the Bavea and the Cyniad.\n\nIn Mass Effect: Ascension, the Idenna served as a refuge for Kahlee Sanders, Gillian Grayson, and Hendel Mitra after they came aboard the Fleet. Her captain was regarded as a maverick and visionary who wanted to use Fleet vessels to search for new homeworlds. After Cerberus attacked the Idenna, the Admiralty Board finally accepted this policy and chose the Idenna as one of the first ships to leave the Flotilla. Her crew was cut from 694 (including newest member Lemm'Shal nar Tesleya) to around 50, and she was extensively refitted with new technology to survive five years without outside contact, a mission likened to Star Trek's Enterprise.\n\nIn Mass Effect 2, the scout Cyniad crashed on Gei Hinnom in the Sheol System, Hades Nexus, killing commanding officer Lieutenant Commander Gorlat vas Idenna; varren then killed the rest of the crew except Lieutenant Forzan vas Idenna, who was rescued by Commander Shepard and the Normandy SR-2. Captain Ysin'Mal vas Idenna sent Shepard a message of thanks for aiding the search for a new quarian homeworld.\n\nIn the first edition of Mass Effect: Deception (acknowledged by BioWare as containing lore discrepancies), the Idenna was attacked by the batarian slave ship Glory of Khar'shan, which used \"drive killers\" to halt her and board. The Idenna's security force, including Gillian Grayson and Hendel Mitra, repelled the boarders and captured the batarian ship. Notable crew also included Seeto'Hodda nar Idenna, Feda'Gazu vas Idenna, Hilo'Jaa vas Idenna, and Lita'Orn nar Idenna.",
+      "url": "https://masseffect.fandom.com/wiki/Idenna",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "scene:idenna-cerberus-assault-grayson-kills-golo#03",
+      "kind": "scene",
+      "page": "The Cerberus Assault on the Idenna",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "idenna-cerberus-assault-grayson-kills-golo",
+      "text": "The Cerberus Assault on the Idenna. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — the isolation shuttle, Seeto'Hodda nar Idenna's quarters, and a corridor Captain Ysin'Mal vas Idenna rallied his people and fought on the front lines himself, but the defenders were being overwhelmed. They were saved only by Gillian Grayson intervening and by Paul Grayson switching sides — warning them he had planted explosives to cripple the ship. Mal and Hendel Mitra worked together to disable the charges and save the Idenna.",
+      "url": "",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_002",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "Appearance and name",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "In ME1 Tali's suit is squared-away black and deep purple; in ME2 she has a gold neck piece and a looser hood — \"letting her hair down,\" older and more confident after two years, and quietly showing individuality (she is one of the few quarians who personalizes her suit). Her name has changed from Tali'Zorah nar Rayya (the \"nar\" marks a quarian who has not completed the Pilgrimage) to Tali'Zorah vas Neema, reflecting completion of her Pilgrimage. She has moved up in quarian society and, at 25, commands her own squad of quarian marines — showing the leadership maturity she gained serving with Shepard.",
+      "url": "",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "characters-books_003",
+      "kind": "page",
+      "page": "Characters/Books",
+      "section": "Mass Effect: Ascension",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "| Protagonists- Kahlee Sanders - Paul Grayson - Hendel Mitra - Lemm'Shal nar Tesleya | Adversaries- Golo - Illusive Man - Pel - Jiro Toshiwa | Other Characters- Nick Donahue - Gillian Grayson - Feda'Gazu vas Idenna - Hilo'Jaa vas Idenna - Seeto'Hodda nar Idenna - Ysin'Mal vas Idenna - Keo | | --- | --- | --- | |  | ***“Your understanding is limited...”*** — Spoilers for **Mass Effect: Retribution** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Characters/Books",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "scene:shelba-golo-ambush-cyniad-scout-team#04",
+      "kind": "scene",
+      "page": "The Ambush on Shelba",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "shelba-golo-ambush-cyniad-scout-team",
+      "text": "The Ambush on Shelba. 2183, during the events of Mass Effect: Ascension the planet Shelba, at Golo's meeting site Golo and Pel's team took the Cyniad's pilot, Hilo'Jaa vas Idenna, the only quarian captured alive. When Hilo cursed Golo by his discarded names, Golo smashed the faceplate of Hilo's environment suit.",
+      "url": "",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "zaal-koris-vas-qwib-qwib_004",
+      "kind": "page",
+      "page": "Zaal'Koris vas Qwib-Qwib",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The name Qwib\\-Qwib may be a reference to Fred Saberhagen's *Berserker* series. They are autonomous self\\-replicating spaceships (as are the Berserkers themselves) designed to fight the Berserkers. At the time of the novels, only a single damaged Qwib\\-Qwib has survived. - Martin Jarvis provides the voice for Avernus in the Warden's Keep DLC of Dragon Age: Origins, another BioWare game. Also, he is involved with voicing other characters in Star Wars: The Old Republic. - In Mass Effect 2, Zaal'Koris says that he often muses about transferring to a ship with a more respectable name, such as the Defrahnz or the Iktomi. However, according to quarian naming conventions, these ship names would be even more embarrassing to an English speaker, as his name would either be Zaal'Koris vas Defrahnz or Zaal'Koris vas Iktomi. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Zaal'Koris_vas_Qwib-Qwib",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_001",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Summary:** Part 2 of a character analysis of Tali'Zorah. Covers Mass Effect 2: her older, more confident look and the name change from \"nar Rayya\" to \"vas Neema,\" her command of a squad of quarian marines, Haestrom and Kal'Reegar, the Normandy crew's regard for her, and her two parental figures — Auntie Shala'Raan (family) and her father Rael'Zorah (duty) — plus quarian immunodeficiency and suit-linking as the culture's deepest gesture of trust. Part 3 covers the treason trial and her fatal flaw.",
+      "url": "",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "summary:quarian",
+      "kind": "summary",
+      "page": "Quarian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarians were a nomadic humanoid species renowned for skill with technology and synthetic intelligence. After their homeworld Rannoch was conquered, they lived aboard the Migrant Fleet, a vast collection of salvaged and secondhand ships traveling as one. Roughly three hundred years before 2183 (around the late 1850s CE) the quarians created the geth as VI-grade labor, but as they modified the geth toward more complex tasks the machines became sentient. When a geth unit asked its overseer whether it had a soul, the panicked quarian government ordered all geth terminated. The geth defended themselves; billions of quarians died and the survivors were driven into exile. The Citadel Council refused aid and stripped the quarians of their embassy, while a treaty forbade attacking the geth.\n\nQuarians are shorter and slighter than humans, with three-fingered hands, backward-bowed lower legs, UV-capable vision, and red blood. Their defining trait is a weak immune system, worsened by generations in sterile environments, forcing them to live permanently in sealed enviro-suits with extensive cybernetic augmentation. Removing a suit requires antibiotics and immuno-boosters and still carries risk; the most intimate act between quarians is linking suit environments, which reliably causes illness. Like turians they are a dextro-protein species, and their diet is largely vegan.\n\nQuarian culture centered on the survival of the Migrant Fleet, home to roughly 17 million. Couples were limited to one child to hold zero population growth. Young quarians undertook a Pilgrimage to bring something of value back to the Fleet before joining a new ship (never their birth ship) as adults. Names carried four parts: given name, clan name, \"nar\" (child of, birth ship) or \"vas\" (crew of, adult ship), and vessel name; Tali'Zorah went from nar Rayya to vas Neema to vas Normandy. The common language was Khelish, source of terms like bosh'tet and the benediction \"Keelah se'lai\" (\"By the homeworld I hope to see someday\"). Quarians once practiced ancestor worship using personality-imprint VIs until the geth destroyed the ancestor databanks. Their economy used no currency; unneeded items were left in communal areas, while food and medicine were centrally rationed. The Fleet was governed under nominal martial law by the Admiralty Board and elected Conclave. The clandestine Nedas Movement (\"Mered'vai Rannoch,\" forget Rannoch) rejected reclaiming the homeworld and later signed on with the Andromeda Initiative.\n\nBefore the Reaper invasion the Admiralty Board voted to retake Rannoch, arming the Civilian Fleet and striking geth systems, destroying a geth Dyson sphere. The geth accepted Reaper upgrades, turning the war against the quarians until, with Shepard's help on Rannoch, a Reaper Destroyer was killed and the upgrade signal cut. Depending on Shepard's choices the geth were destroyed and Rannoch reclaimed, the quarians were wiped out, or the two races made peace and coexisted. A separate quarian effort sent the ark Keelah Si'yah, carrying about 4,000 quarians and other races, toward Andromeda, where the Fortinbras Plague broke out in transit.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "scene:idenna-cerberus-assault-grayson-kills-golo#01",
+      "kind": "scene",
+      "page": "The Cerberus Assault on the Idenna",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "idenna-cerberus-assault-grayson-kills-golo",
+      "text": "The Cerberus Assault on the Idenna. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Migrant Fleet the quarian ship Idenna in the Migrant Fleet — the isolation shuttle, Seeto'Hodda nar Idenna's quarters, and a corridor Lemm'Shal nar Tesleya had brought Kahlee Sanders, Hendel Mitra and Gillian Grayson aboard the Idenna after rescuing them from Pel's warehouse on Omega. The three were kept isolated on a shuttle while the quarians debated what to do with them. Gillian, autistic and averse to being touched, took to the confinement and to the quarian environment suit she was asked to wear; Hendel used the time to drill her biotics one-on-one, sharpening her control.",
+      "url": "",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "summary:seeto-hodda-nar-idenna",
+      "kind": "summary",
+      "page": "Seeto'Hodda nar Idenna",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Seeto'Hodda nar Idenna was a young quarian aboard the liveship Idenna, serving mostly on security detail, as recounted in the novel Mass Effect: Ascension. During Kahlee Sanders' quarantine aboard the Migrant Fleet, Seeto befriended her; Kahlee liked his exuberance and curiosity. He greatly admired his captain, Ysin'Mal vas Idenna, and shared the captain's belief that the Fleet needed to change its policies to survive. When Kahlee was released, Seeto gave her, Hendel Mitra, and Gillian Grayson a brief tour of the Idenna, including his own sleeping quarters and the ship's trading deck, offering them insight into quarian culture.\n\nSeeto's father was a navigator and his mother sat on the Idenna's civilian Council. Unusually for a quarian, he also had an older sister who joined the Rayya's crew after her Pilgrimage, suggesting Seeto may have been born during a period when the prohibition against single births in quarian families had been lifted.\n\nSeeto never got the chance to go on his own Pilgrimage. He was part of the security detail sent to meet the Cyniad when it returned to the Idenna, not realizing it was carrying a Cerberus strike team. Seeto was killed along with his comrades when Golo and the other Cerberus operatives stormed the ship.",
+      "url": "https://masseffect.fandom.com/wiki/Seeto'Hodda_nar_Idenna",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "summary:golo",
+      "kind": "summary",
+      "page": "Golo",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Golo, once Golo'Mekk vas Usela, was a quarian living on Omega in the Terminus Systems, an exile from the Migrant Fleet who became a contact for Cerberus. Around 2173 CE he was a member of the Usela's crew until he made a deal with the Collectors, who wanted two dozen \"pure\" quarians who had not yet gone on their Pilgrimage. Golo agreed to sell his own people in exchange for new technology, was discovered, and was punished with exile. He established himself on Omega, surviving its harsh conditions through a long-term deal with an elcor shopkeeper in the Carrd district for purified turian cuisine, and eventually became a useful Cerberus contact.\n\nIn Mass Effect: Ascension, with the Illusive Man in 2183 seeking the Migrant Fleet's codes to monitor its movements and communications, Golo promised Pel he would help obtain them. He lured the Idenna scout ship Cyniad by claiming to have vital technology to sell; Feda'Gazu vas Idenna agreed to meet him on the planet Shelba, but the quarians were ambushed by Cerberus forces. Golo helped capture the Cyniad's pilot Hilo'Jaa vas Idenna, and when Hilo raged at Golo for using his old name and calling him \"Golo vas Nedas\" and \"Golo nar Tasi,\" Golo spitefully smashed Hilo's faceplate. Hilo then contracted a virulent disease, hampering Pel's interrogation, so Golo offered to make amends by relaying a Collector offer to buy healthy human biotics such as Gillian Grayson.\n\nGolo then encountered Lemm'Shal nar Tesleya, who suspected his role in the Cyniad ambush. Under interrogation at gunpoint Golo claimed to be only a middleman and sent Lemm to find Hilo in Pel's warehouse, tipping Pel off beforehand in hopes Pel would kill the young quarian; instead Lemm attacked first and escaped to the Migrant Fleet with Kahlee Sanders, Hendel Mitra, and Gillian Grayson. Eager to recover Gillian, the Illusive Man hired Golo to get his people aboard the Flotilla using his knowledge of Fleet protocol. Golo, motivated by credits and revenge on those who exiled him, traveled to the Fleet with Paul Grayson aboard the stolen Cyniad, boarded the Idenna using Hilo's code phrases, and launched a surprise assault, killing many of the crew with Cerberus weapons. He caught Kahlee Sanders trying to rescue Gillian and beat her while Paul watched. Grayson, who had turned against Cerberus for his daughter's sake and had always despised Golo, warned him to stop; as Golo turned to leave, Paul shot him in the head.",
+      "url": "https://masseffect.fandom.com/wiki/Golo",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "chunk_id": "thresher-maw-enemy_007",
+      "kind": "page",
+      "page": "Thresher Maw (enemy)",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*See also: Grunt: Rite of Passage* As part of Clan Urdnot's Rite of Passage, a single thresher maw must be fought on foot by Grunt and his krantt on Tuchanka.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "missions_007",
+      "kind": "page",
+      "page": "Missions",
+      "section": "Loyalty missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Loyalty missions may be skipped. This will not hinder the progression of the main story line. However, you should be aware that doing this could seriously impact the performance of your team and alter the final outcome. - Garrus: Eye for an Eye - Grunt: Rite of Passage - Jack: Subject Zero - Jacob: The Gift of Greatness - Legion: A House Divided - Miranda: The Prodigal - Mordin: Old Blood - Samara: The Ardat\\-Yakshi - Tali: Treason - Thane: Sins of the Father",
+      "url": "https://masseffect.fandom.com/wiki/Missions",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-1-mass-effect-1_005",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 1) — Mass Effect 1",
+      "section": "Quarian culture as background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The quarians are in constant danger of sickness and must balance population against food and ship capacity, and have been at war with the geth for 300 years, so every quarian is expected to support the Fleet. Their rite of passage into adulthood is the Pilgrimage: a young quarian must bring back something of value to the Fleet — because although the flotilla grows its own food and processes its own fuel, some raw materials (e.g. for hull patches) simply cannot be made aboard.",
+      "url": "",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "summary:pilgrimage",
+      "kind": "summary",
+      "page": "Pilgrimage",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Pilgrimage was a quarian rite of passage. On reaching young adulthood, quarians of the Migrant Fleet had to leave their birth ship, travel the galaxy, and find something of value to bring back as a gift for a prospective captain, proving they would not be a burden on a ship's thin resources before being accepted as a permanent crew member. Stripped of ritual, the practice was a means of maintaining genetic diversity across the small, isolated shipboard populations of the Fleet, since marrying within one's birth vessel would sharply raise the risk of inbreeding. It also let quarians experience life beyond the Flotilla and appreciate their own people and culture, often the only chance they would get, as their skills became indispensable to the Fleet once they returned. Exceptions were made for the sick or unfit, and gifted individuals could occasionally receive special dispensation from the Admiralty Board.\n\nIn preparation, quarians were surgically fitted with immunity-boosting implants, since growing up in the sterile ships left them with virtually no natural immune system, and were given survival lessons plus weapons and armor. Some never returned, whether through misadventure or by choosing a different life. For safety a captain gave a departing quarian two code phrases for their return: one signalling success and safe reintegration, the other an alert phrase indicating return under duress, which would cause the quarian navy to immediately destroy the returnee's ship.\n\nPilgrimage gifts varied widely: food, fuel, technology, knowledge, or even a new starship for the Fleet. Some gifts were valued more than others, a derelict towed back for salvage being treated disdainfully, and individuals from prominent families were expected to return with something special, but a captain would usually accept even a modest gift out of tradition. The one absolute rule was that the gift must not be obtained by harming another, quarian or not. On completing the Pilgrimage and joining a new ship, a quarian's name changed: the childhood title \"nar\" (\"child of\"), followed by the birth ship's name, was replaced by \"vas\" (\"crew of\"), followed by the name of the ship they had earned the right to join.",
+      "url": "https://masseffect.fandom.com/wiki/Pilgrimage",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_001",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“The Pilgrimage proves we are willing to give of ourselves for the greater good. What does it say about me if I turn my back on this?” **Tali'Zorah nar Rayya** was born in 2161 aboard the starship Rayya to Rael'Zorah, a member of the Admiralty Board of the quarian Migrant Fleet. After reaching the threshold of maturity, she departs the Migrant Fleet on her Pilgrimage, the traditional quarian rite of passage into full adulthood. On her travels, she begins hearing reports of geth, who had never ventured beyond the Perseus Veil since driving her people into exile, and decides to investigate. Though young, Tali is a mechanical genius—talents she eventually lends to Commander Shepard as a member of their crew. |  | ***“You've got to walk your own path...”*** — Spoilers for **Mass Effect: Homeworlds** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "pilgrimage_003",
+      "kind": "page",
+      "page": "Pilgrimage",
+      "section": "Gifts",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Pilgrimage gifts vary. A young quarian may return from their Pilgrimage with resources like food or fuel, vital technology, a new starship to add to the Fleet itself, or even knowledge that will improve life for everyone on the Flotilla. Some gifts are seen to be more worthy than others \\- a derelict ship towed back for salvage will be treated disdainfully \\- but even if the gift is not particularly valuable, the captain will usually accept it out of a sense of tradition. However, there is a degree of social stigma in presenting a sub\\-standard Pilgrimage gift, as it will not make a good impression on the new crew. A young quarian's social status is also taken into account. Individuals from prominent families are expected to return with something special. A single rule covers the Pilgrimage gift: it must not be gained by harming another, quarian or not.",
+      "url": "https://masseffect.fandom.com/wiki/Pilgrimage",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "tuchanka_004",
+      "kind": "page",
+      "page": "Tuchanka",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Grunt: Rite of Passage - *Mission:* Mordin: Old Blood",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#03",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds The Rite runs in three waves, each summoned by striking the keystone. Varren first, in numbers.",
+      "url": "",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "urdnot-camp_004",
+      "kind": "page",
+      "page": "Urdnot Camp",
+      "section": "Missions",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- Tuchanka: Urdnot Wrex - Mordin: Old Blood - Grunt: Rite of Passage",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Camp",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-tali-geth-data-pilgrimage#02",
+      "kind": "scene",
+      "page": "Tali Asks for the Geth Data as Her Pilgrimage Gift",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "normandy-engineering-tali-geth-data-pilgrimage",
+      "text": "Tali Asks for the Geth Data as Her Pilgrimage Gift. 2183, after the Alliance campaign against geth incursions clears the geth base on Solcrum the engineering bay of the Normandy SR-1 In the engineering bay Tali asks for a copy. The cache is heavily encrypted and might take years to decipher, but it would be a perfect gift for her Pilgrimage — something of value the Migrant Fleet could not produce for itself.",
+      "url": "",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#09",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Wrex himself killed a thresher maw during his own Rite — the feat that made his name in Clan Urdnot.",
+      "url": "",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#04",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Second wave: klixen, fire-breathers, dropped in by harvester.",
+      "url": "",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "krogan_012",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "Rites",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Krogan tradition is steeped in ritual. When a krogan is born, he suffers the **Rite of Life**. When he comes of age, he undergoes the **Rite of Passage**. If he wishes to be considered for breeding, he must take the **Rite of Honor**. When facing a new enemy, the **Rite of Firsts** is invoked. If two krogan are quarreling with each other, the **Rite of Union** may serve as a way to heal the bond between them by giving the pair a mutual enemy to fight. If one wishes to take over clan leadership, the **Rite of Authority** determines whether the current leader keeps his post or loses it to the challenger. Positions of power also bear the responsibility of more rites, like being clan leader or shaman. The Rite of Passage and all other rites and traditions are preserved by the clan shaman. A shaman can be of either gender: they must undergo lengthy and torturous rites to assume the position, and is required to give up their name. Because of this level of commitment, the shaman is one of the most respected members of a clan. The krogan have at least two ways of formally dealing with their dead. Suicides are left for scavengers to feed upon. Another is via funeral pyre, where the shaman eulogizes the dead and symbolically consigns it to the Void. Known instances of the pyre include krogan who have died a particularly valorous death, e.g. by saving the future of the entire race.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "summary:tali-and-the-geth",
+      "kind": "summary",
+      "page": "Tali and the Geth",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Tali and the Geth was an assignment in the first Mass Effect, acquired during the mission UNC: Geth Incursions. After purging the geth stronghold on Solcrum, Shepard could find geth data files on a terminal in a back room; accessing the terminal began the assignment, on the basis that the files might interest Tali given quarian history.\n\nReturning to the Normandy, Shepard could speak to Tali, who asked for a copy of the data to use as her Pilgrimage gift to bring back to her people. Shepard could give her the copy or refuse; if refused, Tali would try to reason with the Commander, but once Shepard decided the classified information could not be shared, that decision was final. The assignment granted experience and one morality point: one Paragon point for giving Tali the data, one Renegade point for withholding it. It was then completed and renamed in the journal as \"Tali's Pilgrimage\" (capital P) if the data was given, or \"Tali's pilgrimage\" (lowercase p) if not; in the original release the name was always lowercase regardless of choice.\n\nIn Mass Effect 2, on Freedom's Progress, Shepard could verify their identity to Tali by mentioning the geth data, and Tali would confirm it had aided her Pilgrimage. If the data had been withheld, Shepard could not reassure her this way, though she remained only mildly suspicious and her Pilgrimage was still presumably a success with an unknown substitute gift.",
+      "url": "https://masseffect.fandom.com/wiki/Tali_and_the_Geth",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "summary:grunt-rite-of-passage",
+      "kind": "summary",
+      "page": "Grunt: Rite of Passage",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Grunt: Rite of Passage was Grunt's loyalty mission in Mass Effect 2, available after Horizon once Grunt had been woken following Dossier: The Warlord. In the Normandy cargo hold, Grunt paced restlessly and told Shepard his desire to destroy and kill had become an involuntary compulsion; he asked to be taken to Tuchanka because EDI lacked krogan medical records, which the krogan fiercely guarded after the salarians used them to build the genophage.\n\nOn Tuchanka, Shepard spoke with the leader of Clan Urdnot, either Wrex or (if he died on Virmire or was never recruited) his brother Wreav, who explained that Grunt was not sick but of the age to undergo the krogan Rite of Passage, and referred the party to the clan Shaman. Gatatog Uvenk protested Grunt taking the Rite because he was tank-bred, but could be made to stand down. Shepard agreed to serve as Grunt's krantt and the Shaman sent the party to the traditional Rite grounds.\n\nThe Rite consisted of three waves triggered by activating a keystone: a swarm of varren, then fire-breathing klixen delivered by unkillable Harvesters, and finally a Thresher Maw that had to be survived for five minutes, with extra accolades for killing it. Killing the Maw earned the krogan's respect; it had not been done since Wrex's own Rite. Afterward Uvenk and his krantt appeared, offering to accept Grunt into Clan Gatatog as little more than a trophy; regardless of dialogue choice the encounter ended in a fight against Uvenk, who had barrier and armor, plus four Gatatog Warriors. Once they were defeated, the Shaman welcomed Grunt as a full member of Clan Urdnot and awarded a shotgun damage upgrade (Synchronized Pulsar), and Fortack's Database granted a discount. Grunt also unlocked the Fortification power. The Shaman later emailed Shepard demanding Grunt be kept alive for the krogan's survival. In Mass Effect 3, if this mission was not completed and Shepard spared the Rachni Queen during Attican Traverse: Krogan Team, Grunt would die.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "summary:aralakh",
+      "kind": "summary",
+      "page": "Aralakh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Aralakh was a gateway system that the krogan accorded a place of significance in their culture. The name meant \"eye of wrath\" in the krogan language and was also given to a place on Tuchanka and to an elite krogan warrior unit. Access to the system required prior completion of \"Mordin: Old Blood\" or \"Grunt: Rite of Passage\" in Mass Effect 2, and of \"Priority: Sur'Kesh\" in Mass Effect 3.\n\nAll of Aralakh's terrestrial worlds were inhospitable; even the krogan homeworld Tuchanka was barely livable by other species' standards. The Krogan Rebellions had stripped most of the system's resources for the war effort, though some deposits remained. The Council Demilitarization Enforcement Mission (CDEM) kept a careful watch on krogan hotspots to prevent another uprising like the Rebellions, and part of its role was regulating helium-3 fuel sales skimmed from the system's gas giants.\n\nThe planets orbiting the star Aralakh were Durak (first), Kanin (second), Kruban (third), Tuchanka (fourth), Ruam (fifth), and Vaul (sixth); the system also contained a mass relay and a fuel depot. Tuchanka was the focus of extensive gameplay content: in Mass Effect 2 it hosted the missions \"Grunt: Rite of Passage\" and \"Mordin: Old Blood\" and several assignments, and in Mass Effect 3 it hosted \"Priority: Tuchanka,\" \"Tuchanka: Bomb,\" \"Tuchanka: Turian Platoon,\" \"N7: Cerberus Attack,\" and Citadel-related missions.",
+      "url": "https://masseffect.fandom.com/wiki/Aralakh",
+      "for_key": "Pilgrimage rite of passage gift"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#05",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Among the Admiralty Board members is Han'Gerrel vas Neema, commander of the Heavy Fleet and a friend of Tali's father from their days on the gunship Yaska. Han'Gerrel sympathizes with Tali, believing her innocent. He becomes the sole person Shepard and Tali can confide in about the true nature of Rael'Zorah's experiments on the Alarei; despite his pro-war stance, the revelation shocks him, and he vows to keep the truth quiet to protect Rael's legacy and what he intended for the Fleet.",
+      "url": "",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "mass-effect-2-cut-content-miscellaneous-texts_042",
+      "kind": "page",
+      "page": "Mass Effect 2 Cut Content/Miscellaneous Texts",
+      "section": "Dossiers",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "#### Kasumi Goto **Dossier: Kasumi** --- The Saboteur Name: Kasumi Last Seen: Illium Skills: Sabotage, infiltration, extraction, property acquisition, stealth, agile combat. Known Quirks: A propensity for getting into or starting trouble. Notes: This subject has stolen extremely valuable resources from Cerberus in the past. Alarm systems, DNA encoders, guards, and various other deterrents were bypassed, and we don't know how. #### Mordin Solus **Dossier: The Professor** --- Dr. Mordin Solus \\- Biological weapons expert \\- Light weapons training with Salarian Special Tasks Group Dr. Mordin Solus is a salarian biological weapons expert whose technology may hold the key to countering Collector attacks. He is currently operating a medical clinic in the slums of Omega. #### Tali'Zorah vas Neema **Dossier: Tali** --- The Quarian Engineer Name: Tali’Zorah vas Neema Last Seen: Haestrom in the geth\\-controlled Dholen System. Skills: Hacking, tech, mechanical construction and modification. Known Quirks: Although outgoing and opinionated, Tali still functions well in a team. Notes: Tali's mechanical prowess is key to a successful mission. Though she has returned to the quarian Migrant Fleet, her loyalty to Shepard should allow us to recruit her to our cause. **Dossier: Tali** --- Tali’Zorah vas Neema \\- Expert in combat tech, systems hacking \\- Strong engineering background, familiar with Normandy Formerly listed as Tali’Zorah nar Rayya, the quarian engineer earned her adult name after helping Shepard defeat Saren two years ago. Tali is currently on a classified assignment for the Migrant Fleet Admiralty Board on Haestrom, deep in geth\\-controlled space. #### Zaeed Massani **Dossier: The Veteran** --- Name: Zaeed Massani Last Seen: Korlus Skills: Combat, survival, tactics, protection. Known Quirks: Jaded and tired, still extremely dangerous and capable. Notes: Zaeed has stopped taking work recently. His reputation as the premier bounty hunter in the galaxy has caught up with him and he is rumored to spend his days drinking and shooting would\\-be rivals. There is none better in a fight.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Cut_Content/Miscellaneous_Texts",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "dossier-tali_002",
+      "kind": "page",
+      "page": "Dossier: Tali",
+      "section": "Acquisition",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Horizon (mission) The Illusive Man provides Shepard with dossiers on three new squadmates after the mission to Horizon. Tali'Zorah vas Neema \\- Expert in combat tech, systems hacking \\- Strong engineering background, familiar with Normandy Formerly listed as Tali'Zorah nar Rayya, the quarian engineer earned her adult name after helping Shepard defeat Saren two years ago. Tali is currently on a classified assignment for the Migrant Fleet Admiralty Board on Haestrom, deep in geth\\-controlled space.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Tali",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "summary:tali-zorah-nar-rayya",
+      "kind": "summary",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tali'Zorah nar Rayya was born in 2161 aboard the liveship Rayya to Rael'Zorah of the quarian Admiralty Board. A mechanical genius, she left the Migrant Fleet on her Pilgrimage, the quarian rite of passage into adulthood. In Mass Effect: Homeworlds she traveled aboard the Honorata with Keenah'Breizh, extracted a geth memory core containing a recording of an attack planned on Eden Prime and the coming of the Reapers, and was hunted across Illium and onto the Citadel by the turian mercenary Jacobus, working for Saren Arterius. Keenah died; Tali trapped Jacobus in an incinerator and burned him alive, then sought an information broker to reach the Council.\n\nIn Mass Effect, Fist betrayed her to Saren's agents; ambushed near Chora's Den, Tali threw a tech proximity mine and was saved by Commander Shepard. Her data provided proof that got Saren's Spectre status revoked and the first mention of the Reapers and the Conduit. She joined Shepard's crew, working in the Normandy's engine room with Engineer Adams, and shared insight into quarian nomad life and the geth. In an optional assignment she could receive rogue geth data to complete her Pilgrimage; refusing it caused her to leave the crew afterward.\n\nIn Mass Effect 2, having completed her Pilgrimage, she joined the Neema and became Tali'Zorah vas Neema. Shepard met her on Freedom's Progress hunting Veetor'Nara, then recruited her on Haestrom, where a geth patrol killed her marine escort; she and Kal'Reegar survived and she brought data proving Haestrom's sun was dying prematurely. She joined Shepard for Shepard's sake, not Cerberus's. Her loyalty mission, Tali: Treason, changed her name to Tali'Zorah vas Normandy. She is a romance option for a male Shepard, culminating before the Omega 4 relay when she removes her mask; if she survives, \"it was totally worth it.\"\n\nIn Mass Effect 3, if she survived the Suicide Mission, she returned to the Fleet, becoming an Admiral in her father's place (or a secret adviser if exiled) during the war to retake Rannoch. She served as geth software expert aboard the geth dreadnought and on Rannoch, where she claimed a patch of land and Shepard handed her a rock. At the climax, if Shepard upgraded the geth she watched the Migrant Fleet burn, removed her mask, whispered \"I'm sorry,\" and threw herself off a cliff. If Shepard stopped the upload she stabbed the geth unit with her boot knife; if Legion survived and peace was brokered, she confirmed the geth had souls. Surviving, she rejoined the Normandy and could become the quarian ambassador on the Citadel. If romanced, she left Shepard a photo of her unmasked face, and at the final battle, gravely wounded, told Shepard \"I have a home\" and begged him to return.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#01",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber The Normandy is a registered Cerberus vessel and the Fleet treats it as such; only Tali's passphrase gets them docked with the Rayya. Captain Kar'Danna meets them with a marine detail — weapons raised, if Legion came along.",
+      "url": "",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#15",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Shepard says no evidence was found. Tali is convicted, exiled, and given six hours to leave — and takes it in good spirits, having no ties left to confuse the question of loyalty.",
+      "url": "",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "gavin-archer_004",
+      "kind": "page",
+      "page": "Gavin Archer",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Simon Templeman also voiced quarian Admiral Han'Gerrel vas Neema, as well as Teyrn Loghain Mac Tir and Caladrius in BioWare's Dragon Age: Origins.",
+      "url": "https://masseffect.fandom.com/wiki/Gavin_Archer",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "summary:kar-danna-vas-rayya",
+      "kind": "summary",
+      "page": "Kar'Danna vas Rayya",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Captain Kar'Danna vas Rayya was the quarian captain of the Rayya, Tali'Zorah's birth ship in the Migrant Fleet. In Mass Effect 2, after the Normandy docked with the Rayya, Captain Danna greeted Commander Shepard and Tali and explained the treason charges brought against Tali. On the orders of Admiral Shala'Raan vas Tonbay, he withheld the fact that Tali's father, Rael'Zorah, was unaccounted for and presumed lost aboard the Alarei.\n\nIf Legion was brought aboard, Danna was more hostile, with his security detail training weapons on Shepard's squad, and he insisted that neither geth nor Cerberus were welcome in the Flotilla. Shepard could persuade him to allow Legion aboard or leave the geth on the Normandy. Danna addressed Shepard as \"Captain\" despite the Commander no longer serving in the Alliance, reasoning that any commanding officer's decisions on their own ship carried great weight.\n\nIn Mass Effect 3, if the quarians lost their war against the geth over Rannoch, the entire Migrant Fleet, including the Rayya, was destroyed. The ship's final moments were heard as distress calls from Captain Danna, reporting that the Rayya was falling from orbit with its drive core and escape pods inoperative. This distress call was not heard if Admiral Shala'Raan vas Tonbay had substituted for Tali on Rannoch because Tali died during the Collector Base suicide mission.",
+      "url": "https://masseffect.fandom.com/wiki/Kar'Danna_vas_Rayya",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "summary:migrant-fleet",
+      "kind": "summary",
+      "page": "Migrant Fleet",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Migrant Fleet, also called the Flotilla, was the massive collection of starships that became home to the quarians after the geth drove them from Rannoch about three centuries before the trilogy. It consisted of roughly 50,000 ships housing some 17 million quarians, the largest array of spacefaring vessels in the galaxy; it could take days to pass an entire mass relay, and some vessels dated from the original flight. It was rarely welcoming to outsiders, since any risk to the Fleet was a risk to the species, and quarians normally left only for the Pilgrimage.\n\nConditions aboard were extremely cramped, with cargo holds converted into individual living compartments; the cruiser Idenna held nearly 700 quarians where a comparable Alliance cruiser held around 80. Larger crews raised a captain's social status. Three heavily defended Liveships at the Fleet's center provided most of its food, growing crops such as the high-protein celery keleven; losing one would starve millions. The Fleet was nominally under martial law but functioned democratically: each ship had an elected civilian council, representatives sat on the Conclave (civilian government), and a five-member Admiralty Board could override the Conclave only by then resigning or facing arrest, which had happened only four times in three centuries. The navy was small but aggressive, shooting to kill ships whose motives could not be established. On arrival in a system quarians strip-mined planets and undercut local labor, making their approach unpopular. The Fleet was organized into four groups: the Patrol Fleet (Shala'Raan vas Tonbay), the Civilian Fleet including the Liveships (Zaal'Koris vas Qwib-Qwib), the Heavy Fleet (Han'Gerrel vas Neema), and Special Projects research vessels (Daro'Xen vas Moreh).\n\nIn Mass Effect: Ascension (2183), Kahlee Sanders, Gillian Grayson and Hendel Mitra were brought aboard the Idenna by Lemm'Shal nar Tesleya to escape Cerberus. Captain Ysin'Mal argued the Fleet was dying for lack of spaceworthy ships and would be unsustainable within 90 years; a Cerberus attack led by the traitor Golo finally persuaded the Fleet to send cruisers on long-term missions. In Mass Effect 2 (2185), Shepard and Tali travelled to the Fleet for Tali's treason trial over geth parts sent to her father Rael'Zorah, culminating in retaking the lab ship Alarei. In Mass Effect 3 (2186), Daro'Xen's scanning countermeasure derived from Rael'Zorah's research crippled geth ships, prompting a 3-2 Admiralty vote to invade geth space; the quarians armed the Civilian Fleet, fitted Thanix weapons, destroyed a geth Dyson sphere, and drove the geth back to Tikkun. The geth accepted Reaper upgrades and turned the war until Shepard disabled the Reaper signal on Rannoch. Depending on Shepard's choices the Fleet was destroyed, the geth were annihilated, or quarians and geth made peace; if the quarians survived, the Fleet joined the defense of Earth. Notable vessels included the Alarei, Idenna, Neema, Rayya, Qwib-Qwib, Moreh, Tonbay and the Liveships Rayya, Shellen and Chayym.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#14",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Shepard presents the evidence of Rael'Zorah's crimes. Tali is declared innocent and her father is posthumously exiled, his name struck from the rolls of every ship he served on, and the Fleet balkanises over what to do with the research.",
+      "url": "",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "summary:starships-list",
+      "kind": "summary",
+      "page": "Starships/List",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This reference page cataloged every identified starship in the Mass Effect universe, giving each ship's class, affiliation, a brief description and its source work. Entries spanned Alliance, turian, asari, salarian, volus, geth, Collector, Reaper, Cerberus, batarian, Migrant Fleet, Andromeda Initiative and independent vessels, drawn from the games, novels, comics, Cerberus Daily News and DLC.\n\nNotable Reaper entries included Sovereign, Harbinger, the Derelict Reaper above Mnemosyne, and the billion-year-old Leviathan of Dis. Council-race capital ships included the asari dreadnought Destiny Ascension (flagship of the Citadel Fleet, commanded by Matriarch Lidanya), the Geth Dreadnought destroyed by Commander Shepard in 2186, the Prothean flagship Penumbra Apex, and the Vol Protectorate's sole dreadnought Kwunu. The Alliance section listed the Everest- and Kilimanjaro-class dreadnoughts (SSV Everest, Kilimanjaro, Orizaba, Logan and others), numerous Fifth Fleet cruisers that fought at the Battle of the Citadel, and both Normandy frigates. Cerberus fielded the cruiser Elbrus under Oleg Petrovsky; the Blue Suns ran the prison ship Purgatory; Liara T'Soni inherited the Shadow Broker Base.\n\nThe Migrant Fleet accounted for many entries, including the liveships Rayya, Chayym and Shellen, Admiralty crew ships such as Neema, Tonbay, Moreh and Qwib-Qwib, and the lab ship Alarei. Dozens of independent MSV freighters (many Kowloon- or Athabasca-class) were logged, most lost to pirates, geth, mechanical failure or crew breakdown. The Andromeda Initiative section covered the arks Hyperion, Nexus, Natanus, Leusinia, Paarchero and Keelah Si'yah, the Pathfinder survey ship Tempest, and the ND1 Nomad; the kett fielded the Archon's flagship Verakan and the Decimation.",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Rayya and Neema"
+    },
+    {
+      "chunk_id": "alliance-navy_018",
+      "kind": "page",
+      "page": "Alliance Navy",
+      "section": "Frigates",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*See also: Frigate* Frigates are light escort and scouting vessels equipped to screen and support the fleet. They are outfitted with GARDIAN defense turrets to provide anti\\-fighter screening for capital ships and Javelin torpedoes to take down opposing kinetic barriers. In fleet combat, frigates are organized into \"wolf pack\" flotillas of four to six ships. They use their superior speed and maneuverability to evade and maneuver into the opposing fleet to take down ships whose kinetic barriers have been destroyed. | Name | Class | Named For | Notes | | --- | --- | --- | --- | | SSV Agincourt | (unknown) | Battle of Agincourt | Protected Elysium from Terminus Systems ships during the Skyllian Blitz of 2176\\. Former posting of Navigator Pressly. | | SSV Ain Jalut | Normandy\\-class | Battle of Ain Jalut | Attacked a batarian colony world in 2185 (if the Citadel Fleet was decimated in the Battle of the Citadel in 2183\\). | | SSV Hastings | (unknown) | Battle of Hastings | Commanded by Captain Ballard in 2165\\. Engaged the Blue Suns at Sidon (2165\\). Former posting of David Anderson. | | SSV Hong Kong | (unknown) | Battle of Hong Kong | Destroyed in the Battle of the Citadel in 2183\\. Wreckage is later melted down and used to construct a second frigate of the same name which serves under the Alliance's Fifth Fleet in 2186\\. | | SSV Iwo Jima | (unknown) | Battle of Iwo Jima | Destroyed in a battle with the Blue Suns at Camala in 2165\\. | | SSV Leipzig | (unknown) | Battle of Leipzig | First Alliance frigate to field\\-test the Thanix cannon. Part of the Alliance's First Fleet. | | SSV Normandy | Normandy\\-class | Battle of Normandy | Class leader. Commanded by David Anderson and Commander Shepard in 2183\\. Participant in the Battle of the Citadel (2183\\). Destroyed by a Collector Cruiser (2183\\). Wreckage of ship located on Alchera in 2185\\. | | SSV Normandy SR\\-2 | (unknown) | Battle of Normandy | Originally built by Cerberus after the destruction of the original Normandy SR\\-1, then claimed by the Alliance following Commander Shepard's arrest. Participant in the Battle of Earth (2186\\). | | SSV Trafalgar | (unknown) | Battle of Trafalgar | Attacked by Cerberus forces while undergoing an engine overhaul in 2186\\. Escaped and rejoined the Alliance's Third Fleet. |",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "richard-l-jenkins_004",
+      "kind": "page",
+      "page": "Richard L. Jenkins",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2186, the Normandy SR\\-2 obtains a memorial wall inscribed with the names of fallen crew members who served on the SR\\-2 and her predecessor, the SSV Normandy SR\\-1\\. Jenkins' name is included. If Shepard revisits Eden Prime, while landing on the planet the Commander and some of their squadmates may briefly recall Jenkins and the way he met his end on his birth world.",
+      "url": "https://masseffect.fandom.com/wiki/Richard_L._Jenkins",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "scene:normandy-ashley-romance-and-farewell#05",
+      "kind": "scene",
+      "page": "Rekindling with Ashley, from Sarah's Grief to the Push on Earth",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-ashley-romance-and-farewell",
+      "text": "Rekindling with Ashley, from Sarah's Grief to the Push on Earth. 2186, across the Reaper War, from Ashley's return to the Normandy through the final assault on Earth the SSV Normandy SR-2 (Ashley's quarters, the Captain's Quarters), the Citadel, and the London FOB If Ashley is Shepard's love interest, the last thing Shepard sees is an image of her looking at him and smiling warmly. If Shepard dies firing the Crucible, Ashley later places his name on the Normandy's memorial wall; if the Reapers are destroyed and enough of the galaxy's forces were mustered, she smiles instead and does not place the plaque, as the Normandy flies off.",
+      "url": "",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "normandy_001",
+      "kind": "page",
+      "page": "Normandy",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | **This article is a disambiguation page.** The following is a list of links to pages that might share similar titles or cover similar topics. Please follow one of the disambiguation links below or search to find the page you were looking for if it is not listed. If an internal link led you here, you may wish to change the link to point directly to the intended article. | | --- | --- | Normandy may refer to: - Ships: - The SSV Normandy (also known as the Normandy SR\\-1\\), the experimental stealth frigate from Mass Effect. - The Normandy SR\\-2, a larger frigate derivative in design to the previous ship of this name in Mass Effect 2 and Mass Effect 3. - Mass Effect 2 Missions: - Normandy: FBA Couplings - Normandy: Serrice Ice Brandy - Normandy: Special Ingredients - Normandy Crash Site (assignment) \\- a DLC mission. - Other Uses: - Normandy Crash Site \\- a DLC pack from Mass Effect 2\\.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "starships-list_075",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Normandy SR\\-2",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Normandy SR\\-2* Class Frigate Affiliation Cerberus (2185\\); Systems Alliance (2186\\) A Cerberus frigate based on the SSV Normandy SR\\-1\\. Claimed, assigned the SSV prefix, and refitted by the Alliance in 2186\\. Commanded by Commander Shepard. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "alliance-navy_016",
+      "kind": "page",
+      "page": "Alliance Navy",
+      "section": "Dreadnoughts",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*See also: Dreadnought* The Alliance has two dreadnought classes currently in service, the older Everest class and the newer Kilimanjaro class. The Everest class is an 888\\-meter dreadnought with a main gun capable of accelerating a 20 kilogram slug to 1\\.3% the speed of light (4025 km/s) for a kinetic energy yield equivalent to 38 kilotons of TNT. The Kilimanjaro class is armed with 156 broadside mass accelerator cannons, 78 on each side. The broadside guns are each as long as 40% of the ship's width. | Name | Class | Named For | Notes | | --- | --- | --- | --- | | SSV Aconcagua | Kilimanjaro\\-class | Mt. Aconcagua | Under construction in 2183, completed by 2185\\. | | SSV Elbrus | Everest\\-class | Mt. Elbrus | Not to be confused with Elbrus, a Cerberus cruiser. | | SSV Everest | Everest\\-class | Mt. Everest | Class leader. This dreadnought is dispatched by the Systems Alliance to observe the deployment of a solar mirror by the Batarian Hegemony in 2185\\. | | SSV Fuji | Everest\\-class | Mt. Fuji |  | | SSV Kilimanjaro | Kilimanjaro\\-class | Mt. Kilimanjaro | Class leader. If Shepard has the Spacer background, Hannah Shepard, the Commander's mother, is the executive officer on this ship in 2183\\. | | SSV Logan | Kilimanjaro\\-class | Mt. Logan | Flagship of the Third Fleet in 2186\\. Constructed sometime after 2185 and completed by 2186\\. Commanded by Admiral Nitesh Singh. | | SSV Orizaba | Kilimanjaro\\-class | Mt. Orizaba | Flagship of the Fifth Fleet in 2185\\. Constructed sometime after 2183 and completed by 2185\\. If Shepard has the Spacer background, Hannah Shepard is the captain of this ship in 2185\\. | | SSV Shasta | Kilimanjaro\\-class | Mt. Shasta | In 2186, if Shepard does not allow Diana Allers on the Normandy SR\\-2, she embeds with the SSV Shasta instead. The ship is subsequently destroyed during a battle in the Horse Head Nebula. | | SSV Tai Shan | Kilimanjaro\\-class | Mt. Tai |  |",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "greg-adams_001",
+      "kind": "page",
+      "page": "Greg Adams",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Lieutenant Gregory Adams** is a human Earth Systems Alliance engineer in the 22nd century. He was hand\\-picked by Captain David Anderson to serve as the Chief Engineer of the SSV Normandy. Engineer Adams has served on every class of Alliance starships. Prior to being assigned to the Normandy, Adams served on the SSV Tokyo, which he describes as a \"good ship\" but added that the SSV Tokyo \"couldn't hold a candle to the Normandy\". Adams becomes very enthusiastic while discussing the Normandy, claiming she is the best ship he has ever served on. Adams can provide Commander Shepard with some background on the ship's IES stealth system and engines. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Greg_Adams",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "scene:normandy-sr1-chakwas-med-bay#04",
+      "kind": "scene",
+      "page": "Chakwas in the SR-1 Infirmary",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "normandy-sr1-chakwas-med-bay",
+      "text": "Chakwas in the SR-1 Infirmary. 2183, aboard the SSV Normandy, from the Eden Prime shakedown to the flight to Ilos the medical bay on the crew deck of the SSV Normandy SR-1 After Shepard defies Ambassador Udina's order grounding the Normandy and takes the ship to pursue Saren to Ilos, Chakwas remarks that it is strange being a fugitive from the Alliance, and gravely asks the Commander not to let the crew down, since they have sacrificed everything for the mission.",
+      "url": "",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "squad_006",
+      "kind": "page",
+      "page": "Squad",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Squadmates are chosen from a screen whenever Shepard leaves the SSV Normandy (or the Normandy SR\\-2 in Mass Effect 2). Shepard may only take exactly two squadmates in any \"shore party,\" so choose carefully as Shepard cannot usually reselect squadmates after leaving the ship, and certain missions, especially major ones, may restrict Shepard's ability to return to the Normandy. The squadmate selection screen for Mass Effect displays the six possible squadmates. If a particular squadmate is not available, their name is not shown and only a blackened silhouette of the character is visible. Below the squadmate name is a box which has one, two, or three different colored bars: - red representing combat strength - blue representing tech strength - purple representing biotic strength At the bottom of the squad screen is a box showing the total strength of the squad. - Initially, it shows only Shepard's strength. - When a squadmate is selected, the squadmate will become highlighted, move forward from the others, and the squadmate strengths will be tabulated in the bottom box. Once both squadmates are selected, the option to either keep the squad, or reselect is given.",
+      "url": "https://masseffect.fandom.com/wiki/Squad",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "scene:normandy-sr1-chakwas-med-bay#01",
+      "kind": "scene",
+      "page": "Chakwas in the SR-1 Infirmary",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "normandy-sr1-chakwas-med-bay",
+      "text": "Chakwas in the SR-1 Infirmary. 2183, aboard the SSV Normandy, from the Eden Prime shakedown to the flight to Ilos the medical bay on the crew deck of the SSV Normandy SR-1 Shepard first meets Chakwas as she and Corporal Jenkins are talking outside the comm room; she teases Jenkins that the \"action\" he craves usually ends with her patching soldiers up in her medical room.",
+      "url": "",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "scene:citadel-dock-422-shepard-takes-command#01",
+      "kind": "scene",
+      "page": "Shepard Given Command of the Normandy at Dock 422",
+      "section": "ceremony",
+      "game": "Mass Effect",
+      "scene_id": "citadel-dock-422-shepard-takes-command",
+      "text": "Shepard Given Command of the Normandy at Dock 422. 2183, Citadel, after Shepard is named a Spectre and Saren is exposed Dock 422, Citadel, beside the SSV Normandy Reporting to Dock 422 after being made a Spectre, Shepard is met by Ambassador Udina, who announces that Anderson is stepping down as commanding officer of the SSV Normandy and that the ship is now Shepard's to command. Udina passes on the Council's tasking: reports of geth interest in the corporate research colony of Noveria, and a need to know why.",
+      "url": "",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "entertainment_021",
+      "kind": "page",
+      "page": "Entertainment",
+      "section": "*Normandy Flight Sim*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A flight simulator of the SSV Normandy included with the popular Commander Shepard VI.",
+      "url": "https://masseffect.fandom.com/wiki/Entertainment",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "summary:normandy",
+      "kind": "summary",
+      "page": "Normandy",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is a disambiguation page. \"Normandy\" may refer to the ships SSV Normandy (the Normandy SR-1, the experimental stealth frigate from Mass Effect) and the Normandy SR-2 (a larger derivative frigate in Mass Effect 2 and Mass Effect 3); to the Mass Effect 2 missions Normandy: FBA Couplings, Normandy: Serrice Ice Brandy, Normandy: Special Ingredients and the DLC assignment Normandy Crash Site; and to the Mass Effect 2 DLC pack Normandy Crash Site.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "summary:ariake-technologies",
+      "kind": "summary",
+      "page": "Ariake Technologies",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ariake Technologies, also called Ariake Tech, was an Earth-based electronics concern best known for its high-grade omni-tools. The company later expanded into armor, producing a line with an enhanced ablative weave for extra protection, and manufactured Mercenary Armor for humans, krogan, and turians. In Mass Effect, an armory license for Ariake Technologies could be purchased from the C-Sec Requisitions Officer or from Commander Rentola aboard the SSV Normandy after his rescue from Virmire, for 6,250 credits. Ariake Technology also developed telemetry data-cleaning algorithms, for which Samantha Traynor and EDI purchased licenses during a conversation with Shepard after Priority: Sur'Kesh.\n\nIn Mass Effect, all Ariake weapons incorporated radiation synch technology for better all-around performance, and the company produced the Tsunami assault rifles, Katana shotguns, Raikou pistols, and Naginata sniper rifles. Its armor used an ablative weave that boosted shields at the cost of tech and biotic protection. In Mass Effect 2 and Mass Effect 3, Ariake Technologies manufactured the M-23 Katana Shotgun, a common mercenary and colony weapon, and the M-27 Scimitar Assault Shotgun, an elite rapid-fire model. In Mass Effect 2 it produced the Kuwashii Visor for N7 Armor, trading protective coverage for visibility and accuracy, and in Mass Effect 3 it made customizable armor components favoring melee and headshot damage. It also produced Logic Arrest omni-tools with an adaptive overlay boosting medical recharge and shields at the cost of longer cooldown. The name Ariake is of Japanese origin, poetically translating as \"Dawn, But Still the Moon Remains in the Sky.\"",
+      "url": "https://masseffect.fandom.com/wiki/Ariake_Technologies",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "summary:normandy-crash-site",
+      "kind": "summary",
+      "page": "Normandy Crash Site",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Normandy Crash Site was a DLC pack for Mass Effect 2, released alongside the game on January 26, 2010, and later included in Mass Effect Legendary Edition. It required download or purchase of the Cerberus Network. The pack let Commander Shepard explore the crash site of the SSV Normandy after Alliance Command asked Shepard, as the vessel's last commanding officer, to be first to walk the site, recover the remains of missing crew members and place a monument there. It added one assignment (Normandy Crash Site), one location (the Amada system in the Omega Nebula cluster), and one cabin item (Shepard's N7 helmet).",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_Crash_Site",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "summary:steve-cortez",
+      "kind": "summary",
+      "page": "Steve Cortez",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Lieutenant Steve Cortez was an Alliance pilot aboard the Normandy SR-2 in 2186, flying the UT-47A Kodiak that carried Commander Shepard and squad to missions, and a potential romance option for a male Shepard. An only child who lost both parents years earlier, Cortez had a husband, Robert, who was killed when the Collectors abducted the colony of Ferris Fields in 2185; Robert phoned Steve during the attack to tell him to escape and let him go. Steve kept a recording of the call and grieved heavily. He had served in the Alliance since around 2176, first in the First Fleet aboard the SSV Hawking flying F-61 Tridents, and five months before the Reaper invasion joined the Normandy SR-2 retrofit team, moving the armory to the shuttle bay.\n\nAboard the Normandy, Cortez maintained the armory alongside Lt. James Vega, an old friend from Fehl Prime, and preferred to keep busy to avoid thinking about Robert. Shepard could persuade him to take shore leave on the Citadel; he later visited the refugees' Memorial Wall to say goodbye to Robert and began to move on, reconnecting with old pilot friends and forwarding their information to Admiral Hackett to give the Alliance more pilots. A meeting at Purgatory could begin a relationship with a male Shepard or reinforce their friendship.\n\nDuring the final assault on Earth, Cortez's shuttle was shot down by a Harvester after dropping off the squad. If he had visited the Memorial Wall he survived the crash and could be contacted by hologram; otherwise he died and Vega confirmed it, and his name appeared on the Normandy's memorial wall as \"Steven Cortez.\" In the Leviathan DLC he crash-landed the shuttle and devised the plan for Shepard to reach Leviathan using a Triton mech. In the Citadel DLC he provided suppressive fire during the Spectre Archives infiltration, flew a skycar with Joker to block the hijacked Normandy from jumping to FTL, delivered a restrained Maya Brooks, and could take Shepard on a joyride in the Kodiak with the inertial dampeners disabled. If the Crucible was activated and the Reapers were controlled or Synthesis was chosen, Cortez placed Shepard's name on the memorial wall.",
+      "url": "https://masseffect.fandom.com/wiki/Steve_Cortez",
+      "for_key": "SSV Normandy name origin"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-1-part-2-drive-core-stealth-and-service-history_006",
+      "kind": "page",
+      "page": "The SSV Normandy SR-1 (Part 2) — Drive Core, Stealth, and Service History",
+      "section": "Service history",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Normandy began service under Alliance officer Lieutenant Commander Elisander; tensions with Turian Chief Engineer Octavio Tatum led to a reassignment, and Captain David Anderson took command shortly after. <!-- transcript unclear: \"Lieutenant Commander Elisander\" and \"Turian Chief Engineer Octavio Tatum\" are not established names elsewhere in Mass Effect canon; recorded here as stated by the source. --> The ship was named for the 1944 Allied invasion of Normandy in World War II. After trial runs — including an unofficial test flight by her eventual pilot Jeff \"Joker\" Moreau — she launched on her first mission, to Eden Prime, in 2183. During that deployment the Normandy became tied to the rise of humanity's first Spectre, Commander Shepard. After the discovery of a conspiracy to revive the Reapers, the ship was assigned as Shepard's command platform to pursue Saren Arterius, who — with the geth and indoctrinated agents — had retreated into the Attican Traverse and Terminus systems where conventional fleets struggle to operate. The pursuit culminated in the Battle of the Citadel, where the Normandy played a critical supporting role in the final confrontation with Sovereign. Her service ended abruptly later that year during operations against remaining geth forces: the Collectors overwhelmed her with firepower far beyond what she was built to withstand. Severely damaged, she was destroyed above the planet Alchera, and her wreckage became a symbol of both sacrifice and the limits of even the most advanced Alliance and Turian engineering.",
+      "url": "",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "ssv-normandy_001",
+      "kind": "page",
+      "page": "SSV Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The **SSV Normandy SR\\-1** (**S**ystems Alliance **S**pace **V**ehicle **Normandy** **S**tealth **R**econnaissance**\\-1**) was a Systems Alliance starship. She is a prototype \"deep scout\" frigate, first of the eponymous Normandy class, co\\-developed by the Alliance and the Turian Hierarchy with the sponsorship of the Citadel Council. She is optimized for solo reconnaissance missions deep within unstable regions, using state\\-of\\-the\\-art stealth technology powered by an experimental drive core. Commissioned in 2183, the Normandy was initially commanded by an Alliance officer named Elli Zander. After Zander came into conflict with turian chief engineer Octavio Tatum over the limits of the ship's drive core, Zander was removed and David Anderson placed in command. Shortly thereafter, the Normandy was handed over to Commander Shepard when the Commander became the first human Spectre, and served as Shepard's main source of transportation and base of operations. The Normandy is named after the Battle of Normandy in 1944, a pivotal battle of the Second World War.",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "anto-bek-tall_005",
+      "kind": "page",
+      "page": "Anto Bek'tall",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- Anto's last name was originally given as \"Bek'tall\" in a message found in the assignment Omega: Packages for Ish. In the second issue of Mass Effect: Invasion, Anto calls himself \"Anto Korragan\".",
+      "url": "https://masseffect.fandom.com/wiki/Anto_Bek'tall",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "mass-effect-2-cut-content-miscellaneous-texts_040",
+      "kind": "page",
+      "page": "Mass Effect 2 Cut Content/Miscellaneous Texts",
+      "section": "Miscellaneous",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "| Current name | Alternative name | | --- | --- | | Bekenstein | Ciceraan | | M\\-22 Eviscerator | Cerberus M\\-22a \"Thornpatch\" Shotgun | | Normandy SR\\-2 | Leviathan | | Pragia | Pragus |",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Cut_Content/Miscellaneous_Texts",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "summary:normandy-sr1-02",
+      "kind": "summary",
+      "page": "The SSV Normandy SR-1 (Part 2) — Drive Core, Stealth, and Service History",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Part 2 of a breakdown of the SSV Normandy SR-1, covering its systems and service history. At the rear of main engineering was the Tantalus drive core, the vessel's central nervous system, where power distribution, propulsion, mass effect field generation, and ship-wide integration converged. Powered by a high-output antimatter reactor, it was proportionally twice the size of any other ship's drive core. It enabled the Normandy's unusual propulsion: generating controlled mass distortions the ship \"fell into,\" reducing reliance on heat-emitting thrusters during maneuvering, though fusion drives and conventional thrusters were kept for combat and high acceleration. Its field manipulation had noticeable effects on ship stability, per Joker.\n\nThe Internal Emission Sink (IES) stealth system temporarily stored waste heat in high-capacity internal lithium heat sinks embedded through the hull. It could not be used during FTL travel, where relativistic effects overwhelmed it, and even at sublight the ship remained vulnerable to direct visual confirmation or sustained sensor lock. In practice the Normandy could run silent for several hours at full stealth output, longer if drifting; eventually all stored heat had to be vented or the ship and crew would be lost to internal heat build-up. Together the Tantalus core and IES gave the Normandy sustained deep-space operation with minimal detectability.\n\nThe ship cost an estimated 120 billion credits, roughly the drive-core cost of thousands of fighters or one heavy cruiser; Rear Admiral Mikhailovich called it an extreme allocation of resources for a single prototype. Otherwise she carried standard Council-space frigate armament: GARDIAN point-defense lasers, kinetic barrier shielding, a spinal mass accelerator cannon, and optional Javelin-class disruptor torpedoes. Her crew was about 50 highly specialized personnel, including CO, XO, chief navigator, chief medical officer, chief engineer, marine detail commander, bridge officers, CIC operators, technical crew, marine security, and a requisitions officer.\n\nThe Normandy was named for the 1944 Allied invasion of Normandy. She began service under an Alliance officer whose clash with the Turian chief engineer led to reassignment, after which Captain David Anderson took command. Following trial runs, including an unofficial test flight by Jeff \"Joker\" Moreau, she launched on her first mission to Eden Prime in 2183. The deployment tied the ship to the rise of humanity's first Spectre, Commander Shepard, who took her as a command platform to pursue Saren Arterius and the geth into the Traverse and Terminus systems. The pursuit culminated in the Battle of the Citadel, where the Normandy played a critical supporting role against Sovereign. Later that year, during operations against remaining geth, the Collectors overwhelmed her with firepower far beyond her design limits and destroyed her above Alchera.",
+      "url": "",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "elbrus_003",
+      "kind": "page",
+      "page": "Elbrus",
+      "section": "Trivia",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- John Jackson Miller, who wrote the Invasion comics, confirmed the Elbrus was named specifically after Mount Elbrus, a dormant volcano in Russia, to create a parallel with Petrovsky's name origins. While he notes that Cerberus ships use the naming motif of mountains, this is also the case of Systems Alliance Everest\\-class dreadnoughts; incidentally thus, the Alliance ship SSV Elbrus also exists. ##",
+      "url": "https://masseffect.fandom.com/wiki/Elbrus",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "summary:ssv-normandy",
+      "kind": "summary",
+      "page": "SSV Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The SSV Normandy SR-1 (Systems Alliance Space Vehicle Normandy Stealth Reconnaissance-1) was a prototype \"deep scout\" frigate, first of the Normandy class, co-developed by the Systems Alliance and the Turian Hierarchy with Citadel Council sponsorship. Commissioned in 2183 and named for the 1944 Battle of Normandy, she was optimized for solo reconnaissance deep in unstable regions. She was initially commanded by Alliance officer Elli Zander, who was removed after clashing with turian chief engineer Octavio Tatum over the drive core's limits; David Anderson then took command, and shortly after handed the ship to Commander Shepard when Shepard became the first human Spectre.\n\nThe Normandy was built on three decks: a Command Deck with bridge, airlock, CIC and comm room; a habitation deck with quarters, mess, medical bay and captain's cabin; and an engineering and storage level holding the M35 Mako and the drive core. Her defining feature was the IES (internal emission sink) stealth system, which stored waste heat in lithium heat sinks, allowing silent running for hours; the system did not work at FTL and could be defeated by visual scan. It was powered by the experimental Tantalus Drive Core, roughly twice the size of a normal core and costing about 120 billion credits. Like all frigates she carried GARDIAN lasers, kinetic barriers, a spinal mass accelerator, and could mount Javelin disruptor torpedoes. Key crew included Joker (helmsman), Navigator Charles Pressly, Dr. Karin Chakwas, Engineer Greg Adams, Kaidan Alenko, Ashley Williams, and later Tali'Zorah nar Rayya, Garrus Vakarian and Urdnot Wrex.\n\nDuring her shakedown the Normandy went to Eden Prime to recover a Prothean Beacon, which was destroyed during a geth attack. Rear Admiral Mikhailovich later inspected and criticized her as over-designed. When the Council refused to pursue Saren Arterius, Udina locked the ship down; with Anderson's help Shepard stole her and flew to Ilos. At the Battle of the Citadel the Normandy led the assault that destroyed Sovereign. In 2183 an unidentified starship (later revealed as a Collector cruiser) ambushed and destroyed the Normandy near Alchera, killing over twenty crew including Pressly; Shepard died saving Joker. Cerberus later built the larger Normandy SR-2 from the SR-1's design.",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "petra-nebula_001",
+      "kind": "page",
+      "page": "Petra Nebula",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Priority: Palaven (Mass Effect 3\\) **Note:** After completing Priority: The Citadel II, the Petra Nebula becomes inaccessible. The **Petra Nebula** is a cluster in Earth Systems Alliance Space. During the Reaper invasion, the only location there available to the Normandy SR\\-2 is the Vetus system.",
+      "url": "https://masseffect.fandom.com/wiki/Petra_Nebula",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "scene:prologue-earth-vancouver-anderson-farewell#04",
+      "kind": "scene",
+      "page": "Anderson Stays Behind as the Normandy Leaves Earth",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "prologue-earth-vancouver-anderson-farewell",
+      "text": "Anderson Stays Behind as the Normandy Leaves Earth. 2186, Vancouver, Earth, the first hours of the Reaper invasion (Prologue: Earth) a Systems Alliance HQ tower in Vancouver, then the ruined streets and spaceport, then the Normandy SR-2 shuttle bay From the lifting Normandy Shepard watched the same child climb into an evac Kodiak. A Reaper Destroyer rose over the buildings and shot the shuttle down, killing everyone aboard, the boy included. Shepard stepped back from the open bay doors as the ship cleared Vancouver past the burning wreckage of the human fleets.",
+      "url": "",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "m-44-hammerhead_005",
+      "kind": "page",
+      "page": "M-44 Hammerhead",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The M\\-44 Hammerhead is absent from the Normandy in 2186\\. Steve Cortez explains that the Hammerhead was taken to a lab on Earth to improve its weak armor plating, but the refit was not completed before the Reaper invasion. Cortez suggests that the lab and the Hammerhead were most likely destroyed.",
+      "url": "https://masseffect.fandom.com/wiki/M-44_Hammerhead",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "mass-effect-invasion_002",
+      "kind": "page",
+      "page": "Mass Effect: Invasion",
+      "section": "Issues",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | **Mass Effect: Invasion 1** |  | **Mass Effect: Invasion 2** |  | **Mass Effect: Invasion 3** |  | **Mass Effect: Invasion 4** |",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect:_Invasion",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "scene:prologue-earth-vancouver-anderson-farewell#05",
+      "kind": "scene",
+      "page": "Anderson Stays Behind as the Normandy Leaves Earth",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "prologue-earth-vancouver-anderson-farewell",
+      "text": "Anderson Stays Behind as the Normandy Leaves Earth. 2186, Vancouver, Earth, the first hours of the Reaper invasion (Prologue: Earth) a Systems Alliance HQ tower in Vancouver, then the ruined streets and spaceport, then the Normandy SR-2 shuttle bay Aboard ship, James Vega was incredulous that Shepard meant to follow Anderson's order and leave Earth to beg the Council for aid; the argument allowed a Paragon or Renegade interrupt. Admiral Hackett then contacted Shepard by comm and assigned the next mission, Priority: Mars.",
+      "url": "",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "scene:prologue-earth-vancouver-anderson-farewell#02",
+      "kind": "scene",
+      "page": "Anderson Stays Behind as the Normandy Leaves Earth",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "prologue-earth-vancouver-anderson-farewell",
+      "text": "Anderson Stays Behind as the Normandy Leaves Earth. 2186, Vancouver, Earth, the first hours of the Reaper invasion (Prologue: Earth) a Systems Alliance HQ tower in Vancouver, then the ruined streets and spaceport, then the Normandy SR-2 shuttle bay Anderson handed Shepard an M-3 Predator pistol and the two crossed the rooftops of burning Vancouver while Oculi tore Alliance fighters apart overhead. They raised the Virmire survivor — Ashley Williams or Kaidan Alenko — by radio and told them to get to the Normandy. Along the way Shepard saw a child alone, who refused help and fled into a building; Shepard fought husks hand to hand and, further on, the war's first Cannibals beside two Alliance soldiers, then reached a comm unit by a crashed gunship and hailed the Normandy, which bombed the area clear.",
+      "url": "",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "scene:prologue-earth-vancouver-anderson-farewell#03",
+      "kind": "scene",
+      "page": "Anderson Stays Behind as the Normandy Leaves Earth",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "prologue-earth-vancouver-anderson-farewell",
+      "text": "Anderson Stays Behind as the Normandy Leaves Earth. 2186, Vancouver, Earth, the first hours of the Reaper invasion (Prologue: Earth) a Systems Alliance HQ tower in Vancouver, then the ruined streets and spaceport, then the Normandy SR-2 shuttle bay As Shepard moved to board, Anderson refused to leave — a million more survivors like the men behind them needed a leader — and stayed on Earth to raise a resistance. He threw Shepard the dog tags that reinstated the Commander in the Alliance and charged Shepard with bringing back help from the Council. Shepard protested; Anderson did not change his mind.",
+      "url": "",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "summary:mass-effect-3-n7-collector-s-edition",
+      "kind": "summary",
+      "page": "Mass Effect 3 N7 Collector's Edition",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Mass Effect 3 N7 Collector's Edition was a premium retail package offering exclusive content for Mass Effect 3. It included a 70-page hardcover art book with development-team illustrations, a limited edition copy of the comic Mass Effect: Invasion with unique cover art, a premium N7 fabric patch, an exclusive 4x6 lithographic print of the SR-2 Alliance Normandy, and a premium metal case with commemorative art of both male and female Commander Shepard. Digital bonuses were the N7 Collector's Edition Pack (four N7 weapons: N7 Eagle, N7 Hurricane, N7 Crusader, N7 Valiant; a robotic dog for the Normandy; new outfits for Ashley, Kaidan, James Vega and Liara T'Soni; an N7 Hoodie for Shepard; and one Online Pass), the Mass Effect 3: From Ashes mission and character, a free digital soundtrack, an Xbox LIVE Normandy avatar prop (Xbox 360 only), and a collection of forum and social badges, avatars and perks. Additional retailer-specific pre-order bonuses were also available.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3_N7_Collector's_Edition",
+      "for_key": "Normandy name 1944 invasion"
+    },
+    {
+      "chunk_id": "scene:omega-kenn-salvage-shop#01",
+      "kind": "scene",
+      "page": "Haggling With Kenn at His Salvage Shop",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-kenn-salvage-shop",
+      "text": "Haggling With Kenn at His Salvage Shop. 2185, Omega station, during the recruitment phase for the Suicide Mission Kenn's Salvage shop, Omega Shepard encounters Kenn, a young quarian merchant running Kenn's Salvage on Omega. Kenn arrived at Omega during his Pilgrimage but became stranded when all his money was stolen, leaving him unable to afford passage off the station. Another merchant, Harrot, prevents him from earning enough by forcing him to sell his goods at inflated prices, costing Kenn business.",
+      "url": "",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "summary:kenn",
+      "kind": "summary",
+      "page": "Kenn",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Kenn was a young quarian merchant who ran Kenn's Salvage on Omega station. He had come to Omega during his Pilgrimage but became stranded when all his money was stolen and he could no longer afford passage off the station. A rival merchant, Harrot, kept him from earning enough by forcing him to sell his goods at inflated prices, costing him business. Kenn sold the T6-FBA coupling that the Normandy SR-2's engineers needed to ease their maintenance work.\n\nIf asked, Kenn told Commander Shepard about his situation. Shepard could persuade him to lower his prices, or intimidate Harrot into nullifying their agreement so Kenn could set his own prices, after which a grateful Kenn offered a discount. Kenn still needed a thousand credits for passage off Omega, which Shepard could pay. If Shepard instead convinced Harrot to buy out Kenn's shop, the quarian disappeared from his kiosk but Harrot's store-wide discount applied to the former shop. If Shepard simply gave Kenn the fare without haggling, he left with no discount offered.",
+      "url": "https://masseffect.fandom.com/wiki/Kenn",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "kenn_001",
+      "kind": "page",
+      "page": "Kenn",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Kenn** is a quarian merchant that runs Kenn's Salvage on Omega station. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | He arrived at Omega while on his Pilgrimage, but was trapped when all his money was stolen and he could no longer afford to leave. Another merchant, Harrot, is preventing him from earning enough money with his salvage operation to leave the station by forcing him to sell his goods at higher prices, costing Kenn business. If asked, Kenn can tell Commander Shepard about his problems. He also sells the T6\\-FBA coupling that the engineers on the Normandy SR\\-2 need to make their maintenance easier. Shepard can persuade Kenn to lower his prices or offer to convince Harrot to release the quarian merchant from the agreement, thus allowing him to set his own prices. If the Commander intimidates Harrot into nullifying his agreement with Kenn, Kenn shows his gratitude by discounting his wares if it wasn't sought out earlier. Kenn still needs to make a thousand credits to buy passage off Omega, which Shepard can also offer to pay out. If Shepard convinces Harrot to buy out Kenn's shop, the quarian disappears from his kiosk but the discount Harrot gives Shepard to all his stores also applies to Kenn's former store. If Shepard straightaway gives Kenn enough credits to buy a ticket off Omega without even haggling, however, Kenn leaves his kiosk without so much as a discount. ##",
+      "url": "https://masseffect.fandom.com/wiki/Kenn",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "scene:omega-kenn-salvage-shop#06",
+      "kind": "scene",
+      "page": "Haggling With Kenn at His Salvage Shop",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-kenn-salvage-shop",
+      "text": "Haggling With Kenn at His Salvage Shop. 2185, Omega station, during the recruitment phase for the Suicide Mission Kenn's Salvage shop, Omega If Shepard straightaway gives Kenn the thousand credits for passage off Omega without haggling, Kenn leaves with no discount offered on his wares.",
+      "url": "",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "scene:omega-kenn-salvage-shop#02",
+      "kind": "scene",
+      "page": "Haggling With Kenn at His Salvage Shop",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-kenn-salvage-shop",
+      "text": "Haggling With Kenn at His Salvage Shop. 2185, Omega station, during the recruitment phase for the Suicide Mission Kenn's Salvage shop, Omega Kenn also sells the T6-FBA coupling that the Normandy SR-2's engineers need to ease their maintenance work. If asked, Kenn tells Shepard about his situation with Harrot.",
+      "url": "",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "omega-struggling-quarian_003",
+      "kind": "page",
+      "page": "Omega: Struggling Quarian",
+      "section": "Walkthrough",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The simplest way to complete this assignment is to give Kenn the 1000 credits he needs to get off the station. This option rewards you with 5 Paragon points. You can also go to Harrot and confront him about the matter. Telling Kenn you'll talk to Harrot is optional, since the assignment already points you to the elcor. With high enough Paragon or Renegade, you can convince Harrot to leave Kenn alone: either you physically threaten Harrot, or you convince him to put the quarian out of business by buying him out. Either results in 5 morality points in either direction and discounts to both Harrot's Emporium and Kenn's Salvage, if you haven't negotiated with Kenn yet for the latter. **Note:**  If you haggled with Kenn previously, the two discounts on his inventory don't stack; a \\~16\\.7% markdown is the maximum possible. To maximize morality points for this assignment, threaten to break Harrot's legs. After that, go to Kenn and give him his 1000 credits so he can get off Omega. **Note:**  While haggling with Kenn for the discount also yields morality points, these can be obtained *prior* to this assignment and thus are not actually part of it. Kenn abandons his kiosk in one of two ways: you buy his ticket, or Harrot buys him out. In either scenario the discount to Kenn's Salvage will still be valid if it was previously negotiated. No one replaces Kenn behind the counter at the kiosk.",
+      "url": "https://masseffect.fandom.com/wiki/Omega:_Struggling_Quarian",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "scene:omega-kenn-salvage-shop#03",
+      "kind": "scene",
+      "page": "Haggling With Kenn at His Salvage Shop",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-kenn-salvage-shop",
+      "text": "Haggling With Kenn at His Salvage Shop. 2185, Omega station, during the recruitment phase for the Suicide Mission Kenn's Salvage shop, Omega Shepard can persuade Kenn to lower his prices, negotiate with Harrot directly to nullify his agreement, or arrange for Harrot to buy out Kenn's shop entirely. Alternatively, Shepard can simply give Kenn a thousand credits to buy passage off Omega.",
+      "url": "",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "summary:omega-struggling-quarian",
+      "kind": "summary",
+      "page": "Omega: Struggling Quarian",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Omega: Struggling Quarian\" was an assignment in Mass Effect 2, available after Freedom's Progress. At Kenn's Salvage on the lower level of Omega, Shepard met a quarian named Kenn who was trying to raise enough money to leave the station but was being undercut by Harrot, a powerful elcor merchant. The assignment opened when Shepard asked about Harrot after haggling with Kenn or keeping the conversation going.\n\nThe simplest resolution was to give Kenn the 1000 credits he needed to leave, rewarding 5 Paragon points. Alternatively, Shepard could confront Harrot; with a high Paragon or Renegade score, Shepard could physically threaten Harrot to leave Kenn alone, or convince Harrot to buy Kenn out of business. Either resolution granted 5 morality points in the corresponding direction and discounts at both Harrot's Emporium and Kenn's Salvage. To maximize morality, Shepard could threaten Harrot and then still give Kenn his 1000 credits.\n\nKenn abandoned his kiosk either because Shepard bought his ticket or because Harrot bought him out; no one replaced him behind the counter. The reward was 40 (50) experience. It was internally called \"(Omega:) Extinguishing Sun.\" Notably, the persuasion options subverted the usual alignments: the Renegade choice produced a peaceful buyout while the Paragon choice had Shepard intimidating Harrot.",
+      "url": "https://masseffect.fandom.com/wiki/Omega:_Struggling_Quarian",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "harrot_002",
+      "kind": "page",
+      "page": "Harrot",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Harrot has a deal with Kenn, a quarian merchant operating Kenn's Salvage. The elcor forbids Kenn from setting prices competitive to the Emporium's, hampering Kenn's plan to raise enough money to leave the station. After talking to Kenn, Commander Shepard can confront Harrot. The cigar\\-smoking elcor grows suspicious and either denies or acknowledges any ongoing deal with the quarian, failing to see how it's any of Shepard's business. If Shepard threatens to break Harrot's legs to get him to leave Kenn alone, the elcor is easily intimidated and pledges to release Kenn from their agreement. If Shepard convinces him to buy Kenn's business, Harrot confesses he hadn't previously thought of that because his fellow Omega merchants aren't easy to shut down. Shepard plays up Kenn's \"homesickness\", and Harrot reveals he does have plans to expand, leading to a win\\-win situation. In both scenarios, Harrot gives Shepard a discount to his wares, either as thanks or as conciliation. If Shepard offered to cover the costs for Kenn's ticket before confronting Harrot, however, the elcor will have no reason to give out a discount. Harrot once sold a YMIR Mech to a prospective Taitus miner, who only discovered its defects in the field. Cursing Harrot in his logs, the miner laid out a string of power cells along the mech's path to lead it to a cache of resources, but ultimately they never achieved their objective. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Harrot",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "omega-struggling-quarian_001",
+      "kind": "page",
+      "page": "Omega: Struggling Quarian",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "A quarian named Kenn is trying to raise enough money to leave Omega, but is being undercut by Harrot, a powerful merchant.",
+      "url": "https://masseffect.fandom.com/wiki/Omega:_Struggling_Quarian",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "summary:harrot",
+      "kind": "summary",
+      "page": "Harrot",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Harrot was an elcor merchant on Omega who ran Harrot's Emporium, a salvage shop in the marketplace. In Mass Effect 2, he had a deal with Kenn, a quarian running Kenn's Salvage, forbidding Kenn from setting competitive prices and so hampering Kenn's efforts to earn enough to leave the station. After speaking with Kenn, Commander Shepard could confront the cigar-smoking Harrot, who grew suspicious and either denied or acknowledged the arrangement. If Shepard threatened to break his legs, Harrot was easily intimidated into releasing Kenn from the agreement; if Shepard persuaded him to buy Kenn's business instead, he confessed he had not considered it and saw a win-win. In both cases he gave Shepard a discount, but not if Shepard had already offered to cover Kenn's ticket costs beforehand. Harrot had once sold a defective YMIR Mech to a prospective Taitus miner who cursed him in his logs after it failed in the field.\n\nIn Mass Effect 3: Omega, Harrot was found in Aria T'Loak's bunker shouting for attention, having hidden from Cerberus forces and rampaging Adjutants in a hidden backroom until Aria's patrol liberated him. He planned to win Aria's favor by returning her favorite couch, which the Cerberus General had thrown out of Afterlife, and asked Shepard's help finding it. He reopened the Emporium as a kiosk in the bunker selling war materiel, and if the couch was found he was seen entering the reopened Afterlife. If Shepard had a prior discount, he asked why the Commander seemed familiar. In Legendary Edition, Harrot's redesigned appearance was applied to all elcor across the trilogy.",
+      "url": "https://masseffect.fandom.com/wiki/Harrot",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "omega-struggling-quarian_002",
+      "kind": "page",
+      "page": "Omega: Struggling Quarian",
+      "section": "Acquisition",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Freedom's Progress (mission) Speak with Kenn at Kenn's Salvage on the lower level of Omega. Inquire about Harrot, which comes up after you haggled down Kenn's prices through Paragon or Renegade persuasion or you did neither and selected the middle responses to keep the conversation going.",
+      "url": "https://masseffect.fandom.com/wiki/Omega:_Struggling_Quarian",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "omega-struggling-quarian_005",
+      "kind": "page",
+      "page": "Omega: Struggling Quarian",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- This assignment is referred to as \"(Omega:) Extinguishing Sun\" within the game's internal data. - The dialogue choices Shepard can use to persuade Harrot subvert the usual norms for the two moral alignments. While the Renegade choice (usually aggressive) suggests Harrot buy Kenn off, thus enabling a peaceful resolution, the Paragon choice (usually diplomatic) has Shepard intimidating Harrot. ##",
+      "url": "https://masseffect.fandom.com/wiki/Omega:_Struggling_Quarian",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "chunk_id": "tali-and-the-geth_005",
+      "kind": "page",
+      "page": "Tali and the Geth",
+      "section": "Trivia",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- In Mass Effect Legendary Edition, the assignment name switches caps on Pilgrimage depending on whether you gave Tali the data. In the original version of Mass Effect, the assignment name is **Tali's pilgrimage** regardless of your choice.",
+      "url": "https://masseffect.fandom.com/wiki/Tali_and_the_Geth",
+      "for_key": "kenn pilgrimage"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 10,
+      "text": "- Across the trilogy Tali's ship-name changed from \"nar Rayya\" (Pilgrimage-age) to \"vas Neema\" (adult, ME2) to \"vas Normandy\" (imposed by the Admiralty Board at her treason trial and kept thereafter) (source: Tali'Zorah nar Rayya).",
+      "for_key": "rayya and neema"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 196,
+      "text": "- In Mass Effect 2 Tali's name changed from Tali'Zorah nar Rayya to Tali'Zorah vas Neema on completing her Pilgrimage, and at 25 she commanded her own squad of quarian marines; on Haestrom her whole squad, including Kal'Reegar, was willing to die for her. (source: Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family)",
+      "for_key": "rayya and neema"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 144,
+      "text": "- Quarian ship-names are designations of status in their society—\"nar\" marks an uncompleted Pilgrimage, while \"vas\" marks completion—and stripping a quarian of their assigned ship-name during trial proceedings was used by the Admiralty Board as a method to undercut a defendant's credibility. (source: Tali: Treason)",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 213,
+      "text": "- The Pilgrimage was both a rite of passage and a safeguard against inbreeding; young quarians received lessons on life outside the Fleet, gifts, and immunodeficiency treatment before leaving, and stealing a ship was a capital crime. (source: Migrant Fleet)",
+      "for_key": "pilgrimage rite of passage gift"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 267,
+      "text": "- Young quarians undertake a Pilgrimage to bring something of value back to the Migrant Fleet before joining a new ship as adults; names carry \"nar\" (child of, birth ship) or \"vas\" (crew of, adult ship) plus the vessel name. (source: Quarian)",
+      "for_key": "quarian ship names nar vas"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 103,
+      "text": "- Omega's market ran on monopolistic pressure: the quarian salvager Kenn, stranded on his Pilgrimage after being robbed, was forced by rival merchant Harrot to sell his goods at inflated prices to undercut his business, until Shepard intervened to free him from the arrangement, negotiate a discount, or simply buy him passage off the station outright. (source: Kenn)",
+      "for_key": "kenn pilgrimage"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 81,
+      "text": "- The Normandy SR-1 was named for the 1944 Allied invasion of Normandy, launched on its first mission to Eden Prime in 2183, played a critical supporting role at the Battle of the Citadel against Sovereign, and was destroyed above Alchera later that year by the Collectors, whose firepower far exceeded its design limits (source: The SSV Normandy SR-1 (Part 2) — Drive Core, Stealth, and Service History).",
+      "for_key": "normandy name 1944 invasion"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 95,
+      "text": "- In the Tali: Treason mission, Tali hugged Admiral Shala'Raan warmly while calling her \"Auntie Raan,\" introducing her to Commander Shepard as a friend of her father, and then reacted with shock when the Admiral addressed her as \"Tali'Zorah vas Normandy,\" revealing that her original ship-name had been stripped during the trial. (source: Tali: Treason)",
+      "for_key": "ssv normandy name origin"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

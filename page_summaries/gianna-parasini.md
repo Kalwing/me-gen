@@ -1,0 +1,13 @@
+---
+title: Gianna Parasini
+url: https://masseffect.fandom.com/wiki/Gianna_Parasini
+game: Mass Effect 2
+type: character
+characters: [Gianna Parasini, Anoleis, Lorik Qui'in, Matriarch Benezia, Kaira Stirling, Hermia, Shepard]
+---
+
+Gianna Parasini was the human secretary to Administrator Anoleis at Port Hanshan on Noveria in 2183, and secretly an undercover agent for Internal Affairs employed by the executive board. When dock guards tried to disarm Commander Shepard, Parasini ordered them to stand down, having confirmed Shepard's Spectre status, then met Shepard at the port entrance and mentioned in passing that Matriarch Benezia had recently traveled to Peak 15. From her office ahead of the administrator's, she arranged meetings and provided information on Noveria's labs and corporations. When Anoleis refused Shepard a garage pass, Parasini hinted that Lorik Qui'in, whom Anoleis had accused of corruption, held clearance to leave the port. Using Qui'in's clearance, Shepard could raid the Synthetic Insights office for evidence of Anoleis' corruption, a fight that forced Shepard to kill several ERCS guards, including Kaira Stirling.
+
+Parasini intercepted Shepard afterward on the stairs, asked about the "reports of noise," and requested a meeting at the hotel bar. If Shepard obliged, she revealed her true role: she had spent six months investigating Anoleis but lacked evidence that would convict him, noting "He's a crook, not a moron! He doesn't keep logs on his computer saying 'This month I stole three million credits!'" She asked Shepard to persuade Qui'in to testify in exchange for a garage pass. If Shepard helped, she arrested Anoleis as he demanded she herself be arrested, and cheerfully said she owed Shepard a beer. Shepard could instead betray her by warning Anoleis, leading to a shootout that left both Anoleis and Parasini dead, or simply hand the evidence to Qui'in, which kept both alive but left Parasini disappointed. She often complained that she hated her secretary outfit.
+
+In Mass Effect 2, if she survived, Parasini appeared on Nos Astra on Illium near a Serrice Technology kiosk, now wearing pants. If Shepard had helped her on Noveria she bought Shepard the promised beer, then left a note asking for help arresting an asari smuggler named Hermia. Helping a male Shepard earned a kiss on the cheek. Shepard could alternatively warn Hermia, who fled, prompting Parasini to ask herself "why do I even bother?" In conversation she revealed she grew up poor and had wanted to be a cop or C-Sec officer, preferring white collar crime for the thrill of the chase without the disturbing elements. She also mentioned her superiors' interest in dark energy, possibly linked to the rapidly aging star Dholen.

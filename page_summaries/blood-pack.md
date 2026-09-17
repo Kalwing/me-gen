@@ -1,0 +1,13 @@
+---
+title: Blood Pack
+url: https://masseffect.fandom.com/wiki/Blood_Pack
+game: Mass Effect 3
+type: faction
+characters: [Ganar Wrang, Ganar Yulaz, Gesark, Zaeed Massani, Garm, Kureck, Aresh, Jack, Weyrloc Guld, Maelon, Mordin Solus, Commander Shepard, Grunt, Joram Talid, Salamul, Kalusk, Archuk, Brood, Vega, Aria T'Loak, Narl, Kreete, Gryll, Patriarch]
+---
+
+The Blood Pack was a mercenary group composed mainly of krogan troops and vorcha cannon fodder, favoring brute-force solutions and varren war beasts. It began as a small Terminus Systems vorcha gang and was transformed into a mercenary legion by krogan Battlemaster Ganar Wrang, who had been exiled for striking a female and sought to reclaim his status. Wrang led the vorcha as a pirate crew for a decade, then incorporated the group as a security company across the Skyllian Verge, grew rich from its public offering, and rallied his clan's elders and hordes into professional violence. Banned from Citadel space, the Blood Pack bribed its way into conflicts and took contracts requiring maximal violence and minimal oversight. Krogan members rounded up vorcha and beat them into stronger, faster soldiers. Ganar Yulaz was CEO as of 2185.
+
+On Omega around 2168 the local Blood Pack under the krogan Gesark was humiliated by Zaeed Massani. By 2185 it was led by Battlemaster Garm and competed with the Blue Suns and Eclipse, aiming to overthrow Aria T'Loak and putting a hit on her adviser Patriarch. In the Gozu District the Blood Pack exploited the Collector plague, which spared plague-immune vorcha, and sabotaged ventilation until Commander Shepard's team distributed Mordin Solus's cure. The three merc bands united against the vigilante Archangel; Garm broke into Archangel's hideout through tunnels and was killed when Shepard arrived. On Pragia a crew under Kureck, hired by Aresh to secure the Teltin Facility, died fighting Shepard and Jack. On Tuchanka Blood Pack enforcers served Weyrloc Guld, who kidnapped the salarian Maelon to cure the genophage; Guld and his guards were killed by Shepard and Mordin. Other operations ran on Tarith under Salamul and Zada Ban under Kalusk, plus a bodyguard for politician Joram Talid on the Citadel, and a recruiter courting Grunt.
+
+In Mass Effect: Paragon Lost, a force under Archuk with second Brood besieged Fehl Prime in 2183 before Alliance forces led by Vega destroyed them; Brood survived imprisoned and later reconciled with Vega. In 2186 Aria T'Loak sought to bring the Blood Pack under her command for the war effort; via her contact Narl and the vorcha Gryll, leader Kreete was killed and 2,000 vorcha were committed to Shepard's cause.

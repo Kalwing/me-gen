@@ -1,0 +1,13 @@
+---
+title: The Turian Hierarchy Before the Citadel — Early History
+url: ""
+game: Mass Effect (series)
+type: faction
+characters: []
+---
+
+This hand-corrected lore document reconstructs turian civilization before first contact with the Citadel Council. The turians were an avian-like species that rose to dominance on the third planet of the Trebia system, the future Palaven, evolving to withstand the intense radiation admitted by the world's weak magnetic field and likely facing little predatory competition. Being a dextro-based organism in a levo-dominated galaxy is thought to have shaped their entire culture around the principle that nothing is given and everything must be earned. More than 50,000 years ago the early turians were known to elder spacefaring species such as the Protheans but were dismissed as too primitive to matter, which spared them the Reaper harvest of that cycle.
+
+The earliest signs of sophisticated civilization appeared around 13,000 BCE. By the time the turians reached space they had a single unified global culture built on hierarchical meritocracy, tempered by civic duty and personal responsibility instilled from a young age; military service was treated as the highest form of merit and united society under one cause. By 500 BCE they had mastered spaceflight, pushed beyond their home system, discovered several mass relays and founded colonies. Expansion outran the Hierarchy's reach: colonial chieftains called Primarchs sought autonomy, colonies grew isolated and xenophobic, and colonists adopted emblems and facial markings to distinguish themselves. Around 300 BCE this erupted into the Unification Wars, fought over disputed territory under nationalistic pride. The Hierarchy stayed officially neutral, keeping to strict diplomacy, until the mounting loss of turian life forced it to intervene. The weakened Primarch chieftains, having lost popular support, were compelled to end the fighting and renew allegiance; animosity between colonists took decades to fade.
+
+Most turians still wear their home colony's facial markings, and lacking them is looked down on: "bare-faced" means untrustworthy or beguiling, and is slang for a politician. Reunited, Palaven and its colonies prospered with the military at the center, and the turian navy expanded to at least 32 fleets despite having no enemies. About a thousand years later, around 704 CE, the Hierarchy made first contact with the Citadel Council, a conglomerate led by the asari and salarians, which offered immediate membership, an offer that came with an ulterior motive (a lead-in to the turians being recruited against the krogan).

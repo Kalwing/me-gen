@@ -1,0 +1,13 @@
+---
+title: Eclipse
+url: https://masseffect.fandom.com/wiki/Eclipse
+game: Mass Effect 3
+type: faction
+characters: [Jona Sederis, Sayn, Jaroth, Morl, Enyala, Wasea, Chief Roe, Vorleon, Elnora, Nassana Dantius, Thane Krios, Morinth, Samara, Niket, Oriana, Miranda Lawson, Donovan Hock, Kasumi Goto, Aria T'Loak, Tyrone Rawlings, Shepard, Bailey, Archangel]
+---
+
+Eclipse was a mercenary corporation founded by asari commando Jona Sederis, providing security and firepower to any employer who could pay, with few scruples about clients. Its mercenaries worked in teams of troopers and vanguards led by experienced commando units, favoring stealth, discretion and "intelligent" tactics over the discipline of rivals like the Blue Suns, and compensating with cutting-edge equipment and heavy use of biotics. Eclipse also ran extensive smuggling operations, controlling nearly 20% of all smuggling on Omega. It was primarily composed of asari, salarians and humans, and fielded YMIR, FENRIS and LOKI Mechs. Prospective operatives on Illium were rumored to be required to commit a murder before receiving their uniform. Sederis's second-in-command was Sayn.
+
+In 2185 on Omega, Eclipse commander Jaroth sought revenge on the vigilante Archangel for killing his brother; Eclipse, Blood Pack and Blue Suns temporarily allied to destroy Archangel, but Shepard helped him defeat all three and Jaroth did not survive. On Illium, Nassana Dantius hired Eclipse to protect her from the drell assassin Thane Krios, and Shepard fought through numerous troopers, including confronting and interrogating a lone trooper. While recruiting Samara, Shepard obtained the name of the ship that carried Morinth offworld from an elite Eclipse group called "the Sisterhood," which recruits young asari required to perform one murder as initiation. Eclipse mercenaries under Captain Enyala were hired by Niket to transport Miranda Lawson's sister Oriana. On Bekenstein, Eclipse under Chief Roe guarded Donovan Hock; several were killed by Shepard and Kasumi Goto. On Lorek, Eclipse captured operative Tyrone Rawlings to decrypt data on possible Cerberus rachni experiments; he died under interrogation. On Helyme, an Eclipse team under Captain Vorleon seized an Eldfell-Ashland Energy facility hunting the ship Ter Alan.
+
+Eclipse, Blood Pack and Blue Suns also plotted to overthrow Aria T'Loak once Archangel was dealt with. During the Reaper War, Aria worked to unite the three merc groups under her leadership, and Shepard could help by persuading Commander Bailey to release Jona Sederis from prison or by persuading Sayn to take over Eclipse, yielding mechs and elite stealth troopers for the war effort.

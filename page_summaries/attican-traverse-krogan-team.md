@@ -1,0 +1,13 @@
+---
+title: 'Attican Traverse: Krogan Team'
+url: https://masseffect.fandom.com/wiki/Attican_Traverse:_Krogan_Team
+game: Mass Effect 3
+type: mission
+characters: [Urdnot Wrex, Urdnot Wreav, Grunt, Urdnot Dagg, Liara, Javik, Garrus, Diana Allers, Traynor, Copeland, Joker, Shepard]
+---
+
+This was a Mass Effect 3 mission acquired automatically on returning from Priority: Sur'Kesh. The Urdnot clan leader, either Urdnot Wrex or Urdnot Wreav, reported that a krogan scouting team had gone missing while investigating rumors of activity at the rachni relay beyond it; speaking to him in the War Room changed the journal entry title to Attican Traverse: The Rachni. The Normandy received the team's last-known coordinates and Commander Shepard travelled to the planet Utukku in the Mulla Xul system of the Ninmah Cluster.
+
+There Shepard met Aralakh Company, an elite krogan unit led by Grunt or, if Grunt had died in the Mass Effect 2 suicide mission or was never released from his tank, by Urdnot Dagg. Descending into tunnels beneath the surface, Shepard's team found the bodies of krogan scouts and discovered that the Reapers had established a breeding operation, using rachni to grow a biological army of Ravagers, Swarmers, and other troops. The mission featured heavy use of the M-451 Firestorm flamethrower against Reaper webbing, spore pods, gestation pods, Barrier Engines, and Reaper Nodes, and fights against Ravagers, Husks, and Cannibals.
+
+At the central chamber Shepard confronted either the original Rachni Queen from Noveria, if she had been spared in Mass Effect, or the Breeder, a genetically revived rachni created by the Reapers. Shepard could leave her to die or help her escape on the condition she aid the war effort. Rescuing her required ordering Aralakh Company into a suicidal holding action: sparing the original Queen cost Aralakh Company 25 war asset points but gained 100 points of rachni workers, while rescuing the Breeder gave similar initial gains but the Breeder later betrayed the effort after Priority: Horizon, removing her asset and subtracting 100 points from the Alliance Engineering Corps. Leaving the rachni to die granted Aralakh Company as a 25-point war asset. Regardless of the choice, Grunt or Dagg stayed behind to hold off Ravagers so Shepard's party could reach the shuttle; Dagg always died, and Grunt died only if he had been disloyal in the previous game. In Legendary Edition, rescuing either the Queen or the Breeder meant Aralakh Company was not acquired at all. Afterward Garrus recounted rachni stories to Ensign Copeland in the Port Observation Lounge, and if aboard, Diana Allers discussed the scoop with Specialist Traynor.

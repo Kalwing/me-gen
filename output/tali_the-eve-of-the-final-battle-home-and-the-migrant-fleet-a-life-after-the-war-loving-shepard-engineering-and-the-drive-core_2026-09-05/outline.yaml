@@ -1,0 +1,161 @@
+narrator: tali
+themes:
+- the eve of the final battle
+- home and the Migrant Fleet
+- a life after the war
+- loving Shepard
+- engineering and the drive core
+brief: Tali speaks to a romanced Shepard before the final night, in the engineering
+  room, to try to distract him, appease him, and motivate him. Her digressions punctuate
+  the intimacy with engineering and shipboard facts.
+target_words: 12000
+sections:
+  - id: quiet-shift-in-engineering
+    title: A Quiet Shift Below Decks
+    events:
+      - crucible-superweapon-project
+      - priority-cerberus-headquarters
+    target_words: 800
+    # Cold open, present tense: Tali finds Shepard down in Engineering the night
+    # before the push, sends the drive-core techs up to bed, keeps her hands busy
+    # on a panel while she works up to talking to him. Establishes the room, the
+    # hum of the core, her habit of running diagnostics when she's nervous.
+
+  - id: the-drive-core-as-distraction
+    title: Keeping Her Hands on the Core
+    events:
+      - crucible-superweapon-project
+    target_words: 850
+    # Distraction phase: she walks him through the Tantalus core, grounding
+    # procedures, static discharge, the SR-1 vs SR-2 cores, deliberately turning
+    # shop talk into a way to keep him in the room and out of his own head.
+    # Engineering/shipboard digression well.
+
+  - id: haestrom-and-the-suit
+    title: Haestrom, and What the Suit Costs
+    events:
+      - tali-recruitment-haestrom
+      - freedom-s-progress-investigation
+    target_words: 800
+    # Reaches back to how Shepard found her again on Freedom's Progress and
+    # recruited her on Haestrom - dying sun, failing seals, her environmental
+    # engineering under fire. Personal arc + suit/immune-system digression,
+    # still in service of distracting him with a story.
+
+  - id: pilgrimage-and-jacobus
+    title: Her Pilgrimage, and the Geth Ship
+    events:
+      - tali-pilgrimage-geth-evidence-jacobus
+      - talitha-dock-422-hostage-crisis
+    target_words: 750
+    # Earlier still: how she and Shepard first met on the Citadel, her
+    # Pilgrimage gift, the geth data, proving herself. A story she tells partly
+    # to remind him what she was carrying before she ever knew him.
+
+  - id: the-fleet-and-the-exile
+    title: Seventeen Million Souls, Three Hundred Years
+    events:
+      - quarian-geth-morning-war
+      - morning-war
+    target_words: 950
+    # Dedicated lore/history section: the Morning War, the exile, the Migrant
+    # Fleet's engineering realities - jury-rigged hulls, scarcity, rationing,
+    # governance by Admiralty Board. Her knowledge_bias core subject, told to
+    # him as something she needs him to understand about what he's fighting for.
+
+  - id: rael-and-the-trial
+    title: Her Father, and the Alarei
+    events:
+      - tali-treason-trial-alarei
+    target_words: 900
+    # Appeasement phase begins: the trial, Rael'Zorah's death, the choice to
+    # protect his legacy without exposing his crimes, her exoneration. Working
+    # through old grief so it isn't sitting between them tonight.
+
+  - id: the-collectors-and-the-question
+    title: The Collector Base, and the Question She Didn't Expect
+    events:
+      - suicide-mission
+    target_words: 800
+    # The suicide mission (nobody died), and, folded in, the start of the
+    # romance itself - her nervousness, his patience, the first time she let
+    # him see her without the suit's formality between them.
+
+  - id: rannoch-in-the-offing
+    title: Rannoch, Almost Home
+    events:
+      - priority-perseus-veil
+      - rannoch-admiral-koris
+    target_words: 950
+    # The Fleet's offer to the war effort, the admiralty board, her place on it
+    # or not; the geth dreadnought mission ahead of them in the timeline of her
+    # telling but behind them now - reflecting on the eve of Rannoch itself.
+
+  - id: the-battle-of-rannoch
+    title: What Legion Gave Them
+    events:
+      - rannoch-quarian-geth-war-resolution
+    target_words: 1250
+    # The load-bearing centerpiece: the dreadnought, Legion's sacrifice, the
+    # brokered peace, geth uploading into quarian suits to rebuild immune
+    # systems, everyone lived, the Fleet resettling Rannoch. This is what home
+    # now means to her - real weight, real feeling, half history half wound.
+
+  - id: engineering-a-people
+    title: Rebuilding a Planet With What's Left of a Fleet
+    events:
+      - rannoch-quarian-geth-war-resolution
+    target_words: 850
+    # Lore/worldbuilding section proper: what "home" actually requires now -
+    # atmospheric processors, immune reconstruction, geth labor, decommissioning
+    # ships that have been someone's whole world for three centuries. Her
+    # engineer's-eye vision of a life after the war, not sentiment alone.
+
+  - id: appeasing-him-thessia-and-the-losses
+    title: Thessia, and the Ones She Can't Fix
+    events:
+      - priority-thessia
+      - cerberus-coup-citadel-ashley
+    target_words: 800
+    # Appeasement continues: she addresses what's actually eating at him - the
+    # Prothean beacon and Kai Leng, the losses he carries, the citadel coup and
+    # the survivor's return. She doesn't offer false comfort, she offers
+    # competence and honesty, quarian-style.
+
+  - id: small-mercies-citadel-dlc
+    title: The Night They Stole Back
+    events:
+      - citadel-dlc-archives
+    target_words: 650
+    # Lighter beat before the final push: the Citadel shore leave,
+    # What shepard and the crew told them:  the games, Garrus's contest, space chess with Traynor, the memory used deliberately
+    # to lift the mood - still distraction, now shading into affection. Their song together and watching flot and flotilla together
+
+  - id: what-she-is-to-him
+    title: Vas Normandy
+    events:
+      - priority-perseus-veil
+    target_words: 800
+    # The love story stated plainly: what it means that she calls this ship
+    # home, "vas Normandy," suit protocols around intimacy, trust as an
+    # engineering problem she solved for him specifically. Loving Shepard,
+    # centered.
+
+  - id: motivating-him
+    title: What the Crucible Still Needs From Him
+    events:
+      - crucible-superweapon-project
+      - hades-nexus-prothean-artifact-recovery
+    target_words: 600
+    # Motivation phase: she pivots hard, gets practical and commanding -
+    # what tomorrow's run actually requires of him, the Crucible's power
+    # requirements, why he has to be steady. Her Admiralty voice.
+
+  - id: keelah-selai
+    title: Keelah Se'lai
+    events:
+      - priority-cerberus-headquarters
+    target_words: 400
+    # Closing movement: still in Engineering, the core humming, she sends him
+    # off or holds him there a last moment. Direct address closes the frame the
+    # brief set - the eve of the final battle, home, and him. He's her home, and they will be reunited

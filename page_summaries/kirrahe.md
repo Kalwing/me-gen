@@ -1,0 +1,15 @@
+---
+title: Kirrahe
+url: https://masseffect.fandom.com/wiki/Kirrahe
+game: Mass Effect 3
+type: character
+characters: [Kirrahe, Rentola, Saren Arterius, Shepard, Wrex, Ashley Williams, Kaidan Alenko, Mordin Solus, Garrus Vakarian, Liara T'Soni, Javik, Kai Leng, Thane Krios, Tolan]
+---
+
+Captain Kirrahe was an officer in the salarian military, a member of the 3rd Infiltration Regiment of the Special Tasks Group (STG). His second-in-command was Commander Rentola. Brave, intelligent, and a capable strategist, he inspired his men and was prepared to make sacrifices.
+
+In Mass Effect (2183), Kirrahe's covert team investigated Virmire and discovered Saren Arterius' krogan breeding facility. His request for a fleet reached the Council garbled by communications disruption, so only the SSV Normandy was sent. Suspicious of Wrex, he called the salarians' intervention in krogan evolution "a mistake" but let Shepard handle Wrex's anger. Kirrahe devised a plan to plant an improvised nuclear bomb in the base, personally leading three teams of salarian officers (named Aegohr, Mannovai, and Jaëto after key salarian settlements) alongside either Ashley Williams or Kaidan Alenko as a diversion, knowing they would take heavy losses. He delivered his "Hold the Line" speech to quell dissent among his men. Without Shepard's support (via Shadow Team), Kirrahe was killed by geth air support midway through the operation, and Ashley or Kaidan took command. With help, he survived and later departed the Normandy at its next port.
+
+Key lines from Kirrahe's Virmire speech: "We are trained for espionage. We would be legends, but the records are sealed." — "Our influence stopped the rachni, but before that, we held the line. Our influence stopped the krogan, but before that, we held the line!" — "Our influence will stop Saren! In the battle today, we will hold the line!"
+
+In Mass Effect 3 (2186), if he survived, Kirrahe (now Major) was on Sur'Kesh, having found and brought the female krogan there from Tuchanka. During Cerberus' surprise attack he fought alongside Shepard, "Demolishing a wave of troops with a Scorpion pistol," and covered the Commander's flank. He afterward emailed Shepard: "STG will be there to help when the need arises, regardless of the political climate." During the Cerberus attack on the Citadel, if Kirrahe was alive but Thane was dead or unspoken to, Kirrahe took the point-blank shot Kai Leng aimed at the salarian councilor, limped after Leng, and died at a door, entrusting Shepard with the pursuit. If krogan support was lost through Wrex's death, Kirrahe delivered a rallying speech on Earth in Wrex's place: "While this may not be our world, it is our galaxy!" and "The salarians were here! They did not fail! They did not falter, and they did not surrender!" If Kirrahe did not survive Virmire, Lieutenant Tolan replaced him on Sur'Kesh. His name derives from Currahee Mountain; his "Hold the Line" speech was written by Luke Kristjanson. Mordin, who once served under him, called him "a bit of a cloaca."

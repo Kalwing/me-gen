@@ -1,0 +1,11 @@
+---
+title: Armor-Piercing Ammo
+url: https://masseffect.fandom.com/wiki/Armor-Piercing_Ammo
+game: Mass Effect 3
+type: lore
+characters: [Garrus Vakarian, Kasumi, Shepard]
+---
+
+Armor-Piercing Ammo was an ammo power in the single-player modes of Mass Effect 2 and Mass Effect 3. In Mass Effect 2 it shaped and hardened rounds to inflict extra damage against armor and health, adding from +30% to +50% weapon damage across three ranks and, at rank 4, evolving into either Tungsten Ammo (+70% weapon damage, using tungsten carbide rounds in discarding sabots) or Squad Armor-Piercing Ammo (+50%, extending the effect to the whole squad). It lasted until overridden by another ammo power and had a 1.5-second recharge. It was one of only three ammo powers available as a Bonus Power alongside Warp Ammo and Shredder Ammo, offered the highest raw damage bonus against enemy armor, and was well suited to one-shot kills against armored foes. It was available to Shepard via Advanced Training and to Garrus Vakarian as a loyalty power.
+
+In Mass Effect 3 the power conferred up to three benefits: boosting damage against enemy health and armor by a percentage, enabling shots to physically pierce objects including terrain, enemy plating, other enemies, and squadmates, and reducing the effectiveness of enemy armor. Six ranks scaled the damage bonus and cover penetration, with branching choices for squad bonus, ammo capacity, headshots, and further pierce. An unlisted 50% damage penalty applied when piercing objects, though certain weapons such as the Black Widow, Executioner Pistol, Javelin, M-98 Widow, N7 Crusader, and N7 Typhoon had innate penetration exempt from that penalty. The power did not grant cover penetration to weapons unable to pierce cover, such as the Geth Plasma Shotgun, Krysae Sniper Rifle, and M-37 Falcon. Unlike Warp Ammo or Cryo Ammo, its armor-effectiveness reduction benefited only the user, not the whole party. It was especially useful against armor-plated enemies such as Brutes, plated Cannibals and Husks, and for piercing Guardian and CAT6 Heavy shields, and worked well on NPC squadmates. In Mass Effect 3 it was available to Garrus Vakarian, Kasumi, and Shepard as a Bonus Power.

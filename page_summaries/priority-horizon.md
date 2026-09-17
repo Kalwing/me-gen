@@ -1,0 +1,13 @@
+---
+title: 'Priority: Horizon'
+url: https://masseffect.fandom.com/wiki/Priority:_Horizon
+game: Mass Effect 3
+type: mission
+characters: [Shepard, Kai Leng, Miranda Lawson, Oriana Lawson, Henry Lawson, Illusive Man, Samantha Traynor, Paul Grayson, Tali'Zorah]
+---
+
+Priority: Horizon was a Mass Effect 3 mission acquired after Priority: Thessia, when Samantha Traynor tracked Kai Leng to Horizon following the failed mission on Thessia. Cerberus was suspected of using the Sanctuary facility on Horizon, publicly a refugee haven, as cover for secret activity. If Miranda Lawson had survived the Mass Effect 2 Suicide Mission she was pursuing her missing sister Oriana and suspected their father Henry Lawson; if Miranda was dead, Oriana herself emailed Shepard for help. Three optional emails from Miranda over the course of the game, and reading Kai Leng's dossier before speaking to her, determined whether she survived the mission's climax.
+
+Fighting through the facility against Cerberus troops and elite Reaper forces (Phantoms, a Banshee, Ravagers, Brutes, and Barrier Engines), Shepard uncovered the truth through terminals, audio logs, and video messages left by whichever Lawson sister was present. Sanctuary had been luring refugees in and processing them: unsuitable candidates were sent to "recycling" and used for lethal genetic testing, while the rest were turned into husks. Henry Lawson, working for the Illusive Man, was researching control of husks, and Cerberus footage showed refugees being converted; logs revealed indefinite short-range husk control had been achieved, with control of Reaper ships themselves the goal. The Reapers had recognized Sanctuary as a threat and attacked it, and a Harvester was shown shooting down a Cerberus shuttle on arrival.
+
+At the top of the facility, Henry Lawson held Oriana hostage in a cutscene whose outcome depended on prior choices and Reputation checks. Depending on options taken, Miranda could kill her father with biotics, Shepard could kill or release him, or Oriana could throw herself and Henry off a ledge to their deaths. If present, Miranda's survival hinged on completing her loyalty mission, being warned about Kai Leng, retaining her Alliance access, and not having an on-camera breakup during Mass Effect 3; she always died in a non-imported game. The surviving sister disabled Sanctuary's scrambling tower so her warning could broadcast, and the squad salvaged data pointing to Cerberus Headquarters. The mission made Priority: Cerberus Headquarters available and added the Alliance Sixth Fleet (and a surviving Miranda) as War Assets. Rewards included the M-99 Saber.

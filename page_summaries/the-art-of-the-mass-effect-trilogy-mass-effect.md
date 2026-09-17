@@ -1,0 +1,11 @@
+---
+title: The Art of the Mass Effect Trilogy/Mass Effect
+url: https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect
+game: Mass Effect
+type: lore
+characters: [Casey Hudson, Derek Watts, Chris Hepler, Karin Weekes, Ryan Cormier, Commander Shepard, Matriarch Benezia, Saren Arterius, Ashley Williams, Kaidan Alenko, David Anderson, Joker, Urdnot Wrex, Tali'Zorah nar Rayya, Balak]
+---
+
+This page transcribes the section of The Art of the Mass Effect Trilogy (2021 Expanded Edition) covering the first Mass Effect game, with commentary by Casey Hudson, Derek Watts, Chris Hepler, Karin Weekes and Ryan Cormier. It opens with a BioWare preface and introductions by Hudson and Watts, who cite inspirations including Syd Mead, John Harris, John Berkey and Santiago Calatrava, and note the project's early code name SFX and roughly ten thousand concepts drawn.
+
+The Mass Effect section covers character and world design: Matriarch Benezia's headdress referencing religious and royal clothing; Saren, kept similar to other turians so he could blend into society, with a distinctive crest, mechanical arm and visible Reaper cybernetics reflecting indoctrination; human marines and Shepard's armor (originally red and white, changed to charcoal gray with a red-and-white stripe and N7 logo); the water-emerging inspiration for asari scalp tentacles; the bird-derived turians; the semireptilian, bat-inspired krogan and Wrex's colored crest and scars; the "gray alien" salarians; Tali and the geth-influenced quarian envirosuit; the elcor and the deep-sea-fish-analogy volus; the geth; the fungal Thorian; the deep-sea-inspired rachni queen. It also covers locations: the sculpture-inspired Citadel and Stanford torus Presidium; Virmire's shift from tropical paradise to nautical fortress; Therum, Noveria's Peak 15, Eden Prime, Ilos, and Feros; the Normandy (a hovering military prototype referencing delta-wing fighters and the Concorde); vehicles and the Mako; over two hundred helmet concepts; mass relays derived from an unused Citadel concept; weaponry; geth technology; batarians (BioWare's first four-eyed alien); and the Bring Down the Sky DLC, with its choice between killing Balak and saving hostages.

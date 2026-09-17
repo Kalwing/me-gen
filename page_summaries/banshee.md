@@ -1,0 +1,13 @@
+---
+title: Banshee
+url: https://masseffect.fandom.com/wiki/Banshee
+game: Mass Effect 3
+type: lore
+characters: [Morinth, Falere]
+---
+
+Banshees were synthetic-organic creatures in Mass Effect 3, derived from asari and mutated by Reaper technology. The page described them as frighteningly intelligent advanced pressure units usually found leading a Reaper strike force. The Reapers created them specifically from asari with active or latent predispositions to becoming Ardat-Yakshi, a rare neurological condition that enhances biotic power while causing the immediate death of anyone the asari mates with. Emaciated and lumbering as though in constant pain, Banshees were nonetheless durable, able to hurl lethal balls of energy, create shockwaves as they regenerated, spawn their own warp field, and seemingly teleport during combat. When a Banshee died, its Ardat-Yakshi genetics twisted against it, causing a biotic implosion to prevent capture.
+
+Offensively, while glowing, Banshees covered ground rapidly by teleporting in a series of biotic "hops" that could pass through thin cover or walls, and could grab a foe and impale them for an instant kill or perform a heavy two-armed downward swipe. When not glowing they could crouch and spring up with a damaging Nova-like biotic blast with a mild draining effect, and could throw slow but tracking Warp-like biotic projectiles that shattered shields and inflicted damage over time. Defensively they had highly durable barriers and armor, with depleted barriers regenerating quickly; dealing enough armor damage forced a Banshee to stop glowing and teleporting for a time. When not glowing they could raise a hand to create a field negating almost all offensive powers. A Banshee's head was a weak spot taking 40% bonus damage from headshot weapons.
+
+The tactics section advised treating Banshees as a threat that forced players out of position, sometimes leaving them alone to kill other enemies first, and detailed how the impale sync-kill could be interrupted by staggering damage, killing the Banshee first, or (in multiplayer) the victim being downed by other attacks first. It noted class-specific approaches for Vanguards using Biotic Charge and Nova, and for krogan and batarian characters able to survive the biotic blast without staggering. If Morinth was spared in 2185, she would appear as a Banshee during the assault on Earth, behaving no differently from any other and having to be killed. The page also noted an intact Banshee corpse could be found near Falere in the Ardat-Yakshi Monastery despite the codex claim that Banshee bodies were destroyed on death.

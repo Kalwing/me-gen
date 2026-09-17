@@ -1,0 +1,13 @@
+---
+title: First Contact War
+url: https://masseffect.fandom.com/wiki/First_Contact_War
+game: Mass Effect 2
+type: lore
+characters: [Tadius Ahern, General Williams, Ashley Williams, Kastanie Drescher, Saren Arterius, Desolas Arterius, Vyrnnus, Adrien Victus, Orinia]
+---
+
+The First Contact War, called the Relay 314 Incident by the turians, was a three-month, low-intensity conflict between the human Systems Alliance and the Turian Hierarchy in 2157. After discovering the Charon Relay, humans expanded rapidly and activated every mass relay they could find. Turian patrols found human explorers reactivating the dormant Relay 314, an act forbidden under Citadel regulations imposed after the Rachni Wars. Rather than negotiate, the turians opened fire; one human ship escaped to warn the Alliance, and a retaliatory force destroyed the turian vessels, escalating the situation into war. To the turians it was a police action against a law-breaking species; to humanity it was first contact with alien life.
+
+Humanity, its resources stretched thin by exploration, sent probes armed with nuclear fusion warheads into turian space to prevent technology capture, and lost several scout and patrol fleets. The soldier Tadius Ahern and a small squad held off dozens of turian soldiers for five minutes until evacuation. The turians broke through to Shanxi, humanity's nearest colony, and laid a protracted orbital siege that starved the defenders until General Williams, grandfather of Ashley Williams, surrendered the garrison. A month later Admiral Kastanie Drescher led the Second Fleet against Shanxi, surprising the turians and driving them off the planet. Both sides prepared for full-scale interplanetary war.
+
+The Citadel Council intervened to negotiate peace, and humanity learned of the Citadel and the wider community of species. Only 623 human lives were lost, with slightly more turian casualties; the war's end became known as Armistice Day. The conflict gave humanity a galactic reputation as aggressors, fostered Alliance xenophobia, and contributed to the rise of pro-human groups such as Terra Firma and Cerberus. Some nuclear-armed probes remained at large as an Alliance secret. The turians were ordered to pay heavy reparations. Saren Arterius nurtured a lasting hatred of humanity after his brother's death. Relations later improved somewhat, exemplified by the joint human-turian construction of the SSV Normandy. If Shepard saved the Council during Sovereign's attack, the Hierarchy later considered additional reparations; if not, news reports described renewed distrust and turian military buildup.

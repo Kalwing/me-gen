@@ -1,0 +1,15 @@
+---
+title: Liara T'Soni
+url: https://masseffect.fandom.com/wiki/Liara T'Soni
+game: Mass Effect 3
+type: character
+characters: [Liara T'Soni, Benezia, Saren Arterius, Shepard, Feron, Miranda Lawson, The Illusive Man, Aria T'Loak, Tazzik, Tela Vasir, Sekat, Aethyta, Javik, Glyph, Treeya, Kai Leng, Joker, EDI, Garrus Vakarian]
+---
+
+Dr. Liara T'Soni was an asari researcher and archaeologist with a Doctorate in Anthropology of the Prothean Era from the University of Serrice. Born on Thessia in 2077, she was the pureblood only child of Matriarch Benezia, raised alone by her mother, and had spent fifty years studying the Prothean extinction. In 2183, geth attacked the Prothean ruin on Therum where she was working; she accidentally trapped herself in a protective energy field until Commander Shepard's team freed her. She joined the Normandy, contributed her theory of cyclical extinction, used her melding ability to interpret Shepard's beacon visions, and ultimately identified Ilos as the Conduit's location. On Noveria she witnessed or learned of the death of her indoctrinated mother, who called her "Little Wing" a final time. She was a potential romance for a male or female Shepard.
+
+In Mass Effect: Redemption, after Shepard's death aboard the SR-1, Liara and the drell Feron worked with Cerberus to recover Shepard's body from the Shadow Broker's agent Tazzik, delivering it to the Lazarus Project while Feron was captured. By 2185 (Mass Effect 2) she was a ruthless information broker on Illium, consumed by hatred of the Shadow Broker. In the Lair of the Shadow Broker DLC, she and Shepard pursued the Spectre Tela Vasir across Illium, raided the Broker's base ship, discovered the Broker was a yahg, killed him, and Liara assumed his identity, rescuing Feron and pledging the network to Shepard's fight against the Reapers.
+
+In Mass Effect: Homeworlds she searched Prothean archives on Thessia and Kahje, clashing with the Illusive Man and a Cerberus Phantom. In Mass Effect 3 she reunited with Shepard during the Cerberus raid on the Mars Archives, where she revealed the Prothean blueprint for the Crucible, then relocated her Shadow Broker operation to the Normandy with the VI Glyph, greatly aiding the war effort. She created a time capsule to preserve their cycle's knowledge, met her "father" Matriarch Aethyta on the Citadel, and clashed with Javik over evidence of Prothean interference in asari history, revealed when Thessia fell and Kai Leng stole the temple's Prothean VI.
+
+If romanced, she and Shepard resumed their relationship; before the final battle she offered to join her consciousness to Shepard's to share memories, a practice reserved for asari bondmates. If Shepard rallied enough forces, Liara survived and honored the fallen at the Normandy's memorial wall; if not, she could be killed by Harbinger, or, in the Refusal ending, appeared centuries later as a VI whose time capsule helped a future species defeat the Reapers. In Mass Effect: Andromeda, Ryder can hear voice messages Liara sent to Alec Ryder in 2182 and 2186. Her face model was actress Jillian Murray and her voice actress was Ali Hillis.

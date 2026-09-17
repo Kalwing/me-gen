@@ -1,0 +1,13 @@
+---
+title: Research
+url: https://masseffect.fandom.com/wiki/Research
+game: Mass Effect 2
+type: lore
+characters: [Commander Shepard, Mordin Solus, Chakwas]
+---
+
+Research was a feature introduced in Mass Effect 2 that let the player research upgrades for Shepard, the Normandy SR-2, the squad, specific characters, weapons, and new heavy weapons. The process consumed rare resources (iridium, palladium, platinum, and Element Zero) collected from missions, assignments, or planet scanning. The research terminal was located in the Normandy's Tech Lab on the CIC Deck, and Mordin had to be recruited before the lab could be accessed; researched items then appeared on the adjacent Upgrade terminal. Research projects were discovered by acquiring new upgrades in the field, and some upgrades could instead be bought pre-researched from merchants with credits. Completing the Lair of the Shadow Broker DLC added a second research terminal aboard the Shadow Broker Base along with power respec, survey information, and resource delivery options.
+
+The page catalogs the full upgrade list. Weapon upgrades covered assault rifles, heavy pistols, heavy weapons, shotguns, sniper rifles, and submachine guns, each with a damage track plus penetration/piercing and accuracy or critical/extra-rounds unlocks that changed a weapon's letter designation from M to S to X. New researchable weapons included the ML-77 Missile Launcher, M-622 Avalanche ("Cryo-Blaster"), M-920 Cain ("Nuke Launcher"), Collector Assault Rifle, and M-22 Eviscerator. Armor upgrades included Heavy Skin Weave, Heavy Bone Weave, Heavy Muscle Weave, medical modules, shield upgrades such as Hard Shields and Redundant Field Generator, and new armor sets (Cerberus Assault, Collector Chitin, Inferno). Bio-amp and omni-tool upgrades gave squad-wide biotic and tech damage, duration, and cooldown bonuses.
+
+Squad-member upgrades were unlocked by asking a squadmate about Normandy upgrades or completing their loyalty mission, and included Geth Shield Strength, Krogan Vitality, Subject Zero Biotic Boost (Jack), Mordin's Omni-tool, the Krogan Shotgun for Grunt (a prototype Claymore), and the Geth Sniper Rifle for Legion (a Widow). Normandy SR-2 upgrades, each tied to a squadmate, included the Advanced Mineral Scanner (Miranda), Extended Fuel Cells (Samara), Heavy Ship Armor / Silaris Armor (Jacob), Multicore Shielding / Cyclonic Barrier Technology (Tali), and the Thanix Cannon (Garrus), the last powerful enough to destroy a Collector Ship. A Med-Bay upgrade from Doctor Chakwas healed Shepard's scars. Training upgrades allowed Advanced Training (learning a bonus power) and Retrain Powers. In Legendary Edition, formerly DLC-exclusive equipment had to be purchased or researched like any other gear.

@@ -1,0 +1,13 @@
+---
+title: Rael'Zorah
+url: https://masseffect.fandom.com/wiki/Rael'Zorah
+game: Mass Effect 3
+type: character
+characters: [Rael'Zorah, Tali'Zorah, Han'Gerrel, Daro'Xen, Commander Shepard, Miranda Lawson]
+---
+
+Admiral Rael'Zorah was Tali'Zorah's father and a member of the quarian Admiralty Board. As a young trainee alongside Han'Gerrel, he defended the gunship Yaska against a batarian attack, breaking formation in defiance of orders; the Admiralty Board awarded both trainees medals and sent them on their Pilgrimages early. Rael later rose to the Admiralty Board. He was distant and hard on Tali during her upbringing, determined that she become a capable representative of the quarian people, and driven by the goal of reclaiming Rannoch and building a house for his family there. In Mass Effect: Homeworlds and via vid-mail he impressed on Tali the importance of her Pilgrimage and the need for quarians to be strong. He approved her transfer to the Normandy SR-2 after Haestrom and sent Shepard a message about it.
+
+In 2185 Rael had Tali send him deactivated geth components for a secret project aboard the ship Alarei. He was deliberately reactivating geth to experiment on hacking their neural network, violating sacred quarian laws that predated the flight from the homeworld. He refused his assistants' advice to alert the Admiralty Board, reasoning they would bicker and that he did not want Tali caught in political blowback. The reassembled geth turned on him and killed his entire research team. Tali was charged with treason and exile for sending active geth into the Migrant Fleet. She and Shepard boarded the Alarei, found Rael's corpse, and recovered a message on his omni-tool explaining how to deactivate the geth and instructing her to show the data to Han'Gerrel and Daro'Xen. Whether Shepard presented this evidence to the Admiralty Board affected Tali's trial. Told the truth in secret, Han'Gerrel vowed to keep it hidden. Tali stated that if Rael's deeds were exposed his name would be struck from every ship manifest and he would be remembered as the worst war criminal in quarian history.
+
+In Mass Effect 3, if Tali survived and was not exiled, she temporarily filled Rael's Admiralty seat. Rael's experiments and Daro'Xen's subsequent breakthroughs directly caused the renewed quarian-geth war. After the events on Horizon, if she survived the reclamation of Rannoch, Tali reflected on her father over drinks at the Normandy bar, drawing parallels to Miranda Lawson's relationship with her own father; if romancing Shepard, she mused that Rael would have hated her human partner, and Shepard offered a toast to his memory.

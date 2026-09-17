@@ -1,0 +1,15 @@
+---
+title: The SSV Normandy SR-2 (Part 3) — Propulsion, Stealth, and Sensors
+url: ""
+game: Mass Effect 2
+type: tech
+characters: [Jeff "Joker" Moreau, Commander Shepard]
+---
+
+Part 3 of a breakdown of the Normandy SR-2, covering propulsion, stealth, and sensors. The ship's main propulsion was four large antiproton thrusters with aft and forward exhausts. Antiprotons were injected into a chamber of protium hydrogen, and the matter/antimatter annihilation provided unmatched motive power; the exhaust, measured in millions of degrees Celsius, melted anything caught behind it. If the antiproton supply was depleted, the thrusters switched automatically to weaker conventional hydrogen/oxygen fuel. The SR-2 was further upgraded with the Heed Industries Helios Thruster Module, which used metastable metallic hydrogen for far greater efficiency, letting navigators make countless small course corrections without exhausting fuel and letting the ship coast at a sustainable speed to lower antiproton consumption.
+
+Power for the drive core and electrical systems came from a nuclear fusion plant, with hydrogen fuel cells for auxiliary power. The oversized Tantalus drive core generated a very powerful mass effect field ahead of the ship's center of mass; the ship was pulled toward that virtual mass, effectively "falling" into it and moving without heat-emitting thrusters. Steering shifted the field left or right of center; slowing shifted it behind the ship; acceleration was set by field strength. The core also generated the mass effect field enabling FTL by decreasing the mass of a bubble of space-time around the ship. The SR-2 core was based on the SR-1's but oriented vertically rather than horizontally and was three times the size.
+
+The Internal Emission Sink stealth system stored shipboard heat in lithium heat sinks deep in the hull; combined with exterior hull refrigeration, the ship could travel undetected for roughly two to three hours or drift passively for days. The stored heat eventually had to be radiated or it would cook the crew. The IES did not work in FTL, which blueshifted emissions beyond the sinks' capacity, and a direct visual scan would still reveal the ship. It also did not fool Collector ship scanners, by means unknown.
+
+The Normandy fired atmospheric probes to recover resources and investigate anomalies. Its sensor suite used visual, thermographic, radio, radar, and ladar detectors. The Argus Advanced Mineral Scanner deployed an orbital grid of 100 radar-emitting microsatellites for a global digital elevation model at 15 m per pixel, resolving down to 0.001 mm per pixel at slow speed, and was virtually immune to electronic countermeasures. The medical bay could be upgraded with dermal regenerative units to remove scar tissue and to perform augmentations on consenting crew. The Reaper IFF, Reaper technology recovered from the derelict Reaper orbiting Mnemosyne, allowed safe passage through the Omega 4 mass relay; when installed and activated it transmitted the Normandy's location and locked up its systems, letting the Collectors ambush the ship and abduct most of the crew.

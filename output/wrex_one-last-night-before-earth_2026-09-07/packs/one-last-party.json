@@ -1,0 +1,1206 @@
+{
+  "section": {
+    "id": "one-last-party",
+    "title": "One Last Party on the Citadel",
+    "target_words": 650,
+    "form": "evening",
+    "narrator": "wrex"
+  },
+  "promises": [
+    "The headbutting contest, from Wrex's side of it",
+    "Wrex shooting bottles off the counter and why that counted as a party"
+  ],
+  "required_facts": [
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "During shore leave on the Citadel following the Cerberus coup, Commander Shepard discovers that the mysterious figure orchestrating their identity theft is not a criminal mastermind but an exact clone of themselves, created by Cerberus during the Lazarus Project as a source of spare parts. The clone had been grown and left in stasis, but awakened roughly six months prior and learned to behave human through neural implants. After being chased through earlier identity theft attempts (including an ambush at Ryuusei's Sushi Bar and infiltration of the Silver Coast Casino), Shepard pursues the clone into the Citadel Archives. There, the clone reveals itself in a climactic confrontation. Brooks, an ex-Cerberus agent who had previously assembled the dossiers for the Suicide Mission, has activated the clone as a loose end after becoming disillusioned with Cerberus and the Illusive Man's descent into madness. The clone's plan is ambitious and calculated: use CAT6 mercenaries to secure the Citadel Archives, steal Shepard's Spectre codes and command authorization, access the Normandy SR-2's override systems, and ultimately impersonate the real Commander to take command of the ship. The clone views itself as the true Shepard—a lone wolf unconstrained by the emotional attachments that define the original's leadership. Shepard's team fights through waves of CAT6 operatives inside the Archives. The clone uses the captured Normandy codes to contact Samantha Traynor, ordering the ship prepped for emergency launch under false authority. However, before escaping, the clone seals Shepard and the squad inside iridium vaults—a trap that appears to succeed as the clone heads toward the docking bays. Shepard's AI assistant Glyph discovers the vault system and frees them, allowing the pursuit to continue into the Normandy Docks.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "Shepard discovers the existence of their clone, a major personal revelation",
+      "actor": ""
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "CAT6 mercenary forces on the Citadel are defeated",
+      "actor": ""
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "Maya Brooks is taken into custody (can be killed or arrested per player choice)",
+      "actor": "Maya Brooks"
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "The clone's Spectre code authorization is exposed as fraudulent",
+      "actor": ""
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "The Archives are secured and the identity theft conspiracy unraveled",
+      "actor": ""
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "{'Direct lead into Citadel Docks': 'Retake the Normandy mission'}",
+      "actor": ""
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "Shepard's clone flees to the Normandy with remaining CAT6 forces",
+      "actor": "Shepard's Clone"
+    },
+    {
+      "event_id": "citadel-dlc-archives",
+      "fact": "The clone's ultimate fate is determined in the final Normandy confrontation (can choose to save or execute)",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "wrex_virmire",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Wrex on Virmire.",
+      "answer": "alive",
+      "detail": ""
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": ""
+    },
+    {
+      "id": "samara_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Samara's loyalty mission - the hunt for Morinth.",
+      "answer": "killed",
+      "detail": "She killed innocent people. Doesn't matter that she's an Ardak Yakshi. Samara Joined us"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "iff_delay",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether the abducted Normandy crew survived (how long you delayed after the IFF mission).",
+      "answer": "All survived",
+      "detail": "Did the IFF mission immediately, they all lived"
+    },
+    {
+      "id": "joker_edi_romance",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Joker and EDI's relationship - whether you encouraged it.",
+      "answer": "encouraged",
+      "detail": "I believe love can come in unexpected places, and Joker deserves it more than many."
+    },
+    {
+      "id": "krogan_leader",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The krogan leader during the cure (Wrex or Wreav).",
+      "answer": "Wrex",
+      "detail": "My brother from another mother"
+    },
+    {
+      "id": "grunt_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grunt and Aralakh Company at the Attican Traverse rachni mission.",
+      "answer": "Saved the Rachni. He got out Alive",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    },
+    {
+      "id": "virmire_survivor_rejoins",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether the Virmire survivor (see me1 virmire_survivor) rejoined the Normandy crew.",
+      "answer": "yes",
+      "detail": ""
+    },
+    {
+      "id": "samara_daughter",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Ardat-Yakshi monastery - Falere, Rila, and Samara's fate.",
+      "answer": "Saved her daughter, stopped Samara from killing herself",
+      "detail": ""
+    },
+    {
+      "id": "javik",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether Javik joined the squad (From Ashes).",
+      "answer": "yes",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request",
+      "detail": ""
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "citadel-party-apartment",
+      "title": "The Party at Shepard's Apartment",
+      "kind": "party",
+      "game": "Mass Effect 3",
+      "when": "2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station",
+      "where": "Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden",
+      "participants": [
+        "Shepard",
+        "Jeff \"Joker\" Moreau",
+        "EDI",
+        "Liara T'Soni",
+        "James Vega",
+        "Steve Cortez",
+        "Samantha Traynor",
+        "Garrus Vakarian",
+        "Tali'Zorah vas Normandy",
+        "Urdnot Wrex",
+        "Grunt",
+        "Jack",
+        "Javik",
+        "Zaeed Massani",
+        "Samara",
+        "Kasumi Goto",
+        "Miranda Lawson",
+        "Jacob Taylor",
+        "Kaidan Alenko",
+        "Ashley Williams",
+        "Glyph"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "citadel_dlc": "any"
+        },
+        {
+          "virmire_survivor": "any"
+        },
+        {
+          "grunt_fate": "alive"
+        },
+        {
+          "wrex_virmire": "alive"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Joker suggests the party immediately after the attempted hijacking of the Normandy. Shepard buys Party Provisions from the kiosk at the bar on the second floor of the Silver Coast Casino for 100 credits, then sends the invitations from the private terminal in the apartment office.\n",
+          "source_chunks": [
+            "citadel-party_002",
+            "citadel-party_003"
+          ]
+        },
+        {
+          "text": "Joker, EDI, Liara, James Vega, Steve Cortez and Samantha Traynor are automatic. Everyone else is an optional invite, and only surviving squadmates whose Mass Effect 3 arcs are finished can come at all.\n",
+          "source_chunks": [
+            "citadel-party_003"
+          ]
+        },
+        {
+          "text": "Absences nobody explains: Gardner, Allers, Chakwas, Chambers, Adams, Donnelly and Daniels are all missing. Traynor mentions in the kitchen that Chakwas is dealing with a medical emergency on the Citadel. The rest are simply not addressed.\n",
+          "source_chunks": [
+            "citadel-party_003"
+          ]
+        },
+        {
+          "text": "Glyph asks the Commander what kind of party this is — quiet or energetic — and the answer sets the opening conversations. The groupings themselves are set by the guest list, not the theme.\n",
+          "source_chunks": [
+            "citadel-party_004"
+          ]
+        },
+        {
+          "text": "Opening arrangement: Liara and Traynor in the kitchen with Tali, Samara and Garrus. EDI and Joker at the bar by the window with Miranda and Jacob. James and Cortez on the couches by the piano with the Virmire survivor and Jack. Wrex and Grunt upstairs on the balcony with Zaeed and Javik. Kasumi flits between the bar and the kitchen, uncloaking to interject.\n",
+          "source_chunks": [
+            "citadel-party_004"
+          ]
+        },
+        {
+          "text": "Wrex and Grunt spend the opening trading krogan insults over who is stronger — Grunt calling Wrex a fossil and belittling his age. If the mood is energetic they headbutt each other to settle it and Shepard has to stop them before the furniture goes.\n",
+          "source_chunks": [
+            "grunt_005",
+            "urdnot-wrex_012"
+          ]
+        },
+        {
+          "text": "Grunt tells Wrex that two of Aralakh Company's recruits had opposed his appointment, and that only one of them had to be dealt with, the other having been killed in a fight.\n",
+          "source_chunks": [
+            "grunt_005"
+          ]
+        },
+        {
+          "text": "Garrus's verdict on the place is that it would be a good place to retire, its sightlines appealing to his sniper sensibilities. He complains at a quiet party about the lack of hard drinks and at an energetic one dares Shepard to try the swill on offer.\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        },
+        {
+          "text": "Traynor cannot get over the size of the apartment — the electric bill alone would have covered her college tuition. Tali's version is that the same bill would have bought her an air conditioner for her suit, which she does not have, and it gets hot in there.\n",
+          "source_chunks": [
+            "samantha-traynor_005",
+            "tali-zorah-nar-rayya_012"
+          ]
+        },
+        {
+          "text": "The group toasts the Normandy. Traynor admits she still feels like an outsider next to people who have histories with Shepard, and everyone weighs in.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_013",
+            "samantha-traynor_005"
+          ]
+        },
+        {
+          "text": "Traynor gets everyone recounting how they met Shepard. Tali's memory is that all she could think about was hoping Shepard had showered, because her filter needed replacing and humans carry a lot of germs. Liara notes that three years on she is drinking Shepard's booze through a straw, and calls that progress.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_013"
+          ]
+        },
+        {
+          "text": "Second phase, energetic: Liara and James argue on the balcony about whether biotics or muscle wins, with Jacob, Miranda, Jack and the Virmire survivor taking sides. James shows off his \"fine example of peak physical form\"; Liara says she is going to challenge him to a pull-up contest, which gives him pause. Shepard picks a side. If Shepard backs biotics, Liara lifts him off the floor with no visible effort and Kasumi uncloaks to goad him into sit-ups; if Shepard backs muscle, the push-ups happen instead.\n",
+          "source_chunks": [
+            "james-vega_018",
+            "citadel-party_005"
+          ]
+        },
+        {
+          "text": "Second phase, energetic, at the bar: Joker gets ganged up on by Cortez, Garrus, Wrex and Javik or Zaeed over refusing to keep a sidearm in the cockpit. Garrus's line is that a weapon he cannot get to is no weapon at all. Wrex offers Tuchanka as the harshest planet alive and dares anyone present to last a day there, says krogan parties involve a lot of violent deaths, and announces he needs to shoot something. If Shepard keeps the mood up and backs the shooting practice, he makes good on it — bottles on the counter, with Javik and Zaeed joining in.\n",
+          "source_chunks": [
+            "urdnot-wrex_012",
+            "garrus-vakarian_014",
+            "citadel-party_005"
+          ]
+        },
+        {
+          "text": "Second phase, energetic, at the door: Grunt works the vid-phone as bouncer, distinguishing fake salarian lip-hair from the real thing and establishing that Shepard has no half-brother named Sheppy the Volus. He is briefly tempted by cookies and turns them away anyway.\n",
+          "source_chunks": [
+            "grunt_005",
+            "citadel-party_005"
+          ]
+        },
+        {
+          "text": "Second phase, quiet: Grunt dares Wrex into a drinking contest and will not accept his excuses, goading him with \"logic is for salarians\" and the observation that the great Urdnot Wrex has backed down from a challenge. Elsewhere Liara and James compare the SSV Normandy with the SR-2 in the den, with Tali acting out both ships' handling and engine noise and reporting that the SR-2 is harder to perform. Garrus and Zaeed stand on the balcony discussing how to make the apartment defensible.\n",
+          "source_chunks": [
+            "grunt_005",
+            "tali-zorah-nar-rayya_013",
+            "garrus-vakarian_014",
+            "citadel-party_005"
+          ]
+        },
+        {
+          "text": "Traynor and Joker — or Traynor and EDI, extremely awkwardly — work through Traynor's recorded opinion of EDI's voice, while Tali nearly poisons herself with cheese trying to change the subject.\n",
+          "source_chunks": [
+            "citadel-party_005",
+            "tali-zorah-nar-rayya_013"
+          ]
+        },
+        {
+          "text": "Third phase, quiet: Tali ends up on the floor of the downstairs bathroom, wasted and barely comprehensible, having got an omni-tattoo at Jack's suggestion. Shepard tells her to get some rest and hears fragments of her muttering while passing the door afterwards. Grunt is wherever the food or the drink is, announcing his hunger. Liara and James play cards in the den with Javik and a cloaked Kasumi, Glyph dealing if Shepard sends it there.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_013",
+            "grunt_005",
+            "citadel-party_006"
+          ]
+        },
+        {
+          "text": "Third phase, energetic: Grunt is wasted under the running shower upstairs, muttering about being a Space Cowboy, asking whether someone is a wizard, mourning that hanar cannot wear sweaters and reporting that he found a blue rock for Liara. Downstairs the dancing starts between the kitchen and the conference room — Traynor, Cortez, Jack, Samara, Garrus and Tali — with Glyph setting up the floor if sent. Kasumi is in the downstairs bedroom closet going through Shepard's underwear drawer.\n",
+          "source_chunks": [
+            "grunt_005",
+            "citadel-party_006",
+            "tali-zorah-nar-rayya_013"
+          ]
+        },
+        {
+          "text": "Garrus on watching Shepard dance: record it and broadcast it at the Reapers, because they will either run, melt down, or fall in love. Someone starts reciting the periodic table; at \"element 69\" the humans snicker and Garrus reminds them it is thulium.\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        },
+        {
+          "text": "Garrus's quiet-party alternative is micro-filaments — tiny explosives laid in a grid across the glass by the door that shred anyone coming through — coordinated with Zaeed over comms, and he later gets to name a booby-trapped coffee maker \"caffeine rush\".\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        },
+        {
+          "text": "At the end Shepard assembles everyone by the couch for a group photo. Couples face each other; everyone else looks at the camera. The photograph hangs afterwards by the downstairs bar, opposite the fireplace.\n",
+          "source_chunks": [
+            "citadel-party_006"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "miranda_alive": true,
+            "jack_present": true
+          },
+          "text": "Miranda and Jack end up in the den insulting each other. Shepard can push them to reconcile or egg them on; Kasumi uncloaks either way and makes it worse.\n",
+          "source_chunks": [
+            "citadel-party_005",
+            "jack_009"
+          ]
+        },
+        {
+          "condition": {
+            "romance": "Garrus"
+          },
+          "text": "Liara calls the apartment the \"Shepard-Vakarian love nest\"; if Shepard is with someone else, Garrus is the one making the love-nest joke and promising not to interrupt.\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-party-morning-after",
+        "citadel-grunt-csec-noodles",
+        "citadel-wrex-casino-ice",
+        "citadel-traynor-kepesh-yakshi",
+        "citadel-tali-fleet-and-flotilla",
+        "citadel-garrus-casino-bar",
+        "citadel-jack-apartment-eezo",
+        "citadel-biotiball-night",
+        "citadel-thane-memorial"
+      ],
+      "related_events": [
+        "citadel-dlc-archives"
+      ],
+      "source_chunks": [
+        "citadel-party_002",
+        "citadel-party_003",
+        "citadel-party_004",
+        "citadel-party_005",
+        "citadel-party_006",
+        "garrus-vakarian_014",
+        "grunt_005",
+        "urdnot-wrex_012",
+        "tali-zorah-nar-rayya_012",
+        "tali-zorah-nar-rayya_013",
+        "samantha-traynor_005",
+        "james-vega_018",
+        "jack_009"
+      ]
+    }
+  ],
+  "attendance": {
+    "citadel-party-apartment": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:citadel-party-apartment#13",
+      "kind": "scene",
+      "page": "The Party at Shepard's Apartment",
+      "section": "party",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-party-apartment",
+      "text": "The Party at Shepard's Apartment. 2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden Second phase, energetic, at the bar: Joker gets ganged up on by Cortez, Garrus, Wrex and Javik or Zaeed over refusing to keep a sidearm in the cockpit. Garrus's line is that a weapon he cannot get to is no weapon at all. Wrex offers Tuchanka as the harshest planet alive and dares anyone present to last a day there, says krogan parties involve a lot of violent deaths, and announces he needs to shoot something. If Shepard keeps the mood up and backs the shooting practice, he makes good on it — bottles on the counter, with Javik and Zaeed joining in.",
+      "url": "",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "aralakh_008",
+      "kind": "page",
+      "page": "Aralakh",
+      "section": "Tuchanka",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Tuchanka** is the *fourth* planet orbiting the star Aralakh. *Main article: Tuchanka*",
+      "url": "https://masseffect.fandom.com/wiki/Aralakh",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "tuchanka-bomb_001",
+      "kind": "page",
+      "page": "Tuchanka: Bomb",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The turian team that crashed on Tuchanka was trying to prevent Cerberus from detonating a bomb that would cause massive casualties on the planet. Land on Tuchanka and help the turian platoon stop Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka:_Bomb",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "eletania_001",
+      "kind": "page",
+      "page": "Eletania",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Attican Beta / Hercules System /  **Third planet** **Prerequisite:** Priority: Tuchanka (Mass Effect 3\\)",
+      "url": "https://masseffect.fandom.com/wiki/Eletania",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "quana_001",
+      "kind": "page",
+      "page": "Quana",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Attican Beta / Theseus System /  **Fourth planet** **Prerequisite:** Priority: Tuchanka (Mass Effect 3\\)",
+      "url": "https://masseffect.fandom.com/wiki/Quana",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "sharring_001",
+      "kind": "page",
+      "page": "Sharring",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Attican Beta / Theseus System /  **Third planet** **Prerequisite:** Priority: Tuchanka (Mass Effect 3\\)",
+      "url": "https://masseffect.fandom.com/wiki/Sharring",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "atos-irn_001",
+      "kind": "page",
+      "page": "Atos Irn",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Aethon Cluster / Esori System /  **Second planet** **Prerequisite:** Priority: Tuchanka (Mass Effect 3\\)",
+      "url": "https://masseffect.fandom.com/wiki/Atos_Irn",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "cherk-sab_001",
+      "kind": "page",
+      "page": "Cherk Sab",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Aethon Cluster / Aru System /  **Fourth planet** **Prerequisite:** Priority: Tuchanka (Mass Effect 3\\)",
+      "url": "https://masseffect.fandom.com/wiki/Cherk_Sab",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "doldit_001",
+      "kind": "page",
+      "page": "Doldit",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Aethon Cluster / Aru System /  **Fifth planet** **Prerequisite:** Priority: Tuchanka (Mass Effect 3\\)",
+      "url": "https://masseffect.fandom.com/wiki/Doldit",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "summary:tuchanka",
+      "kind": "summary",
+      "page": "Tuchanka",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tuchanka was the krogan homeworld, the fourth planet of the Aralakh System in the Krogan DMZ. Scarred by bombardment craters, radioactive rubble, choking ash, salt flats, and alkaline seas, it could barely support life. Thousands of years earlier, life had grown in fierce abundance under the F-class star Aralakh (a Raik clan word meaning \"Eye of Wrath\"), with tree-analogues in thick jungles rooted in shallow silty seas. The world died in nuclear firestorms around 1900 BCE after the krogan split the atom, and a \"little ice age\" of nuclear winter killed off most remaining plant life, collapsing krogan society into warring clans and a dark age that lasted roughly 2000 years.\n\nFirst contact with the salarians in 80 CE, during the Rachni Wars, made a krogan resurgence possible: krogan taken to less hostile worlds bred exponentially and returned to reconquer their home. They built vast underground bunkers against surface radiation, which proved prescient during the Krogan Rebellions when many sealed themselves in to avoid the genophage, convinced they could outbreed it; instead the genophage was transmitted into more than 90 percent of the sealed bunkers. During the salarian uplift the salarians also built the Shroud facility on Tuchanka to shield the planet from harmful solar radiation. By the time of the games, the genophage kept the population sharply limited, with few replacements despite krogan longevity.\n\nIn recent centuries many krogan returned; the reduced albedo raised global temperatures, so a vast shroud was assembled at the L1 Lagrange point, maintained by the Council Demilitarization Enforcement Mission (CDEM) from orbiting battlestations. CDEM advisories warned that visitors landed at their own risk and would not be extracted from clan warfare, and that nearly every native species, even the carnivorous vegetation, was predatory. Tuchanka was the first alien homeworld Shepard could visit. Missions set here included Grunt: Rite of Passage and Mordin: Old Blood in Mass Effect 2, and Priority: Tuchanka, Tuchanka: Bomb, and Tuchanka: Turian Platoon in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "summary:aralakh",
+      "kind": "summary",
+      "page": "Aralakh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Aralakh was a gateway system that the krogan accorded a place of significance in their culture. The name meant \"eye of wrath\" in the krogan language and was also given to a place on Tuchanka and to an elite krogan warrior unit. Access to the system required prior completion of \"Mordin: Old Blood\" or \"Grunt: Rite of Passage\" in Mass Effect 2, and of \"Priority: Sur'Kesh\" in Mass Effect 3.\n\nAll of Aralakh's terrestrial worlds were inhospitable; even the krogan homeworld Tuchanka was barely livable by other species' standards. The Krogan Rebellions had stripped most of the system's resources for the war effort, though some deposits remained. The Council Demilitarization Enforcement Mission (CDEM) kept a careful watch on krogan hotspots to prevent another uprising like the Rebellions, and part of its role was regulating helium-3 fuel sales skimmed from the system's gas giants.\n\nThe planets orbiting the star Aralakh were Durak (first), Kanin (second), Kruban (third), Tuchanka (fourth), Ruam (fifth), and Vaul (sixth); the system also contained a mass relay and a fuel depot. Tuchanka was the focus of extensive gameplay content: in Mass Effect 2 it hosted the missions \"Grunt: Rite of Passage\" and \"Mordin: Old Blood\" and several assignments, and in Mass Effect 3 it hosted \"Priority: Tuchanka,\" \"Tuchanka: Bomb,\" \"Tuchanka: Turian Platoon,\" \"N7: Cerberus Attack,\" and Citadel-related missions.",
+      "url": "https://masseffect.fandom.com/wiki/Aralakh",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#01",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Grunt believes he is seriously ill and asks to be taken to Tuchanka for a diagnosis. Shepard takes it to the leader of Clan Urdnot.",
+      "url": "",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "scene:tuchanka-mordin-and-maelon#01",
+      "kind": "scene",
+      "page": "Mordin, Maelon, and the Weyrloc Hospital",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-mordin-and-maelon",
+      "text": "Mordin, Maelon, and the Weyrloc Hospital. 2185, during Mordin's time aboard the Normandy Tuchanka — Clan Urdnot's camp, then a hospital turned Weyrloc fortress Mordin hears his old assistant Maelon has been taken on Tuchanka, and is afraid of what the krogan will do if they learn Maelon helped modify the genophage.",
+      "url": "",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "summary:mass-effect-3-guide",
+      "kind": "summary",
+      "page": "Mass Effect 3 Guide",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page is a walkthrough of Mass Effect 3's mission structure, dividing plot progression into a Prologue and three Acts, each Priority mission gating the next. The Prologue covers Prologue: Earth (escaping the Reaper invasion aboard the Normandy SR-2), Priority: Mars (saving Liara T'Soni and retrieving Crucible data), and Priority: The Citadel I (rallying the galaxy's races). Act I runs Priority: Palaven (rescuing the turian primarch), Priority: Sur'Kesh (a war summit of turian, salarian, and krogan leaders, then protecting a krogan female from Cerberus), and Priority: Tuchanka (escorting the krogan female and a salarian scientist to the Shroud to disperse a genophage cure). Act II covers Priority: The Citadel II (stopping a Cerberus coup against the Council), Perseus Veil, Geth Dreadnought, Rannoch (deactivating the Reaper signal upgrading the geth), The Citadel III, Thessia (retrieving Catalyst information as the Reapers devastate the planet), and Horizon. Act III is Priority: Cerberus Headquarters (recapturing a Prothean VI that can identify the Catalyst) and Priority: Earth (the final battle and Crucible deployment).\n\nThe page then lists side missions grouped by the Priority mission that unlocks them, flagging \"progress-sensitive\" missions that expire when a later plot mission is completed and \"timed\" missions marked failed after a set number of missions (for example Tuchanka: Bomb, within three missions). It warns that no side missions can be done once Priority: Cerberus Headquarters begins. It notes DLC missions folded into progression (Priority: Eden Prime from From Ashes, Citadel: Aria T'Loak from Omega, Citadel: Dr. Bryson from Leviathan, Citadel: Shore Leave from Citadel) and Mass Effect 2 squadmate cameos in specific side missions: Kasumi Goto in Citadel: Hanar Diplomat, Jack in Grissom Academy: Emergency Evacuation, Grunt in Attican Traverse: Krogan Team, Jacob Taylor in Arrae: Ex-Cerberus Scientists, Zaeed Massani in Citadel: Volus Ambassador, and Samara in Kallini: Ardat-Yakshi Monastery. Attican Traverse: Krogan Team and Tuchanka: Turian Platoon each unlock Priority: Tuchanka, and Rannoch: Admiral Koris and Rannoch: Geth Fighter Squadrons unlock Priority: Rannoch. It notes Legendary Edition includes all former DLC while keeping prerequisites largely intact.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3_Guide",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "summary:urdnot-camp",
+      "kind": "summary",
+      "page": "Urdnot Camp",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Urdnot Camp was a small, rubble-strewn settlement on the krogan homeworld of Tuchanka, controlled by Clan Urdnot. A shuttle landing pad connected to the camp proper by a derelict passageway. The camp contained the throne dais of Clan Urdnot's leader, a building housing the Urdnot shaman where representatives of other clans gathered, a varren-fighting pit, the clan's food stores (frequently raided by invasive pyjak), a merchant's kiosk run by Ratch, and the laboratory of the clan's Lord High Researcher, Fortack.\n\nIn 2185 Commander Shepard traveled to the Urdnot Camp to aid Mordin Solus in searching for a missing fellow Special Tasks Group member during the mission \"Mordin: Old Blood,\" and to help Grunt complete his Rite of Passage in \"Grunt: Rite of Passage.\" Shepard could also speak with the leader of Clan Urdnot, who was either Urdnot Wrex (if he survived Virmire and joined Shepard) or Urdnot Wreav. Additional activities included helping a krogan mechanic find a combustion manifold to repair a vehicle, addressing the clan's chronic pyjak infestation, and betting on a varren fight. If Urdnot Wrex was alive, a Clan Nakmor representative was present at the camp to negotiate an alliance with Clan Urdnot, and Shepard could interact with the negotiation. The traditionalist Gatatog Uvenk was also present, opposing the current clan leadership. Missions and assignments tied to the location included \"Tuchanka: Urdnot Wrex,\" \"Tuchanka: Combustion Manifold,\" \"Tuchanka: Killing Pyjaks,\" and \"Tuchanka: Old Blood: Missing Scout.\"",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Camp",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "scene:tuchanka-mordin-and-the-shroud#06",
+      "kind": "scene",
+      "page": "Mordin Goes Up the Shroud",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "tuchanka-mordin-and-the-shroud",
+      "text": "Mordin Goes Up the Shroud. 2186, the genophage cure the Shroud tower, Tuchanka However he dies, his name goes on the Normandy's memorial wall.",
+      "url": "",
+      "for_key": "tuchanka harshest planet"
+    },
+    {
+      "chunk_id": "foods_052",
+      "kind": "page",
+      "page": "Foods",
+      "section": "Fish and Chips",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cortez expresses his desire for some mouthwatering fish and chips during the party at Shepard's personal apartment, but later he advocates to crack the bar open and mix more drinks instead.",
+      "url": "https://masseffect.fandom.com/wiki/Foods",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "scene:citadel-party-apartment#08",
+      "kind": "scene",
+      "page": "The Party at Shepard's Apartment",
+      "section": "party",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-party-apartment",
+      "text": "The Party at Shepard's Apartment. 2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden Garrus's verdict on the place is that it would be a good place to retire, its sightlines appealing to his sniper sensibilities. He complains at a quiet party about the lack of hard drinks and at an energetic one dares Shepard to try the swill on offer.",
+      "url": "",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "scene:citadel-party-apartment#01",
+      "kind": "scene",
+      "page": "The Party at Shepard's Apartment",
+      "section": "party",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-party-apartment",
+      "text": "The Party at Shepard's Apartment. 2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden Joker suggests the party immediately after the attempted hijacking of the Normandy. Shepard buys Party Provisions from the kiosk at the bar on the second floor of the Silver Coast Casino for 100 credits, then sends the invitations from the private terminal in the apartment office.",
+      "url": "",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "drinks_014",
+      "kind": "page",
+      "page": "Drinks",
+      "section": "Cocktails",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Drinks prepared with multiple components and generally dispensed at bars. Silver Coast Casino hosts two bars, and its bartenders offer information on what they have available. Samantha Traynor has an extensive knowledge of party cocktails owing to time spent bartending in college. She exhibits her expertise during Shepard's Citadel party if the party goes for a relaxed atmosphere.",
+      "url": "https://masseffect.fandom.com/wiki/Drinks",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "scene:citadel-party-apartment#04",
+      "kind": "scene",
+      "page": "The Party at Shepard's Apartment",
+      "section": "party",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-party-apartment",
+      "text": "The Party at Shepard's Apartment. 2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden Glyph asks the Commander what kind of party this is — quiet or energetic — and the answer sets the opening conversations. The groupings themselves are set by the guest list, not the theme.",
+      "url": "",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "scene:citadel-party-apartment#20",
+      "kind": "scene",
+      "page": "The Party at Shepard's Apartment",
+      "section": "party",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-party-apartment",
+      "text": "The Party at Shepard's Apartment. 2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden Garrus's quiet-party alternative is micro-filaments — tiny explosives laid in a grid across the glass by the door that shred anyone coming through — coordinated with Zaeed over comms, and he later gets to name a booby-trapped coffee maker \"caffeine rush\".",
+      "url": "",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "citadel-party_002",
+      "kind": "page",
+      "page": "Citadel: Party",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Citadel Docks: Retake the Normandy Joker suggests throwing a party at the Personal Apartment immediately after the attempted hijacking of the Normandy SR\\-2.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Party",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "foods_049",
+      "kind": "page",
+      "page": "Foods",
+      "section": "Cheeses",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Different varieties are available for both dextro and levo physiologies. According to Tali during the party at Shepard's apartment, herbed dextro cheeses are particularly rare since \"The turians almost never bother.\"",
+      "url": "https://masseffect.fandom.com/wiki/Foods",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "drinks_060",
+      "kind": "page",
+      "page": "Drinks",
+      "section": "TM88 Peruvian Whiskey",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A human export, conditionally available as a gift item worth 1000 credits undiscounted from the Sirta Supplies kiosk at Huerta Memorial Hospital. Kaidan Alenko can be given a bottle of the whiskey during his convalescence in the hospital, a gesture he appreciates. Shepard's party at their personal apartment features, among other things, numerous bottles of TM88 on various tables and counters.",
+      "url": "https://masseffect.fandom.com/wiki/Drinks",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "james-vega_018",
+      "kind": "page",
+      "page": "James Vega",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Shepard can invite Vega and Cortez for a night of drinks and watching biotiball featuring the Seattle Sorcerers taking on the Usaru Maestros, before or after the party. Cortez sends an e\\-mail asking for an invitation, if Shepard has helped him reach a sense of closure on his husband's death. Both Cortez and Vega state their cases for each team to win. Vega backs the Maestros and is teased by Cortez for it, who cites Vega's support of the Maestros is mostly due to their players being beautiful asari, than their actual skill. Vega sheepishly admits he has got the \"hots\" for the Maestro players. Shepard is asked to back a team. Selecting a particular team will result in the supporter of that team winning the bet (though the Sorcerers always win the game). Vega is disappointed when his team doesn't win and grudgingly admits defeat. When Shepard questions the nature of the bet, the winner reveals that the bet was only on whether the Commander would be correct in their pick, rather than who would actually win. After the game, both of them thank Shepard and leave the apartment. Vega is a mandatory invite to Shepard's big party. During the party a female Shepard with no prior commitments can support a hook\\-up between herself and James. If this happens Shepard will wake up the next morning with James; however, he asks Shepard to not mention what happened to anyone else. In the first stages of the party Vega hangs out with Cortez on the couches in the living room. If Shepard sets a quiet party, James hangs out with Liara by the bar at the poker den, engaging in a debate over which ship is better: the SSV Normandy or the Normandy SR\\-2. James favors the latter. At the conclusion of a quiet party, Vega plays poker with Liara in the den. If the party is set to energetic, James spends time at the apartment balcony with Liara and some of the other biotics in the party, namely Liara, Jacob, Jack, Miranda, and Kaidan/Ashley, if they're present. Vega claims physical training trumps biotics, much to the incredulity of the others. Liara challenges this claim and both of them exchange friendly barbs, with the others supporting Liara. Vega then proceeds to show off his \"fine example of peak physical form\". Ashley, if present, shows interest beyond professionalism in Vega, to which he reacts favorably. If Shepard favors physical training, James shows satisfaction at her choice and then points out that he can roll his tongue as well. Later, Liara tells James she's going to challenge him to a pull\\-up contest, something which causes James to give pause, unsure if he should accept the challenge. If Shepard favors biotics, Vega reluctantly accepts the decision. In the next stage of the party, James demonstrates the result of the debate. If Shepard sided with biotics, Liara gives James a demonstration of her powers by biotically lifting him with seemingly no effort. Vega comments on feeling \"fuzzy\" all over, \"among other things.\" If Shepard chose physical training instead, Vega (plus Jacob and/or Kaidan if they're present) do push\\-ups. If Kasumi is also around, she sits on top of Vega while cloaked. Vega naturally finds it difficult to keep up with Jacob, much to his consternation. Kasumi finally reveals herself when Vega is tired out and the marine collapses at that instant. When the party gets lively, Vega may flirt with Ashley if she is present. Shepard can either encourage the exchange or tell them to cool it. If encouraged, Vega continues his playful banter, attempting to woo her with the Spanish phrase *\"tú con tantas curvas, y yo sin frenos\"* (“you with such curves, and me with no brakes”). Ashley, amused, keeps asking him to repeat it until Vega becomes confused—ultimately resulting in nothing more than lighthearted, harmless flirting. If they don't continue flirting, James instead dances with the other balcony guests. He favors a fist\\-pumping moveset akin to aerobic exercise. In the morning after the party, he cooks eggs for the guests, encouraging them all to try his eggs.",
+      "url": "https://masseffect.fandom.com/wiki/James_Vega",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "reave_009",
+      "kind": "page",
+      "page": "Reave",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Reave is an archaic verb with roots in Middle English and Old English meaning to rob, steal, or plunder; alternatively, to split, tear, or break apart. - In Mass Effect 3, if Kaidan is present at the party at Shepard's apartment, he may boast that he was able to learn how to Reave after extensive training. Liara and possibly others respond to this with some trepidation. ##",
+      "url": "https://masseffect.fandom.com/wiki/Reave",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "drinks_065",
+      "kind": "page",
+      "page": "Drinks",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Samantha Traynor's party cocktails may have been inspired by entries from this Save Game article. Drink names, drink recipients and drink ingredients mentioned by Traynor are almost verbatim matches for the ones put forth in the article. - Tupari Sports Drink's claim of bringing ancestors back from the grave may be a reference a popular urban legend of Pepsi's 'Come alive with the Pepsi Generation' slogan being translated into Chinese as 'Pepsi brings your ancestors back from the grave'. - \"Paragade\" is a fan\\-term for a Shepard who is primarily Paragon, yet occasionally uses Renegade dialogue options and Interrupts. - Mass Effect: The Official Cocktail Book is a BioWare\\-approved drinks compendium with instructions on how to make in\\-universe drinks with real\\-world ingredients, published on October 22, 2024\\. It contains the recipes of a number of the aforementioned beverages, though several of them are rendered somewhat more digestible by human standards. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Drinks",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "summary:silversun-strip",
+      "kind": "summary",
+      "page": "Silversun Strip",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Silversun Strip was a hub location on the Citadel Wards introduced in Mass Effect 3's Citadel downloadable content. It contained the Armax Arsenal Arena, Shepard's Personal Apartment, the Silver Coast Casino, Castle Arcade, a bar, and a Rapid Transit point, and served as a second social hub where Shepard could meet current and former squad members after receiving e-mail invitations. These encounters depended on the ally's own mission being complete, and some allies had a first meeting on the Strip and a later one in the Apartment.\n\nPoints of interest included the Personal Apartment (with the Home Spun kiosk and, for a Spacer Shepard, the ability to call Hannah Shepard), the Armax Arsenal Arena (with a vorcha Three-card Monte hustler outside and procurement and weapon-upgrade terminals), Castle Arcade (featuring Shattered Eezo, the Claw Game, Relay Defense, and a powered-down Towers of Hanoi), the Silver Coast Casino (Quasar, roulette, varren racing, and Kasumi Goto's suspicious device), and the bar where Citadel: Party supplies were sold and Garrus Vakarian, Ashley Williams, Joker, and Urdnot Wrex could be met.\n\nMissions staged here included Citadel: Shore Leave, Citadel: Identity Theft I and II, Silver Coast Casino: Infiltration, Citadel: Party, and numerous Armax Arsenal Arena challenges. Notable background NPCs included Francis Kitt promoting a krogan-led production of Macbeth and an out-of-work elcor actor who quoted Hamlet. Arena and arcade high-score boards listed characters such as Aria T'Loak, Barla Von, Khalisah al-Jilani, Bray, Matriarch Aethyta, Schells, Armando-Owen Bailey, Mouse, and James Vega. Several overheard conversations referenced Mass Effect 3's multiplayer mode.",
+      "url": "https://masseffect.fandom.com/wiki/Silversun_Strip",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "summary:drinks",
+      "kind": "summary",
+      "page": "Drinks",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The page catalogs beverages consumed across the Mass Effect galaxies, spanning sustenance, personal preference and social lubrication. It lists dozens of named drinks with their species associations, effects and in-game contexts rather than telling a single story.\n\nAlcoholic entries include Akantha, a popular asari liquor with a smoky flavor that cuts hangovers; asari honey mead, brewed in an Ardat-Yakshi monastery and the most expensive liquor in Aria T'Loak's bar; batarian ale, a potent green drink; Serrice Ice Brandy, a 1,000-credit favorite of Dr. Chakwas; turian brandy, which Tali'Zorah drinks through an \"emergency induction port\" (a straw); Elasa, a Thessian drink nicknamed \"Sorrow's Companion\" that Anderson drank in Chora's Den during his 2165 divorce; horosk, a hard turian drink strong enough to induce comas; ryncol, an extremely potent krogan liquor; and Noverian Rum, which Aria lamented being unable to obtain. Species-specific intoxicants include the hanar's mindfish (a hallucinogenic skin oil), the angaran marljeh and tavum, the volus bina, and krogan drinks such as burukh, sovak juice (used to name newborns via belching contests) and \"liquefied turian,\" a reverse-chirality dare drink with adverse effects on all who tried it. Methanol is safely ingested by some species and mined by Terminus pirates on Antirumgon.\n\nCocktails feature heavily, many mixed by Samantha Traynor during Shepard's Citadel party using her college bartending knowledge: the Full Biotic Kick, Quad Kicker, Tasty Tankard, Frozen Pyjak (made from a bartender's spill pad and ice), Perfection, and the Weeping Heart (a martini with mild drell-skin venom). Umi Henon's concoctions in Andromeda, including Combat Juice and an angaran wine and ryncol mix, caused blackouts and wild dancing in Ryder. The Vortex on the Nexus served the Dirty Squirrel, Lucky Leprechaun, Tall Moose and Rotten Scoundrel via bartender Dutch Smith.\n\nNon-alcoholic entries include coffee, credited by SAM for its own existence through Alec Ryder's consumption; soda; and sports drinks Tupari (with an aggressive marketing campaign claiming it revives ancestors) and its rival Paragade. Wine entries cover champagne, Thessia Red (the Illusive Man ordering a \"'47\"), and various bottles Anderson purchased. Whiskeys named include Mount Milgrom scotch, one 645-year-old bottle of which reached Andromeda and could be stolen by Reyes Vidal from Sloane Kelly's storeroom. Mass Effect: The Official Cocktail Book (2024) collects real-world recipes for many of these drinks.",
+      "url": "https://masseffect.fandom.com/wiki/Drinks",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "summary:personal-apartment",
+      "kind": "summary",
+      "page": "Personal Apartment",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Personal Apartment was a location on the Citadel, in Tiberius Towers on the Silversun Strip, introduced in the Citadel DLC for Mass Effect 3. It originally belonged to Admiral David Anderson, who planned to retire there with Kahlee Sanders. While the Normandy SR-2 was docked at the Citadel for repairs, Anderson gave the apartment to Commander Shepard as a place to relax during shore leave. It included a weapon bench, armor locker, private terminal, and a furnishings catalog for items bought from Home Spun on the Strip. Scattered through the apartment were audio recordings of parts of Anderson's biography, including an unfinished interview with reporter Khalisah al-Jilani.\n\nThe apartment had two floors: a ground floor with a large seating area, fireplace, bar, piano, kitchen with a Normandy SR-2 model, a bedroom, and a smaller living room holding the Private Terminal and Catalog; and a first floor with an art gallery, a second seating area, Shepard's large bedroom with the armor locker and weapon bench, an en-suite bathroom with a hot tub, and a third bedroom. Squadmates and other characters could be summoned to the apartment or invited out onto the Strip after messages arrived at the private terminal; some characters had one interaction on the Strip and a second in the apartment, in fixed order.\n\nAccessories accumulated through play: a plush volus doll and stereo music tracks won from the Claw Game at Castle Arcade, a trophy left by Samantha Traynor after a visit, a photo of Thane Krios left on the piano after Kolyat's visit, and Glyph playing Liara's song on the piano. The Anderson biography recordings covered his London childhood (born June 8, 2137), his enlistment, service in the First Contact War, N7 training, his first meeting with a salarian Spectre, cross-species training on Palaven under Bartus Aurix, his failed marriage, the design of the Normandy SR-1, and his decision to release the Normandy to Shepard before the Battle of the Citadel. Associated missions included Citadel: Shore Leave, Citadel: Identity Theft, and Citadel: Party.",
+      "url": "https://masseffect.fandom.com/wiki/Personal_Apartment",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "summary:citadel-party",
+      "kind": "summary",
+      "page": "Citadel: Party",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Party was a Mass Effect 3 mission in the Citadel DLC in which Commander Shepard hosted a gathering at the Personal Apartment during shore leave. Joker suggested the party immediately after the attempted hijacking of the Normandy SR-2 in Citadel Docks: Retake the Normandy. To prepare, Shepard bought Party Provisions for 100 credits, or 90 with both Intel Terminal discounts, from a kiosk at the Silver Coast Casino bar, then sent invitations from the apartment's private terminal. The party had to be held before Priority: Cerberus Headquarters, after which the DLC content closed.\n\nJoker, EDI, Liara, James Vega, Steve Cortez, and Samantha Traynor were auto-invited as guaranteed survivors. All other guests were optional and required surviving all three games with their Mass Effect 3 arcs complete: Garrus, Grunt, Jacob, Jack, Javik, Kasumi, Samara, Zaeed, Wrex, Ashley or Kaidan, Tali, and Miranda Lawson, each with specific prerequisites. Squadmates fated to die in their arcs, Legion and Thane Krios, did not appear; Mordin Solus would not break cover even if he survived; Morinth was absent. Other Normandy crew such as Karin Chakwas could not attend, with Traynor stating Chakwas was handling a medical emergency on the Citadel.\n\nGlyph asked Shepard to pick a Quiet or Energetic theme, which set dialogue but not group arrangements. The party ran in phases: an opening, a second part where Shepard could keep or switch the theme and settle guest disagreements, and a final phase whose arrangements followed the second theme, with Shepard choosing which group Glyph joined. Kasumi repeatedly uncloaked to interject. Conversations covered the two Normandys, biotics versus muscle, Joker's refusal to keep a gun in the cockpit, and Miranda and Jack's feuding. The phase ended with a Group Photo, later hung near the downstairs bar, in which romantic couples faced each other.\n\nShepard woke in the aftermath, potentially beside a love interest; an unromanced female Shepard could wake with James Vega or Javik. If Mordin had survived through the genophage arc, a datapad of his recordings lay by the bed. The guests dispersed around the apartment before Shepard signaled Rapid Transit to return everyone to Docking Bay D24. The Normandy crew gathered at the observation window; if Shepard had romanced Thane, his spirit appeared to speak to his siha before Shepard boarded last, closing the DLC. The Silversun Strip remained accessible afterward. Mark Meer later said Shepard's final franchise line, recorded for this mission, was \"The best.\"",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Party",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "chunk_id": "greg-adams_003",
+      "kind": "page",
+      "page": "Greg Adams",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Following the destruction of the SSV Normandy, Adams and most of the surviving crew were reassigned. Two years later, Dr. Chakwas and Joker joined the Normandy SR\\-2 crew as members of Cerberus but Adams did not. After joining the crew of the Normandy SR\\-2, Tali remarked that Adams' absence was proving difficult to get used to. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Greg_Adams",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-and-adams-crew-quarters#06",
+      "kind": "scene",
+      "page": "Chakwas and Adams in the Crew Quarters",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-chakwas-and-adams-crew-quarters",
+      "text": "Chakwas and Adams in the Crew Quarters. 2186, during the war, while the med-bay is given over to Eve the crew quarters and med-bay of the Normandy SR-2 On the eve of the final battle she tells Shepard how far they have come since then-Captain Anderson's Normandy, and that it has been her honour.",
+      "url": "",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "citadel-shore-leave_001",
+      "kind": "page",
+      "page": "Citadel: Shore Leave",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Normandy is due for retrofits, and the crew has earned shore leave. Bring the Normandy to the Citadel and visit Admiral Anderson's apartment.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Shore_Leave",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "bring-down-the-sky_002",
+      "kind": "page",
+      "page": "Bring Down the Sky",
+      "section": "Description",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A batarian extremist group has hijacked a mobile asteroid station in the Asgard system, setting it on a collision course with the nearby colony world of Terra Nova. Only you, and the hand\\-picked crew of the Normandy, can save the millions of innocent civilians before the asteroid completes its deadly descent. This first downloadable content pack further expands the Mass Effect universe and continues the adventures of Commander Shepard and the Normandy crew.",
+      "url": "https://masseffect.fandom.com/wiki/Bring_Down_the_Sky",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "charles-pressly_005",
+      "kind": "page",
+      "page": "Charles Pressly",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Pressly is listed on the Normandy SR\\-2's new memorial wall on the crew deck.",
+      "url": "https://masseffect.fandom.com/wiki/Charles_Pressly",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-and-adams-crew-quarters#03",
+      "kind": "scene",
+      "page": "Chakwas and Adams in the Crew Quarters",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-chakwas-and-adams-crew-quarters",
+      "text": "Chakwas and Adams in the Crew Quarters. 2186, during the war, while the med-bay is given over to Eve the crew quarters and med-bay of the Normandy SR-2 With the salarian doctor working on Eve in the med-bay, she spends her time in the crew quarters with Engineer Adams, telling him it was not his fault that he could not help the team in 2185.",
+      "url": "",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect_025",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect",
+      "section": "The Normandy",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Early concepts for the *Normandy* explored the ship as a fighter, a cruiser, a smuggler's ship, and a stealth vessel. Eventually it became a military prototype with a large crew and sufficient cargo space to store the Mako. Despite the fact that it lands on planets, we purposely never put visible landing gear on the *Normandy*\\-\\-it hovers. When it docks on stations like the Citadel, arms extend and attach to the ship. *Normandy*'s final design referenced delta\\-wing fighters and the Concorde, giving it an aggressive, futuristic look. The concepts below and to the right were made to visualize the wide variety of machinery on the *Normandy* and throughout the *Mass Effect* universe. These images are concepts of the *Normandy*'s navigational and loading\\-bay areas. We needed to create a space where a large crew could live comfortably for months at a time.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "normandy-crash-site-assignment_008",
+      "kind": "page",
+      "page": "Normandy Crash Site (assignment)",
+      "section": "Mission Summary",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "There are four possible outcomes for this assignment, depending on whether Shepard found all dog tags and whether the N7 helmet has been recovered: **All dog tags and N7 helmet recovered:** A monument has been placed at the last resting place of the SSV Normandy on Alchera and the families of all missing crew members have been notified of their ultimate sacrifice. Shepard's lost N7 Helmet was recovered. **All dog tags recovered; N7 helmet not found:** A monument has been placed at the last resting place of the SSV Normandy on Alchera and the families of all missing crew members have been notified of their ultimate sacrifice. **Not all dog tags found; N7 helmet recovered:** A monument has been placed at the last resting place of the SSV Normandy on Alchera. The Alliance still seeks any sign of the remaining crew members lost when the ship was destroyed. Shepard's lost N7 Helmet was recovered. **Not all dog tags found; N7 helmet not found:** A monument has been placed at the last resting place of the SSV Normandy on Alchera. The Alliance still seeks any sign of the remaining crew members lost when the ship was destroyed. - Experience reward: 10 (12\\) for each dog tag found, up to 200 (240\\) total - Credits: 3,750 - Alliance Funding: 3,750 - Credits Found: 0 - Minerals: - Element Zero: 500",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_Crash_Site_(assignment)",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-and-adams-crew-quarters#01",
+      "kind": "scene",
+      "page": "Chakwas and Adams in the Crew Quarters",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-chakwas-and-adams-crew-quarters",
+      "text": "Chakwas and Adams in the Crew Quarters. 2186, during the war, while the med-bay is given over to Eve the crew quarters and med-bay of the Normandy SR-2 The Alliance had no idea what to do with Chakwas when it impounded the Normandy — she was never formally Cerberus and had a proper leave of absence — though she notes she could still have been tried as an accessory had Shepard been convicted. She had been working at an Alliance R&D lab at Shalta Ward, coordinating with Hackett.",
+      "url": "",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "war-assets-alliance_015",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Diana Allers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: The player to give her permission for working aboard the Normandy. **Military Strength:** 5 Alliance News Network reporter Diana Allers has been broadcasting from the Normandy, interviewing crew members and high\\-ranking Alliance officers to give the galaxy an \"insider's view\" of the war.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "kelly-chambers_003",
+      "kind": "page",
+      "page": "Kelly Chambers",
+      "section": "Suicide Mission",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After the Normandy crew is abducted by the Collectors, Shepard must decide whether to travel immediately through the Omega 4 Relay to rescue the crew and destroy the Collector Base or to delay the mission in order to prepare themselves better. If Shepard chooses the latter option, the team arrives just in time to see Kelly and other crew members get horrifically dissolved into raw organic material — which Doctor Chakwas describes as paste — used to create the Human\\-Reaper. If Shepard chooses to go through the Omega 4 Relay immediately, then Lilith, a colonist from Horizon, is liquefied, but Shepard and the squad free Kelly and the rest of the crew just in time. After releasing them from their pods, Shepard can choose to assign a squad member to lead the survivors back to the Normandy. If Shepard saves Kelly in the suicide mission, the yeoman recalls the events of her imprisonment vividly, reminiscent of Thane's memory recollection.",
+      "url": "https://masseffect.fandom.com/wiki/Kelly_Chambers",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-and-adams-crew-quarters#04",
+      "kind": "scene",
+      "page": "Chakwas and Adams in the Crew Quarters",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-chakwas-and-adams-crew-quarters",
+      "text": "Chakwas and Adams in the Crew Quarters. 2186, during the war, while the med-bay is given over to Eve the crew quarters and med-bay of the Normandy SR-2 Unlike Kelly Chambers, she claims to have put the abduction behind her — and eventually admits to Adams that she lied about that to keep a brave face on.",
+      "url": "",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "summary:normandy-crash-site-assignment",
+      "kind": "summary",
+      "page": "Normandy Crash Site (assignment)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Normandy Crash Site was a Mass Effect 2 assignment delivered as free Cerberus Network DLC. After acquiring the Normandy SR-2, Shepard received an e-mail from Admiral Hackett (\"Normandy Crash Site Located\") reporting that Alliance scans in the Amada System, Omega Nebula, had located the wreckage of the SSV Normandy on the planet Alchera. The Alliance asked Shepard to place a memorial monument on the site and to recover any sign of the 20 crew members still unaccounted for after the Collector attack that destroyed the ship.\n\nThe assignment was a solo exploration with no hostiles. As Shepard walked the frozen crash site, the Commander experienced flashbacks to areas of the SR-1: the ship docked at the Citadel in Dock 422, Joker at the cockpit controls, the sleeper pods, the Mako in the cargo bay, the CIC and Galaxy Map, Navigator Pressly saluting, and the squad member left behind on Virmire. Notable wreckage included the intact Mako, the destroyed Galaxy Map, port armor plating still reading \"Normandy,\" the sleeper pod compartment, a cockpit section, and an upright escape pod.\n\nTwenty dog tags were scattered across the map, most inside yellow crates, each belonging to a lost crew member (Bakari, Barrett, Chase, Crosby, the two Dravens, Dubyansky, Emerson, Felawa, Gladstone, Grenado, Grieco, Laflamme, Lowe, Negulesco, Pakti, Rahman, Tanaka, Tucks, Waaberi). A datapad belonging to Navigator Pressly held three journal entries charting his shift from distrust of the ship's alien crew to a declaration that he would die for any member of the crew regardless of their birthworld. Shepard's lost N7 helmet could also be recovered; if found it appeared on the desk in the Commander's SR-2 quarters. Four containers held 500 units of element zero total.\n\nShepard had to place the monument to complete the assignment; returning to the shuttle afterward ended the mission. If at least one dog tag was recovered, Hackett sent a follow-up e-mail thanking Shepard on behalf of the notified families. Rewards included 3,750 credits in Alliance funding, 500 element zero, and up to 240 experience. In Mass Effect 3, the names of all crew lost with the SR-1 appear on the Normandy SR-2's memorial wall regardless of how many dog tags were collected.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_Crash_Site_(assignment)",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "summary:normandy-special-ingredients",
+      "kind": "summary",
+      "page": "Normandy: Special Ingredients",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Normandy: Special Ingredients was a short Mass Effect 2 assignment. After the mission Freedom's Progress, Shepard could speak to Mess Sergeant Gardner on the crew deck of the Normandy SR-2 and ask whether he needed anything. Gardner explained he wanted better ingredients to improve the crew's meals before the suicide mission, and that most of the supplies were available at the Citadel. Shepard traveled to Level 27 of the Citadel, visited the Zakera Cafe store, and purchased the High-Grade Provision for 500 credits, then returned it to Gardner to complete the assignment. The reward was 40 experience. Completing it caused crew members such as Crewman Goldstein to later remark on the improved food quality.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy:_Special_Ingredients",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "summary:normandy-crash-site",
+      "kind": "summary",
+      "page": "Normandy Crash Site",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Normandy Crash Site was a DLC pack for Mass Effect 2, released alongside the game on January 26, 2010, and later included in Mass Effect Legendary Edition. It required download or purchase of the Cerberus Network. The pack let Commander Shepard explore the crash site of the SSV Normandy after Alliance Command asked Shepard, as the vessel's last commanding officer, to be first to walk the site, recover the remains of missing crew members and place a monument there. It added one assignment (Normandy Crash Site), one location (the Amada system in the Omega Nebula cluster), and one cabin item (Shepard's N7 helmet).",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_Crash_Site",
+      "for_key": "normandy crew"
+    },
+    {
+      "chunk_id": "summary:greg-adams",
+      "kind": "summary",
+      "page": "Greg Adams",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Lieutenant Gregory Adams was a human Systems Alliance engineer of the 22nd century, hand-picked by Captain David Anderson to serve as Chief Engineer of the SSV Normandy. He had served on every class of Alliance starship, most recently the SSV Tokyo, which he considered a good ship but inferior to the Normandy. Aboard the Normandy SR-1 he maintained a friendship with Navigator Pressly, remained calm and even-tempered, and could brief Commander Shepard on the ship's IES stealth system and engines. He expressed condolences after Corporal Jenkins died on Eden Prime, welcomed non-human crew, was impressed by Tali'Zorah nar Rayya's technical skill and took her under his wing, and was untroubled when Shepard took the Normandy to the Terminus Systems.\n\nAfter the SR-1 was destroyed, Adams and most surviving crew were reassigned. Unlike Dr. Chakwas and Joker, he declined to join the Cerberus-backed Normandy SR-2 in 2185, citing prior run-ins with Cerberus and disbelief that Shepard was alive; Tali noted his absence was hard to get used to.\n\nIn Mass Effect 3, Adams returned to lead the SR-2 engine room after the ship was turned over to the Alliance. He was the first to recognize EDI as an AI rather than a VI. He apologized to Shepard for refusing the earlier call and later discussed his regret with Chakwas or Dr. Michel in the crew quarters. When EDI went offline after the Palaven mission, Adams brought a fire extinguisher to the AI Core and helped as EDI took over Eva Coré's body. If Mordin was absent, Adams contacted EDI about the IFF upgrade and its evolving encryption keys. He offered Shepard a GX12 thermal pipe to make the drive core safer; installing it also let Daniels and Donnelly develop eezo capacitor improvements usable on the Crucible. A firm proponent of synthetic life as valid sapient life, Adams debated the topic with Donnelly and the ship's doctor, with Shepard able to weigh in. After Thessia he could be found with Kaidan praising Liara's resilience. Before the final battle he told Shepard the Normandy was ready and closed with, \"It has been an honor and privilege to serve with you.\" Roger Jackson voiced Adams, who also voices Harkin.",
+      "url": "https://masseffect.fandom.com/wiki/Greg_Adams",
+      "for_key": "normandy crew"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 52,
+      "text": "- Boris Mikhailovich: Systems Alliance officer of the Fifth Fleet commanding the 63rd Scout Flotilla; as a Rear Admiral he gave the Normandy a hostile surprise inspection on the Citadel, objecting to its cost, stealth system, turian design and multi-species crew, with Shepard able to sway, rebuff, or refuse him. Led the 63rd against Sovereign at the Battle of the Citadel with the fewest losses of any Alliance flotilla, was promoted to Admiral, and aids the anti-Reaper war in Mass Effect 3 only if the Council was not saved. (source: Boris Mikhailovich)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 211,
+      "text": "- In Mass Effect 3: Citadel, Brooks posed as an Alliance Staff Analyst, orchestrated a mercenary ambush on Shepard, allied with Shepard's Cerberus clone to steal the Spectre code, sealed the Normandy crew to suffocate, and was arrested after abandoning the clone to its death; she never became a War Asset. (source: Maya Brooks)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 372,
+      "text": "- Tali was well-liked by the entire Normandy crew across all three games; in Mass Effect 3, if she died for the geth, Garrus was the only one to show anger toward Shepard, calling her \"a good friend.\" (source: Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 35,
+      "text": "- At Shepard's Citadel apartment party (Mass Effect 3: Citadel DLC), former college bartender Samantha Traynor mixed a full cocktail menu to order: Garrus got a Dextro Heat Sink, Kasumi a Memory Stealer, James Vega a Rojo Loco, Jack a vodka-whiskey-bourbon-and-energy-drink mix, and Miranda a Perfection made without its usual strawberry liqueur; she could also recite exact ingredients for the Full Biotic Kick (bourbon, Tuchanka dry, orange twist, ginger beer) and the Quad Kicker (spiced rum, bourbon, ginger ale, curry powder, which she omitted being allergic). (source: Drinks)",
+      "for_key": "apartment party drinks"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 4,
+      "text": "- Advertising and consumer branding permeated daily Citadel life: Tupari sports drink ran an aggressive, exaggerated ad campaign (claiming 12 trillion bottles sold a day and the ability to \"bring ancestors back from the grave\"), competing against the rival brand Paragade; a Zakera Ward holo-projector ad for Serrice Council's \"Sophist\" biotic amps would name-drop whichever Normandy crew member's love interest happened to be standing nearby. (source: Drinks)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 110,
+      "text": "- Party and mess-hall cooking was a recurring bonding ritual: Mess Sergeant Rupert Gardner made calamari gumbo (an asari recipe) for the Normandy crew given high-grade provisions, Kenneth Donnelly complained Gardner couldn't make haggis properly, and James Vega cooked huevos rancheros of dubious egg origin in the SR-2's kitchen. (source: Foods)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 174,
+      "text": "- The Normandy's cockpit mimics a modern military submarine aesthetic with crew working at bright computer screens in an otherwise dark environment. (source: The Art of the Mass Effect Trilogy/Mass Effect)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 175,
+      "text": "- The Normandy SR-2's captain's cabin featured a purchasable pet space hamster, an aquarium of fish that needed feeding, a model-ship display case, and a sound system, while the crew's Port Observation lounge had a bar where mixed drinks (blue, red, or a purple blend of both) could visibly intoxicate Shepard. (source: Normandy SR-2)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 3,
+      "text": "- About a month after the Battle of the Citadel an unidentified starship intercepted the Normandy SR-1 despite active stealth; its beam weapons knocked out kinetic barriers and weapons in a single hit, crippling the ship within seconds and killing over 20 crew including Shepard (source: The SSV Normandy SR-2 (Part 1) — Origin and EDI).",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 8,
+      "text": "- After the SSV Normandy SR-1 was destroyed over Alchera by the Collectors, the Alliance located the wreckage in the Amada System and asked Shepard to place a memorial monument on the site and recover dog tags from the 20 crew still unaccounted for; the lost crew's names later appeared on the Normandy SR-2's memorial wall in Mass Effect 3 (source: Normandy Crash Site (assignment)).",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 57,
+      "text": "- The Collector Cruiser was the only known Collector ship type, a hive vessel combining organic protrusions with a metallic superstructure, large enough to carry Collectors, husks, Scions and Praetorians plus stasis pods for whole colonies, yet able to land and take off vertically. Its main weapon was a multi-directional particle beam that ignored kinetic barriers and could cripple an Alliance frigate in a few shots; its sensors detected stealthed ships like the Normandy, and an IFF system let it cross the Omega-4 Relay. One such cruiser destroyed the Normandy SR-1, killing Commander Shepard and twenty crew. (source: Collector Cruiser)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 79,
+      "text": "- The Normandy SR-1 led the assault that destroyed Sovereign at the Battle of the Citadel, and was later destroyed by a Collector cruiser near Alchera in 2183, killing over twenty crew including Navigator Charles Pressly; Cerberus built the larger Normandy SR-2 from her design (source: SSV Normandy)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 87,
+      "text": "- The Normandy SR-2 had five decks: captain's cabin, Combat Information Center, crew's quarters, engineering with the oversized Tantalus core, and a hangar for the Kodiak shuttle and M-44 Hammerhead; weapon, armor and shield upgrades determined crew survival in the suicide mission (source: Normandy SR-2).",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 101,
+      "text": "- The Reaper IFF, recovered from the derelict Reaper orbiting Mnemosyne, let the Normandy SR-2 safely transit the Omega 4 mass relay but transmitted the ship's location and locked its systems, enabling the Collector ambush and abduction of the crew (source: The SSV Normandy SR-2 (Part 3) — Propulsion, Stealth, and Sensors).",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 3,
+      "text": "- Aboard the Normandy SR-2, Crewman Vadim Rolston confided his fears about his family's safety to his friend Crewman Sarah Patel, who promised that if he died she would make sure his daughter knew how amazing her father was; nearby, Crewmen Jenny Goldstein and Thomas Hawthorne shared meals while loudly grousing to Mess Sergeant Gardner about the food, only warming to it once the Special Ingredients mission improved the menu. (source: Normandy SR-2)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 37,
+      "text": "- At Shepard's Citadel party, Kasumi needled several crewmates: she goaded James Vega into sit-ups while Jacob eyed her warningly, sat unnoticed on top of James until he collapsed from exhaustion, and told Liara T'Soni she'd make a fine partner \"should the asari ever wish for another line of work.\" Decloaking beside Samantha Traynor to muse about stealing the Normandy left Traynor visibly unnerved. (source: Kasumi Goto)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 43,
+      "text": "- At Thane Krios's memorial service, Samara told the gathered crew that they should remember Thane not only for his last stand but for why he had left the Normandy in the first place: to keep his son Kolyat away from a life of crime, a deed she said would not go unnoticed by the universe. (source: Samara)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 93,
+      "text": "- In Mass Effect 3, Garrus expressed anger toward Shepard if Tali died for the geth, saying \"her choice, that'll be harder to get over. She was a good friend,\" indicating the depth of the crew's regard for her. (source: Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 105,
+      "text": "- James Vega gave nicknames to most of the Normandy's crew: \"Loco\" for a male Shepard, \"Lola\" for a female Shepard, \"Scars\" for Garrus Vakarian, \"Sparks\" for Tali'Zorah, and \"Esteban\" for his close friend Steve Cortez, with whom he bantered and sparred in the Shuttle Bay. (source: James Vega)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 119,
+      "text": "- Kasumi Goto had a visible crush on Jacob Taylor aboard the Normandy SR-2, asking Shepard if Jacob liked \"Japanese girls with a penchant for kleptomania\"; Jacob never noticed or responded. Six months later on the Citadel she still referred to her ardor for him and said his presence on the crew would have been enough to make her rejoin Shepard's fight. (source: Kasumi Goto)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 137,
+      "text": "- Navigator Charles Pressly's recovered private journal, found amid the wreckage of the SSV Normandy, showed his attitude toward the ship's alien crew evolving over time: he began deeply distrustful of having \"so many aliens\" aboard humanity's most advanced warship, singling out the asari Liara T'Soni and quarian Tali'Zorah, but by his final entry credited the aliens for the crew's successes and wrote he would gladly die for any of them regardless of their homeworld. (source: Normandy Crash Site (assignment))",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 143,
+      "text": "- On the Normandy SR-2's command deck, Crewman Richard Hadley -- whose brother was a colonist taken prisoner by the Collectors -- frantically yelled at Joker to flee during a Collector attack on the ship, while his console-mate Zach Matthews was more preoccupied with an upcoming appointment with the Consort Sha'ira. CIC security guard Burt, stationed nearby, was noted to have an eye for the thief Kasumi Goto. (source: Normandy SR-2)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 165,
+      "text": "- Tali was well-liked by the entire crew of the Normandy across all three games with no crew members hating her, and Engineer Adams's dialogue established her as exceptionally intelligent and skilled with technology. (source: Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/tech.md",
+      "line": 183,
+      "text": "- The Idenna commanded scout vessels including the Bavea and the Cyniad; the Cyniad crashed on Gei Hinnom, where varren killed all its crew except Lieutenant Forzan vas Idenna, rescued by Shepard and the Normandy SR-2. (source: Idenna)",
+      "for_key": "normandy crew"
+    },
+    {
+      "file": "codex/tech.md",
+      "line": 201,
+      "text": "- The Normandy SR-2's medical bay could be upgraded with dermal regenerative units that removed scar tissue entirely and enabled cybernetic augmentations on consenting crew (source: The SSV Normandy SR-2 (Part 3) — Propulsion, Stealth, and Sensors).",
+      "for_key": "normandy crew"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

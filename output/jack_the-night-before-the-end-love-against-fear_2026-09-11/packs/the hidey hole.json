@@ -1,0 +1,887 @@
+{
+  "section": {
+    "id": "the hidey hole",
+    "title": "The Hidey Hole",
+    "target_words": 850,
+    "form": "bedtalk",
+    "narrator": "jack"
+  },
+  "promises": [
+    "how this thing between them actually started, in her own account, engineering deck crawlspace and all",
+    "Murtock, and why she still won't call it her fault",
+    "why she let Shepard in when she'd made a career of not letting anyone in"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "normandy-engineering-jack-confidences",
+      "title": "Jack's Hidey Hole on the Engineering Deck",
+      "kind": "hangout",
+      "game": "Mass Effect 2",
+      "when": "2185, across the run-up to the Omega 4 Relay, from after Horizon",
+      "where": "Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck",
+      "participants": [
+        "Shepard",
+        "Jack"
+      ],
+      "private_to": [
+        "Shepard",
+        "Jack"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "After Horizon, Kelly Chambers passes word that Jack wants Shepard in her \"hidey hole\" on the engineering deck — a crawlspace under the drive core where she has claimed a cot. Shepard keeps coming back to ask questions.\n",
+          "source_chunks": [
+            "jack-subject-zero_002",
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007"
+          ]
+        },
+        {
+          "text": "The repeat visits make Jack suspicious: \"People usually walk by now. Why are you really asking all these things? ... if this is just about sex, maybe you should just say so.\" Shepard says there is no hurry and wants to know what makes her tick first. Jack: \"You don't need to know someone to sleep with them. You just have to know where to put it.\"\n",
+          "source_chunks": [
+            "manual-jack-in-game-dialogue-and-banter_005"
+          ]
+        },
+        {
+          "text": "Kelly warns Shepard that Jack pushes people away yet approaches sex casually, may make advances, and that if Shepard wants her respect he should think twice.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003"
+          ]
+        },
+        {
+          "text": "Over repeated visits Jack gives up pieces of her past. The tattoos are a record — prisons she has been in, memorable kills, personal reasons, some \"just because.\" The shaved head is from the cult she ran with. She wears little clothing on purpose, to read what people really want from her.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003"
+          ]
+        },
+        {
+          "text": "The one person who never used her was Murtock, a man she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock came back for her instead of running with the score. Jack reached a shuttle and escaped; he was left behind. Days later the shuttle played his pre-recorded message about the future they were meant to have and how much he loved her. Jack denies it was her fault.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_006"
+          ]
+        },
+        {
+          "text": "On the Citadel, in the bathroom of the bar, Jack tells Shepard about being sexually assaulted in the Purgatory prison showers, and then hunting down and murdering every one of her attackers.\n",
+          "source_chunks": [
+            "jack-unique-dialogue_004"
+          ]
+        },
+        {
+          "text": "If Shepard sleeps with her early, Jack cuts the conversation off — \"nothing to talk about\" — and the trust is broken.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007"
+          ],
+          "conditional": {
+            "romance": "Jack early"
+          },
+          "choice": "slept with Jack early, trust broken"
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "romance": "Jack"
+          },
+          "choice": "romanced Jack",
+          "text": "Declining her early advance confuses her and her shell begins to crack; with steady, non-sexual interest a relationship forms and she admits she really does need someone. In place of a love scene before the Omega 4 Relay, she and Shepard only kiss and lie in bed together, Shepard holding her.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007",
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_009"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "pragia-jack-teltin-facility",
+        "normandy-jack-miranda-confrontation",
+        "citadel-purgatory-jack-and-her-students"
+      ],
+      "related_events": [
+        "subject-zero-cerberus-teltin-experiments"
+      ],
+      "source_chunks": [
+        "jack-subject-zero_002",
+        "jack-unique-dialogue_004",
+        "manual-jack-in-game-dialogue-and-banter_005",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_006",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_009"
+      ],
+      "requires": []
+    }
+  ],
+  "attendance": {
+    "normandy-engineering-jack-confidences": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#01",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck After Horizon, Kelly Chambers passes word that Jack wants Shepard in her \"hidey hole\" on the engineering deck — a crawlspace under the drive core where she has claimed a cot. Shepard keeps coming back to ask questions.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#07",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck If Shepard sleeps with her early, Jack cuts the conversation off — \"nothing to talk about\" — and the trust is broken.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#03",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Kelly warns Shepard that Jack pushes people away yet approaches sex casually, may make advances, and that if Shepard wants her respect he should think twice.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#06",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck On the Citadel, in the bathroom of the bar, Jack tells Shepard about being sexually assaulted in the Purgatory prison showers, and then hunting down and murdering every one of her attackers.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-1-part-1-purpose-and-interior_001",
+      "kind": "page",
+      "page": "The SSV Normandy SR-1 (Part 1) — Purpose and Interior",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Summary:** Part 1 of a breakdown of the SSV Normandy SR-1: a stealth frigate co-developed by the Systems Alliance and the Turian Hierarchy under Citadel Council sponsorship, built for long-range reconnaissance and covert strike-team deployment, and a symbol of post–First Contact War cooperation. This part covers the ship's design philosophy and a deck-by-deck tour of the interior. Part 2 covers the Tantalus drive core, the stealth system, cost, armament, crew, and service history.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "codex-ships-and-vehicles_007",
+      "kind": "page",
+      "page": "Codex/Ships and Vehicles",
+      "section": "Normandy SR\\-2",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "#### Mass Effect 2 |  | Audio: Normandy SR\\-2 | | --- | --- | With elaborate secrecy, Cerberus labored for years to build a new, superior Normandy. The vehicle's many alterations produced a craft nearly double the original size, requiring an even larger Tantalus drive core to compensate. The new Normandy features greater space in living quarters, research laboratory, observation deck, and cargo bay. Its shuttle can make landings the Normandy cannot attempt. In addition to tightbeam communicators, Normandy's Quantum Entanglement Communicator (QEC) provides instantaneous contact with the Illusive Man. The Enhanced Defense Intelligence AI coordinates many of the ship's combat functions, assisting and even supplanting human piloting. Potential upgrades are numerous: the airframe could support additional armor and an axial mass accelerator, the thrusters could support recent advances in fuel technology beyond H2/O2 chemical rockets, and the hull can mount double the standard number of kinetic barrier projectors, leaving space for stronger shields, easily sustainable via the new eezo drive core. #### Mass Effect 3 |  | Audio: Normandy SR\\-2 | | --- | --- | Cerberus built the Normandy SR\\-2 as a second\\-generation version of the Alliance frigate SSV Normandy after the Collectors destroyed the original. The SR\\-2's many alterations produced a craft nearly double the original size, requiring an even larger Tantalus drive core to compensate. Its state\\-of\\-the\\-art Kodiak shuttle can make landings the original Normandy could not attempt. The Enhanced Defense Intelligence, an AI known colloquially as EDI, coordinates many of the ship's combat functions, assisting and even supplanting human piloting. The Alliance has recently appropriated and refurbished the SR\\-2\\. In addition to tightbeam communicators, the Quantum Entanglement Communicator (QEC) provides instantaneous contact with Alliance Command.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Ships_and_Vehicles",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-2-part-3-propulsion-stealth-and-sensors_003",
+      "kind": "page",
+      "page": "The SSV Normandy SR-2 (Part 3) — Propulsion, Stealth, and Sensors",
+      "section": "Power and the Tantalus drive core",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Power for the drive core and electrical systems comes from a nuclear fusion plant, with hydrogen fuel cells for auxiliary power if the reactor is shut down. The oversized Tantalus drive core is integral to the stealth system: it generates a very powerful mass effect field ahead of the ship's center of mass, and — because of the relationship between mass, distance, and gravity — the ship is pulled toward that virtual mass, effectively \"falling\" into it, moving without heat-emitting thrusters. To steer to port, the field is shifted left of center; to slow down, it is shifted behind the ship; acceleration is set by field strength (stronger gravity, higher acceleration). The core also generates the mass effect field around the ship that enables FTL by decreasing the mass of a bubble of space-time around it — this gives the potential for speed but no motive power, so the ship still uses its sublight thrusters to move within FTL. The SR-2 core is based on the SR-1's but is oriented vertically rather than horizontally and is three times the size of the SR-1's.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-2-part-1-origin-and-edi_003",
+      "kind": "page",
+      "page": "The SSV Normandy SR-2 (Part 1) — Origin and EDI",
+      "section": "Cerberus builds the SR-2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Normandy SR-2 entered service in 2185 as the successor to the SR-1. The Illusive Man had Cerberus build it — at great and deliberately secret expense, in the Voyager Cluster — for the newly revived Shepard's team, to aid their mission against the Collectors' galaxy-wide human abductions. It served as the headquarters of the Lazarus Cell. The SR-2 is closely based on the SR-1's design layout but has key differences: it is almost twice the mass of the original, and Cerberus built in more crew-oriented comforts — civilian-grade accommodations, leather chairs, a kitchen. It keeps the SR-1's stealth characteristics, but its greater mass means it cannot land on every planet, so shore parties use a shuttle to reach the surface. It carries over the SR-1's advanced systems: the lithium-heat-sink stealth array and the oversized Tantalus drive core (covered in Part 3).",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-1-part-2-drive-core-stealth-and-service-history_001",
+      "kind": "page",
+      "page": "The SSV Normandy SR-1 (Part 2) — Drive Core, Stealth, and Service History",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Summary:** Part 2 of a breakdown of the SSV Normandy SR-1: the Tantalus drive core, the Internal Emission Sink stealth system, the ship's extraordinary cost, its otherwise standard frigate armament and ~50-person crew, and its service history from the Eden Prime mission in 2183 through the Battle of the Citadel to its destruction over Alchera by the Collectors. Part 1 covers the ship's purpose and interior.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-2-part-1-origin-and-edi_002",
+      "kind": "page",
+      "page": "The SSV Normandy SR-2 (Part 1) — Origin and EDI",
+      "section": "The end of the SR-1",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The SSV Normandy SR-1 was a prototype deep-scout stealth frigate co-developed by the Alliance and the Turian Hierarchy under Citadel Council sponsorship, commissioned in 2183. It was first commanded by an Alliance officer, Eli Xander; after Xander clashed with Turian chief engineer Octavio Tatum over the limits of the drive core, Xander was removed and David Anderson took command. The ship then passed to Commander Shepard when Shepard became the first human Spectre. <!-- transcript unclear: \"Eli Xander\" and \"Octavio Tatum\" are not established elsewhere in Mass Effect canon; recorded as stated. --> About a month after the Battle of the Citadel, an unidentified starship intercepted the Normandy despite its active stealth systems. Helmsman Jeff \"Joker\" Moreau began evasive maneuvers, but the attacker's beam weapons cut straight through the Normandy's defenses. Kinetic barriers and weapons were knocked out in a single hit; within seconds the ship was crippled, the upper decks were breached, a starboard drive cell was destroyed, and over 20 crew were killed — including Commander Shepard. The SR-1 was completely destroyed above Alchera.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-2-part-3-propulsion-stealth-and-sensors_001",
+      "kind": "page",
+      "page": "The SSV Normandy SR-2 (Part 3) — Propulsion, Stealth, and Sensors",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Summary:** Part 3 of a breakdown of the Normandy SR-2: its four antiproton main thrusters and the Heed Industries Helios thruster module; the oversized Tantalus drive core and how it moves the ship by \"falling into\" a mass concentration; FTL travel; the Internal Emission Sink (IES) stealth system and its limits; planetary probes; the sensor suite including the Argus Advanced Mineral Scanner; the upgradeable medical bay; and the Reaper IFF that enabled the Omega 4 transit but let the Collectors ambush the ship. Parts 1–2 cover origin/EDI and armament; Part 4 covers the Alliance refit.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "normandy-sr-2_007",
+      "kind": "page",
+      "page": "Normandy SR-2",
+      "section": "Systems",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The armor is nearly unsurpassed in strength because its central material, carbon nanotube sheets woven with diamond Chemical Vapor Deposition, are crushed by mass effect fields into super\\-dense layers able to withstand extreme temperatures. That process also compensates for diamond's brittleness. This upgrade can be researched after talking to Jacob and asking him about upgrades. If the armor is not installed, an Oculus energy beam may penetrate the Normandy's hull, instantly killing Jack. - **GARDIAN Lasers** The Normandy is also armed with an array of anti\\-missile and anti\\-fighter craft GARDIAN (General ARea Defensive Integration Anti\\-spacecraft Network) point defense lasers. #### Propulsion \\& Power *See also: Fuel Depot* - **Antiproton Thrusters** The Normandy's main propulsion is provided by four large antiproton thrusters, with both aft and forward exhausts. Antiprotons are injected into a reaction chamber filled with hydrogen. The resulting matter\\-antimatter annihilation provides unmatched motive power. The exhaust of antiproton drives is measured in millions of degrees Celsius; any vessel caught behind them will melt like wax in a blowtorch. - **Fusion Plant** Power for the Normandy's drive core and electrical systems is provided by a nuclear fusion plant. H\\-fuel cells provide auxiliary power in case the main reactor is shut down. - **Tantalus Drive Core** Integral to the Normandy's stealth systems, the oversized Tantalus drive core generates mass concentrations that the Normandy \"falls into\", allowing it to move without the use of heat\\-emitting thrusters. It also generates the mass effect field around the ship that enables faster\\-than\\-light travel. The design is based on that of the Normandy SR\\-1, but is slightly different, being vertically oriented relative to the ship instead of horizontally oriented. The SR\\-2's drive core is three times the size of the SR\\-1's drive core. - **Extended Fuel Cells** (Upgrade, Cost: 3,000 Element Zero) The Heed Industries Helios Thruster Module propulsion system far outpaces the typical liquid hydrogen/liquid oxygen reactions that power a frigate's maneuvering thrusters. By using metastable metallic hydrogen, the Helios boasts a fuel that burns at far greater efficiency than liquid H2/O2. Navigators can execute the numerous small course corrections inherent to any long\\-distance travel without fear of exhausting the ship's fuel supplies. This net gain extends to forward impulse as well: a ship powered by antiprotons can coast temporarily using the Helios to reach an inferior but highly sustainable speed. Such efficiency lowers antiproton consumption, a constant concern for any warship. The same efficiency that allows for microburn course correction can power rapid bursts of motion. Once the pilot becomes used to the ship's new energetic responses, he can easily put the ship wherever and at whatever angle he desires. Extended Fuel Cells increase the FTL fuel capacity of the Normandy SR\\-2 from 1,000 to 1,500\\. This upgrade can be researched after either Samara or Morinth is recruited. **Note:**  If the Normandy SR\\-2 possesses the Extended Fuel Cells upgrade after you complete the game, and the ship currently holds 1,500/1,500 fuel import this Mass Effect 2 save into a new game. The Normandy SR\\-2 will possess 1,500/1,000 fuel following the Freedom's Progress Mission which will be used up before your actual fuel reserves. #### Sensors \\& Scanning *See also: Planet Scanning* - **Modular Probe Bay** (Upgrade, Cost: 15,000 Iridium) The Normandy utilizes probes to recover valuable resources from planets and investigate anomalies detected on planets. The Modular Probe Bay upgrade doubles the maximum number of probes the Normandy SR\\-2 can hold from 30 to 60\\. It can be researched after recruiting Thane. **Note:** If the Normandy SR\\-2 possesses the Modular Probe Bay upgrade after you complete the game, and the ship currently holds 60/60 probes import this Mass Effect 2 save into a new game. The Normandy SR\\-2 will possess 60/30 probes following the Freedom's Progress Mission. However the probes may revert to 30/30 once a single probe has been fired, only giving you one free probe. - **Sensors** The Normandy SR\\-2 uses a variety of passive and active scanners, such as visual, thermographic, and radio detectors, radar, and LADAR (LAser Detection and Ranging). LADAR has a narrower field of view than radar, but ladar resolution allows images of detected objects to be assembled. - **Advanced Mineral Scanner** (Upgrade, Cost: 15,000 Iridium) The Argus Advanced Mineral Scanner delivers superior long\\-range topographical scanning resolution and rendering speed. By deploying an orbital multistatic grid of 100 radar\\-emitting micro\\-satellites, the Argus quickly delivers a global Digital Elevation Model (DEM) at 15 meters per pixel (mpp) resolution, vastly outclassing the Normandy's previous scanner peak performance of 27 mpp. Such imaging quality provides superior defense intelligence, and at a speed warranted by the dangers of combat. At slower scanning and rendering speed, the Argus can resolve down to an astonishing 0\\.001 millimeter per pixel—ideal for geological and biological prospecting, archaeological research, and long\\-term security surveillance.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_SR-2",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr2-01",
+      "kind": "summary",
+      "page": "The SSV Normandy SR-2 (Part 1) — Origin and EDI",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Part 1 of a breakdown of the Normandy SR-2. The SR-1 was a prototype deep-scout stealth frigate co-developed by the Alliance and the Turian Hierarchy under Citadel Council sponsorship, commissioned in 2183. It was first commanded by an Alliance officer who clashed with the Turian chief engineer over the drive core's limits and was removed in favor of David Anderson, then passed to Commander Shepard when Shepard became the first human Spectre. About a month after the Battle of the Citadel, an unidentified starship intercepted the Normandy despite its active stealth systems. Joker began evasive maneuvers, but the attacker's beam weapons cut straight through the ship's defenses, knocking out kinetic barriers and weapons in a single hit. Within seconds the ship was crippled, the upper decks breached, a starboard drive cell destroyed, and over 20 crew killed, including Shepard. The SR-1 was completely destroyed above Alchera.\n\nThe Normandy SR-2 entered service in 2185 as the SR-1's successor. The Illusive Man had Cerberus build it at deliberately secret expense in the Voyager Cluster for the revived Shepard's team, to fight the Collectors' galaxy-wide human abductions; it served as headquarters of the Lazarus Cell. It was closely based on the SR-1's layout but almost twice the mass, with more crew-oriented comforts (civilian-grade accommodations, leather chairs, a kitchen). It kept the SR-1's stealth characteristics, but its greater mass meant it could not land on every planet, so shore parties used a shuttle. It carried over the SR-1's lithium-heat-sink stealth array and the oversized Tantalus drive core.\n\nThe SR-2's most significant upgrade was EDI, the Enhanced Defense Intelligence, an AI represented by a floating blue holographic sphere at terminals throughout the ship. EDI provided information about the Normandy and Cerberus and functioned as the ship's electronic-warfare defense. Because of the danger of a rogue AI, EDI was given behavioral blocks and could not interface with ship systems directly. When the Collectors boarded and abducted most of the crew, an emergency response by EDI and Joker released those blocks, granting EDI full control of the Normandy. Before the crew defected from Cerberus, EDI also served as the Illusive Man's eyes and ears aboard, monitoring listening devices and sending reports, while the Illusive Man restricted Shepard's access to some of EDI's files. EDI gained access to anti-Reaper algorithms and revealed she was designed in part with technology from Sovereign's remains, making her herself partly based on Reaper technology. After the defection, EDI, a fully sentient AI with free will, followed Shepard's lead and severed her ties to Cerberus, though she still downplayed her sentience to unfamiliar Alliance personnel.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "summary:ssv-normandy",
+      "kind": "summary",
+      "page": "SSV Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The SSV Normandy SR-1 (Systems Alliance Space Vehicle Normandy Stealth Reconnaissance-1) was a prototype \"deep scout\" frigate, first of the Normandy class, co-developed by the Systems Alliance and the Turian Hierarchy with Citadel Council sponsorship. Commissioned in 2183 and named for the 1944 Battle of Normandy, she was optimized for solo reconnaissance deep in unstable regions. She was initially commanded by Alliance officer Elli Zander, who was removed after clashing with turian chief engineer Octavio Tatum over the drive core's limits; David Anderson then took command, and shortly after handed the ship to Commander Shepard when Shepard became the first human Spectre.\n\nThe Normandy was built on three decks: a Command Deck with bridge, airlock, CIC and comm room; a habitation deck with quarters, mess, medical bay and captain's cabin; and an engineering and storage level holding the M35 Mako and the drive core. Her defining feature was the IES (internal emission sink) stealth system, which stored waste heat in lithium heat sinks, allowing silent running for hours; the system did not work at FTL and could be defeated by visual scan. It was powered by the experimental Tantalus Drive Core, roughly twice the size of a normal core and costing about 120 billion credits. Like all frigates she carried GARDIAN lasers, kinetic barriers, a spinal mass accelerator, and could mount Javelin disruptor torpedoes. Key crew included Joker (helmsman), Navigator Charles Pressly, Dr. Karin Chakwas, Engineer Greg Adams, Kaidan Alenko, Ashley Williams, and later Tali'Zorah nar Rayya, Garrus Vakarian and Urdnot Wrex.\n\nDuring her shakedown the Normandy went to Eden Prime to recover a Prothean Beacon, which was destroyed during a geth attack. Rear Admiral Mikhailovich later inspected and criticized her as over-designed. When the Council refused to pursue Saren Arterius, Udina locked the ship down; with Anderson's help Shepard stole her and flew to Ilos. At the Battle of the Citadel the Normandy led the assault that destroyed Sovereign. In 2183 an unidentified starship (later revealed as a Collector cruiser) ambushed and destroyed the Normandy near Alchera, killing over twenty crew including Pressly; Shepard died saving Joker. Cerberus later built the larger Normandy SR-2 from the SR-1's design.",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr2-03",
+      "kind": "summary",
+      "page": "The SSV Normandy SR-2 (Part 3) — Propulsion, Stealth, and Sensors",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Part 3 of a breakdown of the Normandy SR-2, covering propulsion, stealth, and sensors. The ship's main propulsion was four large antiproton thrusters with aft and forward exhausts. Antiprotons were injected into a chamber of protium hydrogen, and the matter/antimatter annihilation provided unmatched motive power; the exhaust, measured in millions of degrees Celsius, melted anything caught behind it. If the antiproton supply was depleted, the thrusters switched automatically to weaker conventional hydrogen/oxygen fuel. The SR-2 was further upgraded with the Heed Industries Helios Thruster Module, which used metastable metallic hydrogen for far greater efficiency, letting navigators make countless small course corrections without exhausting fuel and letting the ship coast at a sustainable speed to lower antiproton consumption.\n\nPower for the drive core and electrical systems came from a nuclear fusion plant, with hydrogen fuel cells for auxiliary power. The oversized Tantalus drive core generated a very powerful mass effect field ahead of the ship's center of mass; the ship was pulled toward that virtual mass, effectively \"falling\" into it and moving without heat-emitting thrusters. Steering shifted the field left or right of center; slowing shifted it behind the ship; acceleration was set by field strength. The core also generated the mass effect field enabling FTL by decreasing the mass of a bubble of space-time around the ship. The SR-2 core was based on the SR-1's but oriented vertically rather than horizontally and was three times the size.\n\nThe Internal Emission Sink stealth system stored shipboard heat in lithium heat sinks deep in the hull; combined with exterior hull refrigeration, the ship could travel undetected for roughly two to three hours or drift passively for days. The stored heat eventually had to be radiated or it would cook the crew. The IES did not work in FTL, which blueshifted emissions beyond the sinks' capacity, and a direct visual scan would still reveal the ship. It also did not fool Collector ship scanners, by means unknown.\n\nThe Normandy fired atmospheric probes to recover resources and investigate anomalies. Its sensor suite used visual, thermographic, radio, radar, and ladar detectors. The Argus Advanced Mineral Scanner deployed an orbital grid of 100 radar-emitting microsatellites for a global digital elevation model at 15 m per pixel, resolving down to 0.001 mm per pixel at slow speed, and was virtually immune to electronic countermeasures. The medical bay could be upgraded with dermal regenerative units to remove scar tissue and to perform augmentations on consenting crew. The Reaper IFF, Reaper technology recovered from the derelict Reaper orbiting Mnemosyne, allowed safe passage through the Omega 4 mass relay; when installed and activated it transmitted the Normandy's location and locked up its systems, letting the Collectors ambush the ship and abduct most of the crew.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr2-04",
+      "kind": "summary",
+      "page": "The SSV Normandy SR-2 (Part 4) — The Alliance Refit",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Part 4 of a breakdown of the Normandy SR-2, covering the Alliance refit. By 2186 Shepard had defected from Cerberus and turned the SR-2 over to the Systems Alliance, which considered the ship its property since it was based on the SSV Normandy SR-1 design. The Alliance studied and modified her, adding new parts, fixing faults in Cerberus's construction, redesigning areas, and swapping Cerberus equipment for Alliance equipment, then recommissioned her in Alliance colors. The refit was only partially complete when the Reaper invasion interrupted it. Most notably, Deck 2 was rearranged to add a war room, meeting room, and QEC, and Deck 5 became the new armory.\n\nDeck 1 was the captain's cabin, with an aquarium, armor locker, private terminal, model ship display case, and bathroom. Deck 2 held the bridge, galaxy map, and a conference room; the armory was moved to Deck 5 per Alliance regulations, and the laboratory became the conference room to make space for the war room, where war assets and galactic readiness could be examined and which contained a quantum entanglement communications room for contacting individuals aiding the war effort. Deck 3, the crew deck, held the medical bay, crew quarters, kitchen, observation deck, AI Core, life support, Liara T'Soni's office (in the former Miranda space, now holding the Shadow Broker terminal), and the main battery. Just outside the elevator was a memorial wall recording crew casualties, including those lost on the derelict Reaper mission, the Suicide Mission, and the 20 crew lost when the SR-1 was destroyed. Deck 4, engineering, held the drive core; the starboard cargo room doubled as Diana Allers's quarters and broadcast studio, the port cargo room served as Javik's quarters, and Engineer Adams worked here, joined by Kenneth Donnelly and Gabriella Daniels if pardons were issued. Deck 5, the shuttle bay, held the armory, cargo hold, two Kodiak shuttles, a procurement terminal, weapon and armor benches, and a small gym; James Vega and Lieutenant Steve Cortez spent their time here.\n\nBuilt by Cerberus to be larger and more powerful than the original, the SR-2 ended up nearly double the SR-1's size and mass, more heavily armed and armored, with an even larger Tantalus core housed in a sphere holding element zero. With her speed, maneuverability, Javelin torpedoes, GARDIAN lasers, Thanix cannon, kinetic barriers, deflective armor, stronger shielding, and EDI coordinating combat functions, the Normandy was still touted as the fastest, most advanced, and most iconic vessel of the Alliance fleet. She led the charge of the united Citadel races in the battle for Earth at the close of the Reaper War; her whereabouts afterward remain unknown.",
+      "url": "",
+      "for_key": "Jack's crawlspace under the drive core on the SR-2"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_006",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "Murtock",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Everyone used her except one man, Murtock, whom she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock chose to come back for her rather than take the score and run. Jack reached a shuttle and escaped; Murtock was left behind. Days later the shuttle played a pre-recorded message set to trigger if he never checked in — he speaks of the future they were meant to have and how much he loves her. Jack outwardly denies fault (\"You feel, you get sloppy… he found out\"), but shows survivor's-guilt signs — irritability, angry outbursts, obsessive thoughts. Her summary of relationships: \"You let someone get that close, it just means they need a shorter knife. Lonely and alive works just fine, thanks.\" <!-- transcript unclear: the lost partner's name is rendered \"Murtaugh\" in the auto-captions; spelled \"Murtock\" here. -->",
+      "url": "",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#05",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck The one person who never used her was Murtock, a man she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock came back for her instead of running with the score. Jack reached a shuttle and escaped; he was left behind. Days later the shuttle played his pre-recorded message about the future they were meant to have and how much he loved her. Jack denies it was her fault.",
+      "url": "",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_001",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "**Summary:** Part 2 of a character analysis of Jack: the psychology behind her behavior aboard the Normandy — her fixation on the past (tattoos, haircut, minimal clothing as a test of intent), her conditioned response to killing, her \"no regrets\" outlook, the loss of Murtock and the survivor's guilt it left, and the arc by which a full romance, letting Aresh live, destroying the Teltin facility, teaching at Grissom Academy, and reunions in Mass Effect 3 lead her to the family she always wanted. Part 1 covers her origin and history. Much of this is the author's interpretation.",
+      "url": "",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "summary:jack-character-analysis-02",
+      "kind": "summary",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Part 2 of a YouTube character analysis of Jack, focused on the psychology behind her behavior and the arc that leads her to the family she always wanted; much of it is the author's interpretation.\n\nJack arrives aboard the Normandy broken: psychologically tortured, conditioned to enjoy killing, then used and discarded by everyone she met after escaping her captors, so she lives on edge waiting for betrayal. She refuses to move on from her past. Her tattoos mark prisons, memorable kills, personal reasons, and some \"just because\"; her haircut is from the cult she ran with. She wears little clothing deliberately, believing nearly everyone wants to use her for sex, and uses it to read intentions. Kelly Chambers notes she pushes people away yet approaches sex casually and warns Shepard to \"think twice\" if he wants her respect. Given her childhood, Jack is entirely desensitized to death and crime; Cerberus built a Pavlovian link between narcotic euphoria and killing, so she feels bliss where others feel regret, kills without hesitation (\"Every time someone dies and it's not me, my chances of survival go up\"), and would kill a hostage as the simpler option. Her \"no regrets\" stance borders on narcissism and a refusal of accountability; asked whether she would do anything differently, she answers a flat \"No.\"\n\nThe real wound is that she wants a family and acceptance but pushes everyone away first. The one exception was Murtock, a man she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock came back for her rather than take the score, Jack escaped in a shuttle, and he was left behind. Days later the shuttle played his pre-recorded message about the future they were meant to have and how much he loved her. Jack outwardly denies fault but shows survivor's-guilt signs. Her view of relationships: \"You let someone get that close, it just means they need a shorter knife.\"\n\nIf Shepard shows genuine, non-sexual interest, her shell cracks; sleeping with her early instead breaks trust. Wanting to move on, Jack decides to blow up Teltin. There she meets Aresh, a dark reflection also stuck in the past, who wants to restart the facility to give the suffering meaning. Shepard can argue Jack out of killing him; letting Aresh live and destroying the facility gives her a revelation about what she could have become. With continued emotional support a relationship forms; in place of a sex scene they only kiss and lie in bed together. After the Collector Base and Shepard's surrender to the Alliance, Jack is alone again until the Alliance offers her a teaching post at Grissom Academy training biotic children (\"Teltin if it were run by good people\"). She wears more clothing, grows out her hair, and argues for her students to serve in a defensive, protective role rather than as biotic artillery. Reunited with Shepard, she says his attitude rubbed off on her and that her students and Shepard are the closest thing to family she has had. On shore leave, doubt briefly reverts her to her old self before Shepard again refuses to leave her. To show her love she gives Shepard a smaller version of her back tattoo on his right shoulder blade, so she can identify him \"lying under a pile of rubble at the ass end of this war.\" Asked if she ever tattooed anyone else: \"Nobody else mattered enough.\" Jack ends the trilogy with a family and, crucially, having made the effort to change.",
+      "url": "",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "summary:jack",
+      "kind": "summary",
+      "page": "Jack",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack, also known as Subject Zero and Jacqueline Nought (birth name Jennifer), was a notorious human criminal and possibly the most powerful human biotic alive. Born in 2161, she was abducted by Cerberus in 2165, reportedly from Eden Prime, after accidental in-utero element zero exposure gave her biotic potential; her mother was told she had died. She became the central subject of Cerberus' experiment at the Teltin facility on Pragia, which sought to maximize human biotic potential regardless of cost. Every successful enhancement was applied to her; other biotic children were used as expendable test subjects and frequently killed. She was tortured physically and psychologically, kept behind a soundproofed one-way mirror, and forced into gladiatorial fights against the other children, being shocked for hesitating and injected with narcotics for killing, conditioning her to associate killing with euphoria. The other children came to hate her as the source of their suffering.\n\nDuring a transfer, the subjects rioted, freeing Jack, who flew into a fury and killed nearly everyone in the facility before stealing a shuttle and escaping into the Dakka system. The ship that picked her up used her and sold her as a slave. The Illusive Man shut Teltin down shortly after, later claiming it had \"gone rogue.\" Jack took the name Jack, reacting violently to \"Subject Zero,\" and lived a violent life of piracy, gang membership, vandalism (crashing a space station into a hanar moon), and a stint in a cult (from which she kept her shaved head). In Mass Effect: Foundation she assaulted a Cerberus facility, killed Doctor Angersol, defied the Illusive Man, tried to free biotic student trainees, fought Kai Leng and Rasa, and was knocked out and captured by Blue Suns.\n\nJack was eventually imprisoned on the Blue Suns prison ship Purgatory, where she was assaulted and raped by guards and prisoners and then murdered every attacker; the Warden kept her in cryostasis until Shepard's team bought her freedom in 2185. Rendered a borderline psychopath but still haunted by her past, she joined Shepard in exchange for her Teltin files, then asked Shepard to help her destroy the abandoned facility with a bomb planted in her old cell (the mission Jack: Subject Zero). There the team encountered Aresh, a fellow test subject trying to restore Teltin; Shepard could stop Jack from killing him. If Miranda's loyalty mission was done, Shepard had to mediate a fight between Jack and Miranda over Cerberus' blame; siding with Miranda cost Jack's loyalty and ended any romance.\n\nJack was a romance option for a male Shepard. Casual sex ended communication; a slower approach revealed her past, including the partner Murtock who died to save her, leaving her survivor's guilt, and culminated in a tender, emotional love scene. Mordin Solus offered Shepard biotics safety advice. Rejecting her as a \"lost cause\" made her hostile.\n\nBy 2186 (if she survived the Suicide Mission), Jack had grown her hair into a ponytail with shaved sides, matured, and taken a teaching post at Grissom Academy training combat biotics, considering her students the family she never had. During Cerberus' raid to kidnap the students (Grissom Academy: Emergency Evacuation), Jack defended them alongside Shepard and Kahlee Sanders, punching Shepard on reunion for reasons depending on prior choices. She disciplined Ensign Rodriguez and Jason Prangley and led the students in support of Shepard's squad. If Shepard did not arrive in time, Jack appeared as an indoctrinated Phantom at Cronos Station and had to be killed. If romanced, she could rekindle or end the relationship at Purgatory Bar. In the final battle she could be contacted by comm; in a surviving-galaxy ending she is seen gazing at the stars, visiting her students' graves, or alive with her students, depending on choices. If killed, her name appears on the Normandy memorial wall as Jacqueline Nought. In the Citadel DLC she fights in the Armax Arena, introduces her biotic varren Eezo from Thessia, and can tattoo a romanced Shepard so his body can be identified. Jack was voiced by Courtenay Taylor and written primarily by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "jack_006",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“You know what it's like... to think you're alone and find out you're not?” During a conversation Shepard has the option to have casual sex with Jack. If Shepard agrees, a feisty sex scene in the small quarters on the engineering deck occurs. However, after the sex scene, Jack refuses to speak to Shepard anymore, telling him that there is nothing to talk about any time a conversation is attempted. It is possible to have casual sex with Jack even after Shepard successfully pursues other romantic options such as Tali or Miranda. Should Shepard choose to turn down the casual sex option, get to know her first, and pursue a relationship, the result is very different. Jack will eventually soften up and reveal a lot about her past, where on multiple occasions she was taken advantage of when she let her guard down. She also references a time where Murtock, one of her partners, worked with her on a weapons frigate. When they got split, he chose to stay behind rather than abandon her to die, getting himself killed in the process. He left a recording on their shuttle for her in case he died, and when it rolled after one day, it talked about the future they were supposed to have, how he planned to build a home for them, about how he loved her and was sorry it wasn't going to happen. This implies a great deal of \"survivor guilt\" in Jack from the incident and her time spent on Pragia. She eventually tells Shepard that she needs time to think about everything; it's all very new to her and she isn't quite sure what to do. En route to the final mission, she comes to Shepard in his cabin, tells him she has been thinking a lot about him, and that he's right and she needs someone. Jack gives in, and shows a very vulnerable and emotional side. Tears roll down her face as a tender scene ensues, culminating with her smiling peacefully while they lie together on his bed, and she finally achieves true happiness. At some point prior to the love scene, Mordin Solus will offer advice to Shepard in regards to his attraction to Jack, mostly concerning the fact that she is likely to either accidentally or purposefully kill him if he keeps trying to get close to her. He will offer to send information packets on biotics and mass effect field manipulation to Shepard's quarters. If at the point just prior to the love scene when Jack tells Shepard about the partner who sacrificed himself for her \\-\\- or even right during the actual love scene \\-\\- should Shepard choose to reject her as a lost cause who will never be \"normal\", Jack will angrily accuse Shepard of being just one more person to simply use her and storm out of his presence. After this choice, every time Shepard goes down to talk to her in Engineering she will simply yell an obscenity at him. #### Lair of the Shadow Broker After the showdown with the Shadow Broker at his base, if Shepard brings Liara aboard the Normandy to catch up, she will ask Shepard what he's fighting for, and if it's a chance to give Jack faith in something more than anger. If Shepard answers yes, he says that she is getting better, relatively speaking. Liara does not find Shepard's explanation reassuring, to which Shepard somewhat agrees, but she is still important to him nevertheless. Before she leaves to return to the Shadow Broker Base, Liara will say that she hopes that the two of them will find happiness together. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "illusive-man_004",
+      "kind": "page",
+      "page": "Illusive Man",
+      "section": "Mass Effect: Evolution",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack counters saying they don't have time to waste, that he's been having visions of destruction and they are linked to that artifact. Eva then asks where they are supposed to go, and Jack answers that they need to go to Illium. While they are heading down to the planet, Jack tells Eva that the artifact is here, he can feel it. After landing on Illium, Jack converses with the locals using knowledge granted to him by the artifact. They then take a cab to where it is likely hidden, with Jack's irises glowing as he uses the alien interface in the cab. On the way Eva questions why they brought it here, but Jack just ignores her and eventually finds what he is looking for. After landing at their destination, they leave the cab and start looking around. At that moment, Saren and Desolas' guards ambush them and Jack and Eva run for their lives. However, they are eventually cornered and one of the guards grabs Jack by the neck and Eva turns and attempts to hit it on the head with the butt of her gun, but Jack tells her not to. The creature's hood falls and reveals Ben, who has been transformed into another cybernetic entity, as well as revealing that Jack's irises have transformed. Jack tries to break free of Ben, but Saren catches up and tells Ben to release him and then Jack tells Eva to run. Eva tries to get away up a ladder, but the ladder is brought down by Ben, and she crashes into the rubble. Saren then pulls Jack and Eva aboard a ship and they leave Illium. While onboard, Jack is interrogated about his experiences with the artifact on Shanxi and the aftermath of it. Saren tells Jack that he is clearly different from Ben and he wants to know why. Ben then tells his story, and Jack just sits there and listens. After Ben is done, Saren then tells the three to prepare themselves as they are about to be the first humans to set foot on Palaven. Upon landing on Palaven, Desolas speaks to the people and Jack notices that he does know how to put on a show. Eva however says that she is curious why he doesn’t lead them out in chains, but Jack says the Council wouldn't approve, but he wouldn't be surprised if this was a power grab. Later in the evening, Jack and Eva are being led along behind the artifact and are talking about how long it is taking. Eva says that Jack was lucky he was in a coma when coming back from Shanxi, but Jack says he doesn't mind the wait as he wanted to get a closer look at Palaven for a time, and it is impressive, and so is Desolas. Eva then asks how they even know the artifact is in there, but Jack says he can hear it and Ben, who is behind them, says he can hear it as well. Jack then asks Ben what it is saying, and Ben just says that it commands them to follow and protect it, and to prepare for something. This conversation isn't lost on Desolas, who is walking just a little behind the three and orders Harper brought to him. Later at Temple Palaven, Jack is watching the \"meta\\-turians\" raising the Monolith into the sky and then quotes Clarke's Third Law, which Desolas, who was standing behind him, quotes back word for word. Jack then turns to Desolas and says that he doesn't know what he is dealing with, but Desolas counters by asking if he does, then tells Jack that the artifact was here for a reason. He has been preparing the Temple for a while now and leads Jack into a backroom lab where they are studying the artifact. Jack, however, notices that it is only a surface analysis and asks why they just don't bring it back into the lab. Desolas says that he would like to but the now presented \"Valluvian Priests\" won't let him. Desolas says they can't tell him anything more about it, but Jack can and he noticed back on Arcturus Station that the relic had changed him. Jack then says, again, that Desolas doesn't know what he has, what he is dealing with, and that it is just too dangerous. Desolas then tells Jack that if he won't cooperate, then perhaps Eva will, but Jack says that she doesn't know anything and won't crack, and neither will he. Jack then pleads with Desolas to end the experiment being a man of science and the lack of results. The guards then lead Jack to an observation room.",
+      "url": "https://masseffect.fandom.com/wiki/Illusive_Man",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "illusive-man_003",
+      "kind": "page",
+      "page": "Illusive Man",
+      "section": "Mass Effect: Evolution",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Before founding Cerberus, the Illusive Man was known as **Jack Harper**, a mercenary and part of a special group under the command of General Williams. During the First Contact War, Harper served on Shanxi, and in the later days of the war, he, Ben Hislop and Eva Coré were responsible for the capture of a turian general named Desolas Arterius. After heading back to General Williams' command compound, they analyze turian troop movement patterns and determined that they were looking for something. Upon interrogating the captured turian, Jack discovered that Desolas was searching for an artifact. After capturing Desolas' forces, Jack questions Desolas further; Desolas merely tells Harper to be careful about what he is looking for, as he might just find it. After leaving Eva in charge of the prisoners, Jack and Ben head into the cave where the artifact is located. Moving through the cave, Ben and Jack find the artifact, which is guarded by strange robed figures. After neutralizing the guards, Harper and Ben find that the artifact's emissions prevent them from contacting Eva due to interference. They examine the bodies of the guards more closely, but Ben approached the artifact, which activated. Jack tries to pull Ben out, and while he succeeds, Ben is killed in the process and Jack is knocked unconscious. After Jack regains consciousness, he notices Eva coming towards him, covered in blood saying that when the light from the artifact activating distracted her, the turians ambushed and captured her. Jack asks what happened, but Desolas shows up and says that is what he would like to know. Jack falls unconscious again as Desolas orders his men to take the artifact aboard his ship. Jack awakens sometime later aboard a turian ship, and after struggling with the guards and restraints, the turians tell him to calm down as they are there for his protection as much as theirs. Eva finally manages to get Jack to calm down as she is led into the room by Saren Arterius, who lets her comfort Jack. Eva tells Jack they are both prisoners, he's been in a coma for weeks, and that Ben is dead. Eva says it must have been something in the cave, and that Desolas took the body. Saren then cuts in saying that as far as they know, Jack is in perfect health, then after Jack demands to know who he is, Saren formally introduces himself and that he should be thankful that they didn't leave him to die. Eva then calls Saren out by saying that they are being taken to a prison camp on Palaven, the turian homeworld. However Saren says she is mistaken, about a lot of things. Outside a window, they see Arcturus Station, the capital of the Systems Alliance. Saren tells them the war is over and they are being taken home. Aboard the station, they are welcomed by Williams, and after some words are exchanged Desolas is surprised that Williams would trade so many turian prisoners for Jack and Eva. Eva then tackles Desolas, despite Jack telling her not to, and is pulled off by Saren, who then comments to Desolas that his guards don't do much. Desolas says they have their uses, and then communicates to them in a weird language, which Jack understands. This doesn't escape Desolas' notice, however, and he then turns to Williams saying that he should take the prisoners back by the treaty protocol, however Williams says they have been captive long enough and then tells him to leave. Jack is taken to a med bay where he is examined and has a conversation with Williams about what is really going on. Williams says that he can't order Jack to take on a mission like that because he is resigning, but tells Jack not to give up. He then gives Jack and Eva his personal ship to pursue Desolas and the artifact. In the Hangar, Jack and Eva discuss what they will be doing. As they walk up the boarding ramp, Jack suddenly collapses. Eva rushes to Jack's side and says that she knew it was too early to leave as Jack needs more time to recover. Jack counters saying they don't have time to waste, that he's been having visions of destruction and they are linked to that artifact. Eva then asks where they are supposed to go, and Jack answers that they need to go to Illium. While they are heading down to the planet, Jack tells Eva that the artifact is here, he can feel it. After landing on Illium, Jack converses with the locals using knowledge granted to him by the artifact. They then take a cab to where it is likely hidden, with Jack's irises glowing as he uses the alien interface in the cab.",
+      "url": "https://masseffect.fandom.com/wiki/Illusive_Man",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "illusive-man_005",
+      "kind": "page",
+      "page": "Illusive Man",
+      "section": "Mass Effect: Evolution",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Desolas says they can't tell him anything more about it, but Jack can and he noticed back on Arcturus Station that the relic had changed him. Jack then says, again, that Desolas doesn't know what he has, what he is dealing with, and that it is just too dangerous. Desolas then tells Jack that if he won't cooperate, then perhaps Eva will, but Jack says that she doesn't know anything and won't crack, and neither will he. Jack then pleads with Desolas to end the experiment being a man of science and the lack of results. The guards then lead Jack to an observation room. Days later, Jack is still sitting in the room doing little but staring at the weird writings all over the walls. He then comes to a revelation and figures out what is going on. As he stands up, Desolas enters and says he discovered the same thing, but Jack then tells him there is something that he needs to know, the truth. Desolas however dismisses him and tells him to behold the future, a legion of perfect turians and destiny is at hand, and it begins now. Jack tells Desolas that he can't do this, but his pleas fall on deaf ears and he orders Jack to be led away to a prison cell. While Jack is being led to his cell that he will share with Eva, she suddenly appears and floors one of the guards with a swift kick, knocking the gun out of his hand. She then deals with the other one and Jack lays out the first guard with a punch. He and Eva then head off to find Ben, but down the hallway find some \"priests\" clearing out a hallway. As they are observing them, Saren ambushes them. Jack then tries to persuade Saren what is really going on. He says that Desolas brought the artifact here for a reason and that he has been duped. He says that he has read the history of the temple on the wall, despite Saren saying that no one has been able to read them, to which Jack counters that he can, and so can the \"priests\". Then they look through the hole that the \"priests\" dug and find another Monolith inside the temple. Saren is in shock and Jack explains what will happen and how eventually the entire turian people will be converted. Saren tells Jack to shut up so he can think, then Ben shows up and explains that the artifact wants all to be like him. Saren then reaches for his communicator and after contacting Palaven Command, declares an unsecured bioweapon emergency. Saren then goes to where Desolas is inspecting his no longer docile troops, and after seeing his brother getting thrown around, orders his guards to open fire. Jack joins the fight leading the way through the \"meta\\-turians\" for Ben and Eva. He then asks them to help, and Eva tells Jack to help her as this isn't their fight. Jack and Eva discuss what the prospects are for Ben, and while Eva is hopeful, Jack isn't so hopeful as he knows there is no place or any place far enough away to help him. Eva then says there is one thing they haven't tried and pulls her gun and shoots the Monolith. Ben, working on instructions from the Monolith, tackles Eva and knocks her into a wall. Desolas then corners them both and after pulling a gun on Jack, tells him that he is going to do what he should have done a long time ago. However, before Desolas can pull the trigger, Ben tackles Desolas, knocking him into the artifact, and knocking out everyone in the room. Jack regains consciousness some time later, and picks up Eva and apologizes for his actions and that the artifact made him lose sight of what really mattered. As he carries Eva out, she tells him to leave her behind and save Ben, but Jack tells her that he is dead, sacrificing himself to prevent Desolas from making more victims. As he carries Eva out, he notices Saren also regaining conscious and tells him to warn his people and while he would like to stick around to see the results, he has to take care of his own. Sometime later, while Jack is sitting in a chair watching the memorial service for Ben and Eva, he comments that Desolas was right and that the stars looked welcoming, warm, teeming with places to explore, full of knowledge, and riches to be had. He also recognizes that humanity will not always be welcome and starts recording a manifesto.",
+      "url": "https://masseffect.fandom.com/wiki/Illusive_Man",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "storyline_004",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Turian Invasion",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Abrudas tells them that they have found the cargo, but Desolas tells them that he can't move, so Abrudas takes a squad to rescue the general while the rest move towards the objective. After a bit of time, Abrudas reaches the objective, and while complaining about the researchers and the time they have wasted, the squad gets ambushed by Jack, his friends, and their APC, much to the surprise of the turians. Inside the APC Desolas tells Jack that it was “a childish ploy”, but Jack comments it was pretty good, “for a human”. Jack and the rest of his people tie up the turians. At the same time Jack and Desolas discuss what happened, and how there has been a lot of force for a simple recovery operation, and that Desolas doesn’t come across as a garden\\-variety general. Desolas warns Jack to \"be careful what you look for human. You may find it.\" At the caverns, Jack and the rest ambush the remaining turians, and after threatening them with the capture of their General and their Lieutenant, and the big gun on top of their APC, Desolas tells his men to stand down. He says that their time will come, and until then, \"let the human satisfy his curiosity.\" Apparently, he is curious what Jack will find as well. As Jack and Ben head into the caves, Eva asks what to do if they cause trouble. Jack says to run a few over, but to stay on the radio. As they progress into the caves, Ben says that Eva is worried about them, but Jack says that is more about him. As they continue the discussion, about Ben and Eva, Jack sees something up ahead. Inside is a large object in the center of the room, with glowing chains extending out from it. Jack points out that it was clearly dragged here, but Ben starts to points out that it would have taken monsters to move it. Before Ben can finish his statement, they get ambushed by creatures wearing robes and Ben gets knocked to the ground. As one of the creatures lifts Ben into the air, Jack opens fire and Ben is thrown to the ground. Ben comments about intel first, but the Jack points out \"not this time\" and keeps shooting, becoming frustrated as the creatures won't die. Eventually the creatures fall, but both humans are stunned at the amount of bullets it took to take them down. Jack then moves forward and pulls back one of the hoods, and it shows a turian, who's had parts of his face replaced with cybernetic implants. Jack tries to radio General Williams and Eva, but there is too much interference. Ben starts walking toward the object saying that it might be the cause and that there may be a way to turn it off. Jack tells Ben to wait, but he gets too close and the device sends out an energy bolt that hits Ben. Jack rushes up to save his friend, but it is too late. As Jack also gets hit by the energy from Ben's body, they both fall back to the floor, as a voice calls out. Eva rushes into the room, her clothes ragged and out of breath, and says that the turians came up from behind when they all saw the lights coming from the cave. As Jack asks what happened, a voice says that is what he would like to know. Eva turns around to see a large turian standing over them, with other armed turians in the background, saying that they will come with them, and tells the others to bring Ben's body for dissection. He ends by saying \"You've studied us \\-\\- now it's our turn to study you.\"",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "eva-cor_004",
+      "kind": "page",
+      "page": "Eva Coré",
+      "section": "Palaven",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Prisoners once more, Eva and Jack are taken by Desolas to Palaven, the turian homeworld, to witness Desolas' plan to use the artifact \\- the Arca Monolith \\- to transform the turian people into a race of super\\-soldiers. At Temple Palaven, Eva and Jack subdue their guards and attempt to stop Desolas. In the middle of a fight, Eva tries to pull Ben out, hoping that his condition could be reversed. When Jack points out that doing so may not be possible, Eva shoots at the Arca Monolith to try and destroy it. The artifact uses Ben to stop her, slamming her head against a wall. After the fight, Jack carries a dying Eva from the Temple, and with her last words she tells Jack to leave her behind and save Ben. Jack would later include both Ben and Eva's names in his manifesto as he takes on the persona of the Illusive Man.",
+      "url": "https://masseffect.fandom.com/wiki/Eva_Coré",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#03",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Fighting through Blue Suns mercs, FENRIS and YMIR mechs, and rioting prisoners, Shepard reaches a security console and releases Jack from cryostasis. Jack breaks her restraints, destroys the four YMIR Mechs guarding her cell with a single biotic blast, and smashes a hole through the wall.",
+      "url": "",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "scene:normandy-jack-miranda-confrontation#01",
+      "kind": "scene",
+      "page": "Jack and Miranda, Below Decks",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "text": "Jack and Miranda, Below Decks. 2185, on return from Pragia, if Miranda's loyalty mission is already done aboard the Normandy SR-2 Back aboard after Pragia, Shepard has to settle a fight between Jack and Miranda over Cerberus's part in what was done to Jack.",
+      "url": "",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "summary:eva-cor",
+      "kind": "summary",
+      "page": "Eva Coré",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Eva Coré was a human mercenary featured in the comic Mass Effect: Evolution who worked with Jack Harper and Ben Hislop and fought in the resistance against turian forces on occupied Shanxi during the First Contact War. On Shanxi, Eva, Hislop, and Harper ambushed a turian patrol and captured the turian general Desolas Arterius. Seeking the artifact Desolas was after, the group subdued his remaining unit outside a cave; Eva guarded the prisoners while Jack and Ben investigated the artifact, but when it seemingly attacked the two men she was distracted long enough for the turians to overpower her, and Desolas took the humans prisoner.\n\nAfter the war, having been turned over to General Williams by their captors, Eva reunited with Jack and told him Ben had died from artifact exposure. She chose to accompany Jack in his pursuit of revenge against Desolas. On Illium they tracked Desolas to a warehouse, where they were ambushed by Desolas and his brother Saren's forces and found a cybernetically enhanced Ben Hislop under the artifact's control. Taken prisoner again, Eva and Jack were brought to Palaven to witness Desolas's plan to use the artifact, the Arca Monolith, to transform the turians into super-soldiers. At Temple Palaven they subdued their guards and tried to stop Desolas. Eva attempted to pull Ben free, hoping his condition could be reversed, and when Jack doubted it she fired on the Arca Monolith; the artifact used Ben to slam her head against a wall. Jack carried the dying Eva from the Temple, and with her last words she told him to leave her and save Ben. Jack later included both Ben's and Eva's names in his manifesto as he became the Illusive Man. Decades later a Cerberus mech unit deployed on Mars may have been named after her.",
+      "url": "https://masseffect.fandom.com/wiki/Eva_Coré",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "summary:jack-subject-zero",
+      "kind": "summary",
+      "page": "Jack: Subject Zero",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack's loyalty mission in Mass Effect 2, available after Horizon and written by Brian Kindregan. After Shepard gives Jack access to Cerberus files aboard the Normandy, Kelly Chambers relays that Jack wants to see Shepard in her \"hidey hole\" on the Engineering Deck. Jack asks Shepard to help her destroy the decommissioned Teltin facility on Pragia, in the Dakka system of the Nubian Expanse, where Cerberus experimented on her as a child. She wants to plant \"a big fucking bomb\" in her old cell and watch it detonate from orbit.\n\nOn arrival EDI detects thermal signatures inside the complex but none near the landing zone. Moving through the facility, Jack recognizes rooms and revisits memories: a skylit atrium where she first saw sunlight, a bloodstained arena where she was pitted against the other children and drugged as a reward for killing and shocked for hesitating, a cell block, and a two-way mirror outside her own cell where she used to bang on the glass while the other children ignored her. Security consoles reveal the staff had \"gone rogue\" from the Illusive Man's orders, that all subjects were expendable except Jack, that children were exposed to chemicals and freezing temperatures, and that the project planned to infiltrate the Alliance's Ascension Project; a final log shows Jack killing the distraught doctor during the riot. The team fights varren, Blood Pack vorcha and krogan mercenaries (including a Pyro and the krogan Kureck), hired by Aresh.\n\nIn Jack's cell, Shepard meets Aresh, a former test subject who recognized Jack and is trying to restart the facility so the experiments \"must have been for something.\" Jack draws a pistol; Shepard can use Charm to spare him, Intimidate to have Jack kill him, or plain dialogue options with corresponding Paragon or Renegade interrupts. Shepard can then leave or stay while Jack walks the cell recounting memories of the window, bed, desk, and a bloodstain. On the shuttle back, Jack fumbles with the detonator, then presses it when Shepard nods, and the bomb destroys the facility.\n\nBack on the Normandy, if Miranda's loyalty mission is complete, Jack confronts Miranda in her office, throwing a chair, furious that Miranda will not admit Cerberus was wrong. Without sufficient Paragon or Renegade standing, Shepard must alienate one crewmate, losing that person's loyalty and any romance (recoverable later). Cerberus Intel emails that the Illusive Man had ordered the project shut down before the riot, that arriving personnel found all guards and most subjects dead, and that surviving children were given amnesic treatments and delivered to the Alliance as \"slaver attack\" survivors. Rewards include 750 experience, 30,000 credits, 500 element zero, a Biotic Damage (Hyper-amp) upgrade, and Warp Ammo for Jack. If Aresh is spared, a Mass Effect 3 news alert reports he died saving a shuttle of children evacuating a Reaper-occupied colony; his full name is given as Aresh Aghdashloo.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "scene:cerberus-facility-kai-leng-rasa-fail-to-catch-jack#02",
+      "kind": "scene",
+      "page": "Jack Throws Kai Leng Across a Cerberus Training Facility",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "cerberus-facility-kai-leng-rasa-fail-to-catch-jack",
+      "text": "Jack Throws Kai Leng Across a Cerberus Training Facility. before the Reaper war, during Mass Effect Foundation a wrecked Cerberus biotic training facility, near its main reactor They find Jack by the reactor, just after she has cut down a group of Blue Suns. Leng draws his sword and threatens her; her biotics knock him flat. He comes at her from above and behind instead; she senses him and hurls him further away. By the time he digs his stuck sword loose, the Blue Suns' krogan leader has clubbed Jack unconscious from behind and carried her off to be ransomed to the Illusive Man.",
+      "url": "",
+      "for_key": "Jack and Murtock"
+    },
+    {
+      "chunk_id": "romance_014",
+      "kind": "page",
+      "page": "Romance",
+      "section": "Lair of the Shadow Broker",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Players who romanced Liara in Mass Effect can continue the relationship in the Lair of the Shadow Broker DLC pack for Mass Effect 2 (included by default in Legendary Edition). During the mission, if Shepard has cheated on Liara, she will reveal that she is aware of the other relationship with the exception of Kelly Chambers (**Note:**  Even if you only initiated a casual sexual encounter with Jack and nothing more, Liara will still be aware of it). At the conclusion of the mission, Shepard can either end the relationship with Liara, and Liara and Shepard remain friends, or the relationship can be reaffirmed. Even if the latter route is taken, Mass Effect 2 love interests can still be called up to Shepard's cabin afterward and relationships with them appear unaffected. If Shepard did not romance other characters, Shepard will instead look at the picture of Liara sitting on the Commander's desk. This will not unlock the Paramour achievement. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Romance",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "jack_009",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Jack.* If Shepard successfully evacuated Grissom Academy, at the conclusion of Shepard's clone fiasco the Commander may choose to explore the Silversun Strip in their down time. If Shepard plays at least one match at the Armax Arsenal Arena combat simulator, Jack messages the Commander requesting a meet\\-up there. When Shepard arrives, they have a two\\-round match against Elite Cerberus Troops on the Brimstone map. Once the Atlas Mech spawns, Jack takes it down herself and thanks Shepard for the get\\-together. If Jack is romanced, she tells Shepard she's turned on during the final fight, and the two passionately make out as the Atlas explodes. Jack's ally license can be purchased if Shepard wants to fight alongside Jack in the simulator again. Afterwards, Jack sends another message informing Shepard of having more free time. Shepard can then invite Jack to the apartment. Jack brings along Eezo, a varren from Thessia that she had rescued from shelter. Because of his exposure to the element zero in the environment on Thessia, Eezo has developed biotic abilities. According to Jack, biotic abilities in varren make them short\\-tempered, leading to their abuse and abandonment. When Jack first rescued him, Eezo started out very angry and mistrustful of others, but all the love she has shown him has made him a \"big old softy\" to the point where he plays catch with Shepard. Shepard has the option of pointing out the similarities between Eezo and Jack. If Shepard does, Jack will say she doesn't know what Shepard is talking about and Shepard will quickly drop the subject. If Shepard is still in a relationship with Jack at that time, she will instead bring equipment to mark Shepard with a tattoo on his back. As Shepard comments on the design, she confesses she did this to make his body identifiable no matter what happens to him in the final battle, tearing up at the thought of losing him until he hugs her. If invited to the party, Jack is first seen by the fireplace hanging out with Vega and Cortez. If Kaidan is also invited, the conversation within the group arrives at the point where Jack gives James the nickname \"Muscles\", which Cortez will approve. If Miranda is around, Jack is later seen lounging near the poker table having a somewhat prickly conversation with Miranda. Shepard can suggest they should just kiss each other because Shepard believes that there's some sexual tension between them, saying that they're \"two powerful biotics\". They find the notion disgusting. Kasumi, if present, then decloaks, saying that she could film it. Alternately, Shepard can encourage their rivalry, with Jack making repeated references to whooping Miranda's ass. Kasumi, again if around, decloaks, claiming she doesn't follow their conversation and just assumes they are going somewhere dirty with it. If Miranda is not around, Jack is hanging out with Liara and James on the balcony at the second phase of an energetic party, watching the two argue about physical vs biotic supremacy. If the second phase of the party is quieter, then regardless of Miranda's presence or absence Jack will be at the bar with EDI and Cortez, where Jack may note that crème de menthe hits her even harder than ryncol. At the third phase of the party, Jack is seen dancing provocatively on a table in the kitchen area if the party is energetic. If Garrus isn't around to comment, Jack's response to Tali's drunken musings while dancing is that she finds the quarian adorable, and says so in her own words: \"If I were a little drunker and knew how to unzip that suit...\" If Tali wonders instead about how humans and asari can dance given the way \"their\" legs bend Jack replies that she doesn't tip over until she found company, telling the quarian to \"watch and learn\" till then. If romanced by Shepard, she tells him not to tire himself out dancing so they can have sex on the table later, making a lewd joke when Steve complains. If the party is relatively restrained at the final leg, Jack is just standing by the upper floor couches, hanging out with Joker, Cortez, and most of the other guests. The morning after the party, she will be joining Jacob's morning workout with pull\\-ups, attributing her hangover immunity to her amp. If romanced, she'll instead wake up in bed with Shepard and express desire to make love to him again.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "scene:normandy-jack-miranda-confrontation#03",
+      "kind": "scene",
+      "page": "Jack and Miranda, Below Decks",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "text": "Jack and Miranda, Below Decks. 2185, on return from Pragia, if Miranda's loyalty mission is already done aboard the Normandy SR-2 With enough points, both crewmembers keep their loyalty and any relationship already underway with either continues.",
+      "url": "",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "ashley-williams_014",
+      "kind": "page",
+      "page": "Ashley Williams",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I doubted you once Shepard, and I lost you. That's not happening again.” When Shepard visits Ashley in the hospital, she will call him out if he was in a prior relationship with her, but pursued another person while working with Cerberus. She is very judgmental of Miranda and Jack but seems more comfortable with the idea of Shepard and Tali being together, saying \"Tali is like a little sister, I totally approve... not that you needed my approval.\" Though despite saying that, if Shepard hasn't built enough of a friendly rapport with her, Ashley does display signs of jealousy during the assault on the geth dreadnought if brought along with Tali, even making catty remarks towards her. If Shepard has remained faithful to Ashley, the conversations in the hospital are a lot more cheerful and less confrontational. The relationship progresses well if Shepard tries to be as friendly as possible and buys Ashley 'The Collected Alfred Tennyson' from the Sirta Supplies store. If Ashley is chosen to come aboard the Normandy, Shepard can start, or restart a relationship with her. Ashley does not talk a lot on the Normandy. Eventually, Ashley will send an email asking Shepard for help; Ashley is going to comfort her younger sister Sarah who has lost her husband and doesn't want to do it alone. If Shepard is comforting and respectful to Ashley, the relationship is cemented further. Later on, she sends another email asking Shepard to meet her on the Citadel. Ashley tells him how her dad would have liked Shepard. She apologizes for all that has happened between them and asks if they are \"going somewhere\". If Shepard reciprocates, they share a kiss together. Just before the assault on the Cerberus headquarters, she visits the Captain's Quarters and, unless directly turned down, she tries to comfort Shepard about all the people they've lost. She expresses how she felt lost herself and that it broke her heart when Shepard was dead. At long last, they admit their love for each other, then kiss and spend the night together. In a final conversation between her and Shepard on Earth, they reflect on how many times they've saved each other in the past. Shepard then recites from one of Tennyson's poems *The Charge of the Light Brigade*, a reference to how poetry has been used to convey their feelings throughout their relationship. Ashley grabs Shepard and tells him she doesn't want him to go and that she loves him. He gently replies that he loves her too and then says 'let's get it done, and go home'. In a breaking voice, Ashley responds \"aye aye Captain.\" If Ashley is the love interest for Shepard, the last thing he will see will be an image of Ashley looking at him and warmly smiling. After the firing of the Crucible, she will be seen placing Shepard's name on the memorial wall, or, if the Reapers are destroyed and enough of the galaxy's forces have been mustered, she will smile and refrain from placing the plaque, and the Normandy is seen flying off.",
+      "url": "https://masseffect.fandom.com/wiki/Ashley_Williams",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-apartment-eezo#03",
+      "kind": "scene",
+      "page": "Jack Brings a Varren to the Apartment",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-apartment-eezo",
+      "text": "Jack Brings a Varren to the Apartment. 2186, Citadel shore leave, after the Arena meet-up Shepard's personal apartment, the Wards Shepard can point out how much Eezo's history sounds like Jack's. She says she has no idea what Shepard is talking about, and Shepard drops it.",
+      "url": "",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "miranda-lawson_014",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I have a sister. A twin. And he’s still hunting her. Cerberus has kept her safe. Until now.” *Main article: Miranda: The Prodigal* During the mission Miranda asks Shepard for help with a personal crisis and admits she has a twin, Oriana, created as part of her father's intended dynasty. Miranda explains that the reason she joined Cerberus was to hide and protect Oriana as well as herself. While their father stopped searching for Miranda, he never stopped looking for Oriana. With the help of Cerberus, Miranda managed to establish a new life for Oriana on Illium, where she has lived the life of normalcy their father would have denied her. Unfortunately, Miranda received word from a contact claiming that their father has finally discovered Oriana and will try to abduct her. Cerberus has made arrangements to relocate Oriana, and Miranda wants to go along to ensure nothing goes wrong. After gaining the loyalty of both Miranda and Jack, the next time Shepard boards the Normandy Joker will radio in about a fight aboard the ship. Jack wants Miranda to admit what was done to her by Cerberus was wrong, but Miranda refuses to acknowledge that Cerberus was at fault claiming it was a splinter group, not Cerberus, calling the shots. Shepard can either resolve the conflict without picking sides, in which case, both Jack and Miranda agree to put off their fight until after the mission with the Collectors is over. If Shepard sides with Jack, then the Commander will lose Miranda's loyalty, but has the opportunity to regain her loyalty in a later conversation. In addition, if Shepard was in a relationship with Miranda and sides with Jack, then Miranda ends the relationship and will refuse to rekindle the relationship even if her loyalty is regained.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "jack_008",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After the rescue from Jon Grissom Academy, Jack can be found on the Citadel in Purgatory Bar after the attempted Cerberus coup reading duty rosters for her kids even while on shore leave. Shepard can either tell her to keep at it, or convince her to lighten up a bit, which colors Jack's responses throughout the conversation. If Shepard thinks Jack fits in snugly to military life, Jack says that their little suicide squad apparently taught her something about teamwork. If the students had been sent to the front lines, Jack mentions her kids are being sent into hot spots for hit\\-and\\-runs and she's making sure the higher\\-ups won't give them something way out of their league. She expresses her surprise at their ability to hold up under fire, but then Shepard believed in the students' abilities and burned away her doubts. If the students had been assigned support roles, she remarks they've been spread out across Alliance units, saving a lot of lives by providing barrier support, modding ammo and the like, and that they're handling the support duties well. If Shepard convinced Jack to take her job seriously, Jack mentions that her kids even saw action on Palaven, either on the front lines with Prangley displaying exceptional biotic aptitude against Cannibals and Rodriguez not panicking for a change, or that her kids provided barriers for a krogan squad so the latter can get close and break enemy lines. They manage to help the turians evac a thousand civilians to safety. Jack suggests fighting would be more fun with Shepard as the Commander finds bigger fights, but claims the \"little shits\" would be useless without her, and blames Shepard for the perception that she's apparently \"dependable\" now. If Jack was previously romanced, Shepard has the option to rekindle or officially end their relationship at this time. The Commander asks Jack to dance with them, regardless of whether she was romanced or not, claiming that she's on shore leave and the rosters can wait. Jack flat\\-out retorts that everyone knows Shepard can't dance, and with that they both enjoy the music. If Shepard does not help Grissom Academy in time, she will appear as an indoctrinated Phantom when Shepard raids Cerberus Headquarters. An audio log can be found where Jack is heard resisting her captors up until the end. After the squad is forced to kill her, Shepard states that she was no longer herself and that she is \"just one more thing Cerberus will answer for.\" In the final battle on Earth, Shepard can speak with the communications officer in order to call Jack. Jack indicates that she's in the fight but can't reach Shepard's location. If a male Shepard has a romance with Jack, Jack will tell Shepard that he needs to survive, because she is \"getting laid\" after the war is over. If Shepard chooses to use the Crucible, Jack can be seen gazing at the stars in the future. If Jack didn't have a relationship with Shepard by the time the Commander uses the Crucible, her fate will be determined by the path her students took. She will either be seen visiting her students' graves if they were previously sent to the front lines, or she will be seen with her kids — alive — and Kahlee Sanders mulling their next move if the students were relegated to support. If Jack did not survive Shepard's suicide mission or was killed on Cronos Station, her name will be engraved in the memorial wall on the Normandy as Jacqueline Nought, a pseudonym she used at least once in the past.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "kaidan-alenko_014",
+      "kind": "page",
+      "page": "Kaidan Alenko",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I want to understand what this is between us... and make it real.” A female Shepard who romanced Kaidan in 2183 has differing dialogue with him during the mission to Mars, where they discuss their relationship, and Kaidan's fears that she is no longer the woman he loved. She can either be consoling or confrontational. While in the hospital, Kaidan will send a message to Shepard asking to meet with her. If Shepard romanced another person in 2185, Kaidan will ask her about it, where she can either apologize, explain herself, or lie. Lying will make Kaidan angry and he will order her out of the room, although she has the chance to admit her lie and apologize. If she apologizes or attempts to explain, Kaidan remarks that he still cares about her, and there is no other woman in his life. Buying Kaidan a bottle of TM\\-88 Peruvian Whiskey from the Sirta Supplies store will cement their relationship further. If Kaidan joins the crew after the Cerberus attack on the Citadel, Shepard can resume a romance with him, or start a new one if she did not do so before. He invites the Commander out for a drink at Apollo's Cafe, where he reminisces that he often had a few beers at his parents' home overlooking English Bay in Vancouver. He'll reflect on their relationship, and wonders if they have a future together. He'll also forgive her for cheating on him. Shepard can pursue the relationship by telling him that she loves him. If Kaidan was not romanced in 2183, either a male or female Shepard can start a new romance with him in 2186\\. They can do so by visiting him in the hospital, picking him up a bottle of whiskey from the Sirta Supplies store, and locking in the romance when Kaidan talks about how he never looked for a relationship before while at Apollo's Cafe. Before the final battle, Kaidan will show up at Shepard's quarters offering \"a quick drink\". If playing a female Shepard who has rekindled a relationship with him, they will briefly discuss their first night together; otherwise, they will discuss the battle and their feelings before Kaidan admits that he didn't come for a quick drink. During the final mission on Earth, Shepard can say their goodbyes to Kaidan. Kaidan will talk how he lived an amazing life thanks to Shepard and how hard he will fight so that he could hold Shepard again. If Kaidan is with Shepard in the final push to the Conduit, and if Shepard has mustered enough of the galaxy's forces, he will be badly injured by Harbinger's beam and will be evacuated to the Normandy. Shepard and Kaidan will profess their love for each other before Shepard goes to the Citadel beam. If Shepard decides to fire the Crucible and Kaidan survived the final battle, he will be the one to put Shepard's name on the memorial wall or if the galaxy's military strength is sufficient and the Reapers are destroyed, he will refrain from putting Shepard's name on the Memorial and smile. If Shepard merged organics and synthetics, after placing Shepard's name on the memorial wall, Kaidan will share a hug with EDI.",
+      "url": "https://masseffect.fandom.com/wiki/Kaidan_Alenko",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "broker-terminal_003",
+      "kind": "page",
+      "page": "Broker Terminal",
+      "section": "Call from Kahlee Sanders to Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack: Hey Sanders. Checking on the kids? Sanders: How are they, Jack? Jack: They'll do good. This gonna be long? I kinda got crap to do. Sanders: I wanted to tell you, I persuaded some Alliance friends to part with that biotic\\-amp you and the children were testing at Grissom. You can pick it up on the Citadel. Jack: Damn! One of the L3\\-X1s? You know how much shit I could tear up with one of those installed? Kahlee: I had an idea. Look after yourself. Jack: Yeah, yeah... and hey. Thanks.",
+      "url": "https://masseffect.fandom.com/wiki/Broker_Terminal",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-apartment-eezo#01",
+      "kind": "scene",
+      "page": "Jack Brings a Varren to the Apartment",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-apartment-eezo",
+      "text": "Jack Brings a Varren to the Apartment. 2186, Citadel shore leave, after the Arena meet-up Shepard's personal apartment, the Wards Jack messages that she has more free time, and Shepard invites her up to the apartment.",
+      "url": "",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-romance-suit-trust#03",
+      "kind": "scene",
+      "page": "Tali, the Suit, and the Mask Before Omega 4",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-romance-suit-trust",
+      "text": "Tali, the Suit, and the Mask Before Omega 4. 2185, aboard the Normandy SR-2 — after Tali's treason trial, and the night before the Omega 4 relay the Normandy's engineering deck, then Shepard's cabin Feeling she is finally Shepard's equal now that years have passed and she has proven herself to her family, Tali is the one who raises the relationship — apologizing for being \"unprofessional... stupid and selfish\" and worrying that wanting Shepard could make her sick and put the mission at risk.",
+      "url": "",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "summary:jack-unique-dialogue",
+      "kind": "summary",
+      "page": "Jack/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A catalogue of dialogue unique to Jack when she is in Shepard's squad in Mass Effect 2, organized into location-triggered lines, \"talk to squad mate\" conversations, and spontaneous combat and ambient barks. Notable in the collection: on the Citadel, Jack tells a story in the bar bathroom of being sexually assaulted in the Purgatory prison showers and then hunting down and murdering every one of her attackers. Representative verbatim lines:\n\n- Jack, on the Collector Ship when the trap springs: \"I knew Cerberus would screw me again!\"\n- Jack, meeting Legion at the end of the Reaper IFF mission, on whether to take the geth: she favors taking it \"so it can be carved into a lamp.\"\n- Jack, on Legion's loyalty mission, objecting to rewriting the heretics: \"If you screw with my head, made me nod and smile at everything... I'd rather you blew my head off. Let me die as me.\"\n- Jack, dying if chosen to lead the second diversion squad in the Suicide Mission: \"Too many... tore me up. How'd you talk me into this? Heh... I wasn't supposed to care.\" (Romanced male Shepard: \"Too many of them... I knew I'd get hit on this job. I was too happy... too happy with you.\")\n- Jack, when Miranda is suggested to lead the second squad: \"No one wants to take orders from you.\"\n- Jack, on Horizon after the first Collector encounter: \"Peaceful. Usually takes a lot of chemicals for me to get this kind of quiet.\"\n- Jack, landing on Korlus and hearing Jedore's PA orders: \"I already want to kill this person.\" Later: \"Can we shut that bitch up, already?\"\n- Jack, starting an encounter: \"Hello, dead people!\"\n- Jack, if knocked unconscious: \"If I die Shepard, I'm haunting you!\"\n- Jack, using Pull: \"Fly, bitch!\" / \"I'll throw you like a toy!\" Using Shockwave: \"I will destroy you!\" / \"I will kill you all!\"\n\nOther tagged lines include her approving of Shepard throwing a merc through a window during Thane's recruitment (\"I could take notes from you, Shepard\"), betting 15 credits that Niftu Cal will die, and calling the Shadow Broker's remark that her corpse is valuable during Lair of the Shadow Broker.",
+      "url": "https://masseffect.fandom.com/wiki/Jack/Unique_dialogue",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "summary:jack-character-analysis-01",
+      "kind": "summary",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 1) — Origin and History",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Part 1 of a YouTube character analysis of Jack, covering her origin and history; the author frames Jack as one of the best-written characters in the series and a frequent romance choice, and notes some content is interpretation rather than hard canon. Names attached to her: Jack, Subject Zero, Jacqueline Nought, and Jennifer. Born a biotic and modified into a weapon, she is one of the most powerful and notorious human criminals in the setting.\n\nIn 2165 Cerberus, a human-supremacist paramilitary group, abducted the infant later called Jennifer, drawn by biotic potential from accidental element-zero exposure in the womb, and told her mother the child had died. Cerberus sent her to the Teltin facility on Pragia, whose goal was to enhance human biotic potential \"no matter the risk.\" Designated Subject Zero and later named Jack, she was the focal point of all research; other children were expendable, with lethal enhancements tested on them first and only beneficial ones applied to Jack. Scientists tortured her physically and mentally to study how pain and distress affected biotics. She was kept behind soundproof one-way glass, able to see and hear the other children but not the reverse, and spent hours screaming and beating on the glass. The other children hated her because Cerberus regularly killed them in experiments meant to advance her abilities. Their only interaction was forced gladiatorial combat: she was shocked for hesitating and injected with narcotics for killing without hesitation, hardwiring a link between euphoria and killing. The abuse made her one of the strongest human biotics alive at a very young age.\n\nEventually the subjects rioted and attacked the guards, damaging the facility and freeing Jack, whose pent-up rage sent her into a blind fury; she nearly killed everyone present, then stole a shuttle and escaped Pragia. A passing freighter picked her up, used her, and sold her into slavery. In the violent, crime-filled years that followed she committed murder, assault, kidnapping, drug use, theft, arson, piracy, and vandalism, and joined a cult. She attacked another Cerberus facility using biotic children to free them, fought off Cerberus agents while covering the children's escape, but was overrun and captured by Blue Suns mercenaries, to Cerberus's frustration, and taken to the prison ship Purgatory. There guards and prisoners beat and raped her; after healing she murdered every attacker. Warden Kuril decided she was not worth the Blue Suns' effort and offered to sell her back to Cerberus. In 2185 Commander Shepard, revived and working with Cerberus, arrived to complete the purchase and recruit Jack against the Collectors. When Kuril tried to capture Shepard a fight broke out, Jack escaped and rampaged, and after being talked down from killing Shepard over the Cerberus connection she agreed to join the team. Part 2 is a psychological analysis of her arc.",
+      "url": "",
+      "for_key": "how Jack and Shepard's relationship started"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#08",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Declining her early advance confuses her and her shell begins to crack; with steady, non-sexual interest a relationship forms and she admits she really does need someone. In place of a love scene before the Omega 4 Relay, she and Shepard only kiss and lie in bed together, Shepard holding her.",
+      "url": "",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "jack_011",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- In an internal document used during Mass Effect 2's early development, the earliest pitch for the \"Convict\" squadmate presented him as a 30\\-year\\-old male. Writer Mac Walters commented that Jack was also somehow inspired by the concept for the \"Mad Bomber\", an unhinged demolition expert. - Jack was originally intended to be a pansexual romance until negative backlash from Fox News concerning the first Mass Effect game forced a reassessment late in Mass Effect 2's development. Despite being unromanceable by a female Shepard, bits of Jack's orientation are still present in the games as per her tale about sleeping with both a man and a woman, both criminals, in her backstory. Scenes were animated for both male and female Shepards, but didn't make it into the final product. - Jack's past with drugs was originally a bigger part of her character, but it was eventually downplayed due to rating and censorship concerns as well as reevaluation by writer Brian Kindregan. Drugs are still mentioned briefly during her Normandy conversations, as well as in a unique interaction Shepard may have with her during Dossier: The Justicar in which she talks about drugs at length.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "batarian_001",
+      "kind": "page",
+      "page": "Batarian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about batarians in general. For the in\\-game enemy unit, see Batarian (enemy).* | | --- | --- | A race of four\\-eyed bipeds native to the world of Khar'shan, the **batarians** are a disreputable species that chose to isolate themselves from the rest of the galaxy. The Terminus Systems are infested with batarian pirate gangs and slaver rings, fueling the stereotype of the batarian thug. It should be noted that these criminals do not represent average citizens, most of whom are forbidden to leave batarian space by their ubiquitous and paranoid government. Despite several disagreements with the Citadel and simmering hostility toward humans, most batarians prefer profitable pursuits such as drug running and slave grabs to out\\-and\\-out warfare. They have a reputation for being shrewd businessmen and merchants, though in more lawless regions of the galaxy like Omega, negotiations with a batarian are likely to be conducted at gunpoint.",
+      "url": "https://masseffect.fandom.com/wiki/Batarian",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_011",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Jack",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "These images are production paintings showing Jack in her element, giving a feel for what she can do when she breaks out of *Purgatory*. Jack is a punk, and early variations focused on that. Her pants, which were part of her prison uniform, were rolled down to reflect Jack's unique sense of style. Her tattoos cover her scars in a deliberate attempt to write her own story, erasing the pain of her past. An actress's head was scanned to serve as the model for Jack's face. It was decided that Jack needed a shaved head for a genuine punk feel rather than making her a supermodel with ink. Once it was decided that Jack would be clothed in tattoos, various directions were explored for how to tell her backstory through them. We also sought ways to best show off her tattoos while covering her chest to some degree. Concerns about how exposed she was led to some of the changes.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_025",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Pragia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack's loyalty mission takes place on Pragia in an abandoned Cerberus base. Rain and lightning were intended to give the level a horror\\-movie feel, conveying the brutality of Jack's childhood.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "war-assets-alliance_010",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Jack's survival in the Suicide Mission and completing Grissom Academy: Emergency Evacuation. **Military Strength:** 25 Jack, formerly known as Subject Zero, may be the most talented biotic of her time. After helping Shepard destroy the Collectors, she was offered a teaching position at Grissom Academy by the Alliance. Accepting the position for reasons of her own, Jack continued to hone her skills while training her students. Grissom Board of Directors member Kahlee Sanders has vouched for Jack's energetic, if unorthodox, teaching style, impressed with the inroads made with the children under the rogue biotic's care.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "jack_005",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I want to go to the center of the place, my cell. I want to deploy a big fucking bomb. And I want to watch from orbit when it goes.” *Main article: Jack: Subject Zero* After looking through her files, Jack wants to deploy a bomb at the Teltin facility on Pragia, where Cerberus conducted their experiments on her. Shepard takes Jack to the facility, unexpectedly encountering Blood Pack mercenaries. After fighting through the mercs, they find another test subject, Aresh. Aresh hired the mercs to restore the Teltin facility in exchange for salvage. Jack wants to kill him, but Shepard has the option to stop her. The two plant the bomb in Jack's cell, and use the shuttle to escape before detonation. If Miranda's loyalty mission has already been completed, once Shepard returns to the Normandy, Shepard will have to resolve a dispute between Jack and Miranda regarding the involvement of Cerberus in Jack's torture. Shepard can resolve the conflict without picking a side, in which case, both Jack and Miranda agree to put off their fight until after the mission with the Collectors is over. If Shepard sides with Miranda, then the Commander will lose Jack's loyalty, but has the opportunity to regain her loyalty in a later conversation. In addition, if Shepard was in a romance with Jack, and sided with Miranda, then Jack will break off the relationship and will refuse to rekindle it.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "donnel-udina_003",
+      "kind": "page",
+      "page": "Donnel Udina",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Do the words political shit\\-storm mean anything to you?” If Shepard nominated Udina, he becomes the first human Councilor, with Anderson as his assistant. Should Anderson be nominated for the Council, Udina becomes his personal adviser instead. If Udina is the human Councilor and the previous Council was left to perish, Shepard will be unable to regain Spectre status. On the other hand, if the Council was saved, Shepard can regain Spectre status, regardless of whether Udina or Anderson becomes the human Councilor. Despite Udina's hostility towards the Commander, if Shepard had helped people in 2183, such as Samesh Bhatia, Udina will pass along their grateful messages to Shepard's private terminal aboard the Normandy SR\\-2. |  | ***“Your understanding is limited...”*** — Spoilers for **Mass Effect: Retribution** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Donnel_Udina",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "ben-hislop_002",
+      "kind": "page",
+      "page": "Ben Hislop",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben signed up to fight turians after his brother was killed during the aliens' bombardment of Shanxi's settlements. A master of munitions, he was a perfect recruit for Jack's prohumanity movement. Eventually he, Jack, and Eva formed a mercenary trio conducting guerrilla warfare under the employ of General Williams, and he served as Jack's right\\-hand man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "summary:irune-book-of-plenix",
+      "kind": "summary",
+      "page": "Irune: Book of Plenix",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A short Mass Effect 3 side mission acquired after Priority: Palaven. In the Presidium Commons, near the Elkoss Combine Arsenal Supplies kiosk by the bank, a volus known as the Angry Accountant (or \"Angry Volus\") laments that his people lost their way by clinging to capitalist habits during the war. He believes recovering the Book of Plenix from the volus homeworld, Irune, would help the volus remember their values and inspire them. If Shepard never overheard him, the book and its journal entry (alternatively labeled \"Citadel: Book of Plenix\") can instead be picked up during a Search and Rescue operation.\n\nShepard acquires the book by scanning Irune in the Aru system of the Aethon Cluster, which only appears on the Galaxy Map after Priority: Tuchanka. Once the Citadel is secure, Shepard returns to the Presidium Commons and gives the book to the volus. Completing the mission grants 40 points of military strength toward the Citadel Defense Force War Assets, 5 Reputation points, and 15,000 credits. Retrieving the book early can be delayed by intervening events at the Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Irune:_Book_of_Plenix",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "summary:jacob-taylor-unique-dialogue",
+      "kind": "summary",
+      "page": "Jacob Taylor/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A catalogue of dialogue unique to Jacob when he is in Shepard's squad in Mass Effect 2 (with some Mass Effect 3 lines), organized into location-triggered lines, \"talk to squad mate\" conversations, and spontaneous combat and ambient barks. A recurring thread is Jacob defending Cerberus and the Illusive Man, especially during Jack's loyalty mission, where he insists the Teltin facility \"went rogue.\" Representative verbatim lines:\n\n- Jacob, on the Collector Ship entering the massive pod chamber: \"Earth... they're going after Earth.\"\n- Jacob, on the Collector Ship when the Illusive Man's foreknowledge is revealed: \"It doesn't make sense for Cerberus to sell us out. It just doesn't.\"\n- Jacob, during Jack's loyalty mission on the container logs: \"This is... unbelievable.\"\n- Jacob, dying if he leads the second diversion squad in the Suicide Mission without secured loyalty: \"There were too many, but I got them through. You guys finish up for me, all right?\"\n- Jacob, if Shepard destroys the Collector Base and he survives: it was a \"hell of a way to tell the boss you're quitting,\" adding he wished he could have seen the Illusive Man's face.\n- Jacob, using Pull: \"Get over here!\" (a nod to Scorpion from Mortal Kombat), also \"Gravity is one mean mother, huh?\"\n- Jacob, using Barrier: \"Throwing up a barrier!\" / \"Nothing can hurt me now!\"\n- Jacob, caught in friendly fire: \"Get me out of your god-damn sights!\"\n- Jacob, hearing Jedore's canned PA orders on Korlus: \"Who does that?\"\n- Jacob, on Jack's recruitment mission seeing a prisoner beaten: \"Commander, you seein' this shit?\"\n- Jacob, if a female Shepard dumps him for Garrus: he calls the turian a \"Cuttlebone.\"\n\nOther tagged lines: confronting Ish on Omega about a past ambush and warning Shepard against helping him; on Horizon, dismissing Ashley/Kaidan's accusation as \"typical Alliance attitude\"; and, if brought to the Shadow Broker's base, the Broker notes his and Shepard's deaths would cripple Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jacob_Taylor/Unique_dialogue",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "summary:bonus-content-disc-technology-space-vehicles-human",
+      "kind": "summary",
+      "page": "Bonus Content Disc/Technology: Space Vehicles - Human",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The page transcribed art director Derek Watts' gallery commentary for \"The Technology of Mass Effect: Space Vehicles - Human,\" from the 2007 Mass Effect bonus content disc. Watts walked through numerous discarded and final human ship concepts, describing the design goal of making Mass Effect's ships look distinct from those in other games and films.\n\nEarly ideas included a ship whose main body was encased in an external skeletal brace, narrow geometric hulls, and a human dreadnought concept that was rejected for looking like \"a giant ruler\" with too little shape. The final human dreadnought carried large forward cannons and deliberately reused Normandy elements, including matching wings and engines, so all human ships shared a visual family; wings could fold in to appear more aerodynamic for mass relay transit.\n\nWatts described human fighter concepts, several derived from early Normandy sketches, and multiple early Normandy designs that leaned toward a freighter or smuggler look, with a rover bracketed in an open midsection or cargo containers sliding in from the rear; one referenced the Millennium Falcon's off-centered cockpit. The final human fighter again borrowed Normandy engines, intakes, wings, and cockpit. The final freighter used a cockpit main body with a long central spine and a variable number of attachable cargo canisters (from a few up to fifteen or twenty), and appears with strewn canisters in several levels. The final shuttle, referencing Final Fantasy: The Spirits Within, incorporated the Normandy engine and was intended for the Citadel hangar, though Watts was unsure it made it into the final game because ship textures were expensive and levels grew heavier during production.",
+      "url": "https://masseffect.fandom.com/wiki/Bonus_Content_Disc/Technology:_Space_Vehicles_-_Human",
+      "for_key": "Jack's early hostility toward Shepard"
+    },
+    {
+      "chunk_id": "summary:wilson",
+      "kind": "summary",
+      "page": "Wilson",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Wilson was a Cerberus medical officer who worked on the Lazarus Project alongside Miranda Lawson. While Miranda ran the project overall, Wilson was attached to the bio wing as Chief Medical Officer, overseeing the effort to rebuild the dead Commander Shepard. While the reconstruction was still underway, the Lazarus Research Station came under attack by rogue security mechs, forcing the not-yet-fully-healed Shepard to fight out of the facility.\n\nShepard first found Wilson with a gunshot wound to the leg and treated him with medi-gel, after which more mechs swarmed the position. Wilson suggested overloading nearby volatile crates and helped carve a path toward the station's escape shuttle. At the shuttle bay doors he found Miranda waiting, and she shot him in the throat, claiming that Wilson had been the one who hacked the mechs. Shepard, Jacob Taylor and Miranda then evacuated the station.\n\nWilson's motive was initially unknown; logs he narrated show frustration with Miranda's standoffish manner, suggesting personal grievance or an attempt to extract privileged information. Files later recovered at the Shadow Broker's base revealed that Wilson had in fact been working for the Shadow Broker. Per the wiki's trivia, Wilson continued a BioWare tradition (like Corporal Jenkins before him) of an early squadmate-style character killed and effectively replaced by someone with the same abilities, in this case Miranda. He was voiced by Steve Blum, who also voiced Grunt. Cut voicelines have Wilson notice his access code has been revoked, realize only Miranda could have done it, and panic before she silences him.",
+      "url": "https://masseffect.fandom.com/wiki/Wilson",
+      "for_key": "Jack's early hostility toward Shepard"
+    }
+  ],
+  "codex": [],
+  "conflicts": [],
+  "warnings": []
+}

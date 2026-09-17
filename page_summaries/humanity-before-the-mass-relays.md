@@ -1,0 +1,13 @@
+---
+title: Humanity Before the Mass Relays
+url: ""
+game: Mass Effect (series)
+type: timeline
+characters: [Victor Manswell, Steven Hackett, David Anderson]
+---
+
+This timeline covered human spaceflight from 2069 to 2148, before the Charon Relay was discovered. Humanity's first era of expansion began in 2069 CE with the establishment of Armstrong Outpost on Luna, on the 100th anniversary of the Apollo 11 landing. Earth still struggled with climate change, overpopulation and rising populism, with widening inequality alongside continued scientific advancement. Frustrated with the slow official pace, billionaire Victor Manswell funded a private pre-relay expedition in 2075, placing about 300 colonists in cryogenic freeze; the launch succeeded but the colonists were never heard from again. As Luna's population grew, deeper missions followed: in the 2080s NASA and the Chinese space program ran crewed Mars missions and built research stations, and the European Space Agency established the first permanent Mars settlement twenty years later.
+
+Around 2096 CE, under population pressure, Canada, Mexico and the United States united to form the United North American States. Secessionist factions opposed this, including the extremist group Freedom's First, whose New York chapter attacked Liberty Island on 1 November 2096 and destroyed the Statue of Liberty. The resulting outrage triggered the Second American Civil War between secessionist and UNAS forces, a six-year conflict ending in overwhelming UNAS victory. During the fighting, the European Space Agency established Lowell City in Eos Chasma on Mars, then humanity's most distant colony and a bastion for the hope of terraforming; colonies on Luna and Mars began to ease Earth's overpopulation.
+
+Prosperity continued into the 2130s. Steven Hackett was born in 2134 and David Anderson in 2137. Humanity colonized the outer solar system and researched faster-than-light travel. In 2143 construction began on Gagarin Station beyond Pluto's orbit, named for Yuri Gagarin and colloquially called "Jump Zero" after failed FTL attempts; it was then humanity's largest and most distant station, used for telemetry, exploration and dangerous experiments. In 2147, traces of element zero were discovered for the first time on Mars. A year of aggressive research led to the discovery of ancient alien ruins, later identified as Prothean, including a cache of advanced technology hidden deep beneath the south polar region Promethei Planum with a large supply of already-refined element zero. Building on these remnants, humans quickly worked out the science of mass effect fields and faster-than-light travel, and the discoveries of the following year began the founding of the Systems Alliance.

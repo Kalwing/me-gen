@@ -1,0 +1,11 @@
+---
+title: Heavy Pistols
+url: https://masseffect.fandom.com/wiki/Heavy_Pistols
+game: Mass Effect 3
+type: tech
+characters: []
+---
+
+Heavy pistols were a primary weapon class introduced in Mass Effect 2, replacing the pistol class of the first game. They were semi-automatic weapons with a relatively low rate of fire and limited ammunition but high damage per shot, valued as accurate long-range backup weapons effective against armor. Like most non-heavy weapons in Mass Effect 2 except sniper rifles, they dealt increased damage at close range, maximized at point-blank. All player classes could use them from the start. Mass Effect 2 squadmates who used heavy pistols included Jack, Jacob, Miranda, Mordin, Tali, Kasumi, Liara, and Wilson. The three Mass Effect 2 models were the M-3 Predator (Elanus Risk Control Services, default), the M-5 Phalanx (Systems Alliance, Firepower Pack DLC), and the M-6 Carnifex (obtained via Dossier: The Professor). Squad-wide upgrades researched aboard the Normandy included AP Heavy Pistol (Sabot Jacketing, +50% vs armor), Heavy Pistol Critical (Smart Rounds, chance of double damage), and Heavy Pistol Damage 1-6 (Titan Pulsar, +10% per rank).
+
+In Mass Effect 3 heavy pistols became highly versatile, moddable from niche backup weapons into devastating primaries, with mods enhancing power damage, melee damage, or weight reduction. Most remained semi-automatic and accurate, improved further by aiming, cover, or a scope, and allowed faster melee than shotguns, sniper rifles, or assault rifles. Mass Effect 3 users included Admiral Anderson, EDI, Javik, Kaidan, Liara, Tali, Wrex, Nyreen, Jack, Jacob, Kasumi, and Miranda. Mass Effect 3 models included the asari Acolyte, the quarian Arc Pistol, the Blood Pack Executioner Pistol, the M-3 Predator, the M-5 Phalanx, the M-6 Carnifex, the M-11 Suppressor, the M-77 Paladin, the Cerberus M-358 Talon, the N7 Eagle, and the Special Tasks Group Scorpion, obtained from missions, requisitions, or Legendary Edition merchants. Weapon mods available in Mass Effect 3 included the Pistol Melee Stunner, Piercing Mod, Magazine Upgrade, High Caliber Barrel, Scope, Cranial Trauma System, Ultralight Materials, Heavy Barrel, and Power Magnifier, several requiring the Leviathan, Omega, or Citadel DLC.

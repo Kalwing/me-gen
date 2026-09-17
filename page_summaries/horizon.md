@@ -1,0 +1,11 @@
+---
+title: Horizon
+url: https://masseffect.fandom.com/wiki/Horizon
+game: Mass Effect 3
+type: location
+characters: [Ashley Williams, Kaidan Alenko, Commander Shepard]
+---
+
+Horizon was the third planet of the Iera System in the Shadow Sea Cluster, a temperate human colony world with a nitrogen-oxygen atmosphere maintained by native photosynthetic plants and bacteria. Its soil proved unusually compatible with Earth vegetation, so introduced crops flourished; colonists used genetically engineered sterile "terminator seeds" to prevent ecological disasters. Animal life was diversifying rapidly, comparable to Earth's Cambrian period, and the thick atmosphere and low gravity allowed large flying insect analogs, some of which tasted like Earth shrimp but had a mild laxative effect. The codex described Horizon as a Terminus colony surveyed 18 years before the events of Mass Effect 2, given pilot habitation four years later, with the full colony eight years old. It attracted dissidents, marginal people and fringe-dwellers seeking refuge from Citadel-governed restrictions, and offered economic opportunity supplying humans and the Turian Hierarchy.
+
+Per Collector data gathered in 2183, Horizon's human population was 643,315. In 2185 the Collectors attacked the colony; despite an Alliance defense effort fronted by Ashley Williams or Kaidan Alenko (the Virmire survivor), the Collectors made off with roughly a third of the colonists. The Alliance had earlier provided GARDIAN laser turrets that could not be calibrated in time. In 2186, during the Reaper War, refugees streamed to Horizon, many landing illegally so population could not be tracked. A facility called Sanctuary advertised galaxy-wide as shelter from the war; it was actually a Cerberus operation converting refugees into husks to study indoctrination, kept hidden by signal interference. The Reapers invaded once Cerberus made headway co-opting their control over husks, by which point Commander Shepard had exposed the Sanctuary sham. Most of Horizon's remaining post-Collector population met their fates at Sanctuary. Shepard's departure line in Mass Effect 3, "I've had enough of this place," echoed the Mass Effect 2 line "I've had enough of this colony." Mass Effect 3's galaxy map placed the Shadow Sea Cluster in the Attican Traverse, contradicting the codex's Terminus designation.

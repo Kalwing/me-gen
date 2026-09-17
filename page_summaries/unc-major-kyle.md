@@ -1,0 +1,13 @@
+---
+title: 'UNC: Major Kyle'
+url: https://masseffect.fandom.com/wiki/UNC:_Major_Kyle
+game: Mass Effect
+type: mission
+characters: [Hackett, Kyle, Pallin]
+---
+
+UNC: Major Kyle was an assignment in Mass Effect. Major Kyle, a former Alliance marine who had served during the Siege of Torfan and now suffered from post-traumatic stress disorder, had set himself up as "Father Kyle" and gathered a small but fanatical group of biotic followers in the Hawking Eta cluster, mostly biotics seeking a champion for their cause. His followers had already killed two Alliance officers sent to talk him around. The assignment could be acquired by hacking consoles in the Citadel Embassies or Executor Pallin's office, from server nodes near the ExoGeni VI on Feros or at Noveria's Peak 15 reactor, or from Admiral Hackett on first arrival at the Century system. An open letter circulated across the extranet: "My fellow biotic: You have been selected to receive this transmission because of our shared plight. Few understand us, fewer tolerate us. We must stand together. We must build our own new world. Come. Join us in the Hawking Eta cluster." If Shepard had the Ruthless background, Kyle had been Shepard's commanding officer at Torfan.
+
+The assignment took place on Presrop, the moon of Klendagon, where the compound had two buildings: a two-story prefab and an underground bunker. At the first building's door, a conversation began. Threatening to barge in ended it and turned the commune hostile. Asking for the person in charge, or using Charm or Intimidate (for morality points), or citing the Ruthless background's Torfan connection, allowed peaceful entry. Fighting through instead meant eight Biotic Cultists in the first building, then more in the bunker, all lightly armed but able to knock the squad down repeatedly with biotics; power junctions and containment cells could be used against them.
+
+Kyle waited in the Sanctuary at the back of the bunker with at least two followers. If Shepard had fought in, he recognized the "Butcher of Torfan" and ordered his people to hold, wanting no more bloodshed. A peaceful outcome required pointing out he was not keeping his flock safe, then using Charm (7, or 8 if Shepard fought in) or Intimidate (8, or 10), after which Kyle asked for an hour to prepare his followers and was later picked up at the compound gates without incident. Other responses ended with Shepard shooting Kyle and the remaining cultists turning hostile. The assignment concluded with a debrief from Hackett; it draws heavily on Heart of Darkness and is named "Apocalypse Now" in the game's data files.

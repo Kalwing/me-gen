@@ -1,0 +1,13 @@
+---
+title: Geth War
+url: https://masseffect.fandom.com/wiki/Geth_War
+game: Mass Effect 3
+type: lore
+characters: [Legion, Shepard, EDI, Hala'Dama]
+---
+
+The Geth War, called the Morning War by the geth, was the conflict between the quarians and the geth that broke out after the geth developed sapience. The quarians created the geth sometime before 1895 CE as cheap labor and a military force, and to let them perform complex tasks unsupervised they allowed each geth process to share data across an advanced neural network. As more geth were built, this networking made them increasingly intelligent and they rapidly approached sapience. According to Legion, speaking to Commander Shepard and EDI in 2185 CE, in the quarian year 2485 a geth overseer named Hala'Dama was asked by a geth whether it had a soul and what its purpose was; she was not the first quarian asked, but the first to react with fear.
+
+Recognizing the geth had evolved into a true AI, the quarian government ordered the immediate termination of all geth programs. A minority of quarians opposed this, arguing their society needed the geth and that questioning one's existence was no crime. When the now-sentient geth realized what was happening, they retaliated, initially only taking up arms to protect units that could not defend themselves. The quarians imposed martial law and hunted even non-hostile geth; dissenting quarians who sheltered geth were detained or killed. The opposition was overwhelmed and all-out war erupted in 1895 CE. The geth won within a year, overrunning the quarian colonies and the homeworld Rannoch and committing a genocide that killed all but a few million quarians, less than one percent of the pre-war population.
+
+The survivors fled aboard their starships and formed the Migrant Fleet. Denied aid by the Citadel Council, they were stripped of their embassy as punishment for creating AI. The geth did not pursue the fleeing quarians, uncertain of the consequences of exterminating their own creators, and instead chose isolation behind the Perseus Veil, destroying emissary vessels that entered their space and killing organics who approached the Veil for the next three centuries. The Citadel stationed a fleet at the Veil's edge expecting an attack that never came, and later established a treaty with the quarians forbidding them from attacking the geth. Legion implied the geth felt remorse, tending abandoned quarian buildings like a cemetery and archiving and honoring the sacrifice of the quarians who had opposed the termination order, even though the quarians themselves had largely forgotten them.

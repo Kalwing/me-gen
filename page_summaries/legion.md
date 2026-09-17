@@ -1,0 +1,13 @@
+---
+title: Legion
+url: https://masseffect.fandom.com/wiki/Legion
+game: Mass Effect 3
+type: character
+characters: [Legion, Shepard, EDI, Tali'Zorah, Hackett, Han'Gerrel, Shala'Raan, Admiral Xen]
+---
+
+Legion was the name taken by the gestalt consciousness of 1,183 geth programs inhabiting a unique geth "mobile platform" designed to operate outside the Perseus Veil and interact with organics. The extra programs, compared with roughly a hundred in other platforms, let it act independently and speak, and facial flaps on its head simulated expressions. It was created after Commander Shepard destroyed the Old Machine "Nazara" (Sovereign) and sent to investigate worlds Shepard had visited. At the Normandy crash site on Alchera it salvaged a piece of Shepard's N7 armor and incorporated it to repair battle damage, becoming evasive when questioned about that seemingly irrational choice.
+
+In Mass Effect 2, Legion was first encountered searching for the Reaper IFF on the Derelict Reaper, where it aided Shepard's team against husks before being disabled. Shepard could sell it to Cerberus or store and reactivate it aboard the Normandy SR-2, where it joined the team. EDI named it after Mark 5:9, "My name is Legion: for we are many." Legion spoke laconically, regarded itself as a gestalt needing consensus to act, and explained that geth are largely apathetic toward organics while "heretics" follow the Reapers. Its loyalty mission, Legion: A House Divided, had Shepard destroy or rewrite a heretic Reaper virus. A conflict with Tali arose when Legion scanned her omni-tool for Migrant Fleet data.
+
+In Mass Effect 3, Legion returned if it survived the Collector base and was not sold; otherwise a Geth VI in its likeness appeared, or it appeared as a Cerberus enemy on Cronos Station. After the quarians attacked the geth, the geth allied with the Reapers for greater intelligence. Shepard freed Legion from a Reaper device in a geth dreadnought's drive core, ending the Reaper control signal. Legion later helped Shepard purge Reaper code from the geth consensus and destroy a Reaper Destroyer on Rannoch. It then sought to disseminate its Reaper upgrades to all geth, requiring it to disperse itself. Shepard could prevent the upload (Legion turning hostile and being killed by Tali or Shala'Raan, or dying with the question "does this unit have a soul?"), allow it, or broker peace between geth and quarians and allow it. In most outcomes Legion sacrificed itself for the geth's welfare, referring to itself as "I" rather than "we," and its name was engraved on the Normandy's memorial wall. A Geth Prime emissary afterward pledged to honor Legion's promise to aid the war.

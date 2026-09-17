@@ -1,0 +1,17 @@
+---
+title: 'Omega: Aria T''Loak (Mass Effect 3)'
+url: https://masseffect.fandom.com/wiki/Omega:_Aria_T'Loak_(Mass_Effect_3)
+game: Mass Effect 3
+type: mission
+characters: [Aria T'Loak, Commander Shepard, Nyreen Kandros, Oleg Petrovsky, Bray, Ahz, Harrot]
+---
+
+"Omega: Aria T'Loak" was the central, unusually long mission of the Mass Effect 3: Omega DLC, unlocked by completing "Citadel: Aria T'Loak" and begun by travelling to the Widow system to rendezvous with Aria's mercenary fleet. Aria insisted Shepard leave the Normandy and its crew behind, so there were no squad choices; Aria served as principal companion throughout, with Nyreen Kandros joining partway. Enemies were mostly Cerberus forces plus new types including Rampart Mechs, Adjutants, and the Atlas. Numerous morality choices and interrupts collectively influenced Aria and shaped the mission's final scenes.
+
+After Aria's fleet was crippled by Omega's upgraded defenses, Shepard crash-landed in escape pods and fought through a Cerberus-held hangar and atria to disable the defense-system controls, letting the fleet enter Omega. Shepard then crossed the force-field-blocked streets, met Nyreen in Aria's secret tunnels, and cleared Aria's cannons before reaching Aria's Bunker, where the side missions "Omega: Assist the Hacker" and "Omega: Assist the Mechanic" could be picked up. In Talon Territory, Shepard fought through detention areas rescuing captured Talons, discovered Nyreen was the real Talon leader, and secured the Talon Outpost, defending it against waves of Cerberus. Back at the bunker, Harrot offered "Omega: Assist Harrot."
+
+Through the mines and a powered-down eezo processing plant, Shepard restored power (drawing Adjutant attacks) and reached Omega's reactor, where Petrovsky trapped Aria and Nyreen in a force-field. Shepard reached the reactor controls and faced a choice: reroute power slowly (risking the trapped squadmates) or use a Renegade interrupt to shut the fields immediately (sacrificing life support for thousands of civilians); an Engineer Shepard could uniquely use a Paragon interrupt to reroute quickly, the only class-specific morality choice in the series. In "The Assault on Afterlife," Shepard and Aria disarmed bombs rigged to Omega's support columns, studied video logs on how Cerberus created the Adjutants, and pushed through Gozu District. Nyreen left to reach Afterlife alone and sacrificed herself outside to destroy rogue Adjutants, enraging Aria.
+
+The final battle in Afterlife, described as one of the hardest fights in the game, had a solo Shepard destroy four generator pylons ringing Aria's stasis prison—each exposed via an override at the four corners of the upper level—before her life bar emptied, while Adjutants, Assault Troopers, and Nemeses respawned endlessly; each destroyed generator triggered a friendly biotic pulse from Aria. Freeing Aria made her unkillable and stopped respawns.
+
+In the aftermath, Aria killed or spared General Petrovsky based on the mission's overall morality, with Paragon or Renegade interrupts able to override her; Shepard could also execute him personally. The mission unlocked Flare and Lash as bonus powers and granted the Omega Raiding Fleet and Omega Eezo Hoard War Assets; sparing Petrovsky added a 30-point asset, killing him added 30 points to the Alliance First Fleet. Afterward Aria relocated to Purgatory and sent Petrovsky's chess set to Shepard's cabin. The mission was written by Neil Pollner.

@@ -1,0 +1,9 @@
+---
+title: Chohe
+url: https://masseffect.fandom.com/wiki/Chohe
+game: Mass Effect 3
+type: location
+characters: [Matriarch Dilinaga]
+---
+
+Chohe was the second planet of the Cacus System in the Hades Gamma cluster, a large terrestrial world whose surface was mainly aluminum with numerous calcium deposits. Although massive enough to retain a dense atmosphere, it was nearly a vacuum, which kept its average temperature moderate but produced extreme differences between day and night. Volatiles, mainly water vapor and carbon dioxide, hazed over its sunward-facing side during the day and settled back to the ground as frost over the long, cold night. The Sirta Foundation established a research outpost on Chohe to investigate the planet's native subterranean life, which showed great resilience to extremes of heat and cold. Its star was a main-sequence F0 no older than 2.82 billion years, so the planet could be no older; Chohe still emitted heat from its formation, and its plutonium deposits were thought to be the result of a natural fission reaction rather than dating to the planet's formation. A small, captured, airless satellite was visible from the surface. Surface locations included an underground complex tied to the assignment UNC: Besieged Base, an abandoned camp holding three of Matriarch Dilinaga's writings and a recording of a string quartet, whose occupant had long since left and whose shelter had run out of atmosphere, a crashed probe and a crashed satellite to salvage, a dead salvager guarded by mercenaries, and a thresher maw. Hostile lifeforms included biotic terrorists and a biotic terrorist leader, an insane scientist, several types of mercenary, and the thresher maw. Chohe and Amaranthine share identical in-game geography, and Chohe's moon reuses a real-world photograph of Mars, an asset also used on the skyboxes of Altahe, Presrop, and Trebin.

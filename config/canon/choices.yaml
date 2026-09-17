@@ -112,6 +112,16 @@ me1:
     options: []
     answer: "spared"
     detail: ""
+  - id: tali_geth_data
+    prompt: Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.
+    options: [given to Tali, kept]
+    answer: "given to Tali"
+    detail: "Shepard gave her a copy of the data for her Pilgrimage gift."
+  - id: finch_weisman
+    prompt: Citadel - Finch's request to free Weisman, the Reds prisoner.
+    options: [freed, guard tipped off]
+    answer: "guard tipped off"
+    detail: "Weisman wasn't freed; Shepard tipped the guard instead."
   - id: noveria_garage_evidence
     prompt: Noveria - Qui'in's evidence of Anoleis's corruption.
     options: []
@@ -324,6 +334,16 @@ me2:
     options: []
     answer: "Helped him, as his Krantt"
     detail: ""
+  - id: lia_vael_theft
+    prompt: Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.
+    options: []
+    answer: "Cleared her and stood up for her"
+    detail: "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+  - id: kenn_omega
+    prompt: Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.
+    options: [direct_payment, intimidate_harrot, harrot_buyout]
+    answer: "direct_payment"
+    detail: "Shepard paid Kenn's fare off Omega himself."
   - id: ish_citadel
     prompt: The Citadel - Ish the smuggler and his packages.
     options: []
@@ -424,8 +444,8 @@ me3:
   - id: rannoch
     prompt: Rannoch's outcome - who lived, Legion's fate, Tali's fate.
     options: []
-    answer: "Everyone lived and stayed happy"
-    detail: ""
+    answer: "Everyone lived and stayed happy, except Legion"
+    detail: "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
   - id: grunt_fate
     prompt: Grunt and Aralakh Company at the Attican Traverse rachni mission.
     options: []
@@ -514,7 +534,7 @@ me3:
   - id: citadel_coup
     prompt: The Cerberus coup on the Citadel - Udina, the Virmire survivor at gunpoint, Thane's intervention.
     options: []
-    answer: "Killed udina, convinced the survivor to join, thane died protecting the dalatrass"
+    answer: "Killed udina, convinced the survivor to join, thane died protecting the councilor"
     detail: ""
   - id: leviathan
     prompt: Leviathan - tracking down and dealing with the Leviathans.

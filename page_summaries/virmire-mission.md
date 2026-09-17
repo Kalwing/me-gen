@@ -1,0 +1,13 @@
+---
+title: Virmire (mission)
+url: https://masseffect.fandom.com/wiki/Virmire_(mission)
+game: Mass Effect
+type: mission
+characters: [Shepard, Joker, Kaidan Alenko, Ashley Williams, Kirrahe, Wrex, Anderson, Rentola, Liara T'Soni, Garrus Vakarian, Tali'Zorah, Saren Arterius]
+---
+
+Virmire, also titled Virmire: Saren's Plan after arrival, was the opening mission of the Virmire chain in Mass Effect. It was acquired after completing two of the first three plot worlds (Therum, Noveria, or Feros), when Joker relayed a priority call from the Citadel Council. The Councilors reported that a salarian reconnaissance team on Virmire, in the Hoc system of the Sentry Omega cluster, had sent nothing but static on a mission-priority channel and was feared to be in danger. Beginning the Virmire sequence was a major turning point: once Shepard landed, the Normandy could not leave until the entire mission chain was complete, and one or more squadmates would be lost afterward.
+
+The mission was largely a driving section. Joker dropped the Mako at low altitude beneath the range of the massive anti-aircraft towers surrounding Saren's base. Shepard drove through the Virmire coastline fighting geth, including Rocket Drones, Rocket Troopers, a Juggernaut, Armatures, and Colossi, and passed through three fortified gatehouses. At Gatehouse Two and Gatehouse Three, Shepard had to enter the control rooms to shut down the AA guns and raise the gates before proceeding, clearing the way for the Normandy to reach the salarian camp.
+
+At the camp, Kaidan and Ashley were arguing with the salarian captain, who introduced himself as Captain Kirrahe of the 3rd Infiltration Regiment, STG. Kirrahe had lost half his men and was dismayed that Shepard's orders were as vague as his own transmission. He explained that the heavily fortified base was guarded by a legion of geth and that Saren was breeding an army of krogan using a cure for the genophage, which had to be destroyed. If Wrex was in the party, this triggered the assignment Virmire: Wrex and the Genophage. Shepard could explore the camp and speak with Kirrahe's second-in-command and supply officer Commander Rentola, as well as squadmates temporarily standing as NPCs. Kirrahe then presented his plan: three salarian fireteams (Aegohr, Mannovai, and Jaëto) would strike the front while Shepard's team "Shadow" infiltrated from the rear. Kirrahe requested one of Shepard's squad for the assault; whichever of Ashley or Kaidan was sent became unavailable as a squadmate for the rest of Virmire. Kirrahe gave a speech to his men before the attack began, leading into Virmire: Assault.

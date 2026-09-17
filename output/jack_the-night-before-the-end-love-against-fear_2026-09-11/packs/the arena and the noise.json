@@ -1,0 +1,919 @@
+{
+  "section": {
+    "id": "the arena and the noise",
+    "title": "The Arena and the Noise",
+    "target_words": 700,
+    "form": "bedtalk",
+    "narrator": "jack"
+  },
+  "promises": [
+    "the two rounds against simulated Cerberus troops on Brimstone, and taking the Atlas apart herself. The heavy kiss they shared as they won, behind the debris. A couple made in violence, but not defined by it",
+    "why that kind of noise and hitting things is the closest thing she has to church",
+    "a lighter beat in a heavy night — this is the digression that makes her laugh instead of flinch"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "citadel-jack-arena-brimstone",
+      "title": "Two Rounds on Brimstone with Jack",
+      "kind": "hangout",
+      "game": "Mass Effect 3",
+      "when": "2186, Citadel shore leave, after at least one Arena match",
+      "where": "the Armax Arsenal Arena, Brimstone map",
+      "participants": [
+        "Shepard",
+        "Jack"
+      ],
+      "private_to": [
+        "Shepard",
+        "Jack"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "grissom_academy": "evacuated"
+        },
+        {
+          "citadel_dlc": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Jack messages Shepard that the Strip has a combat simulator and she feels like kicking the crap out of something — get down here if you're game. The message only comes after Shepard has played at least one match.\n",
+          "source_chunks": [
+            "jack_009",
+            "personal-apartment_013"
+          ]
+        },
+        {
+          "text": "They take a two-round match against elite Cerberus troops on the Brimstone map. When the Atlas mech spawns, Jack takes it down herself, and thanks Shepard for the get-together.\n",
+          "source_chunks": [
+            "jack_009"
+          ]
+        },
+        {
+          "text": "Her ally licence can be bought afterwards, so she can be brought back into the simulator again.\n",
+          "source_chunks": [
+            "jack_009"
+          ]
+        },
+        {
+          "text": "Her follow-up message is warmer than she would admit to: good to see you haven't lost it without me around to keep you in line.\n",
+          "source_chunks": [
+            "personal-apartment_012"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "romance": "Jack"
+          },
+          "choice": "romanced Jack",
+          "text": "During the last fight she tells Shepard she is turned on, and they make out as the Atlas goes up behind them.\n",
+          "source_chunks": [
+            "jack_009"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-armax-arena-matches",
+        "citadel-jack-apartment-eezo"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "jack_009",
+        "personal-apartment_012",
+        "personal-apartment_013"
+      ]
+    }
+  ],
+  "attendance": {
+    "citadel-jack-arena-brimstone": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#02",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map They take a two-round match against elite Cerberus troops on the Brimstone map. When the Atlas mech spawns, Jack takes it down herself, and thanks Shepard for the get-together.",
+      "url": "",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#03",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map Her ally licence can be bought afterwards, so she can be brought back into the simulator again.",
+      "url": "",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#05",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map During the last fight she tells Shepard she is turned on, and they make out as the Atlas goes up behind them.",
+      "url": "",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#04",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map Her follow-up message is warmer than she would admit to: good to see you haven't lost it without me around to keep you in line.",
+      "url": "",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "citadel-arena-geth-challenge_001",
+      "kind": "page",
+      "page": "Citadel Arena: Geth Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  | | --- | --- | The Citadel University Engineering Club has requested a special match. Fight geth enemies in the Blasteroid map of the Armax Arsenal Arena.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Geth_Challenge",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "armax-arsenal-arena_010",
+      "kind": "page",
+      "page": "Armax Arsenal Arena",
+      "section": "Bronze Prizes",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  |  |  |  | | --- | --- | --- | --- | --- | - Spin Zone map - Prime Evil map - The Armax Classic map - Pain Train map - Brimstone map |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | - Ally License \\- Wrex - Ally License \\- Jack - Ally License \\- Grunt - Ally License \\- Jacob - Ally License \\- Miranda - Ally License \\- Samara - Ally License \\- Kasumi - Ally License \\- Zaeed - 900 Credits",
+      "url": "https://masseffect.fandom.com/wiki/Armax_Arsenal_Arena",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "armax-arsenal_001",
+      "kind": "page",
+      "page": "Armax Arsenal",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | *This article is about the manufacturer. For the location in Mass Effect 3: Citadel, see Armax Arsenal Arena.* | | --- | --- | The main supplier of elite turian military units, **Armax Arsenal** weapons and armor are high quality, high priced and very difficult to acquire for most non\\-turians. They also make a basic grade omni\\-tool which is available to the general public. Armax Arsenal produces Predator L/M/H Armor. In Mass Effect, a licence for Armax Arsenal gear can be purchased from Expat at the Citadel for a cost of 30,000 credits. Armax Arsenal also runs a popular simulated combat arena on the Citadel that broadcasts matches across the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Armax_Arsenal",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "armax-arsenal-arena_001",
+      "kind": "page",
+      "page": "Armax Arsenal Arena",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the location in Mass Effect 3: Citadel. For the manufacturer, see Armax Arsenal.* | | --- | --- | The **Armax Arsenal Arena** is a combat simulator complex located in the Citadel's Silversun Strip.",
+      "url": "https://masseffect.fandom.com/wiki/Armax_Arsenal_Arena",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-geth-challenge",
+      "kind": "summary",
+      "page": "Citadel Arena: Geth Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Geth Challenge was a side mission in the Mass Effect 3: Citadel DLC, available after Citadel Docks: Retake the Normandy, once the Armax Arsenal Arena opened with the rest of Silversun Strip. It was typically the first arena challenge Shepard received. After one arena match, Dave Shanel, self-styled \"Anti-President\" of the Citadel University Engineering Club, emailed the Combat Sim Controls. He said Shepard's match had drawn a following at the club, that a member poll had chosen geth over Reapers or Cerberus because those felt too much like the news, and asked for a match against geth on the Blasteroid map. The club could not pay but offered to build Shepard a weapon mod, as some members worked in weapons research.\n\nTo complete the challenge, Shepard played a combat match in the Armax Arsenal Arena against geth on the Blasteroid map; because it was the first challenge received, not all match options were available until non-mission matches had been completed. The challenge was not mutually exclusive with other arena challenges, such as the Medi-Gel Challenge. After a successful match, Shanel sent a follow-up email, and reading it awarded the SMG Power Magnifier weapon mod and +2 Reputation, with a joking suggestion that Shepard test the mod before trusting it.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Geth_Challenge",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "citadel-arena-medi-gel-challenge_001",
+      "kind": "page",
+      "page": "Citadel Arena: Medi-Gel Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A fan has delivered a challenge. Fight in the Armax Arsenal Arena without using medi\\-gel.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Medi-Gel_Challenge",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "citadel-arena-spin-zone-elite-challenge_001",
+      "kind": "page",
+      "page": "Citadel Arena: Spin Zone Elite Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  |  |  |  | | --- | --- | --- | --- | --- | Elkoss Combine has offered corporate sponsorship. Fight in the Armax Arsenal Arena on Spin Zone versus elite enemies.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Spin_Zone_Elite_Challenge",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "citadel-arena-cerberus-challenge_001",
+      "kind": "page",
+      "page": "Citadel Arena: Cerberus Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  |  |  | | --- | --- | --- | --- | A fan has delivered a challenge. Fight Cerberus enemies in the Armax Arsenal Arena with an Alliance\\-only squad.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Cerberus_Challenge",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "citadel-arena-reaper-solo-challenge_001",
+      "kind": "page",
+      "page": "Citadel Arena: Reaper Solo Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  | | --- | --- | The \"Hour 20\" news team has requested a special match. Fight Reaper enemies alone in the Armax Arsenal Arena.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Reaper_Solo_Challenge",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-unusual-scores",
+      "kind": "summary",
+      "page": "Citadel Arena: Unusual Scores",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Unusual Scores was a side mission in the Mass Effect 3: Citadel DLC, available after Citadel Docks: Retake the Normandy, once the Armax Arsenal Arena opened with the rest of Silversun Strip. After Shepard won several matches and purchased all available prizes except the ally licenses, the Armax Arsenal Arena IT department emailed the Combat Simulator Control terminal through Principal Systems Administrator Virginia Ruojian. IT was trying to isolate a bug, believed to be a memory leak, that caused unusual scores to appear, and hired Shepard as a paid consultant and \"baseline\" to reliably reproduce high scores.\n\nThe mission ran in stages, each set up by an email from Ruojian. First Shepard fought Super-Elite enemies, after which IT concluded memory-intensive creatures were not the cause and suspected the bonus-generator code; reading that email awarded a Sniper Rifle High-Velocity Barrel. Shepard then completed a match with every positive bonus modifier enabled. IT next reported the leak was not caused by scoring but by a background program siphoning resources, joked that the arena had been built on an old Prothean burial ground, and asked Shepard to fight geth elites on the Spin Zone map with enhanced enemy shields, attaching a next-of-kin liability waiver; this stage awarded the Pistol Power Magnifier mod.\n\nThat final test malfunctioned badly: the map filled with digital artifacts and \"Fatal Error\" text, the announcer distorted, and instead of geth the arena spawned waves of super-elite Collectors, then geth, then Cerberus, then Reapers, culminating in a single wave combining Banshees, Praetorians, Geth Primes, and Atlases. Unlike normal simulations, losing all health and shields caused a Critical Mission Failure. After Shepard survived, Ruojian sent a final apologetic email: the tests had stabilized the level, eliminated the memory leak, and corrected the scores to place Shepard at the top of the leaderboard, while the fans had enjoyed the unscripted brush with death. Completion awarded the Assault Rifle Thermal Scope mod and unlocked the corrected \"Fatal Error\" map for future arena matches.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Unusual_Scores",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "summary:silversun-strip",
+      "kind": "summary",
+      "page": "Silversun Strip",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Silversun Strip was a hub location on the Citadel Wards introduced in Mass Effect 3's Citadel downloadable content. It contained the Armax Arsenal Arena, Shepard's Personal Apartment, the Silver Coast Casino, Castle Arcade, a bar, and a Rapid Transit point, and served as a second social hub where Shepard could meet current and former squad members after receiving e-mail invitations. These encounters depended on the ally's own mission being complete, and some allies had a first meeting on the Strip and a later one in the Apartment.\n\nPoints of interest included the Personal Apartment (with the Home Spun kiosk and, for a Spacer Shepard, the ability to call Hannah Shepard), the Armax Arsenal Arena (with a vorcha Three-card Monte hustler outside and procurement and weapon-upgrade terminals), Castle Arcade (featuring Shattered Eezo, the Claw Game, Relay Defense, and a powered-down Towers of Hanoi), the Silver Coast Casino (Quasar, roulette, varren racing, and Kasumi Goto's suspicious device), and the bar where Citadel: Party supplies were sold and Garrus Vakarian, Ashley Williams, Joker, and Urdnot Wrex could be met.\n\nMissions staged here included Citadel: Shore Leave, Citadel: Identity Theft I and II, Silver Coast Casino: Infiltration, Citadel: Party, and numerous Armax Arsenal Arena challenges. Notable background NPCs included Francis Kitt promoting a krogan-led production of Macbeth and an out-of-work elcor actor who quoted Hamlet. Arena and arcade high-score boards listed characters such as Aria T'Loak, Barla Von, Khalisah al-Jilani, Bray, Matriarch Aethyta, Schells, Armando-Owen Bailey, Mouse, and James Vega. Several overheard conversations referenced Mass Effect 3's multiplayer mode.",
+      "url": "https://masseffect.fandom.com/wiki/Silversun_Strip",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-spin-zone-elite-challenge",
+      "kind": "summary",
+      "page": "Citadel Arena: Spin Zone Elite Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Spin Zone Elite Challenge was a side mission in the Mass Effect 3: Citadel DLC, available after Citadel Docks: Retake the Normandy, once the Armax Arsenal Arena opened with the rest of Silversun Strip. After one arena match, Daksa Teller, Earth-Clan Talent Liaison for Elkoss Combine's Citadel Sports Division, emailed the Combat Sim Controls offering corporate sponsorship. Teller congratulated Shepard on recent arena victories, noted Shepard had not yet settled on a corporate sponsor, and offered a one-time cash stipend for top gear, asking Shepard to make an Elkoss \"debut\" by selecting the Spin Zone layout against Elite enemies and winning.\n\nTo complete the challenge, Shepard selected \"Spin Zone\" as the map and \"Elite\" enemies at the Combat Simulator Control terminal; Spin Zone was a bronze-level prize and Elite enemies a silver-level prize, both purchased with prior match winnings. Other settings were free, allowing other non-conflicting arena challenges such as the Thermal Clip Challenge or Medi-Gel Challenge to be completed in the same match. Afterward Teller sent a second email praising Shepard as \"the paradigm,\" promising to file the paperwork and arrange a future meeting. Receiving and reading the second email granted 5,000 credits and +2 Reputation.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Spin_Zone_Elite_Challenge",
+      "for_key": "Armax Arsenal Arena Brimstone map"
+    },
+    {
+      "chunk_id": "thresher-maw-enemy_002",
+      "kind": "page",
+      "page": "Thresher Maw (enemy)",
+      "section": "Mass Effect",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Thresher Maws can be encountered on a number of uncharted worlds and can be fought in the Mako or on foot. Thresher maw nests are uniquely identifiable by a distinct profile of landscape, which consists of a few hills and pits no higher or deeper than 2 meters on an otherwise perfectly flat circular area of land about 50\\-75 meters in diameter. Although barely discernible from radar, it becomes more apparent once it is seen from above. From below, it may appear as a jagged circular terrace. Thresher maws will not rise from the ground upon the hills or pits in their nest. They will retreat below ground if you leave their circular area for longer than about 5 seconds.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "combat_019",
+      "kind": "page",
+      "page": "Combat",
+      "section": "Combat Difficulty",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Legendary Edition:** Hardcore and Insanity are unlocked automatically. It is no longer necessary to complete the game to unlock those difficulties.",
+      "url": "https://masseffect.fandom.com/wiki/Combat",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "batarian-commander_002",
+      "kind": "page",
+      "page": "Batarian Commander",
+      "section": "Capabilities",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Offensive** Commanders are armed with M\\-15 Vindicator assault rifles, making them accurate and deadly. They can also arm their rifles with Disruptor Ammo to further increase their damage output. **Defensive** They possess moderate shielding on veteran and below, and gain more resilient shields on hardcore and insanity.",
+      "url": "https://masseffect.fandom.com/wiki/Batarian_Commander",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "armax-arsenal-arena_016",
+      "kind": "page",
+      "page": "Armax Arsenal Arena",
+      "section": "Bugs",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The combat simulator has a bug that caps the game difficulty inside at Normal. Difficulty settings of Normal and below apply properly while in the simulator, but Hardcore and Insanity settings do not; instead, the difficulty will be set to Normal.",
+      "url": "https://masseffect.fandom.com/wiki/Armax_Arsenal_Arena",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-december-2010_026",
+      "kind": "page",
+      "page": "Cerberus Daily News - December 2010",
+      "section": "*12/25/2010 \\- Humans Celebrate the Holiday of Christmas*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“Today marks the human holiday of Christmas, celebrating the birth of the semi\\-divine teacher\\-prophet Jesus in Earth's Christian tradition. The holiday is commemorated through omnipresent music in public areas, lavish gift\\-giving to relatives and loved ones, the cutting and decorating of trees placed indoors, and the hanging of flexible footgear near fire pits. While all of the above practices are secular, more religious humans attend a prayer service either on the night before or during this day. The holiday spirit is traditionally shared with others by wishing for \"peace on Earth and good will towards men.\" Once considered universal, that greeting has since been replaced by \"peace and good will towards all creation.\"”* - Other stories in **Human traditional festivities are celebrated** (First \\- 02/14/2010 \\- Prev \\- 10/31/2010)",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_December_2010",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "district-guard_002",
+      "kind": "page",
+      "page": "District Guard",
+      "section": "Capabilities",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Offensive** The Guards are armed with the M\\-8 Avenger Assault Rifle. **Defensive** The Guards only have health on lower difficulties while on Hardcore and Insanity, they have some minor shielding.",
+      "url": "https://masseffect.fandom.com/wiki/District_Guard",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "eclipse-engineer_001",
+      "kind": "page",
+      "page": "Eclipse Engineer",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Eclipse Engineers** are the tech specialists for the mercenary organization Eclipse. They are exclusively human and salarian. They possess shielding on any difficulty, and will gain stronger shielding on Hardcore and Insanity. They are capable of using the tech abilities, such as Incinerate and Combat Drone, to strip away defenses and creating extra threats for Shepard's squad to deal with. They are encountered in virtually every engagement with Eclipse throughout the game.",
+      "url": "https://masseffect.fandom.com/wiki/Eclipse_Engineer",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "combat-mass-effect-3_004",
+      "kind": "page",
+      "page": "Combat (Mass Effect 3)",
+      "section": "HUD Screen",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Heads Up Display, or HUD, shows all the vital information needed during combat. The HUD shows the targeting reticule, which gun you are using, how much ammunition you have left (in the clip and in reserve), and your quickslots. It also shows which teammates are in your present squad while indicating their status (by means of colors), and the status of Shepard's shields and health. Moreover, when Shepard uses a power, a small pair of faint\\-red semicircles will begin moving from the left and right toward the center of the screen (see the HUD screenshot). When these semicircles meet at the center, Shepard's powers have cooled down, indicating that the player can use a power again. If an enemy is within a certain range and in Shepard's present field of vision, a special indicator will appear in the HUD telling you the type of enemy and indicating the status of its health and any protections it may have.",
+      "url": "https://masseffect.fandom.com/wiki/Combat_(Mass_Effect_3)",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "summary:eclipse-trooper",
+      "kind": "summary",
+      "page": "Eclipse Trooper",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Short page. Eclipse Troopers were the front-line soldiers of the Eclipse mercenary group and its most common unit, exclusively human and salarian (asari served instead as Sisterhood Initiates). Human Troopers carried M-8 Avenger assault rifles for sustained fire against armor, shields and barriers, while salarian Troopers used M-4 Shuriken machine pistols and strafed more. Troopers preferred medium-range cover and rarely closed to melee. Those hired by Donovan Hock on Bekenstein could also use a Flashbang Grenade. They gained light shielding on Hardcore and Insanity. The rest of the page is enemy tactics.",
+      "url": "https://masseffect.fandom.com/wiki/Eclipse_Trooper",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "summary:blood-pack-pyro",
+      "kind": "summary",
+      "page": "Blood Pack Pyro",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Thin page: a Mass Effect 2 enemy-unit stub, mostly gameplay tactics. The Blood Pack Pyro was a member of the Blood Pack mercenary group armed with a flamethrower. Pyros were always vorcha, encountered on many worlds alongside other vorcha and sometimes krogan. They were relatively harmless until close enough to use their flamethrowers, which could force Shepard and the squad out of cover and stagger them. They wore light protection, gained a weak armor layer on Hardcore and Insanity difficulties, regenerated health on all difficulties, and could rarely use the vorcha ability to restore armor. Damaging an unprotected Pyro's fuel tank caused it to panic and explode, harming nearby enemies.",
+      "url": "https://masseffect.fandom.com/wiki/Blood_Pack_Pyro",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "summary:eclipse-heavy",
+      "kind": "summary",
+      "page": "Eclipse Heavy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Short page. Eclipse Heavies were the heavy weapon fire support of the Eclipse mercenary organization, an exclusively female role. They stayed at maximum range behind cover, letting allies pin the enemy while they fired the ML-77 Missile Launcher, whose missiles could kill in two or three quick hits and gained homing capability on harder difficulties. They had no defenses on Normal or below but gained shields on Hardcore and Insanity. The rest of the page is enemy tactics.",
+      "url": "https://masseffect.fandom.com/wiki/Eclipse_Heavy",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "summary:mass-effect-guide",
+      "kind": "summary",
+      "page": "Mass Effect Guide",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page is a walkthrough for the main-plot missions of the first Mass Effect game, excluding optional assignments and the DLC packs Bring Down the Sky and Pinnacle Station. It notes that Legendary Edition bundles Bring Down the Sky by default but not Pinnacle Station, and revises graphics and combat.\n\nThe structure covers the Prologue (character creation, Normandy briefing, and Eden Prime) and Chapter 1: Citadel, where Shepard recruits most of the squad and must expose Saren Arterius's treachery. Chapters 2-4 (Finding Liara, Noveria, and Feros) can be done in any order; Noveria pits Shepard against geth and Matriarch Benezia, and Feros against geth, krogan, and the Thorian. Completing any two of the three unlocks Chapter 5: Virmire, where Shepard thwarts Saren's plan, converses with an ancient enemy, and makes a fateful choice. The endgame runs through Chapter 6: Lockdown (the Council grounds the Normandy, Anderson helps steal it), Chapter 7: Ilos (locked progression, Trench Run), and Chapter 8: the final battle against Saren. The epilogue resolves the Council's fate and the human representative choice between Udina and Anderson.\n\nThe guide also covers a UNC: Rogue VI assignment on Luna that unlocks specialization at level 20, and level caps and repeat careers: the original game capped a first playthrough at level 50, requiring a second career to reach 60, while Legendary Edition removed the first-playthrough cap and improved XP scaling. Characters carry over into Mass Effect 2 with starting bonuses, and decisions are remembered.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Guide",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "scene:citadel-apartment-vega-n7-tattoo#04",
+      "kind": "scene",
+      "page": "Vega Shows Off the N7 Tattoo",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-apartment-vega-n7-tattoo",
+      "text": "Vega Shows Off the N7 Tattoo. 2186, Citadel shore leave, after the CAT6 mercenaries are driven off Shepard's personal apartment on the Silversun Strip Shepard clears 182 and keeps going. James is left at a loss for words, and just asks how the Commander is doing it; if Shepard offers to go another round he scoffs and defers. He earns Shepard the nickname \"Loco\" (or \"Lola\") for the stunt, and tells the Commander not to let anyone say they have lost a step.",
+      "url": "",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "scene:me1-ilos-conduit-run#03",
+      "kind": "scene",
+      "page": "The Mako Run to the Conduit",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "me1-ilos-conduit-run",
+      "text": "The Mako Run to the Conduit. 2183, on Ilos immediately after Vigil's warning, as the Battle of the Citadel begins the Ilos aqueducts, ending at the Conduit A long cutscene shows the Battle of the Citadel opening: Sovereign and its geth arrive through the relay and fire a broadside into the Citadel Fleet, the Citadel's arms fail to seal, and the commander of the Destiny Ascension orders the Council evacuated. On the Presidium a geth throws an asari's body aside as Saren and his escort take the elevator toward the Council Chambers.",
+      "url": "",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "scene:citadel-apartment-vega-n7-tattoo#03",
+      "kind": "scene",
+      "page": "Vega Shows Off the N7 Tattoo",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-apartment-vega-n7-tattoo",
+      "text": "Vega Shows Off the N7 Tattoo. 2186, Citadel shore leave, after the CAT6 mercenaries are driven off Shepard's personal apartment on the Silversun Strip On the way out he finds the punching bag in the lower bedroom, complains that Shepard has been holding out on him, and works the bag. Shepard can step up to the pull-up bar; James says his record is 182 and calls out milestones — 10, 20, 50, 91, 100, around 110 — as Shepard goes.",
+      "url": "",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "scene:citadel-apartment-vega-n7-tattoo#02",
+      "kind": "scene",
+      "page": "Vega Shows Off the N7 Tattoo",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-apartment-vega-n7-tattoo",
+      "text": "Vega Shows Off the N7 Tattoo. 2186, Citadel shore leave, after the CAT6 mercenaries are driven off Shepard's personal apartment on the Silversun Strip The real reason for the visit: James takes off his shirt to show the N7 tattoo on his back. He had doubted he deserved the N7 training he was offered; he took it, and the tattoo marks that. He reaffirms his commitment to the mission and makes to leave, saying Esteban needs help on the shuttle.",
+      "url": "",
+      "for_key": "hardcore shows and mosh pits"
+    },
+    {
+      "chunk_id": "atlas_007",
+      "kind": "page",
+      "page": "Atlas",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- According to The Art of the Mass Effect Universe, the Atlas was first intended to be a heavy version of the YMIR Mech with a soldier inside. Eventually, a canopy was added to protect the soldier, and the Atlas was made even larger than the YMIR Mech. - An avatar prop of the Atlas is available on the Xbox Marketplace (called the \"Cerberus Atlas\" in the Avatar Store). It costs USD $2\\.99 and is one of the few props that is larger than the avatar itself. - An aquatic variation of the Atlas mech, known as the Triton ADS, appears in the Mass Effect 3: Leviathan DLC pack. - An image of a destroyed Atlas unit marked with the emblem of the Talons can be seen in the Talons' communication feed. - During Mass Effect 3: Citadel, the CAT6 mercenaries deploy a single Atlas of their own against Shepard. This Atlas is functionally identical to normal Cerberus Atlas units, but sports a CAT6 gray camouflage pattern. - In Greek mythology, Atlas was the name of a Titan who was forced by Zeus to hold the sky up because he and his brother sided against Zeus in the Titanomachy. - The Atlas follows the theme of naming mechanical enemies after human mythological figures (A la the FENRIS, YMIR and LOKI mechs), but borrows its namesake from Greek mythology instead of Norse.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "atlas_001",
+      "kind": "page",
+      "page": "Atlas",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the Cerberus unit in Mass Effect 3\\. For the main Cerberus station on Aite, see Atlas Station.* *For the assignment in Mass Effect 2 inside Atlas Station, see Overlord: Atlas Station.* | | --- | --- | The **Atlas** is a large Cerberus mech encountered in Mass Effect 3. It is also used by CAT6 in Mass Effect 3: Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "summary:mechs",
+      "kind": "summary",
+      "page": "Mechs",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is a disambiguation page. Mechs are machine constructs used for combat or heavy-duty locomotion; automated models are governed by a VI, while larger mechs can carry pilots in built-in cockpits. The page links to the Atlas Mech, FENRIS Mech, Hydra Mech, LOKI Mech, Ogre Mech, Orcus Mech, Rampart Mech, Triton ADS and YMIR Mech.",
+      "url": "https://masseffect.fandom.com/wiki/Mechs",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "mechs_001",
+      "kind": "page",
+      "page": "Mechs",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | **This article is a disambiguation page.** The following is a list of links to pages that might share similar titles or cover similar topics. Please follow one of the disambiguation links below or search to find the page you were looking for if it is not listed. If an internal link led you here, you may wish to change the link to point directly to the intended article. | | --- | --- | **Mechs** are a variety of machine constructs employed variously for combat purposes and/or heavy\\-duty locomotion. Automated models have some form of VI governing their behavior while larger mechs can have pilots directing them from built\\-in cockpits. - Atlas Mech \\- a piloted mech built by Cerberus and encountered in Mass Effect 3. - FENRIS Mech \\- a quadrupedal model equipped with a short\\-range taser encountered in Mass Effect 2. - Hydra Mech \\- a large, bipedal model in Mass Effect: Andromeda. - LOKI Mech \\- a bipedal model equipped with small arms encountered in Mass Effect 2\\. - Ogre Mech \\- a large, heavily\\-armed anti\\-infantry model encountered in Mass Effect: Infiltrator. - Orcus Mech \\- a bipedal model equipped with an assault rifle in Mass Effect: Infiltrator. - Rampart Mech \\- an upgraded LOKI Mech designed by Cerberus for crowd\\-control on Omega. It appears in Mass Effect 3: Omega. - Triton ADS \\- a mech that resembles the Atlas and was designed for deep sea exploration. It appears in Mass Effect 3: Leviathan. - YMIR Mech \\- a large, heavily\\-armed anti\\-infantry model encountered in Mass Effect 2\\.",
+      "url": "https://masseffect.fandom.com/wiki/Mechs",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "jack_009",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Jack.* If Shepard successfully evacuated Grissom Academy, at the conclusion of Shepard's clone fiasco the Commander may choose to explore the Silversun Strip in their down time. If Shepard plays at least one match at the Armax Arsenal Arena combat simulator, Jack messages the Commander requesting a meet\\-up there. When Shepard arrives, they have a two\\-round match against Elite Cerberus Troops on the Brimstone map. Once the Atlas Mech spawns, Jack takes it down herself and thanks Shepard for the get\\-together. If Jack is romanced, she tells Shepard she's turned on during the final fight, and the two passionately make out as the Atlas explodes. Jack's ally license can be purchased if Shepard wants to fight alongside Jack in the simulator again. Afterwards, Jack sends another message informing Shepard of having more free time. Shepard can then invite Jack to the apartment. Jack brings along Eezo, a varren from Thessia that she had rescued from shelter. Because of his exposure to the element zero in the environment on Thessia, Eezo has developed biotic abilities. According to Jack, biotic abilities in varren make them short\\-tempered, leading to their abuse and abandonment. When Jack first rescued him, Eezo started out very angry and mistrustful of others, but all the love she has shown him has made him a \"big old softy\" to the point where he plays catch with Shepard. Shepard has the option of pointing out the similarities between Eezo and Jack. If Shepard does, Jack will say she doesn't know what Shepard is talking about and Shepard will quickly drop the subject. If Shepard is still in a relationship with Jack at that time, she will instead bring equipment to mark Shepard with a tattoo on his back. As Shepard comments on the design, she confesses she did this to make his body identifiable no matter what happens to him in the final battle, tearing up at the thought of losing him until he hugs her. If invited to the party, Jack is first seen by the fireplace hanging out with Vega and Cortez. If Kaidan is also invited, the conversation within the group arrives at the point where Jack gives James the nickname \"Muscles\", which Cortez will approve. If Miranda is around, Jack is later seen lounging near the poker table having a somewhat prickly conversation with Miranda. Shepard can suggest they should just kiss each other because Shepard believes that there's some sexual tension between them, saying that they're \"two powerful biotics\". They find the notion disgusting. Kasumi, if present, then decloaks, saying that she could film it. Alternately, Shepard can encourage their rivalry, with Jack making repeated references to whooping Miranda's ass. Kasumi, again if around, decloaks, claiming she doesn't follow their conversation and just assumes they are going somewhere dirty with it. If Miranda is not around, Jack is hanging out with Liara and James on the balcony at the second phase of an energetic party, watching the two argue about physical vs biotic supremacy. If the second phase of the party is quieter, then regardless of Miranda's presence or absence Jack will be at the bar with EDI and Cortez, where Jack may note that crème de menthe hits her even harder than ryncol. At the third phase of the party, Jack is seen dancing provocatively on a table in the kitchen area if the party is energetic. If Garrus isn't around to comment, Jack's response to Tali's drunken musings while dancing is that she finds the quarian adorable, and says so in her own words: \"If I were a little drunker and knew how to unzip that suit...\" If Tali wonders instead about how humans and asari can dance given the way \"their\" legs bend Jack replies that she doesn't tip over until she found company, telling the quarian to \"watch and learn\" till then. If romanced by Shepard, she tells him not to tire himself out dancing so they can have sex on the table later, making a lewd joke when Steve complains. If the party is relatively restrained at the final leg, Jack is just standing by the upper floor couches, hanging out with Joker, Cortez, and most of the other guests. The morning after the party, she will be joining Jacob's morning workout with pull\\-ups, attributing her hangover immunity to her amp. If romanced, she'll instead wake up in bed with Shepard and express desire to make love to him again.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_011",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Endgame Mayhem",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The next room has an empty Atlas and a Combat Engineer, who is standing with his back to you. Open the Med Kit on the couch on your right, and access the engineer's data log on the floor (\\+20 XP) to find out that Rodriguez is another high\\-priority target for Cerberus indoctrination. If you wish, you can climb into the Atlas and head up the stairs to the docking area. There is an SMG Magazine Upgrade on the bench to the left of the entrance you came in: **remember** to pick it up after the fighting. You can also examine the statue of Jon Grissom in the middle of the room. There will be many waves of Assault Troopers, Guardians, and Centurions, but you should be able to handle all of them from the Atlas. Just be sure to be near cover if your armor starts to get dangerously low, because you will want to evacuate. However, even on Insanity, the Atlas is pretty sturdy. There will be several waves of ground troops emerging from various points around the room. After almost all of the ground troops are down, an enemy Atlas will come through the door where you entered. When Kahlee shouts that \"the shuttles are almost ready\" you'll know the Atlas will appear soon. **Atlas Tip:** The secondary missile attack of the Atlas is mainly useful for groups of enemies who aren't in cover; its cooldown period isn't surfaced very intuitively, so just remember it is available to fire approximately every five shots from your main gun. **Tip:** By bringing the empty Atlas up and parking it right in the doorway at the top of the staircase, you can block the way of the enemy Atlas and prevent it from entering the room, allowing for an easy kill. Leaving an Atlas in the doorway also prevents the door from shutting, meaning you can retreat down the stairs if necessary. When all hostiles are down, Kahlee will call for you to head to the shuttle. Go through the door at the far right of the room from where you entered. A cutscene will play showing the students and your squad rushing for the shuttle, where it is discovered that the wounded Rodriguez has fallen behind and is being pursued by Cerberus operatives. Shepard will attempt to break through the glass separating the rooms to get to her, but whoever is in charge of the biotics squad will biotically smash the glass first. If it's Jack, everyone makes it to the shuttle. If it's Prangley, he is shot and killed. Once inside the shuttle, if Jack isn't around, Kahlee will request that Shepard rethink having the students play a military role. Otherwise, she will state that perhaps they are ready for front\\-line combat after all. Make your choice.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "priority-cerberus-headquarters_013",
+      "kind": "page",
+      "page": "Priority: Cerberus Headquarters",
+      "section": "Enemies",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Assault Trooper - Atlas Mech - Centurion - Combat Engineer - Guardian - Kai Leng - Nemesis - Legion Assassin (optional) - Phantom - Jack (optional) - Turret",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Cerberus_Headquarters",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "atlas_002",
+      "kind": "page",
+      "page": "Atlas",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "With the **Atlas**, Cerberus's research arm has combined the deadly armor and firepower of a YMIR mech with the tactical superiority of a trained human pilot. An element zero core allows the Atlas to be air\\-dropped onto a battlefield with minimal impact damage. Its thick armor includes a robust transparent canopy made from a polycrystalline composite proprietary to Cerberus. Alliance engineers hypothesize that the material is some kind of synthetic sapphire composed with interlayers to resist cracking and thermal damage. Although the Atlas is somewhat unwieldy in the field, its antipersonnel machine guns and ability to shrug off damage from anything short of a heavy weapon makes it a fearsome opponent. Heavy loss of life is to be expected in any unprepared encounter with this unit.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "codex-organizations_006",
+      "kind": "page",
+      "page": "Codex/Organizations",
+      "section": "Cerberus: Atlas",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "With the Atlas, Cerberus's research arm has combined the deadly armor and firepower of a YMIR mech with the tactical superiority of a trained human pilot. An element zero core allows the Atlas to be air\\-dropped onto a battlefield with minimal impact damage. Its thick armor includes a robust transparent canopy made from a polycrystalline composite proprietary to Cerberus. Alliance engineers hypothesize that the material is some kind of synthetic sapphire composed with interlayers to resist cracking and thermal damage. Although the Atlas is somewhat unwieldy in the field, its antipersonnel machine guns and ability to shrug off damage from anything short of a heavy weapon makes it a fearsome opponent. Heavy loss of life is to be expected in any unprepared encounter with this unit.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Organizations",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "scene:citadel-archives-escape-clone-confrontation#05",
+      "kind": "scene",
+      "page": "Cornering the Shepard Clone in the Citadel Archives",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-archives-escape-clone-confrontation",
+      "text": "Cornering the Shepard Clone in the Citadel Archives. 2186, Citadel, Citadel DLC, after Citadel: Identity Theft II skycars en route, then the Citadel Archives Shepard's team fights through successive CAT6 units — Specialists, Snipers, Heavies, an Atlas mech — covered by fire from squadmates left behind and by Cortez and Brooks, and persuades the VI Glyph to help track the clone.",
+      "url": "",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "scene:tuchanka-tarquin-victus-bomb#05",
+      "kind": "scene",
+      "page": "Tarquin Victus and the Kelphic Valley Bomb",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "tuchanka-tarquin-victus-bomb",
+      "text": "Tarquin Victus and the Kelphic Valley Bomb. 2186, Tuchanka, after Priority Sur'Kesh, when the turian 9th Platoon went down in the Krogan DMZ the platoon's crash site at the Downed Vessel, the Cerberus-held bomb site in the Kelphic Valley, then the Normandy War Room Shepard's squad landed at the bomb site under heavy artillery bombardment and fought through Cerberus Assault Troopers, Centurions, Combat Engineers, Guardians, turrets and an Atlas mech to reach the device alongside Tarquin.",
+      "url": "",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "summary:atlas",
+      "kind": "summary",
+      "page": "Atlas",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Atlas was a large piloted Cerberus mech encountered in Mass Effect 3 and also fielded by the CAT6 mercenaries in Mass Effect 3: Citadel. Cerberus's research arm built it by combining the armor and firepower of a YMIR mech with the tactical judgment of a trained human pilot seated inside. An element zero core allowed it to be air-dropped onto a battlefield with minimal impact damage. Its thick armor included a transparent canopy of a proprietary polycrystalline composite that Alliance engineers hypothesized was a synthetic sapphire with crack- and heat-resistant interlayers. Though unwieldy in the field, its antipersonnel machine guns and heavy durability made it a serious threat, and unprepared encounters were expected to cause heavy casualties.\n\nOffensively the Atlas carried a rocket launcher that dealt area damage plus burn-over-time, and a high-powered mass accelerator cannon fired in bursts (four shots in single-player, three in multiplayer). It launched guided missiles that were very hard to evade, and at close range it could swing or slam its claw arm or grab and crush a target for an instant kill, though only after a normal melee attack first. Destroyed Atlas mechs exploded violently, dealing severe damage through cover and terrain even after death. Defensively it had durable shields and armor, destructible armor plating on the shoulders, knees, and crotch, smoke grenades, and weak points at the canopy and rear exhaust port. It took 24% less damage from all Power Combos.\n\nRecommended tactics included staying in cover, using armor-debuffing powers such as Expose-evolved Warp, Cryo Blast, and Proximity Mine, repeated Warp-Throw biotic explosions, Sabotage (to which Atlases built immunity over time), and the Cobra Missile Launcher in multiplayer for instant kills. In single-player, once its shields were down, sustained fire could shatter the canopy and leave the pilot, who had no more health than an Assault Trooper, vulnerable; killing the pilot could let Shepard hijack the Atlas and potentially earn an Achievement. Empty Atlas units could be found intact during Grissom Academy: Emergency Evacuation and Priority: Cerberus Headquarters. Per The Art of the Mass Effect Universe, it was first conceived as a heavier YMIR variant with a soldier inside before a protective canopy was added and the frame enlarged. An aquatic variant, the Triton ADS, appeared in Mass Effect 3: Leviathan.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "scene:citadel-silversun-strip-shore-leave#02",
+      "kind": "scene",
+      "page": "The Silversun Strip",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-silversun-strip-shore-leave",
+      "text": "The Silversun Strip. 2186, Citadel shore leave the Silversun Strip, Citadel Wards Half the crew's invitations name a spot on it: Garrus at the casino's upper floor, Jack at the combat simulator, Jacob outside the arcade, Javik outside the casino at the far end of the Strip — which, as he points out, is neither silver nor near a sun — Miranda in the casino in red, Traynor in the arcade, and Cortez taking the shuttle down.",
+      "url": "",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "summary:grissom-academy-emergency-evacuation",
+      "kind": "summary",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grissom Academy: Emergency Evacuation was a Mass Effect 3 mission acquired after Priority: Palaven, when Samantha Traynor and EDI determined that a turian rescue signal answering an Academy evac request was actually a Cerberus fake and the station was still in danger. Cerberus forces were attacking Grissom Academy in the Petra Nebula to kidnap its students, most of whom were producing Alliance tech or training as military biotics. The mission had to be completed before Priority: The Citadel II or it was permanently failed.\n\nWith too many Cerberus ships to fight, Joker created a diversion so Shepard's shuttle could enter a cargo hold opened by Kahlee Sanders, who went back with Anderson to his Spectre-candidate days. Shepard freed Sanders from the security office, then fought through corridors and rooms rescuing scattered students, including Reiley Bellarmine and his dying sister Seanne. In Orion Hall, biotic students held off Assault Troopers and an Atlas; if a Mass Effect 2 save was imported and Jack survived the Suicide Mission, Jack led them and punched Shepard in the face on arrival (followed by a kiss if they had romanced). Otherwise Ensign Jason Prangley took charge. The squad then fought heavy waves of Centurions, Guardians, Combat Engineers, and Atlas mechs through two halves of the Atrium and a docking area, aided by empty Atlas mechs and by tech students including Octavia, with David Archer vouching for Shepard if Overlord was completed on the Paragon route.\n\nDuring the final escape the wounded Rodriguez fell behind; whoever led the biotics smashed the glass to save her. If Jack led, everyone survived; if Prangley led, he was shot and killed. Afterward Shepard chose to assign the students as support (rolled into the Alliance 103rd Marine Division, +50 war assets, Paragon) or as a frontline Biotic Company (+75 war assets, Renegade), a choice that also set Jack's epilogue slide. Rewards included 25,000 credits, weapon mods, the Mnemonic Visor, and the Serrice Council Chestplate. If the mission expired, Jack was captured, turned into a Phantom, and had to be killed at Cerberus Headquarters, and Gavin Archer could commit suicide during Arrae: Ex-Cerberus Scientists.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "summary:jason-prangley",
+      "kind": "summary",
+      "page": "Jason Prangley",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ensign Jason Prangley was a biotic student at Jon Grissom Academy. He arrived at Grissom at age six, a shy child who barely spoke, and was known for constantly reading and studying battles, with some peers calling him a brownnoser. He proved capable of leadership when circumstances demanded it.\n\nDuring the 2186 Reaper invasion, Cerberus attacked Grissom Academy to forcibly conscript its gifted students. If Jack survived the Suicide Mission, Prangley was among the students she protected; he was nearly killed by Atlas fire before his teacher intervened. When Commander Shepard arrived, Jason aided the firefight, providing biotic support strikes so that he and his teacher could retreat to higher ground. Afterward Jack derided his biotic fields as \"weak,\" and he noticeably improved in later battles.\n\nIf Jack did not survive the Suicide Mission, Prangley interacted with Shepard in her place during the evacuation. Shepard found him stepping up to save Ensign Rodriguez from Atlas fire. Jason reported that their commanding officer had been killed, leaving him assuming command, and spoke on the students' behalf that they needed time to recharge after the strenuous exertion of biotics. In this scenario, Prangley later died protecting Rodriguez again from Cerberus troops just short of the hijacked escape shuttles. The survivors eulogized him aboard the shuttles, and Shepard invoked his memory to motivate the other students, either channeling their anger at his loss or holding up his sacrifice as an example to follow. Datapads left by Cerberus troops around the Academy indicate Prangley was specifically targeted as a prized acquisition.",
+      "url": "https://masseffect.fandom.com/wiki/Jason_Prangley",
+      "for_key": "Jack fighting an Atlas mech in the simulator"
+    },
+    {
+      "chunk_id": "scene:citadel-kelham-interrogation#02",
+      "kind": "scene",
+      "page": "Interrogating Elias Kelham",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "citadel-kelham-interrogation",
+      "text": "Interrogating Elias Kelham. 2185, Citadel, during the search for Kolyat Krios C-Sec office in Zakera Ward Shepard's approach varies: threatening Kelham with Spectre authority causes an almost instant confession (Thane remarks it may be the shortest interrogation in history); using physical violence through Renegade interrupts (slapping, punching, and choking threats) also breaks him; or Shepard and Thane employ good cop/bad cop tactics with charm or guile to wear down his resistance while his lawyer is delayed. Regardless of method, Kelham eventually confesses that he hired Kolyat to assassinate Joram Talid, a turian politician running on an anti-human platform. If brutalized, Kelham loses consciousness; otherwise he berates his late-arriving lawyer.",
+      "url": "",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "dossier-the-convict_001",
+      "kind": "page",
+      "page": "Dossier: The Convict",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack is rumored to be the most powerful human biotic ever encountered. Very little additional data regarding Jack is available, except that the subject has a history of violence and should be approached carefully. Currently, Jack is being held on the turian prison ship Purgatory. Cerberus has negotiated for the prisoner's release.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Convict",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "the-final-hours-of-mass-effect-3_001",
+      "kind": "page",
+      "page": "The Final Hours of Mass Effect 3",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**The Final Hours of Mass Effect 3** is a documentary work published by journalist Geoff Keighley in March, 2012, around the time of the release of Mass Effect 3. Through exclusive anecdotes and interviews with BioWare, it covers the origins of the studio and the inception of the first Mass Effect game all the way to the end of development for Mass Effect 3\\. The Final Hours of Mass Effect 3 was originally released in an interactive document format allowing for link embeds, as well as music and videos, which became deprecated in the following years. In consequence, the \"original\" version was removed from sale, though a truncated Kindle version remains available. Following the release of Mass Effect Legendary Edition, Electronic Arts uploaded the original version on their website as a freely downloadable bonus requiring Adobe Air to open, though a number of functionalities remain broken.",
+      "url": "https://masseffect.fandom.com/wiki/The_Final_Hours_of_Mass_Effect_3",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "entertainment_033",
+      "kind": "page",
+      "page": "Entertainment",
+      "section": "Musical Acts",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- *Blue Giants*: An act that performed at the 2185 Galactic Video Music Awards. - *Bootyherax*: An act that performed at the 2185 Galactic Video Music Awards. - *Domino Masque*: Winner of \"Best New Artist\" at the 2185 Galactic Video Music Awards. - *Dramaxeens*: A rock band that walked out of a charity concert when its singer, Gretel Batts, launched a vulgar tirade that lasted 10 minutes. - *Expel 10*: A sensory band that plays on Omega. - *Eff Tee El*: An act that performed at the 2185 Galactic Video Music Awards. - *Jenellen Lepp*: A singer who gained infamy when he married socialite Aish Ashland and divorced her after less than a week. - *Lady Sweat*: A human R\\&B singer who died at age 24 when her ship passed through a proton storm. - *Skinsuit*: Winner of \"Best Choreography\" for the song \"Mix It\" at the 2185 Galactic Video Music Awards. - *Varrencage*: Winner \"Video of the Year\" for the song \"Let It Up, Let It In\" at the 2185 Galactic Video Music Awards. - *Vi\\-vian Wonder*: Performed Lady Sweat's \"Where You Gone\" as a memorial at the 2185 Galactic Video Music Awards.",
+      "url": "https://masseffect.fandom.com/wiki/Entertainment",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "scene:citadel-thane-and-kolyat#03",
+      "kind": "scene",
+      "page": "Finding Kolyat Before He Takes the Shot",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "citadel-thane-and-kolyat",
+      "text": "Finding Kolyat Before He Takes the Shot. 2185, during Thane's time aboard the Normandy the Citadel Bailey, who has an corrupt arrangement with Kelham, agrees to arrest him so Shepard and Thane can interrogate him before his lawyer arrives. Kelham has a high tolerance for interrogation, confident in his power and influence. Shepard can threaten him with Spectre authority for an instant confession (Thane remarks it may be the shortest interrogation in history), use physical violence, or employ charm and guile to break down his resistance. Regardless of method, Kelham eventually confesses that he hired Kolyat to assassinate Joram Talid, a turian politician running for local office on an anti-human platform.",
+      "url": "",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "bonus-content-disc_005",
+      "kind": "page",
+      "page": "Bonus Content Disc",
+      "section": "Soundtrack",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "#### Introduction **Casey Hudson**: Welcome to the soundtrack. Now, I think the music is one of the most unique parts of the Mass Effect experience. And just like Mass Effect is kind of a nostalgia for the great science\\-fiction movies of the late seventies and early eighties, the music is kind of a throw\\-back to the ambient electronica and haunting orchestral scores of the great movies of that period. And so, we hope that you enjoy this special selection of music, composed by Jack Wall and Sam Hulick. | Music Track | Pre\\-order disc | LCE disc | PH disc | | --- | --- | --- | --- | | Mass Effect Theme | No | Yes | Yes | | The Normandy | No | Yes | Yes | | Battle at Eden Prime | No | Yes (as \"Battle for Revenge\") | No | | The Citadel | No | No | Yes | | The Presidium | Yes | Yes | Yes | | Criminal Elements | No | No | Yes | | Spectre Induction | No | No | Yes | | Liara's World | No | No | Yes | | Feros | No | No | Yes | | Noveria | No | Yes (as \"The Plaza\") | Yes | | The Secret Labs | No | No | Yes | | The Alien Queen | No | No | Yes | | Breeding Ground | Yes | Yes | Yes | | Virmire Ride | No | Yes (as \"The Mako\") | Yes | | Love Theme | Yes | Yes (as \"Romance Theme\") | Yes | | Ilos | No | No | Yes | | Vigil | No | No | Yes | | Sovereign's Theme | No | No | Yes | | In Pursuit of Saren | No | No | Yes | | M4 Part II | No | No | Yes | | Strangers | No | Yes | No | **Note:**  the track \"Strangers\" is exclusive to the Collector's Edition disc, and is not even found on the official soundtrack release.",
+      "url": "https://masseffect.fandom.com/wiki/Bonus_Content_Disc",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "dossier-the-convict_002",
+      "kind": "page",
+      "page": "Dossier: The Convict",
+      "section": "Acquisition",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Freedom's Progress (mission) This mission is acquired after the mission to Freedom's Progress. Jack (no last name known) \\- Exceptional biotic ability \\- Note: Criminal background, currently in custody Jack is rumored to be the most powerful human biotic ever encountered. Very little additional data regarding Jack is available, except that the subject has a history of violence and should be approached carefully. Currently, Jack is being held on the turian prison ship Purgatory. Cerberus has negotiated for the prisoner's release.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Convict",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "summary:the-final-hours-of-mass-effect-3",
+      "kind": "summary",
+      "page": "The Final Hours of Mass Effect 3",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Final Hours of Mass Effect 3 is a documentary work by journalist Geoff Keighley, published in March 2012 around the release of Mass Effect 3. Built from exclusive interviews and anecdotes with BioWare, it traces the studio's origins and the conception of the first Mass Effect through to the end of Mass Effect 3's development.\n\nIt was originally sold as an interactive document with embedded links, music and video, features that were later deprecated; the original version was pulled from sale, leaving only a truncated Kindle edition. After the release of Mass Effect Legendary Edition, Electronic Arts made the original version available as a free downloadable bonus requiring Adobe Air, though some functionality remains broken.\n\nThis page serves as the table of contents. The work is divided into a Welcome section and twelve chapters: Chapter 1: The Beginning of the End, Chapter 2: The Little Tinkerer, Chapter 3: The Doctors, Chapter 4: Codename SFX, Chapter 5: The Possibility Space, Chapter 6: That Which Is True, Chapter 7: The Two-Front Team Assault, Chapter 8: Devastatingly Impactful Choices, Chapter 9: The Illusive Date, Chapter 10: The Darkest Hours, Chapter 11: The Perfect Illusion, and Chapter 12: The Letter on the Door. It also links to the official website and the EA downloadable extras.",
+      "url": "https://masseffect.fandom.com/wiki/The_Final_Hours_of_Mass_Effect_3",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-july-2010_013",
+      "kind": "page",
+      "page": "Cerberus Daily News - July 2010",
+      "section": "*07/12/2010 \\- Asari Pop Queen Starts New Celebrity Charity Trend*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“A\\-listers are following the queen of asari pop in the latest charity trend: adopting turian children displaced by the Vallum Blast and subsequent war on Taetrus. Between reinventing herself, music genres, and everything else, Arah T'Hass adopted four children orphaned in the blast. Megastar Delilah Jordan followed suit by adopting a pair of twin boys, and recently, Columbia Rios and her husband took in a whole family of refugees. Said T'Hass, \"I hope it does catch on! There's so much suffering on Taetrus right now. It felt like the only moral thing to do. And having one dextro kitchen and one levo kitchen is totally not as hard as people make it out to be.\" Asked for her opinion on the violence of the war, T'Hass replied, \"The turians have their way of dealing with it. I have mine.\"”*",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_July_2010",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "summary:mass-effect-original-soundtrack",
+      "kind": "summary",
+      "page": "Mass Effect Original Soundtrack",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Mass Effect Original Soundtrack was released on November 20, 2007. It was composed by Jack Wall and Sam Hulick with additional music by Richard Jacques and David Kates. The final-credits song, \"M4 Part II,\" was written by Faunts, an Edmonton band from the city where BioWare's main studio developed the game. The press release described the score as inspired by classic science fiction films such as Blade Runner and Dune, blending 1980s electronic music with modern orchestral scoring; project director Casey Hudson described it as a synthesis of originality and familiarity. The album ran 37 tracks, including \"Mass Effect Theme,\" \"The Normandy,\" \"Battle at Eden Prime,\" \"Sovereign's Theme,\" \"Vigil,\" and \"M4 Part II.\" Several in-game compositions were omitted from the album. In May 2021, BioWare released the soundtrack as a free bonus content download (available until July 31, 2021 or until the download limit was reached), omitting \"M4 Part II\" and adding as track 1 a new song, \"Resynthesis\" by Sam Hulick, originally made for the cancelled Cerberus Brainchild DLC. The Limited Collector's Edition bonus disc included an exclusive track called \"Strangers\" and used alternate names for several tracks, and the Australian iTunes store mistitled the album \"Mass Effects\" with further errors. \"Uncharted Worlds,\" the galaxy map theme, appeared in the 2025 documentary What Exactly Is Inside Jupiter?",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Original_Soundtrack",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "mass-effect-2_021",
+      "kind": "page",
+      "page": "Mass Effect 2",
+      "section": "Dialogue and cinematics",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Instead of Intimidate and Charm skills, Shepard's ability to pick persuasive options in dialogue is determined directly by his or her Paragon or Renegade score. Mass Effect 2 adds a large new feature to the dialogue system: Interrupts. The interrupt system will allow Shepard to take more physical action in a conversation, either through a Renegade hostile interrupt or a Paragon heroic interrupt.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "mass-effect-original-soundtrack_001",
+      "kind": "page",
+      "page": "Mass Effect Original Soundtrack",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Mass Effect Original Soundtrack** was released on November 20, 2007\\. It was composed by Jack Wall and Sam Hulick with additional music by Richard Jacques and David Kates. The song that plays over the final credits, \"M4 Part II\", was written by Faunts, who are from Edmonton, Alberta (where Mass Effect was developed at BioWare's main studio). According to the press release it is inspired by classic sci\\-fi movies such as Blade Runner and Dune. The score blends 80's electronic music with modern orchestral scoring. In May 2021, BioWare released the soundtrack in a free bonus content download, also featuring items from Deluxe versions of Mass Effect 2 and Mass Effect 3. It is only available until July 31, 2021 or until download limit is reached. It consists of all the listed tracks below, minus M4 Part II by Faunts, and heading the collection at track\\#1 is a new song for Mass Effect Legendary Edition: Resynthesis, by Sam Hulick, which was originally made for a cancelled DLC (see Cerberus Brainchild). > “ > From the earliest stages of its conception, Mass Effect was meant to be an original artwork about the future, inspired by the great science fiction experiences of the past. This synthesis of originality and familiarity called for a truly unique soundtrack, with ambitious goals and unprecedented challenges. — Casey Hudson, Project Director |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Original_Soundtrack",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "summary:armor-customization",
+      "kind": "summary",
+      "page": "Armor Customization",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "In Mass Effect 2, Commander Shepard's armor could be customized by swapping pieces of the default N7 Armor for parts purchased from merchants or supplied through downloadable content, using the Armor Locker aboard the Normandy SR-2. Besides changing physical appearance, each piece affected Shepard's combat effectiveness, and the player could further alter color, reflectiveness, or pattern. Because money was limited, the page recommended buying selectively and always using vendor discounts; purchasing every armor piece with all discounts cost 54,996 credits, or 66,000 without. In Mass Effect Legendary Edition, formerly DLC-exclusive equipment had to be bought with credits and resources or researched in the Normandy Tech Lab rather than being granted automatically.\n\nCustomizable slots were head, chest, shoulders, arms, and legs, each with an N7 default piece and several alternatives. Head options included the N7 Helmet and Breather Helmet, Kuwashii Visor, Death Mask, Umbra Visor, Recon Hood, Sentry Interface, Archon Visor, Capacitor Helmet, and Kestrel Helmet, with effects ranging from bonus health and headshot damage to reduced power recharge time. Chest, shoulder, arm, and leg pieces came from manufacturers such as Kassa Fabrication, Armax Arsenal, Rosenkov Materials, Elanus Risk Control Services, Aldrin Labs, and the Sirta Foundation, granting bonuses to health, shields, power damage, weapon damage, melee damage, or ammo capacity. The Kestrel set pieces, from the Aegis Pack, provided combined multi-stat bonuses.\n\nFull armor sets could also be equipped; these could not have individual pieces swapped but offered unique bonus combinations. Shepard could additionally choose casual outfits worn aboard the Normandy and on discreet missions, including outfits obtained through Kasumi - Stolen Memory. Documented bugs included the Archon Visor conferring no benefit in the original release, fixed in Legendary Edition.",
+      "url": "https://masseffect.fandom.com/wiki/Armor_Customization",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "summary:morality",
+      "kind": "summary",
+      "page": "Morality",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Morality was the reputation mechanic of the original Mass Effect trilogy, tracked as separate \"Paragon\" (blue, compassionate and heroic) and \"Renegade\" (red, apathetic and ruthless) scales rather than a single good-evil axis, so good acts did not cancel out bad ones. High scores unlocked significant \"good\" or \"bad\" dialogue options. In Mass Effect, Paragon and Renegade points unlocked ranks in the Charm and Intimidate skills, into which Shepard invested points to open new dialogue choices; thresholds at 10%, 25%, 50% and 75% granted skill points and combat bonuses, becoming a Spectre granted more, and reaching 80% of either unlocked the assignments UNC: Besieged Base (Paragon) or UNC: The Negotiation (Renegade). Character backgrounds set starting points. The Mass Effect ending's lighting, music (Vigil's or Sovereign's theme) and closing shot of Shepard varied by morality.\n\nMass Effect 2 replaced the skills, deriving Charm and Intimidate success directly from Paragon and Renegade percentages (points earned versus points available in explored areas), and added dialogue Interrupts: Paragon interrupts to spare, comfort or call out others, Renegade interrupts for physical or violent action. Paragon choices healed Shepard's facial scars while Renegade choices deepened them, and the final scene's background star turned blue or red depending on the Collector Base choice. Mass Effect 3 merged both into a single Reputation meter that both point types fed, retaining interrupts; the Control ending narration differed by Paragon or Renegade leaning. Mass Effect: Infiltrator used binary Paragon/Renegade choices for Randall Ezno that changed his scars and biotic color but were not tracked on a scale. Mass Effect: Andromeda abandoned the morality system entirely. The page also documents several infinite-point exploits.",
+      "url": "https://masseffect.fandom.com/wiki/Morality",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "scene:omega-afterlife-aria-interrogates-enrix#03",
+      "kind": "scene",
+      "page": "Aria Interrogates a Shadow Broker Spy",
+      "section": "banter",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-afterlife-aria-interrogates-enrix",
+      "text": "Aria Interrogates a Shadow Broker Spy. 2185, Omega, Afterlife Nightclub private room, 04:14 AM a private room in the Afterlife Nightclub on Omega Enrix attempted to plead or explain, saying he was \"working for a guy\" but it was not what Shepard thought. Aria cut him off with violence. The recording ended with the door opening and closing, and a note in the Shadow Broker's file indicated Enrix's death had not compromised the Broker's other agent placed at the Afterlife.",
+      "url": "",
+      "for_key": "physical release through violence or music"
+    },
+    {
+      "chunk_id": "scene:citadel-old-friends-finch-weisman#03",
+      "kind": "scene",
+      "page": "Finch Comes Looking for the Old Gang",
+      "section": "argument",
+      "game": "Mass Effect",
+      "scene_id": "citadel-old-friends-finch-weisman",
+      "text": "Finch Comes Looking for the Old Gang. 2183, Citadel, after the first core mission world outside Chora's Den, then Chora's Den itself, the Wards Shepard decides how to play it: negotiate Weisman's release, warn the guard that Finch will try to free him regardless, or refuse to help after hearing what Weisman actually did.",
+      "url": "",
+      "for_key": "physical release through violence or music"
+    }
+  ],
+  "codex": [],
+  "conflicts": [],
+  "warnings": []
+}

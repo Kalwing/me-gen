@@ -1,0 +1,13 @@
+---
+title: Athame Doctrine
+url: https://masseffect.fandom.com/wiki/Athame_Doctrine
+game: Mass Effect 3
+type: lore
+characters: [Athame, Janiri, Lucen, Shepard, Vendetta]
+---
+
+The Athame Doctrine was an ancient asari religion built on the worship of the goddess Athame. Originally a goddess of prophecy and fate and the matriarch of the asari pantheon, Athame's worship gradually shifted into a monotheistic faith in which her maiden, matron, and matriarch aspects oversaw every stage and role in asari society; the common asari expression "by the goddess" refers to her. Athame worship eventually declined as the asari adopted the siari religion.
+
+In mythology, Athame, with her guides Janiri and Lucen, was credited with bringing enlightenment to the ancient asari: Janiri taught agriculture and the seasons, Lucen taught the stars, and Athame taught mathematics and medicine. The asari also believed Athame protected their homeworld Thessia from jealous rival gods. The Temple of Athame on Thessia preserved relics attributed to her, including murals, busts of Janiri and Lucen, Athame's sword and shield, and fragments of the Athame Codex, an ancient text describing how the asari learned mathematics and agriculture. Other relics included the Rings of Alune. Three planets in the Parnitha system were named for Athame, Janiri, and Lucen.
+
+In truth, Athame was not a goddess but a guise crafted by the Protheans. During their empire's height, the Protheans discovered the asari and judged them potential leaders for the next cycle's fight against the Reapers. They shaped asari development by inventing the goddess myth, with Janiri and Lucen actually being Protheans, and among the "gifts" was the asari aptitude for biotics, the product of years of Prothean genetic manipulation. After the Protheans left Thessia to avoid drawing Reaper attention, the asari continued advancing with the aid of a Prothean beacon and archive hidden in the Temple of Athame, the temple built over the archive and the beacon concealed inside a statue of Athame. The asari government kept the beacon secret throughout its history, even after Citadel law made hiding Prothean technology illegal, using the knowledge to maintain a technological edge. When the Reapers returned in 2186, the government kept hiding it until Thessia itself came under attack, then revealed it hoping it could aid the Crucible. Commander Shepard's arrival at the Temple exposed Athame's true nature and found the beacon held a Prothean VI named Vendetta, based on personality imprints of the director of the Prothean Crucible project, which carried knowledge of the Catalyst.

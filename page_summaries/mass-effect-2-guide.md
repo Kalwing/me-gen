@@ -1,0 +1,13 @@
+---
+title: Mass Effect 2 Guide
+url: https://masseffect.fandom.com/wiki/Mass_Effect_2_Guide
+game: Mass Effect 2
+type: lore
+characters: [Commander Shepard, Miranda Lawson, Jacob Taylor, Mordin Solus, Garrus Vakarian, Jack, Grunt, Zaeed Massani, Kasumi Goto, Thane Krios, Samara, Tali'Zorah, Legion, Kelly Chambers, Morinth]
+---
+
+This page is a structural walkthrough of Mass Effect 2's main-mission progression, organized into a Prologue and three Acts. The Prologue covers Save Joker and Awakening, Freedom's Progress (the first mission with Miranda and Jacob), and the assignment of the Stop the Collectors master mission along with command of the Normandy SR-2. Act 1 runs until Horizon, which triggers once Mordin, Garrus, Jack, and Grunt are all recruited; recruitment order does not affect events. The guide recommends recruiting Mordin first to unlock the Research Lab, and notes optional Omega, Citadel, and Planet Scanning assignments plus N7 Assignments. Act 1 DLC includes Dossier: The Veteran (Zaeed), Dossier: The Master Thief (Kasumi), their loyalty missions, Overlord, Firewalker Pack, and Normandy Crash Site.
+
+Act 2 begins after Horizon, opening Illium and the dossiers for Thane, Samara, and Tali, plus the Reaper IFF mission that recruits Legion (available only after the Collector Ship mission). At least eight crew members, not counting Legion, are needed to advance. Loyalty missions begin in Act 2; securing loyalty unlocks squad Bonus Powers (the first unlock of each is added to Shepard's Advanced Training) and improves the odds that squadmates and Shepard survive Act 3. Kelly Chambers indicates which squadmates have new loyalty missions. Each squadmate also has a Normandy upgrade or research project. Act 2 DLC comprises Lair of the Shadow Broker and Arrival. Key progression missions are the Collector Ship, Reaper IFF (after which a countdown with plot consequences begins), and Await IFF Installation.
+
+Act 3, the Suicide Mission, starts when the Normandy enters the Omega 4 Relay, locking the mission sequence through to the Epilogue with no galaxy-map access. Before entering, the guide stresses upgrading the Normandy's shields (Tali), armor (Jacob), and cannon (Garrus); each un-purchased upgrade costs one team member. The death-priority tiers are listed: Heavy Ship Armor (Jack), Multicore Shielding (Kasumi, Legion, Tali, Thane, Garrus, Zaeed, Grunt), and Thanix Cannon (Thane, Garrus, Zaeed, Grunt, Jack, Samara/Morinth). Act 3 progression runs through The Normandy Attacked (the Oculus), Collector Base: Infiltration, The Long Walk, and Final Battle. Upgrades also raise the Normandy's War Asset value in Mass Effect 3. The page notes Legendary Edition folds in all former DLC while keeping prerequisites largely intact.

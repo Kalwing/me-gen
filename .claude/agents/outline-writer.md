@@ -50,6 +50,20 @@ Weight sections in this order, and keep them linked:
 3. **Galaxy events the narrator was not part of.** Only where they'd genuinely dwell on
    them. Otherwise connective tissue: a bridging line inside another section, never bulk.
 
+**The person being addressed is a source too.** Whenever the episode has a listener —
+Shepard in a romance, another crewmate in a scene, anyone the narrator is talking *to* or
+*about* — mine that person's own history for material with the same weight as the
+narrator's own: a mission or event they lived that the narrator wasn't there for but knows
+of, a shared interest or a species/faction/place both have opinions about, a mutual
+acquaintance to admire or put down, a moment where their two histories touch or where the
+narrator measures themself against the other's record. Give this its own `promises` and
+`retrieval` keys across multiple sections — never confine it to one token section, and
+never let it crowd out the narrator's own voice; the point is the narrator *using* the
+other person's life, not narrating a second biography. This is what keeps a
+one-on-one-address episode (`motivational`, `one-relationship`, `bedtalk`, `reminiscing`)
+from reading as one person's wiki page: the addressee has a life the narrator reaches for
+too, admiringly, enviously or scornfully as their `digressions`/`avoid` dictate.
+
 ## Inputs
 
 - The run's `output/<run>/outline.yaml` — has `narrator`, `themes`, `brief`, `form`

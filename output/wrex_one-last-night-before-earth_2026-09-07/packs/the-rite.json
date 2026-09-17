@@ -1,0 +1,809 @@
+{
+  "section": {
+    "id": "the-rite",
+    "title": "The Rite, and Who Earns a Name",
+    "target_words": 200,
+    "form": "evening",
+    "narrator": "wrex"
+  },
+  "promises": [
+    "Wrex's own thresher maw, and what the feat bought him",
+    "What a krogan name is for"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "wrex_virmire",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Wrex on Virmire.",
+      "answer": "alive",
+      "detail": ""
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": ""
+    },
+    {
+      "id": "krogan_leader",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The krogan leader during the cure (Wrex or Wreav).",
+      "answer": "Wrex",
+      "detail": "My brother from another mother"
+    },
+    {
+      "id": "grunt_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grunt and Aralakh Company at the Attican Traverse rachni mission.",
+      "answer": "Saved the Rachni. He got out Alive",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "title": "Grunt's Rite of Passage",
+      "kind": "ceremony",
+      "game": "Mass Effect 2",
+      "when": "2185, after Horizon, once Grunt is woken from his tank",
+      "where": "Tuchanka — Clan Urdnot's camp, then the Rite grounds",
+      "participants": [
+        "Shepard",
+        "Grunt",
+        "Urdnot Wrex",
+        "Gatatog Uvenk",
+        "the Urdnot Shaman"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "grunt_loyalty": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Grunt believes he is seriously ill and asks to be taken to Tuchanka for a diagnosis. Shepard takes it to the leader of Clan Urdnot.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_001",
+            "grunt-rite-of-passage_004"
+          ]
+        },
+        {
+          "text": "The Rite runs in three waves, each summoned by striking the keystone. Varren first, in numbers.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_005",
+            "grunt-rite-of-passage_006"
+          ]
+        },
+        {
+          "text": "Second wave: klixen, fire-breathers, dropped in by harvester.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_007"
+          ]
+        },
+        {
+          "text": "Third is not a wave. It is a thresher maw, and it is meant to be survived rather than killed — the timer runs five minutes.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_008"
+          ]
+        },
+        {
+          "text": "Gatatog Uvenk interrupts the aftermath with an offer conditional on Grunt knowing his place, and it ends in a fight.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_009"
+          ]
+        },
+        {
+          "text": "Grunt joins Clan Urdnot. The Shaman writes to Shepard afterwards.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_010",
+            "grunt-rite-of-passage_013"
+          ]
+        },
+        {
+          "text": "Wrex himself killed a thresher maw during his own Rite — the feat that made his name in Clan Urdnot.\n",
+          "source_chunks": [
+            "urdnot-wrex_002"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "grunt_loyalty": "killed the thresher maw"
+          },
+          "text": "Killing the maw outright rather than surviving the timer is the rarer outcome, and the one that gets talked about.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_008"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-grunt-csec-noodles",
+        "citadel-party-apartment"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "grunt-rite-of-passage_001",
+        "grunt-rite-of-passage_004",
+        "grunt-rite-of-passage_005",
+        "grunt-rite-of-passage_006",
+        "grunt-rite-of-passage_007",
+        "grunt-rite-of-passage_008",
+        "grunt-rite-of-passage_009",
+        "grunt-rite-of-passage_010",
+        "grunt-rite-of-passage_013",
+        "urdnot-wrex_002"
+      ]
+    }
+  ],
+  "attendance": {
+    "tuchanka-grunt-rite-of-passage": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "thresher-maw-enemy_007",
+      "kind": "page",
+      "page": "Thresher Maw (enemy)",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*See also: Grunt: Rite of Passage* As part of Clan Urdnot's Rite of Passage, a single thresher maw must be fought on foot by Grunt and his krantt on Tuchanka.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#07",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Wrex himself killed a thresher maw during his own Rite — the feat that made his name in Clan Urdnot.",
+      "url": "",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#04",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Third is not a wave. It is a thresher maw, and it is meant to be survived rather than killed — the timer runs five minutes.",
+      "url": "",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "thresher-maw_005",
+      "kind": "page",
+      "page": "Thresher Maw",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A thresher maw shows up during Grunt's Rite of Passage into Clan Urdnot after all other predators have been neutralized. Lured to the proving grounds by persistent ground pounding by a giant piston in the complex, the maw proceeds to attack Grunt's krantt as the final test of the krogan's skill. If the thresher is slain within a set time limit, Gatatog Uvenk informs Shepard that no krogan has slain a thresher maw on foot in generations; the last one to accomplish this feat was Urdnot Wrex. EDI also tells Shepard that defeating the thresher maw has generated several breeding requests for Grunt and even one for Shepard. Jubilant krogan in the Urdnot Camp can be heard exclaiming that they will be eating \"thresher steaks\" for months. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#08",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Killing the maw outright rather than surviving the timer is the rarer outcome, and the one that gets talked about.",
+      "url": "",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "grunt-rite-of-passage_015",
+      "kind": "page",
+      "page": "Grunt: Rite of Passage",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- This mission was written by Brian Kindregan and Lukas Kristjanson. - After this mission, if Shepard killed the Thresher Maw, several krogan will comment on the Thresher Maw Shepard killed, stating that it has not been done since Urdnot Wrex underwent the Rite himself. - Upon returning to Tuchanka after the mission, should Shepard have killed the Thresher Maw, EDI will report that there have been numerous breeding requests directed for Grunt and (to Grunt's amusement), one for Shepard. - During the fight with Uvenk, heading up the flight of stairs and examining the giant piston will reveal the words: \"Lots of very small text put something interesting here or whatever\" upside\\-down. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "summary:grunt-rite-of-passage",
+      "kind": "summary",
+      "page": "Grunt: Rite of Passage",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Grunt: Rite of Passage was Grunt's loyalty mission in Mass Effect 2, available after Horizon once Grunt had been woken following Dossier: The Warlord. In the Normandy cargo hold, Grunt paced restlessly and told Shepard his desire to destroy and kill had become an involuntary compulsion; he asked to be taken to Tuchanka because EDI lacked krogan medical records, which the krogan fiercely guarded after the salarians used them to build the genophage.\n\nOn Tuchanka, Shepard spoke with the leader of Clan Urdnot, either Wrex or (if he died on Virmire or was never recruited) his brother Wreav, who explained that Grunt was not sick but of the age to undergo the krogan Rite of Passage, and referred the party to the clan Shaman. Gatatog Uvenk protested Grunt taking the Rite because he was tank-bred, but could be made to stand down. Shepard agreed to serve as Grunt's krantt and the Shaman sent the party to the traditional Rite grounds.\n\nThe Rite consisted of three waves triggered by activating a keystone: a swarm of varren, then fire-breathing klixen delivered by unkillable Harvesters, and finally a Thresher Maw that had to be survived for five minutes, with extra accolades for killing it. Killing the Maw earned the krogan's respect; it had not been done since Wrex's own Rite. Afterward Uvenk and his krantt appeared, offering to accept Grunt into Clan Gatatog as little more than a trophy; regardless of dialogue choice the encounter ended in a fight against Uvenk, who had barrier and armor, plus four Gatatog Warriors. Once they were defeated, the Shaman welcomed Grunt as a full member of Clan Urdnot and awarded a shotgun damage upgrade (Synchronized Pulsar), and Fortack's Database granted a discount. Grunt also unlocked the Fortification power. The Shaman later emailed Shepard demanding Grunt be kept alive for the krogan's survival. In Mass Effect 3, if this mission was not completed and Shepard spared the Rachni Queen during Attican Traverse: Krogan Team, Grunt would die.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "gatatog-uvenk_003",
+      "kind": "page",
+      "page": "Gatatog Uvenk",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | Uvenk resides in the Urdnot border camp, sticking close by the reiging clan leader. His traditionalist leanings have him voicing his opposition to the reformations initiated by Urdnot Wrex if he is the clan leader, claiming that they will only serve to weaken the krogan as a whole. On the other hand, if Urdnot Wreav is the clan leader, Uvenk is much more deferential and supportive of his chief's conservative stance. When Commander Shepard accompanies Grunt to complete his Rite of Passage, Uvenk insults Grunt for his status as a tank\\-bred krogan and vehemently opposes allowing him to join the ranks of Urdnot. When the Urdnot leader indicates preference for sending Grunt to the Rite, Uvenk tries to go around them and speak directly to the Urdnot Shaman, though his protests against allowing Grunt to undertake the Rite are met with irritation by the venerable Shaman. Shepard is able to make Uvenk back down after proving to the Shaman that they will support Grunt as his krantt, either by humbling Uvenk with words or answering his insults with a headbutt in the typical krogan fashion. Uvenk resentfully withdraws his denial for Grunt's Rite for the moment but threatens to settle the matter elsewhere. Shortly after the third and final battle of the Rite, a shuttle carrying Uvenk and several Gatatog Warriors arrives. If Shepard and Grunt completed the Rite of Passage by killing the Thresher Maw, Uvenk acknowledges the unquestionable proof of Grunt's strength and reveals his plan to convince Grunt to join Clan Gatatog, albeit as a trophy and in\\-name\\-only member, solely in order to increase Uvenk's own stature. Conversely, if the Rite was finished by surviving the Thresher Maw's attack without killing it, Uvenk merely tells Grunt that he is not worthy of joining a clan because he is impure. If Uvenk tries to recruit Grunt, his cynical overtures are violently rebuffed by Grunt, who has no interest in being used as a tool while having his identity, his krantt, and his lineage disrespected. Either way, a battle with the Gatatog warriors and Uvenk ensues which ends in their deaths. On the Normandy afterward, Grunt expresses his thanks to Shepard and his satisfaction at Uvenk's demise.",
+      "url": "https://masseffect.fandom.com/wiki/Gatatog_Uvenk",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "krogan_013",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "Language",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Little is known about krogan language except for a few non\\-translatable terms. Some terms are specific to certain krogan clans, such as \"Aralakh\", which was taken from Clan Raik. Known krogan words are listed below. - *Aralakh* \\- \"Eye of Wrath\" - *hrakhor* \\- pejorative, referring to unskilled henchmen by context - *korbal* \\- roughly, \"victory or death\" - *krantt* \\- a warrior's most trusted allies - *ru'shan* \\- \"Child of my Blood\" - *ruzad* \\- \"judge\" - *Trobror* \\- \"cinder\" or \"ash heap\" Krogan names are composed of two parts, a clan name followed by a given name. At birth, krogan are identified by their given name only. A clan name is bestowed after krogan complete the rite of passage of the clan they wish to join. While krogan actions speak louder than words, linguistic quirks are not unknown to them. Known krogan idioms include \"like a thresher maw pet\", indicating something is unpredictable.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "grunt-rite-of-passage_008",
+      "kind": "page",
+      "page": "Grunt: Rite of Passage",
+      "section": "Wave Three",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Thresher Maw! This is not so much a wave as it is a giant creature attack. There is only one Thresher Maw and the primary objective is simply to survive. All you have to do is survive the attack for five minutes and the test will be ended, though there are additional dialogue accolades if you succeed in taking it down. If you manage to kill the Thresher Maw, you gain the respect of the krogan and the Rite ends. The Thresher Maw moves around the outskirts of the map, but its trail of flying dirt clods is easy to follow when it dives back underground. The Thresher Maw can destroy the \"merely metal\" structures, so try to avoid those for cover and go for the sturdier stone/concrete pillars and walls instead. Its acid spit is an area of effect attack and will accurately shoot at you even if you're cloaked. The blue tongue is **not** a weak spot—shooting it does not cause any additional damage. **Combat Strategy:** There is one indestructible stone pillar on the low ground area of the level—to the right as you face out from the keystone—that you can use to take cover from the Maw from any direction it might appear. Additionally, there are two respawning thermal clips at the base of this pillar as well as easy access to a medi\\-gel and power cells on the higher ground that you can pick up from the edge of the raised area without needing to climb up. This is without a doubt the optimal place to fight the Maw, as all other locations will involve considerable running about when the Maw moves. Place your squadmates in cover behind the other two indestructible pillars on the high ground and they should also be safe and might even draw the Maw's fire giving you free rein. If a squadmate does go down it's not the end of the world: Shepard alone is more than enough to beat the Maw even on Insanity. **Combat Tips:** - The metal pillars can be destroyed by the Thresher Maw in one hit, but any cover made of stone/concrete is not destructible. You should always try to interpose indestructible cover between yourself and the Maw. The Maw's spit projectile does have an area of effect so try to be as completely in cover as possible when the Maw attacks to ensure you are not hit. - Shepard's shields take longer than usual to recover after an acid hit, so be careful. On the plus side it takes about three consecutive hits to kill Shepard even on Insanity. Don't hesitate to use a medi\\-gel to quickly restore your shields (provided you have the Emergency Shielding medi\\-gel upgrade). - A well\\-upgraded heavy pistol is more than sufficient to take out the Maw as long as you take advantage of respawning thermal clips to keep replenishing its ammo. - On Insanity, the Thresher Maw's sheer amount of health makes using heavy weapons inefficient. Conventional weapons modded with anti\\-armor ammo powers are your best bet. - Though nominally ineffective against armor, Grunt's Concussive Shot can still \"stagger\" the Maw, reducing the number of acid shots it will take before retreating. - Zaeed's Inferno Grenade, Mordin's Incinerate, and Samara's Reave are examples of good squadmate attacks to use. Using weapons with high armor penetration such as the Widow, M\\-76 Revenant, M\\-96 Mattock, or most pistols will help a lot. - The Cain will usually only damage half the Thresher Maw's health on Insanity. - The Thresher Maw is immune to the effects of Stasis.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "krogan_014",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "Clans",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Krogan are divided into numerous clans. Membership in a clan allows a krogan to own property, join the army and apply to serve under a battlemaster. Clan diplomats represent the strength of their people to other clans, and thus make it their job to look intimidating lest their clan be targeted for conquest. Young krogan undergo a rite of passage that is overseen by a shaman respective to the clan the krogan wishes to join. In Clan Urdnot, this rite consists of battling various wild fauna on Tuchanka, ending with an encounter with a thresher maw. Merely surviving for five minutes is considered proof of worthiness, but killing the thresher maw increases the initiate's prestige and standing. In Clan Nakmor, it's claimed that it isn't so much a rite of passage as a \"death trip\", and surviving entails membership into the clan. Few outsiders have seen a rite of passage take place, even though there are no rules in krogan tradition that state that a non\\-krogan can't help with the undertaking of the rite by acting as the participant's krantt. Known krogan clans: - Clan Bragus \\- Bragus Thul plays as a quarterback in North\\-American\\-Union\\-Rules football. - Clan Dahmbra \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Drau \\- Drau Sorze is a \"ruzad\", or \"judge\", in the Republic of Ghurst on Tuchanka. - Clan Forsan \\- this clan's leader declared being hit by pyjak dung is grounds for executing the trader responsible for introducing them to Tuchanka. - Clan Ganar \\- Ganar Wrang, an exiled krogan battlemaster, founded the Blood Pack mercenary group. - Clan Gatatog \\- led by Gatatog Uvenk on Tuchanka. - Clan Graken \\- Graken Dhal, a warlord, involved in the bombardment of Digeris during the Krogan Rebellions. - Clan Gulnaz \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Hailot \\- clan leader Hailot Wrund controlled Garvug prior to the corporatist invasion in 2185\\. - Clan Jair \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Jorgal \\- a clan known to have one of the longest krogan breeding lines and oldest bloodlines. - Clan Jurdon \\- an enemy of Clan Urdnot on Tuchanka. - Clan Kariss \\- one of several minor clans with individuals that joined the Andromeda Initiative. - Clan Khel \\- Khel Burrum is a krogan competing at Pinnacle Station. - Clan Kohrr \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Kormer \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Korten \\- a clan known for making klixen\\-roasted varren jerky with their own signature pyjak sauce. - Clan Nakmor - Clan Quash \\- Quash Hurgott is a Blood Pack commander. - Clan Raik \\- source of the word \"Aralakh\", meaning \"Eye of Wrath\", which became the common name used by the galaxy to refer to Tuchanka's star. - Clan Ravanor \\- the clan runs a mining operation on Tuchanka; Warlord Ravanor Tusk is a clan member. - Clan Shath \\- Shath Norda survived a trip to the planet Kruban. - Clan Strogjaw \\- Strogjaw Grog is a member who joined then deserted the Andromeda Initiative. - Clan Talyth \\- a clan that attempted to rebuild a dreadnought on Tuchanka with the help of turian duarch Ellis Valterus. - Clan Thax \\- the clan of krogan businessman Thax Vorak. - Clan Urdnot - Clan Weyrloc - Clan Wik \\- one of several clans with individuals that joined the Andromeda Initiative.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "summary:thresher-maw",
+      "kind": "summary",
+      "page": "Thresher Maw",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Thresher maws were enormous subterranean carnivores that spent their lives eating or hunting for food, bursting from the ground without warning when disturbed. They reproduced via spores that could lie dormant for millennia and survive deep space and atmospheric re-entry, so maw spores appeared on many worlds, spread by earlier generations of space travelers, possibly predating the asari.\n\nThey lived alone in large underground nests, growing over 30 meters above ground with a body nearly twice that size beneath the surface; an adult's body never fully left the ground, with only the head and tentacles erupting to attack. They fed through an unusual photosynthesis using absorbed solar radiation plus minerals and ores consumed from the ground, favoring bodies with little or no atmosphere. Mostly immobile above ground, they moved at high speed while burrowing, absorbed tremendous damage, and attacked by spitting viscous acid, bursting up beneath prey, and smashing targets with their claws while emitting infrasound. Shields were completely ineffective against them.\n\nThe Alliance first encountered thresher maws on the colony of Akuze in 2177, where they killed nearly an entire marine rescue force. If Shepard has the Sole Survivor background, Shepard alone survived; Corporal Toombs, met later on Ontarom, claimed Cerberus deliberately caused the Akuze massacre to study the maws and held him captive for experiments, and Cerberus later used the same tactic to lure Admiral Kahoku's team into a nest on Edolus. Maws are found on many uncharted worlds, usually one per planet, including Antibaar, Chohe, Nepheron, Nonuel, Presrop, Xawin, Trebin and Edolus.\n\nIn Mass Effect 2, a thresher maw is the final test of Clan Urdnot's Rite of Passage on Tuchanka, lured to the proving grounds by ground-pounding pistons to attack Grunt's krantt. Gatatog Uvenk notes that the last krogan to kill a maw on foot was Urdnot Wrex. In Mass Effect 3, Kalros, a legendary maw called \"the mother from which all other thresher maws spawn\" and the largest ever seen, roams Tuchanka near the Shroud facility. Shepard activates two maw hammers to summon her against a Reaper Destroyer guarding the Shroud; she coils around it and drags it underground. Her size prompts Javik to remark that maws are now too big to ride, implying they were smaller in Prothean times. The concept was confirmed by art director Derek Watts to draw on Dune's sandworms, and also resembles D&D Ankhegs, the Star Wars Sarlacc, and the real Bobbit worm.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "thresher-maw-enemy_003",
+      "kind": "page",
+      "page": "Thresher Maw (enemy)",
+      "section": "Legendary Edition",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Thresher maws now spit a spread of acid balls rather than a single one, and they can lead their target. When a thresher maw goes underground, it stays underground longer. A trail of rocks and upended earth now indicates the direction the creature is moving in. The thresher maw has a chance to deploy multiple Sensory Tentacles around its lair when it retreats underground. These tentacles are immobile but can deal damage on targets within striking range. The thresher maw then actively seeks out its potential victims' location and will deal the killing blow from below when near enough.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "summary:thresher-maw-enemy",
+      "kind": "summary",
+      "page": "Thresher Maw (enemy)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This page collects gameplay information and combat tactics for fighting thresher maws as enemy units in Mass Effect and Mass Effect 2, as opposed to the general lore page.\n\nIn Mass Effect, thresher maws appear on uncharted worlds and can be fought in the Mako or on foot. Their nests are identifiable by a roughly 50–75 meter circular area of flat ground with low hills and shallow pits; maws only surface on the flat portions and retreat underground if the player leaves the circle for about five seconds. The page stresses never driving into or meleeing a maw, since its claws can cause instant death, and that its acid spit bypasses shields entirely and can destroy the Mako or kill Shepard in one hit. Recommended tactics include keeping distance, circle-strafing or using the Mako's boosters to hop over each acid projectile while firing, and using cover behind hills. A quirk let players kill the same maw twice for double experience by killing it before its health bar appeared. In the Legendary Edition, maws spit a spread of acid balls that lead the target, stay underground longer with a visible dirt trail, and can deploy immobile Sensory Tentacles; killing in the Mako no longer carries an experience penalty, and maws do not heal when the player withdraws.\n\nIn Mass Effect 2, a single thresher maw must be fought on foot by Grunt and his krantt during Clan Urdnot's Rite of Passage on Tuchanka. It stays outside the playable area, lobbing fast high-damage acid blobs that delay shield and health regeneration, and periodically dives and tunnels to a new position. It has heavy armor with no weak points (the blue tongue and mouth take no bonus damage) and is immune to Stasis. Effective options include Warp, Reave and Incinerate against its armor, stone pillars for cover, well-upgraded heavy pistols such as the M-5 Phalanx or M-6 Carnifex, upgraded sniper rifles, and heavy weapons like the M-920 Cain or Collector Particle Beam.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#02",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds The Rite runs in three waves, each summoned by striking the keystone. Varren first, in numbers.",
+      "url": "",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "summary:gatatog-uvenk",
+      "kind": "summary",
+      "page": "Gatatog Uvenk",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Gatatog Uvenk was a krogan battlemaster and leader of Clan Gatatog on Tuchanka in 2185. A traditionalist who championed the warrior culture that drove the Krogan Rebellions, he believed Clan Gatatog stood at a turning point between renewed power and glory or fading into history, and so allied his people with the dominant Clan Urdnot to curry favor with its leader. He resided at the Urdnot border camp. If Urdnot Wrex led the clan, Uvenk openly opposed his reforms as weakening the krogan; if Urdnot Wreav led, Uvenk was deferential and supportive.\n\nWhen Commander Shepard accompanied Grunt to complete his Rite of Passage, Uvenk insulted Grunt as a tank-bred krogan and opposed his joining Urdnot, appealing directly to the Urdnot Shaman, who was irritated by his protests. Shepard made Uvenk back down by proving the team would serve as Grunt's krantt, either humbling him with words or answering with a headbutt; Uvenk withdrew his objection but vowed to settle the matter elsewhere. After the final battle of the Rite, Uvenk arrived by shuttle with several Gatatog Warriors. If Grunt had killed the thresher maw, Uvenk acknowledged his strength and offered him in-name-only membership in Clan Gatatog as a trophy to boost Uvenk's own stature; if the maw was merely survived, Uvenk dismissed Grunt as impure. Grunt violently rejected the offer, and a battle ensued that ended in the deaths of Uvenk and his warriors. Grunt afterward thanked Shepard and expressed satisfaction at Uvenk's death. Uvenk said: \"Aliens don't know strength. My followers are true krogan. Everything about Grunt is a lie.\" In combat he hung back using Warp while his warriors charged, wielding an M-300 Claymore heavy shotgun, a biotic Barrier, and armor. He wore modified Battlemaster Armor from the Geth Armory and was voiced by Michael Dorn.",
+      "url": "https://masseffect.fandom.com/wiki/Gatatog_Uvenk",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "chunk_id": "clan-urdnot_005",
+      "kind": "page",
+      "page": "Clan Urdnot",
+      "section": "Known Members",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Eve - Fortack - Grunt (Depending on completion of his Rite of Passage) - Ratch - Shaman - Urdnot Dagg - Urdnot Darg - Urdnot Galem \\- Clan media director on Tuchanka - Urdnot Jatt \\- Clan financial arm spokesperson on Tuchanka - Urdnot Torsk \\- Featured in the Video Archive of the Shadow Broker Base - Urdnot Wreav - Urdnot Wrex - Urdnot Grot \\- So far the only clan member known to have joined the Andromeda Initiative - Uta \\- Female Clan Leader in 2185",
+      "url": "https://masseffect.fandom.com/wiki/Clan_Urdnot",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#06",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Grunt joins Clan Urdnot. The Shaman writes to Shepard afterwards.",
+      "url": "",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "fortack_001",
+      "kind": "page",
+      "page": "Fortack",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Fortack** is the Lord High Researcher of Clan Urdnot and owner of Fortack's Database on Tuchanka. He was forced to kill his predecessor before gaining his title. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | If Urdnot Wrex is the leader of Clan Urdnot, Fortack will rant at Commander Shepard about his talents being wasted by the clan leader, having him research \"things that don't explode\", such as crop genetics and medical improvements, which can easily be bought from the salarians, according to Fortack. On the other hand, if Urdnot Wreav leads the clan, then Fortack will be working on things that explode, saying there's always space for more weapons on Tuchanka. In either event, Fortack will welcome Grunt after his rite of passage into Clan Urdnot (or if Grunt is not in the party, Shepard as Grunt's krantt). He will note that the Shaman granted the customary upgrades for completing the Rite, and that the Shaman is quick to pass off such rewards without giving Fortack due credit.",
+      "url": "https://masseffect.fandom.com/wiki/Fortack",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "summary:fortack",
+      "kind": "summary",
+      "page": "Fortack",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Fortack was the Lord High Researcher of Clan Urdnot and the owner of Fortack's Database on Tuchanka. He was forced to kill his predecessor before gaining the title.\n\nIf Urdnot Wrex led Clan Urdnot, Fortack complained to Commander Shepard that his talents were wasted on research into \"things that don't explode,\" such as crop genetics and medical improvements that he felt could simply be bought from the salarians. If Urdnot Wreav led the clan instead, Fortack worked on weapons, saying there was always room for more on Tuchanka. In either case he welcomed Grunt after his rite of passage into Clan Urdnot, or Shepard if serving as Grunt's krantt, and noted that the Shaman had granted the customary upgrades for completing the Rite while taking credit that Fortack felt was due to him.",
+      "url": "https://masseffect.fandom.com/wiki/Fortack",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "grunt-rite-of-passage_004",
+      "kind": "page",
+      "page": "Grunt: Rite of Passage",
+      "section": "Walkthrough",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "With Grunt in your party, speak with the current leader of Clan Urdnot, who is either Shepard's old friend, Wrex, or (if he died on Virmire or was never recruited) his brother, Wreav. Either will note that Grunt is not sick, he is of the age where he must complete the krogan Rite of Passage, and refers the party to the clan Shaman. The clan Shaman will relate various information about the rite, as well as krogan history and culture. Gatatog Uvenk will protest Grunt taking the Rite, as he is tank bred. You can get Uvenk to stand down in a number of ways. After Shepard agrees to be Grunt's krantt, the Shaman sends Grunt and company to the traditional grounds of the Rite.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "summary:urdnot-camp",
+      "kind": "summary",
+      "page": "Urdnot Camp",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Urdnot Camp was a small, rubble-strewn settlement on the krogan homeworld of Tuchanka, controlled by Clan Urdnot. A shuttle landing pad connected to the camp proper by a derelict passageway. The camp contained the throne dais of Clan Urdnot's leader, a building housing the Urdnot shaman where representatives of other clans gathered, a varren-fighting pit, the clan's food stores (frequently raided by invasive pyjak), a merchant's kiosk run by Ratch, and the laboratory of the clan's Lord High Researcher, Fortack.\n\nIn 2185 Commander Shepard traveled to the Urdnot Camp to aid Mordin Solus in searching for a missing fellow Special Tasks Group member during the mission \"Mordin: Old Blood,\" and to help Grunt complete his Rite of Passage in \"Grunt: Rite of Passage.\" Shepard could also speak with the leader of Clan Urdnot, who was either Urdnot Wrex (if he survived Virmire and joined Shepard) or Urdnot Wreav. Additional activities included helping a krogan mechanic find a combustion manifold to repair a vehicle, addressing the clan's chronic pyjak infestation, and betting on a varren fight. If Urdnot Wrex was alive, a Clan Nakmor representative was present at the camp to negotiate an alliance with Clan Urdnot, and Shepard could interact with the negotiation. The traditionalist Gatatog Uvenk was also present, opposing the current clan leadership. Missions and assignments tied to the location included \"Tuchanka: Urdnot Wrex,\" \"Tuchanka: Combustion Manifold,\" \"Tuchanka: Killing Pyjaks,\" and \"Tuchanka: Old Blood: Missing Scout.\"",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Camp",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "urdnot-camp_002",
+      "kind": "page",
+      "page": "Urdnot Camp",
+      "section": "Layout",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "A small landing pad for shuttles is connected to the camp proper by a derelict passageway. Within the camp are the throne dais for Clan Urdnot's leader, a building where the Urdnot shaman resides and representatives from other clans gather, a varren\\-fighting pit, the clan's food stores (frequently raided by the invasive pyjak), a merchant's kiosk, and the lab of the clan's Lord High Researcher.",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Camp",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "urdnot-camp_006",
+      "kind": "page",
+      "page": "Urdnot Camp",
+      "section": "Notable Characters",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- Urdnot Wrex - Urdnot Wreav - Gatatog Uvenk - Shaman - Ratch - Fortack",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Camp",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "summary:shaman",
+      "kind": "summary",
+      "page": "Shaman",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Shaman was a krogan living at the Urdnot Camp on Tuchanka who was in charge of Clan Urdnot's rites. Despite being responsible for keeping krogan traditions alive, he was irritated by the ostensibly traditionalist Gatatog Uvenk's objections to the tank-bred Grunt, and allowed Grunt to perform the Rite of Passage over Uvenk's protests.\n\nIf Commander Shepard taunted Uvenk for using politics instead of fighting, the Shaman praised the Commander for undermining Uvenk with words, Uvenk's \"natural weapon\"; if Shepard headbutted Uvenk in krogan fashion, the Shaman was particularly amused, judging that the Commander understood krogan ideals better than \"those who whine like pups.\" Afterward the Shaman told Shepard he had gone through many rites to become shaman, including giving up his name, that those rites were so physically and mentally torturous they made him wish he were dead, and that further rites had to be performed every dawn and dusk. Grunt, if present, called the job terrible, and the Shaman agreed. Shepard could also return to tell him stories of past battles against worthy foes, including stopping Saren and a Reaper at the Citadel; the Shaman knew of and respected Spectre combat prowess.\n\nIn Mass Effect 3, if Eve died during the mission to cure the genophage, the Shaman delivered the eulogy at her funeral. A separate multiplayer class, the Krogan Shaman Adept, is unrelated to this character.",
+      "url": "https://masseffect.fandom.com/wiki/Shaman",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "shaman_001",
+      "kind": "page",
+      "page": "Shaman",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the character from Mass Effect 2\\. For the multiplayer class in Mass Effect 3, see Krogan Shaman Adept.* | | --- | --- | The **Shaman** is a krogan residing on Tuchanka at the Urdnot Camp. He is in charge of the Urdnot Clan's rites. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Shaman",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "krogan_018",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "Notable Krogan",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "| - Archuk - Barruk - Brood - Charr - Doctor Droyas - Eve - Fortack - Gatatog Uvenk - Grunt - Inamorda - Jax - Jorgal Strux - Jorgal Thurak - Krannit - Krex | - Nakmor Drack - Nakmor Kesh - Nakmor Morda - Nax - Okeer - Patriarch - Shaman - Skarr - Urdnot Dagg - Urdnot Darg - Urdnot Wreav - Urdnot Wrex - Vorn - Chief Weyrloc Guld - X1 - Zear | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#01",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Grunt believes he is seriously ill and asks to be taken to Tuchanka for a diagnosis. Shepard takes it to the leader of Clan Urdnot.",
+      "url": "",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "scene:tuchanka-mordin-and-maelon#02",
+      "kind": "scene",
+      "page": "Mordin, Maelon, and the Weyrloc Hospital",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-mordin-and-maelon",
+      "text": "Mordin, Maelon, and the Weyrloc Hospital. 2185, during Mordin's time aboard the Normandy Tuchanka — Clan Urdnot's camp, then a hospital turned Weyrloc fortress Clan Urdnot's Chief Scout places him: taken by Clan Weyrloc, held in a hospital they have turned into a fortress.",
+      "url": "",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "chunk_id": "ruzad_002",
+      "kind": "page",
+      "page": "Ruzad",
+      "section": "Description",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A massive, slow\\-firing krogan shotgun, the Ruzad delivers a forceful blow that will stagger any enemy who survives. In krogan culture, Ruzad translates loosely as \"judge.\" The krogan consider the name more obvious than humorous or ironic.",
+      "url": "https://masseffect.fandom.com/wiki/Ruzad",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "mass-effect-2-character-concepts_008",
+      "kind": "page",
+      "page": "Mass Effect 2 Character Concepts",
+      "section": "4\\. The Krogan War Queen",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Femake krogan, (human equivalent \\- 30 years old) **Enabling Mission** She's a high ranking member of the Krogan Breeders guild who's comes \\[sic] to the Citadel *\\[?]* against Shepard and for answers about the choice to destroy the cure to the Genophage. **Why is this character cool, amusing or interesting?** *\\[?]* to the player in a seemingly humorous *\\[?]* in Wrex. Her agenda is to find a cure *\\[?]* all female Krogan's under Reaper control to send back to the krogan home world for breeding *\\[?]* testing. This character will allow us to expand on the desperate state of the krogan species and further explore their culture as it exists under threat of extinction.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Character_Concepts",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-january-2011_007",
+      "kind": "page",
+      "page": "Cerberus Daily News - January 2011",
+      "section": "*01/06/2011 \\- Illium Hosts Controversial Krogan Art Showcase*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“The mixed media showcase of krogan creative works, \"One in a Thousand,\" opened last night at Illium's prestigious Municipal Institute of Art. As krogan history is often viewed by others as violent and tragic, the art display challenges viewers to rethink their established views on krogan culture. Dr. Alissa Banser, the institute's program coordinator, explains: \"We wanted to explore different aspects of the krogan people, from the dark to the sublime. We hope to inspire debate on the very nature of how we define 'art'.\" Some early reviews have hailed Dr. Banser as courageous; others call the showcase \"exploitative\" and \"in poor taste,\" noting that few, if any, of the show's pieces were created by krogan artists. The showcase is on display until (Earth standard date) February 21\\.”*",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_January_2011",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "aralakh_001",
+      "kind": "page",
+      "page": "Aralakh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Mordin: Old Blood or Grunt: Rite of Passage (Mass Effect 2\\) **Prerequisite:** Priority: Sur'Kesh (Mass Effect 3\\) **Aralakh** is a gateway system. The krogan accord their home star a place of significance in their culture: it means \"eye of wrath\" in their language, and it lends its name to a place in Tuchanka and an elite warrior unit. All of Aralakh's terrestrial worlds are inhospitable; even the krogan homeworld Tuchanka is barely livable by other races' standards. The Krogan Rebellions saw most resources stripped for the war effort, although there are still some deposits available here and there. The Council Demilitarization Enforcement Mission (CDEM) maintains a careful watch on krogan hotspots to prevent something like the Rebellions from happening again. Part of their job is regulating helium\\-3 fuel sales skimmed from the system's gas giants.",
+      "url": "https://masseffect.fandom.com/wiki/Aralakh",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "gatatog-uvenk_002",
+      "kind": "page",
+      "page": "Gatatog Uvenk",
+      "section": "Background",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Uvenk is among the demographic of traditionalists who champion the krogan's warrior culture that singlehandedly threatened the races of the Citadel long ago during the Krogan Rebellions. Despite Clan Gatatog's history among the krogan, including having one of the longest standing settlements, he admits that his clan has been approaching a turning point by 2185, either to achieve power and glory or be reduced to a piece of history with a pile of bodies buried in Tuchanka's soil. Fear of the latter eventually compelled him to ally his people with the dominant Clan Urdnot and try to curry favor with its leader.",
+      "url": "https://masseffect.fandom.com/wiki/Gatatog_Uvenk",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "krogan_006",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "2180s",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Despite announcements about failed, krogan\\-funded research into the genophage by 2183, most krogan have not worked toward a cure as they are more interested in combat than science. Unless one is discovered and used, the extinction of the krogan seems inevitable. In 2185, Mordin Solus explains that the krogan are in fact evolving to undo the damage of the genophage. To prevent overpopulation, Mordin's Special Tasks Group team created and applied a modified version of the genophage, which he claims will keep the population down but still allows for a viable population, indicating the krogan race isn't as doomed as they believe. Mordin states that both the original and new genophage were designed to stabilise the krogan birth rate at pre\\-industrial levels—one viable birth per thousand. Given the prodigious krogan birth rate, it would appear that the enormously violent nature of krogan culture is actually responsible for their dwindling numbers. Ironically, this means that if the krogan were not so convinced that they, as a species, are doomed, and consequently spent less time roaming the galaxy spoiling for a fight, their numbers might increase—they are essentially being killed by their own fatalism.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "garvug_002",
+      "kind": "page",
+      "page": "Garvug",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 354 CE, **Garvug** was considered a \"bargain world,\" given to the krogan to placate them because no one else wanted to live on such a frozen rock. Technically a life\\-bearing world, Garvug had a small farm belt around its equator and well\\-insulated marine life in its seas. By the turn of the century, the krogan had completely adapted, breeding hundreds of younglings per family in vast underground bunkers. By the turn of the next century, Garvug's narrow strips of coral reef had been destroyed by overfishing and pollutants, and excess krogan took to the stars to find another planet to consume. Garvug was treated as an object lesson by the Citadel Council \\-\\- the krogan could not be trusted to check their own numbers. Today, Garvug is a frozen wasteland, home to corporate ecoengineering efforts trying to implement sustainable agri\\- and aqua\\-culture practices. Krogan and vorcha packs are a constant threat, and the corporations pay mercenaries well to keep their operations safe.",
+      "url": "https://masseffect.fandom.com/wiki/Garvug",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "codex-aliens-non-council-races_032",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Council Races",
+      "section": "Krogan: Culture",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The harsh krogan homeworld conditioned the krogan psychology for toughness just as it did the body. Krogan have always had a tendency to be selfish, unsympathetic, and blunt. They respect strength and self\\-reliance and are neither surprised nor offended by treachery. The weak and selfless do not live long. In their culture, \"looking out for number one\" is simply a matter of course. After their defeat in the Rebellions, the very concept of krogan leadership was discredited. Where a warlord could once command enough power to bring entire solar systems to heel and become Overlord, these days it is rare for a single leader to have more than 1,000 warriors swear allegiance to him. Most krogan trust and serve no one but themselves. This solitary attitude stems in part from a deep sense of fatalism and futility, a profound social effect of the genophage that caused krogan numbers to dwindle to a relative handful. Not only are they angry that the entire galaxy seems out to get them, the krogan are also generally pessimistic about their race's chances of survival. The surviving krogan see no point to building for the future; there will be no future. The krogan live with an attitude of \"kill, pillage, and be selfish, for tomorrow we die.\"",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Council_Races",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "summary:aralakh",
+      "kind": "summary",
+      "page": "Aralakh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Aralakh was a gateway system that the krogan accorded a place of significance in their culture. The name meant \"eye of wrath\" in the krogan language and was also given to a place on Tuchanka and to an elite krogan warrior unit. Access to the system required prior completion of \"Mordin: Old Blood\" or \"Grunt: Rite of Passage\" in Mass Effect 2, and of \"Priority: Sur'Kesh\" in Mass Effect 3.\n\nAll of Aralakh's terrestrial worlds were inhospitable; even the krogan homeworld Tuchanka was barely livable by other species' standards. The Krogan Rebellions had stripped most of the system's resources for the war effort, though some deposits remained. The Council Demilitarization Enforcement Mission (CDEM) kept a careful watch on krogan hotspots to prevent another uprising like the Rebellions, and part of its role was regulating helium-3 fuel sales skimmed from the system's gas giants.\n\nThe planets orbiting the star Aralakh were Durak (first), Kanin (second), Kruban (third), Tuchanka (fourth), Ruam (fifth), and Vaul (sixth); the system also contained a mass relay and a fuel depot. Tuchanka was the focus of extensive gameplay content: in Mass Effect 2 it hosted the missions \"Grunt: Rite of Passage\" and \"Mordin: Old Blood\" and several assignments, and in Mass Effect 3 it hosted \"Priority: Tuchanka,\" \"Tuchanka: Bomb,\" \"Tuchanka: Turian Platoon,\" \"N7: Cerberus Attack,\" and Citadel-related missions.",
+      "url": "https://masseffect.fandom.com/wiki/Aralakh",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "summary:ruzad",
+      "kind": "summary",
+      "page": "Ruzad",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Ruzad was a shotgun in Mass Effect: Andromeda. A massive, slow-firing krogan weapon, it delivered a forceful blow that staggered any enemy who survived. In krogan culture \"Ruzad\" translated loosely as \"judge,\" a name the krogan considered more obvious than humorous or ironic. It was a straightforward weapon of its class with no unique traits; the large bayonet under its twin muzzles was purely cosmetic and gave no melee bonus.\n\nThe Ruzad had to be researched before crafting and was outperformed in every stat by the Disciple shotgun, which auto-unlocked crafting tiers as Ryder leveled, leaving no gameplay reason to choose the Ruzad over the Disciple aside from aesthetics. Squadmate Drack wielded a Ruzad as his weapon of choice. The multiplayer version received one balance update, an increase in damage per pellet. Singleplayer stats ran from rank I (355 damage) to rank X (580 damage) with a fixed rate of fire of 70 and a three-round clip; the multiplayer version dealt substantially higher damage. Full development from rank I to X cost 1,450 research, 300 omni-gel canisters, and quantities of iron, nickel, and element zero.",
+      "url": "https://masseffect.fandom.com/wiki/Ruzad",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "summary:krogan",
+      "kind": "summary",
+      "page": "Krogan",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The krogan were large reptilian bipeds native to Tuchanka, a harsh world of scarce resources and vicious predators. They thrived there, but as their technology advanced their birth rate exploded and wars over dwindling territory escalated into a global nuclear war roughly four thousand years ago that left Tuchanka a radioactive wasteland and the krogan reduced to primitive warring clans. Two thousand years later the salarians discovered and \"uplifted\" them, relocating some krogan and giving them technology including the Shroud to stabilize Tuchanka's atmosphere, so that krogan numbers could be thrown against the rachni in the Rachni Wars. The rapidly breeding krogan drove back and eradicated the rachni, were hailed as saviors, granted conquered and Citadel worlds, and honored with the Krogan Monument on the Presidium.\n\nUnchecked by Tuchanka's conditions, the krogan population swelled and they forcibly seized inhabited worlds. When they settled the asari colony Lusia and Overlord Kredak defied the Council, the Krogan Rebellions broke out, lasting nearly three centuries. The krogan used redirected asteroids as weapons; in desperation the Council enlisted the Turian Hierarchy, who deployed the salarian-engineered genophage, causing near-total infant mortality (roughly one viable birth per thousand). The krogan surrendered, the turians gained a Council seat, and krogan numbers steadily declined, leaving a scattered, fatalistic people who mostly worked as mercenaries.\n\nKrogan biology featured redundant organs (two hearts, four lungs, four testicles, hence the slang \"quad\"), a neuroconductive backup circulatory system making them nearly impossible to paralyze, thick hazard-resistant hides, shoulder humps storing fluids, 240-degree vision, lifespans exceeding a thousand years, and a berserk \"blood rage.\" Culture prized strength, self-reliance and territory; the weak were \"not worth killing.\" Fertile females were prized, lived in separate clans, and were the level-headed counterparts to the males. Rites (Rite of Life, Passage, Honor, Firsts, Union, Authority) were preserved by the nameless clan shaman; the dead were consigned to the Void on funeral pyres or displayed as skulls in the sacred Hollows. Ancient deities included Vaul and Uzin. In 2185 Mordin Solus revealed the krogan were evolving against the genophage and his team applied a modified version. In the 2186 Reaper War, Shepard could cure the genophage at the Shroud (with Eve, Mordin or Padok Wiks) in exchange for krogan aid, or let the salarian sabotage stand; outcomes ranged from krogan repopulation under Urdnot Wrex to Urdnot Wreav being deceived. Separately, Clan Nakmor joined the Andromeda Initiative, later founded New Tuchanka on Elaaden under Overlord Nakmor Morda after a mutiny and a broken Nexus leadership deal.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "scene:citadel-grunt-csec-noodles#06",
+      "kind": "scene",
+      "page": "Bailing Grunt Out at the Noodle Stand",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-grunt-csec-noodles",
+      "text": "Bailing Grunt Out at the Noodle Stand. 2186, Citadel shore leave, after Shepard has been in and out of the apartment a few times a noodle stand on the Silversun Strip, C-Sec holding him there The Krogan Monument itself is a statue of a krogan warrior standing in the lake near the Citadel Tower on the Presidium, commissioned to commemorate the krogan.",
+      "url": "",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "scene:citadel-wrex-casino-ice#02",
+      "kind": "scene",
+      "page": "Wrex, a Drink, and a Bag of Ice",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-wrex-casino-ice",
+      "text": "Wrex, a Drink, and a Bag of Ice. 2186, Citadel shore leave, before or after the party the casino bar, Silver Coast Casino With the krogan fertile again, and with his part in curing the genophage known, Wrex has been hounded by every female krogan on Tuchanka to sire their firstborn. He got no respite even on the shuttle to the Citadel — two more of them on the way. The worst of it, to him, is that Urdnot Bakara encourages it.",
+      "url": "",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "scene:citadel-wrex-casino-ice#01",
+      "kind": "scene",
+      "page": "Wrex, a Drink, and a Bag of Ice",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-wrex-casino-ice",
+      "text": "Wrex, a Drink, and a Bag of Ice. 2186, Citadel shore leave, before or after the party the casino bar, Silver Coast Casino Wrex is on the Citadel to argue krogan expansion with the Council. Shepard finds him at the casino bar, exhausted, ordering a drink and a bag of ice.",
+      "url": "",
+      "for_key": "krogan culture"
+    },
+    {
+      "chunk_id": "scene:tuchanka-mordin-and-maelon#01",
+      "kind": "scene",
+      "page": "Mordin, Maelon, and the Weyrloc Hospital",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-mordin-and-maelon",
+      "text": "Mordin, Maelon, and the Weyrloc Hospital. 2185, during Mordin's time aboard the Normandy Tuchanka — Clan Urdnot's camp, then a hospital turned Weyrloc fortress Mordin hears his old assistant Maelon has been taken on Tuchanka, and is afraid of what the krogan will do if they learn Maelon helped modify the genophage.",
+      "url": "",
+      "for_key": "krogan culture"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 130,
+      "text": "- Eve / Urdnot Bakara: female krogan shaman, sole survivor of Maelon's genophage-cure experiments; recovered from Sur'Kesh, aided the cure on Tuchanka, and if Maelon's data was saved survived to rally the krogan clans and later bear Wrex's children (source: Eve)",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 408,
+      "text": "- The Urdnot Shaman kept Clan Urdnot's rites on Tuchanka, permitted the tank-bred Grunt to undergo the Rite of Passage over Gatatog Uvenk's objections, and gave the eulogy at Eve's funeral if she died during the genophage cure (source: Shaman).",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 425,
+      "text": "- Urdnot Wrex was a Krogan Battlemaster, mercenary, and one of Clan Urdnot's own who killed a thresher maw during his Rite of Passage and killed his father, the warlord Jarrod, after Jarrod betrayed him at a Crush in the Hollows (source: Urdnot Wrex).",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 51,
+      "text": "- Clan Urdnot's settlement contains a throne dais for the leader, a building where the shaman resides and representatives from other clans gather, a varren-fighting pit, and a lab for the clan's Lord High Researcher. (source: Urdnot Camp)",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 52,
+      "text": "- Clan Urdnot's Shaman held that becoming shaman required many rites, including surrendering one's name, so torturous they made him wish for death, with further rites performed every dawn and dusk on Tuchanka (source: Shaman).",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 73,
+      "text": "- Galactic sports culture included biotiball, whose 2185 Usaru Maestros–Washington Hackers game set records; the zero-g Terminus favorite kailat ring-ball, scored by a color visible only to asari, salarians and bees; and krogan kowla, whose demonstration to the newly contacted raloi in 2185 ended in a brawl that killed three and got krogan delegates barred from the rest of the welcome ceremony. (source: Entertainment)",
+      "for_key": "krogan culture"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 102,
+      "text": "- Krogan culture centers on the clan, overseen by a Shaman, with a coming-of-age Rite of Passage in which the aspirant, backed by a krantt of chosen allies, faces waves of varren and klixen and must survive a Thresher Maw; killing the Maw earns lasting respect. Krogan fiercely guard their medical records after the salarians used them to build the genophage, and centuries of genophage decline bred a dangerous fatalism; ancestral dead are interred in the burial caverns called the Hollows. (source: Grunt: Rite of Passage; Genophage; Clan Urdnot)",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 107,
+      "text": "- Krogan traditionalists like Gatatog Uvenk championed the warrior culture that once threatened the Citadel races during the Krogan Rebellions, viewing Clan Urdnot's reforms under Wrex as weakening the krogan, while deferring instead to the more conservative Wreav; fear that his own clan would be reduced to bodies buried in Tuchanka's soil eventually drove Uvenk to seek an alliance with Urdnot. (source: Gatatog Uvenk)",
+      "for_key": "krogan culture"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 176,
+      "text": "- Talein's Daughters, an asari commando unit, was led by centuries-old Nisira T'Kosh, who openly shared her bed with two husbands at once, a krogan and a turian -- an accepted arrangement within her unit's culture. (source: Nisira T'Kosh)",
+      "for_key": "krogan culture"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 95,
+      "text": "- Newly self-educating about human and krogan culture, Grunt bought from an \"Ultra Black Ops Mega Catalog\" (engine oil, Fishdog Food Factory \"Tastee Bites,\" Batax's Hot Fish Spice) and consumer media (a \"Garr the Krogan Battlemaster\" action figure, the schlock series When Fauna Attacks!), and worked through an omni-tool reading list of Hemingway audiobooks, finishing For Whom the Bell Tolls and The Old Man and the Sea. (source: Shadow Broker Dossiers/Grunt)",
+      "for_key": "krogan culture"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 154,
+      "text": "- The Urdnot Camp was a small rubble-strewn settlement on Tuchanka controlled by Clan Urdnot, containing the clan leader's throne dais, the shaman's building where other clans gathered, a varren-fighting pit, food stores raided by pyjak, a merchant kiosk, and the Lord High Researcher's lab (source: Urdnot Camp).",
+      "for_key": "clan urdnot shaman"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 78,
+      "text": "- Gatatog Uvenk voiced open contempt for Grunt as a tank-bred krogan, declaring \"everything about Grunt is a lie\" and trying to overrule Clan Urdnot's leader by appealing directly to the Shaman to block Grunt's Rite of Passage; after Grunt killed the Thresher Maw, Uvenk tried to recruit him into Clan Gatatog purely as a trophy to boost his own stature, which Grunt violently rejected. (source: Gatatog Uvenk)",
+      "for_key": "thresher maw rite of passage"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 208,
+      "text": "- Wrex told Ashley Williams that fighting alongside women was a novel experience for a krogan, given krogan culture keeps females at home for breeding, and said it gave battles \"a different flavor.\" (source: Urdnot Wrex)",
+      "for_key": "krogan culture"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 41,
+      "text": "- Killing a thresher maw on foot was a rare krogan feat; Urdnot Wrex was the last to do so before Grunt faced one during Clan Urdnot's Rite of Passage (source: Thresher Maw)",
+      "for_key": "thresher maw rite of passage"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

@@ -1,0 +1,160 @@
+narrator: tali
+themes:
+- life
+- love
+- care
+- found family
+brief: Romanced Tali is talking to Shepard at night, the night before they arrive
+  to London. She's putting him to sleep by talking about them, about the crew, citing
+  lore tidbits, cultural things that might unites them, and reason to believe and
+  come back together.
+form: bedtalk
+form_note: >-
+  Romanced Tali, in the captain's cabin, late, talking Shepard to sleep the night before
+  London. That's pillow talk that keeps coming back to reassurance, so it's bedtalk (romance
+  requirement met; the brief settles the multi-romance field as Tali). Sections are subjects
+  the night brings up. Each one sets her life against Shepard's AU life (born in
+  Normandie, France, no parents, the gang and red sand, Anderson, Akuze), so neither
+  becomes the only subject. Nothing after tonight has happened. The conduit run, the
+  ending, Shepard's fate and the London overrides are off-limits as fact, and so is
+  foreshadowing them. Hackett's address and the FOB goodbyes are left out as next-day
+  scenes. The main-battery scene's romance variant (her wound, the evacuation) comes after
+  tonight and must not be used. At Rannoch, Legion died
+  uploading the code, as in the game (answered 2026-09-15); nobody else on the Normandy
+  died there.
+target_words: 10000
+sections:
+  - id: tonight-in-the-cabin
+    title: Tonight, in the Cabin
+    events: []
+    scenes: [normandy-main-battery-goodbyes]
+    retrieval: ["captain's cabin Normandy SR-2", "main battery Garrus calibrations", "Tali and Garrus bet on kills", "Sol system combined fleets gathering"]
+    promises:
+      - "She has just come up from the main battery. She said goodbye to Garrus there and made the bet on who kills more, and she tells Shepard about it"
+      - "She says tomorrow plainly and small, no grand phrasing, and says out loud that she means to talk until he falls asleep"
+      - "A small, unguarded detail of the room and the suit at night, which tells us she is staying"
+    target_words: 450
+
+  - id: nar-normandy
+    title: Nar Normandy
+    events: [tali-pilgrimage-geth-evidence-jacobus]
+    scenes: [normandy-engineering-tali-geth-data-pilgrimage]
+    retrieval: ["quarian ship names nar vas", "Pilgrimage rite of passage gift", "Rayya and Neema", "SSV Normandy name origin", "Normandy name 1944 invasion", "kenn pilgrimage"]
+    promises:
+      - "Shepard was born in Normandie, in France, with no parents, and the ship he commands carries that place's name. To a quarian that makes him 'nar Normandy' twice over, and she means it as more than a joke"
+      - "Her own name's journey: nar Rayya, vas Neema, vas Normandy, and what each change cost and meant"
+      - "What a Pilgrimage gift is for (you prove you won't be a burden), and her own gift, the geth data that brought her to him"
+    target_words: 880
+
+  - id: the-street-and-the-fleet
+    title: The Street and the Fleet
+    events: []
+    scenes: [citadel-anderson-hands-over-the-apartment]
+    retrieval: ["red sand addiction", "street gang childhood Earth", "quarian society no currency communal goods", "Migrant Fleet rationing liveships", "David Anderson"]
+    promises:
+      - "The gang years and the red sand, which she knows about from him and doesn't flinch from. A child with nobody, against a child raised by seventeen million"
+      - "The Fleet leaves unneeded goods out for anyone to take and rations food and medicine centrally. Why a kid who had to steal would have fit there, and what that says about both their politics"
+      - "Anderson as the man who pulled Shepard out and into N7. She is grateful to someone she has hardly spoken to, and he is down there on Earth right now"
+    target_words: 880
+
+  - id: akuze-and-haestrom
+    title: Akuze and Haestrom
+    events: [akuze-thresher-maw-attack, tali-recruitment-haestrom]
+    scenes: [haestrom-tali-recruitment]
+    retrieval: ["Akuze thresher maw attack", "Toombs Akuze survivor", "Kal'Reegar Haestrom", "Haestrom dying star data", "Tali unsent letter Myrr"]
+    promises:
+      - "Akuze: his whole unit gone and him alive, and the guilt under the bravado. She names it without lecturing him"
+      - "Her own version of it on Haestrom: her team died for the data, she drafted a letter to Myrr's family and never sent it, and Reegar lived because Shepard ordered him to stand down"
+      - "Toombs, the other man who came out of Akuze, whom Shepard gave a trial rather than a bullet. Proof that surviving wasn't something he stole"
+    target_words: 950
+
+  - id: fathers
+    title: Fathers, and the Men Who Weren't
+    events: [tali-treason-trial-alarei]
+    scenes: [flotilla-tali-treason-trial, alarei-rael-zorah-body, normandy-bar-tali-rael-toast]
+    retrieval: ["Rael'Zorah geth experiments Alarei", "Admiralty Board trial Rayya", "Shala'Raan", "Tali drunk toast to Miranda parents", "Han'Gerrel"]
+    promises:
+      - "How the trial actually went: she was exonerated without the evidence on her father, standing on her own record as proof she would never betray her people"
+      - "Rael would have hated her human boyfriend. Shepard never had a father to hate anyone, and Anderson did the job without the title"
+      - "Her question from the Miranda toast, 'when do we get to stop reacting to our parents', put to the one man who had none to react to"
+    target_words: 880
+
+  - id: the-geth-and-the-garden
+    title: The Geth, and the Garden
+    events: [quarian-geth-morning-war, rannoch-quarian-geth-war-resolution]
+    scenes: [geth-dreadnought-freeing-legion, rannoch-the-choice-above-the-fleet, normandy-tali-legion-conflict]
+    retrieval: ["Morning War quarian exile", "geth consensus networked intelligence", "Legion does this unit have a soul", "Rannoch walled garden", "geth quarian peace"]
+    promises:
+      - "The Morning War told secondhand (archives, her father, what children on the Rayya were taught), and blunt that her people started it"
+      - "Legion, and why the geth aren't simple machines. What she saw, not the easy version. Includes the fight over her omni-tool that Shepard refused to settle for either side"
+      - "Rannoch at peace: 'I'd have killed the geth with no regrets, and I'd have been wrong', and what Shepard's refusal to lose anyone meant to seventeen million people"
+      - "Legion died uploading the code that gave the geth true selves; the peace cost exactly one life, and she grieves the geth who asked if it had a soul"
+      - "Rannoch means walled garden. Standing on real ground, and wanting him to stand on it again"
+    target_words: 1010
+
+  - id: the-suit-and-what-it-costs
+    title: The Suit, and What It Costs
+    events: []
+    scenes: [normandy-tali-romance-suit-trust]
+    retrieval: ["linking suit environments trust", "quarian immune system", "first suit fitting coming of age", "dextro levo food chirality", "quarian Migrant Fleet vegan diet"]
+    promises:
+      - "Linking suits is the most intimate thing two quarians can do. She did the closest thing to it with him, and the fever afterwards was 'totally worth it'"
+      - "A first suit is how a quarian child comes of age. She contrasts that with a street kid who had no rite at all"
+      - "Food, shared across the dextro/levo line: the Fleet is vegan because it has to be, Shepard is vegan by choice, and they have been bickering about it all war"
+    target_words: 880
+
+  - id: songs-for-the-flotilla
+    title: Songs for the Flotilla
+    events: []
+    scenes: [citadel-tali-fleet-and-flotilla]
+    retrieval: ["Fleet and Flotilla vid", "My Suit and Me quarian lullaby", "quarian ancestor worship personality VIs", "Khelish language Keelah se'lai", "Tali suit education vids human courtship"]
+    promises:
+      - "The night they watched Fleet and Flotilla and she sang along. A turian and a quarian with one night before duty separates them, and she laughs at herself for how close that sits tonight"
+      - "The old lullaby about a child and their suit and reaching Rannoch, half-sung or described while he drifts"
+      - "Quarian ancestors lived on as imprint VIs until the geth destroyed the databanks. What remembering the dead is for, set against the poetry and philosophy Shepard reads to get through the war"
+    target_words: 760
+
+  - id: our-flotilla
+    title: Our Flotilla
+    events: []
+    scenes: [citadel-party-apartment, normandy-garrus-and-tali-reconciliation, normandy-edi-takes-the-mech-body]
+    retrieval: ["party at Shepard's apartment", "Garrus apologises to Tali", "Joker and EDI romance", "Wrex headbutting uncle", "Liara Shadow Broker", "quarian captain status crew size"]
+    promises:
+      - "The crew as a quarian would count it: a captain's standing grows with the size of his crew, so by Fleet reckoning Shepard is the richest man alive"
+      - "Several crewmates, each seen through what they are to her: Garrus (the apology, the battery), Wrex the crazy head-butting uncle, Joker and EDI, whom Shepard pushed together, Liara carrying the Broker network, and Kaidan back aboard"
+      - "The party at the apartment, where everyone came, as the evidence that this is a family and not a unit"
+    target_words: 1070
+
+  - id: the-ones-we-carry
+    title: The Ones We Carry
+    events: [thane-krios-death-defending-the-salarian-councilor, genophage-cure-tuchanka]
+    scenes: [citadel-thane-memorial, normandy-memorial-wall-after-thessia]
+    retrieval: ["Thane memorial service Kolyat", "Mordin Shroud genophage cure", "Normandy memorial wall", "Ashley Williams Virmire", "drell perfect memory"]
+    promises:
+      - "What she said at Thane's memorial about his perfect memory, including his mistakes, and why she'd have been a wreck with a gift like that"
+      - "Mordin going up the Shroud, and Ashley on Virmire, as names on the wall rather than a speech"
+      - "Care as the reason to come back: somebody has to keep the names, and she refuses to let it be only him"
+    target_words: 760
+
+  - id: seventeen-million
+    title: Seventeen Million
+    events: [crucible-superweapon-project]
+    scenes: [quarian-envoy-admiralty-briefing]
+    retrieval: ["quarian Admiralty Board", "Migrant Fleet seventeen million", "Crucible construction quarian engineers", "Tali admiral too young", "fleet ship allocation civilians"]
+    promises:
+      - "Her command as logistics with worse consequences: which ships go in tomorrow, which civilians stay back, and she's too young for it and says so"
+      - "Quarian hands on the Crucible, told as an engineer's opinion of the thing, not a status report. Then she catches herself giving one anyway"
+      - "Shepard's distrust of hierarchy against her rank. They agree an admiral should have to earn it every day, and she has one more day of earning to do"
+    target_words: 690
+
+  - id: the-way-it-started
+    title: The Way It Started
+    events: []
+    scenes: [citadel-tali-rescue-and-spectre-induction]
+    retrieval: ["Tali ambush alley Citadel Fist", "Keelah se'lai homeworld meaning", "Tali calling Shepard her home", "I backed you when I was a kid on my Pilgrimage", "house on Rannoch"]
+    promises:
+      - "The alley on the Citadel where they met, and finishing it the way it started: together"
+      - "Keelah se'lai means 'by the homeworld I hope to see one day'. Calling him her home means more to her than 'I love you', and she says it"
+      - "A small, wishful picture of after (a house, a window, real ground), which she admits is wishful and keeps anyway"
+      - "It trails off as he sleeps. There is no closing flourish and nothing said about how tomorrow ends"
+    target_words: 790

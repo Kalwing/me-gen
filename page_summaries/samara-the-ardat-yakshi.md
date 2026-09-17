@@ -1,0 +1,13 @@
+---
+title: 'Samara: The Ardat-Yakshi'
+url: https://masseffect.fandom.com/wiki/Samara:_The_Ardat-Yakshi
+game: Mass Effect 2
+type: mission
+characters: [Samara, Morinth, Shepard, Kelly Chambers, Aria T'Loak, Nef, Diana, EDI, Kasumi Goto]
+---
+
+"Samara: The Ardat-Yakshi" was Samara's loyalty mission in Mass Effect 2, acquired after several personal conversations with her once the Dossier: The Justicar recruitment was complete, when Kelly Chambers relayed that Samara wished to speak with Shepard. Samara revealed that the target she had hunted for 400 years was her own daughter Morinth, an Ardat-Yakshi whose mates died during sex. Like Thane's loyalty mission, it was a no-combat mission until its final moments, granting substantial experience and cash with little risk, though a unique ending was locked behind one of the most demanding Paragon/Renegade checks in the game.
+
+On Omega, EDI could find no death pattern pointing to an Ardat-Yakshi, so the pair consulted Aria T'Loak, who identified Morinth's latest victim as a young human woman named Nef living in nearby apartments. There Shepard met Nef's grieving mother Diana and searched Nef's room, learning that Morinth liked the elcor artist Forta, the vid Vaenia, the drug Hallex, and that "Jaruut" was the password to Afterlife's VIP section. Samara and Shepard agreed that Shepard would act as bait. Inside the VIP club Shepard had to make an impression through activities such as helping the dancer Hallia against the turian Meln, insulting the krogan Verf, intimidating muggers, buying drinks, and helping the journalist Horftin; three successes drew Morinth's attention, while failing four caused total mission failure and permanent loss of Samara's loyalty.
+
+Morinth took Shepard to her apartment, where staying on the topics of travel, drugs, and violent art (avoiding family and justicars) kept her interest. When Morinth attempted to seduce Shepard, a Charm or Intimidate check—requiring nearly all available morality points—determined whether Shepard resisted. Samara then burst in and the two asari fought an evenly matched biotic duel. If Shepard resisted earlier, Shepard could break the stalemate for either side; otherwise Shepard automatically helped Samara. If Morinth died, Samara became loyal and gained Reave. If Samara died, Morinth impersonated her mother aboard the Normandy, became loyal, and gained Dominate; only Kelly Chambers and Kasumi Goto might notice. In Mass Effect 3, a surviving Morinth appeared as a Banshee during Priority: Earth, while a surviving Samara appeared at the Ardat-Yakshi Monastery on Lesuss. The mission was written by Brian Kindregan.

@@ -1,0 +1,13 @@
+---
+title: 'Jacob: The Gift of Greatness'
+url: https://masseffect.fandom.com/wiki/Jacob:_The_Gift_of_Greatness
+game: Mass Effect 2
+type: mission
+characters: [Jacob Taylor, Ronald Taylor, Kelly Chambers, Tali'Zorah, Miranda Lawson, The Illusive Man, Joker, Leslie, Captain Fairchild]
+---
+
+Jacob: The Gift of Greatness was a loyalty mission in Mass Effect 2, available after the Horizon mission when Kelly Chambers told Shepard that Jacob wished to talk. Ten years earlier, Jacob's father Ronald Taylor had disappeared aboard the privately held frigate MSV Hugo Gernsback, on which he served as first officer. A week before, the ship's beacon sent a distress call reporting a crash on the planet Aeia. Someone had passed the message to Jacob's personal log through Cerberus filters, and Jacob asked Shepard to investigate for closure.
+
+The Normandy shuttle landed Shepard's squad near the wreck of the Hugo Gernsback on Aeia. Logs and a distress beacon VI revealed that Captain Fairchild died in or shortly before the crash, making Ronald Taylor Acting Captain; that the local flora impaired higher cognitive function when eaten; and that the beacon, built about a year after the crash, was only activated a few weeks earlier after nearly nine years of silence. The surviving officers hoarded the ship's food and forced the crew to eat the toxic native plants, which destroyed their minds. Five officers survived the crash but were killed within a week of each other once the beacon was complete; within a year all male crew were dead or exiled, and the women were assigned to officers as property. Shepard's squad fought feral "hunters" (former crew), LOKI Mechs, human "brainwashed guards," and a YMIR Mech while advancing to Ronald Taylor's compound, where he had lived for a decade as a self-styled king with a harem.
+
+Ronald, not recognizing Jacob, claimed his crew had mutinied. Jacob confronted him; Ronald admitted he was unready for command and that revealing the truth had never been appealing. Shepard chose Ronald's fate: arrest by the Alliance, abandonment to vengeful survivors, or telling Jacob he would shoot him, prompting Jacob to leave his father a half-charged pistol. The Alliance later rescued the survivors. A recovering survivor named Leslie emailed Shepard: "He wanted my words gone... He can't make me not me anymore. Because you and Jacob stopped him." Back aboard, Jacob accused the Illusive Man of forwarding the signal; Miranda revealed she had sent it to fulfill an old promise. Rewards included 30,000 credits, a Heavy Pistol Damage upgrade, 500 element zero, and Jacob's Barrier power. Cut content shows an earlier version set on a Cerberus survey ship crashed among primitive aliens who worshipped the humans.

@@ -1,0 +1,13 @@
+---
+title: Harbinger
+url: https://masseffect.fandom.com/wiki/Harbinger
+game: Mass Effect 3
+type: character
+characters: [Harbinger, Commander Shepard, Collector General, Sovereign, Saren Arterius, David Anderson, Leviathan, Catalyst]
+---
+
+Harbinger was a Reaper that resided in dark space with the rest of the Reaper fleet and was directly responsible for the Collectors' operations in 2185. Its involvement began two months after the Battle of the Citadel, when it made a deal with the Shadow Broker to obtain Commander Shepard's body following the destruction of the SSV Normandy; this failed, and Shepard was resurrected by the Lazarus Project.
+
+In Mass Effect 2, Harbinger was the mastermind behind the Collectors, controlling them through the Collector General as its proxy and directing them to abduct the populations of human colonies to process captives into a Human-Reaper. Harbinger could "assume direct control" of any individual Collector in combat, speaking through it to command troops or threaten enemies; possession made the Collector significantly more powerful but appeared painful, and the body always disintegrated when defeated, an effect likened to Sovereign's possession of Saren Arterius's corpse. Harbinger showed a personal interest in Shepard, repeatedly ordering the Collectors to recover the Commander's body intact. After Shepard's team assaulted the Collector Base and destroyed the incomplete Human-Reaper, and whether the base was destroyed or purged of life, Harbinger declared Shepard's failure to stop the Reapers, relinquished control of the Collector General, and vowed the Reapers would "find another way," then was seen moving with the fleet toward the Milky Way. In the Arrival DLC, Harbinger appeared as a hologram to discuss the futility of Shepard's fight after the Project delayed the Reapers' arrival.
+
+In Mass Effect 3, Harbinger was one of the Reapers leading the attack on Earth, and Alliance intelligence believed it the oldest and largest Reaper in the fleet. It appeared during the final battle in London, launching a devastating attack with unusually fast weapons on forces trying to reach the conduit, and departed when it seemed the counterattack had been wiped out; Shepard and David Anderson nonetheless reached the Citadel, both badly wounded. Harbinger's ultimate fate followed that of the other Reapers depending on Shepard's choice at the Crucible. The Leviathan DLC revealed that Harbinger was the first Reaper created, formed in the image of the Leviathans, and that each 50,000-year harvest directed by the Catalyst ended with the birth of a new Reaper made in Harbinger's image.

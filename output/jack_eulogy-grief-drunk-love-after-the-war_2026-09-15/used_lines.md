@@ -1,0 +1,8 @@
+- "don't you dare look at me like it's the sad part" — the-place-that-made-me
+- "A collection agent with better cheekbones" — purgatory
+- "somebody always pays first so the math works out for everyone else" — the-bubble
+- "that's the part I never forgave him for" — below-decks
+- "not a weapon somebody else got to point" — grissom-academy
+- "Let me have that it was funny that night" — everyone-showed-up
+- "the ledger's not that kind of book" — what-he-was-for-the-rest-of-you
+- "hanging it is agreeing, and I'm not agreeing" — so-she-can-find-me

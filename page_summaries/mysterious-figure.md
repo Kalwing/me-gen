@@ -1,0 +1,11 @@
+---
+title: Mysterious Figure
+url: https://masseffect.fandom.com/wiki/Mysterious_Figure
+game: Mass Effect 3
+type: character
+characters: [Shepard, Maya Brooks, Rasa, Miranda Lawson, The Illusive Man, Samantha Traynor, Joker, Steve Cortez, Elijah Khan]
+---
+
+The Mysterious Figure hired a mercenary group to assassinate Commander Shepard while the Normandy crew was on Citadel shore leave in 2186, hiding behind voice and visual disguisers and taking a particular interest in stealing Shepard's identity. It was revealed to be a clone of Shepard, created by Cerberus during the Lazarus Project to supply spare organs and limbs. Stored skinless on life support at Minuteman Station, the clone was deprioritized once Cerberus obtained Shepard's Spectre dossier, and Miranda Lawson continued using it for testing. When its termination was ordered in 2184, Agent Rasa broke with Cerberus in a shootout at the Lazarus Research Station and escaped with the clone's tank, hiding it on an asteroid orbiting Themis.
+
+Six months before the Reaper invasion, Rasa (as Maya Brooks) awoke the clone, which learned "how to be human" via neural implants and, lacking Shepard's memories, hired the CAT6 mercenary corporation to kill Shepard and close allies so it could assume the Commander's role for a pro-human agenda. In the Citadel DLC it bought arms through Elijah Khan, stole Shepard's classified files, and set a sushi-restaurant trap to capture the Spectre code, which it obtained though Shepard survived. It then had Khan killed and lured Shepard's team into the Citadel Archives, revealed itself, seized the Normandy's command codes, updated Shepard's biometric records with its own handprints, and trapped the squad in an iridium vault. Taking over the Normandy, it fired Samantha Traynor and discarded Shepard's belongings. Clad in N7 Armor, it fought the real Shepard in the shuttle bay as the ship tried to leave the Citadel; Joker and Cortez blocked the FTL jump. Shepard tackled the clone out the open boarding ramp; as it hung on it demanded to know what made Shepard special. Shepard could try to save it or kick it to its death; if offered help, the clone refused and let go, describing itself as "the lone wolf Shepard was supposed to be." It was intensely xenophobic and viewed its CAT6 mercenaries as expendable cannon fodder, unlike the real Shepard.

@@ -1,0 +1,133 @@
+event_id: suicide-mission
+title: The Suicide Mission
+game: Mass Effect 2
+chronological_order: 1310
+date: "2185 CE"
+summary: >
+  After acquiring a Reaper IFF and repelling a Collector boarding action that carried
+  off the Normandy's non-combat crew, Commander Shepard took the Normandy SR-2 through
+  the Omega 4 Relay to the Collector Base, a station on the accretion disk of a black
+  hole in the galactic core. The ship survived the Collectors' Oculi and security
+  systems, destroyed an intercepting Collector Cruiser, and crash-landed on the base.
+  The assault ran in three segments. In "Infiltration," Shepard sent a tech specialist
+  (ideally a loyal Legion, Tali, or Kasumi) through a thermal vent while a second
+  fire-team leader (ideally Garrus, Miranda, or Jacob) ran a diversion; a non-ideal or
+  non-loyal choice for either role got the vent specialist killed. In "The Long Walk,"
+  the squad reached the pods holding the abducted crew and colonists: whoever occupied
+  the first opened pod was liquefied (Lilith of Horizon if Shepard rushed the mission,
+  Yeoman Kelly Chambers if Shepard had delayed). The whole crew, half, or only Dr.
+  Chakwas survived depending on how many missions Shepard ran after the abduction
+  (`iff_delay`); assigning a squadmate to escort the survivors back to the ship saved
+  the crew but pulled that squadmate from the finale, while sending no escort doomed the
+  crew. The squad then advanced under a biotic barrier held by a biotic specialist
+  (ideally a loyal Samara, Jack, or Morinth); a weak choice meant the rear-guard
+  squadmate was carried off by Seeker Swarms in a fixed death order. A non-ideal second
+  fire-team leader was shot dead on reaching the door. In "Final Battle," Shepard picked
+  a squad and left the rest to hold the line; if that holding force's collective defense
+  value was too low, members died in a fixed order starting with the non-loyal (Mordin
+  first if present). Shepard destroyed the four feeding tubes of a Human-Reaper larva
+  built from thousands of liquefied humans, dropping it into the chasm. The Illusive Man
+  then asked Shepard to preserve the base with a radiation pulse instead of destroying
+  it (`collector_base`): destroying it is the Paragon option, preserving it Renegade.
+  The reactivated Human-Reaper was destroyed a second time, and the Normandy outran the
+  base's end. If Shepard alone survived, Joker failed to pull the Commander aboard and
+  Shepard fell to their death. Afterward Joker handed Shepard Reaper schematics as a
+  fleet of Reapers was shown advancing on the Milky Way.
+characters:
+  - Shepard
+  - The Illusive Man
+  - Joker
+  - EDI
+  - Harbinger
+  - Miranda Lawson
+  - Garrus Vakarian
+  - Jacob Taylor
+  - Mordin Solus
+  - Tali'Zorah
+  - Legion
+  - Kasumi Goto
+  - Jack
+  - Samara
+  - Morinth
+  - Thane Krios
+  - Grunt
+  - Zaeed Massani
+  - Dr. Chakwas
+  - Kelly Chambers
+  - Lilith
+consequences:
+  - The Collector threat to human colonies ended; the Collectors were effectively wiped out as a force.
+  - A Human-Reaper larva under construction from abducted humans was destroyed.
+  - >
+    Per `iff_delay` / `kelly_chambers`: the abducted Normandy crew were rescued whole,
+    partially (only some, including Chakwas), or reduced to Dr. Chakwas alone, based on
+    how long Shepard delayed after installing the Reaper IFF; the first pod victim
+    (Lilith or Kelly Chambers) was always liquefied.
+  - >
+    Per `suicide_mission` / `loyalty_missions`: any combination of squadmates could die
+    — the vent tech, the biotic specialist, either fire-team leader, the crew escort,
+    the members left to hold the line, and finally Shepard — determined by loyalty
+    status and role assignments; with all squad loyal and ideal assignments, everyone
+    survives.
+  - If only Shepard survived the mission, Shepard died falling back to the Normandy and the Illusive Man was met by Joker instead.
+  - >
+    Per `collector_base`: the base was destroyed (radiation-and-explosion, Paragon) or
+    preserved intact via a radiation pulse handed to Cerberus (Renegade). Destroying it
+    left the Illusive Man furious; preserving it left him pleased.
+  - >
+    In Mass Effect 3 the choice yields a War Asset from the salvaged Human-Reaper: a
+    Reaper Brain (Military Strength 110, favors Control) if preserved, or a Reaper Heart
+    (Military Strength 100, favors Destroy) if destroyed; Cerberus built the remains into
+    Cronos Station regardless.
+  - Surviving squadmates return or become War Assets in Mass Effect 3; the death of Legion or Tali makes a peaceful end to the geth-quarian war impossible.
+  - Shepard obtained a datapad of Reaper schematics, and the imminent Reaper invasion of the Milky Way was revealed.
+source_chunks:
+  - suicide-mission_001
+  - suicide-mission_002
+  - suicide-mission_003
+  - suicide-mission_004
+  - collector-base_001
+  - collector-base_002
+  - collector-base_003
+  - collector-base_004
+  - collector-base_005
+  - collector-base_006
+  - collector-base_007
+  - collector-base-infiltration_001
+  - collector-base-infiltration_002
+  - collector-base-infiltration_003
+  - collector-base-infiltration_004
+  - collector-base-infiltration_005
+  - collector-base-infiltration_006
+  - collector-base-the-long-walk_001
+  - collector-base-the-long-walk_002
+  - collector-base-the-long-walk_003
+  - collector-base-the-long-walk_004
+  - collector-base-the-long-walk_005
+  - collector-base-the-long-walk_006
+  - collector-base-the-long-walk_007
+  - collector-base-the-long-walk_008
+  - collector-base-the-long-walk_009
+  - collector-base-the-long-walk_010
+  - collector-base-the-long-walk_011
+  - collector-base-the-long-walk_012
+  - collector-base-final-battle_001
+  - collector-base-final-battle_002
+  - collector-base-final-battle_003
+  - collector-base-final-battle_004
+  - collector-base-final-battle_005
+  - collector-base-final-battle_006
+  - collector-base-final-battle_007
+  - collector-base-final-battle_008
+  - collector-base-final-battle_009
+  - collector-base-final-battle_010
+  - collector-base-final-battle_011
+  - collector-base-final-battle_012
+  - kelly-chambers_003
+  - stop-the-collectors_014
+  - save-file-transfer_016
+  - human-reaper_001
+  - human-reaper_002
+  - human-reaper_003
+  - human-reaper_004
+  - human-reaper_005

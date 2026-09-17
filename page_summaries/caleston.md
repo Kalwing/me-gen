@@ -1,0 +1,11 @@
+---
+title: Caleston
+url: https://masseffect.fandom.com/wiki/Caleston
+game: Mass Effect 3
+type: location
+characters: [Liara T'Soni, Diana Allers, Atrius Tarn]
+---
+
+Caleston was the largest satellite of the gas giant Cernunnos, in the Balor System of the Caleston Rift; it could be scanned in Mass Effect 2 (after the Collector Ship mission or Project Firewalker: Rosalie Lost) and in Mass Effect 3 (with the Leviathan content). An ancient asteroid strike had deposited major lodes of element zero within its molten sulfur mantle, and Eldfell-Ashland Energy's mining operations made it the largest source of starship drive core material in the Attican Traverse, at the cost of the moon's native biodiversity, which the Citadel Council Committee on Habitable Worlds rated as "threatened." Tidal stresses from Cernunnos caused heavy volcanism, and because of weak solar output its plant-like life was silicon-based and thermosynthetic, drawing on heat rather than sunlight and flourishing in volcanic vents and during solar flares, when the sun Balor could double or triple in luminosity. Sapient, oxygen-breathing habitation was not possible outside its many domed cities. By Mass Effect 3 the Reapers had driven off Caleston's protective fleet and threatened to puncture the domes to force the population into submission. Its mineral deposits scanned as Rich, including palladium, platinum, iridium and element zero.
+
+Caleston was originally where the player was meant to first meet Liara T'Soni, along with multiple side missions and a human mining station hub, but scheduling and coding issues forced severe content cuts during Mass Effect's development, and the world was eventually renamed Therum; the station's architecture was reused for the final fight of Bring Down the Sky, and its background story informed the criminal haven on Omega. Caleston was mentioned in the "Distress Call" teaser trailer and used as a location in the N7 HQ Galaxy at War minigame. An Alliance News Network report stated that Cerberus attacked Caleston; depending on how Shepard handled Diana Allers' interview after the Cerberus coup, local defense forces led by Security Master General Atrius Tarn thwarted the sabotage, or a dome was sabotaged, causing numerous civilian deaths by suffocation and a rise in element zero prices.

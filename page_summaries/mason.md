@@ -1,0 +1,13 @@
+---
+title: Mason
+url: https://masseffect.fandom.com/wiki/Mason
+game: Mass Effect
+type: character
+characters: [Mason, Kamille, James Vega, Toni, Treeya, Essex, Milque, Nicky, Messner, Brood, Liara T'Soni]
+---
+
+Mason was a member of Delta Squad, an Alliance special forces unit deployed to Fehl Prime in 2185. He was a shuttle pilot, talented but always talking about quitting, and a brave, tenacious marine in a relationship with squadmate Kamille. Delta Squad was deployed to stop a Blood Pack mercenary invasion of Fehl Prime. Mason skillfully piloted a Kodiak drop shuttle and pounded Blood Pack positions from the air until a missile hit forced a crash landing. Shaken but undeterred, he joined the initial Alliance counterattack in light armor, took a shoulder hit, and lay low for the rest of the firefight; acting CO James Vega nicknamed him "flyboy" and ordered him to tend the incapacitated Captain Toni. The battle went to the marines thanks to Vega's tactics, and Mason said Vega deserved "a goddamn medal."
+
+Two years later, Fehl Prime was flourishing and installing new defenses due to Terminus colony disappearances. Mason was puzzled by the buildup and teased Vega about his attraction to the asari anthropologist Treeya. Captain Toni ordered Delta Squad to investigate a jamming signal from an artifact on the colony's outskirts; with the APC down, Mason drove the squad there in a second-hand M35 Mako from Messner. He stayed with the Mako as cover while the squad investigated, and was present when the artifact was destroyed by Essex and Treeya contacted Liara T'Soni about it. A Collector ship then arrived and began harvesting the population.
+
+The squad planned to use the colony defense cannons against the vessel. Mason sabotaged the fuel depots as a distraction, then saved Milque from a Collector trooper. Vega, on Treeya's suggestion, fired the cannon at half power; the underpowered shot was deflected and nearly killed the team. Mason and Milque fought through Collectors aboard a colony tram to rejoin the others, and Mason caused a cave-in to seal a passage. He learned of Kamille's loss from Essex, her partner at the time, and blamed both Essex and later Vega for the half-power decision before grudgingly calming down. He accompanied Vega and Milque to investigate the lab's lower levels, finding the Blood Pack krogan Brood caged and used as a test subject, whom the squad left. When a Praetorian breached the lab's door, Kamille's head was visible among the skulls in its head; Mason walked toward the creature seeing only Kamille and was incinerated by its particle beam.

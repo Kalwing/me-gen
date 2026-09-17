@@ -1,0 +1,991 @@
+{
+  "section": {
+    "id": "below-decks",
+    "title": "Below Decks",
+    "target_words": 950,
+    "form": "eulogy",
+    "narrator": "jack"
+  },
+  "promises": [
+    "the chair-throwing fight with Miranda over Cerberus, and that Shepard settled it without picking a side, which is the part she never forgave him for being good at",
+    "what actually happened in her corner of engineering before either of them said anything about it",
+    "she admits, and immediately undercuts admitting, that she made him wait for her on purpose and he never once complained"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "title": "Jack and Miranda, Below Decks",
+      "kind": "argument",
+      "game": "Mass Effect 2",
+      "when": "2185, on return from Pragia, if Miranda's loyalty mission is already done",
+      "where": "aboard the Normandy SR-2",
+      "participants": [
+        "Shepard",
+        "Jack",
+        "Miranda Lawson"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "jack_loyalty": "any"
+        },
+        {
+          "miranda_loyalty": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Back aboard after Pragia, Shepard has to settle a fight between Jack and Miranda over Cerberus's part in what was done to Jack.\n",
+          "source_chunks": [
+            "jack_005",
+            "jack-subject-zero_010"
+          ]
+        },
+        {
+          "text": "Jack flings a chair across Miranda's office before Shepard breaks it up; Jack is furious that Miranda won't admit what Cerberus did to her was wrong. Ending it without alienating either of them takes a high Paragon or Renegade score — fewer Renegade points are needed than Paragon.\n",
+          "source_chunks": [
+            "jack-subject-zero_010"
+          ]
+        },
+        {
+          "text": "With enough points, both crewmembers keep their loyalty and any relationship already underway with either continues.\n",
+          "source_chunks": [
+            "jack-subject-zero_010"
+          ],
+          "conditional": {
+            "jack_miranda_confrontation": "both_kept"
+          },
+          "choice": "kept both Jack and Miranda"
+        },
+        {
+          "text": "Without enough points, Shepard alienates one of them, losing that crewmember's loyalty (recoverable later in conversation with a high enough score) and ending any romance with them for good; siding with Miranda costs Jack's trust this way, and siding with Jack costs Miranda's.\n",
+          "source_chunks": [
+            "jack-subject-zero_010",
+            "jack_005"
+          ],
+          "conditional": {
+            "jack_miranda_confrontation": "sided_with_one"
+          },
+          "choice": "sided with one — the other alienated"
+        }
+      ],
+      "related_scenes": [
+        "pragia-jack-teltin-facility",
+        "citadel-party-apartment"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "jack_005",
+        "jack-subject-zero_010"
+      ],
+      "variants": []
+    },
+    {
+      "scene_id": "normandy-engineering-jack-confidences",
+      "title": "Jack's Hidey Hole on the Engineering Deck",
+      "kind": "hangout",
+      "game": "Mass Effect 2",
+      "when": "2185, across the run-up to the Omega 4 Relay, from after Horizon",
+      "where": "Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck",
+      "participants": [
+        "Shepard",
+        "Jack"
+      ],
+      "private_to": [
+        "Shepard",
+        "Jack"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "After Horizon, Kelly Chambers passes word that Jack wants Shepard in her \"hidey hole\" on the engineering deck — a crawlspace under the drive core where she has claimed a cot. Shepard keeps coming back to ask questions.\n",
+          "source_chunks": [
+            "jack-subject-zero_002",
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007"
+          ]
+        },
+        {
+          "text": "The repeat visits make Jack suspicious: \"People usually walk by now. Why are you really asking all these things? ... if this is just about sex, maybe you should just say so.\" Shepard says there is no hurry and wants to know what makes her tick first. Jack: \"You don't need to know someone to sleep with them. You just have to know where to put it.\"\n",
+          "source_chunks": [
+            "manual-jack-in-game-dialogue-and-banter_005"
+          ]
+        },
+        {
+          "text": "Kelly warns Shepard that Jack pushes people away yet approaches sex casually, may make advances, and that if Shepard wants her respect he should think twice.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003"
+          ]
+        },
+        {
+          "text": "Over repeated visits Jack gives up pieces of her past. The tattoos are a record — prisons she has been in, memorable kills, personal reasons, some \"just because.\" The shaved head is from the cult she ran with. She wears little clothing on purpose, to read what people really want from her.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003"
+          ]
+        },
+        {
+          "text": "The one person who never used her was Murtock, a man she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock came back for her instead of running with the score. Jack reached a shuttle and escaped; he was left behind. Days later the shuttle played his pre-recorded message about the future they were meant to have and how much he loved her. Jack denies it was her fault.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_006"
+          ]
+        },
+        {
+          "text": "On the Citadel, in the bathroom of the bar, Jack tells Shepard about being sexually assaulted in the Purgatory prison showers, and then hunting down and murdering every one of her attackers.\n",
+          "source_chunks": [
+            "jack-unique-dialogue_004"
+          ]
+        },
+        {
+          "text": "If Shepard sleeps with her early, Jack cuts the conversation off — \"nothing to talk about\" — and the trust is broken.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007"
+          ],
+          "conditional": {
+            "romance": "Jack early"
+          },
+          "choice": "slept with Jack early, trust broken"
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "romance": "Jack"
+          },
+          "choice": "romanced Jack",
+          "text": "Declining her early advance confuses her and her shell begins to crack; with steady, non-sexual interest a relationship forms and she admits she really does need someone. In place of a love scene before the Omega 4 Relay, she and Shepard only kiss and lie in bed together, Shepard holding her.\n",
+          "source_chunks": [
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007",
+            "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_009"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "pragia-jack-teltin-facility",
+        "normandy-jack-miranda-confrontation",
+        "citadel-purgatory-jack-and-her-students"
+      ],
+      "related_events": [
+        "subject-zero-cerberus-teltin-experiments"
+      ],
+      "source_chunks": [
+        "jack-subject-zero_002",
+        "jack-unique-dialogue_004",
+        "manual-jack-in-game-dialogue-and-banter_005",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_003",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_006",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_007",
+        "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_009"
+      ],
+      "requires": []
+    }
+  ],
+  "attendance": {
+    "normandy-jack-miranda-confrontation": "witnessed",
+    "normandy-engineering-jack-confidences": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:normandy-jack-miranda-confrontation#01",
+      "kind": "scene",
+      "page": "Jack and Miranda, Below Decks",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "text": "Jack and Miranda, Below Decks. 2185, on return from Pragia, if Miranda's loyalty mission is already done aboard the Normandy SR-2 Back aboard after Pragia, Shepard has to settle a fight between Jack and Miranda over Cerberus's part in what was done to Jack.",
+      "url": "",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "jack_005",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I want to go to the center of the place, my cell. I want to deploy a big fucking bomb. And I want to watch from orbit when it goes.” *Main article: Jack: Subject Zero* After looking through her files, Jack wants to deploy a bomb at the Teltin facility on Pragia, where Cerberus conducted their experiments on her. Shepard takes Jack to the facility, unexpectedly encountering Blood Pack mercenaries. After fighting through the mercs, they find another test subject, Aresh. Aresh hired the mercs to restore the Teltin facility in exchange for salvage. Jack wants to kill him, but Shepard has the option to stop her. The two plant the bomb in Jack's cell, and use the shuttle to escape before detonation. If Miranda's loyalty mission has already been completed, once Shepard returns to the Normandy, Shepard will have to resolve a dispute between Jack and Miranda regarding the involvement of Cerberus in Jack's torture. Shepard can resolve the conflict without picking a side, in which case, both Jack and Miranda agree to put off their fight until after the mission with the Collectors is over. If Shepard sides with Miranda, then the Commander will lose Jack's loyalty, but has the opportunity to regain her loyalty in a later conversation. In addition, if Shepard was in a romance with Jack, and sided with Miranda, then Jack will break off the relationship and will refuse to rekindle it.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "scene:normandy-jack-miranda-confrontation#04",
+      "kind": "scene",
+      "page": "Jack and Miranda, Below Decks",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "text": "Jack and Miranda, Below Decks. 2185, on return from Pragia, if Miranda's loyalty mission is already done aboard the Normandy SR-2 Without enough points, Shepard alienates one of them, losing that crewmember's loyalty (recoverable later in conversation with a high enough score) and ending any romance with them for good; siding with Miranda costs Jack's trust this way, and siding with Jack costs Miranda's.",
+      "url": "",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "dossier-the-convict_010",
+      "kind": "page",
+      "page": "Dossier: The Convict",
+      "section": "Escape and the Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack, however, has also been busy and has reached the airlock. The guards try to stop her, but her biotics take them down before they have a chance to even raise their weapons. Apparently, the large ship out the window draws Jack's interest, but she spots the Cerberus logo on the Normandy's bow planes. That sends her into a fit, allowing a batarian guard to sneak up on her, but before the guard can do anything he gets a shot in the head from Shepard's pistol. Jack spins around, and a conversation begins. If you have Jacob and/or Miranda, there are a few interesting comments from Jack during the conversation. You can earn a few morality points based on your conversation options: Jack wants access to Cerberus files aboard the ship; Miranda and Jacob think it's a bad idea. You will respond that you'll give her access in the exact same tone regardless of whether you were being honest or bluffing. Either way, Jack deems the matter settled and badgers your team why they're still standing about. Back on the Normandy, Miranda formally introduces herself and her role to Jack regardless of whether she was on the mission or not. Jack demands immediate access to the files, and you can either give them to her right away or tell her to settle in first. Either decision results in the last morality points for the mission. From the get\\-go Jack has developed a dislike for the \"cheerleader\" and will rub it in Miranda's face when you do something to support Jack's aims. Jack then leaves the briefing room to settle at the lowest point on the ship. In between missions and assignments you can find her down the stairs outside Main Engineering on Deck 4\\.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Convict",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "summary:miranda-the-prodigal",
+      "kind": "summary",
+      "page": "Miranda: The Prodigal",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Miranda: The Prodigal\" was Miranda Lawson's loyalty mission in Mass Effect 2, available after the Horizon mission and requiring Miranda in the squad. Miranda's estranged father was moving to abduct her sister Oriana, whom Miranda had taken as a baby and hidden on Illium to give her a normal life. On Illium, Miranda's asari contact Lanteia at the Eternity bar revealed that Miranda's trusted childhood friend Niket was arranging the transfer. Traveling to the Illium cargo terminal, the squad was ambushed by Eclipse mercenaries led by Captain Enyala, hired by Miranda's father, and fought through the cargo docks with an optional Renegade interrupt to kill the lead Eclipse Engineer.\n\nAt Dock 94, Miranda confronted Niket, who admitted he had sold her out because he believed Oriana deserved to know the truth. A Paragon interrupt could stop Miranda from shooting him; either way Enyala shot Niket dead, and Miranda biotically flung Enyala across the room, beginning a difficult final battle against Enyala, an asari Vanguard, a salarian Eclipse Operative and waves of mercenaries. Afterward Miranda watched Oriana with her adoptive family from a distance and could be persuaded to introduce herself or leave unseen. The mission secured Miranda's loyalty and her trust in Shepard, rewarded the Slam power, credits and element zero, and could trigger the confrontation with Jack aboard the Normandy if Jack's loyalty mission was already complete. If left uncompleted, Kai Leng mortally wounds Miranda on Horizon in Mass Effect 3. Completing it and convincing Miranda to speak to Oriana yields an email from Oriana titled \"Guardian angels.\"",
+      "url": "https://masseffect.fandom.com/wiki/Miranda:_The_Prodigal",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#04",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Over repeated visits Jack gives up pieces of her past. The tattoos are a record — prisons she has been in, memorable kills, personal reasons, some \"just because.\" The shaved head is from the cult she ran with. She wears little clothing on purpose, to read what people really want from her.",
+      "url": "",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "jack_009",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Jack.* If Shepard successfully evacuated Grissom Academy, at the conclusion of Shepard's clone fiasco the Commander may choose to explore the Silversun Strip in their down time. If Shepard plays at least one match at the Armax Arsenal Arena combat simulator, Jack messages the Commander requesting a meet\\-up there. When Shepard arrives, they have a two\\-round match against Elite Cerberus Troops on the Brimstone map. Once the Atlas Mech spawns, Jack takes it down herself and thanks Shepard for the get\\-together. If Jack is romanced, she tells Shepard she's turned on during the final fight, and the two passionately make out as the Atlas explodes. Jack's ally license can be purchased if Shepard wants to fight alongside Jack in the simulator again. Afterwards, Jack sends another message informing Shepard of having more free time. Shepard can then invite Jack to the apartment. Jack brings along Eezo, a varren from Thessia that she had rescued from shelter. Because of his exposure to the element zero in the environment on Thessia, Eezo has developed biotic abilities. According to Jack, biotic abilities in varren make them short\\-tempered, leading to their abuse and abandonment. When Jack first rescued him, Eezo started out very angry and mistrustful of others, but all the love she has shown him has made him a \"big old softy\" to the point where he plays catch with Shepard. Shepard has the option of pointing out the similarities between Eezo and Jack. If Shepard does, Jack will say she doesn't know what Shepard is talking about and Shepard will quickly drop the subject. If Shepard is still in a relationship with Jack at that time, she will instead bring equipment to mark Shepard with a tattoo on his back. As Shepard comments on the design, she confesses she did this to make his body identifiable no matter what happens to him in the final battle, tearing up at the thought of losing him until he hugs her. If invited to the party, Jack is first seen by the fireplace hanging out with Vega and Cortez. If Kaidan is also invited, the conversation within the group arrives at the point where Jack gives James the nickname \"Muscles\", which Cortez will approve. If Miranda is around, Jack is later seen lounging near the poker table having a somewhat prickly conversation with Miranda. Shepard can suggest they should just kiss each other because Shepard believes that there's some sexual tension between them, saying that they're \"two powerful biotics\". They find the notion disgusting. Kasumi, if present, then decloaks, saying that she could film it. Alternately, Shepard can encourage their rivalry, with Jack making repeated references to whooping Miranda's ass. Kasumi, again if around, decloaks, claiming she doesn't follow their conversation and just assumes they are going somewhere dirty with it. If Miranda is not around, Jack is hanging out with Liara and James on the balcony at the second phase of an energetic party, watching the two argue about physical vs biotic supremacy. If the second phase of the party is quieter, then regardless of Miranda's presence or absence Jack will be at the bar with EDI and Cortez, where Jack may note that crème de menthe hits her even harder than ryncol. At the third phase of the party, Jack is seen dancing provocatively on a table in the kitchen area if the party is energetic. If Garrus isn't around to comment, Jack's response to Tali's drunken musings while dancing is that she finds the quarian adorable, and says so in her own words: \"If I were a little drunker and knew how to unzip that suit...\" If Tali wonders instead about how humans and asari can dance given the way \"their\" legs bend Jack replies that she doesn't tip over until she found company, telling the quarian to \"watch and learn\" till then. If romanced by Shepard, she tells him not to tire himself out dancing so they can have sex on the table later, making a lewd joke when Steve complains. If the party is relatively restrained at the final leg, Jack is just standing by the upper floor couches, hanging out with Joker, Cortez, and most of the other guests. The morning after the party, she will be joining Jacob's morning workout with pull\\-ups, attributing her hangover immunity to her amp. If romanced, she'll instead wake up in bed with Shepard and express desire to make love to him again.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_011",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Jack",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "These images are production paintings showing Jack in her element, giving a feel for what she can do when she breaks out of *Purgatory*. Jack is a punk, and early variations focused on that. Her pants, which were part of her prison uniform, were rolled down to reflect Jack's unique sense of style. Her tattoos cover her scars in a deliberate attempt to write her own story, erasing the pain of her past. An actress's head was scanned to serve as the model for Jack's face. It was decided that Jack needed a shaved head for a genuine punk feel rather than making her a supermodel with ink. Once it was decided that Jack would be clothed in tattoos, various directions were explored for how to tell her backstory through them. We also sought ways to best show off her tattoos while covering her chest to some degree. Concerns about how exposed she was led to some of the changes.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "summary:jack",
+      "kind": "summary",
+      "page": "Jack",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack, also known as Subject Zero and Jacqueline Nought (birth name Jennifer), was a notorious human criminal and possibly the most powerful human biotic alive. Born in 2161, she was abducted by Cerberus in 2165, reportedly from Eden Prime, after accidental in-utero element zero exposure gave her biotic potential; her mother was told she had died. She became the central subject of Cerberus' experiment at the Teltin facility on Pragia, which sought to maximize human biotic potential regardless of cost. Every successful enhancement was applied to her; other biotic children were used as expendable test subjects and frequently killed. She was tortured physically and psychologically, kept behind a soundproofed one-way mirror, and forced into gladiatorial fights against the other children, being shocked for hesitating and injected with narcotics for killing, conditioning her to associate killing with euphoria. The other children came to hate her as the source of their suffering.\n\nDuring a transfer, the subjects rioted, freeing Jack, who flew into a fury and killed nearly everyone in the facility before stealing a shuttle and escaping into the Dakka system. The ship that picked her up used her and sold her as a slave. The Illusive Man shut Teltin down shortly after, later claiming it had \"gone rogue.\" Jack took the name Jack, reacting violently to \"Subject Zero,\" and lived a violent life of piracy, gang membership, vandalism (crashing a space station into a hanar moon), and a stint in a cult (from which she kept her shaved head). In Mass Effect: Foundation she assaulted a Cerberus facility, killed Doctor Angersol, defied the Illusive Man, tried to free biotic student trainees, fought Kai Leng and Rasa, and was knocked out and captured by Blue Suns.\n\nJack was eventually imprisoned on the Blue Suns prison ship Purgatory, where she was assaulted and raped by guards and prisoners and then murdered every attacker; the Warden kept her in cryostasis until Shepard's team bought her freedom in 2185. Rendered a borderline psychopath but still haunted by her past, she joined Shepard in exchange for her Teltin files, then asked Shepard to help her destroy the abandoned facility with a bomb planted in her old cell (the mission Jack: Subject Zero). There the team encountered Aresh, a fellow test subject trying to restore Teltin; Shepard could stop Jack from killing him. If Miranda's loyalty mission was done, Shepard had to mediate a fight between Jack and Miranda over Cerberus' blame; siding with Miranda cost Jack's loyalty and ended any romance.\n\nJack was a romance option for a male Shepard. Casual sex ended communication; a slower approach revealed her past, including the partner Murtock who died to save her, leaving her survivor's guilt, and culminated in a tender, emotional love scene. Mordin Solus offered Shepard biotics safety advice. Rejecting her as a \"lost cause\" made her hostile.\n\nBy 2186 (if she survived the Suicide Mission), Jack had grown her hair into a ponytail with shaved sides, matured, and taken a teaching post at Grissom Academy training combat biotics, considering her students the family she never had. During Cerberus' raid to kidnap the students (Grissom Academy: Emergency Evacuation), Jack defended them alongside Shepard and Kahlee Sanders, punching Shepard on reunion for reasons depending on prior choices. She disciplined Ensign Rodriguez and Jason Prangley and led the students in support of Shepard's squad. If Shepard did not arrive in time, Jack appeared as an indoctrinated Phantom at Cronos Station and had to be killed. If romanced, she could rekindle or end the relationship at Purgatory Bar. In the final battle she could be contacted by comm; in a surviving-galaxy ending she is seen gazing at the stars, visiting her students' graves, or alive with her students, depending on choices. If killed, her name appears on the Normandy memorial wall as Jacqueline Nought. In the Citadel DLC she fights in the Armax Arena, introduces her biotic varren Eezo from Thessia, and can tattoo a romanced Shepard so his body can be identified. Jack was voiced by Courtenay Taylor and written primarily by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "ben-hislop_002",
+      "kind": "page",
+      "page": "Ben Hislop",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben signed up to fight turians after his brother was killed during the aliens' bombardment of Shanxi's settlements. A master of munitions, he was a perfect recruit for Jack's prohumanity movement. Eventually he, Jack, and Eva formed a mercenary trio conducting guerrilla warfare under the employ of General Williams, and he served as Jack's right\\-hand man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "miranda-lawson_021",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Chris L'Etoile wrote the first drafts for Miranda's character, before she was taken over by Mac Walters and Trick Weekes. Most of the confrontation with Jack was written by Brian Kindregan. - Along with Thane, Miranda is one of the \"poster\" characters for Mass Effect 2 and appears on most of the promotional art and demo footage. - Miranda's outfit is available to female avatars on the Xbox Avatar Marketplace for $5\\.25 USD. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "jack-subject-zero_010",
+      "kind": "page",
+      "page": "Jack: Subject Zero",
+      "section": "Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "If you have already completed Miranda's loyalty mission, when you return to the Normandy, Joker will mention over the PA saying that Jack just went to have a talk with Miranda; when Shepard decides to handle it, Joker replies, “Take pictures.” Once Shepard arrives in Miranda’s office, Jack flings a chair across the room and Shepard tells them both to knock it off. Jack is furious that Miranda will not admit that what Cerberus did to her was wrong. Unless you have enough Paragon or Renegade points you cannot end this situation without alienating either crewmember (fewer Renegade than Paragon points are required). If you do have enough, then you can retain the loyalty of both crew members and can continue any relationships that you have started. If you fail then you will lose out on any relationships with either one, depending on who you alienate. You will also lose the loyalty of the crewmate you alienated. Loyalty can be regained in a later conversation with that crewmate, provided you have a high Paragon or Renegade score. This conversation can also take place after Miranda's loyalty mission if you completed Jack's before hers. *See also: Loyalty\\#Confrontations* The amount of Paragon/Renegade points required also varies during the course of the game, due to how Mass Effect 2's Charm/Intimidate system works. You need a high ***percentage*** of the total Paragon or Renegade points obtainable from the missions you've undertaken and the conversations available to you on the Normandy and various hub locations in order to pass the persuasion check; the amount of the meter that is filled in does not provide an accurate indication of whether Charm or Intimidate will be possible.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "jack_011",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- In an internal document used during Mass Effect 2's early development, the earliest pitch for the \"Convict\" squadmate presented him as a 30\\-year\\-old male. Writer Mac Walters commented that Jack was also somehow inspired by the concept for the \"Mad Bomber\", an unhinged demolition expert. - Jack was originally intended to be a pansexual romance until negative backlash from Fox News concerning the first Mass Effect game forced a reassessment late in Mass Effect 2's development. Despite being unromanceable by a female Shepard, bits of Jack's orientation are still present in the games as per her tale about sleeping with both a man and a woman, both criminals, in her backstory. Scenes were animated for both male and female Shepards, but didn't make it into the final product. - Jack's past with drugs was originally a bigger part of her character, but it was eventually downplayed due to rating and censorship concerns as well as reevaluation by writer Brian Kindregan. Drugs are still mentioned briefly during her Normandy conversations, as well as in a unique interaction Shepard may have with her during Dossier: The Justicar in which she talks about drugs at length.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#06",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck On the Citadel, in the bathroom of the bar, Jack tells Shepard about being sexually assaulted in the Purgatory prison showers, and then hunting down and murdering every one of her attackers.",
+      "url": "",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "summary:jack-subject-zero",
+      "kind": "summary",
+      "page": "Jack: Subject Zero",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack's loyalty mission in Mass Effect 2, available after Horizon and written by Brian Kindregan. After Shepard gives Jack access to Cerberus files aboard the Normandy, Kelly Chambers relays that Jack wants to see Shepard in her \"hidey hole\" on the Engineering Deck. Jack asks Shepard to help her destroy the decommissioned Teltin facility on Pragia, in the Dakka system of the Nubian Expanse, where Cerberus experimented on her as a child. She wants to plant \"a big fucking bomb\" in her old cell and watch it detonate from orbit.\n\nOn arrival EDI detects thermal signatures inside the complex but none near the landing zone. Moving through the facility, Jack recognizes rooms and revisits memories: a skylit atrium where she first saw sunlight, a bloodstained arena where she was pitted against the other children and drugged as a reward for killing and shocked for hesitating, a cell block, and a two-way mirror outside her own cell where she used to bang on the glass while the other children ignored her. Security consoles reveal the staff had \"gone rogue\" from the Illusive Man's orders, that all subjects were expendable except Jack, that children were exposed to chemicals and freezing temperatures, and that the project planned to infiltrate the Alliance's Ascension Project; a final log shows Jack killing the distraught doctor during the riot. The team fights varren, Blood Pack vorcha and krogan mercenaries (including a Pyro and the krogan Kureck), hired by Aresh.\n\nIn Jack's cell, Shepard meets Aresh, a former test subject who recognized Jack and is trying to restart the facility so the experiments \"must have been for something.\" Jack draws a pistol; Shepard can use Charm to spare him, Intimidate to have Jack kill him, or plain dialogue options with corresponding Paragon or Renegade interrupts. Shepard can then leave or stay while Jack walks the cell recounting memories of the window, bed, desk, and a bloodstain. On the shuttle back, Jack fumbles with the detonator, then presses it when Shepard nods, and the bomb destroys the facility.\n\nBack on the Normandy, if Miranda's loyalty mission is complete, Jack confronts Miranda in her office, throwing a chair, furious that Miranda will not admit Cerberus was wrong. Without sufficient Paragon or Renegade standing, Shepard must alienate one crewmate, losing that person's loyalty and any romance (recoverable later). Cerberus Intel emails that the Illusive Man had ordered the project shut down before the riot, that arriving personnel found all guards and most subjects dead, and that surviving children were given amnesic treatments and delivered to the Alliance as \"slaver attack\" survivors. Rewards include 750 experience, 30,000 credits, 500 element zero, a Biotic Damage (Hyper-amp) upgrade, and Warp Ammo for Jack. If Aresh is spared, a Mass Effect 3 news alert reports he died saving a shuttle of children evacuating a Reaper-occupied colony; his full name is given as Aresh Aghdashloo.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "summary:ben-hislop",
+      "kind": "summary",
+      "page": "Ben Hislop",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben Hislop was a human mercenary and munitions master who appeared in Mass Effect: Evolution. He signed up to fight turians after his brother was killed during the turian bombardment of Shanxi's settlements during the First Contact War, and fought in the resistance on occupied Shanxi. Recruited into Jack Harper's prohumanity movement, he formed a mercenary trio with Jack and Eva Coré, conducting guerrilla warfare under the employ of General Williams, and served as Jack's right-hand man.\n\nOn Shanxi, Ben's unit ambushed a turian patrol and he personally fought and captured the turian general Desolas Arterius with Jack's help. He wanted to execute Desolas but Jack kept the general alive for interrogation. On a mission to find the artifact Desolas sought, Ben antagonized him while Jack's scheme defeated the turian subordinates. Reaching the artifact inside a cave, Ben and Jack were ambushed by hooded figures revealed to be cyberized turians, which proved freakishly strong. When Ben touched the artifact to try to shut it off, he was electrocuted; Jack pried him free but was also affected, leaving both incapacitated. Desolas seized them and ordered Ben's body taken for study.\n\nWhen Harper and Eva pursued Desolas to Illium, they found Ben alive but mutated into a synthetic form like the \"meta-turians.\" He retained some sense of his identity but followed orders from Desolas and Saren, bringing the artifact, the Arca Monolith, to Palaven, where Desolas tried to replicate Harper's enhancement without creating mindless husks. The artifact commanded Ben to excavate a second artifact to accelerate the transformation. When Eva tried to haul Ben out and then to destroy the artifact, it commanded Ben to slam her head against a wall, killing her. Coming to his senses, a horrified Ben charged Desolas and rammed him into the artifact before he could shoot Harper; Saren tore Desolas away. Prolonged contact with the released energy instantly killed Ben, and his body was later vaporized when Saren ordered an orbital bombardment of the temple. Harper later included Ben's and Eva's names in his manifesto as he became the Illusive Man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "Jack and Miranda's fight over Cerberus's role in Jack's past"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#07",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck If Shepard sleeps with her early, Jack cuts the conversation off — \"nothing to talk about\" — and the trust is broken.",
+      "url": "",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#01",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck After Horizon, Kelly Chambers passes word that Jack wants Shepard in her \"hidey hole\" on the engineering deck — a crawlspace under the drive core where she has claimed a cot. Shepard keeps coming back to ask questions.",
+      "url": "",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr2-04",
+      "kind": "summary",
+      "page": "The SSV Normandy SR-2 (Part 4) — The Alliance Refit",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Part 4 of a breakdown of the Normandy SR-2, covering the Alliance refit. By 2186 Shepard had defected from Cerberus and turned the SR-2 over to the Systems Alliance, which considered the ship its property since it was based on the SSV Normandy SR-1 design. The Alliance studied and modified her, adding new parts, fixing faults in Cerberus's construction, redesigning areas, and swapping Cerberus equipment for Alliance equipment, then recommissioned her in Alliance colors. The refit was only partially complete when the Reaper invasion interrupted it. Most notably, Deck 2 was rearranged to add a war room, meeting room, and QEC, and Deck 5 became the new armory.\n\nDeck 1 was the captain's cabin, with an aquarium, armor locker, private terminal, model ship display case, and bathroom. Deck 2 held the bridge, galaxy map, and a conference room; the armory was moved to Deck 5 per Alliance regulations, and the laboratory became the conference room to make space for the war room, where war assets and galactic readiness could be examined and which contained a quantum entanglement communications room for contacting individuals aiding the war effort. Deck 3, the crew deck, held the medical bay, crew quarters, kitchen, observation deck, AI Core, life support, Liara T'Soni's office (in the former Miranda space, now holding the Shadow Broker terminal), and the main battery. Just outside the elevator was a memorial wall recording crew casualties, including those lost on the derelict Reaper mission, the Suicide Mission, and the 20 crew lost when the SR-1 was destroyed. Deck 4, engineering, held the drive core; the starboard cargo room doubled as Diana Allers's quarters and broadcast studio, the port cargo room served as Javik's quarters, and Engineer Adams worked here, joined by Kenneth Donnelly and Gabriella Daniels if pardons were issued. Deck 5, the shuttle bay, held the armory, cargo hold, two Kodiak shuttles, a procurement terminal, weapon and armor benches, and a small gym; James Vega and Lieutenant Steve Cortez spent their time here.\n\nBuilt by Cerberus to be larger and more powerful than the original, the SR-2 ended up nearly double the SR-1's size and mass, more heavily armed and armored, with an even larger Tantalus core housed in a sphere holding element zero. With her speed, maneuverability, Javelin torpedoes, GARDIAN lasers, Thanix cannon, kinetic barriers, deflective armor, stronger shielding, and EDI coordinating combat functions, the Normandy was still touted as the fastest, most advanced, and most iconic vessel of the Alliance fleet. She led the charge of the united Citadel races in the battle for Earth at the close of the Reaper War; her whereabouts afterward remain unknown.",
+      "url": "",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "normandy-sr-2_004",
+      "kind": "page",
+      "page": "Normandy SR-2",
+      "section": "Internal Layout",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The room is dominated by a large rectangular conference table where Shepard can hold briefings and discussions with the crew as well as communicate via hologram with the Illusive Man in real time thanks to the ship's quantum entanglement based communications array. The table retracts into the floor when opening communications with the Illusive Man. #### Deck 3: Crew's Quarters The third deck of the ship is where the crew spends most of their downtime. It includes Executive Officer's Offices (where Miranda Lawson is located), crew quarters, bathrooms, life support control, a mess\\-hall run by Mess Sergeant Gardner and the AI core. EDI's Core is located at the rear of the medical bay, which is run by Dr. Karin Chakwas. The SR\\-2, unlike the SR\\-1, is also designed with a Main Battery room located forward of the Cryogenic Pods; Garrus Vakarian can be found there. Legion can be found in the AI Core Room, while Thane Krios resides in the Life Support Control Room. Samara spends her time meditating in Starboard Observation (where the crew's library is located) and Kasumi Goto stays in Port Observation (which includes a small entertainment center and a bar. Pouring oneself a drink will get Shepard intoxicated and the camera will be wobbly for a few moments. You can have either a blue, red, or purple (by mixing the red and blue) drink. The rooms will only be accessible if the member has been recruited; otherwise, the room is inaccessible. Should Commander Shepard enter the wrong bathroom, EDI will politely remind Shepard that his/her correct restroom is on the other side of the ship. The men's restroom is on the port side, whilst the women's is on the starboard. #### Deck 4: Engineering The fourth deck of the ship is the engineering deck, which houses the Normandy SR\\-2's Drive Core. The core is much larger and technologically different from the original Tantalus Core. Jack can be found in the bowels of the deck down the stairs just outside Main Engineering, whilst Grunt can be found in the ship's Port Cargo Area. Tali'Zorah is located in the room housing the ship's core, manning a console just like on the first Normandy. Tali'Zorah shares her working space with Normandy engineers Kenneth Donnelly and Gabriella Daniels. Finally, if available, Zaeed Massani is located in the Starboard Cargo Area, where a video surveillance monitor and trash compactor are also found. Otherwise, the cargo area is not accessible. #### Deck 5: Hangar The lowest deck is the hangar, where the Kodiak shuttle is stored, as well as a space for the M\\-44 Hammerhead tank. The hangar deck is not normally accessible to Shepard; it is shown when Shepard's team leaves the Normandy while the Reaper IFF device is being tested and is the setting for a fight against an Oculus. If any squad members die in the final mission, their coffins are shown in the hangar in the epilogue.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_SR-2",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr-2",
+      "kind": "summary",
+      "page": "Normandy SR-2",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Normandy SR-2 was the starship serving as Commander Shepard's base of operations after the SSV Normandy SR-1 was destroyed. It entered service in 2185, built by Cerberus at great and secret expense in the Voyager Cluster on the orders of the Illusive Man for the revived Shepard's team to stop the Collector abductions of human colonists; it served as headquarters of the Lazarus Cell. Based closely on the SR-1's layout, it was almost twice the mass of the original, added civilian-grade comforts (leather chairs, a kitchen), retained the SR-1's stealth characteristics, but could not land on every planet, requiring shore parties to use a Kodiak shuttle.\n\nThe ship had five decks: Deck 1, the Captain's Cabin (\"the loft\"), with a fish tank, model ship case, space hamster, and souvenir displays; Deck 2, the Combat Information Center, with bridge, galaxy map, armory, research/tech labs, and a communications room with a quantum entanglement array for real-time holographic contact with the Illusive Man; Deck 3, the crew's quarters, with the XO's office, mess hall run by Mess Sergeant Gardner, medical bay run by Dr. Karin Chakwas, the AI core, life support, main battery, and observation lounges; Deck 4, engineering, housing the oversized Tantalus drive core (three times the SR-1's, vertically oriented); and Deck 5, the hangar for the Kodiak shuttle and M-44 Hammerhead.\n\nEDI (Enhanced Defense Intelligence) was the ship's AI, functioning as electronic-warfare defense with behavioral blocks preventing direct interface with ship systems, and serving as the Illusive Man's eyes and ears. She was designed in part from Sovereign's remains, making her partly Reaper-based. Armament included Javelin disruptor torpedoes and an upgradeable Turian-designed Thanix cannon (a miniature of Sovereign's weapon); defenses included kinetic barriers, cyclonic barrier technology multicore shielding, Silaris ablative armor, and GARDIAN lasers. Weapon, armor, and shield upgrades, plus the Reaper IFF recovered from the Derelict Reaper at Mnemosyne, determined crew survival in the final mission; the IFF also let the Collectors locate and board the ship.\n\nBy 2186 Shepard had defected from Cerberus and turned the ship over to the Systems Alliance, which refitted it, stripped Cerberus equipment, and recommissioned it as the SSV Normandy SR-2 in Alliance colors. Intended as Admiral Anderson's command center, it instead rescued Shepard from the Reaper invasion of Earth and became the mobile base for the war effort and the Crucible mission. In the final battle for Earth the Normandy deployed Shepard's team, then was caught in the Crucible's energy wave mid-jump and crash-landed on an unknown world; the severity of the crash and crew survival depended on galactic readiness.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_SR-2",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-2-part-4-the-alliance-refit_001",
+      "kind": "page",
+      "page": "The SSV Normandy SR-2 (Part 4) — The Alliance Refit",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Summary:** Part 4 of a breakdown of the Normandy SR-2: how, after Shepard defected from Cerberus in 2186, the Systems Alliance reclaimed the ship (it was based on their SR-1 design), studied it, corrected Cerberus's construction faults, and recommissioned it in Alliance colors — a refit left only partly finished when the Reaper invasion began — followed by a deck-by-deck tour of the refitted ship and a closing note on its role in the Reaper War. Parts 1–3 cover origin/EDI, armament, and propulsion/stealth.",
+      "url": "",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-1-part-1-purpose-and-interior_001",
+      "kind": "page",
+      "page": "The SSV Normandy SR-1 (Part 1) — Purpose and Interior",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Summary:** Part 1 of a breakdown of the SSV Normandy SR-1: a stealth frigate co-developed by the Systems Alliance and the Turian Hierarchy under Citadel Council sponsorship, built for long-range reconnaissance and covert strike-team deployment, and a symbol of post–First Contact War cooperation. This part covers the ship's design philosophy and a deck-by-deck tour of the interior. Part 2 covers the Tantalus drive core, the stealth system, cost, armament, crew, and service history.",
+      "url": "",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr1-01",
+      "kind": "summary",
+      "page": "The SSV Normandy SR-1 (Part 1) — Purpose and Interior",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Part 1 of a breakdown of the SSV Normandy SR-1, a stealth frigate co-developed by the Systems Alliance and the Turian Hierarchy under Citadel Council sponsorship. Coming less than three decades after the First Contact War, the joint project represented a notable level of trust between the two civilizations and let the young Alliance integrate its technology with the older civilizations of Council space. The Normandy was the first ship of its class, optimized not as a conventional warship but for long-range reconnaissance and independent covert operations deep in unstable regions such as the Attican Traverse and the Terminus systems. She was a compact three-deck vessel built around technologies suppressing energy emissions and reducing detectability across multiple sensor types.\n\nUnlike most Alliance vessels, the Normandy distributed core systems across the deck rather than centralizing them. Deck 1 held the bridge and Combat Information Center. At the bow was the main bridge, resembling an aircraft flight deck, with the pilot's station in the middle and a secondary co-pilot/navigation seat; the cockpit had an internal kinetic barrier to protect the pilot from vacuum. Just behind the pilot lay the main docking hatch, where most crew embarked, and an escape pod for bridge personnel. A central walkway lined with tactical workstations connected the bridge to the CIC, which was dominated by a large central console resembling an Alliance insignia from above, with the galaxy-map interface at its center. The commanding officer's station sat toward the rear of the CIC, widely attributed to Turian command doctrine favoring elevated oversight; as a prototype the Normandy tested this hybrid command structure under human-led operations, and it proved effective. At the stern of Deck 1 was the communications room, used for debriefings and secure contact with Alliance Command and the Citadel Council.\n\nDeck 2, the habitation deck, was reached by stairwells on either side of the CIC and held the mess hall, crew sleeper pods (used for stasis during rotations and non-relay flights), the captain's private cabin and office, escape-pod access, and the medical bay with an attached small science lab that doubled as storage. Commander Shepard's personal locker was on this deck. Deck 3 held the cargo hold, the M-35 Mako storage bay, an armory, a workshop, strike-team equipment lockers overseen by the Alliance requisitions officer, and main engineering, which contained three monitoring consoles and, at the rear, the Tantalus drive core (covered in Part 2).",
+      "url": "",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "tempest_008",
+      "kind": "page",
+      "page": "Tempest",
+      "section": "Engineering",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "At the aft section of Deck 2 is the engineering room, housing the starship's drive core. Gil Brodie monitors here when he's not around other parts of the ship.",
+      "url": "https://masseffect.fandom.com/wiki/Tempest",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "codex-ships-and-vehicles_007",
+      "kind": "page",
+      "page": "Codex/Ships and Vehicles",
+      "section": "Normandy SR\\-2",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "#### Mass Effect 2 |  | Audio: Normandy SR\\-2 | | --- | --- | With elaborate secrecy, Cerberus labored for years to build a new, superior Normandy. The vehicle's many alterations produced a craft nearly double the original size, requiring an even larger Tantalus drive core to compensate. The new Normandy features greater space in living quarters, research laboratory, observation deck, and cargo bay. Its shuttle can make landings the Normandy cannot attempt. In addition to tightbeam communicators, Normandy's Quantum Entanglement Communicator (QEC) provides instantaneous contact with the Illusive Man. The Enhanced Defense Intelligence AI coordinates many of the ship's combat functions, assisting and even supplanting human piloting. Potential upgrades are numerous: the airframe could support additional armor and an axial mass accelerator, the thrusters could support recent advances in fuel technology beyond H2/O2 chemical rockets, and the hull can mount double the standard number of kinetic barrier projectors, leaving space for stronger shields, easily sustainable via the new eezo drive core. #### Mass Effect 3 |  | Audio: Normandy SR\\-2 | | --- | --- | Cerberus built the Normandy SR\\-2 as a second\\-generation version of the Alliance frigate SSV Normandy after the Collectors destroyed the original. The SR\\-2's many alterations produced a craft nearly double the original size, requiring an even larger Tantalus drive core to compensate. Its state\\-of\\-the\\-art Kodiak shuttle can make landings the original Normandy could not attempt. The Enhanced Defense Intelligence, an AI known colloquially as EDI, coordinates many of the ship's combat functions, assisting and even supplanting human piloting. The Alliance has recently appropriated and refurbished the SR\\-2\\. In addition to tightbeam communicators, the Quantum Entanglement Communicator (QEC) provides instantaneous contact with Alliance Command.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Ships_and_Vehicles",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-1-part-1-purpose-and-interior_005",
+      "kind": "page",
+      "page": "The SSV Normandy SR-1 (Part 1) — Purpose and Interior",
+      "section": "Deck 3 — Cargo, vehicle bay, and engineering",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The elevator at the stern of Deck 2 descends to Deck 3: the cargo hold, the M-35 Mako storage bay, and main engineering. The open space needed for vehicle storage and maintenance makes this a multi-purpose area, housing an armory, a workshop, and storage lockers for strike-team equipment. The Alliance requisitions officer is stationed here, overseeing equipment through the forward garage bay beneath the bow. Down the corridor from the hold is the engine room — a single platform for the engineering staff with three main monitoring consoles — and, at the rear, the ship's most important system: the Tantalus drive core (covered in Part 2).",
+      "url": "",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:ssv-normandy",
+      "kind": "summary",
+      "page": "SSV Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The SSV Normandy SR-1 (Systems Alliance Space Vehicle Normandy Stealth Reconnaissance-1) was a prototype \"deep scout\" frigate, first of the Normandy class, co-developed by the Systems Alliance and the Turian Hierarchy with Citadel Council sponsorship. Commissioned in 2183 and named for the 1944 Battle of Normandy, she was optimized for solo reconnaissance deep in unstable regions. She was initially commanded by Alliance officer Elli Zander, who was removed after clashing with turian chief engineer Octavio Tatum over the drive core's limits; David Anderson then took command, and shortly after handed the ship to Commander Shepard when Shepard became the first human Spectre.\n\nThe Normandy was built on three decks: a Command Deck with bridge, airlock, CIC and comm room; a habitation deck with quarters, mess, medical bay and captain's cabin; and an engineering and storage level holding the M35 Mako and the drive core. Her defining feature was the IES (internal emission sink) stealth system, which stored waste heat in lithium heat sinks, allowing silent running for hours; the system did not work at FTL and could be defeated by visual scan. It was powered by the experimental Tantalus Drive Core, roughly twice the size of a normal core and costing about 120 billion credits. Like all frigates she carried GARDIAN lasers, kinetic barriers, a spinal mass accelerator, and could mount Javelin disruptor torpedoes. Key crew included Joker (helmsman), Navigator Charles Pressly, Dr. Karin Chakwas, Engineer Greg Adams, Kaidan Alenko, Ashley Williams, and later Tali'Zorah nar Rayya, Garrus Vakarian and Urdnot Wrex.\n\nDuring her shakedown the Normandy went to Eden Prime to recover a Prothean Beacon, which was destroyed during a geth attack. Rear Admiral Mikhailovich later inspected and criticized her as over-designed. When the Council refused to pursue Saren Arterius, Udina locked the ship down; with Anderson's help Shepard stole her and flew to Ilos. At the Battle of the Citadel the Normandy led the assault that destroyed Sovereign. In 2183 an unidentified starship (later revealed as a Collector cruiser) ambushed and destroyed the Normandy near Alchera, killing over twenty crew including Pressly; Shepard died saving Joker. Cerberus later built the larger Normandy SR-2 from the SR-1's design.",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_012",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After you are back on board the Normandy, you'll have a video conference with Anderson, who will discuss the war and ask about Kahlee. If Javik is part of your crew, you will find him in the walkway beneath engineering following this mission. He will comment about Jack's previous tenure in this space.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "ssv-normandy_011",
+      "kind": "page",
+      "page": "SSV Normandy",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*For the ship featured in Mass Effect 2, see Normandy SR\\-2.* The Normandy is shown patrolling the Omega Nebula for geth, near the planet Alchera. An unidentifiable starship suddenly appears and moves to intercept the Normandy, despite the frigate's stealth systems being active. Realizing that the ship is hostile, Joker initiates evasive maneuvers. The pursuing ship unleashes a barrage of beam weaponry that easily penetrates the Normandy's defenses. The Normandy's kinetic barriers and weapon systems are knocked out with a single hit. Within seconds, the Normandy is crippled as more hits breach the upper deck of the ship and destroy one of the starboard engine nacelles. The sudden attack claims the lives of over twenty crew members, Navigator Pressly among them. The order is given to abandon ship and the surviving crew evacuate the ship via escape pods. Commander Shepard stays behind to save Joker, who is still desperately trying to pilot the disintegrating ship. Shepard manages to place Joker in the last escape pod as their attacker makes a final pass on the Normandy, completely destroying the ship. While Joker's pod is successfully ejected, Shepard is knocked into space by the final explosion and drifts into the orbit of Alchera along with debris from the Normandy. Within the next two years, Commander Shepard's body is recovered and revived through the Lazarus Project by the pro\\-human black ops organization Cerberus. They give Shepard command of a new ship similar in design to the Normandy SR\\-1 but larger and bearing the insignia of Cerberus. Shepard and Joker decide to designate this new ship the Normandy SR\\-2 in honor of the original Normandy. The new Normandy is nearly twice the size of the original, comprising five decks, compared to the SR\\-1's three decks. If Shepard asks the ship's artificial intelligence how Cerberus managed to obtain the confidential schematics for the Normandy SR\\-1 to build the SR\\-2, it is revealed that Cerberus used their substantial influence to jump\\-start the Alliance's decision to build the original SR\\-1 in the first place, and subsequently obtain the secrets of advanced turian technology that the project required for themselves. Throughout the rest of 2185, Commander Shepard uses the new Normandy to scour the galaxy looking for the best biotics, scientists and warriors in an effort to build a team capable of taking on the Collectors and putting an end to their galaxy\\-wide campaign of mass human abductions. At some point during this mission, the Alliance may locate the crash site of the original Normandy on Alchera, prompting Admiral Hackett to ask for Shepard's assistance in planting a memorial at the wreckage in honor of the lives lost in addition to recovering dog tags of the twenty missing crew members. If Shepard visits the site, they may experience several flashbacks of their time aboard the Normandy SR\\-1, including of Pressly and the squad member that was left behind on Virmire. The Commander may even find their lost N7 helmet among the wreckage.",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "Jack's hideout on the engineering deck of the Normandy SR-2"
+    },
+    {
+      "chunk_id": "romance_004",
+      "kind": "page",
+      "page": "Romance",
+      "section": "Romance Progression",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- **Attraction** — When waking after Eden Prime, Shepard will find either Ashley or Kaidan waiting at the Commander's bedside in the medical room, feeling guilty over getting snagged by the Prothean Beacon. Shepard can be reassuring and claim there was no way to know what the beacon would do, at which point Williams or Alenko will look much happier and a little intrigued. It'd probably be a good idea to speak with him/her in the mess just outside of the clinic as soon as you're done talking to Captain David Anderson. - **Courting** — After completing a primary mission on either Therum, Noveria or Feros, Shepard can speak about the mission with either Ashley or Kaidan and begin building up rapport that gradually grows into a romantic interest. - **\"Dr T'Soni?\"**— Once Liara is on board, Shepard can also court her after Liara admits looking into Shepard's background. Although temporarily stopped, this rapport can continue after Shepard's second encounter with a beacon through another set of dialog options with Liara. If Shepard has spoken to Liara at all, even platonically, and is already involved with either Kaidan or Ashley, during the next conversation he or she will ask if Shepard is attracted to Liara. Shepard can either express an interest in Liara — which will effectively end the romance path with that squad member — or explain their relationship is only professional. - **Two's Company, Three's a Crowd** (optional) — If Shepard has been wooing Liara and the human love interest at the same time (or if Shepard picked a bugged renegade option in not showing interest in Liara), after the next completed mission on a primary world, the Commander will suddenly be confronted by both potential love interests after the debriefing. They will ask Shepard to choose between them. Choosing one will continue that romance and end the other as Shepard can't have both; if the Commander suggests it, the human love interest will leave and the romance will be continued with Liara. - **Sacrifice** — On Virmire, Captain Kirrahe will ask for one of the squad members to join his diversion effort while Shepard infiltrates the base. Both Ashley and Kaidan will volunteer in the assault and Shepard must choose who will follow Captain Kirrahe and the other to follow the Commander. This action will not affect any future decisions or any existing relationship. However, near the end of the mission when Saren Arterius attacks, Shepard will be forced to choose which squad member to assist and the other will die in the nuclear blast. If Shepard has a relationship with either one of them and wishes to remain in it, Shepard must choose the particular squad member to assist. Sacrificing Shepard's current love interest will obviously end that romance path. - **Lockdown** — While there's really no time to woo the Commander's romantic interest during the pursuit of Saren, they will come to Shepard's side after the argument in the Council Chambers. Only a decisively Renegade conversation path will negatively impact the romance at this point; otherwise, the romantic interest will comfort and reassure Shepard. However, the intimate mood is immediately shattered by Joker with an urgent call over the ship's comm. - **Conclusion** — If the romance subplot has been continued, while en route to Ilos, the love interest pays a private visit to Shepard's personal quarters aboard the SSV Normandy. Paragon choices will make for a passionate ending and an intimate cut\\-scene. Choosing Renegade results in the love interest leaving the room; this does not, however, end the romance, which continues on to the next game regardless of the response picked. Completing the romance subplot unlocks the Paramour Achievement.",
+      "url": "https://masseffect.fandom.com/wiki/Romance",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "interrupt_012",
+      "kind": "page",
+      "page": "Interrupt",
+      "section": "Other Interactions",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "#### Interview with Khalisah al\\-Jilani At the far end of the Zakera Ward Level 28 on the Citadel, Shepard meets Khalisah al\\-Jilani, a news reporter whom the Commander met during Mass Effect. Khalisah wants to make a follow\\-up interview, and confronts Shepard about the Commander's decision to let the Destiny Ascension be destroyed, or sacrifice human soldiers to save the ship. |  | Shepard will punch Khalisah in the face to end the interview. Otherwise, Shepard gets the chance to choose a Charm or Intimidate dialogue option (which earns \\+5 Paragon/Renegade points respectively), or simply walk away for no points. | | --- | --- | |  | \\+5 Renegade | #### Garrus Romance Scene Prior to going through the Omega 4 Relay, if he is in a romance with female Shepard, Garrus visits Shepard in her quarters, nervous about being with her. He tries awkwardly to compliment her, not knowing whether he's inadvertently offending her. |  | Shepard will interrupt Garrus, sarcastically saying that he seduced her with his \"smooth talk,\" and tell him to stop worrying. | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Interrupt",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "romance_013",
+      "kind": "page",
+      "page": "Romance",
+      "section": "Kelly Chambers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If catching her is the first pick then embracing her in the second, subsequent picks lock to the romance path described above. If reversed, subsequent picks lock to the non\\-romance path. - If the dinner invite is unlocked after the first 2 of the 3 possible flirts needed to unlock it are done, Shepard can defer the dinner invite to later and still get a chance to make the invitation after the third flirt, as long as Shepard doesn't completely foreclose the possibility of getting to know Kelly better by saying there's no time. - Kelly's post\\-mission conversations \"bank\"—you don't have to speak with her immediately after every mission for the conversation tied to that mission. Banked conversations will play in mostly chronological order of missions completed every time you return to speak with Kelly after either (1\\) leaving the ship (2\\) leaving the deck (3\\) saving and reloading the save. A few banked conversations will take priority in the order in which they occur, namely the ones following the Collector Ship and Horizon missions. It's virtually impossible to completely miss out on a particular conversation with Kelly thanks to this feature. - Shepard's gender is totally irrelevant in terms of the conditions needed to unlock romance with Kelly; however, there are certain unique conversation variations based on Shepard's gender, especially if locked to the 'romance path'. For example, Kelly will make comments on Tali being potentially attracted to a male Shepard, and she will gush that a female Shepard and Garrus would make a \"cute couple\". Also, after Horizon, if Shepard is the opposite gender from the Virmire survivor, Kelly will question Shepard about past romantic feelings or history with them, and there may be an option to ask Kelly if she's jealous. Admitting to romantic history or inclinations towards another character does not preclude a romance with Kelly. - If Shepard picks the flirty options with Kelly following the Collector Ship mission she hugs the Commander, unless that flirt is the one that unlocks the dinner invite, in which case the hug will not happen. The hug is not a romance trigger in any way, only the dinner invite is. - Accepting or rejecting Kelly's offer to feed Shepard's fish is not a romance trigger. It's not even necessary to accept her offer for her to return any surviving fish to Shepard in Mass Effect 3 if the two reunite; as long as they had dinner, she rescues the fish. - In the instance where you unlock Kelly's romance and receive her email proposition and then you also consummate a primary romance and unlock *that* partner's cabin invite, it's not possible to invite both Kelly and your other romance partner up to the cabin; the primary romance partner is the only invite option that appears on the cabin intercom. However, there is a workaround by saving a game and then breaking up with your primary romance, if all you want to do is invite Kelly up. As stated above, receiving and reading her email is the true \"checked box\" for romancing Kelly as far as the game is concerned.",
+      "url": "https://masseffect.fandom.com/wiki/Romance",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "romance_010",
+      "kind": "page",
+      "page": "Romance",
+      "section": "Romance Mechanics",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Romances are built through conversing repeatedly and answering favorably when the subject is raised. Both male and female Shepard will have nearly identical dialogue when first meeting their crew members. New dialogue options only become available when missions or assignments are completed. However, once a crew member's loyalty mission becomes available, the new dialogue options will be unavailable until the mission has been completed. Eventually, gender\\-specific dialogue options will give the opportunity to express interest in a squad member, eventually ending in a sort of romance\\-zenith where no new dialogues are available despite completing missions. In most of the major potential romances, conversations will follow a general pattern: 1. There will be one conversation directly following completion of that character's loyalty mission with no romance\\-related dialogue. 2. The next conversation will offer the opportunity to \"flirt,\" or express romantic interest assuming the result of the loyalty mission was favorable (or irrelevant). 3. The conversation after flirting will address the potential romance openly and offer an opportunity to either \"lock in\" the romance and commit to a relationship or back out. A decision to back out and not pursue a romance at this stage is irrevocable. 4. If the romance is \"locked in\" then the conversation after that will be the \"zenith\" conversation where the love interest expresses happiness at the prospective relationship, and the dialogue will offer an opportunity for Shepard to either affirm their commitment or break things off after all. Again, taking the latter option is irrevocable. The zenith conversation will occur any time Shepard speaks with the love interest again until either the relationship is consummated near the conclusion of the story or another potential love interest enters the picture (see below). There can be exceptions to the above. For example, Garrus can be flirted with directly after his loyalty mission by taking \"Investigate\" dialogue options and asking about turian preparations for dangerous missions. Jacob can (and must) be flirted with even prior to his loyalty mission to open up the possibility for romance following it. Also, Jacob's romance zenith actually consists of more than one unique conversation. **For a female Shepard**, a love interest is \"locked in\" once you express interest at the following dialogue points: - **Garrus**: When Garrus says, \"Part of me still thinks we’re crazy for even considering... blowing off steam. But I want to try it with you. I want a few moments that are just for us, before we throw ourselves into hell for the good of the galaxy.\" To avoid locking in a relationship choose *I want to be your friend*. - **Thane**: When Thane says, \"I confess I've come to care for you. Perhaps I'm being foolish. We are very different.\" To avoid locking in a relationship choose *No. I can't replace your wife*. - **Jacob**: When Jacob says, \"I'm not looking to change what you need, Shepard. But there's not much point in doing this if I'm just not it.\" To avoid locking in a romance pick *Just friends then*. **For a male Shepard**, a love interest is \"locked in\" once you express interest at the following dialogue points: - **Jack**: At the point where she says \"I'm not interested in some dumbshit love affair. It never goes right.\" To prevent locking\\-in, pick *Never mind*. - **Tali**: At the point where she beckons you toward the drive core and says \"I'm sorry. I was unprofessional, and I wasn't thinking rationally. I was being stupid. And selfish.\" To prevent locking\\-in, pick *We'll say it never happened* or if not that, either *I need to think about this* or *This is too dangerous* on the following dialogue tree. - **Miranda**: At the point where she says \"I don't know what this is, if it's just stress, or blowing off steam, or...\" to avoid locking\\-in pick *It's nothing* or if not, pick *Damn it \\-\\- you're right* in the following dialogue tree. Another way to permanently terminate a romance with Jack or Miranda is to complete both their loyalty missions without having enough Paragon points or Renegade points to avoid siding with one or the other of them. As mentioned in both Jack: Subject Zero and Miranda: The Prodigal, while their loyalty can be regained, their romance potential cannot. Therefore, if you wish to keep your existing romance (or even just a future potential for one), in addition to the loyalty of both squad members, it is recommended that you hold off on completing both missions until you have a high Paragon or Renegade point count. Although it is possible to have a sexual encounter with Jack before this, it does not count as a full romance. It will also preclude Shepard from having a proper romance with her.",
+      "url": "https://masseffect.fandom.com/wiki/Romance",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#08",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Declining her early advance confuses her and her shell begins to crack; with steady, non-sexual interest a relationship forms and she admits she really does need someone. In place of a love scene before the Omega 4 Relay, she and Shepard only kiss and lie in bed together, Shepard holding her.",
+      "url": "",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "romance_011",
+      "kind": "page",
+      "page": "Romance",
+      "section": "Romance Mechanics",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "As mentioned in both Jack: Subject Zero and Miranda: The Prodigal, while their loyalty can be regained, their romance potential cannot. Therefore, if you wish to keep your existing romance (or even just a future potential for one), in addition to the loyalty of both squad members, it is recommended that you hold off on completing both missions until you have a high Paragon or Renegade point count. Although it is possible to have a sexual encounter with Jack before this, it does not count as a full romance. It will also preclude Shepard from having a proper romance with her. This choice comes relatively early, at the third on\\-ship conversation with her, right after being able to ask about her tattoos. If Shepard and the 'locked\\-in' love interest consummate their relationship and survive the suicide mission, it is possible to invite them up to the Captain's quarters to either sit with them on the couch, or lie with them on the bed. **Note:**  It is possible to break up with a love interest at any time, even after sleeping with them. #### Competing Love Interests Even after \"locking in\" a romance as described above, Shepard can still express an interest in other crew members. However, the new love interest will 'challenge' Shepard's love\\-triangle and force Shepard to dump any currently 'locked\\-in' option in order to be with them, as there can be only one locked\\-in relationship. Once a potential relation is at the challenge stage, there is no way to express disinterest in them no matter what Shepard chooses. However, if Shepard dumps someone who is locked\\-in, the rejected romance option will never be available again. A romance scene with the locked\\-in character will be shown when the Normandy SR\\-2 proceeds through the Omega 4 Relay if the lock\\-in occurred before entering the relay. If the lock\\-in occurs after the Collectors are defeated, the romance scene plays at the conclusion of the conversation. Whether by design or by mistake, if Shepard has one person locked\\-in and are at the challenge stage with any of the other possible subjects prior to entering the Omega 4 Relay, Shepard has the option of dumping the locked\\-in subject after completing the finale, provided that Shepard survives. Doing so will allow Shepard to court and lock in a relationship with one of the other subjects and the intimate scene normally seen before proceeding through the Omega 4 Relay will instead play as soon as the dialogue ends. It is thus possible to experience all three partners and their respective scenes this way. However, once a partner is dumped, they cannot be courted again. Save files imported into Mass Effect 3 will take into account Shepard's current active romance (whoever was locked\\-in last), and this one will be the romance that transfers to the next game.",
+      "url": "https://masseffect.fandom.com/wiki/Romance",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "romance_009",
+      "kind": "page",
+      "page": "Romance",
+      "section": "Secondary Romances",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Both male and female Shepard may also have romantic interactions with the following characters, which do not prevent the romancing of the main romance options but will not be rewarded with the Paramour Achievement. | Other romantic interests for: | | | | --- | --- | --- | | **Male or female Shepard** (Does not grant the Paramour Achievement) | | | | **Kelly Chambers** | **Samara** | **Morinth** | | Normandy SR\\-2's yeoman and psychologist, and Shepard's personal assistant. | An asari justicar. | Daughter of Samara and an Ardat\\-Yakshi. | These potential love interests have their own specific caveats: - **Kelly Chambers** — Over the course of the game, Shepard may choose to flirt with Kelly during various post\\-mission conversations. If Kelly survived the suicide mission, Shepard has no other active romance (or breaks up with them), and Shepard flirted with her enough before the mission, then Kelly can be invited to Shepard's quarters, where she can dance for and cuddle with the Commander. This also unlocks additional romantic interactions with Kelly in Mass Effect 3\\. For more details on her romance mechanics, see the section below. - **Samara** — Samara can only be romanced by a Paragon Shepard after finishing her loyalty mission (provided that there is no other romance currently active). Although Shepard expresses feelings for Samara, she will not be able to reciprocate as her commitment to duties come first. However, there now exists at least a possibility for romantic interactions in the future. - **Morinth** — After the suicide mission Shepard may choose to consummate a romantic interest with Morinth. However, since Morinth is an Ardat\\-Yakshi, she will kill Shepard during the romance scene which will result in a **critical mission failure**.",
+      "url": "https://masseffect.fandom.com/wiki/Romance",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-charity-reaper-challenge",
+      "kind": "summary",
+      "page": "Citadel Arena: Charity Reaper Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Charity Reaper Challenge was a side mission in the Mass Effect 3: Citadel DLC, available after Citadel Docks: Retake the Normandy, once the Armax Arsenal Arena opened with the rest of Silversun Strip. After Shepard completed some arena matches, an asari named Manava T'Khanna emailed the Combat Sim Controls. She wrote as a parent rather than a fundraiser: her daughter Lati had been diagnosed with a cerebral tumor a year earlier, had the bad tissue removed by microsurgery machines, and faced a slow recovery with only partial use of her limbs. Lati had wanted to be a huntress and wished to see Commander Shepard compete live; a small charity called Help a Dream had brought her to the Citadel. Manava asked Shepard to fight the toughest Reapers in the simulator and dedicate the match to Help a Dream.\n\nTo complete the challenge, Shepard set the simulator to Reapers at Super Elite difficulty, both of which had to be purchased with prior winnings as the silver-level Reaper Combat Set and the gold-level Super Elite enemy set, and completed the match. Any squadmates and modifiers were allowed, so other arena challenges such as the Prothean Challenge or Medi-Gel Challenge could be finished simultaneously. Afterward Manava sent a grateful second email, calling Shepard a hero rather than just a soldier. Receiving and reading it granted +15 Reputation.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Charity_Reaper_Challenge",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "summary:romance",
+      "kind": "summary",
+      "page": "Romance",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page documents romance across the original Mass Effect trilogy for both male and female Commander Shepard. In Mass Effect, Shepard could pursue a heterosexual human romance (male Shepard with Ashley Williams, female Shepard with Kaidan Alenko), a xenophilic romance for either gender with Liara T'Soni, or a one-time sexual encounter with the asari Consort Sha'ira. Romance progressed through conversation stages (Attraction, Courting, the Liara complication, an optional love-triangle confrontation, the Virmire Sacrifice, Lockdown, and a Conclusion scene en route to Ilos), and completing it unlocked the Paramour achievement. Because of a programming workaround, all human romance lines were voiced for both Shepards, allowing same-sex romances via save edits. The game's sex scene drew media controversy and a temporary ban in Singapore.\n\nIn Mass Effect 2, an imported love interest carried over (a picture appears in Shepard's cabin) though they could not join the squad; Kaidan or Ashley sent a letter, and Liara's romance could continue in Lair of the Shadow Broker. Primary, mutually exclusive romances were: for male Shepard, Miranda Lawson, Tali'Zorah, or Jack; for female Shepard, Jacob Taylor, Garrus Vakarian, or Thane Krios. Secondary romances not granting Paramour were Kelly Chambers, Samara (Paragon only, unconsummated), and Morinth (whose romance scene killed Shepard, a critical mission failure). Romances were built by repeated favorable conversation, \"locked in\" at a specific dialogue point, and could be challenged by a competing love interest, forcing Shepard to dump the locked-in partner permanently. The page details the exact lock-in lines for each squadmate and the full multi-step requirements for romancing Kelly, including having dinner before the Collectors abduct the crew and entering the Omega 4 relay immediately to save her.\n\nIn Mass Effect 3, most prior romances could continue, some could begin anew, and some required an imported rekindled save. New interests were Diana Allers, Samantha Traynor, and Steve Cortez; Ashley/Kaidan became exclusive heterosexual options and Cortez/Traynor exclusive same-sex options. Mechanics were simpler, with a final lock-in before the assault on the Illusive Man's base and an intimate scene at Cronos Station. The Extended Cut added a Conduit-run farewell if the partner is in the squad (they die to Harbinger if Effective Military Strength is too low) and a memorial-wall or hopeful-smile beat depending on the ending. The Citadel DLC allowed extra romances including Javik and James Vega for female Shepard. Legendary Edition reworked the Paramour achievements to require relationships established across one, two, and three games.",
+      "url": "https://masseffect.fandom.com/wiki/Romance",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#03",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Kelly warns Shepard that Jack pushes people away yet approaches sex casually, may make advances, and that if Shepard wants her respect he should think twice.",
+      "url": "",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "summary:tali-zorah-nar-rayya",
+      "kind": "summary",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tali'Zorah nar Rayya was born in 2161 aboard the liveship Rayya to Rael'Zorah of the quarian Admiralty Board. A mechanical genius, she left the Migrant Fleet on her Pilgrimage, the quarian rite of passage into adulthood. In Mass Effect: Homeworlds she traveled aboard the Honorata with Keenah'Breizh, extracted a geth memory core containing a recording of an attack planned on Eden Prime and the coming of the Reapers, and was hunted across Illium and onto the Citadel by the turian mercenary Jacobus, working for Saren Arterius. Keenah died; Tali trapped Jacobus in an incinerator and burned him alive, then sought an information broker to reach the Council.\n\nIn Mass Effect, Fist betrayed her to Saren's agents; ambushed near Chora's Den, Tali threw a tech proximity mine and was saved by Commander Shepard. Her data provided proof that got Saren's Spectre status revoked and the first mention of the Reapers and the Conduit. She joined Shepard's crew, working in the Normandy's engine room with Engineer Adams, and shared insight into quarian nomad life and the geth. In an optional assignment she could receive rogue geth data to complete her Pilgrimage; refusing it caused her to leave the crew afterward.\n\nIn Mass Effect 2, having completed her Pilgrimage, she joined the Neema and became Tali'Zorah vas Neema. Shepard met her on Freedom's Progress hunting Veetor'Nara, then recruited her on Haestrom, where a geth patrol killed her marine escort; she and Kal'Reegar survived and she brought data proving Haestrom's sun was dying prematurely. She joined Shepard for Shepard's sake, not Cerberus's. Her loyalty mission, Tali: Treason, changed her name to Tali'Zorah vas Normandy. She is a romance option for a male Shepard, culminating before the Omega 4 relay when she removes her mask; if she survives, \"it was totally worth it.\"\n\nIn Mass Effect 3, if she survived the Suicide Mission, she returned to the Fleet, becoming an Admiral in her father's place (or a secret adviser if exiled) during the war to retake Rannoch. She served as geth software expert aboard the geth dreadnought and on Rannoch, where she claimed a patch of land and Shepard handed her a rock. At the climax, if Shepard upgraded the geth she watched the Migrant Fleet burn, removed her mask, whispered \"I'm sorry,\" and threw herself off a cliff. If Shepard stopped the upload she stabbed the geth unit with her boot knife; if Legion survived and peace was brokered, she confirmed the geth had souls. Surviving, she rejoined the Normandy and could become the quarian ambassador on the Citadel. If romanced, she left Shepard a photo of her unmasked face, and at the final battle, gravely wounded, told Shepard \"I have a home\" and begged him to return.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "summary:citadel-cerberus-ciphers",
+      "kind": "summary",
+      "page": "Citadel: Cerberus Ciphers",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Cerberus Ciphers was a Mass Effect 3 mission with prerequisites Priority: The Citadel II and N7: Communication Hub. Shepard could overhear turian Officer Dellk at a terminal at the end of a corridor in the Citadel Embassies, past the Earth Councilor's office, saying he needed updated ciphers to break Cerberus codes; the map sometimes showed his location incorrectly, with reports placing his marker near the couch with the elcor ambassador. If Dellk was never encountered, the ciphers and journal entry could be acquired directly at Ontarom.\n\nThe Cerberus encryption algorithms were on a terminal during N7: Communication Hub, which became available only after Priority: Thessia, a gap of at least six Priority missions from acquisition to completion, the longest in the game. The terminal sat behind a tubular wall near a comm tower to the west of the mission's start. If not obtained there, the codes could be bought from Spectre Requisitions for 1,000 credits, or 900 at the maximum 10% discount. Returning the codes to Dellk completed the mission for 5 Reputation, 30 experience, 1,000 credits, and a small boost to the Alliance Fifth Fleet War Asset. A bug could cause the codes to be lost if Shepard died before completing the mission while the source terminal stayed deactivated, forcing purchase. Regardless of how the cipher was acquired, Shepard claimed during the handover that it had been found on a Cerberus engineer.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Cerberus_Ciphers",
+      "for_key": "Jack's slow-burn romance with Shepard, completed only at the end"
+    },
+    {
+      "chunk_id": "elizabeth-baynham_003",
+      "kind": "page",
+      "page": "Elizabeth Baynham",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Zhu's Hope survived as a colony, Shepard will receive a message (entitled \"Appreciate the help\") from her in 2185, expressing not only thanks for what Shepard did, but her apologies again for shooting at the Commander. From: Lizbeth Baynham Hey, Shepard, I heard about what you did on Illium, and I wanted to thank you for helping out Zhu's Hope one more time. We're surviving, if barely. Most of ExoGeni left, but I stayed behind as an attaché, and to make sure that nothing was left of the Thorian. We don't need that problem again. Also, I'm really, really sorry that I shot at you. I'm pretty sure I said that, but I just wanted to reiterate it. Good luck, and thanks. Zhu's Hope is alive again because of what you did. Sincerely, Lizbeth Baynham Alternatively if Shepard killed the colonists of Zhu's Hope instead of disabling them with the Tetraclopine grenades, Lizbeth shows doubt and regret for the colonists who died. From: Lizbeth Baynham Dear Commander Shepard, I heard about what you did on Illium, and I wanted to thank you for helping the survivors of what happened at Zhu's Hope. These people don't have much left, and you dealing with that damn contract helped them a lot. I get sick when I think about what we did to those colonists. What we allowed to happen. Do you feel that way? Do you ever wish you could have avoided killing so many people? We had no choice. I had no choice. But I still wonder. Thank you again. I'm doing what I can. You've helped the survivors get some peace. Sincerely, Lizbeth Baynham |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Elizabeth_Baynham",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "david-archer_003",
+      "kind": "page",
+      "page": "David Archer",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Commander Shepard's deactivation of the rogue VI program frees David from its effects. If Shepard stops the experiments, David is subsequently removed from the care of Cerberus and his brother and taken to Grissom Academy, an Alliance educational institution for gifted children. If the Commander is willing to sacrifice David for science, David is given medical treatment, stays in his brother's care, and Project Overlord continues. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/David_Archer",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "moshae-sjefa_002",
+      "kind": "page",
+      "page": "Moshae Sjefa",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*See also: Codex (Mass Effect: Andromeda)/Andromeda Species\\#Angara: Moshae Sjefa* The Moshae was born to explorers on a research vessel in deep space. Her parents never stayed in one place for too long, and eventually her own travels also took her to every world in the angaran domain. She never married nor had children, for she focused on unlocking the secrets of the Remnant for the benefit of all angara. As her reputation grew all of the settled worlds tried to adopt her as their own, but she developed a preference for Aya. \"Moshae\" is not exactly a title, but a reference to pre\\-Scourge myths that Sjefa earned. She thought it was nonsense when someone first called her that: she forgot who it was, but she did remember telling them to shut up. The reference caught on with others, and over time she grew to recognize its uses. Throughout her decades of existence she amassed a number of followers who studied the Remnant with her. Among them was Akksul, regarded as her best student, and Jaal Ama Darav, who eventually dropped out but retained fond memories of her. The Moshae's expertise eventually caught the Archon's attention. Her bodyguard, an Angaran Resistance commander named Vehn Terev, sold her out to the enemy thinking it would end the war against the kett. In captivity aboard the Archon's Flagship the Moshae would be hung immobile, sleep\\-deprived, or otherwise beaten when she refused to answer the Archon's questions. She broke each limb twice, and also compromised her immune system. However, the Moshae never stopped gathering intelligence on her captors. When the Archon decided she would be exalted, she was sent alone to an exaltation facility on Voeld and learned about the process and what it meant for angara taken captive by the kett. She was housed with prisoners who described their own abduction experiences. Even as she was subjected to numerous exaltation procedures she noted her own reactions, and she was able to compare notes with a transformed kett who was formerly a fighter for the Resistance. By her reckoning she spent days inside the facility under the \"care\" of its overseer the Cardinal.",
+      "url": "https://masseffect.fandom.com/wiki/Moshae_Sjefa",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "arrival-assignment_021",
+      "kind": "page",
+      "page": "Arrival (assignment)",
+      "section": "Back on the Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Now you can ask Hackett a few questions and the answers will vary based on actions taken and the point in the game this DLC is completed. - If you ask Hackett about why he is aboard a Cerberus vessel, he will say that he doesn’t like Cerberus or the way they do things, but they did bring Shepard back and are actually doing something about the state of the Galaxy. If you destroyed the Collector Base, Hackett questions whether or not it is a Cerberus Vessel anymore. If this assignment is completed before the Suicide Mission or you preserved the Collector Base, Hackett says he can be friendly, for now. - If you ask about the Alliance’s concerns about war with the batarians, Hackett says they are very concerned as the batarians have been looking for an excuse to go to war ever since humanity showed up in the galaxy. That can’t happen with the Reapers invading the galaxy as they need to work together. If they are at war with the batarians, the other races will be hesitant to give aid to either side. - If you ask if the Alliance is prepared for a Reaper invasion, Hackett says that he doesn’t know. He continues by saying it took multiple fleets and the Destiny Ascension to bring down Sovereign, who was just one Reaper. If the Reapers come in force, the Alliance just isn’t ready. If you've yet to complete the Suicide Mission, this option is replaced with Shepard asking about the Collectors, to which he says that the Alliance has stationed fleets around the larger colonies and evacuated several smaller ones and hopes that you and Cerberus have an \"ace up your sleeve\". When you are done, you can choose how to respond. - If you choose to turn yourself in, Hackett will be pleased that working with Cerberus hasn’t stripped away Shepard’s sense of honor. - If you choose to appreciate the delay, then Hackett just turns to leave. - If you choose to say that Hackett should be thanking you, Hackett says that it isn't a matter of preference, and Shepard would make a convenient scapegoat to avoid open war. No matter what option you choose, Hackett tells Shepard to take whatever actions are necessary, but to be ready to answer for them \"when Earth calls\". In the meantime, Hackett says to keep the report as he doesn’t need to see it to know that Shepard did the right thing. Hackett takes his leave with some parting words of admiration: \"you did a hell of a thing Commander\". **Note:**  In some cases the autosave function does not work and will cause you to repeat the final battle and conversation with Hackett. This can also lead to alternate dialogue in Mass Effect 3 which implies you never played Arrival.",
+      "url": "https://masseffect.fandom.com/wiki/Arrival_(assignment)",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "summary:batarian-state-arms",
+      "kind": "summary",
+      "page": "Batarian State Arms",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page contained under ~150 words of real prose and covered cut, non-canon content. Batarian State Arms (BSA) was a hardware manufacturing company. Because the batarian government did not trust private industry to build its military hardware, BSA existed as a vast nationalized institution infamous for waste and corruption. It produced effective if unethical chemical weapons and a line of Nuclear, Chemical, and Biological (NBC) protective armor. In the first Mass Effect it was a hidden manufacturer whose equipment was fully functional in the game files but only reachable via the PC console or third-party software. Its lines included the Terminator assault rifles (sometimes accessible through the Bring Down the Sky PC DLC), the Executioner shotguns, the Judgement pistols, the Lightning Strike sniper rifles, and Partisan/Skirmish light, medium, and heavy armor. A separate Batarian State Arms shop appeared on the Citadel in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Batarian_State_Arms",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "toombs_003",
+      "kind": "page",
+      "page": "Toombs",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "If Toombs survived his encounter with Shepard in 2183, he will send the Commander a message at some point in 2185, entitled *What the hell?*. He has discovered Shepard's current connection with Cerberus and, feeling betrayed, promises dire retribution should they ever meet again. Shepard may also overhear Galactic News reports describing Toombs' other activities. If both he and Dr. Wayne survived, an independent inquiry based on their testimonies is underway against Cerberus. If Wayne died, the inquiry dismisses Toombs' claims as he is seen as disturbed and because of insufficient evidence to validate his story. From: Toombs What the hell kind of game are you playing, Shepard? You did the buddy act when I had the gun on that Cerberus scientist, telling me you understood. Now I find out you're working for Cerberus? Tests were done on me that you can't even imagine. For years. Cerberus did them. They tortured me. They used me as a damn lab rat. And now you're teaming up with them like they're any other merc band? I've got my own merc team now, Shepard. And I kill any Cerberus team I can find. If I run into you, don't expect any different.",
+      "url": "https://masseffect.fandom.com/wiki/Toombs",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "summary:mass-effect-original-soundtrack",
+      "kind": "summary",
+      "page": "Mass Effect Original Soundtrack",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Mass Effect Original Soundtrack was released on November 20, 2007. It was composed by Jack Wall and Sam Hulick with additional music by Richard Jacques and David Kates. The final-credits song, \"M4 Part II,\" was written by Faunts, an Edmonton band from the city where BioWare's main studio developed the game. The press release described the score as inspired by classic science fiction films such as Blade Runner and Dune, blending 1980s electronic music with modern orchestral scoring; project director Casey Hudson described it as a synthesis of originality and familiarity. The album ran 37 tracks, including \"Mass Effect Theme,\" \"The Normandy,\" \"Battle at Eden Prime,\" \"Sovereign's Theme,\" \"Vigil,\" and \"M4 Part II.\" Several in-game compositions were omitted from the album. In May 2021, BioWare released the soundtrack as a free bonus content download (available until July 31, 2021 or until the download limit was reached), omitting \"M4 Part II\" and adding as track 1 a new song, \"Resynthesis\" by Sam Hulick, originally made for the cancelled Cerberus Brainchild DLC. The Limited Collector's Edition bonus disc included an exclusive track called \"Strangers\" and used alternate names for several tracks, and the Australian iTunes store mistitled the album \"Mass Effects\" with further errors. \"Uncharted Worlds,\" the galaxy map theme, appeared in the 2025 documentary What Exactly Is Inside Jupiter?",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Original_Soundtrack",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "thresher-maw_004",
+      "kind": "page",
+      "page": "Thresher Maw",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Commander Shepard has the Sole Survivor background, Shepard alone survived the thresher attack on Akuze. However, a second survivor may be encountered later at a facility on Ontarom. Corporal Toombs, leader of a group of mercenaries who stormed this facility, claims that a black\\-ops group called Cerberus caused the massacre at Akuze deliberately. He says Cerberus scientists wanted to study the thresher maws, so they let them kill not only the colonists, but the marine rescue team as well, to watch and study. Cerberus was delighted that Toombs survived and held him captive for years, using him for experiments. It is likely Toombs' story is true, as Cerberus used a similar technique six years later, luring Admiral Kahoku's marine team to their deaths in a thresher nest on Edolus. Thresher maws are encountered on a number of uncharted worlds. There is usually only one per planet, but some have two. They are usually encountered in the Mako, but can be fought on foot as well, though this is exceedingly dangerous. The maws that are encountered can be bypassed if necessary. Planets known to have thresher maws are Antibaar, Chohe, Nepheron, Nonuel, Presrop, Xawin, Trebin, and Edolus. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#10",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber If Kal'Reegar lived through Haestrom, he is in the crowd — one of the few quarians who openly respects Tali — and can be called as a character witness. Asked what the quarians should do about a homeworld, he says a war with the geth to retake it would be futile and bad for the Fleet, though he would never shirk his duty. Raan and Gerrel seek out his read on the trial and take his advice to let Tali retake the Alarei to win the crowd. If Shepard rallies the room, Reegar steps up beside Veetor'Nara, says Tali has done more for the Fleet than any admiral, and that if she is exiled he should be too. Afterward he tells Tali he only spoke because Shepard did, and notes she never mentioned her evidence.",
+      "url": "",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "summary:raymond-ashe",
+      "kind": "summary",
+      "page": "Raymond Ashe",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Colonel Raymond Ashe was a Cerberus operative, described as ruthless, with a deep hatred of aliens and a willingness to achieve his mission at any cost, including the lives of his own men or civilians. In Mass Effect: Invasion, as Omega was attacked by Adjutants, Ashe and General Oleg Petrovsky arrived aboard the Elbrus and destroyed the remaining Adjutant-controlled Cerberus transports. During the cleanup, Ashe ordered Aria T'Loak's mercenaries to kill the wounded before they could transform into Adjutants; Aria, offended by his open disrespect for her authority, struck him with a biotic attack. He was kept in chains on the station while Aria and Petrovsky oversaw Omega's defense from the Elbrus.\n\nAshe's imprisonment was part of his own plan. He killed his taunting guards, contacted the Illusive Man to say he was ready for \"the real battle for Omega,\" slaughtered everyone in Omega Control to prevent any alert of incoming Cerberus reinforcements, and broadcast a declaration of coup demanding that all of Omega submit to Cerberus. After Aria was taken beyond the Omega 4 Relay to Avernus Station and presumed dead, Omega's gangs went to war and Ashe commanded the Cerberus forces attempting to secure the station. Aria returned, rallied the gangs against Cerberus, and Petrovsky resumed command, criticizing Ashe's disregard for Cerberus and civilian casualties.\n\nThe rift between Petrovsky and Ashe came to a head when Ashe released an Adjutant to attack Aria and her men inside the Afterlife Club. Petrovsky was outraged at the danger to the whole station; Ashe called the losses acceptable. As they fought, Aria flung the Adjutant at them; it infected Ashe. As he began to transform, Ashe asked Petrovsky what he would do, and Petrovsky, saying he would protect his men, shot Ashe in the head. In his report to the Illusive Man, Petrovsky claimed Ashe was missing and assumed to have met the end he deserved.",
+      "url": "https://masseffect.fandom.com/wiki/Raymond_Ashe",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "merchants-guide_001",
+      "kind": "page",
+      "page": "Merchants Guide",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For a list of business entities in the Mass Effect universe, see Corporations.* Shopping plays a part in Mass Effect, Mass Effect 2, Mass Effect 3, and Mass Effect: Andromeda. Knowing both shopping locations and who operates them will assist you in completing the game by either selling or buying weapons, armor, and upgrades necessary to complete your missions, or clear up your inventory. Each game is different in what shops and merchants do, and what products are offered.",
+      "url": "https://masseffect.fandom.com/wiki/Merchants_Guide",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-3_013",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 3",
+      "section": "Cerberus Forces",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The trooper is the most common Cerberus enemy in the game. We decided the armor needed to look more robust than it did in previous games to show that troopers are battle\\-hardened foes who have fought all kinds of enemies across the galaxy. Common features for all Cerberus enemies were the coloring, rectangular eye slits, and circles over the shoulders and chest. Heavy armor pads over the collarbone completed the tougher look. The engineer has lighter weapons and armor than the trooper. The class is also capable of detaching a turret from their back and setting it on the field to help cover an area. We used cloth to imply that this class might be easier to bring down than the trooper. This look also suggests they'll use technology and engineering to defeat foes rather than brute force. While early versions of the sniper were male, we ultimately decided to make her female to make the sniper's silhouette distinct from other Cerberus enemies. The red lens light was added so she would stand out at a distance. Rougher versions of the centurion were influenced by the uniforms of real\\-life bomb\\-disposal troops. This was eventually toned down to fit the centurion's leadership role. As the gameplay department created weapons for this class, we altered the armor to accomodate things like grenade canisters, matching form with function. What makes the guardian unique is the heavy gun on the shoulder, required because the class also carries a large, impervious riot shield. The Atlas went through multiple iterations. An early version cast the Atlas as a heavy *Mass Effect 2* YMIR mech with a soldier inside. Eventually, a canopy was added to protect the soldier, and we made the Atlas larger than the YMIR. The canopy was made clearly visible so it would be an obvious weak point. These changes had consequences: increasing the size of the Atlas created a lot of extra work for the animation department.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_3",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "scene:rannoch-the-choice-above-the-fleet#01",
+      "kind": "scene",
+      "page": "Rannoch, and What Tali Watched",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-the-choice-above-the-fleet",
+      "text": "Rannoch, and What Tali Watched. 2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after Rannoch, on the cliffs, with both fleets overhead After the Normandy's bombing run cracked the Reaper base open, a Reaper Destroyer climbed out of the crater. Legion secured a geth ship and flew the squad clear while Shepard manned its turret and called in an orbital strike that briefly downed the Reaper. EDI synced the quarian fleet to the Normandy's targeting systems, and Shepard stayed on the plateau alone, dodging the Destroyer's beam through three targeting solutions and a final slow-motion shot while the fleet fired. Mortally hit, the Reaper addressed Shepard by name, said Harbinger judged the Commander a worthy opponent, spoke of Reapers as \"order\" against organic \"chaos\" and the harvest as necessary \"intervention,\" and — if no interrupt was taken — left the threat, \"Finish your war. We will be waiting.\"",
+      "url": "",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "summary:war-assets-ex-cerberus",
+      "kind": "summary",
+      "page": "War Assets/Ex-Cerberus",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list collected the personnel, data and equipment that skilled operatives took with them when they abandoned Cerberus as the Illusive Man's methods grew more extreme. Equipment assets came from N7 missions: Cerberus Research Data (50), reports on Reaper unit composition used by Alliance military VIs, and an Advanced Fighter Squadron (75), fast fuel-efficient one-person craft captured on Noveria, repainted and pressed into Alliance service after being swept for bugs.\n\nPersonnel assets largely came from the Arrae: Ex-Cerberus Scientists mission. Ex-Cerberus Scientists (25) rescued from Gellix joined the Crucible project, as did their leader Dr. Brynn Cole (25), who had studied Collector technology and helped dozens of families flee Cerberus. Dr. Gavin Archer (25), a synthetic intelligence specialist from Terra Nova, contributed insights into parallel processing and the geth after David Archer was dealt with in Overlord and Grissom Academy was completed. Jacob Taylor (25) joined after an attack on a former-operative safehouse, working as a consultant on Cerberus tactics; he declined reinstatement into the Alliance marines.\n\nEx-Cerberus Engineers (10) were contacted by Kelly Chambers, who convinced former Cerberus engineers to come out of hiding and help build the Crucible. Miranda Lawson (25), the operative who led the Lazarus Cell that revived Shepard, brought extensive knowledge of the Illusive Man's operations to the Alliance. Cerberus Escapees (40-120, with a bug allowing 160), humans and aliens who broke out of a secret Cerberus holding facility, could be obtained only through the now-unavailable Mass Effect: Infiltrator mobile game.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Ex-Cerberus",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "scene:citadel-coup-csec-office-kai-leng#02",
+      "kind": "scene",
+      "page": "Kai Leng Strikes in the Executor's Office",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-coup-csec-office-kai-leng",
+      "text": "Kai Leng Strikes in the Executor's Office. 2186, the Citadel, during Cerberus's coup against the Council (Priority: The Citadel II) C-Sec Headquarters, the Citadel — the approach, the interior, and the executor's office above the cafe Shepard fought uphill to C-Sec HQ, reached the wounded Bailey outside and was let in. Inside, a C-Sec corpse showed the attack was another inside job with Cerberus sleeper agents planted in the target, as on Mars; the squad also passed Cerberus troops executing a C-Sec sleeper who had outlived his use.",
+      "url": "",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    },
+    {
+      "chunk_id": "scene:normandy-jack-miranda-confrontation#02",
+      "kind": "scene",
+      "page": "Jack and Miranda, Below Decks",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "text": "Jack and Miranda, Below Decks. 2185, on return from Pragia, if Miranda's loyalty mission is already done aboard the Normandy SR-2 Jack flings a chair across Miranda's office before Shepard breaks it up; Jack is furious that Miranda won't admit what Cerberus did to her was wrong. Ending it without alienating either of them takes a high Paragon or Renegade score — fewer Renegade points are needed than Paragon.",
+      "url": "",
+      "for_key": "Cerberus as an institution and who inside it called what it did necessary"
+    }
+  ],
+  "codex": [],
+  "conflicts": [
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/normandy-jack-miranda-confrontation.yaml — Jack and Miranda, Below Decks",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/normandy-engineering-jack-confidences.yaml — Jack's Hidey Hole on the Engineering Deck",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": []
+}

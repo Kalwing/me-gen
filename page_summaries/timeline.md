@@ -1,0 +1,15 @@
+---
+title: Timeline
+url: https://masseffect.fandom.com/wiki/Timeline
+game: Mass Effect
+type: lore
+characters: [Harbinger, Shepard, Liara T'Soni, Saren Arterius, David Anderson, Jon Grissom, Aria T'Loak, Jack Harper, Desolas Arterius, Kahlee Sanders, Shu Qian, Paul Grayson, Gillian Grayson, Kai Leng, James Vega, Samara, Morinth, Nakmor Drack, Alec Ryder]
+---
+
+This page is the master chronological timeline of the Mass Effect universe, spanning from prehistory to Mass Effect: Andromeda, with a note on how to interpret approximate versus exact dates.
+
+In prehistoric times the Leviathans dominated the Milky Way, exacting tribute from enthralled races. Their created Intelligence, tasked with preserving organic life against synthetic rebellion, turned on them, slaughtered them for genetic material to build Harbinger, the first Reaper, and began the cyclical harvest, constructing the mass relay network to regulate the cycles. The Leviathan of Dis was killed roughly a billion years ago; a Reaper was disabled near Mnemosyne c. 37,000,000 BCE. The Protheans achieved spaceflight c. 68,000 BCE, fought the "Metacon War" against machines, and fell to the Reapers c. 48,000 BCE after centuries of war.
+
+The turians developed civilization c. 13,000 BCE; Tuchanka entered the nuclear age c. 1900 BCE and collapsed into warring clans; the Jardaan created the angara in Andromeda c. 1600 BCE. The asari found the Citadel c. 580 BCE, the salarians c. 520 BCE, and the Citadel Council formed in 500 BCE. The Rachni Wars began 1 CE; the salarians uplifted the krogan (80 CE), the rachni were declared extinct (300 CE), and the Krogan Rebellions ran c. 700–800 CE, ended by the turian-deployed, salarian-engineered genophage (710 CE). The turians gained a Council seat in 900 CE. The geth became self-aware in the Morning War (1895 CE), exiling the quarians to the Migrant Fleet.
+
+Humanity reached space in 1961, founded lunar and Martian settlements, discovered element zero on Mars (2147) and Prothean tech there (2148), activated the Charon Relay (2149), and signed the Systems Alliance charter. The First Contact War with the turians occurred in 2157 (the Relay 314 Incident), ending in the siege of Shanxi and Council-brokered peace; Jack Harper founded Cerberus and became the Illusive Man. Humanity gained a Citadel embassy in 2165. Key birth dates are listed (Liara 2077, Shepard 2154). The Shepard trilogy runs 2183–2186: the Eden Prime War and Battle of the Citadel against Saren and Sovereign; the Collector conflict beyond the Omega 4 Relay; Liara becoming the Shadow Broker (2185); the destruction of the Bahak system; and the Reaper invasion of 2186 through batarian space, ending in the final confrontation over Earth. The Andromeda Initiative (founded 2176) launched in 2185; the Nexus reached the Heleus Cluster in 2818 and the Ark Hyperion in 2819, where the events of Mass Effect: Andromeda begin. Interstitial entries cover the Keelah Si'yah, the Fortinbras Plague, the Scourge (c. 2450), the kett invasion (2744), and the founding of the Angaran Resistance (2814).

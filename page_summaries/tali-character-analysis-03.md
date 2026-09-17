@@ -1,0 +1,13 @@
+---
+title: Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw
+url: ""
+game: Mass Effect 2
+type: character
+characters: [Tali'Zorah, Commander Shepard, Rael'Zorah, Shala'Raan, Zaal'Koris, Daro'Xen, Han'Gerrel, Legion, Kar'Danna]
+---
+
+The third part of a video-essay character analysis, hand-corrected from a YouTube transcript, covered Tali'Zorah's Mass Effect 2 loyalty mission, Tali: Treason. Tali was charged with smuggling active geth into the Migrant Fleet and tried before the Admiralty Board. In her absence the Board stripped her ship-name and renamed her "vas Normandy" after a human vessel to undercut her plea of innocence. Speaking with the Admirals revealed the trial was really about whether the quarians should go to war with the geth to retake Rannoch; her supposed treason was, per Zaal'Koris, "only peripherally related." Koris wanted a precedent set against radical militants like her father; Daro'Xen cared only whether Rael'Zorah had learned something useful from the geth and wanted to "return the geth to the control of their rightful masters, the quarian race"; Han'Gerrel, an old friend of Rael's, respected Tali but was set on war; Shala'Raan had recused herself and could only call in favors. Captain Kar'Danna of the Rayya stayed officially neutral. Most ordinary quarians saw the charge as a farce born of fear.
+
+Keeping Legion after ME2 bred conflict, since the two squadmates were written as foils. After both loyalty missions, a charisma check let Shepard defuse a standoff in which Legion had scanned Tali's omni-tool to warn the geth of quarian weapons tests; talked down, Tali allowed Legion to send non-classified data, saying she understood Legion protecting his people "just as Tali would do for hers."
+
+The mission proved every charge against Rael'Zorah true: he had deliberately networked geth to run weapons tests, breaking the Fleet's most sacred laws. Fighting to the bridge of the Alarei, Tali found his body, then bottled her grief and refused to recover it: "Leave him. The mission comes first." She wanted the evidence suppressed even at the cost of her own exile. The essayist named her fatal flaw as an irrational drive to be the sacrificial lamb for the greater good, instilled by her father, by Shala'Raan, and by quarian society. Her favorite film, Fleet and Flotilla, was her idealized fantasy of duty and love reconciled. On the betrayal path, Shepard submitted the evidence against her wishes; she was cleared but lost loyalty and a high chance of surviving the Suicide Mission, furious that Shepard denied her final act of agency: "I didn't need another father back there. I needed a friend."

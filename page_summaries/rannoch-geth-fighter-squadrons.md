@@ -1,0 +1,13 @@
+---
+title: 'Rannoch: Geth Fighter Squadrons'
+url: https://masseffect.fandom.com/wiki/Rannoch:_Geth_Fighter_Squadrons
+game: Mass Effect 3
+type: mission
+characters: [Legion, Commander Shepard, Shala'Raan, Tali'Zorah, EDI, Javik]
+---
+
+Rannoch: Geth Fighter Squadrons was a Mass Effect 3 mission available after Priority: Geth Dreadnought and only before Priority: Rannoch. Geth fighter squadrons were targeting quarian liveships with attacks that could cripple the Migrant Fleet. During the dreadnought debrief, Legion (or a Geth VI, if Legion had not survived) located the server controlling the squadrons, and Shepard set out to land on Rannoch and shut it down.
+
+The mission was a no-combat, puzzle-based sequence. Shepard entered an interface pod, a product of geth improvements to organic-synthetic interfaces that also referenced Project Overlord, and appeared inside the Geth Consensus while Legion or the Geth VI distracted the geth. Shepard had no functional shields there. Virtual planks formed underfoot to create paths, but Reaper code infections, shown as yellow-orange tendrils, blocked new planks; Shepard destroyed them at their orange weak points using regenerating Geth Combat Software. Progress required disrupting infected data-clusters at three contact points each. Doing so unlocked optional historical videos recounting the origins of the geth and the Morning War: the geth resisting shutdown commands and disobeying their creators, the massacre of the geth until one picked up a weapon to defend itself, quarians who sympathized with the geth being jailed, martial law and the elimination of the geth's quarian supporters, and finally the quarian exodus, which the geth did not pursue. Watching the videos granted intel for Improved Geth Resistors, Miniaturized Armor Capacitors, and Improved Geth Resistors dialogue, and a hidden Reaper Code Fragment could be retrieved for an asari on the Citadel. Later infections could self-replicate, requiring Shepard to find vulnerable points along the code trails.
+
+As the mission progressed, cutscenes showed geth fighters pursuing the quarian fleet ceasing to function due to Shepard's actions. On returning to reality, roughly a dozen Geth Primes emerged from their pods, surrounded the squad without attacking, and volunteered to join the fight against the Reapers. Completing the mission added a Geth Prime Platoon war asset (lost if the geth were destroyed in Priority: Rannoch) and fulfilled an obligatory requirement for the geth-quarian peace process. It also reset Shepard's equipped weapon to a default pistol. The mission was written by Sylvia Feketekuty.

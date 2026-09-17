@@ -1,0 +1,13 @@
+---
+title: Keeper
+url: https://masseffect.fandom.com/wiki/Keeper
+game: Mass Effect 3
+type: species
+characters: [Chorban, Jahleed, Vigil, Sovereign]
+---
+
+The keepers were a bio-engineered, insectoid race found only on the Citadel, completely docile and harmless, existing seemingly only to maintain the station and its systems. They were long believed to have been created by the Protheans as caretakers and had become essential to the Citadel's operation. They did not communicate with other species, and C-Sec regulations made it illegal to interfere with keeper activity on penalty of imprisonment.
+
+Physically resembling large aphids, keepers underwent a rapid internal "self-destruct," dissolving into proteins and minerals within a minute if captured or interfered with, preventing serious study. Their numbers stayed constant regardless of deaths, with no known source of new keepers; some hypothesized they were biological androids created in the inaccessible core of the Citadel. They were mute, sometimes emitting insectoid chirps, and possibly communicated among themselves telepathically. Inorganic components on their backs were speculated to coordinate them with the Citadel. Besides maintenance, they ran protein vats capable of recycling biomass, and were known to inexplicably rearrange offices and alter architecture on the Wards.
+
+The asari first encountered keepers when they discovered the Citadel in 580 BCE, already aboard and eager to help the asari settle. Scientists Chorban and Jahleed built a scanner to study them and theorized they were as old as the Citadel. It was later revealed that the keepers and the Citadel predated the Protheans and were central to the Reaper cycle of genocide: the keepers were likely a race once created, conquered, or indoctrinated by the Reapers, possibly the first race they enslaved. Their purpose was to keep the Citadel attractive so organic life would settle there, then, on a signal relayed from the Reapers' vanguard, activate the Citadel relay to dark space to begin the harvest. The Protheans altered the Citadel's signal so the keepers ignored it, too late to save themselves; the keepers evolved to respond only to the Citadel and were no longer under Reaper control. Sovereign sought to replace the now-useless keepers with a more controllable synthetic race like the geth. If Shepard aided Chorban, he later messaged that the keepers were engineered millions of years ago by the makers of Sovereign, reacting to a signal recurring roughly every 50,000 years. During the Reaper War in 2186 keepers continued their routines, and near the war's end, with the Citadel captured and moved over Earth, they assisted in processing human corpses.

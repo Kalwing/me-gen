@@ -1,0 +1,11 @@
+---
+title: Ka'hairal Balak
+url: https://masseffect.fandom.com/wiki/Ka'hairal_Balak
+game: Mass Effect 3
+type: character
+characters: [Ka'hairal Balak, Kate Bowman, Charn, Commander Shepard]
+---
+
+Ka'hairal Balak was the leader of a batarian terrorist group that raided Asteroid X57 near the human colony of Terra Nova in 2183. Unlike his followers, who intended only a quick slave grab, Balak rigged the asteroid's fusion torches to put it on a collision course with Terra Nova, framing the attack as reprisal for humanity's expansion into the Skyllian Verge and the failed Skyllian Blitz on Elysium. As Commander Shepard shut down the fusion torches with the Mako, Balak sent his forces against the Commander and hunted the engineers aiding Shepard. Finding Kate Bowman, he killed her brother when she refused to identify the attackers and sent Charn after Shepard. In the main facility Balak planted a bomb among hostages and forced Shepard to choose: kill him and lose the hostages, or release him to save Kate Bowman and the others. Attacking Balak caused him to detonate the bomb.
+
+His fate depended on Shepard's choices: executed after interrogation, left to die, or handed to the Systems Alliance on Terra Nova. If released, he remained at large, later introducing himself as Captain Ka'hairal Balak of the Batarian External Forces. In 2186, after the Cerberus coup attempt, Shepard could meet him on the Citadel holding docks. Balak blamed Shepard for the destruction of Bahak and the fall of the Batarian Hegemony, describing how batarian research on the Leviathan of Dis, an inactive Reaper, indoctrinated hundreds of scientists who then sabotaged Khar'shan's defenses. Trapped on the Citadel, he aided the batarian fleet against the Reapers by hacking Council transmissions, though if freed after X57 he continued anti-human sabotage, cutting life support at Huerta Memorial Hospital and killing 117 Alliance soldiers. Shepard could kill him with his own pistol or appeal to his patriotism to enlist his support; his leadership notably improved the batarian war effort, while his death or arrest was said to have thrown batarian external operations into chaos. He was voiced by Fred Tatasciore.

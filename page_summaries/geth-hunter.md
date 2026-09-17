@@ -1,0 +1,11 @@
+---
+title: Geth Hunter
+url: https://masseffect.fandom.com/wiki/Geth_Hunter
+game: Mass Effect 3
+type: lore
+characters: []
+---
+
+Geth Hunters were a geth subtype appearing as enemies in Mass Effect 2 and Mass Effect 3, distinct from the playable Geth Hunter Infiltrator multiplayer class. In Mass Effect 2 they resembled shorter Geth Destroyers, Juggernauts and Primes, carried shotguns, and were equipped with cloaking devices and strong shields backed by moderate health. Their tactic was to close in and eliminate targets with the shotgun, using stealth to catch opponents off guard during combat, though their luminous eye and body outline remained partly visible and squadmates could not target a cloaked Hunter. They usually led groups of Geth Troopers and moved faster than them. Anti-shield tactics such as Overload, Energy Drain and Disruptor Ammo were important, dropping a Hunter's shields often broke its cloak, and the Geth Plasma Shotgun, Arc Projector and ML-77 Missile Launcher were all effective; a hacked Hunter would efficiently destroy lesser geth.
+
+In Mass Effect 3 Hunters returned with a primarily black color scheme, red lights and eyes, and a reduced size equal to ordinary geth infantry, armed with Geth Plasma Shotguns. Their flashlights no longer shone while cloaked, leaving only a shimmering translucent outline, and they gained a staggering melee attack that set up a point-blank blast; their shotgun blasts also caused brief stuns. They had moderate health and regenerating shields, dodged by hopping sideways, and tended to cloak and retreat to recharge shields, moving faster while cloaked on higher difficulties. Because cloaking depended on shields, a well-placed Overload eliminated their stealth and reduced them to a Trooper with a shotgun. A Hunter typically fired twice, the first shot stripping shields and the second dropping all health, often preceded by a melee. Powers hit cloaked Hunters only when fired without a lock or as area effects; the Javelin scope, Hunter Mode, thermal scope mods and the Flamer power could reveal them, and Combat Drone, Defense Drone and Sentry Turret shock attacks countered their flanking. Both games' Legendary Edition redesigned larger geth platforms along the Prime's later appearance.

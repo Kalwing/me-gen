@@ -1,0 +1,939 @@
+{
+  "section": {
+    "id": "purgatory",
+    "title": "Purgatory",
+    "target_words": 750,
+    "form": "eulogy",
+    "narrator": "jack"
+  },
+  "promises": [
+    "how Shepard actually got her off that ship, and how little grace she showed him for it at the time",
+    "she's honest that she hated him first, a Cerberus lapdog come to collect her",
+    "a dark joke about the recruitment that gets a laugh from whoever in the room was there"
+  ],
+  "required_facts": [
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack, a human woman with a history of violence and unprecedented biotic power, has been held in cryostasis aboard the Purgatory, a notorious turian-operated prison ship. She is rumored to be the most powerful human biotic ever encountered, with a violent past that made her dangerous enough to require permanent cryo-imprisonment. Cerberus negotiates her release by paying an exorbitant fee to the turian operators. When Commander Shepard arrives at the prison to secure Jack's release, the turian Warden Kuril welcomes the Commander and gives a tour of the facilities while feigning cooperation. However, Kuril betrays Shepard over the facility's intercom, declaring that Shepard is too valuable to leave alive and ordering security forces to secure the Commander for a higher price. The prison erupts into chaos as security systems activate and rioting prisoners break free. Shepard fights through Blue Suns mercenaries, combat mechs (including FENRIS and YMIR variants), and rioting prisoners to reach the cryo-containment section. Upon release, Jack breaks her restraints and unleashes a massive biotic blast that destroys the four YMIR Mechs guarding her cell. She then smashes through a reinforced wall, triggering a series of catastrophic decompression events throughout the cellblock as Shepard pursues her toward an airlock. The Warden makes a final stand, armed with an M-76 Revenant and protected by a shield powered by three independent generators. Shepard must destroy each generator to bring down Kuril's shield, then neutralize the Warden. After Kuril's death, Jack reaches the airlock and eliminates the remaining guards. Upon boarding the Normandy SR-2, Jack becomes enraged at the sight of the Cerberus logo, her hatred of the organization boiling over. A batarian guard nearly assassinates her, but Shepard intervenes, shooting the attacker and proving her worth. Jack agrees to join Shepard in exchange for access to the Cerberus database aboard the Normandy to uncover the organization's secrets and find those responsible for her abuse. Her demands create conflict with Miranda Lawson and Jacob Taylor, both veteran Cerberus operatives. Jack takes up residence in the sub-deck below main engineering, establishing herself as a hostile presence until her loyalty is earned. As a consequence of releasing all prisoners to secure Jack, Shepard receives threatening communications from an escaped psychopath named Billy.",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack is freed from cryostasis and cryo-stasis system destroyed",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Warden Kuril and his security forces are killed",
+      "actor": "Warden Kuril"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "All prisoners held in the facility are released",
+      "actor": ""
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack joins Shepard's team",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack develops immediate hostility toward Miranda Lawson",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack demands access to Cerberus files aboard the Normandy",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack takes up residence in the sub-deck engineering area",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack becomes a powerful biotic asset for the suicide mission",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Escaped prisoner Billy sends threatening messages to Shepard",
+      "actor": ""
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "The Purgatory is destroyed/abandoned",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "purgatory-jack-breakout",
+      "title": "Breaking Jack Out of Purgatory",
+      "kind": "mission-aside",
+      "game": "Mass Effect 2",
+      "when": "2185, after Freedom's Progress",
+      "where": "the turian prison ship Purgatory",
+      "participants": [
+        "Shepard",
+        "Jack",
+        "Warden Kuril",
+        "Miranda Lawson",
+        "Jacob Taylor"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "The Normandy docks at Purgatory, where Cerberus has paid for the release of the prisoner Jack. The turian station commander, Warden Kuril, welcomes Shepard, declines to take the squad's weapons, gives a short tour of Cellblock Two and its ejectable cells, then leaves to confirm the credit transfer.\n",
+          "source_chunks": [
+            "dossier-the-convict_004"
+          ]
+        },
+        {
+          "text": "At Outprocessing, Kuril betrays Shepard over the intercom — the Commander is too valuable to leave without a price tag — and activates the prison's defences.\n",
+          "source_chunks": [
+            "dossier-the-convict_004"
+          ]
+        },
+        {
+          "text": "Fighting through Blue Suns mercs, FENRIS and YMIR mechs, and rioting prisoners, Shepard reaches a security console and releases Jack from cryostasis. Jack breaks her restraints, destroys the four YMIR Mechs guarding her cell with a single biotic blast, and smashes a hole through the wall.\n",
+          "source_chunks": [
+            "dossier-the-convict_005"
+          ]
+        },
+        {
+          "text": "Kuril makes a final stand with an M-76 Revenant behind a shield fed by three generators. Shepard destroys the generators and kills him.\n",
+          "source_chunks": [
+            "dossier-the-convict_008",
+            "dossier-the-convict_009"
+          ]
+        },
+        {
+          "text": "Jack reaches the airlock and kills the guards. Seeing the Cerberus logo on the Normandy sends her into a rage; a batarian guard moves to ambush her and Shepard shoots him in the head.\n",
+          "source_chunks": [
+            "dossier-the-convict_010"
+          ]
+        },
+        {
+          "text": "Jack agrees to join in exchange for access to Cerberus files aboard the ship; Miranda and Jacob object. Back on the Normandy she demands the files, takes an immediate dislike to Miranda — \"the cheerleader\" — and settles into the sub-deck below main engineering.\n",
+          "source_chunks": [
+            "dossier-the-convict_010"
+          ]
+        },
+        {
+          "text": "Because freeing Jack required releasing every prisoner, Shepard receives a threatening email from an escaped psychopath named Billy.\n",
+          "source_chunks": [
+            "dossier-the-convict_011"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "normandy-jack-miranda-confrontation"
+      ],
+      "related_events": [
+        "jack-recruitment-purgatory"
+      ],
+      "source_chunks": [
+        "dossier-the-convict_004",
+        "dossier-the-convict_005",
+        "dossier-the-convict_008",
+        "dossier-the-convict_009",
+        "dossier-the-convict_010",
+        "dossier-the-convict_011"
+      ],
+      "private_to": [],
+      "requires": [],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "purgatory-jack-breakout": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "blue-suns_010",
+      "kind": "page",
+      "page": "Blue Suns",
+      "section": "Purgatory",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Blue Suns also own the maximum security prison Purgatory. The prison is run by Warden Kuril who claims that Purgatory is for \"the good of the galactic community\", despite the harsh methods used to maintain order, including carrying out torture, beatings and even murder (blowing prisoners out of airlocks as examples). Prisoners are also sold to vengeful victims/relatives or to groups with large enough finances, such as Cerberus. The Blue Suns have a substantial presence within the prison and have utilized several YMIR Mechs to act as heavy\\-hitters in case a riot broke out. The prison is known to hold the most dangerous criminals in the galaxy. The Blue Suns agree to keep them imprisoned only if their home planets agree to continually pay for their incarceration. Failure to pay is grounds for releasing the inmate at an unknown time and place on their homeworld; considering inmates like Jack inhabit the prison, most worlds presumably pay. Shepard will travel to Purgatory to recruit Jack, who has been purchased by Cerberus from the Blue Suns. Early on, Warden Kuril betrays Shepard, attempting to imprison the Commander, who he states is more valuable as a prisoner than a customer, leading to a fight breaking out between Shepard's team and Kuril's Blue Suns, with Shepard eventually releasing the entire cell block in order to free Jack from cryo containment. This causes a full\\-scale riot throughout the ship, with the Blue Suns attempting to restore control, kill Shepard and re\\-capture Jack. They ultimately fail with Shepard killing Kuril and Jack joining the Commander’s crew. Cerberus then retracts the funds they paid. A news report reveals that the Purgatory was destroyed, with the Blue Suns losing yet another piece of influence.",
+      "url": "https://masseffect.fandom.com/wiki/Blue_Suns",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "purgatory_001",
+      "kind": "page",
+      "page": "Purgatory",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | *This article is about the prison ship in Mass Effect 2\\. For the nightclub on the Citadel in Mass Effect 3, see Purgatory Bar.* | | --- | --- | **Location:** Milky Way / Hourglass Nebula / Osun |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | **Purgatory** is a maximum security prison starship owned and run by the Blue Suns. Warden Kuril is the current facility administrator. Purgatory is where Commander Shepard can recruit Jack, a dangerous and highly unstable biotic.",
+      "url": "https://masseffect.fandom.com/wiki/Purgatory",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "starships-list_085",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Purgatory",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Purgatory* Class Prison Ship Affiliation Blue Suns A former ark ship captured by the Blue Suns and converted to hold prisoners. Destroyed by Jack in 2185\\. Commanded by Warden Kuril. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#01",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory The Normandy docks at Purgatory, where Cerberus has paid for the release of the prisoner Jack. The turian station commander, Warden Kuril, welcomes Shepard, declines to take the squad's weapons, gives a short tour of Cellblock Two and its ejectable cells, then leaves to confirm the credit transfer.",
+      "url": "",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "warden-kuril_001",
+      "kind": "page",
+      "page": "Warden Kuril",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Warden Kuril** is the turian warden of the Blue Suns prison ship Purgatory. Originally a law enforcement officer on Palaven, Kuril left after having grown tired of criminals always escaping. He joined up with the Blue Suns and came up with the idea of keeping criminals in space, where they can't escape. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | When Commander Shepard visits the Purgatory in order to retrieve Jack, Kuril gives the Commander a tour of the ship. He tells Shepard to go to Outprocessing to pick up Jack. When Shepard opens the door, Kuril reveals that he has betrayed Cerberus and orders the mercenaries to capture and hold Shepard for ransom. When Shepard releases Jack from cryo, the psychotic biotic goes on a rampage, wrecking prison blocks as she goes. Seeing that Shepard is too much trouble, Kuril decides to kill the Commander. When they come face\\-to\\-face, Shepard accuses him of being a \"two\\-bit slaver\". Kuril shouts back that he's doing everything for the good of the galaxy. Despite his being protected by shield generators, Shepard manages to kill Kuril.",
+      "url": "https://masseffect.fandom.com/wiki/Warden_Kuril",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "purgatory_005",
+      "kind": "page",
+      "page": "Purgatory",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Upon arrival at the Purgatory, Shepard is informed that the \"package\" is being prepared. Warden Kuril indicates that Cerberus paid for Jack's release. Shepard is directed to the Outprocessing area of the ship. On the way to Outprocessing, Shepard has the opportunity to stop the brutal interrogation of a prisoner called Bimmy before moving on. At that point, Warden Kuril betrays Shepard, explaining over the intercom that the Commander is \"worth more as a prisoner than a customer\" and sics the Blue Sun guards on Shepard's squad. Shepard and the team manage to fight them off and then release Jack, who goes on a brutal rampage throughout the prison causing catastrophic damage. By the time Shepard faces and kills Kuril, the prison has endured significant structural damage, and is falling apart. In the aftermath, the Council sends rescue ships to save any guards or prisoners that survive in escape pods.",
+      "url": "https://masseffect.fandom.com/wiki/Purgatory",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#06",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Jack agrees to join in exchange for access to Cerberus files aboard the ship; Miranda and Jacob object. Back on the Normandy she demands the files, takes an immediate dislike to Miranda — \"the cheerleader\" — and settles into the sub-deck below main engineering.",
+      "url": "",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#05",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Jack reaches the airlock and kills the guards. Seeing the Cerberus logo on the Normandy sends her into a rage; a batarian guard moves to ambush her and Shepard shoots him in the head.",
+      "url": "",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#02",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory At Outprocessing, Kuril betrays Shepard over the intercom — the Commander is too valuable to leave without a price tag — and activates the prison's defences.",
+      "url": "",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_024",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Purgatory",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The prison ship *Purgatory* has long arms where staff and utilities are located. The prisoners are housed in the body of the ship, which resembles a fish's skeleton. *Purgatory*'s interior emphasizes the division between the guards and the prisoners\\-\\-the guards walk in the armored glass hallways, while the prisoners are in courtyards. Jack, one of the galaxy's most powerful biotics, was kept in a cryogenic cell for the ultimate in solitary confinement.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "summary:warden-kuril",
+      "kind": "summary",
+      "page": "Warden Kuril",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Warden Kuril was the turian warden of the Blue Suns prison ship Purgatory. Originally a law enforcement officer on Palaven, Kuril grew frustrated with criminals repeatedly escaping custody, so he left and joined the Blue Suns, conceiving the idea of holding prisoners in space where escape was impossible. He was one of the few \"barefaced\" turians seen in the series, and was voiced by Fred Tatasciore.\n\nWhen Commander Shepard came aboard Purgatory to recruit the biotic prisoner Jack, Kuril gave Shepard a tour and directed the Commander to Outprocessing to collect Jack. When Shepard opened the door, Kuril revealed he had betrayed Cerberus and ordered his mercenaries to capture and hold Shepard for ransom. Shepard instead released Jack from cryo; the biotic went on a rampage that wrecked prison blocks as she fought her way out. Deciding Shepard was too much trouble, Kuril chose to kill the Commander. In the confrontation Shepard called him a \"two-bit slaver,\" and Kuril shouted that everything he did was for the good of the galaxy. Despite being protected by three external shield generators, which had to be destroyed before he could be harmed, Kuril was killed by Shepard.\n\nIn combat Kuril was one of the few NPCs armed with the M-76 Revenant, which he fired accurately, especially on higher difficulties, though he had no offensive powers. He relied on strong armor and shields, Tech Armor that could fully restore his shields once (only after his armor was gone), the three external shield generators, and elevated cover with no approach path, forcing engagement strictly at range. The page recommends disruptor and overload effects against his shields, incineration against his armor, flashbang or inferno grenades to prevent his shield restore, and heavy weapons such as the M-490 Blackstorm or M-920 Cain to end the fight quickly, and advises clearing the waves of Blue Suns Troopers, Centurions and Commanders before destroying the generators.",
+      "url": "https://masseffect.fandom.com/wiki/Warden_Kuril",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "blue-suns_019",
+      "kind": "page",
+      "page": "Blue Suns",
+      "section": "Known Members",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Solem Dal'serah \\- Head of Operations of the Blue Suns in 2185\\. - Vido Santiago \\- Co\\-Founder and leader of the Blue Suns in 2185\\. - Zaeed Massani \\- Co\\-Founder and former leader of the Blue Suns. - Darner Vosque \\- Leader of the Blue Suns in 2186\\. - Tarak \\- Commander of the Blue Suns on Omega. - Jentha \\- Officer of the Blue Suns on Omega. Answers to Tarak. - Salkie \\- Officer in charge of logistics on Omega. Answers to Tarak. - Jedore \\- Commander and contributor to Okeer's krogan cloning project on Korlus. - Warden Kuril \\- Commander of the Purgatory prison ship. - Sergeant Cathka \\- Engineer and maintenance man for Tarak's gunship. - Lieutenant Locke \\- Officer in charge of raid of Prothean dig site on Joab. - Sergeant Boortis \\- Hijacker of the MSV Strontium Mule. - Captain Vorhess \\- Hijacker of the MSV Strontium Mule. - Captain Narom \\- Commander of the Blue Suns base on Sanctum. - Jace Reyn \\- Former Blue Suns soldier loyal to Zaeed.",
+      "url": "https://masseffect.fandom.com/wiki/Blue_Suns",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "summary:purgatory",
+      "kind": "summary",
+      "page": "Purgatory",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Purgatory was a maximum-security prison starship owned and run by the Blue Suns mercenary company, located in the Milky Way's Hourglass Nebula around Osun. Its facility administrator was Warden Kuril. It was where Commander Shepard could recruit Jack, a dangerous and highly unstable biotic, during the mission Dossier: The Convict.\n\nOriginally an \"ark ship\" built to carry agricultural animals, Purgatory was seized by the Blue Suns during a large-scale battle in the Skyllian Verge, then rebuilt over years into a prison for sapient inmates. Rumors held that the Blue Suns sold skilled or fit prisoners to batarian slavers. When media investigated the slaving claims, the Blue Suns turned the scandal into income: claiming full compliance with Citadel law, Purgatory's crew would land at ports announcing they could no longer afford to hold prisoners and would have to release them locally, prompting governments to grant massive discounts on fuel, food and repairs to make them leave, and some even paid to offload their own prisoners. The listed population was 4,350, though journalists estimated nearly three times that during overcrowding. The ship was minimally armed with GARDIAN defenses and relied on Blue Suns fighters. It held about 30 blocks of stacked, movable cells serviced by mechanized claws, with open-air communal showers and field-generator towers to separate fighting inmates. A fork in the walkways led to a supermax wing of criminals in cryogenic stasis, where Jack was held under guard by multiple YMIR Mechs.\n\nOn Shepard's arrival, Kuril said Cerberus had paid for Jack's release and directed Shepard to Outprocessing, where Shepard could intervene in the brutal interrogation of a prisoner called Bimmy. Kuril then betrayed Shepard over the intercom, declaring the Commander \"worth more as a prisoner than a customer,\" and set the Blue Suns guards on the squad. Shepard fought through and released Jack, who went on a destructive rampage. By the time Shepard killed Kuril, the prison was falling apart from structural damage. Afterward the Council sent rescue ships for any survivors in escape pods.",
+      "url": "https://masseffect.fandom.com/wiki/Purgatory",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "storyline-ii_034",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Recruiting a Team",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Illusive Man initially provides Shepard with four dossiers regarding potential recruits: a salarian scientist, a mysterious vigilante called Archangel, a krogan warlord, and a powerful but psychotic biotic. The salarian, Mordin Solus, is found on Omega and is working to stop a plague engineered by the Collectors but distributed throughout Omega by the vorcha. The vigilante Archangel is also on Omega, holding out on his own in a battle against three mercenary gangs. After reaching Archangel's hideout, Shepard learns that Archangel is actually Garrus Vakarian, a former C\\-Sec agent. Garrus is seriously injured while battling the mercenaries, and, although he is permanently disfigured, he survives and joins the team. The krogan warlord, Okeer, is found on Korlus attempting to create the perfect krogan through unethical genetic research. When the warlord is killed, he leaves his creation, Grunt, under the care of Shepard. The biotic, known as \"Subject Zero\", is revealed to be a human woman named Jack. Cerberus arranges for her to be purchased from the prison holding her; Shepard travels to the Purgatory prison ship. Once there, however, Shepard is betrayed by the warden as he attempts to capture Shepard for a bounty. Shepard manages to escape the trap and rescue Jack, who joins the team despite an initial distrust of Cerberus operatives.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "summary:dossier-the-convict",
+      "kind": "summary",
+      "page": "Dossier: The Convict",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Dossier: The Convict\" was a Mass Effect 2 recruitment mission acquired after Freedom's Progress. The dossier described Jack (no last name known) as rumored to be the most powerful human biotic ever encountered, with a history of violence, held in cryostasis aboard the turian prison ship Purgatory, whose operators Cerberus had paid for the prisoner's release. On arrival, the turian station commander Warden Kuril welcomed Shepard, gave a tour of Cellblock Two, and left to confirm the credit transfer. At Outprocessing, Kuril betrayed Shepard over the intercom, declaring the Commander too valuable to leave without a price tag, and activated the prison's defenses.\n\nFighting through Blue Suns mercenaries, FENRIS and YMIR mechs, and rioting prisoners, Shepard reached a security console and released Jack from cryostasis. Jack broke her restraints, destroyed the four YMIR Mechs guarding her cell with a massive biotic blast, and smashed a hole through the wall, triggering a chase through decompressing cellblocks. Kuril, using an M-76 Revenant and protected by a shield powered by three generators, made a final stand; Shepard destroyed the generators and killed him, ending the mission.\n\nJack reached the airlock, killed the guards, and was enraged on seeing the Cerberus logo on the Normandy. A batarian guard nearly ambushed her before Shepard shot him. Jack agreed to join in exchange for access to Cerberus files aboard the ship; Miranda and Jacob objected. Back on the Normandy, Jack demanded the files and immediately developed a dislike for Miranda, whom she called \"the cheerleader.\" She took up residence in the sub-deck below main engineering. Because all prisoners had to be released to free Jack, Shepard received a threatening email from an escaped psychopath named Billy. Rewards included element zero, credits, and Ablative VI (Damage Protection) and Synchronized Pulsar (Shotgun Damage) upgrades. The mission was written by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Convict",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "summary:technician",
+      "kind": "summary",
+      "page": "Technician",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Short page. The Technician was a minor enemy encountered aboard the Purgatory during the mission Dossier: The Convict in Mass Effect 2, found at the end of the hall in the room just before Jack is released. After Warden Kuril springs his trap, the Technician frantically calls for aid and is quickly killed by Shepard's squad. He is armed only with a pistol, has no armor, and carries only health on lower difficulties or light shielding on higher ones, making him very weak.",
+      "url": "https://masseffect.fandom.com/wiki/Technician",
+      "for_key": "the prison ship Purgatory and Warden Kuril's betrayal"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#03",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Fighting through Blue Suns mercs, FENRIS and YMIR mechs, and rioting prisoners, Shepard reaches a security console and releases Jack from cryostasis. Jack breaks her restraints, destroys the four YMIR Mechs guarding her cell with a single biotic blast, and smashes a hole through the wall.",
+      "url": "",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "scene:korlus-okeer-and-grunt#05",
+      "kind": "scene",
+      "page": "Okeer's Legacy on Korlus",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "korlus-okeer-and-grunt",
+      "text": "Okeer's Legacy on Korlus. 2185, after Freedom's Progress Jedore's Blue Suns camp and Okeer's cloning lab on Korlus; then the Normandy Shepard fights Jedore — rocket launcher and a YMIR Mech, tank-bred krogan breaking loose around her — and kills her.",
+      "url": "",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jiro-kahlee-bedtime-conversation#01",
+      "kind": "scene",
+      "page": "Jiro's Interrogation of Kahlee in Bed",
+      "section": "banter",
+      "game": "Mass Effect",
+      "scene_id": "grissom-academy-jiro-kahlee-bedtime-conversation",
+      "text": "Jiro's Interrogation of Kahlee in Bed. 2183, during Mass Effect: Ascension, at the Jon Grissom Academy, shortly after Gillian's biotic outburst in the cafeteria Kahlee Sanders and Jiro Toshiwa's quarters After Gillian Grayson unleashed a biotic storm in the Academy cafeteria, Jiro Toshiwa— who had been absent during the incident—questioned Kahlee Sanders about what happened while they were in bed together. She told him about Gillian's violent outburst in the cafeteria and Hendel Mitra subduing her with his own biotics.",
+      "url": "",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "jack_005",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I want to go to the center of the place, my cell. I want to deploy a big fucking bomb. And I want to watch from orbit when it goes.” *Main article: Jack: Subject Zero* After looking through her files, Jack wants to deploy a bomb at the Teltin facility on Pragia, where Cerberus conducted their experiments on her. Shepard takes Jack to the facility, unexpectedly encountering Blood Pack mercenaries. After fighting through the mercs, they find another test subject, Aresh. Aresh hired the mercs to restore the Teltin facility in exchange for salvage. Jack wants to kill him, but Shepard has the option to stop her. The two plant the bomb in Jack's cell, and use the shuttle to escape before detonation. If Miranda's loyalty mission has already been completed, once Shepard returns to the Normandy, Shepard will have to resolve a dispute between Jack and Miranda regarding the involvement of Cerberus in Jack's torture. Shepard can resolve the conflict without picking a side, in which case, both Jack and Miranda agree to put off their fight until after the mission with the Collectors is over. If Shepard sides with Miranda, then the Commander will lose Jack's loyalty, but has the opportunity to regain her loyalty in a later conversation. In addition, if Shepard was in a romance with Jack, and sided with Miranda, then Jack will break off the relationship and will refuse to rekindle it.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "scene:aratoht-arrival-kenson-extraction#01",
+      "kind": "scene",
+      "page": "Breaking Out of Aratoht Prison",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "aratoht-arrival-kenson-extraction",
+      "text": "Breaking Out of Aratoht Prison. 2186, Arrival DLC, Aratoht batarian prison a batarian prison complex on Aratoht Shepard broke into the batarian prison on Aratoht to extract Dr. Amanda Kenson. Overhearing her protests as she was dragged to interrogation, Shepard found her in a cell moments before she was to be beaten. Shepard knocked out the guard and gave Kenson a weapon.",
+      "url": "",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "jack_002",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack was born in 2161 and abducted by Cerberus operatives in 2165 from Eden Prime, although it is unknown whether that was her birthplace. Cerberus' motives pertained to her newly discovered biotic potential, a result of accidental exposure to element zero in the womb. As a cover for her abduction, her mother was told that she had died due to complications of her eezo exposure. After initial tests, Jack became the prime subject of a sizable Cerberus experiment on Pragia's Teltin facility, with the goal of enhancing biotic potential in humans, regardless of the cost. The project was a typical Cerberus operation: lavishly funded, highly efficient, and morally indifferent, with a heavy reliance on brutal human experimentation and conditioning techniques in an attempt to maximize results. Referred to as Subject Zero, Jack was the core of the project, with every successful biotic enhancement applied to her. Many other children of lesser biotic ability were also kept as part of the experiment and treated as expendable lab animals, with many dying in trial runs of treatments to ensure that they would be successful on Zero. Any enhancements that proved lethal were not applied to Jack. She was tortured frequently, both psychologically and physically, in various experiments to test how pain and distress affected her biotic abilities. As she grew in both age and hatred for her captors, her powers eventually advanced to such a level that she became a serious threat to the staff, easily killing one by blasting him into a wall. Kept separate from other children, she grew up believing that the entire world was what she could see outside her window and repeatedly screamed herself hoarse while trying to communicate with others through her soundproofed cell. In reality, the window was a one\\-way mirror, intended as just another form of psychological torture. As they were regularly and remorselessly killed in various experiments designed solely to advance Jack's biotic abilities, the other kids grew to despise her as the source of all their suffering. This was only made worse by the fact that (on account of the one\\-way mirror) the only time they ever saw her was when the staff forced her to fight the other students gladiator\\-style in order to monitor her biotic progress and condition her to love the act of killing; she would even be injected with narcotic drugs during the fights to further associate killing with euphoria in her mind. Eventually, while being led to another deadly experiment, the children rioted and attacked the guards. Backed up by their biotics, the riot caused damage to the facility and Zero was freed. At this point her powers had grown so great that nothing could stop her. She would later have difficulty remembering those events for the next years in her life, due to her age at the time and the chaos. She would claim the guards and children attacked her, forcing her to kill them all. When she returned to Teltin, recorded logs rendered it more likely that the children were attempting either to get close to her for safety, since the guards had been ordered to keep Jack alive, or were trying to kill her as a measure of revenge. In either case, Jack's pent\\-up rage and sudden release from captivity caused her to fly into a fury, killing almost everyone in the facility in a furious biotic rampage before stealing a shuttle and flying off Pragia into the Dakka system, where it was picked up by another ship after several days. Rather than helping her, the crew \"used\" her before selling her off as a slave. The Teltin facility on Pragia was shut down by the Illusive Man shortly after Jack's escape. Although operating as an official Cerberus cell and receiving Cerberus funding, years later the Illusive Man would state he was initially unaware of the brutality of Teltin's experiments, claiming that he shut the facility down after finding out it had \"gone rogue\". This official stance is echoed by Miranda Lawson, who (when confronted by Jack) refuses to admit blame on behalf of Cerberus for Jack's experience, calling her ordeal a \"mistake\" and blaming it on a splinter group. After her escape, Subject Zero went on to live a predictably violent and bloody life. In order to sever ties with her past she took on the name Jack, and reacts violently whenever addressed by her former designation. She ran with various gangs, became a pirate, crashed a space station into a hanar moon (becoming wanted for vandalism in the process), and at one point joined a cult, keeping her head shaved even after her departure. |  | ***“I guess I want to stand for something too.”*** — Spoilers for **Mass Effect: Foundation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "summary:jack-subject-zero",
+      "kind": "summary",
+      "page": "Jack: Subject Zero",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack's loyalty mission in Mass Effect 2, available after Horizon and written by Brian Kindregan. After Shepard gives Jack access to Cerberus files aboard the Normandy, Kelly Chambers relays that Jack wants to see Shepard in her \"hidey hole\" on the Engineering Deck. Jack asks Shepard to help her destroy the decommissioned Teltin facility on Pragia, in the Dakka system of the Nubian Expanse, where Cerberus experimented on her as a child. She wants to plant \"a big fucking bomb\" in her old cell and watch it detonate from orbit.\n\nOn arrival EDI detects thermal signatures inside the complex but none near the landing zone. Moving through the facility, Jack recognizes rooms and revisits memories: a skylit atrium where she first saw sunlight, a bloodstained arena where she was pitted against the other children and drugged as a reward for killing and shocked for hesitating, a cell block, and a two-way mirror outside her own cell where she used to bang on the glass while the other children ignored her. Security consoles reveal the staff had \"gone rogue\" from the Illusive Man's orders, that all subjects were expendable except Jack, that children were exposed to chemicals and freezing temperatures, and that the project planned to infiltrate the Alliance's Ascension Project; a final log shows Jack killing the distraught doctor during the riot. The team fights varren, Blood Pack vorcha and krogan mercenaries (including a Pyro and the krogan Kureck), hired by Aresh.\n\nIn Jack's cell, Shepard meets Aresh, a former test subject who recognized Jack and is trying to restart the facility so the experiments \"must have been for something.\" Jack draws a pistol; Shepard can use Charm to spare him, Intimidate to have Jack kill him, or plain dialogue options with corresponding Paragon or Renegade interrupts. Shepard can then leave or stay while Jack walks the cell recounting memories of the window, bed, desk, and a bloodstain. On the shuttle back, Jack fumbles with the detonator, then presses it when Shepard nods, and the bomb destroys the facility.\n\nBack on the Normandy, if Miranda's loyalty mission is complete, Jack confronts Miranda in her office, throwing a chair, furious that Miranda will not admit Cerberus was wrong. Without sufficient Paragon or Renegade standing, Shepard must alienate one crewmate, losing that person's loyalty and any romance (recoverable later). Cerberus Intel emails that the Illusive Man had ordered the project shut down before the riot, that arriving personnel found all guards and most subjects dead, and that surviving children were given amnesic treatments and delivered to the Alliance as \"slaver attack\" survivors. Rewards include 750 experience, 30,000 credits, 500 element zero, a Biotic Damage (Hyper-amp) upgrade, and Warp Ammo for Jack. If Aresh is spared, a Mass Effect 3 news alert reports he died saving a shuttle of children evacuating a Reaper-occupied colony; his full name is given as Aresh Aghdashloo.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "war-assets-alliance_010",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Jack's survival in the Suicide Mission and completing Grissom Academy: Emergency Evacuation. **Military Strength:** 25 Jack, formerly known as Subject Zero, may be the most talented biotic of her time. After helping Shepard destroy the Collectors, she was offered a teaching position at Grissom Academy by the Alliance. Accepting the position for reasons of her own, Jack continued to hone her skills while training her students. Grissom Board of Directors member Kahlee Sanders has vouched for Jack's energetic, if unorthodox, teaching style, impressed with the inroads made with the children under the rogue biotic's care.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "subject-zero-power_003",
+      "kind": "page",
+      "page": "Subject Zero (power)",
+      "section": "Power Ranks",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- **Rank 1** \\- Jack's experimentation with her unique abilities increases her health and weapon damage, and reduces the recharge time of her powers. - **Health**: \\+5\\.00% - **Weapon Damage**: \\+6\\.00% - **Power Recharge Time**: \\-6\\.00% - **Rank 2** \\- Jack's experimentation with her unique abilities increases her health and weapon damage, and reduces the recharge time of her powers. - **Health**: \\+10\\.00% - **Weapon Damage**: \\+12\\.00% - **Power Recharge Time**: \\-12\\.00% - **Rank 3** \\- Jack's experimentation with her unique abilities increases her health and weapon damage, and reduces the recharge time of her powers. - **Health**: \\+15\\.00% - **Weapon Damage**: \\+18\\.00% - **Power Recharge Time**: \\-18\\.00% **Rank 4** Evolves Subject Zero into one of the following options: #### *Primal Adept* - Jack can push her biotic abilities to the limit, greatly reducing recharge times of her powers. - **Health**: \\+20\\.00% - **Weapon Damage**: \\+18\\.00% - **Power Recharge Time**: \\-25\\.00% #### *Primal Vanguard* - Jack focuses her ruthless energy into combat, heightening her weapon damage. - **Health**: \\+20\\.00% - **Weapon Damage**: \\+25\\.00% - **Power Recharge Time**: \\-18\\.00%",
+      "url": "https://masseffect.fandom.com/wiki/Subject_Zero_(power)",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "kai-leng_008",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Mass Effect: Foundation 7",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kai Leng met up with Rasa and informed her of a mission she was to take with him. Still disliking their forced partnership, Leng filled her in on the details. Someone blew up a Cerberus training facility, and the Illusive Man dispatched them to catch the perpetrator. Leng declared he won't be taking any chances with the job, and told Rasa she's only there to piece together things when he's done. Leng listened to Rasa prattle on about her thoughts on the target's nature once they were at the training facility. He surmised that the Blue Suns contingent also in the base must be there for containment in case of the agents' failure, and with Rasa's suspicions in mind he urged her to keep up the pace. They must find Jack before the mercenaries do. Rasa and Leng found Jack after she finished dealing with some Blue Suns mercenaries. Leng issued threats against the biotic, waving his sword, only to be knocked over by Jack's immense biotic energy. He tried another tactic and came at Jack from above and behind, but she sensed his presence and threw him off farther away. By the time Leng recovered, Jack was already taken unconscious by the mercenaries. He remarked the Illusive Man won't be happy with the developments as he pried his stuck sword loose, and declared the whole fiasco to be a colossal waste of time.",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "out-of-the-frying-pan_007",
+      "kind": "page",
+      "page": "Out of the Frying Pan",
+      "section": "Free Remi",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Release Remi from her cell by using the Cell Control Panel.",
+      "url": "https://masseffect.fandom.com/wiki/Out_of_the_Frying_Pan",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "manual-jack-in-game-dialogue-and-banter_001",
+      "kind": "page",
+      "page": "Jack — In-Game Dialogue and Banter",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "**Summary:** A collection of short Jack dialogue and party-banter clips spanning Mass Effect 2 and Mass Effect 3: a cut conversation about red sand, the Mass Effect 3 scene introducing her varren Eezo, Normandy confrontations with Miranda, and her later life as an instructor at Grissom Academy leading a biotic student squad. Useful as voice reference and for Jack's personal continuity.",
+      "url": "",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "olan-kooth_003",
+      "kind": "page",
+      "page": "Olan Kooth",
+      "section": "Mass Effect: Discovery",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "At yet another round of self\\-experimentation, Zeta works with three LOKI mechs to replace an overloaded bio\\-amp with an improved one, deeming the continuing damage to brain tissue a necessary but acceptable risk. The LOKIs are fried along with much of Zeta's immediate surroundings upon activation of the new amp. He resumes tracking Shio after the incident, barging in on the quarian's hideout in the lower wards of the Citadel. Despite bringing two armed LOKIs with him as backup, Shio manages to escape his clutches and the ensuing commotion results in panicked civilians and the LOKIs' destruction. Zeta's bio\\-amp exploded at an inopportune time and nearly killed them both. Zeta's pursuit then takes him to a planet where Shio's home ship the Novarra operates a strip\\-mining camp. He intends to pump information out of Viegle, Shio's husband, and begins annihilating the camp with raw biotic energy upon his arrival. Zeta faces unexpected resistance when another biotic, Luna Shanks, confronts him in a ploy to buy time while Viegle is transported to safety by her companion Sanjin Vinnick. Zeta recognizes her from the Citadel and believes she is following him, interrogating her why while pitting biotics against biotics. As the combatants are battling each other with a cliff on one side, Zeta manages to throw Shanks off into the chasm with his powers, overloading his amp in the process. The Novarra's militia then arrive and attempt to stop him with massed gunfire, but even while handicapped Zeta slays them all by biotically breaking their bones. He corners Viegle and successfully tortures Shio's location out of him before storming off the planet. On Omega, Zeta has just cornered Shio when a large group of heavily\\-armed people arrive and open fire at him. Shanks, still alive after their battle earlier, teams up with another biotic in the group to trigger a biotic explosion. A large chunk of Zeta's cybernetics are destroyed in this, allowing Shanks to snatch Shio away from him, although the salarian has enough strength left to impale Shanks with a thin pole through her gut. Shanks retaliates by firing her M\\-22 Eviscerator at his face point\\-blank, although somehow the only injury he receives is severe burns on the left side of his face. Infuriated, Zeta lets loose another powerful biotic outburst that knocks everyone off their feet, allowing him to escape the scene. Before leaving the quarian behind, Zeta extracted the location of the Kholas Array from him. His judgment already impaired and experiencing almost unbearable pain, he goes there thinking it is a source of the mysterious tech in his amps, although he is besieged by numerous geth platforms after setting foot on the outer hull. Fully capable of holding his own against over a dozen infantry, heavy and drone platforms he nevertheless receives assistance from Vinnick, who accompanied Shio there on a mission for the Initiative. Zeta is persuaded by Vinnick to help guard Shio against the geth in return for help about the tech in his amps, but Shio informs him the geth had no pertinent tech for organics at the array. Vinnick tries to keep Zeta on the task at hand by calling him with his birth name, but the salarian remembers his handlers told him not to respond to that name again. He channels his anger at the geth platforms assaulting them. Resigned to his fate and feeling he cannot contain his power any longer, Zeta advises the turian and quarian to run before experiencing a massive biotic meltdown.",
+      "url": "https://masseffect.fandom.com/wiki/Olan_Kooth",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "summary:subject-zero-power",
+      "kind": "summary",
+      "page": "Subject Zero (power)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Subject Zero was a passive class power used exclusively by the squad member Jack in the single-player modes of Mass Effect 2 and Mass Effect 3. The page described it as a game mechanic representing Jack's self-experimentation with her unusual biotic abilities.\n\nIn Mass Effect 2 the power enhanced Jack's health and weapon damage while reducing the recharge time of her powers, scaling upward across its first three ranks. At Rank 4 it evolved into one of two specializations: Primal Adept, which pushed her biotics to their limit for the greatest reduction in power recharge time, or Primal Vanguard, which focused her energy into combat for the highest weapon damage bonus.\n\nIn Mass Effect 3 the power was rebuilt with six ranks. It boosted health and shield bonuses alongside power recharge speed, with later ranks offering choices between recharge speed and durability, between weapon damage and increased power force and duration, and between a squad-wide biotic recharge bonus and a further personal recharge boost. In both games the power was available only to Jack and was not offered in multiplayer.",
+      "url": "https://masseffect.fandom.com/wiki/Subject_Zero_(power)",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "summary:olan-kooth",
+      "kind": "summary",
+      "page": "Olan Kooth",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Olan Kooth, also known as Agent Zeta, was a former salarian Special Tasks Group operative and a powerful biotic obsessed with augmenting his power by any means. Discovered by the STG as a child with off-the-charts biotic aptitude, he was trained into one of their deadliest operatives. As an adult he developed a compulsion to boost his biotics and began experimenting on himself when military-grade bio-amps could not keep up; he became mentally unstable and the STG cut ties with him, after which he worked freelance. During his travels he found a set of mysterious spikes and incorporated pieces of the technology into his body, channeling his biotics to unprecedented levels but causing permanent, ultimately fatal nervous-system damage unless he learned to harness the tech. Seeking more such technology, he traced rumors to the quarian scientist Shio'Leth vas Novarra, who had ties to the Andromeda Initiative.\n\nIn Mass Effect: Discovery, Zeta replaced an overloaded bio-amp with help from three LOKI mechs, which were fried on activation. He tracked Shio to the lower Citadel wards, but the quarian escaped amid panic and Zeta's amp exploded, nearly killing them both. His pursuit took him to a planet where Shio's ship the Novarra ran a strip-mining camp; he began annihilating it with raw biotic energy to interrogate Shio's husband Viegle, was delayed by the biotic Luna Shanks (whom he threw off a cliff), slaughtered the Novarra militia by biotically breaking their bones, and tortured Shio's location out of Viegle. On Omega he cornered Shio, but a heavily armed group including a still-living Shanks triggered a biotic explosion that destroyed much of his cybernetics; Shanks pulled Shio away, Zeta impaled her with a pole, she fired an M-22 Eviscerator into his face leaving severe burns, and he escaped after another biotic outburst. Having extracted the location of the Kholas Array from Shio, Zeta went there believing it held the tech in his amps, but was besieged by geth platforms. Sanjin Vinnick persuaded him to help guard Shio against the geth, but Shio told him the geth had no relevant tech for organics. Refusing to answer to his birth name, and resigned that he could no longer contain his power, Zeta warned Vinnick and Shio to run before suffering a massive biotic meltdown.",
+      "url": "https://masseffect.fandom.com/wiki/Olan_Kooth",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "summary:jack",
+      "kind": "summary",
+      "page": "Jack",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack, also known as Subject Zero and Jacqueline Nought (birth name Jennifer), was a notorious human criminal and possibly the most powerful human biotic alive. Born in 2161, she was abducted by Cerberus in 2165, reportedly from Eden Prime, after accidental in-utero element zero exposure gave her biotic potential; her mother was told she had died. She became the central subject of Cerberus' experiment at the Teltin facility on Pragia, which sought to maximize human biotic potential regardless of cost. Every successful enhancement was applied to her; other biotic children were used as expendable test subjects and frequently killed. She was tortured physically and psychologically, kept behind a soundproofed one-way mirror, and forced into gladiatorial fights against the other children, being shocked for hesitating and injected with narcotics for killing, conditioning her to associate killing with euphoria. The other children came to hate her as the source of their suffering.\n\nDuring a transfer, the subjects rioted, freeing Jack, who flew into a fury and killed nearly everyone in the facility before stealing a shuttle and escaping into the Dakka system. The ship that picked her up used her and sold her as a slave. The Illusive Man shut Teltin down shortly after, later claiming it had \"gone rogue.\" Jack took the name Jack, reacting violently to \"Subject Zero,\" and lived a violent life of piracy, gang membership, vandalism (crashing a space station into a hanar moon), and a stint in a cult (from which she kept her shaved head). In Mass Effect: Foundation she assaulted a Cerberus facility, killed Doctor Angersol, defied the Illusive Man, tried to free biotic student trainees, fought Kai Leng and Rasa, and was knocked out and captured by Blue Suns.\n\nJack was eventually imprisoned on the Blue Suns prison ship Purgatory, where she was assaulted and raped by guards and prisoners and then murdered every attacker; the Warden kept her in cryostasis until Shepard's team bought her freedom in 2185. Rendered a borderline psychopath but still haunted by her past, she joined Shepard in exchange for her Teltin files, then asked Shepard to help her destroy the abandoned facility with a bomb planted in her old cell (the mission Jack: Subject Zero). There the team encountered Aresh, a fellow test subject trying to restore Teltin; Shepard could stop Jack from killing him. If Miranda's loyalty mission was done, Shepard had to mediate a fight between Jack and Miranda over Cerberus' blame; siding with Miranda cost Jack's loyalty and ended any romance.\n\nJack was a romance option for a male Shepard. Casual sex ended communication; a slower approach revealed her past, including the partner Murtock who died to save her, leaving her survivor's guilt, and culminated in a tender, emotional love scene. Mordin Solus offered Shepard biotics safety advice. Rejecting her as a \"lost cause\" made her hostile.\n\nBy 2186 (if she survived the Suicide Mission), Jack had grown her hair into a ponytail with shaved sides, matured, and taken a teaching post at Grissom Academy training combat biotics, considering her students the family she never had. During Cerberus' raid to kidnap the students (Grissom Academy: Emergency Evacuation), Jack defended them alongside Shepard and Kahlee Sanders, punching Shepard on reunion for reasons depending on prior choices. She disciplined Ensign Rodriguez and Jason Prangley and led the students in support of Shepard's squad. If Shepard did not arrive in time, Jack appeared as an indoctrinated Phantom at Cronos Station and had to be killed. If romanced, she could rekindle or end the relationship at Purgatory Bar. In the final battle she could be contacted by comm; in a surviving-galaxy ending she is seen gazing at the stars, visiting her students' graves, or alive with her students, depending on choices. If killed, her name appears on the Normandy memorial wall as Jacqueline Nought. In the Citadel DLC she fights in the Armax Arena, introduces her biotic varren Eezo from Thessia, and can tattoo a romanced Shepard so his body can be identified. Jack was voiced by Courtenay Taylor and written primarily by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's biotic outburst breaking loose from her cell"
+    },
+    {
+      "chunk_id": "unc-prothean-data-discs_003",
+      "kind": "page",
+      "page": "UNC: Prothean Data Discs",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "These discs are extremely fragile; intact discs are rare and usually found inside Prothean data recording devices. Scientists have not yet found a way to transcribe the information from these discs, but it is generally agreed that they are the most promising source of information on Prothean science and culture.",
+      "url": "https://masseffect.fandom.com/wiki/UNC:_Prothean_Data_Discs",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "shadow-broker-base_003",
+      "kind": "page",
+      "page": "Shadow Broker Base",
+      "section": "Interior",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The interior of the ship has many compartments including the ship's engines, which must remain active at all times to prevent it from falling. Also inside is central operations, probably the nerve center of the ship. There is also a prison block where the Shadow Broker keeps hostages, and torture facilities for interrogation purposes. Finally there is the Shadow Broker's Office, Intel Center, and private quarters. Within the private quarters, a custom VI Drone assists the Shadow Broker with maintaining his massive network of informants, contacts, and agents. Despite the ship's volatile location, motion dampeners absorb the noise and vibrations from the storm outside.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Base",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "scene:aratoht-arrival-kenson-extraction#02",
+      "kind": "scene",
+      "page": "Breaking Out of Aratoht Prison",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "aratoht-arrival-kenson-extraction",
+      "text": "Breaking Out of Aratoht Prison. 2186, Arrival DLC, Aratoht batarian prison a batarian prison complex on Aratoht Kenson vented her rage at the guard, stomping on his throat. She and Shepard fought through the prison complex, with Kenson directing Shepard through enemy positions from behind cover. They reached a security console where Kenson hacked the system to override security and disable the orbital tracking grid.",
+      "url": "",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "summary:elite-prison-guard",
+      "kind": "summary",
+      "page": "Elite Prison Guard",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Elite Prison Guards were enemies encountered in the Mass Effect 2 assignment Arrival. After Commander Shepard freed Dr. Amanda Kenson from the batarian prison on Aratoht, Elite Prison Guards attacked the pair alongside groups of regular Prison Guards as they fought their way out. They were equipped with the M-15 Vindicator, could arm Disruptor Ammo, and were highly accurate at range but less effective in close combat. They had shields on all difficulties, stronger on higher settings, and could use Tech Armor to restore depleted shields. Because Shepard fought them alone at points in the mission, the recommended tactics were to prioritize and kill them quickly before they could re-shield, or to close the distance and exploit their weakness up close after dealing with accompanying guards.",
+      "url": "https://masseffect.fandom.com/wiki/Elite_Prison_Guard",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "scene:hagalaz-shadow-broker-ship-feron-yahg#02",
+      "kind": "scene",
+      "page": "Storming the Broker's Ship and Freeing Feron",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "hagalaz-shadow-broker-ship-feron-yahg",
+      "text": "Storming the Broker's Ship and Freeing Feron. 2185, during Lair of the Shadow Broker, after the death of Tela Vasir on Illium the Shadow Broker's storm-riding ship in the atmosphere of Hagalaz, Sowilo system, Hourglass Nebula At a locked hatch Liara ran a hacking device while the squad held the spot through a long five-wave siege of Shadow Broker forces, including rocket drones, then pushed inside toward the prison block.",
+      "url": "",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "summary:unc-prothean-data-discs",
+      "kind": "summary",
+      "page": "UNC: Prothean Data Discs",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "UNC: Prothean Data Discs was a collection assignment in Mass Effect focused on recovering ancient Prothean data discs, a key subject of research into Prothean culture. The assignment began when Commander Shepard discovered a data disc anywhere in the galaxy. There were ten discs in total, but only seven had to be collected to complete the assignment, which then chained into UNC: Collection Complete. The discs were described as extremely fragile, with intact ones rare and usually found inside Prothean data recording devices; scientists had not yet found a way to transcribe their contents, but the discs were regarded as the most promising source of information on Prothean science and culture. The original completion summary erroneously read \"a complete collection of asari artifacts,\" corrected to \"Prothean\" in Mass Effect Legendary Edition. The page otherwise consists of location tables.",
+      "url": "https://masseffect.fandom.com/wiki/UNC:_Prothean_Data_Discs",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "elite-prison-guard_001",
+      "kind": "page",
+      "page": "Elite Prison Guard",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Elite Prison Guards** are enemies that are encountered during the assignment Arrival. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | After Dr. Amanda Kenson has been freed in the batarian prison on Aratoht, she and Commander Shepard must fight their way out. Elite Prison Guards attack the duo along with groups of Prison Guards.",
+      "url": "https://masseffect.fandom.com/wiki/Elite_Prison_Guard",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "scene:virmire-blasto-kronus-hunt#02",
+      "kind": "scene",
+      "page": "Hunting Kronus on Virmire",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "virmire-blasto-kronus-hunt",
+      "text": "Hunting Kronus on Virmire. During Spectre operations, after Kronus's escape from a prison ship Citadel (briefing room), then a secret facility on Virmire En route to Virmire, Blasto explains that the planet's uninhabitable reputation after a nuclear blast makes it the perfect hideout. Scans confirm a newly built structure on an island. Inside, Blasto and Cerulean Star encounter krogan patrols and dispatch them. Cerulean Star discovers from a console that Kronus is building a machine to freeze time. While she stays to disable it, Blasto confronts Kronus, who freezes him in place with a gauntlet and taunts that he'll be trapped for eternity.",
+      "url": "",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "scene:aratoht-arrival-kenson-extraction#03",
+      "kind": "scene",
+      "page": "Breaking Out of Aratoht Prison",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "aratoht-arrival-kenson-extraction",
+      "text": "Breaking Out of Aratoht Prison. 2186, Arrival DLC, Aratoht batarian prison a batarian prison complex on Aratoht Fighting through the hangar, Shepard and Kenson boarded a shuttle and escaped, incinerating pursuing guards with thruster exhaust as they launched.",
+      "url": "",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "summary:n7-captured-mining-facility",
+      "kind": "summary",
+      "page": "N7: Captured Mining Facility",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "An optional N7 assignment in Mass Effect 2, available after the mission Horizon. Scans of the planet Helyme, second planet of the Zelene system in the Crescent Nebula, detected Eclipse mercenary activity inside a mining facility registered to the Eldfell-Ashland Energy Corporation. The site's distress beacon had been powered down and sensors recorded multiple ships launching from the surface.\n\nShepard's squad landed and fought through roughly seven waves of Eclipse mercenaries, including Eclipse Troopers, Vanguards, Heavies and their leader Captain Vorleon. Logs recovered on site explained the attack: the cargo ship Ter Alan had docked and taken on a large shipment of resources bound for a facility in the Dranek system, requesting an escort because of pirate activity. Eclipse attacked the facility; workers were ordered to escort civilians to the crew quarters and then defend the main computer at all costs. Shepard hacked the facility's main computer and launched a decryption of encrypted data giving the Ter Alan's last reported location, which triggered three further mercenary waves led by Vorleon. The decryption came back incomplete, and the partial data was uploaded to Cerberus for further analysis.\n\nRewards included experience, 15,000 credits and 4,000 palladium. News reports on Illium and the Citadel later stated that the wreckage of the Ter Alan had been found on a planet in the Dranek system with no survivors. The assignment's environments were reused as a testing area for split-screen co-op in an early prototype of Mass Effect Team Assault, featuring squadmates Grunt and Thane fighting a krogan mercenary.",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Captured_Mining_Facility",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "storyline-ii_043",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Assault on the Shadow Broker's Base",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The data obtained reveals that the Shadow Broker settles on the planet Hagalaz, in the Sowilo System of the Hourglass Nebula. Specifically, the Shadow Broker lives aboard a massive ship that travels through the thick, erratic atmosphere of Hagalaz. Shepard, Liara, and a third squad member take the shuttle from orbit down to the planet. Liara provides Shepard with valuable input on the planet's atmosphere, the ship, and the general plan of the mission. First, they have to find a hatch that leads to the inside of the ship, where Feron is held. The shuttle lands, and Shepard and the team begin finding their way for a hatch to get inside. The weather is dreadful, and the layout of the ship's exterior isn't exactly easy to navigate through, but they proceed anyway. Shortly following their touchdown, the team is engaged by maintenance drones, which Liara presumes is because the drones think the team is debris from the storm. After that, troops from the Broker's army start coming and attacking the squad as they advance through. Shepard and the team continue advancing until they reach a door that allows them in. However, the door is locked, but Liara tries to hack it with a certain hacking device, which she says will take a while before the door is completely hacked open. Waiting for the door to open, the team has to defend the position from numerous waves of Shadow Broker forces. Eventually, the door is successfully hacked and they run inside. As the team makes their way inside, more troops are encountered. Liara remarks she has downloaded the ship's layout, saying that they're heading towards the prison block, where Feron is supposedly located. Continuing to the prison block and fighting their way through, the team reaches a locked door that leads directly to where Feron is. They bypass the door and enter to find Feron. Liara attempts to release the drell, but instead, he is shocked. Feron explains that his current status makes him unable to be pulled out, otherwise his brain will fry. Shepard states that this \"looked too easy\" and asks Feron regarding the Shadow Broker, but unfortunately, Feron can't say much, either, since even that gets him shocked. At this point, Liara and Shepard decide that their only option is to confront the Shadow Broker himself and put an end to all this. They walk out the prison block, facing more enemies along the way. At last, they make it to the Shadow Broker's office. Storming the Shadow Broker's office, where he calmly awaits them behind his desk, Shepard and the team find that the Shadow Broker is a species never encountered before. Not bothering to get up, the Broker coldly asks if Shepard and Liara are here for Feron, noting Shepard's actions are reckless even considering the Commander's history. After a brief word exchange between Shepard and the Broker, Liara demands Feron, to which the Broker responds by reminding Liara that her own actions are what caused this to Feron. If the Collectors have not yet been defeated, the Broker states that their offer for Shepard still stands. On the other hand, if the Collectors have been defeated, the Broker announces his intention to use the Normandy SR\\-2's IFF to salvage remaining Collector technology. The Broker notes the team's third squad member (commenting on the financial/political benefits their capture/death will bring him) while arrogantly disregarding Liara, telling her that he knows all her secrets. In response, Liara identifies the Broker as a yahg, likely taken from his homeworld as a trophy or pet, when he ended up killing the original Shadow Broker and taking his place some sixty years ago. This enrages the Broker, causing him to smash his desk and throws it at the three people standing in front of him. The third squad member is knocked out, leaving Liara and Shepard against the Broker. The two rely on each other to fight the giant yahg, in what seems like an unwinnable battle at first. At some point during the fight, Liara suggests that Shepard distracts the Shadow Broker while she prepares for an attack. As soon as Shepard provides the distraction, Liara uses her biotics to pull down the liquid in the above tank straight onto the Broker, which causes the Broker's barrier to malfunction and explode, ultimately destroying him for good.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "ut-47-kodiak-drop-shuttle_003",
+      "kind": "page",
+      "page": "UT-47 Kodiak Drop Shuttle",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Normandy SR\\-2 holds a Kodiak in its hangar bay. Commander Shepard and their team use the shuttle for ground missions throughout their fight to stop the Collectors. During Shepard's mission to the batarian prison on Aratoht, at the request of Admiral Hackett to liberate a friend, Dr. Amanda Kenson, the two manage to steal a Kodiak from the prison hangar to make their escape. The shuttle is painted black and red with a batarian logo. Several Kodiaks are later used to evacuate the Project Base by members of its staff. |  | ***“Do you think I made the wrong decision?”*** — Spoilers for **Mass Effect: Paragon Lost** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/UT-47_Kodiak_Drop_Shuttle",
+      "for_key": "mercenary and prison culture from the inside"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#02",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck The repeat visits make Jack suspicious: \"People usually walk by now. Why are you really asking all these things? ... if this is just about sex, maybe you should just say so.\" Shepard says there is no hurry and wants to know what makes her tick first. Jack: \"You don't need to know someone to sleep with them. You just have to know where to put it.\"",
+      "url": "",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#07",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck If Shepard sleeps with her early, Jack cuts the conversation off — \"nothing to talk about\" — and the trust is broken.",
+      "url": "",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#03",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Kelly warns Shepard that Jack pushes people away yet approaches sex casually, may make advances, and that if Shepard wants her respect he should think twice.",
+      "url": "",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#01",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck After Horizon, Kelly Chambers passes word that Jack wants Shepard in her \"hidey hole\" on the engineering deck — a crawlspace under the drive core where she has claimed a cot. Shepard keeps coming back to ask questions.",
+      "url": "",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "scholar-achievement-guide_002",
+      "kind": "page",
+      "page": "Scholar Achievement Guide",
+      "section": "Aliens: Council Races",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- **Asari** - Automatically unlocked after meeting the Council. - Alternately, talk to Saphyria, the Embassy Receptionist, before meeting the Council. - **Salarians** - Automatically unlocked after meeting the Council. - **Turians** - Automatically unlocked after first conversation in game.",
+      "url": "https://masseffect.fandom.com/wiki/Scholar_Achievement_Guide",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_025",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Pragia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack's loyalty mission takes place on Pragia in an abandoned Cerberus base. Rain and lightning were intended to give the level a horror\\-movie feel, conveying the brutality of Jack's childhood.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "jack_011",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- In an internal document used during Mass Effect 2's early development, the earliest pitch for the \"Convict\" squadmate presented him as a 30\\-year\\-old male. Writer Mac Walters commented that Jack was also somehow inspired by the concept for the \"Mad Bomber\", an unhinged demolition expert. - Jack was originally intended to be a pansexual romance until negative backlash from Fox News concerning the first Mass Effect game forced a reassessment late in Mass Effect 2's development. Despite being unromanceable by a female Shepard, bits of Jack's orientation are still present in the games as per her tale about sleeping with both a man and a woman, both criminals, in her backstory. Scenes were animated for both male and female Shepards, but didn't make it into the final product. - Jack's past with drugs was originally a bigger part of her character, but it was eventually downplayed due to rating and censorship concerns as well as reevaluation by writer Brian Kindregan. Drugs are still mentioned briefly during her Normandy conversations, as well as in a unique interaction Shepard may have with her during Dossier: The Justicar in which she talks about drugs at length.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "jartar_001",
+      "kind": "page",
+      "page": "Jartar",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Hades Gamma / Dis System /  **First planet** **Prerequisite:** UNC: Hostile Takeover (Mass Effect)",
+      "url": "https://masseffect.fandom.com/wiki/Jartar",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "ben-hislop_002",
+      "kind": "page",
+      "page": "Ben Hislop",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben signed up to fight turians after his brother was killed during the aliens' bombardment of Shanxi's settlements. A master of munitions, he was a perfect recruit for Jack's prohumanity movement. Eventually he, Jack, and Eva formed a mercenary trio conducting guerrilla warfare under the employ of General Williams, and he served as Jack's right\\-hand man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "summary:klensal",
+      "kind": "summary",
+      "page": "Klensal",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Klensal was the third planet of the Dis System in the Hades Gamma cluster, with a thin atmosphere of carbon dioxide and ethane. Its first geological surveys, performed by batarians, suggested great mineral wealth, prompting human mining concerns to spend billions of credits rushing to the distant system and sinking test bores. In reality Klensal held only an average level of mineral wealth. Merida Industria, a small Mexican company on its first extrasolar mining venture, was forced into bankruptcy protection. Investigation revealed the batarian crew had deliberately falsified their surveys to lure human rivals into a costly boondoggle; this was unethical but not illegal, and the batarian government disavowed the \"personal actions of a few misguided patriots.\" The planet remained littered with abandoned mining bases, often used as temporary meeting places for criminals.\n\nIn Mass Effect, Klensal was tied to the assignment UNC: Hostile Takeover, involving a syndicate hideout and a crime boss with mercenaries and snipers, plus a mummified salarian carrying a League of One Medallion and salvageable minerals (platinum, beryllium). In Mass Effect 3 it offered a Search and Rescue salvage worth 10,000 credits.",
+      "url": "https://masseffect.fandom.com/wiki/Klensal",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "paravin_001",
+      "kind": "page",
+      "page": "Paravin",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Gemini Sigma / Han System /  **First planet** **Prerequisite:** UNC: Hostile Takeover (Mass Effect) **Prerequisite:** Priority: Sur'Kesh (Mass Effect 3\\)",
+      "url": "https://masseffect.fandom.com/wiki/Paravin",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "summary:omega-aria-t-loak",
+      "kind": "summary",
+      "page": "Omega: Aria T'Loak",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Omega: Aria T'Loak\" was a Mass Effect 2 mission acquired automatically the first time Commander Shepard arrived at Omega, after the prerequisite \"Freedom's Progress.\" Aria T'Loak, ruler of Omega, wanted all important new arrivals to pay their respects at Afterlife, and was a potentially valuable source of information.\n\nOn docking, a salarian named Fargut tried to ingratiate himself before being muscled aside by Moklan, a batarian mercenary working for Aria, who instructed Shepard to visit Aria; neither Fargut nor Moklan interacted with Shepard again. Entering Afterlife past an elcor bouncer, Shepard could be accosted by a batarian named Kylan and his cohorts, with morality points available for dealing with them. Aria sat atop a platform on the far side of the main club floor. Her guards scanned Shepard to verify identity against impostors; morality points were available for resisting the scan and after Aria explained Omega's one rule (\"Don't fuck with Aria\"). Shepard could then ask about Omega and the dossiers or end the meeting, with questions still available later. The mission completed after the initial meeting. Although not formally part of the mission, speaking with Aria was required to advance \"Dossier: Archangel,\" as she pointed Shepard to the relevant people; it was not required for \"Dossier: The Professor.\"",
+      "url": "https://masseffect.fandom.com/wiki/Omega:_Aria_T'Loak",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    },
+    {
+      "chunk_id": "summary:jacob-taylor-unique-dialogue",
+      "kind": "summary",
+      "page": "Jacob Taylor/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A catalogue of dialogue unique to Jacob when he is in Shepard's squad in Mass Effect 2 (with some Mass Effect 3 lines), organized into location-triggered lines, \"talk to squad mate\" conversations, and spontaneous combat and ambient barks. A recurring thread is Jacob defending Cerberus and the Illusive Man, especially during Jack's loyalty mission, where he insists the Teltin facility \"went rogue.\" Representative verbatim lines:\n\n- Jacob, on the Collector Ship entering the massive pod chamber: \"Earth... they're going after Earth.\"\n- Jacob, on the Collector Ship when the Illusive Man's foreknowledge is revealed: \"It doesn't make sense for Cerberus to sell us out. It just doesn't.\"\n- Jacob, during Jack's loyalty mission on the container logs: \"This is... unbelievable.\"\n- Jacob, dying if he leads the second diversion squad in the Suicide Mission without secured loyalty: \"There were too many, but I got them through. You guys finish up for me, all right?\"\n- Jacob, if Shepard destroys the Collector Base and he survives: it was a \"hell of a way to tell the boss you're quitting,\" adding he wished he could have seen the Illusive Man's face.\n- Jacob, using Pull: \"Get over here!\" (a nod to Scorpion from Mortal Kombat), also \"Gravity is one mean mother, huh?\"\n- Jacob, using Barrier: \"Throwing up a barrier!\" / \"Nothing can hurt me now!\"\n- Jacob, caught in friendly fire: \"Get me out of your god-damn sights!\"\n- Jacob, hearing Jedore's canned PA orders on Korlus: \"Who does that?\"\n- Jacob, on Jack's recruitment mission seeing a prisoner beaten: \"Commander, you seein' this shit?\"\n- Jacob, if a female Shepard dumps him for Garrus: he calls the turian a \"Cuttlebone.\"\n\nOther tagged lines: confronting Ish on Omega about a past ambush and warning Shepard against helping him; on Horizon, dismissing Ashley/Kaidan's accusation as \"typical Alliance attitude\"; and, if brought to the Shadow Broker's base, the Broker notes his and Shepard's deaths would cripple Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jacob_Taylor/Unique_dialogue",
+      "for_key": "Jack's first hostile meeting with Shepard"
+    }
+  ],
+  "codex": [],
+  "conflicts": [
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/purgatory-jack-breakout.yaml — Breaking Jack Out of Purgatory",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": []
+}

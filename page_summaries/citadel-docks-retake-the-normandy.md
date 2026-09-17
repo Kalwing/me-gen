@@ -1,0 +1,11 @@
+---
+title: 'Citadel Docks: Retake the Normandy'
+url: https://masseffect.fandom.com/wiki/Citadel_Docks:_Retake_the_Normandy
+game: Mass Effect 3
+type: mission
+characters: [Shepard, Joker, EDI, Samantha Traynor, Brooks, Steve Cortez, Urdnot Wrex, Garrus Vakarian, Tali'Zorah, James Vega, Liara T'Soni, Glyph]
+---
+
+Citadel Docks: Retake the Normandy was a Mass Effect 3 Citadel DLC mission acquired automatically shortly after Shepard escaped the Citadel Archives trap, when it became clear that a clone of Commander Shepard was attempting to steal the Normandy. Joker had room for Shepard plus two squadmates, and the teammates left behind were resentful. During the ride to the docks, EDI, if brought along, briefly went offline because the clone had blocked her connection and taken control of the ship. Joker got the squad close before the Citadel's auto-targeting downed the shuttle, and Shepard fought waves of CAT6 mercenaries, including Heavies and Snipers, across the platform toward the Normandy.
+
+On the boarding ramp, Communications Specialist Samantha Traynor was found furious after the clone, whom she took for the real Shepard, had fired and discharged her for conduct unbecoming. Shepard convinced her the clone was an impostor, and after the squad was sealed out of the airlock she used her mass-effect toothbrush to open its emergency hatch. The Normandy then jetted away with the clone and Brooks aboard. Shepard's team fought through the CIC, recovered a mercenary payment worth 15,000 credits, and found the clone had ordered Shepard's cabin belongings dumped. In the Cargo Bay the clone appeared in a full set of N7 Armor; during a two-stage fight against the clone and a cloaking, sniping Brooks, Cortez and Joker flew a skycar to stop the Normandy jumping to FTL, and the shuttle bay doors were left open. In the final brawl both Shepards ended up dangling over the open bay; Shepard's loyal squad pulled the Commander to safety, and Shepard could offer the clone a hand or kick it off the ship, with the clone falling to its death either way. Brooks was then talked down and arrested or shot while fleeing. Back at the apartment, Joker began planning a party, inviting Traynor, EDI, and Cortez, with Cortez bringing James and Glyph notifying Liara, and Shepard was freed to explore the Citadel Strip.

@@ -1,0 +1,19 @@
+[half-asleep, catching himself] Hn. Still there? Good — [a short pause] thought I'd lost you for a second, [a beat] or lost myself. That rachni story, the queens, the debt nobody pays twice — [a beat] that's not the one keeping me up tonight. [flat, unannounced] Older than that, for me anyway. [a short pause] My father.
+
+Jarrod. [a beat] Warlord. One of the ones who walked out of the Rebellions alive, and out of the turian counterattack after, which by itself tells you what kind of krogan he was — [a short pause] most of that generation didn't get to walk out of anything. He came home with a grudge on him the size of Tuchanka and never put it down. [a beat] The genophage had already done its work by then. One birth in a thousand worth anything. [flat, the judgment already landed] He knew the number. [a long pause] Hh. He just decided dying with the grudge intact was worth more than living without it.
+
+[harder] I told him we were done. [a beat] Not because we were cowards — because the math didn't work anymore. A generation needed to stop swinging and start breeding, and if that meant nobody got to avenge anything for a hundred years, fine, [a short pause] better a hundred years of quiet than none of us left to remember what we were avenging. Enough other clan leaders felt the same that Jarrod couldn't just ignore it.
+
+So he called a Crush. [a beat] Parley, neutral ground, the kind of thing even krogan don't break — and he set it at the Hollows. [quieter] Our dead are down there. [a short pause] Every clan's. Ground where you don't so much as raise your voice, let alone a gun. He picked it because he knew none of us would refuse to go, [a beat] and because he'd already decided what he was going to do there.
+
+[clipped, harder] He talked first. [a beat] Tried to bring me around, the way a father tries a son one more time before he gives up on him. I wasn't moving. None of us were. [a short pause] When he saw that, he gave a signal, and his men came up out of the graves — [a beat] they'd been lying down there with the bones the whole time he was talking. [flat, remembering it plainly] Most of the leaders who'd come with me to argue for peace didn't get a chance to draw anything. [dry, bitter] There was one, Gatatog something, good krogan, [a beat] wrong day to be standing next to me. He fought me himself. [a long pause] [flat, and stops there] I put a dagger in his chest and fought my way out over what was left of my own escort.
+
+[trailing off, losing the thread] There was a smell to that ground [a beat] I still—
+
+[stirring, gruff — waking himself] Huff. Pyjak's back. [a short pause] Fourth time tonight. Somebody feed the damn thing so it stops.
+
+[flat, shutting the door on it] That's the whole of it. [a beat] I'm not going to dress it up past that.
+
+[low, working it through] What it told me — [a beat] and I didn't need to think long about it — was that the dying-race thing had gotten into everybody, not just the ones who talked about it. My own father defiled the one place on Tuchanka nothing's supposed to touch, killed krogan who wanted his people to survive, [a short pause] to keep a fight going he already knew he'd lose. [flat, final] That's not a warlord. [a beat] That's a man who'd rather everyone died together than let go of a debt. I looked at that and didn't see anything worth staying for. So I left the system. [dry] Snort. Centuries of merc and bounty work on worlds you've never heard of, for people who paid on time about half the time. [a beat] That's where a krogan with nothing left to defend ends up — somebody else's weapon, since your own people don't want to be a nation anymore, just a grudge with teeth.
+
+[quiet] I've never told that whole thing straight through to anybody sober. [a beat] Figure it's the bottle talking as much as me. [fading, sleep pulling at the words] Doesn't make it less true. [a long pause]

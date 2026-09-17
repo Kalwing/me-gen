@@ -1,0 +1,9 @@
+---
+title: Collector Assault Rifle
+url: https://masseffect.fandom.com/wiki/Collector_Assault_Rifle
+game: Mass Effect 3
+type: tech
+characters: [Shepard, The Illusive Man, Garrus, Grunt, Legion, Samara, Morinth, Zaeed]
+---
+
+The Collector Assault Rifle, called simply the Collector Rifle in Mass Effect 3's multiplayer mode, was an assault rifle whose organic components set it apart from human designs; its power source appeared to be an internal organ with biotic capacitance and its ammunition resembled pellets of metallic enamel that stripped shields with deadly efficiency. In Mass Effect 2 it was included with the Collector's Editions in the Collectors' Weapon and Armor pack and the Recon Operations Pack, arriving with an e-mail from the Illusive Man explaining that Cerberus researchers had built it to take a standard thermal clip and delivered it to the Normandy's armory; in Legendary Edition it could be researched in the Normandy's Tech Lab for 5,000 iridium. Starting a new game with it made it the default squad assault rifle in place of the M-8 Avenger, and it could be used by Garrus, Grunt, Legion, Samara or Morinth, and Zaeed. It had higher damage than the Avenger but a lower rate of fire, smaller ammo capacity, and lower accuracy that stayed constant during fire and movement, suiting players who fired while running. In Mass Effect 3 it was exclusive to multiplayer, originally unlocked with a code from pre-ordering The Art of the Mass Effect Universe or a Mass Effect 3 Razer accessory, or from the Dark Horse digital store, and after October 9, 2012 was a rare random reward from Retaliation item packs. It dealt slightly more damage than the M-8 Avenger but weighed nearly as much as the M-37 Falcon, was inaccurate when hip-fired, and, unlike the Collector SMG and Sniper Rifle, used thermal clips with a low clip capacity. The Awakened Collector Adept dealt bonus damage with it through its Vengeful Ancient passive.

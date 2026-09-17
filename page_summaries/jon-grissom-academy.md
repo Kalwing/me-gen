@@ -1,0 +1,13 @@
+---
+title: Jon Grissom Academy
+url: https://masseffect.fandom.com/wiki/Jon_Grissom_Academy
+game: Mass Effect 3
+type: location
+characters: [Kahlee Sanders, David Archer, Gavin Archer, David Anderson, Kai Leng, Paul Grayson, Jack, Joker, Traynor, EDI, The Illusive Man]
+---
+
+The Jon Grissom Academy was a Systems Alliance space station commissioned in 2176, in orbit over the human colony of Elysium in the Petra Nebula. Its stated mission was to serve human students with excellence and passion for math, science, and the liberal arts, with an entirely human student body ranging from early teens to mid-twenties. Its population was 8,620; the station was 1.1 km long and weighed 375,000 metric tons. Though not heavily advertised, it also offered classes for biotic students through its main program, the Ascension Project, which trained and monitored young biotics and helped them integrate into society after graduation. Unlike the earlier military program BAaT (Biotic Acclimation and Temperance Training), its training was not exclusively military. The Academy also employed scientific personnel, including Dr. Kahlee Sanders, to develop synthetic intelligence systems and biotic amplifiers such as the L4 implants.
+
+In 2183 the Ascension Project was its most prominent program. In Mass Effect 2, Shepard could send David Archer to the Academy after his brother Dr. Gavin Archer used him in an experiment to control the geth. After Jon Grissom's death, a memorial plaque was erected in the mess hall; six months later, the Reaper-controlled Paul Grayson boarded the station seeking information on the Ascension Project, disabling or killing most of the personnel before David Anderson, Kahlee Sanders, and Kai Leng arrived and killed him.
+
+In 2186 during the Reaper invasion, fewer than twenty teachers and students remained to train biotics and prototype technology for the Alliance. Cerberus attacked to capture the students, masking the assault by broadcasting a turian military signal claiming the station was being evacuated by turian ships; Traynor and EDI linked the signal to one the Illusive Man had used to lure Shepard to a Collector Cruiser. If Shepard traveled there, Joker used the Normandy SR-2 to distract the Cerberus cruiser while the team boarded, found Kahlee Sanders barricaded in a security room, and rescued the remaining students, who were evacuated before the Academy was abandoned. The Academy and Elysium later fell to the Reapers. If Shepard did not go, the kidnapping succeeded and the victims, including Jack if she survived the suicide mission, were subverted into working for Cerberus.

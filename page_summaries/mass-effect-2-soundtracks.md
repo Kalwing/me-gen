@@ -1,0 +1,11 @@
+---
+title: Mass Effect 2 Soundtracks
+url: https://masseffect.fandom.com/wiki/Mass_Effect_2_Soundtracks
+game: Mass Effect 2
+type: lore
+characters: [Jack Wall, Sam Hulick, David Kates, Jimmy Hinson, Brian DiDomenico, Ray Muzyka, Sascha Dikiciyan, Cris Velasco, Christopher Lennertz]
+---
+
+This page catalogues the seven Mass Effect 2 soundtrack releases. The Mass Effect 2 Original Videogame Score was released January 18, 2010, composed and produced by lead composer Jack Wall with his "Wall of Sound" team, including Sam Hulick, David Kates, and Jimmy Hinson, with additional music and implementation by Brian DiDomenico. Wall, Hulick, and Kates had also worked on the original Mass Effect score. BioWare Co-Founder Ray Muzyka praised the score's blend of classic sci-fi sound with unique arrangements. The two-disc score contains character-themed and mission tracks such as "The Illusive Man," "The Lazarus Project," "Freedom's Progress," "Suicide Mission," and "The Collector Base." A Digital Deluxe Edition included 12 of those tracks. In May 2021 BioWare released the score as a free bonus download (available until July 31, 2021 or download limit).
+
+Six supplemental albums followed. EA released Mass Effect 2: Atmospheric (September 8, 2010), ambient and atmospheric cues, and Mass Effect 2: Combat (October 5, 2010), action and combat cues plus some cutscene music including the ending ("The Human Reaper," "The Long Walk," "The Final Reckoning"). DLC scores were Mass Effect 2: Kasumi's Stolen Memory (November 30, 2010, by Sascha Dikiciyan and Cris Velasco), Mass Effect 2: Overlord and Mass Effect 2: Lair of the Shadow Broker (both December 14, 2010, by Christopher Lennertz), and Arrival (by Dikiciyan and Velasco), which was unreleased for download but streamable. Club music heard in Afterlife, the Dark Star Lounge, and Eternity Bar ("Callista" by Saki Kaskas, "Techno Madness" by Jesse Allen, "Happiness" by John Morgan, "To Hide To Seek" by Comaduster) was not made for Mass Effect 2 but reused from other Electronic Arts titles such as Total Club Manager 2004 and Need for Speed: High Stakes, some scrapped from those games. The albums were distributed via iTunes, Amazon MP3, Spotify, and other services.

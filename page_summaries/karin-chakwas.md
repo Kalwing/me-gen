@@ -1,0 +1,13 @@
+---
+title: Karin Chakwas
+url: https://masseffect.fandom.com/wiki/Karin_Chakwas
+game: Mass Effect 3
+type: character
+characters: [Karin Chakwas, Shepard, Jenkins, Kaidan Alenko, Ashley Williams, Anderson, Donnel Udina, Joker, Mordin Solus, Padok Wiks, EDI, Adams, Tali'Zorah, Garrus, Michel, Kelly Chambers, Samantha Traynor, Hackett]
+---
+
+Dr. Karin Chakwas was the human chief medical officer aboard the SSV Normandy and later the Normandy SR-2. She enlisted in the Systems Alliance shortly after medical school seeking adventure, stayed out of duty to humanity, and eventually reached the rank of major. Trained in alien biology, she could treat any crew member. In Mass Effect she treated Commander Shepard after the Eden Prime beacon incident, logged Shepard's vision in her report, explained the medical problems of L2 biotics, and warned Shepard not to let the crew down when the Normandy pursued Saren Arterius to Ilos against Udina's orders.
+
+Chakwas survived the Collectors' destruction of the first Normandy via escape pod. After Shepard's death she worked at the Mars Naval Medical Center, then joined Cerberus for a post on the Normandy SR-2, stating she worked for Shepard, not Cerberus. She asked Shepard for a bottle of Serrice Ice Brandy she had lost; sharing it, a drunk Chakwas revealed she really stayed because Joker would always need help with his Vrolik syndrome, and asked Shepard to promise to share a bottle every year. She also emailed Shepard about healing facial scars, providing medical research and equipment plans. During the Suicide Mission she and the crew were abducted by the Collectors; the longer Shepard delayed, the fewer survived, potentially leaving only Chakwas, traumatized from watching crewmates dissolved alive. If Shepard assigned an escort, she returned safely and called Shepard and Joker the truest friends she ever had; if not, she was killed en route.
+
+In 2186, if she survived, Chakwas worked at an Alliance R&D lab at Shalta Ward coordinating with Admiral Hackett. Shepard could invite her back aboard the Normandy, where she resumed her med bay. She debated Engineer Adams about whether synthetics like the geth and EDI count as valid life, taking the position that they do not. She claimed to have put the Collector abduction behind her but admitted to Adams she had lied to seem brave. She revealed she had no family, being the last of a line of medical professionals, and regarded the Alliance as her spouse and her shipmates as her children. She upheld the annual brandy promise. On the eve of the final battle she told Shepard it had been her honor to serve. Her name was created by writer Drew Karpyshyn as an anagram of "hacksaw."

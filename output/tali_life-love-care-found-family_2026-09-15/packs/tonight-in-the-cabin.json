@@ -1,0 +1,951 @@
+{
+  "section": {
+    "id": "tonight-in-the-cabin",
+    "title": "Tonight, in the Cabin",
+    "target_words": 450,
+    "form": "bedtalk",
+    "narrator": "tali"
+  },
+  "promises": [
+    "She has just come up from the main battery. She said goodbye to Garrus there and made the bet on who kills more, and she tells Shepard about it",
+    "She says tomorrow plainly and small, no grand phrasing, and says out loud that she means to talk until he falls asleep",
+    "A small, unguarded detail of the room and the suit at night, which tells us she is staying"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "normandy-main-battery-goodbyes",
+      "title": "Goodbyes at the Main Battery",
+      "kind": "downtime",
+      "game": "Mass Effect 3",
+      "when": "2186, the eve of the assault on Earth",
+      "where": "the main battery, Normandy SR-2",
+      "participants": [
+        "Shepard",
+        "Garrus Vakarian",
+        "Tali'Zorah vas Normandy"
+      ],
+      "private_to": [
+        "Shepard",
+        "Garrus Vakarian",
+        "Tali'Zorah vas Normandy"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [],
+      "beats": [
+        {
+          "text": "Garrus keeps the main battery, calibrating the guns, and turns up in the port observation lounge when he is not there.\n",
+          "source_chunks": [
+            "garrus-vakarian_009"
+          ]
+        },
+        {
+          "text": "Tali comes down to the main battery to say goodbye to Garrus and to bet him on who kills more. Shepard can thank them both for being there through all of it and for believing in the Commander regardless; Tali's answer is that they will finish it the way it started, together.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_016"
+          ]
+        },
+        {
+          "text": "Garrus's own version of the goodbye is an order dressed as insubordination: come back alive, it would be an awfully empty galaxy without you.\n",
+          "source_chunks": [
+            "garrus-vakarian_015"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "romance": "Tali"
+          },
+          "choice": "romanced Tali",
+          "text": "Before the last push Tali's nerve about retaking Earth wavers for a moment and she says she wants more time. If she follows Shepard on the charge to the Conduit she is critically wounded and evacuated to the Normandy, begging not to be left; Shepard tells her to live and build a home on Rannoch, and she answers that she already has a home and asks him to come back.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_016"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "normandy-memorial-wall-after-thessia",
+        "normandy-garrus-and-tali-reconciliation"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "garrus-vakarian_009",
+        "garrus-vakarian_015",
+        "tali-zorah-nar-rayya_016"
+      ]
+    }
+  ],
+  "attendance": {
+    "normandy-main-battery-goodbyes": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:normandy-kelly-dinner-captain-cabin#01",
+      "kind": "scene",
+      "page": "A Private Dinner With Kelly in the Captain's Cabin",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-kelly-dinner-captain-cabin",
+      "text": "A Private Dinner With Kelly in the Captain's Cabin. 2185, after the mission on Horizon, aboard the Normandy SR-2 the Captain's Cabin, Normandy SR-2 After building chemistry through flirting about new squad members and other mission outcomes, Kelly accepts Shepard's invitation to have dinner together in the Captain's Cabin. She had been hoping for private time with the Commander.",
+      "url": "",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "scene:normandy-kelly-dinner-captain-cabin#03",
+      "kind": "scene",
+      "page": "A Private Dinner With Kelly in the Captain's Cabin",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-kelly-dinner-captain-cabin",
+      "text": "A Private Dinner With Kelly in the Captain's Cabin. 2185, after the mission on Horizon, aboard the Normandy SR-2 the Captain's Cabin, Normandy SR-2 After the suicide mission, if Kelly is among the saved crewmates, Shepard checks in with her in the CIC. If Shepard has no other romantic attachments and the two shared a meal together, Kelly will send Shepard a suggestive follow-up message offering a second cabin date.",
+      "url": "",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "scene:normandy-kelly-dinner-captain-cabin#02",
+      "kind": "scene",
+      "page": "A Private Dinner With Kelly in the Captain's Cabin",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-kelly-dinner-captain-cabin",
+      "text": "A Private Dinner With Kelly in the Captain's Cabin. 2185, after the mission on Horizon, aboard the Normandy SR-2 the Captain's Cabin, Normandy SR-2 Kelly is exhausted the morning after, remarking she hasn't stayed up that late since her college days, but says she enjoyed herself immensely. Shepard's fish collection catches her eye during the meal, so she later offers to feed the fish while the Commander is away on missions.",
+      "url": "",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "scene:hagalaz-shadow-broker-ship-feron-yahg#08",
+      "kind": "scene",
+      "page": "Storming the Broker's Ship and Freeing Feron",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "hagalaz-shadow-broker-ship-feron-yahg",
+      "text": "Storming the Broker's Ship and Freeing Feron. 2185, during Lair of the Shadow Broker, after the death of Tela Vasir on Illium the Shadow Broker's storm-riding ship in the atmosphere of Hagalaz, Sowilo system, Hourglass Nebula If Shepard had romanced Liara in Mass Effect, she later met Shepard aboard the Normandy SR-2 and returned Shepard's old dog tags, recovered from the wreck of the Normandy SR-1; they were kept afterwards in the captain's cabin.",
+      "url": "",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_039",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Priority: The Citadel II",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Talk to EDI (nature and goals of synthetic life) - 2 **Reputation** for interaction. Talk to Allers (doing a report about the Citadel attack in the Captain's Cabin) - 5 **Reputation** for interaction. Talk to James (asking for N7 advice in the Captain's Cabin) - 2 **Reputation** for interaction. Talk to Garrus (in front of the memorial wall, about the conflict with Ashley/Kaidan) - 2 **Reputation** for interaction. Talk to Kaidan (first conversation after being readmitted to the Normandy) - 2 **Reputation** for interaction.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "destiny-ascension_006",
+      "kind": "page",
+      "page": "Destiny Ascension",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The Destiny Ascension is only seen twice outside of cutscenes, during the flyby by the Upper Wards and during the SSV Normandy's escape from lockdown in the first game. In Mass Effect Legendary Edition, during the Wards flyby the ship's outer hull lost color and now shows as an all\\-black surface with the contouring of lights retained. - The Destiny Ascension being destroyed is the default condition in an unmodified game of Mass Effect 2 that was not imported from a Mass Effect save file. - In Mass Effect 2 and Mass Effect 3, Shepard is able to purchase a model of the Ascension for the Captain's Cabin on the Normandy SR\\-2. - In Mass Effect: Andromeda, Pathfinder Ryder can find a model of the Ascension on Elaaden for the Captain's Cabin on the Tempest. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Destiny_Ascension",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "model-ships_002",
+      "kind": "page",
+      "page": "Model Ships",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "There are a total of eleven models to collect in Mass Effect 2; the first model, the Normandy SR\\-2, is already on display in the Captain's Cabin on the Normandy. The remaining models can be purchased from various locations, except for the Flotilla Vessel, which is found during Tali's loyalty mission and the Shadow Broker Base which is found during Lair of the Shadow Broker. Once a model is purchased, it will be placed on the model rack. It is possible to obtain discounted prices of the models by speaking to the shopkeeper or completing minor tasks.",
+      "url": "https://masseffect.fandom.com/wiki/Model_Ships",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_040",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Priority: Perseus Veil",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Talk to Tali (private conversation in Captain's Cabin) - 2 **Reputation** for interaction.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "mass-effect-legendary-edition-changes-from-the-original-mass-effect-trilogy_004",
+      "kind": "page",
+      "page": "Mass Effect Legendary Edition/Changes from the Original Mass Effect Trilogy",
+      "section": "Audiovisual Updates",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Real\\-time reflections in select areas, such as the fish tank in the Captain's Cabin aboard the Normandy SR\\-2. - Assets which appeared in higher quality in Mass Effect 3 have been reverse\\-implemented into the first two games. This also applies to Mass Effect 3 if the assets appeared in higher quality in the DLCs. - Details from some assets moved from textures to models. - Audio is remixed and enhanced across all games. - The Presidium look in Mass Effect and Mass Effect 2 is aligned with its Mass Effect 3 appearance. - Photo Mode allows you to pause the games, move the camera and apply various filters and effects to take screenshots.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Legendary_Edition/Changes_from_the_Original_Mass_Effect_Trilogy",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:model-ships",
+      "kind": "summary",
+      "page": "Model Ships",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Model Ships were a collectibles feature in Mass Effect 2 and Mass Effect 3 with no impact on story or gameplay. Mass Effect 2 had eleven models; the Normandy SR-2 model started on display in the Captain's Cabin, and the rest were bought from vendors, except the Flotilla Vessel (found during Tali's loyalty mission) and the Shadow Broker Base (found during Lair of the Shadow Broker). Purchased models went on a display rack, sometimes at a discount for talking to shopkeepers or doing small tasks. In Mass Effect 3, models acquired in Mass Effect 2 returned scattered around the Normandy, and additional ships became available on the Citadel for 1,000 credits (or 1,100 through Alliance Requisitions in the shuttle bay) after completing priority missions. The model sold as a \"UT-47\" actually matched a \"human heavy cruiser\" concept and was labeled an \"Alliance Shuttle\" in Mass Effect 3. The display drew comparison to the ship models in Star Trek. Mass Effect 3: Citadel added a second Normandy SR-2 model, a Citadel model, a freighter and an original-trilogy Alliance ship design in Shepard's apartment.",
+      "url": "https://masseffect.fandom.com/wiki/Model_Ships",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "space-hamster_002",
+      "kind": "page",
+      "page": "Space Hamster",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Space Hamster can be bought by Commander Shepard at Citadel Souvenirs for 9,200 credits, barring discounts. Once purchased it appears in the Captain's Cabin of the Normandy SR\\-2 beside the entrance to the bathroom opposite the Commander's personal terminal, in a glass cage consisting of a multi\\-holed box and two trays for food and water. If interacted with, the hamster will come to the glass, look at its owner, then scurry back into its box with an audible squeak. Unlike the fish in the nearby aquarium, the Space Hamster doesn't need to be fed. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Space_Hamster",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_043",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Priority: Rannoch",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Talk to Tali - 2 **Reputation** for interaction. Talk to Diana Allers (doing a report on the aftermath of the geth\\-quarian war in the Captain's Cabin) - 5 **Reputation** for interaction.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "fish_001",
+      "kind": "page",
+      "page": "Fish",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Fish** are aquatic creatures that may be edible, decorative, or both. They're collectible items for Commander Shepard's personal cabin on the Normandy SR\\-2. There is a large aquarium on the left side of the cabin which can be filled with fish. There are various types of fish available and the stores that sell them will restock after every purchase.",
+      "url": "https://masseffect.fandom.com/wiki/Fish",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:ssv-normandy",
+      "kind": "summary",
+      "page": "SSV Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The SSV Normandy SR-1 (Systems Alliance Space Vehicle Normandy Stealth Reconnaissance-1) was a prototype \"deep scout\" frigate, first of the Normandy class, co-developed by the Systems Alliance and the Turian Hierarchy with Citadel Council sponsorship. Commissioned in 2183 and named for the 1944 Battle of Normandy, she was optimized for solo reconnaissance deep in unstable regions. She was initially commanded by Alliance officer Elli Zander, who was removed after clashing with turian chief engineer Octavio Tatum over the drive core's limits; David Anderson then took command, and shortly after handed the ship to Commander Shepard when Shepard became the first human Spectre.\n\nThe Normandy was built on three decks: a Command Deck with bridge, airlock, CIC and comm room; a habitation deck with quarters, mess, medical bay and captain's cabin; and an engineering and storage level holding the M35 Mako and the drive core. Her defining feature was the IES (internal emission sink) stealth system, which stored waste heat in lithium heat sinks, allowing silent running for hours; the system did not work at FTL and could be defeated by visual scan. It was powered by the experimental Tantalus Drive Core, roughly twice the size of a normal core and costing about 120 billion credits. Like all frigates she carried GARDIAN lasers, kinetic barriers, a spinal mass accelerator, and could mount Javelin disruptor torpedoes. Key crew included Joker (helmsman), Navigator Charles Pressly, Dr. Karin Chakwas, Engineer Greg Adams, Kaidan Alenko, Ashley Williams, and later Tali'Zorah nar Rayya, Garrus Vakarian and Urdnot Wrex.\n\nDuring her shakedown the Normandy went to Eden Prime to recover a Prothean Beacon, which was destroyed during a geth attack. Rear Admiral Mikhailovich later inspected and criticized her as over-designed. When the Council refused to pursue Saren Arterius, Udina locked the ship down; with Anderson's help Shepard stole her and flew to Ilos. At the Battle of the Citadel the Normandy led the assault that destroyed Sovereign. In 2183 an unidentified starship (later revealed as a Collector cruiser) ambushed and destroyed the Normandy near Alchera, killing over twenty crew including Pressly; Shepard died saving Joker. Cerberus later built the larger Normandy SR-2 from the SR-1's design.",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr2-04",
+      "kind": "summary",
+      "page": "The SSV Normandy SR-2 (Part 4) — The Alliance Refit",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Part 4 of a breakdown of the Normandy SR-2, covering the Alliance refit. By 2186 Shepard had defected from Cerberus and turned the SR-2 over to the Systems Alliance, which considered the ship its property since it was based on the SSV Normandy SR-1 design. The Alliance studied and modified her, adding new parts, fixing faults in Cerberus's construction, redesigning areas, and swapping Cerberus equipment for Alliance equipment, then recommissioned her in Alliance colors. The refit was only partially complete when the Reaper invasion interrupted it. Most notably, Deck 2 was rearranged to add a war room, meeting room, and QEC, and Deck 5 became the new armory.\n\nDeck 1 was the captain's cabin, with an aquarium, armor locker, private terminal, model ship display case, and bathroom. Deck 2 held the bridge, galaxy map, and a conference room; the armory was moved to Deck 5 per Alliance regulations, and the laboratory became the conference room to make space for the war room, where war assets and galactic readiness could be examined and which contained a quantum entanglement communications room for contacting individuals aiding the war effort. Deck 3, the crew deck, held the medical bay, crew quarters, kitchen, observation deck, AI Core, life support, Liara T'Soni's office (in the former Miranda space, now holding the Shadow Broker terminal), and the main battery. Just outside the elevator was a memorial wall recording crew casualties, including those lost on the derelict Reaper mission, the Suicide Mission, and the 20 crew lost when the SR-1 was destroyed. Deck 4, engineering, held the drive core; the starboard cargo room doubled as Diana Allers's quarters and broadcast studio, the port cargo room served as Javik's quarters, and Engineer Adams worked here, joined by Kenneth Donnelly and Gabriella Daniels if pardons were issued. Deck 5, the shuttle bay, held the armory, cargo hold, two Kodiak shuttles, a procurement terminal, weapon and armor benches, and a small gym; James Vega and Lieutenant Steve Cortez spent their time here.\n\nBuilt by Cerberus to be larger and more powerful than the original, the SR-2 ended up nearly double the SR-1's size and mass, more heavily armed and armored, with an even larger Tantalus core housed in a sphere holding element zero. With her speed, maneuverability, Javelin torpedoes, GARDIAN lasers, Thanix cannon, kinetic barriers, deflective armor, stronger shielding, and EDI coordinating combat functions, the Normandy was still touted as the fastest, most advanced, and most iconic vessel of the Alliance fleet. She led the charge of the united Citadel races in the battle for Earth at the close of the Reaper War; her whereabouts afterward remain unknown.",
+      "url": "",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "summary:normandy-sr-2",
+      "kind": "summary",
+      "page": "Normandy SR-2",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Normandy SR-2 was the starship serving as Commander Shepard's base of operations after the SSV Normandy SR-1 was destroyed. It entered service in 2185, built by Cerberus at great and secret expense in the Voyager Cluster on the orders of the Illusive Man for the revived Shepard's team to stop the Collector abductions of human colonists; it served as headquarters of the Lazarus Cell. Based closely on the SR-1's layout, it was almost twice the mass of the original, added civilian-grade comforts (leather chairs, a kitchen), retained the SR-1's stealth characteristics, but could not land on every planet, requiring shore parties to use a Kodiak shuttle.\n\nThe ship had five decks: Deck 1, the Captain's Cabin (\"the loft\"), with a fish tank, model ship case, space hamster, and souvenir displays; Deck 2, the Combat Information Center, with bridge, galaxy map, armory, research/tech labs, and a communications room with a quantum entanglement array for real-time holographic contact with the Illusive Man; Deck 3, the crew's quarters, with the XO's office, mess hall run by Mess Sergeant Gardner, medical bay run by Dr. Karin Chakwas, the AI core, life support, main battery, and observation lounges; Deck 4, engineering, housing the oversized Tantalus drive core (three times the SR-1's, vertically oriented); and Deck 5, the hangar for the Kodiak shuttle and M-44 Hammerhead.\n\nEDI (Enhanced Defense Intelligence) was the ship's AI, functioning as electronic-warfare defense with behavioral blocks preventing direct interface with ship systems, and serving as the Illusive Man's eyes and ears. She was designed in part from Sovereign's remains, making her partly Reaper-based. Armament included Javelin disruptor torpedoes and an upgradeable Turian-designed Thanix cannon (a miniature of Sovereign's weapon); defenses included kinetic barriers, cyclonic barrier technology multicore shielding, Silaris ablative armor, and GARDIAN lasers. Weapon, armor, and shield upgrades, plus the Reaper IFF recovered from the Derelict Reaper at Mnemosyne, determined crew survival in the final mission; the IFF also let the Collectors locate and board the ship.\n\nBy 2186 Shepard had defected from Cerberus and turned the ship over to the Systems Alliance, which refitted it, stripped Cerberus equipment, and recommissioned it as the SSV Normandy SR-2 in Alliance colors. Intended as Admiral Anderson's command center, it instead rescued Shepard from the Reaper invasion of Earth and became the mobile base for the war effort and the Crucible mission. In the final battle for Earth the Normandy deployed Shepard's team, then was caught in the Crucible's energy wave mid-jump and crash-landed on an unknown world; the severity of the crash and crew survival depended on galactic readiness.",
+      "url": "https://masseffect.fandom.com/wiki/Normandy_SR-2",
+      "for_key": "captain's cabin Normandy SR-2"
+    },
+    {
+      "chunk_id": "scene:normandy-main-battery-goodbyes#01",
+      "kind": "scene",
+      "page": "Goodbyes at the Main Battery",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-main-battery-goodbyes",
+      "text": "Goodbyes at the Main Battery. 2186, the eve of the assault on Earth the main battery, Normandy SR-2 Garrus keeps the main battery, calibrating the guns, and turns up in the port observation lounge when he is not there.",
+      "url": "",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "scene:normandy-main-battery-goodbyes#02",
+      "kind": "scene",
+      "page": "Goodbyes at the Main Battery",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-main-battery-goodbyes",
+      "text": "Goodbyes at the Main Battery. 2186, the eve of the assault on Earth the main battery, Normandy SR-2 Tali comes down to the main battery to say goodbye to Garrus and to bet him on who kills more. Shepard can thank them both for being there through all of it and for believing in the Commander regardless; Tali's answer is that they will finish it the way it started, together.",
+      "url": "",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "scene:normandy-cockpit-garrus-and-joker#02",
+      "kind": "scene",
+      "page": "Garrus and Joker in the Cockpit",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-cockpit-garrus-and-joker",
+      "text": "Garrus and Joker in the Cockpit. 2186, after Tuchanka the cockpit and the main battery, Normandy SR-2 Walking away from Joker, Garrus asks Shepard how it feels to have krogan praising the Commander's name for the genophage cure, and says the turian fleets will be at Earth when the time comes.",
+      "url": "",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "scene:normandy-cockpit-garrus-and-joker#01",
+      "kind": "scene",
+      "page": "Garrus and Joker in the Cockpit",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-cockpit-garrus-and-joker",
+      "text": "Garrus and Joker in the Cockpit. 2186, after Tuchanka the cockpit and the main battery, Normandy SR-2 Garrus is up in the cockpit trading jokes with Joker. When Shepard joins them they end up on Mordin at some length — Garrus's verdict being that he always thought the salarian was crazy but useful, and part of the team regardless.",
+      "url": "",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "dossier-archangel_015",
+      "kind": "page",
+      "page": "Dossier: Archangel",
+      "section": "Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Having eliminated the third mercenary gang, Shepard, Garrus, and squad will return to the Normandy. Here, Garrus receives medical attention that includes reconstruction with cybernetics, but he will carry a wound on his face and damage to his armor for the rest of the game. Garrus will take up residence in the Normandy's main battery past the sleep pods on the crew deck. If Garrus was part of your team in the previous game, Joker will mention it's nice to have him back.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Archangel",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "garrus-vakarian_009",
+      "kind": "page",
+      "page": "Garrus Vakarian",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For his gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Garrus Vakarian.* “Are you kidding? I'm right behind you.” Garrus returns to fight the Reapers, provided he survived Shepard's attack on the Collector base. If Garrus did not survive the suicide mission, his name will appear on the memorial wall aboard the Normandy. After the suicide run on the Collector Base, Garrus realized what little time the galaxy had before the Reapers arrived. With the Council still unwilling to listen, Garrus went to his father, the last thing he thought he'd do, relaying all the events that had started from the Eden Prime War. As unbelievable as his story was, his father, having been C\\-Sec, put all the pieces together and believed him. Though Primarch Fedorian was a friend of his father's, the former wasn't easy to convince. Eventually, Garrus managed to gain his own \"Reaper task force\" as a token resource to improve turian defenses, which he hopes has bought Palaven a limited amount of time when the Reapers invaded. Shepard encounters Garrus on Menae, one of Palaven's moons, acting as a military consultant given his experience against Reaper forces. Shepard had arrived on Menae in search of Primarch Fedorian, but the turian leader has already been killed by the Reapers. Garrus assists Shepard in seeking out the next primarch, General Adrien Victus, before rejoining the Normandy. He once again takes up residence in the Normandy's main battery. When not in the main battery calibrating the guns, Garrus can often be found on the port observation lounge after missions. He spends time with Ensign Copeland, Javik, and Liara on occasions. Immediately after Palaven, the Normandy experiences technical problems due to EDI's interface process with the synthetic recovered from Mars. If Shepard heads to the main battery before going to investigate the AI core, they find Garrus on the intercom with Joker, who jokingly suggests that Garrus may have miscalibrated something. Garrus quite seriously reminds him about his proficiency in that field, and Joker laughs and clarifies he was just checking. Upon Javik's revival and recruitment into the team, Garrus is amused at all the crazy things he has seen while with Shepard: a talking Reaper, a talking plant (or geth, if he never experienced that), and now a real, live, talking Prothean. Garrus reflects on how Javik must be feeling: a sense of loss and a desire for revenge. He jokingly speculates on what Javik might eat, unwilling to sacrifice himself for the team if Javik does indeed eat \"boiled asari\" or \"fried turian\". Garrus also quips that if the war is lost, Shepard can be frozen for 50,000 years, which will turn them from \"merely famous\" to \"legendary.\" When Shepard visits the Citadel after rescuing the Primarch from Palaven, they find Garrus at the refugee docks coordinating housing and supplies for the turian refugees. Garrus quietly reports that the turian frontline squads are getting slaughtered platoons at a time. If Shepard asks if the wounded can still fight, Garrus replies that ammunition is in short supply and weapons should be given only to those still capable of bearing them. If Shepard suggests focus on caring for the wounded, Garrus isn't optimistic on their recovery. Some may get back on their feet, but sympathy is the only thing they can offer for the rest. Garrus also asks how Shepard is handling the war. Regardless of the Commander's reply, the turian advises Shepard to take a breather every now and then. Once the evacuation of Grissom Academy is completed, and if Garrus is part of the shore party with Jack being present, aboard the Normandy he claims life wouldn't have been complete if he didn't see her one more time. Jack saw through Cerberus in 2185 and he might even have taken her seriously back then, but her tattoos gave him a headache every time he saw her. Garrus has a few thoughts about the concluded mission if pressed. Going on a tangent related to children, he gets introspective on their lot and reactions about the war. Normally, kids grow up learning hardships here and there but overall finding the galaxy a decent place. The Reaper invasion teaches them that there are things in the dark that want to destroy everyone they cared about. Garrus muses that at the end of the war, there will be a lot of angry orphans looking for answers. Garrus also wonders what the Illusive Man would do to his lieutenants for failing: if he simply fires them, or if he lines them up against a wall to be executed. Later, he also wishes there was a Grissom Academy for turians when he was growing up: Garrus always wanted to learn how to paint.",
+      "url": "https://masseffect.fandom.com/wiki/Garrus_Vakarian",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "priority-palaven_009",
+      "kind": "page",
+      "page": "Priority: Palaven",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Joker will need you to investigate reports of a fire in the AI Core, revealing that EDI has taken control of Dr. Eva Coré's body. EDI becomes a squadmate and can henceforth be found in the cockpit. - The mission Priority: Sur'Kesh becomes available. - Primarch Victus will reside in the Normandy's war room. - Garrus Vakarian, if alive, will join the squad and operate the main battery. - Talking to Samantha Traynor will now add the Grissom Academy: Emergency Evacuation mission. - The DLC missions Citadel: Aria T'Loak and Citadel: Dr. Bryson now become available if their appropriate DLC is installed. - The Presidium Commons, Docks: Holding Area, and Purgatory (club) areas on the Citadel all become available for exploration.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Palaven",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "m-597-ladon_003",
+      "kind": "page",
+      "page": "M-597 Ladon",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- **Single\\-player:** The M\\-597 Ladon is exclusive to Mass Effect 3: Special Edition. One can be found in Grissom Academy: Emergency Evacuation, in the Orion Hall area. Another can be found in Tuchanka: Bomb, in the starting battlefield area. This weapon can also be retrieved on top of one of the bombs in Kallini: Ardat\\-Yakshi Monastery. The main battery hallway in Priority: Geth Dreadnought has another. One can be retrieved in the shuttle bay at the start of Priority: Cerberus Headquarters. During the Thanix Missile Battery section in Priority: Earth, the Ladon is left inside a building. - **Multiplayer:** N/A",
+      "url": "https://masseffect.fandom.com/wiki/M-597_Ladon",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "garrus-vakarian_016",
+      "kind": "page",
+      "page": "Garrus Vakarian",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Shepard chooses to activate the Crucible, Garrus will be the last person Shepard sees before ending the Reaper threat. If Shepard chooses to control the Reapers or merge organic and synthetic life, Garrus will be seen placing Shepard's name on the memorial wall, or, if Shepard chooses to destroy the Reapers and enough of the galaxy's forces have been mustered, he will smile and refrain from placing the plaque, and the Normandy is seen flying off. If Shepard chose to merge organic and synthetic life, Garrus will place the Commander's name on the memorial wall. After that, he will share a hug with EDI. If neither Garrus nor Tali'Zorah vas Normandy developed relationships with Shepard back during the campaign against the Collectors, they enter a romantic relationship with each other and Shepard may walk in on them embracing each other in the Main Battery. Caught in the act, they both make a hasty excuse that one of Garrus's mandibles may have gotten hooked on Tali's helmet, and that Tali asked for him to check for a rupture. Shepard is happy for the two of them, and the two thank the Commander. Garrus supposes it helps knowing that there is something to go back to, though Tali claims the relationship is a fling and she is \"using \\[him] for \\[his] body.\" Garrus quips that she's mean but he's okay with it. Bits of their intercom conversations indicate they were headed in that direction. While comparing toughest missions and creepiest enemies, Garrus particularly notices when Tali jabs him about keeping \"everything at a distance.\" He asks her about it, though Tali insists she doesn't mean anything. When Tali shares her aversion to spiders, Garrus teases that she was supposed to like things up close and personal; she clarifies that \"it depends on who it is.\"",
+      "url": "https://masseffect.fandom.com/wiki/Garrus_Vakarian",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "garrus-vakarian_015",
+      "kind": "page",
+      "page": "Garrus Vakarian",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Forgive the insubordination, but your boyfriend has an order for you... come back alive. It'd be an awfully empty galaxy without you.” Garrus is an available romance option in 2186, provided he was previously romanced in 2185\\. Shepard runs into Garrus while he is stationed on the moon Menae, attacking the Reapers. Not much is said about their relationship while they are fighting the Reapers, but once Garrus is aboard the Normandy, Shepard can visit him in the main battery. It is here where Garrus asks where they stand and if she still has feelings for him, jokingly recalling that she had an attraction towards scarred men and that he is more than willing to get more if it will improve his chances. Shepard has the option to either end things with Garrus here, or to continue the relationship by kissing his scar and confessing that she missed him. During the course of the journey, Shepard can provide emotional support for Garrus, who is worried about his family on Palaven and about being asked for advice by the Primarch, something he is not used to. Garrus, in turn, tries to help cheer Shepard up when the pressure of the war begins to be too much for her to bear. On the Citadel, Garrus asks to meet up with Shepard and they ride off to the Presidium in a skycar. It is here where Garrus asks her if she is ready to commit to a relationship and \"ready to be a one turian kind of woman.\" If pursued, Shepard will say that \"the only thing that made leaving Earth bearable was knowing \\[he was] out there\" and that she loves him and the two kiss. Afterwards, Garrus challenges her to a bottle shooting round with sniper rifles similar to the regular encounter, except that if Shepard misses the shot, Garrus will say, \"There, there, it's okay. I know there are other things you're good at\" after declaring the spot his \"favorite spot on the Citadel.\" Before heading to the Illusive Man's base, Garrus meets Shepard in her quarters and offers to keep her company. After Shepard wakes up from another dream and admits that she's worried she hasn't done enough, Garrus reassures her that they could have died at any moment before, but they are still alive now and have faced dangerous risks before. After attacking Cerberus Headquarters, Shepard can find Tali and Garrus talking in the main battery. When she thanks the two for believing her since the beginning, Garrus will reply that \"\\[she] gave \\[him] some incentive.\" Back on Earth, Garrus jokes about retiring with Shepard to \"somewhere warm and tropical\" and \"find\\[ing] out what a turian\\-human baby looks like,\" though Shepard may opt to say that adoption is likely a better option due to their incompatible biology to which Garrus replies there will be a lot of little krogan around soon, or that they probably wouldn't make very good parents anyway, to which Garrus asks whether Shepard is scared that \"Daddy's rifle collection might scare junior.\" Shepard is jokingly concerned that instead he might like it, and that having two expert killers in the family was more than enough. Garrus then says that if everything goes bad, to meet her at the bar in heaven. Before parting, Garrus gives her an order to come back alive before they kiss. If the Commander chooses to comfort Garrus further, Shepard says that if she dies and he doesn't, she will always be watching over him, and he will never be alone. During the charge to the beam, Garrus may be wounded by an exploding vehicle, along with another squad mate. Shepard calls in the Normandy in and carries Garrus to the Normandy, where she tells the Normandy crew to take him and go. Garrus refuses to leave Shepard, but she insists that he doesn't argue and that she will always love him, holding his face. After a brief silence, Garrus will say that he also loves Shepard just before she sprints for the beam and the Normandy departs. If Shepard chooses to activate the Crucible, Garrus will be the last person Shepard sees before ending the Reaper threat. If Shepard chooses to control the Reapers or merge organic and synthetic life, Garrus will be seen placing Shepard's name on the memorial wall, or, if Shepard chooses to destroy the Reapers and enough of the galaxy's forces have been mustered, he will smile and refrain from placing the plaque, and the Normandy is seen flying off. If Shepard chose to merge organic and synthetic life, Garrus will place the Commander's name on the memorial wall. After that, he will share a hug with EDI.",
+      "url": "https://masseffect.fandom.com/wiki/Garrus_Vakarian",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "herschel_005",
+      "kind": "page",
+      "page": "Herschel",
+      "section": "MSV Fedele",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: MSV Fedele* - *Assignment:* Garrus: Find Dr. Saleon → Garrus: Dr. Saleon is Dead",
+      "url": "https://masseffect.fandom.com/wiki/Herschel",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "mass-effect-system-guide_011",
+      "kind": "page",
+      "page": "Mass Effect System Guide",
+      "section": "Kepler Verge",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Kepler Verge* #### Herschel System *Main article: Herschel* - Unlocked upon receiving Garrus: Find Dr. Saleon - Scannable from Normandy - UNC: Valuable Minerals, 1x Heavy Metal - Assignments on the MSV Fedele - Garrus: Find Dr. Saleon #### Newton System *Main article: Newton* - Scannable from Normandy - UNC: Asari Writings - UNC: Valuable Minerals, 1x Gas - Assignments on Ontarom - UNC: Dead Scientists - UNC: Turian Insignias - UNC: Valuable Minerals, 2x Heavy Metals",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_System_Guide",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "summary:dossier-archangel",
+      "kind": "summary",
+      "page": "Dossier: Archangel",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Dossier: Archangel\" was a Mass Effect 2 recruitment mission, available after Freedom's Progress as part of the Illusive Man's first batch of dossiers. Archangel was described as a mercenary commander noted for technical expertise and strategic brilliance who had carried out high-profile attacks on Omega's gang leaders. On arriving at Omega, Shepard was directed by Aria T'Loak to Archangel, a vigilante whom three mercenary groups, Eclipse, Blue Suns, and Blood Pack, had allied to kill. Shepard signed up as a freelancer to infiltrate the merc staging area in Kima District, passing through areas controlled by the three gangs and meeting their leaders Jaroth (Eclipse), Garm (Blood Pack), and Tarak (Blue Suns). Along the way Shepard could sabotage a YMIR Mech so it would turn on the mercs, and could use a Renegade interrupt to jam a welder into Sergeant Cathka, crippling Tarak's gunship.\n\nShepard crossed the last barricade, turned on the freelancers, and fought up to Archangel's sniper nest, where the vigilante removed his helmet and was revealed to be Garrus Vakarian. Garrus explained that he had resigned from C-Sec in frustration, come to Omega, and led a twelve-man vigilante band against the merc gangs, earning the name \"Archangel\" from locals; his team had since been wiped out in a betrayal, their bodies lying shrouded around the hideout. Shepard and Garrus then defended the hideout against successive assaults by Eclipse (ending with the YMIR mech and Jaroth), the Blood Pack (requiring Shepard to close three basement shutters, ending with Garm), and finally the Blue Suns, who deployed Jentha and Tarak's A-61 Mantis Gunship. Garrus was badly wounded by a rocket during the gunship fight before Shepard shot the gunship down.\n\nGarrus was recruited and evacuated to the Normandy, where he received cybernetic reconstruction but kept a permanent facial scar and damaged armor for the rest of the game; he took up residence in the main battery. Nalah Butler, widow of one of Garrus' squad members, emailed Shepard asking that Garrus be helped to stop blaming himself for the team's deaths. Rewards included the M-15 Vindicator Battle Rifle, element zero, credits, and Tech Damage and Submachine Gun Damage upgrades.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Archangel",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "summary:garrus-vakarian",
+      "kind": "summary",
+      "page": "Garrus Vakarian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Garrus Vakarian was a turian, former C-Sec Investigation Division officer, and a recurring squadmate across the Mass Effect trilogy. Trained militarily at fifteen, he followed his by-the-book C-Sec investigator father into law enforcement. In 2183 he was assigned to investigate Saren Arterius after Ambassador Udina alleged Saren had gone rogue, but Saren's Spectre status kept his activities classified. When Executor Pallin closed the investigation for lack of evidence, Garrus defied the order to pursue a lead. Commander Shepard could find him at Dr. Chloe Michel's Med Clinic in the Wards, where he took out a thug with a headshot; he then left C-Sec to join the Normandy and hunt Saren, having no qualms about pursuing a fellow turian. His personal assignment involved tracking down Dr. Saleon, a salarian doctor who had escaped him. Garrus objected to C-Sec's regulations and even suggested killing Saren rather than risking his exoneration. Depending on Shepard's guidance, he considered reapplying for C-Sec or for Spectre candidacy (his father had once blocked his Spectre bid).\n\nAfter the Battle of the Citadel and Shepard's death, disillusioned with the Council's dismissal of the Reaper threat, Garrus went to Omega, took the name \"Archangel,\" and formed a twelve-member vigilante squad that waged war on the Blue Suns, Blood Pack, and Eclipse. His lieutenant Sidonis was coerced into betraying him, luring Garrus away while the gangs bombed the hideout and killed his team. In 2185 the three merc groups allied to corner Archangel on a bridge in Kima District, where Shepard, recruiting him for the Collector mission, revealed Archangel to be Garrus. A Blue Suns gunship badly wounded the right side of his face, requiring grafts and cybernetics. His loyalty mission, \"Eye for an Eye,\" let Shepard help him hunt Sidonis (interrogating \"Fade,\" revealed as Harkin) and choose whether to allow or stop the killing. Garrus became a romance option for a female Shepard.\n\nIn 2186 Garrus, if he survived the Collector base, returned to fight the Reapers. He had convinced his father and then Primarch Fedorian to form a turian Reaper task force. Shepard found him on Menae, Palaven's moon, as a military consultant; he helped locate Primarch Adrien Victus and rejoined the Normandy, manning the main battery. Victus later put him in charge of coordinating all turian fleet activity, a burden that made him doubt his fitness as a leader and grapple with the \"ruthless calculus of war.\" He coordinated turian dry-dock ships for the Crucible and, during the final battle, could be wounded on the run to the conduit. Recurring lines: \"This mission just got a lot more complicated\"; on the Presidium shooting cans with Shepard, \"I'm Garrus Vakarian, and this is now my favorite spot on the Citadel\"; and, if romanced, his final order: \"come back alive. It'd be an awfully empty galaxy without you.\" If neither Garrus nor Tali romanced Shepard, the two could become a couple. Mac Walters wrote him in the first game; he was made romanceable after fan feedback.",
+      "url": "https://masseffect.fandom.com/wiki/Garrus_Vakarian",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "summary:priority-palaven",
+      "kind": "summary",
+      "page": "Priority: Palaven",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Palaven followed Priority: The Citadel I. Primarch Fedorian of the Turian Hierarchy had called a war summit that would let the Alliance request help building the Crucible, but Fedorian was caught in the Reaper attack on Palaven. Shepard travelled to Menae, Palaven's moon, with Liara T'Soni and James Vega to extract him. The Kodiak made a hot landing at a turian forward camp under assault by husks, the first sustained fighting against Reaper ground forces.\n\nGeneral Corinthus informed Shepard that Fedorian was already dead. To learn who the new Primarch was, Shepard's team repaired a comm tower overrun by husks, defending it in waves while one squadmate made repairs. Garrus Vakarian, if he had survived Mass Effect 2, made his first appearance here, joining the squad in place of Liara after Joker reported Normandy system malfunctions. Corinthus revealed that General Adrien Victus was next in the line of succession. Shepard's team then defended an airfield and a barricade against husks, Marauders, Cannibals and a Brute, using a mounted turret, before advancing down a long path past crashed turian frigates and aircraft toward Victus's last known position.\n\nShepard found Victus's position under heavy attack, fought through Cannibals, Marauders and multiple Brutes (a Reaper Blackstar heavy weapon was available), and reached Victus, ending the mission. Victus reluctantly accepted the role of Primarch and returned with Shepard to the Normandy, taking up residence in the war room. In the aftermath, Joker reported a fire in the AI Core: EDI had taken control of Dr. Eva Coré's mech body, becoming a mobile squadmate stationed in the cockpit. The mission Priority: Sur'Kesh became available, Garrus joined the crew to run the main battery, and the Grissom Academy mission and several Citadel areas and DLC missions opened up.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Palaven",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "summary:garrus-find-dr-saleon",
+      "kind": "summary",
+      "page": "Garrus: Find Dr. Saleon",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "\"Garrus: Find Dr. Saleon\" was a squadmate assignment in Mass Effect unlocked by repeatedly speaking with Garrus Vakarian aboard the Normandy about his history in C-Sec. Garrus eventually recounted the case of Dr. Saleon, a salarian geneticist who fled the Citadel with hostages because C-Sec authorities would not fire on his vessel; Garrus believed Saleon used the hostages as test subjects and regretted letting him escape. Shepard received the assignment along with coordinates for Saleon's ship, the MSV Fedele, in the Herschel system of the Kepler Verge. Garrus specifically asked to come along, though bringing him was optional.\n\nBoarding the MSV Fedele, Shepard's team fought through Saleon's Test Subjects, creatures resembling Thorian Creepers that were not vulnerable to Anti-Thorian Gas grenades and attacked with toxic spit and melee at close range. Containment canisters in the main hold could be detonated to keep them at bay. In the cockpit section, Shepard found Saleon, who now called himself Dr. Heart. He thanked Shepard for \"rescuing\" him, but Garrus confirmed his identity and Saleon denied it. Shepard could either order Garrus to stand down, planning to hand Saleon to the military for questioning, or authorize Garrus to kill him. Either way Saleon turned hostile, drawing his gun, and was killed with a single shot before he could effectively retaliate. If Garrus was not brought, a squad member exposed Saleon and he fled, dying the same way.\n\nAfter Saleon's death, on-screen text read: \"Saleon's medical equipment is stained with the blood of many species. Pale blue, violet, orange... and more than a few dark red. But his work has ended here. Time to head back to the Normandy.\" The room contained several lockers, a medical station, a malfunctioning object, and a wetware kit. Completing the assignment gave Garrus closure, though if he was left behind he later regretted missing the chance to confront Saleon. Cut content indicates Mass Effect 2 originally planned to reintroduce Garrus on Omega hunting Saleon's accomplices.",
+      "url": "https://masseffect.fandom.com/wiki/Garrus:_Find_Dr._Saleon",
+      "for_key": "main battery Garrus calibrations"
+    },
+    {
+      "chunk_id": "mass-effect-cut-content-ilos-and-ending-voicelines_006",
+      "kind": "page",
+      "page": "Mass Effect Cut Content/Ilos and Ending Voicelines",
+      "section": "los20\\_power\\_plant\\_done",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Note:**  these voicelines were retranscribed based on the English audio bank Mass Effect Legendary Edition\\\\Game\\\\ME1\\\\BioGame\\\\Content\\\\Packages\\\\ISACT\\\\los20\\_power\\_plant\\_done.isb, although most squadmates' lines appear missing. The reconstructed order of the voicelines may not be fully accurate. **Context:** Race Against Time: Sovereign: on Ilos, squadmates would utter these remarks at some point while navigating the ruins to gain entry into the bunker, by restoring power in a power plant. **Speakers**: - Kaidan Alenko *(squad\\-dependent, missing)* - Liara T'Soni *(squad\\-dependent)* - Urdnot Wrex *(squad\\-dependent, missing)* - Garrus Vakarian *(squad\\-dependent)* - Ashley Williams *(squad\\-dependent, missing)* - Tali'Zorah nar Rayya *(squad\\-dependent, missing)* --- - Squadmate: Kaidan - Ashley - Liara - Garrus - Tali **Kaidan**: *(Missing)* **Ashley**: *(Missing)* **Liara**: There has to be some kind of generator around here to power this complex. Let's see if we can find it and get it fired up again. **Garrus**: There's gotta be some kind of generator around here to power this complex. Let's see if we can find it and get it fired up again. **Tali**: *(Missing)* - Squadmate: Liara - Wrex - Garrus - Ashley - Kaidan **Liara**: We have power. Now we just need to find the controls that activate the door. **Wrex**: *(Missing)* **Garrus**: We've got power. Now we just need to find the controls that activate the door. **Ashley**: *(Missing)* **Kaidan**: *(Missing)* - Squadmate: Tali - Kaidan - Ashley - Garrus - Wrex **Tali**: *(Missing)* **Kaidan**: *(Missing)* **Ashley**: *(Missing)* **Garrus**: I bet they're in those buildings over to the west. They look like control towers. **Wrex**: *(Missing)*",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Cut_Content/Ilos_and_Ending_Voicelines",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "scene:rannoch-the-choice-above-the-fleet#04",
+      "kind": "scene",
+      "page": "Rannoch, and What Tali Watched",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-the-choice-above-the-fleet",
+      "text": "Rannoch, and What Tali Watched. 2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after Rannoch, on the cliffs, with both fleets overhead Stopped from uploading, it turns hostile, and Tali kills it with her boot knife to save Shepard.",
+      "url": "",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "scene:normandy-garrus-and-tali-reconciliation#01",
+      "kind": "scene",
+      "page": "Garrus Apologises to Tali",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-garrus-and-tali-reconciliation",
+      "text": "Garrus Apologises to Tali. 2186, after Rannoch aboard the Normandy SR-2 Garrus denies having judged the quarians the way Tali says he did, then stops and apologises properly, admitting he was wrong about them.",
+      "url": "",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_009",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Following the destruction of the Reaper on Rannoch, the geth are weakened and Admiral Han'Gerrel launches a full strike. The geth unit Shepard and Tali rescued from the geth dreadnought, either Legion itself, or a Geth VI constructed in its likeness, attempts to upload the Reaper code to augment all intelligences of the geth collective: an act that would restore the geth to full strength, catching the quarian fleet unaware and leading to their destruction. If Shepard allows the geth to be upgraded, Tali watches in horror as she witnesses the entirety of the Migrant Fleet crash and burn up in Rannoch's atmosphere. Filled with despair, she removes her mask, whispers \"I'm sorry\", and commits suicide by throwing herself off a cliff. Shepard tries desperately to catch her but to no avail. If Shepard stops the geth unit from uploading the code, it becomes hostile and Tali is forced to stab it with her boot knife to save Shepard. If Legion is alive and Shepard convinces the quarians to halt their attack, peace is achieved between the quarians and the geth, and Tali watches sadly as Legion sacrifices itself to grant autonomy to all geth, but not before confirming that the answer to Legion's question—whether or not the geth have souls—was 'Yes'. If Shepard chose to side with the quarians over the geth, instead of seeing hope the victory reminds Tali of the losses she incurred: her team on Haestrom, her father, and even Legion if the platform was around. She starts thinking she isn't ready to settle down yet. In all cases where she survives the aftermath, Tali decides to rejoin the Normandy, knowing that she'd be fighting for her homeworld. Before leaving Rannoch, she takes off her mask to see the sunset. While on the Citadel, Tali coordinates her people's activities with the turians. Shepard can find her on the Presidium Commons conversing with a functionary, either a diplomat or a clerk depending on the time. Before the battle for Rannoch, Tali argues with a diplomat for medical supplies, but the turian insists that they have nothing to spare. Tali points out the quarians are willing to pay and that thousands will die without the meds, but the turian counters that with the ongoing war and the recent failed coup the turians themselves don't have much supplies to go around. Shepard can step in and reason with either party, but the end result is the same: no meds for the quarians. Tali is grateful for the token support if Shepard sides with her, or grudgingly concedes the turian's point and tells the Commander she'll talk later if otherwise. If she survived the battle for Rannoch, Tali becomes the quarians' ambassador on the Citadel. Shepard finds her conversing with a clerk, whom Tali identifies as the one who denied her asylum when she acquired evidence of Saren's treachery. The turian doesn't recognize her and Tali decides not to remind him, realizing that war is no time for petty grudges. During the aftermission lulls, Tali often banters with Garrus, EDI and Chief Engineer Adams. She and Garrus have several conversations regarding their earlier missions with Shepard. While discussing those missions, Garrus claims the one on Horizon was the toughest. Tali complains as she hasn't joined up at the time; if Garrus wasn't on Shepard's team yet during Liara's rescue on Therum, Tali recalls the particularly difficult fight with the krogan battlemaster in the Prothean ruins. Next, she asks about the creepiest thing they fought, and Tali opines it was the rachni, particularly the small spider\\-like swarmers. Garrus jabs that she supposedly likes things up close and personal, though Tali makes an exception for spiders. In a subsequent conversation, Tali asks Garrus if he has any regrets about serving on a human ship. Garrus reminds her that the original Normandy was co\\-developed by turians. When pressed, he teases her that he had to serve on the Normandy to prevent her from making \"dextros\" look bad. Continuing with the repartee, Tali pointedly brings up past comments Garrus had made that were critical of her species. Garrus initially denies this, but eventually apologizes sincerely, admitting he was wrong to judge the quarians the way he did. Tali suggests that losing Palaven to the Reapers gave him a new perspective on her people, to which he agrees. Garrus then turns Tali's initial question about having any regrets about serving on a human ship back on her; she responds that she has none. Tali also talks with EDI regarding Reaper conversion of the different races into husks, deliberating on why they haven't started converting the quarians. EDI assures her that it is not that Reapers don't consider them useful, rather that they have not encountered Tali's race in large numbers.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "scene:haestrom-tali-recruitment#02",
+      "kind": "scene",
+      "page": "Recruiting Tali on Haestrom",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "haestrom-tali-recruitment",
+      "text": "Recruiting Tali on Haestrom. 2185, after Horizon, deep in geth-controlled space the ruined quarian research site on Haestrom, under its dying sun Shepard finds the bodies of Tali's quarian marine escort and answers a radio to reach Kal'Reegar, the marines' commander. A Geth Dropship strafing run kills the last marines and collapses a pillar, blocking the path to Tali.",
+      "url": "",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "manual-mass-effect-trilogy-secrets-many-players-missed-part-2-secrets-6-10_002",
+      "kind": "page",
+      "page": "Mass Effect Trilogy Secrets Many Players Missed, Part 2 — Secrets 6–10",
+      "section": "6. Garrus and Tali",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "If Shepard romances neither Garrus nor Tali, then near the end of Mass Effect 3 the two of them can be caught together, flustered and improvising excuses (\"I think one of my mandibles got hooked on her helmet… infection risks…\"). Tali plays it down — \"This is just a fling, Vakarian. I'm using you for your body.\" — \"You're so mean.\" — \"And I'm okay with that.\" Garrus notes it helps to have something to come back to.",
+      "url": "",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_046",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Priority: Cerberus Headquarters",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Talk to Javik - 2 **Reputation** for interaction. Talk to Tali and Garrus - 2 **Reputation** for interaction.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya-unique-dialogue_011",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "Unique Dialogue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- During Priority: Eden Prime: - On the shuttle, Tali says that she read the reports on how Shepard saved the colony before finding the geth that contained evidence on Saren. - If Shepard comments on how fortuitous Tali's curiosity about the geth turned out to be, she replies, \"Happy to help.\" - If Shepard says Tali's evidence put Saren on the run, Tali replies, \"This time, it feels like we're the ones on the run.\" - When Liara discovers the stasis pod apparently containing a living Prothean, Tali asks if the occupant is like the Collectors or like the bodies found on Ilos. - If Liara expounds on the Prothean people and their role in the galactic community, Tali asks if the Protheans were like the Citadel Council. - Before Priority: Geth Dreadnought: - If Garrus is taken along he will mention receiving some dextro\\-amino chocolate from Dr. Chloe Michel. When asked why Tali was interested in Garrus receiving chocolate from the doctor, she will playfully respond, \"Oh, nothing.\" If Garrus is Shepard's love interest, Tali will remark, \"Watch yourself, Shepard\". - If Liara is in the party and Shepard romanced her in the first game, then Tali in the second, and chose Tali as a love interest when Liara inquires, Liara and Tali will have a somewhat hostile exchange about Liara using her Shadow Broker resources to spy on them. Liara will even comment on Tali's suit applications, resulting in Tali sidestepping the implications and urging the gang to hit the dreadnought. - If Ashley is taken along, and Shepard romanced Ashley in the first game and then romanced Tali in the second game, Tali will try to be friendly to Ashley, saying how it's good to see her again, which Ashley coldly asks if she's sure about that, then Tali will reply, \"Definitely, we're all adults here.\" Ashley will accept this, and then congratulate Tali on getting her \"big\\-girl name\", which Tali responds, \"Thanks. I'm so glad you decided to help Shepard this time,\" referring to when Ashley left Shepard on Horizon in the second game. - If Tali was chosen to enter the vent at the Collector Base, she will complain about it always being the vents when telling Shepard how they get to the Reaper signal. Shepard will then remark that she did fine in the Collector Base, to which Tali will retort that she was set on fire. - If Tali was romanced in Mass Effect 2 and Garrus is with you on this mission, around the point where the Geth take out the elevation platform, there will be a back\\-and\\-forth where Shepard indicates how he is glad Tali is back and Tali sheepishly avoids answering directly with subtle romantic playful dialogue as she does throughout the mission. Shepard will then indicate that if she feels that it's too quiet, he can make sure that she's put some place 'a little louder.' At this point Garrus states in a bored voice how he was there when the romance happened between the two of them and they should 'find a room and get it over with.' - During Rannoch: Admiral Koris: - On the shuttle ride in, Tali may note that it's been quite some time since Admiral Koris left a starship. - After encountering the first quarian body, Tali will walk over to it and activate her omni\\-tool. When the body is interacted with she will whisper, \"They came so far.\" - During the conversation with Dorn'Hazt, Tali will make concerned and reassuring responses. After he dies, Tali offers her respects and dubs him, \"Dorn'Hazt vas Rannoch.\" - During Kallini: Ardat\\-Yakshi Monastery: - When Samara makes her first appearance, Tali will ask, \"But what are you doing here?\" Samara will address Tali by name in her reply. - When interacting with the damaged door, Tali will say, \"Despite the damage, you can tell this place used to be beautiful... for a prison.\" Shepard will inquire as to Tali's disapproval, after which the quarian will clarify, \"Actually, I think the asari were being kind. Most races would have killed something like an Ardat\\-Yakshi.\" - When interacting with the dead asari commando, Tali will give her opinion usually after the other squadmate speaks first. - If Tali and EDI or Liara are present, Tali will speak first, wondering why did the commandos go so far in the monastery. EDI will remark on ideal bomb placement position, to which Tali says they better find the exit before setting off the explosives. If Liara is the other squadmate, Liara suggests perhaps the commandos were looking for survivors, to which Tali notes that the commandos' luck was no better than theirs.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "collector-base-final-battle_011",
+      "kind": "page",
+      "page": "Collector Base: Final Battle",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- According to The Final Hours of Mass Effect 3, the survival rates of squadmates (excluding Kasumi and Zaeed) were ranked as such in 2012: Jacob (93%), Miranda (89%), Garrus (85%), Grunt (84%), Samara (81%), Mordin (81%), Tali (76%), Thane (75%), Jack (71%), Legion (68%). Mass Effect Legendary Edition gameplay statistics as of July 27, 2021 rated squad members surviving the suicide mission, from most likely to least likely: Garrus, Jacob, Grunt, Miranda, Legion, Samara, Kasumi, Thane, Zaeed, Jack, Tali, and Mordin. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Collector_Base:_Final_Battle",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya-unique-dialogue_015",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "Spontaneous",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Sometimes Tali will say something spontaneously, without being prompted. - During Priority: Eden Prime: - Near the beginning of the mission, Tali jokingly asks Liara if she ever found a dinosaur. When Liara realizes that Tali was joking, she remarks \"Maybe a little.\" - After finding the dead colonists, Tali will say that the Fleet would make examples of pirates and slavers that attacked the civilian ships. - During Attican Traverse: Krogan Team: - If Grunt is alive, Tali will note that he is a good choice for the mission \\- not that she doesn't expect to find sophisticated equipment in a cave filled with poisonous gas and monsters. - If Grunt died or was never let out of his tank, if the other squadmate's spot isn't filled by EDI, Garrus or Kaidan, Tali simply comments that maybe they can find out what happened to the scouts. - On the container with the weapon bench, if you wander close to the edge of the open space Tali comments it's a long way down. - If James is not the other squadmate Tali will scream \"spiders, spiders, spiders, **spiders!**\" when Swarmers are released from the first group of gestation pods. - During Tuchanka: Bomb: - If Garrus is not the other squad member Tali will remark that planting a bomb on the krogan homeworld is unforgivable since the turians have already won. - If Garrus is the other squad member Tali will respond to one of Garrus's comments about the bomb by saying it was \"monstrous.\" - During Priority: Geth Dreadnought: - When Tali presents Shepard with the Arc Pistol and Garrus is the other squadmate and asks why he doesn't get a new gun, Tali will tell Garrus that she couldn't find one for his size. - Upon entering the geth defense network, if Tali was chosen as the Specialist Technician on the suicide mission in Mass Effect 2, she and Shepard will comment about the experience and how she \"got set on fire.\" - During Rannoch: Admiral Koris: - Just after debarking the shuttle at the start of the mission, Tali will express her amazement at standing in the land of her ancestors centuries after her people's exile. - Early on, if Liara is the other squadmate, she notes the large numbers of geth present. Tali responds that they are \"cleanup crews\" as the geth never learned to capture their enemies alive. - Early on, if Garrus is the other squadmate, he muses that asteroids could be towed in to win the war against the geth. Tali is aghast, as such a tactic would render Rannoch uninhabitable. Garrus argues lamely that the dust clouds would settle after a few centuries. - During Kallini: Ardat\\-Yakshi Monastery: - When wandering in the dark at the beginning of the mission Tali will claim that she tripped only if the other squadmate is either James, Javik or EDI. - After the battle with the first Banshee, Tali will remark, \"That used to be an asari?\" If Liara is not present, Tali will add, \"Poor Liara, I'm glad she's back on the Normandy.\" - During Arrae: Ex\\-Cerberus Scientists: - At the start of the mission, if EDI or Javik is the other squadmate, Tali will remark, \"Damn, it's freezing. Who would live in such a place?\" - If Javik is the other squadmate, after entering the facility and speaking to Dr. Brynn Cole, if Jacob was also present Tali will comment on the \"strange turns our lives can take\" at the conclusion of the conversation. - Tali comments that the scientists were fools for working for Cerberus, but at least they had the courage to break away. - During N7: Cerberus Lab: - When Shepard tells the squad to stay focused, Tali says, \"I'm with you.\" - After Cortez tells the squad to hold out while he deals with his pursuers, Tali warns Shepard that Cerberus is going to be \"all over\" them soon. - When Cortez doesn't respond over the comm, Tali says, \"I hope he's still alive.\" - During N7: Cerberus Abductions - After Cortez radios over the comm providing the location of where additional Cerberus troops can be intercepted, if Tali is the squadmate who responds she will say, \"Good. Cerberus isn't going to touch those people.\" - During N7: Fuel Reactors: - After Captain Riley's team has moved out, Tali remarks that it's too quiet. If EDI is present, she asks what Tali what determines her personal threshold for quiet. Tali replies that all this machinery shouldn't be so dead. - If Liara is present, she replies to Tali's comments, \"Like a tomb.\" Tali replies, \"Exactly.\" - During Priority: Thessia:",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "summary:alternate-appearance-packs",
+      "kind": "summary",
+      "page": "Alternate Appearance Packs",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Alternate Appearance Packs were downloadable content for Mass Effect 2 and Mass Effect 3 that added new squadmate outfits and armor. For Mass Effect 2, the first pack was released on 23 March 2010 and included three new outfits, one each for Garrus Vakarian, Jack, and Thane Krios; the alternate outfits did not require a squadmate's loyalty mission to be completed. BioWare accepted community suggestions in August 2010 for a second pack, which was released on 8 February 2011 and contained new outfits for Grunt, Tali, and Miranda, including krogan-built plating for Grunt, an armored envirosuit upgrade with a visor heads-up display for Tali, and black Cerberus composite-ceramic armor for Miranda. Both Mass Effect 2 packs cost 160 BioWare Points on PC or 1.99 USD on consoles.\n\nFor Mass Effect 3, Alternate Appearance Pack 1 was released on 20 November 2012, with its contents immediately available on download. It included three new outfits, one each for Garrus Vakarian, Liara T'Soni, and EDI, plus the Cerberus Ajax Armor set for Commander Shepard. It was priced at 160 BioWare Points on PC or 1.99 USD on consoles.",
+      "url": "https://masseffect.fandom.com/wiki/Alternate_Appearance_Packs",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "summary:mass-effect-2-guide",
+      "kind": "summary",
+      "page": "Mass Effect 2 Guide",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This page is a structural walkthrough of Mass Effect 2's main-mission progression, organized into a Prologue and three Acts. The Prologue covers Save Joker and Awakening, Freedom's Progress (the first mission with Miranda and Jacob), and the assignment of the Stop the Collectors master mission along with command of the Normandy SR-2. Act 1 runs until Horizon, which triggers once Mordin, Garrus, Jack, and Grunt are all recruited; recruitment order does not affect events. The guide recommends recruiting Mordin first to unlock the Research Lab, and notes optional Omega, Citadel, and Planet Scanning assignments plus N7 Assignments. Act 1 DLC includes Dossier: The Veteran (Zaeed), Dossier: The Master Thief (Kasumi), their loyalty missions, Overlord, Firewalker Pack, and Normandy Crash Site.\n\nAct 2 begins after Horizon, opening Illium and the dossiers for Thane, Samara, and Tali, plus the Reaper IFF mission that recruits Legion (available only after the Collector Ship mission). At least eight crew members, not counting Legion, are needed to advance. Loyalty missions begin in Act 2; securing loyalty unlocks squad Bonus Powers (the first unlock of each is added to Shepard's Advanced Training) and improves the odds that squadmates and Shepard survive Act 3. Kelly Chambers indicates which squadmates have new loyalty missions. Each squadmate also has a Normandy upgrade or research project. Act 2 DLC comprises Lair of the Shadow Broker and Arrival. Key progression missions are the Collector Ship, Reaper IFF (after which a countdown with plot consequences begins), and Await IFF Installation.\n\nAct 3, the Suicide Mission, starts when the Normandy enters the Omega 4 Relay, locking the mission sequence through to the Epilogue with no galaxy-map access. Before entering, the guide stresses upgrading the Normandy's shields (Tali), armor (Jacob), and cannon (Garrus); each un-purchased upgrade costs one team member. The death-priority tiers are listed: Heavy Ship Armor (Jack), Multicore Shielding (Kasumi, Legion, Tali, Thane, Garrus, Zaeed, Grunt), and Thanix Cannon (Thane, Garrus, Zaeed, Grunt, Jack, Samara/Morinth). Act 3 progression runs through The Normandy Attacked (the Oculus), Collector Base: Infiltration, The Long Walk, and Final Battle. Upgrades also raise the Normandy's War Asset value in Mass Effect 3. The page notes Legendary Edition folds in all former DLC while keeping prerequisites largely intact.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Guide",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "summary:mass-effect-2-cut-content-dossier-the-professor-voicelines",
+      "kind": "summary",
+      "page": "Mass Effect 2 Cut Content/Dossier: The Professor Voicelines",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects dialogue cut from Mass Effect 2's mission Dossier: The Professor, recovered from the game's dialogue files where the audio remains present but the lines were made non-functional. Almost all of it consists of squadmate reactions for characters who cannot yet be recruited at that point in the released game, plus unused voicelines for human refugees at Mordin's clinic. The lines are grouped by scene: entering the quarantine zone, the burning bodies, the dying batarian, the squad falling sick, a clawed-at corpse, the looters, the merc battle, meeting Mordin, Daniel's death, and activating the air-processing fans.\n\nRepresentative lines:\n\nGarrus, preparing to enter the plague quarantine: \"A quarantine zone for a plague that kills turians. Why don't we ever go anywhere nice?\"\n\nTali, on being asked to come into the plague zone: \"My suit filters out every known germ, toxin, parasite, and allergen. I shouldn't have trouble unless it's breached.\"\n\nGarrus, seeing the burning corpses: \"Over the years I've grown used to the smell of burning bodies. That's probably a bad sign.\"\n\nGrunt, at the burning bodies: \"Anyone else hungry? No?\"\n\nGarrus, over the dying batarian: \"Poor bastard. Never thought I'd say that about a batarian.\"\n\nGrunt, as the squad falls ill: \"I don't get sick!\"\n\nKasumi, on Daniel the dead assistant: \"And the moral of the story: help nobody.\"\n\nMordin, meeting a squad of aliens he has just cured: \"Turian physiology resilient with simple immunobooster. Should be fine now... Drell. Very rare. Cure untested. Will not hurt, at least.\"\n\nRefugee at Mordin's clinic: \"All the aliens are blaming us for this plague, but we're victims just like everyone else.\"",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Cut_Content/Dossier:_The_Professor_Voicelines",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "summary:citadel-expose-saren",
+      "kind": "summary",
+      "page": "Citadel: Expose Saren",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Citadel: Expose Saren began when Shepard first arrived at the Citadel after Prologue: Find the Beacon. Ambassador Udina was arguing with the Citadel Council, demanding action against the Spectre Saren Arterius; the turian councilor deferred everything to a hearing. Udina directed Shepard and Anderson to the Citadel Tower. Optional exploration let Shepard meet the elcor Xeltan (starting Citadel: Xeltan's Complaint if General Septimus Oraka had been met during Sha'ira's Asari Consort assignment), Executor Pallin at C-Sec, Private Fredricks, and Nelyna at the Consort's Chambers. Outside the Council Chambers, Shepard met C-Sec officer Garrus Vakarian, who was investigating Saren.\n\nAt the hearing, Udina and Anderson raised the geth attack on Eden Prime, the eyewitness Powell, and Shepard's beacon vision. Saren, who called the dead Nihlus a friend, dismissed the vision as dreams, and the asari, salarian, and turian councilors ruled there was insufficient evidence, leaving Saren a Spectre. Udina said bringing Anderson had been a mistake, hinting at history between the two men and Saren, and pointed Shepard toward C-Sec informant Harkin, while Anderson suggested Barla Von. This granted the Citadel: Garrus mission, plus Citadel: Shadow Broker if Barla Von was named.\n\nInvestigation revealed Dr. Chloe Michel had referred a quarian carrying evidence against Saren to Fist, a Shadow Broker agent who had defected to Saren; Garrus was protecting Michel, and Urdnot Wrex had been hired to kill Fist. Shepard fought through Fist's mercenaries at Chora's Den, including a Krogan Bouncer, Thugs, Warehouse Workers, and turrets, and confronted Fist, who admitted he had sent the quarian to meet assassins rather than the Shadow Broker. Fist could be killed or spared, though Wrex killed him regardless. Shepard then had four minutes to reach the back alley and kill the assassins, saving the quarian, Tali'Zorah nar Rayya.\n\nIn Udina's office, Tali played an audio recording of Saren admitting to the Eden Prime attack, with a second unidentified voice referencing the Reapers, which the geth revered and which had wiped out the Protheans 50,000 years earlier. Tali could join the squad. The Council reviewed the evidence, stripped Saren of his Spectre status, and, after Udina pressed for a Citadel Fleet, instead named Shepard the first human Spectre, unlocking Spectre Training and higher Charm and Intimidate. Anderson was relieved of command of the SSV Normandy, which passed to Shepard. On the way out Shepard could pick up assignments from Admiral Kahoku and Garoth and the Citadel: Homecoming lead from Samesh Bhatia. Consequences carried forward: a spared Fist reappeared on Omega, and failing to recruit Garrus or Wrex altered their later fates, with Wrex potentially dying and Urdnot Wreav seizing Clan Urdnot.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Expose_Saren",
+      "for_key": "Tali and Garrus bet on kills"
+    },
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#01",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference With the galaxy's combined forces committed to deploying the Crucible against the Reapers in the Sol system, Fleet Admiral Hackett requests clearance to board Shepard's ship. Aboard the Normandy he signals the fleets to mobilize and delivers his pre-battle address to every soldier in the coming fight: \"Never before have so many come together--from all quarters of the galaxy. But never before have we faced an enemy such as this... Stand fast. Stand strong. Stand together. Hackett out.\"",
+      "url": "",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#03",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference Hackett lays out the plan: Sword fleet engages the Reapers in orbit; Hammer strike teams help the Earth resistance reach the Reaper-built conduit in London to teleport to the Citadel and open the arms; Hackett's Shield fleet hangs back to guard the Crucible and bring it in during the fighting. The assembled fleets then launch the assault on Earth.",
+      "url": "",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#02",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference Afterward Shepard and Hackett hold a holo-conference with Anderson, on Earth, who reports that the Reapers have moved the Citadel into orbit above Earth and closed the Ward arms, so the Crucible cannot dock.",
+      "url": "",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "alliance-navy_023",
+      "kind": "page",
+      "page": "Alliance Navy",
+      "section": "Fall of Earth",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Alliance Navy suffered the most devastating defeat in its history when the Reapers invaded the galaxy in 2186 and made their way to Earth. The Sixth and Seventh Fleets, located around Terra Nova and Eden Prime respectively, were completely bypassed as the Reapers committed to a headlong rush to humanity's most important world. Knowing that something was on its way, Admiral Hackett moved the Second, Third, and Fifth Fleets to guard Arcturus Station. When the Reapers arrived, they sent a dozen capital ships as a screen to distract the Alliance fleets while the bulk of Reaper forces used the Arcturus relay to travel to Sol. Hackett was eventually forced to sacrifice the Second Fleet as a distraction to allow the Third and Fifth Fleets to flee, leaving Arcturus Station, the Alliance's capital and home to 45,000 people, to be destroyed. At Sol, the Reapers immediately engaged the First Fleet, which had been stationed at the Charon Relay. This gave the Fourth Fleet, in orbit around Earth, a few minutes of advance warning. This final defense was quickly overwhelmed. The First Fleet was rapidly cut in half, and a tenth of its ships were sacrificed for the rest of the fleet to escape and rejoin Admiral Hackett. The Fourth Fleet was completely wiped out and the Reapers began to land on Earth.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "mass-effect-system-guide_012",
+      "kind": "page",
+      "page": "Mass Effect System Guide",
+      "section": "Local Cluster",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Local Cluster* #### Sol System *Main article: Sol* - Scannable from Normandy - *Nothing* - Assignments on Luna - UNC: Rogue VI",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_System_Guide",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "arcturus-station_008",
+      "kind": "page",
+      "page": "Arcturus Station",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Arcturus Station is the site of a battle between the Alliance's Second, Third, and Fifth Fleets and Reaper forces on their way to Sol. While the Alliance defends the station from a dozen Reaper capital ships, the bulk of the Reaper fleet rushes through the mass relay. Admiral Steven Hackett realizes he can not win, and is forced to abandon the station and sacrifice the Second Fleet to allow the Third and Fifth Fleets to escape. Sometime afterward, Arcturus Station is destroyed by the Reapers. According to Donnel Udina, the entire Alliance Parliament and Prime Minister Amul Shastri were on the station at the time of its destruction and were killed. Intelligence from the Battle of Arcturus can be salvaged from the remains of the station.",
+      "url": "https://masseffect.fandom.com/wiki/Arcturus_Station",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "alliance-news-network-march-2012_004",
+      "kind": "page",
+      "page": "Alliance News Network - March 2012",
+      "section": "*03/07/2012 \\- Human Homeworld Engulfed*",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*“Comm buoys dark in Sol system, Arcturus system, Exodus cluster. QECs report insectoid attackers, \"deformed\" batarians. Rachni \"ruled out.\"”*",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_News_Network_-_March_2012",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "luna_001",
+      "kind": "page",
+      "page": "Luna",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Local Cluster / Sol System / Earth **Prerequisite:** Level 20 (Mass Effect)",
+      "url": "https://masseffect.fandom.com/wiki/Luna",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "pluto_001",
+      "kind": "page",
+      "page": "Pluto",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Local Cluster / Sol System /  **Ninth planet** **Prerequisite:** Level 20 (Mass Effect)",
+      "url": "https://masseffect.fandom.com/wiki/Pluto",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "saturn_001",
+      "kind": "page",
+      "page": "Saturn",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Local Cluster / Sol System /  **Sixth planet** **Prerequisite:** Level 20 (Mass Effect)",
+      "url": "https://masseffect.fandom.com/wiki/Saturn",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "jupiter_001",
+      "kind": "page",
+      "page": "Jupiter",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Local Cluster / Sol System /  **Fifth planet** **Prerequisite:** Level 20 (Mass Effect)",
+      "url": "https://masseffect.fandom.com/wiki/Jupiter",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "summary:alliance-news-network-march-2012",
+      "kind": "summary",
+      "page": "Alliance News Network - March 2012",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page is a short archive with minimal prose. It reproduces the Alliance News Network headline reports delivered via the Mass Effect 3 main menu during March 2012, set in-universe in 2186 during the Reaper invasion. Week Two headlines covered blackouts and bombardment on Earth, batarian refugees in the Exodus Cluster reporting devastated planets, comm buoys going dark across Sol, Arcturus, and Exodus with sightings of insectoid attackers and \"deformed\" batarians, and the start of war in turian space over Taetrus, with Primarch Fedorian vowing \"Whatever civilization we face, it picked the wrong foe.\" Week Three headlines identified the enemy as ancient sapient starships called Reapers, reported a third front opening in asari space with an offline antimatter generator in the Loropi system, noted salarian fleets held back by the Narra bloodline's threat of rebellion while Dalatrass Linron refused martial law, and reported the turian defeat at the Taetrus relay with Reaper forces pushing through to Palaven.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_News_Network_-_March_2012",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "summary:homeward-sol",
+      "kind": "summary",
+      "page": "Homeward Sol",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Homeward Sol was a human-centric grassroots movement opposed to human expansion beyond the Sol system. Its members were xenophobes and Earth-centrists, likened to the Tenth Street Reds but without the illegal drug trade. It funded itself partly through lawsuits filed against famous individuals goaded into harming its members, such as by punching them, but was also capable of sophisticated espionage and terrorism.\n\nIn Mass Effect Andromeda: Initiation, following an interview by Khalisah al-Jilani, Homeward Sol supporters harassed Cora Harper during her arrival at Tamayo Point and her weeks-long hospital convalescence there; her SAM-E implant had to fabricate a bomb threat so authorities would clear the docking bay of protesters. Alec Ryder received threats from the group that he considered credible, borne out when two Homeward Sol members were arrested after a bombing on the Hyperion nearly destroyed his SAM project. The group was known to run pirate radio ads carrying encrypted secondary messages, one of which the Alliance intercepted.",
+      "url": "https://masseffect.fandom.com/wiki/Homeward_Sol",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "summary:sol",
+      "kind": "summary",
+      "page": "Sol",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Sol is the home star system of humanity and the Systems Alliance. In Mass Effect it is accessible after reaching level 20. In Mass Effect 2 most of its planets can be mined by the Normandy SR-2, the exceptions being Earth and Mars, though none of the bodies rate better than \"Good\" for minerals.\n\nThe system was previously cut off from the galactic mass relay network because the Charon Relay orbiting Pluto had been encased in ice; its discovery and activation allowed humanity's expansion into the galaxy. During their height 50,000 years ago, the Prothean Empire maintained an outpost on Mars and studied the primitive inhabitants of Earth.\n\nSol contains nine planets recognized for game purposes: Mercury (first), Venus (second), Earth (third), Mars (fourth), Jupiter (fifth), Saturn (sixth), Uranus (seventh), Neptune (eighth), and Pluto (ninth), along with Luna, a moon of Earth. Associated missions and assignments include Prologue: Earth and Priority: Earth, UNC: Rogue VI on Luna, and Priority: Mars. In Mass Effect and Mass Effect 2, Sol is one of the largest systems in the game, with nine planets where most systems have four or five. Only the Asteroid Belt is depicted in-game, not the Kuiper Belt. The in-game positions of the planets in Mass Effect 2 correspond to a date of 26 January 2185, 175 years after the game's North American release date.",
+      "url": "https://masseffect.fandom.com/wiki/Sol",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "summary:tamayo-point",
+      "kind": "summary",
+      "page": "Tamayo Point",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Tamayo Point was a space station in the Sol system designated as a tourist jump-off point to the wider galaxy, with extensive commercial amenities catering to human and alien visitors. It possibly took its name from the Cuban cosmonaut Arnaldo Tamayo Méndez.\n\nIn Mass Effect Andromeda: Initiation, Tamayo Point was Cora Harper's first waystation on returning to Sol after four years of military service with the asari. She was almost immediately targeted by xenophobes following an unflattering ambush interview by Khalisah al-Jilani. Her friend Ygara Menoris was also on the station, ostensibly bound for Illium, but turned out to have ulterior motives. After Ygara's betrayal, Cora returned to Tamayo Point and used the station's direct line to the system comm buoy to relay her report to Alec Ryder; because the line was not fully secure, Ryder spoke in hypotheticals whenever the subject touched on illegal topics such as artificial intelligence.\n\nThe station had medical facilities on its higher levels equipped to treat damage from metabolic overdrive. Cora was brought there again after overexertion on Quiet Eddy harmed her body, spending weeks in a coma while Homeward Sol protesters who recognized her from al-Jilani's interview gathered at the hospital, requiring armed guards at her door. When she was discharged, Tamayo Point authorities cleared protesters around her shuttle after her implant AI SAM-E issued a possible bomb threat.",
+      "url": "https://masseffect.fandom.com/wiki/Tamayo_Point",
+      "for_key": "Sol system combined fleets gathering"
+    },
+    {
+      "chunk_id": "scene:citadel-schells-the-gambler#01",
+      "kind": "scene",
+      "page": "Schells' Cheating Device at Flux",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-schells-the-gambler",
+      "text": "Schells' Cheating Device at Flux. 2183, Citadel, after Citadel: Rita's Sister, during the hunt for Saren Flux, on the Citadel On entering Flux, Shepard sees a salarian named Schells thrown out by the bouncer for cheating at the Quasar gambling machines. Schells claims he was not cheating but gathering data with a device to perfect a system for predicting Quasar outcomes, one that tampers with the machines to raise his odds of winning. Flux's owner Doran has accused him of cheating. Schells asks Shepard to collect the data for him and waits at the entrance until Shepard agrees.",
+      "url": "",
+      "for_key": "Sol system combined fleets gathering"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/everyday.md",
+      "line": 5,
+      "text": "- After Cerberus general Oleg Petrovsky's capture at Afterlife during the Omega uprising, Aria T'Loak emailed Shepard that his personal chessboard had been sent to the Normandy SR-2's captain's cabin, where it was displayed; for the confrontation itself and Petrovsky's branching fate (killed by Aria, handed to the Alliance, or executed by Shepard), read `scenes/omega-afterlife-nyreen-sacrifice-petrovsky-fate.yaml` rather than a bullet — the causality, starting with Nyreen Kandros's sacrifice against the Adjutants and Aria's own capture in Petrovsky's stasis trap, does not survive compression. (source: Normandy SR-2)",
+      "for_key": "captain's cabin normandy sr-2"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 175,
+      "text": "- The Normandy SR-2's captain's cabin featured a purchasable pet space hamster, an aquarium of fish that needed feeding, a model-ship display case, and a sound system, while the crew's Port Observation lounge had a bar where mixed drinks (blue, red, or a purple blend of both) could visibly intoxicate Shepard. (source: Normandy SR-2)",
+      "for_key": "captain's cabin normandy sr-2"
+    },
+    {
+      "file": "codex/ships.md",
+      "line": 87,
+      "text": "- The Normandy SR-2 had five decks: captain's cabin, Combat Information Center, crew's quarters, engineering with the oversized Tantalus core, and a hangar for the Kodiak shuttle and M-44 Hammerhead; weapon, armor and shield upgrades determined crew survival in the suicide mission (source: Normandy SR-2).",
+      "for_key": "captain's cabin normandy sr-2"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

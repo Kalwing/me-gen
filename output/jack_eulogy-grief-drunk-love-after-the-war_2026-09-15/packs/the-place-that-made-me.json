@@ -1,0 +1,844 @@
+{
+  "section": {
+    "id": "the-place-that-made-me",
+    "title": "The Place That Made Me",
+    "target_words": 1000,
+    "form": "eulogy",
+    "narrator": "jack"
+  },
+  "promises": [
+    "what Cerberus actually did to her at Teltin, in her own blunt terms, not the sanitized version",
+    "Shepard let her decide Aresh's fate instead of deciding for her, and what that proved",
+    "she names this as the first thing she owed him and never said so out loud until now"
+  ],
+  "required_facts": [
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "Jack, birth name Jennifer and later self-styled \"Jack,\" was born in 2161 with unusual biotic potential caused by accidental in-utero element zero exposure. In 2165 Cerberus operatives abducted her as an infant, reportedly from Eden Prime, and told her mother the child had died. She was taken to the Teltin facility on Pragia, in the Dakka system of the Nubian Expanse, where a Cerberus research program sought to maximize human biotic potential regardless of cost. Designated Subject Zero, Jack became the sole focus of the research. Other abducted biotic children were treated as expendable: lethal or risky enhancements were tested on them first, and only beneficial results were applied to her. Scientists tortured her physically and psychologically to study how pain and stress affected biotic ability, kept her behind a soundproofed one-way mirror where she could see and hear the other children but not the reverse, and forced her into gladiatorial fights against them. She was shocked for hesitating and injected with narcotics for killing without hesitation, conditioning her to associate killing with euphoria. The other children came to hate her as the source of their suffering. The abuse made her one of the most powerful human biotics alive while still very young. Eventually the subjects rioted during a transfer, damaging the facility and freeing Jack, who flew into a blind fury and killed nearly everyone present, including a distraught doctor, before stealing a shuttle and escaping into the Dakka system. The Illusive Man later claimed the site had \"gone rogue\" and ordered it shut down; clean-up crews found the guards and most subjects dead, gave the surviving children amnesic treatments, and delivered them to the Alliance as \"slaver attack\" survivors. A passing ship that picked up Jack used her and sold her into slavery, beginning a decade of piracy, gang membership, and imprisonment that ended aboard the Blue Suns prison ship Purgatory. The Teltin facility's records and Jack's own memories are uncovered in 2185 during her loyalty mission, Jack: Subject Zero.",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "Jack is transformed into one of the most powerful human biotics alive",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "Cerberus kills numerous abducted biotic children at Teltin",
+      "actor": ""
+    },
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "The facility riot leaves most staff and subjects dead; Jack escapes off-world",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "The Illusive Man shuts Teltin down and disowns it as \"gone rogue\"",
+      "actor": "The Illusive Man"
+    },
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "Surviving children are given amnesiacs and passed to the Alliance as slaver-attack survivors",
+      "actor": ""
+    },
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "Jack is sold into slavery, beginning years of violent crime and imprisonment",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "subject-zero-cerberus-teltin-experiments",
+      "fact": "Jack's lifelong hatred of Cerberus and her survivor's psychology are established",
+      "actor": "Jack"
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "pragia-jack-teltin-facility",
+      "title": "Blowing Up the Place That Made Her",
+      "kind": "mission-aside",
+      "game": "Mass Effect 2",
+      "when": "2185, after Horizon",
+      "where": "the Teltin facility on Pragia, Dakka system, Nubian Expanse",
+      "participants": [
+        "Shepard",
+        "Jack",
+        "Aresh",
+        "Kureck"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "jack_loyalty": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "After going through her files, Jack wants one thing: to reach the centre of the place, her cell, put a bomb in it, and watch from orbit when it goes.\n",
+          "source_chunks": [
+            "jack_005"
+          ]
+        },
+        {
+          "text": "Cerberus raised her in that facility and experimented on her there. On the shuttle down she talks about what was done.\n",
+          "source_chunks": [
+            "jack-subject-zero_001",
+            "jack-subject-zero_005"
+          ]
+        },
+        {
+          "text": "The facility is not empty: a Blood Pack crew under the krogan Battlemaster Kureck, hired by Aresh to guard the salvage, is holed up inside. Kureck opens fire when Shepard's squad reaches him and is killed in the firefight. Moving through, Jack points out where she broke through during her escape.\n",
+          "source_chunks": [
+            "jack_005",
+            "jack-subject-zero_007",
+            "kureck_001",
+            "blood-pack_004"
+          ]
+        },
+        {
+          "text": "In her cell they find Aresh, another test subject, who hired the mercs to restore Teltin in exchange for salvage. Jack wants him dead; Shepard can stop her.\n",
+          "source_chunks": [
+            "jack_005",
+            "jack-subject-zero_009"
+          ]
+        },
+        {
+          "text": "They plant the bomb in her cell and take the shuttle out before it goes.\n",
+          "source_chunks": [
+            "jack_005"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "jack_loyalty": "Aresh spared"
+          },
+          "choice": "Aresh spared",
+          "text": "If Jack is talked into sparing Aresh, he survives the destruction of Teltin and later takes up work on the colony of Elysium. In 2186 Shepard receives a news alert: Aresh saved a shuttle full of children evacuating the Reaper-occupied colony and died doing it, reportedly killing several dozen Reaper creatures in the defence. The report names his surname, Aghdashloo, for the first time.\n",
+          "source_chunks": [
+            "jack-subject-zero_012",
+            "aresh-aghdashloo_003"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "normandy-jack-miranda-confrontation"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "jack_005",
+        "jack-subject-zero_001",
+        "jack-subject-zero_005",
+        "jack-subject-zero_007",
+        "jack-subject-zero_009",
+        "jack-subject-zero_012",
+        "aresh-aghdashloo_003",
+        "kureck_001",
+        "blood-pack_004"
+      ]
+    }
+  ],
+  "attendance": {
+    "pragia-jack-teltin-facility": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "summary:aresh-aghdashloo",
+      "kind": "summary",
+      "page": "Aresh Aghdashloo",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Aresh Aghdashloo was a human biotic who was one of many child test subjects at the rogue Cerberus Teltin Facility on Pragia. Like most of the children there, he had been sold to Cerberus by batarian pirates. Horrific and often lethal experiments were performed on the subjects, primarily to ensure that the most important subject, Jack, would survive. Aresh was one of the few other survivors of the mass breakout from the facility, and the experience left him deeply mentally scarred.\n\nIn Mass Effect 2, Aresh became convinced that the atrocities committed at Teltin must have served some greater purpose, and he set about rebuilding the facility. He hired Blood Pack mercenaries, led by the krogan Kureck, to defend the site. During Jack's return to Pragia, Shepard and Jack fought through these mercenaries and confronted Aresh, who revealed his plan to restart the facility. Shepard could convince Jack to spare his life or could kill him personally.\n\nIn Mass Effect 3, if Aresh had been spared, he survived the destruction of the Teltin Facility and later took up work on the colony of Elysium. In 2186, Shepard received a news alert reporting that Aresh had saved a shuttle of children evacuating the Reaper-occupied colony and died in the process, having reportedly killed several dozen Reaper creatures during the defense. His surname, Aghdashloo, was revealed at this time. It matches that of Shohreh Aghdashloo, the actress who voiced Admiral Shala'Raan vas Tonbay.",
+      "url": "https://masseffect.fandom.com/wiki/Aresh_Aghdashloo",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "jack_005",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I want to go to the center of the place, my cell. I want to deploy a big fucking bomb. And I want to watch from orbit when it goes.” *Main article: Jack: Subject Zero* After looking through her files, Jack wants to deploy a bomb at the Teltin facility on Pragia, where Cerberus conducted their experiments on her. Shepard takes Jack to the facility, unexpectedly encountering Blood Pack mercenaries. After fighting through the mercs, they find another test subject, Aresh. Aresh hired the mercs to restore the Teltin facility in exchange for salvage. Jack wants to kill him, but Shepard has the option to stop her. The two plant the bomb in Jack's cell, and use the shuttle to escape before detonation. If Miranda's loyalty mission has already been completed, once Shepard returns to the Normandy, Shepard will have to resolve a dispute between Jack and Miranda regarding the involvement of Cerberus in Jack's torture. Shepard can resolve the conflict without picking a side, in which case, both Jack and Miranda agree to put off their fight until after the mission with the Collectors is over. If Shepard sides with Miranda, then the Commander will lose Jack's loyalty, but has the opportunity to regain her loyalty in a later conversation. In addition, if Shepard was in a romance with Jack, and sided with Miranda, then Jack will break off the relationship and will refuse to rekindle it.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "aresh-aghdashloo_002",
+      "kind": "page",
+      "page": "Aresh Aghdashloo",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Aresh was among the group of subjects that had horrific, often lethal, experiments performed on them, primarily so the most important subject, Jack, would survive. Aresh, like most of the children, was sold to Cerberus by batarian pirates. He's one of the only other survivors of the mass breakout, and was mentally scarred by his experience to such an extent that he attempts to restart the facility, justifying that all the terrible things done to them must have been for a good reason, for some benefit. During Jack's return to Pragia, Shepard and Jack fight their way past the Blood Pack mercenaries Aresh hired, led by the krogan Kureck. When they finally reach Aresh, he reveals to Jack and Shepard that he is rebuilding the Teltin Facility. Shepard can convince Jack to spare his life or allow her to kill him. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Aresh_Aghdashloo",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-1-origin-and-history_001",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 1) — Origin and History",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Summary:** Part 1 of a character analysis of Jack: her abduction as an infant by Cerberus, the biotic-enhancement experiments and kill-conditioning at the Teltin facility on Pragia, the subject riot and her escape, the violent years that followed, her attempt to save biotic children from a second Cerberus facility, her capture and abuse aboard the Blue Suns prison ship Purgatory, and her recruitment by Shepard in 2185. Part 2 is a psychological analysis of her arc through Mass Effect 3. Names attached to her: Jack; Subject Zero; Jacqueline Nought; Jennifer. She first appears in Mass Effect 2 and immediately became a divisive character — some players put off by her abrasiveness, others intrigued by it. Born a biotic and modified into a weapon, she is one of the most powerful and notorious human criminals in the setting. (The video's author frames Jack as among the best-written characters in the series and a frequent romance choice; parts of this analysis are interpretation, not hard canon.)",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "scene:pragia-jack-teltin-facility#01",
+      "kind": "scene",
+      "page": "Blowing Up the Place That Made Her",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "pragia-jack-teltin-facility",
+      "text": "Blowing Up the Place That Made Her. 2185, after Horizon the Teltin facility on Pragia, Dakka system, Nubian Expanse After going through her files, Jack wants one thing: to reach the centre of the place, her cell, put a bomb in it, and watch from orbit when it goes.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "scene:pragia-jack-teltin-facility#04",
+      "kind": "scene",
+      "page": "Blowing Up the Place That Made Her",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "pragia-jack-teltin-facility",
+      "text": "Blowing Up the Place That Made Her. 2185, after Horizon the Teltin facility on Pragia, Dakka system, Nubian Expanse In her cell they find Aresh, another test subject, who hired the mercs to restore Teltin in exchange for salvage. Jack wants him dead; Shepard can stop her.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "scene:pragia-jack-teltin-facility#06",
+      "kind": "scene",
+      "page": "Blowing Up the Place That Made Her",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "pragia-jack-teltin-facility",
+      "text": "Blowing Up the Place That Made Her. 2185, after Horizon the Teltin facility on Pragia, Dakka system, Nubian Expanse If Jack is talked into sparing Aresh, he survives the destruction of Teltin and later takes up work on the colony of Elysium. In 2186 Shepard receives a news alert: Aresh saved a shuttle full of children evacuating the Reaper-occupied colony and died doing it, reportedly killing several dozen Reaper creatures in the defence. The report names his surname, Aghdashloo, for the first time.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "scene:pragia-jack-teltin-facility#03",
+      "kind": "scene",
+      "page": "Blowing Up the Place That Made Her",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "pragia-jack-teltin-facility",
+      "text": "Blowing Up the Place That Made Her. 2185, after Horizon the Teltin facility on Pragia, Dakka system, Nubian Expanse The facility is not empty: a Blood Pack crew under the krogan Battlemaster Kureck, hired by Aresh to guard the salvage, is holed up inside. Kureck opens fire when Shepard's squad reaches him and is killed in the firefight. Moving through, Jack points out where she broke through during her escape.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_008",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "Aresh and the Teltin bomb",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Wanting to move on, and thinking violently, Jack decides to blow up the facility that made her. Shepard takes her back to Teltin on Pragia with a bomb. There she finds another survivor, Aresh — a dark reflection of herself, also stuck in the past, but who wants to restart the facility to give the suffering meaning. Jack wants to kill him; Shepard can argue, \"He's trapped in his past. You need to move on from yours… your past doesn't have to control you.\" Letting Aresh live, destroying the facility, and choosing not to kill gives Jack a revelation — Aresh showed her what she could have become, and she resolves not to get stuck like that.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "summary:jack-character-analysis-01",
+      "kind": "summary",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 1) — Origin and History",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Part 1 of a YouTube character analysis of Jack, covering her origin and history; the author frames Jack as one of the best-written characters in the series and a frequent romance choice, and notes some content is interpretation rather than hard canon. Names attached to her: Jack, Subject Zero, Jacqueline Nought, and Jennifer. Born a biotic and modified into a weapon, she is one of the most powerful and notorious human criminals in the setting.\n\nIn 2165 Cerberus, a human-supremacist paramilitary group, abducted the infant later called Jennifer, drawn by biotic potential from accidental element-zero exposure in the womb, and told her mother the child had died. Cerberus sent her to the Teltin facility on Pragia, whose goal was to enhance human biotic potential \"no matter the risk.\" Designated Subject Zero and later named Jack, she was the focal point of all research; other children were expendable, with lethal enhancements tested on them first and only beneficial ones applied to Jack. Scientists tortured her physically and mentally to study how pain and distress affected biotics. She was kept behind soundproof one-way glass, able to see and hear the other children but not the reverse, and spent hours screaming and beating on the glass. The other children hated her because Cerberus regularly killed them in experiments meant to advance her abilities. Their only interaction was forced gladiatorial combat: she was shocked for hesitating and injected with narcotics for killing without hesitation, hardwiring a link between euphoria and killing. The abuse made her one of the strongest human biotics alive at a very young age.\n\nEventually the subjects rioted and attacked the guards, damaging the facility and freeing Jack, whose pent-up rage sent her into a blind fury; she nearly killed everyone present, then stole a shuttle and escaped Pragia. A passing freighter picked her up, used her, and sold her into slavery. In the violent, crime-filled years that followed she committed murder, assault, kidnapping, drug use, theft, arson, piracy, and vandalism, and joined a cult. She attacked another Cerberus facility using biotic children to free them, fought off Cerberus agents while covering the children's escape, but was overrun and captured by Blue Suns mercenaries, to Cerberus's frustration, and taken to the prison ship Purgatory. There guards and prisoners beat and raped her; after healing she murdered every attacker. Warden Kuril decided she was not worth the Blue Suns' effort and offered to sell her back to Cerberus. In 2185 Commander Shepard, revived and working with Cerberus, arrived to complete the purchase and recruit Jack against the Collectors. When Kuril tried to capture Shepard a fight broke out, Jack escaped and rampaged, and after being talked down from killing Shepard over the Cerberus connection she agreed to join the team. Part 2 is a psychological analysis of her arc.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-1-origin-and-history_003",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 1) — Origin and History",
+      "section": "The Teltin facility, Pragia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Cerberus sent Jennifer to the Teltin facility on Pragia, whose goal was to enhance biotic potential in humans \"no matter the risk.\" Given the designation Subject Zero and eventually the name Jack, she was the focal point of all the facility's research. Other children there were treated as expendable: enhancements that proved lethal were tested on them first and only applied to Jack if found beneficial. Cerberus scientists tortured her physically and mentally to study how pain and distress affected her biotics. She was usually kept apart from the other children, in a room behind soundproof one-way glass — she could see and hear them, but they could not see or hear her. She spent hours screaming and beating on the glass to get their attention. Because Cerberus regularly killed the other children in experiments meant to advance her abilities, they came to hate her as the source of their suffering. The only time they interacted was in forced gladiatorial combat, staged to monitor her biotics and condition her to enjoy killing: if she hesitated she was shocked; if she killed without hesitation she was injected with narcotics, hardwiring a link between euphoria and killing. The abuse \"worked\" — she became one of the strongest human biotics alive at a very young age.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "summary:shadow-broker-dossiers-subject-zero-jack",
+      "kind": "summary",
+      "page": "Shadow Broker Dossiers/Subject Zero (Jack)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This Shadow Broker dossier, unlocked after the Lair of the Shadow Broker mission, covered Jack, called \"Subject Zero.\" The Broker noted her abnormal biotic power compared favorably with the Pragia (Teltin) facility's expected results and that she was easily manipulated through emotional impairment caused by childhood abuse and confinement.\n\nAn extranet log shows she avoided the Normandy's connection and used a private omni-tool line, searching Citadel Newsnet archives for Cerberus, Pragia, Teltin, the Illusive Man and Miranda Lawson, watching footage of the geth attacks on Eden Prime and the Citadel (and closing Shepard's Spectre inauguration after twelve seconds), studying escape-pod procedures, mass relay maps and no-flight zones, and being banned from a news forum for swearing and from Galactic Champion Poker 2100 after an altercation. She then wiped her history with a commercial VI.\n\nAn intercepted message is a rejection from Galactic Poetry Monthly addressed to \"Jacqueline Nought,\" reproducing her submitted poem, which ends: \"I mark myself / Black and jagged / To cover the scars / That make me a monster / A warning / This is not a place of honor / No esteemed dead are buried here.\"\n\nA surveillance transcript from the Helios Medical Facility on Eden Prime, dated 2165 and tapped for possible Cerberus involvement, records Doctor Castor telling a mother that her infant daughter died of seizures from prenatal element zero exposure, one of several such deaths the facility had seen, and blaming government inaction on treatments that might \"interfere with their biotic recruitments.\" Castor persuades the grieving woman to donate the body \"for tests,\" then opens a secure channel: \"I've got a candidate... highest potential I've seen in years... No, the family has been dealt with. Send a team from Pragia ASAP.\" The page's trivia notes the inconsistency between this 2165 \"baby\" and the Cerberus dossier's listed 2161 birth year for Subject Zero.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Dossiers/Subject_Zero_(Jack)",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "jack_002",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack was born in 2161 and abducted by Cerberus operatives in 2165 from Eden Prime, although it is unknown whether that was her birthplace. Cerberus' motives pertained to her newly discovered biotic potential, a result of accidental exposure to element zero in the womb. As a cover for her abduction, her mother was told that she had died due to complications of her eezo exposure. After initial tests, Jack became the prime subject of a sizable Cerberus experiment on Pragia's Teltin facility, with the goal of enhancing biotic potential in humans, regardless of the cost. The project was a typical Cerberus operation: lavishly funded, highly efficient, and morally indifferent, with a heavy reliance on brutal human experimentation and conditioning techniques in an attempt to maximize results. Referred to as Subject Zero, Jack was the core of the project, with every successful biotic enhancement applied to her. Many other children of lesser biotic ability were also kept as part of the experiment and treated as expendable lab animals, with many dying in trial runs of treatments to ensure that they would be successful on Zero. Any enhancements that proved lethal were not applied to Jack. She was tortured frequently, both psychologically and physically, in various experiments to test how pain and distress affected her biotic abilities. As she grew in both age and hatred for her captors, her powers eventually advanced to such a level that she became a serious threat to the staff, easily killing one by blasting him into a wall. Kept separate from other children, she grew up believing that the entire world was what she could see outside her window and repeatedly screamed herself hoarse while trying to communicate with others through her soundproofed cell. In reality, the window was a one\\-way mirror, intended as just another form of psychological torture. As they were regularly and remorselessly killed in various experiments designed solely to advance Jack's biotic abilities, the other kids grew to despise her as the source of all their suffering. This was only made worse by the fact that (on account of the one\\-way mirror) the only time they ever saw her was when the staff forced her to fight the other students gladiator\\-style in order to monitor her biotic progress and condition her to love the act of killing; she would even be injected with narcotic drugs during the fights to further associate killing with euphoria in her mind. Eventually, while being led to another deadly experiment, the children rioted and attacked the guards. Backed up by their biotics, the riot caused damage to the facility and Zero was freed. At this point her powers had grown so great that nothing could stop her. She would later have difficulty remembering those events for the next years in her life, due to her age at the time and the chaos. She would claim the guards and children attacked her, forcing her to kill them all. When she returned to Teltin, recorded logs rendered it more likely that the children were attempting either to get close to her for safety, since the guards had been ordered to keep Jack alive, or were trying to kill her as a measure of revenge. In either case, Jack's pent\\-up rage and sudden release from captivity caused her to fly into a fury, killing almost everyone in the facility in a furious biotic rampage before stealing a shuttle and flying off Pragia into the Dakka system, where it was picked up by another ship after several days. Rather than helping her, the crew \"used\" her before selling her off as a slave. The Teltin facility on Pragia was shut down by the Illusive Man shortly after Jack's escape. Although operating as an official Cerberus cell and receiving Cerberus funding, years later the Illusive Man would state he was initially unaware of the brutality of Teltin's experiments, claiming that he shut the facility down after finding out it had \"gone rogue\". This official stance is echoed by Miranda Lawson, who (when confronted by Jack) refuses to admit blame on behalf of Cerberus for Jack's experience, calling her ordeal a \"mistake\" and blaming it on a splinter group. After her escape, Subject Zero went on to live a predictably violent and bloody life. In order to sever ties with her past she took on the name Jack, and reacts violently whenever addressed by her former designation. She ran with various gangs, became a pirate, crashed a space station into a hanar moon (becoming wanted for vandalism in the process), and at one point joined a cult, keeping her head shaved even after her departure. |  | ***“I guess I want to stand for something too.”*** — Spoilers for **Mass Effect: Foundation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "summary:jack-subject-zero",
+      "kind": "summary",
+      "page": "Jack: Subject Zero",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack's loyalty mission in Mass Effect 2, available after Horizon and written by Brian Kindregan. After Shepard gives Jack access to Cerberus files aboard the Normandy, Kelly Chambers relays that Jack wants to see Shepard in her \"hidey hole\" on the Engineering Deck. Jack asks Shepard to help her destroy the decommissioned Teltin facility on Pragia, in the Dakka system of the Nubian Expanse, where Cerberus experimented on her as a child. She wants to plant \"a big fucking bomb\" in her old cell and watch it detonate from orbit.\n\nOn arrival EDI detects thermal signatures inside the complex but none near the landing zone. Moving through the facility, Jack recognizes rooms and revisits memories: a skylit atrium where she first saw sunlight, a bloodstained arena where she was pitted against the other children and drugged as a reward for killing and shocked for hesitating, a cell block, and a two-way mirror outside her own cell where she used to bang on the glass while the other children ignored her. Security consoles reveal the staff had \"gone rogue\" from the Illusive Man's orders, that all subjects were expendable except Jack, that children were exposed to chemicals and freezing temperatures, and that the project planned to infiltrate the Alliance's Ascension Project; a final log shows Jack killing the distraught doctor during the riot. The team fights varren, Blood Pack vorcha and krogan mercenaries (including a Pyro and the krogan Kureck), hired by Aresh.\n\nIn Jack's cell, Shepard meets Aresh, a former test subject who recognized Jack and is trying to restart the facility so the experiments \"must have been for something.\" Jack draws a pistol; Shepard can use Charm to spare him, Intimidate to have Jack kill him, or plain dialogue options with corresponding Paragon or Renegade interrupts. Shepard can then leave or stay while Jack walks the cell recounting memories of the window, bed, desk, and a bloodstain. On the shuttle back, Jack fumbles with the detonator, then presses it when Shepard nods, and the bomb destroys the facility.\n\nBack on the Normandy, if Miranda's loyalty mission is complete, Jack confronts Miranda in her office, throwing a chair, furious that Miranda will not admit Cerberus was wrong. Without sufficient Paragon or Renegade standing, Shepard must alienate one crewmate, losing that person's loyalty and any romance (recoverable later). Cerberus Intel emails that the Illusive Man had ordered the project shut down before the riot, that arriving personnel found all guards and most subjects dead, and that surviving children were given amnesic treatments and delivered to the Alliance as \"slaver attack\" survivors. Rewards include 750 experience, 30,000 credits, 500 element zero, a Biotic Damage (Hyper-amp) upgrade, and Warp Ammo for Jack. If Aresh is spared, a Mass Effect 3 news alert reports he died saving a shuttle of children evacuating a Reaper-occupied colony; his full name is given as Aresh Aghdashloo.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "aresh-aghdashloo_001",
+      "kind": "page",
+      "page": "Aresh Aghdashloo",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Aresh Aghdashloo** is a human biotic who was one of many child test subjects at the rogue Cerberus Teltin Facility on Pragia. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Aresh_Aghdashloo",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-1-origin-and-history_004",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 1) — Origin and History",
+      "section": "Riot and escape",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Eventually the subjects rioted and attacked the guards, damaging the facility and freeing Jack. Her pent-up rage and sudden release sent her into a blind fury; she nearly killed everyone in the facility — guards, scientists, and other subjects alike — then stole a shuttle and escaped Pragia. A passing freighter picked her up, used her, and sold her into slavery.",
+      "url": "",
+      "for_key": "the Teltin facility on Pragia and Cerberus's experiments on Jack"
+    },
+    {
+      "chunk_id": "randall-ezno_005",
+      "kind": "page",
+      "page": "Randall Ezno",
+      "section": "Trivia",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- It is implied that Randall's biotic abilities are a result of Cerberus's implants rather than being a \"natural\" biotic. - Randall wears Cerberus armor and bears the markings of Cerberus implants on his face, not unlike those of Commander Shepard following the Lazarus Project. - Randall's implants and biotics will glow according to his morality: red from Renegade choices and blue from Paragon choices. ##",
+      "url": "https://masseffect.fandom.com/wiki/Randall_Ezno",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "codex-technology_017",
+      "kind": "page",
+      "page": "Codex/Technology",
+      "section": "Biotics: Training",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Biotic implants and amplifiers only provide the potential to create coherent mass effect fields. Whether biotics can actually do so is largely determined by their training. Biotics must develop conscious control over their nervous systems, sending specific electrical impulses to the element zero nodules embedded in their nerves. They are taught to use their implants and amps with biofeedback devices and physical mnemonics. Specific gestures or muscle movements fire the proper sequence of nerves to activate a certain skill. Conatix Industries pioneered biotic training with the Biotic Acclimation and Temperance Training program. Although BAaT did not achieve the desired results, many techniques taught are still used today. Many human think tanks are trying to develop some form of biotic super soldier. Most are benign efforts to create more flexible troops. Others, less publicly known, are unapologetic attempts to create Nietzschean supermen.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Technology",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "scene:cerberus-facility-kai-leng-rasa-fail-to-catch-jack#03",
+      "kind": "scene",
+      "page": "Jack Throws Kai Leng Across a Cerberus Training Facility",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "cerberus-facility-kai-leng-rasa-fail-to-catch-jack",
+      "text": "Jack Throws Kai Leng Across a Cerberus Training Facility. before the Reaper war, during Mass Effect Foundation a wrecked Cerberus biotic training facility, near its main reactor Leng calls the whole thing \"a colossal waste of time.\" Rasa disagrees — at least the Illusive Man now knows what Subject Zero can do. On the shuttle out Leng blames Rasa for Jack's escape and warns her never to be assigned with him again.",
+      "url": "",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "maya-brooks_007",
+      "kind": "page",
+      "page": "Maya Brooks",
+      "section": "Mass Effect: Foundation 7",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A short\\-haired Rasa was accosted by Kai Leng for yet another mission in service to Cerberus. A training facility was under attack, and the Illusive Man dispatched them both to haul the perpetrator in for questioning. The target had biotics off the charts, as Rasa learned from the given dossier, and she doubted her purpose for being included when Leng declared he would be taking the operation seriously. In response, Leng told her she would be handling the aftermath analysis of events. A short time later at the training facility, Rasa took notice of the Blue Suns ships parked in the hangar. She did some further digging into the target and suspected that she was formerly of Cerberus, one of the biotic kids the organization trained in the early years. A mercenary contingent and two operatives for just one girl must mean Cerberus and the target were related, Rasa reasoned, as the agents continued to search for Jack. Soon enough Rasa and Leng found Jack just after she's done dealing with some Blue Suns soldiers. The Cerberus duo prepped their weapons but proved no match for Jack's biotic onslaught. More Blue Suns swarmed the scene, forcing Jack to make everything in the vicinity fly. Rasa begged the biotic to stop as she clung on one hand, but Jack was set on killing everyone. Subject Zero's rampage was only halted by a blow to the head. Rasa called out to the Blue Suns to clarify what they're doing when they started to haul Jack off, and one of their number responded that Jack would have to be ransomed by the Illusive Man. Rasa grudgingly accepted the situation as Kai Leng started to recover near her, remarking that the Illusive Man won't be happy with it. Leng thought the mission a waste of time, but Rasa was uncertain: at the very least, the Illusive Man will know Subject Zero's worth and capabilities.",
+      "url": "https://masseffect.fandom.com/wiki/Maya_Brooks",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "summary:randall-ezno",
+      "kind": "summary",
+      "page": "Randall Ezno",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Randall Ezno was a veteran Cerberus operative and Infiltrator, tasked with capturing aliens for study during the Reaper War around 2186. He received more extensive Reaper-grade neuronal implants than any other human test subject at his main station, upgrading his biotic and tech abilities. It was implied his biotics resulted from these implants rather than being natural. The implants were intended to indoctrinate him, but the process failed, and he adapted to them faster than most Cerberus operatives. He wore Cerberus armor and bore implant markings on his face similar to Commander Shepard's after the Lazarus Project; his implants glowed red for Renegade choices and blue for Paragon choices.\n\nIn Mass Effect: Infiltrator, while hunting a turian for Cerberus on an Ice Giant, Randall learned of his own extensive modification. He returned to a Cerberus station called \"the Barn,\" which was then attacked by Turian Hierarchy soldiers. Summoned for a debriefing by his handler, Inali Renata, he lost contact with her along the way. Guided by a voice claiming to be a volus hacker on his radio, he found Inali, who had \"volunteered\" for implants and was being brutally treated. Randall rebelled, fighting waves of Cerberus troops, mechs, turrets, and escaped alien test subjects, including a mutated cybernetic krogan named X1. Following the volus's advice, he freed the station's other test subjects, turning the Barn into a warzone, and reached the communications tower to contact the Systems Alliance, arranging pickup on a Desert Planet.\n\nThere he confronted a heavily modified Inali, controlled by the operative in charge of the Barn, known only as \"The Director.\" After defeating her, Randall could spare or kill Inali depending on his psychological inclination, and vowed revenge on the Director. He left the planet to fulfill that promise and provided the Systems Alliance with valuable intelligence on Cerberus operations. His weapons included Cerberus-modified versions of common guns such as the M-96 Mattock Auto, M-22 Eviscerator, M-29 Incisor, and M-333 Particle Beam, and he used powers including Pull, Leash, Storm, Salvo, Charge, and Tactical Cloak.",
+      "url": "https://masseffect.fandom.com/wiki/Randall_Ezno",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "cerberus_015",
+      "kind": "page",
+      "page": "Cerberus",
+      "section": "Mass Effect: Infiltrator",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2186, Cerberus maintains a remote research space station known as the Barn near the desert planet LV426. Run by the enigmatic Director, the purpose of the Barn is to carry out experiments on humans, asari, krogan, and turians involving Reaper technology in order to enhance the performance of weapons and biotics. The Director sends Cerberus operatives across the galaxy to gather new test subjects. One such operative, infiltrator Randall Ezno, is deployed to capture a high value turian target and field test a set of implants that grant biotic capabilities. When Randall returns to the Barn after a successful mission, he discoveres that his implants were intended to indoctrinate him and other Cerberus personnel. As Randall had adapted to the implants too quickly and rendered them ineffective, the Director forces Randall's handler and friend, Inali Renata to become the test subject for more powerful technology. Outraged, Randall goes rogue and turned against Cerberus, fighting through the station to find Inali. Through Randall's actions, the facility's test subjects are released and violently rebel against their Cerberus captors, and a force of geth is attracted to the station after Randall activates a communications relay. By the time Randall escapes the station, the Barn is severely damaged and its operations crippled. Vowing to take revenge on Cerberus for harming Inali, Randall goes on to contact the Systems Alliance and provide them valuable intel on other Cerberus operations. #### Cerberus Forces Cerberus has a substantial number of personnel and mechs stationed at the Barn. The following are deployed attempting to stop Randall's insubordination: - **Assault Captains**: Cerberus officers leading squads of Assault Troopers into battle. - **Assault Troopers**: Elite Cerberus infantry equipped with assault rifles or shotguns. - **Centurions**: Cerberus shock troops that lead regular trooper squads into firefights. - **Engineers**: Cerberus technical personnel armed with shotguns. - **Ogre Mechs**: Advanced, durable Cerberus mechs armed with pulse rifles and laser cannons. - **Orcus Mechs**: Standard mechs used for security purposes in the Barn. - **Riot Troopers**: Troops armed with shotguns and large, bullet\\-resistant riot shields for crowd control. - **Snipers**: Troops equipped with sniper rifles and specialized in long\\-range engagements. - **Troopers**: Standard Cerberus infantry stationed at the Barn. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "storyline-iii_017",
+      "kind": "page",
+      "page": "Storyline III",
+      "section": "Betrayal",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "At the space station, Randall heads for Inali's office. Suddenly, the station is attacked and boarded by a unit of turian soldiers sent by the Turian Hierarchy to wrest the facility from Cerberus. Randall aids Cerberus security forces in repelling the turian assault. During the fight, communication between Randall and Inali is inexplicably cut off. Randall reaches the medical bay and finds Inali's office to be empty. The Director speaks to Randall via intercom and explains that Inali has volunteered to participate in a new, classified experiment, then asks Randall to rest and prepare for his next mission. Randall is then contacted by a volus working with the Systems Alliance. He informs Randall that he is a friend of Inali and that she is in danger. Moving deeper into the facility, Randall discovers Inali strapped to a table in a lab, with mechanical arms dissecting her. The Director reveals the purpose of the experiment to Randall. The biotic implants given to Randall were designed to indoctrinate him, but he adapted to them much faster than other Cerberus operatives and the indoctrination process failed. Cerberus now has to develop new, more powerful implants, which Inali is being forced to test. Outraged, Randall vows revenge and begins a search for the Director, who orders the Barn's other Cerberus personnel to stop him.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_III",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "scene:the-barn-randall-finds-inali#01",
+      "kind": "scene",
+      "page": "Randall Finds Inali on the Operating Table",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "the-barn-randall-finds-inali",
+      "text": "Randall Finds Inali on the Operating Table. 2186, the Barn (Mass Effect: Infiltrator), during the events of Mass Effect 3 Inali Renata's office and a secure medical bay aboard the Cerberus research station \"the Barn\" Randall Ezno returns to the Barn from a mission capturing a turian on an ice world, unaware the biotic implants he was field-testing were meant to indoctrinate him and have failed. His handler Inali Renata directs him over comms to her office for medical diagnostics. Turian Hierarchy soldiers assault the station; Randall fights through them alongside Cerberus troops and mechs.",
+      "url": "",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "summary:biotics",
+      "kind": "summary",
+      "page": "Biotics",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Biotics was the ability of some lifeforms to create mass effect fields using element zero nodules embedded in body tissues, accessed and augmented through bio-amps. Biotic individuals could knock enemies over at range, lift them into the air, generate gravitational vortices to tear apart obstacles or enemies, or create protective barriers. Abilities fell into three categories: telekinesis (mass-lowering fields), kinetic fields (mass-raising fields), and spatial distortion (shifting fields that rip apart objects). Powers were triggered by \"physical mnemonics,\" physical gestures that fired neurons in sequence.\n\nAll asari were naturally biotic from birth and required no implants or special training. Biotics of other species were individuals exposed to dust-form element zero in utero who developed eezo nodules throughout their nervous systems. Exposure rarely produced biotics; most exposed fetuses were unaffected, and others developed brain tumors or other complications. In humans, only about one in ten eezo-exposed infants developed usable talent, and in rare cases talents emerged in young adulthood through additional exposure. Identified biotics were typically fitted with a surgically implanted amplifier around puberty and then underwent long biofeedback training.\n\nThe first human biotics were born after starship accidents in the 2150s dispersed element zero over populated areas; the first known was female, dubbed \"Subject White.\" Conatix Industries was founded to track exposed individuals and develop implants, and in 2160 established the BAaT programme on Jump Zero, which was shut down after the turian instructor Commander Vyrnnus was killed by a student. Human biotics were classed by implant model: L1, the notorious L2 (introduced 2167, powerful but often unstable and medically damaging), L3 (2170, stable but weaker), retrofit and experimental variants, L4 used in the Ascension Project, and L5x and L5n for Adepts and Vanguards by 2185. Dr. Ellen Ryder created the first human biotic implants. Human biotics faced widespread prejudice, while the Alliance military eagerly recruited them, granting them a 4,500-kilocalorie daily ration.\n\nAmong aliens, biotics varied in rarity: common and powerful in asari, rare and prized in salarians, uncommon and distrusted in turians (relegated to Cabals), few but extremely powerful in krogan (Battlemasters such as Skarr and Wrex), and very rare in quarians. Batarians, drell (Thane Krios), Collectors, Protheans (Javik), volus, and vorcha also produced biotics. Non-sapient biotic creatures existed on eezo-rich worlds like Thessia and Eingana, including Jack's biotic varren Eezo. Biotics were exceedingly rare or absent in the Andromeda galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Biotics",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "codex-mass-effect-andromeda-the-andromeda-initiative_017",
+      "kind": "page",
+      "page": "Codex (Mass Effect: Andromeda)/The Andromeda Initiative",
+      "section": "Dr. Ellen Ryder",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ellen Ryder (formerly Harlow) was a pioneering designer of biotic implants. In the 2150s, she was a leading biomedical and cybernetic researcher at UFRJ in Rio de Janeiro. When human biotics began to emerge as a scientific field, Ellen found possible applications for her work in neuro\\-integrated wetware. Her early designs for biotic implants formed the framework for later L2 and L3 models. Ellen met Alec Ryder when he was posted to Rio for ICT (\"N7\") training before the First Contact War. She eventually joined Alec on the Citadel when he was posted there as military attaché, and gave birth to fraternal twins on the station in 2163\\. Unfortunately, element zero—the catalyst for biotic mutations—is a hazardous material, poorly understood in the early years of human biotics. After repeat accidental exposures, Ellen eventually developed a terminal neuro\\-degenerative disorder (later known as AEND). In her final years, Ellen Ryder built what would later become the Pathfinder implants, designed to sync with the AI partner Alec Ryder was developing. Ellen died before my creation was fully realized. #### All Memory Blocks Removed In her final years, Ellen Ryder built what would later become the Pathfinder implants, partly at Alec Ryder's suggestion. Their intent was to use me and the physiological adjustments of the implant to cure Ellen's illness. However, her condition worsened before my creation was fully realized. Alec Ryder chose to use the resources of the Andromeda Initiative, and placed Ellen in stasis under an assumed name. He hoped that scientific discoveries in Andromeda would enable him to save her. Ellen Ryder currently remains safely in stasis under the alias \"Elizabeth Reilly.\"",
+      "url": "https://masseffect.fandom.com/wiki/Codex_(Mass_Effect:_Andromeda)/The_Andromeda_Initiative",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "randall-ezno_002",
+      "kind": "page",
+      "page": "Randall Ezno",
+      "section": "Mass Effect: Infiltrator",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "While Randall is hunting down a turian for Cerberus on an Ice Giant, he finds out during the mission that he has been extensively modified with implants, and that he has taken to them much faster than most Cerberus operatives. He is not aware that the implants were supposed to have indoctrinated him, although he eventually finds out that they have failed. He arrives at a Cerberus space station known as \"the Barn\" after finishing his mission. Shortly after landing, the base is attacked by soldiers of the Turian Hierarchy, and he has to fight them off alongside Cerberus troops and mechs. He is then summoned by his handler, Inali Renata, for a debriefing. Along the way, he loses contact with her and proceeds to try to find out what happened. He begins to hear a voice that claims to be a volus hacker in his radio that leads him to Inali, who \"volunteered\" to receive implants. Randall stands against the brutal treatment that his handler undergoes and is then attacked by waves of Cerberus troops as he rages. Following the advice of the volus, he begins to swiftly traverse the base. The volus assures Randall that if he can make it to the communications tower, they will all (Inali included) be rescued by the Systems Alliance. The space station becomes a warzone when Randall and his volus ally release the rest of the station's test subjects. On his trek to the communications tower, Randall faces waves of Cerberus troops, mechs, turrets, and escaped alien test subjects, including a mutated, cybernetically modified krogan named X1. Once there, he manages to contact the Alliance and arranges pickup on a nearby Desert Planet. Once there, Randall encounters a heavily modified Inali controlled by the the operative in charge of the Barn, known only as \"The Director\". Their fight culminates in Randall's victory where he can either spare Inali's life or kill her, depending on his psychological inclination. Either way, he vows to take revenge on the Director. Randall leaves the planet to fulfill his promise, and provides valuable intel on Cerberus operations to the Systems Alliance.",
+      "url": "https://masseffect.fandom.com/wiki/Randall_Ezno",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "codex-mass-effect-andromeda-the-andromeda-initiative_042",
+      "kind": "page",
+      "page": "Codex (Mass Effect: Andromeda)/The Andromeda Initiative",
+      "section": "Pathfinders: Implants",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The first Pathfinder neural implants were created by Dr. Ellen Ryder, a pioneer in human biotic implant design. While biotic implants bolster and focus electrical signals along the nervous system, Pathfinder implants go a step further by connecting to not only the nervous system, but circulation, endocrine function, and exteroceptive senses. Synced with an artificial intelligence, the implants reveal their full potential. The implant is a two\\-way connection, giving me full insight into my host's physical and mental state, while allowing me to generate and alter electrical signals along my host's neural pathways that the body processes as its own. In a crisis, I can adjust a Pathfinder's balance, improve reaction time or muscle memory, or bolster biotic abilities. Quantum computing allows me to implement changes faster than synapses can fire. The main challenge for the Pathfinder implants was miniaturizing a QEC device enough to fit a neural implant. This connection keeps me in constant sync with my host.",
+      "url": "https://masseffect.fandom.com/wiki/Codex_(Mass_Effect:_Andromeda)/The_Andromeda_Initiative",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#02",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck The repeat visits make Jack suspicious: \"People usually walk by now. Why are you really asking all these things? ... if this is just about sex, maybe you should just say so.\" Shepard says there is no hurry and wants to know what makes her tick first. Jack: \"You don't need to know someone to sleep with them. You just have to know where to put it.\"",
+      "url": "",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "summary:phantom",
+      "kind": "summary",
+      "page": "Phantom",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Phantom was a Cerberus combat unit encountered in Mass Effect 3, described as the result of reverse-engineered Reaper technology: agile biotic cyborgs specializing in evasive maneuvers and firing from cover. Their implants remained a mystery to the Alliance, but they were known to project personal biotic barriers. They fought at close quarters with monomolecular blades, a single stab from which could kill instantly, and carried a semi-automatic kinetic projectile weapon built into the right gauntlet. They could briefly cloak to regenerate health and recharge barriers, so the Alliance recommended personal confirmation of a Phantom's death.\n\nDefensively, Phantoms relied on agility, sidestepping, rolling and leaping away from fire, and used suit-mounted stabilizing thrusters to recover quickly from knockdown. They could raise a localized biotic barrier making them briefly immune to most powers, and were always immune to long-duration shock-stun effects (Disruptor Ammo, Overload, Energy Drain, Sabotage), could not be fully frozen by cryo powers, did not panic when on fire, and were immune to grab instant-kills. A Phantom's barrier was roughly twice as strong as its health.\n\nNotable tactically for being no larger than basic infantry despite \"super elite\" status, Phantoms were best engaged from a distance. Their gauntlet blaster could strip 875 shield points in a single shot on Gold. Their sword could be broken by accurate hitscan or explosive-round fire, after which the Phantom would hang back in cover and fire its palm weapon instead. Their self-healing could be blocked by Reave and permanently prevented by Incendiary Ammo damage. Stasis or Submission Net left them helpless for headshots, and they often paired with a Nemesis, which acted as bait. An advancing Phantom emitted a low electronic muttering, but a stationary one was silent and could ambush the unwary.",
+      "url": "https://masseffect.fandom.com/wiki/Phantom",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "summary:jon-grissom-academy",
+      "kind": "summary",
+      "page": "Jon Grissom Academy",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Jon Grissom Academy was a Systems Alliance space station commissioned in 2176, in orbit over the human colony of Elysium in the Petra Nebula. Its stated mission was to serve human students with excellence and passion for math, science, and the liberal arts, with an entirely human student body ranging from early teens to mid-twenties. Its population was 8,620; the station was 1.1 km long and weighed 375,000 metric tons. Though not heavily advertised, it also offered classes for biotic students through its main program, the Ascension Project, which trained and monitored young biotics and helped them integrate into society after graduation. Unlike the earlier military program BAaT (Biotic Acclimation and Temperance Training), its training was not exclusively military. The Academy also employed scientific personnel, including Dr. Kahlee Sanders, to develop synthetic intelligence systems and biotic amplifiers such as the L4 implants.\n\nIn 2183 the Ascension Project was its most prominent program. In Mass Effect 2, Shepard could send David Archer to the Academy after his brother Dr. Gavin Archer used him in an experiment to control the geth. After Jon Grissom's death, a memorial plaque was erected in the mess hall; six months later, the Reaper-controlled Paul Grayson boarded the station seeking information on the Ascension Project, disabling or killing most of the personnel before David Anderson, Kahlee Sanders, and Kai Leng arrived and killed him.\n\nIn 2186 during the Reaper invasion, fewer than twenty teachers and students remained to train biotics and prototype technology for the Alliance. Cerberus attacked to capture the students, masking the assault by broadcasting a turian military signal claiming the station was being evacuated by turian ships; Traynor and EDI linked the signal to one the Illusive Man had used to lure Shepard to a Collector Cruiser. If Shepard traveled there, Joker used the Normandy SR-2 to distract the Cerberus cruiser while the team boarded, found Kahlee Sanders barricaded in a security room, and rescued the remaining students, who were evacuated before the Academy was abandoned. The Academy and Elysium later fell to the Reapers. If Shepard did not go, the kidnapping succeeded and the victims, including Jack if she survived the suicide mission, were subverted into working for Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jon_Grissom_Academy",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "scene:normandy-jack-miranda-confrontation#02",
+      "kind": "scene",
+      "page": "Jack and Miranda, Below Decks",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "text": "Jack and Miranda, Below Decks. 2185, on return from Pragia, if Miranda's loyalty mission is already done aboard the Normandy SR-2 Jack flings a chair across Miranda's office before Shepard breaks it up; Jack is furious that Miranda won't admit what Cerberus did to her was wrong. Ending it without alienating either of them takes a high Paragon or Renegade score — fewer Renegade points are needed than Paragon.",
+      "url": "",
+      "for_key": "Jack's biotic implants and what Cerberus did to produce them"
+    },
+    {
+      "chunk_id": "blood-pack_004",
+      "kind": "page",
+      "page": "Blood Pack",
+      "section": "Pragia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A Blood Pack crew led by the Krogan Battlemaster Kureck was hired by a human named Aresh to provide security for his plan to restart the Teltin Facility. Aresh had promised them lucrative salvage opportunities in exchange for helping him, but Kureck became frustrated when they found nothing of value. If Shepard and Jack arrive at the facility in an attempt to destroy it, Kureck and his crew try to attack them, only to pay with their lives.",
+      "url": "https://masseffect.fandom.com/wiki/Blood_Pack",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "garm_004",
+      "kind": "page",
+      "page": "Garm",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- If Grunt is in the party, Garm may taunt him and accuse him of fighting for the \"wrong side.\" If Mordin is present, Garm may yell battle cries at the \"salarian.\" - Mass Effect: Paragon Lost's production notes indicate that fellow Blood Pack member Brood's ship is labeled \"Garm's Way\". - In Norse mythology, Garmr or Garm, is the dog associated with Ragnarök, and is described as a blood\\-stained watchdog guarding the gates of Hell. ##",
+      "url": "https://masseffect.fandom.com/wiki/Garm",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "summary:blood-pack",
+      "kind": "summary",
+      "page": "Blood Pack",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Blood Pack was a mercenary group composed mainly of krogan troops and vorcha cannon fodder, favoring brute-force solutions and varren war beasts. It began as a small Terminus Systems vorcha gang and was transformed into a mercenary legion by krogan Battlemaster Ganar Wrang, who had been exiled for striking a female and sought to reclaim his status. Wrang led the vorcha as a pirate crew for a decade, then incorporated the group as a security company across the Skyllian Verge, grew rich from its public offering, and rallied his clan's elders and hordes into professional violence. Banned from Citadel space, the Blood Pack bribed its way into conflicts and took contracts requiring maximal violence and minimal oversight. Krogan members rounded up vorcha and beat them into stronger, faster soldiers. Ganar Yulaz was CEO as of 2185.\n\nOn Omega around 2168 the local Blood Pack under the krogan Gesark was humiliated by Zaeed Massani. By 2185 it was led by Battlemaster Garm and competed with the Blue Suns and Eclipse, aiming to overthrow Aria T'Loak and putting a hit on her adviser Patriarch. In the Gozu District the Blood Pack exploited the Collector plague, which spared plague-immune vorcha, and sabotaged ventilation until Commander Shepard's team distributed Mordin Solus's cure. The three merc bands united against the vigilante Archangel; Garm broke into Archangel's hideout through tunnels and was killed when Shepard arrived. On Pragia a crew under Kureck, hired by Aresh to secure the Teltin Facility, died fighting Shepard and Jack. On Tuchanka Blood Pack enforcers served Weyrloc Guld, who kidnapped the salarian Maelon to cure the genophage; Guld and his guards were killed by Shepard and Mordin. Other operations ran on Tarith under Salamul and Zada Ban under Kalusk, plus a bodyguard for politician Joram Talid on the Citadel, and a recruiter courting Grunt.\n\nIn Mass Effect: Paragon Lost, a force under Archuk with second Brood besieged Fehl Prime in 2183 before Alliance forces led by Vega destroyed them; Brood survived imprisoned and later reconciled with Vega. In 2186 Aria T'Loak sought to bring the Blood Pack under her command for the war effort; via her contact Narl and the vorcha Gryll, leader Kreete was killed and 2,000 vorcha were committed to Shepard's cause.",
+      "url": "https://masseffect.fandom.com/wiki/Blood_Pack",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "summary:kureck",
+      "kind": "summary",
+      "page": "Kureck",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Kureck was a krogan Battlemaster who led a group of Blood Pack mercenaries searching for salvage in the Teltin Facility on Pragia during Mass Effect 2. He had been hired by the human Aresh Aghdashloo, who was trying to rebuild the abandoned facility. When Commander Shepard's squad arrived, Kureck opened fire on them and was killed in the resulting firefight.\n\nIn combat Kureck carried an M-300 Claymore Heavy Shotgun and could use Warp, resorting to Berserker Charge at close range. He had standard krogan regeneration and charge in addition to armor and a biotic barrier, which he could instantly restore once depleted, though he would only do so after his armor had been completely destroyed. Unlike most krogan he initially hung back at a distance, taunting his own team, and would only advance to close range if the two accompanying Blood Pack Warriors were killed first.",
+      "url": "https://masseffect.fandom.com/wiki/Kureck",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "pragia_006",
+      "kind": "page",
+      "page": "Pragia",
+      "section": "Lifeforms",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Aresh - Blood Pack - Blood Pack Pyro - Blood Pack Trooper - Blood Pack Warrior - Kureck - Varren",
+      "url": "https://masseffect.fandom.com/wiki/Pragia",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "blood-pack-warrior_001",
+      "kind": "page",
+      "page": "Blood Pack Warrior",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Blood Pack Warriors** are the elite troops fielded by the Blood Pack mercenary organization. Warriors are exclusively krogan and act as officers and overseers to the more numerous vorcha. Blood Pack Warriors are rarely encountered without vorcha supporting them. They also accompany Blood Pack commanders such as Kureck and Garm.",
+      "url": "https://masseffect.fandom.com/wiki/Blood_Pack_Warrior",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-blood-pack-siege-2183#01",
+      "kind": "scene",
+      "page": "The Blood Pack Siege of Fehl Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-blood-pack-siege-2183",
+      "text": "The Blood Pack Siege of Fehl Prime. 2183, when Blood Pack mercenaries lay siege to the Fehl Prime colony the Fehl Prime colony When Blood Pack mercenaries lay siege to the colony, Christine rallies the other colonists and fights alongside them despite being outmatched and outgunned.",
+      "url": "",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "summary:n7-blood-pack-communications-relay",
+      "kind": "summary",
+      "page": "N7: Blood Pack Communications Relay",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "An optional N7 assignment in Mass Effect 2, available after the mission Horizon and following the N7: Blood Pack Base assignment. Cerberus Command directed Commander Shepard to the planet Tarith, fourth planet of the Lusarn system in the Crescent Nebula, where the Blood Pack ran a mining operation that also hosted a high-powered communications relay using known Blood Pack mercenary protocols. Scans detected massed krogan and vorcha signals inside the mine along with unidentified life signs, later revealed to be hostile klixen.\n\nShepard's squad landed and advanced on foot toward the relay on a nearby hill, crossing valleys filled with thick chlorine fog. A network of beacons marked the path; harvesters repeatedly dropped klixen into the squad's route, and Blood Pack mercenaries resisted near the objective. Datapads recovered along the way, signed by the Blood Pack officer Salamul and his contact Kalusk, revealed that the vorcha were getting lost in the fog, that the mined nodes were exhausted, that Garm on Omega could spare no reinforcements, and that an agent on Illium was keeping a planetary power grid dark to allow an eventual invasion force in. Salamul had ordered workers to fall back to evacuation shuttles.\n\nThe final fight took place in an open space where Salamul, protected by health, armor and a barrier, charged the squad alongside Blood Pack Boom-Squad and Troopers. After defeating them, Shepard bypassed the Communications Relay to end the assignment. Decrypted relay data showed that Tarith's mined resources were being shipped to Zada Ban in the Xe Cha system for weapons manufacture, indicating the Blood Pack was preparing a large-scale invasion; this pointed toward the N7: Blood Pack Base assignment on Zada Ban. Rewards included experience, 7,500 credits and 2,000 platinum. The mission summary noted an encounter with an unclassified hostile alien species and the elimination of Blood Pack forces.",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Blood_Pack_Communications_Relay",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "kureck_001",
+      "kind": "page",
+      "page": "Kureck",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Kureck** is a Krogan Battlemaster who leads a group of Blood Pack mercenaries in a search for salvage in the Teltin Facility on Pragia. He is hired by the human Aresh Aghdashloo who is trying to rebuild the facility. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | When Commander Shepard's squad arrives, Kureck opens fire on them, but is killed in the resulting firefight.",
+      "url": "https://masseffect.fandom.com/wiki/Kureck",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-blood-pack-siege-2183#04",
+      "kind": "scene",
+      "page": "The Blood Pack Siege of Fehl Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-blood-pack-siege-2183",
+      "text": "The Blood Pack Siege of Fehl Prime. 2183, when Blood Pack mercenaries lay siege to the Fehl Prime colony the Fehl Prime colony When Archuk, the Blood Pack's krogan leader, challenges Delta Squad to show themselves, Vega duels him head-on to hold the mercs' attention while Kamille and Essex flank. Milque hands Vega his power cells and covers the duel with sniper fire, and Nicky's combat drone overloads Archuk's shields. Archuk grazes Milque across the collarbone and nearly beats Vega down, but Milque recovers and kills Archuk, saving Vega. The Blood Pack are defeated; the krogan Brood is spared and taken prisoner.",
+      "url": "",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "blood-pack-trooper_001",
+      "kind": "page",
+      "page": "Blood Pack Trooper",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Blood Pack Troopers** are vorcha who have been forced into service by the Blood Pack and are literally beaten into soldiers by their krogan commanders. They are the most commonly encountered soldiers of the Blood Pack, and considered to be cannon fodder by their fellow krogan.",
+      "url": "https://masseffect.fandom.com/wiki/Blood_Pack_Trooper",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-blood-pack-siege-2183#02",
+      "kind": "scene",
+      "page": "The Blood Pack Siege of Fehl Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-blood-pack-siege-2183",
+      "text": "The Blood Pack Siege of Fehl Prime. 2183, when Blood Pack mercenaries lay siege to the Fehl Prime colony the Fehl Prime colony A vorcha nearly shoots her. Treeya tells her she is not a soldier and should stop, but Christine refuses to give up. Her stand buys the colonists enough time for Alliance marines to arrive and engage the Blood Pack.",
+      "url": "",
+      "for_key": "Aresh and the Blood Pack guarding the ruins"
+    },
+    {
+      "chunk_id": "jack-subject-zero_002",
+      "kind": "page",
+      "page": "Jack: Subject Zero",
+      "section": "Acquisition",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Horizon (mission) After retrieving Jack from Purgatory, Commander Shepard gives her access to Cerberus's files aboard the Normandy. After the mission on Horizon, Kelly will tell Shepard at some point that Jack wants to see the Commander in her “hidey hole on the Engineering Deck”. Talk to Jack and she wants to blow the facility to pieces; Shepard can comment that attacking allies is a bad idea, but the facility was decommissioned after Jack’s escape.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "Jack blowing up the facility with Shepard"
+    },
+    {
+      "chunk_id": "storyline-ii_017",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Mass Effect: Foundation \\#7",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Dr. Angersol frantically comms for backup when the doors to his office are demolished by sheer biotic power. Jack steps inside and executes the doctor, a figure from her Subject Zero past. The Illusive Man appears before her via hologram, attempting to reason with her, but Jack would hear none of it. At a remote Cerberus outpost elsewhere, Kai Leng hooks in Rasa for a mission. A Cerberus training facility is under attack, and the Illusive Man dispatches them both to retrieve the perpetrator, Jack: dead or alive, through whatever means necessary. Leng and Rasa arrive at the training facility a short time later, finding huge swathes of destruction in Subject Zero's wake. The presence of multiple people out to get the target makes Rasa think about Jack's possible origins and the threat she poses. Leng simply suggests they should find her before the others \\- the Blue Suns mercenaries \\- do. With the facility in lockdown, Jack makes her way to its main reactor. She comes across a bald man claiming to be a biotic trainee of the facility. The man doesn't know where the reactor is, but he takes her to his fellow students when she orders him to. The man claims to have had a better life under Cerberus tutelage, but Jack's own experiences with the organization tells her otherwise. On finding the other students she gives them a chance to learn the truth behind Cerberus by escaping with her, or stay and keep hoping that Cerberus is as benevolent as it seems to be. A good number of the students follow Jack as they try to make it out of the facility. A trio of Blue Suns mercs block their way, so Jack orders the students to sneak across while she presents herself as a diversion. Rasa and Leng arrive behind Jack when she's done bringing down the ceiling on the mercs. Brandishing his sword, Leng gives her one chance to surrender. Jack responds by unleashing a powerful biotic blast on the Cerberus operatives. She warns Rasa to stay down, but Leng is actually coming down on her from above. She senses it and biotically blasts the assassin again, this time hurling him higher up. More Blue Suns arrive at the scene and open fire on Jack, forcing her to throw up a biotic shield. She sees the students she's with securely behind Blue Suns lines. Enraged at the turn of events she starts making everything in the vicinity fly. Unfortunately, a krogan merc sneaks up from behind and docks her at the head, knocking her unconscious. The merc picks her up and hauls her away, to the Cerberus agents' consternation. The Illusive Man can still have Subject Zero, but the krogan wants triple the usual pay for all the losses he has incurred. As Leng and the students recover from the turn of events he chalks up the post\\-mortem as a \"colossal waste of time\", but Rasa begs to differ: at the very least, the Illusive Man will now know what Jack is capable of.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "Jack blowing up the facility with Shepard"
+    },
+    {
+      "chunk_id": "jack-subject-zero_009",
+      "kind": "page",
+      "page": "Jack: Subject Zero",
+      "section": "Jack’s Cell",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Once you enter Jack’s cell you begin a conversation with the elusive Aresh. He recognizes Jack and tells her that he, like everyone else at the facility, knew her face, while she hardly knew anybody else. He goes on to tell you that he is restarting the facility because all the experiments must have been for something. So he wants to use the research and find out what they learned. At that point Jack pulls a pistol and threatens to kill him, and you have up to four options available to you. You can use the Charm option to spare Aresh’s life and Jack lets him go. On the other hand, you can use an Intimidate dialogue option to order Jack to kill him. Alternatively, or if your reputation's not high enough for the left\\-hand choices, there are two regular dialogue options ordering Jack either to let Aresh go or to kill him. Taking either will result in corresponding interrupt opportunities: a Paragon interrupt if you order Jack to let Aresh go, or a Renegade one if you order her to kill him. Whatever you choose, all critical choices have corresponding morality points. When Aresh has been dealt with you can either go or let Jack stay for a few moments. Staying results in you and Jack walking around the cell and she tells you things about the room and the life she lived at the base. The window, bed, desk, and a bloodstain on the wall outside the cell, all have memories for her and she will elaborate on them. Once you select all four the screen fades to black and you move back to the shuttle. On the shuttle back to the Normandy Jack fumbles with the trigger for the bomb. She flips the cap on the detonator switch up and down several times, and when Shepard nods in approval she presses the button. Shepard slams a fist on the cockpit door several times to warn the pilot of the coming shockwave, and the bomb goes off. The shuttle is rocked by the explosion but continues on, uninterrupted, to the Normandy.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "Jack blowing up the facility with Shepard"
+    },
+    {
+      "chunk_id": "n7-archeological-dig-site_010",
+      "kind": "page",
+      "page": "N7: Archeological Dig Site",
+      "section": "Cut Content",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- Instead of the vision Shepard experiences when interacting with the console, an alternative sequence exists in the files which has the console itself display the Milky Way, followed by a Reaper approaching a planet and blowing it up. ## Blue Suns Assignments Navigation |  | Assignment Index | Next Assignment → | | --- | --- | --- | |  | Assignments | N7: MSV Strontium Mule |",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Archeological_Dig_Site",
+      "for_key": "Jack blowing up the facility with Shepard"
+    },
+    {
+      "chunk_id": "summary:jack",
+      "kind": "summary",
+      "page": "Jack",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack, also known as Subject Zero and Jacqueline Nought (birth name Jennifer), was a notorious human criminal and possibly the most powerful human biotic alive. Born in 2161, she was abducted by Cerberus in 2165, reportedly from Eden Prime, after accidental in-utero element zero exposure gave her biotic potential; her mother was told she had died. She became the central subject of Cerberus' experiment at the Teltin facility on Pragia, which sought to maximize human biotic potential regardless of cost. Every successful enhancement was applied to her; other biotic children were used as expendable test subjects and frequently killed. She was tortured physically and psychologically, kept behind a soundproofed one-way mirror, and forced into gladiatorial fights against the other children, being shocked for hesitating and injected with narcotics for killing, conditioning her to associate killing with euphoria. The other children came to hate her as the source of their suffering.\n\nDuring a transfer, the subjects rioted, freeing Jack, who flew into a fury and killed nearly everyone in the facility before stealing a shuttle and escaping into the Dakka system. The ship that picked her up used her and sold her as a slave. The Illusive Man shut Teltin down shortly after, later claiming it had \"gone rogue.\" Jack took the name Jack, reacting violently to \"Subject Zero,\" and lived a violent life of piracy, gang membership, vandalism (crashing a space station into a hanar moon), and a stint in a cult (from which she kept her shaved head). In Mass Effect: Foundation she assaulted a Cerberus facility, killed Doctor Angersol, defied the Illusive Man, tried to free biotic student trainees, fought Kai Leng and Rasa, and was knocked out and captured by Blue Suns.\n\nJack was eventually imprisoned on the Blue Suns prison ship Purgatory, where she was assaulted and raped by guards and prisoners and then murdered every attacker; the Warden kept her in cryostasis until Shepard's team bought her freedom in 2185. Rendered a borderline psychopath but still haunted by her past, she joined Shepard in exchange for her Teltin files, then asked Shepard to help her destroy the abandoned facility with a bomb planted in her old cell (the mission Jack: Subject Zero). There the team encountered Aresh, a fellow test subject trying to restore Teltin; Shepard could stop Jack from killing him. If Miranda's loyalty mission was done, Shepard had to mediate a fight between Jack and Miranda over Cerberus' blame; siding with Miranda cost Jack's loyalty and ended any romance.\n\nJack was a romance option for a male Shepard. Casual sex ended communication; a slower approach revealed her past, including the partner Murtock who died to save her, leaving her survivor's guilt, and culminated in a tender, emotional love scene. Mordin Solus offered Shepard biotics safety advice. Rejecting her as a \"lost cause\" made her hostile.\n\nBy 2186 (if she survived the Suicide Mission), Jack had grown her hair into a ponytail with shaved sides, matured, and taken a teaching post at Grissom Academy training combat biotics, considering her students the family she never had. During Cerberus' raid to kidnap the students (Grissom Academy: Emergency Evacuation), Jack defended them alongside Shepard and Kahlee Sanders, punching Shepard on reunion for reasons depending on prior choices. She disciplined Ensign Rodriguez and Jason Prangley and led the students in support of Shepard's squad. If Shepard did not arrive in time, Jack appeared as an indoctrinated Phantom at Cronos Station and had to be killed. If romanced, she could rekindle or end the relationship at Purgatory Bar. In the final battle she could be contacted by comm; in a surviving-galaxy ending she is seen gazing at the stars, visiting her students' graves, or alive with her students, depending on choices. If killed, her name appears on the Normandy memorial wall as Jacqueline Nought. In the Citadel DLC she fights in the Armax Arena, introduces her biotic varren Eezo from Thessia, and can tattoo a romanced Shepard so his body can be identified. Jack was voiced by Courtenay Taylor and written primarily by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack blowing up the facility with Shepard"
+    }
+  ],
+  "codex": [],
+  "conflicts": [
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/pragia-jack-teltin-facility.yaml — Blowing Up the Place That Made Her",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": []
+}

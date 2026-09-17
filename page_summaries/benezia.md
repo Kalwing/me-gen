@@ -1,0 +1,13 @@
+---
+title: Benezia
+url: https://masseffect.fandom.com/wiki/Benezia
+game: Mass Effect 3
+type: character
+characters: [Benezia, Liara T'Soni, Saren Arterius, Sovereign, Shiala, Shepard, Alestia Iallis, Ventralis, Lorik Qui'in, Aethyta, EDI, Kaidan]
+---
+
+Matriarch Benezia was a very powerful asari biotic and a revered spiritual leader, teacher of religion and philosophy, and the mother of Liara T'Soni, from whom she had been estranged for years. Given her matriarch status she had lived nearly a millennium. During her matron phase she had Liara, unusually mating with another asari, and raised her alone; Liara's study of Prothean archaeology was a minor rebellion against her forward-thinking mother. Benezia believed the asari should have a greater role in shaping galactic events. She was Saren Arterius' executor and a fellow Binary Helix investor. Evidence proving Saren caused the Eden Prime attack also showed Benezia was working alongside him, which shocked those who knew her.
+
+Benezia learned of Saren's plan to aid the Reapers and decided to try to guide him down a less destructive path, giving her followers, including Shiala, the choice to accompany her. The influence of the Reaper Sovereign proved too strong and Benezia became enslaved to Saren's will along with her guards and commandos, serving as something between his advisor and second-in-command. Through Binary Helix she funded a secret project on Noveria to breed rachni from a newly discovered egg for Saren's army; when the brood was removed from the Rachni Queen, the rachni went rogue. Benezia traveled to Peak 15 to investigate and to extract from the Queen's genetic memory the location of the Mu Relay, escorted by asari commandos. She brought geth in crates to guard the garage and left agents such as Alestia Iallis and recruited security including Captain Ventralis to stop Shepard.
+
+Shepard's squad fought through geth, rachni, and commandos to find Benezia beside the Rachni Queen. Using her mental strength to keep part of her mind free of indoctrination, she briefly broke Saren's control, described the horror of indoctrination, gave Shepard the Mu Relay coordinates, and warned of Sovereign's power before turning on the squad, who were forced to kill her. She told Liara her daughter had always made her proud, and as she died claimed not to see the light promised in asari religion. In Mass Effect 3, Benezia's bondmate was revealed to be Matriarch Aethyta; the two had been together for a hundred years before disagreeing over the asari's path. After Thessia revealed a hidden Prothean Beacon, Liara wondered if Benezia knew of the coverup, and EDI suggested Benezia acted to protect Liara.

@@ -1,0 +1,807 @@
+{
+  "section": {
+    "id": "the-noodle-stand",
+    "title": "The Night They Fished Grunt Out of C-Sec",
+    "target_words": 350,
+    "form": "evening",
+    "narrator": "wrex"
+  },
+  "promises": [
+    "What the Krogan Monument means to a krogan, and what it means that Grunt climbed it",
+    "Why Grunt was on the Citadel at all"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born aboard a ship called the Normandy, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandy, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": ""
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "wrex_virmire",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Wrex on Virmire.",
+      "answer": "alive",
+      "detail": ""
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": ""
+    },
+    {
+      "id": "krogan_leader",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The krogan leader during the cure (Wrex or Wreav).",
+      "answer": "Wrex",
+      "detail": "My brother from another mother"
+    },
+    {
+      "id": "grunt_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grunt and Aralakh Company at the Attican Traverse rachni mission.",
+      "answer": "Saved the Rachni. He got out Alive",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "citadel-grunt-csec-noodles",
+      "title": "Bailing Grunt Out at the Noodle Stand",
+      "kind": "hangout",
+      "game": "Mass Effect 3",
+      "when": "2186, Citadel shore leave, after Shepard has been in and out of the apartment a few times",
+      "where": "a noodle stand on the Silversun Strip, C-Sec holding him there",
+      "participants": [
+        "Shepard",
+        "Grunt"
+      ],
+      "private_to": [
+        "Shepard",
+        "Grunt"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "grunt_fate": "alive"
+        },
+        {
+          "citadel_dlc": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "C-Sec emails Shepard about a troublemaking krogan and asks the Commander to report to the officer on patrol on the Silversun Strip. Shepard finds Grunt detained at a noodle stand and politely muscles C-Sec off his back before getting the story.\n",
+          "source_chunks": [
+            "grunt_005",
+            "personal-apartment_013"
+          ]
+        },
+        {
+          "text": "Grunt had been recovering in Huerta Memorial Hospital after the battle on Utukku, and got bored. He was broken out by being lowered on a rope, which did not work — he fell several storeys.\n",
+          "source_chunks": [
+            "grunt_005"
+          ]
+        },
+        {
+          "text": "The night went on to the Krogan Memorial statue on the Presidium, which they climbed rather than looked at, taking pictures of themselves on it.\n",
+          "source_chunks": [
+            "grunt_005",
+            "krogan-monument_002"
+          ]
+        },
+        {
+          "text": "When C-Sec arrived, Grunt threw a bottle of ryncol at their shuttle and set it alight. The pilot jumped clear; Grunt got in and took it for a joyride until he crashed it into a noodle stand.\n",
+          "source_chunks": [
+            "grunt_005",
+            "krogan-monument_002"
+          ]
+        },
+        {
+          "text": "C-Sec caught up with him while he was buying noodles, because he was hungry. He dropped Shepard's name to avoid the brig — which is why Shepard is standing there at all.\n",
+          "source_chunks": [
+            "grunt_005"
+          ]
+        },
+        {
+          "text": "The Krogan Monument itself is a statue of a krogan warrior standing in the lake near the Citadel Tower on the Presidium, commissioned to commemorate the krogan.\n",
+          "source_chunks": [
+            "krogan-monument_001"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "arena_ally_license": true
+          },
+          "text": "Grunt can be bought in as an ally for Shepard's matches at the Armax Arsenal Arena.",
+          "source_chunks": [
+            "grunt_005"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-party-apartment",
+        "citadel-armax-arena-matches"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "grunt_005",
+        "krogan-monument_001",
+        "krogan-monument_002",
+        "personal-apartment_013"
+      ]
+    }
+  ],
+  "attendance": {
+    "citadel-grunt-csec-noodles": "heard"
+  },
+  "evidence": [
+    {
+      "chunk_id": "krogan-monument_001",
+      "kind": "page",
+      "page": "Krogan Monument",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Krogan Monument** is a large statue of a krogan warrior in the lake near the Citadel Tower on the Presidium. It was commissioned to commemorate the krogan contributions in the war against the rachni. It was the subject of much controversy after the Krogan Rebellions because some people thought it should be removed, but the Council decided that the role of the krogan in saving Citadel space was a historical fact that should not be forgotten. Wrex likes the Krogan Monument; it seems much more impressive to him than the Relay Monument. If Commander Shepard speaks to him in front of the Monument, Wrex soberly says the statue represents the values of the krogan – honor, loyalty, courage, fortitude – which have now been lost to his people since the Krogan Rebellions and the devastating genophage. Either human squad member and Liara will comment that Wrex really isn't like other krogan; Wrex shrugs and says \"I'll take that as a compliment\". However, Tali gets annoyed around the Monument because even though the krogan turned against the other Citadel races and almost conquered them, they get a statue on the Presidium while the quarians are forced to live in exile. Wrex points out that while the quarians are still alive, in two hundred years or so, the Krogan Monument might be all that is left of his people. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Monument",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "summary:krogan-monument",
+      "kind": "summary",
+      "page": "Krogan Monument",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Krogan Monument was a large statue of a krogan warrior standing in the lake near the Citadel Tower on the Presidium, commissioned by the Citadel Council to commemorate krogan contributions in the war against the rachni. After the Krogan Rebellions there was controversy over whether it should be removed, but the Council ruled that the krogan role in saving Citadel space was a historical fact not to be forgotten.\n\nWrex admired the Monument, finding it far more impressive than the Relay Monument. If Commander Shepard spoke with him in front of it, Wrex said soberly that the statue embodied krogan values of honor, loyalty, courage and fortitude, all lost to his people since the Rebellions and the genophage; a human squadmate and Liara would remark that Wrex was unlike other krogan, and Wrex answered \"I'll take that as a compliment.\" Tali resented that the krogan, who had turned on the Citadel races and nearly conquered them, received a Presidium statue while the quarians lived in exile; Wrex countered that the quarians were still alive, whereas in two hundred years the Monument might be all that remained of his people. In the Citadel DLC, if Grunt survived and was recovering at Huerta Memorial Hospital, he and Aralakh Company squadmates visited the Monument drunk in 2186, climbed it, photographed themselves, and carjacked the responding C-Sec officers. In Mass Effect 2, Morinth kept a scale replica in her Omega apartment.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Monument",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "krogan-monument_004",
+      "kind": "page",
+      "page": "Krogan Monument",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Alternate voicelines exist for Avina to present what *used to be* the site of the statue, claiming that the krogan monument was taken down during the Krogan Rebellions, centuries before. While the voicelines are technically functional, there is no explanation on the circumstances in which they could have been used as they predate Shepard's story by a millenium. There are no known alternate voicelines for squadmates if the monument is missing. ##",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Monument",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "scene:citadel-grunt-csec-noodles#06",
+      "kind": "scene",
+      "page": "Bailing Grunt Out at the Noodle Stand",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-grunt-csec-noodles",
+      "text": "Bailing Grunt Out at the Noodle Stand. 2186, Citadel shore leave, after Shepard has been in and out of the apartment a few times a noodle stand on the Silversun Strip, C-Sec holding him there The Krogan Monument itself is a statue of a krogan warrior standing in the lake near the Citadel Tower on the Presidium, commissioned to commemorate the krogan.",
+      "url": "",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "presidium_003",
+      "kind": "page",
+      "page": "Presidium",
+      "section": "Points of Interest",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Avina terminals are placed at key points throughout the Presidium, giving information on the surroundings. - The Wards Access corridor is accessible from an elevator between the Citadel Tower and the Embassy Lounge, in a curving alleyway. There is also a Citadel Rapid Transit terminal by the alleyway entrance. - The **Relay Monument**, a scale reconstruction of a mass relay, can be found not far from the entrance to the Citadel Tower. This statue is believed to be a piece of Prothean art. - Near the Emporium is the **Krogan Monument**, a huge statue commissioned to commemorate the efforts of the krogan during the Rachni Wars. - A male salarian and a human woman can be found chatting outside the **Consort's Chambers** on various topics. The woman mentions her office has been rearranged by the keepers five times this week. They also chat about entertainment on the Citadel, comparing the Embassy Bar to Chora's Den. - Delan, a hanar merchant at the Emporium, can give some insight into his people.",
+      "url": "https://masseffect.fandom.com/wiki/Presidium",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "relay-monument_001",
+      "kind": "page",
+      "page": "Relay Monument",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The **Relay Monument**, a scale representation of a mass relay, is a statue that can be found on the Citadel Presidium. It is believed to be a piece of Prothean art, and has been in place since before the asari arrived on the station. According to Avina, the Relay Monument is a popular topic of discussion for Citadel academics and scholars. There are two theories behind its meaning. The Monument may have been a gesture of Prothean vanity, proclaiming their galaxy\\-wide mastery of mass effect field technology. Or, the Monument may be a symbol of unity, an acknowledgement that the mass relays would eventually lead other races to the Citadel and unite them. If spoken to nearby, Commander Shepard's squad all have their own opinions on the Monument. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | In fact, the Monument is not a statue, but an actual small\\-scale mass relay that is currently inactive. Its partner relay, known as the Conduit, is on Ilos. Together they create a 'back door' onto the Citadel, which hidden Prothean scientists who survived their race's annihilation used to circumvent the signal the Reapers use to control the Citadel, in scant hopes that it would lead to the cycle of reaping being broken for the next races. Saren Arterius intended to use the Conduit to bypass the Citadel's defenses and hand over control of the station to Sovereign. Shepard used the Conduit to follow Saren in the Mako, and emerged through the Relay Monument on the Presidium, crushing several geth in the landing. As the Conduit was already closing when Shepard drove through, it is likely the Relay Monument is inactive once again. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | Two years after Saren's invasion, the Monument is still on the Presidium and is now referred to as the Conduit by the Presidium Groundskeeper.",
+      "url": "https://masseffect.fandom.com/wiki/Relay_Monument",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "scholar-achievement-guide_003",
+      "kind": "page",
+      "page": "Scholar Achievement Guide",
+      "section": "Aliens: Extinct Races",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- **Prothean** - Beginning of game on the SSV Normandy before Eden Prime during the briefing with Nihlus. (During the briefing with Captain Anderson and Nihlus, when the 'Investigate' options becomes available choose that, followed by the Prothean option.) - **Rachni** - Presidium, Avina Terminal III (Financial District, by the Krogan Monument). Ask about the Rachni Wars. - Also Noveria, Han Olar the volus and Yaroslev Tartakovsky. Ask about the rachni.",
+      "url": "https://masseffect.fandom.com/wiki/Scholar_Achievement_Guide",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "krogan-monument_002",
+      "kind": "page",
+      "page": "Krogan Monument",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Provided Grunt lives and is recuperating in the nearby Huerta Memorial Hospital, he and a couple of his Aralakh Company squadmates pay the Krogan Monument a visit in 2186 while on drunken revelry, clambering over it instead of simply staring at it. They manage to take pictures of themselves on the memorial before carjacking the C\\-Sec officers who arrive investigating the public disturbance they were causing.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Monument",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "urdnot-wrex-unique-dialogue_004",
+      "kind": "page",
+      "page": "Urdnot Wrex/Unique dialogue",
+      "section": "Talk to Squadmate",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Citadel: - At the Citadel Council's chambers Wrex ponders if the turians released the genophage on their own, or if the Council secretly encouraged them. - At Krogan Monument on the Presidium, Wrex proudly explains its purpose: \"This statue represents what the krogan use to be: a proud and fierce nation. Now we're just brutes for hire to the highest bidder. We've forgotten our roots.\" Wrex also has an opinion on what most of the other squad members will say about the monument. - If Tali grumbles at the presence of the monument when quarians continue to be treated as outcasts, Wrex shoots back: \"At least you still live. In another two hundred years, this statue may be the only evidence my people ever existed.\" - If Garrus provides commentary about past and present krogan, Wrex baits him into an argument: \"You won't have to put up with us for much longer turian, my people will die out soon enough, thanks to you.\" Garrus then argues for the case that it was self\\-inflicted as the krogan did lash out first. This leaves Wrex to finish off the discussion by saying \"And the turians made sure to finish it.\" - Wrex isn't a fan of the Relay Monument, claiming that the Krogan Monument always impressed him more. - Wrex disdains establishments like Flux: \"Hmph. Places like this always want to hire krogan bouncers. It's like we're a status symbol for them.\" - In Chora's Den, Wrex observes that \"Fist had a good thing going here. Too bad he got greedy.\" - On Dock 422, Wrex ponders how much the Alliance shelled out for the private dock. - Therum exterior surface: - \"Nothing but rocks, dirt, and lava. Reminds me of home.\" - \"Fifty degrees hotter and I might start to feel uncomfortable. How are you mammals doing, Shepard?\" - Noveria: - Inside Port Hanshan: - \"Every time I come here, there's a damn blizzard.\" - \"These people will smile to your face while they stab you in the back.\" - \"I used to get a lot of freelance business here. Fastest way to climb the corporate ladder is to eliminate the guy above you.\" - Outside Port Hanshan: - \"I hate the cold.\" - \"I need to get my blood flowing. Find me something to kill!\" - Feros: - Zhu's Hope: - \"This place has seen better days.\" - \"Colony's tougher than it looks.\" - Prothean skyway: - \"All this rubble makes good cover for snipers.\" - \"These ruins are crawling with vermin \\-\\- organic and synthetic.\" - ExoGeni facility: \"Time to clean this place out.\" - Thorian: - \"We need to kill this thing. Fast.\" - \"And people call me ugly.\" - Salarian camp (after confrontation with Shepard): - \"If we're doing this, then let's go. - \"I'm going to tear this place a new one. - \"Saren's base will be nothing but dust when I'm done.\" - \"I'm ready Shepard. Just say the word.\" - On approach to Saren's base: \"This is my kind of vacation: lots of scenery, and lots of killing!\" - Inside Saren's base: - \"I'm going to tear this whole place down!\" - \"Saren needs to pay for what he's done to my people.\" - Ilos: - \"There's something in the air here; death is on the wind. It's a good place for killing.\" - \"A lot of people died here long ago. Now it's time for a lot of geth to join them.\" - Final Battle - Citadel exterior: \"Gravity's not too strong here, Shepard. If you ever get a chance to blast your target off into space, do it. Just watch 'em float away.\" - Presidium/Council Chambers: - \"Saren's so close, I can smell him!\" - \"Time to settle some old scores.\" - \"I'm going to rip him apart with my bare hands.\"",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Wrex/Unique_dialogue",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "avina_001",
+      "kind": "page",
+      "page": "Avina",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Avina** is the information VI for both the Citadel and the Nexus, first encountered by Commander Shepard near the Embassies on the Presidium. Like all VIs it appears as a hologram: Avina takes the form of an asari. It has several terminals around the Presidium, often near points of interest such as the Relay Monument or the Krogan Monument, and can answer any questions Shepard might have, giving guidance and a brief insight into galactic events. Being a VI, Avina's capacity for discourse is limited; if Shepard asks for Avina's opinion on a subject, or if the Commander's questions get too politically charged, Avina says it hasn't been programmed with the parameters to answer. If Shepard tells Avina about being invited to the Council Chambers, it says that is a rare privilege; it states that it would be jealous, but that is beyond the scope of its programming. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Avina",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "summary:mass-effect-cut-content-citadel-voicelines",
+      "kind": "summary",
+      "page": "Mass Effect Cut Content/Citadel Voicelines",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects cut and non-functional dialogue from the first Mass Effect relating to Citadel missions and assignments, reconstructed from leftover dialogue files (some with only partial text surviving). It is explicitly non-canon. Highlights include ambient conversations for the Presidium, Chora's Den, the Council Chambers and Citadel traffic control; alternate versions of the Dr. Michel/Garrus clinic scene and the Chora's Den assassin ambush; an alternate-reality Avina tour describing the Krogan Monument being removed after the Krogan Rebellions; and lines explaining why Shepard knew Schells had cheated.\n\nAvina, alternate history of the Krogan Monument: \"This site was once the location of a memorial statue commemorating the krogan soldiers who gave their lives to protect Citadel Space during the Rachni Wars. In the wake of the Krogan Rebellions, several embassies petitioned to have the memorial removed... The memorial was removed despite their reservations.\"\n\nUnnamed volus diplomat, ambient on the Presidium: \"If I have to fill out one more form, I think I might just go work the mines in Caleston.\"\n\nUnnamed salarian, overheard in Chora's Den about the Council: \"The Council spends so much time bickering and posturing they don't get to make any real decisions.\"\n\nUnnamed asari diplomat, in the Citadel Tower when a human enters: \"Humans in the Tower? Interesting. Try not to break anything.\"\n\nCitadel traffic controller, ambient near C-Sec academy: \"Destiny Ascension, we're going to have to ask you to gain some distance. Your mass is disturbing ward rotation.\"\n\nGarrus, alternate clinic scene (line originally given to Garrus rather than Shepard): \"Let her go!\"\n\nDoran, having Schells thrown out of Flux: \"If I ever see your cheating hide in here again, I'll do more than toss you out.\" Schells: \"I didn't cheat. I just found my own way to win.\"",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Cut_Content/Citadel_Voicelines",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "summary:relay-monument",
+      "kind": "summary",
+      "page": "Relay Monument",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Relay Monument was a scale representation of a mass relay standing as a statue on the Citadel Presidium. It was believed to be a piece of Prothean art and had been in place since before the asari arrived on the station. According to the VI Avina, it was a popular topic among Citadel academics, with two competing theories about its meaning: that it was an expression of Prothean vanity proclaiming their galaxy-wide mastery of mass effect technology, or that it was a symbol of unity acknowledging that the relays would eventually bring other races to the Citadel. Commander Shepard's squadmates each offered their own opinions if spoken to nearby.\n\nIn fact the Monument was not a statue but an actual small-scale, inactive mass relay. Its partner relay, the Conduit, lay on Ilos. Together they formed a \"back door\" onto the Citadel, built by hidden Prothean scientists who survived their race's annihilation, allowing passage that bypassed the signal the Reapers used to control the Citadel, in the hope of breaking the cycle for later races. Saren Arterius intended to use the Conduit to bypass the Citadel's defenses and hand control of the station to Sovereign. Shepard drove the Mako through the Conduit in pursuit of Saren and emerged through the Relay Monument on the Presidium, crushing several geth on landing. As the Conduit was already closing during the transit, the Relay Monument was likely inactive again afterward.\n\nTwo years later, during Mass Effect 2, the Monument remained on the Presidium and was by then referred to as the Conduit by the Presidium Groundskeeper.",
+      "url": "https://masseffect.fandom.com/wiki/Relay_Monument",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "summary:urdnot-wrex-unique-dialogue",
+      "kind": "summary",
+      "page": "Urdnot Wrex/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects the squad barks, conversation lines, and spontaneous remarks Urdnot Wrex delivers when he is in Commander Shepard's squad, drawn from Mass Effect and Mass Effect 3 (including the Citadel DLC). The lines showcase his bluntness, love of violence, contempt for turians and salarians, and pride in fallen krogan glory. Representative quotes:\n\nWrex, when Shepard spares the warehouse workers during Citadel: Expose Saren: \"It would've been quicker to just to kill them.\"\n\nWrex, to Executor Pallin claiming he never bends the law: \"Don't piss in my ear and tell me it's raining, I've known plenty of dirty C-Sec agents.\"\n\nWrex, meeting the Thorian on Feros: \"And they call *me* ugly...\"\n\nWrex, opening negotiations with the Rachni Queen at Peak 15: \"This is going to be a fun conversation.\"\n\nWrex, to the Mira VI when it insists neutron radiation is lethal to all known life: \"I won't have some virtual wench questioning my fitness!\"\n\nWrex, if brought without Garrus on Garrus: Find Dr. Saleon: \"If you're too weak to hunt, you don't deserve the kill.\"\n\nWrex, at the Krogan Monument on the Presidium: \"This statue represents what the krogan use to be: a proud and fierce nation. Now we're just brutes for hire to the highest bidder. We've forgotten our roots.\"\n\nWrex, to Tali at the Krogan Monument: \"At least you still live. In another two hundred years, this statue may be the only evidence my people ever existed.\"\n\nWrex, on Therum's surface: \"Fifty degrees hotter and I might start to feel uncomfortable. How are you mammals doing, Shepard?\"\n\nWrex, on Ilos: \"There's something in the air here; death is on the wind. It's a good place for killing.\"\n\nWrex, distracting a guard during Silver Coast Casino: Infiltration: \"I need to look at your kitchen. I'm a food inspector.\"\n\nWrex, after the squad guns down Shepard's pursuers in Citadel Archives: Escape: \"That's why I love hanging out with you guys! Why shoot something once when you can shoot it 46 more times?\"\n\nWrex, trapped in the vault with Shepard: \"Refresh my memory. Didn't we used to win these things back in the old days?\"\n\nWrex, in combat during Mass Effect 3: \"Uncle Urdnot has a present for you!\"\n\nWrex, if Shepard talks Brooks into surrender during Retake the Normandy: \"In the old days, we would have just shot her. Good times.\"\n\nThe page also notes recurring bits: Wrex and Garrus argue in Citadel elevators about the genophage and about whether Shepard or Saren would win a fight, and Wrex repeatedly disdains bars that want to hire krogan bouncers \"as a status symbol.\"",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Wrex/Unique_dialogue",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "scene:citadel-wrex-casino-ice#02",
+      "kind": "scene",
+      "page": "Wrex, a Drink, and a Bag of Ice",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-wrex-casino-ice",
+      "text": "Wrex, a Drink, and a Bag of Ice. 2186, Citadel shore leave, before or after the party the casino bar, Silver Coast Casino With the krogan fertile again, and with his part in curing the genophage known, Wrex has been hounded by every female krogan on Tuchanka to sire their firstborn. He got no respite even on the shuttle to the Citadel — two more of them on the way. The worst of it, to him, is that Urdnot Bakara encourages it.",
+      "url": "",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "scene:citadel-wrex-casino-ice#01",
+      "kind": "scene",
+      "page": "Wrex, a Drink, and a Bag of Ice",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-wrex-casino-ice",
+      "text": "Wrex, a Drink, and a Bag of Ice. 2186, Citadel shore leave, before or after the party the casino bar, Silver Coast Casino Wrex is on the Citadel to argue krogan expansion with the Council. Shepard finds him at the casino bar, exhausted, ordering a drink and a bag of ice.",
+      "url": "",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "scene:tuchanka-mordin-and-maelon#01",
+      "kind": "scene",
+      "page": "Mordin, Maelon, and the Weyrloc Hospital",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-mordin-and-maelon",
+      "text": "Mordin, Maelon, and the Weyrloc Hospital. 2185, during Mordin's time aboard the Normandy Tuchanka — Clan Urdnot's camp, then a hospital turned Weyrloc fortress Mordin hears his old assistant Maelon has been taken on Tuchanka, and is afraid of what the krogan will do if they learn Maelon helped modify the genophage.",
+      "url": "",
+      "for_key": "krogan monument"
+    },
+    {
+      "chunk_id": "war-assets-krogan_005",
+      "kind": "page",
+      "page": "War Assets/Krogan",
+      "section": "Aralakh Company",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Complete Attican Traverse: Krogan Team **Military Strength:** 25 Ancient Tuchankan legends claim that the Aralakh Wastes, named after the system's star, are where the first warrior died in battle. Aralakh Company is made up of krogan from all over Tuchanka, each chosen for their strength, ferocity, and fighting experience. No krogan community would dream of sending anything less than its finest warriors to represent their clan. The honor of who's to be chosen for the company has started more than one brawl. UPDATED (If Grunt survived the Suicide Mission) **Military Strength:** 25 Aralakh Company is led by Grunt, a genetically engineered \"perfect soldier\" who fought the Collectors with Commander Shepard. While young, the krogan has survived such brutal battles that the older warriors of the group have begrudgingly accepted his command. UPDATED (If Grunt's loyalty was gained) **Military Strength:** 25 Grunt was appointed representative of Clan Urdnot in addition to becoming head of Aralakh Company, a political appointment not lost on the other clans. Grunt sees this new position as the first large victory he has won on his own\\-\\-the respect of his people is difficult to come by. UPDATED (If the rachni breeder or queen is saved during Attican Traverse: Krogan Team) **Military Strength:** \\-25 (Original Trilogy), \\-75 (Legendary Edition) Wave after wave of rachni overwhelmed the Aralakh Company on Utukku. While fighting an impressive enemy to the death is considered an honorable end for a krogan, Aralakh Company has effectively been wiped out.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Krogan",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "summary:urdnot-dagg",
+      "kind": "summary",
+      "page": "Urdnot Dagg",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Urdnot Dagg was a krogan soldier who led Aralakh Company during the Reaper War if Grunt did not survive the Collector base suicide mission or was never released from his tank. Either Urdnot Wrex or Urdnot Wreav, as leader of Clan Urdnot, chose Dagg to command the company because he was a respected and feared soldier whom his superiors believed would bring greater unity to Aralakh Company.\n\nIn 2186 Dagg led Aralakh Company on a mission to Utukku to investigate a missing krogan scout team, assisted by Commander Shepard. On first meeting Shepard, Dagg expressed both admiration and jealousy that Shepard had the Reapers as enemies, wondering what the Commander had done to earn such a reputation; if Shepard replied that Dagg came highly recommended, he explained his selection as leader. He boasted that every krogan under his command wanted blood, and if a female Shepard quipped she would leave some for them, he barked approvingly that \"the female has bite!\" Eager for battle, Dagg assumed Shepard was intentionally charging into combat when the Commander first fell into the rachni nest. During a moment when Shepard's squad could observe Aralakh Company fighting rachni, Dagg had more trouble than Grunt would have, pinned down and unable to break cover.\n\nDagg later sacrificed himself, fending off a swarm of Ravagers to buy time for Shepard's squad to escape. Unlike Grunt, there was no way to save Dagg; whether Shepard chose to save Aralakh Company or the Rachni Queen/Breeder, Dagg always died, overwhelmed by Ravagers.",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Dagg",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "urdnot-dagg_001",
+      "kind": "page",
+      "page": "Urdnot Dagg",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Urdnot Dagg** is a krogan who leads Aralakh Company if Grunt didn't survive the suicide mission or was never released from his tank. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | Either Urdnot Wrex or Urdnot Wreav chooses Urdnot Dagg to lead Aralakh Company. Dagg leads Aralakh Company on a mission to investigate a missing krogan scout team on Utukku, with assistance from Commander Shepard. When Dagg first meets Shepard, he expresses both admiration and jealousy that Shepard has the Reapers as enemies, wondering what the Commander must have done to earn such a reputation. If Shepard answers that Dagg also came highly recommended, Dagg will reveal that the reason he was chosen as leader is because he is a respected and feared soldier who his superiors believed would help Aralakh Company achieve greater unity. Dagg knows his company, boasting that every krogan under his command wants blood; if Shepard is female and quips that she will try to leave some for them, Dagg barks approvingly that \"the female has bite!\" Like most krogan, Dagg is eager for action, so much so that when Shepard first falls into the nest to begin the mission, Dagg assumes the Commander was intentionally charging into battle. However, at a moment when Shepard's squad can personally observe Aralakh Company battling rachni, Dagg has more trouble than Grunt would in his place, pinned down and unable to break cover. Dagg later sacrifices himself, fending off a swarm of Ravagers to buy time for Commander Shepard's squad to escape. Unlike Grunt, there is no way to save Dagg; whether Shepard chooses to save Aralakh Company or the Rachni Queen/Breeder, Dagg will always die from being overwhelmed by Ravagers.",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Dagg",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "grunt_004",
+      "kind": "page",
+      "page": "Grunt",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I don't need luck; I have ammo.” Grunt returns to fight the Reapers, provided he was released from his tank aboard the Normandy and survived the attack on the Collector base. He has since earned the command of Aralakh Company. The Urdnot chief notes that as a result, Aralakh Company is his best unit. If Wrex is alive, he put Grunt in charge because he exemplifies the bright future of the krogan, something Wrex hopes for his people; Grunt, as such, is optimistic and cares about his company more. If Wreav replaced Wrex, he put Grunt in charge for his strength; Grunt is also more blasé about his appointment, stating that it doesn't really matter to him as long as he gets to fight tough enemies. To a lesser extent, he still experiences the stigma of being tank\\-born, rather than earning strength in the way other krogan feel is true. Nonetheless, his undeniable prowess in battle has earned him his place in the company. He helps Shepard investigate the disappearance of other squads in the tunnels of Utukku, where they discover a new brood of rachni who have been twisted by Reaper technology. If Shepard chooses to spare the Rachni Queen or artificial queen, Aralakh Company is left behind to cover her escape, much to Grunt's disgust; they are slaughtered holding off wave after wave of rachni, but the queen survives, providing rachni support. If not, Grunt gives the order to retreat, telling Aralakh Company to \"get \\[their] asses back to the shuttle\"; this secures their escape, at the cost of the queen's life and any chance of rachni contribution to the war. Either way, Grunt breaks through a wall in the cavern to reach Shepard's squad, then runs with them back to the waiting shuttle. Realising the Reaper\\-modified rachni are closing in on them, Grunt personally holds several Ravagers and Swarmers off to cover the Commander's escape. If Shepard chose to spare either queen, Grunt dies if his loyalty wasn't secured prior to the suicide mission. If Shepard chose to abandon either queen, Grunt survives regardless of his prior loyalty, limping out of the rachni nest all bloody and asking for something to eat. If Grunt died on Utukku, reactions from people who knew about him run the gamut from indifferent (Wreav) to forlorn (Garrus, Tali, Ashley, Wrex) to solemn wisecracking (Joker). If Grunt survived, he contributes to the war effort after recuperating from his \"scratches\". He passes along an additional message from Aralakh Company if Shepard chose to abandon the Utukku queen. **No Subject** --- From: Grunt THas a goood fight ShUpurd. You cant hear em but I;ve goht ARLlakh co,mpany chantin SHEPAR SHEPAR your name you know. as we down some ryNCOL to heal my woundS^\\&!!( ryCNol! Whear are yOu? SHEPERD S HEPAURD  SHEPARUD!!! Shepard has a chance to speak to him on Earth prior to the final push at the final battle. Grunt then thanks the Commander for getting him out of the tank in the first place. If Grunt survived, the Genophage was cured, and organics and synthetics weren't merged at the conclusion of the war, he and Urdnot Wrex (if Wrex survived Virmire) are shown to be welcomed back at Tuchanka, heroes among a horde of cheering krogan. If Grunt did not survive the suicide mission or was never freed from his tank, his role is filled by Urdnot Dagg.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "summary:attican-traverse-krogan-team",
+      "kind": "summary",
+      "page": "Attican Traverse: Krogan Team",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This was a Mass Effect 3 mission acquired automatically on returning from Priority: Sur'Kesh. The Urdnot clan leader, either Urdnot Wrex or Urdnot Wreav, reported that a krogan scouting team had gone missing while investigating rumors of activity at the rachni relay beyond it; speaking to him in the War Room changed the journal entry title to Attican Traverse: The Rachni. The Normandy received the team's last-known coordinates and Commander Shepard travelled to the planet Utukku in the Mulla Xul system of the Ninmah Cluster.\n\nThere Shepard met Aralakh Company, an elite krogan unit led by Grunt or, if Grunt had died in the Mass Effect 2 suicide mission or was never released from his tank, by Urdnot Dagg. Descending into tunnels beneath the surface, Shepard's team found the bodies of krogan scouts and discovered that the Reapers had established a breeding operation, using rachni to grow a biological army of Ravagers, Swarmers, and other troops. The mission featured heavy use of the M-451 Firestorm flamethrower against Reaper webbing, spore pods, gestation pods, Barrier Engines, and Reaper Nodes, and fights against Ravagers, Husks, and Cannibals.\n\nAt the central chamber Shepard confronted either the original Rachni Queen from Noveria, if she had been spared in Mass Effect, or the Breeder, a genetically revived rachni created by the Reapers. Shepard could leave her to die or help her escape on the condition she aid the war effort. Rescuing her required ordering Aralakh Company into a suicidal holding action: sparing the original Queen cost Aralakh Company 25 war asset points but gained 100 points of rachni workers, while rescuing the Breeder gave similar initial gains but the Breeder later betrayed the effort after Priority: Horizon, removing her asset and subtracting 100 points from the Alliance Engineering Corps. Leaving the rachni to die granted Aralakh Company as a 25-point war asset. Regardless of the choice, Grunt or Dagg stayed behind to hold off Ravagers so Shepard's party could reach the shuttle; Dagg always died, and Grunt died only if he had been disloyal in the previous game. In Legendary Edition, rescuing either the Queen or the Breeder meant Aralakh Company was not acquired at all. Afterward Garrus recounted rachni stories to Ensign Copeland in the Port Observation Lounge, and if aboard, Diana Allers discussed the scoop with Specialist Traynor.",
+      "url": "https://masseffect.fandom.com/wiki/Attican_Traverse:_Krogan_Team",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "mass-effect-legendary-edition-changes-from-the-original-mass-effect-trilogy_017",
+      "kind": "page",
+      "page": "Mass Effect Legendary Edition/Changes from the Original Mass Effect Trilogy",
+      "section": "Gameplay Updates",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Multiplayer support removed. - Weapon stats are not based on the latest patched version of the original game, but rather the base game before any patches were applied. - Weapons and armor from DLC integrated into the game: rather than being dumped into Shepard's inventory at the beginning, the player can now buy them from merchants throughout the game. Exceptions include the Recon Hood and Cerberus Ajax Armor, which are available from the start. - War Assets are not affected by any sort of Galactic Readiness system as the multiplayer mode has been removed. All War Assets are now treated as if they are at 100% effectiveness under the old system, and there is no Effective Military Strength value displayed in\\-game, only Total Military Strength. Additionally, the Military Strength points required for certain endings have been adjusted. For example, to obtain the Destroy/Shepard breathes ending, you will need at least 7400 Total Military Strength. - The criteria to acquire certain War Assets has been changed. For example, in Attican Traverse: Krogan Team, rescuing the rachni leader would result in both Aralakh Company and rachni workers being acquired, albeit with Aralakh Company being reduced, depending on Grunt's status. In the Legendary Edition, saving the rachni leader prevents Aralakh Company from being acquired entirely. - During the final battle with the Shepard Clone, its medi\\-gel count is no longer visible to the player.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Legendary_Edition/Changes_from_the_Original_Mass_Effect_Trilogy",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_007",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "Attican Traverse: Krogan Team",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Grunt is leader of Aralakh Company - 2 Paragon for saying \"Good to have you here.\" - 2 Renegade for saying \"Keep them in line.\" If Urdnot Dagg is leader of Aralakh Company - 2 Paragon for saying \"Good.\" - 2 Renegade for saying \"Keep your krogan in line.\" Rachni queen, if rachni queen was spared in Mass Effect - 2 Paragon for saying \"It's over now.\" - 2 Renegade for saying \"You're a puppet.\" Breeder surrogate, if rachni queen was killed in Mass Effect - 2 Paragon for saying \"The Reapers are gone.\" - 2 Renegade for saying \"You're a danger.\" If Wrex is clan chief - 2 Paragon for saying \"You did.\" - 2 Renegade for saying \"It wasn't pretty.\" If Wreav is clan chief and rachni saved - 2 Paragon for saying \"Excuse me?\" - 2 Renegade for saying \"You're a coward.\" Mission completion - 5 **Reputation** - 5 Renegade",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "rachni-queen_004",
+      "kind": "page",
+      "page": "Rachni Queen",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If the Rachni Queen survived on Noveria, she is captured by the Reapers in 2186\\. She has grown considerably in size since Noveria, and she proves to be immune or highly resistant to Reaper indoctrination signals (which she refers to as a \"maddening sour note\"), forcing the Reapers to use physical restraints to hold her captive. She is located on Utukku, deep within a perversion of a rachni hive filled with Reaper technology. Her young are indoctrinated and converted into Ravagers for the Reapers' forces. Shepard can choose to free her in exchange for her support against the Reapers, though this requires sacrificing Aralakh Company to hold off the swarms of Ravagers long enough for her to escape. If Grunt leads Aralakh and is loyal to Shepard, he alone manages to survive, albeit with severe injuries. If Shepard chooses to leave the Queen, she will accept her fate calmly, stating that she will \"embrace the silence.\" She then presumably dies either from her injuries or at the hands of her Reaper\\-mutated children. If the Rachni Queen died in 2183, then the Reapers will construct an artificial queen to produce their army of mutated rachni slaves. If Shepard chooses to free her, then unlike the queen from Noveria, this \"Breeder\" eventually proves untrustworthy, dealing severe damage to the Alliance Engineering Corps on her way out. If Shepard chooses to leave the Breeder, she will become enraged, screaming at Shepard through the krogan corpses strewn about and ordering her Ravagers to kill Shepard and their squad.",
+      "url": "https://masseffect.fandom.com/wiki/Rachni_Queen",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "attican-traverse-krogan-team_010",
+      "kind": "page",
+      "page": "Attican Traverse: Krogan Team",
+      "section": "Rachni Queen",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If you saved the Rachni Queen in Mass Effect, you will speak to her during this cutscene. If not, you will converse with the Breeder, a genetically revived rachni created by the Reapers to serve as a progenitor for their biological army. Either way, you may choose to either leave her or help her to survive on the condition that she will assist in the fight against the Reapers. Your decision will not affect the Reapers' supply of Ravagers one way or another, be prepared to meet them in future battles. Your squadmates will argue for leaving the Queen/Breeder to die at the hands of her indoctrinated offspring, and they express skepticism at your decision no matter what it is. The leader of Aralakh company will also interject via radio and make clear that assisting the Queen/Breeder to escape would require ordering the krogan to make a suicidal last stand holding their positions against the Ravager hordes. - If you leave the rachni to die, you will gain Aralakh Company as a war asset worth 25 points, but no rachni assets. - If you choose to rescue the original queen from Noveria, Aralakh Company will suffer grievous losses in the holding action, reducing their strength by 25 points. However, the Queen provides rachni workers worth 100 points. - If you choose to rescue the new Breeder, initial war assets adjust as with saving the original queen; however, the Breeder proves untrustworthy after Priority: Horizon, simultaneously removing her war asset and subtracting 100 points from the Alliance Engineering Corps. No matter what you chose with the Rachni Queen/Breeder, Grunt or Urdnot Dagg will stay behind to hold off Ravagers while Shepard's party runs for the shuttle. Dagg will not survive this. Grunt will only die defending your escape if he was disloyal in the previous game (he will mention his outsider status in his dialogue outside the falling prefab in this case). If you completed Grunt's loyalty mission in the previous game, he will survive. Grunt adds 25 points to Aralakh Company's war asset as its leader if he survives the mission and an additional 25 points as representative of Clan Urdnot should you have earned his loyalty. Additionally, he will himself be added as an independent war asset worth 25 points. **Legendary Edition:** Should you rescue either the queen or the Breeder, Aralakh Company will not be acquired at all, regardless of Grunt's status.",
+      "url": "https://masseffect.fandom.com/wiki/Attican_Traverse:_Krogan_Team",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "okeer_003",
+      "kind": "page",
+      "page": "Okeer",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Grunt survives to become leader of Aralakh Company, he mentions that Okeer took steps to ensure he knew about the rachni. Apparently, Okeer respected the rachni as worthy enemies, and passed this respect on to his creation. |  | ***“Make no mistake — this is a one\\-way trip.”*** — Spoilers for **Mass Effect: Andromeda** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Okeer",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "summary:war-assets-krogan",
+      "kind": "summary",
+      "page": "War Assets/Krogan",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list collected the might the krogan clans threw against the Reapers as shock troops. Its leadership asset was either Urdnot Wreav (25), who seized Tuchanka's armies using the genophage cure and openly planned a postwar krogan empire, or Urdnot Wrex (30), who had risen to clan leadership championing progressive reform and united Tuchanka after the cure. If the cure was secretly sabotaged while Wrex ruled, both his personal asset (-30) and Clan Urdnot (-300) turned negative as Wrex withdrew krogan support.\n\nGrunt (25) joined if he survived the Suicide Mission and Attican Traverse: Krogan Team. Aralakh Company (25), a hand-picked cross-clan warrior unit, was led by Grunt if he survived; it was wiped out on Utukku (-25, or -75 in Legendary Edition) if the rachni queen or breeder was saved there. The Krogan First Division (50) came from N7: Cerberus Attack, and Krogan Mercenaries (75) returned from the Terminus Systems if Wrex ruled and the genophage was cured.\n\nThe large clan assets all required Priority: Tuchanka. Krogan Clans (300) noted decades of stockpiled weapons of mass destruction now aimed at the Reapers; it gained 40 from cloning toxin-immune kakliosaur battle-mounts, but lost 50 if Maelon's data was destroyed and Eve later died, lost 250 if Tuchanka: Bomb was not completed (the Kelphic Valley blast killing every krogan gathered there, including females and children), or lost 300 entirely if the cure was sabotaged. Clan Urdnot (300) had absorbed or destroyed Clans Nakmor, Jurdon, Quash and Raik and rallied krogan around the discovery of a fertile Urdnot female.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Krogan",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "summary:grunt",
+      "kind": "summary",
+      "page": "Grunt",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grunt was a genetically engineered krogan super soldier, bred and educated in a tank on Korlus by the krogan warlord Okeer. Okeer had once sought a cure for the genophage but grew disillusioned, believing it had reduced krogan identity to mere survival, and instead pursued a genetically perfect warrior. With Collector assistance he rejected thousands of flawed specimens before producing his ideal prototype, whose genome incorporated traits from renowned krogan including Shiagur, Kredak, Moro, Terg, Wrend, and Veeoll. Okeer died from toxins released by the Blue Suns mercenary Jedore, and Commander Shepard, who had come to recruit Okeer, instead took the tank aboard the Normandy SR-2.\n\nWhen Shepard released him, the newly awakened krogan pinned Shepard to a wall and demanded a name before killing the Commander. He took \"Grunt\" from one of the last words in Okeer's final message, saying, \"It has no meaning. It'll do.\" Shepard could persuade him to join the mission against the Collectors or shoot him into submission. Lacking a krogan upbringing, Grunt was violent, impulsive, and prone to charging recklessly, but was a formidable asset for his strength and fighting prowess. He harbored doubt over being tank-bred, considering himself weak for being given strength, and often sought Shepard's guidance, calling Shepard \"battlemaster\" once loyal.\n\nFor his loyalty, after Grunt became anxious and irrational, EDI or Kelly Chambers alerted Shepard; the condition was the krogan equivalent of puberty. Shepard took him to Tuchanka and Clan Urdnot, where he completed a Rite of Passage with Shepard as his krantt to earn clan membership.\n\nIn Mass Effect 3, provided Grunt was released from his tank and survived the Collector base, he returned commanding Aralakh Company, Clan Urdnot's best unit. He helped Shepard investigate missing squads in the tunnels of Utukku, where they found a brood of rachni twisted by Reaper technology. If Shepard spared the Rachni Queen, Aralakh Company was left to cover her escape and was slaughtered, and Grunt died unless his loyalty had been secured; if Shepard abandoned the queen, Grunt ordered a retreat and survived regardless, limping out asking for food. A survived Grunt contributed to the war effort, sent a drunken misspelled message, and could speak to Shepard on Earth before the final push, thanking the Commander for getting him out of the tank. If Grunt survived, the genophage was cured, and organics and synthetics were not merged, he and a surviving Wrex were welcomed home to Tuchanka as heroes. If he died or was never freed, his role was filled by Urdnot Dagg. In the Citadel DLC, Grunt was detained by C-Sec after a drunken rampage, could fight in the Armax Arsenal Arena, and appeared at Shepard's party. Steve Blum voiced Grunt.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "scene:citadel-grunt-csec-noodles#02",
+      "kind": "scene",
+      "page": "Bailing Grunt Out at the Noodle Stand",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-grunt-csec-noodles",
+      "text": "Bailing Grunt Out at the Noodle Stand. 2186, Citadel shore leave, after Shepard has been in and out of the apartment a few times a noodle stand on the Silversun Strip, C-Sec holding him there Grunt had been recovering in Huerta Memorial Hospital after the battle on Utukku, and got bored. He was broken out by being lowered on a rope, which did not work — he fell several storeys.",
+      "url": "",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "scene:citadel-party-apartment#07",
+      "kind": "scene",
+      "page": "The Party at Shepard's Apartment",
+      "section": "party",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-party-apartment",
+      "text": "The Party at Shepard's Apartment. 2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden Grunt tells Wrex that two of Aralakh Company's recruits had opposed his appointment, and that only one of them had to be dealt with, the other having been killed in a fight.",
+      "url": "",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "scene:citadel-garrus-sidonis-orbital-lounge#02",
+      "kind": "scene",
+      "page": "The Shot Garrus Set Up on Sidonis",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "citadel-garrus-sidonis-orbital-lounge",
+      "text": "The Shot Garrus Set Up on Sidonis. 2185, after Horizon the Citadel — Fade's hideout in the Factory District, then the Orbital Lounge Sidonis surfaces on the Citadel in the company of a forger called Fade, and Garrus intends to collect the blood debt. He asks for Shepard's help if there is time.",
+      "url": "",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "chunk_id": "drinks_049",
+      "kind": "page",
+      "page": "Drinks",
+      "section": "Ryncol",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*Main article: Ryncol* Ryncol is an extremely potent krogan liquor.",
+      "url": "https://masseffect.fandom.com/wiki/Drinks",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "ryncol_001",
+      "kind": "page",
+      "page": "Ryncol",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Ryncol** is an extremely potent liquor created by the krogan. Its exact composition is unknown, but it is clearly a very strong drink, given that it is created by and for the krogan. Grunt comments that ryncol \"hits aliens like ground glass.\" Humans can survive drinking ryncol, although it is apparently unsafe for volus. One obtainable datapad contains a complaint made by a pirate about how the YMIR Mech he purchased \"leaks \\[fuel] like a volus after a mug of ryncol.\" When Commander Shepard visits the Dark Star Lounge and asks the bartender for five consecutive drinks, the Commander will be given a glass of ryncol. The bartender jokes that Shepard will \"set off radiological alarms\" after they drink it. Elcor and quarians can also survive drinking ryncol, although in case of the latter one must take immuno\\-supplements and anti\\-virals for weeks before attempting even one shot. In quarians it apparently makes them feel like \"stained glass\", and feels like \"sipping knives\" during the act itself. However, ancient quarians were capable of imbibing ryncol without issue since their immune systems weren't ruined yet by Migrant Fleet living. Ryncol apparently has \"pure\" and cocktail variants. It can be sold in 190 proof bottles. The turian bartender in the Dark Star Lounge creates a green ryncol mix served to Shepard by mixing separate components together. As per his prediction, it does indeed knock Shepard out, leading to a short sequence where the Commander groggily wakes up on the floor of the Dark Star's bathroom. In Jack's opinion, Shepard's stash of creme de menthe in the Personal Apartment can sicken people more than a sample of pure ryncol. Ryncol is also highly flammable: while on Silversun Strip, Grunt narrates to Shepard that he in fact used it as a Molotov cocktail merely by throwing a regular bottle at a C\\-Sec aircar. Ryncol is highly acidic, capable of melting through machinery. Vomit from ryncol consumption is apparently purplish in color.",
+      "url": "https://masseffect.fandom.com/wiki/Ryncol",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "summary:ryncol",
+      "kind": "summary",
+      "page": "Ryncol",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ryncol was an extremely potent liquor created by the krogan for the krogan. Its exact composition was unknown, but Grunt commented that it \"hits aliens like ground glass.\" Humans could survive drinking it, though it was unsafe for volus; one datapad complaint compared a leaking YMIR Mech to \"a volus after a mug of ryncol.\" When Commander Shepard asked the Dark Star Lounge bartender for five consecutive drinks, they were served ryncol, with the bartender joking Shepard would \"set off radiological alarms.\"\n\nElcor and quarians could also survive ryncol, though quarians needed weeks of immuno-suppressants and anti-virals before even one shot, and it made them feel like \"stained glass\" and \"sipping knives\"; ancient quarians, before Migrant Fleet living ruined their immune systems, could drink it without issue. Ryncol had \"pure\" and cocktail variants and was sold in 190-proof bottles. The turian Dark Star bartender mixed a green ryncol cocktail from separate components that knocked Shepard out, leaving the Commander waking groggily on the Dark Star bathroom floor. Jack claimed Shepard's creme de menthe stash could sicken people worse than pure ryncol. Ryncol was highly flammable, and Grunt described using a thrown bottle as a Molotov cocktail against a C-Sec aircar on Silversun Strip. It was also highly acidic, capable of melting through machinery, and vomit from its consumption was purplish.",
+      "url": "https://masseffect.fandom.com/wiki/Ryncol",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "merchants-guide_013",
+      "kind": "page",
+      "page": "Merchants Guide",
+      "section": "Merchant Notes",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Annea sells goods for 25% more than other merchants and buys goods for double what other merchants will pay. - Depending upon Ryder's decision during the mission Water Supply, Annea may be replaced with an Initiative Merchant. The Merchant only buys and sells goods for standard rates and doesn't follow Annea's rates. - Black Market Dealer on Kadara sometimes has different good types other than what is shown in the table. - Thrasia sells goods for 10% less and pays 15% more after the completion of A Packaged Deal. - Team Ryncol Manager and Blood Threshers Manager don't sell anything other than fighting pit betting tickets. - Team Ryncol Manager sells the Blue Ticket for 10 . - Blood Threshers Manager sells the Red Ticket for 10 . - Purchased tickets and Winning Tickets will only display while speaking to one of the fighting pit Managers **AND** only in the \"All Items\" inventory screen (not the Special Items section). - The fighting pit in New Tuchanka on Elaaden is the best place to dispose of unwanted items, especially salvage. - Team Ryncol Manager and Blood Threshers Manager will buy all weapons, weapon mods, armor, consumables, materials, and augmentations for full price. - Team Ryncol Manager and Blood Threshers Manager buy salvage items for five times the base rate.",
+      "url": "https://masseffect.fandom.com/wiki/Merchants_Guide",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "new-tuchanka_004",
+      "kind": "page",
+      "page": "New Tuchanka",
+      "section": "New Tuchanka",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "#### Mission\\-Related Residents - Dr. Ganar - Gren - Hark - Injured Krogan Scout - Jorgal Strux - Krogan Geneticist - Nakmor Morda \\- Overlord - Ravanor Brenk - Rorik - Shaman Kortik - Varka - Vorn #### Merchants - Merchant - Blood Threshers Manager - Team Ryncol Manager #### Other Residents - Barruk - Urdnot Grot - Vel",
+      "url": "https://masseffect.fandom.com/wiki/New_Tuchanka",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "scene:citadel-grunt-csec-noodles#04",
+      "kind": "scene",
+      "page": "Bailing Grunt Out at the Noodle Stand",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-grunt-csec-noodles",
+      "text": "Bailing Grunt Out at the Noodle Stand. 2186, Citadel shore leave, after Shepard has been in and out of the apartment a few times a noodle stand on the Silversun Strip, C-Sec holding him there When C-Sec arrived, Grunt threw a bottle of ryncol at their shuttle and set it alight. The pilot jumped clear; Grunt got in and took it for a joyride until he crashed it into a noodle stand.",
+      "url": "",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "war-assets-krogan_006",
+      "kind": "page",
+      "page": "War Assets/Krogan",
+      "section": "Krogan First Division",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Complete N7: Cerberus Attack **Military Strength:** 50 The krogan First Division is a conglomeration of infantry and vehicles hastily organized into a single coalition force. The chain of command is divided by clan, with representatives from each serving as officers. Despite ancient differences, fighting the Reapers together is building a spirit of camaraderie among the division's warriors. Krogan from different clans are starting to swap equipment, stories and even the occasional barrel of ryncol.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Krogan",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "alliance-news-network-profiles-in-courage_009",
+      "kind": "page",
+      "page": "Alliance News Network/Profiles in Courage",
+      "section": "Silversun Strip",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Compensating. \\#Citadel - **Amda Talons Flufyria**: @ThisUnit1025 Hey, 1025, buddy, I can't help but notice we're losing altitude. \\#Citadel - **De\\-MEL\\-Isher**: It'd be great if he had some food, because three shots of ryncol on an empty stomach is a lot even for me. \\#Citadel - **Amda Talons Flufyria**: @ThisUnit1025 1025? Altitude. You can operate a manual\\-shift skycar, right? \\#Citadel - **Geth Infiltrator1025**: Compensating. \\#Citadel - **Snarfles**: RAAAA, WE CRASH! ME NEED TO TELL YOU SOMETHING! \\#Citadel - **De\\-MEL\\-Isher**: @VorchaDaddy Is there any chance you could CONJUGATE it? Seriously, we all have translation interfaces.You can't handle simple verbs by now? - **Snarfles**: @De\\_Mel\\_isher ME NOT ACTUALLY HAVE ASARI GIRLFRIEND. \\#Citadel - **Amda Talons Flufyria**: @VorchaDaddy Well, duh. \\#Citadel - **Geth Infiltrator1025**: Alert: Impact in Presidium lake in five, four, three, two... \\#Citadel - **Amda Talons Flufyria**: Everybody okay? @De\\_Mel\\_isher, I can't believe you're still walking, much less swimming across a damn lake. \\#Citadel - **De\\-MEL\\-Isher**: @TalktotheTalons Don't be insulting. Wait... It's a YACHT. Aren't they supposed to float? \\#Citadel - **Amda Talons Flufyria**: @De\\_Mel\\_isher I think he was maybe exaggerating a little about the yacht. \\#Citadel - **De\\-MEL\\-Isher**: Damn it. Snarfles, you all right? \\#Citadel - **Snarfles**: @De\\_Mel\\_isher RAAAAA, ME LIVE! HELD ON TO YOU. YOU SEEMED LIKE GOOD SWIMMER. VERY FLOATY. \\#Citadel - **De\\-MEL\\-Isher**: @VorchaDaddy Really? Well, glad I could help. Apparently. \\#Citadel - **Amda Talons Flufyria**: How about @ThisUnit1025? \\#Citadel - **Snarfles**: @TalktotheTalons ME NO THINK GETH FLOAT. \\#Citadel - **De\\-MEL\\-Isher**: @VorchaDaddy He's waterproof, right? They couldn't have kicked the quarians off Rannoch if you could break them by throwing water on 'em. - **Amda Talons Flufyria**: All right, everybody climb up onto shore. So, Snarfles, why'd you lie about having an asari girlfriend? \\#Citadel - **Snarfles**: @TalktotheTalons ME WANTED TO IMPRESS YOU. \\#Citadel - **De\\-MEL\\-Isher**: @VorchaDaddy With your ability to tell lies that nobody believed? Hey, unrelatedly, is ryncol bad for humans? \\#Citadel - **Amda Talons Flufyria**: @VorchaDaddy WHY did you want to impress us? \\#Citadel - **Snarfles**: @TalktotheTalons NOT ALL. YOU. ME NO HAVE GREAT BIOTICS OR CABAL SKILLS. BUT ME THINK IF ME HAVE CREDITS AND GIRLFRIEND, YOU THINK ME GOOD. - **Snarfles**: @TalktotheTalons BUT ALONG WAY, ME REALIZED IT NOT IMAGINARY GIRLFRIEND ME WANTED. IT REAL GIRLFRIEND. WHO FIGHT WELL AND POISON PEOPLE. - **Snarfles**: @TalktotheTalons YOU EVERYTHING ME NEVER KNEW ME ALWAYS WANTED. AND KNOW ME NOT PRETTY TURIAN WITH BIG MANDIBLES, BUT\\-\\- \\#Citadel - **Amda Talons Flufyria**: @VorchaDaddy Shut up and kiss me, Snorfles \\[sic]. \\#Citadel - **De\\-MEL\\-Isher**: @TalktotheTalons I am going to throw up. \\#Citadel - **Amda Talons Flufyria**: @De\\_Mel\\_isher Hey, RACISM. \\#Citadel - **De\\-MEL\\-Isher**: @TalktotheTalons No, no, literally, I'm pretty sure ryncol is actually poisonous for people. I mean human people. YOU KNOW WHAT I MEAN. - **Geth Infiltrator1025**: @De\\_Mel\\_isher We can administer poison\\-control measures if necessary. \\#Citadel - **De\\-MEL\\-Isher**: @ThisUnit1025 Gah! Where the crap did you come from? \\#Citadel - **Geth Infiltrator1025**: @De\\_Mel\\_isher Geth do not float. We walked along the underside of the lake. \\#Citadel - **De\\-MEL\\-Isher**: @ThisUnit1025 Good to know. So, Snorfles and Talons are hooking up for the night. Um, maybe literally. Are they CAUGHT on each other there? - **Geth Infiltrator1025**: @De\\_Mel\\_isher We approve of this opportunity for emotional bonding within the squad. \\#Citadel - **De\\-MEL\\-Isher**: @ThisUnit1025 So wait, I'm going to get sick from the ryncol, and THOSE TWO get laid? Who am I supposed to shack up with, 1024, you? - **Geth Infiltrator1025**: @De\\_Mel\\_isher This unit's number is 1025\\. And we are currently in a committed relationship with your grenade pylon. \\#Citadel - **De\\-MEL\\-Isher**: @ThisUnit1025 Son of a… aaand there's a C\\-Sec hovercraft. With a spotlight. That's our cue to clear out! \\#Citadel - **De\\-MEL\\-Isher**: Hey, wait. Is that Richards out there on the tip of the yacht? \\#Citadel - **Geth Infiltrator1025**: @De\\_Mel\\_isher Affirmative. And the varren. \\#Citadel - **De\\-MEL\\-Isher**: @ThisUnit1025 Ah, I'm sure they'll be fine. \\#Citadel",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_News_Network/Profiles_in_Courage",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "silver-coast-casino-infiltration_012",
+      "kind": "page",
+      "page": "Silver Coast Casino: Infiltration",
+      "section": "Jonah Ashland",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Found drinking upstairs in the casino's dance floor. - On approach: Jonah: You know, I respect the first guy who looked up at Saturn and said, \"That thing up there, it isn't a star.\" Jonah: But you gotta love the guy who said \"That thing up there? That's gonna be my gas station.\" - First conversation: Shepard: Enjoying the party? Jonah: Young people party. I drink. Tonight it's ryncol on the rocks. Shepard: That stuff can put you down for the count. Jonah: I just lost a staggering amount of income. This puts things in perspective. Shepard: You need a few credits for a ride home or anything? Jonah: Oh, no, it's not like that. You know about all those helium\\-3 facilities that are getting wiped out? Shepard: I've flown by a few. Jonah: To put it in layman's terms, most of those facilities were mine. - Second conversation: Jonah: I don't think I introduced myself. Jonah Ashland of Eldfell\\-Ashland Energy. Shepard: Shepard. Pretty fancy night out for someone worried about his financial future. Jonah: It was my daughter Aish's idea. She's got a good heart, though she's going through a little...self\\-absorbed stage. Shepard: You make it sound like she's trouble. (If Jonah was talked to first before Aish) Jonah: My love for her is unlimited. She just gives me a lot of opportunities to prove it. Jonah: But I'm pretty sure she can change. You don't bet against something like that. Not even here. Shepard: We've met. (If Aish was talked to first before Jonah) Jonah: Ah. Then maybe I should pass the ryncol over to you. - Third conversation: Jonah: Look at them all down there. Twenty years ago, you'd have never seen a shindig like this. Jonah: Humans and turians together like it's nothing, Council species all concerned about the fate of batarians... Jonah: ...everybody trying to have sex with the asari.... Shepard: That's not new. Jonah: Just seeing if you were awake. Shepard: So. All these species in one room... Jonah: Yeah. Nobody's afraid of each other anymore. If we win this thing, the galaxy's going to be a pretty great place. Shepard: I'll drink to that.",
+      "url": "https://masseffect.fandom.com/wiki/Silver_Coast_Casino:_Infiltration",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "summary:drinks",
+      "kind": "summary",
+      "page": "Drinks",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The page catalogs beverages consumed across the Mass Effect galaxies, spanning sustenance, personal preference and social lubrication. It lists dozens of named drinks with their species associations, effects and in-game contexts rather than telling a single story.\n\nAlcoholic entries include Akantha, a popular asari liquor with a smoky flavor that cuts hangovers; asari honey mead, brewed in an Ardat-Yakshi monastery and the most expensive liquor in Aria T'Loak's bar; batarian ale, a potent green drink; Serrice Ice Brandy, a 1,000-credit favorite of Dr. Chakwas; turian brandy, which Tali'Zorah drinks through an \"emergency induction port\" (a straw); Elasa, a Thessian drink nicknamed \"Sorrow's Companion\" that Anderson drank in Chora's Den during his 2165 divorce; horosk, a hard turian drink strong enough to induce comas; ryncol, an extremely potent krogan liquor; and Noverian Rum, which Aria lamented being unable to obtain. Species-specific intoxicants include the hanar's mindfish (a hallucinogenic skin oil), the angaran marljeh and tavum, the volus bina, and krogan drinks such as burukh, sovak juice (used to name newborns via belching contests) and \"liquefied turian,\" a reverse-chirality dare drink with adverse effects on all who tried it. Methanol is safely ingested by some species and mined by Terminus pirates on Antirumgon.\n\nCocktails feature heavily, many mixed by Samantha Traynor during Shepard's Citadel party using her college bartending knowledge: the Full Biotic Kick, Quad Kicker, Tasty Tankard, Frozen Pyjak (made from a bartender's spill pad and ice), Perfection, and the Weeping Heart (a martini with mild drell-skin venom). Umi Henon's concoctions in Andromeda, including Combat Juice and an angaran wine and ryncol mix, caused blackouts and wild dancing in Ryder. The Vortex on the Nexus served the Dirty Squirrel, Lucky Leprechaun, Tall Moose and Rotten Scoundrel via bartender Dutch Smith.\n\nNon-alcoholic entries include coffee, credited by SAM for its own existence through Alec Ryder's consumption; soda; and sports drinks Tupari (with an aggressive marketing campaign claiming it revives ancestors) and its rival Paragade. Wine entries cover champagne, Thessia Red (the Illusive Man ordering a \"'47\"), and various bottles Anderson purchased. Whiskeys named include Mount Milgrom scotch, one 645-year-old bottle of which reached Andromeda and could be stolen by Reyes Vidal from Sloane Kelly's storeroom. Mass Effect: The Official Cocktail Book (2024) collects real-world recipes for many of these drinks.",
+      "url": "https://masseffect.fandom.com/wiki/Drinks",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "grunt_006",
+      "kind": "page",
+      "page": "Grunt",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In the third phase of a quiet party, Grunt is hanging out either by the kitchen or by the bar, depending on whatever decision Shepard made during the second phase. He mentions being pleased at seeing the old gang again, even commenting on how good Liara looks. Grunt persistently makes his hunger known if he's hanging out by the kitchen, and when EDI likens preparing food to the suicide mission, Grunt mentions \"holding the line\" at the snack table. If Grunt is hanging out by the bar, he persistently makes his thirstiness known while EDI and Traynor discuss making drinks and are busy ignoring him. When Traynor mentions her abilities as a capable bartender, Grunt tests it by asking for the ingredients of a Tasty Tankard, which she proceeds to rattle off. Samantha later serves him a ryncol\\-free drink, which Grunt approves of and demands a bigger (flowerpot\\-sized) serving, though he's dejected when Traynor says it may take a while to get ingredients for that much. At the end of the party, he appears with the rest of the guests to pose for the group photograph. In the morning, he's at the kitchen anticipating Vega's egg cooking, mentioning he cleaned up the bathroom if he spent the night there or claiming not to remember much after he ate a lamp.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt",
+      "for_key": "ryncol"
+    },
+    {
+      "chunk_id": "summary:silver-coast-casino-infiltration",
+      "kind": "summary",
+      "page": "Silver Coast Casino: Infiltration",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "\"Silver Coast Casino: Infiltration\" was a Mass Effect 3 Citadel DLC mission following Citadel: Identity Theft I. Arms dealer Elijah Khan was hosting a charity gala at his casino, and Shepard worked with Maya Brooks to bypass security and reach his panic room. The mission involved no combat: Brooks crawled through a ventilation shaft while Shepard, accompanied by any squadmate except EDI (barred as an AI/mech), mingled with guests and, on cue, distracted patrolling guards and cameras. Using resonance emitter lenses provided by Liara (which turned Shepard's eyes yellow), Shepard followed colored underground circuits, bypassed junction boxes, pressure pads, and camera boxes, and raised the security threat level if seen acting suspiciously, with critical mission failure if caught outright. Two ATMs could be hacked for 3,000 credits each.\n\nAfter Brooks was briefly caught near the panic room and Shepard intercepted a guard to call it a false alarm, the team entered the safe room to find Khan already dead. Brooks accessed his terminal and found a deletion order; Shepard noticed the comm had not been wiped and activated it, bringing up a face distorted beyond recognition by signal degradation. The figure vowed to take everything Shepard was and owned before cutting the call, which Brooks could not trace. Shepard ordered the drives pulled for EDI to analyze. Rewards totaled roughly 30,000 credits including Alliance funding.\n\nThe page collects the casino's \"mingle\" dialogue with named guests. Representative lines:\n\nRolan Quarn, a barefaced turian con artist loitering by Khan's gate: \"Con men leave their marks angry. Con artists leave them smiling.\"\n\nRolan Quarn, assessing Khan for Shepard: \"He's ruthless and rich, but not very bright. Temperamental. Doesn't deal well with the unexpected.\"\n\nJonah Ashland, of Eldfell-Ashland Energy, drinking after losing income to Reaper attacks on helium-3 facilities: \"Young people party. I drink. Tonight it's ryncol on the rocks.\"\n\nJonah Ashland, watching the crowd: \"Humans and turians together like it's nothing, Council species all concerned about the fate of batarians... everybody trying to have sex with the asari.\"\n\nAishwarya Ashland, drunk at the roulette wheel: \"That's sexism. Wait, I mean objectivism. That's sexism for inanimate things.\"\n\nElspeth Murrain, a Zakera Ward council candidate learning Khan is dirty: \"Arrgh! Not again!\"\n\nCasino Bartender, on asari gelatin shots: \"Also asari, but they kick like a shotgun.\"\n\nColumbia Rios, a goodwill ambassador for refugees: \"If I reach one more person before we leave, that's a family of four who can eat tomorrow.\"",
+      "url": "https://masseffect.fandom.com/wiki/Silver_Coast_Casino:_Infiltration",
+      "for_key": "ryncol"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 167,
+      "text": "- Grunt: tank-bred krogan super soldier created on Korlus by the warlord Okeer from the genes of renowned krogan; recruited by Shepard against the Collectors, completed the Rite of Passage to join Clan Urdnot, and in ME3 commanded Aralakh Company against the Reapers at Utukku. (source: Grunt)",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 420,
+      "text": "- Urdnot Dagg was a respected, feared krogan soldier who led Aralakh Company on Utukku if Grunt was dead or untanked, and who always sacrificed himself against a swarm of Ravagers to cover Shepard's escape (source: Urdnot Dagg).",
+      "for_key": "aralakh company utukku"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 155,
+      "text": "- Ryncol, a krogan liquor, was reputed strong enough that Ratch on Tuchanka warned outsiders it would \"hit aliens like ground glass.\" (source: Grunt/Unique dialogue)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 206,
+      "text": "- The Krogan Monument on the Presidium represents \"what the krogan used to be: a proud and fierce nation.\" (source: Urdnot Wrex/Unique dialogue)",
+      "for_key": "krogan monument"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 13,
+      "text": "- Ancient quarians were capable of consuming ryncol without supplementation before their immune systems weakened during Migrant Fleet exile. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 48,
+      "text": "- Elcor are capable of consuming ryncol. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 65,
+      "text": "- Humans can survive drinking ryncol, though a Dark Star Lounge bartender joked that consumers would \"set off radiological alarms\" afterward. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 116,
+      "text": "- Quarians require weeks of immuno-supplements and anti-virals before attempting ryncol consumption; the experience feels like \"sipping knives\" during ingestion. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 125,
+      "text": "- Ryncol is a krogan beverage potent enough to incapacitate drinkers, served at upscale establishments like Silver Coast Casino. (source: Silver Coast Casino: Infiltration)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 126,
+      "text": "- Ryncol is a krogan liquor of unknown composition described by Grunt as hitting \"like ground glass.\" (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 127,
+      "text": "- Ryncol is highly acidic and capable of melting through machinery. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 128,
+      "text": "- Ryncol is highly flammable and can be used as an improvised incendiary weapon. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 129,
+      "text": "- Ryncol is sold in pure and cocktail variants, including bottles at 190 proof strength. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 130,
+      "text": "- Ryncol is unsafe for volus consumption. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 203,
+      "text": "- Vomit produced from ryncol consumption is purplish in color. (source: Ryncol)",
+      "for_key": "ryncol"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 127,
+      "text": "- The Krogan Monument is a large statue of a krogan warrior in the lake near the Citadel Tower on the Presidium, commissioned by the Council to commemorate krogan service against the rachni; a post-Rebellions movement to remove it failed. (source: Krogan Monument)",
+      "for_key": "krogan monument"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 176,
+      "text": "- Wrex saw the Monument as embodying lost krogan values of honor, loyalty, courage and fortitude; Tali resented that the krogan got a Presidium statue while quarians lived in exile. For the 2186 climbing incident — who was there, why Grunt was on the Citadel at all, and what it cost — read `scenes/citadel-grunt-csec-noodles.yaml` rather than a bullet: the causality (Utukku, Huerta Memorial, the rope out the window, the burning C-Sec shuttle, the noodle stand) does not survive compression, and `config/canon/overrides.yaml` governs who was still alive to climb anything. (source: Krogan Monument)",
+      "for_key": "krogan monument"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

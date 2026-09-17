@@ -1,0 +1,13 @@
+---
+title: 'Dossier: Tali'
+url: https://masseffect.fandom.com/wiki/Dossier:_Tali
+game: Mass Effect 2
+type: mission
+characters: [Tali'Zorah, Shepard, Kal'Reegar, Rael'Zorah, Legion, Jacob, Kelly Chambers, EDI, Joker]
+---
+
+"Dossier: Tali" was a Mass Effect 2 recruitment mission provided by the Illusive Man after Horizon. Tali'Zorah, formerly nar Rayya and now vas Neema, had earned her adult name after helping Shepard defeat Saren two years earlier and was on a classified assignment for the Migrant Fleet Admiralty Board on Haestrom, a former quarian colony world deep in geth-controlled space. Tali's team had gone there to study unusual behavior in the planet's dying sun. The mission was defined by intense solar radiation that stripped kinetic and biotic shields, forcing Shepard to move cover to cover in shade, and by large numbers of geth including Troopers, Rocket Troopers, Hunters, Destroyers, Recon Drones, Primes, and a Geth Colossus.
+
+Fighting through the facility, Shepard's squad encountered the bodies of Tali's quarian marine escort and answered a radio to meet Kal'Reegar, the marines' commander and sole survivor. To reach Tali's position at an observatory, Shepard retrieved two demolition charges from a garage and a bunker to destroy a pillar blocking the path. Tali contacted Shepard by comm, unlocked her base camp door, and asked that Reegar be kept alive. In the final battle a Geth Colossus with a self-repair ability blocked the way; Shepard could persuade Reegar (via Paragon interrupt) to stand down or let him provide covering fire with his missile launcher, which risked his death. Shepard had to close to melee range to permanently disable the Colossus' repair protocol, then destroy it and the infinitely spawning geth reinforcements.
+
+Tali was recruited. If Reegar survived he uploaded the mission data; if he died, Tali uploaded it herself, dismayed at being her team's only survivor. Bringing Legion caused Tali to open fire on it, though she agreed to defer the argument. Back on the Normandy, Jacob welcomed Tali, who took up a post in main engineering across from Gabriella Daniels and Kenneth Donnelly. Admiral Rael'Zorah, Tali's father, emailed Shepard confirming her approved transfer and warning that harm to her through negligence would bring severe consequences. Rewards included the M-9 Tempest, the Geth Pulse Rifle (Hardcore/Insanity only), iridium, and Assault Rifle and Heavy Pistol damage upgrades. If the mission was never completed, Tali was not recruited, the Normandy's shields could not be upgraded (guaranteeing a squad death in the suicide mission), and Tali would not appear in Mass Effect 3.

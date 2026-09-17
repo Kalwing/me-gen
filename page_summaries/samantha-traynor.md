@@ -1,0 +1,13 @@
+---
+title: Samantha Traynor
+url: https://masseffect.fandom.com/wiki/Samantha_Traynor
+game: Mass Effect 3
+type: character
+characters: [Samantha Traynor, Shepard, Kelly Chambers, EDI, Joker, Liara T'Soni, Diana Allers, Kai Leng, David Anderson, Polgara T'Suzsa]
+---
+
+Specialist Samantha Traynor was the Comm Specialist aboard the Alliance-retrofitted Normandy SR-2 in 2186, filling the role previously held by Yeoman Kelly Chambers, and a potential romance for a female Commander Shepard. Her parents left London for colony life, and Samantha, raised on Horizon, attended Oxford University on a full Alliance scholarship after strong aptitude scores; she worked at a bar to cover other costs and spoke with a pronounced British Received Pronunciation accent. She was visiting her parents on Horizon when the Collectors attacked. Aside from comm duties she flagged Shepard's messages and QEC vid calls and managed strategic intel; EDI credited the accuracy of the War Room data to her work.
+
+Traynor first met Shepard after the Council meeting, gave a tour of the retrofitted ship, and directed Shepard to Admiral Hackett on the QEC. She detected the sabotage of the Normandy's comm systems on Deck Three, flagged the suspicious turian transmission that revealed the Grissom Academy distress call as a possible trap, and relayed Javik's Prothean language tutorial. After the Cerberus coup she pointed Shepard toward Cerberus scientists on the run. Most significantly, after the fall of Thessia she revealed she had tracked Kai Leng's shuttle and extrapolated its destination as the Iera system, home to Horizon and Sanctuary, leading to the Sanctuary mission. She was present in the cockpit when Hackett ordered the Normandy to disengage on the Crucible's activation, and if the crew survived the crash she attended Shepard's memorial, placing her lover's name above David Anderson's on the wall.
+
+Traynor invited Shepard to the cabin via a "Game night?" email, bringing a holographic chess set; Shepard lost by applying real-world rather than board rules. Romance developed through shower and chess scenes, and near the endgame she told Shepard she wanted "a house with a white picket fence, a dog, and two children" together, and that she loved her. In the Citadel DLC she was fired by Shepard's clone, helped the squad re-enter the Normandy through an emergency hatch opened with the mass effect fields in her toothbrush, competed in a Kepesh-Yakshi tournament against rival Polgara T'Suzsa, and revealed at the party her attraction to EDI's voice. She was the only openly lesbian character in the original trilogy, voiced by Alix Wilton Regan.

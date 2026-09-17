@@ -1,0 +1,11 @@
+---
+title: Nassana Dantius
+url: https://masseffect.fandom.com/wiki/Nassana_Dantius
+game: Mass Effect 2
+type: character
+characters: [Nassana Dantius, Dahlia Dantius, Thane Krios, Seryna]
+---
+
+Nassana Dantius was an asari of the wealthy and influential Dantius family. In Mass Effect she served as a diplomatic emissary assigned to the Citadel, seated in the Presidium Embassy Lounge. Her sister Dahlia Dantius, who led a gang of pirate slavers, was blackmailing her by threatening to reveal their relationship, which would ruin Nassana's career. Nassana concocted a cover story that Dahlia had been kidnapped by privateers and tracked to Sharjila in the Artemis Tau cluster, and asked Commander Shepard to "rescue" her. Whether Shepard agreed or found the pirate base independently, clearing it and recovering evidence exposed the sisters' relationship and Dahlia's leadership of the pirates. Confronted, Nassana dropped the concerned-sister act and thanked Shepard for removing an embarrassment, saying she would shed no tears for Dahlia. She paid regardless of whether Shepard accepted, and could be persuaded to add access to the buyers list for prototype asari mods, granting the Armali Council armory license (a known bug prevented this reward from actually being applied).
+
+By 2185, in Mass Effect 2, Nassana had accumulated great power on Nos Astra, Illium, routinely killing anyone who threatened her reputation. This made her a target of the drell assassin Thane Krios, hired after Seryna, a former employee Nassana had fired for speaking out, told him everything about her security. Nassana sealed herself in the penthouse of Tower One of the partially built Dantius Towers, hired Eclipse mercenaries, and ordered the salarian workers purged by LOKI Mechs. When Shepard's squad fought through to her, she assumed they were the assassin and offered escalating bribes to stand down. While she was distracted by a reported noise, Thane infiltrated through the air ducts, killed her guards, and shot her at point-blank range, then respectfully arranged her hands over her chest. Thane noted she had believed one of her sisters would kill her, implying more siblings than Dahlia. News of her death made public listed no suspects, and her corporation's stock rose.

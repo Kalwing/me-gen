@@ -1,0 +1,9 @@
+---
+title: Christine
+url: https://masseffect.fandom.com/wiki/Christine
+game: Mass Effect
+type: character
+characters: [Christine, April, Treeya, James Vega]
+---
+
+Christine was a human colonist on Fehl Prime and the mother of a daughter named April, portrayed in the animated film Mass Effect: Paragon Lost. She was determined and courageous, not easily cowed, and kept fighting to defend others. When Blood Pack mercenaries laid siege to the colony in 2183, Christine rallied the colonists and did her part despite being outmatched and outgunned; nearly shot by a vorcha, she refused to give up even as Treeya reminded her she was not a soldier, and her stand bought enough time for Alliance marines to arrive and engage the Blood Pack. Two years later the colony was flourishing, and Christine would visit the marines of Delta Squad with April, who had taken a special liking to Lieutenant James Vega; Christine was happy about her daughter's brotherly affection for the marine. According to April, Christine had told her that the colony's large defense cannon was meant to protect them and that Vega would save them all again if the worst happened. When the Collectors attacked, Christine and April were paralyzed by Seeker Swarms and carried aboard the Collector ship as Delta Squad watched helplessly. After Delta Squad infiltrated the ship and administered the antidote through its processing plant, Christine reawakened with the other colonists, consoled the frightened April, and assured her Vega was coming. When Collector forces attacked, Christine fought alongside the others, and as the ship descended toward the planet after its drive core was destroyed she held on to April. Vega then faced a difficult choice, and the option he took cost the lives of all the colonists, including Christine and April, as the ship crashed onto the surface.

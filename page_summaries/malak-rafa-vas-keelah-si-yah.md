@@ -1,0 +1,11 @@
+---
+title: Malak'Rafa vas Keelah Si'yah
+url: https://masseffect.fandom.com/wiki/Malak'Rafa_vas_Keelah_Si'yah
+game: Mass Effect
+type: character
+characters: [Malak'Rafa vas Keelah Si'yah, Qetsi'Olam vas Keelah Si'yah, Senna'Nir vas Pallu'Kaziel, Anax Therion, Borbala Ferank, Threnno, Jalosk Dal'Virra, Kholai, Soval Raxios, Yorrik]
+---
+
+Malak'Rafa vas Keelah Si'yah was a quarian Sleepwalker aboard the Andromeda Initiative ark Keelah Si'yah, a member of the Yellow-9 team responsible for monitoring life signs on the ship's 20,000 cryopods. He and Captain Qetsi'Olam grew up together on the liveship Chayym and were considered its only survivors after a 2183 geth attack; they took their Pilgrimage together on Erinle, where Malak helped develop a vapor-biotic that saved Qetsi's algae-poisoned lungs. Serving together on the freighter Pallu'Kaziel, they and Senna'Nir joined the Nedas Movement, which Malak and Qetsi eventually led. Malak followed Qetsi onto the 600-year voyage to Andromeda.
+
+In Mass Effect Andromeda: Annihilation, set three decades before arrival, drell Sleepwalker Anax Therion revived Malak to investigate a plague killing passengers in cryostasis, traced to Yellow-9's shift 50 years earlier. Malak appeared to cooperate, claiming he had seen nothing unusual, but his body language betrayed that he was hiding something; Anax deduced he had loved both Qetsi and the married Soval Raxios without acting on it. The truth was that Malak had designed a computer worm with two directives: to raise cryo temperatures so Qetsi's bioengineered Fortinbras Plague could take hold, and to conceal all trace of infection. He had misjudged the temperature range, so the virus mutated slowly for decades and became lethal to races meant only to carry it, while the worm seized ever more ship systems to hide spreading infections. Meeting Qetsi secretly, Malak panicked that Dr. Yorrik's retrovirus would undo their plan; Qetsi told him she would scapegoat the hanar Day of Extinguishment cultists and sent him back to the quarian zone, unaware that Senna and Anax had overheard. Qetsi died administering the retrovirus. Malak was airlocked out of the ark alongside the plague victims despite not being infected, his crystallized eyes left facing the Milky Way; whether he ejected himself or was ejected is unknown.

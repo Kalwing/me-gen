@@ -1,0 +1,1100 @@
+{
+  "section": {
+    "id": "the-way-it-started",
+    "title": "The Way It Started",
+    "target_words": 790,
+    "form": "bedtalk",
+    "narrator": "tali"
+  },
+  "promises": [
+    "The alley on the Citadel where they met, and finishing it the way it started: together",
+    "Keelah se'lai means 'by the homeworld I hope to see one day'. Calling him her home means more to her than 'I love you', and she says it",
+    "A small, wishful picture of after (a house, a window, real ground), which she admits is wishful and keeps anyway",
+    "It trails off as he sleeps. There is no closing flourish and nothing said about how tomorrow ends"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "citadel-tali-rescue-and-spectre-induction",
+      "title": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre",
+      "kind": "mission-aside",
+      "game": "Mass Effect",
+      "when": "2183, Citadel, immediately after the raid on Fist at Chora's Den",
+      "where": "a back alley behind the Wards markets, then Udina's office and the Council Chambers, Citadel Tower",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah nar Rayya",
+        "Donnel Udina",
+        "David Anderson"
+      ],
+      "private_to": [],
+      "heard_by": [],
+      "requires": [],
+      "beats": [
+        {
+          "text": "Racing from Chora's Den on a four-minute clock, Shepard's squad reaches a back alley where the quarian is confronting a turian and armed assassins over a promised meeting with the Shadow Broker. She throws a grenade to scatter them; Shepard's squad kills the assassins.\n",
+          "source_chunks": [
+            "citadel-expose-saren_006",
+            "citadel-expose-saren_007"
+          ]
+        },
+        {
+          "text": "With the assassins down, the quarian vents her anger at Fist for the setup, then tells Shepard she has a way to repay her rescuer: information. A squadmate suggests continuing the conversation in the Ambassador's office.\n",
+          "source_chunks": [
+            "citadel-expose-saren_007"
+          ]
+        },
+        {
+          "text": "In Udina's office, Udina complains about the firefights Shepard has left in their wake before noticing the quarian. She gives her name, Tali'Zorah nar Rayya, and explains she left the flotilla on her pilgrimage, tracked reports of the geth, isolated one, and salvaged its memory core before Saren's agents pursued her to the Citadel.\n",
+          "source_chunks": [
+            "citadel-expose-saren_008"
+          ]
+        },
+        {
+          "text": "Tali plays an audio file that clearly implicates Saren in the Eden Prime attack, along with a second, unidentified voice referencing the Reapers. Anderson dismisses the second voice as irrelevant beside proof of Saren's treachery; Tali notes the geth revere the Reapers and regard Saren as their prophet. Udina, elated, moves to take the evidence to the Council. Shepard can invite Tali to join the squad or ask her to stay behind; either way she becomes available afterward.\n",
+          "source_chunks": [
+            "citadel-expose-saren_008"
+          ]
+        },
+        {
+          "text": "On the Citadel Tower, while Shepard and Anderson walk to rejoin Udina, Tali's evidence is played for the Council; the turian councilor calls it irrefutable and the Council strips Saren of his Spectre status.\n",
+          "source_chunks": [
+            "citadel-expose-saren_008"
+          ]
+        },
+        {
+          "text": "Udina presses further, demanding a Citadel Fleet lockdown, which the Council warns could provoke war with the Terminus Systems. Shepard argues instead for naming a human Spectre as an alternative to a fleet deployment. The turian councilor accepts the logic, and the asari councilor calls Shepard forward: Shepard is named the first human Spectre.\n",
+          "source_chunks": [
+            "citadel-expose-saren_008"
+          ]
+        },
+        {
+          "text": "Afterward, Udina and Anderson discuss what Shepard will need to begin the hunt for Saren before Udina pulls Anderson away to help with preparations. Anderson tells Shepard to check in with C-Sec Requisitions and that Spectre status has unlocked Spectre Training and higher Charm and Intimidate.\n",
+          "source_chunks": [
+            "citadel-expose-saren_008"
+          ]
+        },
+        {
+          "text": "Leaving the Tower, Anderson is relieved of command of the SSV Normandy, which passes to Shepard; his posture makes clear he is not happy about it, though he says nothing against it.\n",
+          "source_chunks": [
+            "citadel-expose-saren_009"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-chora-s-den-fist-confrontation",
+        "citadel-council-first-hearing-saren-cleared",
+        "citadel-michel-treats-tali-eden-prime-data"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "citadel-expose-saren_006",
+        "citadel-expose-saren_007",
+        "citadel-expose-saren_008",
+        "citadel-expose-saren_009"
+      ],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "citadel-tali-rescue-and-spectre-induction": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:citadel-tali-rescue-and-spectre-induction#02",
+      "kind": "scene",
+      "page": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-tali-rescue-and-spectre-induction",
+      "text": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre. 2183, Citadel, immediately after the raid on Fist at Chora's Den a back alley behind the Wards markets, then Udina's office and the Council Chambers, Citadel Tower With the assassins down, the quarian vents her anger at Fist for the setup, then tells Shepard she has a way to repay her rescuer: information. A squadmate suggests continuing the conversation in the Ambassador's office.",
+      "url": "",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "scene:citadel-tali-rescue-and-spectre-induction#01",
+      "kind": "scene",
+      "page": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-tali-rescue-and-spectre-induction",
+      "text": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre. 2183, Citadel, immediately after the raid on Fist at Chora's Den a back alley behind the Wards markets, then Udina's office and the Council Chambers, Citadel Tower Racing from Chora's Den on a four-minute clock, Shepard's squad reaches a back alley where the quarian is confronting a turian and armed assassins over a promised meeting with the Shadow Broker. She throws a grenade to scatter them; Shepard's squad kills the assassins.",
+      "url": "",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "scene:citadel-tali-rescue-and-spectre-induction#05",
+      "kind": "scene",
+      "page": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-tali-rescue-and-spectre-induction",
+      "text": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre. 2183, Citadel, immediately after the raid on Fist at Chora's Den a back alley behind the Wards markets, then Udina's office and the Council Chambers, Citadel Tower On the Citadel Tower, while Shepard and Anderson walk to rejoin Udina, Tali's evidence is played for the Council; the turian councilor calls it irrefutable and the Council strips Saren of his Spectre status.",
+      "url": "",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "scene:citadel-tali-rescue-and-spectre-induction#08",
+      "kind": "scene",
+      "page": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-tali-rescue-and-spectre-induction",
+      "text": "Saving Tali in the Alley, Then Standing Before the Council as a Spectre. 2183, Citadel, immediately after the raid on Fist at Chora's Den a back alley behind the Wards markets, then Udina's office and the Council Chambers, Citadel Tower Leaving the Tower, Anderson is relieved of command of the SSV Normandy, which passes to Shepard; his posture makes clear he is not happy about it, though he says nothing against it.",
+      "url": "",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "summary:citadel-expose-saren",
+      "kind": "summary",
+      "page": "Citadel: Expose Saren",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Citadel: Expose Saren began when Shepard first arrived at the Citadel after Prologue: Find the Beacon. Ambassador Udina was arguing with the Citadel Council, demanding action against the Spectre Saren Arterius; the turian councilor deferred everything to a hearing. Udina directed Shepard and Anderson to the Citadel Tower. Optional exploration let Shepard meet the elcor Xeltan (starting Citadel: Xeltan's Complaint if General Septimus Oraka had been met during Sha'ira's Asari Consort assignment), Executor Pallin at C-Sec, Private Fredricks, and Nelyna at the Consort's Chambers. Outside the Council Chambers, Shepard met C-Sec officer Garrus Vakarian, who was investigating Saren.\n\nAt the hearing, Udina and Anderson raised the geth attack on Eden Prime, the eyewitness Powell, and Shepard's beacon vision. Saren, who called the dead Nihlus a friend, dismissed the vision as dreams, and the asari, salarian, and turian councilors ruled there was insufficient evidence, leaving Saren a Spectre. Udina said bringing Anderson had been a mistake, hinting at history between the two men and Saren, and pointed Shepard toward C-Sec informant Harkin, while Anderson suggested Barla Von. This granted the Citadel: Garrus mission, plus Citadel: Shadow Broker if Barla Von was named.\n\nInvestigation revealed Dr. Chloe Michel had referred a quarian carrying evidence against Saren to Fist, a Shadow Broker agent who had defected to Saren; Garrus was protecting Michel, and Urdnot Wrex had been hired to kill Fist. Shepard fought through Fist's mercenaries at Chora's Den, including a Krogan Bouncer, Thugs, Warehouse Workers, and turrets, and confronted Fist, who admitted he had sent the quarian to meet assassins rather than the Shadow Broker. Fist could be killed or spared, though Wrex killed him regardless. Shepard then had four minutes to reach the back alley and kill the assassins, saving the quarian, Tali'Zorah nar Rayya.\n\nIn Udina's office, Tali played an audio recording of Saren admitting to the Eden Prime attack, with a second unidentified voice referencing the Reapers, which the geth revered and which had wiped out the Protheans 50,000 years earlier. Tali could join the squad. The Council reviewed the evidence, stripped Saren of his Spectre status, and, after Udina pressed for a Citadel Fleet, instead named Shepard the first human Spectre, unlocking Spectre Training and higher Charm and Intimidate. Anderson was relieved of command of the SSV Normandy, which passed to Shepard. On the way out Shepard could pick up assignments from Admiral Kahoku and Garoth and the Citadel: Homecoming lead from Samesh Bhatia. Consequences carried forward: a spared Fist reappeared on Omega, and failing to recruit Garrus or Wrex altered their later fates, with Wrex potentially dying and Urdnot Wreav seizing Clan Urdnot.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Expose_Saren",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "summary:fist",
+      "kind": "summary",
+      "page": "Fist",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Fist was the human owner of Chora's Den and a known crime figure on the Citadel. The reporter Emily Wong investigated his activities but could not gather enough evidence because the krogan bouncer at the Den kept her out.\n\nIn the comic Mass Effect: Foundation, Fist was caught between the Shadow Broker, who wanted him dead, and Cerberus, who wanted the secrets he held about the Broker. The arranged deal was that Fist would defect to Cerberus for asylum, but the Broker learned of it and sent Urdnot Wrex to kill him. A Cerberus agent named Rasa confronted Fist in his apartment and found that he had instead sold out to the Spectre Saren Arterius, who had made a better offer. Seeing Wrex approaching, Fist proposed a third option and somehow convinced Rasa to let him go; Rasa reported to the Illusive Man that she expected the krogan to deal with him.\n\nIn Mass Effect, Fist, a former Shadow Broker agent, switched allegiance to Saren, prompting the Broker to hire Wrex to assassinate him. Shepard learned that Fist had contact with a quarian holding evidence of Saren's treachery. Shepard raided Chora's Den and confronted Fist in his turret-defended office; Fist surrendered and revealed he had sent the quarian to a nearby alley to meet Saren's associates while believing she was meeting the Broker. Shepard could execute or release him, but if Wrex was in the squad he killed Fist regardless to fulfill his contract. An OSD of Fist's private files could be recovered and given to Emily Wong.\n\nIn Mass Effect 2, if Fist survived, he had started over on Omega as a dockworker and could be found on the lower floor of the Afterlife Club with two asari, bitterly complaining that Shepard had ruined his life and telling Shepard to leave him alone.",
+      "url": "https://masseffect.fandom.com/wiki/Fist",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "summary:citadel-oculon-syndicate",
+      "kind": "summary",
+      "page": "Citadel: Oculon Syndicate",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Citadel: Oculon Syndicate was an assignment cut during development of Mass Effect; the information is drawn from cut content and is not canon. Set on the Citadel, it would have let Commander Shepard delve into the station's criminal underworld and consisted of several interlinked sub-plots, some mutually exclusive depending on the manner and order in which they were handled.\n\nIn the general plot, Shepard would come \"recommended\" to Harkin and could then choose to work for the Oculon Syndicate or against it, potentially resulting in its destruction, peacefully or violently. Another contact, Beck, would offer several jobs, and Beck and Harkin could eventually confront one another; Shepard could also work with Fist directly, and some warehouse guards could be killed or made to leave peacefully. In the sub-plot \"Shakedown Dak\", the character Dak could be killed, persuaded into a partnership, forced to pay, or paid for by Shepard, with an \"ambush meeting\" involving people called \"dwellers\". \"Missing Workers\" had Shepard encounter a group of turians who could be killed or let go, choose whether to accept a bribe during a confrontation with a foreman, and possibly help a turian escape the Citadel, with a warehouse section where a tool and data could be acquired and where a female Shepard could flirt.\n\n\"Dwellers\" was a short job about defeating the dwellers. In \"Eliminate Harkin\", Shepard would find and deal with Harkin, sparing or killing him, then contact Fist and either reveal Harkin or keep the secret. \"Help Dak\" and \"Help Workers\" were versions that worked against the Syndicate. In \"Retrieve Data\" and \"Elimination Round\", Harkin and Fist both featured, with Fist giving a \"speech\" in an elevator and possibly being killed; some of the data concerned Shepard. Trivia noted parallels with Citadel: Expose Saren, where Harkin and Fist also appear, and that Beck also featured in the cut assignment Citadel: Cheaters Never Prosper.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Oculon_Syndicate",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "shadow-broker_004",
+      "kind": "page",
+      "page": "Shadow Broker",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Shadow Broker's identity is unknown to the general public in 2183; the Broker always operates through an agent. Barla Von refers to the Broker as \"he\" for convenience's sake, but tells Commander Shepard that he believes the Shadow Broker is a group of individuals: it does not seem possible for a single individual to monitor all of the available information and have such a wide sphere of influence. The Shadow Broker was part of the reason Tali came to the Citadel: the data file she has proving Saren Arterius had gone rogue put her in danger, but was too valuable to waste. She wanted to trade the information for a safe place to hide, so Dr. Chloe Michel put her in touch with the club owner Fist, who worked for the Broker. However, unknown to her, Fist had changed his allegiances to Saren. The Broker was furious at this treachery, hiring Wrex to assassinate Fist.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "illusive-man_008",
+      "kind": "page",
+      "page": "Illusive Man",
+      "section": "Mass Effect: Foundation 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Illusive Man dispatched Rasa and Kai Leng to the Citadel to turn Shadow Broker agent Fist. Fist agreed to hand over the Broker's secrets in exchange for asylum. However, the agents discovered that Fist had instead chosen to ally with Saren Arterius. Rasa chose to let Fist go to discover more about his connection to Saren while keeping his files. The Illusive Man expressed worry that Fist may sell Cerberus out, but Rasa was confident that the Broker's bounty hunter, Urdnot Wrex, would silence him before that could happen, tying up loose ends.",
+      "url": "https://masseffect.fandom.com/wiki/Illusive_Man",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "citadel-identity-theft-i_002",
+      "kind": "page",
+      "page": "Citadel: Identity Theft I",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Citadel Wards: Ambush This mission is acquired immediately upon regaining control after escaping the ambush.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Identity_Theft_I",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "fist_001",
+      "kind": "page",
+      "page": "Fist",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | *This article is about Fist in general. For information and tactics on fighting him, see Fist (enemy).* | | --- | --- | **Fist** is the human owner of Chora's Den, and a known crime figure on the Citadel. The reporter Emily Wong becomes interested in his activities, but cannot obtain enough evidence to write her story because the krogan bouncer at the Den keeps her out. |  | ***“I guess I want to stand for something too.”*** — Spoilers for **Mass Effect: Foundation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Fist",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "summary:tali-zorah-nar-rayya-unique-dialogue",
+      "kind": "summary",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects Tali'Zorah's squad-specific lines across all three games: unique dialogue at scripted story points, \"talk to squadmate\" location comments, spontaneous combat and banter lines, and secret dialogue only reachable by editing her into the party. The material recurringly touches quarian themes (the Migrant Fleet, homelessness, the geth, her mistrust of the Council and Cerberus), her fear of spiders, her drone Chatika vas Paus, and her running commentary comparing alien worlds to the flotilla. Representative lines:\n\n- Tali, on Noveria when Captain Matsuo says Shepard is far from home: \"Home is a state of mind.\"\n- Tali, first seeing the Thorian on Feros: \"Keelah, what is that?\"\n- Tali, at the salarian camp on Virmire before the assault: \"These salarians are willing to die to stop Saren... and so am I.\" / (if Wrex lives) \"I will fight with fire for you, Commander.\"\n- Tali, on Ilos: \"We shouldn't be here. Not us. Not the geth. Not Saren.\"\n- Tali, if chosen to lead the second diversion squad and killed during the Suicide Mission: \"There were too many. Lost my shields. Suit ruptures... too many... Keelah se'lai...\"\n- Tali, summoning her combat drone: \"Go for the optics, Chatika! Go for the optics!\" / \"Nothing's faster than Chatika vas Paus!\"\n- Tali, using AI Hacking on geth: \"We made you, we can break you!\"\n- Tali, in the Silver Coast Casino when a female Shepard comments on her enviro-suit: \"At least you can dress up. What can I do? I'm already wearing my two sexiest belts!\"\n- Tali, to the Shepard clone in the Citadel Archives after it threatens to open her helmet: \"just a cheap imitation of the real thing.\"\n- Tali, spontaneously on the Attican Traverse krogan mission when Swarmers appear: \"spiders, spiders, spiders, spiders!\"\n- Tali, cursing Kai Leng on Thessia: \"Bosh'tet!\"\n- Tali, disembarking the Normandy after the Citadel ambush: \"Worst shore leave ever.\"",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "jacobus_001",
+      "kind": "page",
+      "page": "Jacobus",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | ***“You've got to walk your own path...”*** — Spoilers for **Mass Effect: Homeworlds** follow. |  | | --- | --- | --- | **Commander Jacobus** is a turian mercenary and a subordinate of Saren Arterius. He was in charge of searching for Prothean artifacts buried on an unidentified ice planet in the Crescent Nebula. When Tali'Zorah nar Rayya and Keenah'Breizh land on the planet to investigate the geth presence, Jacobus learns of their intrusion and immediately attempts to kill them, knowing that if he fails Saren will kill him and his team. Jacobus pursues the quarians to Illium, where he is able to land first and set up an ambush while the quarians are barred from docking. He and his mercs kill the quarian crew of ship Honorata, but Tali and Keenah escape and stow away on a transport ship bound for the Citadel. Relentlessly, Jacobus tracks the two quarians down and chases them across the Citadel, wounding Tali and Keenah. He corners them in an incinerator, where Keenah has already succumbed to his wounds, but Tali springs a trap and seals Jacobus in the incinerator as she activates it. Jacobus is obliterated.",
+      "url": "https://masseffect.fandom.com/wiki/Jacobus",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "keenah-breizh_001",
+      "kind": "page",
+      "page": "Keenah'Breizh",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | ***“You've got to walk your own path...”*** — Spoilers for **Mass Effect: Homeworlds** follow. |  | | --- | --- | --- | **Keenah'Breizh** is a quarian crewmember of the ship Honorata, which is taking Tali'Zorah nar Rayya to Illium for her Pilgrimage. Keenah lands with Tali on an unidentified ice planet in the Crescent Nebula to investigate the geth presence there. They disable a geth and extract its memory core, which contains a recording of a conversation between Saren Arterius and Matriarch Benezia discussing the recent attack on the human colony of Eden Prime and the coming of the Reapers. Tali convinces him that they should inform authorities on Illium about this information. They flee the planet when Commander Jacobus attacks. At Illium, the docking officials refuse to allow the Honorata to dock because of their prejudice against quarians. This gives Jacobus enough time to land first and prepare an ambush, which kills the Honorata's crew except for Keenah and Tali. Unable to return to Honorata, the pair stow away on a transport ship bound for the Citadel, where they hope to give the geth recording to the Citadel Council. The transport's crew discover the stowaways, but the captain decides to turn them over to C\\-Sec instead of killing them. They try to explain to Chellick that they have important information for the Council, but he ignores them and warns them to leave the station in the next day. After learning from Avina that there is a seven month wait for an audience with the Council, they are spotted by Jacobus, who chases them across the Citadel and mortally wounds Keenah. Cornered in an incinerator, Keenah can no longer keep up with Tali and dies. His body is destroyed when Tali activates the incinerator to kill Jacobus.",
+      "url": "https://masseffect.fandom.com/wiki/Keenah'Breizh",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_002",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Mass Effect: Homeworlds",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tali sets off on her Pilgrimage aboard the vessel Honorata, crewed by Keenah'Breizh. She plans to begin her Pilgrimage at Illium, but en route through the Crescent Nebula, the Honorata detects a geth presence on an unidentified ice world. Tali and Keenah land to investigate, and manage to disable a geth unit and successfully extract its memory core, which contains a recording of two individuals discussing an attack on the human colony of Eden Prime and the coming of the Reapers. Fearing that the rest of the galaxy may be in danger, Tali convinces Keenah that they should turn over the recording to the local authorities on Illium. At that moment, the turian mercenary Jacobus and his team, on the planet under Saren Arterius' orders to find Prothean technology, attack them. They flee to the Honorata and set a course for Illium. Once there, Illium's docking officials, prejudiced against quarians, refuse to allow the Honorata to land for several hours. This gives Jacobus enough time to land on Illium first and plan an ambush. When the Honorata finally lands, Tali and the crew immediately come under fire, and the Honorata's other crew member is killed. Unable to return to their ship, Tali and Keenah stow away on a transport ship bound for the Citadel, where they hope to give the geth recording to the Citadel Council. The transport's crew discover the stowaways, but the captain decides to turn them over to C\\-Sec instead of killing them. They try to explain to Chellick that they have important information for the Council, but he ignores them and warns them to leave the station in the next day. After learning from Avina that there is a seven month wait for an audience with the Council, they are spotted by Jacobus, who chases them across the Citadel. Tali is shot in her side during the chase, but Keenah is mortally wounded. Arriving at an incinerator deep inside the Citadel, Keenah can no longer keep up with Tali and dies. Tali leaves her friend and sets up a trap of her own for Jacobus. When the turian enters the incinerator, she seals the doors behind him and activates it, burning him alive. Arriving at the clinic, Tali is treated by a doctor, to whom she tells the story of her journey and the information she obtained from the geth. A volus mentions that he is an information broker and can contact the Shadow Broker to ensure that Tali's information can reach the right people. He encourages her to trust him and directs her to a bar where she can hide out. Tali agrees and asks where to go. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "fist_003",
+      "kind": "page",
+      "page": "Fist",
+      "section": "Mass Effect",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "As well as being a crime lord, Fist was formerly an agent of the Shadow Broker, but changes his allegiances to work for Saren Arterius; Dr. Michel comments that Saren must have paid very highly for Fist to take such a risk. The Shadow Broker retaliates by hiring the krogan bounty hunter Urdnot Wrex to assassinate Fist. However, Wrex is unable to do so as he is denied entry into Chora's Den by a bouncer. Commander Shepard hears that Fist came into contact with a quarian who has evidence of Saren's treachery. Shepard and the squad raid Chora's Den and confront Fist in his office which is protected by turrets. Eventually, Fist surrenders and tells them that he sent the quarian to a nearby alleyway; he misled her into believing that she was going to meet the Shadow Broker but set her up with Saren's associates instead. Fist pleads to be released, but Shepard holds Fist at gunpoint with the option of executing or releasing him — Fist promises he will vanish to hide from the Shadow Broker. However, if Wrex is in the squad, he kills Fist to fulfill his contract with the Shadow Broker regardless of what Shepard does. Shepard can find an OSD containing Fist's private files in his office and pass it on to Emily Wong. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Fist",
+      "for_key": "Tali ambush alley Citadel Fist"
+    },
+    {
+      "chunk_id": "quarian_009",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Language",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Now that the quarians are reduced to a small, insular population, they have one common language known as Khelish. Words from the language listed below are taken from intra\\-quarian conversation. - *bosh'tet* — curse/insult, likely being relative to \"son\\-of\\-a\\-bitch\" or \"bastard\". - *esu se'lai* — likely a form of \"goodbye\" - *geth* — \"Servant of the People\" - *Mered'vai Rannoch* — \"Forget Rannoch\" - *nar* \\[ship\\-name] — child of - *nedas* — nowhere - *keelah* — \"By the homeworld\" - *keelah se'lai* — \"By the homeworld I hope to see one day.\" - *keelah si'yah* — \"By the homeworld I hope to find one day.\" - *ke'sed* (or *kes'ed*) — offspring of the qorach animal, figuratively means \"naive\" when used on people - *Pallu'Kaziel* — \"Nevertheless, Justice Comes\" - *Rannoch* — \"walled garden\" - *tasi* — no\\-one - *tiral azhana* — \"handful of water\" - *vas* \\[ship\\-name] — crew of - *von* — \"one who has a weak bladder\" Quarian names are composed of four parts—the quarian's given name and clan name separated by an apostrophe, the title (\"nar\" means \"child of\", referring to their birth ship, while \"vas\", adopted after the quarian has completed their Pilgrimage and joined a ship, means \"crew of\") and the name of their vessel. When Tali first met Shepard, for instance, she was going by the name of her birth ship (the Rayya) because at that point she had not yet completed her Pilgrimage and was thus not yet able to join a quarian crew. Later, though, she became known as \"Tali'Zorah vas Neema\", indicating that she had completed her Pilgrimage and was welcome to join the Neema. On occasion quarians may impose their naming conventions on other races. Commander Shepard, for example, may be referred to as \"Shepard vas Normandy\" if the Commander chooses to interact with the quarians on their home territory. In certain formal situations, quarians appear to use both their adult ship and childhood ship. Tali'Zorah identifies herself as \"Tali'Zorah vas Neema nar Rayya\" during docking procedures following summons to the Migrant Fleet regarding accusations of treason.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "\"I have a home\"",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "If Rannoch is won and Tali is romanced, she chooses to leave with Shepard rather than stay — the peace and quiet only reminds her of everyone she lost. She gives Shepard a photo of her unmasked face, drinks with \"my human boyfriend — my father would have hated you,\" and parties with the crew. Her last words at the London beam run are to call Shepard her home and beg him to return alive. \"Home\" carries enormous weight for a quarian: exiled for 300 years, they built Rannoch into a mythical place worth throwing countless lives at, and wrote poems about its rock formations and grasslands. \"Keelah se'lai\" roughly translates as \"by the homeworld I hope to see one day.\" For Tali, calling someone your home means more than \"I love you,\" and Shepard has been her home since she was a kid on Pilgrimage.",
+      "url": "",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "keelah-si-yah_001",
+      "kind": "page",
+      "page": "Keelah Si'yah",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Keelah Si'yah** (Khelish for \"by the homeworld I hope to find one day\") is an Andromeda Initiative starship. Part of the Initiative's plan to settle the Andromeda galaxy, ark Keelah Si'yah ferries a multitude of colonists across the 600\\-year void between galaxies.",
+      "url": "https://masseffect.fandom.com/wiki/Keelah_Si'yah",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "yorrik_001",
+      "kind": "page",
+      "page": "Yorrik",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Yorrik** is a 398\\-year\\-old doctor specializing in ear, nose, and throat infections. He serves in the Sleepwalker Team Blue\\-7 maintenance crew of the Andromeda Initiative vessel Keelah Si'yah, alongside his friend Senna'Nir vas Keelah Si'yah. |  | ***“By the homeworld I hope to find one day.”*** — Spoilers for **Mass Effect Andromeda: Annihilation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Yorrik",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "senna-nir-vas-keelah-si-yah_001",
+      "kind": "page",
+      "page": "Senna'Nir vas Keelah Si'yah",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Commander** **Senna'Nir vas Keelah Si'yah** is the First Officer of the Andromeda Initiative vessel Keelah Si'yah. He also heads the Sleepwalker Team Blue\\-7 maintenance crew that periodically revives from cryosleep to check on the ark's systems and passengers. |  | ***“By the homeworld I hope to find one day.”*** — Spoilers for **Mass Effect Andromeda: Annihilation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Senna'Nir_vas_Keelah_Si'yah",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "quarian_018",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- According to Matt Rhodes, when working on the first game he imagined quarians as a pale, hairless race with black eyes. The canonical appearance was also designed by him, which is close to the final game but features large purple irises and a similar pattern of skin markings. \\[1] - The phrase *keelah se'lai* originally meant \"blessed be\" according to former BioWare writer Chris L'Etoile before it mutated into its present form \"By the homeworld I hope to see one day.\" - According to an internal document written in the early development stage of Mass Effect 2, a male quarian squadmate was being considered based on either of the following concepts: - The \"Quarian Rogue\", a young and adventurous \"infiltrator\" and trouble\\-maker with an easy\\-going personality who ends up being chased by the police or bounty hunters. He was being considered as a potential romance for female Shepard. - The \"Crazy Quarian King\" (or Queen) would have joined Shepard's crew for nothing more than to joyfully slaughter geth as payback for the Morning War. ## - Galactic Codex: Essentials Edition 2183 - Mass Effect: Ascension - Quarians at the Mass Effect: Alien Race Profiles",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "quarian_008",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Religion",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarians used to practice a form of ancestor worship. This involved taking a personality imprint from the individual and developing it into an interface similar to a VI. The quarians began experimenting with making these imprints more and more sophisticated, hopefully leading to the wisdom of their ancestors being preserved in an imprint that could be truly intelligent. However, the geth destroyed the quarians' ancestor databanks when they rebelled. Some quarians saw their subsequent exile as punishment for their hubris, but most accept that the geth rebellion was a mistake, not a punishment. However, respect for their ancestors is still prevalent in quarian society. Admiral Shala'Raan vas Tonbay opens an Admiralty Board proceeding offering thanks to their ancestors, who saved them from the geth by founding the Migrant Fleet. Tali sometimes exclaims \"Keelah!\" when shocked, which is a shortening of a phrase used by many quarians, \"Keelah se'lai\", that Tali translates as, \"By the home world I hope to see someday.\" The expression is often used as a benediction or religious oath.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya-unique-dialogue_007",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "Unique Dialogue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Her final words are \"There were too many. Lost my shields. Suit ruptures...too many...Keelah se'lai...\". - Tali will argue against sparing the Collector Base, saying that they fought to stop it, and using it doesn't make it right. - If Tali was not romanced and Shepard destroys the Collector base, on the Normandy she expresses amazement at what they just pulled off, saying, \"They said it couldn't be done. Then again, that's said about a lot of things you do.\" If Shepard saves the Collector base, Tali warns that although she understands Shepard is working with Cerberus, she believes handing over the base to them is dangerous. She hopes the consequences of Shepard's decision won't \"come back to haunt us.\" - In Lair of the Shadow Broker: - If Tali is in the party when the Dracon Trade Center is bombed, she will utter a soft \"Keelah.\" - If Tali is brought along to the Shadow Broker Base, the Shadow Broker will express his surprise at Shepard's choice in squadmate, citing Tali's ignominious display of leadership skills on Haestrom.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "summary:quarian",
+      "kind": "summary",
+      "page": "Quarian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarians were a nomadic humanoid species renowned for skill with technology and synthetic intelligence. After their homeworld Rannoch was conquered, they lived aboard the Migrant Fleet, a vast collection of salvaged and secondhand ships traveling as one. Roughly three hundred years before 2183 (around the late 1850s CE) the quarians created the geth as VI-grade labor, but as they modified the geth toward more complex tasks the machines became sentient. When a geth unit asked its overseer whether it had a soul, the panicked quarian government ordered all geth terminated. The geth defended themselves; billions of quarians died and the survivors were driven into exile. The Citadel Council refused aid and stripped the quarians of their embassy, while a treaty forbade attacking the geth.\n\nQuarians are shorter and slighter than humans, with three-fingered hands, backward-bowed lower legs, UV-capable vision, and red blood. Their defining trait is a weak immune system, worsened by generations in sterile environments, forcing them to live permanently in sealed enviro-suits with extensive cybernetic augmentation. Removing a suit requires antibiotics and immuno-boosters and still carries risk; the most intimate act between quarians is linking suit environments, which reliably causes illness. Like turians they are a dextro-protein species, and their diet is largely vegan.\n\nQuarian culture centered on the survival of the Migrant Fleet, home to roughly 17 million. Couples were limited to one child to hold zero population growth. Young quarians undertook a Pilgrimage to bring something of value back to the Fleet before joining a new ship (never their birth ship) as adults. Names carried four parts: given name, clan name, \"nar\" (child of, birth ship) or \"vas\" (crew of, adult ship), and vessel name; Tali'Zorah went from nar Rayya to vas Neema to vas Normandy. The common language was Khelish, source of terms like bosh'tet and the benediction \"Keelah se'lai\" (\"By the homeworld I hope to see someday\"). Quarians once practiced ancestor worship using personality-imprint VIs until the geth destroyed the ancestor databanks. Their economy used no currency; unneeded items were left in communal areas, while food and medicine were centrally rationed. The Fleet was governed under nominal martial law by the Admiralty Board and elected Conclave. The clandestine Nedas Movement (\"Mered'vai Rannoch,\" forget Rannoch) rejected reclaiming the homeworld and later signed on with the Andromeda Initiative.\n\nBefore the Reaper invasion the Admiralty Board voted to retake Rannoch, arming the Civilian Fleet and striking geth systems, destroying a geth Dyson sphere. The geth accepted Reaper upgrades, turning the war against the quarians until, with Shepard's help on Rannoch, a Reaper Destroyer was killed and the upgrade signal cut. Depending on Shepard's choices the geth were destroyed and Rannoch reclaimed, the quarians were wiped out, or the two races made peace and coexisted. A separate quarian effort sent the ark Keelah Si'yah, carrying about 4,000 quarians and other races, toward Andromeda, where the Fortinbras Plague broke out in transit.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "summary:my-suit-and-me",
+      "kind": "summary",
+      "page": "My Suit and Me",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "\"My Suit and Me\" was an old quarian lullaby. Tech Specialist Oliver Barthes was hired to install a recording of the song in the quarian cryopods of the ark Keelah Si'yah, to be played once a century during the roughly 600-year journey to the Andromeda galaxy. The lyrics dwell on a quarian child's bond with their environment suit, love of family, ship and homeworld, and the dream of one day reaching Rannoch, ending \"My self and my suit / My suit and I.\"\n\nIn Mass Effect: Annihilation, the song was a pretext to plant a computer worm in the Keelah Si'yah's systems. Shortly after installing it, Oliver was murdered on the walkways of Hephaestus Station by a figure who sang part of the lullaby. Centuries later, during the Fortinbras Plague crisis worsened by the malfunctioning worm, drell detective Anax Therion, who had witnessed the killing, recognized the singing voice as that of the ark's captain, Qetsi'Olam vas Keelah Si'yah. After explaining herself to Anax and her former lover Senna'Nir, Qetsi tried to atone by walking without her suit through all six of the ship's environments to spread the Fortinbras cure, singing the lullaby until she died in the volus section.",
+      "url": "https://masseffect.fandom.com/wiki/My_Suit_and_Me",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-05",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "The fifth and final part of a hand-corrected video-essay character analysis traced the Shepard romance and drew conclusions from Tali's arc. In Mass Effect 1 Tali developed a crush she believed she could never act on, since they were too different and she was not yet a full adult by quarian standards; Shepard's kindness without caveats or kickbacks, unlike most of her family, charmed her. After the treason trial in Mass Effect 2, Shepard found her mildly ill from a sloppy suit repair; she explained that linking suit environments is quarians' deepest gesture of trust and admitted she trusted only Shepard that much. Feeling she was now his equal, she raised the relationship herself. Before the Omega 4 relay she removed her mask despite the health risk; per Kasumi she could not stop talking about Shepard afterward. Tali: \"I'm running a fever, I've got a nasty cough... and it was totally worth it.\"\n\nIn Mass Effect 3 the roles reversed and Tali steadied Shepard after Thessia and the Cerberus base: \"When I feel that way, I reach for you.\" Her drunken toast to Miranda (\"She never gave in to him, never changed herself to please him\") revealed she saw herself in Miranda fighting her father: \"When do we get to stop reacting to our parents and start living for ourselves?\" This scene originated the \"emergency induction port\" straw joke. If Rannoch was won and Tali romanced, she left with Shepard, gave him a photo of her unmasked face, and drank with \"my human boyfriend — my father would have hated you.\" Her last words at the London beam run called Shepard her home. The essay explained \"home\" carries enormous weight for a quarian, exiled 300 years; \"Keelah se'lai\" roughly means \"by the homeworld I hope to see one day,\" and calling someone your home means more than \"I love you.\"\n\nThe essayist reasoned Tali would never choose Refuse, found Control (endless synthetic rebellions) and Synthesis less fitting, and concluded that factoring in Shepard's influence she would pick Destroy. The closing lessons: get involved in things bigger than yourself but be ready to bail; inspire change; never forget the people who helped you and repay them from kindness, not obligation; remember your parents' lessons but notice when they fail to practice them; be ready to sacrifice yourself, but within reason; and place duty to a cause below the individuals within it.",
+      "url": "",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "scene:citadel-chorban-jahleed-keeper-scans#07",
+      "kind": "scene",
+      "page": "Chorban's Keeper Scans and His Falling-Out With Jahleed",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-chorban-jahleed-keeper-scans",
+      "text": "Chorban's Keeper Scans and His Falling-Out With Jahleed. 2183, Citadel, during the hunt for Saren the Citadel Tower, the C-Sec offices, then the Lower Markets of the Wards If Chorban survived and Shepard scanned all or most of the keepers, he emails Shepard in 2185 with his findings: the keepers are bio-engineered, and comparison with material from Saren's flagship Sovereign shows they were engineered millions of years ago by the same makers, meaning the Citadel likely was not built by the Protheans. His genetic readings suggest the keepers are set to react to a signal roughly every 50,000 years, the last such interval coinciding with the Protheans' disappearance and due again around now, meaning old technology might have \"nasty surprises\" waiting. He notes no one else on the Citadel will listen to him.",
+      "url": "",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "scene:benezia-death-noveria#06",
+      "kind": "scene",
+      "page": "The Death of Matriarch Benezia at Peak 15",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "benezia-death-noveria",
+      "text": "The Death of Matriarch Benezia at Peak 15. 2183, Noveria, during the hunt for Saren the secure lab at Peak 15, beside the Rachni Queen's containment tank Freed, she escapes into the wilds of Noveria, remembering the kindness Shepard showed and meaning to pass those lessons to her new offspring.",
+      "url": "",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "scene:freedom-s-progress-veetor-and-tali#04",
+      "kind": "scene",
+      "page": "Finding Veetor in the Abandoned Colony",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "freedom-s-progress-veetor-and-tali",
+      "text": "Finding Veetor in the Abandoned Colony. 2185, hours after the Collectors emptied Freedom's Progress, the prologue's final mission the deserted prefabs, walkways and cargo docks of Freedom's Progress Prazza leads the other quarians ahead against Tali's orders, meaning to reach Veetor and pull him out before Cerberus can question him. A reprogrammed YMIR Mech slaughters Prazza and nearly all of his team at the cargo docks. Tali opens the door remotely and hides; Shepard's squad destroys the YMIR.",
+      "url": "",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "scene:temple-palaven-ben-hislop-death#03",
+      "kind": "scene",
+      "page": "Ben Hislop's Last Stand at Temple Palaven",
+      "section": "argument",
+      "game": "Mass Effect",
+      "scene_id": "temple-palaven-ben-hislop-death",
+      "text": "Ben Hislop's Last Stand at Temple Palaven. 2157-2158, after the First Contact War, at Temple Palaven Temple Palaven, turian homeworld When Eva tries to pull Ben free and then to destroy the artifact, it commands Ben to slam her head against a wall, killing her.",
+      "url": "",
+      "for_key": "Keelah se'lai homeworld meaning"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya-unique-dialogue_014",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "Unique Dialogue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "And Cerberus has it on display?\" When Shepard expresses regret for trusting the Illusive Man, Tali says she doesn't regret standing by Shepard when they were with Cerberus but she's glad they're shutting it down now. - During Priority: Earth: - While at the missile battery, when Anderson warns the squad that more Reaper troops are heading their way, Tali exclaims, \"Keelah. How can there be more of them?\" - In the Extended Cut/Legendary Edition, if Tali is in Shepard's squad during the final push to the Conduit in Priority: Earth and Shepard romanced her, Tali will be gravely injured by Harbinger, prompting Shepard to call in Normandy for an emergency evac. Tali insists on staying with Shepard. Shepard tells her to go back to Rannoch to build herself a home. Tali tearfully replies that she has a home, and pleads for Shepard to come back to her. - If Tali is in the Normandy's cockpit when the Crucible is activated, she tells a reluctant Joker that they have to go.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "tali-treason_004",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "The Rayya",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Normandy arrives at the Migrant Fleet. There is suspicion because it is a registered Cerberus vessel, but Tali's passphrase allows the ship to proceed to dock with the ship Rayya. Captain Kar'Danna with a marine detail greets Commander Shepard. If Shepard arrived with Legion, they will have their weapons aimed at the squad. Shepard can use Charm or Intimidate to convince Captain Danna to allow Legion aboard. Otherwise, Legion must return to the Normandy and another squad member selected. Captain Danna reveals that the charges are that Tali smuggled active geth into the fleet. On the orders of her father, Admiral Rael'Zorah, Tali had been sending deactivated geth samples to the fleet. When questioned further, Tali insists she took every precaution to ensure the materials were not dangerous. At the garden plaza where Tali is to be tried, Admiral Shala'Raan greets Tali as \"Tali'Zorah vas Normandy\". Tali hugs the Admiral, calling her \"Auntie Raan,\" and then introduces the Admiral to Shepard as a friend of her father. Tali then reacts to Raan calling her \"vas Normandy\"; it turns out Tali has been stripped of her quarian ship's name, something that portends badly for her chances in her upcoming trial. Raan then reminds Tali that she is still entitled to be represented at the hearing by her current ship's captain: Shepard. The Commander's reaction to being Tali's defense lawyer can garner 2 Paragon or Renegade points. After the conversation ends, Tali and her new advocate make their way into the crowded hearing chamber. Admiral Raan, forced to recuse herself from judging Tali's guilt or innocence due to their close relationship, opens the proceedings. Shepard may use Charm or Intimidate in two separate dialogue choices to gain morality points. The admirals sandbag Tali with the revelation that the lab ship Alarei has been overrun by geth, demanding an explanation. Tali's father, who was working on board, is presumed dead, but Tali, shocked by the news, refuses to accept this and wants to board the ship to look for him. Shepard and Tali propose to retake the Alarei, which the admirals approve. The hearing is recessed pending the recovery of the Alarei and any data that might reveal what truly happened on it. For additional story details and occasional morality points, Shepard can talk with the admirals, Veetor, and Kal'Reegar, if he survived Haestrom. The latter two are strongly supportive of Tali and had come to speak publicly on her behalf, but only if two conditions are met: Veetor was not given over to Cerberus, and Kal'Reegar is alive. Shepard learns that the hearing is a facade for the members of the Admiralty Board to advance their own individual agendas; Tali's guilt or innocence is of only secondary importance. Admiral Xen wants to study AI to regain control of the geth; she will be particularly fascinated by Legion if it is present. Admiral Gerrel advocates a war to retake the quarian home world, believing that the quarians have become complacent as a people. Admiral Koris sympathizes with the geth and believes that Tali and her father need to be made examples of to send a larger message about the evils the quarians inflicted upon their \"children\". Admiral Raan alone appears to be acting out of concern for Tali, admitting that she deliberately prevented Tali from being informed about her father's likely death so that her genuine shock at the news during the trial would garner sympathy and make the other admirals more likely to allow her to board the Alarei to find evidence that could exonerate her. Shepard can also return to talk to Captain Danna, but Shepard will not be able to return to the Normandy or request new squad members.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "scene:citadel-huerta-ashley-recovery#03",
+      "kind": "scene",
+      "page": "Ashley's Recovery at Huerta Memorial",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-huerta-ashley-recovery",
+      "text": "Ashley's Recovery at Huerta Memorial. 2186, after Mars, during Ashley's recuperation at Huerta Memorial Hospital Huerta Memorial Hospital, the Citadel If Shepard visits her in the hospital while in a relationship with her, she calls him out for pursuing someone else while working with Cerberus if that happened. She is judgmental of Miranda and Jack as rivals but more at ease with Tali, calling her \"like a little sister\" and saying she approves — \"not that you needed my approval\" — though without a strong enough rapport she can still show jealousy of Tali later, on the geth dreadnought.",
+      "url": "",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_016",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If one of them is in a relationship with Shepard, Tali still visits Garrus at the main battery to say her goodbyes as well as make a wager on who can kill the most. Shepard can then thank them both for being there through everything and for believing in the Commander no matter what. Tali then comments that they will finish it the same way as it started, together. During the final mission on Earth, Tali and Shepard can say goodbye before the final battle. Tali's enthusiasm for retaking Earth falters briefly as she laments that she \"wants more time\" to be with Shepard. If she follows Shepard during the final charge to the Conduit, Tali gets critically injured and forcibly evacuated to the Normandy. Although she pleads with Shepard not to leave her behind, he asks her to go on living and to build a home on Rannoch, to which Tali tearfully replies that she already \"has a home\" and begs Shepard to come back to her. After talking with the Catalyst and deciding the fate of the galaxy, Tali will be the last person Shepard sees before ending the Reaper threat. In the aftermath of the war, Tali holds Commander Shepard's name and is poised on sticking it to the Normandy's Memorial Wall. If the Reapers were destroyed and enough of the galaxy's forces were rallied, she refrains from placing the name and the Normandy is seen flying off \\- and in a pile of rubble somewhere a man with an N7 armor stirs. If Shepard merged organic and synthetic life, after placing the Commander's name on the Memorial Wall Tali shares a hug with EDI.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#03",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber The charge is smuggling active geth into the Fleet. Tali had been sending deactivated geth samples home on the orders of her father, Admiral Rael'Zorah, and insists she took every precaution.",
+      "url": "",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "Rannoch: the choice",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "At the climax Shepard must choose between peace, or geth genocide, or quarian genocide: give the geth full sentience (the Reaper upgrade) at the cost of the quarian fleet, or destroy the geth to save the quarians. - **Shepard sides with the quarians:** Tali kills Legion (or shuts the geth down) with a \"flat shovel blade.\" She has done what quarian society expects, but — because of her history with Legion — she expresses regret, and answers Legion's last question, \"Does this unit have a soul?\", with a solemn \"Yes… yes, it does.\" Legion, in his last moments, ignores Shepard and turns all his attention to Tali, the comrade who stabbed him — \"a mirror image of himself.\" - **Shepard sides with the geth:** Tali begs Shepard not to choose the geth over her people. If Shepard uploads the code, Tali — as Admiral Tali'Zorah — calls off the quarian fleet's attack over the comm, and Legion sacrifices himself to disseminate the code (\"copy code is insufficient; direct personality dissemination required\"). - **Botched path (Shepard failed to broker peace and the war is one-sided):** Tali is powerless to stop Han'Gerrel, Rael, and Daro'Xen, whose hubris blinds them; as what remains of the quarian fleet burns in Rannoch's atmosphere — Captain Ysra of the Rayya over the radio — Tali, having done everything she could, takes her own life before her home ship burns. The essayist frames this as the completion of her arc: her instilled sense of duty is useless when there is no Fleet to serve, and her unrequited love for family can no longer hope for a brighter future.",
+      "url": "",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "scene:citadel-tali-fleet-and-flotilla#01",
+      "kind": "scene",
+      "page": "Fleet and Flotilla, With Sing-Along Mode On",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-tali-fleet-and-flotilla",
+      "text": "Fleet and Flotilla, With Sing-Along Mode On. 2186, Citadel shore leave, after the sushi-bar ambush Shepard's personal apartment, the Wards Tali writes that next time they are on the Citadel she would love to come by — no rush, but it is nice that Shepard has a place there to call home. Shepard invites her up.",
+      "url": "",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_006",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“We're family. This is just the worst kind of family meeting.” *Main article: Tali: Treason* After some time aboard the Normandy, Tali receives a disturbing message from home. She informs Shepard that the Admiralty Board has charged her with treason. Tali asks to be taken to the Flotilla to discover what the charges are, and plead her innocence. During the events of the mission, it is revealed that the admiralty board has decided to change Tali's title to **Tali'Zorah vas Normandy**. Even after her loyalty mission is completed, she will keep this title, regardless of the outcome of the mission. After both Tali's and Legion's loyalty missions are completed, a conflict arises between each other when Tali catches Legion scanning her omni tool for information on the Flotilla to be sent back to the geth. Legion maintains that it is merely warning the geth of the threat they face from the quarians' tests and their plans to attack the geth. Unless Shepard intervenes impartially, the Commander will lose one of their loyalties. If the conflict is resolved without Shepard siding with Tali or Legion, Tali thanks Legion for agreeing not to transmit the data back to geth and offers non\\-classified information on the Flotilla to Legion instead. If Shepard sides with Legion, then the Commander loses Tali's loyalty, but it can be regained in a later conversation.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_008",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Tali'Zorah vas Normandy.* “Shepard, I backed you when I was just a kid on her Pilgrimage. I backed you when the Normandy was a Cerberus ship. What kind of friend would I be if I didn’t back you now?” If she joined Shepard's team to fight the Collectors and survived the suicide mission, Tali returns to the quarian fleet following Shepard's return to the Alliance. Due to her expertise with the geth, the Admiralty Board requests Tali's assistance in their campaign to retake Rannoch. If Tali was not previously exiled from the fleet, the Admiralty Board appoints her as admiral in place of her father; otherwise, Tali lends her aid in secret. Tali reunites with Shepard when the Normandy joins the quarians in the war against the geth. In the Normandy's conference room, they exchange introductory pleasantries after meeting with the admirals. If Shepard inquires why she never called earlier, Tali replies that she's aware of the Commander's own problems back on Earth, though if Shepard only cares about obtaining the quarian fleet Tali replies more apprehensively but assures the Commander they'll get what they want. Shepard also voices the assumption that she'd support the invasion, though if Tali interacted with Legion she began thinking there may be a chance for peace. Otherwise, she says she didn't think the quarians were strong enough to take on the geth. Shepard presses the issue: if Tali is an admiral, she says public disagreement among the higher\\-ups would divide the fleet. If she is the \"dirty little secret\", she still feels she owes her people. With the chat over, Tali leaves with a hint for catching up in private as she says she needs to keep things strictly business in front of the admirals. While the geth\\-quarian war is ongoing she takes up residence in the Normandy's war room along with Admiral Raan. If Shepard permits the private talk in the Captain's Cabin, Tali immediately voices the doubts she couldn't openly express. She feels the pressure of having 17 million lives counting on her decisions. If Shepard \"comforts\" her by urging acceptance of the fact people will die, Tali is reminded by something her father said: commanders mourn losses, not people. Putting people at a distance was a requisite for making the big decisions, and Tali thinks she can't do that. If Tali's just friends with Shepard and the Commander assures her she's doing everything she can, she feels regret at helping her father's research on the geth as the tech derived from his work made an invasion too good to pass up. If the evidence against Tali's father was turned over to the Admiralty Board, she apologizes to Shepard and admits that they were right. Had she been exiled, she wouldn't have been able to speak out against lunatics like Xen. If Tali was exiled, however, she muses instead that maybe exile was preferable, as that way she won't expect people to listen to her. If Tali became admiral, she takes solace in the fact she can now push back against the worst ideas, and reveals she accepted the position because of Shepard. Tali asked herself what the Commander would do, and interpreted it as taking the chance to make things better. Tali serves as the geth software expert in the team that infiltrates the geth dreadnought, and participates in the mission to deactivate transmission of the Reaper signal controlling the geth. Shortly before storming the Reaper base housing the signal on Rannoch, she marvels at the experience of setting foot on the home of her ancestors, taking in the sweeping vistas of the place. Tali claims a spot of land, hopeful that she'll have a home at the conclusion of the war. With the quarians having been nomads for centuries, Shepard asks if they can go back to living in one place. Tali replies that they've gotten used to carrying their homes with them. Shepard bends down, picks a rock, and hands it over to Tali in a symbolic gesture, who remarks that it's a start. Following the destruction of the Reaper on Rannoch, the geth are weakened and Admiral Han'Gerrel launches a full strike. The geth unit Shepard and Tali rescued from the geth dreadnought, either Legion itself, or a Geth VI constructed in its likeness, attempts to upload the Reaper code to augment all intelligences of the geth collective: an act that would restore the geth to full strength, catching the quarian fleet unaware and leading to their destruction. If Shepard allows the geth to be upgraded, Tali watches in horror as she witnesses the entirety of the Migrant Fleet crash and burn up in Rannoch's atmosphere.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "summary:tali-treason",
+      "kind": "summary",
+      "page": "Tali: Treason",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Tali: Treason was Tali'Zorah's loyalty mission in Mass Effect 2, acquired some time after recruiting her when Kelly Chambers noted Tali seemed distraught. The Migrant Fleet's Admiralty Board had charged Tali with treason for smuggling active geth into the flotilla; on her father Admiral Rael'Zorah's orders she had been sending deactivated geth samples home. The Normandy, a registered Cerberus vessel, docked with the liveship Rayya via Tali's passphrase. Captain Kar'Danna met the squad; if Legion was brought, Shepard needed Charm or Intimidate to keep it aboard. Admiral Shala'Raan greeted Tali as \"Tali'Zorah vas Normandy,\" revealing the Board had already stripped her quarian ship-name, a bad omen. Raan, recused from judging due to her closeness to the family, opened proceedings, and Shepard served as Tali's advocate.\n\nThe admirals sprang the news that the lab ship Alarei had been overrun by geth and that Rael'Zorah was presumed dead. Shepard and Tali proposed to retake the Alarei, and the hearing recessed. Speaking with the admirals, Veetor, and Kal'Reegar (present only if Veetor was returned to the Fleet and Kal'Reegar survived Haestrom) revealed the trial was a facade for the admirals' agendas: Xen wanted to study AI to reclaim the geth, Gerrel wanted war to retake Rannoch, Koris wanted Tali and her father made examples of, and Raan admitted she had deliberately withheld news of Rael's death so Tali's shock would win sympathy.\n\nAboard the Alarei, Shepard's team fought through waves of Geth Troopers, Hunters, a Geth Prime, and Combat Drones in close quarters, with Tali's AI Hacking key to survival. Logs showed Rael had ordered safety protocols bypassed. Tali found her father's body and a recorded message ordering her to destroy the main geth hub and deliver the data to Xen and Gerrel. The final console proved Rael had deliberately reactivated and networked geth toward sapience for weapons tests, while clearing Tali of any knowledge. Tali begged Shepard not to reveal it, to preserve her father's name.\n\nBack on the Rayya, Shepard could clear Tali via persuasion (30 morality, loyalty gained), lie that no evidence was found (Tali exiled but loyal), rally the crowd with Veetor and Kal'Reegar, or present the evidence (Tali cleared, Rael posthumously exiled, the Fleet Balkanized, loyalty lost). Tali kept the name \"vas Normandy\" regardless. Rewards included the Energy Drain power for Tali and tech upgrades. The outcome influenced whether quarian-geth peace was possible in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya-unique-dialogue_002",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya/Unique dialogue",
+      "section": "Unique Dialogue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Throughout Shepard's travels, there are specific points where Tali will voice her opinions. - On the Citadel: - On Citadel: Signal Tracking, when Shepard asks the AI if the matter can be resolved peacefully Tali vehemently disagrees: \"How can you say that to this thing? You know it will turn on us!\" - While talking to Charles Saracino, Tali voices some opinions if Wrex, Ashley, or Garrus aren't around: - If Saracino expresses support for humanity's right to express opinions at gunpoint, Tali deems the First Contact War a misunderstanding and provides as an analogy the notion of stopping a child about to touch a gun. - If Shepard belittles Saracino's lack of comparable military experience, he argues that as a politician he can tell people why they should support the Commander's actions. Tali pessimistically thinks he would ask for a picture with Shepard so that he can show people how close he is to the military. - On Noveria: - In Port Hanshan: - In the docking bay, if Shepard says they are with the Alliance Navy, Captain Matsuo comments that the Commander is far from home, to which Tali responds, \"Home is a state of mind.\" If Wrex is not the other companion, when both sides draw their weapons and either the top or middle dialogue options are chosen to diffuse the confrontation, Tali states her intention to hide behind the Commander, nervously wondering if their armor is in good condition. - When Administrator Anoleis mentions that Benezia was escorted by an Asari Commando squad, Tali questions why they didn't mind their presence while giving Shepard's squad flak. - While talking to Lorik Qui'in about Matriarch Benezia, Qui'in will comment on her outfit and the reaction it had with the younger males. If Tali is in the party, she notes \"young males of all species have strange ideas of what the asari are like.\" - During Noveria: Lorik Qui'in, if Shepard helps Qui'in by retrieving evidence of corruption and is confronted by Kaira Stirling afterward, she will tell the Commander \"You know what we did to cop killers on my world?\", prompting Tali to ask if they should feel bad for stopping her when they are working off\\-duty for bribes to break the law. - If Shepard has the spacer background and asks if Anoleis has a problem with spacers, Anoleis will claim that transient populations provide \"unreliable consumer bases\" and that they are \"tax dodgers.\" Tali quips she had no idea they were so troubling to his bottom line. - During Noveria: Matriarch Benezia, after the geth ambush at the garage Maeko Matsuo arrives at the scene. If she was told they now know what to look for, she wonders what changed since everybody knows the geth haven't left the Perseus Veil in 3 centuries. Tali tells her evolution happened—the same thing that happens to all species. - When talking with Mira about activating the neutron purge, Tali responds with an important safety tip: \"Don't press big red buttons.\" - On Feros: - When Gavin Hossle describes the danger in recovering his data, Tali says to Shepard, \"what is it about you that makes people think we enjoy being in harm's way?\" - When meeting the Thorian for the first time, Tali falters in her line of thinking and is suddenly speechless at its appearance: \"Keelah, what is that?\" - On Therum, when the squad is in urgent need of an escape plan Tali exclaims that Joker needs to go faster.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya/Unique_dialogue",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-04",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The fourth part of a hand-corrected video-essay character analysis covered Tali'Zorah in Mass Effect 3. If she survived the Suicide Mission, she apologized to Shepard for the trial and admitted he had been right: \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" She took an Admiral's seat in her father's place specifically to push back against the Board's worst ideas, the version of Tali the essayist preferred. If exiled, she instead told Shepard the trial had shown her she belonged \"on the Normandy, helping you,\" aiding her people from the shadows.\n\nAs Admiral she doubted her fitness to command, with seventeen million lives riding on her. After speaking with Legion she believed the quarians could sue for peace, but once Daro'Xen turned Rael'Zorah's research into \"an invasion too good to pass up,\" Tali had no choice but to support it \"for the good of the Fleet,\" regressing toward the sacrificial lamb of ME2 and becoming a near-powerless victim of politics again. The essay noted quarian scarcity: 17 million in the flotilla, one child per family unless the population declines, every quarian contributing to the Fleet's survival. Shala'Raan was the reason Tali was permitted to attempt to retake the Alarei.\n\nAt the Rannoch climax Shepard chose between peace, geth genocide, or quarian genocide. Siding with the quarians, Tali killed Legion (or shut the geth down) with a \"flat shovel blade,\" expressed regret, and answered Legion's last question, \"Does this unit have a soul?\", with \"Yes... yes, it does.\" Siding with the geth, Tali begged Shepard not to choose them over her people, then as Admiral called off the quarian fleet's attack while Legion sacrificed himself to disseminate the code. On the botched path, unable to stop Han'Gerrel, Rael and Daro'Xen, Tali watched what remained of the quarian fleet burn in Rannoch's atmosphere, Captain Ysra of the Rayya on the radio, and took her own life before her home ship burned. Afterward, if the geth helped rebuild Rannoch, Tali admitted: \"I'd have killed the geth with no regrets, and I'd have been wrong.\"",
+      "url": "",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "scene:normandy-bar-tali-rael-toast#03",
+      "kind": "scene",
+      "page": "Tali Talks About Her Father Over Drinks",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-bar-tali-rael-toast",
+      "text": "Tali Talks About Her Father Over Drinks. 2186, after the mission on Horizon, Rannoch already reclaimed the Normandy SR-2 bar If she and Shepard are together, Tali muses that Rael would have hated her human partner. Shepard offers a toast to his memory.",
+      "url": "",
+      "for_key": "Tali calling Shepard her home"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_005",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "Shepard reassures her (ME3)",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Where earlier Shepard bolstered Tali, in ME3 she is the one who steadies him after Thessia and the Cerberus base, when he starts to doubt himself: \"When I feel that way, I reach for you.\" She is arguably the only squadmate who asks whether Shepard is okay. Before the assault on Earth: \"I backed you when I was just a kid on my Pilgrimage. I backed you when the Normandy was a Cerberus ship. Wherever you go, I'm with you.\"",
+      "url": "",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "bioware-stories-and-secrets-from-25-years-of-game-development-the-making-of-mass-effect-3_015",
+      "kind": "page",
+      "page": "BioWare: Stories and Secrets from 25 Years of Game Development/The Making of Mass Effect 3",
+      "section": "Bug Report: Romance Is Dead",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Release: *Mass Effect 3*** **Priority: 1 (Severe)** **Description:** Tali and Shepard slept together in *Mass Effect 3*. It was a nice moment. The problem: the scene was firing after she's supposed to be dead. This particular playthrough of *Mass Effect 3* had Shepard siding with the geth. \"Shepard, I backed you when I was just a kid on her pilgrimage, I backed you when the *Normandy* was a Cerberus ship,\" Tali says. \"Wherever you go, I'm with you.\"",
+      "url": "https://masseffect.fandom.com/wiki/BioWare:_Stories_and_Secrets_from_25_Years_of_Game_Development/The_Making_of_Mass_Effect_3",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "personal-apartment_008",
+      "kind": "page",
+      "page": "Personal Apartment",
+      "section": "Notes for Anderson Biography",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Childhood** *“Ahem. Okay. So... tombstone data. Admiral David Edward Anderson. Not sure why anyone would be interested, but thanks for asking. I was born in London on June 8th, 2137, the last of three children born to Ursula and Paul Anderson\\-\\-a nurse and a flight mechanic, respectively. That's a little dry. Someone's going to spice this up, right? Never been much for the spotlight. Anyway... where was I? It was a second marriage for my parents. They were almost fifty by the time they had me. My mother worked shifts, so my father would often take me to the base. While he worked, I watched transport ships and fighters take off. Worked his whole life around space travel, my father, but he never left Earth, not for a day. He was a good man. But that's just a side note. Don't put that in. Who is it, Kahlee? Yes, I need to take that. I hope this is what you're after. I'll get to the more interesting N7 stuff next time.”* **Enlisting** *“What was... What was I talking about? Early days, right. People ask why I joined the military. Everyone talks about honor, duty, sure. But that's never the whole truth. It's a hundred little things that add up to commitment. I joined because of a dog. Yeah, a dog. This patchy, mean, son of a bitch that used to bark at me every day on my way to school. It'd snarl, and I'd start running. Scared the hell out of me. I was just a kid. I remember being in a bad mood one morning. Angry. I can't recall why. When that dog started in on me, I snapped. Started barking right back. We both kept at it until we had nothing left. Dog never bothered me again. Why'd I join the military? Sometimes, you just gotta howl to make things right.”* **Contact** *“No, no. It's fine. I've got a few minutes. First Contact War? Yeah, I was there. My first real combat. First for a lot of us. I remember one night, early in the war, strapped to my seat as our transport approached the LZ. Everyone was dead silent. Just the sound of breathing. Good men. I'd trained with all of them. We were always joking and horsing around. But not this time. Just the rattle of the shuttle and that heavy breathing. Everyone was thinking the same thing: we're off to fight alien invaders. Aliens! Think about that. We all grew up wondering what was out there, if we were alone in the universe. Now we knew. We weren't alone. And we were in trouble. So there we were, about to face an enemy as different and unknown as we could imagine. I knew I had to say something, keep the men relaxed. So I turned to the soldier beside me, Hendricks I think, and asked him how his mother was doing. \"Fine,\" he said. \"Why?\" \"Cause I heard your momma's so ugly the marines thought she was a turian... almost shot her.\" That got a few smiles. Then Hendricks turned to me and said... \"Hell Anderson, I heard it was a picture of your momma that started this goddamn war in the first place. Scared the turians shitless.\" Everyone had a good laugh at that. And the boys fought great that night. Sometimes that's all it takes. A joke. A pat on the back. Just a little reminder that everything's gonna be okay.”* **N7** *“Embarrassing moments? I got more of those than anyone will ever know. Only way to learn something. But if I had to pick one to share... I had just gotten promoted to N7\\. Full of myself. King of the castle. Found myself buying drinks for undesirables in some run\\-down bar in the Wards. They toasted my recent promotion. Hell, they would've toasted batarian slavers if it got them more drinks. About the time my money ran out, my new friends turned on me. I was outnumbered. Things didn't look good. My plan to get out of there involved lots of punching. That worked for a while. Then a table hit me... or I fell down. When I came to, I saw a salarian putting the rest of the troublemakers down. A salarian! Moved like a damn cat, I swear. When everybody was out cold or running, he walked over and helped me up. \"N7?\" he asked. \"Yes, sir,\" I replied. He looked over my collection of unconscious friends, nodding. \"Not bad, human,\" he said. Then he walked away. I had met my first Spectre. Learned an important lesson that day. No matter how good you think you are, there's always somebody quicker, faster, and a helluva lot smarter than you just around the corner.",
+      "url": "https://masseffect.fandom.com/wiki/Personal_Apartment",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "dossier-the-justicar_015",
+      "kind": "page",
+      "page": "Dossier: The Justicar",
+      "section": "Email",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "After the mission, Detective Anaya from the Spaceport sends Shepard this email: **Still alive.** --- From: Detective Anaya Greetings, Commander\\-\\- I'm not completely sure this will get to you, but thanks again for helping me deal with Samara. The Eclipse mercs have gotten real quiet around here, and my superiors have backed off, too. No idea if the two are related, but hopefully the next time I meet a justicar, I can give her the respect she deserves. I still can't believe I worked a case with one of them. You're a lucky human. If I find any more data on her target, I'll pass it along. Thanks, Detective Anaya Illium Law Enforcement",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Justicar",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-december-2010_029",
+      "kind": "page",
+      "page": "Cerberus Daily News - December 2010",
+      "section": "*12/28/2010 \\- Galaxy's Longest\\-Running Chess Game Concludes*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“The galaxy's longest\\-running game of chess finally came to a close as Dowumon Thunloon of Dekuuna checkmated Victor Kovisk of Luna. A board game of skill developed on 11th\\-century Earth, chess became popular on the elcor homeworld a few years after humanity was granted an embassy on the Citadel. Both players have competed professionally, but Thunloon and Kovisk's legendary 12\\-year game was \"a friendly match\" that its extranet followers are sad to see end. \"A flower of moves blooming over a decade,\" wrote one fan. \"I remember the first check better than I remember my kid being born,\" admitted another. They may not have to wait long for a rematch: Kovisk warmly congratulated Thunloon on his win, to which the elcor replied, \"Pleased acceptance: Thank you very much. Tentative excitement: New game?\"”*",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_December_2010",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "personal-apartment_009",
+      "kind": "page",
+      "page": "Personal Apartment",
+      "section": "Notes for Anderson Biography",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "That worked for a while. Then a table hit me... or I fell down. When I came to, I saw a salarian putting the rest of the troublemakers down. A salarian! Moved like a damn cat, I swear. When everybody was out cold or running, he walked over and helped me up. \"N7?\" he asked. \"Yes, sir,\" I replied. He looked over my collection of unconscious friends, nodding. \"Not bad, human,\" he said. Then he walked away. I had met my first Spectre. Learned an important lesson that day. No matter how good you think you are, there's always somebody quicker, faster, and a helluva lot smarter than you just around the corner. That little lesson's kept me alive more than once since then.”* **Turian Experience** *“The turians? Hmm. I might not always see eye to eye with the politics and the individuals, but I have great respect for the turian military. Any Alliance soldier lucky enough to take part in their training programs will certainly be better for it. Their precision, skill, and discipline come together in a way that's second to none. Not that I'm faulting our own people or training.. It's just that, after fighting turians in the First Contact War, years later I had the opportunity to observe and train on Palaven. It's a unique experience to put yourself in the squad of a turian commander. My commander was an uncompromising bastard named Bartus Aurix. If you can find him, just ask how the platoon I commanded was trounced in his strategy games. Humbling, but I've used what I learned that day, many times. The xenophobes will have their say, but I think it's vital that we do more of this kind of cross\\-species training. There you go. Heh. And if you do find General Aurix, let me know\\-\\-I owe him money.”* **Relationships** *“You never asked me about this, but... My wife just called. My ex\\-wife... Nobody likes to talk about the toll that long months apart can have on military relationships. She wasn't military. She couldn't handle it. But it's not even about military and non\\-military, damn it. It's space flight. Space flight\\-\\-finding the mass relays\\-\\-miracles of engineering. Human imagination rising to meet our desires. We pay a price for that curiosity, that drive. Our relationships suffer. People we love suffer. But that's reality and it's worth the cost. I must have thought it was... I guess I still do. In the end, you just hope you made the right choices.”* **Normandy SR\\-1** *“You asked me to talk about the SSV Normandy\\-\\-the Normandy SR1\\. As commander of the Tokyo, I was consulted on the Normandy's design and on board for her initial training exercises. The average person probably doesn't know that the Normandy was a joint project with the turians. Acting CO Elli Zander was no diplomat. She ran out of patience with turian posturing and politicking during construction. The chief architect of the drive core, Octavio Tatum, and his team of turian engineers were in the CIC for final training exercises. Tempers flared when Zander pushed the limits of the stealth system, waiting to vent the IES well past what Tatum was comfortable with. I tried to calm the situation, but it still ended with the turian scientists in shackles and a human/turian fistfight in Chora's Den later. Funny now... When I first laid eyes on the Normandy, she was the most beautiful thing I had ever seen. Day after that training run, Admiral Wright found me on the bridge. \"She's yours,\" he said, \"Can't trust her to Zander. Send me a list of crew from the Tokyo you'd like and prep for your first mission.\" Short command, thanks to Saren. Still. One of the highlights of a long career.”* **Normandy** *“The Normandy? A brand new ship. My ship. You don't forget that moment. The first time you're standing there, the whole crew looking to you for direction? Unforgettable. I'd led men and women before that. Seen a lot of combat already. Always managed to find my way home in one piece. Do that a few times, you begin to think you know better than the next guy. Maybe you do. I don't know. But if you're lucky, really lucky, you find yourself on a good ship, in front of a good crew. A crew you can trust with your life. Gifted, disciplined, brave. All of them eager to set sail into the endless black ocean. I still remember my XO asking what my orders were. \"Shepard,\" I said, \"Let's see what we can find.\"”* **Shepard** *“Sure, I can talk about Commander Shepard. Big topic. There's been a lot written about the Commander, but most of it isn't true. People are quick to judge. They don't know the whole story.",
+      "url": "https://masseffect.fandom.com/wiki/Personal_Apartment",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "mass-effect-2-cut-content-prologue-and-normandy-voicelines_011",
+      "kind": "page",
+      "page": "Mass Effect 2 Cut Content/Prologue and Normandy Voicelines",
+      "section": "norkg\\_loyalty\\_02\\_h",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Note:**  this dialogue was retranscribed directly from the dialogue file Mass Effect 2/BioGame/CookedPC/BioD\\_Nor\\_330aGrunt\\_LOC\\_INT.pcc or Mass Effect Legendary Edition/Game/ME2/BioGame/CookedPC/BioD\\_Nor\\_330aGrunt\\_LOC\\_INT.pcc, where it was made non\\-functional, despite audio being present. All text was copied accurately, and any typos or errors are verbatim. **Context:** Grunt: Rite of Passage: following the completion of Grunt's loyalty mission, a special exchange could occur in the first conversation which would have followed if Shepard had not let Grunt speak for himself in regards to Gatatog Uvenk's proposal. The conversation should be technically functional, but its triggering conditional is broken. **Speakers**: - Grunt - Commander Shepard --- **Grunt**: Now that I know it's not an outside thing, and I have a place as a krogan, I like it. But I still have a problem with you, Shepard. Ordering me not to choose Uvenk was going too far. - I was concerned about you. - My crew, my call. **Shepard**: It just seemed like you might be in wrong the frame of mind to make a good choice. **Grunt**: You thought I couldn't handle it. I'm not stupid. That's just another way to say you thought I was weak. If you can't trust me with Uvenk's clumsy offer, will you have a gun to my back against the Collectors? Data The above grants **2** Paragon points. - Of course not. - If I need to. **Shepard**: I trust you, Grunt. I won't force you to do anything. **Grunt**: Get consistent, Shepard. You waver like this, maybe I start thinking someone else should lead. Just so you're clear where we stand. Data The above grants **2** Paragon points. **Shepard**: Not the worst idea I've ever heard. I don't take chances. **Grunt**: Understood. But if you act like I need a leash, don't be surprised when I pull. Just so you're clear where we stand. Data The above grants **2** Renegade points. **Shepard**: If you can't accept that I have expectations of my crew \\-\\- my clan \\-\\- it won't be the last problem we'll have. **Grunt**: So long as we understand each other. You have a strong position \\-\\- I respect it. Don't like it, but don't have to. But talk to me like I can't handle it \\-\\- like that tank voice \\-\\- maybe I lose that respect. You don't want that. Data The above grants **2** Renegade points. - I apologize. - Noted. **Shepard**: That was your call and I stepped on it. Sorry. **Grunt**: Get consistent, Shepard. You waver like this, maybe I start thinking someone else should lead. Just so you're clear where we stand. Data The above grants **2** Paragon points. **Shepard**: Understood. Get back in line. **Grunt**: That's the way. Data The above grants **2** Renegade points.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Cut_Content/Prologue_and_Normandy_Voicelines",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "summary:jack-unique-dialogue",
+      "kind": "summary",
+      "page": "Jack/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A catalogue of dialogue unique to Jack when she is in Shepard's squad in Mass Effect 2, organized into location-triggered lines, \"talk to squad mate\" conversations, and spontaneous combat and ambient barks. Notable in the collection: on the Citadel, Jack tells a story in the bar bathroom of being sexually assaulted in the Purgatory prison showers and then hunting down and murdering every one of her attackers. Representative verbatim lines:\n\n- Jack, on the Collector Ship when the trap springs: \"I knew Cerberus would screw me again!\"\n- Jack, meeting Legion at the end of the Reaper IFF mission, on whether to take the geth: she favors taking it \"so it can be carved into a lamp.\"\n- Jack, on Legion's loyalty mission, objecting to rewriting the heretics: \"If you screw with my head, made me nod and smile at everything... I'd rather you blew my head off. Let me die as me.\"\n- Jack, dying if chosen to lead the second diversion squad in the Suicide Mission: \"Too many... tore me up. How'd you talk me into this? Heh... I wasn't supposed to care.\" (Romanced male Shepard: \"Too many of them... I knew I'd get hit on this job. I was too happy... too happy with you.\")\n- Jack, when Miranda is suggested to lead the second squad: \"No one wants to take orders from you.\"\n- Jack, on Horizon after the first Collector encounter: \"Peaceful. Usually takes a lot of chemicals for me to get this kind of quiet.\"\n- Jack, landing on Korlus and hearing Jedore's PA orders: \"I already want to kill this person.\" Later: \"Can we shut that bitch up, already?\"\n- Jack, starting an encounter: \"Hello, dead people!\"\n- Jack, if knocked unconscious: \"If I die Shepard, I'm haunting you!\"\n- Jack, using Pull: \"Fly, bitch!\" / \"I'll throw you like a toy!\" Using Shockwave: \"I will destroy you!\" / \"I will kill you all!\"\n\nOther tagged lines include her approving of Shepard throwing a merc through a window during Thane's recruitment (\"I could take notes from you, Shepard\"), betting 15 credits that Niftu Cal will die, and calling the Shadow Broker's remark that her corpse is valuable during Lair of the Shadow Broker.",
+      "url": "https://masseffect.fandom.com/wiki/Jack/Unique_dialogue",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "summary:jack-dialogue",
+      "kind": "summary",
+      "page": "Jack — In-Game Dialogue and Banter",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "A collection of Jack dialogue and party-banter clips spanning Mass Effect 2 and Mass Effect 3: a cut Mass Effect 2 conversation about red sand, the Mass Effect 3 scene introducing her varren Eezo, Normandy confrontations with Miranda, her time as an instructor at Grissom Academy leading a biotic student squad, a reunion with Garrus, and the Citadel DLC reconciliation with Miranda. It is useful as voice reference and for Jack's personal continuity. Representative lines:\n\n- Jack, in the cut red sand conversation, when Shepard notes she takes drugs herself: \"If I don't, I wake up screaming, with furniture slamming into the wall.\"\n- Jack, on why an asari would use red sand despite already being biotic: \"You get a great high, too.\"\n- Jack, introducing her naturally biotic varren from Thessia: \"Who's my badass biotic? Who's my badass biotic?\"\n- Jack, agreeing to hold off her fight with Miranda for the mission: \"Sure, I'll do my part. I'd hate to see her die before I get a chance to fillet her myself.\"\n- Jack, when Shepard keeps visiting to ask questions in Mass Effect 2: \"You don't need to know someone to sleep with them. You just have to know where to put it.\"\n- Jack, riding her Grissom Academy student: \"You couldn't destroy wet tissue paper. Drink your juice, Rodriguez.\"\n- Jack, on staying with her students in Mass Effect 3: \"The little shits are useless without me, so I've got to stick with them — I'm dependable now, apparently. I blame you for this.\"\n- Jack, reuniting with Garrus: \"As charming as ever. Good to see you again, Garrus.\" — Garrus: \"You still look like [expletive].\"\n- Jack, in the Citadel DLC after Miranda concedes Cerberus was wrong about her: \"Wow. Thanks. I still really hate you, but you have fantastic tits.\" — Miranda: \"All right, I can live with that.\"\n- Jack, to Shepard at the Citadel party: \"The duty rosters can wait. Right now you're on shore leave, Shepard.\" And: \"Everybody knows you can't dance.\"\n\nKelly Chambers' observation is also quoted: \"She pushes people away yet approaches sex casually… If you want her respect, think twice.\" Miranda, during the sub-deck confrontation, insists \"it wasn't Cerberus, not really\" and that Jack \"was clearly a mistake.\"",
+      "url": "",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "summary:citadel-krogan-dying-message",
+      "kind": "summary",
+      "page": "Citadel: Krogan Dying Message",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Krogan Dying Message was a Mass Effect 3 mission acquired after Attican Traverse: Krogan Team. Partway through the mission to Utukku, behind some webbing just before a one-way drop, Commander Shepard found the interactable body of a dead krogan who had asked that his final message be delivered to an asari merchant named Ereba. Shepard took the recording to Ereba, who worked at Nos Astra Sporting Goods in the Meridian Place Market of the Citadel Presidium Commons. The krogan was revealed to be Charr, whose relationship with Ereba could have been influenced by Shepard during the earlier assignment Illium: Blue Rose of Illium. On hearing the message Ereba wept, and Shepard could stay or leave her to listen; at the end of the recording she said she had to go. The message implied that Charr and Ereba had, or could have had, a child together. Completing the mission granted 5 Reputation and 90 experience. The exact wording of Charr's message depended on whether Ereba had been convinced to take Charr back or to break off the relationship.\n\n- Charr's recorded final message, played if Ereba and Charr had parted or the Illium assignment was never done (also the outcome in a non-imported game): \"O Blue Rose of Illium, if these humble words reach you, then I have joined my ancestors. My dream was to be by your side, a weed beside your beauty, twining together in the warm Tuchanka sun. But though you needed room to grow, still, I will remember the perfume of the scent and the soft touch of your petals. If my heart could not shelter you from the storm, then let my broken bones build a wall around your garden, so you can grow safe and happy.\"\n\n- Charr's recorded final message, played if Ereba had been convinced to take Charr back: \"O Blue Rose of Illium, if these humble words reach you, then I have joined my ancestors. My dream was to be by your side, a weed beside your beauty, twining together in the warm Tuchanka sun. But if my last days must be with krannt instead of kindness, still, I will remember the perfume of your scent and the soft touch of your petals. Let my broken bones build a wall around your garden, so you and the flower we planted together can grow safe and strong.\"",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Krogan_Dying_Message",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "scene:omega-afterlife-aria-interrogates-enrix#02",
+      "kind": "scene",
+      "page": "Aria Interrogates a Shadow Broker Spy",
+      "section": "banter",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-afterlife-aria-interrogates-enrix",
+      "text": "Aria Interrogates a Shadow Broker Spy. 2185, Omega, Afterlife Nightclub private room, 04:14 AM a private room in the Afterlife Nightclub on Omega Aria T'Loak then addressed the Shadow Broker directly through the hidden speaker. She made clear her resentment at his intrusion: \"You don't play favorites, Broker. I admire that. But what I don't like is how you think anything twitches a muscle on Omega without my knowing it!\" She gave an open threat to his further attempts to operate on her world: \"Feel free to waste as many lives as you want, sending your agents down to my world.\"",
+      "url": "",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "summary:jeff-joker-moreau-unique-dialogue",
+      "kind": "summary",
+      "page": "Jeff \"Joker\" Moreau/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects Joker's optional conversational dialogue across all three games: mission-completion remarks, his \"The Squad\" opinions of the last two squadmates Shepard took out, randomized cockpit banter triggered by standing behind him, lines during the Collector attack on the Normandy, and Mass Effect 3 exchanges about EDI's body and a possible relationship. The lines are heavily sarcastic and full of 20th–21st century pop-culture references.\n\nRepresentative lines:\n\nJoker, after Noveria in Mass Effect: \"One will freeze your balls off, the other will sell them out from under you.\"\n\nJoker, mission completion after Dossier: The Assassin: \"Oh, another dangerous alien aboard, Commander. Thanks. Why can't you collect coins or commemorative plates or something?\"\n\nJoker, mission completion after Dossier: Archangel: \"Hey Commander, we got Garrus back! That's great, because he was totally my favorite... with that pole up his ass.\"\n\nJoker, cockpit banter in Mass Effect 2: \"Yeah, this is 98 percent of my job. I just watch buttons flash. Sometimes I press one.\"\n\nJoker, cockpit banter: \"You know what pisses me off? Calling this the cockpit. Alliance ships have bridges. Asari ships have cockpits. Oh wait. No they don't.\"\n\nJoker, during the Collector attack when EDI asks for ship control: \"What?! You're crazy! You start singing Daisy Bell and I'm done!\"\n\nJoker, during the Collector attack: \"See, this is how it all starts. When we're all just organic batteries, guess who they'll blame? ... I have to spend all day computing pi because he plugged in the Overlord.\"\n\nJoker, after EDI gets her new body in Mass Effect 3: \"If I knew that EDI was going to install herself into a sexy robot body, do you honestly think I'd be able to keep quiet about it? Look at that! I would have baked a cake!\"\n\nJoker, on the Council in Mass Effect 3: \"After years of ignoring your warning, they're finally willing to step up and tell us they just can't help. Did they at least validate our parking?\"\n\nJoker, on biotics: \"I'm just tired of them stealing the spotlight from people with actual disabilities. I break ribs if I sneeze too hard - being able to move crap with your mind is not a handicap.\"\n\nJoker, if Shepard discouraged the EDI romance (Citadel party, to Miranda): \"And if we ever broke up? Well, nobody wants an angry ex equipped with a Thanix cannon.\"",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau/Unique_dialogue",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#12",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber If Shepard submits her father's evidence to exonerate her against her wishes, Tali is cleared but her loyalty is lost — furious not that she was proven innocent but that Shepard denied her the self-sacrifice she had chosen, going into a mission she does not expect to survive: \"I spent my whole life watching my father make decisions I didn't agree with... I didn't need another father back there. I needed a friend.\" She still backs Shepard but asks him not to speak to her unless he needs something, and can no longer be romanced.",
+      "url": "",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "scene:silver-coast-casino-infiltration-khan-gala#03",
+      "kind": "scene",
+      "page": "The Charity Gala at Khan's Casino",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "silver-coast-casino-infiltration-khan-gala",
+      "text": "The Charity Gala at Khan's Casino. 2186, Citadel shore leave, the evening after Identity Theft I the Silver Coast Casino, during Elijah Khan's black-tie charity gala for war refugees If Tali is the squadmate on Shepard's arm, a female Shepard's remark about her enviro-suit gets \"At least you can dress up. What can I do? I'm already wearing my two sexiest belts!\"; a male Shepard's outfit is judged to need \"a little something\" until she links arms — \"Now it's perfect\" — with a flirtier read if they are together. On distraction duty she talks guards off the floor with staged suit malfunctions, requests for a clean room, dietary questions, and a report of someone rigging a quasar machine with an omni-tool.",
+      "url": "",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "scene:citadel-tali-fleet-and-flotilla#03",
+      "kind": "scene",
+      "page": "Fleet and Flotilla, With Sing-Along Mode On",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-tali-fleet-and-flotilla",
+      "text": "Fleet and Flotilla, With Sing-Along Mode On. 2186, Citadel shore leave, after the sushi-bar ambush Shepard's personal apartment, the Wards They watch it. She explains she and her friends watched it at every sleepover when they were young, and finds the sing-along mode, and sings along: \"Let the moon's shining light hide two lovers with its rays / Though I know that dawn will set us on course for separate ways / I will hold this night in memory for all my living days / Now unmasked, I feel your skin on mine.\"",
+      "url": "",
+      "for_key": "I backed you when I was a kid on my Pilgrimage"
+    },
+    {
+      "chunk_id": "scene:normandy-bar-tali-rael-toast#01",
+      "kind": "scene",
+      "page": "Tali Talks About Her Father Over Drinks",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-bar-tali-rael-toast",
+      "text": "Tali Talks About Her Father Over Drinks. 2186, after the mission on Horizon, Rannoch already reclaimed the Normandy SR-2 bar With Rannoch behind her and Horizon just done, Tali drinks at the Normandy's bar and finally talks about Rael'Zorah — how distant and hard on her he was, and the house he meant to build for the family on the homeworld. She draws the parallel to Miranda Lawson and her own father.",
+      "url": "",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "war-assets-geth_004",
+      "kind": "page",
+      "page": "War Assets/Geth",
+      "section": "Geth Prime Platoon",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Completion of Rannoch: Geth Fighter Squadrons. At the end of Priority: Rannoch, the player must choose the side of the geth or force a compromise between them and the quarians. Otherwise, the asset will be lost. **Military Strength:** 60 Geth primes are built to house more programs than other platforms and operate as mobile networking hubs. Their combat software provides a boost to any geth nearby, coordinating and directing attacks. Since the destruction of a prime unit causes the processing power of other geth to drop, prime hardware platforms are heavily shielded and well\\-armed.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Geth",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "war-assets-geth_003",
+      "kind": "page",
+      "page": "War Assets/Geth",
+      "section": "Geth Fleet",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: The completion of Priority: Rannoch. At the end, the player must choose the side of the geth. If Admiral Gerrel is convinced to cease fire on the geth ships, the quarian war assets will also be obtained. **Military Strength:** 300 Many geth vessels are built to explore, mine, or provide transport between factories and space stations. But every geth ship, regardless of purpose, is also capable of engaging hostile forces. Unbound by the Treaty of Farixen, the synthetic intelligences built almost as many dreadnoughts as the Turians \\[sic]. The software running these ships is in the geth themselves. Highly advanced electronic security measures and cyber warfare suites bolster already formidable firepower. UPDATED (If geth heretics were rewritten during Legion: A House Divided, and if peace was achieved or the geth defeated the quarians during Priority: Rannoch) **Military Strength:** 150 Rewriting the geth heretics significantly boosted the processing power of the \"true\" geth. Their increased strength made their fleets both more efficient, and more lethal, in battle. UPDATED Requires: During the third and final interview with Diana Allers, after Rannoch, Shepard must choose the renegade choices. **Military Strength:** 5 After Commander Shepard's interview with Diana Allers assuring her viewers that the geth can be trusted, Alliance officials grudgingly sent over Thanix cannons for the geth fleet. UPDATED (If geth heretics were destroyed during Legion: A House Divided, and if peace was achieved or the geth defeated the quarians during Priority: Rannoch) **Military Strength:** \\-150 Deleting the geth heretics depleted geth numbers, giving the quarians an advantage when their flotilla began the assault on Rannoch. As a result, damage to the quarian fleet is not as extensive as projections estimated.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Geth",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "scene:alarei-rael-zorah-body#03",
+      "kind": "scene",
+      "page": "Retaking the Alarei, and Finding Rael'Zorah",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "alarei-rael-zorah-body",
+      "text": "Retaking the Alarei, and Finding Rael'Zorah. 2185, during Tali's trial at the Migrant Fleet, the hearing recessed a shuttle from the Rayya, then the geth-overrun quarian lab ship Alarei At a wall console Tali confronts what the research was for: her father's dangerous work was tied to his promise to build her a house on the reclaimed homeworld. Shepard can argue for pressing the reclamation of Rannoch or for letting that dream go.",
+      "url": "",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "summary:tikkun",
+      "kind": "summary",
+      "page": "Tikkun",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tikkun was the quarian home star system, reachable in Mass Effect 3 after Priority: Perseus Veil. Before the Morning War it had a conventional layout: a homeworld, helium-3 fuel infrastructure on a gas giant, and several planets used for resource extraction. In the centuries after the quarians were driven out, the geth slowly built a Dyson bubble around the star, part of their plan to construct a megastructure large enough to house every geth program in existence.\n\nThe system contained the planets Rannoch (first planet and the quarian homeworld), Adas (second), Kaddi (third), and Haza (fourth), plus the asteroid Uriyah, along with a mass relay, a Geth Debris Field, a Geth Dreadnought, and the anchored Migrant Fleet. During the geth-quarian war of 2186, every world in the system became a battlefield; both sides took heavy damage on and around these planets, and much of the geth Dyson bubble was reduced to ruin. Missions set here included Priority: Geth Dreadnought, Rannoch: Geth Fighter Squadrons, Rannoch: Admiral Koris, and Priority: Rannoch.\n\nThe name derives from Hebrew: \"tikkun\" means \"a fix\" or \"correction,\" and appears in the phrase \"tikkun olam,\" meaning \"healing and restoring the world.\" Several worlds in the system followed a naming scheme based on Jewish culture and belief.",
+      "url": "https://masseffect.fandom.com/wiki/Tikkun",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "gotha_004",
+      "kind": "page",
+      "page": "Gotha",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Gotha is likely named after one of the two capital cities of the former combined duchy of Saxe\\-Coburg and Gotha (the other being Coburg), which was ruled by the now\\-defunct House of Saxe\\-Coburg and Gotha from 1826\\-1918\\. - The House is still the ruling house of the UK and Belgium in the present day (as the House of Windsor and House of Belgium, respectively).",
+      "url": "https://masseffect.fandom.com/wiki/Gotha",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "scene:elysium-skarr-grissom-attack#02",
+      "kind": "scene",
+      "page": "Skarr Attacks Grissom's House",
+      "section": "argument",
+      "game": "Mass Effect",
+      "scene_id": "elysium-skarr-grissom-attack",
+      "text": "Skarr Attacks Grissom's House. 2165, Elysium, during the Sidon investigation Jon Grissom's house on Elysium Skarr, the krogan Battlemaster hired by Edan Had'dah to kill Kahlee, tracked her to Grissom's house. Skarr burst into the house and was surprised to find a shotgun-wielding Grissom and David Anderson. Skarr injured Grissom with his boot knife as Grissom tried to fight him off.",
+      "url": "",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "scene:elysium-skarr-grissom-attack#04",
+      "kind": "scene",
+      "page": "Skarr Attacks Grissom's House",
+      "section": "argument",
+      "game": "Mass Effect",
+      "scene_id": "elysium-skarr-grissom-attack",
+      "text": "Skarr Attacks Grissom's House. 2165, Elysium, during the Sidon investigation Jon Grissom's house on Elysium Saren Arterius, who had been tracking Skarr, arrived at the house and intervened in the fight. Skarr was overwhelmed and fled. When pressed by Anderson to follow the krogan, Saren declined, claiming that only an idiot would fight a krogan biotic one-on-one.",
+      "url": "",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "tikkun_009",
+      "kind": "page",
+      "page": "Tikkun",
+      "section": "Rannoch",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Rannoch** is the *first* planet orbiting the star Tikkun. *Main article: Rannoch* - *Mission:* Rannoch: Geth Fighter Squadrons - *Mission:* Rannoch: Admiral Koris - *Mission:* Priority: Rannoch - *Mission:* Citadel: Target Jamming Technology - *Mission:* Citadel: Reaper Code Fragments",
+      "url": "https://masseffect.fandom.com/wiki/Tikkun",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "summary:war-assets-geth",
+      "kind": "summary",
+      "page": "War Assets/Geth",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This war-asset list collected the forces contributed by the geth after they allied with organics against the Reapers. All geth assets required completing Priority: Rannoch by choosing the geth's side; if Admiral Han'Gerrel was also convinced to cease fire, the quarian assets could be kept as well.\n\nThe Geth Corps (300) represented geth infantry: every platform was armed, shielded and combat-ready, sharing enemy tactics and positions instantaneously and using expendable turrets and drones to minimize losses of networked platforms, making it the largest and best-equipped infantry in the galaxy. A Paragon interview with Diana Allers after Rannoch added 5 as the Council sent rare materials to upgrade geth ground units.\n\nThe Geth Fleet (300) noted that every geth vessel, whatever its purpose, could fight, and that being unbound by the Treaty of Farixen the geth had built almost as many dreadnoughts as the turians, with the geth themselves serving as the ships' software and cyber-warfare suites. If the geth heretics were rewritten during Legion: A House Divided and peace was achieved (or the geth won), the fleet gained 150 from the added processing power; if the heretics were destroyed instead, it lost 150. A Renegade Allers interview added 5 as the Alliance sent Thanix cannons.\n\nThe Geth Prime Platoon (60) required Rannoch: Geth Fighter Squadrons plus siding with the geth or forcing a compromise. Geth primes housed more programs than other platforms and acted as mobile networking hubs, boosting and coordinating nearby geth; because destroying a prime lowered other geth's processing power, prime platforms were heavily shielded and armed.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Geth",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "mass-effect-3-guide_013",
+      "kind": "page",
+      "page": "Mass Effect 3 Guide",
+      "section": "Priority: Geth Dreadnought",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- N7: Fuel Reactors - Rannoch: Admiral Koris - **Main Plot Progression:** Unlocks the main plot mission Priority: Rannoch. - **Progress\\-Sensitive Mission:** This mission expires if not completed before Priority: Rannoch. - Rannoch: Geth Fighter Squadrons - **Main Plot Progression:** Unlocks the main plot mission Priority: Rannoch. - **Progress\\-Sensitive Mission:** This mission expires if not completed before Priority: Rannoch.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3_Guide",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "heretic-station_003",
+      "kind": "page",
+      "page": "Heretic Station",
+      "section": "Missions",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- *Mission:* Legion: A House Divided",
+      "url": "https://masseffect.fandom.com/wiki/Heretic_Station",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "the-phoenix-massing_004",
+      "kind": "page",
+      "page": "The Phoenix Massing",
+      "section": "Missions",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- *Mission:* Legion: A House Divided",
+      "url": "https://masseffect.fandom.com/wiki/The_Phoenix_Massing",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "rannoch_005",
+      "kind": "page",
+      "page": "Rannoch",
+      "section": "Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Citadel: Reaper Code Fragments - *Mission:* Citadel: Target Jamming Technology - *Mission:* Priority: Rannoch - *Mission:* Rannoch: Admiral Koris - *Mission:* Rannoch: Geth Fighter Squadrons",
+      "url": "https://masseffect.fandom.com/wiki/Rannoch",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "summary:rannoch",
+      "kind": "summary",
+      "page": "Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Rannoch was the former quarian homeworld, the first planet of the Tikkun system in the Perseus Veil. It orbited an older orange star about 90% the mass of Sol and half as luminous, but because it formed closer to its star and had slightly less ocean coverage it was arid by Earth standards, with photosynthetic life concentrated around rivers and oceans and large deserts between. The importance of plant life and shade in ancient quarian culture is reflected in the planet's name, which translates as \"walled garden.\" Reaching Rannoch in Mass Effect 3 required the mission Priority: Perseus Veil.\n\nAlmost three hundred years before the games, the quarians were driven from Rannoch by the geth, synthetic servants who gained sapience and rebelled against their creators. Rannoch became largely uninhabited, though the geth acted as caretakers, repairing the planet's ecology, restoring ancient structures, and cultivating farmland. Thousands of geth space stations watched over the planet, and the geth armada lurked among them awaiting a chance to counterattack. Rannoch had no insect life, so its pollinating plants evolved to rely on animals for propagation; this flora-fauna symbiosis is blamed for the quarians' weakened immune systems, which made colonizing other worlds extremely difficult after their exile, making reclamation of Rannoch a cultural and physiological necessity.\n\nNative lifeforms included the qorach, a carnivorous bighorn-sheep analogue whose belly was always coated in blue-green fern pollen and seed casings, whose blind newborn was called a ke'sed; the lemek worm, a planarian analogue covered in metallic rose-colored scales that could regrow from pieces; and the fa'yin, an edible nut dating to the era of the first proto-quarian beasts. Rannoch was the setting for the missions Priority: Rannoch, Rannoch: Admiral Koris, and Rannoch: Geth Fighter Squadrons.",
+      "url": "https://masseffect.fandom.com/wiki/Rannoch",
+      "for_key": "house on Rannoch"
+    },
+    {
+      "chunk_id": "summary:citadel-target-jamming-technology",
+      "kind": "summary",
+      "page": "Citadel: Target Jamming Technology",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Target Jamming Technology was a Mass Effect 3 mission acquired after Priority: The Citadel II and Rannoch: Admiral Koris. A turian C-Sec officer near Apollo's Cafe in the Presidium Commons was overheard over his comm unit asking for target-jamming technology to save lives in future attacks. The mission could alternatively begin during the search for Admiral Koris on Rannoch.\n\nThe Jamming Tower Data was retrieved from a terminal on the right side wall of the left AA Gun setup in the AA Gun Control facility on Rannoch; its parent mission became available only after Priority: Geth Dreadnought. If missed, the data could be bought for 1,000 credits, before discounts or markups, at the Spectre Requisitions terminal. Delivering it to the C-Sec officer gave 5 Reputation, 30 experience, and 1,000 credits, and updated the Citadel Defense Force War Asset.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Target_Jamming_Technology",
+      "for_key": "house on Rannoch"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/culture.md",
+      "line": 72,
+      "text": "- For quarians the word \"home\" carries exceptional weight after 300 years of exile; the greeting \"Keelah se'lai\" roughly means \"by the homeworld I hope to see one day,\" and Tali'Zorah calling Shepard her home meant more to her than saying \"I love you\" (source: Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion).",
+      "for_key": "tali calling shepard her home"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

@@ -1,0 +1,18 @@
+You said Noveria. [a beat] I mentioned it too, in the merc years — same trip, different room. [a short pause] Rift Station, where Binary Helix had a lab under the ice at Peak 15. You know what was in the tank down there. You were standing next to me when the lights came up on it. [flat, low] What I never told you is what it did to me — a live queen, breathing, [a beat] when every drop of krogan blood in me was screaming that nothing of hers should still be drawing air anywhere in this galaxy, [a short pause] and my people paid for that in bodies for a hundred years.
+
+[half-asleep, drifting] Hn.
+
+[voice flat, picking the thread back up] A rachni queen. [a beat] Thawed out of an egg some corporation pulled off a derelict, drifting since the war. Wanted a worker to clone into an army, got a queen instead — took her hatchlings away to raise "obedient," not knowing rachni young go insane without a queen's song in their heads. [a short pause] Brood broke loose, tore the facility apart, [a beat] while Benezia stripped Mu Relay coordinates from her memory with her biotics, [losing the thread, cut short] like the queen was a filing cabinet Saren had a—
+
+
+[jerking awake, picking up mid-thought] Hh. We killed Benezia. [a short pause] Then the queen spoke through a dead asari commando's mouth — only way anyone's heard one talk — asking forgiveness, saying the Rachni Wars weren't fully on her people, some sour note out of the black that turned queen after queen. Asked you to put her insane children down, and you did. [a beat] Then the real question: [a short pause] kill her with the acid tanks and finish her species, or let her go and try again.
+
+[flat, no hedging] I said kill her. [a beat] Flat, no hedging. Ashley agreed. [a short pause] Liara and Tali wanted her freed. [allowing it] Kaidan wouldn't come down either way — stood there weighing it, wanted to hear you first, which is Kaidan all over. Garrus wanted the Council told. [cutting it off] Wasn't a vote anyway. Your call, alone, [a beat] and every one of us knew it before we opened our mouths.
+
+[flat, bitter] A century of my people dying in rachni nests so the Council could sleep, [a beat] paid back with a homeworld and, later, a genophage. [the irony landing, still flat] Huff. My people burned that species off a hundred worlds, [a short pause] and here's the last of them apologizing through a corpse, asking to start over.
+
+[flat, letting it sit] [a long pause] You let her go.
+
+[grudging] Didn't agree then, [a short pause] won't say I've come all the way around now. [dry, contemptuous] The turian councilor called her a threat that might come back — [a beat] figured at least somebody up there had sense. [softening] She ran into Noveria's wilds talking about the kindness you'd shown her. [quiet, sincere] Meant it, too — years on, [a short pause] an asari courier on Illium brought back the queen's thanks, word of help against what was coming. [flat aside] Reapers, though none of us had a name for it yet.
+
+[marking a pause] Utukku's a story I'm saving, but this much for tonight — [a beat] Grunt went looking for a missing krogan scout team and found that queen again, alive, a Reaper's prisoner instead of a corpse. [quiet, sincere, unannounced] Turns out a species I was certain deserved what we did to it had something worth an enemy stealing. [a short pause] [gruff, deflecting] Heh. Not going to say you were right, Shepard. Takes more than one night. [a beat] [flat, sincere, the real point] But I stayed on your ship after the call I told you not to make, and I've been staying since, [a short pause] and I don't do that for a fool. [voice going, drifting toward sleep]

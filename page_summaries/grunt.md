@@ -1,0 +1,15 @@
+---
+title: Grunt
+url: https://masseffect.fandom.com/wiki/Grunt
+game: Mass Effect 3
+type: character
+characters: [Grunt, Okeer, Shepard, Jedore, EDI, Kelly Chambers, Urdnot Wrex, Wreav, Urdnot Dagg, Rachni Queen, Joker, Garrus, Tali, Ashley, James Vega, Cortez, Liara, Samantha Traynor]
+---
+
+Grunt was a genetically engineered krogan super soldier, bred and educated in a tank on Korlus by the krogan warlord Okeer. Okeer had once sought a cure for the genophage but grew disillusioned, believing it had reduced krogan identity to mere survival, and instead pursued a genetically perfect warrior. With Collector assistance he rejected thousands of flawed specimens before producing his ideal prototype, whose genome incorporated traits from renowned krogan including Shiagur, Kredak, Moro, Terg, Wrend, and Veeoll. Okeer died from toxins released by the Blue Suns mercenary Jedore, and Commander Shepard, who had come to recruit Okeer, instead took the tank aboard the Normandy SR-2.
+
+When Shepard released him, the newly awakened krogan pinned Shepard to a wall and demanded a name before killing the Commander. He took "Grunt" from one of the last words in Okeer's final message, saying, "It has no meaning. It'll do." Shepard could persuade him to join the mission against the Collectors or shoot him into submission. Lacking a krogan upbringing, Grunt was violent, impulsive, and prone to charging recklessly, but was a formidable asset for his strength and fighting prowess. He harbored doubt over being tank-bred, considering himself weak for being given strength, and often sought Shepard's guidance, calling Shepard "battlemaster" once loyal.
+
+For his loyalty, after Grunt became anxious and irrational, EDI or Kelly Chambers alerted Shepard; the condition was the krogan equivalent of puberty. Shepard took him to Tuchanka and Clan Urdnot, where he completed a Rite of Passage with Shepard as his krantt to earn clan membership.
+
+In Mass Effect 3, provided Grunt was released from his tank and survived the Collector base, he returned commanding Aralakh Company, Clan Urdnot's best unit. He helped Shepard investigate missing squads in the tunnels of Utukku, where they found a brood of rachni twisted by Reaper technology. If Shepard spared the Rachni Queen, Aralakh Company was left to cover her escape and was slaughtered, and Grunt died unless his loyalty had been secured; if Shepard abandoned the queen, Grunt ordered a retreat and survived regardless, limping out asking for food. A survived Grunt contributed to the war effort, sent a drunken misspelled message, and could speak to Shepard on Earth before the final push, thanking the Commander for getting him out of the tank. If Grunt survived, the genophage was cured, and organics and synthetics were not merged, he and a surviving Wrex were welcomed home to Tuchanka as heroes. If he died or was never freed, his role was filled by Urdnot Dagg. In the Citadel DLC, Grunt was detained by C-Sec after a drunken rampage, could fight in the Armax Arsenal Arena, and appeared at Shepard's party. Steve Blum voiced Grunt.
