@@ -1,0 +1,1526 @@
+{
+  "section": {
+    "id": "what-cerberus-made-me-for",
+    "title": "What Shepard Bought at Purgatory",
+    "target_words": 1200,
+    "form": "motivational",
+    "form_description": "A speech meant to move someone to act — the narrator talking Shepard (or whoever is listening) up off the floor and back into the fight. Sections are the rising beats of an address: the stakes named, the doubt named plainly, the evidence from a life lived that it can be done, the call. The narrator's own history is fuel for the exhortation, not the subject of it — but so is the listener's: the narrator holds up the other person's record as often as their own, since it's their record the speech is meant to land on.",
+    "form_note": "The brief is a speech, not a life story: Jack talking Shepard up in the last hour before the last push, using her own record as proof it can be done. Set after the Cerberus coup, the Citadel DLC shore leave, and the Cronos Station assault, this is the morning of the London conduit assault on Earth — everything is already staged (ships loaded, the plan set, the crew briefed), and the only thing left to do is get up and launch it. Jack is rousing Shepard right before he walks out to fight, not settling him in for the night. Romanced Jack per canon.choices (romance: Jack), consummated per jack_meeting/normandy-engineering scene at the end of ME2, with the Citadel DLC back tattoo. Note: choices.yaml's citadel_coup detail says Thane \"died protecting the dalatrass,\" but the event record (thane-krios-death-defending-the-salarian-councilor) and the coup scene (citadel-coup-csec-office-kai-leng) both have him dying for the Salarian Councilor — treating this as the user's shorthand slip, not a real contradiction, and writing it as the Councilor. Per Thomas's request, \"what-cerberus-made-me-for\" and \"the-kids-at-grissom\" were rebuilt off shared Shepard/Jack history and broader lore instead of the Teltin and Grissom backstory events: recruitment off the Purgatory prison ship (jack-recruitment-purgatory) plus the Jack/Miranda confrontation Shepard settled (jack_miranda_dispute: appeased both), and the Suicide Mission itself (Jack held the biotic barrier, all-survived outcome per suicide_mission canon). Pragia/Teltin and Grissom get at most a glancing bridging mention, never the anchor. Jack's framing of \"holding a barrier is a focus problem, not a strength problem\" and \"Cerberus bought a weapon and Shepard made a person\" are her own editorializing on the record, not new corpus facts.\nRevision per Thomas: Shepard's own AU record is now a load-bearing second thread, not a token mention. Jack is pitching HIM back to himself — every section now carries at least one beat where she cites something true of Shepard specifically as the proof, not just her own Purgatory/barrier/Brimstone/Murtock record. Sourced from config/canon/choices.yaml's Shepard AU overrides (Normandy-born, no parents, gang and drug problem before Anderson pulled him into N7; Sole Survivor of Akuze, the whole squad dead but him; Vanguard, biotic charge into the guns; alignment \"Paragon, except against oppressors\"; first name Thomas) plus the ME2/ME3 record most relevant to a focus-and-resolve pitch: Cerberus rebuilding him from a corpse via the Lazarus Project (a direct mirror to Jack's own tank), Mordin's death at the Shroud finishing the genophage cure, and Thessia — the one fight where Kai Leng actually got the better of him and walked off with Vendetta, which Jack uses as the counter-example, not the insult. Kai Leng's death at Cronos Station, days earlier in the same push on Cerberus's headquarters, closes the speech as proof the focus she's asking for is already proven, not a new trick.\nSecond revision per Thomas, correcting two errors: (1) the outline had previously let the closing section cite the Illusive Man's suicide as settled proof Jack could point back to. That confrontation happens on the Citadel, concurrent with or immediately after the London conduit assault itself — part of the endgame this speech is walking Shepard out the door toward, not something resolved before it. It has been cut entirely; Kai Leng's death at Cronos Station (a distinct, already-resolved event from the assault on Cerberus's headquarters, which happened before this morning) carries that closing beat on its own. (2) the whole episode was misdated as the evening before, ending in the two of them going to sleep. It is corrected throughout to the morning of the assault itself: the fleet is already massed, the plan already briefed, nothing left to prepare — Jack is waking Shepard and getting him moving, not tucking him in. No section still ends on rest; every \"tonight\"/\"tomorrow\" reference has been changed to \"today,\" \"now,\" or \"in the next hour,\" and \"The Last Quiet Night\" is renamed \"The Last Quiet Hour\" to hold the tattoo-and-sentiment beat inside a tense pre-launch hush instead of an evening of repose. The Crucible's final choice and Shepard's fate at the end of it remain deliberately left out: that hasn't happened yet either, and reaching for it would still be narrator omniscience, not something Jack could actually voice this morning.\nThis does not strain the form. `motivational`'s brief is explicit that \"the narrator's own history is fuel for the exhortation, not the subject of it\" — and Jack's whole method here is to make Shepard's history do exactly that work on Shepard himself: he's not telling her own story for its own sake, she's holding up his record as the evidence because a room full of only Jack's proof lets him nod along without it landing on him. Spine stays `mixed` — some sections anchor to Jack's own events/scenes, some to Shepard's, most to both at once, which is precisely what a speech that argues from the listener's own life looks like structurally. No change to form.\n",
+    "narrator": "jack"
+  },
+  "promises": [
+    "why Shepard buying her off a prison ship, on Cerberus's own dime, is the reason she owes Shepard anything at all",
+    "the fight with Miranda over Cerberus's excuses, and how Shepard kept them both without Jack backing down an inch",
+    "the detail that Kai Leng already tried to drag her back to Cerberus once and lost, years before he became the Illusive Man's knife",
+    "the pivot: Cerberus built a weapon, Shepard built someone who chooses to stay, and that choice is what she's asking Shepard to make again right now, today, before he's even out the door",
+    "the mirror Jack draws and doesn't let him dodge: Cerberus built her in a tank and rebuilt him from a corpse on a table, and both of them spat the gift back in Cerberus's face when it counted"
+  ],
+  "required_facts": [
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack, a human woman with a history of violence and unprecedented biotic power, has been held in cryostasis aboard the Purgatory, a notorious turian-operated prison ship. She is rumored to be the most powerful human biotic ever encountered, with a violent past that made her dangerous enough to require permanent cryo-imprisonment. Cerberus negotiates her release by paying an exorbitant fee to the turian operators. When Commander Shepard arrives at the prison to secure Jack's release, the turian Warden Kuril welcomes the Commander and gives a tour of the facilities while feigning cooperation. However, Kuril betrays Shepard over the facility's intercom, declaring that Shepard is too valuable to leave alive and ordering security forces to secure the Commander for a higher price. The prison erupts into chaos as security systems activate and rioting prisoners break free. Shepard fights through Blue Suns mercenaries, combat mechs (including FENRIS and YMIR variants), and rioting prisoners to reach the cryo-containment section. Upon release, Jack breaks her restraints and unleashes a massive biotic blast that destroys the four YMIR Mechs guarding her cell. She then smashes through a reinforced wall, triggering a series of catastrophic decompression events throughout the cellblock as Shepard pursues her toward an airlock. The Warden makes a final stand, armed with an M-76 Revenant and protected by a shield powered by three independent generators. Shepard must destroy each generator to bring down Kuril's shield, then neutralize the Warden. After Kuril's death, Jack reaches the airlock and eliminates the remaining guards. Upon boarding the Normandy SR-2, Jack becomes enraged at the sight of the Cerberus logo, her hatred of the organization boiling over. A batarian guard nearly assassinates her, but Shepard intervenes, shooting the attacker and proving her worth. Jack agrees to join Shepard in exchange for access to the Cerberus database aboard the Normandy to uncover the organization's secrets and find those responsible for her abuse. Her demands create conflict with Miranda Lawson and Jacob Taylor, both veteran Cerberus operatives. Jack takes up residence in the sub-deck below main engineering, establishing herself as a hostile presence until her loyalty is earned. As a consequence of releasing all prisoners to secure Jack, Shepard receives threatening communications from an escaped psychopath named Billy.",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack is freed from cryostasis and cryo-stasis system destroyed",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Warden Kuril and his security forces are killed",
+      "actor": "Warden Kuril"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "All prisoners held in the facility are released",
+      "actor": ""
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack joins Shepard's team",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack develops immediate hostility toward Miranda Lawson",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack demands access to Cerberus files aboard the Normandy",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack takes up residence in the sub-deck engineering area",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Jack becomes a powerful biotic asset for the suicide mission",
+      "actor": "Jack"
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "Escaped prisoner Billy sends threatening messages to Shepard",
+      "actor": ""
+    },
+    {
+      "event_id": "jack-recruitment-purgatory",
+      "fact": "The Purgatory is destroyed/abandoned",
+      "actor": ""
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "After Commander Shepard was killed in 2183 when a Collector cruiser destroyed the SSV Normandy SR-1 over Alchera, Cerberus recovered the body with Liara T'Soni's help and delivered it to the Illusive Man, who launched the Lazarus Project: a secret effort whose sole purpose was to bring Shepard back. Believing only Shepard could stop the coming Reaper harvest while the Council did nothing, the Illusive Man poured over four billion credits and two years of work into the project, operated by the Lazarus Cell under Miranda Lawson with her assistant Wilson at the Lazarus Research Station and Minuteman Station. The reconstruction used cybernetic implants to rebuild Shepard's skeleton, regrown skin, fluids to restart the organs and blood flow, and facial reconstruction; Shepard emerged having partly lost prior skills and talents. Miranda pressed to implant a control chip in Shepard's brain, but the Illusive Man refused, insisting Shepard be revived exactly as before, with no genetic or neural tampering - a claim later confirmed by Lazarus records recovered during the assault on Cronos Station. Cerberus also grew a secret clone of Shepard as a source of spare organs; it was never used during the revival. In 2185, with Shepard's neurological activity nearly restored, the Lazarus Station suffered a catastrophic security breakdown: its LOKI and YMIR security mechs, their IFF reprogrammed (Wilson was blamed, though he proved to be a traitor working for the Shadow Broker), turned on the personnel and killed most of the crew. Woken early and still incompletely reconstructed, Shepard armed up, fought through the hacked mechs, met and shot the wounded Wilson on Jacob Taylor's warning that Wilson was the saboteur, and escaped by shuttle with Miranda and Jacob during the mission Prologue: Awakening. A later Illusive Man report stated the compromised station was destroyed by remote detonation and a Cerberus team sent to erase any incriminating evidence.",
+      "actor": "Shepard"
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "Commander Shepard is brought back from the dead after two years, physically rebuilt with cybernetic implants",
+      "actor": "Shepard"
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "Shepard is revived without a control chip or genetic/neural tampering, at the Illusive Man's insistence",
+      "actor": "Shepard"
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "The Lazarus Research Station is overrun by reprogrammed security mechs and most of its staff are killed",
+      "actor": ""
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "Wilson is exposed as a traitor and shot dead during the escape",
+      "actor": "Wilson"
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "Shepard escapes with Miranda Lawson and Jacob Taylor and is brought into Cerberus's service against the Collectors",
+      "actor": "Shepard"
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "The Lazarus Station is destroyed by remote detonation to bury evidence of the project",
+      "actor": ""
+    },
+    {
+      "event_id": "lazarus-project-shepard-revival",
+      "fact": "A hidden Shepard clone remains in Cerberus storage, later used by Maya Brooks in the Citadel DLC",
+      "actor": "Shepard"
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "purgatory-jack-breakout",
+      "title": "Breaking Jack Out of Purgatory",
+      "kind": "mission-aside",
+      "game": "Mass Effect 2",
+      "when": "2185, after Freedom's Progress",
+      "where": "the turian prison ship Purgatory",
+      "participants": [
+        "Shepard",
+        "Jack",
+        "Warden Kuril",
+        "Miranda Lawson",
+        "Jacob Taylor"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "The Normandy docks at Purgatory, where Cerberus has paid for the release of the prisoner Jack. The turian station commander, Warden Kuril, welcomes Shepard, declines to take the squad's weapons, gives a short tour of Cellblock Two and its ejectable cells, then leaves to confirm the credit transfer.\n",
+          "source_chunks": [
+            "dossier-the-convict_004"
+          ]
+        },
+        {
+          "text": "At Outprocessing, Kuril betrays Shepard over the intercom — the Commander is too valuable to leave without a price tag — and activates the prison's defences.\n",
+          "source_chunks": [
+            "dossier-the-convict_004"
+          ]
+        },
+        {
+          "text": "Fighting through Blue Suns mercs, FENRIS and YMIR mechs, and rioting prisoners, Shepard reaches a security console and releases Jack from cryostasis. Jack breaks her restraints, destroys the four YMIR Mechs guarding her cell with a single biotic blast, and smashes a hole through the wall.\n",
+          "source_chunks": [
+            "dossier-the-convict_005"
+          ]
+        },
+        {
+          "text": "Kuril makes a final stand with an M-76 Revenant behind a shield fed by three generators. Shepard destroys the generators and kills him.\n",
+          "source_chunks": [
+            "dossier-the-convict_008",
+            "dossier-the-convict_009"
+          ]
+        },
+        {
+          "text": "Jack reaches the airlock and kills the guards. Seeing the Cerberus logo on the Normandy sends her into a rage; a batarian guard moves to ambush her and Shepard shoots him in the head.\n",
+          "source_chunks": [
+            "dossier-the-convict_010"
+          ]
+        },
+        {
+          "text": "Jack agrees to join in exchange for access to Cerberus files aboard the ship; Miranda and Jacob object. Back on the Normandy she demands the files, takes an immediate dislike to Miranda — \"the cheerleader\" — and settles into the sub-deck below main engineering.\n",
+          "source_chunks": [
+            "dossier-the-convict_010"
+          ]
+        },
+        {
+          "text": "Because freeing Jack required releasing every prisoner, Shepard receives a threatening email from an escaped psychopath named Billy.\n",
+          "source_chunks": [
+            "dossier-the-convict_011"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "normandy-jack-miranda-confrontation"
+      ],
+      "related_events": [
+        "jack-recruitment-purgatory"
+      ],
+      "source_chunks": [
+        "dossier-the-convict_004",
+        "dossier-the-convict_005",
+        "dossier-the-convict_008",
+        "dossier-the-convict_009",
+        "dossier-the-convict_010",
+        "dossier-the-convict_011"
+      ],
+      "private_to": [],
+      "requires": [],
+      "variants": []
+    },
+    {
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "title": "Jack and Miranda, Below Decks",
+      "kind": "argument",
+      "game": "Mass Effect 2",
+      "when": "2185, on return from Pragia, if Miranda's loyalty mission is already done",
+      "where": "aboard the Normandy SR-2",
+      "participants": [
+        "Shepard",
+        "Jack",
+        "Miranda Lawson"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "jack_loyalty": "any"
+        },
+        {
+          "miranda_loyalty": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Back aboard after Pragia, Shepard has to settle a fight between Jack and Miranda over Cerberus's part in what was done to Jack.\n",
+          "source_chunks": [
+            "jack_005",
+            "jack-subject-zero_010"
+          ]
+        },
+        {
+          "text": "Jack flings a chair across Miranda's office before Shepard breaks it up; Jack is furious that Miranda won't admit what Cerberus did to her was wrong. Ending it without alienating either of them takes a high Paragon or Renegade score — fewer Renegade points are needed than Paragon.\n",
+          "source_chunks": [
+            "jack-subject-zero_010"
+          ]
+        },
+        {
+          "text": "With enough points, both crewmembers keep their loyalty and any relationship already underway with either continues.\n",
+          "source_chunks": [
+            "jack-subject-zero_010"
+          ],
+          "conditional": {
+            "jack_miranda_confrontation": "both_kept"
+          },
+          "choice": "kept both Jack and Miranda"
+        },
+        {
+          "text": "Without enough points, Shepard alienates one of them, losing that crewmember's loyalty (recoverable later in conversation with a high enough score) and ending any romance with them for good; siding with Miranda costs Jack's trust this way, and siding with Jack costs Miranda's.\n",
+          "source_chunks": [
+            "jack-subject-zero_010",
+            "jack_005"
+          ],
+          "conditional": {
+            "jack_miranda_confrontation": "sided_with_one"
+          },
+          "choice": "sided with one — the other alienated"
+        }
+      ],
+      "related_scenes": [
+        "pragia-jack-teltin-facility",
+        "citadel-party-apartment"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "jack_005",
+        "jack-subject-zero_010"
+      ],
+      "variants": []
+    },
+    {
+      "scene_id": "cerberus-facility-kai-leng-rasa-fail-to-catch-jack",
+      "title": "Jack Throws Kai Leng Across a Cerberus Training Facility",
+      "kind": "mission-aside",
+      "game": "Mass Effect 2",
+      "when": "before the Reaper war, during Mass Effect Foundation",
+      "where": "a wrecked Cerberus biotic training facility, near its main reactor",
+      "participants": [
+        "Kai Leng",
+        "Rasa",
+        "Jack"
+      ],
+      "private_to": [],
+      "heard_by": [],
+      "requires": [
+        {
+          "game": "Mass Effect 2"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Someone has blown up a Cerberus training facility, and the Illusive Man sends Kai Leng and the agent Rasa — a pairing Leng resents — to bring the culprit in. Leng says he will handle it and Rasa is only there to write up the aftermath. On arrival they spot Blue Suns ships in the hangar and realize the mercs are a containment crew in case the agents fail. The target is Jack.\n",
+          "source_chunks": [
+            "kai-leng_008",
+            "maya-brooks_007"
+          ]
+        },
+        {
+          "text": "They find Jack by the reactor, just after she has cut down a group of Blue Suns. Leng draws his sword and threatens her; her biotics knock him flat. He comes at her from above and behind instead; she senses him and hurls him further away. By the time he digs his stuck sword loose, the Blue Suns' krogan leader has clubbed Jack unconscious from behind and carried her off to be ransomed to the Illusive Man.\n",
+          "source_chunks": [
+            "kai-leng_008",
+            "storyline-ii_017"
+          ]
+        },
+        {
+          "text": "Leng calls the whole thing \"a colossal waste of time.\" Rasa disagrees — at least the Illusive Man now knows what Subject Zero can do. On the shuttle out Leng blames Rasa for Jack's escape and warns her never to be assigned with him again.\n",
+          "source_chunks": [
+            "kai-leng_008",
+            "kai-leng_009"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "purgatory-jack-breakout"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "kai-leng_008",
+        "kai-leng_009",
+        "maya-brooks_007",
+        "storyline-ii_017"
+      ],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "purgatory-jack-breakout": "witnessed",
+    "normandy-jack-miranda-confrontation": "witnessed",
+    "cerberus-facility-kai-leng-rasa-fail-to-catch-jack": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "blue-suns_010",
+      "kind": "page",
+      "page": "Blue Suns",
+      "section": "Purgatory",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Blue Suns also own the maximum security prison Purgatory. The prison is run by Warden Kuril who claims that Purgatory is for \"the good of the galactic community\", despite the harsh methods used to maintain order, including carrying out torture, beatings and even murder (blowing prisoners out of airlocks as examples). Prisoners are also sold to vengeful victims/relatives or to groups with large enough finances, such as Cerberus. The Blue Suns have a substantial presence within the prison and have utilized several YMIR Mechs to act as heavy\\-hitters in case a riot broke out. The prison is known to hold the most dangerous criminals in the galaxy. The Blue Suns agree to keep them imprisoned only if their home planets agree to continually pay for their incarceration. Failure to pay is grounds for releasing the inmate at an unknown time and place on their homeworld; considering inmates like Jack inhabit the prison, most worlds presumably pay. Shepard will travel to Purgatory to recruit Jack, who has been purchased by Cerberus from the Blue Suns. Early on, Warden Kuril betrays Shepard, attempting to imprison the Commander, who he states is more valuable as a prisoner than a customer, leading to a fight breaking out between Shepard's team and Kuril's Blue Suns, with Shepard eventually releasing the entire cell block in order to free Jack from cryo containment. This causes a full\\-scale riot throughout the ship, with the Blue Suns attempting to restore control, kill Shepard and re\\-capture Jack. They ultimately fail with Shepard killing Kuril and Jack joining the Commander’s crew. Cerberus then retracts the funds they paid. A news report reveals that the Purgatory was destroyed, with the Blue Suns losing yet another piece of influence.",
+      "url": "https://masseffect.fandom.com/wiki/Blue_Suns",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#01",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory The Normandy docks at Purgatory, where Cerberus has paid for the release of the prisoner Jack. The turian station commander, Warden Kuril, welcomes Shepard, declines to take the squad's weapons, gives a short tour of Cellblock Two and its ejectable cells, then leaves to confirm the credit transfer.",
+      "url": "",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "purgatory_001",
+      "kind": "page",
+      "page": "Purgatory",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | *This article is about the prison ship in Mass Effect 2\\. For the nightclub on the Citadel in Mass Effect 3, see Purgatory Bar.* | | --- | --- | **Location:** Milky Way / Hourglass Nebula / Osun |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | **Purgatory** is a maximum security prison starship owned and run by the Blue Suns. Warden Kuril is the current facility administrator. Purgatory is where Commander Shepard can recruit Jack, a dangerous and highly unstable biotic.",
+      "url": "https://masseffect.fandom.com/wiki/Purgatory",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "warden-kuril_001",
+      "kind": "page",
+      "page": "Warden Kuril",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Warden Kuril** is the turian warden of the Blue Suns prison ship Purgatory. Originally a law enforcement officer on Palaven, Kuril left after having grown tired of criminals always escaping. He joined up with the Blue Suns and came up with the idea of keeping criminals in space, where they can't escape. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | When Commander Shepard visits the Purgatory in order to retrieve Jack, Kuril gives the Commander a tour of the ship. He tells Shepard to go to Outprocessing to pick up Jack. When Shepard opens the door, Kuril reveals that he has betrayed Cerberus and orders the mercenaries to capture and hold Shepard for ransom. When Shepard releases Jack from cryo, the psychotic biotic goes on a rampage, wrecking prison blocks as she goes. Seeing that Shepard is too much trouble, Kuril decides to kill the Commander. When they come face\\-to\\-face, Shepard accuses him of being a \"two\\-bit slaver\". Kuril shouts back that he's doing everything for the good of the galaxy. Despite his being protected by shield generators, Shepard manages to kill Kuril.",
+      "url": "https://masseffect.fandom.com/wiki/Warden_Kuril",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "purgatory_005",
+      "kind": "page",
+      "page": "Purgatory",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Upon arrival at the Purgatory, Shepard is informed that the \"package\" is being prepared. Warden Kuril indicates that Cerberus paid for Jack's release. Shepard is directed to the Outprocessing area of the ship. On the way to Outprocessing, Shepard has the opportunity to stop the brutal interrogation of a prisoner called Bimmy before moving on. At that point, Warden Kuril betrays Shepard, explaining over the intercom that the Commander is \"worth more as a prisoner than a customer\" and sics the Blue Sun guards on Shepard's squad. Shepard and the team manage to fight them off and then release Jack, who goes on a brutal rampage throughout the prison causing catastrophic damage. By the time Shepard faces and kills Kuril, the prison has endured significant structural damage, and is falling apart. In the aftermath, the Council sends rescue ships to save any guards or prisoners that survive in escape pods.",
+      "url": "https://masseffect.fandom.com/wiki/Purgatory",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "starships-list_085",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Purgatory",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Purgatory* Class Prison Ship Affiliation Blue Suns A former ark ship captured by the Blue Suns and converted to hold prisoners. Destroyed by Jack in 2185\\. Commanded by Warden Kuril. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#02",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory At Outprocessing, Kuril betrays Shepard over the intercom — the Commander is too valuable to leave without a price tag — and activates the prison's defences.",
+      "url": "",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#05",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Jack reaches the airlock and kills the guards. Seeing the Cerberus logo on the Normandy sends her into a rage; a batarian guard moves to ambush her and Shepard shoots him in the head.",
+      "url": "",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#04",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Kuril makes a final stand with an M-76 Revenant behind a shield fed by three generators. Shepard destroys the generators and kills him.",
+      "url": "",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "summary:warden-kuril",
+      "kind": "summary",
+      "page": "Warden Kuril",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Warden Kuril was the turian warden of the Blue Suns prison ship Purgatory. Originally a law enforcement officer on Palaven, Kuril grew frustrated with criminals repeatedly escaping custody, so he left and joined the Blue Suns, conceiving the idea of holding prisoners in space where escape was impossible. He was one of the few \"barefaced\" turians seen in the series, and was voiced by Fred Tatasciore.\n\nWhen Commander Shepard came aboard Purgatory to recruit the biotic prisoner Jack, Kuril gave Shepard a tour and directed the Commander to Outprocessing to collect Jack. When Shepard opened the door, Kuril revealed he had betrayed Cerberus and ordered his mercenaries to capture and hold Shepard for ransom. Shepard instead released Jack from cryo; the biotic went on a rampage that wrecked prison blocks as she fought her way out. Deciding Shepard was too much trouble, Kuril chose to kill the Commander. In the confrontation Shepard called him a \"two-bit slaver,\" and Kuril shouted that everything he did was for the good of the galaxy. Despite being protected by three external shield generators, which had to be destroyed before he could be harmed, Kuril was killed by Shepard.\n\nIn combat Kuril was one of the few NPCs armed with the M-76 Revenant, which he fired accurately, especially on higher difficulties, though he had no offensive powers. He relied on strong armor and shields, Tech Armor that could fully restore his shields once (only after his armor was gone), the three external shield generators, and elevated cover with no approach path, forcing engagement strictly at range. The page recommends disruptor and overload effects against his shields, incineration against his armor, flashbang or inferno grenades to prevent his shield restore, and heavy weapons such as the M-490 Blackstorm or M-920 Cain to end the fight quickly, and advises clearing the waves of Blue Suns Troopers, Centurions and Commanders before destroying the generators.",
+      "url": "https://masseffect.fandom.com/wiki/Warden_Kuril",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "blue-suns_019",
+      "kind": "page",
+      "page": "Blue Suns",
+      "section": "Known Members",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Solem Dal'serah \\- Head of Operations of the Blue Suns in 2185\\. - Vido Santiago \\- Co\\-Founder and leader of the Blue Suns in 2185\\. - Zaeed Massani \\- Co\\-Founder and former leader of the Blue Suns. - Darner Vosque \\- Leader of the Blue Suns in 2186\\. - Tarak \\- Commander of the Blue Suns on Omega. - Jentha \\- Officer of the Blue Suns on Omega. Answers to Tarak. - Salkie \\- Officer in charge of logistics on Omega. Answers to Tarak. - Jedore \\- Commander and contributor to Okeer's krogan cloning project on Korlus. - Warden Kuril \\- Commander of the Purgatory prison ship. - Sergeant Cathka \\- Engineer and maintenance man for Tarak's gunship. - Lieutenant Locke \\- Officer in charge of raid of Prothean dig site on Joab. - Sergeant Boortis \\- Hijacker of the MSV Strontium Mule. - Captain Vorhess \\- Hijacker of the MSV Strontium Mule. - Captain Narom \\- Commander of the Blue Suns base on Sanctum. - Jace Reyn \\- Former Blue Suns soldier loyal to Zaeed.",
+      "url": "https://masseffect.fandom.com/wiki/Blue_Suns",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_024",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Purgatory",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The prison ship *Purgatory* has long arms where staff and utilities are located. The prisoners are housed in the body of the ship, which resembles a fish's skeleton. *Purgatory*'s interior emphasizes the division between the guards and the prisoners\\-\\-the guards walk in the armored glass hallways, while the prisoners are in courtyards. Jack, one of the galaxy's most powerful biotics, was kept in a cryogenic cell for the ultimate in solitary confinement.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "summary:purgatory",
+      "kind": "summary",
+      "page": "Purgatory",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Purgatory was a maximum-security prison starship owned and run by the Blue Suns mercenary company, located in the Milky Way's Hourglass Nebula around Osun. Its facility administrator was Warden Kuril. It was where Commander Shepard could recruit Jack, a dangerous and highly unstable biotic, during the mission Dossier: The Convict.\n\nOriginally an \"ark ship\" built to carry agricultural animals, Purgatory was seized by the Blue Suns during a large-scale battle in the Skyllian Verge, then rebuilt over years into a prison for sapient inmates. Rumors held that the Blue Suns sold skilled or fit prisoners to batarian slavers. When media investigated the slaving claims, the Blue Suns turned the scandal into income: claiming full compliance with Citadel law, Purgatory's crew would land at ports announcing they could no longer afford to hold prisoners and would have to release them locally, prompting governments to grant massive discounts on fuel, food and repairs to make them leave, and some even paid to offload their own prisoners. The listed population was 4,350, though journalists estimated nearly three times that during overcrowding. The ship was minimally armed with GARDIAN defenses and relied on Blue Suns fighters. It held about 30 blocks of stacked, movable cells serviced by mechanized claws, with open-air communal showers and field-generator towers to separate fighting inmates. A fork in the walkways led to a supermax wing of criminals in cryogenic stasis, where Jack was held under guard by multiple YMIR Mechs.\n\nOn Shepard's arrival, Kuril said Cerberus had paid for Jack's release and directed Shepard to Outprocessing, where Shepard could intervene in the brutal interrogation of a prisoner called Bimmy. Kuril then betrayed Shepard over the intercom, declaring the Commander \"worth more as a prisoner than a customer,\" and set the Blue Suns guards on the squad. Shepard fought through and released Jack, who went on a destructive rampage. By the time Shepard killed Kuril, the prison was falling apart from structural damage. Afterward the Council sent rescue ships for any survivors in escape pods.",
+      "url": "https://masseffect.fandom.com/wiki/Purgatory",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "storyline-ii_034",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Recruiting a Team",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Illusive Man initially provides Shepard with four dossiers regarding potential recruits: a salarian scientist, a mysterious vigilante called Archangel, a krogan warlord, and a powerful but psychotic biotic. The salarian, Mordin Solus, is found on Omega and is working to stop a plague engineered by the Collectors but distributed throughout Omega by the vorcha. The vigilante Archangel is also on Omega, holding out on his own in a battle against three mercenary gangs. After reaching Archangel's hideout, Shepard learns that Archangel is actually Garrus Vakarian, a former C\\-Sec agent. Garrus is seriously injured while battling the mercenaries, and, although he is permanently disfigured, he survives and joins the team. The krogan warlord, Okeer, is found on Korlus attempting to create the perfect krogan through unethical genetic research. When the warlord is killed, he leaves his creation, Grunt, under the care of Shepard. The biotic, known as \"Subject Zero\", is revealed to be a human woman named Jack. Cerberus arranges for her to be purchased from the prison holding her; Shepard travels to the Purgatory prison ship. Once there, however, Shepard is betrayed by the warden as he attempts to capture Shepard for a bounty. Shepard manages to escape the trap and rescue Jack, who joins the team despite an initial distrust of Cerberus operatives.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "summary:dossier-the-convict",
+      "kind": "summary",
+      "page": "Dossier: The Convict",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Dossier: The Convict\" was a Mass Effect 2 recruitment mission acquired after Freedom's Progress. The dossier described Jack (no last name known) as rumored to be the most powerful human biotic ever encountered, with a history of violence, held in cryostasis aboard the turian prison ship Purgatory, whose operators Cerberus had paid for the prisoner's release. On arrival, the turian station commander Warden Kuril welcomed Shepard, gave a tour of Cellblock Two, and left to confirm the credit transfer. At Outprocessing, Kuril betrayed Shepard over the intercom, declaring the Commander too valuable to leave without a price tag, and activated the prison's defenses.\n\nFighting through Blue Suns mercenaries, FENRIS and YMIR mechs, and rioting prisoners, Shepard reached a security console and released Jack from cryostasis. Jack broke her restraints, destroyed the four YMIR Mechs guarding her cell with a massive biotic blast, and smashed a hole through the wall, triggering a chase through decompressing cellblocks. Kuril, using an M-76 Revenant and protected by a shield powered by three generators, made a final stand; Shepard destroyed the generators and killed him, ending the mission.\n\nJack reached the airlock, killed the guards, and was enraged on seeing the Cerberus logo on the Normandy. A batarian guard nearly ambushed her before Shepard shot him. Jack agreed to join in exchange for access to Cerberus files aboard the ship; Miranda and Jacob objected. Back on the Normandy, Jack demanded the files and immediately developed a dislike for Miranda, whom she called \"the cheerleader.\" She took up residence in the sub-deck below main engineering. Because all prisoners had to be released to free Jack, Shepard received a threatening email from an escaped psychopath named Billy. Rewards included element zero, credits, and Ablative VI (Damage Protection) and Synchronized Pulsar (Shotgun Damage) upgrades. The mission was written by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Convict",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "summary:blue-suns",
+      "kind": "summary",
+      "page": "Blue Suns",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Blue Suns were a \"private security organization\" that was in reality a ruthless, discreet, and expensive mercenary outfit operating in the Skyllian Verge. Members bore a blue sun tattoo, removed with acid wash during high-risk jobs. The group was mostly batarian, turian, and human, and used YMIR, FENRIS, and LOKI mechs. It was founded in 2160 by Zaeed Massani and Vido Santiago as a protection racket, Zaeed leading the men and Vido handling administration. A dispute over hiring batarians led to a 2165 power struggle in which Vido seized control and nearly killed Zaeed. Vido then hired batarians freely and installed Solem Dal'Serah as the public head of operations while remaining hidden as \"Co-Executive Officer.\"\n\nIn Mass Effect: Revelation (2165), the Suns were hired by Edan Had'dah for the Sidon raid; Saren Arterius killed several, including Groto Ib-ba, during his investigation, and Suns under Skarr captured Kahlee Sanders before dying when an element zero refinery was destroyed. In Incursion (2183) a Suns–Collector exchange of humans on Omega was wiped out by Aria T'Loak. In Redemption the Suns recovered Commander Shepard's body from Alchera for the Shadow Broker but were ambushed by Liara T'Soni and Feron. In Foundation the Illusive Man hired Suns as a containment crew during Subject Zero's rampage.\n\nIn Mass Effect 2 (2185) Shepard repeatedly clashed with the Suns: they controlled Omega's Gozu District until the plague weakened their non-human members; they besieged Archangel (Garrus Vakarian) alongside Eclipse and Blood Pack under coordinator Tarak, aided by Sidonis's betrayal, and were destroyed with Tarak's gunship. The Suns ran the Purgatory prison under Warden Kuril, who betrayed Shepard during Jack's recruitment and was killed. Suns officer Jedore funded Okeer's krogan project on Korlus and killed him. On Zorya, Zaeed pursued Vido Santiago through a Blue Suns-controlled refinery. Other operations included Harkin's Citadel racket, Prothean dig-site raids on Joab and Kopis, and pirate raids via the MSV Strontium Mule and Sanctum base. In Mass Effect 3 (2186), with Aria's help Shepard secured the allegiance of the Citadel Blue Suns under Darner Vosque, who had been raiding C-Sec weapons shipments and targeting General Septimus Oraka.",
+      "url": "https://masseffect.fandom.com/wiki/Blue_Suns",
+      "for_key": "the Purgatory prison ship and Warden Kuril's betrayal of Shepard"
+    },
+    {
+      "chunk_id": "jack_005",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I want to go to the center of the place, my cell. I want to deploy a big fucking bomb. And I want to watch from orbit when it goes.” *Main article: Jack: Subject Zero* After looking through her files, Jack wants to deploy a bomb at the Teltin facility on Pragia, where Cerberus conducted their experiments on her. Shepard takes Jack to the facility, unexpectedly encountering Blood Pack mercenaries. After fighting through the mercs, they find another test subject, Aresh. Aresh hired the mercs to restore the Teltin facility in exchange for salvage. Jack wants to kill him, but Shepard has the option to stop her. The two plant the bomb in Jack's cell, and use the shuttle to escape before detonation. If Miranda's loyalty mission has already been completed, once Shepard returns to the Normandy, Shepard will have to resolve a dispute between Jack and Miranda regarding the involvement of Cerberus in Jack's torture. Shepard can resolve the conflict without picking a side, in which case, both Jack and Miranda agree to put off their fight until after the mission with the Collectors is over. If Shepard sides with Miranda, then the Commander will lose Jack's loyalty, but has the opportunity to regain her loyalty in a later conversation. In addition, if Shepard was in a romance with Jack, and sided with Miranda, then Jack will break off the relationship and will refuse to rekindle it.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#07",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck If Shepard sleeps with her early, Jack cuts the conversation off — \"nothing to talk about\" — and the trust is broken.",
+      "url": "",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "scene:normandy-sr2-collectors-board-joker#03",
+      "kind": "scene",
+      "page": "The Normandy Attacked - Joker and EDI Alone Aboard",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-sr2-collectors-board-joker",
+      "text": "The Normandy Attacked - Joker and EDI Alone Aboard. 2185, while the Reaper IFF is being installed and Shepard's team is away on a shuttle mission the Normandy SR-2, boarded in orbit Unarmed and barely able to walk, Joker crosses the length of the ship along the guide lights, past Collectors, Scions and a Praetorian, watching crewmen Hadley and Hawthorne and Yeoman Kelly Chambers dragged off, to reach the AI Core and release EDI's locks, then restarts the drive core in engineering.",
+      "url": "",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#03",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Fighting through Blue Suns mercs, FENRIS and YMIR mechs, and rioting prisoners, Shepard reaches a security console and releases Jack from cryostasis. Jack breaks her restraints, destroys the four YMIR Mechs guarding her cell with a single biotic blast, and smashes a hole through the wall.",
+      "url": "",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "ben-hislop_002",
+      "kind": "page",
+      "page": "Ben Hislop",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben signed up to fight turians after his brother was killed during the aliens' bombardment of Shanxi's settlements. A master of munitions, he was a perfect recruit for Jack's prohumanity movement. Eventually he, Jack, and Eva formed a mercenary trio conducting guerrilla warfare under the employ of General Williams, and he served as Jack's right\\-hand man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "diseases_022",
+      "kind": "page",
+      "page": "Diseases",
+      "section": "Neural Decay",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- **Affected species**: humans, krogan - **Characteristics**: A degenerative neurological disorder that progressively reduces the cognitive capabilities of the victim, rendering them either compliant and docile or overly aggressive. Known ways of contracting the disease include eating anything from the local ecosystem of 2175 Aeia or prolonged periods in cryostasis. It is not a curable condition. Some recovery can be expected if the victim is weaned off the tainted food from Aeia, and in the distant Andromeda galaxy Dr. Lexi T'Perro can develop a serum that may hold off the symptoms.",
+      "url": "https://masseffect.fandom.com/wiki/Diseases",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "toni_002",
+      "kind": "page",
+      "page": "Toni",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "He is carried off into the Collector ship along with the rest of the colonists, thrusting Vega once again into leadership of the squad. Toni reawakens with the other colonists much later when the remnants of Delta Squad finally manage to infiltrate the Collector ship and release an antidote to the paralysis, approving of April's faith in his Lieutenant when the kid starts searching for the guy. He contacts Vega on his omni\\-tool and informs the man about the dire situation as Collector forces start attacking the colonists. Toni, along with some able\\-bodied men, apparently managed to procure Collector weapons, trying their best to defend the other colonists while waiting for James and his evac rescue. With little time remaining because the Collector ship is rapidly crashing back to the planet, Vega has to make a difficult choice between saving the people still stranded aboard the ship and saving the intel about the Collectors that can be used to save other human colonies. Toni never receives word from Vega regarding the situation but seemed to sense the turmoil in the young man's mind, urging Vega that his decision must come now or never. Vega steers the freighter he and Milque commandeered to save the intel, and Toni dies in the company of April and her mother Christine as the ship explodes on the surface of the planet, muttering \"God have mercy\" when he realizes the evac isn't coming. ##",
+      "url": "https://masseffect.fandom.com/wiki/Toni",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#06",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck On the Citadel, in the bathroom of the bar, Jack tells Shepard about being sexually assaulted in the Purgatory prison showers, and then hunting down and murdering every one of her attackers.",
+      "url": "",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "jack_004",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 2, see Squad Members Guide (Mass Effect 2\\)\\#Jack.* Eventually Jack was captured and imprisoned in the Blue Suns operated prison ship, Purgatory. During her time there, she was attacked by a group of guards and prisoners who raped her, despite her efforts at fighting back. Their victory was short\\-lived however, as Jack personally murdered every one of her attackers as soon as she healed. The incident led the Warden, eager for the amount of credits Jack could bring him from Cerberus and other buyers, to lock Jack in cryostasis, for both her and others' safety until Shepard's team came to buy her freedom. The tortures of Jack's time as Subject Zero and her subsequent life experiences have rendered her a borderline psychopath, with an unpredictably violent nature and a severely antisocial personality. She has an innate lust for violence, claiming to experience \"warm feelings during a fight\" due to her physiological conditioning as a child at Teltin (by shocking her for hesitating and stimulating her with drugs whenever she attacked). She has a tendency to spout profanities constantly in conversation and is very easily provoked. Her body is covered head\\-to\\-toe in elaborate tattoos and scars, some being remnants of her experimentation, while others mark prisons, kills, and major events in her life. Having been used and abused so many times by people in her life, Jack refuses to trust anyone and is clearly both angered and confused by Shepard's attempts at conversation, being unable to determine what the Commander wants from her. Yet underneath all of this, she is still frightened and tormented by memories of her past and longs for some kind of closure. She joins Shepard's team in exchange for Cerberus files detailing her experimentation at Teltin, after which she asks the Commander to help her destroy the now abandoned facility with a \"huge bomb\", symbolically planting it directly in the cell that was the source of all her misery.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "summary:ben-hislop",
+      "kind": "summary",
+      "page": "Ben Hislop",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben Hislop was a human mercenary and munitions master who appeared in Mass Effect: Evolution. He signed up to fight turians after his brother was killed during the turian bombardment of Shanxi's settlements during the First Contact War, and fought in the resistance on occupied Shanxi. Recruited into Jack Harper's prohumanity movement, he formed a mercenary trio with Jack and Eva Coré, conducting guerrilla warfare under the employ of General Williams, and served as Jack's right-hand man.\n\nOn Shanxi, Ben's unit ambushed a turian patrol and he personally fought and captured the turian general Desolas Arterius with Jack's help. He wanted to execute Desolas but Jack kept the general alive for interrogation. On a mission to find the artifact Desolas sought, Ben antagonized him while Jack's scheme defeated the turian subordinates. Reaching the artifact inside a cave, Ben and Jack were ambushed by hooded figures revealed to be cyberized turians, which proved freakishly strong. When Ben touched the artifact to try to shut it off, he was electrocuted; Jack pried him free but was also affected, leaving both incapacitated. Desolas seized them and ordered Ben's body taken for study.\n\nWhen Harper and Eva pursued Desolas to Illium, they found Ben alive but mutated into a synthetic form like the \"meta-turians.\" He retained some sense of his identity but followed orders from Desolas and Saren, bringing the artifact, the Arca Monolith, to Palaven, where Desolas tried to replicate Harper's enhancement without creating mindless husks. The artifact commanded Ben to excavate a second artifact to accelerate the transformation. When Eva tried to haul Ben out and then to destroy the artifact, it commanded Ben to slam her head against a wall, killing her. Coming to his senses, a horrified Ben charged Desolas and rammed him into the artifact before he could shoot Harper; Saren tore Desolas away. Prolonged contact with the released energy instantly killed Ben, and his body was later vaporized when Saren ordered an orbital bombardment of the temple. Harper later included Ben's and Eva's names in his manifesto as he became the Illusive Man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "dossier-the-convict_010",
+      "kind": "page",
+      "page": "Dossier: The Convict",
+      "section": "Escape and the Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack, however, has also been busy and has reached the airlock. The guards try to stop her, but her biotics take them down before they have a chance to even raise their weapons. Apparently, the large ship out the window draws Jack's interest, but she spots the Cerberus logo on the Normandy's bow planes. That sends her into a fit, allowing a batarian guard to sneak up on her, but before the guard can do anything he gets a shot in the head from Shepard's pistol. Jack spins around, and a conversation begins. If you have Jacob and/or Miranda, there are a few interesting comments from Jack during the conversation. You can earn a few morality points based on your conversation options: Jack wants access to Cerberus files aboard the ship; Miranda and Jacob think it's a bad idea. You will respond that you'll give her access in the exact same tone regardless of whether you were being honest or bluffing. Either way, Jack deems the matter settled and badgers your team why they're still standing about. Back on the Normandy, Miranda formally introduces herself and her role to Jack regardless of whether she was on the mission or not. Jack demands immediate access to the files, and you can either give them to her right away or tell her to settle in first. Either decision results in the last morality points for the mission. From the get\\-go Jack has developed a dislike for the \"cheerleader\" and will rub it in Miranda's face when you do something to support Jack's aims. Jack then leaves the briefing room to settle at the lowest point on the ship. In between missions and assignments you can find her down the stairs outside Main Engineering on Deck 4\\.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Convict",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "general-williams_002",
+      "kind": "page",
+      "page": "General Williams",
+      "section": "Mass Effect: Evolution",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The war was going badly for the humans, yet the General saw fit to arm and train a group of mercenaries to engage the turians. However, as the turians compromised the supply lines he gave the order to pull out of Shanxi and retreat to Arcturus Station. He was convinced the turians were looking for something on the planet aside from humans, but Command felt the world was a lost cause, and he realized few of his men had the heart to fight the invaders anymore. One of the mercenaries, Jack Harper, convinced him to give his team more time to find out what the turians wanted. Williams gave them a Mako for transport and the turian prisoner Jack captured before going to him. The stress of the job meant Williams would drink on the job. Weeks after the eventual cessation of hostilities, General Williams presided over a prisoner exchange at Arcturus Station. Jack and his teammate Eva Coré were captured during their Shanxi mission, and Williams now knew Jack's turian prisoner was a fellow General, Desolas Arterius, who was able to gain the upper hand on the mercenaries. Insults were traded by both sides, though Williams wondered what's up with the hooded bodyguards Desolas brought to the exchange. When Desolas realized Jack could understand the language he shared with the bodyguards, he tried to take the human back, though General Williams would have none of it and ordered them off Arcturus. Later in the med bay, Williams was impressed at Jack's vitals, though he offered his condolences to Jack for his teammate Ben Hislop died back on Shanxi. Following the Shanxi retreat the resulting Alliance counterattack drove off the turians from the planet, but the Alliance was now espousing peaceful coexistence with their new alien neighbors. The General disagreed with this course of action, and planned on resigning his command shortly, though he encouraged Jack to continue his investigation. Williams was awarded a personal shuttle for a battle sometime in his career, and he gave it over to Jack and Eva to help their mission. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/General_Williams",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "summary:jacob-taylor-unique-dialogue",
+      "kind": "summary",
+      "page": "Jacob Taylor/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A catalogue of dialogue unique to Jacob when he is in Shepard's squad in Mass Effect 2 (with some Mass Effect 3 lines), organized into location-triggered lines, \"talk to squad mate\" conversations, and spontaneous combat and ambient barks. A recurring thread is Jacob defending Cerberus and the Illusive Man, especially during Jack's loyalty mission, where he insists the Teltin facility \"went rogue.\" Representative verbatim lines:\n\n- Jacob, on the Collector Ship entering the massive pod chamber: \"Earth... they're going after Earth.\"\n- Jacob, on the Collector Ship when the Illusive Man's foreknowledge is revealed: \"It doesn't make sense for Cerberus to sell us out. It just doesn't.\"\n- Jacob, during Jack's loyalty mission on the container logs: \"This is... unbelievable.\"\n- Jacob, dying if he leads the second diversion squad in the Suicide Mission without secured loyalty: \"There were too many, but I got them through. You guys finish up for me, all right?\"\n- Jacob, if Shepard destroys the Collector Base and he survives: it was a \"hell of a way to tell the boss you're quitting,\" adding he wished he could have seen the Illusive Man's face.\n- Jacob, using Pull: \"Get over here!\" (a nod to Scorpion from Mortal Kombat), also \"Gravity is one mean mother, huh?\"\n- Jacob, using Barrier: \"Throwing up a barrier!\" / \"Nothing can hurt me now!\"\n- Jacob, caught in friendly fire: \"Get me out of your god-damn sights!\"\n- Jacob, hearing Jedore's canned PA orders on Korlus: \"Who does that?\"\n- Jacob, on Jack's recruitment mission seeing a prisoner beaten: \"Commander, you seein' this shit?\"\n- Jacob, if a female Shepard dumps him for Garrus: he calls the turian a \"Cuttlebone.\"\n\nOther tagged lines: confronting Ish on Omega about a past ambush and warning Shepard against helping him; on Horizon, dismissing Ashley/Kaidan's accusation as \"typical Alliance attitude\"; and, if brought to the Shadow Broker's base, the Broker notes his and Shepard's deaths would cripple Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jacob_Taylor/Unique_dialogue",
+      "for_key": "Jack's release from cryostasis and the fight off the ship"
+    },
+    {
+      "chunk_id": "wards_003",
+      "kind": "page",
+      "page": "Wards",
+      "section": "Kithoi Ward",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "According to a shuttle schedule sign seen in Zakera Ward, **Kithoi Ward** is home to the Council Central Archives, Taralos Amphitheater, Edroki Plaza, Larathos Institution, and Kithoi Point. Emily Wong, a reporter for the Citadel NewsNet, reports that Danaria Kleris, a sanitation worker working in the ward, had failed to report when her shift ended. Her assignment was near the keepers area of the Ward, and the authorities fear she may have been transported to the protein vats for recycling. Later, Wong announces her body was found, and C\\-Sec suspects foul play. There is a Sensory Gallery at the ward where people can experience sensations like how other races do: smell like an elcor, hear like a drell, experience rain as a turian would, etc. It doesn't have a booth for thinking like an artificial intelligence, however.",
+      "url": "https://masseffect.fandom.com/wiki/Wards",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "david-archer_003",
+      "kind": "page",
+      "page": "David Archer",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Commander Shepard's deactivation of the rogue VI program frees David from its effects. If Shepard stops the experiments, David is subsequently removed from the care of Cerberus and his brother and taken to Grissom Academy, an Alliance educational institution for gifted children. If the Commander is willing to sacrifice David for science, David is given medical treatment, stays in his brother's care, and Project Overlord continues. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/David_Archer",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "foods_035",
+      "kind": "page",
+      "page": "Foods",
+      "section": "Noodles",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Noodle House sells it on the Citadel. Grunt buys it and then claims they were \"a little spicy\".",
+      "url": "https://masseffect.fandom.com/wiki/Foods",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "citadel-leviathan-ii_004",
+      "kind": "page",
+      "page": "Citadel: Leviathan II",
+      "section": "Datapads",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Energy Emissions Tests Artifact P3X118 Hadley, Derek Initial Tests: Artifact tests negative for infrared and ultraviolet emissions. No gamma or X\\-ray radiation detected. Follow\\-up Tests: Artifact does not react to application of various stimuli. Internal readings inconclusive. No progress in determining age. Guess I stayed here all night finding out that this thing isn't really important. Fell asleep at desk. Conclusion: Artifact is definitely inert and safe. Recommend keeping it here for reference. We should all be near it. May be more useful than Leviathan in long run. Recommend we abandon hunt for Leviathan and seek more productive studies.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Leviathan_II",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "mindoir_004",
+      "kind": "page",
+      "page": "Mindoir",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the mission to investigate a Prothean artifact on Eden Prime, if Shepard has the Colonist background, party banter will comment on how much the people of Eden Prime have gone through, first with a geth attack, and now a Cerberus occupation. They'll continue to say that the people are strong and will rebuild, to which Shepard will retort: \"They rebuilt Mindoir. It wasn't the same.\"",
+      "url": "https://masseffect.fandom.com/wiki/Mindoir",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "ashley-williams_014",
+      "kind": "page",
+      "page": "Ashley Williams",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I doubted you once Shepard, and I lost you. That's not happening again.” When Shepard visits Ashley in the hospital, she will call him out if he was in a prior relationship with her, but pursued another person while working with Cerberus. She is very judgmental of Miranda and Jack but seems more comfortable with the idea of Shepard and Tali being together, saying \"Tali is like a little sister, I totally approve... not that you needed my approval.\" Though despite saying that, if Shepard hasn't built enough of a friendly rapport with her, Ashley does display signs of jealousy during the assault on the geth dreadnought if brought along with Tali, even making catty remarks towards her. If Shepard has remained faithful to Ashley, the conversations in the hospital are a lot more cheerful and less confrontational. The relationship progresses well if Shepard tries to be as friendly as possible and buys Ashley 'The Collected Alfred Tennyson' from the Sirta Supplies store. If Ashley is chosen to come aboard the Normandy, Shepard can start, or restart a relationship with her. Ashley does not talk a lot on the Normandy. Eventually, Ashley will send an email asking Shepard for help; Ashley is going to comfort her younger sister Sarah who has lost her husband and doesn't want to do it alone. If Shepard is comforting and respectful to Ashley, the relationship is cemented further. Later on, she sends another email asking Shepard to meet her on the Citadel. Ashley tells him how her dad would have liked Shepard. She apologizes for all that has happened between them and asks if they are \"going somewhere\". If Shepard reciprocates, they share a kiss together. Just before the assault on the Cerberus headquarters, she visits the Captain's Quarters and, unless directly turned down, she tries to comfort Shepard about all the people they've lost. She expresses how she felt lost herself and that it broke her heart when Shepard was dead. At long last, they admit their love for each other, then kiss and spend the night together. In a final conversation between her and Shepard on Earth, they reflect on how many times they've saved each other in the past. Shepard then recites from one of Tennyson's poems *The Charge of the Light Brigade*, a reference to how poetry has been used to convey their feelings throughout their relationship. Ashley grabs Shepard and tells him she doesn't want him to go and that she loves him. He gently replies that he loves her too and then says 'let's get it done, and go home'. In a breaking voice, Ashley responds \"aye aye Captain.\" If Ashley is the love interest for Shepard, the last thing he will see will be an image of Ashley looking at him and warmly smiling. After the firing of the Crucible, she will be seen placing Shepard's name on the memorial wall, or, if the Reapers are destroyed and enough of the galaxy's forces have been mustered, she will smile and refrain from placing the plaque, and the Normandy is seen flying off.",
+      "url": "https://masseffect.fandom.com/wiki/Ashley_Williams",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "foods_060",
+      "kind": "page",
+      "page": "Foods",
+      "section": "Turian Chocolates",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dr. Chloe Michel buys some for Garrus Vakarian at the Citadel if he survived the mission to stop the Collectors. It is unknown how similar turian chocolates are to the Earth varieties made for human consumption, but presumably they are compatible with dextro physiology.",
+      "url": "https://masseffect.fandom.com/wiki/Foods",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "toombs_003",
+      "kind": "page",
+      "page": "Toombs",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "If Toombs survived his encounter with Shepard in 2183, he will send the Commander a message at some point in 2185, entitled *What the hell?*. He has discovered Shepard's current connection with Cerberus and, feeling betrayed, promises dire retribution should they ever meet again. Shepard may also overhear Galactic News reports describing Toombs' other activities. If both he and Dr. Wayne survived, an independent inquiry based on their testimonies is underway against Cerberus. If Wayne died, the inquiry dismisses Toombs' claims as he is seen as disturbed and because of insufficient evidence to validate his story. From: Toombs What the hell kind of game are you playing, Shepard? You did the buddy act when I had the gun on that Cerberus scientist, telling me you understood. Now I find out you're working for Cerberus? Tests were done on me that you can't even imagine. For years. Cerberus did them. They tortured me. They used me as a damn lab rat. And now you're teaming up with them like they're any other merc band? I've got my own merc team now, Shepard. And I kill any Cerberus team I can find. If I run into you, don't expect any different.",
+      "url": "https://masseffect.fandom.com/wiki/Toombs",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "scene:citadel-huerta-ashley-recovery#04",
+      "kind": "scene",
+      "page": "Ashley's Recovery at Huerta Memorial",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-huerta-ashley-recovery",
+      "text": "Ashley's Recovery at Huerta Memorial. 2186, after Mars, during Ashley's recuperation at Huerta Memorial Hospital Huerta Memorial Hospital, the Citadel If Shepard has stayed faithful to Ashley, these hospital visits are warmer and less confrontational, and the relationship deepens further if Shepard buys her a copy of \"The Collected Alfred Tennyson\" from Sirta Supplies.",
+      "url": "",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "summary:equipment-mass-effect-infiltrator",
+      "kind": "summary",
+      "page": "Equipment (Mass Effect: Infiltrator)",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page catalogues the armor and weapons available in the mobile game Mass Effect: Infiltrator, in which the Cerberus operative Randall Ezno buys gear from an in-game store using credits earned or redeemed through found Cerberus intel. Each armor set comprises a body piece and a helmet that offer separate bonuses and can be mixed and matched. Weapons are also bought from the store and improved through purchased upgrades. The turian protagonist of the bonus mission uses a fixed basic armor and weapon that cannot be changed or upgraded.\n\nFour armor sets are described. Cerberus Assault Armour favors offense, granting +10% biotic damage with +10% weapon damage from its helmet, and each piece costs 2000 credits. Aegis Defensive Armour combines N7 vest plating with tungsten alloy, giving +10% health and +10% shield strength from the helmet. The Stealth Suit, used by covert special forces, cuts tactical cloak recharge by 10% and adds +10% headshot damage via the helmet. Infiltrator Armour, which Randall starts with, grants smaller +3% bonuses to melee damage, weapon damage, and shield strength across both pieces.\n\nWeapons include the M-96 Mattock Auto (a fully automatic version of the classic rifle, Randall's starting assault rifle), the M-22 Eviscerator shotgun (which fires serrated metal edges and violates intergalactic weapons treaties), the M-29 Incisor burst-fire sniper rifle, and the M-333 Particle Beam. The M-333 is an experimental Cerberus radiation weapon reverse-engineered from Collector technology, effective against shields and barriers but weak against armor, handles like a heavy weapon that prevents sprinting, does not require pausing to cool when it overheats, changes beam color as it levels, and is the only weapon exclusive to Infiltrator. Each upgradeable weapon has five levels: level 1 is basic function, with subsequent tiers (Tungsten Jackets, Target Optics VI, Scram Rails, Antarctic Heatsinks, and equivalents) adding penetration, accuracy, damage, and cooling for costs from 500 up to 5000 credits. The M-37 Falcon is the fixed weapon of the turian bonus-mission protagonist, switching between assault rifle and shotgun modes, each with its own heat level; it cannot be upgraded and Randall cannot use it.",
+      "url": "https://masseffect.fandom.com/wiki/Equipment_(Mass_Effect:_Infiltrator)",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-legion-conflict#02",
+      "kind": "scene",
+      "page": "Tali Catches Legion Scanning Her Omni-Tool",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-legion-conflict",
+      "text": "Tali Catches Legion Scanning Her Omni-Tool. 2185, after both Tali's and Legion's loyalty missions aboard the Normandy SR-2 Legion's position is that it is warning the geth about a real threat — the quarians' tests, and their plans to attack.",
+      "url": "",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "scene:illium-parasini-beer-and-hermia#02",
+      "kind": "scene",
+      "page": "Parasini Collects on Illium",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "illium-parasini-beer-and-hermia",
+      "text": "Parasini Collects on Illium. 2185, Nos Astra, Illium, during the recruitment of Thane and Samara near a Serrice Technology kiosk on Nos Astra If Shepard helped her pin the corruption evidence on Anoleis at Port Hanshan, she makes good on her promise and buys Shepard the beer she owed. If Shepard did not help her on Noveria, there is no beer.",
+      "url": "",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-blood-pack-siege-2183#02",
+      "kind": "scene",
+      "page": "The Blood Pack Siege of Fehl Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-blood-pack-siege-2183",
+      "text": "The Blood Pack Siege of Fehl Prime. 2183, when Blood Pack mercenaries lay siege to the Fehl Prime colony the Fehl Prime colony A vorcha nearly shoots her. Treeya tells her she is not a soldier and should stop, but Christine refuses to give up. Her stand buys the colonists enough time for Alliance marines to arrive and engage the Blood Pack.",
+      "url": "",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "summary:batarian-state-arms",
+      "kind": "summary",
+      "page": "Batarian State Arms",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page contained under ~150 words of real prose and covered cut, non-canon content. Batarian State Arms (BSA) was a hardware manufacturing company. Because the batarian government did not trust private industry to build its military hardware, BSA existed as a vast nationalized institution infamous for waste and corruption. It produced effective if unethical chemical weapons and a line of Nuclear, Chemical, and Biological (NBC) protective armor. In the first Mass Effect it was a hidden manufacturer whose equipment was fully functional in the game files but only reachable via the PC console or third-party software. Its lines included the Terminator assault rifles (sometimes accessible through the Bring Down the Sky PC DLC), the Executioner shotguns, the Judgement pistols, the Lightning Strike sniper rifles, and Partisan/Skirmish light, medium, and heavy armor. A separate Batarian State Arms shop appeared on the Citadel in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Batarian_State_Arms",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "summary:n7-cerberus-abductions",
+      "kind": "summary",
+      "page": "N7: Cerberus Abductions",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "An optional N7 assignment in Mass Effect 3, unlocked after completing either Attican Traverse: Krogan Team or Tuchanka: Turian Platoon. Cerberus was attacking and abducting civilians on the human colony of Benning, in the Euler system of the Arcturus Stream. Shepard landed to protect civilians during their evacuation. The mission plays out on the multiplayer map Firebase Ghost, a tight urban environment of numbered prefab buildings.\n\nShepard's squad fought Cerberus light infantry, Assault Troopers, Combat Engineers, Centurions and Turrets, through the upper streets, then reached a group of civilians and defended them as they moved toward a landing pad for extraction. The civilians were invulnerable and sprinted forward in stages toward the shuttle while Cerberus focused fire on Shepard. Comm logs from Svetlana Alexandrov and other residents warned \"don't trust Cerberus. They're taking people against their will,\" and urged people to run. On the map Shepard could recover the dog tag of Alliance Soldier Bilal Osoba, needed for the side mission Benning: Evidence.\n\nAfter Shepard declared an all-clear and the civilians reached the landing zone, the mission ended when Shepard selected the shuttle. At debriefing, Admiral Hackett said a rogue Cerberus group might be behind the continued civilian attacks; the Alliance regained a foothold on Benning and retook the planet, and Shepard received the Arcturus First Division war asset (+5 Reputation, 20,000 credits, the Capacitor Helmet). A saved civilian, Jessica Frohm, later emailed Shepard thanking her and saying she found hope that her lost friends' memory lived on in her.",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Cerberus_Abductions",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "summary:dekuuna-code-of-the-ancients",
+      "kind": "summary",
+      "page": "Dekuuna: Code of the Ancients",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dekuuna: Code of the Ancients was a side mission in Mass Effect 3. It became available after Priority: The Citadel II, acquired by overhearing an angry elcor standing just outside the Purgatory elevator on the Citadel, who needed the elcor holy book, the Code of the Ancients, to inspire his people during the Reaper War. Alternatively, if the player never approached Purgatory after the failed Cerberus coup, the item and journal entry could be obtained through a Search and Rescue operation, in which case the mission was labeled Citadel: Code of the Ancients.\n\nThe Code of the Ancients was located on the elcor homeworld Dekuuna, in the Phontes system of the Silean Nebula, a system that only became accessible after Priority: Rannoch. Scanning the planet retrieved the book regardless of how the mission was acquired. Returning it to the elcor by the Purgatory elevator completed the mission, awarding 5 Reputation and 15,000 credits and updating the Citadel Defense Force War Asset.",
+      "url": "https://masseffect.fandom.com/wiki/Dekuuna:_Code_of_the_Ancients",
+      "for_key": "Cerberus as an institution, how it buys, tests, and discards people"
+    },
+    {
+      "chunk_id": "scene:normandy-jack-miranda-confrontation#01",
+      "kind": "scene",
+      "page": "Jack and Miranda, Below Decks",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-jack-miranda-confrontation",
+      "text": "Jack and Miranda, Below Decks. 2185, on return from Pragia, if Miranda's loyalty mission is already done aboard the Normandy SR-2 Back aboard after Pragia, Shepard has to settle a fight between Jack and Miranda over Cerberus's part in what was done to Jack.",
+      "url": "",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "scene:purgatory-jack-breakout#06",
+      "kind": "scene",
+      "page": "Breaking Jack Out of Purgatory",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "purgatory-jack-breakout",
+      "text": "Breaking Jack Out of Purgatory. 2185, after Freedom's Progress the turian prison ship Purgatory Jack agrees to join in exchange for access to Cerberus files aboard the ship; Miranda and Jacob object. Back on the Normandy she demands the files, takes an immediate dislike to Miranda — \"the cheerleader\" — and settles into the sub-deck below main engineering.",
+      "url": "",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "jack-subject-zero_002",
+      "kind": "page",
+      "page": "Jack: Subject Zero",
+      "section": "Acquisition",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Horizon (mission) After retrieving Jack from Purgatory, Commander Shepard gives her access to Cerberus's files aboard the Normandy. After the mission on Horizon, Kelly will tell Shepard at some point that Jack wants to see the Commander in her “hidey hole on the Engineering Deck”. Talk to Jack and she wants to blow the facility to pieces; Shepard can comment that attacking allies is a bad idea, but the facility was decommissioned after Jack’s escape.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "miranda-lawson_014",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I have a sister. A twin. And he’s still hunting her. Cerberus has kept her safe. Until now.” *Main article: Miranda: The Prodigal* During the mission Miranda asks Shepard for help with a personal crisis and admits she has a twin, Oriana, created as part of her father's intended dynasty. Miranda explains that the reason she joined Cerberus was to hide and protect Oriana as well as herself. While their father stopped searching for Miranda, he never stopped looking for Oriana. With the help of Cerberus, Miranda managed to establish a new life for Oriana on Illium, where she has lived the life of normalcy their father would have denied her. Unfortunately, Miranda received word from a contact claiming that their father has finally discovered Oriana and will try to abduct her. Cerberus has made arrangements to relocate Oriana, and Miranda wants to go along to ensure nothing goes wrong. After gaining the loyalty of both Miranda and Jack, the next time Shepard boards the Normandy Joker will radio in about a fight aboard the ship. Jack wants Miranda to admit what was done to her by Cerberus was wrong, but Miranda refuses to acknowledge that Cerberus was at fault claiming it was a splinter group, not Cerberus, calling the shots. Shepard can either resolve the conflict without picking sides, in which case, both Jack and Miranda agree to put off their fight until after the mission with the Collectors is over. If Shepard sides with Jack, then the Commander will lose Miranda's loyalty, but has the opportunity to regain her loyalty in a later conversation. In addition, if Shepard was in a relationship with Miranda and sides with Jack, then Miranda ends the relationship and will refuse to rekindle the relationship even if her loyalty is regained.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "scene:normandy-mordin-grunt-confrontation#01",
+      "kind": "scene",
+      "page": "Grunt and Mordin Square Off in the Science Labs (Cut)",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-mordin-grunt-confrontation",
+      "text": "Grunt and Mordin Square Off in the Science Labs (Cut). 2185, cut content — after both Grunt's and Mordin's loyalty missions, never shipped the Normandy SR-2's science labs A confrontation was written for Grunt and Mordin, on the pattern of the Tali/Legion and Jack/Miranda fights, and cut from the game. Joker called Shepard over the comm — \"Grunt and Mordin are about to go at it in the science labs. I wouldn't put money on Mordin\" — and Shepard went down. Grunt, taking his new Clan Urdnot membership seriously, had turned on Mordin as a threat to his clan, goading him to fight; Mordin refused to raise a weapon near the bulkhead and instead insulted Grunt's parentage, \"factually inaccurate in your case.\"",
+      "url": "",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "scene:normandy-medbay-mordin-eve-cure-work#07",
+      "kind": "scene",
+      "page": "Mordin Works the Med-Bay With Eve Aboard",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-medbay-mordin-eve-cure-work",
+      "text": "Mordin Works the Med-Bay With Eve Aboard. 2186, between Sur'Kesh and Priority: Tuchanka the Normandy SR-2 Med-bay, given over to Mordin's research and to Eve's quarters Once he confirms he can synthesize a universal cure, Mordin proposes using the salarian Shroud facility as the carrier, then excuses himself to the Med-bay until Shepard calls the mission, later reporting Eve fit to travel to Tuchanka.",
+      "url": "",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "summary:miranda-the-prodigal",
+      "kind": "summary",
+      "page": "Miranda: The Prodigal",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Miranda: The Prodigal\" was Miranda Lawson's loyalty mission in Mass Effect 2, available after the Horizon mission and requiring Miranda in the squad. Miranda's estranged father was moving to abduct her sister Oriana, whom Miranda had taken as a baby and hidden on Illium to give her a normal life. On Illium, Miranda's asari contact Lanteia at the Eternity bar revealed that Miranda's trusted childhood friend Niket was arranging the transfer. Traveling to the Illium cargo terminal, the squad was ambushed by Eclipse mercenaries led by Captain Enyala, hired by Miranda's father, and fought through the cargo docks with an optional Renegade interrupt to kill the lead Eclipse Engineer.\n\nAt Dock 94, Miranda confronted Niket, who admitted he had sold her out because he believed Oriana deserved to know the truth. A Paragon interrupt could stop Miranda from shooting him; either way Enyala shot Niket dead, and Miranda biotically flung Enyala across the room, beginning a difficult final battle against Enyala, an asari Vanguard, a salarian Eclipse Operative and waves of mercenaries. Afterward Miranda watched Oriana with her adoptive family from a distance and could be persuaded to introduce herself or leave unseen. The mission secured Miranda's loyalty and her trust in Shepard, rewarded the Slam power, credits and element zero, and could trigger the confrontation with Jack aboard the Normandy if Jack's loyalty mission was already complete. If left uncompleted, Kai Leng mortally wounds Miranda on Horizon in Mass Effect 3. Completing it and convincing Miranda to speak to Oriana yields an email from Oriana titled \"Guardian angels.\"",
+      "url": "https://masseffect.fandom.com/wiki/Miranda:_The_Prodigal",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "miranda-the-prodigal_012",
+      "kind": "page",
+      "page": "Miranda: The Prodigal",
+      "section": "Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Once you return to the Normandy, you can approach Miranda for her account of the meeting she had with Oriana on Illium. Miranda says that Oriana’s family was shocked from learning the truth, but Oriana adjusted quickly to that knowledge. Miranda is happy to know that Oriana has a normal life and family, in contrast to her own upbringing. If Miranda was not convinced to reveal herself to Oriana, she is less upbeat, but still satisfied that Oriana's safety is assured. #### Confrontation with Jack *See also: Loyalty\\#Confrontations* If you have already completed Jack's loyalty mission, you will automatically return to the Normandy on mission completion. Joker will page Shepard over the PA saying that Jack just went to have a talk with Miranda. When Shepard decides to handle it, Joker jokingly replies, “Take pictures.” Shepard arrives in Miranda’s office only to find Jack flinging a chair across the room and Shepard tells them both to knock it off. Jack is furious that Miranda will not admit to what Cerberus did to her was wrong. Unless you have enough Paragon or Renegade points, you cannot end this situation without alienating one or the other crew member. If you have enough points, then you earn the loyalty of both crew members and can continue any relationships that you have started. If you fail, then you will lose out on any relationships with either one and her loyalty, depending on whom you alienate. The amount of morality points required also varies during the course of the game, due to how Mass Effect 2's Charm/Intimidate system works. You need a high percentage of the Paragon or Renegade points obtainable from the areas that you've explored in order to pass the persuasion check; the amount of the meter that is filled in does not provide an accurate indication of whether Charm or Intimidate will be possible.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda:_The_Prodigal",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "miranda-lawson_021",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Chris L'Etoile wrote the first drafts for Miranda's character, before she was taken over by Mac Walters and Trick Weekes. Most of the confrontation with Jack was written by Brian Kindregan. - Along with Thane, Miranda is one of the \"poster\" characters for Mass Effect 2 and appears on most of the promotional art and demo footage. - Miranda's outfit is available to female avatars on the Xbox Avatar Marketplace for $5\\.25 USD. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "miranda-lawson_012",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 2, see Squad Members Guide (Mass Effect 2\\)\\#Miranda Lawson.* After Cerberus gains possession of Commander Shepard's corpse, the Illusive Man selects Miranda to be the head of the Lazarus Cell and puts her in charge of the Lazarus Project. Over the course of two years, Miranda oversees the development and implementation of Cerberus' vast resources towards bringing Shepard back to life. When Shepard briefly wakes for the first time, Miranda is the first and last person seen by Shepard before falling back to sleep. At some point, the research base comes under attack by a saboteur. Miranda wakes Shepard over an intercom and guides the Commander to the base's last shuttle. Miranda takes Shepard to be briefed by the Illusive Man, but not before killing the traitor who instigated the attack. When Shepard goes to investigate the colony of Freedom's Progress, Miranda becomes a permanent squad member. Aboard the Normandy SR\\-2 she functions as Shepard's second\\-in\\-command, but she also serves as a proxy for the Illusive Man, to whom she reports regularly. According to EDI, Miranda is the leading operative of the Lazarus Cell which is headquartered on the Normandy. Initially, Miranda expresses skepticism towards the level of importance the Illusive Man has placed on Shepard, especially since the Lazarus Project required a huge investment of Cerberus's resources and her own time. She also notes that she wanted to implant Shepard with a control device to regulate the Commander's actions, but the Illusive Man declined her suggestion. Soon after their mission gets underway, Miranda admits that the Illusive Man's estimation of Shepard's value to their cause was accurate. Unfortunately, Miranda still retains some of the insecurities that drove her from home; despite leading an illustrious career, Miranda doesn’t believe she’s truly earned her accomplishments. Because of her father's genetic tampering which gave her the innate advantage to succeed, she still feels like she's living under his shadow, and that her failures are the only thing she truly owns. Miranda admits this has made her somewhat jealous of Shepard, whose vast accomplishments can be credited to skill, talent, and drive.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "summary:jack-dialogue",
+      "kind": "summary",
+      "page": "Jack — In-Game Dialogue and Banter",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "A collection of Jack dialogue and party-banter clips spanning Mass Effect 2 and Mass Effect 3: a cut Mass Effect 2 conversation about red sand, the Mass Effect 3 scene introducing her varren Eezo, Normandy confrontations with Miranda, her time as an instructor at Grissom Academy leading a biotic student squad, a reunion with Garrus, and the Citadel DLC reconciliation with Miranda. It is useful as voice reference and for Jack's personal continuity. Representative lines:\n\n- Jack, in the cut red sand conversation, when Shepard notes she takes drugs herself: \"If I don't, I wake up screaming, with furniture slamming into the wall.\"\n- Jack, on why an asari would use red sand despite already being biotic: \"You get a great high, too.\"\n- Jack, introducing her naturally biotic varren from Thessia: \"Who's my badass biotic? Who's my badass biotic?\"\n- Jack, agreeing to hold off her fight with Miranda for the mission: \"Sure, I'll do my part. I'd hate to see her die before I get a chance to fillet her myself.\"\n- Jack, when Shepard keeps visiting to ask questions in Mass Effect 2: \"You don't need to know someone to sleep with them. You just have to know where to put it.\"\n- Jack, riding her Grissom Academy student: \"You couldn't destroy wet tissue paper. Drink your juice, Rodriguez.\"\n- Jack, on staying with her students in Mass Effect 3: \"The little shits are useless without me, so I've got to stick with them — I'm dependable now, apparently. I blame you for this.\"\n- Jack, reuniting with Garrus: \"As charming as ever. Good to see you again, Garrus.\" — Garrus: \"You still look like [expletive].\"\n- Jack, in the Citadel DLC after Miranda concedes Cerberus was wrong about her: \"Wow. Thanks. I still really hate you, but you have fantastic tits.\" — Miranda: \"All right, I can live with that.\"\n- Jack, to Shepard at the Citadel party: \"The duty rosters can wait. Right now you're on shore leave, Shepard.\" And: \"Everybody knows you can't dance.\"\n\nKelly Chambers' observation is also quoted: \"She pushes people away yet approaches sex casually… If you want her respect, think twice.\" Miranda, during the sub-deck confrontation, insists \"it wasn't Cerberus, not really\" and that Jack \"was clearly a mistake.\"",
+      "url": "",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "miranda-lawson_019",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If conflict is encouraged, both of them ramp up the vitriol they have for each other. Jack remarks that Miranda's fun to hate, and Miranda assures her the feeling's mutual. If Jack isn't around, Miranda just joins Liara and James on the upstairs balcony listening to the two bicker about which of physical conditioning or biotics trump the other. If the setting is still relaxed for the party's second phase, Miranda is at the poker den with James and Liara, who are discussing the differences and merits of the SSV Normandy and the SR\\-2\\. She's firmly in the camp of supporting the newer ship when the discussion devolves into taking sides for one ship against the other. At the party's third phase, if everyone was invited to dance, Miranda joins Liara and James at the balcony (or never left there, if Jack was absent), either watching Liara demonstrate biotic supremacy or egging Jacob on if he's competing with James in push\\-ups. Everyone there decides to dance once Shepard checks in on them. If the setting is still relaxed for the party's third phase, Miranda joins Cortez and Joker at the upper floor couches in reminiscing the good old days. In the morning after, Miranda is seated at the kitchen's center aisle, watching Vega cook eggs. If Shepard and Miranda are in a relationship, they will wake up after the party in bed together. Shepard will say how he loves watching Miranda wake up, to which Miranda responds, \"Let's make it a habit.\" They will kiss and Shepard replies, \"As you wish, Ms. Lawson.\" When the crew returns to the Normandy, Miranda and Shepard hold hands and Miranda rests her head on Shepard's shoulder, asking if he's \"going back to the fight.\" When Shepard says it may be the last party the crew will have, Miranda assures Shepard that he will \"find a way to win\" and she will be waiting for him when he does. After a pause, as the crew leaves, Miranda will say, while it hasn't been easy, they've \"had a good run.\" Shepard will nod and say, \"the best\" before leaving to join his crew while Miranda returns to the Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "summary:jack-subject-zero",
+      "kind": "summary",
+      "page": "Jack: Subject Zero",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jack's loyalty mission in Mass Effect 2, available after Horizon and written by Brian Kindregan. After Shepard gives Jack access to Cerberus files aboard the Normandy, Kelly Chambers relays that Jack wants to see Shepard in her \"hidey hole\" on the Engineering Deck. Jack asks Shepard to help her destroy the decommissioned Teltin facility on Pragia, in the Dakka system of the Nubian Expanse, where Cerberus experimented on her as a child. She wants to plant \"a big fucking bomb\" in her old cell and watch it detonate from orbit.\n\nOn arrival EDI detects thermal signatures inside the complex but none near the landing zone. Moving through the facility, Jack recognizes rooms and revisits memories: a skylit atrium where she first saw sunlight, a bloodstained arena where she was pitted against the other children and drugged as a reward for killing and shocked for hesitating, a cell block, and a two-way mirror outside her own cell where she used to bang on the glass while the other children ignored her. Security consoles reveal the staff had \"gone rogue\" from the Illusive Man's orders, that all subjects were expendable except Jack, that children were exposed to chemicals and freezing temperatures, and that the project planned to infiltrate the Alliance's Ascension Project; a final log shows Jack killing the distraught doctor during the riot. The team fights varren, Blood Pack vorcha and krogan mercenaries (including a Pyro and the krogan Kureck), hired by Aresh.\n\nIn Jack's cell, Shepard meets Aresh, a former test subject who recognized Jack and is trying to restart the facility so the experiments \"must have been for something.\" Jack draws a pistol; Shepard can use Charm to spare him, Intimidate to have Jack kill him, or plain dialogue options with corresponding Paragon or Renegade interrupts. Shepard can then leave or stay while Jack walks the cell recounting memories of the window, bed, desk, and a bloodstain. On the shuttle back, Jack fumbles with the detonator, then presses it when Shepard nods, and the bomb destroys the facility.\n\nBack on the Normandy, if Miranda's loyalty mission is complete, Jack confronts Miranda in her office, throwing a chair, furious that Miranda will not admit Cerberus was wrong. Without sufficient Paragon or Renegade standing, Shepard must alienate one crewmate, losing that person's loyalty and any romance (recoverable later). Cerberus Intel emails that the Illusive Man had ordered the project shut down before the riot, that arriving personnel found all guards and most subjects dead, and that surviving children were given amnesic treatments and delivered to the Alliance as \"slaver attack\" survivors. Rewards include 750 experience, 30,000 credits, 500 element zero, a Biotic Damage (Hyper-amp) upgrade, and Warp Ammo for Jack. If Aresh is spared, a Mass Effect 3 news alert reports he died saving a shuttle of children evacuating a Reaper-occupied colony; his full name is given as Aresh Aghdashloo.",
+      "url": "https://masseffect.fandom.com/wiki/Jack:_Subject_Zero",
+      "for_key": "the Jack and Miranda confrontation aboard the Normandy over Cerberus's excuses"
+    },
+    {
+      "chunk_id": "scene:cerberus-labs-miranda-briefs-rasa-lazarus#01",
+      "kind": "scene",
+      "page": "Miranda Briefs Rasa on the Lazarus Project",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "cerberus-labs-miranda-briefs-rasa-lazarus",
+      "text": "Miranda Briefs Rasa on the Lazarus Project. before the Reaper war, Minuteman Station (Mass Effect: Foundation 8), after the failed attempt to capture Jack the Lazarus Project labs and Miranda's office aboard Minuteman Station Rasa and Kai Leng's shuttle returns from the botched Jack mission. Miranda meets them with fresh orders: Leng is sent back to the shuttle for a call with the Illusive Man, while Rasa is told to grab her gear and report to the labs at once. Leng, before leaving, warns Rasa never to be paired with him again.",
+      "url": "",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "kai-leng_002",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Dossier",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "While little is known about Kai Leng's early life, Alliance records show that he enlisted in the Alliance Military on November 14, 2172 at the age of 16, although his credentials were faked at the time. Leng's prowess in combat and xenophobic nature drew the attention of the Illusive Man, and Cerberus helped liberate Leng from prison after he was incarcerated for murder. The Illusive Man used Leng as his best wet\\-work operative and assassin for over a decade, realising he was not only ruthless but discreet and methodical. Leng became the Illusive Man's most trusted agent, working as an infiltrator and assassin. His cybernetic modifications appear to include Cerberus's Phantom\\-class implants.",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "scene:cerberus-facility-kai-leng-rasa-fail-to-catch-jack#01",
+      "kind": "scene",
+      "page": "Jack Throws Kai Leng Across a Cerberus Training Facility",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "cerberus-facility-kai-leng-rasa-fail-to-catch-jack",
+      "text": "Jack Throws Kai Leng Across a Cerberus Training Facility. before the Reaper war, during Mass Effect Foundation a wrecked Cerberus biotic training facility, near its main reactor Someone has blown up a Cerberus training facility, and the Illusive Man sends Kai Leng and the agent Rasa — a pairing Leng resents — to bring the culprit in. Leng says he will handle it and Rasa is only there to write up the aftermath. On arrival they spot Blue Suns ships in the hangar and realize the mercs are a containment crew in case the agents fail. The target is Jack.",
+      "url": "",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "scene:cerberus-labs-miranda-briefs-rasa-lazarus#02",
+      "kind": "scene",
+      "page": "Miranda Briefs Rasa on the Lazarus Project",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "cerberus-labs-miranda-briefs-rasa-lazarus",
+      "text": "Miranda Briefs Rasa on the Lazarus Project. before the Reaper war, Minuteman Station (Mass Effect: Foundation 8), after the failed attempt to capture Jack the Lazarus Project labs and Miranda's office aboard Minuteman Station In the labs Miranda walks Rasa through the Lazarus Project: Shepard's backup clone in its tank, Shepard's own body mid-reconstruction on the operating table, and screens of everything Cerberus holds on Shepard. She tells Rasa not to worry about Leng — muscle has its uses, but information is more powerful, and Rasa's intelligence has been invaluable to the project. The clone, though, is not what the Illusive Man wants; he wants the real Shepard, known down to the smallest detail.",
+      "url": "",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "scene:cerberus-facility-kai-leng-rasa-fail-to-catch-jack#02",
+      "kind": "scene",
+      "page": "Jack Throws Kai Leng Across a Cerberus Training Facility",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "cerberus-facility-kai-leng-rasa-fail-to-catch-jack",
+      "text": "Jack Throws Kai Leng Across a Cerberus Training Facility. before the Reaper war, during Mass Effect Foundation a wrecked Cerberus biotic training facility, near its main reactor They find Jack by the reactor, just after she has cut down a group of Blue Suns. Leng draws his sword and threatens her; her biotics knock him flat. He comes at her from above and behind instead; she senses him and hurls him further away. By the time he digs his stuck sword loose, the Blue Suns' krogan leader has clubbed Jack unconscious from behind and carried her off to be ransomed to the Illusive Man.",
+      "url": "",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "cerberus_012",
+      "kind": "page",
+      "page": "Cerberus",
+      "section": "Mass Effect: Retribution",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Sometime after the assault on the Collector Base, Cerberus kidnapps former operative Paul Grayson, who had been working for Aria T'Loak on Omega. Operatives led by the Illusive Man's favored assassin, Kai Leng, attack Grayson's apartment, kidnapping Grayson and murdering his lover Liselle. Grayson is taken to one of Cerberus' many research stations, where the Illusive Man orders him implanted with recovered Reaper technology. Before Grayson had been kidnapped, however, he had sent all the information he had on Cerberus to Kahlee Sanders in the hope she could use it to bring down Cerberus or protect herself from harm. Sanders turns to Admiral David Anderson for assistance, who in turn seeks the help of the turians due to his concerns about Cerberus infiltration of the Alliance hierarchy. The turians launch raids against several Cerberus bases and front companies. A number of Cerberus agents and supporters are also arrested on the Citadel, greatly impairing the operations of the organization. The capture of two military training bases and four major research labs is estimated to cost the Illusive Man trillions of dollars in losses. Still believing that Cerberus needs to protect and defend humanity, and that the augmented Grayson, who had escaped Cerberus custody during the turian attack, is now a huge threat to Cerberus operations and to humanity itself, the Illusive Man makes a business deal with Aria T'Loak, asking her to kill Grayson in exchange for a substantial sum of money. The trap fails and Grayson escapes once more. Kai Leng, who had observed the failed ambush, offers to transport Sanders and Anderson off Omega, but they turn on him, overpowering him with the aid of a group of turian mercenaries, and use his ship to pursue Grayson to Jon Grissom Academy. Once they catch up with him, Kai Leng breaks free, eliminates Grayson, and escapes capture, albeit severely injured. The Illusive Man recontacts Aria, and is able to successfully negotiate the return of Cerberus data logs from Grayson's time in captivity. With all the \"loose ends\" tied up, the Illusive Man returns to the twin tasks of rebuilding his damaged organization and continuing preparations to combat the Reapers. |  | ***“Where the hell are these things coming from?”*** — Spoilers for **Mass Effect: Invasion** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "maya-brooks_007",
+      "kind": "page",
+      "page": "Maya Brooks",
+      "section": "Mass Effect: Foundation 7",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A short\\-haired Rasa was accosted by Kai Leng for yet another mission in service to Cerberus. A training facility was under attack, and the Illusive Man dispatched them both to haul the perpetrator in for questioning. The target had biotics off the charts, as Rasa learned from the given dossier, and she doubted her purpose for being included when Leng declared he would be taking the operation seriously. In response, Leng told her she would be handling the aftermath analysis of events. A short time later at the training facility, Rasa took notice of the Blue Suns ships parked in the hangar. She did some further digging into the target and suspected that she was formerly of Cerberus, one of the biotic kids the organization trained in the early years. A mercenary contingent and two operatives for just one girl must mean Cerberus and the target were related, Rasa reasoned, as the agents continued to search for Jack. Soon enough Rasa and Leng found Jack just after she's done dealing with some Blue Suns soldiers. The Cerberus duo prepped their weapons but proved no match for Jack's biotic onslaught. More Blue Suns swarmed the scene, forcing Jack to make everything in the vicinity fly. Rasa begged the biotic to stop as she clung on one hand, but Jack was set on killing everyone. Subject Zero's rampage was only halted by a blow to the head. Rasa called out to the Blue Suns to clarify what they're doing when they started to haul Jack off, and one of their number responded that Jack would have to be ransomed by the Illusive Man. Rasa grudgingly accepted the situation as Kai Leng started to recover near her, remarking that the Illusive Man won't be happy with it. Leng thought the mission a waste of time, but Rasa was uncertain: at the very least, the Illusive Man will know Subject Zero's worth and capabilities.",
+      "url": "https://masseffect.fandom.com/wiki/Maya_Brooks",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "summary:miranda-lawson",
+      "kind": "summary",
+      "page": "Miranda Lawson",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Miranda Lawson was a human Cerberus officer, born in 2150. She had no mother; her influential, wealthy, egomaniacal father genetically engineered her from a modified copy of his own genome to be a specimen of human perfection, with enhanced intelligence, strength, reflexes, biotics, looks, faster healing and an extended lifespan. She was the first \"daughter\" he kept. Denied friends and affection and pressured to always be better, she fled home, and her father pursued her across the galaxy until she joined Cerberus in exchange for protection, at which point he severed his ties to the group. She rose to answer directly to the Illusive Man.\n\nIn Mass Effect Galaxy she worked as an informant for Jacob Taylor, helping him foil a batarian plot to assassinate the Citadel Council with a bioweapon. In the Mass Effect: Foundation comics she recruited Jacob to Cerberus while searching Terminus space for the fallen Shepard's body, ran the Lazarus Project at Minuteman/Lazarus Station, used the agent Rasa to steal Shepard's Spectre files, and later pursued Rasa when she defected with Shepard's backup clone. In Mass Effect: Redemption she guided Liara and Feron toward recovering Shepard's body from the Shadow Broker's agents and had it transferred to Lazarus Research Station.\n\nThe Illusive Man placed Miranda in charge of the Lazarus Project, which spent two years and vast Cerberus resources reviving Shepard. She became Shepard's second-in-command aboard the Normandy SR-2 and a proxy for the Illusive Man, having wanted (but been denied) to implant Shepard with a control chip. Her loyalty mission, \"Miranda: The Prodigal,\" concerned protecting her twin sister Oriana from their father. During the Suicide Mission she could lead the second fireteam, and if present when Shepard destroyed the Collector Base she resigned from Cerberus. She was a romance option for a male Shepard.\n\nIn Mass Effect 3, if she survived, Miranda spent the war investigating Oriana's disappearance. Her father Henry Lawson, allied with the Illusive Man, had abducted Oriana and taken her to the Sanctuary facility on Horizon, whose true purpose was processing refugees into Reaper husks. Miranda was gravely wounded by Kai Leng there. Whether she survived the Horizon confrontation depended on securing her loyalty, warning her about Kai Leng, and granting her Alliance resources; if she lived she killed Henry, planted a tracker on Kai Leng leading to Cronos Station, joined the war effort striking Cerberus targets, and reunited with Oriana. She could appear in Mass Effect 3: Citadel, including at Shepard's party where she sparred with Jack.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "storyline-ii_017",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Mass Effect: Foundation \\#7",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Dr. Angersol frantically comms for backup when the doors to his office are demolished by sheer biotic power. Jack steps inside and executes the doctor, a figure from her Subject Zero past. The Illusive Man appears before her via hologram, attempting to reason with her, but Jack would hear none of it. At a remote Cerberus outpost elsewhere, Kai Leng hooks in Rasa for a mission. A Cerberus training facility is under attack, and the Illusive Man dispatches them both to retrieve the perpetrator, Jack: dead or alive, through whatever means necessary. Leng and Rasa arrive at the training facility a short time later, finding huge swathes of destruction in Subject Zero's wake. The presence of multiple people out to get the target makes Rasa think about Jack's possible origins and the threat she poses. Leng simply suggests they should find her before the others \\- the Blue Suns mercenaries \\- do. With the facility in lockdown, Jack makes her way to its main reactor. She comes across a bald man claiming to be a biotic trainee of the facility. The man doesn't know where the reactor is, but he takes her to his fellow students when she orders him to. The man claims to have had a better life under Cerberus tutelage, but Jack's own experiences with the organization tells her otherwise. On finding the other students she gives them a chance to learn the truth behind Cerberus by escaping with her, or stay and keep hoping that Cerberus is as benevolent as it seems to be. A good number of the students follow Jack as they try to make it out of the facility. A trio of Blue Suns mercs block their way, so Jack orders the students to sneak across while she presents herself as a diversion. Rasa and Leng arrive behind Jack when she's done bringing down the ceiling on the mercs. Brandishing his sword, Leng gives her one chance to surrender. Jack responds by unleashing a powerful biotic blast on the Cerberus operatives. She warns Rasa to stay down, but Leng is actually coming down on her from above. She senses it and biotically blasts the assassin again, this time hurling him higher up. More Blue Suns arrive at the scene and open fire on Jack, forcing her to throw up a biotic shield. She sees the students she's with securely behind Blue Suns lines. Enraged at the turn of events she starts making everything in the vicinity fly. Unfortunately, a krogan merc sneaks up from behind and docks her at the head, knocking her unconscious. The merc picks her up and hauls her away, to the Cerberus agents' consternation. The Illusive Man can still have Subject Zero, but the krogan wants triple the usual pay for all the losses he has incurred. As Leng and the students recover from the turn of events he chalks up the post\\-mortem as a \"colossal waste of time\", but Rasa begs to differ: at the very least, the Illusive Man will now know what Jack is capable of.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "kai-leng_010",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Mass Effect: Retribution",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When Cerberus confirmed Paul Grayson was on Omega, Leng was charged with hunting down and capturing him. Leng and a squad of six other Cerberus operatives capture Grayson. During the mission Leng personally kills Liselle, the daughter of Aria T'Loak and Grayson's lover. He is then ordered to oversee Grayson during the Reaper nanotechnology experiment. It was Leng's idea to dose Grayson with red sand to lower his resistance to the Reaper technology. The Illusive Man orders Leng to exterminate Grayson if the experiment becomes too dangerous to continue, or if he got out of control. However, when a turian strike team raids the research facility that houses Grayson, Leng chooses to rescue the Illusive Man rather than kill Grayson, meaning Grayson is rescued by the turians. After the assault, the Illusive Man sends Leng to Aria as Cerberus' representative, both to negotiate for her assistance in finding Grayson, and to keep an eye on her. After bringing the proposals of the Illusive Man to Aria, Leng remains on Omega, closely monitoring Aria's movements and waiting for Grayson to show up. After Grayson arrives on Omega, lured by a distress call from Kahlee Sanders, Leng follows Grayson, but doesn't engage him because of his cybernetic enhancements. He stays out of the way as Grayson tears through Aria's troops and flees to the spaceport. After Grayson escapes Omega, Kai Leng offers David Anderson and Kahlee Sanders \\- who are both looking for Grayson \\- a ride off Omega, in exchange for their help in taking out the Reaper\\-possessed monster Grayson had become. Knowing he is a Cerberus agent, Anderson and Kahlee attack Leng, but he gets the upper hand and asks again for their help, knowing Kahlee is the key to finding Grayson. They reluctantly accept; however, when confronted with turian security guards near Leng's shuttle, they take their chance. After distracting Leng, Anderson tasers him, then convinces the guards to let him take Leng's limp body. Leng is then tied to the copilot chair with rope from the shuttle's med kit. During the journey, Kahlee realises the Reapers are sending Grayson to the Jon Grissom Academy, home of the Ascension Project. Upon arrival at the Grissom Academy, both Anderson and Sanders leave the shuttle to protect the biotic pupils at the Project, leaving Leng tightly bound to the chair. After a struggle with the rope that left him bleeding, Leng manages to free himself and get into the Academy. He later encounters a gifted biotic student named Nick, and needing Nick's biotics in lieu of a weapon, manages to persuade Nick that he is on his side. On his way through the Academy, Leng hears Grayson in the distance, prompting both he and Nick to hide in a nearby empty room. Leng intends to ambush Grayson using Nick's biotics, but when the attempt fails, Leng tries to steal Grayson's weapon. He fails and is almost killed, only to be saved by Anderson, who kills the Reaper\\-controlled Grayson with a shotgun. Anderson refuses to simply let Leng escape; however, Nick has been shot and is badly hurt. Anderson has to choose between saving Nick and letting Leng go, eventually choosing to help Nick \\- though not before shooting Leng in each leg to try and slow him down. Despite his injuries, Leng still manages to get back to the shuttle and escape. He is able to report to the Illusive Man, who assures him that despite the failures of his mission, he is still an asset to Cerberus. |  | ***“But what about my father? What happened to him?”*** — Spoilers for **Mass Effect: Deception** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "kai-leng_012",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kai Leng is amongst the forces that Cerberus sends against Commander Shepard. Like Cerberus Phantoms, he is equipped with a palm device that projects a kinetic barrier, a projectile weapon in his right gauntlet, a tactical cloak and a sword for close\\-range combat. Leng and a sizable contingent of Cerberus forces are deployed during Councilor Udina's attempted coup against the Citadel Council. He was close to assassinating the salarian councilor when Shepard and either Major Kirrahe or Thane Krios interferes. Leng either stabs Krios in a brief skirmish, or fires at the councilor only to hit a cloaked Kirrahe before escaping. If both Thane and the major previously died, or Thane was never spoken to before the coup attempt, Leng will successfully assassinate the councilor. In a race to get to the remaining councilors, Leng disables Shepard's skycar, but ultimately fails his mission and is forced to retreat as C\\-Sec begins to regroup. As he escapes, Leng reports his failure to the Illusive Man and promises to never let Shepard get the better of him again. In the failed coup's aftermath it's revealed that Leng released a VI into the Citadel mainframe that erased all footage of himself. If the salarian Councilor was saved, Bailey presumes that Leng didn't believe Udina's plan would succeed. Leng is later sent to the Temple of Athame on Thessia, where he kills a group of scientists waiting for Shepard. Leng remains hidden as the Commander discovers a hidden Prothean Beacon, awakening a Prothean VI named Vendetta, who holds information on the final Crucible piece known as the Catalyst. Leng then reveals himself, at which point Vendetta shuts down upon detecting that he is indoctrinated. Leng requests the Commander's attention and releases a small drone that projects a hologram of the Illusive Man. The Spectre and the Illusive Man exchange words but remain unable to sway each other, so the latter orders Leng to take the VI. The Cerberus assassin then engages Shepard's team in combat but is unable gain a clear advantage, so he instructs his gunship to level the temple. The floor caves in, leaving Shepard alive but unable to act as Leng manhandles the Commander's squad, claims the data, and escapes. After the mission, Leng sends a taunting message to Shepard titled \"Evacuating Thessia\", disguised as asari military command: **Evacuating Thessia** --- From: Asari Military Command Good. You opened this message. This isn't actually asari military command. They're busy tending to what's left of their planet. So you survived our fight on Thessia. You're not as weak as I thought. But never forget that your best wasn't good enough to stop me. Now an entire planet is dying because you lacked the strength to win. The legend of Shepard needs to be re\\-written. I hope I'm there for the last chapter. It ends with your death. \\-KL Samantha Traynor is able to track Leng to Horizon, where Henry Lawson is conducting experiments on refugees on his Sanctuary compound. At the same time, the Reapers begin attacking the compound, and one of Henry's daughters is running around attempting to broadcast messages exposing Sanctuary's true operations. Leng is ordered by the Illusive Man to get Henry's research, but reminded to kill the Lawson daughter (Miranda if she's alive, or Oriana if not) only if she got in the way. Leng wounds the Lawson daughter when they meet, but otherwise leaves her alone. He manages to complete his primary objective and abandons the Lawsons to die, but is unaware that he still left enough incriminating information behind that allows Shepard's team to locate Cerberus Headquarters (or Miranda planted a tracer on him that leads directly to the HQ). During the Alliance assault on Cronos Station, Shepard can discover video logs detailing Leng's frustration with the Illusive Man's refusal to have the Commander killed. Eventually, the assassin reveals himself in the Illusive Man's office, interrupting the Commander's attempt to warn Admiral Hackett about the Catalyst being the Citadel. Leng and Shepard battle for the last time; the Commander's team versus him and groups of Assault Troopers, Phantoms, and Nemeses he periodically summons. During the fight, the Commander taunts him on his previous leg injuries and all the times he retreated in their encounters, the latter angering Leng. Despite Leng's lethal skills and numerical superiority, he's unable to overwhelm Shepard. With his shielding depleted, he soon succumbs to attacks from Shepard's squad. Despite his heavy wounds, Leng retrieves his blade and silently approaches Shepard, attempting a kill from behind. At the critical moment, Shepard detects him and counters his attack, causing him to gape in shock.",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "kai-leng_008",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Mass Effect: Foundation 7",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kai Leng met up with Rasa and informed her of a mission she was to take with him. Still disliking their forced partnership, Leng filled her in on the details. Someone blew up a Cerberus training facility, and the Illusive Man dispatched them to catch the perpetrator. Leng declared he won't be taking any chances with the job, and told Rasa she's only there to piece together things when he's done. Leng listened to Rasa prattle on about her thoughts on the target's nature once they were at the training facility. He surmised that the Blue Suns contingent also in the base must be there for containment in case of the agents' failure, and with Rasa's suspicions in mind he urged her to keep up the pace. They must find Jack before the mercenaries do. Rasa and Leng found Jack after she finished dealing with some Blue Suns mercenaries. Leng issued threats against the biotic, waving his sword, only to be knocked over by Jack's immense biotic energy. He tried another tactic and came at Jack from above and behind, but she sensed his presence and threw him off farther away. By the time Leng recovered, Jack was already taken unconscious by the mercenaries. He remarked the Illusive Man won't be happy with the developments as he pried his stuck sword loose, and declared the whole fiasco to be a colossal waste of time.",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "summary:hal-mccann",
+      "kind": "summary",
+      "page": "Hal McCann",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Hal McCann was a former Cerberus operative, drawn from the first edition of Mass Effect: Deception, which BioWare acknowledged contains lore discrepancies. A loyal operative, McCann had served aboard the space station where the Illusive Man conducted Reaper technology experiments on Paul Grayson. When a turian strike force attacked the station, McCann survived by playing dead until the turians removed him and other corpses to their ship. He then killed both pilots, flew the ship to Omega and sold it, hoping to use the money to re-establish contact with Cerberus. Before he could, he gambled away his money and his freedom and was sold to batarian slavers.\n\nWhen the slave ship Glory of Khar'shan unsuccessfully attacked the quarian vessel Idenna and was itself captured, McCann was freed and encountered Gillian Grayson and Hendel Mitra. Concealing his Cerberus affiliation, he told Gillian her father had been killed and persuaded her to seek information on the Citadel, his own intended destination. On arrival, Hendel and Gillian brought McCann to David Anderson and Kahlee Sanders' apartment, which was being monitored by Cerberus assassin Kai Leng. Leng recognized McCann and Gillian and informed the Illusive Man, who ordered both killed before they could damage Cerberus. Knowing McCann was an avid gambler, Leng searched the Citadel's clubs and cornered him. They fought, and McCann prevailed partly due to Leng's preexisting injuries, but rather than finishing him or escaping he stayed to gloat. Leng stabbed McCann in the foot, then crushed his neck with a baton, leaving his body in a bathroom stall.",
+      "url": "https://masseffect.fandom.com/wiki/Hal_McCann",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "kai-leng_009",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Mass Effect: Foundation 8",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Leng rounded on Rasa in the aftermath of their failed mission to capture Jack. He claimed the Illusive Man wasn't done with them yet: if they're lucky they'll have new assignments waiting when they got back. Rasa tried to reason with him aboard their shuttle, but Leng just blamed her presence for Jack's absence and even accused her of gloating at the beating he received from the biotic. Message beeps interrupted their exchange, and Leng grumbled that Cerberus didn't even wait for them to land. He later received orders to return to the shuttle mere moments after their landing at the Minuteman Station, with Miranda Lawson claiming that the Illusive Man wanted to see him in person immediately. Rasa tried to apologize, but Leng threatened her instead: assuming he got another chance, she better hope they never go on missions together ever again. Not one to keep the Illusive Man waiting, he hurried along his assigned driver as he went back inside the shuttle. |  | ***“Your understanding is limited...”*** — Spoilers for **Mass Effect: Retribution** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "summary:kai-leng",
+      "kind": "summary",
+      "page": "Kai Leng",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kai Leng was an assassin for the human-supremacist organization Cerberus and the Illusive Man's most trusted wet-work operative. Earth-born of Chinese and Russian/Slavic heritage, he was formerly a lieutenant and N7 marine of the Systems Alliance known for anti-alien attitudes. Alliance records showed he enlisted on November 14, 2172 at age 16 with faked credentials, received the N7 designation in 2176, and that same year was dishonorably discharged and imprisoned for 20 years for first-degree murder after killing a krogan in a Citadel bar fight with a service blade. Cerberus liberated him from prison, and the Illusive Man used him as an assassin for over a decade; his cybernetics included Phantom-class implants, and he fought with a tactical cloak, a gauntlet projectile weapon, a palm kinetic barrier, and a sword resembling a ninjatō.\n\nIn Mass Effect: Foundation he was repeatedly paired, to his annoyance, with the agent Rasa on missions involving Fist, the aftermath of Eden Prime, and a failed attempt to capture Jack, during which Jack twice threw him with her biotics. In Mass Effect: Retribution he captured Paul Grayson on Omega, personally killed Liselle, daughter of Aria T'Loak, oversaw the Reaper nanotechnology experiment on Grayson, and proposed dosing him with red sand. When turians raided the facility he chose to rescue the Illusive Man rather than kill Grayson. He later offered David Anderson and Kahlee Sanders a ride off Omega, was tasered and bound by Anderson, escaped at Grissom Academy by enlisting the student Nick, and though shot in both legs by Anderson still escaped after Anderson killed Grayson.\n\nIn Mass Effect 3 Leng was deployed during Udina's Citadel coup, where he stabbed Thane Krios or shot a cloaked Major Kirrahe (or assassinated the salarian councilor if both were unavailable), then escaped after erasing footage of himself. He killed scientists at the Temple of Athame on Thessia, seized the Prothean VI Vendetta and its Catalyst data, and leveled the temple with his gunship. He then sent Shepard a taunting message (\"The legend of Shepard needs to be re-written... It ends with your death. -KL\"). Traynor tracked him to Horizon, where he wounded a Lawson daughter and secured Henry Lawson's Sanctuary research but left behind evidence (or a tracer from Miranda) leading to Cerberus Headquarters. In the Illusive Man's office at Cronos Station he fought Shepard a final time; despite summoning waves of troops he was overwhelmed, and when he attempted a stealth kill from behind, Shepard countered and killed him with an omni-blade, dedicating the kill to Thane, Miranda, or Kirrahe.",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "summary:mass-effect-foundation-8",
+      "kind": "summary",
+      "page": "Mass Effect: Foundation 8",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Mass Effect: Foundation 8, tagged \"Death From The Shadows!,\" was published February 26, 2014, written by Mac Walters with art by Tony Parker. After Kai Leng and the agent Rasa failed to retrieve Subject Zero (Jack), the Illusive Man refused their apologies. At Minuteman Station, Miranda Lawson gave each new orders; Leng threatened Rasa against ever pairing with him again.\n\nAt the labs, Miranda briefed Rasa on the Lazarus Project, showing her Shepard's backup clone, Shepard's reconstruction, and Cerberus's full archive on Shepard. Rasa's intelligence had been invaluable to the project, but the Illusive Man still wanted the real Shepard restored. Rasa's assignment was to steal Shepard's classified files from the Spectre offices on the Citadel. Miranda gave her a disc of outdated Cerberus secrets to trade to the Spectre Tela Vasir for sanctuary in the Spectre offices, where she could download the files. Posing as a Cerberus defector with lightened skin and a blonde wig, Rasa approached Vasir, who took the disc and left her at an office. Vasir suspected treachery, returned with armed guards, undid Rasa's disguise, and took her prints and DNA. Vasir blackmailed Rasa into delivering the Shepard files to the Illusive Man carrying a virus meant to force him to meet Vasir's demands, offering a choice between prison and betraying Cerberus.\n\nAfterward, at a bar, Rasa was slipped a spiked drink. Stumbling into the Presidium, she was pulled from a C-Sec officer by a stranger who claimed her and set her down in an alley: the assassin Thane Krios, knife drawn. Rasa blurted that she did not want to die because she had never lived; Thane decided to believe her, said he had been misinformed about her, apologized, and carried her off praying to Kalahira. Days later Rasa reached Minuteman Station on a gurney and warned Miranda about the virus; Miranda extracted the data and countered it. The Illusive Man, pleased, agreed Rasa's field days were over but said he still had a purpose for her: drawing up the dossiers for Shepard's prospective team.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect:_Foundation_8",
+      "for_key": "Kai Leng's failed attempt to recapture Jack for Cerberus before he worked directly for the Illusive Man"
+    },
+    {
+      "chunk_id": "summary:lazarus-project",
+      "kind": "summary",
+      "page": "Lazarus Project",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Lazarus Project was a Cerberus project whose sole purpose was to bring Commander Shepard back from the dead. After Shepard was killed in a Collector attack that destroyed the SSV Normandy, Cerberus recovered Shepard's corpse with the help of Liara T'Soni. The Illusive Man created and funded the project, pouring in vast resources in the belief that only Shepard could stop the Reaper threat while the Council did nothing.\n\nThe project took two years and over 4 billion credits, undertaken by the Lazarus Cell headed by Miranda Lawson with her assistant Wilson. It involved cybernetic implants to reconstruct Shepard's skeleton, rebuilding of skin, and fluids to restart blood flow and organs, along with facial reconstruction; Shepard partially lost prior abilities and talents. The Illusive Man refused to implant a control chip in Shepard's brain, fearing it would alter Shepard's personality. The project succeeded in 2185 when Shepard regained full neurological activity.\n\nCerberus also created a clone of Shepard, kept secret and intended as a source of spare organs during the revival, though it was never used. In 2186 the disillusioned ex-Cerberus operative Maya Brooks awakened the clone and convinced it to kill and replace the original Shepard to pursue a pro-human agenda; Shepard stopped the clone from escaping the Citadel aboard the Normandy SR-2, and the clone was killed while Brooks was captured or killed. During the assault on Cronos Station near the end of the Reaper War, recovered Lazarus Project records confirmed Lawson's claim that Shepard had been reconstructed without genetic or neural tampering. The project's name references Lazarus of Bethany, raised from the dead in the Bible.",
+      "url": "https://masseffect.fandom.com/wiki/Lazarus_Project",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "scene:prologue-awakening-lazarus-station#04",
+      "kind": "scene",
+      "page": "Shepard Wakes on the Lazarus Station",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "prologue-awakening-lazarus-station",
+      "text": "Shepard Wakes on the Lazarus Station. 2185, the Lazarus Project's final stage, during the mech sabotage the Lazarus Research Station — a Cerberus deep-space station: the medical bay, the corridors and docking area, the shuttle-bay door, then the escape shuttle\n Shepard found Jacob Taylor pinned down fighting LOKI mechs. Jacob joined up, and as they pushed toward the shuttle bay he admitted what Shepard had not been told: the Lazarus Project was a Cerberus operation and Cerberus had brought Shepard back from the dead.",
+      "url": "",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "prologue-awakening_003",
+      "kind": "page",
+      "page": "Prologue: Awakening",
+      "section": "Walkthrough",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This is the second mission of the prologue. It begins right after completing Prologue: Save Joker, and it serves a dual purpose, providing a basic combat tutorial and introducing field mission concepts. This mission situates Commander Shepard in the Mass Effect 2 universe as a Cerberus operative with a new team. After the destruction of the Normandy SR\\-1 and death of Commander Shepard two years earlier, Shepard's body was recovered by Cerberus, who spent the time rebuilding Shepard into a cybernetically\\-enhanced symbol of humanity. After the opening credits, which show Shepard literally being rebuilt by the Lazarus Project, and a brief interlude showing Shepard regaining consciousness prematurely, the Commander awakens for the second time on an operating table at the Lazarus Research Station to alarm bells ringing, as the station's personnel come under attack from their own security mechs. Although alone and under\\-equipped, Shepard is guided by an authoritative female voice over the intercom, the voice belonging to the woman looming over Shepard when they awoke the first time, eventually revealed to be Miranda Lawson, head of the Lazarus Project and commanding officer of the facility.",
+      "url": "https://masseffect.fandom.com/wiki/Prologue:_Awakening",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "lazarus-project_001",
+      "kind": "page",
+      "page": "Lazarus Project",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | The **Lazarus Project** was a Cerberus project, the sole purpose of which was to bring Commander Shepard back from the dead. When Commander Shepard was killed in a Collector attack that also resulted in the destruction of the SSV Normandy, Cerberus was able to recover Shepard's corpse with the help of Liara T'Soni. The Illusive Man created and funded the Lazarus Project, pouring virtually unlimited resources into the belief that only Shepard could stop the Reaper threat to humanity as the Council stood idly by. The exorbitant project took 2 years and over 4 billion credits to complete. Undertaken by the Lazarus Cell, which was headed by Miranda Lawson and her assistant Wilson, it involved attaching cybernetic implants to reconstruct the Commander's skeleton, reconstruction of the skin, and fluids to restart the blood flow and internal organs. The one thing that the Illusive Man refused to do was implant a control chip in the Commander's brain, fearing that it may affect Shepard's personality and abilities. As part of the project, Shepard underwent facial reconstruction and partially lost prior abilities and talents. The project proves to be a success in 2185 when Shepard manages to regain full neurological activity. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | When there was an attempt to steal Commander Shepard's identity in 2186, the Commander tracked down the person behind the scheme and discovered it was none other than a clone created by Cerberus. The clone was kept a secret, intended to be used for spare organs and other body parts over the course of the true Shepard's revival through the Lazarus Project, but it was never utilized and remained in storage. It was awakened by disillusioned ex\\-Cerberus operative Maya Brooks six months before the Reaper invasion, and Brooks convinced it to kill and assume the identity of the original Shepard in order to pursue a pro\\-human agenda. Shepard stopped the clone from escaping the Citadel with the Normandy SR\\-2. The clone is killed, and Brooks is either captured or killed. During the assault on Cronos Station near the close of the war against the Reapers, some Project Lazarus records are discovered within the station. They affirm Miranda Lawson's claims that Shepard was reconstructed without genetic or neural tampering per the Illusive Man's wishes.",
+      "url": "https://masseffect.fandom.com/wiki/Lazarus_Project",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "scene:prologue-awakening-lazarus-station#01",
+      "kind": "scene",
+      "page": "Shepard Wakes on the Lazarus Station",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "prologue-awakening-lazarus-station",
+      "text": "Shepard Wakes on the Lazarus Station. 2185, the Lazarus Project's final stage, during the mech sabotage the Lazarus Research Station — a Cerberus deep-space station: the medical bay, the corridors and docking area, the shuttle-bay door, then the escape shuttle\n Cerberus had spent two years and over four billion credits rebuilding Shepard's corpse on this station under Miranda Lawson, with the medical officer Wilson on the bio wing. The reconstruction — cybernetic skeleton, regrown skin, restarted organs — was all but finished; the Illusive Man had refused Miranda's proposal to implant a control chip.",
+      "url": "",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "wilson_001",
+      "kind": "page",
+      "page": "Wilson",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Wilson** is a medical officer who works for Cerberus and oversees the Lazarus Project, along with Miranda Lawson. While Miranda runs the project, Dr. Wilson is attached to the bio wing, acting as Chief Medical Officer. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | While the Lazarus Project is rebuilding Shepard, the facility comes under attack by rogue mechs, and Commander Shepard needs to fight through the facility to escape despite not being fully healed. When Shepard encounters Wilson for the first time, he has suffered a gunshot wound to the leg. As soon as the Commander treats him with medi\\-gel, more mechs swarm to their position. Wilson suggests overloading volatile crates nearby, and helps to carve a path to the station's escape shuttle. He finds Miranda waiting beyond the shuttle bay doors, and she shoots him in the throat. Miranda claims that it was Wilson who hacked the mechs just before she, Jacob Taylor, and Shepard finally evacuate the station. The reason for Wilson's betrayal is originally unknown. Various logs narrated by Wilson indicate frustration with Miranda's standoffish attitude, possibly suggesting he snapped due to personal reasons or was attempting to elicit some sort of privileged information from Miranda. Information available aboard the Shadow Broker's base, however, reveal that Wilson was in fact working for the Shadow Broker.",
+      "url": "https://masseffect.fandom.com/wiki/Wilson",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "scene:cronos-station-illusive-man-and-kai-leng#02",
+      "kind": "scene",
+      "page": "The Third Meeting, and the End of Kai Leng",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "cronos-station-illusive-man-and-kai-leng",
+      "text": "The Third Meeting, and the End of Kai Leng. 2186, Priority: Cerberus Headquarters, the assault on Cronos Station — the point of no return the Illusive Man's inner sanctum aboard Cronos Station, orbiting Anadius in the Horse Head Nebula The team fought through the hangar bay — stopping Cerberus from venting it into space — and the rotation and drive sections toward the Illusive Man's sanctum, passing video terminals that laid out the Lazarus Project that rebuilt Shepard, EDI's own origin as the Rogue VI, Kai Leng, and Cerberus's Reaper-implant research. A love interest in the squad had personal things to say at the Lazarus Project console.",
+      "url": "",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "summary:prologue-awakening",
+      "kind": "summary",
+      "page": "Prologue: Awakening",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Prologue: Awakening was the second mission of Mass Effect 2, acquired automatically after Prologue: Save Joker. It served as a combat tutorial and established Commander Shepard as a Cerberus operative two years after the destruction of the Normandy SR-1 and Shepard's death. Shepard's body had been recovered by Cerberus and rebuilt through the Lazarus Project into a cybernetically enhanced operative. The opening credits showed the reconstruction; Shepard then woke prematurely once, then again on an operating table at the Lazarus Research Station as alarm bells rang and the station's own security mechs turned hostile.\n\nUnder-equipped and alone, Shepard was guided by radio by an authoritative woman later revealed as Miranda Lawson, head of the Lazarus Project and the station's commanding officer. Shepard collected a pistol, armor and thermal clips and fought through waves of Hacked Mechs, picking up an M-3 Predator Heavy Pistol and an M-100 Grenade Launcher along the way. Scattered laptops and datapads held audio and video logs from Miranda and Dr. Wilson describing the effort to revive Shepard, including that Shepard was returned without mental tampering. Wall safes and datapads could be bypassed or hacked for credits.\n\nShepard met Jacob Taylor on a bridge fighting mechs; Jacob confirmed he was on Shepard's side, revealed he was a biotic, and later disclosed that the Lazarus Project was a Cerberus operation, with morality points awarded for dialogue choices. Shepard then reached Dr. Wilson, who appeared wounded in the leg and was healed with medi-gel before joining temporarily. At the shuttle bay door, Miranda was waiting on the other side and shot Wilson dead without ceremony, explaining that he was the traitor who had hacked the security mechs, endangered the project, and caused the deaths of most of the staff.\n\nDuring the shuttle ride to another Cerberus facility, Miranda questioned Shepard about pre-service history, psychological profile, and the squadmate lost on Virmire to assess memory. At the facility Shepard spoke with the Illusive Man by hologram, who explained that entire human colonies and thousands of colonists had vanished and tasked Shepard with investigating Freedom's Progress alongside Miranda and Jacob. The Lazarus Station was afterward destroyed by remote detonation to erase incriminating data. Shepard gained Jacob and Miranda as squad members and the mission awarded roughly 1,000 experience and 7,500 credits.",
+      "url": "https://masseffect.fandom.com/wiki/Prologue:_Awakening",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "cerberus_024",
+      "kind": "page",
+      "page": "Cerberus",
+      "section": "Projects",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- **Enhanced Defense Initiative** \\- An initiative to create a \"shackled\" AI developed from a rogue Alliance VI and systems salvaged from Sovereign. The result was the Enhanced Defense Intelligence, or \"EDI\", which was installed onto the Normandy SR\\-2 as an analysis and cyber warfare system. - **Lazarus Project** \\- Established in 2183\\. Based out of Lazarus Research Station and led by Miranda Lawson, the Lazarus Project spent billions of credits in pursuit of one goal: bringing Commander Shepard back to life. - **Project Doorway** \\- Established in 2163\\. Produced forged Council\\-standard medicards and identitags to allow operatives unrestricted movement. - **Project Eva** \\- Commissioned by the Illusive Man after Cerberus lost contact with Commander Shepard, EDI and the Normandy SR\\-2 following the defeat of the Collectors. Project Eva developed Dr. Eva Coré, an infiltration mech. - **Project Firewalker** \\- Responsible for field\\-testing the prototype M\\-44 Hammerhead planet\\-side exploration rover. - **Project Mia** \\- Developed by Cerberus scientists studying indoctrination and Reaper\\-Husk communication who later fled the organization and took refuge on Gellix with their research. Due to the compartmentalization of the project's components, and at least one of the researchers is dead before the group's exodus, the surviving researchers could not piece together the true nature of the project. - **Project Overlord** \\- Based on Aite, Overlord was intended to develop a specialized hybrid\\-VI capable of controlling the geth to serve Cerberus. - **Project Phoenix** \\- Experimented on enhancing human physiology to develop stronger biotics. Many Phoenix Operatives defected from Cerberus after the Illusive Man began using indoctrination to ensure the loyalty of his troops. Dragoons may have been the end\\-result of Project Phoenix. - **Project Trapdoor** \\- Established in 2168\\. Using the front corporation New Dawn Pharmaceuticals, the drug omega\\-enkaphalin (O\\-E) was developed to disrupt the powers of biotics. Cerberus personnel were nanosurgically altered to resist O\\-E. - **Unnamed Biotics Project** \\- Based at Pragia's Teltin Facility, this project aimed to increase biotic potential in humans through experiments on child biotics kidnapped by Cerberus or bought from batarian slavers. Among the subjects were Jack and Aresh Aghdashloo. The project's highly unethical methods included the use of torture (both physical and psychological) and drugs on subjects as well as gladiatorial combat between subjects. Fatalities were not uncommon. The project ended following a riot by the child subjects, leading to the deaths of many guards and children. - **Unnamed Genetics Project** \\- An illegal operation that aimed to create an unstoppable army. Its main base of operations is on the planet Nepheron. - **Unnamed** **Project** \\- An operation to create a device that disrupts higher mental functions, allowing the victim to be controlled. Shut down sometime after Lazarus Project started. Finally used in the Andromeda Galaxy by a team of ex\\-Cerberus scientists.",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "lazarus-cell_001",
+      "kind": "page",
+      "page": "Lazarus Cell",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | The **Lazarus Cell** is one of the many cells operating within Cerberus. Like all Cerberus cells its members have no knowledge of their counterpart cells: a tactic that prevents captured Cerberus agents from compromising the security of other cells. The leading operative of the Lazarus Cell is Miranda Lawson, who reports to the Illusive Man. After Commander Shepard's death, the Lazarus Cell was tasked with the recovery and reanimation of Shepard's remains in what was known as the Lazarus Project. The cell labored aboard the Lazarus Research Station for two years and successfully revived Shepard. However, in the final stages of the project Wilson, the cell's medical officer, hacked and reprogrammed the station's mechs to attack its staff. Most of the cell's personnel were killed: only Miranda Lawson, her executive officer, Jacob Taylor, and the prematurely awakened Shepard survived. The survivors fled the station, which was subsequently destroyed by remote detonation. The surviving members of the Lazarus Cell traveled to Minuteman Station. There, the Illusive Man put Shepard in charge of the cell's activities and tasked the cell with discovering who or what caused the disappearance of tens of thousands of human colonists in the Terminus Systems. The cell's next mission was the investigation of Freedom's Progress: a human colony whose inhabitants had recently and mysteriously disappeared. The mission successfully confirmed that the Collectors were responsible for abducting colonists and the Illusive Man tasked the cell with stopping them. After the mission to Freedom's Progress, the cell's headquarters was moved to the recently completed Normandy SR\\-2 and the cell was restaffed with 24 new members (according to EDI). Though under Shepard's command, Lawson retained her position as the cell's leading operative and continued sending reports to the Illusive Man. Shepard, Doctor Chakwas, Joker and the specialists that Shepard recruits for the mission are not official members of the Lazarus Cell or members of Cerberus. The fate of the Lazarus Cell depends on the player's choices in Mass Effect 2. Endings range from the Collectors destroying most of the cell's personnel (possibly including Shepard and the entire team) to Shepard saving the lives of his or her entire crew. If Shepard survives, he or she, as the leader of the cell, may cut ties with Cerberus or remain on good terms with the Illusive Man. In all cases the Lazarus Cell accomplishes its mission to stop the Collectors.",
+      "url": "https://masseffect.fandom.com/wiki/Lazarus_Cell",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "codex-known-associates_013",
+      "kind": "page",
+      "page": "Codex/Known Associates",
+      "section": "Miranda Lawson",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | Audio: Miranda Lawson | | --- | --- | Miranda Lawson is a high\\-ranking former Cerberus operative and a human biotic. Lawson headed Project Lazarus, the Cerberus operation that brought Commander Shepard back from the brink of death after the first Normandy was destroyed. Lawson is herself an example of the achievements possible through genetic engineering. She was created in 2150 through manipulation of her father's DNA. Her entire physical and mental composition was deliberately engineered, including a longer life span and a superior immune system. Lawson accompanied Commander Shepard on the maiden voyage of the Normandy SR\\-2 and was part of the crew responsible for the defeat of the Collectors. She has since left Cerberus. Her current whereabouts are unknown.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Known_Associates",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "lazarus-research-station_001",
+      "kind": "page",
+      "page": "Lazarus Research Station",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“I guess I want to stand for something too.”*** — Spoilers for **Mass Effect: Foundation** follow. |  | | --- | --- | --- | |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | The **Lazarus Research Station** is a space station located in deep space used by Cerberus as headquarters for the Lazarus Cell and as a site for the Lazarus Project.",
+      "url": "https://masseffect.fandom.com/wiki/Lazarus_Research_Station",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "cerberus_009",
+      "kind": "page",
+      "page": "Cerberus",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cerberus takes an interest in Commander Shepard after the Commander's defeat of Sovereign in the Battle of the Citadel. When Shepard is killed after a devastating attack that destroyed the SSV Normandy SR\\-1, Cerberus recovers Shepard's body. Understanding the Commander's leadership skills and symbolic value, the Illusive Man commissions the Lazarus Project led by Miranda Lawson to revive Shepard from the dead. The project lasts two years and costs over 4 billion credits, enough to create an army. The Illusive Man insists that Shepard should not be implanted with any form of mind control, fearing it might alter Shepard's personality. The Lazarus Project almost fails due to a mole, Wilson, who hacks the project's security mechs to kill everyone involved. The timely revival of Shepard allows the Commander and two members of the project, Miranda Lawson and Jacob Taylor, to escape. While the Lazarus Project is underway, a separate Cerberus cell is also endowed with an enormous amount of resources to build a more advanced version of the Normandy, the SR\\-2. When asked how Cerberus obtained the schematics and data necessary to reconstruct a highly advanced, classified Alliance ship, the artificial intelligence coupled with the SR\\-2, the Enhanced Defense Intelligence aka EDI, initially reports that the information is blocked and she cannot reveal it to Shepard. After EDI's integration with the Normandy, however, the blocks are removed, revealing that Cerberus initially persuaded and backed the Alliance in co\\-developing the Normandy SR\\-1 with the turians, allowing humans to observe turian technologies and warship design practices. After its construction, Cerberus retained the schematics, purchased parts from thousands of suppliers and had it assembled by one of their cells at a remote location in the Voyager Cluster. After Shepard's resurrection, the Illusive Man convinces the Commander to help stop the disappearances of human colonies. Shepard is given the new Normandy, command over the surviving members of the Lazarus Project, and a crew handpicked to paint Cerberus in a more positive light. Soon it is discovered that a near\\-mythical race dubbed the Collectors were behind the colony abductions. The Commander is able to assemble an eclectic, highly skilled group of individuals to take down the Collectors. Despite Cerberus' anti\\-alien views, the bulk of the Commander's team is non\\-human. Shepard's previous work with alien species allows the Commander to make diplomatic overtures to species like the quarians that Cerberus itself could not make due to the organization's past. Shepard's mission is a success, resulting in the disabling or destruction of the Collector Base beyond the Omega 4 Relay. Cerberus' popularity reaches a high point because of that mission, and it attains a reputation as a highly competent vigilante organization protecting humanity from alien threats, while the Systems Alliance and the Citadel Council appear weak and indecisive. #### Mass Effect 2: Side Missions While Commander Shepard assembles the team for the suicide mission against the Collectors, Cerberus also has some involvement in tangentially\\-related matters. At the request of Jack, Shepard may travel to the abandoned Teltin Facility on Pragia, which Cerberus had once used to research biotic potential in humans, and where Jack had been the primary test subject. Cerberus had performed horrific tests on children kidnapped from poor human families around the galaxy or bought from batarian slavers. The fruits of these experiments were used to augment Jack's abilities. The Teltin facility's staff had gone behind the Illusive Man's back in order to conduct their unethical research, however, and Cerberus had no knowledge of their betrayal. The experiments were only ended when a group of test subjects started a riot. The surviving subjects were given mild amnesic treatments and sent to the Alliance, passed off as survivors of slaver attacks, while the facility staff were \"forcibly retired\". Shepard can also help Cerberus recover sensitive data which had been obtained by Eclipse mercenaries on Lorek who had captured and tortured Tyrone Rawlings, a Cerberus operative. The Commander has the option to send the encrypted data back to Cerberus, send it to the Alliance, or keep it for EDI to decode. #### Mass Effect 2: Firewalker After the MSV Rosalie, a survey ship with Cerberus connections, went missing, Shepard can be sent to investigate the wreck on the planet Zeona. There, the Commander recovers the prototype Hammerhead planet\\-side exploration rover. Data retrieved from the MSV Rosalie's emergency beacon contains clues about one Dr. Cayce's discovery of a Prothean artifact. After searching for the the scientist's whereabouts on several planets, Shepard finds the Prothean site on the planet Kopis. After the artifact's recovery, a burst of energy that contained coded information leaves the Prothean artifact. The data Cerberus was able to capture gives its researchers useful data about biotics. #### Mass Effect 2: Overlord",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "summary:lazarus-research-station",
+      "kind": "summary",
+      "page": "Lazarus Research Station",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Lazarus Research Station was a deep-space station used by Cerberus as headquarters for the Lazarus Cell and as the site of the Lazarus Project, the effort to revive Commander Shepard. Along with Minuteman Station, it was one of two facilities that housed and operated on Shepard's body and clone.\n\nIn Mass Effect: Foundation, the station's systems were breached in 2184 during a successful operation by the agent Rasa to steal Shepard's clone, with mechs, security feeds and sprinkler systems all affected. In Mass Effect 2, in 2185, the station suffered a catastrophic security breakdown when LOKI and YMIR mechs, allegedly reprogrammed by Wilson, turned on the personnel. During the crisis Shepard revived and escaped by shuttle with Miranda Lawson, the station's commanding officer, and Jacob Taylor, her executive officer, in the mission Prologue: Awakening. A later Illusive Man report revealed the station was destroyed by remote detonation, with a Cerberus team dispatched to ensure no incriminating evidence survived.",
+      "url": "https://masseffect.fandom.com/wiki/Lazarus_Research_Station",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    },
+    {
+      "chunk_id": "summary:wilson",
+      "kind": "summary",
+      "page": "Wilson",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Wilson was a Cerberus medical officer who worked on the Lazarus Project alongside Miranda Lawson. While Miranda ran the project overall, Wilson was attached to the bio wing as Chief Medical Officer, overseeing the effort to rebuild the dead Commander Shepard. While the reconstruction was still underway, the Lazarus Research Station came under attack by rogue security mechs, forcing the not-yet-fully-healed Shepard to fight out of the facility.\n\nShepard first found Wilson with a gunshot wound to the leg and treated him with medi-gel, after which more mechs swarmed the position. Wilson suggested overloading nearby volatile crates and helped carve a path toward the station's escape shuttle. At the shuttle bay doors he found Miranda waiting, and she shot him in the throat, claiming that Wilson had been the one who hacked the mechs. Shepard, Jacob Taylor and Miranda then evacuated the station.\n\nWilson's motive was initially unknown; logs he narrated show frustration with Miranda's standoffish manner, suggesting personal grievance or an attempt to extract privileged information. Files later recovered at the Shadow Broker's base revealed that Wilson had in fact been working for the Shadow Broker. Per the wiki's trivia, Wilson continued a BioWare tradition (like Corporal Jenkins before him) of an early squadmate-style character killed and effectively replaced by someone with the same abilities, in this case Miranda. He was voiced by Steve Blum, who also voiced Grunt. Cut voicelines have Wilson notice his access code has been revoked, realize only Miranda could have done it, and panic before she silences him.",
+      "url": "https://masseffect.fandom.com/wiki/Wilson",
+      "for_key": "Cerberus rebuilding Shepard from the dead through the Lazarus Project"
+    }
+  ],
+  "codex": [],
+  "conflicts": [
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/purgatory-jack-breakout.yaml — Breaking Jack Out of Purgatory",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/normandy-jack-miranda-confrontation.yaml — Jack and Miranda, Below Decks",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/cerberus-facility-kai-leng-rasa-fail-to-catch-jack.yaml — Jack Throws Kai Leng Across a Cerberus Training Facility",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": []
+}

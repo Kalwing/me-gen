@@ -1,0 +1,1147 @@
+{
+  "section": {
+    "id": "the-arena-and-the-apartment",
+    "title": "The Arena and the Apartment",
+    "target_words": 1000,
+    "form": "motivational",
+    "form_description": "A speech meant to move someone to act — the narrator talking Shepard (or whoever is listening) up off the floor and back into the fight. Sections are the rising beats of an address: the stakes named, the doubt named plainly, the evidence from a life lived that it can be done, the call. The narrator's own history is fuel for the exhortation, not the subject of it — but so is the listener's: the narrator holds up the other person's record as often as their own, since it's their record the speech is meant to land on.",
+    "form_note": "The brief is a speech, not a life story: Jack talking Shepard up in the last hour before the last push, using her own record as proof it can be done. Set after the Cerberus coup, the Citadel DLC shore leave, and the Cronos Station assault, this is the morning of the London conduit assault on Earth — everything is already staged (ships loaded, the plan set, the crew briefed), and the only thing left to do is get up and launch it. Jack is rousing Shepard right before he walks out to fight, not settling him in for the night. Romanced Jack per canon.choices (romance: Jack), consummated per jack_meeting/normandy-engineering scene at the end of ME2, with the Citadel DLC back tattoo. Note: choices.yaml's citadel_coup detail says Thane \"died protecting the dalatrass,\" but the event record (thane-krios-death-defending-the-salarian-councilor) and the coup scene (citadel-coup-csec-office-kai-leng) both have him dying for the Salarian Councilor — treating this as the user's shorthand slip, not a real contradiction, and writing it as the Councilor. Per Thomas's request, \"what-cerberus-made-me-for\" and \"the-kids-at-grissom\" were rebuilt off shared Shepard/Jack history and broader lore instead of the Teltin and Grissom backstory events: recruitment off the Purgatory prison ship (jack-recruitment-purgatory) plus the Jack/Miranda confrontation Shepard settled (jack_miranda_dispute: appeased both), and the Suicide Mission itself (Jack held the biotic barrier, all-survived outcome per suicide_mission canon). Pragia/Teltin and Grissom get at most a glancing bridging mention, never the anchor. Jack's framing of \"holding a barrier is a focus problem, not a strength problem\" and \"Cerberus bought a weapon and Shepard made a person\" are her own editorializing on the record, not new corpus facts.\nRevision per Thomas: Shepard's own AU record is now a load-bearing second thread, not a token mention. Jack is pitching HIM back to himself — every section now carries at least one beat where she cites something true of Shepard specifically as the proof, not just her own Purgatory/barrier/Brimstone/Murtock record. Sourced from config/canon/choices.yaml's Shepard AU overrides (Normandy-born, no parents, gang and drug problem before Anderson pulled him into N7; Sole Survivor of Akuze, the whole squad dead but him; Vanguard, biotic charge into the guns; alignment \"Paragon, except against oppressors\"; first name Thomas) plus the ME2/ME3 record most relevant to a focus-and-resolve pitch: Cerberus rebuilding him from a corpse via the Lazarus Project (a direct mirror to Jack's own tank), Mordin's death at the Shroud finishing the genophage cure, and Thessia — the one fight where Kai Leng actually got the better of him and walked off with Vendetta, which Jack uses as the counter-example, not the insult. Kai Leng's death at Cronos Station, days earlier in the same push on Cerberus's headquarters, closes the speech as proof the focus she's asking for is already proven, not a new trick.\nSecond revision per Thomas, correcting two errors: (1) the outline had previously let the closing section cite the Illusive Man's suicide as settled proof Jack could point back to. That confrontation happens on the Citadel, concurrent with or immediately after the London conduit assault itself — part of the endgame this speech is walking Shepard out the door toward, not something resolved before it. It has been cut entirely; Kai Leng's death at Cronos Station (a distinct, already-resolved event from the assault on Cerberus's headquarters, which happened before this morning) carries that closing beat on its own. (2) the whole episode was misdated as the evening before, ending in the two of them going to sleep. It is corrected throughout to the morning of the assault itself: the fleet is already massed, the plan already briefed, nothing left to prepare — Jack is waking Shepard and getting him moving, not tucking him in. No section still ends on rest; every \"tonight\"/\"tomorrow\" reference has been changed to \"today,\" \"now,\" or \"in the next hour,\" and \"The Last Quiet Night\" is renamed \"The Last Quiet Hour\" to hold the tattoo-and-sentiment beat inside a tense pre-launch hush instead of an evening of repose. The Crucible's final choice and Shepard's fate at the end of it remain deliberately left out: that hasn't happened yet either, and reaching for it would still be narrator omniscience, not something Jack could actually voice this morning.\nThis does not strain the form. `motivational`'s brief is explicit that \"the narrator's own history is fuel for the exhortation, not the subject of it\" — and Jack's whole method here is to make Shepard's history do exactly that work on Shepard himself: he's not telling her own story for its own sake, she's holding up his record as the evidence because a room full of only Jack's proof lets him nod along without it landing on him. Spine stays `mixed` — some sections anchor to Jack's own events/scenes, some to Shepard's, most to both at once, which is precisely what a speech that argues from the listener's own life looks like structurally. No change to form.\n",
+    "narrator": "jack"
+  },
+  "promises": [
+    "the Brimstone match and Jack calling it a good time by her standards",
+    "why Jack picked a fight sim for a date, and what that says about her",
+    "spelling out what the tattoo actually promises, without going soft about it",
+    "Jack's argument that what they have is worth surviving for, said sideways rather than sincerely",
+    "Jack needling him about his own reputation — steady, faithful, practically a Boy Scout except to people who have it coming — and for making her wait until the very end of the war to do anything about it"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "citadel-jack-arena-brimstone",
+      "title": "Two Rounds on Brimstone with Jack",
+      "kind": "hangout",
+      "game": "Mass Effect 3",
+      "when": "2186, Citadel shore leave, after at least one Arena match",
+      "where": "the Armax Arsenal Arena, Brimstone map",
+      "participants": [
+        "Shepard",
+        "Jack"
+      ],
+      "private_to": [
+        "Shepard",
+        "Jack"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "grissom_academy": "evacuated"
+        },
+        {
+          "citadel_dlc": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Jack messages Shepard that the Strip has a combat simulator and she feels like kicking the crap out of something — get down here if you're game. The message only comes after Shepard has played at least one match.\n",
+          "source_chunks": [
+            "jack_009",
+            "personal-apartment_013"
+          ]
+        },
+        {
+          "text": "They take a two-round match against elite Cerberus troops on the Brimstone map. When the Atlas mech spawns, Jack takes it down herself, and thanks Shepard for the get-together.\n",
+          "source_chunks": [
+            "jack_009"
+          ]
+        },
+        {
+          "text": "Her ally licence can be bought afterwards, so she can be brought back into the simulator again.\n",
+          "source_chunks": [
+            "jack_009"
+          ]
+        },
+        {
+          "text": "Her follow-up message is warmer than she would admit to: good to see you haven't lost it without me around to keep you in line.\n",
+          "source_chunks": [
+            "personal-apartment_012"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "romance": "Jack"
+          },
+          "choice": "romanced Jack",
+          "text": "During the last fight she tells Shepard she is turned on, and they make out as the Atlas goes up behind them.\n",
+          "source_chunks": [
+            "jack_009"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-armax-arena-matches",
+        "citadel-jack-apartment-eezo"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "jack_009",
+        "personal-apartment_012",
+        "personal-apartment_013"
+      ]
+    }
+  ],
+  "attendance": {
+    "citadel-jack-arena-brimstone": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#01",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map Jack messages Shepard that the Strip has a combat simulator and she feels like kicking the crap out of something — get down here if you're game. The message only comes after Shepard has played at least one match.",
+      "url": "",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#03",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map Her ally licence can be bought afterwards, so she can be brought back into the simulator again.",
+      "url": "",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#02",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map They take a two-round match against elite Cerberus troops on the Brimstone map. When the Atlas mech spawns, Jack takes it down herself, and thanks Shepard for the get-together.",
+      "url": "",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-arena-brimstone#05",
+      "kind": "scene",
+      "page": "Two Rounds on Brimstone with Jack",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-arena-brimstone",
+      "text": "Two Rounds on Brimstone with Jack. 2186, Citadel shore leave, after at least one Arena match the Armax Arsenal Arena, Brimstone map During the last fight she tells Shepard she is turned on, and they make out as the Atlas goes up behind them.",
+      "url": "",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "armax-arsenal-arena_001",
+      "kind": "page",
+      "page": "Armax Arsenal Arena",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the location in Mass Effect 3: Citadel. For the manufacturer, see Armax Arsenal.* | | --- | --- | The **Armax Arsenal Arena** is a combat simulator complex located in the Citadel's Silversun Strip.",
+      "url": "https://masseffect.fandom.com/wiki/Armax_Arsenal_Arena",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-geth-challenge",
+      "kind": "summary",
+      "page": "Citadel Arena: Geth Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Geth Challenge was a side mission in the Mass Effect 3: Citadel DLC, available after Citadel Docks: Retake the Normandy, once the Armax Arsenal Arena opened with the rest of Silversun Strip. It was typically the first arena challenge Shepard received. After one arena match, Dave Shanel, self-styled \"Anti-President\" of the Citadel University Engineering Club, emailed the Combat Sim Controls. He said Shepard's match had drawn a following at the club, that a member poll had chosen geth over Reapers or Cerberus because those felt too much like the news, and asked for a match against geth on the Blasteroid map. The club could not pay but offered to build Shepard a weapon mod, as some members worked in weapons research.\n\nTo complete the challenge, Shepard played a combat match in the Armax Arsenal Arena against geth on the Blasteroid map; because it was the first challenge received, not all match options were available until non-mission matches had been completed. The challenge was not mutually exclusive with other arena challenges, such as the Medi-Gel Challenge. After a successful match, Shanel sent a follow-up email, and reading it awarded the SMG Power Magnifier weapon mod and +2 Reputation, with a joking suggestion that Shepard test the mod before trusting it.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Geth_Challenge",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-spin-zone-elite-challenge",
+      "kind": "summary",
+      "page": "Citadel Arena: Spin Zone Elite Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Spin Zone Elite Challenge was a side mission in the Mass Effect 3: Citadel DLC, available after Citadel Docks: Retake the Normandy, once the Armax Arsenal Arena opened with the rest of Silversun Strip. After one arena match, Daksa Teller, Earth-Clan Talent Liaison for Elkoss Combine's Citadel Sports Division, emailed the Combat Sim Controls offering corporate sponsorship. Teller congratulated Shepard on recent arena victories, noted Shepard had not yet settled on a corporate sponsor, and offered a one-time cash stipend for top gear, asking Shepard to make an Elkoss \"debut\" by selecting the Spin Zone layout against Elite enemies and winning.\n\nTo complete the challenge, Shepard selected \"Spin Zone\" as the map and \"Elite\" enemies at the Combat Simulator Control terminal; Spin Zone was a bronze-level prize and Elite enemies a silver-level prize, both purchased with prior match winnings. Other settings were free, allowing other non-conflicting arena challenges such as the Thermal Clip Challenge or Medi-Gel Challenge to be completed in the same match. Afterward Teller sent a second email praising Shepard as \"the paradigm,\" promising to file the paperwork and arrange a future meeting. Receiving and reading the second email granted 5,000 credits and +2 Reputation.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Spin_Zone_Elite_Challenge",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "summary:armax-arsenal-arena",
+      "kind": "summary",
+      "page": "Armax Arsenal Arena",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Armax Arsenal Arena was a combat simulator complex on the Citadel's Silversun Strip, introduced in the Mass Effect 3: Citadel DLC. It featured a large rectangular room capable of projecting fully immersive holographic environments and scenarios for public entertainment. Spectators watched from upper areas outside the room and bought refreshments at a nearby food kiosk. Combat participants redeemed prizes at a company store, used procurement and weapon upgrade terminals, and could be treated in an adjacent infirmary. Kiosks were staffed by VIs in the form of female turians. Below the spectators' level was an athletes-only area with a scenario-setting terminal and a ready room containing an armor selection computer, a weapon bench, a rules datapad, and the elevator to the simulator. The venue started nearly empty and grew more crowded with spectators as more matches were fought.\n\nCommander Shepard battled holographic enemies to score points and earn prizes, receiving a complimentary pass from the arena staff after retaking the Normandy. Initially only Cerberus and geth enemy sets were available at the Foot Soldier level; additional maps, enemy factions (Reapers, Collectors, and Mirror Match), ally licenses, and score modifiers were unlocked as prizes. Enemies could be fought at Foot Soldier, Elite, and Super Elite challenge levels. Up to two squad members could provide support, including former squadmates Urdnot Wrex, Miranda Lawson, Jack, Jacob Taylor, Samara, Grunt, Zaeed Massani, and Kasumi Goto, provided they were alive and their loyalty issues resolved and their ally licenses purchased from the Bronze prize pool. Maps included Wingman, Blasteroid, Spin Zone, Prime Evil, The Armax Classic, Pain Train, Brimstone, and Fatal Error. Six score modifiers, such as No Medi-Gel and One-Shot Player Shields, adjusted scoring bonuses.",
+      "url": "https://masseffect.fandom.com/wiki/Armax_Arsenal_Arena",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-charity-reaper-challenge",
+      "kind": "summary",
+      "page": "Citadel Arena: Charity Reaper Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Charity Reaper Challenge was a side mission in the Mass Effect 3: Citadel DLC, available after Citadel Docks: Retake the Normandy, once the Armax Arsenal Arena opened with the rest of Silversun Strip. After Shepard completed some arena matches, an asari named Manava T'Khanna emailed the Combat Sim Controls. She wrote as a parent rather than a fundraiser: her daughter Lati had been diagnosed with a cerebral tumor a year earlier, had the bad tissue removed by microsurgery machines, and faced a slow recovery with only partial use of her limbs. Lati had wanted to be a huntress and wished to see Commander Shepard compete live; a small charity called Help a Dream had brought her to the Citadel. Manava asked Shepard to fight the toughest Reapers in the simulator and dedicate the match to Help a Dream.\n\nTo complete the challenge, Shepard set the simulator to Reapers at Super Elite difficulty, both of which had to be purchased with prior winnings as the silver-level Reaper Combat Set and the gold-level Super Elite enemy set, and completed the match. Any squadmates and modifiers were allowed, so other arena challenges such as the Prothean Challenge or Medi-Gel Challenge could be finished simultaneously. Afterward Manava sent a grateful second email, calling Shepard a hero rather than just a soldier. Receiving and reading it granted +15 Reputation.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Charity_Reaper_Challenge",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "cat6_004",
+      "kind": "page",
+      "page": "CAT6",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Despite being introduced in the same DLC as the Armax Arsenal Arena, CAT6 are among the only enemy types that can't be faced in the combat simulator.",
+      "url": "https://masseffect.fandom.com/wiki/CAT6",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "personal-apartment_014",
+      "kind": "page",
+      "page": "Personal Apartment",
+      "section": "Miscellaneous",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**From Your Friends at Armax Arsenal Arena** --- From: Armax Arsenal Arena Team Dear Commander Shepard, We here at Armax Arsenal are huge fans of yours, and we can't tell you how much we value your efforts in the fight against the Reapers. In an effort to raise both awareness and morale here on the Citadel, we've recently reskinned the holographic enemies in our simulator to look like Cerberus troops. We got a big surge of viewer interest when we added geth enemies a few years back after their attack on the Citadel, and we're adding Reaper forces as well. We understand how busy you are, but if you ever feel like unwinding on shore leave and giving our viewers a taste of what a real military veteran can do, we would love to have you come compete. You've got a complimentary pass waiting for you whenever you're interested. Thanks again, Your friends at Armax Arsenal",
+      "url": "https://masseffect.fandom.com/wiki/Personal_Apartment",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "citadel-arena-unusual-scores_001",
+      "kind": "page",
+      "page": "Citadel Arena: Unusual Scores",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  |  |  | | --- | --- | --- | --- | |  |  |  |  |  | |  |  |  |  | Armax Arsenal has requested help identifying a bug in the combat simulator. Fight a super\\-elite opponent in their arena on the Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Unusual_Scores",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "citadel-arena-geth-challenge_001",
+      "kind": "page",
+      "page": "Citadel Arena: Geth Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  | | --- | --- | The Citadel University Engineering Club has requested a special match. Fight geth enemies in the Blasteroid map of the Armax Arsenal Arena.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Geth_Challenge",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "citadel-arena-reaper-solo-challenge_001",
+      "kind": "page",
+      "page": "Citadel Arena: Reaper Solo Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  |  | | --- | --- | The \"Hour 20\" news team has requested a special match. Fight Reaper enemies alone in the Armax Arsenal Arena.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Reaper_Solo_Challenge",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "citadel-arena-unusual-scores_002",
+      "kind": "page",
+      "page": "Citadel Arena: Unusual Scores",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Citadel Docks: Retake the Normandy Following the conclusion of Shepard's identity theft crisis, the Armax Arsenal Arena opens up along with the rest of Silversun Strip. After winning some matches in the arena and purchasing all available prizes (except the ally licenses), check the Combat Simulator Control terminal for the following e\\-mail: **Unusual Scores** --- From: AAA Information Technology Dept. Commander Shepard, Here in the arena IT department, we are attempting to isolate a bug in the simulator. The bug causes unusual scores to show up, probably due to a memory leak. We are looking for a competitor who can reliably rack up high scores to serve as a paid consultant for the duration of our tests. We think you would make an excellent baseline! If you are interested, the aspect that needs testing most is a layout with memory\\-intensive creatures like the super elite level opponents. Selecting those enemies should help us isolate the leak. We look forward to working with you. Virginia Ruojian Principal Systems Administrator Armax Arsenal Arena",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Unusual_Scores",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "abomination_005",
+      "kind": "page",
+      "page": "Abomination",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Abominations return in Mass Effect 3's multiplayer with the Retaliation Pack DLC. They also appear in the combat simulator in the Armax Arsenal Arena added with the Mass Effect 3: Citadel DLC.",
+      "url": "https://masseffect.fandom.com/wiki/Abomination",
+      "for_key": "the Armax Arsenal Arena and the Brimstone simulator match"
+    },
+    {
+      "chunk_id": "priority-cerberus-headquarters_013",
+      "kind": "page",
+      "page": "Priority: Cerberus Headquarters",
+      "section": "Enemies",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Assault Trooper - Atlas Mech - Centurion - Combat Engineer - Guardian - Kai Leng - Nemesis - Legion Assassin (optional) - Phantom - Jack (optional) - Turret",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Cerberus_Headquarters",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "atlas_007",
+      "kind": "page",
+      "page": "Atlas",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- According to The Art of the Mass Effect Universe, the Atlas was first intended to be a heavy version of the YMIR Mech with a soldier inside. Eventually, a canopy was added to protect the soldier, and the Atlas was made even larger than the YMIR Mech. - An avatar prop of the Atlas is available on the Xbox Marketplace (called the \"Cerberus Atlas\" in the Avatar Store). It costs USD $2\\.99 and is one of the few props that is larger than the avatar itself. - An aquatic variation of the Atlas mech, known as the Triton ADS, appears in the Mass Effect 3: Leviathan DLC pack. - An image of a destroyed Atlas unit marked with the emblem of the Talons can be seen in the Talons' communication feed. - During Mass Effect 3: Citadel, the CAT6 mercenaries deploy a single Atlas of their own against Shepard. This Atlas is functionally identical to normal Cerberus Atlas units, but sports a CAT6 gray camouflage pattern. - In Greek mythology, Atlas was the name of a Titan who was forced by Zeus to hold the sky up because he and his brother sided against Zeus in the Titanomachy. - The Atlas follows the theme of naming mechanical enemies after human mythological figures (A la the FENRIS, YMIR and LOKI mechs), but borrows its namesake from Greek mythology instead of Norse.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "summary:mechs",
+      "kind": "summary",
+      "page": "Mechs",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is a disambiguation page. Mechs are machine constructs used for combat or heavy-duty locomotion; automated models are governed by a VI, while larger mechs can carry pilots in built-in cockpits. The page links to the Atlas Mech, FENRIS Mech, Hydra Mech, LOKI Mech, Ogre Mech, Orcus Mech, Rampart Mech, Triton ADS and YMIR Mech.",
+      "url": "https://masseffect.fandom.com/wiki/Mechs",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "atlas_004",
+      "kind": "page",
+      "page": "Atlas",
+      "section": "Tactics",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The Atlas is slow and makes for a large target, but should not be underestimated. When attacking the Atlas from the front, take cover immediately and watch for when it moves its rocket launcher arm to fire. At melee range the Atlas can easily grab the player for an instant kill, though can only perform the grab after executing a regular melee attack first. Sustained weapons fire and powers should eventually destroy an Atlas provided the player can attack from a safe distance and in cover. - In single\\-player, an Atlas fires its mass accelerator cannon in four shots per burst. In multiplayer, the Atlas fires a three shot volley. It is best to remain in cover until the shots have been fired, though the Atlas will usually fire its guided missile after firing a cannon volley. - While the Atlas very visibly telegraphs its rocket, charge and ground slam attack, no such warning is given for the shots from its powerful accelerator cannon, which can quickly and with no warning whatsoever inflict heavy damage on an unsuspecting player. - The Atlas can only use its instant kill Grab attack shortly after performing a ground slam or sweeping melee. Consequently, while an Atlas is recovering from its slam may seem like an opening to close in for a melee attack, it is the *worst* time to do so. - An Atlas that has taken damage to its armor discharges white electrical sparks, which can be seen even through smoke screens. - The Atlas's tactical value is twofold: initially, it draws fire and protects the deployment of softer targets nearby, protecting them until they can take cover or advance on players' positions. Second, because of its extreme damage output and the amount of ordnance it can soak, the Atlas acts as a pressure unit, slowly but surely taking over defended areas by forcing you to retreat. For both of these reasons, it is important to take an Atlas out quickly. - **Hijacking:** In single\\-player, once an Atlas's shields have been taken down, the cockpit window can be shattered. This requires a considerable amount of sustained fire, but breaking the window will leave the pilot vulnerable to attack. Killing the pilot (who has no more health than an Assault Trooper) may allow the Atlas to be hijacked, potentially awarding an Achievement. This is not possible in multiplayer. - Killing the pilot of an Atlas is not an efficient way of taking one down—it requires a great amount of damage dealt to the canopy (roughly half of the Atlas' full Armor), preferably with a sniper rifle. This tactic also requires that the Atlas not be targeted anywhere other than the canopy, and that normally very effective powers such as Incinerate, Carnage and Proximity Mine not be used. If attempting to hijack an Atlas in single\\-player, it may be a good idea to manually order your squadmates to attack other targets. This task becomes significantly easier using an armor piercing sniper rifle such as the Widow or Javelin. A headshot against the pilot through the intact canopy can open the atlas with little effort. - If Shepard manages to hijack an Atlas, it is best to keep the enemy Combat Engineers alive, since they will on occasions repair the controlled Atlas. This is very useful when facing hordes of tougher enemies. - If an Atlas is left empty, Cerberus troops may try taking control of it. - An empty atlas mech can be found intact in Grissom Academy: Emergency Evacuation, next to a combat engineer and multiple of them during Priority: Cerberus Headquarters in the back of the hangar. - The Atlas can be successfully attacked with Sabotage and turned against other nearby enemies. However, Atlases build up immunity to the power over time, and the same Atlas will not stay hacked as long with each subsequent use of Sabotage (eventually becoming immune). - In multiplayer, the Cobra Missile Launcher will instantly kill an Atlas and if well placed, can take out multiple Atlas mechs at once. However, on Platinum, an Atlas will sometimes survive a rocket but with no shields and very little armour left (mostly seems to happen at long range). - Repeated use of Warp followed by Throw will create Biotic Explosions heavily damaging the Atlas and any enemies nearby as well. This is true even when the Warp and Throw abilities may appear \"orange\" on the power wheel, and is especially effective because the Throw ability has a fast recharge. Upgrading the combo damage and recharge rates on these abilities makes this tactic even more effective. - Debuffs that reduce armor or increase the damage a target takes like Expose\\-evolved Warp, Cryo Blast, and Proximity Mine with the Damage Taken evolution are extremely effective against Atlases.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_016",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Enemies",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Assault Trooper - Atlas Mech - Centurion - Combat Engineer - Guardian - Turret",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "priority-sur-kesh_013",
+      "kind": "page",
+      "page": "Priority: Sur'Kesh",
+      "section": "Enemies",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Assault Trooper - Atlas Mech - Centurion - Combat Engineer - Guardian - Turret",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Sur'Kesh",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "tuchanka-bomb_011",
+      "kind": "page",
+      "page": "Tuchanka: Bomb",
+      "section": "Enemies",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Assault Trooper - Atlas Mech - Centurion - Combat Engineer - Guardian - Turret",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka:_Bomb",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "atlas_001",
+      "kind": "page",
+      "page": "Atlas",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the Cerberus unit in Mass Effect 3\\. For the main Cerberus station on Aite, see Atlas Station.* *For the assignment in Mass Effect 2 inside Atlas Station, see Overlord: Atlas Station.* | | --- | --- | The **Atlas** is a large Cerberus mech encountered in Mass Effect 3. It is also used by CAT6 in Mass Effect 3: Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "priority-eden-prime_012",
+      "kind": "page",
+      "page": "Priority: Eden Prime",
+      "section": "Enemies",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Assault Trooper - Atlas Mech - Centurion - Combat Engineer - Guardian - Nemesis - Turret",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Eden_Prime",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "scene:surkesh-eve-extraction#03",
+      "kind": "scene",
+      "page": "Extracting the Last Krogan Female from Sur'Kesh",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "surkesh-eve-extraction",
+      "text": "Extracting the Last Krogan Female from Sur'Kesh. 2186, an STG research base on Sur'Kesh, during the Reaper War (Priority: Sur'Kesh) a salarian STG base on Sur'Kesh, from the containment labs down through the facility to the shuttle pad Shepard fought Cerberus Assault Troopers, Centurions, Combat Engineers and their automated turrets, Guardians and finally an Atlas mech, keeping the shield on the female's containment pod intact. An imprisoned yahg broke loose mid-fight and blocked a corridor with flame, forcing a detour.",
+      "url": "",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "scene:tuchanka-tarquin-victus-bomb#05",
+      "kind": "scene",
+      "page": "Tarquin Victus and the Kelphic Valley Bomb",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "tuchanka-tarquin-victus-bomb",
+      "text": "Tarquin Victus and the Kelphic Valley Bomb. 2186, Tuchanka, after Priority Sur'Kesh, when the turian 9th Platoon went down in the Krogan DMZ the platoon's crash site at the Downed Vessel, the Cerberus-held bomb site in the Kelphic Valley, then the Normandy War Room Shepard's squad landed at the bomb site under heavy artillery bombardment and fought through Cerberus Assault Troopers, Centurions, Combat Engineers, Guardians, turrets and an Atlas mech to reach the device alongside Tarquin.",
+      "url": "",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#04",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster Shepard returned to the pod, transmitted the command signal, and held the site against waves of Cerberus troops and an Atlas mech.",
+      "url": "",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "summary:atlas",
+      "kind": "summary",
+      "page": "Atlas",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Atlas was a large piloted Cerberus mech encountered in Mass Effect 3 and also fielded by the CAT6 mercenaries in Mass Effect 3: Citadel. Cerberus's research arm built it by combining the armor and firepower of a YMIR mech with the tactical judgment of a trained human pilot seated inside. An element zero core allowed it to be air-dropped onto a battlefield with minimal impact damage. Its thick armor included a transparent canopy of a proprietary polycrystalline composite that Alliance engineers hypothesized was a synthetic sapphire with crack- and heat-resistant interlayers. Though unwieldy in the field, its antipersonnel machine guns and heavy durability made it a serious threat, and unprepared encounters were expected to cause heavy casualties.\n\nOffensively the Atlas carried a rocket launcher that dealt area damage plus burn-over-time, and a high-powered mass accelerator cannon fired in bursts (four shots in single-player, three in multiplayer). It launched guided missiles that were very hard to evade, and at close range it could swing or slam its claw arm or grab and crush a target for an instant kill, though only after a normal melee attack first. Destroyed Atlas mechs exploded violently, dealing severe damage through cover and terrain even after death. Defensively it had durable shields and armor, destructible armor plating on the shoulders, knees, and crotch, smoke grenades, and weak points at the canopy and rear exhaust port. It took 24% less damage from all Power Combos.\n\nRecommended tactics included staying in cover, using armor-debuffing powers such as Expose-evolved Warp, Cryo Blast, and Proximity Mine, repeated Warp-Throw biotic explosions, Sabotage (to which Atlases built immunity over time), and the Cobra Missile Launcher in multiplayer for instant kills. In single-player, once its shields were down, sustained fire could shatter the canopy and leave the pilot, who had no more health than an Assault Trooper, vulnerable; killing the pilot could let Shepard hijack the Atlas and potentially earn an Achievement. Empty Atlas units could be found intact during Grissom Academy: Emergency Evacuation and Priority: Cerberus Headquarters. Per The Art of the Mass Effect Universe, it was first conceived as a heavier YMIR variant with a soldier inside before a protective canopy was added and the frame enlarged. An aquatic variant, the Triton ADS, appeared in Mass Effect 3: Leviathan.",
+      "url": "https://masseffect.fandom.com/wiki/Atlas",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "summary:grissom-academy-emergency-evacuation",
+      "kind": "summary",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grissom Academy: Emergency Evacuation was a Mass Effect 3 mission acquired after Priority: Palaven, when Samantha Traynor and EDI determined that a turian rescue signal answering an Academy evac request was actually a Cerberus fake and the station was still in danger. Cerberus forces were attacking Grissom Academy in the Petra Nebula to kidnap its students, most of whom were producing Alliance tech or training as military biotics. The mission had to be completed before Priority: The Citadel II or it was permanently failed.\n\nWith too many Cerberus ships to fight, Joker created a diversion so Shepard's shuttle could enter a cargo hold opened by Kahlee Sanders, who went back with Anderson to his Spectre-candidate days. Shepard freed Sanders from the security office, then fought through corridors and rooms rescuing scattered students, including Reiley Bellarmine and his dying sister Seanne. In Orion Hall, biotic students held off Assault Troopers and an Atlas; if a Mass Effect 2 save was imported and Jack survived the Suicide Mission, Jack led them and punched Shepard in the face on arrival (followed by a kiss if they had romanced). Otherwise Ensign Jason Prangley took charge. The squad then fought heavy waves of Centurions, Guardians, Combat Engineers, and Atlas mechs through two halves of the Atrium and a docking area, aided by empty Atlas mechs and by tech students including Octavia, with David Archer vouching for Shepard if Overlord was completed on the Paragon route.\n\nDuring the final escape the wounded Rodriguez fell behind; whoever led the biotics smashed the glass to save her. If Jack led, everyone survived; if Prangley led, he was shot and killed. Afterward Shepard chose to assign the students as support (rolled into the Alliance 103rd Marine Division, +50 war assets, Paragon) or as a frontline Biotic Company (+75 war assets, Renegade), a choice that also set Jack's epilogue slide. Rewards included 25,000 credits, weapon mods, the Mnemonic Visor, and the Serrice Council Chestplate. If the mission expired, Jack was captured, turned into a Phantom, and had to be killed at Cerberus Headquarters, and Gavin Archer could commit suicide during Arrae: Ex-Cerberus Scientists.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "summary:jason-prangley",
+      "kind": "summary",
+      "page": "Jason Prangley",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ensign Jason Prangley was a biotic student at Jon Grissom Academy. He arrived at Grissom at age six, a shy child who barely spoke, and was known for constantly reading and studying battles, with some peers calling him a brownnoser. He proved capable of leadership when circumstances demanded it.\n\nDuring the 2186 Reaper invasion, Cerberus attacked Grissom Academy to forcibly conscript its gifted students. If Jack survived the Suicide Mission, Prangley was among the students she protected; he was nearly killed by Atlas fire before his teacher intervened. When Commander Shepard arrived, Jason aided the firefight, providing biotic support strikes so that he and his teacher could retreat to higher ground. Afterward Jack derided his biotic fields as \"weak,\" and he noticeably improved in later battles.\n\nIf Jack did not survive the Suicide Mission, Prangley interacted with Shepard in her place during the evacuation. Shepard found him stepping up to save Ensign Rodriguez from Atlas fire. Jason reported that their commanding officer had been killed, leaving him assuming command, and spoke on the students' behalf that they needed time to recharge after the strenuous exertion of biotics. In this scenario, Prangley later died protecting Rodriguez again from Cerberus troops just short of the hijacked escape shuttles. The survivors eulogized him aboard the shuttles, and Shepard invoked his memory to motivate the other students, either channeling their anger at his loss or holding up his sacrifice as an example to follow. Datapads left by Cerberus troops around the Academy indicate Prangley was specifically targeted as a prized acquisition.",
+      "url": "https://masseffect.fandom.com/wiki/Jason_Prangley",
+      "for_key": "Jack taking down an Atlas mech solo"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_010",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "Grissom Academy and Mass Effect 3",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "After the Collector Base and Shepard's surrender to the Alliance, Jack is alone again — until the Alliance offers her a teaching post at Grissom Academy training biotic children (\"Teltin if it were run by good people\"). She becomes the positive figure for kids that she never had. She now wears more clothing and grows her hair out — signs of moving on. When the Alliance wants her students used as biotic artillery, she argues for a defensive, protective support role: the old Jack would have relished commanding destructive biotics; this Jack chooses to protect them. Reunited with Shepard, she says his attitude rubbed off on her, that her students and Shepard are the closest thing to family she has ever had, and grudgingly that \"maybe your little suicide squad taught me something about teamwork.\" During the Reaper War the two are separated again by duty; on shore leave at a bar, doubt briefly reverts her to her old self before Shepard again refuses to leave her. To show her love, she gives Shepard the thing most personal to her — a tattoo. Asked if she has ever tattooed anyone else: \"Nobody else mattered enough.\" She inks a smaller version of her back tattoo on Shepard's right shoulder blade, and confesses the reason: so she can identify him \"barely breathing, lying under a pile of rubble at the ass end of this war.\"",
+      "url": "",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#05",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck The one person who never used her was Murtock, a man she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock came back for her instead of running with the score. Jack reached a shuttle and escaped; he was left behind. Days later the shuttle played his pre-recorded message about the future they were meant to have and how much he loved her. Jack denies it was her fault.",
+      "url": "",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#01",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck After Horizon, Kelly Chambers passes word that Jack wants Shepard in her \"hidey hole\" on the engineering deck — a crawlspace under the drive core where she has claimed a cot. Shepard keeps coming back to ask questions.",
+      "url": "",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#04",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Over repeated visits Jack gives up pieces of her past. The tattoos are a record — prisons she has been in, memorable kills, personal reasons, some \"just because.\" The shaved head is from the cult she ran with. She wears little clothing on purpose, to read what people really want from her.",
+      "url": "",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#08",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Declining her early advance confuses her and her shell begins to crack; with steady, non-sexual interest a relationship forms and she admits she really does need someone. In place of a love scene before the Omega 4 Relay, she and Shepard only kiss and lie in bed together, Shepard holding her.",
+      "url": "",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "storyline-ii_017",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Mass Effect: Foundation \\#7",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Dr. Angersol frantically comms for backup when the doors to his office are demolished by sheer biotic power. Jack steps inside and executes the doctor, a figure from her Subject Zero past. The Illusive Man appears before her via hologram, attempting to reason with her, but Jack would hear none of it. At a remote Cerberus outpost elsewhere, Kai Leng hooks in Rasa for a mission. A Cerberus training facility is under attack, and the Illusive Man dispatches them both to retrieve the perpetrator, Jack: dead or alive, through whatever means necessary. Leng and Rasa arrive at the training facility a short time later, finding huge swathes of destruction in Subject Zero's wake. The presence of multiple people out to get the target makes Rasa think about Jack's possible origins and the threat she poses. Leng simply suggests they should find her before the others \\- the Blue Suns mercenaries \\- do. With the facility in lockdown, Jack makes her way to its main reactor. She comes across a bald man claiming to be a biotic trainee of the facility. The man doesn't know where the reactor is, but he takes her to his fellow students when she orders him to. The man claims to have had a better life under Cerberus tutelage, but Jack's own experiences with the organization tells her otherwise. On finding the other students she gives them a chance to learn the truth behind Cerberus by escaping with her, or stay and keep hoping that Cerberus is as benevolent as it seems to be. A good number of the students follow Jack as they try to make it out of the facility. A trio of Blue Suns mercs block their way, so Jack orders the students to sneak across while she presents herself as a diversion. Rasa and Leng arrive behind Jack when she's done bringing down the ceiling on the mercs. Brandishing his sword, Leng gives her one chance to surrender. Jack responds by unleashing a powerful biotic blast on the Cerberus operatives. She warns Rasa to stay down, but Leng is actually coming down on her from above. She senses it and biotically blasts the assassin again, this time hurling him higher up. More Blue Suns arrive at the scene and open fire on Jack, forcing her to throw up a biotic shield. She sees the students she's with securely behind Blue Suns lines. Enraged at the turn of events she starts making everything in the vicinity fly. Unfortunately, a krogan merc sneaks up from behind and docks her at the head, knocking her unconscious. The merc picks her up and hauls her away, to the Cerberus agents' consternation. The Illusive Man can still have Subject Zero, but the krogan wants triple the usual pay for all the losses he has incurred. As Leng and the students recover from the turn of events he chalks up the post\\-mortem as a \"colossal waste of time\", but Rasa begs to differ: at the very least, the Illusive Man will now know what Jack is capable of.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "war-assets-alliance_010",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Jack's survival in the Suicide Mission and completing Grissom Academy: Emergency Evacuation. **Military Strength:** 25 Jack, formerly known as Subject Zero, may be the most talented biotic of her time. After helping Shepard destroy the Collectors, she was offered a teaching position at Grissom Academy by the Alliance. Accepting the position for reasons of her own, Jack continued to hone her skills while training her students. Grissom Board of Directors member Kahlee Sanders has vouched for Jack's energetic, if unorthodox, teaching style, impressed with the inroads made with the children under the rogue biotic's care.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "jack_010",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- In Mass Effect 2, Jack was written by Brian Kindregan, including most of her confrontation with Miranda, while some late edits were orchestrated by Lukas Kristjanson after Kindregan's departure. - Concept art on Jack's tattoos figure backstories for several of the designs. Jack's \"murdered sisters\" were apparently based on prototype designs for her own appearance. - The Shadow Broker dossier on Cerberus lists the birth year of \"Subject Zero\" as 2161\\. However, in the dossier on Jack herself, the surveillance log of the Helios Medical Facility dated 2165 contains references to her as a \"baby\" and an \"infant\", words that aren't normally used to describe a child at 3\\-4 years old. - Courtenay Taylor, who voiced Jack, also voiced the Cathar Jedi Juhani in Star Wars: Knights of the Old Republic as well as Farinden and Shaevra in BioWare's Dragon Age: Origins. - Jack periodically yells \"I will destroy you!\" and \"I'll kill you!\" when in combat and/or using abilities. This may be a reference to the combat barks used by humanoid enemies in Mass Effect or by Juhani in Knights of the Old Republic. - Jack's name and shaved head might be a reference to the character Jack/Kyra from the *Chronicles of Riddick* movie series, more specifically the first movie *Pitch Black*, in which the character was approximately 14 years of age. The two characters also share similarities in that they are both killers and are found in prison, which they both escape from with the help of the protagonist. - According to the Shadow Broker's dossier on her, she has used the name Jacqueline Nought on at least one occasion. That name also appears on the memorial wall in Mass Effect 3 if Jack was killed on the Suicide Mission (which is the case in an unmodified game of Mass Effect 3 that was not imported from a Mass Effect 2 save file). \"Jacqueline\" is a typically feminine counterpart to \"Jack,\" and \"nought\" is an English word meaning \"nothing\" or \"zero\". - During the car chase scene in the Lair of the Shadow Broker DLC, a wanted poster of Jack can be seen displayed on a large advertising screen above a tunnel. She is displayed with the prisoner number 24601. - If brought along on the mission Grissom Academy: Emergency Evacuation, Liara reveals that Jack's birth name is \"Jennifer\" and offers to find out her last name if she asks politely. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "summary:jack-character-analysis-02",
+      "kind": "summary",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Part 2 of a YouTube character analysis of Jack, focused on the psychology behind her behavior and the arc that leads her to the family she always wanted; much of it is the author's interpretation.\n\nJack arrives aboard the Normandy broken: psychologically tortured, conditioned to enjoy killing, then used and discarded by everyone she met after escaping her captors, so she lives on edge waiting for betrayal. She refuses to move on from her past. Her tattoos mark prisons, memorable kills, personal reasons, and some \"just because\"; her haircut is from the cult she ran with. She wears little clothing deliberately, believing nearly everyone wants to use her for sex, and uses it to read intentions. Kelly Chambers notes she pushes people away yet approaches sex casually and warns Shepard to \"think twice\" if he wants her respect. Given her childhood, Jack is entirely desensitized to death and crime; Cerberus built a Pavlovian link between narcotic euphoria and killing, so she feels bliss where others feel regret, kills without hesitation (\"Every time someone dies and it's not me, my chances of survival go up\"), and would kill a hostage as the simpler option. Her \"no regrets\" stance borders on narcissism and a refusal of accountability; asked whether she would do anything differently, she answers a flat \"No.\"\n\nThe real wound is that she wants a family and acceptance but pushes everyone away first. The one exception was Murtock, a man she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock came back for her rather than take the score, Jack escaped in a shuttle, and he was left behind. Days later the shuttle played his pre-recorded message about the future they were meant to have and how much he loved her. Jack outwardly denies fault but shows survivor's-guilt signs. Her view of relationships: \"You let someone get that close, it just means they need a shorter knife.\"\n\nIf Shepard shows genuine, non-sexual interest, her shell cracks; sleeping with her early instead breaks trust. Wanting to move on, Jack decides to blow up Teltin. There she meets Aresh, a dark reflection also stuck in the past, who wants to restart the facility to give the suffering meaning. Shepard can argue Jack out of killing him; letting Aresh live and destroying the facility gives her a revelation about what she could have become. With continued emotional support a relationship forms; in place of a sex scene they only kiss and lie in bed together. After the Collector Base and Shepard's surrender to the Alliance, Jack is alone again until the Alliance offers her a teaching post at Grissom Academy training biotic children (\"Teltin if it were run by good people\"). She wears more clothing, grows out her hair, and argues for her students to serve in a defensive, protective role rather than as biotic artillery. Reunited with Shepard, she says his attitude rubbed off on her and that her students and Shepard are the closest thing to family she has had. On shore leave, doubt briefly reverts her to her old self before Shepard again refuses to leave her. To show her love she gives Shepard a smaller version of her back tattoo on his right shoulder blade, so she can identify him \"lying under a pile of rubble at the ass end of this war.\" Asked if she ever tattooed anyone else: \"Nobody else mattered enough.\" Jack ends the trilogy with a family and, crucially, having made the effort to change.",
+      "url": "",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "miranda-lawson_016",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Nobody's perfect.” Miranda returns to fight the Reapers, provided she survived the assault on the Collector base. Since the Collector base, she has resigned from Cerberus and has indicated that the Illusive Man now wants her eliminated, causing her to go on the run again for a while. For both her own and Shepard's safety, she decided not to make contact with the latter during their incarceration by the Alliance. For much of the galactic war, Miranda spends her time investigating what happened to her sister Oriana and tracking her down. Over time she requests Shepard to meet with her three times, which the Commander can oblige or ignore, majorly influencing whether she survives the war alive or else. Shepard gets a message from Miranda asking to meet on the Citadel at Docking Bay D24 one mission after the rescue of Primarch Victus for a war summit. Miranda is concerned that Oriana had been found by their father. Even if Shepard assisted her in relocating Oriana, Miranda believes her father is persistent enough to try again, only this time she suspects he succeeded. In addition to seeing Shepard, Miranda's on the Citadel to talk to some people and call in some favors for leads on her sister. - Imported save file - Romance import - Non\\-import game with default conditions **Meet me on the Citadel** --- From: Miranda Lawson Commander: I heard about your stay with the Alliance. I can only imagine what nonsense they cooked up to keep you there. We should talk. It's safer in person. You'll find me on the Citadel by Bay D24\\. Miranda **Meet me on the Citadel** --- From: Miranda Lawson Shepard: I'm relieved nothing happened to you. I can't guess what nonsense the Alliance cooked up to justify what they did. I'm just glad you're safe. I'll be waiting on the Citadel by Bay D24\\. Miranda **Meet me on the Citadel** --- From: Miranda Lawson Commander: It's been a while since we've worked together. But I trust you. A very rare commodity since I walked away from Cerberus and the Illusive Man. We should talk. It's safer in person. You'll find me on the Citadel by Bay D24\\. Miranda After the Cerberus attack on the Citadel, Miranda sends Shepard a message requesting another meet (or the first, if Shepard ignored her earlier message). However, she makes contact via Spectre Terminal hologram in the Citadel Embassies instead of in\\-person in light of recent events. Miranda has confirmation that her father abducted her sister; snatched right off the street. Additionally, he appears to have joined forces with the Illusive Man on a mysterious project, enticed by his obsessive need to \"preserve his legacy.\" Figuring she needs to stop running and confront her father once and for all, Miranda resolves to deal with this issue on her own. If Shepard read Anderson's forwarded dossier on Kai Leng and warns Miranda of his involvement in the Citadel attack, Miranda is surprised to learn he's still alive and promises to be on her guard. - Missed first meeting - Second meeting **We should meet** --- From: Miranda Lawson Shepard: I missed you last time I was here. I'm back on the Citadel. I'll find a place to meet and send you a NavPoint when you get here. Miranda **Found something** --- From: Miranda Lawson Shepard: I discovered a few things about my sister. It's bad. But there's something else going on. I'm back on the Citadel. I'll find a place to meet and send you a NavPoint when you get here. Miranda Miranda later sends a message to Shepard to meet her in a private room at the Presidium Commons. Once Shepard arrives, Miranda asks them for control of Alliance resources, but refuses to reveal the reason for it. Shepard can choose to allow or deny her access. After making this decision, Miranda confesses her guilt for wanting to implant a control chip into Shepard's brain during their reconstruction, as that time she felt Shepard was a complete unknown. She eventually realized she escaped her father's highly controlling nature only to do the same to someone else. Shepard can comfort her saying that it was Miranda who brought them back to life, regardless of her opinions about them back then, and either accepts her apology or tells her not to dwell on the past. **Important** --- From: Miranda Lawson Shepard: I have something important to tell you. I need to do this in person. Can you meet me in the Commons? I'll send a NavPoint. No vids this time. I promise. Miranda Miranda eventually determines Oriana is being held at her father's Sanctuary facility on Horizon. She arrives there only to find it under attack from Reaper forces.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "jack_009",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect 3, see Squad Members Guide (Mass Effect 3\\)\\#Jack.* If Shepard successfully evacuated Grissom Academy, at the conclusion of Shepard's clone fiasco the Commander may choose to explore the Silversun Strip in their down time. If Shepard plays at least one match at the Armax Arsenal Arena combat simulator, Jack messages the Commander requesting a meet\\-up there. When Shepard arrives, they have a two\\-round match against Elite Cerberus Troops on the Brimstone map. Once the Atlas Mech spawns, Jack takes it down herself and thanks Shepard for the get\\-together. If Jack is romanced, she tells Shepard she's turned on during the final fight, and the two passionately make out as the Atlas explodes. Jack's ally license can be purchased if Shepard wants to fight alongside Jack in the simulator again. Afterwards, Jack sends another message informing Shepard of having more free time. Shepard can then invite Jack to the apartment. Jack brings along Eezo, a varren from Thessia that she had rescued from shelter. Because of his exposure to the element zero in the environment on Thessia, Eezo has developed biotic abilities. According to Jack, biotic abilities in varren make them short\\-tempered, leading to their abuse and abandonment. When Jack first rescued him, Eezo started out very angry and mistrustful of others, but all the love she has shown him has made him a \"big old softy\" to the point where he plays catch with Shepard. Shepard has the option of pointing out the similarities between Eezo and Jack. If Shepard does, Jack will say she doesn't know what Shepard is talking about and Shepard will quickly drop the subject. If Shepard is still in a relationship with Jack at that time, she will instead bring equipment to mark Shepard with a tattoo on his back. As Shepard comments on the design, she confesses she did this to make his body identifiable no matter what happens to him in the final battle, tearing up at the thought of losing him until he hugs her. If invited to the party, Jack is first seen by the fireplace hanging out with Vega and Cortez. If Kaidan is also invited, the conversation within the group arrives at the point where Jack gives James the nickname \"Muscles\", which Cortez will approve. If Miranda is around, Jack is later seen lounging near the poker table having a somewhat prickly conversation with Miranda. Shepard can suggest they should just kiss each other because Shepard believes that there's some sexual tension between them, saying that they're \"two powerful biotics\". They find the notion disgusting. Kasumi, if present, then decloaks, saying that she could film it. Alternately, Shepard can encourage their rivalry, with Jack making repeated references to whooping Miranda's ass. Kasumi, again if around, decloaks, claiming she doesn't follow their conversation and just assumes they are going somewhere dirty with it. If Miranda is not around, Jack is hanging out with Liara and James on the balcony at the second phase of an energetic party, watching the two argue about physical vs biotic supremacy. If the second phase of the party is quieter, then regardless of Miranda's presence or absence Jack will be at the bar with EDI and Cortez, where Jack may note that crème de menthe hits her even harder than ryncol. At the third phase of the party, Jack is seen dancing provocatively on a table in the kitchen area if the party is energetic. If Garrus isn't around to comment, Jack's response to Tali's drunken musings while dancing is that she finds the quarian adorable, and says so in her own words: \"If I were a little drunker and knew how to unzip that suit...\" If Tali wonders instead about how humans and asari can dance given the way \"their\" legs bend Jack replies that she doesn't tip over until she found company, telling the quarian to \"watch and learn\" till then. If romanced by Shepard, she tells him not to tire himself out dancing so they can have sex on the table later, making a lewd joke when Steve complains. If the party is relatively restrained at the final leg, Jack is just standing by the upper floor couches, hanging out with Joker, Cortez, and most of the other guests. The morning after the party, she will be joining Jacob's morning workout with pull\\-ups, attributing her hangover immunity to her amp. If romanced, she'll instead wake up in bed with Shepard and express desire to make love to him again.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "citadel-archives-escape_001",
+      "kind": "page",
+      "page": "Citadel Archives: Escape",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The culprit behind the identity theft is a clone of Commander Shepard. Find him/her before he/she escapes the archives.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Archives:_Escape",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "summary:jacob-taylor-unique-dialogue",
+      "kind": "summary",
+      "page": "Jacob Taylor/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A catalogue of dialogue unique to Jacob when he is in Shepard's squad in Mass Effect 2 (with some Mass Effect 3 lines), organized into location-triggered lines, \"talk to squad mate\" conversations, and spontaneous combat and ambient barks. A recurring thread is Jacob defending Cerberus and the Illusive Man, especially during Jack's loyalty mission, where he insists the Teltin facility \"went rogue.\" Representative verbatim lines:\n\n- Jacob, on the Collector Ship entering the massive pod chamber: \"Earth... they're going after Earth.\"\n- Jacob, on the Collector Ship when the Illusive Man's foreknowledge is revealed: \"It doesn't make sense for Cerberus to sell us out. It just doesn't.\"\n- Jacob, during Jack's loyalty mission on the container logs: \"This is... unbelievable.\"\n- Jacob, dying if he leads the second diversion squad in the Suicide Mission without secured loyalty: \"There were too many, but I got them through. You guys finish up for me, all right?\"\n- Jacob, if Shepard destroys the Collector Base and he survives: it was a \"hell of a way to tell the boss you're quitting,\" adding he wished he could have seen the Illusive Man's face.\n- Jacob, using Pull: \"Get over here!\" (a nod to Scorpion from Mortal Kombat), also \"Gravity is one mean mother, huh?\"\n- Jacob, using Barrier: \"Throwing up a barrier!\" / \"Nothing can hurt me now!\"\n- Jacob, caught in friendly fire: \"Get me out of your god-damn sights!\"\n- Jacob, hearing Jedore's canned PA orders on Korlus: \"Who does that?\"\n- Jacob, on Jack's recruitment mission seeing a prisoner beaten: \"Commander, you seein' this shit?\"\n- Jacob, if a female Shepard dumps him for Garrus: he calls the turian a \"Cuttlebone.\"\n\nOther tagged lines: confronting Ish on Omega about a past ambush and warning Shepard against helping him; on Horizon, dismissing Ashley/Kaidan's accusation as \"typical Alliance attitude\"; and, if brought to the Shadow Broker's base, the Broker notes his and Shepard's deaths would cripple Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jacob_Taylor/Unique_dialogue",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "ben-hislop_002",
+      "kind": "page",
+      "page": "Ben Hislop",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben signed up to fight turians after his brother was killed during the aliens' bombardment of Shanxi's settlements. A master of munitions, he was a perfect recruit for Jack's prohumanity movement. Eventually he, Jack, and Eva formed a mercenary trio conducting guerrilla warfare under the employ of General Williams, and he served as Jack's right\\-hand man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "summary:blue-suns",
+      "kind": "summary",
+      "page": "Blue Suns",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Blue Suns were a \"private security organization\" that was in reality a ruthless, discreet, and expensive mercenary outfit operating in the Skyllian Verge. Members bore a blue sun tattoo, removed with acid wash during high-risk jobs. The group was mostly batarian, turian, and human, and used YMIR, FENRIS, and LOKI mechs. It was founded in 2160 by Zaeed Massani and Vido Santiago as a protection racket, Zaeed leading the men and Vido handling administration. A dispute over hiring batarians led to a 2165 power struggle in which Vido seized control and nearly killed Zaeed. Vido then hired batarians freely and installed Solem Dal'Serah as the public head of operations while remaining hidden as \"Co-Executive Officer.\"\n\nIn Mass Effect: Revelation (2165), the Suns were hired by Edan Had'dah for the Sidon raid; Saren Arterius killed several, including Groto Ib-ba, during his investigation, and Suns under Skarr captured Kahlee Sanders before dying when an element zero refinery was destroyed. In Incursion (2183) a Suns–Collector exchange of humans on Omega was wiped out by Aria T'Loak. In Redemption the Suns recovered Commander Shepard's body from Alchera for the Shadow Broker but were ambushed by Liara T'Soni and Feron. In Foundation the Illusive Man hired Suns as a containment crew during Subject Zero's rampage.\n\nIn Mass Effect 2 (2185) Shepard repeatedly clashed with the Suns: they controlled Omega's Gozu District until the plague weakened their non-human members; they besieged Archangel (Garrus Vakarian) alongside Eclipse and Blood Pack under coordinator Tarak, aided by Sidonis's betrayal, and were destroyed with Tarak's gunship. The Suns ran the Purgatory prison under Warden Kuril, who betrayed Shepard during Jack's recruitment and was killed. Suns officer Jedore funded Okeer's krogan project on Korlus and killed him. On Zorya, Zaeed pursued Vido Santiago through a Blue Suns-controlled refinery. Other operations included Harkin's Citadel racket, Prothean dig-site raids on Joab and Kopis, and pirate raids via the MSV Strontium Mule and Sanctum base. In Mass Effect 3 (2186), with Aria's help Shepard secured the allegiance of the Citadel Blue Suns under Darner Vosque, who had been raiding C-Sec weapons shipments and targeting General Septimus Oraka.",
+      "url": "https://masseffect.fandom.com/wiki/Blue_Suns",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "summary:ben-hislop",
+      "kind": "summary",
+      "page": "Ben Hislop",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ben Hislop was a human mercenary and munitions master who appeared in Mass Effect: Evolution. He signed up to fight turians after his brother was killed during the turian bombardment of Shanxi's settlements during the First Contact War, and fought in the resistance on occupied Shanxi. Recruited into Jack Harper's prohumanity movement, he formed a mercenary trio with Jack and Eva Coré, conducting guerrilla warfare under the employ of General Williams, and served as Jack's right-hand man.\n\nOn Shanxi, Ben's unit ambushed a turian patrol and he personally fought and captured the turian general Desolas Arterius with Jack's help. He wanted to execute Desolas but Jack kept the general alive for interrogation. On a mission to find the artifact Desolas sought, Ben antagonized him while Jack's scheme defeated the turian subordinates. Reaching the artifact inside a cave, Ben and Jack were ambushed by hooded figures revealed to be cyberized turians, which proved freakishly strong. When Ben touched the artifact to try to shut it off, he was electrocuted; Jack pried him free but was also affected, leaving both incapacitated. Desolas seized them and ordered Ben's body taken for study.\n\nWhen Harper and Eva pursued Desolas to Illium, they found Ben alive but mutated into a synthetic form like the \"meta-turians.\" He retained some sense of his identity but followed orders from Desolas and Saren, bringing the artifact, the Arca Monolith, to Palaven, where Desolas tried to replicate Harper's enhancement without creating mindless husks. The artifact commanded Ben to excavate a second artifact to accelerate the transformation. When Eva tried to haul Ben out and then to destroy the artifact, it commanded Ben to slam her head against a wall, killing her. Coming to his senses, a horrified Ben charged Desolas and rammed him into the artifact before he could shoot Harper; Saren tore Desolas away. Prolonged contact with the released energy instantly killed Ben, and his body was later vaporized when Saren ordered an orbital bombardment of the temple. Harper later included Ben's and Eva's names in his manifesto as he became the Illusive Man.",
+      "url": "https://masseffect.fandom.com/wiki/Ben_Hislop",
+      "for_key": "the meaning behind Jack's tattoo, 'so she can find me under the rubble'"
+    },
+    {
+      "chunk_id": "skyllian-verge_001",
+      "kind": "page",
+      "page": "Skyllian Verge",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The **Skyllian Verge** is a largely undeveloped patch of space situated along the borders of Systems Alliance and batarian space. As such, there is intense competition between humans and batarians to colonize, develop and exploit the worlds. While this competition has never escalated to outright war, there have been a number of minor conflicts in the Verge. It is seen as a somewhat lawless area, with pirates and slavers both being known to operate freely, and a large number of \"private security organizations\" (mercenary groups), as well as freelancers, operate in the area. The area is known to be patrolled by the Systems Alliance military. However they do not have enough ships to adequately police the area, so in many instances by the time they arrive at a colony in trouble it is already too late. The batarians believed the Verge to be rightfully theirs and opposed the Alliance being allowed to colonize planets in the Verge. These tensions later led to the Skyllian Blitz.",
+      "url": "https://masseffect.fandom.com/wiki/Skyllian_Verge",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "cerberus-commando_002",
+      "kind": "page",
+      "page": "Cerberus Commando",
+      "section": "Tactics",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Commandos are armed with assault rifles and shotguns and are deadly at close range. Commandos will typically not stay behind cover and will frequently charge to get around their enemy's cover, conducting sweeping attacks and flanking their enemies. - Cerberus Commandos boast relatively high health as well as shields. Powerful attacks and well\\-used cover are usually sufficient to weaken and ultimately neutralize these commandos. - Commandos are fairly accurate and come in groups, crowd control talents are useful in negating this. Alternatively, on Binthu, release the test subjects and the fight will devolve into a three way battle that can take the heat off of you.",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Commando",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "mass-effect-2_025",
+      "kind": "page",
+      "page": "Mass Effect 2",
+      "section": "Downloadable Content",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*Main article: Downloadable Content* The development team planned for much more extensive downloadable content than what was available in Mass Effect, and a large portion of the Mass Effect 2 team moved to DLC after the game's release. Episodic combat, weapon and armor packs, characters, worlds, and full campaign expansions are available for download. At the time of the game's release, those who bought a new copy of the game got a free activation code to the Cerberus Network, while those who rented or bought used copies had to pay a 15\\-dollar activation fee; presently however the Cerberus Network is a free download. Periodic updates were provided via the in\\-game 'Cerberus Network' as well as external DLC channels. Mass Effect 2 DLC found outside the Cerberus Network varies in price. The following listed Cerberus Network DLC and paid DLC game packs are all included with Mass Effect Legendary Edition.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "biotics_005",
+      "kind": "page",
+      "page": "Biotics",
+      "section": "Alien Biotics",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Biotic abilities are of varying rarity and status in other species: - **Asari** \\- All asari are naturally biotic to some degree, though not all choose to develop their abilities. Those who do pursue training usually display formidable ability. They do not require implants to use biotics effectively, nor do they need to undergo special training to acquire conscious neural control; their reproductive physiology grants them this ability from birth. Biotic ability is mandatory for asari who want to go into military service. The most powerful train as asari commandos. - **Batarians** \\- There are some known batarian biotics who are trained as shock troopers and sentinels. - **Collectors** \\- All Collectors have a latent biotic potential, which is activated if the Collector General takes control of their body and mind, transforming them into powerful and dangerous opponents. - **Drell** \\- The drell assassin Thane Krios is a biotic. Many other drell join the war effort against the Reapers, acting as adepts and vanguards. - **Krogan** \\- Krogan biotics are few in number, but all are extremely powerful and often train to become Krogan Battlemasters like Skarr or Wrex. Before the genophage, biotic krogan who enlisted in the military would rise quickly through the ranks; the other soldiers were in fear and awe of them, so their superiors recognized they would command great respect as officers and promoted them. The krogan developed a surgical procedure that was able to confer biotic ability, but the operation had a high mortality rate, so it was discontinued following the release of the genophage. - **Protheans** \\- Javik is a Prothean biotic. He may casually mention they used to clean their teeth with biotics. Besides this, it is unknown how widespread Prothean biotics were before their extinction. - **Quarians** \\- According to Tali, quarian biotics are very rare. It is speculated that this is due to their life aboard the Migrant Fleet. Element zero is such a rare resource that it is probably too precious to be \"spent\" on encouraging biotic potential in quarians, and because the quarians live aboard ships, any engine accident severe enough to release dust\\-form element zero would also be fatal to the crew, and any expectant mother would only be exposed to the dust if they had a compromised environmental suit. - **Rachni** \\- Rachni Brood Warriors appear to have some biotic abilities. - **Salarians** \\- Salarian biotics are unusual and highly prized. The salarian military does not risk them in the front lines but instead uses them in intelligence services. - **Turians** \\- Turian biotics are also uncommon, and generally not much more powerful than a human L3\\. They are viewed with suspicion by the general turian infantry and tend to be relegated to special units called Cabals, which are employed for key missions. - **Volus** \\- Some volus are trained as Adepts, Vanguards and Sentinels, although the Sentinels do not use biotic abilities. - **Vorcha** \\- Some vorcha are trained as Sentinels. - To date, there has been no mention of the biotic abilities of the hanar, elcor, raloi, Leviathans, or yahg or what role (if any) biotics play in their respective societies.",
+      "url": "https://masseffect.fandom.com/wiki/Biotics",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "codex-technology_016",
+      "kind": "page",
+      "page": "Codex/Technology",
+      "section": "Biotics: Life as a Biotic",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Biotics possess extraordinary abilities, but they must live with minor inconveniences. The most obvious issue is getting adequate nutrition. Creating biotic mass effects takes such a toll on metabolism that active biotics develop ravenous appetites. The standard Alliance combat ration for a soldier is 3000 calories per day; biotics are given 4500, as well as a canteen of potent energy drink for quick refreshment after hard combat. Another issue is electric charge. Electricity accumulated in starship drive cores must be discharged, and so must the electricity in a biotic user. Biotics are prone to small static discharges when they touch metal. Unfortunately, human biotics also face suspicion and persecution, beginning with the popular misconception that they can read and control minds. Biotics symbolize the dehumanization of mankind to people philosophically or religiously opposed to gene modification and cybernetics. Militaries are the only organizations that always welcome biotics, offering them huge recruitment incentives.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Technology",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "vanguard_002",
+      "kind": "page",
+      "page": "Vanguard",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Vanguard** is a powerful combatant, able to combine the offensive powers of the Adept and the Soldier. They have access to various weapons and armor, as well as biotics. Gameplay focus is on taking down enemies with quick and brutal force. Vanguards are the front line of the squad. They focus on combat potential, using biotics to disable and soften up their enemies while shielding themselves from return damage long enough to dispatch foes in a hail of gunfire. The Vanguard wears light armor to start with, though they can upgrade to medium armor, and they may gain specialist training in shotguns and pistols. They can also equip advanced bio\\-amps to increase the strength of their biotics. All Krogan Battlemasters including Wrex belong to this class. The Vanguard class talent increases damage with shotguns and pistols, and increases biotic protection.",
+      "url": "https://masseffect.fandom.com/wiki/Vanguard",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "pinnacle-station_004",
+      "kind": "page",
+      "page": "Pinnacle Station",
+      "section": "Source Code Corruption",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "At some point between the original release and the subsequent release of the PS3 version (and the later Mass Effect Legendary Edition), BioWare's source code archive for the DLC was discovered to be corrupted; the backups of the original developer Demiurge Studios were checked as well and also discovered to be mostly unusable. In an interview Mac Walters from the MELE team described an \"emotional rollercoaster\", and said that \"It would basically take us another full six months just to do this with most of the team we've got. I wish we could do it. Honestly, just because this is meant to be everything that the team ever created, brought together again \\- all the single\\-player content. And so, leaving it all on the cutting\\-room floor, it was heartbreaking.\"",
+      "url": "https://masseffect.fandom.com/wiki/Pinnacle_Station",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "scene:normandy-kitchen-garrus-james-war-stories#01",
+      "kind": "scene",
+      "page": "Garrus and James Compete in War Stories",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-kitchen-garrus-james-war-stories",
+      "text": "Garrus and James Compete in War Stories. 2186, Citadel shore leave, after rescuing the ex-Cerberus scientists the Normandy SR-2 kitchen After the Arrae rescue mission, Garrus and James found themselves in the Normandy's kitchen area, where they began a war stories competition—each recounting their own harrowing experiences in the field and competing for bragging rights.",
+      "url": "",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-1-origin-and-history_004",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 1) — Origin and History",
+      "section": "Riot and escape",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Eventually the subjects rioted and attacked the guards, damaging the facility and freeing Jack. Her pent-up rage and sudden release sent her into a blind fury; she nearly killed everyone in the facility — guards, scientists, and other subjects alike — then stole a shuttle and escaped Pragia. A passing freighter picked her up, used her, and sold her into slavery.",
+      "url": "",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "summary:biotics",
+      "kind": "summary",
+      "page": "Biotics",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Biotics was the ability of some lifeforms to create mass effect fields using element zero nodules embedded in body tissues, accessed and augmented through bio-amps. Biotic individuals could knock enemies over at range, lift them into the air, generate gravitational vortices to tear apart obstacles or enemies, or create protective barriers. Abilities fell into three categories: telekinesis (mass-lowering fields), kinetic fields (mass-raising fields), and spatial distortion (shifting fields that rip apart objects). Powers were triggered by \"physical mnemonics,\" physical gestures that fired neurons in sequence.\n\nAll asari were naturally biotic from birth and required no implants or special training. Biotics of other species were individuals exposed to dust-form element zero in utero who developed eezo nodules throughout their nervous systems. Exposure rarely produced biotics; most exposed fetuses were unaffected, and others developed brain tumors or other complications. In humans, only about one in ten eezo-exposed infants developed usable talent, and in rare cases talents emerged in young adulthood through additional exposure. Identified biotics were typically fitted with a surgically implanted amplifier around puberty and then underwent long biofeedback training.\n\nThe first human biotics were born after starship accidents in the 2150s dispersed element zero over populated areas; the first known was female, dubbed \"Subject White.\" Conatix Industries was founded to track exposed individuals and develop implants, and in 2160 established the BAaT programme on Jump Zero, which was shut down after the turian instructor Commander Vyrnnus was killed by a student. Human biotics were classed by implant model: L1, the notorious L2 (introduced 2167, powerful but often unstable and medically damaging), L3 (2170, stable but weaker), retrofit and experimental variants, L4 used in the Ascension Project, and L5x and L5n for Adepts and Vanguards by 2185. Dr. Ellen Ryder created the first human biotic implants. Human biotics faced widespread prejudice, while the Alliance military eagerly recruited them, granting them a 4,500-kilocalorie daily ration.\n\nAmong aliens, biotics varied in rarity: common and powerful in asari, rare and prized in salarians, uncommon and distrusted in turians (relegated to Cabals), few but extremely powerful in krogan (Battlemasters such as Skarr and Wrex), and very rare in quarians. Batarians, drell (Thane Krios), Collectors, Protheans (Javik), volus, and vorcha also produced biotics. Non-sapient biotic creatures existed on eezo-rich worlds like Thessia and Eingana, including Jack's biotic varren Eezo. Biotics were exceedingly rare or absent in the Andromeda galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Biotics",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "summary:cerberus-commando",
+      "kind": "summary",
+      "page": "Cerberus Commando",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Cerberus Commandos were highly trained shock troopers used by Cerberus to perform operations and defend locations in the first Mass Effect. They formed a key part of the defense of Cerberus installations on Binthu and Nepheron, facilities conducting research on organisms such as Rachni Workers, Rachni Soldiers and Thorian Creepers.\n\nCommandos were armed with assault rifles and shotguns and were deadly at close range. Rather than hold cover, they frequently charged to get around their enemy's cover and made sweeping, flanking attacks. They had relatively high health as well as shields, though powerful attacks and well-used cover were usually enough to weaken and neutralize them. Because they were fairly accurate and came in groups, crowd-control talents were useful against them; alternatively, on Binthu, releasing the captive test subjects could turn the fight into a three-way battle that drew fire away from the player.",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Commando",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "summary:hendel-mitra",
+      "kind": "summary",
+      "page": "Hendel Mitra",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Hendel Mitra was a former Alliance soldier serving as Security Chief of the Ascension Project. Tall and muscular with rusty-brown hair and light brown skin, he was of part Scandinavian and part Indian ancestry, born in the suburbs of the New Calcutta megapolis on Earth. His mother's exposure to dust-form element zero during pregnancy gave him biotic powers rather than birth defects. Detected as a biotic, he was sent to BAaT for training, where the harsh military program's efforts to separate children from their families succeeded too well: he became permanently estranged from his family, refusing contact even after BAaT closed, and later enlisted in the Alliance military. Kahlee Sanders believed his BAaT experiences drove his determination to help Gillian Grayson. He is hinted to be homosexual through Kahlee's comments.\n\nIn Mass Effect: Ascension, Hendel was troubled by Paul Grayson's drug addiction and contact with Gillian, but was fiercely protective of all the Project's children. When Gillian unleashed a biotic storm in the cafeteria, he hesitated to stun her and used his own biotics to shield himself, afterward blaming himself and considering resignation. His protectiveness paid off when he caught Dr. Jiro Toshiwa administering cerebrospinal medication that triggered a seizure in Gillian; despite being stunned repeatedly, Hendel stayed conscious and kept her alive with CPR until EMTs arrived. After Jiro was exposed as a Cerberus operative, Hendel accompanied Kahlee, Gillian, and Paul Grayson to Omega, where they were captured by the Cerberus agent Pel, who planned to sell Hendel and Gillian to the Collectors. The quarian Lemm'Shal nar Tesleya broke them out, and they fled to the Migrant Fleet. During quarantine aboard the shuttle Hendel tutored Gillian in her biotics; he toured the Idenna with Kahlee and marveled at its free trading economy. When Cerberus sent Paul Grayson and the quarian Golo to extract Gillian, Hendel fought with his biotics and was badly hurt, but recovered enough to help defuse explosives aboard the Cyniad before it could destroy the Idenna. When Kahlee left with Paul as a captive, Hendel stayed aboard the Migrant Fleet as Gillian's protector for the Idenna's mission to find a new quarian homeworld.\n\nIn the first edition of Mass Effect: Deception (acknowledged by BioWare as containing lore discrepancies), Hendel and Gillian remained trusted crew of the Idenna. When the batarian slave ship Glory of Khar'shan boarded the vessel and the quarian security head Ugho was killed, Hendel took command and led the counterattack, and with Gillian's biotics the quarians seized the slaver ship. After the captured slave Hal McCann told Gillian her father was dead, Hendel left with her aboard the batarian ship to learn what had happened.",
+      "url": "https://masseffect.fandom.com/wiki/Hendel_Mitra",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "scene:derelict-reaper-iff-mission#02",
+      "kind": "scene",
+      "page": "Retrieving the Reaper IFF from the Derelict",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "derelict-reaper-iff-mission",
+      "text": "Retrieving the Reaper IFF from the Derelict. 2185, after the Collector Ship mission a derelict Reaper orbiting Mnemosyne in the Thorne system Shepard's squad boards the massive, disabled vessel. The ship's kinetic barriers immediately engage and trap them aboard. The barriers can only be disengaged by destroying the Reaper's core, which will also release the mass effect field keeping it from falling into Mnemosyne's gravity well.",
+      "url": "",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "summary:arvuna",
+      "kind": "summary",
+      "page": "Arvuna",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Arvuna was a moon of the planet Dranen, located in the Aysur System of the Caleston Rift in the Milky Way. It became accessible in Mass Effect 3 after the mission Leviathan: Find Garneau. Classified as a water world because oceans or ice covered 90% of its surface, Arvuna hosted prodigious sea life as well as venomous arthropodal pests in its tropical zone whose metallic carapaces, similar to those found on Palaven, resisted radiation from Dranen's magnetosphere. Several well-shielded human colonies existed on Arvuna, though they were alienated from the Citadel Council and politically insignificant to the Traverse and Terminus Systems.\n\nDuring the Reaper War the Reapers had not reached Arvuna, concentrating instead on the Balor system, which cut Arvuna off from the cluster's mass relay but served as evidence that the Reapers could not be everywhere at once. The Mass Effect 3 multiplayer map Firebase Hydra was located on Arvuna. Cerberus Daily News stories referenced the moon, including one about fishermen and marine biologists capturing a Deinorostrum there. Arvuna was originally slated for Mass Effect 2 and appears in that game's guide and files, but was cut before release; its earlier description differed significantly, mentioning avian species and human settlements totaling over a third of a billion inhabitants.",
+      "url": "https://masseffect.fandom.com/wiki/Arvuna",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "scene:citadel-huerta-aeian-ptsd#04",
+      "kind": "scene",
+      "page": "Aeian T'Goni at Huerta Memorial Hospital",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-huerta-aeian-ptsd",
+      "text": "Aeian T'Goni at Huerta Memorial Hospital. 2186, Citadel, before the Cerberus attack Huerta Memorial Hospital, Patient Lounge After two days without food, Aeian and Hilary snuck back to retrieve the radio Aeian had left behind. Hilary, unaware the surviving farmers were indoctrinated, freed them. The farmers raised an alarm and attacked. Aeian used her biotics to carve a path to escape, but Hilary broke her leg and could not run or stay quiet.",
+      "url": "",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "scene:hagalaz-shadow-broker-ship-feron-yahg#06",
+      "kind": "scene",
+      "page": "Storming the Broker's Ship and Freeing Feron",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "hagalaz-shadow-broker-ship-feron-yahg",
+      "text": "Storming the Broker's Ship and Freeing Feron. 2185, during Lair of the Shadow Broker, after the death of Tela Vasir on Illium the Shadow Broker's storm-riding ship in the atmosphere of Hagalaz, Sowilo system, Hourglass Nebula On Liara's cue, Shepard drew the Broker's attention while Liara used her biotics to drop the electrified fluid tank above him. His barrier overloaded and exploded, killing him.",
+      "url": "",
+      "for_key": "biotics used well, as competition and release"
+    },
+    {
+      "chunk_id": "kenneth-donnelly_002",
+      "kind": "page",
+      "page": "Kenneth Donnelly",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Engineer Donnelly works in the engine room with his best friend Gabriella Daniels. They graduated from the same class at a tech academy and served aboard the SSV Perugia at the Battle of the Citadel. After the battle, when the Alliance discredited the existence of the Reapers, Kenneth openly voiced his defense for Commander Shepard, bordering on insubordination, though he wasn't court\\-martialled because of his engineering talents. This got him noticed by the Illusive Man. Gabby insisted to Kenneth that she be included in the Cerberus contract as she felt he would fall apart without her. Unlike most Cerberus operatives on\\-board the Normandy, both Kenneth and his friend Gabriella seem almost entirely ignorant of the \"terrorist\" operations that the organization engages in. If Shepard asks about why Kenneth joined Cerberus, he replies that he joined to \"kick the Collectors right in the daddy\\-bags.\" If asked, Kenneth and Gabriella tell Shepard about their maintenance problems with the FBA arrays. Kenneth begins on a detailed technical description of the problem, till Gabby cuts him short and explains to the Commander that they need FBA couplings. If Shepard purchases the couplings from Nashan Stellar Dynamics, Kenneth invites them to a game of Skyllian\\-five poker. The Commander can choose to join in, simply decline the invite or downright forbid gambling. Kenneth frequently chats with Gabby about new ship upgrades and the crew. He also makes a lot of comments about other women aboard the Normandy, which leads to teasing and scolding from Gabby. Kenneth makes remarks about the snugness of Tali'Zorah vas Neema's suit \"in all the right places\", about Jack's simultaneous sexiness and viciousness, and about Miranda's uniform making him stand \"at attention.\" Kenneth is among the Normandy crew members abducted by the Collectors when they invade the Normandy, and he will die if Shepard and the squad take too long to rescue the crew. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Kenneth_Donnelly",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "summary:gabriella-daniels",
+      "kind": "summary",
+      "page": "Gabriella Daniels",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Gabriella \"Gabby\" Daniels was a former Alliance engineer, a Cerberus operative in the Lazarus Cell, and an engineer aboard the Normandy SR-2 in 2185. More serious and formal than her fellow engineer and best friend Kenneth Donnelly, she preferred to get straight to the point. The two graduated from the same tech academy class and served aboard the SSV Perugia at the Battle of the Citadel. Afterward, when Kenneth publicly defended Commander Shepard against the Alliance's denial of the Reapers, Cerberus recruited him; Gabby insisted on being included in the contract, believing he would fall apart without her.\n\nGabby loved starship engines and worked the engineering deck beside Kenneth, often chatting about ship upgrades and crew, scolding Kenneth for perverted comments, and teasing him about Jack before warning him she was a psychopathic murderer. She was among the Normandy crew abducted by the Collectors and would die if Shepard took too long to rescue the crew during the suicide mission.\n\nIf she survived, Gabby was taken into custody when the Alliance impounded the Normandy in 2186; Shepard could use Spectre status to free her back to the engine room. She and Kenneth were both approached again by Cerberus during the Normandy's downtime but refused on Gabby's intuition. Back at work on the Alliance Normandy SR-2, they resumed their old banter. Chief Engineer Adams praised Gabby as knowing propulsion theory better than most physicists and thanked Shepard for recruiting her. If both survived and Shepard sided with Gabby in their argument, she and Kenneth could begin a romance and later be caught embracing in the sub-deck. After the war, if Shepard used the Crucible with sufficient preparation, Kenneth, Gabby, and Major Coats oversaw reconstruction efforts in a devastated London. A programming error tied the Gabby and Ken banter to Shepard being good friends with Ashley, fixed by the Extended Cut. In an unmodified, non-imported Mass Effect 3, Gabby's name appeared on the Normandy's memorial wall.",
+      "url": "https://masseffect.fandom.com/wiki/Gabriella_Daniels",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "scene:normandy-sr2-collectors-board-joker#05",
+      "kind": "scene",
+      "page": "The Normandy Attacked - Joker and EDI Alone Aboard",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-sr2-collectors-board-joker",
+      "text": "The Normandy Attacked - Joker and EDI Alone Aboard. 2185, while the Reaper IFF is being installed and Shepard's team is away on a shuttle mission the Normandy SR-2, boarded in orbit In the aftermath Shepard, Joker, Jacob, Miranda and EDI talk it over, and Shepard faces the decision of when to take the Omega 4 Relay: going through at once keeps the whole crew alive; running one to three more missions loses half the crew, Kelly Chambers among them; four or more loses everyone but Doctor Chakwas.",
+      "url": "",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "krex_001",
+      "kind": "page",
+      "page": "Krex",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | ***“Make no mistake — this is a one\\-way trip.”*** — Spoilers for **Mass Effect: Andromeda** follow. |  | | --- | --- | --- | **Jurdon Krex** is the leader of a group of outlaws in H\\-047c. Krex and his gang established four mining camps on the surface of H\\-047c to exploit the abundant helium\\-3 in the former planet's soil. If Pathfinder Ryder comes across their operation, Krex and his remaining crew attempt to stop the Pathfinder and their squad after the other three camps have been dealt with. They fail and Krex dies trying. Scattered bits of correspondence and equipment across the camps reveal further information about Krex's plans. Elora Narantis, an irritable asari loitering at the wind farm on the outskirts of Kadara Port, reached out to Krex to mine the helium\\-3 due to his crew's purported skill in navigating the debris around the ruined world. He charged double his usual rates due to the risk, although he has been mining with equipment ill\\-suited for the job and he has a reputation among his crew for being particularly difficult to work with. Krex has personal acquaintances on New Tuchanka who are concerned about his well\\-being: Barruk the merchant and Vorn the botanist.",
+      "url": "https://masseffect.fandom.com/wiki/Krex",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "scene:me1-ashley-ilos-night#03",
+      "kind": "scene",
+      "page": "Grounded by the Council, and the Night Before Ilos",
+      "section": "hangout",
+      "game": "Mass Effect",
+      "scene_id": "me1-ashley-ilos-night",
+      "text": "Grounded by the Council, and the Night Before Ilos. 2183, after the Council grounds the Normandy, then en route to Ilos before the final assault on Saren the SSV Normandy — the CIC, then Shepard's quarters En route to Ilos for the final assault on Saren, Ashley comes to Shepard's quarters. She tells him that after a long career of being sidelined by the Alliance, he makes her feel \"good enough,\" and the two spend the night together. She keeps teasing him afterward, claiming she has something important to tell him — but he'll have to survive Ilos and come back to her first to hear it.",
+      "url": "",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_012",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After you are back on board the Normandy, you'll have a video conference with Anderson, who will discuss the war and ask about Kahlee. If Javik is part of your crew, you will find him in the walkway beneath engineering following this mission. He will comment about Jack's previous tenure in this space.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-apartment-eezo#03",
+      "kind": "scene",
+      "page": "Jack Brings a Varren to the Apartment",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-apartment-eezo",
+      "text": "Jack Brings a Varren to the Apartment. 2186, Citadel shore leave, after the Arena meet-up Shepard's personal apartment, the Wards Shepard can point out how much Eezo's history sounds like Jack's. She says she has no idea what Shepard is talking about, and Shepard drops it.",
+      "url": "",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "kelly-chambers_002",
+      "kind": "page",
+      "page": "Kelly Chambers",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kelly's primary job on the Normandy is to keep Commander Shepard abreast of new e\\-mails and pass on meeting requests from Shepard's squad mates. In addition, Kelly provides counselor support and monitors the psychological state of Shepard and the crew, offering input on mission outcomes and impressions on Shepard's team. Her abilities as a counselor and her impressions are influenced by her education where Kelly graduated with a psychology degree. In the Cerberus organization, she is identified as a member of the Lazarus Cell. If Shepard asks her about Cerberus' notorious reputation, Kelly refutes the notion that she or the organization is anti\\-alien. While she does believe in the importance of Cerberus' agenda to benefit humankind, Kelly doesn't believe that it means they hate other species by default. Throughout her time on the Normandy SR\\-2, Kelly regards aliens with the same respect and compassion she feels for her fellow mankind, evidenced by her repeated displays of concern over Shepard's non\\-human companions. She is initially identified and titled as \"Yeoman Chambers\", but if Shepard responds positively at her suggestion to call her \"Kelly\", she will be identified as such. Alternatively, as Shepard interacts more with her, she will be addressed as \"Kelly Chambers\" and will eventually be referred to as \"Kelly\". Known members of Kelly's family include a sister who liked cats but also opened a dog shelter.",
+      "url": "https://masseffect.fandom.com/wiki/Kelly_Chambers",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_037",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "After Priority: Sur'Kesh",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Enter the med bay to talk to Mordin, Eve, and Wrex - 2 Paragon for saying \"He's trustworthy, Wrex.\" - 2 Renegade for saying \"Suspicion is healthy.\" Support either Copeland or Allers arguing over Terra Nova opinion piece - 2 **Reputation** for supporting either one. Talk to EDI (krogan\\-related logistical challenges) - 2 **Reputation** for interaction. Talk to Anderson about Shepard's exploits bringing hope to the resistance (mutable dialogue depending on the completion of Priority: Rannoch) - 2 **Reputation** for interaction.",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-2-part-1-origin-and-edi_004",
+      "kind": "page",
+      "page": "The SSV Normandy SR-2 (Part 1) — Origin and EDI",
+      "section": "EDI",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The SR-2's most significant upgrade over the SR-1 is EDI — the Enhanced Defense Intelligence — an AI represented by a floating blue holographic sphere at terminals throughout the ship. EDI provides basic information about the Normandy and Cerberus, and functions as the ship's electronic-warfare defense. Because of the danger of a rogue AI, EDI was given behavioral blocks and could not interface with ship systems directly. When the Collectors boarded and abducted most of the crew, an emergency response — EDI working with Joker — released those blocks, granting EDI full control of the Normandy. Before Shepard's crew defected from Cerberus back to the Systems Alliance, EDI also served as the Illusive Man's eyes and ears aboard, monitoring the ship's many listening devices and sending him regular reports. During this time the Illusive Man restricted Shepard's access to some of EDI's files and capabilities — EDI surmised he did not want Shepard to know everything about Cerberus. EDI gained access to anti-Reaper algorithms and devoted significant processing power to analyzing them. Asked how she could hope to fight beings millions of years more advanced, she revealed that she was designed in part with technology from Sovereign's remains, and is therefore herself partly based on Reaper technology. After the defection, EDI — a fully sentient AI with free will — followed Shepard's lead and severed her ties to Cerberus, though she still downplays her level of sentience to Alliance personnel she does not know, since concern about AI technology remains.",
+      "url": "",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "gabriella-daniels_002",
+      "kind": "page",
+      "page": "Gabriella Daniels",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Gabby and Kenneth graduated from the same class at a tech academy and served aboard the SSV Perugia at the Battle of the Citadel. After the battle, when the Alliance discredited the existence of the Reapers, Kenneth openly voiced his defense for Commander Shepard, which led to his recruitment by Cerberus. Gabby insisted to Kenneth that she be included in the contract as she felt he would fall apart without her. Gabby loves starship engines and she couldn't pass up the opportunity to serve aboard the Normandy SR\\-2\\. She works on the engineering deck, next to Kenneth. If she is asked by Shepard whether she requires anything, Gabby mentions an upgrade that would ease her maintenance workload. She frequently chats with Kenneth about new ship upgrades or new crew members; She scolds Kenneth every time he makes a perverted comment; after Jack has been recruited, she teases Kenneth about the newest crew member who wears nothing but tattoos from the waist up, only to tell him that she is a psychopathic murderer after Kenneth intends to introduce himself to Jack. Gabby is among the Normandy crew members abducted by the Collectors when they invade the Normandy, and she will die if Shepard and the squad take too long to rescue the crew. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Gabriella_Daniels",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "msv-worthington_004",
+      "kind": "page",
+      "page": "MSV Worthington",
+      "section": "Mass Effect",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Worthington had at least four crew members \\- the captain, a doctor named Smith, and two other crewmen, Jacob and his biotic girlfriend Julia \\- though the crew quarters have room for more than twenty. Commander Shepard's team finds the Worthington apparently deserted and heavily booby\\-trapped, with Jacob hooked up to life support in the medical room, though his brain activity is flat\\-lined. Shepard can read the crew logs in the medical room, crew quarters and cockpit to piece together what happened there.",
+      "url": "https://masseffect.fandom.com/wiki/MSV_Worthington",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "summary:despoina-leviathan",
+      "kind": "summary",
+      "page": "Despoina: Leviathan",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Despoina: Leviathan was the final mission of the Mass Effect 3: Leviathan DLC, available after Leviathan: Scan Locations once scanning 2181 Despoina revealed a faint trace of Leviathan's energy signature. The mission began when Shepard's team landed on the ocean planet. During descent, a mysterious pulse disabled the Normandy shuttle, and Steve Cortez set it down on one of the floating shipwrecks littering the ocean. Datapads among the wrecks told the story of the MSV Monarch's crew, who crash-landed after a similar pulse, ran short of rations, and were gradually enthralled by organic spherical artifacts, turning violent and refusing to leave.\n\nA Sovereign-class Reaper descended and Reaper forces (Husks, Cannibals, Marauders, and Brutes) attacked repeatedly while Cortez repaired the shuttle, though the pulse kept striking and forced him to land again. With the shuttle unable to fly and the Normandy unable to safely approach, the team resolved to press on and find Leviathan. Cortez proposed using a Triton ADS mech stored in a sealed section of the wreck; Shepard carried the shuttle's power cells to sockets to charge the bay door open while fending off Reaper waves. Once inside, Shepard piloted the Triton, which handled like an Atlas, to clear out endlessly reinforcing Brutes and enemies.\n\nShepard then dove in the Triton to the ocean floor, losing contact with Cortez partway down due to interference. Near the probe Shepard had sent earlier, at a depth around 3,200 meters, Shepard encountered Leviathan. The entity explained its race's history and reasons for staying out of the war, and initially declared that Shepard must remain while the Reapers harvested everyone else, but was ultimately convinced to help for its own reasons. During the ascent, a Brute on the surface turned against other Reaper forces, and as Shepard escaped in the repaired shuttle, a ship-disabling pulse struck the pursuing Reaper, sending it crashing into the ocean. Shepard woke aboard the shuttle; if Ann Bryson had survived her ordeal relatively unharmed, she spoke with Shepard over the comm. Completion granted the Leviathan Enthrallment Team War Asset (and Ann Bryson as an asset if not incapacitated), and made Dominate available as a bonus power in the Med Bay.",
+      "url": "https://masseffect.fandom.com/wiki/Despoina:_Leviathan",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    },
+    {
+      "chunk_id": "summary:shiagur",
+      "kind": "summary",
+      "page": "Shiagur",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Shiagur was a krogan warlord and one of the few fertile krogan females remaining after the widespread deployment of the genophage, circa 700 CE. She used her fertility to amass male followers, who competed among themselves for the right to have children with her. Despite her legendary reputation, her band was not particularly powerful, and she was defeated and killed at Canrum by turian forces during the last stages of the Krogan Rebellions. Vengeful krogan admirers retaliated against her killers, ultimately causing thousands of casualties.\n\nShiagur's bloodline remained a status symbol among later krogan, with her direct descendants bearing clan brands proving their lineage; Nakmor Drack and his granddaughter Nakmor Kesh were among them, and the tank-bred Grunt carried some of her genetic legacy through Okeer's selection of \"worthy\" krogan. Being compared to Shiagur was considered a mark of honor: the Urdnot Shaman might bestow the compliment on a female Shepard who understood the krogan better than some of their own kind, and her name was invoked in a song Mordin Solus could sing for Eve.",
+      "url": "https://masseffect.fandom.com/wiki/Shiagur",
+      "for_key": "Shepard's reputation among the crew for staying steady and faithful, and Jack's teasing about it"
+    }
+  ],
+  "codex": [],
+  "conflicts": [
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/citadel-jack-arena-brimstone.yaml — Two Rounds on Brimstone with Jack",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": []
+}

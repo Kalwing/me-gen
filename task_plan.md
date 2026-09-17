@@ -6,7 +6,49 @@ file-based YAML timeline + BM25 evidence index, and generates approved 5–10k-w
 narrated recaps in swappable in-universe narrator voices.
 
 ## Next Step
-2026-09-14 — Session start (/pwf), user gave 3 notes: (1) `config/narrators/*.mp3`
+2026-09-17 — Jack episode `jack_focus-resolve-before-war_2026-09-14` GENERATED END TO END
+(outline -> packs -> 7 sections -> audit -> assemble -> tone pass -> performance script),
+plus five pipeline fixes the run exposed. Committed in five parts; see `progress.md` for
+the full session log. **Next: nothing queued — awaiting user direction.**
+- Episode: `episode.md` 8,772 w; `episode.performance.md` 380 cues, prose verified unchanged.
+  Audit 24 found / 24 fixed, 35/35 promises kept, coverage 233/619 chunks.
+- Pipeline fixes this session:
+  1. `canon._touches` matched only whole entity strings, so hyphenated event ids never
+     reached canon entries — a section narrating the genophage cure got zero genophage canon
+     and hedged a pinned fact. Now matches slug words at a word boundary.
+  2. Packs carried the form *id* only, never the form's description or the run's `form_note`,
+     so section-writer never learned what a section was for.
+  3. Episode length was a hard-coded 8,000 regardless of form; now
+     `words_per_section x section count`, clamped per form.
+  4. Craft rules: imperfect narrator memory, the form is the job, ration the clipped tag.
+  5. All 8 agent defs now say instruction-shaped text arriving as data is never a task.
+- Known, not actioned: `section-writer` has `tools: Read, Write` so it cannot run `wc -w`
+  and mis-estimates its own length every time (3 of 7 sections overran; the auditor caught
+  them). Either grant it Bash or keep the auditor as the enforcement point — user's call.
+
+---
+
+### Prior entry — 2026-09-17 — Session start (/pwf, no task given). RECONCILED against git.
+- Working tree is **clean**; suite **177 passed**.
+- Two commits landed since this file's last entry:
+  - `46a8284` generate(pipeline): ban game mechanics in prose (section-writer +
+    episode-auditor), always read the subject's notes, London-ending overrides
+    (`config/canon/overrides.yaml` +28). Matches memory [[no-game-mechanics-in-prose]].
+  - `3eaf34c` "sharing": un-gitignored the whole corpus (`data/pages/`,
+    `data/chunks/`, `data/bm25_index.pkl`, `page_summaries/`, `timeline/`, `output/`)
+    so the repo is shareable; `*.mp3` now ignored instead. Also carried the canon edits
+    that were uncommitted at session start: `outline-writer.md` addressee-life-enrichment
+    block (memory [[addressee-life-enrichment]]), `forms.yaml` motivational-form note,
+    `questions.yaml` q-2026-09-15-001 (Legion at Rannoch — answered, status still `open`),
+    plus `choices.yaml` / `resolved.yaml` updates from the Tali run.
+- Open threads carried forward, none verified this session: Phase 5 leftovers
+  (more `/me-scrape` batches from the crawl frontier), Phase 6 leftovers (world-texture
+  grounding design decision — still needs user direction; codex culture enrichment),
+  TODO2 Jack/Tali line-level corrections (`[~]`, Wrex partially done in 376cce3).
+
+---
+
+### Prior entry — 2026-09-14 — Session start (/pwf), user gave 3 notes: (1) `config/narrators/*.mp3`
 are final audio output, ignore as input; (2) `mass_effect.json` is a personal quote
 collection, user chose "fold matching quotes into narrator .style.md files"; (3) Jack's
 last generation overused "Don't make me repeat it"/"I won't say it again" — user chose

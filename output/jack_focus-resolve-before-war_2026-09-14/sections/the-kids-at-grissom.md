@@ -1,0 +1,33 @@
+Ha. That'll do. You said it like a man reading off a duty roster, but you said it, and your hands stopped doing that thing.
+
+Now sit there and let me tell you the part you never got to watch, because you were out front and I was behind you holding the roof up.
+
+The relay first, because people still get it wrong. Omega 4. Only one in the galaxy that burns red instead of blue. A thousand years of ships went in and exactly none came back. Standard jump drops you a few thousand kilometers off your mark. Fine, out in open space. At the galactic core it means you arrive inside something. The far side was a junkyard of everybody who'd tried it — hulls stacked in the dark like a warning nobody read. You needed a Reaper's own transponder off that dead one out at the brown dwarf to survive the trip, and the second Cerberus bolted it in, the damn thing called home and a cruiser walked onto our ship and took every person on it who didn't carry a gun. Cook. Doctor. The yeoman. Everybody but the cripple in the cockpit.
+
+And you didn't prep. You didn't tune anything, you didn't run one more errand to feel better about it. You turned the boat around and went straight through. Hold onto that, it comes back.
+
+Oculi, then their cruiser, then we hit the base hard enough to bend the deck, and that base is sitting on the accretion disk of a black hole. Understand what I'm saying. A station parked on the lip of the drain at the center of the galaxy.
+
+There was a briefing. EDI's blue map, two routes, some vent. I got the short version after, in a corridor, because I don't sit through slideshows — you sent Kasumi into the crawl and put Garrus and Miranda on the other teams, and everyone who went in came out the far end breathing, which is not how those things normally end.
+
+Then the pod room. You wiped the frost off the glass with your glove and there was a woman in there — Horizon colonist, Lilith, I think they said — and she woke up, and she screamed, and then there was no her. Just soup going up a tube. Chakwas said it out loud for us: they were rendering people down into grey paste and piping it somewhere. And then every other pod came open and every one of them walked out alive, because you hadn't spent a week getting ready. Thane took them back down the hall. That's the version where nobody's name gets read out later.
+
+Bugs were the problem. Seeker swarms. Bastards the size of your thumb, four wings, a stinger, and they don't kill you, which is worse — they freeze you standing up so somebody else can come pick you off the ground. That's how they emptied whole colonies. Freedom's Progress, everybody gone, one quarian kid hiding in a shed. Mordin cooked something that made you look like furniture to them, worked great out on Horizon, and in there it was useless. Too many. So it was a biotic or nothing. I said what I said: small team, stay close, don't wander.
+
+Here's the machinery, since everybody romanticizes it. Eezo nodules through your nerves, from before you were born, and most kids exposed get nothing or get tumors — about one in ten ends up with anything worth a damn, which is a hell of a lottery to run on babies. Then they cut a port into the base of your skull and plug an amp into your head. Wetware. Keep it clean or it sours on you. And every trick you've ever seen a biotic do is one quick shape — snap a field, drop it, let the thing cool while your head clears.
+
+Holding one is not that. Holding one is the same second, over and over, for as long as the walk takes. No release. Your amp runs hot against your neck and you can feel it cooking the skin, and the edges of everything start going grainy and black, and that's the warning you get before you're on the floor. There are people who hack the firmware off their amps for more push. They go blind, or numb down one side. I knew one. Strength wasn't the problem in there, Shepard. Nobody's strong for twenty minutes. Focus is.
+
+I had all your names in my head the whole walk, in order, front to back. I didn't let myself think about anything but the last one, because if I blinked, the swarm takes whoever's walking rearguard, and I know his name, and I'm not saying it out loud this morning. You can laugh at me for that when we're both back on this deck.
+
+And I was scared the entire time. That's the point I'm making, so don't get soft about it. Scared and holding is the whole job. Not-scared is a thing kids say.
+
+Then you shattered four tubes and dropped their half-built Reaper into the dark, and it climbed back out, so you killed it twice. Their boss came on and asked you to leave the place standing, burn out the bodies with a radiation pulse and hand him the technology. You lit it instead. He went blue in the face about it, which was the best thing I saw that year. The Collectors ended that day. Whole species, done, over, as a thing that comes for people. Cerberus went back for the bones anyway and grew them into Cronos — which you cracked open days ago, so, closed loop.
+
+And after: the deck full of people welding the hull shut, Kelly walking past like a Tuesday, the geth nodding at you, Grunt, Garrus. Joker handed you a datapad of Reaper blueprints and a picture of the rest of them coming, and I remember thinking, nice, no caskets. Not one. If you'd missed that jump back aboard, Joker's the one who'd have been standing over a box with the stencil on it having that conversation. He wasn't. And the geth went on to hand its own people their souls out at Rannoch and burn itself out doing it — heard it after, from you, badly — which doesn't happen if it dies in that base.
+
+You do the same trick and dress it up as recklessness. Charging. You lock a target, and the field throws you through the wall into the middle of their guns, and everybody watching thinks you've lost your mind. You haven't. It's a lock and a commitment, held exactly as long as it takes to land. Same discipline as mine. Uglier coat.
+
+My kids do a version of it now — ten seconds longer than they think they've got. You put them on the support lines like I asked instead of feeding them into a front, and they're alive. Prangley worked up the nerve after we got out to ask about my ink, and I told him about the N7 on my ass just to watch him swallow his own tongue. Yeah. That's what I think of your program.
+
+So. Forty minutes. You've got one field to hold and it's yourself. Lock it, don't blink, don't wander outside it. I held mine. Your turn. Get up.

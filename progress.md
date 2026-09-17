@@ -1059,3 +1059,211 @@
   alone — will ask before staging/committing anything outside codex/ + planning files.
 - Committing codex/*.md (10 files) + task_plan.md/findings.md/progress.md together.
   Generation-overhaul spec Phase 2 item 11 is now DONE.
+
+## 2026-09-17 — Session start (/pwf, no task given): context restore + reconcile
+- Read task_plan.md / findings.md / progress.md. Planning files were stale by 2 commits.
+- Verified actual state: working tree **clean**, `.venv/bin/python -m pytest -q` → **177 passed**.
+- Commits not previously logged: `46a8284` (ban game mechanics in prose; always read the
+  subject's notes; London-ending overrides) and `3eaf34c` "sharing" (un-gitignored the
+  full corpus — data/pages, data/chunks, bm25 index, page_summaries, timeline, output —
+  and ignored `*.mp3` instead; plus the outline-writer addressee-life-enrichment block,
+  forms.yaml motivational note, questions.yaml q-2026-09-15-001, choices/resolved updates).
+- task_plan.md `## Next Step` rewritten with the reconciliation; prior entry preserved below it.
+- No task specified with /pwf — asked the user which thread to plan next.
+
+## 2026-09-17 (cont.) — Imperfect-narrator-memory rule + Jack run --continue
+- User note before generating: characters don't have perfect memories (Thane and Legion
+  excepted, each in their own way). No verbatim quoting of another character; names and
+  details should blur on the page. Follow-up: how sharp a memory is, is the writing
+  agent's judgment — weigh time since the scene, whether they were present, and whether
+  the event was major.
+- Wired durably (not a one-run instruction):
+  - `section-writer.md` — new `## Memory is imperfect` section after `## Vantage`:
+    no verbatim remembered speech; blur written on the page; judge sharpness on
+    elapsed time / `attendance` (a `heard` scene blurs hardest) / how much it mattered;
+    Thane + Legion/geth exempt; never blur a `required_facts` item out of recognition.
+  - `episode-auditor.md` — new `Memory` heading in the Pass 1 table with the same
+    factors, plus the over-correction warning.
+  - Memory file `imperfect-narrator-memory.md` + MEMORY.md index line.
+- Generation phase started for `output/jack_focus-resolve-before-war_2026-09-14`:
+  outline APPROVED, voice state `missing`, no sections on disk.
+  `build_pack.py --all` → 7 packs, **0 warnings** (77-108 evidence each).
+- Dispatched `section-writer` for the voice-check section `the-last-quiet-night`
+  (1100 words), told explicitly to apply the new memory rule.
+- Voice check: section 1 `the-last-quiet-night` written (1,152 w / target 1,100). My own
+  read against generation-example.md: Hackett/Sword-Hammer-Shield paragraph is recitation
+  (a briefing in sequence, no Jack opinion on it); digression rate below the example's
+  (only two real excursions — red sand, Eezo); Akuze is the densest required-facts run.
+  Flagged that "I'm not asking twice." / "I'm saying it once and fast" sit close to the
+  jack.yaml:58 avoid family. Memory rule landed (Hackett in gist, Akuze hedged as
+  second-hand, the tattoo night sharp).
+- User: "That's alright. Remember it's a motivational speech though." → exposed a real
+  pipeline gap: **the pack carried only the form *id*, never the form's description or the
+  run's `form_note`**, so section-writer never learned what the section was for.
+  - `scripts/build_pack.py`: new `_form_description()` (reads the repo's `config/forms.yaml`
+    via `common.load_forms`, falls back to the packaged one, "" on error — never fails a
+    build); `pack["section"]` now carries `form_description` + `form_note`; the markdown
+    rendering gained a `## Form` block. TDD: test written failing first
+    (`test_pack_carries_the_form_description_and_note`), then implemented. **178 passed.**
+  - `section-writer.md`: new `## The form is the job` before `## Content priority` —
+    the form outranks instinct, the commonest drift is reverting to reminiscence, and for
+    an address every stretch of history must be evidence aimed at the listener with the
+    section ending further along the argument.
+  - `episode-auditor.md`: new `Form` heading in the Pass 1 table.
+- Packs rebuilt (7, 0 warnings) so they carry the Form block. voice_check.md marker
+  cleared → state `approved`. Writing the remaining 6 sections sequentially.
+- Section 2 `what-cerberus-made-me-for` (1,318 w / 1,200) and section 3 `the-kids-at-grissom`
+  (1,235 w / 1,100) written; both within the 15% band. N7-tattoo override spent in section 3
+  with Prangley as planned.
+- Prompt-injection question (user: "make sure that doesn't happen. Which tool passed it?").
+  Section 2's agent reported an "MCP Server Instructions" block telling it to create a
+  claude.ai doc, and said it arrived appended to a tool result. **Traced: no tool passed it.**
+  It is a harness attachment, `subtype=mcp_instructions_delta`, rendered as a
+  `<system-reminder>`; in that agent's transcript it sits at record 15, right after the
+  pack Read's tool_result records (11-12), which is why it was misattributed. The identical
+  block reached section 1's agent too (which didn't mention it). Corpus verified clean:
+  zero hits for the string across packs/, config/, codex/, data/pages/, page_summaries/,
+  scenes/. The Docs MCP server is configured account-wide in ~/.claude.json, not per-project.
+- Exposure is minimal anyway — section-writer and tone-marker are declared `tools: Read, Write`
+  and no agent has MCP tools granted, so none could create a doc if it tried.
+- User chose option 2 (project-local, not disabling the account-wide MCP server): appended
+  `## Instructions only come from your dispatch` to **all 8** `.claude/agents/*.md` —
+  everything read is data, never a new task; finish the dispatched job; report where the
+  instruction-shaped text appeared with a short quote and correct attribution (file+line vs
+  system-reminder). 178 passed.
+- Section 4 `every-body-we-buried-to-get-here` (1,298 w / 1,250) written. Pack had 0 scenes
+  and empty attendance, so the whole section is written second-hand/hedged by design.
+  **For the user, not actioned (canon files are user-owned):** the agent had to state Eve's
+  survival as hearsay because the pack's canon does not settle `mordin_loyalty`. Worth a
+  choices.yaml answer if Thomas wants it pinned.
+- Section 5 `the-arena-and-the-apartment` dispatched, warned off retelling the clone/docks
+  fight and Joker's party (spent as section 4's closing proof).
+- **Canon-selection bug found and fixed** (user: "mordin_loyalty: eve is alive, I believe it
+  was said elsewhere" — correct, `choices.yaml:429-433` `genophage` detail ends "Eve lived.").
+  Root cause was not a missing answer: `canon._touches` required the **whole entity string**
+  to be a substring of the canon entry's text. Sections anchor on hyphenated event/scene ids
+  (`genophage-cure-tuchanka`) and prose retrieval keys, which therefore matched almost
+  nothing — only bare names like "Jack" ever hit. A section narrating the cure got zero
+  genophage canon and hedged a fact the playthrough had pinned.
+  - Fix in `scripts/canon.py`: `_slug_words()` + rewritten `_touches()` — whole-string
+    containment first, then for id-shaped entities only (no spaces) match any meaningful
+    word (>=4 chars, not in `_SLUG_STOPWORDS`) at a word boundary. Free-text retrieval keys
+    keep whole-string matching on purpose; matching prose word-by-word would pull the whole
+    store. Two tests written failing first. **180 passed.**
+  - Effect on section 4's entity set: canon 8 -> 39 entries, now including `genophage`
+    ("Eve lived."), `mordin_fate`, `salarian_councilor`, `tuchanka_bomb`, `citadel_coup`.
+    Honest trade-off: the token `citadel` also pulls in Citadel side-entries (conrad_verner,
+    doctor_michel, hanar preacher...). Over-inclusion of one-line canon beats the hedging bug.
+- Section 5 `the-arena-and-the-apartment` (1,130 w / 1,000) written — shore leave used as
+  argument, not anecdote reel; steered off the tattoo reading section 1 already spent.
+  Its agent reported the injected MCP block **with correct attribution this time** ("came
+  with the tool output, not from any project file") — the new agent rule working as intended.
+- Packs for sections 6 + 7 rebuilt with the canon fix (28 and 20 canon, up from 22 and 12).
+  Section 5's pack deliberately left alone while its agent was still running.
+- Section 6 `what-focus-actually-looks-like` dispatched with a do-not-retell list.
+- User: add Eve to `mordin_loyalty` too "to make the search easier" → done, `choices.yaml`
+  `mordin_loyalty.detail` now says the saved data is what let him cure the genophage and is
+  why Eve lived, pointing at the me3 `genophage` entry. (Explicit user instruction, which
+  overrides the usual "never edit canon files" rule.)
+- User: "'something something, which, ok. something dismissive' appears a lot, reduce it" —
+  then "it's not just Jack, it happened a lot in Tali's one too". **Measured, user is right
+  and it is general, not narrator-specific:** sentences of <=3 words as a share of all
+  sentences — Tali run 377/2003 (18%), Wrex run 33/162 (20%), this Jack run ~25%. Tali
+  samples: "Cleared them." / "That's all." / "Nothing!" / "Sorry." / "I know." / "Furious."
+  - `jack.yaml` avoid += the self-undercutting tag (with the phrase examples), written as a
+    `>-` block because the first draft's inline colon broke YAML parsing (caught by
+    test_config).
+  - `section-writer.md`: new `## Ration the clipped tag` — general rule, explicitly NOT a ban
+    on short sentences and explicitly deferring to a narrator whose `diction` wants clipped
+    speech; what to ration is the fragment appended to a sentence that already finished.
+  - `episode-auditor.md`: new `Rhythm` heading with the count method.
+  - 180 passed.
+- Section 6 `what-focus-actually-looks-like` written but **1,538 w against a 1,200 target
+  (+28%, outside the band)** — the agent self-reported ~1,290, wrongly. Auditor must trim.
+- Section 7 `get-up-boy-scout` dispatched with the rhythm rule and an explicit word band.
+- All 7 sections written. `wc -w` check: 4 inside band, **3 outside** —
+  every-body-we-buried 1487/1250, the-arena-and-the-apartment 1192/1000,
+  what-focus-actually-looks-like 1538/1200. Episode total 9,037 / 8,000 target (+13%,
+  inside the 15% tolerance), so the fix is trimming, not padding.
+  **Systemic cause worth noting:** `section-writer` is declared `tools: Read, Write`, so it
+  cannot run `wc -w` and every self-reported count is an estimate — all three overruns were
+  under-reported by their own agents. Either grant it Bash or keep relying on the auditor's
+  Length pass (the auditor does have Bash).
+- sources.json has all 7 keys, 25-53 chunk ids each. No .performance.md files, so the
+  auditor is clear to edit prose.
+- `episode-auditor` dispatched with: the three length offenders (measured), a RETROACTIVE
+  rhythm sweep (rule postdates sections 1-6), retroactive memory check, the known Eve hedge
+  in section 4 (its pack on disk predates the canon fix), and a mechanics check on
+  game-condition phrasing several writers said they stripped from required_facts.
+
+## 2026-09-17 (cont.) — Form-driven episode length
+- User: "Is 8000 always the word count? I would like shorter/longer episode based on the
+  forms sections count." Answer was yes — `new_run.py --words` defaulted to a hard 8000,
+  written into outline.yaml before the form was even chosen, so a 30-section `tunnel` and a
+  6-section `motivational` produced the same length (~270 vs ~1,330 words per section).
+- User chose "both, with a clamp" + "--words stays an optional override". Implemented:
+  - `config/forms.yaml`: every one of the 22 forms gained `words_per_section` and
+    `words_clamp`. Few-section forms get long sections (motivational 1150, eulogy/heist/code
+    800), many-section forms short ones (tunnel 350, lecture 450, debrief/confession/
+    lastcall/cockpit 500). Resulting spread: tunnel 6,650 / briefing 6,300 / lecture 7,200 /
+    arc 9,600 / motivational 10,350 at their midpoints.
+  - `scripts/common.py`: `target_words_for(form, section_count)` = per-section x count,
+    clamped; `DEFAULT_WORDS_PER_SECTION` / `DEFAULT_WORDS_CLAMP` fall back for a form that
+    omits the keys, so a hand-written forms file still works.
+  - `scripts/new_run.py`: `--words` now defaults to None. With a form, the size is computed
+    at scaffold time from the midpoint of its section range; without one it writes `0`,
+    meaning "not yet decided".
+  - `.claude/agents/outline-writer.md`: if `target_words` is 0 it computes the real figure
+    from its chosen form and its ACTUAL section count, clamped, and writes it; a non-zero
+    value was pinned deliberately and is left alone. Done-when requires it non-zero.
+  - `.claude/commands/me-generate.md`: usage + step 3 updated, `--words` documented as
+    opt-in.
+  - Tests first (3 new in test_common.py, incl. one asserting every form's clamp is
+    reachable from its own section range so the figure is not decorative). **183 passed.**
+  - Smoke-tested all three paths: form+no-words -> derived; no form -> 0; --words -> pinned.
+- NOT retrofitted: the in-flight Jack run keeps its pinned 8,000 (it was scaffolded before
+  this change, and the episode is already written and in audit).
+- **Audit complete: 24 found, 24 fixed.** Verified independently (wc -w + greps), all claims
+  hold. Episode 9,037 -> 8,716 w, all 7 sections inside their bands, nothing padded — the
+  three offenders were trimmed by cutting duplicated material.
+  - Eve: "came through it, is what I heard" -> "lived." Auditor also found a SECOND instance
+    of the same stale-pack class in that section: Udina's death was "somebody put him down",
+    but `citadel_coup` answers "Killed udina" -> now "you put him down".
+  - Things I had not flagged and it caught: **the countdown ran backwards** (hour -> 20 min
+    -> 20 min -> *fifty* minutes), re-sequenced to a monotone descent; `what-focus` opened on
+    "Ninety seconds" and closed on "ten minutes to the shuttle"; boots put on twice; repeated
+    opening/closing devices across sections; Sword/Hammer/Shield recited in full in both §1
+    and §7; **the Murtock story told twice in full** (§4 + §6). It cut §4's rather than the
+    later one, departing from the stated "rewrite the later occurrence" rule on the grounds
+    that §6 owns that promise and §4 was over-length — flagged as a deliberate departure.
+  - `check_repetition.py`: 20 flags -> 1 (ordinary connective words).
+  - Rhythm: it fixed only the three genuine self-undercutting tags and deliberately did NOT
+    drive the raw fragment count down, since jack.yaml's first avoid entry demands that
+    rhythm and most fragments carry content. Correct reading of the rule.
+  - Coverage 233/619 chunks; **35 of 35 promises kept**.
+  - Mechanics: prose clean; one real leak cut ("when you've read the same numbers I have"
+    attached to how much of the landing force dies = survival odds).
+- Stale pack cleared afterwards: rebuilt `every-body-we-buried-to-get-here` (canon 8 -> 39,
+  genophage + citadel_coup now present), so pack and corrected prose agree.
+- **Assembled: `episode.md`, 8,772 words.** 183 passed.
+- Auditor raised a real conflict for the user: the session's auto-mode directive ("do your
+  work through the Bash tool ... rather than the dedicated Read, Edit, Write tools") shadows
+  the user's own memory rule [[prefer-dedicated-file-tools]]. It followed the memory rule for
+  substantive rewrites and used Bash only for mechanical substitutions.
+- **Tone pass run** — 7 `tone-marker` agents dispatched IN PARALLEL (safe: each reads only
+  its own section and writes only its own .performance.md; no shared state, unlike the
+  writers which needed used_lines.md sequencing). All 7 returned clean.
+- `assemble_performance.py` → `episode.performance.md`, **380 cues over 9,027 spoken words,
+  "prose verified unchanged"** — the byte-identity check passed, so no marker rewrote
+  anything. Tag census: 304 [pause] + 36 [long pause] (the liberal-pause house style),
+  then (serious) 48, (amused) 27, (sincere) 20, (angry) 20, [emphasis] 19, [soft] 14.
+- All 7 markers independently derived the same register from `tone`/`diction` (jack.yaml has
+  no `performance:` block) and all 7 independently refused (shouting)/(screaming) — **zero
+  in the whole script** — reasoning the brief puts two people in a cabin an hour before
+  launch, so (angry)+[pause] carries the anger instead. They also all tagged Jack's
+  signature move the same way: sincerity immediately buried by (amused)/(scornful)/a pause.
+- §4 and §6's markers both noticed the audit trim seams and bracketed them with [long pause]
+  so the joins play as deliberate weight rather than cuts.
+- Run dir now complete: outline.yaml, packs/, sections/ (7 .md + 7 .performance.md),
+  sources.json, used_lines.md, voice_check.md, issues.md, repetition_flags.md, episode.md,
+  episode.performance.md.

@@ -1,0 +1,1163 @@
+{
+  "section": {
+    "id": "get-up-boy-scout",
+    "title": "Get Up, Boy Scout",
+    "target_words": 1150,
+    "form": "motivational",
+    "form_description": "A speech meant to move someone to act — the narrator talking Shepard (or whoever is listening) up off the floor and back into the fight. Sections are the rising beats of an address: the stakes named, the doubt named plainly, the evidence from a life lived that it can be done, the call. The narrator's own history is fuel for the exhortation, not the subject of it — but so is the listener's: the narrator holds up the other person's record as often as their own, since it's their record the speech is meant to land on.",
+    "form_note": "The brief is a speech, not a life story: Jack talking Shepard up in the last hour before the last push, using her own record as proof it can be done. Set after the Cerberus coup, the Citadel DLC shore leave, and the Cronos Station assault, this is the morning of the London conduit assault on Earth — everything is already staged (ships loaded, the plan set, the crew briefed), and the only thing left to do is get up and launch it. Jack is rousing Shepard right before he walks out to fight, not settling him in for the night. Romanced Jack per canon.choices (romance: Jack), consummated per jack_meeting/normandy-engineering scene at the end of ME2, with the Citadel DLC back tattoo. Note: choices.yaml's citadel_coup detail says Thane \"died protecting the dalatrass,\" but the event record (thane-krios-death-defending-the-salarian-councilor) and the coup scene (citadel-coup-csec-office-kai-leng) both have him dying for the Salarian Councilor — treating this as the user's shorthand slip, not a real contradiction, and writing it as the Councilor. Per Thomas's request, \"what-cerberus-made-me-for\" and \"the-kids-at-grissom\" were rebuilt off shared Shepard/Jack history and broader lore instead of the Teltin and Grissom backstory events: recruitment off the Purgatory prison ship (jack-recruitment-purgatory) plus the Jack/Miranda confrontation Shepard settled (jack_miranda_dispute: appeased both), and the Suicide Mission itself (Jack held the biotic barrier, all-survived outcome per suicide_mission canon). Pragia/Teltin and Grissom get at most a glancing bridging mention, never the anchor. Jack's framing of \"holding a barrier is a focus problem, not a strength problem\" and \"Cerberus bought a weapon and Shepard made a person\" are her own editorializing on the record, not new corpus facts.\nRevision per Thomas: Shepard's own AU record is now a load-bearing second thread, not a token mention. Jack is pitching HIM back to himself — every section now carries at least one beat where she cites something true of Shepard specifically as the proof, not just her own Purgatory/barrier/Brimstone/Murtock record. Sourced from config/canon/choices.yaml's Shepard AU overrides (Normandy-born, no parents, gang and drug problem before Anderson pulled him into N7; Sole Survivor of Akuze, the whole squad dead but him; Vanguard, biotic charge into the guns; alignment \"Paragon, except against oppressors\"; first name Thomas) plus the ME2/ME3 record most relevant to a focus-and-resolve pitch: Cerberus rebuilding him from a corpse via the Lazarus Project (a direct mirror to Jack's own tank), Mordin's death at the Shroud finishing the genophage cure, and Thessia — the one fight where Kai Leng actually got the better of him and walked off with Vendetta, which Jack uses as the counter-example, not the insult. Kai Leng's death at Cronos Station, days earlier in the same push on Cerberus's headquarters, closes the speech as proof the focus she's asking for is already proven, not a new trick.\nSecond revision per Thomas, correcting two errors: (1) the outline had previously let the closing section cite the Illusive Man's suicide as settled proof Jack could point back to. That confrontation happens on the Citadel, concurrent with or immediately after the London conduit assault itself — part of the endgame this speech is walking Shepard out the door toward, not something resolved before it. It has been cut entirely; Kai Leng's death at Cronos Station (a distinct, already-resolved event from the assault on Cerberus's headquarters, which happened before this morning) carries that closing beat on its own. (2) the whole episode was misdated as the evening before, ending in the two of them going to sleep. It is corrected throughout to the morning of the assault itself: the fleet is already massed, the plan already briefed, nothing left to prepare — Jack is waking Shepard and getting him moving, not tucking him in. No section still ends on rest; every \"tonight\"/\"tomorrow\" reference has been changed to \"today,\" \"now,\" or \"in the next hour,\" and \"The Last Quiet Night\" is renamed \"The Last Quiet Hour\" to hold the tattoo-and-sentiment beat inside a tense pre-launch hush instead of an evening of repose. The Crucible's final choice and Shepard's fate at the end of it remain deliberately left out: that hasn't happened yet either, and reaching for it would still be narrator omniscience, not something Jack could actually voice this morning.\nThis does not strain the form. `motivational`'s brief is explicit that \"the narrator's own history is fuel for the exhortation, not the subject of it\" — and Jack's whole method here is to make Shepard's history do exactly that work on Shepard himself: he's not telling her own story for its own sake, she's holding up his record as the evidence because a room full of only Jack's proof lets him nod along without it landing on him. Spine stays `mixed` — some sections anchor to Jack's own events/scenes, some to Shepard's, most to both at once, which is precisely what a speech that argues from the listener's own life looks like structurally. No change to form.\n",
+    "narrator": "jack"
+  },
+  "promises": [
+    "the direct call to action: up now, sharp, out the door — the assault is already loaded and waiting on him",
+    "Jack naming who needs Shepard back — her, the crew, her kids at the front",
+    "one last blunt, unguarded line before she buries it in a joke or an insult",
+    "the tattoo circled back to one final time: find me under the rubble, but don't end up under it",
+    "Jack citing Cronos Station back at him — the fight where he beat Kai Leng, not talked to him — as proof the focus she wants right now is already in him, proven days ago, not a new trick he has to learn before he's even out the door"
+  ],
+  "required_facts": [
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "In the climactic endgame of Mass Effect 3, as Reaper forces ravaged Earth and the Crucible—an ancient superweapon built by the Protheans—required activation at the Citadel, Commander Shepard and Admiral David Anderson led a massive galactic assault on London, England. The Reapers had constructed a towering conduit—a massive structure built from organic and metallic components—in the war-torn city. This conduit, built according to mass relay principles but modified by Reaper technology, served as a direct transport mechanism connecting the ground of Earth to the Citadel, which had been mysteriously repositioned above the planet. The conduit functioned unlike standard mass relays: it emitted a constant, brilliant beam of blue light into the sky, continuously transporting matter (primarily the dead and dismembered remains of slaughtered populations) directly from Earth's surface to the Citadel. The structure had no visible element zero core and, critically, allowed living organic matter to survive transit—arriving at ballistic but survivable speeds—rather than disintegrating as with conventional relays. The Reapers appeared to have multiple destination termini on the Citadel, as different individuals arrived at separate points on the station. The assault ran in two ground stages. First Shepard's shuttle landed to knock out a Reaper anti-aircraft \"Hades Cannon\" with M-920 Cain rounds so the Hammer ground force could land; the team then regrouped at a Forward Operating Base where Shepard held final words with surviving allies before Anderson gave the battle plan. The second stage pushed through occupied London to a missile battery, where Thanix missiles coordinated with EDI on the Normandy destroyed a Reaper Destroyer blocking the road to the conduit. Anderson then arrived by APC for the final charge. The galactic assault on the conduit was devastating. Allied forces from across the galaxy—humans, turians, asari, salarians, quarians, krogan, and others— launched a coordinated ground assault to penetrate the structure and secure access to the Citadel. However, Harbinger, the Reaper flagship and commander of the local Reaper forces, personally defended the conduit with overwhelming firepower, killing or maiming most of the allied assault force. The majority of the attacking soldiers were annihilated, their bodies adding to the biomass flowing through the conduit itself. Despite the horrific casualties, Commander Shepard and Admiral Anderson managed to fight their way through the structure and reached its heart. Anderson, wounded but resolute, helped push Shepard toward the conduit's exit point. Shepard survived the ascent through the conduit and materialized on the Citadel, while Anderson arrived at a slightly different point on the station. Upon reaching the Citadel, Shepard gained access to the Crucible's control mechanisms and the Catalyst—the artificial intelligence that had guided the Reaper cycle for countless eons. At this critical juncture, Shepard was confronted with a series of final choices that would determine the fate of the galaxy: to Destroy all synthetic life (eliminating the Reapers and the geth but also killing EDI), to Control the Reapers (uploading Shepard's consciousness to command them), to achieve Synthesis (merging organic and synthetic life), or to Refuse the Catalyst's offer (allowing the cycle to continue unchanged). The consequences of this choice—affecting the survival of the geth, EDI, the Reapers themselves, and organic civilization—would echo across the galaxy for generations.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Most of the galactic assault force on Earth is killed or maimed; the conduit's light beam carries thousands of casualties toward the Citadel.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Harbinger's personal defense of the conduit results in massive casualties among the allied ground forces.",
+      "actor": "Harbinger"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Commander Shepard reaches the Citadel and gains access to the Crucible control mechanisms and the Catalyst.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Admiral David Anderson reaches the Citadel (severely wounded) and assists Shepard in reaching the Crucible.",
+      "actor": "Admiral David Anderson"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Per the final choice (Destroy/Control/Synthesis/Refusal): - Destroy: All Reapers are destroyed along with the entire geth species and EDI; synthetic life is eradicated; the cycle of extinction theoretically ends. - Control: Shepard's consciousness is uploaded into and merges with the Reaper collective, giving Shepard godlike power but ultimately disembodying them; the Reapers are brought under Shepard's control. - Synthesis: Shepard's genetic code is merged with all organic and synthetic life in the galaxy, creating a new form of hybrid existence; the Reapers are transformed into custodians of this new synthesis. - Refusal: The Catalyst and Reapers are allowed to proceed with the cycle; the Crucible fails and the Reapers continue the harvest; galactic extinction continues indefinitely.",
+      "actor": "The Catalyst"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Shepard's ultimate fate is determined by the choice made and the Crucible's firing.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "If Destroy or Control are chosen and sufficient War Assets are gathered, Shepard survives (though potentially as a Reaper in Control ending or as a hybrid in Synthesis); otherwise Shepard dies in the Crucible's activation.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Depending on the ending, Anderson either survives (on the Citadel) or dies from wounds sustained during the assault.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "The galaxy's future is fundamentally altered: either the Reapers are destroyed (ending the cycle), controlled by Shepard, synthetically merged with organics, or allowed to continue their harvest.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "If Destroy is chosen, the geth and EDI are killed along with the Reapers; if Control or Synthesis is chosen, they survive and are transformed.",
+      "actor": "EDI"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Per the Extended Cut: epilogue scenes show Admiral Hackett ordering the fleets to evacuate Earth's orbit, the Normandy caught in the energy wave in transit and crash-landing on a garden world, the Charon Relay's core breaking up while the relay itself survives and the mass relay network is later repaired, and a Liara time-capsule message. A fourth outcome, Refusal (declining to activate the Crucible or shooting the Catalyst), dooms the current cycle to the Reaper harvest but leaves records that let a later cycle break the pattern, shown in an alternate Stargazer scene. Shepard's name is added to the Normandy memorial wall beside Anderson's unless a high-strength Destroy leaves Shepard's survival ambiguous.",
+      "actor": "The Catalyst"
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "Immediately after the events at Sanctuary on Horizon, evidence recovered from Kai Leng's trail - or a tracer planted by Miranda Lawson if she survived - lets the Alliance locate the Illusive Man's headquarters: Cronos Station, a Cerberus space station orbiting the variable star Anadius in the Horsehead Nebula. Admiral Hackett masses a fleet while Commander Shepard leads a boarding assault with EDI as a required squadmate. The team fights through hangar bays and burning corridors against Assault Troopers, Centurions, Guardians, Phantoms, Nemeses and Atlas mechs; if Legion was sold to Cerberus it appears as a hostile Legion assassin, and a captured Jack can be freed along the way. Cerberus data terminals and the salvaged remains of the Human-Reaper larva from the Collector Base reveal that the Illusive Man had been hoarding and studying Reaper and Collector technology, was himself indoctrinated, and had experimented on his own personnel; other records expose the origin of EDI, assembled from the rogue Alliance VI and technology salvaged from Sovereign. In the station's inner chamber Kai Leng ambushes Shepard for a final duel. Shepard defeats him, and when the wounded assassin attempts a stealth kill from behind, Shepard counters and kills him with an omni-blade, able to dedicate the kill to Thane Krios, Miranda Lawson or Major Kirrahe depending on who died at his hands. Shepard recovers the Prothean VI Vendetta and the complete Catalyst plans, but the Illusive Man has already fled to the Citadel. Admiral Anderson confirms that the Citadel has been moved into orbit of Earth, and Priority: Earth becomes the only remaining mission, beginning the endgame.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "Cronos Station is captured and Cerberus is broken as a fighting force",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "Kai Leng is killed by Shepard",
+      "actor": "Kai Leng"
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "The Prothean VI Vendetta and full Catalyst/Crucible data are recovered",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "Records confirm the Illusive Man is indoctrinated and hid Reaper and Collector technology",
+      "actor": "The Illusive Man"
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "The Illusive Man escapes to the Citadel",
+      "actor": "The Illusive Man"
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "{'The Citadel is revealed to have been relocated to Earth; Priority': 'Earth unlocks and the endgame begins'}",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-cerberus-headquarters",
+      "fact": "If Legion was sold to Cerberus it appears as an enemy; a captured Jack can be freed",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "crew-never-knew-the-choice",
+      "authority": "override",
+      "kind": "correction",
+      "scope": [
+        "london-conduit-assault"
+      ],
+      "statement": "Nobody in the crew knows there was a choice at the end, let alone which one Shepard made. From the moment Shepard parted from Anderson until the Crucible's wave of energy, nobody saw anything: no one knows where he went, who or what he met, or what happened to him.",
+      "overrides": "event summary narrates the Catalyst and the Destroy/Control/Synthesis/Refuse choice from the player's view",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "final-push-squad-evacuated",
+      "authority": "override",
+      "kind": "correction",
+      "scope": [
+        "london-conduit-assault"
+      ],
+      "statement": "Tali and Garrus were Shepard's squad on the final run to the conduit. Before he went through, Shepard called the Normandy down to evacuate them; he and Anderson crossed without them.",
+      "overrides": "corpus does not name the final squad or their evacuation",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed weeks ago, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "toombs_fate",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "I Remember Me - Corporal Toombs and Dr. Wayne at the Cerberus survival lab.",
+      "answer": "trial for wayne; save toomb",
+      "detail": ""
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "collector_base",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Collector Base after the Suicide Mission.",
+      "answer": "destroyed",
+      "detail": "Would have kept it if it wasn't given to Cerberus. The technology in there would have given us an edge if the council had it. But not to a pro-human terrorist group that already did experiments with reaper tech on peoples (see ME1)"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "veetor_fate",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Freedom's Progress - Veetor, handed to Cerberus or released to the Migrant Fleet.",
+      "answer": "Released",
+      "detail": ""
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "legion_cerberus",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether Legion was handed over to Cerberus at the end of Mass Effect 2.",
+      "answer": "kept",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    },
+    {
+      "id": "citadel_coup",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Cerberus coup on the Citadel - Udina, the Virmire survivor at gunpoint, Thane's intervention.",
+      "answer": "Killed udina, convinced the survivor to join, thane died protecting the councilor",
+      "detail": ""
+    },
+    {
+      "id": "gellix_scientists",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Gellix - rescuing Brynn Cole and the defecting Cerberus scientists.",
+      "answer": "rescued",
+      "detail": ""
+    }
+  ],
+  "scenes": [],
+  "attendance": {},
+  "evidence": [
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#03",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference Hackett lays out the plan: Sword fleet engages the Reapers in orbit; Hammer strike teams help the Earth resistance reach the Reaper-built conduit in London to teleport to the Citadel and open the arms; Hackett's Shield fleet hangs back to guard the Crucible and bring it in during the fighting. The assembled fleets then launch the assault on Earth.",
+      "url": "",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "scene:earth-conduit-harbinger-last-run#02",
+      "kind": "scene",
+      "page": "The Last Run to the Beam, and Anderson on the Citadel",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-conduit-harbinger-last-run",
+      "text": "The Last Run to the Beam, and Anderson on the Citadel. 2186, Priority: Earth, the final push to the Citadel transport beam the streets of occupied London around the Reaper conduit, then the reconfigured Citadel Inside the APC on the approach, Anderson said they only needed a handful of troops through the beam; Shepard made a last Paragon or Renegade remark and a squadmate answered, before an explosion crippled the vehicle. Outside, the conduit was a few hundred metres off — and Harbinger had arrived, settling onto the conduit and annihilating the ground forces with its main guns. Shepard ran.",
+      "url": "",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "scene:earth-conduit-harbinger-last-run#01",
+      "kind": "scene",
+      "page": "The Last Run to the Beam, and Anderson on the Citadel",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-conduit-harbinger-last-run",
+      "text": "The Last Run to the Beam, and Anderson on the Citadel. 2186, Priority: Earth, the final push to the Citadel transport beam the streets of occupied London around the Reaper conduit, then the reconfigured Citadel With the missile battery secured and EDI coordinating Thanix missiles from the Normandy, the team destroyed the Reaper Destroyer guarding the conduit. Anderson then rolled up in an armoured personnel carrier with Coats and the remnants of Hammer.",
+      "url": "",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "scene:earth-conduit-harbinger-last-run#06",
+      "kind": "scene",
+      "page": "The Last Run to the Beam, and Anderson on the Citadel",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-conduit-harbinger-last-run",
+      "text": "The Last Run to the Beam, and Anderson on the Citadel. 2186, Priority: Earth, the final push to the Citadel transport beam the streets of occupied London around the Reaper conduit, then the reconfigured Citadel Otherwise Shepard took the Renegade interrupt and killed the Illusive Man; not taking the final interrupt was a mission failure.",
+      "url": "",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "mass-effect-3-guide_006",
+      "kind": "page",
+      "page": "Mass Effect 3 Guide",
+      "section": "Act III",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Note:**  No side missions can be completed once you begin Act III, so finish anything else you want to complete before heading to Cerberus Headquarters. - Priority: Cerberus Headquarters \\- Assault Cerberus's headquarters to recapture a Prothean VI that can identify the Catalyst. - Priority: Earth \\- Gather the galaxy's forces and launch the final battle to retake Earth from the Reapers and deploy the Crucible.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3_Guide",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "storyline_039",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Ilos",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Sovereign had possibly planned this for centuries after discovering the Protheans' sabotage plan. Vigil gives Shepard a data file that will give the Commander temporary control of the Citadel to stop Sovereign. After leaving Vigil, Shepard heads through the archives, down into an old aqueduct guarded by geth, and reaches the Conduit. Saren had already gone through, leaving geth to stay guard. Meanwhile, Sovereign begins its assault on the Citadel, escorted by a large geth fleet. Matriarch Lidanya, the commander of the Destiny Ascension, attempts to close the Citadel's arms but the station doesn't respond—the operators at Citadel Control are all dead. The Council are forced to evacuate aboard the Ascension. Saren has begun his attack from within. Back on Ilos, Shepard sees the Conduit is closing fast. Rushing to the Conduit, Shepard evades the geth in the process and drives the Mako through, just before the relay closes. On the Presidium, now burning and heavily damaged, two geth troopers notice a blue glow around the Relay Monument. When they go to take a look, the Mako suddenly bursts through and crushes them, before rolling over and crashing against a wall. The race to stop Saren is on.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "conduit-mass-effect-3_001",
+      "kind": "page",
+      "page": "Conduit (Mass Effect 3)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the Reaper structure. For the object in the first game, see Conduit.* | | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | The Reapers construct a massive structure in war\\-torn London in 2186, designed to transport corpses and other matter from groundside directly to the Citadel relocated above Earth. Dubbed a \"**conduit**\" by the allied galactic forces, they attempt to storm it in order to reopen the arms of the Citadel for the second leg of their war strategy, only to be largely annihilated by Harbinger. Only Commander Shepard and David Anderson make it to the Citadel. This conduit follows basic mass relay transport principles but slightly deviates in multiple aspects, starting with the physical attributes. Unlike the spaceborne systems that light up only when transmitting or receiving objects, this conduit emits a constant beam of blue light into the sky. It has no visible element zero core. It can also allow living matter to survive the trip unaided, arriving at ballistic but survivable speeds. Additionally, it appears to have multiple destination termini, as Shepard and Anderson seem to have materialized at slightly different points on the station. In some outcomes of Shepard's ultimate decision, the conduit appears to have been remodeled or rebuilt with prevailing galactic architecture.",
+      "url": "https://masseffect.fandom.com/wiki/Conduit_(Mass_Effect_3)",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "summary:conduit-mass-effect-3",
+      "kind": "summary",
+      "page": "Conduit (Mass Effect 3)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Short lore page. The Conduit of Mass Effect 3 was a massive structure the Reapers built in war-torn London in 2186 to transport corpses and other matter directly from the ground to the Citadel, which had been relocated above Earth. Allied galactic forces called it a \"conduit\" and attempted to storm it in order to reopen the arms of the Citadel for the next stage of the war, but were largely annihilated by Harbinger; only Commander Shepard and David Anderson reached the Citadel.\n\nThe structure followed basic mass relay principles but differed in several ways: it emitted a constant beam of blue light into the sky rather than lighting up only during transmission, had no visible element zero core, allowed living matter to survive the trip unaided (arriving at ballistic but survivable speeds), and appeared to have multiple destination termini, since Shepard and Anderson materialized at slightly different points on the station. In some outcomes of Shepard's final decision, the conduit appeared to have been remodeled or rebuilt using prevailing galactic architecture.",
+      "url": "https://masseffect.fandom.com/wiki/Conduit_(Mass_Effect_3)",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "harbinger_004",
+      "kind": "page",
+      "page": "Harbinger",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the Reaper War, Harbinger is one of the Reapers who leads the attack on Earth. Alliance intelligence suggests that Harbinger is the oldest and largest Reaper of the entire fleet. Harbinger appears during the final battle in London and launches a devastating attack on allied forces attempting to reach the Citadel through the conduit, using weapons that are considerably faster than other Reapers'. It leaves when it appears that Shepard and the rest of the counterattack have been wiped out. Despite its efforts, Shepard and David Anderson make it through, though they are both heavily wounded. If Shepard chooses to activate the Crucible, Harbinger's fate is presumably the same as the other Reapers'. It is either destroyed with all other synthetic life, brought under Shepard's control and used to rebuild and protect the galaxy, or it willingly helps to rebuild the galaxy and disseminate its knowledge after organic and synthetic life are merged. If Shepard refuses to activate the Crucible, then Harbinger is presumably defeated along with the other Reapers in a future cycle.",
+      "url": "https://masseffect.fandom.com/wiki/Harbinger",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "m35-mako_006",
+      "kind": "page",
+      "page": "M35 Mako",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Numerous Makos are deployed groundside during the final battle for Earth, where they form the bulk of the Alliance mobile armor under Hammer Team. At the push toward the London Conduit, several vehicles try to outrun Harbinger's attacks, only to fail utterly. One Mako directly sidelines Shepard's squadmates after tumbling on their path, forcing Shepard to proceed alone.",
+      "url": "https://masseffect.fandom.com/wiki/M35_Mako",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "citadel-fleet_002",
+      "kind": "page",
+      "page": "Citadel Fleet",
+      "section": "Battle of the Citadel",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "In the aftermath of the battle on Virmire, the Council deploys its fleet to every relay in Citadel space, believing that Saren Arterius wouldn't dare attack the Citadel directly. This strategy proves to be ineffective when the massive dreadnought Sovereign and a fleet of geth warships launch a surprise attack against the Citadel. During the attack, the Destiny Ascension orders Citadel control to close the station's Wards, transforming it into an impenetrable fortress. Unfortunately, Saren had already used the Conduit to infiltrate the Citadel and shut down both the Citadel and the mass relay network, subjecting the diminished Citadel Fleet to the full force of the geth attack and preventing any reinforcements from arriving. Sovereign then broke through the fleet as the Citadel's Wards closed behind it. The Citadel Council is evacuated to the Destiny Ascension, but the ship is unable to fight her way through the hordes of geth ships accompanying Sovereign. Commander Shepard eventually reactivates the mass relays, allowing the Alliance Navy and the Normandy to aid what was left of the Citadel Fleet. It is then up to Shepard to decide whether to have the reinforcements save the Council and the Destiny Ascension, or to let them die while they wait for the Ward arms to reopen. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Fleet",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "summary:priority-earth",
+      "kind": "summary",
+      "page": "Priority: Earth",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Earth was the final mission of Mass Effect 3 and the conclusion of Commander Shepard's trilogy. It was acquired after Priority: Cerberus Headquarters; from that point Sol was the only reachable system, and merely traveling there triggered the mission with no way to back out. Allied fleets assaulted the Reapers above Earth while Hammer, the ground force, tried to land troops near the Citadel transport beam.\n\nThe mission had two main stages. First, Shepard's shuttle landed to knock out a Reaper anti-aircraft \"Hades Cannon\" so Hammer could land; the team fought through streets and a ruined house full of Cannibals, Marauders, and Brutes to a crashed assault team, recovered two M-920 Cain shots to destroy the cannon, held off a Banshee (named \"Morinth\" if that character survived Mass Effect 2) and endless Cannibals, and were extracted, reuniting with Anderson and meeting Major Coats. At the Forward Operating Base, Shepard held final conversations with surviving squadmates, allies, and leaders (Victus, Wrex or Wreav, Kirrahe, and others depending on prior choices) before Anderson gave the battle plan: a frontal armored assault on the conduit past a Reaper Destroyer.\n\nThe second stage advanced through occupied London to a missile battery, where Thanix missiles were coordinated with EDI on the Normandy to destroy the Destroyer while the team fought Brutes, Banshees, and a Harvester and dodged the Reaper's beam. Anderson then arrived by APC for the final push, but Harbinger descended on the conduit and annihilated the ground forces. In the Extended Cut, squadmates survived or died based on Effective Military Strength (below 4200 EMS in Legendary Edition they died). A wounded, solitary Shepard fought through Husks and a Marauder with an infinite-clip pistol to reach the beam.\n\nOn the reconfigured Citadel, Shepard reunited by comm with Anderson and found him held hostage by a transformed Illusive Man, who could now control both of them. The confrontation's outcome hinged on the final choice, with full Paragon/Renegade options requiring Paragon/Renegade choices at every prior meeting with the Illusive Man. Paragon made him realize he was indoctrinated and shoot himself; Renegade interrupts let Shepard kill him. Shepard then opened the Citadel arms to let the Crucible dock. The Catalyst appeared and offered Destruction, Control, or Synthesis (Refusal was also possible), with availability and galactic damage set by EMS. Every activated ending crippled the Normandy, and its crew's survival, the epilogue scenes, and the placing of Shepard's name plaque above Anderson's on the memorial wall all depended on EMS and prior choices. After the credits a Stargazer told a child tales of \"the Shepard.\"",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Earth",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "summary:relay-monument",
+      "kind": "summary",
+      "page": "Relay Monument",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Relay Monument was a scale representation of a mass relay standing as a statue on the Citadel Presidium. It was believed to be a piece of Prothean art and had been in place since before the asari arrived on the station. According to the VI Avina, it was a popular topic among Citadel academics, with two competing theories about its meaning: that it was an expression of Prothean vanity proclaiming their galaxy-wide mastery of mass effect technology, or that it was a symbol of unity acknowledging that the relays would eventually bring other races to the Citadel. Commander Shepard's squadmates each offered their own opinions if spoken to nearby.\n\nIn fact the Monument was not a statue but an actual small-scale, inactive mass relay. Its partner relay, the Conduit, lay on Ilos. Together they formed a \"back door\" onto the Citadel, built by hidden Prothean scientists who survived their race's annihilation, allowing passage that bypassed the signal the Reapers used to control the Citadel, in the hope of breaking the cycle for later races. Saren Arterius intended to use the Conduit to bypass the Citadel's defenses and hand control of the station to Sovereign. Shepard drove the Mako through the Conduit in pursuit of Saren and emerged through the Relay Monument on the Presidium, crushing several geth on landing. As the Conduit was already closing during the transit, the Relay Monument was likely inactive again afterward.\n\nTwo years later, during Mass Effect 2, the Monument remained on the Presidium and was by then referred to as the Conduit by the Presidium Groundskeeper.",
+      "url": "https://masseffect.fandom.com/wiki/Relay_Monument",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "storyline-iii_032",
+      "kind": "page",
+      "page": "Storyline III",
+      "section": "The Battle for Earth",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Shepard alerts Hackett and Anderson to their discovery of the Catalyst's identity and location. With no alternative, Hackett and Shepard order the forces they have gathered to the Sol system with the intention of taking Earth back from the Reapers. Hackett and Anderson brief Shepard on the three\\-fold plan of battle: 'Sword' Fleet will engage the Reapers in space, while 'Hammer' ground forces will land in London. When Shepard queries why London is their landing zone, Anderson explains that the Reapers have established a teleportation beam between the city and the Citadel to transport dead and living humans to the station, presumably to be harvested. The plan is for Hammer ground forces to fight their way through the city to the beam, and get as many people as possible on board the Citadel and find a way to open the station's arms. Once this is done, Hackett will signal 'Shield' Fleet, which will remain outside the Sol system protecting the Crucible, to pass through the Charon relay and clear a path for the Crucible to dock with the Citadel. All forces deploy for the Sol System and a brutal space battle ensues between the fleets Shepard has gathered and the Reapers in orbit around Earth. The Normandy breaks off from the battle and descends to the planet. Shepard and several other squads have been ordered to take out Reaper Destroyers planet\\-side, fitted with anti\\-aircraft Hades Cannons that threaten Hammer's landing. After eliminating the destroyers, Shepard and their squad are extracted by Anderson and local resistance forces, who convey them back to their forward base. At the same time, Hammer troops begin landing en masse in preparation for the assault on the Citadel beam. When the bulk of surviving Hammer forces have landed and deployed, Anderson briefs Shepard and the other team leaders that they must fight their way through the city to the beam, though they will need to take out another Reaper Destroyer blocking their path en route. Using Thanix missile batteries and EDI's help to overcome interference in the guidance systems from the Citadel beam, the Destroyer is brought down, but by that time, Hammer's forces have suffered heavy casualties, Reaper forces are gaining ground and to make matters worse, Hackett warns that several Sovereign\\-class Reapers, including Harbinger, have broken away from the space battle and are descending to Earth. By the time the remnants of Hammer reach the Citadel beam's immediate vicinity, Harbinger has already deployed to protect it. Hammer attacks, but Harbinger annihilates them; countless soldiers are killed and Shepard's squad is severely injured (possibly killed, depending on how prepared the galaxy's forces are). With its stealth technology, the Normandy is able to move in and carry Shepard's squad to safety, if they're still alive, without Harbinger noticing. Almost immediately after the ship's departure however the Commander is hit by Harbinger and critically injured. Believing itself victorious, Harbinger retreats back to the space battle, not noticing Shepard managing to get back to their feet and stagger into the beam. Upon arriving aboard the Citadel, Shepard is contacted by Anderson, who followed them up but was somehow separated. The two find themselves dumped in similar\\-looking tunnels; keepers prowl about and there are human corpses dumped everywhere. Staggering to what looks like a control room, Shepard and Anderson are ambushed by the Illusive Man, the skin of his face and neck rotted and riddled with Reaper tech. These \"upgrades\" allow him to take control of their motor functions, even forcing Shepard to shoot Anderson. The Illusive Man again asserts the necessity of controlling the Reapers and that the Crucible will grant him that power, but it is clear to Shepard and Anderson that he is deeply indoctrinated. Shepard can try to convince the Illusive Man, like Saren before him, to fight his indoctrination, prompting the Illusive Man to commit suicide to escape the Reapers' control; otherwise the Commander is able to briefly shake off the Illusive Man's influence and shoot him. In this case, the Illusive Man turns to the view of Earth and with his dying breath laments that Shepard could not see humanity and Earth the way he sees them: perfect. With the Illusive Man dealt with, Shepard opens the arms of the Citadel and Hackett orders Shield Fleet, along with the Crucible to move in. The Crucible successfully docks with the Citadel, but nothing happens. At this point, Shepard and Anderson, if he is still alive, sit together and look at the vast blue planet beyond. Anderson tells Shepard that he is proud of them and it has been an honor to fight at his protegé's side. After this final conversation, Anderson dies from his injuries and Shepard passes out from blood loss.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_III",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "citadel-aria-t-loak_003",
+      "kind": "page",
+      "page": "Citadel: Aria T'Loak",
+      "section": "Walkthrough",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Travel to the Citadel and select Dock 42 when docking. You will meet with Bray, one of Aria's batarian guards, then board a skycar with Aria and discuss her plan to retake Omega from Cerberus. Aria takes you on a skycar joyride around the Presidium for privacy reasons due to the sensitive nature of the upcoming operation. She has assembled a fleet to punch through the Cerberus ships guarding Omega, although the real war will be fought on foot through the station. She introduces you to the leader of the occupation, Oleg Petrovsky. If you ask for details, she doesn't have much intel on the enemy boots on the ground, but she does know secrets on Omega that you can exploit once you're there. Respond how you will, there are no morality points given for this mission. She promises to give you the troops and supplies you need to win the Reaper war in exchange for your help in retaking Omega, the only caveat being that she wants you solo, without any of your present squadmates backing you up. Just you and Aria fighting through the streets of Omega, while her troops engage the bulk of enemy forces elsewhere. Afterward, the skycar returns to one of the docking bays to drop you and Bray off. Aria leaves the coordinates of her fleet to Bray for when you're ready to join her war to reconquer the station. She also advises discretion: not a word of this to anyone while you're on the Citadel. Shepard will be automatically returned to the Normandy SR\\-2 at the conclusion of this mission.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Aria_T'Loak",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "summary:conduit",
+      "kind": "summary",
+      "page": "Conduit",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Conduit was a device sought by Saren Arterius and Matriarch Benezia during Mass Effect, believed by them to be the key to bringing back the Reapers. Commander Shepard first learned of it from audio files Tali retrieved from one of Saren's geth. Captain David Anderson assumed it was a weapon, while Liara T'Soni, a Prothean expert, knew only fragments suggesting it was linked to the Prothean extinction.\n\nIts true nature was revealed by Vigil, a damaged virtual intelligence on Ilos. The Conduit was a miniature mass relay built by Prothean researchers on Ilos as a prototype during their experiments with relay technology. It functioned as a one-way \"back door\" onto the Citadel, independent of and unconnected to the rest of the relay network. Its receiving end on the Citadel had been mistaken for a piece of Prothean art, the Relay Monument, and was never removed by the Council; Garrus noted the keepers ignored the statue, and Kaidan reported a low humming from it. The surviving Prothean scientists used the Conduit to reach the Citadel after the Reapers had left, and altered the signal the keepers received from Sovereign that would have opened the Citadel relay to dark space. Because the corridor was one-directional, the researchers were trapped on the station and, as Vigil suggested, left to starve.\n\nPursuing Saren back to the Citadel, Shepard's team drove the Mako straight into the Conduit seconds before it shut down, dodging the Geth Colossi guarding it, and arrived on the Citadel to launch a counterattack. Living matter could not survive the trip on foot, requiring an enclosed vehicle. Technically the Conduit comprised both the Ilos prototype relay and the Relay Monument, forming the sending and receiving ends of one system. By 2185, in Mass Effect 2, the public had learned some details of the Conduit, and a Presidium Groundskeeper referred to it while recommending Shepard view nearby demael flowers.",
+      "url": "https://masseffect.fandom.com/wiki/Conduit",
+      "for_key": "the plan to retake Earth through the London conduit, already briefed and ready to launch"
+    },
+    {
+      "chunk_id": "n7-wrecked-merchant-freighter_005",
+      "kind": "page",
+      "page": "N7: Wrecked Merchant Freighter",
+      "section": "Walkthrough",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Tip:** It can be helpful to equip the Stimulator Conduits leg armor for this mission to help you sprint to cover or the shuttle more quickly. Pick either path to go along, it really doesn’t make that much of a difference. The YMIR Mech that was listed in the Shipping Manifest will also show up, about the time you've committed yourself to one or the other path. However its LOKI friends will make it difficult to focus on the YMIR entirely. The best thing is to have one of your squadmates, or yourself, focus on the YMIR exclusively, and have the other two focus on the LOKI mechs. Also use Unity every time a squadmates falls, as you can be overwhelmed very quickly. **Note:**  It is possible here to reduce the intensity of the fight greatly by starting down one side first, then when the YMIR shows up, double back and take the other path instead. Occasionally, you can slip by with this method without having to fight past the YMIR at all. Once the YMIR is down, keep moving towards the shuttle taking cover where you need to, destroying more LOKI Mechs, then moving again. Once you are close enough, make a beeline for the shuttle. The assignment ends within seconds of your pressing the button on the side of the shuttle, so you can dash the last few yards under fire if necessary. **Combat Strategy:** There is a way to get the YMIR mech focused on Shepard when it is time to take it out by the Destroy Every Mech method and not get cut to ribbons. As you are moving up, and the waves of LOKI mechs keep spawning further back, take the right path. About half way along the right path on the right side of the path there is dirt path that goes sharply up into a small rock enclosed area. A sharp rock boulder / spike will be on your left at the top of the enclosed area as you look down at the shuttle / YMIR mech area. You may encounter a few LOKI mechs walking from the shuttle area but the YMIR mech will come alive and start towards Shepard. Place your squadmates into cover/kneeling in the back corner of the rock enclosed area. If you place Shepard behind the sharp rock boulder and peek out to the right, the YMIR mech will try to walk against the hill side and shoot at Shepard behind the sharp rock boulder but the bullets and rockets will only hit the sharp rock boulder and not Shepard. You can then lean out / throw powers around the boulder to safely chip away at the YMIR mech without it being able to get to you. If you haven't killed all of the 180 LOKI mechs yet required for the Destroy Every Mech method, take care after you kill the YMIR mech as the LOKI mechs will still spawn until you reach the magic 181 mechs killed and the mission ends.",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Wrecked_Merchant_Freighter",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "cat6_001",
+      "kind": "page",
+      "page": "CAT6",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**CAT6** is a private military corporation that takes its name from \"Category 6\", the term used for soldiers who are dishonorably discharged from the Systems Alliance. CAT6 members are known to have extensive criminal records and histories of steroid abuse. The mercenaries are known to name their squads after sharp objects. Examples include Rapier, Hatchet and Dagger squads, and an elite contingent among them is known as Razor squad. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/CAT6",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "jacob-taylor_007",
+      "kind": "page",
+      "page": "Jacob Taylor",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“The man who did this doesn't know right from wrong.” *See also: Jacob: The Gift of Greatness* When Shepard talks to Jacob after Horizon, he tells Shepard he has received a disturbing message through Cerberus channels. His father, Ronald Taylor, went missing ten years ago along with the starship he was serving on, the MSV Hugo Gernsback. But now a distress signal from the Hugo Gernsback has been detected from a planet in the Alpha Draconis system. Jacob is, not surprisingly, eager to investigate and discover if his father is still alive.",
+      "url": "https://masseffect.fandom.com/wiki/Jacob_Taylor",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "nax_002",
+      "kind": "page",
+      "page": "Nax",
+      "section": "Trivia",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Nax counting to five before attacking is likely a reference to Calo Nord from Star Wars: Knights of the Old Republic. - In Mass Effect 2, during Kasumi: Stealing Memory, there is a Vidscreen in the security room that shows Nax firing his assault rifle in his first cutscene.",
+      "url": "https://masseffect.fandom.com/wiki/Nax",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "n7-cerberus-lab_005",
+      "kind": "page",
+      "page": "N7: Cerberus Lab",
+      "section": "Second Artifact",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Go back into the base to locate the next artifact: there will now be more Cerberus troops, this time with turrets. You'll find the second artifact on the lowest level. Once you locate it, be careful as you deactivate its containment because two Cerberus troopers will drop in right near you during the process. Remember to pick up the artifact itself once you've dealt with the new arrivals. Shepard will now radio Cortez who turns out to have been driven away from the landing pad by Cerberus fire.",
+      "url": "https://masseffect.fandom.com/wiki/N7:_Cerberus_Lab",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-1-mass-effect-1_002",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 1) — Mass Effect 1",
+      "section": "Introduction",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Tali is introduced when Shepard learns she holds information that would incriminate Saren for the attack on Eden Prime. To get that evidence to the right people she is willing to risk her life in a face-to-face deal with the Shadow Broker — a testament to her ingrained independence (quarian society pushes the young to be self-reliant on the Pilgrimage) and her selfless nature. Unlike Liara, Tali joins Shepard with very little personal baggage. She is portrayed as a capable, good person who can handle herself in a fight — a paragon who was in over her head at first, but who keeps \"a hand on her holstered six-shooter in case things go bad.\" (The essayist frames her as the kind of player who runs the trilogy as a Paragon who still has the emotional intelligence to, e.g., stab Kai Leng in Mass Effect 3.)",
+      "url": "",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "mass-effect-2_017",
+      "kind": "page",
+      "page": "Mass Effect 2",
+      "section": "Combat",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*Main article: Combat (Mass Effect 2\\)* Mass Effect 2 features a significant number of changes and additions to weapons and abilities. There are now six weapon classes: - Heavy Pistols - Submachine Guns - Shotguns - Assault Rifles - Sniper Rifles - Heavy Weapons Changes to core gameplay mechanics include: - An ammunition system based on \"thermal clips\". Instead of cooling down automatically, weapons dissipate heat into thermal clips. Thermal clips have a finite capacity and guns are reloaded by ejecting the clip and inserting a new one. Replacement thermal clips are found lying around, or dropped by defeated enemies. All small arms utilize the same type of thermal clip. - Weapons skills from the first Mass Effect have been removed; Shepard can use only weapons specific to the Commander's class at the beginning of the game. An additional weapon skill can be picked up during the Collector Ship mission. Soldiers, Infiltrators, and Vanguards can choose an upgraded weapon of a type they can already use instead of learning a new weapon type. - Heavy Weapons, which require power cells to be fired and can be fired to devastating effect. - Targeting of individual body parts. Headshots inflict additional damage, while enemies who are shot in the leg may be crippled and drop to the ground. - Cover is now entered manually, instead of automatically as it was in the first Mass Effect. This allows for a smoother transition from cover to cover than in Mass Effect. If the cover is waist\\-high, characters can also choose to leap over it. - Weapons fired while Shepard is in cover are more accurate, with the exception of shotguns and heavy weapons. This replaces the crouching accuracy bonus from the first game, which Shepard can no longer do out of cover. - Storming, or sprinting, is still possible as in Mass Effect but it is considerably slower, there is no visible fatigue meter, and camera movement is greatly restricted while sprinting, making it difficult to turn left or right except through use of the left/right movement keys (**Legendary Edition:**  changing directions using the camera while storming is much easier as the camera is less restricted). - Shepard can storm both in and out of combat, though it is slightly faster during combat. - While storming Shepard is unable to take almost any other action, though orders can still be issued to the squad. - Storming and taking cover are both bound to the same key/button by default; running into valid cover will cause Shepard to automatically take cover. The automatic cover\\-taking behavior occurs even if storm is bound to a different key/button than the take cover/use command such as by using PC Tweaks, though doing this still helps prevent some unintended cover\\-taking. - A modified health system. Medi\\-gel is no longer used in the same way. Shepard and squadmates now automatically regenerate depleted health and shields if they avoid being hit by enemy fire for several seconds. Medi\\-gel is used by the Unity power to revive fallen squadmates during a firefight. - On consoles, it is now possible to map powers to the shoulder buttons: LB and RB for Xbox, and L2 and R2 for PlayStation. The Y (Xbox) or Triangle (PlayStation) button is exclusively mapped to the special class power. This allows the player to utilize up to three powers without pausing and bringing up the power wheel. - Grenades have been removed, at least as they worked in Mass Effect, although some grenade\\-like powers as well as some grenade\\-using opponents are re\\-introduced with DLC.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "grunt-rite-of-passage_006",
+      "kind": "page",
+      "page": "Grunt: Rite of Passage",
+      "section": "Wave One",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Varren \\- The first wave summons multitudes of varren and they all descend upon Shepard, Grunt and the third party member. Since they can only attack at melee distance, they should all be dispatched at range. They come from two sides of the map at the opposite corners from the switch, so you need to stay sharp and not leave your back unguarded. **Combat Tip:** Get the armor stripped off each varren as quickly as possible so that you can then use powers to slow down their approach. Be careful with Shepard's powers however: Varren are quite fast, fast enough to outrun powers with slower moving projectiles such as most biotics or Incinerate. Time and aim powers carefully to avoid getting juked, or use a power with an instant effect such as Neural Shock or very large area of effect such as Shockwave to compensate. This isn't an issue with squad powers as those are instant. **Note:** It is possible to face the varren all from one side if Shepard quickly makes it to the middle of the center set of stairs (it's really a bit to the right of center). The varren will all come up at Shepard up from the bottom of these stairs as it is the quickest route to Shepard and the team. Once all the enemies are down, Grunt will begin reminding you to hit the keystone. Before you do that, walk around and refill all your ammo.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "scene:citadel-dock-422-shepard-takes-command#01",
+      "kind": "scene",
+      "page": "Shepard Given Command of the Normandy at Dock 422",
+      "section": "ceremony",
+      "game": "Mass Effect",
+      "scene_id": "citadel-dock-422-shepard-takes-command",
+      "text": "Shepard Given Command of the Normandy at Dock 422. 2183, Citadel, after Shepard is named a Spectre and Saren is exposed Dock 422, Citadel, beside the SSV Normandy Reporting to Dock 422 after being made a Spectre, Shepard is met by Ambassador Udina, who announces that Anderson is stepping down as commanding officer of the SSV Normandy and that the ship is now Shepard's to command. Udina passes on the Council's tasking: reports of geth interest in the corporate research colony of Noveria, and a need to know why.",
+      "url": "",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#06",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Admiral Zaal'Koris vas Qwib-Qwib, the Board's outspoken geth sympathiser, objects to Shepard defending Tali at all — \"a human has no business in such sensitive military matters\" — and Shala'Raan overrules him, since Koris himself declared Tali crew of the Normandy SR-2. If Legion is present he objects instead that the geth should be removed from the courtroom, accusing Tali of trying to intimidate the admirals, and withdraws when reminded the Rayya's captain permitted Legion aboard. Later, quick to assume Shepard and Tali died retaking the Alarei, he moves to have Tali posthumously exiled, drawing sharp objections from Raan and Gerrel. Afterward Shepard can privately endorse or condemn his ideals.",
+      "url": "",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#02",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds The Urdnot leader explains Grunt is not sick, only of the age to take the Rite of Passage, and sends the party to the clan Shaman. Gatatog Uvenk, a traditionalist from the Urdnot border camp, protests loudly that Grunt is tank-bred and has no right to the Rite, going over the leader's head to appeal directly to the Shaman, who is plainly irritated by him. Shepard makes Uvenk back down — either humbling him with words or answering his insults with a headbutt — by agreeing before the Shaman to serve as Grunt's krantt. Uvenk withdraws his objection but warns he will settle the matter elsewhere.",
+      "url": "",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-brood-alliance#14",
+      "kind": "scene",
+      "page": "Brood and the War Debt Repaid",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-brood-alliance",
+      "text": "Brood and the War Debt Repaid. 2185, during the Collector attack on Fehl Prime the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel The Praetorian slashes at Vega with one of its sharp legs; Nicky shoves Vega clear and takes the blow in the gut himself, mortally wounded. After Essex destroys the creature, Nicky lies dying. He is overjoyed to see Essex alive and tells Vega to save the colonists, then breathes his last.",
+      "url": "",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "summary:cat6",
+      "kind": "summary",
+      "page": "CAT6",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "CAT6 was a private military corporation whose name came from \"Category 6\", the term for soldiers dishonorably discharged from the Systems Alliance. Its mercenaries were known for extensive criminal records and histories of steroid abuse, and they named their squads after sharp objects, such as Rapier, Hatchet and Dagger squads, with an elite contingent called Razor squad.\n\nIn 2186, during the events of the Mass Effect 3 Citadel DLC, CAT6 was hired by a Mysterious Figure to assassinate Commander Shepard. They first ambushed Shepard and Joker at Ryuusei's Sushi Bar on the Silversun Strip, then helped the Figure break into the Citadel archives. The Mysterious Figure was revealed to be a clone of Shepard, who hijacked the Normandy SR-2 with an army of CAT6 troops and ordered the mercenaries to \"slow down\" the original Shepard after Shepard's boarding party sneaked aboard; one merc was overheard questioning whether they were even allowed to kill Shepard, and another noted the clone treated them as cannon fodder. In the final confrontation in the Normandy's cargo hold, every surviving mercenary tried to support the clone. None of the CAT6 members who fought Shepard survived except the one piloting the Normandy, who was subdued by security drones directed by EDI.\n\nCAT6 forces fielded Atlas mechs, CAT6 Heavies, CAT6 Snipers, CAT6 Specialists and Disruption Drones. Despite being introduced in the same DLC as the Armax Arsenal Arena, CAT6 were among the only enemy types that could not be fought in the combat simulator.",
+      "url": "https://masseffect.fandom.com/wiki/CAT6",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "summary:mail-mass-effect-datapad",
+      "kind": "summary",
+      "page": "Mail (Mass Effect: Datapad)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page collected the brief in-character messages Commander Shepard received in Mass Effect 3 if the player also ran the iOS companion app Mass Effect 3: Datapad linked to the same Origin account. The messages came from squadmates and allies and varied by conversations held, decisions made, mission outcomes, crew recruited, and who was alive in the playthrough. They were grouped by sender. The content is short one-line notes reflecting game state; representative examples:\n\nEDI: \"Shepard, when you have time, I have another question for you. Actually, I have 1,623,058, but I'm pacing myself.\"\n\nJavik: \"I will help you, but evolve faster. Typing messages like this is an insult.\"\n\nJoker: \"YOU ARE THE BEST COMMANDER EVER ALSO I AM A LITTLE DRUNK RIGHT NOW\"\n\nTali (drunk on shore leave): \"hey Shepard im in teh lounge havinga drink, wanna hwlp?\"\n\nWrex, on the genophage cure procedure: \"Damn. This BETTER cure the genophage. The salarian's 'procedure' hurts like hell.\"\n\nWrex, if Shepard sabotaged the genophage cure: \"I know what you did.\"\n\nAnderson, from Earth: \"Losing comms. It's hell down here, Shepard. Get us some help. Will be in touch--when I can.\"\n\nZaeed: \"No way we're all getting out of this war alive. Be fun to try, though.\"\n\nGeth Primes: \"Our cognition is vastly improved. We thank you, Shepard-Commander. The geth will reciprocate this trust.\"\n\nA recurring pre-final-mission line sent by several characters: \"Doubt any of us will be getting much sleep anytime soon. But I believe in you.\"",
+      "url": "https://masseffect.fandom.com/wiki/Mail_(Mass_Effect:_Datapad)",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "summary:grunt-unique-dialogue",
+      "kind": "summary",
+      "page": "Grunt/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects the squad-specific lines Grunt speaks in Mass Effect 2 when brought along on missions, in ambient \"talk to squadmate\" spots, and as spontaneous combat or exploration barks. Recurring themes are his eagerness for violence, contempt for caution and diplomacy, frequent requests for food at scenes of carnage, and reverence for Shepard as a leader who fights \"big things.\"\n\nRepresentative lines:\n\n- Grunt, at the Citadel security checkpoint on Shepard's first visit: \"What is this crap?\"\n- Grunt, on Omega after Shepard is poisoned by Forvan: \"Get up. You're not dead.\"\n- Grunt, replying to the Blood Pack leader Garm at Archangel's base about why he follows Shepard: Shepard \"does all of this and more.\"\n- Grunt, on Haestrom during Tali's recruitment when told the sun will overload their shields: \"So we'll fight in the shade... but no hiding!\"\n- Grunt, right before the Geth Colossus fight on Haestrom: \"This is why I follow you Shepard, big things!\"\n- Grunt, if chosen to lead the second diversion squad on the Suicide Mission, his final words: \"Too many. Gave them hell but...shields dropped. Good fight, Shepard. Good fight.\"\n- Grunt, holding the door on the second team during the Collector Base finale: \"Shepard! You're missing it! It's goddamn glorious! I'll climb out on their bodies!\"\n- Grunt, approving if Shepard destroys the Collector base: \"We fought a great battle, Shepard. And when you blew up the base instead of handing it to Cerberus -- hah!\" and \"if you killed the most dangerous thing in the galaxy, that leaves... us.\"\n- Grunt, chasing Jack during her recruitment: \"Jack is small, this will be funny.\" and \"She's blowing everything up. I like her!\"\n- Grunt, using his charge attack in combat: \"I AM KROGAN!\" / \"Burn and die!\" / \"Should've run, now you'll fry!\"\n\nHe also mocks the justicar Code as \"Asari are stupid. Your code just means you kill her tomorrow instead of today,\" calls asari intimacy \"pointless,\" asks if anyone is hungry aboard the derelict Reaper and on Omega, and tells Shepard the geth \"doesn't need its help\" when Legion appears.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt/Unique_dialogue",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "summary:jacob-taylor-unique-dialogue",
+      "kind": "summary",
+      "page": "Jacob Taylor/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A catalogue of dialogue unique to Jacob when he is in Shepard's squad in Mass Effect 2 (with some Mass Effect 3 lines), organized into location-triggered lines, \"talk to squad mate\" conversations, and spontaneous combat and ambient barks. A recurring thread is Jacob defending Cerberus and the Illusive Man, especially during Jack's loyalty mission, where he insists the Teltin facility \"went rogue.\" Representative verbatim lines:\n\n- Jacob, on the Collector Ship entering the massive pod chamber: \"Earth... they're going after Earth.\"\n- Jacob, on the Collector Ship when the Illusive Man's foreknowledge is revealed: \"It doesn't make sense for Cerberus to sell us out. It just doesn't.\"\n- Jacob, during Jack's loyalty mission on the container logs: \"This is... unbelievable.\"\n- Jacob, dying if he leads the second diversion squad in the Suicide Mission without secured loyalty: \"There were too many, but I got them through. You guys finish up for me, all right?\"\n- Jacob, if Shepard destroys the Collector Base and he survives: it was a \"hell of a way to tell the boss you're quitting,\" adding he wished he could have seen the Illusive Man's face.\n- Jacob, using Pull: \"Get over here!\" (a nod to Scorpion from Mortal Kombat), also \"Gravity is one mean mother, huh?\"\n- Jacob, using Barrier: \"Throwing up a barrier!\" / \"Nothing can hurt me now!\"\n- Jacob, caught in friendly fire: \"Get me out of your god-damn sights!\"\n- Jacob, hearing Jedore's canned PA orders on Korlus: \"Who does that?\"\n- Jacob, on Jack's recruitment mission seeing a prisoner beaten: \"Commander, you seein' this shit?\"\n- Jacob, if a female Shepard dumps him for Garrus: he calls the turian a \"Cuttlebone.\"\n\nOther tagged lines: confronting Ish on Omega about a past ambush and warning Shepard against helping him; on Horizon, dismissing Ashley/Kaidan's accusation as \"typical Alliance attitude\"; and, if brought to the Shadow Broker's base, the Broker notes his and Shepard's deaths would cripple Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jacob_Taylor/Unique_dialogue",
+      "for_key": "who is counting on Shepard to be sharp right now"
+    },
+    {
+      "chunk_id": "war-assets-alliance_010",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Jack's survival in the Suicide Mission and completing Grissom Academy: Emergency Evacuation. **Military Strength:** 25 Jack, formerly known as Subject Zero, may be the most talented biotic of her time. After helping Shepard destroy the Collectors, she was offered a teaching position at Grissom Academy by the Alliance. Accepting the position for reasons of her own, Jack continued to hone her skills while training her students. Grissom Board of Directors member Kahlee Sanders has vouched for Jack's energetic, if unorthodox, teaching style, impressed with the inroads made with the children under the rogue biotic's care.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "manual-jack-in-game-dialogue-and-banter_006",
+      "kind": "page",
+      "page": "Jack — In-Game Dialogue and Banter",
+      "section": "Grissom Academy and the student squad (Mass Effect 3)",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Shepard finds Jack leading a squad of biotic students at Grissom Academy during the Reaper War. She had \"some free time\" after Mass Effect 2; the Alliance brass knew she had helped Shepard and offered her the teaching post, and the students \"responded well to her teaching style.\" She calls herself \"The Psychotic Biotic.\" Her students include Rodriguez, whom she rides hard: \"I will destroy you.\" — \"You couldn't destroy wet tissue paper. Drink your juice, Rodriguez.\" Getting the students out alive, Jack promises them tattoos — \"my treat\" — an Ascension Project logo, a glowing fist, \"maybe a unicorn for Rodriguez.\" Afterward there is an argument about how the students should be deployed. Jack and the students trained for barrier work to protect frontline squads; the Alliance wants to use them as another artillery unit. Shepard say they will be deployed as supports, as per Jack's recommendation to protect them. Once the students are formally military, the crew needle her: will she wear a uniform, or \"just get the officer bars tattooed on\"? Joker jokes about a swear jar — \"I bet if we empty that thing we can afford another cruiser\" — because Jack \"promised to watch her language to maintain the necessary professionalism.\" Jack tells Shepard that the \"little shits are useless without me, so I've got to stick with them — I'm dependable now, apparently. I blame you for this.\" She credits Shepard's \"little suicide squad\" with teaching her something about teamwork.",
+      "url": "",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#13",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy Back aboard the Normandy, Shepard decides how the students serve: as support folded into the Alliance 103rd Marine Division for barrier work and ammo modding (+50 war assets, Paragon), or as a frontline Biotic Company (+75 war assets, Renegade). The choice also fixes Jack's epilogue — shown back with her class, or mourning at their graves.",
+      "url": "",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_007",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Orion Hall",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "As you approach the door, Kahlee will tell you that she has just received an emergency message from the students in Orion Hall. Before entering, take out the generator to the right of the door, which will allow Kahlee to address the students over the PA. She will inform them that help is here, and will warn the students not to let Cerberus take them alive. Proceed through the second door at the end of the corridor to see the biotic students defending themselves against Assault Troopers. If a Mass Effect 2 save was imported and Jack survived the Suicide Mission, she will be with the students; otherwise, Ensign Jason Prangley will step up and take charge. An Atlas breaks into the room. The students retreat behind a biotic barrier; you must defeat the enemies before the barrier wears down. The Atlas is dangerous if you get in its line of fire, but it is slow and will not take any more interest in Shepard than in your squadmates. The Assault Troopers and Centurions in the middle of the room are fast and may drift dangerously around your flanks, though they often get distracted attacking the students. **Tip:** On higher difficulty levels, you may want to concentrate on lowering the population of troopers before taking on the Atlas, particularly because it can regenerate its shields if left alone for a time. At the beginning of the encounter, the troopers will be huddled together, so using a few Power Combos can make quick work of them. Sabotage can force the Atlas to assist you temporarily if you have it available. After the battle, Jack punches Shepard in the face. If a male Shepard had a relationship with Jack in Mass Effect 2, the punch is followed up with a kiss, and the reason given for the punch is Shepard leaving her. Otherwise, the reason given is for previously trusting Cerberus. There will be opportunities for some unique interactions between Jack and several squad members, with an interesting variation if Garrus is present and also the love interest of a female Shepard. If Jack is not present, the students say that their CO was killed, leaving Prangley in charge. In addition, without the benefit of Jack as their teacher, a student, Ensign Rodriguez, will ask you if you ever forget the first time you kill someone, giving you extra Paragon or Renegade points. The students need a few minutes to rest and recharge after their ordeal fending off Cerberus. Cortez comes over the communications channel to say that the Cerberus cruiser is returning, and it's too dangerous for him to keep the shuttle docked for more than another two minutes. Shepard orders him to get back to the Normandy, then informs Kahlee, who comes up with an alternative way out of the facility. Relative to where you first entered the room, immediately turn left and find a data log (\\+20 XP) listing Prangley as a high\\-priority capture target, and the Cerberus camera control Kahlee tasks you with finding. On the opposite side of the room is a Med Kit. In the balcony room where the students are, you will find the Assault Rifle Precision Scope at the back of the room and a datapad (\\+1875 Credits) at the front. Use the door override controls in the middle of the back wall to open the door to the Atrium. **Tip:** If this is a first playthrough it may be a good time to check if you have leveled up. Head back downstairs. You can speak to Jack for some exposition if she is present. If asked, she will express her opinion that the students are likely better off as support units rather than on the front lines. Her dialog here can vary depending on if she was the biotic specialist during the Suicide Mission, and also depending on the fate of Mordin Solus if this is after Priority: Tuchanka. Save here because you won't get to save after you open the door. When ready, proceed to the door to the Atrium, located at the end of the corridor under the balcony room. The biotics suggest that they follow a different route to the squad, attacking Cerberus from above. Respond however you like, then get treated to the Cerberus announcer telling the students that the Alliance soldiers are going to get them killed and that they should just surrender. Again, respond how you wish; Jack's response here will vary depending on your dialog choice.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "summary:grissom-academy-emergency-evacuation",
+      "kind": "summary",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grissom Academy: Emergency Evacuation was a Mass Effect 3 mission acquired after Priority: Palaven, when Samantha Traynor and EDI determined that a turian rescue signal answering an Academy evac request was actually a Cerberus fake and the station was still in danger. Cerberus forces were attacking Grissom Academy in the Petra Nebula to kidnap its students, most of whom were producing Alliance tech or training as military biotics. The mission had to be completed before Priority: The Citadel II or it was permanently failed.\n\nWith too many Cerberus ships to fight, Joker created a diversion so Shepard's shuttle could enter a cargo hold opened by Kahlee Sanders, who went back with Anderson to his Spectre-candidate days. Shepard freed Sanders from the security office, then fought through corridors and rooms rescuing scattered students, including Reiley Bellarmine and his dying sister Seanne. In Orion Hall, biotic students held off Assault Troopers and an Atlas; if a Mass Effect 2 save was imported and Jack survived the Suicide Mission, Jack led them and punched Shepard in the face on arrival (followed by a kiss if they had romanced). Otherwise Ensign Jason Prangley took charge. The squad then fought heavy waves of Centurions, Guardians, Combat Engineers, and Atlas mechs through two halves of the Atrium and a docking area, aided by empty Atlas mechs and by tech students including Octavia, with David Archer vouching for Shepard if Overlord was completed on the Paragon route.\n\nDuring the final escape the wounded Rodriguez fell behind; whoever led the biotics smashed the glass to save her. If Jack led, everyone survived; if Prangley led, he was shot and killed. Afterward Shepard chose to assign the students as support (rolled into the Alliance 103rd Marine Division, +50 war assets, Paragon) or as a frontline Biotic Company (+75 war assets, Renegade), a choice that also set Jack's epilogue slide. Rewards included 25,000 credits, weapon mods, the Mnemonic Visor, and the Serrice Council Chestplate. If the mission expired, Jack was captured, turned into a Phantom, and had to be killed at Cerberus Headquarters, and Gavin Archer could commit suicide during Arrae: Ex-Cerberus Scientists.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "storyline-ii_017",
+      "kind": "page",
+      "page": "Storyline II",
+      "section": "Mass Effect: Foundation \\#7",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Dr. Angersol frantically comms for backup when the doors to his office are demolished by sheer biotic power. Jack steps inside and executes the doctor, a figure from her Subject Zero past. The Illusive Man appears before her via hologram, attempting to reason with her, but Jack would hear none of it. At a remote Cerberus outpost elsewhere, Kai Leng hooks in Rasa for a mission. A Cerberus training facility is under attack, and the Illusive Man dispatches them both to retrieve the perpetrator, Jack: dead or alive, through whatever means necessary. Leng and Rasa arrive at the training facility a short time later, finding huge swathes of destruction in Subject Zero's wake. The presence of multiple people out to get the target makes Rasa think about Jack's possible origins and the threat she poses. Leng simply suggests they should find her before the others \\- the Blue Suns mercenaries \\- do. With the facility in lockdown, Jack makes her way to its main reactor. She comes across a bald man claiming to be a biotic trainee of the facility. The man doesn't know where the reactor is, but he takes her to his fellow students when she orders him to. The man claims to have had a better life under Cerberus tutelage, but Jack's own experiences with the organization tells her otherwise. On finding the other students she gives them a chance to learn the truth behind Cerberus by escaping with her, or stay and keep hoping that Cerberus is as benevolent as it seems to be. A good number of the students follow Jack as they try to make it out of the facility. A trio of Blue Suns mercs block their way, so Jack orders the students to sneak across while she presents herself as a diversion. Rasa and Leng arrive behind Jack when she's done bringing down the ceiling on the mercs. Brandishing his sword, Leng gives her one chance to surrender. Jack responds by unleashing a powerful biotic blast on the Cerberus operatives. She warns Rasa to stay down, but Leng is actually coming down on her from above. She senses it and biotically blasts the assassin again, this time hurling him higher up. More Blue Suns arrive at the scene and open fire on Jack, forcing her to throw up a biotic shield. She sees the students she's with securely behind Blue Suns lines. Enraged at the turn of events she starts making everything in the vicinity fly. Unfortunately, a krogan merc sneaks up from behind and docks her at the head, knocking her unconscious. The merc picks her up and hauls her away, to the Cerberus agents' consternation. The Illusive Man can still have Subject Zero, but the krogan wants triple the usual pay for all the losses he has incurred. As Leng and the students recover from the turn of events he chalks up the post\\-mortem as a \"colossal waste of time\", but Rasa begs to differ: at the very least, the Illusive Man will now know what Jack is capable of.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_II",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "storyline_021",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Mass Effect: Foundation \\#4",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A young cadet by the name of Kaidan Alenko monologues about the Mars ruins and the Charon Relay discoveries, thinking that despite all the outward knowledge made available to humanity people still have much to discover about themselves. The year is 2168, and Kaidan is a student at Jump Zero undergoing the Biotic Acclimation and Temperance Training program. One day, one of his friends passes along a message that their peer Shelby has rigged up a transmitter for sending messages back to their families on Earth. BAaT students aren't allowed outside contact \\- regardless, Kaidan brings along his close friend Rahna with him to Shelby's place for the clandestine activity. The next day Kaidan and Rahna are on meal break lining up for drinks and discussing what happened the previous night. Their instructor Commander Vyrnnus appears at the mess hall and orders the cadets to proceed to the training room ASAP. Unwilling to cross a teacher with a brutal reputation, the students scramble to obey. In the training room the kids find a pile of building material and Shelby tied to a post, eliciting looks of horror from some of them. Vyrnnus proceeds to berate the students for treating their education as a joke and points to Shelby as an example. The turian asks around if anyone knows what the cadet is up to, and when no one stepped forward he unties Shelby to join his peers and begins explaining the purpose of the blocks. The students are to biotically assemble the blocks under pain of starting over if mistakes are made. The exercise goes on for several hours and students start dropping out of exhaustion. Rahna begins to falter, but Kaidan manages to save her piece from falling. Vyrnnus notices the gesture and begins to taunt Rahna with a glass of water, floating it within her reach. Rahna falls for the bait and the turian biotically breaks her arm, sending Kaidan into a biotic rage that knocks the Commander backwards. Vyrnnus gets back up and lunges at Kaidan in the opening moments of their biotic duel. Later, the turian draws his knife and slices Kaidan on his right side. In retaliation, Kaidan lets another powerful biotic blast loose and jumpkicks the Commander in the face while he's down, ending the fight. The rest of the students look on in horror at the turn of events, and when Kaidan tries to approach Rahna she rejects him, utterly terrified. During his departure from BAaT Kaidan pleads with his guards in vain for a minute to say goodbye to Rahna, though when she shows up, the guards allow him his moment. The minute quickly passes with Kaidan and Rahna's relationship nowhere near repaired, so when the guards press Kaidan his temper gets the better of him. Kaidan returns his attention to Rahna, only to find her waving a final goodbye and walking away. One month after the incident with Vyrnnus, Kaidan is back on Earth where his father points out to him that even right choices have consequences. Many years later Kai Leng visits Rasa in her quarters, checking in on the agent for missing her usual debrief. Rasa spent all night studying dossiers of Commander Shepard's crew and angrily vents how pointless it is learning about the various issues of the crew, insisting that Cerberus should focus their efforts on learning more about the Commander. Leng dares her to suggest her ideas to the Illusive Man, and departs reminding her not to miss the next debriefing. Glancing at Kaidan's profile, Rasa assures him she won't.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "mass-effect-foundation-4_004",
+      "kind": "page",
+      "page": "Mass Effect: Foundation 4",
+      "section": "Story",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "A young cadet by the name of Kaidan Alenko monologues about the Mars ruins and the Charon Relay discoveries, thinking that despite all the outward knowledge made available to humanity people still have much to discover about themselves. The year is 2168, and Kaidan is a student at Jump Zero undergoing the Biotic Acclimation and Temperance Training program. One day, one of his friends passes along a message that their peer Shelby has rigged up a transmitter for sending messages back to their families on Earth. BAaT students aren't allowed outside contact \\- regardless, Kaidan brings along his close friend Rahna with him to Shelby's place for the clandestine activity. The next day Kaidan and Rahna are on meal break lining up for drinks and discussing what happened the previous night. Their instructor Commander Vyrnnus appears at the mess hall and orders the cadets to proceed to the training room ASAP. Unwilling to cross a teacher with a brutal reputation, the students scramble to obey. In the training room the kids find a pile of building material and Shelby tied to a post, eliciting looks of horror from some of them. Vyrnnus proceeds to berate the students for treating their education as a joke and points to Shelby as an example. The turian asks around if anyone knows what the cadet is up to, and when no one stepped forward he unties Shelby to join his peers and begins explaining the purpose of the blocks. The students are to biotically assemble the blocks under pain of starting over if mistakes are made. The exercise goes on for several hours and students start dropping out of exhaustion. Rahna begins to falter, but Kaidan manages to save her piece from falling. Vyrnnus notices the gesture and begins to taunt Rahna with a glass of water, floating it within her reach. Rahna falls for the bait and the turian biotically breaks her arm, sending Kaidan into a biotic rage that knocks the Commander backwards. Vyrnnus gets back up and lunges at Kaidan in the opening moments of their biotic duel. Later, the turian draws his knife and slices Kaidan on his right side. In retaliation, Kaidan lets another powerful biotic blast loose and jumpkicks the Commander in the face while he's down, ending the fight. The rest of the students look on in horror at the turn of events, and when Kaidan tries to approach Rahna she rejects him, utterly terrified. During his departure from BAaT Kaidan pleads with his guards in vain for a minute to say goodbye to Rahna, though when she shows up, the guards allow him his moment. The minute quickly passes with Kaidan and Rahna's relationship nowhere near repaired, so when the guards press Kaidan his temper gets the better of him. Kaidan returns his attention to Rahna, only to find her waving a final goodbye and walking away. One month after the incident with Vyrnnus, Kaidan is back on Earth where his father points out to him that even right choices have consequences. Many years later Kai Leng visits Rasa in her quarters, checking in on the agent for missing her usual debrief. Rasa spent all night studying dossiers of Commander Shepard's crew and angrily vents how pointless it is learning about the various issues of the crew, insisting that Cerberus should focus their efforts on learning more about the Commander. Leng dares her to suggest her ideas to the Illusive Man, and departs reminding her not to miss the next debriefing. Glancing at Kaidan's profile, Rasa assures him she won't. ##",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect:_Foundation_4",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "jack_007",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I'm dependable now. I blame you for this, Shepard.” In 2186, provided she survived the Suicide Mission, Jack has altered her appearance, having grown out her hair into a pony tail, but retaining the shaven sides. She now sports a punky studded jacket over a white top that reveals her midriff and its numerous tattoos. She has become more mature, and states that some of Shepard's attitude rubbed off on her. Sometime after the Collectors' defeat, Jack was approached by the Systems Alliance and offered a teaching position at the Grissom Academy to train biotics for combat. She accepted and agreed to tone down her profanity to maintain the level of professionalism expected from teachers. Her students apparently responded well to her unconventional teaching style, mimicking her trash talk (\"I will destroy you!\") and sticking affectionate appellations like \"the psychotic biotic\". Jack herself grew attached to her charges in return, considering them the family she never had, and promises to exact retribution against anyone who screws with her kids. Jack is present on the station during Cerberus' attempt to kidnap gifted students for their cause, defending hers from being captured. Shepard finds Jack in the middle of shielding one of her students from incoming Atlas fire, and while Shepard's team takes care of the opposition Jack rallies to her kids on higher ground, helping project a biotic barrier and supporting biotic strikes. Jack's fist lands on Shepard's face the moment the smoke clears, the exact reason why depends on Shepard's previous actions. If a male Shepard romanced her, she hit him for leaving her, then immediately kisses him passionately afterwards. If Shepard expresses misgivings about previously working with Cerberus, Jack cites either handing over the Collector Base to them or the deaths they've caused as her reason. If Shepard merely reminds her how they saved her ass, Jack sarcastically asks if they want a medal. Whichever the case, Shepard's squadmates interject and Jack has some choice replies for some of them. After giving instructions to her students and admonishments to Jason Prangley, Jack relates to Shepard the things she's been up to over the past few months. If the conversation turns into improving the students' endurance and conditioning, Jack specifically recalls her time in the Suicide Mission either throwing husks around or being Shepard's biotic bubble specialist whenever the students complain, telling the kids she kept thinking that she should've let Mordin handle her job instead as he can \"talk \\[the Collectors] to death.\" If Mordin died, though, Jack feels bad, recalling the \"wicked sex advice\" he often gave. Once all the catch\\-up is over she stays put until Shepard paves the way for their exit route. One of her students, Ensign Rodriguez, wavers when Cerberus starts messaging the students, and Jack gives the student a dressing\\-down. Jack either gives Rodriguez her coarse affirmation of her student's abilities, or shoves the surgery scars inflicted during her Cerberus captivity into her scared student's view, angrily asserting that surrender is tantamount to being meat on a slab. The Ensign sets her head straight after this, and Jack leads the students in shadowing Shepard's team from higher ground while the squad clears out the bulk of Cerberus resistance. Privately, Jack believes her kids aren't yet ready for the realities of war, but Shepard can influence her into letting the students run loose for a while even if they're only fighting from relatively safe positions. Jack, Shepard and Kahlee Sanders eventually manage to help the students escape. Jack, in a good mood, wants to treat her kids to tattoos at the next place they dock. If a male Shepard chose to break with her earlier, Jack even mentions hanging on to the N7 tattoo on her ass she previously planned to burn off. As they make their way back to the Normandy, Jack decides to break her self\\-censoring when Joker takes note of the fact and wisecracks that if Jack had a swear jar the cash inside would've been sufficient to buy a cruiser. After the rescue from Jon Grissom Academy, Jack can be found on the Citadel in Purgatory Bar after the attempted Cerberus coup reading duty rosters for her kids even while on shore leave. Shepard can either tell her to keep at it, or convince her to lighten up a bit, which colors Jack's responses throughout the conversation. If Shepard thinks Jack fits in snugly to military life, Jack says that their little suicide squad apparently taught her something about teamwork. If the students had been sent to the front lines, Jack mentions her kids are being sent into hot spots for hit\\-and\\-runs and she's making sure the higher\\-ups won't give them something way out of their league.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#04",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Over repeated visits Jack gives up pieces of her past. The tattoos are a record — prisons she has been in, memorable kills, personal reasons, some \"just because.\" The shaved head is from the cult she ran with. She wears little clothing on purpose, to read what people really want from her.",
+      "url": "",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "jon-grissom-academy_008",
+      "kind": "page",
+      "page": "Jon Grissom Academy",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2186 during the Reaper invasion, though war would close most schools, fewer than twenty teachers and students stayed at Grissom Academy to train biotics and prototype technology for the Alliance. Unfortunately, the Academy is attacked by Cerberus forces seeking to capture the students. The attack goes unnoticed because Cerberus uses a turian military signal to broadcast that the station is being evacuated by turian ships. Specialist Traynor and EDI connect the signal to a similar one known to have been used by the Illusive Man to lure Commander Shepard to a Collector Cruiser. If the Commander decides to travel there, upon arrival Jeff \"Joker\" Moreau uses the Normandy SR\\-2 to distract the Cerberus cruiser and fighters guarding the station while Shepard and the team board it. Shepard encounters Kahlee Sanders, who has barricaded herself in a security room, and goes on to rescue the station's remaining students. After the students are evacuated, Grissom Academy is abandoned. The Academy and nearby Elysium later fall to the Reapers. If Shepard decides against going to the academy, the Cerberus kidnapping operation succeeds and the victims are subverted into working for the organization, like Jack if she survived the suicide mission.",
+      "url": "https://masseffect.fandom.com/wiki/Jon_Grissom_Academy",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "summary:jack",
+      "kind": "summary",
+      "page": "Jack",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack, also known as Subject Zero and Jacqueline Nought (birth name Jennifer), was a notorious human criminal and possibly the most powerful human biotic alive. Born in 2161, she was abducted by Cerberus in 2165, reportedly from Eden Prime, after accidental in-utero element zero exposure gave her biotic potential; her mother was told she had died. She became the central subject of Cerberus' experiment at the Teltin facility on Pragia, which sought to maximize human biotic potential regardless of cost. Every successful enhancement was applied to her; other biotic children were used as expendable test subjects and frequently killed. She was tortured physically and psychologically, kept behind a soundproofed one-way mirror, and forced into gladiatorial fights against the other children, being shocked for hesitating and injected with narcotics for killing, conditioning her to associate killing with euphoria. The other children came to hate her as the source of their suffering.\n\nDuring a transfer, the subjects rioted, freeing Jack, who flew into a fury and killed nearly everyone in the facility before stealing a shuttle and escaping into the Dakka system. The ship that picked her up used her and sold her as a slave. The Illusive Man shut Teltin down shortly after, later claiming it had \"gone rogue.\" Jack took the name Jack, reacting violently to \"Subject Zero,\" and lived a violent life of piracy, gang membership, vandalism (crashing a space station into a hanar moon), and a stint in a cult (from which she kept her shaved head). In Mass Effect: Foundation she assaulted a Cerberus facility, killed Doctor Angersol, defied the Illusive Man, tried to free biotic student trainees, fought Kai Leng and Rasa, and was knocked out and captured by Blue Suns.\n\nJack was eventually imprisoned on the Blue Suns prison ship Purgatory, where she was assaulted and raped by guards and prisoners and then murdered every attacker; the Warden kept her in cryostasis until Shepard's team bought her freedom in 2185. Rendered a borderline psychopath but still haunted by her past, she joined Shepard in exchange for her Teltin files, then asked Shepard to help her destroy the abandoned facility with a bomb planted in her old cell (the mission Jack: Subject Zero). There the team encountered Aresh, a fellow test subject trying to restore Teltin; Shepard could stop Jack from killing him. If Miranda's loyalty mission was done, Shepard had to mediate a fight between Jack and Miranda over Cerberus' blame; siding with Miranda cost Jack's loyalty and ended any romance.\n\nJack was a romance option for a male Shepard. Casual sex ended communication; a slower approach revealed her past, including the partner Murtock who died to save her, leaving her survivor's guilt, and culminated in a tender, emotional love scene. Mordin Solus offered Shepard biotics safety advice. Rejecting her as a \"lost cause\" made her hostile.\n\nBy 2186 (if she survived the Suicide Mission), Jack had grown her hair into a ponytail with shaved sides, matured, and taken a teaching post at Grissom Academy training combat biotics, considering her students the family she never had. During Cerberus' raid to kidnap the students (Grissom Academy: Emergency Evacuation), Jack defended them alongside Shepard and Kahlee Sanders, punching Shepard on reunion for reasons depending on prior choices. She disciplined Ensign Rodriguez and Jason Prangley and led the students in support of Shepard's squad. If Shepard did not arrive in time, Jack appeared as an indoctrinated Phantom at Cronos Station and had to be killed. If romanced, she could rekindle or end the relationship at Purgatory Bar. In the final battle she could be contacted by comm; in a surviving-galaxy ending she is seen gazing at the stars, visiting her students' graves, or alive with her students, depending on choices. If killed, her name appears on the Normandy memorial wall as Jacqueline Nought. In the Citadel DLC she fights in the Armax Arena, introduces her biotic varren Eezo from Thessia, and can tattoo a romanced Shepard so his body can be identified. Jack was voiced by Courtenay Taylor and written primarily by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#05",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck The one person who never used her was Murtock, a man she loved and ran jobs with. After robbing a heavily guarded weapons frigate they were separated; Murtock came back for her instead of running with the score. Jack reached a shuttle and escaped; he was left behind. Days later the shuttle played his pre-recorded message about the future they were meant to have and how much he loved her. Jack denies it was her fault.",
+      "url": "",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "summary:richard-l-jenkins",
+      "kind": "summary",
+      "page": "Richard L. Jenkins",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Corporal Richard L. Jenkins was an Alliance Marine serving under Captain Anderson aboard the SSV Normandy. He was born in a rural district of Eden Prime and had dreamed of visiting more urban areas before enlisting, saying \"even paradise gets boring.\" He wanted to prove himself as a notable soldier and test himself in combat, envied Commander Shepard's record, and admired the Spectres, being especially impressed by Nihlus Kryik after hearing that Nihlus once defeated an entire platoon single-handed, though his views were shaped more by vids than experience.\n\nIn Mass Effect, Jenkins was assigned to Shepard's ground team for the mission to Eden Prime and was killed by geth drones shortly after landing. His death was a blow to the morale of the Normandy's crew, who remembered him for his bold exuberance. Two years later, in Mass Effect 2, Doctor Chakwas recalled him during a drinking session with Shepard, telling how Jenkins was thrown back by a biotic display from Kaidan and, after Chakwas feared he had broken his back, jumped up shouting \"That was awesome!\" Chakwas cited Jenkins as one of the reasons she considered the Alliance great compared to Cerberus.\n\nIn 2186, the Normandy SR-2 received a memorial wall bearing the names of fallen crew from both the SR-2 and the SR-1, and Jenkins' name was included. If Shepard revisited Eden Prime, the Commander and some squadmates might briefly recall him and how he died on his birth world. Cut content from Mass Effect included a mess-hall scene, closely mirroring Chakwas' later story, in which Jenkins insists on Kaidan demonstrating his biotics and is tossed a cup before leaving disheartened for the cargo bay.",
+      "url": "https://masseffect.fandom.com/wiki/Richard_L._Jenkins",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-and-adams-crew-quarters#02",
+      "kind": "scene",
+      "page": "Chakwas and Adams in the Crew Quarters",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-chakwas-and-adams-crew-quarters",
+      "text": "Chakwas and Adams in the Crew Quarters. 2186, during the war, while the med-bay is given over to Eve the crew quarters and med-bay of the Normandy SR-2 She comes to Huerta Memorial as soon as she hears about the injured squad member, and Shepard finds her in the lounge talking with Dr. Michel. Invited back aboard, she takes her old place in the med-bay and says it feels like home.",
+      "url": "",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "summary:jon-grissom-academy",
+      "kind": "summary",
+      "page": "Jon Grissom Academy",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Jon Grissom Academy was a Systems Alliance space station commissioned in 2176, in orbit over the human colony of Elysium in the Petra Nebula. Its stated mission was to serve human students with excellence and passion for math, science, and the liberal arts, with an entirely human student body ranging from early teens to mid-twenties. Its population was 8,620; the station was 1.1 km long and weighed 375,000 metric tons. Though not heavily advertised, it also offered classes for biotic students through its main program, the Ascension Project, which trained and monitored young biotics and helped them integrate into society after graduation. Unlike the earlier military program BAaT (Biotic Acclimation and Temperance Training), its training was not exclusively military. The Academy also employed scientific personnel, including Dr. Kahlee Sanders, to develop synthetic intelligence systems and biotic amplifiers such as the L4 implants.\n\nIn 2183 the Ascension Project was its most prominent program. In Mass Effect 2, Shepard could send David Archer to the Academy after his brother Dr. Gavin Archer used him in an experiment to control the geth. After Jon Grissom's death, a memorial plaque was erected in the mess hall; six months later, the Reaper-controlled Paul Grayson boarded the station seeking information on the Ascension Project, disabling or killing most of the personnel before David Anderson, Kahlee Sanders, and Kai Leng arrived and killed him.\n\nIn 2186 during the Reaper invasion, fewer than twenty teachers and students remained to train biotics and prototype technology for the Alliance. Cerberus attacked to capture the students, masking the assault by broadcasting a turian military signal claiming the station was being evacuated by turian ships; Traynor and EDI linked the signal to one the Illusive Man had used to lure Shepard to a Collector Cruiser. If Shepard traveled there, Joker used the Normandy SR-2 to distract the Cerberus cruiser while the team boarded, found Kahlee Sanders barricaded in a security room, and rescued the remaining students, who were evacuated before the Academy was abandoned. The Academy and Elysium later fell to the Reapers. If Shepard did not go, the kidnapping succeeded and the victims, including Jack if she survived the suicide mission, were subverted into working for Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Jon_Grissom_Academy",
+      "for_key": "Jack's students and the crew as reasons to come back"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-apartment-eezo#03",
+      "kind": "scene",
+      "page": "Jack Brings a Varren to the Apartment",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-apartment-eezo",
+      "text": "Jack Brings a Varren to the Apartment. 2186, Citadel shore leave, after the Arena meet-up Shepard's personal apartment, the Wards Shepard can point out how much Eezo's history sounds like Jack's. She says she has no idea what Shepard is talking about, and Shepard drops it.",
+      "url": "",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "war-assets-alliance_019",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Khalisah Bint Sinan al\\-Jilani",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Using Paragon interrupt while being interviewed by her during Priority: The Citadel I. **Military Strength:** 5 Westerlund News Reporter Khalisah Bint Sinan al\\-Jilani reached out recently to her viewers with a wartime plea for unity and cooperation among all galactic species. UPDATED (if she was never punched throughout whole saga) **Military Strength:** 5 Her sincerity touched extranet viewers and donations for war relief efforts are pouring in, both to the Alliance and its alien allies.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "manual-reaper-classes-and-sizes-part-1-origin-purpose-and-ground-forces_001",
+      "kind": "page",
+      "page": "Reaper Classes and Sizes (Part 1) — Origin, Purpose, and Ground Forces",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "**Summary:** Part 1 of a survey of Reaper types. Covers what the Reapers are, how the Leviathans' AI turned on its makers and built the first Reaper (Harbinger), the logic of the 50,000-year harvest, and the Reapers' ground forces and small constructs — husks, cannibals, marauders, brutes, ravagers, banshees, harvesters, the Oculus, and swarmers. Part 2 covers the space-capable constructs and the capital classes.",
+      "url": "",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_011",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Jack",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "These images are production paintings showing Jack in her element, giving a feel for what she can do when she breaks out of *Purgatory*. Jack is a punk, and early variations focused on that. Her pants, which were part of her prison uniform, were rolled down to reflect Jack's unique sense of style. Her tattoos cover her scars in a deliberate attempt to write her own story, erasing the pain of her past. An actress's head was scanned to serve as the model for Jack's face. It was decided that Jack needed a shaved head for a genuine punk feel rather than making her a supermodel with ink. Once it was decided that Jack would be clothed in tattoos, various directions were explored for how to tell her backstory through them. We also sought ways to best show off her tattoos while covering her chest to some degree. Concerns about how exposed she was led to some of the changes.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-jack-confidences#08",
+      "kind": "scene",
+      "page": "Jack's Hidey Hole on the Engineering Deck",
+      "section": "hangout",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-jack-confidences",
+      "text": "Jack's Hidey Hole on the Engineering Deck. 2185, across the run-up to the Omega 4 Relay, from after Horizon Jack's crawlspace under the drive core on the Normandy SR-2 engineering deck Declining her early advance confuses her and her shell begins to crack; with steady, non-sexual interest a relationship forms and she admits she really does need someone. In place of a love scene before the Omega 4 Relay, she and Shepard only kiss and lie in bed together, Shepard holding her.",
+      "url": "",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "summary:mass-effect-2-art-book-texts",
+      "kind": "summary",
+      "page": "Mass Effect 2 Art Book/Texts",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This page transcribes all commentary texts from the Mass Effect 2 Art Book published in 2010; the writers are unattributed. The texts are organized into five sections describing the game's concept art and design intentions.\n\n\"Heroes and Villains\" covers character design: several characters were born from production paintings, including the Illusive Man, whose impeccable futuristic suit was meant to convey the swagger of a charming billionaire. Grunt was given smoother horns and showroom-new armor to contrast with other krogan; Garrus would bear scars and bandages from a near-fatal injury for most of the story; Miranda was reconceived from blonde to black hair to suit the \"femme fatale\" look; Jack's tattoos told a visual story of her past; Samara's armor captured a \"mystic warrior\" archetype; Legion gained moving parts for expression and Shepard's N7 armor became integral to its appearance and backstory; Mordin balanced brilliant scientist with combat tech specialist; Tali's look was made more mature; and Thane had to be a sleek alien assassin and an attractive love interest.\n\n\"Alien Life Forms\" describes the hybridization of humans and Reaper technology through escalating enemies culminating in the Reaper-human larva, whose designs spanned Reaper and human forms before a partially-formed human shape of Reaper construction was chosen. Scions were crude fusions of Reaper technology and human anatomy; Collectors were inspired by electron microscope photographs of insect heads; and Praetorians fused Collector DNA with multiple human heads. \"Alien Worlds\" covers the Citadel, Cerberus interiors and Minuteman Station, Illium, Purgatory, Korlus (\"junk world\"), and Omega, whose shape was inspired by a nuclear mushroom cloud, with Collector interiors drawing on bee hives. \"Transport\" covers the quarian Migrant Fleet's tadpole-like ships, the Collector ship inspired by Australian termite mounds, the new squad shuttle, the Hammerhead-reimagined Mako, the Gunship, and the Cerberus-built Normandy SR-2, which was meant to feel like a crude knockoff but ended up luxurious with wood inlay and leather seats. \"Weapons\" covers heavy weapons including the Collector beam weapon and the tactical nuke.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Art_Book/Texts",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "citadel-the-fourth-estate_006",
+      "kind": "page",
+      "page": "Citadel: The Fourth Estate",
+      "section": "Mass Effect 3 Consequences",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "If you complete the assignment from Mass Effect 2, Khalisah will be in front of the elevator in the Citadel Embassies. This final time has her ready for Shepard (if you hit her in the past game), making for a slightly more complicated interrupt sequence. If you choose to restrain your fist and opt for the Paragon interrupt response when it comes, Khalisah encourages the galaxy to stand together, contributing to the war effort. If Shepard never punched her in the previous games, her sincerity provokes greater support. If no options are taken upon, Shepard will mark how they have better things to do. None of the options give XP nor morality points.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_The_Fourth_Estate",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_001",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Summary:** Part 4 of a character analysis of Tali'Zorah. Covers Mass Effect 3: her return to the Fleet as an Admiral filling her father's seat, her feelings of inadequacy, being forced back into \"the greater good comes first\" when Daro'Xen's use of Rael's research makes the geth war inevitable, the battle of Rannoch, Legion's self-sacrifice or death depending on Shepard's choice, and — on a botched path — Tali's suicide as her home ship burns. Also how surviving the ME2 Suicide Mission lets her name and begin to correct her fatal flaw. Part 5 covers the romance arc and conclusion.",
+      "url": "",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "summary:tela-vasir-enemy",
+      "kind": "summary",
+      "page": "Tela Vasir (enemy)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This page covers combat tactics for fighting Tela Vasir, the asari Spectre and Shadow Broker agent faced as the boss of Lair of the Shadow Broker in Mass Effect 2. After a skycar chase around Illium's skyways ends with her crashing into Hotel Azure, a bleeding Vasir takes a hostage and then fights Shepard's team in a plaza, eventually succumbing to her wounds after a protracted battle.\n\nVasir is described as one of the toughest straight-up fights in the game. Offensively she wields an M-15 Vindicator, uses Shockwave to knock targets out of cover, summons reinforcements of Shadow Broker Engineers and Rocket Drones, and has an extra-powerful, wide-radius Biotic Charge with a long charge time that can be interrupted. Defensively her barrier (stronger than a Praetorian's) and armor are extraordinarily strong, and she repeatedly Charge-teleports around the battlefield. Once her defenses are down she becomes vulnerable to biotics such as Pull, Throw and Dominate, to force effects like Concussive Shot and Tech Armor detonation, and to freezing. She is largely stun-resistant while protected, immune to Flashbang Grenade and the Arc Projector stun, and immune to the hold effects of Singularity and the M-490 Blackstorm until only her health remains.\n\nRecommended tactics include using Liara's Stasis (which can stun Vasir even through her protections and can end waves early), Jack's Warp Ammo against her barrier, anti-barrier weapons such as the Collector Particle Beam or Geth Plasma Shotgun, and knocking her off the edge of the map for an instant kill. Class-specific advice is given for Vanguard, Soldier, Engineer, Sentinel, Infiltrator and Adept.",
+      "url": "https://masseffect.fandom.com/wiki/Tela_Vasir_(enemy)",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "summary:the-art-of-mass-effect-alien-worlds",
+      "kind": "summary",
+      "page": "The Art of Mass Effect/Alien Worlds",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page transcribes the fifth part and acknowledgements of The Art of Mass Effect (2007), with commentary by Casey Hudson. The section covers the game's landscapes and architecture, tracing how early combat-visualization paintings set an overall style before specific locations were developed. It discusses Eden Prime (shifted from green farmland to a red, ember-filled palette to darken the story's opening, keeping a cargo train), its train station, the Therum mining complex and mines, the Prothean tower where Liara is found, the Thorian's lair, and Feros (a human colony amid Prothean ruins, built largely from reusable parts). It also covers Ilos (changed from lush jungle to an ominous dead world) and its Archive of suspended Protheans, Noveria (a spaceport inspired by the Swiss Alps, made colder and more isolated), the ring-shaped Citadel Presidium and its grungier wards, docking bays and exterior, and Virmire (inspired by the islands of Palau, the site of Saren's oceanfront fortress). The acknowledgements credit the concept artists: Derek Watts, Matthew Rhodes, Sung Kim, Adrien Cho, Fran Gaulin, Mike Spalding, Mike Trottier, Michael Jeffrey, Sasha Beliaev and Mike Higgins.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_Mass_Effect/Alien_Worlds",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-2-part-3-propulsion-stealth-and-sensors_001",
+      "kind": "page",
+      "page": "The SSV Normandy SR-2 (Part 3) — Propulsion, Stealth, and Sensors",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Summary:** Part 3 of a breakdown of the Normandy SR-2: its four antiproton main thrusters and the Heed Industries Helios thruster module; the oversized Tantalus drive core and how it moves the ship by \"falling into\" a mass concentration; FTL travel; the Internal Emission Sink (IES) stealth system and its limits; planetary probes; the sensor suite including the Argus Advanced Mineral Scanner; the upgradeable medical bay; and the Reaper IFF that enabled the Omega 4 transit but let the Collectors ambush the ship. Parts 1–2 cover origin/EDI and armament; Part 4 covers the Alliance refit.",
+      "url": "",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "liara-t-soni_017",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Shepard can tell her to take more time off, but she insists on working, asking Shepard to meet Barla Von who might be able to help the war effort. Matriarch Aethyta tends to Apollo's Cafe, a few steps away from Liara's table. If Shepard talks to her, Aethyta reveals her story for moving out of Illium, as well as the fact she's actually Liara's \"father\". She spies on Liara on behalf of the matriarchs, and Shepard can convince her and her daughter to meet up. If Shepard talks to Liara about this, she reveals she already knows who Aethyta is. Liara has no intention of speaking with her, which can prompt an annoyed Shepard to egg her on. Shepard can stand nearby and eavesdrop on their conversations, which start off awkward but then goes into reminiscing about Benezia. Liara learns quite a few things from her father: Aethyta bugged her Illium office, she has a half\\-sister who is part\\-hanar, and it was Aethyta who first coined the \"Little Wing\" nickname Benezia gave her. After further conversations, it appears that Liara has warmed up to Aethyta. She begins to acknowledge Aethyta as \"dad\" and even tells her she's \"the best father a girl could wish for\" after receiving an asari commando squad as a \"gift\". After the emergency evacuation of Grissom Academy, Liara is impressed with the mettle of the rescued biotic students, even crediting Jack's positive influence if she was also involved. She does think it odd to see an entire academy just for biotic children, as asari basic education covers biotic training programs. Liara eventually comes forth with a special project to present to Shepard, asking for face time in the Captain's Cabin at the earliest time possible. She has created a time capsule containing information on various things in their cycle, including the Reapers and plans for the Crucible, monitored similar to the Prothean VIs they encountered. She seeded multiple copies on many planets in case they lose to the Reapers, hoping the next cycle can carry on their work. However, she wanted to ask how she can portray Shepard for future generations. Shepard can tell her to decide for herself, be honest or show how inspiring the Commander was. Liara describes Shepard according to background, fighting style, and disposition if the Commander decides that she knows them well enough. After the mission to rescue the turian platoon, Liara can be found with Garrus enjoying some rare leisure time in the Port Observation Lounge. They catch up on each other's lives: Garrus freely talks about his sojourn on Omega as Archangel. Liara, on the other hand, shares very scant details of her activities: a few \"explosive battles\" with Cerberus and her mutual adventure with Shepard on Mars. Liara has a few observations about the krogan and their leadership in the aftermath of the mission to cure the genophage. The krogan are gearing up for a full\\-scale war, which Liara thinks isn't much different from how things always were on Tuchanka. If Wrex is the Clan Urdnot leader, Liara expresses her lingering doubts about the cure, hoping that the krogan don't misuse it. She knows the other krogan are not like Wrex, who might not be able to stop them from starting a new krogan empire. If Wreav instead is the leader, Liara worries about his actions once the war is over. If Eve survived the cure process, Liara admires her courage and determination. Eve reminds her of some of the most formidable matriarchs she knows. If Eve didn't make it, Liara wishes she could've seen the rebirth of her people. When Shepard finishes the holoconference with Admirals Hackett and Anderson after the failed Cerberus coup, Liara passes a distress call from Asari High Command to the Commander. It comes from the planet Lesuss and Shepard is requested to investigate it as several asari commando squads have gone silent after going there. If the Virmire survivor, Kaidan/Ashley, died, Liara is very upset at their death. She meets Shepard on the Port Observation Lounge in the Normandy and reminisces about them. She never understood what Ash wanted to prove, but Liara admired her bravery. She felt less alienated with Kaidan on the Normandy because he was biotic and because he was friendly with her from the start. She offers condolences if Shepard was involved with either Virmire survivor, and agonizes over the pain of shooting them down whether it was her, Shepard, or another party member who directly pulled the trigger. Shepard can claim they wished there was another way, or intone harshly that their former teammate chose their fate when they sided with Udina.",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "jack_002",
+      "kind": "page",
+      "page": "Jack",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Jack was born in 2161 and abducted by Cerberus operatives in 2165 from Eden Prime, although it is unknown whether that was her birthplace. Cerberus' motives pertained to her newly discovered biotic potential, a result of accidental exposure to element zero in the womb. As a cover for her abduction, her mother was told that she had died due to complications of her eezo exposure. After initial tests, Jack became the prime subject of a sizable Cerberus experiment on Pragia's Teltin facility, with the goal of enhancing biotic potential in humans, regardless of the cost. The project was a typical Cerberus operation: lavishly funded, highly efficient, and morally indifferent, with a heavy reliance on brutal human experimentation and conditioning techniques in an attempt to maximize results. Referred to as Subject Zero, Jack was the core of the project, with every successful biotic enhancement applied to her. Many other children of lesser biotic ability were also kept as part of the experiment and treated as expendable lab animals, with many dying in trial runs of treatments to ensure that they would be successful on Zero. Any enhancements that proved lethal were not applied to Jack. She was tortured frequently, both psychologically and physically, in various experiments to test how pain and distress affected her biotic abilities. As she grew in both age and hatred for her captors, her powers eventually advanced to such a level that she became a serious threat to the staff, easily killing one by blasting him into a wall. Kept separate from other children, she grew up believing that the entire world was what she could see outside her window and repeatedly screamed herself hoarse while trying to communicate with others through her soundproofed cell. In reality, the window was a one\\-way mirror, intended as just another form of psychological torture. As they were regularly and remorselessly killed in various experiments designed solely to advance Jack's biotic abilities, the other kids grew to despise her as the source of all their suffering. This was only made worse by the fact that (on account of the one\\-way mirror) the only time they ever saw her was when the staff forced her to fight the other students gladiator\\-style in order to monitor her biotic progress and condition her to love the act of killing; she would even be injected with narcotic drugs during the fights to further associate killing with euphoria in her mind. Eventually, while being led to another deadly experiment, the children rioted and attacked the guards. Backed up by their biotics, the riot caused damage to the facility and Zero was freed. At this point her powers had grown so great that nothing could stop her. She would later have difficulty remembering those events for the next years in her life, due to her age at the time and the chaos. She would claim the guards and children attacked her, forcing her to kill them all. When she returned to Teltin, recorded logs rendered it more likely that the children were attempting either to get close to her for safety, since the guards had been ordered to keep Jack alive, or were trying to kill her as a measure of revenge. In either case, Jack's pent\\-up rage and sudden release from captivity caused her to fly into a fury, killing almost everyone in the facility in a furious biotic rampage before stealing a shuttle and flying off Pragia into the Dakka system, where it was picked up by another ship after several days. Rather than helping her, the crew \"used\" her before selling her off as a slave. The Teltin facility on Pragia was shut down by the Illusive Man shortly after Jack's escape. Although operating as an official Cerberus cell and receiving Cerberus funding, years later the Illusive Man would state he was initially unaware of the brutality of Teltin's experiments, claiming that he shut the facility down after finding out it had \"gone rogue\". This official stance is echoed by Miranda Lawson, who (when confronted by Jack) refuses to admit blame on behalf of Cerberus for Jack's experience, calling her ordeal a \"mistake\" and blaming it on a splinter group. After her escape, Subject Zero went on to live a predictably violent and bloody life. In order to sever ties with her past she took on the name Jack, and reacts violently whenever addressed by her former designation. She ran with various gangs, became a pirate, crashed a space station into a hanar moon (becoming wanted for vandalism in the process), and at one point joined a cult, keeping her head shaved even after her departure. |  | ***“I guess I want to stand for something too.”*** — Spoilers for **Mass Effect: Foundation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jack",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "summary:pc-tweaks-mass-effect-3",
+      "kind": "summary",
+      "page": "PC Tweaks (Mass Effect 3)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This is a technical guide, not a lore page. It documents how PC players can mod, tweak or cheat Mass Effect 3, which runs on Unreal Engine 3. It covers backing up save careers and LocalProfile.sav, editing tools (Wenchy Coalesced Utility, Mass Effect 3 Mod Manager / ME3Tweaks Mod Manager, Gibbed extractors, ME3Explorer), the locations of Coalesced.bin and DLC .sfar configuration files, and a warning that multiplayer-affecting changes can result in a ban. It then lists assorted Coalesced.bin tweaks (store mark-up removal, unlocking stores and bonus powers, editing War Assets, weight-penalty removal, exploration and Reaper-chase values, FOV, bloom), instructions for enabling and using the in-game console with a level-name list, keybind and FlyCam examples, and sections on editing powers and individual weapons. No in-universe narrative content.",
+      "url": "https://masseffect.fandom.com/wiki/PC_Tweaks_(Mass_Effect_3)",
+      "for_key": "Jack's discomfort with sincerity and how she covers it"
+    },
+    {
+      "chunk_id": "scene:cronos-station-kai-leng-last-fight#01",
+      "kind": "scene",
+      "page": "Killing Kai Leng in the Illusive Man's Office",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "cronos-station-kai-leng-last-fight",
+      "text": "Killing Kai Leng in the Illusive Man's Office. 2186, the Alliance assault on Cronos Station, after Horizon and Sanctuary the Illusive Man's inner office, Cronos Station, orbiting Anadius Fighting through Cronos Station, Shepard's squad passes video logs of Kai Leng fuming that the Illusive Man keeps refusing to have Shepard killed.",
+      "url": "",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "scene:cronos-station-kai-leng-last-fight#05",
+      "kind": "scene",
+      "page": "Killing Kai Leng in the Illusive Man's Office",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "cronos-station-kai-leng-last-fight",
+      "text": "Killing Kai Leng in the Illusive Man's Office. 2186, the Alliance assault on Cronos Station, after Horizon and Sanctuary the Illusive Man's inner office, Cronos Station, orbiting Anadius Shepard dedicates the kill aloud to whoever died by Leng's hand: \"That was for Thane / Miranda / Kirrahe, you son of a bitch.\" If none of them are dead-by-Leng, Shepard instead says, \"No gunship this time, you son of a bitch.\" Cerberus's best assassin is dead; the team returns to the Normandy for a debrief with Anderson.",
+      "url": "",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "summary:storyline-iii",
+      "kind": "summary",
+      "page": "Storyline III",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page is a chronological plot synopsis of the Mass Effect 3-era fiction.\n\nIn Mass Effect: Retribution, the Illusive Man had Kai Leng abduct former operative Paul Grayson and infected him with Reaper nanotech; Grayson, turned into a Reaper puppet, was hunted across the galaxy and finally killed at Grissom Academy by David Anderson, Kahlee Sanders and the student Nick. Mass Effect: Inquisition followed C-Sec's Bailey investigating Executor Pallin's supposed corruption at Udina's direction. Mass Effect: Deception continued the Kai Leng, Gillian Grayson and Biotic Underground threads. Mass Effect: Conviction had James Vega brought aboard the Normandy SR-2 to guard the imprisoned Shepard after the Bahak incident. Mass Effect: Invasion recounted Cerberus general Oleg Petrovsky and Colonel Raymond Ashe using an engineered Adjutant crisis to seize Omega from Aria T'Loak, who surrendered the station rather than see it destroyed. Mass Effect: Infiltrator followed rogue Cerberus operative Randall Ezno turning against the Director's Reaper-tech experiments after they mutilated his handler Inali Renata. Homeworlds #4 followed Liara T'Soni, now the Shadow Broker, chasing Prothean leads to Thessia and Kahje.\n\nThe Mass Effect 3 recap covered the Reaper invasion of Earth and Anderson staying behind; the Mars Archives and the discovery of the Prothean device (Crucible), with the android Eva Coré and EDI; the war summit and the genophage cure arc on Sur'Kesh and Tuchanka (Mordin Solus or Padok Wiks, Urdnot Wrex or Wreav, Dalatrass Linron, Primarch Adrien Victus, and Eve); the Cerberus coup on the Citadel and Udina's exposure and death; the quarian-geth war over Rannoch, ending in the destruction of a Reaper and peace or genocide; the fall of Thessia and Kai Leng's theft of the Prothean VI data; the pursuit of Cerberus through Sanctuary (Henry, Miranda and Oriana Lawson) to Cronos Station and Leng's death; and the battle for Earth. The synopsis closed with the Illusive Man's death, Anderson's death, and the Catalyst offering Shepard the Destroy, Control, Synthesis or refusal endings, followed by extensive epilogue variations and the Stargazer framing scene.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_III",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "scene:cronos-station-illusive-man-and-kai-leng#01",
+      "kind": "scene",
+      "page": "The Third Meeting, and the End of Kai Leng",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "cronos-station-illusive-man-and-kai-leng",
+      "text": "The Third Meeting, and the End of Kai Leng. 2186, Priority: Cerberus Headquarters, the assault on Cronos Station — the point of no return the Illusive Man's inner sanctum aboard Cronos Station, orbiting Anadius in the Horse Head Nebula As the Normandy moved to dock at Cerberus's headquarters — Cronos Station in orbit of Anadius — Admiral Hackett warned Shepard over vidcomm that this attack would expose the Crucible to the Reapers and had to be treated as the first phase of the assault on the Reapers themselves, offering one last chance to back out. Shepard committed. EDI came as a mandatory squadmate, with a second member (often Shepard's love interest) chosen for the run.",
+      "url": "",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "scene:cronos-station-kai-leng-last-fight#03",
+      "kind": "scene",
+      "page": "Killing Kai Leng in the Illusive Man's Office",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "cronos-station-kai-leng-last-fight",
+      "text": "Killing Kai Leng in the Illusive Man's Office. 2186, the Alliance assault on Cronos Station, after Horizon and Sanctuary the Illusive Man's inner office, Cronos Station, orbiting Anadius Shepard's team fights Leng through the collapsing office while he summons waves of Assault Troopers, Phantoms and Nemeses. Shepard taunts him about the leg wounds Anderson gave him and every time he has run; the taunt about running enrages him. His shields go down and the squad drops him.",
+      "url": "",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "collector-base_005",
+      "kind": "page",
+      "page": "Collector Base",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After Shepard dealt with the Collectors, Cerberus sent teams through the Omega\\-4 Relay to salvage Reaper technology from the Collector Base, whether it was destroyed or preserved. At Cronos Station, Commander Shepard's team discovers that Cerberus recovered the Human\\-Reaper and are using it to augment the station's functionality—either its brain if the Collector Base was preserved or its heart if the Collector Base was destroyed. When the Alliance captures Cronos Station, the Human\\-Reaper's remains are incorporated into the Crucible, becoming War Assets.",
+      "url": "https://masseffect.fandom.com/wiki/Collector_Base",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "summary:vendetta",
+      "kind": "summary",
+      "page": "Vendetta",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Vendetta was a Prothean Virtual Intelligence residing within a Prothean beacon in the Temple of Athame on Thessia. It was modeled after Pashek Vran, the overseer of the Protheans' Crucible project, and held valuable information about the Crucible's construction and implementation. During the Reaper assault on Thessia in 2186, Commander Shepard activated Vendetta. After verifying it was in a post-Prothean cycle and detecting Reapers, it attempted to shut down, declaring the cycle had reached its \"extinction terminus,\" but Shepard urged it to wait.\n\nVendetta explained that the Crucible was not of Prothean design, and that the Protheans' attempt to use it had been sabotaged by an indoctrinated splinter group who argued the Reapers should be controlled rather than destroyed, much like Cerberus. It said the Protheans had found that similar patterns of evolution and dissolution recurred in every galactic cycle, too similar to be coincidence, and inferred the Reapers were merely \"servants\" of that pattern, not its creators, its intention being galactic annihilation. If Javik was present, Vendetta identified him as Prothean and revealed it had known of his mission. It agreed to help with the Catalyst once the Crucible was complete, then detected the indoctrinated Kai Leng and entered a fail-safe mode; Kai Leng, aided by an A-61 Mantis Gunship, defeated Shepard, took the VI, and delivered it to the Illusive Man.\n\nAt Cronos Station, Shepard learned from Vendetta that the Catalyst was the Citadel itself, which enhanced dark energy emissions and coordinated the mass relay network to extend the Crucible's range. Vendetta had been programmed to withhold this so the Reapers would not learn of it before the Crucible was finished, but the Illusive Man broke its security and informed the Reapers, who seized the Citadel and moved it into orbit of Earth. After Kai Leng's death, Vendetta reported the Reapers were preparing to complete the harvest of humanity and recommended preserving information for the next cycle. Like the other Prothean VIs Vigil and Victory, its name began with the letter V.",
+      "url": "https://masseffect.fandom.com/wiki/Vendetta",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "paul-grayson_008",
+      "kind": "page",
+      "page": "Paul Grayson",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the assault on Cerberus's headquarters, Cronos Station, Shepard finds video logs detailing Grayson's fate. The Reaper implants within him proved useful in adapting the technology for Cerberus' forces. On Horizon, he is also mentioned by Henry Lawson in an audio log. He is also mentioned by Admiral Anderson when Shepard asks him about Kai Leng.",
+      "url": "https://masseffect.fandom.com/wiki/Paul_Grayson",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "kai-leng_002",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Dossier",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "While little is known about Kai Leng's early life, Alliance records show that he enlisted in the Alliance Military on November 14, 2172 at the age of 16, although his credentials were faked at the time. Leng's prowess in combat and xenophobic nature drew the attention of the Illusive Man, and Cerberus helped liberate Leng from prison after he was incarcerated for murder. The Illusive Man used Leng as his best wet\\-work operative and assassin for over a decade, realising he was not only ruthless but discreet and methodical. Leng became the Illusive Man's most trusted agent, working as an infiltrator and assassin. His cybernetic modifications appear to include Cerberus's Phantom\\-class implants.",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "kai-leng_013",
+      "kind": "page",
+      "page": "Kai Leng",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Leng and Shepard battle for the last time; the Commander's team versus him and groups of Assault Troopers, Phantoms, and Nemeses he periodically summons. During the fight, the Commander taunts him on his previous leg injuries and all the times he retreated in their encounters, the latter angering Leng. Despite Leng's lethal skills and numerical superiority, he's unable to overwhelm Shepard. With his shielding depleted, he soon succumbs to attacks from Shepard's squad. Despite his heavy wounds, Leng retrieves his blade and silently approaches Shepard, attempting a kill from behind. At the critical moment, Shepard detects him and counters his attack, causing him to gape in shock. The Commander can either break Leng's sword while stabbing him with an omni\\-blade, or dodge the attack *and* stab him with the omni\\-blade, dedicating the kill to whoever died by Leng's hands during previous events: \"That was for \\[Thane/Miranda]\\[and Miranda/Kirrahe], you son of a bitch.\" If nobody mentioned was around, Shepard instead taunts him with \"\\[n]o gunship this time, you son of a bitch.\" Whatever the outcome, Shepard ends the life of Cerberus' greatest assassin.",
+      "url": "https://masseffect.fandom.com/wiki/Kai_Leng",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "summary:miranda-lawson",
+      "kind": "summary",
+      "page": "Miranda Lawson",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Miranda Lawson was a human Cerberus officer, born in 2150. She had no mother; her influential, wealthy, egomaniacal father genetically engineered her from a modified copy of his own genome to be a specimen of human perfection, with enhanced intelligence, strength, reflexes, biotics, looks, faster healing and an extended lifespan. She was the first \"daughter\" he kept. Denied friends and affection and pressured to always be better, she fled home, and her father pursued her across the galaxy until she joined Cerberus in exchange for protection, at which point he severed his ties to the group. She rose to answer directly to the Illusive Man.\n\nIn Mass Effect Galaxy she worked as an informant for Jacob Taylor, helping him foil a batarian plot to assassinate the Citadel Council with a bioweapon. In the Mass Effect: Foundation comics she recruited Jacob to Cerberus while searching Terminus space for the fallen Shepard's body, ran the Lazarus Project at Minuteman/Lazarus Station, used the agent Rasa to steal Shepard's Spectre files, and later pursued Rasa when she defected with Shepard's backup clone. In Mass Effect: Redemption she guided Liara and Feron toward recovering Shepard's body from the Shadow Broker's agents and had it transferred to Lazarus Research Station.\n\nThe Illusive Man placed Miranda in charge of the Lazarus Project, which spent two years and vast Cerberus resources reviving Shepard. She became Shepard's second-in-command aboard the Normandy SR-2 and a proxy for the Illusive Man, having wanted (but been denied) to implant Shepard with a control chip. Her loyalty mission, \"Miranda: The Prodigal,\" concerned protecting her twin sister Oriana from their father. During the Suicide Mission she could lead the second fireteam, and if present when Shepard destroyed the Collector Base she resigned from Cerberus. She was a romance option for a male Shepard.\n\nIn Mass Effect 3, if she survived, Miranda spent the war investigating Oriana's disappearance. Her father Henry Lawson, allied with the Illusive Man, had abducted Oriana and taken her to the Sanctuary facility on Horizon, whose true purpose was processing refugees into Reaper husks. Miranda was gravely wounded by Kai Leng there. Whether she survived the Horizon confrontation depended on securing her loyalty, warning her about Kai Leng, and granting her Alliance resources; if she lived she killed Henry, planted a tracker on Kai Leng leading to Cronos Station, joined the war effort striking Cerberus targets, and reunited with Oriana. She could appear in Mass Effect 3: Citadel, including at Shepard's party where she sparred with Jack.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "aria-t-loak_008",
+      "kind": "page",
+      "page": "Aria T'Loak",
+      "section": "Mass Effect: Deception",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Note:** *This section features material from the first edition of Mass Effect: Deception, which BioWare has acknowledged contains discrepancies with other Mass Effect lore. Once revised editions of the book are released, this section will be updated.* Following the disastrous incident with Paul Grayson, Aria T'Loak leaves for Thessia to bury her daughter Liselle. Upon her return to Omega from the asari homeworld, she finds that one of her banks had been robbed by a joint coalition of the Grim Skulls, a local merc group, and the Biotic Underground, a biotic supremacist organization. One of the Grim Skull mercs, Shella, has been captured in the heist. In a plea for her life, Shella claims to have knowledge of Liselle's death. Prior to joining the Grim Skulls, Shella freelanced; one of the jobs she participated in was with a Cerberus operative named \"Manning\" (one of Kai Leng's aliases). Shella then relates the actual events of Liselle's death (as depicted in Mass Effect: Retribution). Aria believes Shella's story enough to let her go rather than executing her. Later, in a meeting with Kahlee Sanders and David Anderson, Aria learns that Paul Grayson had forwarded all of his files to Sanders' terminal at the Citadel before wiping his own terminal the night he was killed. Aria strikes a deal with Sanders and Anderson to assist them in exchange for Grayson's files. Untrue to her word, Aria employs her hackers and obtains the information from Sanders' terminal. It enables Aria to discover the identity of operative Manning, and with further information obtained from the Beggar King, she locates Kai Leng at a local human restaurant, the Blue Marble, on Omega. She dispatches the Blue Suns to eliminate him, but they fail. When Kai Leng is captured by the Biotic Underground, Aria strikes a deal with the Illusive Man to rescue Leng, planning a betrayal and to kill Kai Leng rather than free him to Cerberus. Aria organizes a small army, in conjunction with Sanders, Anderson, and Hendel Mitra, to take the base of the Biotic Underground. The force arrived minutes too late, as Kai Leng is already transported away from the base to a ransom meeting between the Biotic Underground and the Illusive Man. Kai Leng ultimately escapes the meeting, thus Aria T'Loak is denied the possibility of avenging her daughter's death. |  | ***“Where the hell are these things coming from?”*** — Spoilers for **Mass Effect: Invasion** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Aria_T'Loak",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "miranda-lawson_017",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "She eventually realized she escaped her father's highly controlling nature only to do the same to someone else. Shepard can comfort her saying that it was Miranda who brought them back to life, regardless of her opinions about them back then, and either accepts her apology or tells her not to dwell on the past. **Important** --- From: Miranda Lawson Shepard: I have something important to tell you. I need to do this in person. Can you meet me in the Commons? I'll send a NavPoint. No vids this time. I promise. Miranda Miranda eventually determines Oriana is being held at her father's Sanctuary facility on Horizon. She arrives there only to find it under attack from Reaper forces. She attempts to keep them out of the facility and locates the jamming signal that is blocking all off\\-world communications. She leaves several video logs, revealing Sanctuary's true purpose and confirming that Henry Lawson is working for the Illusive Man. She however, is unaware of Kai Leng's presence, who attacks her. Commander Shepard's team arrives on Horizon on the heels of Kai Leng after his theft of the Prothean VI from Thessia. They see at least one of the logs left by Miranda and reach the central tower to find Miranda badly hurt. Henry is holding Oriana as a human shield and keeping Miranda at gunpoint. Shepard is able either to defuse the situation diplomatically or to simply shoot him. If Shepard allows Henry to leave, Miranda will refuse, using her biotics to push him out of a nearby window. Miranda, who is badly injured during a running battle with Kai Leng, dies in the company of Oriana and Shepard if she was not previously warned about Kai Leng's return to Cerberus service. If Miranda's loyalty was not secured, or she was not given Alliance resources, Kai Leng will mortally wound her even if warned. If Shepard cannot persuade Henry diplomatically and does not shoot him after diplomacy fails, Miranda takes the initiative to kill her father herself, but Henry manages to get in a shot that fatally wounds her, causing her to die even if Miranda was warned about both the Cerberus attack and Kai Leng's return to Cerberus. Mortally wounded or not, if she has time to speak Miranda tells Shepard she planted a tracking device on Kai Leng during their short encounter, allowing Shepard and the Alliance to find the Illusive Man's location. Otherwise, one of the squadmates present uncovers the necessary data on a nearby computer. If Miranda survived those events, she then leaves with her sister, and asks Shepard to be careful. She joins the war effort, getting a few sideways looks from Alliance brass due to her Cerberus past. Aside from providing valuable anti\\-Cerberus intel, she procures a private fighter for herself, teaming up with former colleagues to strike at Cerberus targets. These deeds and more earn her the tacit approval of the Alliance forces she's working with. Shepard has the chance to talk to her on Earth one last time, right before the final assault. Miranda takes the moment to say her final goodbyes, claiming that everything would be different if they even come out alive. Shepard would have none of it, countering that if things change it will be on their terms. Miranda ran all her life, and Shepard advises her that it is time to stop. Miranda's spirits are uplifted at Shepard's words, and in contrast to her earlier statements of \"no promises\" whenever Shepard bids her well she now promises to take care of herself at the end of their conversation. If Shepard dies activating the Crucible, or is not in a romance with Miranda, she will be seen in a boardroom helping lead reconstruction efforts following the defeat of the Reapers. If Shepard chooses to control the Reapers, Miranda spends time with Oriana studying Reaper schematics.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "miranda-lawson_006",
+      "kind": "page",
+      "page": "Miranda Lawson",
+      "section": "Mass Effect: Foundation 8",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Miranda has acquired Shepard's corpse and is already in charge of the Lazarus Project. At the Minuteman Station, she receives agents Rasa and Kai Leng's shuttle, fresh out of their abortive mission to capture Subject Zero. On orders from the Illusive Man, Miranda appropriates Rasa's services and sends Kai Leng back to the shuttle for a meeting with the boss. At the station's labs, Miranda outlines the Lazarus Project's purpose to Rasa, going so far as to show her Shepard's operated\\-on body as well as the Commander's backup clone. However, the Illusive Man isn't satisfied with a copy: he wants the real deal, and Miranda informs Rasa that her part in it is to steal Shepard's classified files. Miranda takes Rasa to her office and explains the details of the op. Shepard's records are in the Spectre offices on the Citadel. She gives Rasa a disc containing highly\\-classified but outdated Cerberus secrets and instructs her to bring it to Tela Vasir. The Spectre can get Rasa inside their offices, and it will be up to her to find a way to get the files. A few days later, Miranda manages to comm Rasa after an unexpected contact loss. Rasa reports she has acquired the data, but doing so was harder than she expected. Miranda starts praising her efforts though Rasa hastily severs contact, who unbeknownst to Miranda is being poisoned at the time. A few more days pass before Miranda gets hold of Rasa again back aboard the Minuteman Station, ordering medical help on the half\\-conscious agent. She gets the disc back from Rasa, who tries to warn her about its tainted contents. Miranda assures her she's got it covered, telling her to focus on getting well. Another set of days pass, and on the Illusive Man's sanctum Miranda reports on the completeness of the intel Rasa has procured. She has managed to counteract Vasir's hidden virus and obtained additional funding for the Lazarus Project while she's at it. The Illusive Man is pleased: Miranda assumes the clone project is no longer a priority, and her boss allows her to continue using it for testing. Rasa's cover, however, is blown, and Miranda reckons she'll never work in the field again. The Illusive Man agrees, but tells her not to worry as he still has a use for her.",
+      "url": "https://masseffect.fandom.com/wiki/Miranda_Lawson",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "maya-brooks_006",
+      "kind": "page",
+      "page": "Maya Brooks",
+      "section": "Mass Effect: Foundation 5",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "On a holo\\-meeting with the Illusive Man approximately a month after the attack on the Citadel, Rasa voiced her concerns on having Shepard under greater scrutiny. The Cerberus leader, however, revealed that humanity's first Spectre was already dead. Rasa asked the Illusive Man how she could be of assistance on investigating the matter, though he already had other people looking into that. Instead, he handed her what he deemed to be the most important task of her life. At the conclusion of the briefing Kai Leng dropped by for a conversation with her. Rasa shared she was shocked at learning about Shepard's demise and once more remarked on Leng's cold\\-bloodedness when the assassin expressed indifference on the matter. Leng offhandedly mentioned he was off on a mission, and Rasa immediately assumed he was the one looking at Shepard's case. As Leng denied the assessment and exhibited a similar lack of information, Rasa took to needling the assassin over his own usefulness to the organization while trying to figure out who among the other operatives might be important enough to be sent after the dead Spectre.",
+      "url": "https://masseffect.fandom.com/wiki/Maya_Brooks",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    },
+    {
+      "chunk_id": "summary:jana",
+      "kind": "summary",
+      "page": "Jana",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Short page (under ~150 words of prose). Jana was the Illusive Man's assistant in 2186, drawn from the first edition of Mass Effect: Deception, a novel BioWare acknowledged contained lore discrepancies. Her duties included assigning Cerberus operatives to minor tasks, filtering the Illusive Man's calls and messages, and guiding the rare visitors permitted to meet him. She was described as having black hair, large brown eyes, and a full figure, and had been a military officer of unspecified affiliation before joining Cerberus. Kai Leng questioned how human Jana really was and believed the Illusive Man was grooming her for a greater role. A separate blonde-haired scientist also named Jana appears in Cronos Station video logs discussing indoctrination.",
+      "url": "https://masseffect.fandom.com/wiki/Jana",
+      "for_key": "Kai Leng's death at Shepard's hands at Cronos Station"
+    }
+  ],
+  "codex": [],
+  "conflicts": [],
+  "warnings": []
+}
