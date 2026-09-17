@@ -15,9 +15,23 @@ from scripts import common
 MARKER = "# UNAPPROVED — remove this line to approve the outline"
 
 
-def new_run(narrator: str, themes: list[str], words: int, out_root: Path,
+def new_run(narrator: str, themes: list[str], words: int | None, out_root: Path,
             brief: str = "", form: str = "") -> Path:
+    """Scaffold the run. ``words=None`` lets the form decide the episode's length.
+
+    With a named form we can size it here, from the midpoint of that form's section range.
+    Without one the outline-writer picks the form, so it computes the real figure once it
+    knows how many sections it is writing; 0 is the placeholder meaning "not yet decided".
+    """
     out_root = Path(out_root)
+    if words is None:
+        forms = common.load_forms()
+        spec = forms.get(form) if form else None
+        if spec:
+            lo, hi = spec["section_count"]
+            words = common.target_words_for(spec, round((lo + hi) / 2))
+        else:
+            words = 0
     base = f"{common.slugify(narrator)}_{common.slugify('-'.join(themes))}_{time.strftime('%Y-%m-%d')}"
     run = out_root / base
     n = 2
@@ -43,7 +57,9 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Scaffold a generation run folder")
     ap.add_argument("narrator")
     ap.add_argument("themes", help="comma-separated theme list")
-    ap.add_argument("--words", type=int, default=8000)
+    ap.add_argument("--words", type=int, default=None,
+                    help="pin the episode length; omit to let the form decide "
+                         "(words_per_section x section count, clamped — see config/forms.yaml)")
     ap.add_argument("--brief", default="",
                     help="free-text directorial note: scene, occasion, mood, who "
                          "the narrator is addressing (shapes framing, not canon)")

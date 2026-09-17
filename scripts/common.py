@@ -84,6 +84,23 @@ FORMS_PATH = REPO_ROOT / "config" / "forms.yaml"
 _SPINES = ("events", "scenes", "mixed")
 _FORM_REQUIRED = ("id", "description", "spine", "section_count")
 
+# Used only for a form that predates `words_per_section` / `words_clamp`, so a hand-written
+# or third-party forms file still yields a usable episode length instead of failing.
+DEFAULT_WORDS_PER_SECTION = 800
+DEFAULT_WORDS_CLAMP = (5000, 11000)
+
+
+def target_words_for(form: dict, section_count: int) -> int:
+    """The episode's word target: the form's per-section budget times its section count.
+
+    A form with few, long sections (`motivational`, `eulogy`) and one with many short ones
+    (`tunnel`, `lecture`) should not produce the same episode, which is what a fixed global
+    default did. The clamp keeps an unusually short or long outline from running away.
+    """
+    per = int(form.get("words_per_section") or DEFAULT_WORDS_PER_SECTION)
+    lo, hi = form.get("words_clamp") or DEFAULT_WORDS_CLAMP
+    return max(int(lo), min(int(hi), per * max(1, int(section_count))))
+
 
 def load_forms(path: Path | None = None) -> dict[str, dict]:
     """Load `config/forms.yaml` — the episode-form reference set, keyed by id.

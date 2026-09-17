@@ -24,6 +24,8 @@ forms:
       the brief asks for the whole story rather than one night of it.
     spine: events
     section_count: [12, 20]
+    words_per_section: 600
+    words_clamp: [7000, 12000]
 
   - id: evening
     description: >
@@ -32,6 +34,8 @@ forms:
       back, contradict each other's mood, or trail off the way talk does.
     spine: scenes
     section_count: [8, 14]
+    words_per_section: 850
+    words_clamp: [6000, 11000]
 
   - id: one-relationship
     description: >
@@ -40,6 +44,8 @@ forms:
       the war's.
     spine: mixed
     section_count: [8, 14]
+    words_per_section: 850
+    words_clamp: [6000, 11000]
 
   - id: one-place
     description: >
@@ -48,6 +54,8 @@ forms:
       through it rather than the subject.
     spine: mixed
     section_count: [8, 16]
+    words_per_section: 750
+    words_clamp: [6000, 11000]
 
   - id: postmortem
     description: >
@@ -55,6 +63,8 @@ forms:
       an ending the narrator already knows, which changes how every earlier beat lands.
     spine: events
     section_count: [10, 16]
+    words_per_section: 700
+    words_clamp: [6000, 11000]
 
   - id: motivational
     description: >
@@ -67,6 +77,8 @@ forms:
       land on.
     spine: mixed
     section_count: [6, 12]
+    words_per_section: 1150
+    words_clamp: [6000, 11000]
 
   - id: bedtalk
     description: >
@@ -78,6 +90,8 @@ forms:
       subjects the pillow raises, not chapters.
     spine: mixed
     section_count: [8, 14]
+    words_per_section: 850
+    words_clamp: [6000, 11000]
     requires: romance
 
   - id: reminiscing
@@ -90,6 +104,8 @@ forms:
       measured by.
     spine: mixed
     section_count: [8, 14]
+    words_per_section: 850
+    words_clamp: [6000, 11000]
 
   - id: upward
     description: >
@@ -100,6 +116,8 @@ forms:
       is wishful and says so, or refuses to and means it.
     spine: mixed
     section_count: [8, 14]
+    words_per_section: 850
+    words_clamp: [6000, 11000]
 
   - id: argument
     description: >
@@ -108,6 +126,8 @@ forms:
       argument; chronology serves the case, not the other way round.
     spine: mixed
     section_count: [8, 14]
+    words_per_section: 850
+    words_clamp: [6000, 11000]
 
   - id: tunnel
     description: >
@@ -122,6 +142,8 @@ forms:
       left off.
     spine: mixed
     section_count: [8, 30]
+    words_per_section: 350
+    words_clamp: [5000, 11000]
 
   - id: lecture
     description: >
@@ -133,6 +155,8 @@ forms:
       own digs. Sections are the points on the syllabus, in teaching order.
     spine: mixed
     section_count: [8, 24]
+    words_per_section: 450
+    words_clamp: [5000, 11000]
 
   - id: briefing
     description: >
@@ -143,6 +167,8 @@ forms:
       and gets dropped the moment it stops being useful.
     spine: events
     section_count: [6, 12]
+    words_per_section: 700
+    words_clamp: [4000, 9000]
 
   - id: debrief
     description: >
@@ -153,6 +179,8 @@ forms:
       closing on the lesson drawn from it.
     spine: events
     section_count: [6, 24]
+    words_per_section: 500
+    words_clamp: [5000, 11000]
 
   - id: confession
     description: >
@@ -163,6 +191,8 @@ forms:
       than the other way round.
     spine: mixed
     section_count: [8, 24]
+    words_per_section: 500
+    words_clamp: [5000, 11000]
 
   - id: cockpit
     description: >
@@ -174,6 +204,8 @@ forms:
       corrections.
     spine: mixed
     section_count: [8, 20]
+    words_per_section: 500
+    words_clamp: [5000, 10000]
 
   - id: grievance
     description: >
@@ -184,6 +216,8 @@ forms:
       only cools, if it cools, at the end.
     spine: mixed
     section_count: [8, 20]
+    words_per_section: 550
+    words_clamp: [5000, 11000]
 
   - id: heist
     description: >
@@ -193,6 +227,8 @@ forms:
       the run of earlier jobs that taught each trick now being shown off.
     spine: scenes
     section_count: [8, 14]
+    words_per_section: 800
+    words_clamp: [6000, 11000]
 
   - id: code
     description: >
@@ -203,6 +239,8 @@ forms:
       against their own law.
     spine: mixed
     section_count: [6, 14]
+    words_per_section: 800
+    words_clamp: [5000, 11000]
 
   - id: manifesto
     description: >
@@ -215,6 +253,8 @@ forms:
       future, not a next step.
     spine: mixed
     section_count: [8, 20]
+    words_per_section: 550
+    words_clamp: [5000, 11000]
 
   - id: lastcall
     description: >
@@ -226,6 +266,8 @@ forms:
       nodding off and coming back. It trails into sleep rather than ending.
     spine: scenes
     section_count: [6, 24]
+    words_per_section: 500
+    words_clamp: [5000, 11000]
 
   - id: eulogy
     description: >
@@ -237,3 +279,5 @@ forms:
       every word is meant.
     spine: mixed
     section_count: [6, 14]
+    words_per_section: 800
+    words_clamp: [5000, 10000]

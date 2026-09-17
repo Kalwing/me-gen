@@ -3,7 +3,7 @@ description: Generate a narrated Mass Effect episode. First run produces an outl
 ---
 
 Usage:
-- `/me-generate <narrator> "<theme1, theme2>" [--brief "<free text>"] [--words 8000]` — outline phase (stops for approval).
+- `/me-generate <narrator> "<theme1, theme2>" [--brief "<free text>"] [--words N]` — outline phase (stops for approval).
 - `/me-generate --continue <run-dir>` — generation phase.
 
 `--brief` is an optional free-text note that sits alongside the themes — e.g.
@@ -25,8 +25,13 @@ still come only from the timeline and retrieved evidence.
 1. Require `timeline/master_timeline.yaml` and `data/bm25_index.pkl`. If missing, tell the user to run
    `/me-scrape`, `/me-build-lore`, `/me-build-timeline` and stop.
 2. Require `config/narrators/<narrator>.yaml`. If missing, list the available bibles and stop.
-3. Scaffold the run: `PYTHONPATH=. .venv/bin/python scripts/new_run.py <narrator> "<themes>" --words <words> [--brief "<brief>"] [--form <form>]`
-   and capture the printed path. (Pass `--brief` only if the user gave one; it is stored as
+3. Scaffold the run: `PYTHONPATH=. .venv/bin/python scripts/new_run.py <narrator> "<themes>" [--words <words>] [--brief "<brief>"] [--form <form>]`
+   and capture the printed path. **Pass `--words` only if the user named a length.** Left
+   off, the episode is sized from its form — `words_per_section x section count`, clamped
+   into that form's `words_clamp` (`config/forms.yaml`) — so a form of many short sections
+   and one of few long ones no longer produce the same 8,000 words. With `--form` the size
+   is set at scaffold time; without one it lands as `0` and the outline-writer fills it in
+   once it has chosen the form and the section count. (Pass `--brief` only if the user gave one; it is stored as
    `brief:` in `outline.yaml`. Pass `--form` only if the user named one from
    `config/forms.yaml`; left blank, `outline-writer` chooses the form and explains the
    choice in `form_note`.)
