@@ -45,12 +45,20 @@ def narrator_default(narrator: str) -> str:
 
 
 def header_block(outline: dict) -> str:
-    narrator = str(outline.get("narrator", "")).replace("_", " ").title()
+    narrator = common.voices_title(outline)
     themes = ", ".join(outline.get("themes", []))
     note = DEFAULT_NOTE
-    default = narrator_default(str(outline.get("narrator", "")))
-    if default:
-        note += f" Default register is {default} Tags mark departures from that."
+    voices = common.episode_narrators(outline)
+    if len(voices) == 1:
+        default = narrator_default(voices[0])
+        if default:
+            note += f" Default register is {default} Tags mark departures from that."
+    else:
+        defaults = [(common.display_name(v), narrator_default(v)) for v in voices]
+        defaults = [f"{name}: {d}" for name, d in defaults if d]
+        note += (" Each section heading names its speaker; switch voice there."
+                 + (" Default registers — " + " ".join(defaults) if defaults else "")
+                 + " Tags mark departures from each speaker's default.")
     return (f"# {narrator} — Mass Effect (performance script)\n\n"
             f"_Themes: {themes} · generated {time.strftime('%Y-%m-%d')}_\n\n"
             f"_{note}_\n")
@@ -100,7 +108,7 @@ def assemble(run_dir: Path) -> Path:
         plain = (run_dir / "sections" / f"{s['id']}.md").read_text(encoding="utf-8").strip()
         marked = (run_dir / "sections" / f"{s['id']}.performance.md").read_text(encoding="utf-8").strip()
         verify(plain, marked, s["id"])
-        bodies.append(f"## {s['title']}\n\n{marked}\n")
+        bodies.append(f"{common.section_heading(outline, s)}\n\n{marked}\n")
 
     out = run_dir / "episode.performance.md"
     out.write_text(header_block(outline) + "\n" + "\n".join(bodies), encoding="utf-8")

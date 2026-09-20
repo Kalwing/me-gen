@@ -3,8 +3,16 @@ description: Generate a narrated Mass Effect episode. First run produces an outl
 ---
 
 Usage:
-- `/me-generate <narrator> "<theme1, theme2>" [--brief "<free text>"] [--words N]` — outline phase (stops for approval).
+- `/me-generate <narrator> "<theme1, theme2>" [--brief "<free text>"] [--subject <slug>] [--words N]` — outline phase (stops for approval).
 - `/me-generate --continue <run-dir>` — generation phase.
+
+`<narrator>` may be several comma-separated ids (`tali,liara`): the episode is then told in
+**alternating voices** — each section is one narrator's turn, speaking to the other(s) and
+answering the turn before. The first id is the lead `narrator:`; the list is stored as
+`narrators:` and each section carries its own `narrator:`. The `dialogue` form in
+`config/forms.yaml` is built for this. A single id is a monologue, exactly as before.
+If the user gives no narrator but the brief puts two narrators in conversation, ask
+whether to alternate between them or have one narrate.
 
 `--brief` is an optional free-text note that sits alongside the themes — e.g.
 `--brief "Tali romance; speaks by phone after a fight, a bit tired"`. It does two
@@ -14,6 +22,24 @@ things:
   it picks among options the choices file leaves open (e.g. which romance when
   several are recorded), adds playthrough detail not in the file, and where the
   brief and the choices file speak to the same point the **brief wins for this run**.
+`--subject <slug>` names **who the episode is about** — the person the narrator is
+addressing and characterizing. It defaults to `shepard`, which is what every episode has
+been, so leaving it off changes nothing. Pass it **only when the user explicitly asks for
+that character**, by name or by an unmistakable brief; never infer it. With
+`--subject thomas` the run records `subject: thomas` in `outline.yaml`, and every
+downstream agent reads `config/narrators/thomas.notes.md` in Shepard's place. It swaps the
+*addressee*, not the world: Shepard still commands the Normandy and `config/canon/` still
+decides which branch of the trilogy happened. The subject must have a
+`config/narrators/<slug>.notes.md` or `new_run.py` refuses to scaffold the run.
+
+A named subject who is an original character is **not in the corpus** — no scene record
+will ever list them, so `build_pack.py` warns on every pack that a record's silence about
+them is not absence. Their presence comes from their notes file, read by its timeline
+*stretches* rather than its named occasions: where the notes put them with the crew they
+were at that period's occasions too (the Citadel DLC shore leave included), and outside
+those stretches they were not there. The notes stay binding on the load-bearing facts —
+relationships, habits, dates, deaths, deeds.
+
 It invents no world lore, but canon does more than colour the telling: many
 timeline events are choice-conditional (a death on Virmire, the Council's fate,
 the genophage, the Suicide Mission roster, the ending), and `narrative_choices` —
@@ -24,8 +50,9 @@ still come only from the timeline and retrieved evidence.
 ## Outline phase
 1. Require `timeline/master_timeline.yaml` and `data/bm25_index.pkl`. If missing, tell the user to run
    `/me-scrape`, `/me-build-lore`, `/me-build-timeline` and stop.
-2. Require `config/narrators/<narrator>.yaml`. If missing, list the available bibles and stop.
-3. Scaffold the run: `PYTHONPATH=. .venv/bin/python scripts/new_run.py <narrator> "<themes>" [--words <words>] [--brief "<brief>"] [--form <form>]`
+2. Require `config/narrators/<narrator>.yaml` — for every id when there are several. If one
+   is missing, list the available bibles and stop.
+3. Scaffold the run: `PYTHONPATH=. .venv/bin/python scripts/new_run.py <narrator> "<themes>" [--words <words>] [--brief "<brief>"] [--form <form>] [--subject <slug>]`
    and capture the printed path. **Pass `--words` only if the user named a length.** Left
    off, the episode is sized from its form — `words_per_section x section count`, clamped
    into that form's `words_clamp` (`config/forms.yaml`) — so a form of many short sections
@@ -34,7 +61,9 @@ still come only from the timeline and retrieved evidence.
    once it has chosen the form and the section count. (Pass `--brief` only if the user gave one; it is stored as
    `brief:` in `outline.yaml`. Pass `--form` only if the user named one from
    `config/forms.yaml`; left blank, `outline-writer` chooses the form and explains the
-   choice in `form_note`.)
+   choice in `form_note`. Pass `--subject` only if the user explicitly named the character
+   the episode is about; left off it is Shepard. If it fails because the notes file is
+   missing, list `config/narrators/*.notes.md` and stop.)
 4. Load the player's canon: run
    `PYTHONPATH=. .venv/bin/python scripts/canon.py` and print its output.
    If it prints `all questions unanswered`, warn the user that the recap will use default
@@ -42,8 +71,9 @@ still come only from the timeline and retrieved evidence.
 5. Make sure the index knows about the scene layer:
    `.venv/bin/python scripts/build_bm25.py` (a no-op when it is already newer than its sources).
 6. Dispatch the `outline-writer` subagent for that run dir.
-7. Print the outline path, the chosen `form` and `form_note`, and the section table with
-   each section's `promises`. Report any question the outline-writer appended to
+7. Print the outline path, the episode's `subject` (say so explicitly when it is not
+   Shepard), the chosen `form` and `form_note`, and the section table with
+   each section's `promises` (and, with more than one voice, each section's `narrator`). Report any question the outline-writer appended to
    `config/canon/questions.yaml`. Tell the user:
    "Review and edit `output/<run>/outline.yaml` — the `form`, the section list, and
    especially each section's `promises` and `retrieval` keys, which are what the episode
@@ -67,17 +97,22 @@ still come only from the timeline and retrieved evidence.
 3. Read the voice checkpoint state:
    `python -c "from pathlib import Path; from scripts import common; print(common.voice_check_state(Path('<run-dir>')))"`
    and branch on it — `missing` → step 4, `pending` → step 5, `approved` → step 6.
-4. **Voice checkpoint — first section only.** Dispatch `section-writer` for the *first* section
-   in `outline.yaml` and nothing else. Then write `output/<run>/voice_check.md`:
+4. **Voice checkpoint — the first turn of each voice.** List the checkpoint sections:
+   `python -c "import yaml; from scripts import common; print(' '.join(common.voice_check_sections(yaml.safe_load(open('<run-dir>/outline.yaml')))))"`.
+   For a monologue that is the first section alone; with alternating voices it is each
+   narrator's first turn. Dispatch `section-writer` for those sections, in outline order, and
+   nothing else. Then write `output/<run>/voice_check.md`:
 
    ```
    # UNAPPROVED — voice check. Delete this line to approve, then re-run --continue.
 
-   <the full text of the first section, verbatim>
+   <the full text of each checkpoint section, verbatim — under a `## <narrator>` line
+    per section when there is more than one voice>
    ```
 
-   Print the section in the chat too, and ask the user to read it for **voice and lore
-   handling, not facts**:
+   Print the section(s) in the chat too, and ask the user to read them for **voice and lore
+   handling, not facts** — and, with more than one voice, whether the voices are
+   unmistakably distinct and the reply actually answers the turn before it:
    - *Voice* — does the narrator sound like themselves: cadence, register, how they digress,
      how they avoid a subject, what they would never say?
    - *Lore* — is the history and worldbuilding **integrated the way
@@ -91,21 +126,24 @@ still come only from the timeline and retrieved evidence.
    exists to prevent.
 5. **The checkpoint is pending.** If the user has given voice feedback (in chat or as edits to
    `voice_check.md`), act on it before anything else:
-   - Fold every correction into `config/narrators/<narrator>.yaml` first — that is the durable
+   - Fold every correction into `config/narrators/<narrator>.yaml` first (the bible of the
+     voice the feedback is about, when there are several) — that is the durable
      fix and it is what the remaining sections will be written against. Feedback about *how*
      they talk belongs in `diction` / `signature` / `avoid`; feedback about *what* they wander
      into and the rhythm of the wandering belongs in `digressions`. Quote the offending phrase
      in the `avoid` entry so the failure is named, not merely described.
-   - Re-dispatch `section-writer` for the first section, refresh `voice_check.md` from the new
-     draft, and STOP again. Repeat until the user clears the marker line.
+   - Re-dispatch `section-writer` for the checkpoint section(s) the feedback touches (with
+     two voices, redo a later checkpoint turn whenever an earlier one it answers was
+     redone), refresh `voice_check.md` from the new drafts, and STOP again. Repeat until the user clears the marker line.
    If the user has given no feedback, just tell them the checkpoint is still waiting and stop.
 6. For each **remaining** section in `outline.yaml`, in order: dispatch `section-writer` with
    the run dir and the section id. It reads that section's pack and the narrator files and
    nothing else — do not hand it retrieval results, event files or codex excerpts. Run
    sequentially (this also lets `output/<run>/used_lines.md` accumulate across sections, so
-   a later section knows what stock phrasing an earlier one already used). Retry a failed
-   section once, then log to `output/<run>/gen_errors.log` and continue. The approved first
-   section is not rewritten.
+   a later section knows what stock phrasing an earlier one already used, and each turn in a
+   multi-voice episode can read the turn it answers). Retry a failed
+   section once, then log to `output/<run>/gen_errors.log` and continue. The approved
+   checkpoint sections are not rewritten.
 7. Dispatch `episode-auditor` for the run dir. It holds the packs and the whole episode, runs
    its own find-then-fix passes (including a deterministic repetition scan), and absorbs
    what `smoother` used to do. It must run before any tone pass.

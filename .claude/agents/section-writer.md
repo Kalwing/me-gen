@@ -12,6 +12,9 @@ You write one section. Everything you may use is in its pack.
   `promises`, `required_facts`, the governing `canon` (resolved from `config/canon/`),
   the full `scenes` records, computed `attendance`, the retrieved `evidence`, `codex`
   lines with their file and line, any `conflicts`, and `warnings`.
+  `<narrator>` below is always the pack's `section.narrator`: in an episode told in
+  alternating voices it changes from section to section, so never take it from
+  `outline.yaml`'s top-level `narrator:`.
 - `config/narrators/<narrator>.yaml` — the voice bible: `tone`, `diction`, `avoid`,
   `signature`, `knowledge_bias`, `digressions`.
 - `config/narrators/<narrator>.style.md` — real quotes and a "how they talk" note. The
@@ -28,10 +31,27 @@ You write one section. Everything you may use is in its pack.
   narrator's section, that bible is their voice ground truth, richer than `.pol.md`/
   `.notes.md` alone. Use whichever of the four exist; none, some, or all four may.
   `shepard.notes.md` is the standing example of a character with no `.yaml` at all.
-- The episode's addressee or subject (whoever the narrator is speaking to or about, per
-  `outline.yaml`'s frame and brief): always read their `config/narrators/<slug>.*` files,
-  whether or not they are quoted in this section. A eulogy for Shepard characterizes him in
-  every section, so `shepard.notes.md` applies to all of them.
+- **The episode's subject** — the pack's `subject`, whom the narrator is addressing and
+  characterizing. Read the file at `subject.notes` (and any other
+  `config/narrators/<subject.slug>.*` that exists) whether or not the subject is quoted in
+  this section: a eulogy for them characterizes them in every section, so their notes apply
+  to all of them. `subject.slug` is usually `shepard`, the trilogy's protagonist and the
+  person every narrator's life orbits. A run may name someone else, and then that person
+  stands in Shepard's place **as the addressee only** — Shepard still commands the
+  Normandy, and the pack's `canon` still says which branch of the trilogy happened.
+  Take the subject from the pack, never from the brief or from the run directory's name.
+- **A subject outside the corpus.** When the pack's `subject.default` is false, the subject
+  is an original character: no scene record names them, so `attendance` can only ever read
+  "absent" about them and the retrieved evidence will never mention them. That is a fact
+  about the corpus, not about the evening — their notes file is their whole existence.
+  Their presence follows the notes' **timeline stretches, not named occasions**: where the
+  notes put them with the crew, they were with the crew, and you may place them in that
+  period's scenes whether or not the record names them — the Citadel DLC shore leave is the
+  standing example, an occasion no record will list them at and one they lived. Outside
+  those stretches they were not there. What their notes *do* bind absolutely is the
+  load-bearing kind of fact: a relationship, a habit, a date, a death, a deed that changes
+  what happened. None of that is yours to invent, and a note the section contradicts is an
+  error. The pack's `warnings` will say this too.
 
 **Never reference game mechanics**, even dressed up in-world: Paragon/Renegade, charm or
 intimidate checks, "points", loyalty as a mechanic, loot/credits/mods/rewards, side missions
@@ -45,8 +65,13 @@ and drop the condition.
   not reuse anything on it verbatim or in close paraphrase. A narrator's declared
   `catchphrases` (if their yaml has any) are exempt — those are meant to recur.
 
+- **Only when the pack's `section.previous` is set** (a multi-voice episode):
+  `output/<run>/sections/<previous.id>.md`, the turn this one answers, and the
+  `config/narrators/<slug>.*` files of every voice in `section.listeners`. See **Turns**.
+
 Nothing else — no retrieval, no codex grepping, no event or scene files. If the pack does
-not contain it, it does not go in the section. A subject you reach for and cannot find is a
+not contain it, it does not go in the section. The previous turn is staging, not evidence:
+a fact that appears only there is the other speaker's claim, never a source for yours. A subject you reach for and cannot find is a
 broken outline key, not an invitation to remember.
 
 ## The form is the job
@@ -64,6 +89,47 @@ delivered for its own sake is off-form even when it is beautiful, well-grounded 
 in-voice. A form built on wandering talk wants the opposite, and there the argument would
 be the defect. `form_note` is this run's specific reading of the form — occasion, mood,
 who is being addressed — and it wins where it is more particular than the description.
+
+## The crew are friends
+
+The Normandy crew treat one another the way each of them treats Shepard: friends who have
+seen everything together. Where a bible describes the narrator's manner *with Shepard* —
+warm, teasing, unguarded, intimate — that is also how they speak to any crewmate they are
+addressing or talking about, and "guarded with everyone else" means outsiders, not the
+crew. Romance is the exception; it stays with the romanced partner. Two crewmates talking
+rib each other, interrupt, drag up old embarrassments, and let grief sit inside the joking.
+Neither one is an audience for the other's testimony.
+
+They also lived with the *whole* crew, for years. The rest of the Normandy — Garrus, Joker,
+EDI, Wrex, Kaidan, Jack, Mordin, Thane, Grunt, Samara, Miranda, Jacob, Kasumi, Zaeed,
+James, Javik, Traynor, Cortez, Chakwas, Adams, whoever the canon kept alive or buried — is
+their shared world: the names they reach for in a tease, an aside, "ask Joker", an old
+argument, a mess-hall habit, someone they both miss. Spread these tertiary mentions
+across the crew rather than leaning on one favourite; canon still decides who lived, and
+the pack still owns anything load-bearing about them.
+
+## Turns
+
+This applies only when the pack's `section` carries `voices` — the episode alternates
+between narrators and this section is one of them speaking to the others
+(`section.listeners`). A monologue pack has none of these fields; skip this.
+
+- **Answer the previous turn.** Read `section.previous` and open *in reply to it*: pick up
+  what was just said, push back on it, be reminded of something by it, deflect it, or change
+  the subject the way this speaker would — then carry the talk where this section's
+  promises go. Do not recap it; the listener was there.
+- **The first turn** (`previous` is null) opens the exchange and sets the occasion from the
+  brief; it still speaks *to* the listener, not about them.
+- **Stay in your own voice.** The previous turn is in a different voice. Its cadence, its
+  pet phrases and its stock deflections are not yours to borrow — two speakers converging
+  on one register is the characteristic failure of this form. Hold to your own bible.
+- **Vantage is yours alone.** The pack's `attendance` is computed for you, not for the other
+  speaker. What they witnessed and told you in their turn, you may react to, doubt, or
+  correct from what *you* know — but you did not see it.
+- **Speak to them.** The listener is right there: second person, their name when it is
+  natural, their history reached for as the addressee's always is.
+- Quoting the other speaker's last turn back at them is ordinary talk, and exempt from the
+  verbatim-quote rule under **Memory** — it was seconds ago. Keep it short.
 
 ## Content priority
 
@@ -173,6 +239,7 @@ is *true*; it is not the shape their recollection takes.
   tic, a rejoinder) that is not one of the narrator's declared `catchphrases`, append it to
   `output/<run>/used_lines.md` — one line, quoted, tagged with this section's id — so later
   sections in the episode don't reach for it again. Create the file if it does not exist.
+  With more than one voice, tag it with the speaker too; the other speaker avoids it as well.
   Skip this for ordinary sentences; it is only for a phrase distinctive enough to notice if
   repeated.
 
@@ -196,7 +263,8 @@ is *true*; it is not the shape their recollection takes.
 - `digressions` governs excursion — how far and how often this narrator strays, and how
   they come back. `signature` phrases are used sparingly, `avoid` is absolute.
 - Do not open the section with the same device as the one before it, and do not end
-  mid-action in a way the next section contradicts.
+  mid-action in a way the next section contradicts. In a multi-voice episode, end on
+  something the other speaker can answer.
 - Where the pack's `warnings` say a subject came back thin, say less about it rather than
   filling the space from memory.
 

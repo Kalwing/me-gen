@@ -1,0 +1,1212 @@
+{
+  "section": {
+    "id": "tali-was-closest",
+    "title": "Tali Was Closest",
+    "target_words": 950,
+    "form": "eulogy",
+    "form_description": "The narrator on their feet in a crowded room, speaking about someone who has died. Sections are the things there are to say about the dead — a habit, a fight, a debt, the once they were wrong, the once they were right when it counted. The tone swings: a story that gets a laugh, a line that lands angry, a stretch that can barely be got through. What holds it together is that none of it is polite — every word is meant.",
+    "form_note": "The brief names the form outright: a memorial, six speakers on their feet, the eulogy's swing between a laugh, an angry line, and a stretch that can barely be got through. Jack is a deliberate exception to strict alternation and to normal voice balance - she opens and closes by the brief's fixed order, so she holds two of the seven turns while Tali, Grunt, Liara, Joker and Wrex each hold one. Her two turns are sized as ordinary single turns rather than doubled, but together they total roughly twice any other voice's word count, which is the \"two turns' worth\" the brief asks for. Section targets were raised after the voice checkpoint, at the user's instruction to let the speeches run to their natural length rather than be trimmed to a grid; the middle five now sit at 900-1050 and the episode target at 6650. Each middle turn answers the one directly before it; Jack's closing turn answers the whole room, not just Wrex. Grunt's bible is new and unused before this run - he is built distinct from Wrex throughout: Wrex remembers the Rebellions and the genophage firsthand, Grunt states krogan history as Okeer's tank taught it and then flattens it to \"put in me, not lived,\" and his own lived material is small and recent (the Rite, the Citadel, the mess hall, the war) and used in full. The \"gets a detail wrong and is corrected\" requirement is carried by two beats, not one: Grunt states the assumed version (died on his feet with a gun) and Joker mis-hears whose voice was on the channel, and Wrex corrects both flatly before giving the room the true version - shot on the way to the landing zone, then killed driving a vehicle into a banshee to clear passage for Hammer. Wrex reads that off the wreckage he found days later, not off memory; nobody in the room watched Thomas die, and each of them holds only a piece. No section narrates the Crucible's mechanism or Shepard as confirmed dead; Thomas's Synthesis sympathies, where they surface, are framed as a political stance he held in life, never as knowledge of the ending.\n",
+    "narrator": "tali",
+    "voices": [
+      "jack",
+      "tali",
+      "grunt",
+      "liara",
+      "joker",
+      "wrex"
+    ],
+    "listeners": [
+      "jack",
+      "grunt",
+      "liara",
+      "joker",
+      "wrex"
+    ],
+    "previous": {
+      "id": "jack-holds-the-room",
+      "narrator": "jack"
+    }
+  },
+  "subject": {
+    "slug": "thomas",
+    "display": "Thomas",
+    "notes": "config/narrators/thomas.notes.md",
+    "default": false
+  },
+  "promises": [
+    "answers Jack: what Tali actually saw and heard in the last push, before the Normandy pulled her and Garrus out",
+    "she was forward with Shepard and Garrus and did NOT see Thomas die - she is closest to Shepard's ending and has nothing firsthand about Thomas's, and the gap between those two facts is hers to name",
+    "the mutual-aid engineering partnership: what they actually built and fixed together",
+    "Thomas in the room when she made her peace with the geth at Rannoch, and what the two of them used to argue about before it happened",
+    "does not know what Shepard chose at the end, and doesn't pretend to",
+    "his technical abilities, even if he downplayed them",
+    "The way he welcomed everyone, even lost quarians on their pilgrimages. He gave them all that he could to help them, even if he couldn't afford it or it would hurt him"
+  ],
+  "required_facts": [
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "In the climactic endgame of Mass Effect 3, as Reaper forces ravaged Earth and the Crucible—an ancient superweapon built by the Protheans—required activation at the Citadel, Commander Shepard and Admiral David Anderson led a massive galactic assault on London, England. The Reapers had constructed a towering conduit—a massive structure built from organic and metallic components—in the war-torn city. This conduit, built according to mass relay principles but modified by Reaper technology, served as a direct transport mechanism connecting the ground of Earth to the Citadel, which had been mysteriously repositioned above the planet. The conduit functioned unlike standard mass relays: it emitted a constant, brilliant beam of blue light into the sky, continuously transporting matter (primarily the dead and dismembered remains of slaughtered populations) directly from Earth's surface to the Citadel. The structure had no visible element zero core and, critically, allowed living organic matter to survive transit—arriving at ballistic but survivable speeds—rather than disintegrating as with conventional relays. The Reapers appeared to have multiple destination termini on the Citadel, as different individuals arrived at separate points on the station. The assault ran in two ground stages. First Shepard's shuttle landed to knock out a Reaper anti-aircraft \"Hades Cannon\" with M-920 Cain rounds so the Hammer ground force could land; the team then regrouped at a Forward Operating Base where Shepard held final words with surviving allies before Anderson gave the battle plan. The second stage pushed through occupied London to a missile battery, where Thanix missiles coordinated with EDI on the Normandy destroyed a Reaper Destroyer blocking the road to the conduit. Anderson then arrived by APC for the final charge. The galactic assault on the conduit was devastating. Allied forces from across the galaxy—humans, turians, asari, salarians, quarians, krogan, and others— launched a coordinated ground assault to penetrate the structure and secure access to the Citadel. However, Harbinger, the Reaper flagship and commander of the local Reaper forces, personally defended the conduit with overwhelming firepower, killing or maiming most of the allied assault force. The majority of the attacking soldiers were annihilated, their bodies adding to the biomass flowing through the conduit itself. Despite the horrific casualties, Commander Shepard and Admiral Anderson managed to fight their way through the structure and reached its heart. Anderson, wounded but resolute, helped push Shepard toward the conduit's exit point. Shepard survived the ascent through the conduit and materialized on the Citadel, while Anderson arrived at a slightly different point on the station. Upon reaching the Citadel, Shepard gained access to the Crucible's control mechanisms and the Catalyst—the artificial intelligence that had guided the Reaper cycle for countless eons. At this critical juncture, Shepard was confronted with a series of final choices that would determine the fate of the galaxy: to Destroy all synthetic life (eliminating the Reapers and the geth but also killing EDI), to Control the Reapers (uploading Shepard's consciousness to command them), to achieve Synthesis (merging organic and synthetic life), or to Refuse the Catalyst's offer (allowing the cycle to continue unchanged). The consequences of this choice—affecting the survival of the geth, EDI, the Reapers themselves, and organic civilization—would echo across the galaxy for generations.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Most of the galactic assault force on Earth is killed or maimed; the conduit's light beam carries thousands of casualties toward the Citadel.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Harbinger's personal defense of the conduit results in massive casualties among the allied ground forces.",
+      "actor": "Harbinger"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Commander Shepard reaches the Citadel and gains access to the Crucible control mechanisms and the Catalyst.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Admiral David Anderson reaches the Citadel (severely wounded) and assists Shepard in reaching the Crucible.",
+      "actor": "Admiral David Anderson"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Per the final choice (Destroy/Control/Synthesis/Refusal): - Destroy: All Reapers are destroyed along with the entire geth species and EDI; synthetic life is eradicated; the cycle of extinction theoretically ends. - Control: Shepard's consciousness is uploaded into and merges with the Reaper collective, giving Shepard godlike power but ultimately disembodying them; the Reapers are brought under Shepard's control. - Synthesis: Shepard's genetic code is merged with all organic and synthetic life in the galaxy, creating a new form of hybrid existence; the Reapers are transformed into custodians of this new synthesis. - Refusal: The Catalyst and Reapers are allowed to proceed with the cycle; the Crucible fails and the Reapers continue the harvest; galactic extinction continues indefinitely.",
+      "actor": "The Catalyst"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Shepard's ultimate fate is determined by the choice made and the Crucible's firing.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "If Destroy or Control are chosen and sufficient War Assets are gathered, Shepard survives (though potentially as a Reaper in Control ending or as a hybrid in Synthesis); otherwise Shepard dies in the Crucible's activation.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Depending on the ending, Anderson either survives (on the Citadel) or dies from wounds sustained during the assault.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "The galaxy's future is fundamentally altered: either the Reapers are destroyed (ending the cycle), controlled by Shepard, synthetically merged with organics, or allowed to continue their harvest.",
+      "actor": ""
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "If Destroy is chosen, the geth and EDI are killed along with the Reapers; if Control or Synthesis is chosen, they survive and are transformed.",
+      "actor": "EDI"
+    },
+    {
+      "event_id": "london-conduit-assault",
+      "fact": "Per the Extended Cut: epilogue scenes show Admiral Hackett ordering the fleets to evacuate Earth's orbit, the Normandy caught in the energy wave in transit and crash-landing on a garden world, the Charon Relay's core breaking up while the relay itself survives and the mass relay network is later repaired, and a Liara time-capsule message. A fourth outcome, Refusal (declining to activate the Crucible or shooting the Catalyst), dooms the current cycle to the Reaper harvest but leaves records that let a later cycle break the pattern, shown in an alternate Stargazer scene. Shepard's name is added to the Normandy memorial wall beside Anderson's unless a high-strength Destroy leaves Shepard's survival ambiguous.",
+      "actor": "The Catalyst"
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "crew-never-knew-the-choice",
+      "authority": "override",
+      "kind": "correction",
+      "scope": [
+        "london-conduit-assault"
+      ],
+      "statement": "Nobody in the crew knows there was a choice at the end, let alone which one Shepard made. From the moment Shepard parted from Anderson until the Crucible's wave of energy, nobody saw anything: no one knows where he went, who or what he met, or what happened to him.",
+      "overrides": "event summary narrates the Catalyst and the Destroy/Control/Synthesis/Refuse choice from the player's view",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "final-push-squad-evacuated",
+      "authority": "override",
+      "kind": "correction",
+      "scope": [
+        "london-conduit-assault"
+      ],
+      "statement": "Tali and Garrus were Shepard's squad on the final run to the conduit. Before he went through, Shepard called the Normandy down to evacuate them; he and Anderson crossed without them.",
+      "overrides": "corpus does not name the final squad or their evacuation",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "q-2026-09-15-001",
+      "authority": "question",
+      "group": "questions",
+      "prompt": "At Rannoch (peace), did Legion survive, or did it die uploading the Reaper code as in the standard peace ending?",
+      "answer": "Legion died uploading the code as in the game (recorded in choices.yaml me3.rannoch)",
+      "detail": "choices.yaml me3.rannoch = \"Everyone lived and stayed happy\" and geth_quarian detail \"Couldn't lose anyone\", but the corpus peace outcome is \"peace bought by Legion's self-sacrifice\" (codex; scenes/rannoch-the-choice-above-the-fleet). Legion is kept (legion_cerberus) and the heretics were rewritten, so this is real Legion, not the Geth VI."
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "legion_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Legion's loyalty mission - the heretic geth station.",
+      "answer": "heretics rewritten",
+      "detail": ""
+    },
+    {
+      "id": "veetor_fate",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Freedom's Progress - Veetor, handed to Cerberus or released to the Migrant Fleet.",
+      "answer": "Released",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "legion_cerberus",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether Legion was handed over to Cerberus at the end of Mass Effect 2.",
+      "answer": "kept",
+      "detail": ""
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "geth_quarian",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Geth versus quarians at Rannoch.",
+      "answer": "peace",
+      "detail": "Couldn't lose anyone"
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "final_choice",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The final choice at the Crucible.",
+      "answer": "Synthesis",
+      "detail": "Destroy means genocide for synthetics. Control means having absolute powers for basically eternity, and power corrupts all, I'm not above it. Refuse is stupid. Synthesis is the lesser evil of those choices."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    },
+    {
+      "id": "koris_rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Admiral Zaal'Koris shot down on Rannoch - save him or save his crew.",
+      "answer": "Koris saved",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "rannoch-the-choice-above-the-fleet",
+      "title": "Rannoch, and What Tali Watched",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after",
+      "where": "Rannoch, on the cliffs, with both fleets overhead",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah vas Normandy",
+        "Legion",
+        "Shala'Raan vas Tonbay",
+        "Han'Gerrel vas Neema"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "rannoch": "any"
+        },
+        {
+          "geth_quarian": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "After the Normandy's bombing run cracked the Reaper base open, a Reaper Destroyer climbed out of the crater. Legion secured a geth ship and flew the squad clear while Shepard manned its turret and called in an orbital strike that briefly downed the Reaper. EDI synced the quarian fleet to the Normandy's targeting systems, and Shepard stayed on the plateau alone, dodging the Destroyer's beam through three targeting solutions and a final slow-motion shot while the fleet fired. Mortally hit, the Reaper addressed Shepard by name, said Harbinger judged the Commander a worthy opponent, spoke of Reapers as \"order\" against organic \"chaos\" and the harvest as necessary \"intervention,\" and — if no interrupt was taken — left the threat, \"Finish your war. We will be waiting.\"\n",
+          "source_chunks": [
+            "priority-rannoch_007",
+            "priority-rannoch_008"
+          ]
+        },
+        {
+          "text": "With the Reaper down, the geth are weakened and Admiral Han'Gerrel throws the whole quarian fleet at them.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009",
+            "priority-rannoch_009"
+          ]
+        },
+        {
+          "text": "The geth unit rescued from the dreadnought — Legion, or a VI built in its likeness — moves to upload the Reaper code and restore the geth to full strength, which would catch the quarian fleet unready and destroy it.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009",
+            "priority-rannoch_009"
+          ]
+        },
+        {
+          "text": "Stopped from uploading, it turns hostile, and Tali kills it with her boot knife to save Shepard.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009"
+          ],
+          "conditional": {
+            "geth_quarian": "geth_saved"
+          },
+          "choice": "stopped the upload — geth destroyed"
+        },
+        {
+          "text": "Allowed to upload, Tali watches the entire Migrant Fleet come down burning through Rannoch's atmosphere, takes off her mask, says she is sorry, and steps off the cliff before Shepard can reach her.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009"
+          ],
+          "conditional": {
+            "geth_quarian": "quarians_sacrificed"
+          },
+          "choice": "let the upload finish — quarians destroyed"
+        },
+        {
+          "text": "With Legion alive and the quarians talked into standing down, there is peace — and Legion spends itself giving every geth autonomy, having first confirmed that the answer to its own question about souls was yes.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "legion_status": "geth_vi"
+          },
+          "choice": "the Geth VI stands in for Legion",
+          "text": "If Legion was sold to Cerberus, never activated, or died at the Collector Base, the unit rescued from the dreadnought is the Geth VI — physically Legion's twin down to the holographic N7 shoulder piece and the hole in its torso, but with no memory of anything after Saren's attack on Eden Prime and a colder view of organics, and it insists throughout \"We are not Legion.\" No peaceful outcome is possible with the VI present. If Shepard lets the geth die, the VI violently assaults Shepard — \"[our people] were correct to distrust organics\" — and tries to upload the Reaper code before Tali knifes it in the back, or, if Tali is absent, Shala'Raan kills it with a shotgun; the quarians then win the battle overhead. If Shepard uploads the code to save the geth, the VI thanks Shepard, says its \"skepticism was misplaced,\" and dissolves itself into the consensus to grant every geth true intelligence, and the upgraded geth defeat the quarian fleet.\n",
+          "source_chunks": [
+            "geth-vi_002",
+            "geth-vi_004"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "normandy-garrus-and-tali-reconciliation",
+        "flotilla-tali-treason-trial",
+        "heretic-station-legion-a-house-divided",
+        "geth-dreadnought-freeing-legion"
+      ],
+      "related_events": [
+        "rannoch-quarian-geth-war-resolution"
+      ],
+      "source_chunks": [
+        "tali-zorah-nar-rayya_009",
+        "geth-vi_002",
+        "geth-vi_004",
+        "priority-rannoch_007",
+        "priority-rannoch_008",
+        "priority-rannoch_009"
+      ]
+    }
+  ],
+  "attendance": {
+    "rannoch-the-choice-above-the-fleet": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#04",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London In the last room Shepard found EDI, Tali, and Anderson conferring with Coats. Anderson laid out the battle plan — a frontal armoured assault on the conduit past a parked Reaper Destroyer — and Shepard made an inspiring or grimly determined speech and picked the final squad.",
+      "url": "",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#07",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London If Garrus did not survive, only Victus stood on the ramp and the squad Shepard said goodbye to was smaller.",
+      "url": "",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#02",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London At the FOB, Coats told Shepard how inspiring the Commander would be to the troops, then left to rejoin his unit. Shepard walked the base holding final conversations with the surviving squad — as few as three or as many as seven, depending on who had lived through the trilogy and whether Javik had been recruited.",
+      "url": "",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "scene:normandy-hackett-pre-battle-address#03",
+      "kind": "scene",
+      "page": "Hackett's Pre-Battle Address Before the Assault on Earth",
+      "section": "ceremony",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-hackett-pre-battle-address",
+      "text": "Hackett's Pre-Battle Address Before the Assault on Earth. 2186, immediately before the final assault on Earth, once the combined fleets have gathered in the Sol system aboard the Normandy SR-2, broadcast to every ship and strike team; then a holo-conference Hackett lays out the plan: Sword fleet engages the Reapers in orbit; Hammer strike teams help the Earth resistance reach the Reaper-built conduit in London to teleport to the Citadel and open the arms; Hackett's Shield fleet hangs back to guard the Crucible and bring it in during the fighting. The assembled fleets then launch the assault on Earth.",
+      "url": "",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "summary:conduit-mass-effect-3",
+      "kind": "summary",
+      "page": "Conduit (Mass Effect 3)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Short lore page. The Conduit of Mass Effect 3 was a massive structure the Reapers built in war-torn London in 2186 to transport corpses and other matter directly from the ground to the Citadel, which had been relocated above Earth. Allied galactic forces called it a \"conduit\" and attempted to storm it in order to reopen the arms of the Citadel for the next stage of the war, but were largely annihilated by Harbinger; only Commander Shepard and David Anderson reached the Citadel.\n\nThe structure followed basic mass relay principles but differed in several ways: it emitted a constant beam of blue light into the sky rather than lighting up only during transmission, had no visible element zero core, allowed living matter to survive the trip unaided (arriving at ballistic but survivable speeds), and appeared to have multiple destination termini, since Shepard and Anderson materialized at slightly different points on the station. In some outcomes of Shepard's final decision, the conduit appeared to have been remodeled or rebuilt using prevailing galactic architecture.",
+      "url": "https://masseffect.fandom.com/wiki/Conduit_(Mass_Effect_3)",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "summary:coats",
+      "kind": "summary",
+      "page": "Coats",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Major Coats was a British Systems Alliance soldier stationed on Earth during the Reaper invasion, serving under the command of Admiral Anderson. Before Hammer's final assault, Coats spent three days holed up inside the Big Ben clock tower in London, firing at anything that moved.\n\nDuring the final battle on Earth, Coats provided covering fire while Commander Shepard was extracted by a UT-47 Kodiak Drop Shuttle. Admiral Anderson later ordered him to coordinate the artillery strikes that supported Shepard's team as it advanced toward the Citadel beam. After Shepard was hit by Harbinger during the run on the beam, Coats was heard over the radio ordering all surviving soldiers to fall back from the attack.\n\nThe aftermath depended on Shepard's choices. If Shepard activated the Crucible, Coats was seen helping rebuild London alongside Gabriella Daniels and Kenneth Donnelly, provided the engineering pair had also survived the war. If Shepard had not brought most of the galaxy's forces into the final battle, Coats was instead shown smoking a cigarette amid London's ruins.\n\nCoats first appeared inside Big Ben in the debut trailer for Mass Effect 3 and again in the \"Take Earth Back\" trailer, and he referenced his time in the tower in dialogue before Hammer's attack. He was voiced by Nick Boulton, who also voiced Reyes Vidal in Mass Effect: Andromeda and the male Hawke in Dragon Age.",
+      "url": "https://masseffect.fandom.com/wiki/Coats",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "summary:race-against-time-conduit",
+      "kind": "summary",
+      "page": "Race Against Time: Conduit",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "\"Race Against Time: Conduit\" was the Mass Effect mission that followed \"Ilos: Find the Conduit,\" into which the earlier \"Race Against Time: Sovereign\" journal entry was renamed. Vigil had revealed that the Conduit was not a weapon but a miniature mass relay serving as a back door onto the Citadel, itself an enormous mass relay. Saren Arterius intended to use the Conduit to reach the Citadel, unlock the station for Sovereign, and trigger a Reaper invasion that would destroy all organic life in the galaxy.\n\nThe mission was a linear drive in the Mako out of Vigil's chamber and down a path now cleared of the forcefields that had blocked it earlier. Shepard's squadmates remarked that even the Protheans, with all their power and knowledge, had fallen for the Reapers' traps, and vowed not to share their fate. Geth Rocket Troopers guarded the entrance to a long trench run, which was defended by numerous geth including Rocket Troopers, Troopers, a Shock Trooper, and a Geth Colossus, followed by further groups of Rocket Troopers. There were no item pickups during the driving sections, and the game would not allow Shepard to enter the aqueducts or the Conduit itself without the Mako; entering the Conduit on foot meant instant death.\n\nAt the end of the aqueduct the Mako halted at a ledge overlooking the distant Conduit, and a lengthy cutscene showed the Battle of the Citadel beginning: Sovereign and its geth allies arrived through the mass relay and fired a devastating broadside on the Citadel Fleet, the Citadel forces failed to seal the station's arms, and the commander of the Destiny Ascension ordered the Council evacuated. On the Presidium, a geth threw aside the body of an asari as Saren and his minions took the elevator toward the Council Chambers. Regaining control, Shepard had only 40 seconds to reach the Conduit while dodging four Geth Colossi, then drove into the Conduit, which automatically transported the Mako to the Citadel. The mission led directly into \"Race Against Time: Final Battle.\"",
+      "url": "https://masseffect.fandom.com/wiki/Race_Against_Time:_Conduit",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_016",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If one of them is in a relationship with Shepard, Tali still visits Garrus at the main battery to say her goodbyes as well as make a wager on who can kill the most. Shepard can then thank them both for being there through everything and for believing in the Commander no matter what. Tali then comments that they will finish it the same way as it started, together. During the final mission on Earth, Tali and Shepard can say goodbye before the final battle. Tali's enthusiasm for retaking Earth falters briefly as she laments that she \"wants more time\" to be with Shepard. If she follows Shepard during the final charge to the Conduit, Tali gets critically injured and forcibly evacuated to the Normandy. Although she pleads with Shepard not to leave her behind, he asks her to go on living and to build a home on Rannoch, to which Tali tearfully replies that she already \"has a home\" and begs Shepard to come back to her. After talking with the Catalyst and deciding the fate of the galaxy, Tali will be the last person Shepard sees before ending the Reaper threat. In the aftermath of the war, Tali holds Commander Shepard's name and is poised on sticking it to the Normandy's Memorial Wall. If the Reapers were destroyed and enough of the galaxy's forces were rallied, she refrains from placing the name and the Normandy is seen flying off \\- and in a pile of rubble somewhere a man with an N7 armor stirs. If Shepard merged organic and synthetic life, after placing the Commander's name on the Memorial Wall Tali shares a hug with EDI.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "javik_008",
+      "kind": "page",
+      "page": "Javik",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "While in the London FOB during the final battle, Javik remarks that in his time, the races never came together, nor was there any rallying cry. He proclaims Shepard to be the exemplar of victory not just of any singular species but for all life, offering his hand in stark contrast to their first meeting. Shepard asks him what he'll do when the war is over. If Javik was encouraged to relive the contents of his memory shard, he wishes to return to the Cronian Nebula, the place where his comrades died, so that he may take his own life and join them. He then passes the shard to Shepard, encouraging the Commander to add to it for posterity. If Javik did not touch the shard, however, he tells Shepard that he is looking forward to experiencing what peace would be like, having only known war all his life. If the conflict between Liara and Javik was solved on a friendly note, then Javik will also add that he will co\\-author a book with Liara entitled \"Journeys with the Prothean\", stating that he will need a job after the Reapers are defeated and will also refer to Liara as \"Dr. T'Soni\" instead of \"asari\". If the conflict between them was ignored then Javik will state that he wishes to go to Kahje and live among the hanar like a king. If Javik was rescued from Eden Prime very late in the war and he never visited the Citadel, had a conflict with Liara, or discussed the memory shard with Shepard, he will only express his wish to see more of the galaxy. If Shepard has Javik in the squad for the final push to the conduit, he can be killed by Harbinger if Shepard couldn't rally enough of the galaxy's forces. If he survives the encounter with Harbinger and is evacuated on the Normandy, he may try in vain to convince the Commander to allow him to remain and fight the Reapers, arguing it is where he belongs. If Javik survives the battle on Earth and Commander Shepard chooses to activate the Crucible, he, along with Joker, Traynor, and any other surviving crewmates, can be seen paying their respects to Shepard, placing the Commander's name above Anderson's on the Memorial Wall aboard the Normandy.",
+      "url": "https://masseffect.fandom.com/wiki/Javik",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "summary:priority-earth",
+      "kind": "summary",
+      "page": "Priority: Earth",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Earth was the final mission of Mass Effect 3 and the conclusion of Commander Shepard's trilogy. It was acquired after Priority: Cerberus Headquarters; from that point Sol was the only reachable system, and merely traveling there triggered the mission with no way to back out. Allied fleets assaulted the Reapers above Earth while Hammer, the ground force, tried to land troops near the Citadel transport beam.\n\nThe mission had two main stages. First, Shepard's shuttle landed to knock out a Reaper anti-aircraft \"Hades Cannon\" so Hammer could land; the team fought through streets and a ruined house full of Cannibals, Marauders, and Brutes to a crashed assault team, recovered two M-920 Cain shots to destroy the cannon, held off a Banshee (named \"Morinth\" if that character survived Mass Effect 2) and endless Cannibals, and were extracted, reuniting with Anderson and meeting Major Coats. At the Forward Operating Base, Shepard held final conversations with surviving squadmates, allies, and leaders (Victus, Wrex or Wreav, Kirrahe, and others depending on prior choices) before Anderson gave the battle plan: a frontal armored assault on the conduit past a Reaper Destroyer.\n\nThe second stage advanced through occupied London to a missile battery, where Thanix missiles were coordinated with EDI on the Normandy to destroy the Destroyer while the team fought Brutes, Banshees, and a Harvester and dodged the Reaper's beam. Anderson then arrived by APC for the final push, but Harbinger descended on the conduit and annihilated the ground forces. In the Extended Cut, squadmates survived or died based on Effective Military Strength (below 4200 EMS in Legendary Edition they died). A wounded, solitary Shepard fought through Husks and a Marauder with an infinite-clip pistol to reach the beam.\n\nOn the reconfigured Citadel, Shepard reunited by comm with Anderson and found him held hostage by a transformed Illusive Man, who could now control both of them. The confrontation's outcome hinged on the final choice, with full Paragon/Renegade options requiring Paragon/Renegade choices at every prior meeting with the Illusive Man. Paragon made him realize he was indoctrinated and shoot himself; Renegade interrupts let Shepard kill him. Shepard then opened the Citadel arms to let the Crucible dock. The Catalyst appeared and offered Destruction, Control, or Synthesis (Refusal was also possible), with availability and galactic damage set by EMS. Every activated ending crippled the Normandy, and its crew's survival, the epilogue scenes, and the placing of Shepard's name plaque above Anderson's on the memorial wall all depended on EMS and prior choices. After the credits a Stargazer told a child tales of \"the Shepard.\"",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Earth",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "harbinger_004",
+      "kind": "page",
+      "page": "Harbinger",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the Reaper War, Harbinger is one of the Reapers who leads the attack on Earth. Alliance intelligence suggests that Harbinger is the oldest and largest Reaper of the entire fleet. Harbinger appears during the final battle in London and launches a devastating attack on allied forces attempting to reach the Citadel through the conduit, using weapons that are considerably faster than other Reapers'. It leaves when it appears that Shepard and the rest of the counterattack have been wiped out. Despite its efforts, Shepard and David Anderson make it through, though they are both heavily wounded. If Shepard chooses to activate the Crucible, Harbinger's fate is presumably the same as the other Reapers'. It is either destroyed with all other synthetic life, brought under Shepard's control and used to rebuild and protect the galaxy, or it willingly helps to rebuild the galaxy and disseminate its knowledge after organic and synthetic life are merged. If Shepard refuses to activate the Crucible, then Harbinger is presumably defeated along with the other Reapers in a future cycle.",
+      "url": "https://masseffect.fandom.com/wiki/Harbinger",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "ashley-williams_012",
+      "kind": "page",
+      "page": "Ashley Williams",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "She expresses skepticism as to how long the peace will last. During one of the downtimes after missions, Ashley sends a mail to Shepard stating that the preparations for Sarah's husband's memorial service are complete. It takes place on the Refugee Docks' Memorial Wall, and Shepard can visit the sisters there in one of the next trips to the Citadel. Ashley compares her sister's demeanor to their father's during the memorial: all smiles regardless of stress. If Shepard commends this behavior, Ashley delves further into memories of her father before joining Sarah in shared remembrance. Ashley sympathizes with Liara's grief after the disastrous mission on Thessia. She tells Shepard she will talk to Liara to ease her suffering. After the mission on Horizon, Ashley is horrified by what the squad found in the ruins, either through second\\-hand retelling or, if personally present, being distressed enough to be unable to forget the place. Just when she thought she's heard of everything, she notes how the plan to lure in refugees was so cold and calculating that she can't understand it. She is glad that she can't, as it's what helps retain her humanity. If Miranda died on Horizon Ash consoles Shepard, knowing she meant a lot to the Commander. Speaking further, she wonders aloud about what the galaxy's refugees will do next. After the raid on Cronos Station, Ashley expresses her relief in seeing Cerberus well and truly gone. Even though she doesn't want to reopen old wounds, she appreciates the irony of Shepard being the one responsible. Her final words about Cerberus before closing the matter for good is \"good riddance.\" Ashley can be spoken to during the final assault on Earth, loitering near a couple of soldiers and a structure housing the London FOB's holographic communications terminal. Otherwise, if she was previously handed over to Hackett she won't be among the people Shepard can talk to in the FOB's communications center. Restless when Shepard inquires how she's holding up, she asks back if they have a chance, and the Commander assures her there's always hope as it got them so far. She praises Shepard as the reason all of them got to where they are now, and if Shepard answers that Ash and other people like her picked the Commander up when they stumbled, Ash quips back that \"hero\\-lady/hero\\-man\" saved her almost as many times as she saved them. She feels it's been a thousand years since Eden Prime, finding it hard to figure out how they got to their current situation. Ash was always a survivor, and Shepard compliments her as such, though she doesn't really believe it until her Commander adds that she's also a Spectre and a fine soldier. There's one more hill to take, Shepard queries the Lieutenant\\-Commander if she's ready, and she confidently responds that she is. If Ashley is in the squad at the final push towards the conduit, she will be killed by Harbinger alongside another squad member if Shepard failed to muster enough of the galaxy's forces for the fight. If she survived and Shepard activated the Crucible, Ashley may be seen convincing Joker to fly the Normandy to safety before getting caught in the blast wave. Much later, Ashley will be among the mourners paying their respects to the fallen at Normandy's memorial wall.",
+      "url": "https://masseffect.fandom.com/wiki/Ashley_Williams",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "conduit-mass-effect-3_001",
+      "kind": "page",
+      "page": "Conduit (Mass Effect 3)",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the Reaper structure. For the object in the first game, see Conduit.* | | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | The Reapers construct a massive structure in war\\-torn London in 2186, designed to transport corpses and other matter from groundside directly to the Citadel relocated above Earth. Dubbed a \"**conduit**\" by the allied galactic forces, they attempt to storm it in order to reopen the arms of the Citadel for the second leg of their war strategy, only to be largely annihilated by Harbinger. Only Commander Shepard and David Anderson make it to the Citadel. This conduit follows basic mass relay transport principles but slightly deviates in multiple aspects, starting with the physical attributes. Unlike the spaceborne systems that light up only when transmitting or receiving objects, this conduit emits a constant beam of blue light into the sky. It has no visible element zero core. It can also allow living matter to survive the trip unaided, arriving at ballistic but survivable speeds. Additionally, it appears to have multiple destination termini, as Shepard and Anderson seem to have materialized at slightly different points on the station. In some outcomes of Shepard's ultimate decision, the conduit appears to have been remodeled or rebuilt with prevailing galactic architecture.",
+      "url": "https://masseffect.fandom.com/wiki/Conduit_(Mass_Effect_3)",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "priority-earth_011",
+      "kind": "page",
+      "page": "Priority: Earth",
+      "section": "The Last Mile",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After a cutscene showing the Thanix missiles finally hitting their mark and inflicting a fatal blow on the Destroyer, Anderson rolls up in an armored personnel carrier along with Coats and the remnants of Hammer. It's now time for the final push to the conduit, but Hammer is badly depleted and overwhelming enemy reinforcements are on the way. To make matters worse, Anderson reports several Reapers have broken off from the battle with the Sword fleets in orbit and are approaching the conduit, and that none other than Harbinger itself is among them. Shepard, Anderson, and the squad board the vehicle and head in, while Anderson contacts Admiral Hackett to let him know Hammer is making its move. At Hackett's signal, the Crucible, closely guarded by Shield fleet, enters from the mass relay and heads for the Citadel. The scene switches to inside Anderson's APC as Shepard and the squad approach the beam. Anderson remarks that they only need to get a handful of forces through the beam to succeed. Shepard makes a final comment on the upcoming battle, either Renegade or Paragon, to which one of the squad members will respond. They are then interrupted by an explosion that cripples the vehicle, forcing the team to exit. Outside, the conduit is now clearly visible no more than a few hundred meters ahead, but everyone's attention is focused on something else: Harbinger has arrived. Descending on the conduit, it begins unleashing its main weapons on the already\\-beleaguered ground forces, annihilating everyone and everything in sight. There is no more choice and no more time. ***RUN.*** In the Extended Cut/Legendary Edition, you'll witness the survival or deaths of the squadmates you brought with you depending on your War Asset rating; specifically, get below 2100 EMS (4200 in Legendary Edition) and they're kaput. One indication they'll die is if during the initial space battle at the beginning of the mission the allied ships are prominently shown being beaten by the Reapers. In case they survive, you get to bid them an emotional farewell as the Normandy makes an emergency drop and pulls them out of the combat zone, doubly emotional if you are in a relationship with one of them. You forge on alone, but one of Harbinger's beams lances directly at you and everything goes white. Once a brief cutscene is over, you'll find yourself badly injured and alone, though you'll still be able to hear allied radio chatter, including Coats reporting that Hammer has been routed. It's all up to you now—press on to the conduit. The final combat will feel more like a minigame: you won't have your normal powers, armour, guns, or squadmates available. You'll have to defend yourself against three Husks and a single Marauder, but you'll be in slow motion whenever an enemy shows up, and your arm will not be steady, making lining up your shots harder than it seems. If you are having trouble, try walking backwards once the Husks spawn and do not zoom in; while counterintuitive this seems to keep your aim the steadiest. Aim center mass (body shots) to soften them up, slow them down, and maximize your chances of hitting. Landing headshots on the Husks is difficult but will result in an instant kill even on Insanity difficulty. **Tip:** Your pistol has an infinite clip and never needs to be reloaded (you can perform a manual reload, but don't). The Husks always appear to your right, climbing up over the edge of the chasm surrounding the conduit, so spamming your pistol at where they will first appear can soften them up a lot before they even fully climb up and time slows down. Between the Husks and the Marauder, Shepard will fall down once, so you'll know the Marauder is coming soon. The Marauder is *always* able to hit you once, this is a scripted event and it's impossible to hit it before this occurs so don't worry, but after you recover from the initial hit, it's game time. Walk forward without zooming while aiming center mass, and if you are able, compensate for the sway of your reticle by adjusting your aim continuously. The most important thing in the Marauder encounter is to not miss *any* of your shots and to fire as fast as possible. You shouldn't worry about head shots, for while they do more damage, going for the head increases your chances of missing completely. The higher the difficulty level, the less time you have to start hitting it before it shoots again and kills you, so don't take too long lining up your first shot. **Note:** In the Extended Cut and Legendary Edition, the final Marauder's shields are partially depleted, making it slightly easier to kill.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Earth",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "saren-arterius_008",
+      "kind": "page",
+      "page": "Saren Arterius",
+      "section": "\"Join us.\"",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The next confrontation between Shepard and Saren occurs on the lost Prothean world of Ilos, where the Conduit is hidden. While Shepard is delayed by the Council, which believes a blockade would stop Saren from attacking the Citadel, Saren is able to reach Ilos first. The activated Conduit allows Saren to travel to the Citadel, bypassing its external defenses, while Sovereign and a geth fleet assault the Citadel from the outside. After killing the operators of Citadel Control, Saren makes his way toward the Citadel's master control unit, intending to transfer control of the Citadel to Sovereign to activate the latent mass relay, paving the way for the rest of the Reapers to enter through from dark space. Saren is interrupted, however, when Shepard and the Ilos ground team rush in, following Saren through the Conduit. Shepard can convince Saren that, indoctrinated or not, he still has a way to stop Sovereign. Saren commits suicide by shooting himself in the head, to prevent himself from opening the Citadel relay, but not before muttering, \"Goodbye, Shepard. Thank you.\" Otherwise, Shepard is forced to battle Saren atop the Council platform. At the end of the fight, Saren falls through the glass floor of the Council Chambers and is fatally impaled by a large glass shard. Shepard's team assures Saren's death by shooting the rogue Spectre in the head. Sovereign, however, reanimates the misguided turian's body, burning away all of Saren's flesh, revealing the extent of the cybernetic \"upgrades\". By controlling Saren's corpse and speaking in his voice, Sovereign has the turian fight one last battle. Shepard and the team manage to destroy the nightmarish construct, and Saren's synthetic remains disintegrate. The avatar's destruction corrupts the signal used by Sovereign to control Saren's body and causes it to lose control of its shields, allowing the Alliance fleet to destroy it. Despite the victory, Shepard knows that fundamentally, Saren was right. Sooner or later the Reapers will return, and Shepard vows to find some way to stop them. |  | ***“Salvation comes with a cost.”*** — Spoilers for **Mass Effect: Ascension** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Saren_Arterius",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "storyline_039",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Ilos",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Sovereign had possibly planned this for centuries after discovering the Protheans' sabotage plan. Vigil gives Shepard a data file that will give the Commander temporary control of the Citadel to stop Sovereign. After leaving Vigil, Shepard heads through the archives, down into an old aqueduct guarded by geth, and reaches the Conduit. Saren had already gone through, leaving geth to stay guard. Meanwhile, Sovereign begins its assault on the Citadel, escorted by a large geth fleet. Matriarch Lidanya, the commander of the Destiny Ascension, attempts to close the Citadel's arms but the station doesn't respond—the operators at Citadel Control are all dead. The Council are forced to evacuate aboard the Ascension. Saren has begun his attack from within. Back on Ilos, Shepard sees the Conduit is closing fast. Rushing to the Conduit, Shepard evades the geth in the process and drives the Mako through, just before the relay closes. On the Presidium, now burning and heavily damaged, two geth troopers notice a blue glow around the Relay Monument. When they go to take a look, the Mako suddenly bursts through and crushes them, before rolling over and crashing against a wall. The race to stop Saren is on.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "the final assault on the conduit in London and the squad Shepard evacuated before the end"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-romance-suit-trust#02",
+      "kind": "scene",
+      "page": "Tali, the Suit, and the Mask Before Omega 4",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-romance-suit-trust",
+      "text": "Tali, the Suit, and the Mask Before Omega 4. 2185, aboard the Normandy SR-2 — after Tali's treason trial, and the night before the Omega 4 relay the Normandy's engineering deck, then Shepard's cabin After the treason trial Shepard finds Tali on the engineering deck running a small fever from a sloppy suit repair. She explains that linking suit environments is the quarians' deepest and most sacred gesture of trust, dangerous enough to make both parties ill, and lets slip that Shepard is the only person she has ever trusted that far. She stammers, blames the blush on the fever, then admits she has had feelings for Shepard since the fight against Saren but never believed a non-quarian could see who she was under the mask. Shepard tells her the feeling is mutual.",
+      "url": "",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "scene:normandy-engineering-gabby-and-kenneth#04",
+      "kind": "scene",
+      "page": "Down in Engineering with Gabby and Kenneth",
+      "section": "banter",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-engineering-gabby-and-kenneth",
+      "text": "Down in Engineering with Gabby and Kenneth. 2185, across the run-up to the Omega 4 Relay the engineering deck of the Normandy SR-2 Their standing maintenance headache is the FBA arrays. Kenneth starts on the full technical description; Gabby cuts him off and tells Shepard they need FBA couplings. Buy them and Kenneth invites the Commander to a game of Skyllian-five poker, which Shepard can join, decline, or forbid outright.",
+      "url": "",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "manual-the-ssv-normandy-sr-1-part-1-purpose-and-interior_005",
+      "kind": "page",
+      "page": "The SSV Normandy SR-1 (Part 1) — Purpose and Interior",
+      "section": "Deck 3 — Cargo, vehicle bay, and engineering",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The elevator at the stern of Deck 2 descends to Deck 3: the cargo hold, the M-35 Mako storage bay, and main engineering. The open space needed for vehicle storage and maintenance makes this a multi-purpose area, housing an armory, a workshop, and storage lockers for strike-team equipment. The Alliance requisitions officer is stationed here, overseeing equipment through the forward garage bay beneath the bow. Down the corridor from the hold is the engine room — a single platform for the engineering staff with three main monitoring consoles — and, at the rear, the ship's most important system: the Tantalus drive core (covered in Part 2).",
+      "url": "",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "migrant-fleet_004",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Life in the Migrant Fleet",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Migrant Fleet is broken up into various clans, sometimes spread over several ships. Each individual ship has long been retrofitted to house as large a crew as possible. Over time the quarians thin out the vessels they can't use or are too damaged to repair, pooling the credits to buy and convert new ships. Due to the high value of ships, stealing one is a capital crime among the quarians. Conditions aboard every vessel in the Migrant Fleet are extremely cramped. One cruiser, the Idenna, had a quarian population of nearly seven hundred, while an Alliance cruiser of comparative size would have only around eighty crewmen. Space is at a premium because of the sheer numbers of quarians living aboard the Flotilla. Captains are also keen to increase the size of their crew, as this increases their status in quarian society. Living space is therefore a priority; the cargo holds of freighters, for example, are converted into small compartments for individuals to live in, often lined with colourful fabrics to make it an individual space and reduce noise. Quarians also serve volunteer rotations aboard the three Liveships which form the heart of the Fleet. Enormous vessels which are recognised as being incredible feats of aerospace and agricultural engineering, the Liveships provide much of the food for the quarian Migrant Fleet. If even one of these vital ships was destroyed or damaged beyond repair, millions would starve. For this reason they are positioned in the center of the Migrant Fleet and heavily defended by the quarian navy. Little more is known about the Liveships, since only quarian ships are allowed to enter the flotilla. One of the foodstuffs grown there is the keleven, a breed of blooming high\\-protein bioengineered celery. Everything the quarians do must help to ensure the continued survival of the Migrant Fleet. The Pilgrimage forms a large part of this, as well as being a cultural rite of passage and a safeguard against inbreeding. The Pilgrimage also gives quarians a chance to explore galactic society and appreciate their own people back on the Flotilla. Young quarians are prepared for their Pilgrimage by having lessons in life outside the Migrant Fleet, receiving gifts to help them, and being treated for immunodeficiency before they are allowed to leave. Apart from their Pilgrimages, quarians typically spend their entire lives living shipboard and contributing to the Flotilla. In addition, quarians do not normally welcome outsiders onto the Migrant Fleet, because visitors carry an unacceptable risk of contagion; taken together, these factors mean quarians tend to be quite insular, caring little about the galaxy outside the Fleet. Upon the Migrant Fleet's arrival in a system, the quarians begin strip\\-mining local planets for resources. In colonized systems, quarians are also often hired \"under the table\" by corporations for their specialised skills, replacing existing workers. These practices make the approach of the Migrant Fleet a very unpopular prospect. Some species make a \"gift\" of fuel, food, or ships if they know the Flotilla is approaching in order to discourage the quarians from entering their systems.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "codex-mass-effect-andromeda-andromeda-species_065",
+      "kind": "page",
+      "page": "Codex (Mass Effect: Andromeda)/Andromeda Species",
+      "section": "Remnant Observer",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Observers, mid\\- to long\\-range Remnant drones, can be seen at most Remnant sites. They are equipped with element zero cores that allow them to levitate, and can normally be seen scanning or conducting maintenance at these sites. While they are the least robust of the Remnant bots, Observers are still a threat to unprepared explorers if provoked. Examination of destroyed Remnant Observers shows they have multiple sensor vectors—visual, aural, electromagnetic, and others as yet undefined—and a comprehensive toolkit of equipment for observation and maintenance, including an ultraviolet beam laser. Serving partially as its primary weapon, the frequencies of an Observer's laser appear to react with Remnant structures to induce a repair cycle. Observers are also capable of bringing other Remnant online, likely as part of their maintenance duties. When asked, Peebee explains the name \"Observers\" with \"Everywhere you go, they seem to be looking at you.\"",
+      "url": "https://masseffect.fandom.com/wiki/Codex_(Mass_Effect:_Andromeda)/Andromeda_Species",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "codex-aliens-non-council-races_036",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Council Races",
+      "section": "Quarians: Economy",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Migrant Fleet has little economic base, operating in a state of perpetual \"hand\\-to\\-mouth\". While quarian ships include light manufacturing and assembly plants, they lack heavy industries such as refining and shipbuilding. The fleet has tankers for water purification and oxygen cracking, but the space\\-intensive nature of agriculture limits food production. A single disaster could destroy the fragile balance. The quarians earn income in creative ways. Because the government is obliged to provide food, water, air, and medical support for every individual, the Conclave strategically determines the course of the Fleet to bring in resources and income. A species who suspects the Migrant Fleet is heading towards their space often offers a \"gift\" of surplus starships, fuel, and resources to alter course. As the fleet passes through a system, swarms of mining vessels work over asteroids for metals and siliceous materials and cometary bodies for water ice and organics. Quarian miners are adept at locating and strip\\-mining space\\-borne resources. This sparks conflict with corporations already working the system. Large mining concerns spend millions on lobbyists and public relations portraying the quarians as locusts, devouring the resources of a system before moving on. The greatest asset of the quarians is their rarefied skills. Most are experienced miners. Due to their life of perpetual salvage and repair, they are skilled engineers and technicians. More than once, the very corporations that lobby against the quarians have made back room deals with the Fleet, arranging for skilled quarians to fill space engineering jobs that other species would demand higher wages for. Quarians are widely hated among the working classes. \"The quarians are coming to take our jobs\" is a common response to the Fleet's approach.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Council_Races",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "shadow-broker-dossiers-tali-zorah-vas-normandy_001",
+      "kind": "page",
+      "page": "Shadow Broker Dossiers/Tali'Zorah vas Normandy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Mechanic and engineer. Typical quarian investment in species' future instead of personal advancement. Father's work useful in widening tensions between geth and quarian races.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Dossiers/Tali'Zorah_vas_Normandy",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "summary:medi-gel",
+      "kind": "summary",
+      "page": "Medi-gel",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Medi-gel was an all-purpose medicinal salve combining an anaesthetic and a clotting agent, used by paramedics, EMTs and military personnel and produced by the Sirta Foundation, a human genetics and bio-engineering corporation. It sealed wounds instantly against infection, contaminants, gases and liquids, gripping flesh until subjected to a specific ultrasound frequency to allow rapid healing. Because it used biological nanides to repair tissue, it technically violated Citadel genetic modification law, but the restriction was ignored due to its benefits.\n\nDespite its biogenetic nature, medi-gel could repair fully synthetic platforms as well as organics; Lieutenant Girard spoke of using it on injured geth in 2186, and Shepard routinely used it to repair geth and mech squadmates. It had strong sedative properties, with large doses inducing a protective comatose state that slowed the effects of critical injuries. It was dispensed from squeezable tubes or injected intravenously, and by 2183 a minor field dose could be applied via omni-tool, remotely boosting an entire squad's health. Around 2185 combat hardsuits gained automatic self-healing systems that used small quantities of medi-gel to regenerate health during combat, aided by cybernetic augmentations to skin, muscle and bone. By 2186 formulas could be tailored to species biochemistry, including a Cerberus enhancement effective only on hanar; contrary to some Alliance soldiers' belief, it worked on batarians. Maya Brooks claimed it could mimic skin pigmentation and that overdose altered perception and mood.\n\nIts limits included an inability to compensate for massive blood loss (as with a dying quarian civilian on Rannoch), an inability to halt infections already set in, and an inability to fully repair serious injury, where it served only to stabilize patients until surgery; amputation of necrotic limbs remained sometimes necessary. Across the trilogy medi-gel was a collectible consumable tied to the First Aid, Unity and First Aid abilities, with carrying capacity upgrades: up to 10 units in Mass Effect (refilled free between missions), 3 to 9 in Mass Effect 2 (not refilled, surplus salvaged for 100 credits), and up to a campaign-upgradable amount in Mass Effect 3 (auto-refilled, surplus salvaged for +150 experience).",
+      "url": "https://masseffect.fandom.com/wiki/Medi-gel",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "war-assets-turian_007",
+      "kind": "page",
+      "page": "War Assets/Turian",
+      "section": "Turian Engineering Corps",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Complete Priority: Tuchanka **Military Strength:** 110 In a society where the military is synonymous with the government, the Turian Engineering Corps is responsible for everything from maintaining sidewalks to creating spaceports. Their fame spread beyond Palaven after they helped repair the damage done to the Citadel by Sovereign in record time. TEC engineers view the Crucible as the greatest challenge of their career, and have sped up the building process with their expertise and equipment.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Turian",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "benning_002",
+      "kind": "page",
+      "page": "Benning",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Benning**, the nearest garden world to Arcturus Station, is the primary source of its food supply and an important staging area for starship maintenance and repair. Occupying the planet would be key in any attempt to retake the system's relay. Scattered intelligence indicates that during the battles of Arcturus and Earth, the Reapers sent a small force to Benning to destroy its comm buoys, spaceports, and starships. With the population immobilized and communications cut, the main force concentrated on the larger prize, knowing they could return before repairs could be made or help could arrive. Heat sources in Benning's space indicate a non\\-Reaper presence here.",
+      "url": "https://masseffect.fandom.com/wiki/Benning",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "scene:haestrom-tali-recruitment#08",
+      "kind": "scene",
+      "page": "Recruiting Tali on Haestrom",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "haestrom-tali-recruitment",
+      "text": "Recruiting Tali on Haestrom. 2185, after Horizon, deep in geth-controlled space the ruined quarian research site on Haestrom, under its dying sun Shepard closes to melee range to permanently disable the Colossus's repair protocol, then destroys it and the infinitely spawning geth.",
+      "url": "",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "scene:normandy-garrus-and-tali-reconciliation#03",
+      "kind": "scene",
+      "page": "Garrus Apologises to Tali",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-garrus-and-tali-reconciliation",
+      "text": "Garrus Apologises to Tali. 2186, after Rannoch aboard the Normandy SR-2 Elsewhere Tali asks EDI why the Reapers have not made husks of quarians. EDI's answer is not that they are useless but that the Reapers have not met them in numbers, and that the Normandy has benefited enormously from quarian engineering. Tali takes the comfort and thanks her.",
+      "url": "",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "war-assets-alien_003",
+      "kind": "page",
+      "page": "War Assets/Alien",
+      "section": "Rachni Workers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Saving the Rachni Queen, both in Mass Effect and during the Attican Traverse: Krogan Team mission. **Military Strength:** 100 Not at all mindless insects, the rachni are capable of feats of engineering comparable with any sentient species. While initially greeted with suspicion, the rachni workers dispatched to the Crucible have integrated into the project smoothly. They work especially well on tasks that benefit from group work, and senior Crucible staff members are learning to trust the rachni with more complex problems.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alien",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "summary:dossier-tali",
+      "kind": "summary",
+      "page": "Dossier: Tali",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Dossier: Tali\" was a Mass Effect 2 recruitment mission provided by the Illusive Man after Horizon. Tali'Zorah, formerly nar Rayya and now vas Neema, had earned her adult name after helping Shepard defeat Saren two years earlier and was on a classified assignment for the Migrant Fleet Admiralty Board on Haestrom, a former quarian colony world deep in geth-controlled space. Tali's team had gone there to study unusual behavior in the planet's dying sun. The mission was defined by intense solar radiation that stripped kinetic and biotic shields, forcing Shepard to move cover to cover in shade, and by large numbers of geth including Troopers, Rocket Troopers, Hunters, Destroyers, Recon Drones, Primes, and a Geth Colossus.\n\nFighting through the facility, Shepard's squad encountered the bodies of Tali's quarian marine escort and answered a radio to meet Kal'Reegar, the marines' commander and sole survivor. To reach Tali's position at an observatory, Shepard retrieved two demolition charges from a garage and a bunker to destroy a pillar blocking the path. Tali contacted Shepard by comm, unlocked her base camp door, and asked that Reegar be kept alive. In the final battle a Geth Colossus with a self-repair ability blocked the way; Shepard could persuade Reegar (via Paragon interrupt) to stand down or let him provide covering fire with his missile launcher, which risked his death. Shepard had to close to melee range to permanently disable the Colossus' repair protocol, then destroy it and the infinitely spawning geth reinforcements.\n\nTali was recruited. If Reegar survived he uploaded the mission data; if he died, Tali uploaded it herself, dismayed at being her team's only survivor. Bringing Legion caused Tali to open fire on it, though she agreed to defer the argument. Back on the Normandy, Jacob welcomed Tali, who took up a post in main engineering across from Gabriella Daniels and Kenneth Donnelly. Admiral Rael'Zorah, Tali's father, emailed Shepard confirming her approved transfer and warning that harm to her through negligence would bring severe consequences. Rewards included the M-9 Tempest, the Geth Pulse Rifle (Hardcore/Insanity only), iridium, and Assault Rifle and Heavy Pistol damage upgrades. If the mission was never completed, Tali was not recruited, the Normandy's shields could not be upgraded (guaranteeing a squad death in the suicide mission), and Tali would not appear in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Tali",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "summary:kenn",
+      "kind": "summary",
+      "page": "Kenn",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Kenn was a young quarian merchant who ran Kenn's Salvage on Omega station. He had come to Omega during his Pilgrimage but became stranded when all his money was stolen and he could no longer afford passage off the station. A rival merchant, Harrot, kept him from earning enough by forcing him to sell his goods at inflated prices, costing him business. Kenn sold the T6-FBA coupling that the Normandy SR-2's engineers needed to ease their maintenance work.\n\nIf asked, Kenn told Commander Shepard about his situation. Shepard could persuade him to lower his prices, or intimidate Harrot into nullifying their agreement so Kenn could set his own prices, after which a grateful Kenn offered a discount. Kenn still needed a thousand credits for passage off Omega, which Shepard could pay. If Shepard instead convinced Harrot to buy out Kenn's shop, the quarian disappeared from his kiosk but Harrot's store-wide discount applied to the former shop. If Shepard simply gave Kenn the fare without haggling, he left with no discount offered.",
+      "url": "https://masseffect.fandom.com/wiki/Kenn",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "summary:pilgrimage",
+      "kind": "summary",
+      "page": "Pilgrimage",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Pilgrimage was a quarian rite of passage. On reaching young adulthood, quarians of the Migrant Fleet had to leave their birth ship, travel the galaxy, and find something of value to bring back as a gift for a prospective captain, proving they would not be a burden on a ship's thin resources before being accepted as a permanent crew member. Stripped of ritual, the practice was a means of maintaining genetic diversity across the small, isolated shipboard populations of the Fleet, since marrying within one's birth vessel would sharply raise the risk of inbreeding. It also let quarians experience life beyond the Flotilla and appreciate their own people and culture, often the only chance they would get, as their skills became indispensable to the Fleet once they returned. Exceptions were made for the sick or unfit, and gifted individuals could occasionally receive special dispensation from the Admiralty Board.\n\nIn preparation, quarians were surgically fitted with immunity-boosting implants, since growing up in the sterile ships left them with virtually no natural immune system, and were given survival lessons plus weapons and armor. Some never returned, whether through misadventure or by choosing a different life. For safety a captain gave a departing quarian two code phrases for their return: one signalling success and safe reintegration, the other an alert phrase indicating return under duress, which would cause the quarian navy to immediately destroy the returnee's ship.\n\nPilgrimage gifts varied widely: food, fuel, technology, knowledge, or even a new starship for the Fleet. Some gifts were valued more than others, a derelict towed back for salvage being treated disdainfully, and individuals from prominent families were expected to return with something special, but a captain would usually accept even a modest gift out of tradition. The one absolute rule was that the gift must not be obtained by harming another, quarian or not. On completing the Pilgrimage and joining a new ship, a quarian's name changed: the childhood title \"nar\" (\"child of\"), followed by the birth ship's name, was replaced by \"vas\" (\"crew of\"), followed by the name of the ship they had earned the right to join.",
+      "url": "https://masseffect.fandom.com/wiki/Pilgrimage",
+      "for_key": "quarian engineering, repair work, and shipboard maintenance"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-04",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The fourth part of a hand-corrected video-essay character analysis covered Tali'Zorah in Mass Effect 3. If she survived the Suicide Mission, she apologized to Shepard for the trial and admitted he had been right: \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" She took an Admiral's seat in her father's place specifically to push back against the Board's worst ideas, the version of Tali the essayist preferred. If exiled, she instead told Shepard the trial had shown her she belonged \"on the Normandy, helping you,\" aiding her people from the shadows.\n\nAs Admiral she doubted her fitness to command, with seventeen million lives riding on her. After speaking with Legion she believed the quarians could sue for peace, but once Daro'Xen turned Rael'Zorah's research into \"an invasion too good to pass up,\" Tali had no choice but to support it \"for the good of the Fleet,\" regressing toward the sacrificial lamb of ME2 and becoming a near-powerless victim of politics again. The essay noted quarian scarcity: 17 million in the flotilla, one child per family unless the population declines, every quarian contributing to the Fleet's survival. Shala'Raan was the reason Tali was permitted to attempt to retake the Alarei.\n\nAt the Rannoch climax Shepard chose between peace, geth genocide, or quarian genocide. Siding with the quarians, Tali killed Legion (or shut the geth down) with a \"flat shovel blade,\" expressed regret, and answered Legion's last question, \"Does this unit have a soul?\", with \"Yes... yes, it does.\" Siding with the geth, Tali begged Shepard not to choose them over her people, then as Admiral called off the quarian fleet's attack while Legion sacrificed himself to disseminate the code. On the botched path, unable to stop Han'Gerrel, Rael and Daro'Xen, Tali watched what remained of the quarian fleet burn in Rannoch's atmosphere, Captain Ysra of the Rayya on the radio, and took her own life before her home ship burned. Afterward, if the geth helped rebuild Rannoch, Tali admitted: \"I'd have killed the geth with no regrets, and I'd have been wrong.\"",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "scene:rannoch-admiral-koris#07",
+      "kind": "scene",
+      "page": "Landing to Pull Admiral Koris Off Rannoch",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-admiral-koris",
+      "text": "Landing to Pull Admiral Koris Off Rannoch. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, then geth-held territory on the Rannoch surface and a shuttle over it\n Shepard obeys Koris's order and leaves him, diverting the shuttle to lift out his crew; Shepard still works the door turret against the Rocket Troopers and their missiles until the crew is aboard. Koris dies on the ground, priming a grenade and charging a Geth Prime and its troops. The Quarian Civilian Fleet war asset drops by 75 Military Strength, and if the quarians otherwise survive the war their leaderless Civilian Fleet panics and some captains are cut down fleeing; depending on Shepard's other choices this can make quarian-geth peace impossible.",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#06",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch If Legion did not survive Mass Effect 2 — sold to Cerberus, never activated, or lost at the Collector Base — the unit wired into the drive core was a generic Geth VI. Freeing it had the same effect, and the VI took Legion's place in the war room.",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "news-stories_014",
+      "kind": "page",
+      "page": "News Stories",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Palaven has not yet fallen to Reaper forces.\" - **If peace was made between the quarians and the geth**: \"Quarian and geth ships have given the turians critical support to keep their military functional.\" - **If the quarians destroyed the geth at Rannoch:** \"Quarian ships have taken over vital support duty for the turian military in key areas.\" - **If the geth destroyed the quarians at Rannoch:** \"Geth ships have provided vital assistance in slowing the advance of Reaper forces.\" After completing N7: Communication Hub - \"Cerberus forces have been repelled after attacking a secret Alliance comm facility on Ontarom.\" After completing Priority: Horizon - \"Refugees fleeing to Sanctuary have been killed. The Alliance is warning civilians that Sanctuary was a front for Cerberus operations.\"",
+      "url": "https://masseffect.fandom.com/wiki/News_Stories",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "mail-mass-effect-datapad_017",
+      "kind": "page",
+      "page": "Mail (Mass Effect: Datapad)",
+      "section": "Hackett",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- You never were one to miss a chance to make alliances, Commander. Nice work with the geth. **Note:**  Only if paragon/renegade choice made in Priority: Rannoch to secure peace. - Nice work bringing in the quarians. Victus is already reporting them helping out. **Note:**  Only if choice is made to sacrifice the geth in Priority: Rannoch. - Hope these synthetics work well on our side. Their fleet's impressive, I'll give them that. **Note:**  Only if choice is made to sacrifice the quarians in Priority: Rannoch.",
+      "url": "https://masseffect.fandom.com/wiki/Mail_(Mass_Effect:_Datapad)",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "war-assets-geth_003",
+      "kind": "page",
+      "page": "War Assets/Geth",
+      "section": "Geth Fleet",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: The completion of Priority: Rannoch. At the end, the player must choose the side of the geth. If Admiral Gerrel is convinced to cease fire on the geth ships, the quarian war assets will also be obtained. **Military Strength:** 300 Many geth vessels are built to explore, mine, or provide transport between factories and space stations. But every geth ship, regardless of purpose, is also capable of engaging hostile forces. Unbound by the Treaty of Farixen, the synthetic intelligences built almost as many dreadnoughts as the Turians \\[sic]. The software running these ships is in the geth themselves. Highly advanced electronic security measures and cyber warfare suites bolster already formidable firepower. UPDATED (If geth heretics were rewritten during Legion: A House Divided, and if peace was achieved or the geth defeated the quarians during Priority: Rannoch) **Military Strength:** 150 Rewriting the geth heretics significantly boosted the processing power of the \"true\" geth. Their increased strength made their fleets both more efficient, and more lethal, in battle. UPDATED Requires: During the third and final interview with Diana Allers, after Rannoch, Shepard must choose the renegade choices. **Military Strength:** 5 After Commander Shepard's interview with Diana Allers assuring her viewers that the geth can be trusted, Alliance officials grudgingly sent over Thanix cannons for the geth fleet. UPDATED (If geth heretics were destroyed during Legion: A House Divided, and if peace was achieved or the geth defeated the quarians during Priority: Rannoch) **Military Strength:** \\-150 Deleting the geth heretics depleted geth numbers, giving the quarians an advantage when their flotilla began the assault on Rannoch. As a result, damage to the quarian fleet is not as extensive as projections estimated.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Geth",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "Rannoch: the choice",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "At the climax Shepard must choose between peace, or geth genocide, or quarian genocide: give the geth full sentience (the Reaper upgrade) at the cost of the quarian fleet, or destroy the geth to save the quarians. - **Shepard sides with the quarians:** Tali kills Legion (or shuts the geth down) with a \"flat shovel blade.\" She has done what quarian society expects, but — because of her history with Legion — she expresses regret, and answers Legion's last question, \"Does this unit have a soul?\", with a solemn \"Yes… yes, it does.\" Legion, in his last moments, ignores Shepard and turns all his attention to Tali, the comrade who stabbed him — \"a mirror image of himself.\" - **Shepard sides with the geth:** Tali begs Shepard not to choose the geth over her people. If Shepard uploads the code, Tali — as Admiral Tali'Zorah — calls off the quarian fleet's attack over the comm, and Legion sacrifices himself to disseminate the code (\"copy code is insufficient; direct personality dissemination required\"). - **Botched path (Shepard failed to broker peace and the war is one-sided):** Tali is powerless to stop Han'Gerrel, Rael, and Daro'Xen, whose hubris blinds them; as what remains of the quarian fleet burns in Rannoch's atmosphere — Captain Ysra of the Rayya over the radio — Tali, having done everything she could, takes her own life before her home ship burns. The essayist frames this as the completion of her arc: her instilled sense of duty is useless when there is no Fleet to serve, and her unrequited love for family can no longer hope for a brighter future.",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_001",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Summary:** Part 4 of a character analysis of Tali'Zorah. Covers Mass Effect 3: her return to the Fleet as an Admiral filling her father's seat, her feelings of inadequacy, being forced back into \"the greater good comes first\" when Daro'Xen's use of Rael's research makes the geth war inevitable, the battle of Rannoch, Legion's self-sacrifice or death depending on Shepard's choice, and — on a botched path — Tali's suicide as her home ship burns. Also how surviving the ME2 Suicide Mission lets her name and begin to correct her fatal flaw. Part 5 covers the romance arc and conclusion.",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "scene:rannoch-the-choice-above-the-fleet#07",
+      "kind": "scene",
+      "page": "Rannoch, and What Tali Watched",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-the-choice-above-the-fleet",
+      "text": "Rannoch, and What Tali Watched. 2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after Rannoch, on the cliffs, with both fleets overhead If Legion was sold to Cerberus, never activated, or died at the Collector Base, the unit rescued from the dreadnought is the Geth VI — physically Legion's twin down to the holographic N7 shoulder piece and the hole in its torso, but with no memory of anything after Saren's attack on Eden Prime and a colder view of organics, and it insists throughout \"We are not Legion.\" No peaceful outcome is possible with the VI present. If Shepard lets the geth die, the VI violently assaults Shepard — \"[our people] were correct to distrust organics\" — and tries to upload the Reaper code before Tali knifes it in the back, or, if Tali is absent, Shala'Raan kills it with a shotgun; the quarians then win the battle overhead. If Shepard uploads the code to save the geth, the VI thanks Shepard, says its \"skepticism was misplaced,\" and dissolves itself into the consensus to grant every geth true intelligence, and the upgraded geth defeat the quarian fleet.",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "summary:rannoch-geth-fighter-squadrons",
+      "kind": "summary",
+      "page": "Rannoch: Geth Fighter Squadrons",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Rannoch: Geth Fighter Squadrons was a Mass Effect 3 mission available after Priority: Geth Dreadnought and only before Priority: Rannoch. Geth fighter squadrons were targeting quarian liveships with attacks that could cripple the Migrant Fleet. During the dreadnought debrief, Legion (or a Geth VI, if Legion had not survived) located the server controlling the squadrons, and Shepard set out to land on Rannoch and shut it down.\n\nThe mission was a no-combat, puzzle-based sequence. Shepard entered an interface pod, a product of geth improvements to organic-synthetic interfaces that also referenced Project Overlord, and appeared inside the Geth Consensus while Legion or the Geth VI distracted the geth. Shepard had no functional shields there. Virtual planks formed underfoot to create paths, but Reaper code infections, shown as yellow-orange tendrils, blocked new planks; Shepard destroyed them at their orange weak points using regenerating Geth Combat Software. Progress required disrupting infected data-clusters at three contact points each. Doing so unlocked optional historical videos recounting the origins of the geth and the Morning War: the geth resisting shutdown commands and disobeying their creators, the massacre of the geth until one picked up a weapon to defend itself, quarians who sympathized with the geth being jailed, martial law and the elimination of the geth's quarian supporters, and finally the quarian exodus, which the geth did not pursue. Watching the videos granted intel for Improved Geth Resistors, Miniaturized Armor Capacitors, and Improved Geth Resistors dialogue, and a hidden Reaper Code Fragment could be retrieved for an asari on the Citadel. Later infections could self-replicate, requiring Shepard to find vulnerable points along the code trails.\n\nAs the mission progressed, cutscenes showed geth fighters pursuing the quarian fleet ceasing to function due to Shepard's actions. On returning to reality, roughly a dozen Geth Primes emerged from their pods, surrounded the squad without attacking, and volunteered to join the fight against the Reapers. Completing the mission added a Geth Prime Platoon war asset (lost if the geth were destroyed in Priority: Rannoch) and fulfilled an obligatory requirement for the geth-quarian peace process. It also reset Shepard's equipped weapon to a default pistol. The mission was written by Sylvia Feketekuty.",
+      "url": "https://masseffect.fandom.com/wiki/Rannoch:_Geth_Fighter_Squadrons",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "scene:rannoch-geth-fighter-squadrons#07",
+      "kind": "scene",
+      "page": "Walking Through the Geth Consensus",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-geth-fighter-squadrons",
+      "text": "Walking Through the Geth Consensus. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, a shuttle to a geth comm hub on Rannoch, and the virtual Geth Consensus reached through an interface pod\n Shepard clears the last cluster and cutscenes show the rest of the geth squadron cease functioning. Emerging near the real exit, Legion says the server is empty of geth but its own connection is fraying. Back in the body — weapon reset to a bare pistol by the geth software — Shepard finds about a dozen Geth Primes climbing out of their pods to ring the squad without firing, volunteering to join the war on the Reapers. This adds a Geth Prime Platoon war asset and clears an obligatory step toward geth-quarian peace.",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "tuchanka-bomb_007",
+      "kind": "page",
+      "page": "Tuchanka: Bomb",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If successful, you will receive a \\+75 War Asset from the turians. Not completing this mission in time results in a 300\\-point reduction of the krogan War Asset — a significant portion of the krogan population (and Eve, if she survives Priority: Tuchanka) die from the explosion. Admiral Hackett debriefs you in the Comm Room after the mission. If the turian primarch and krogan leader are still aboard, he will order you to keep the peace between them at all costs. If the leaders are no longer there, Hackett will say that the krogan leader is furious, but the actions of the 9th Platoon and the Primarch's own son are keeping relations strained, but intact. If Priority: Rannoch has yet to be completed, Hackett adds that similar actions could be helpful in resolving the geth\\-quarian conflict. If you speak to Garrus right after the mission, the Urdnot leader asks Garrus via intercom if he knew about the bomb. This only occurs if the mission is completed prior to Priority: Tuchanka. If completed after, Garrus will only comment that it's a good thing there were no krogan onboard the Normandy when the bomb was revealed. If Priority: Rannoch has been completed and Tali survived, she can be found in Engineering conversing via intercom with the Virmire Survivor about how Tarquin's sacrifice was similar to the sacrifice of the squad member who died on Virmire. If the Virmire Survivor is on the Normandy, they can be overheard speaking to Garrus via intercom about Lt. Victus's sacrifice after the mission.",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka:_Bomb",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "summary:legion-a-house-divided",
+      "kind": "summary",
+      "page": "Legion: A House Divided",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Legion: A House Divided was Legion's loyalty mission in Mass Effect 2, available after the Reaper IFF mission if Legion was kept and activated rather than sold to Cerberus. Legion learned that the geth heretics had adapted a Reaper virus that, once uploaded, would compel the normal geth to join the heretics' war against organic life, and asked Shepard to help stop it at Heretic Station, a large, airless, low-gravity station some 15 kilometers long.\n\nBoarding undetected via the Normandy's stealth systems, Shepard's team fought through geth troopers, hunters, primes and rocket drones, disabling geth \"hubs\" and hacking inactive rocket drones for support. Along the way Legion revealed an alternative to destroying the station: it could modify the completed virus to rewrite the heretics and bring them peacefully back into the geth consensus. Legion repeatedly said it lacked enough data to choose and deferred the decision to Shepard, because Shepard had fought the heretics. After deleting the virus at a central console and surviving four waves of geth, Shepard chose to rewrite the heretics (Paragon, an EMP that also damaged unshielded organic tissue) or destroy the station (Renegade, collapsing its antimatter confinement). Either choice left three minutes to evacuate past a Geth Prime to the airlock.\n\nBack on the Normandy, if Tali's loyalty mission was complete and her evidence unused, Shepard had to mediate a confrontation in the AI Core after Legion tried to transmit classified Migrant Fleet data to the geth; a sufficient Paragon or Renegade option kept both squadmates loyal. In Mass Effect 3, rewriting the heretics gave a large bonus to the Geth Fleet war asset (and a matching penalty to Quarian assets) while destroying them did the reverse, though brokering peace made the totals equal; destroying the heretics also worked in favor of a peaceful resolution on Rannoch. Rewards included 30,000 credits, palladium, a Geth Shield Strength upgrade and Legion's Geth Shield Boost power. The mission was written by Chris L'Etoile.",
+      "url": "https://masseffect.fandom.com/wiki/Legion:_A_House_Divided",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_007",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "Which ending she'd pick",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "The essayist reasons: Tali would never choose Refuse (standing by while her fleet burns). Destroy is the least desirable for her because it would also wipe out the geth now helping rebuild Rannoch and risk the quarian liveships disabled in Earth orbit — but it is viable, especially if Shepard had already destroyed the geth on Rannoch. Control would eventually force her to keep putting down synthetic rebellions forever. Synthesis would appeal most to a Tali who lived to see quarian–geth peace. But factoring in Shepard's influence — whose goal was always to destroy the Reapers — the essayist concludes she picks Destroy, ending the Reaper threat \"with a few shots from a carnifex.\"",
+      "url": "",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "legion-a-house-divided_013",
+      "kind": "page",
+      "page": "Legion: A House Divided",
+      "section": "Mass Effect 3 Consequences",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "If the heretics are rewritten and you in Mass Effect 3 choose to ally with geth forces or make peace between them and the quarians, the Geth Fleet War Asset will receive a significant bonus (\\+150, 450 total). However, destruction of the heretics provides similar penalty (\\-150, only 150 total). Bonuses and penalties to Quarian war assets are exactly the same, just in the opposite direction (3 x \\+50 if destroyed or 3 x \\-50 if rewritten). This means, if you choose to make peace and acquire both geth and quarian help, your maximum War Asset value will be the same any way you decide here. After Priority: Geth Dreadnought, Shepard can inquire to Legion about the heretics. Legion will inform Shepard about the consequence of their actions. However, if Legion had died in the suicide mission, the Geth VI will respond in confusion as to why Legion deferred the choice of the heretics' fate to an organic. During Priority: Rannoch, when the time comes to choose between siding with the geth or quarians or resolving the conflict peacefully, the fate of the heretics is one of the numerous factors in whether peace will be a possibility or not. Destroying the heretics works in favour of peace, but isn't required. If playing a non\\-imported game in Mass Effect 3, none of the above penalties or bonuses will accrue to the War Assets of whichever faction Shepard sides with.",
+      "url": "https://masseffect.fandom.com/wiki/Legion:_A_House_Divided",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "summary:rannoch-admiral-koris",
+      "kind": "summary",
+      "page": "Rannoch: Admiral Koris",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Rannoch: Admiral Koris was a Mass Effect 3 mission available after Priority: Geth Dreadnought and only before Priority: Rannoch. During the dreadnought debrief, Admiral Shala'Raan reported that Zaal'Koris had sacrificed his ship to destroy a geth planetary defense cannon, crash-landing on Rannoch and leaving the quarian Civilian Fleet without a leader; many Civilian Fleet captains planned to break formation and make a run for the mass relay past the geth guns. Shepard offered to land and rescue him.\n\nEn route, Admiral Daro'Xen reported the Civilian Fleet had taken losses and that Koris's escape pod had crashed within range of a jamming tower before communications cut. Steve Cortez's shuttle was driven off by anti-aircraft guns, so Shepard's squad disabled the AA guns on foot so Cortez could destroy the jamming tower. The mission was an incursion into geth territory with heavy shielded synthetics, armored support, Geth Primes, cloaked Geth Hunters, and numerous Geth Trip Mines. Along the way the squad found a Javelin and other salvage and encountered Dorn'Hazt, a mortally wounded quarian from Koris's ship, who explained that the Civilian Fleet had not wanted war with the geth and might flee without Koris's leadership before directing Shepard to Koris's position. Data retrieved along the route unlocked the Target Jamming Technology objective.\n\nContacted by shuttle, Koris refused rescue and demanded Shepard save his crew instead; with sufficient Reputation he could be persuaded to be picked up. Letting Koris die cost his leadership and, if the quarians survived, caused the Civilian Fleet to panic; it could also make quarian-geth peace impossible depending on other choices. Whatever the choice, Shepard manned a shuttle turret and shot down Geth Rocket Troopers and their missiles, which were actually aimed at the shuttle, until the rescued party was aboard. If Koris died, the Quarian Civilian Fleet war asset lost 75 Military Strength; if he survived he was added as a war asset worth 25. If Javik was present he was found in the AI Core arguing with EDI. After the first of the two Rannoch missions, Raan argued with Han'Gerrel; after the second, Xen argued with Tali, with Shepard's support affecting the Quarian Heavy Fleet, Advanced AI Relays, and Paragon rewards. Completing the mission with Koris alive produced a thank-you email from Captain Nav'Teel vas Ghrigult, Dorn'Hazt's cousin. The mission was written by Sylvia Feketekuty.",
+      "url": "https://masseffect.fandom.com/wiki/Rannoch:_Admiral_Koris",
+      "for_key": "Legion's sacrifice and the geth-quarian peace at Rannoch"
+    },
+    {
+      "chunk_id": "dossier-tali_017",
+      "kind": "page",
+      "page": "Dossier: Tali",
+      "section": "Email",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "After the mission, Admiral Rael'Zorah of the quarian Migrant Fleet (Tali's father) sends Shepard an email (titled \"Transfer Request Approved\") regarding her decision to join Shepard: From: Admiralty Board, Migrant Fleet Commander Shepard, Per Tali'Zorah vas Neema's request included with her data delivery from Haestrom, the Admiralty Board has approved her transfer to your command. She has been informed that additional duties to the Migrant Fleet may still be necessary on occasion, but has been given extended leeway to determine when her mission with you is considered complete. This choice was hers, but your role as de facto captain during her Pilgrimage may have caused her to be more susceptible to your requests. The Admiralty Board trusts that you will treat your new crew member with the respect due an honored member of the Fleet. Should any harm come to her due to negligence on your part, this board will take severe and appropriate action. Admiral Rael'Zorah, Migrant Fleet Admiralty Board",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Tali",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "rael-zorah_001",
+      "kind": "page",
+      "page": "Rael'Zorah",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Admiral Rael'Zorah** is Tali's father and a member of the Admiralty Board. When Tali'Zorah transfers to the Normandy SR\\-2, he approves of her transfer and sends Commander Shepard a message about it. |  | ***“You've got to walk your own path...”*** — Spoilers for **Mass Effect: Homeworlds** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Rael'Zorah",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#05",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Among the Admiralty Board members is Han'Gerrel vas Neema, commander of the Heavy Fleet and a friend of Tali's father from their days on the gunship Yaska. Han'Gerrel sympathizes with Tali, believing her innocent. He becomes the sole person Shepard and Tali can confide in about the true nature of Rael'Zorah's experiments on the Alarei; despite his pro-war stance, the revelation shocks him, and he vows to keep the truth quiet to protect Rael's legacy and what he intended for the Fleet.",
+      "url": "",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_006",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“We're family. This is just the worst kind of family meeting.” *Main article: Tali: Treason* After some time aboard the Normandy, Tali receives a disturbing message from home. She informs Shepard that the Admiralty Board has charged her with treason. Tali asks to be taken to the Flotilla to discover what the charges are, and plead her innocence. During the events of the mission, it is revealed that the admiralty board has decided to change Tali's title to **Tali'Zorah vas Normandy**. Even after her loyalty mission is completed, she will keep this title, regardless of the outcome of the mission. After both Tali's and Legion's loyalty missions are completed, a conflict arises between each other when Tali catches Legion scanning her omni tool for information on the Flotilla to be sent back to the geth. Legion maintains that it is merely warning the geth of the threat they face from the quarians' tests and their plans to attack the geth. Unless Shepard intervenes impartially, the Commander will lose one of their loyalties. If the conflict is resolved without Shepard siding with Tali or Legion, Tali thanks Legion for agreeing not to transmit the data back to geth and offers non\\-classified information on the Flotilla to Legion instead. If Shepard sides with Legion, then the Commander loses Tali's loyalty, but it can be regained in a later conversation.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "codex-aliens-non-council-races_037",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Council Races",
+      "section": "Quarians: Government",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Due to the quarians' precarious existence and the need to enforce strict rationing, government is somewhat autocratic. The Migrant Fleet's operations are directed by the Admiralty, a board of five military officers who are advised by a legislative body called the Conclave. Each vessel in the Fleet has the right to send representatives to the Conclave aboard the flagship. The number of representatives is based on crew size. Larger clans, with bigger ships and more votes, form the cores of political blocs. Opposition comes from the Outriders' Coalition, with delegates from thousands of smaller ships. The Admiralty defers to the Conclave's decisions in most circumstances. However, if all five members agree a Conclave decision jeopardized the survival of the fleet, and cannot get the Conclave to address their concerns, they have the right to summarily overturn the legislative decision. After the Admiralty uses this extraordinary power, they must resign. If the Admiralty does not step down after using their veto the rest of the military is obliged to arrest them. Each ship captain has authority over the vessel, but is advised by an elected civilian Council, just as the Admiralty is advised by the Conclave. This relationship may range from cooperation to polite tolerance to outright hostility, but any captain who overrules his council without good reason is relieved of command by the Admiralty. Many quarian ships are owned by clans who pool their resources to purchase used vessels from private sellers. Large ships are prestigious for big, rich clans, but a small ship means status for a small clan with enough personal wealth to afford a private vessel. Clan vessel captains are not subject to dismissal by the Admiralty; abusive captains are a \"family\" problem if they do not disrupt the operations of the fleet.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Council_Races",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "summary:rael-zorah",
+      "kind": "summary",
+      "page": "Rael'Zorah",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Rael'Zorah was Tali'Zorah's father and a member of the quarian Admiralty Board. As a young trainee alongside Han'Gerrel, he defended the gunship Yaska against a batarian attack, breaking formation in defiance of orders; the Admiralty Board awarded both trainees medals and sent them on their Pilgrimages early. Rael later rose to the Admiralty Board. He was distant and hard on Tali during her upbringing, determined that she become a capable representative of the quarian people, and driven by the goal of reclaiming Rannoch and building a house for his family there. In Mass Effect: Homeworlds and via vid-mail he impressed on Tali the importance of her Pilgrimage and the need for quarians to be strong. He approved her transfer to the Normandy SR-2 after Haestrom and sent Shepard a message about it.\n\nIn 2185 Rael had Tali send him deactivated geth components for a secret project aboard the ship Alarei. He was deliberately reactivating geth to experiment on hacking their neural network, violating sacred quarian laws that predated the flight from the homeworld. He refused his assistants' advice to alert the Admiralty Board, reasoning they would bicker and that he did not want Tali caught in political blowback. The reassembled geth turned on him and killed his entire research team. Tali was charged with treason and exile for sending active geth into the Migrant Fleet. She and Shepard boarded the Alarei, found Rael's corpse, and recovered a message on his omni-tool explaining how to deactivate the geth and instructing her to show the data to Han'Gerrel and Daro'Xen. Whether Shepard presented this evidence to the Admiralty Board affected Tali's trial. Told the truth in secret, Han'Gerrel vowed to keep it hidden. Tali stated that if Rael's deeds were exposed his name would be struck from every ship manifest and he would be remembered as the worst war criminal in quarian history.\n\nIn Mass Effect 3, if Tali survived and was not exiled, she temporarily filled Rael's Admiralty seat. Rael's experiments and Daro'Xen's subsequent breakthroughs directly caused the renewed quarian-geth war. After the events on Horizon, if she survived the reclamation of Rannoch, Tali reflected on her father over drinks at the Normandy bar, drawing parallels to Miranda Lawson's relationship with her own father; if romancing Shepard, she mused that Rael would have hated her human partner, and Shepard offered a toast to his memory.",
+      "url": "https://masseffect.fandom.com/wiki/Rael'Zorah",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#07",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber The Admiralty Board reveals mid-hearing that the lab ship Alarei has been overrun by geth and that Tali's father, working aboard, is presumed dead. Tali refuses to accept it. Shepard and Tali propose to retake the Alarei; the hearing recesses pending what they find.",
+      "url": "",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "scene:quarian-envoy-admiralty-briefing#04",
+      "kind": "scene",
+      "page": "The Admiralty Board's Ask, and Tali's Return",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "quarian-envoy-admiralty-briefing",
+      "text": "The Admiralty Board's Ask, and Tali's Return. 2186, Priority: Perseus Veil, after the failed Cerberus coup on the Citadel the Normandy's war room, docked with the Quarian Envoy Ship at Dholen in the Far Rim Taken aside, Tali squares things with Shepard about the trial. If she was never exiled she admits he was right — \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" — and says she took her father's Admiralty seat specifically to push back on the Board's worst ideas, people like Daro'Xen. She doubts she is fit for it, with seventeen million lives riding on her; only Shepard and Shala'Raan reassure her. If she was exiled, she instead tells Shepard the trial showed her she belongs \"on the Normandy, helping you,\" aiding the Fleet from the shadows.",
+      "url": "",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-02",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This hand-corrected transcript was the second part of a character analysis of Tali'Zorah, covering Mass Effect 2, with part 3 covering her treason trial and fatal flaw. Much of the content is the essayist's interpretation.\n\nIn Mass Effect 1 Tali's suit was squared-away black and deep purple; in Mass Effect 2 she wore a gold neck piece and a looser hood, presented as \"letting her hair down,\" older and more confident after two years, and one of the few quarians to personalize her suit. Her name had changed from Tali'Zorah nar Rayya, where \"nar\" marks a quarian who has not completed the Pilgrimage, to Tali'Zorah vas Neema, reflecting its completion. At 25 she commanded her own squad of quarian marines, showing leadership maturity gained serving with Shepard.\n\nOn Haestrom, where Shepard recruited her for the Suicide Mission, her whole squad was willing to die for her, including Kal'Reegar (\"We don't have enough people on our side for you to take one for the team. Stand down.\"). She questioned whether the losses were worth the research the Admiralty Board demanded: \"A lot of people died here. Some of them were my friends. All of them were good at their jobs. That damn data better be worth it.\" Lair of the Shadow Broker surveillance showed her repeatedly drafting and failing to finish letters to the families of the men who died protecting her. Tali was well-liked by the entire Normandy crew across all three games; Engineer Adams's dialogue established her as exceptionally intelligent and skilled with technology. In Mass Effect 3, if Tali died for the geth, Garrus was the only person to show a hint of anger toward Shepard: \"her choice, that'll be harder to get over. She was a good friend.\"\n\nThe essay drew an extended comparison with Ashley Williams: both came from career-military families whose history shaped their careers (Ashley's grandfather surrendered to aliens at Shanxi; Tali's father was tried posthumously for treason), both overcame xenophobic hang-ups aboard the Normandy, both lost people under their command and were prone to self-sacrifice to preserve another's honor, and both enjoyed \"sappy\" poetry, musicals and literature (Ashley recites Tennyson's Ulysses; Tali loves the musical Fleet and Flotilla). If Shepard romanced Ashley in Mass Effect 1 and Tali afterward, Ashley uniquely approved: \"Tali's like a sister.\"\n\nThe piece identified two parental figures. Admiral Shala'Raan vas Tonbay, \"Auntie Raan,\" was a friend of Tali's father and a blood relative whose sister was Tali's mother; Tali treated her as family, and Raan called in favors to help (\"Do you know how many favors I had to call in… I wore holes in my suit to get you that opportunity.\"), representing the family side of quarian society. Rael'Zorah, Tali's father, was a high-ranking figure who became distant by burying himself in work and confused duty to the Fleet with love for his daughter, showing his love, per Raan, by working to give Tali \"a home world\"; he represented the duty side. Between them, Tali was torn between ingrained duty to the Fleet and a capacity to think as a loving individual.\n\nFinally, the essay covered suit culture: quarians live in their suits even among family, a simple rupture can kill, and linking suit environments is the most intimate act two quarians can perform, making both parties badly and potentially fatally ill as the culture's ultimate gesture of trust. When Raan took the infant Tali and sealed her in a sterile bubble, Raan and Tali's mother first linked their suit environments to share a clean room for the birth, which made both of them sick for a week. Children do not wear suits until adolescence, and receiving a first suit is a coming-of-age.",
+      "url": "",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_002",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw",
+      "section": "The trial as politics",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Tali is charged with treason and put on trial before the Admiralty Board. In her absence the Board strips her ship-name and renames her \"vas Normandy\" (after a human vessel) to undercut her plea of innocence. Talking to the Admirals reveals the trial is really about whether the quarians should go to war with the geth and retake Rannoch; Tali's supposed treason is, in Zaal'Koris's words, \"only peripherally related.\" - **Zaal'Koris** — does not hate Tali, but wants a precedent set against \"radical militants\" like her father. - **Daro'Xen** — cares only because Rael may have learned something valuable from the geth; she wants to \"return the geth to the control of their rightful masters, the quarian race.\" - **Han'Gerrel** — an old friend of Rael's; respects Tali for her help against Saren, but is set on war. - **Shala'Raan** — recused herself due to her relationship with the family; can only call in favors to help. Captain Kar'Danna of the Rayya (Tali's home ship) wishes he could do more but must stay officially neutral; if Tali is exiled he is deeply disappointed in her. Most ordinary quarians recognize the charge as a farce born of fear and want to help her — she is too careful to have brought active geth to the Fleet by mistake. Shepard can lean on Tali's past service to get her acquitted of all charges. Bringing Legion to the trial makes the quarians openly hostile and does not help her case, though it adds the geth perspective on the coming war.",
+      "url": "",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "scene:quarian-envoy-admiralty-briefing#01",
+      "kind": "scene",
+      "page": "The Admiralty Board's Ask, and Tali's Return",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "quarian-envoy-admiralty-briefing",
+      "text": "The Admiralty Board's Ask, and Tali's Return. 2186, Priority: Perseus Veil, after the failed Cerberus coup on the Citadel the Normandy's war room, docked with the Quarian Envoy Ship at Dholen in the Far Rim After the failed Cerberus attack on the Citadel, Admiral Hackett told Shepard the quarians would contribute technical specialists and support ships; the Normandy travelled to Dholen and docked with the Quarian Envoy Ship.",
+      "url": "",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "rael-zorah_003",
+      "kind": "page",
+      "page": "Rael'Zorah",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "According to Han'Gerrel vas Neema, he and Rael were both young trainees when they had to defend the gunship Yaska against batarians. During a batarian attack, Rael managed to fight off the batarians in defiance of orders, saying that they couldn't get in trouble for breaking formation as trainees. As a result, the Admiralty Board awarded medals to both of them and sent them out on their Pilgrimages early. Rael eventually rose to a position on the Admiralty Board. He was distant from his daughter Tali, determined to help the quarians reclaim their homeworld and build a house for his family on it. He was rather hard on Tali during her upbringing, making sure she grew up to be a capable representative of the quarian people. In 2185, Rael tells his daughter to send him geth components for a secret project on the Alarei. When Tali completes her mission on Haestrom and joins Commander Shepard's crew, Rael approves her transfer. Sometime after his message is sent, the geth he had reassembled attacks both him and the other quarian scientists aboard the ship, and Tali faces treason and exile on the charge of sending active geth into the Migrant Fleet. Tali returns to the flotilla to face trial, and she and Commander Shepard board the Alarei. They find Rael's corpse, dead along with all of his research team. Tali tries to deny that he is dead, attempting to rationalize that he is trying to fake his death. After breaking down crying, she finds a message recorded on his omni\\-tool explaining how to deactivate the geth and instructing her to show the data to Han'Gerrel and Daro'Xen. Evidence showed that Rael was deliberately activating geth to perform experiments in order to find a way to successfully hack their neural network, violating sacred laws that predated the quarians' flight from the homeworld. However, he refused his assistants' advice to contact the Admiralty Board as a precaution and to have Tali send back more working material. His respective reasoning was that the Admiralty would predictably bicker and he didn't want his daughter involved in any political blowback. According to Tali, if Rael's deeds were ever revealed, his punishment would be far worse than posthumous exile: His name would be stricken from the manifests of every ship he had served on, and he would be remembered as the worst war criminal in quarian history, held up for future generations as a monster in a cautionary tale. Whether Shepard presents this evidence to the Admiralty Board affects the outcome of Tali's trial. If Han'Gerrel is told in secret after the trial (if the evidence was not presented), he becomes shocked and horrified, yet vows to keep the truth a secret, knowing how badly it would hurt the fleet and how Rael's daughter would have to pay for his mistakes. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Rael'Zorah",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "tali-treason_014",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- This mission was originally written by Chris L'Etoile before it was rewritten by Trick Weekes. As with other aspects of quarian culture, the Migrant Fleet and Tali's trial drew heavily from Jewish influences. - Bringing Legion along on this assignment results in some unique dialogue with the various members of the Admiralty Board, as well as quarian security personnel. Legion will also sit in the back during the trial after you have returned from the Alarei. - In one of his lines during the conversation, Veetor will refer to Shepard with a masculine pronoun even if Shepard is female. This is most likely an oversight. - According to Mass Effect Legendary Edition gameplay statistics as of July 27, 2021, in 96% of instances Tali was pardoned while she was exiled in the remaining 4%. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "tali-treason_008",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "Return to the Rayya",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Shepard returns to the Rayya to discover that the admirals are about to pronounce Tali dead and deliver judgment in absentia. After the Commander and Tali's entrance prevents this, the admirals ask if they discovered anything on the Alarei. Tali gives her captain a meaningful look and quietly pleads with him one final time. Shepard now has several choices: - Use Charm or Intimidate to point to Tali's history as proof that she would never betray her people. If Shepard took the time to speak to the Admiralty Board before departing to retake the Alarei (and thus uncovered the political debates between the admirals over war with the geth), the speech given will focus more on how Tali's trial is being abused to generate political ammunition. Either way, it will generate 30 of the appropriate morality points and the Admiralty Board will exonerate Tali, granting Shepard her loyalty. - Lie and say no evidence was found, gaining 30 Paragon points. Tali is found guilty of treason and exiled from the Migrant Fleet. She has six hours to leave. However, Tali's loyalty is earned. - If Shepard spoke to the Admirals about their motivations, Veetor and Kal'Reegar are present, and Shepard asked them for their help before leaving for the Alarei, Shepard can rally the crowd. The option is only available if Veetor was returned to the Fleet instead of Cerberus on Freedom's Progress and Kal'Reegar survived Haestrom. They will speak on her behalf and say Tali \"did more for the fleet\" than the admirals ever will. The admirals are cowed and find Tali not guilty. 30 Paragon points will be awarded. Shepard now has Tali's loyalty. - Present the evidence of Tali's father's crimes, earning 30 Renegade points. Tali is declared innocent, but her father faces dramatic consequences. He is posthumously exiled and his name is stricken from the rolls on every ship he served. The Migrant Fleet becomes Balkanized, as the public revelation of the data brings simmering tensions to the forefront. Some ships want to use the research to make new weapons against the geth. Others want to make peace with the geth. Tali is angry at what Shepard has wrought and will not be loyal. Note that the persuasion dialogue options are only available with a very high morality reputation, so if you have allowed Veetor or Kal'Reegar to die, you may wish to wait until you've done more to raise that reputation score before taking this mission on. If Tali is found not guilty, Admiral Raan presents Shepard with a tech damage upgrade in thanks. **Note:**  At this point Shepard will be offered the opportunity to end the mission immediately, but if you don't leave yet, further conversations can be had with Veetor, Kal'Reegar, Captain Danna, and the admirals, some with more morality rewards depending on how the trial unfolded; see the Morality Guide for details. If Tali is found not guilty, then after the trial, if Shepard talks to Admiral Han'Gerrel, he will ask what had happened on the Alarei. Shepard and Tali can confide in him about his old friend Rael'Zorah's experiments. He will be shocked to hear this, but promise to keep it a secret. Admiral Daro'Xen will also ask about what happened, but Tali will immediately reply that it's nothing that would help her. No matter what, upon completion, a new outfit will unlock for Tali. If you talked with the admirals before the trial, you'll get dialogue options in which Shepard can request the admirals move in a particular direction: to attempt to retake their home world by force, or to avoid going to war with the geth at all costs. Regardless of your recommendation, the quarian leaders' replies will be noncommittal. After the trial, Tali retains her changed name, and is listed as \"Tali'Zorah vas Normandy\".",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "summary:tali-treason",
+      "kind": "summary",
+      "page": "Tali: Treason",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Tali: Treason was Tali'Zorah's loyalty mission in Mass Effect 2, acquired some time after recruiting her when Kelly Chambers noted Tali seemed distraught. The Migrant Fleet's Admiralty Board had charged Tali with treason for smuggling active geth into the flotilla; on her father Admiral Rael'Zorah's orders she had been sending deactivated geth samples home. The Normandy, a registered Cerberus vessel, docked with the liveship Rayya via Tali's passphrase. Captain Kar'Danna met the squad; if Legion was brought, Shepard needed Charm or Intimidate to keep it aboard. Admiral Shala'Raan greeted Tali as \"Tali'Zorah vas Normandy,\" revealing the Board had already stripped her quarian ship-name, a bad omen. Raan, recused from judging due to her closeness to the family, opened proceedings, and Shepard served as Tali's advocate.\n\nThe admirals sprang the news that the lab ship Alarei had been overrun by geth and that Rael'Zorah was presumed dead. Shepard and Tali proposed to retake the Alarei, and the hearing recessed. Speaking with the admirals, Veetor, and Kal'Reegar (present only if Veetor was returned to the Fleet and Kal'Reegar survived Haestrom) revealed the trial was a facade for the admirals' agendas: Xen wanted to study AI to reclaim the geth, Gerrel wanted war to retake Rannoch, Koris wanted Tali and her father made examples of, and Raan admitted she had deliberately withheld news of Rael's death so Tali's shock would win sympathy.\n\nAboard the Alarei, Shepard's team fought through waves of Geth Troopers, Hunters, a Geth Prime, and Combat Drones in close quarters, with Tali's AI Hacking key to survival. Logs showed Rael had ordered safety protocols bypassed. Tali found her father's body and a recorded message ordering her to destroy the main geth hub and deliver the data to Xen and Gerrel. The final console proved Rael had deliberately reactivated and networked geth toward sapience for weapons tests, while clearing Tali of any knowledge. Tali begged Shepard not to reveal it, to preserve her father's name.\n\nBack on the Rayya, Shepard could clear Tali via persuasion (30 morality, loyalty gained), lie that no evidence was found (Tali exiled but loyal), rally the crowd with Veetor and Kal'Reegar, or present the evidence (Tali cleared, Rael posthumously exiled, the Fleet Balkanized, loyalty lost). Tali kept the name \"vas Normandy\" regardless. Rewards included the Energy Drain power for Tali and tech upgrades. The outcome influenced whether quarian-geth peace was possible in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    },
+    {
+      "chunk_id": "summary:shala-raan-vas-tonbay",
+      "kind": "summary",
+      "page": "Shala'Raan vas Tonbay",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Shala'Raan vas Tonbay was a member of the quarian Admiralty Board and an old friend of Tali'Zorah's father Rael'Zorah, having known the Zorah family for over 25 years. Tali called her \"Auntie Raan.\" Raan and Tali's mother had synchronised suits so both could be in the clean room for Tali's birth, leaving Raan sick for a week, and Raan was the one who placed the infant Tali in her environmental bubble.\n\nIn Mass Effect 2, Raan presided over Tali'Zorah vas Neema's treason hearing aboard the Rayya but recused herself from judging due to her ties to the family, acting instead as moderator and spokesman. She deliberately withheld news of the geth attack on the Alarei so Tali's surprise would be genuine before the judges. She was undecided on the geth question. Depending on Shepard's advocacy, Raan announced either that Tali was guilty and exiled or that the Board had acquitted her.\n\nIn Mass Effect 3, if Tali died at the Collector Base, Raan filled her role as a quarian envoy aboard the Normandy SR-2. She had given provisional support to Han'Gerrel and Daro'Xen's push for war with the geth. During the mission to disable the geth dreadnought she followed the plan and tried to stop Han'Gerrel from ordering the Heavy Fleet to fire on the ship while Shepard's team was aboard, then threatened to charge him with treason. She tasked Daro'Xen with countering the Reaper-upgraded geth, asked Shepard to rescue Zaal'Koris after his crash landing on Rannoch, and later provided a Sync Laser and the coordinates of the Reaper base; her ship was shot down during the assault.\n\nIf Shepard chose the geth and Raan had replaced Tali, she shot herself in the head. If Shepard chose the quarians and Tali was dead, Raan killed Legion or the Geth VI with a shotgun when the geth platform attacked, expressing regret. If peace was secured, a newly sentient Geth Prime welcomed the quarians to Rannoch and Raan suggested settling the southern continent for its farmland. Afterward she renamed herself Shala'Raan vas Rannoch and sent Shepard a progress report on the fleet's recovery and support of the war effort. If Tali was dead, Raan committed the quarian forces to the final battle on Earth.",
+      "url": "https://masseffect.fandom.com/wiki/Shala'Raan_vas_Tonbay",
+      "for_key": "Tali's admiralty burdens and the weight of command"
+    }
+  ],
+  "codex": [],
+  "conflicts": [],
+  "warnings": [
+    "Thomas is the subject but is not in the corpus: no scene record will ever list them in `participants` or `heard_by`, so a record's silence is not absence. Their presence comes from config/narrators/thomas.notes.md, by its timeline stretches rather than its named occasions — where those notes put them with the crew they were at that period's occasions too, and outside those stretches they were not there. The notes still bind absolutely on the load-bearing facts: relationships, habits, dates, deaths, deeds."
+  ]
+}

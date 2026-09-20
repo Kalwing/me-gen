@@ -1,0 +1,5 @@
+- "That's mine." — Jack, jack-holds-the-room
+- "Here is the file." — EDI, edi-holds-the-record
+- "I am going to stop talking now." — EDI, edi-holds-the-record
+- "It isn't the right time." — Jack, jack-reads-the-poems
+- "That's closed." — Jack, jack-reads-the-poems

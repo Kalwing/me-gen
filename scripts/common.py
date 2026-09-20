@@ -8,6 +8,9 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+#: The episode's subject when a run names none — see `episode_subject`.
+DEFAULT_SUBJECT = "shepard"
+
 _EVENT_REQUIRED = (
     "event_id", "title", "game", "chronological_order",
     "summary", "characters", "consequences", "source_chunks",
@@ -64,9 +67,9 @@ def outline_is_approved(run_dir: Path) -> bool:
 
 
 def voice_check_state(run_dir: Path) -> str:
-    """Where the run stands on the first-section voice checkpoint.
+    """Where the run stands on the voice checkpoint (see `voice_check_sections`).
 
-    `missing`  — the checkpoint has not been reached; write section 1 and stop.
+    `missing`  — the checkpoint has not been reached; write the checkpoint sections and stop.
     `pending`  — `voice_check.md` is waiting on the user; stop and say so.
     `approved` — the user cleared the marker; write the remaining sections.
     """
@@ -74,6 +77,83 @@ def voice_check_state(run_dir: Path) -> str:
     if not p.exists():
         return "missing"
     return "approved" if _marker_is_approved(p) else "pending"
+
+
+def episode_narrators(outline: dict) -> list[str]:
+    """Every voice in the episode, in speaking order.
+
+    A monologue has one: `narrator:`. A multi-voice episode also lists `narrators:`, and each
+    section names whose turn it is. Section narrators are folded in too, so a voice a hand
+    edit added to one section is never missed.
+    """
+    out: list[str] = []
+    for n in [*(outline.get("narrators") or []), outline.get("narrator"),
+              *((s or {}).get("narrator") for s in outline.get("sections") or [])]:
+        n = str(n or "").strip()
+        if n and n not in out:
+            out.append(n)
+    return out
+
+
+def episode_subject(outline: dict) -> str:
+    """Who the episode is *about*: the person the narrators address and characterize.
+
+    Shepard by default — every narrator's episodes orbit the Commander. A run may name
+    someone else (`subject: thomas` in `outline.yaml`, from `new_run.py --subject`), and
+    then that person's `config/narrators/<slug>.notes.md` is what every section reads in
+    Shepard's place. It changes the addressee, not the world: the canon store still says
+    which branch of the trilogy happened.
+    """
+    return str(outline.get("subject") or "").strip().lower() or DEFAULT_SUBJECT
+
+
+def subject_notes_rel(subject: str) -> str:
+    """Repo-relative path of a subject's notes file. Existence is the caller's business."""
+    return f"config/narrators/{subject}.notes.md"
+
+
+def section_narrator(outline: dict, section: dict) -> str:
+    """Who speaks this section: its own `narrator:`, else the episode's."""
+    return str(section.get("narrator") or outline.get("narrator") or "").strip()
+
+
+def is_multi_voice(outline: dict) -> bool:
+    return len(episode_narrators(outline)) > 1
+
+
+def voice_check_sections(outline: dict) -> list[str]:
+    """The sections the voice checkpoint shows: the first turn of each voice.
+
+    A monologue's checkpoint is its first section, as it always was. With two voices, each
+    one's first turn is shown — approving only the opener would let the second voice through
+    unread.
+    """
+    seen: set[str] = set()
+    out: list[str] = []
+    for s in outline.get("sections") or []:
+        n = section_narrator(outline, s)
+        if n not in seen:
+            seen.add(n)
+            out.append(s["id"])
+    return out
+
+
+def display_name(narrator: str) -> str:
+    return str(narrator).replace("_", " ").title()
+
+
+def voices_title(outline: dict) -> str:
+    """The episode header's name line: "Garrus", or "Tali & Liara" for alternating voices."""
+    return " & ".join(display_name(n) for n in episode_narrators(outline))
+
+
+def section_heading(outline: dict, section: dict) -> str:
+    """A section's `##` heading. Multi-voice episodes name the speaker, so the script shows
+    whose turn it is and a performance can switch voice there; a monologue's is unchanged."""
+    title = section.get("title", section["id"])
+    if is_multi_voice(outline):
+        return f"## {title} — {display_name(section_narrator(outline, section))}"
+    return f"## {title}"
 
 
 def word_count(text: str) -> int:

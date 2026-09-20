@@ -1,0 +1,1371 @@
+{
+  "section": {
+    "id": "the-machines-that-remember",
+    "title": "The Machines That Remember",
+    "target_words": 800,
+    "form": "reminiscing",
+    "form_description": "Two old friends going back over the campaigns over beers. Warm, unhurried, no case to make — just \"remember when.\" Sections are adventures recalled, and the narration keeps losing the thread onto opinions about lore, culture and how things work, then circling back. Runs everything against the Shepard it remembers — this persona's choices, temper and habits are the yardstick the stories and the digressions get measured by.",
+    "form_note": "Two old friends over drinks, except the beer is on a cliff on Rannoch and the war is the Migrant Fleet's and the Council races' shared one. Tali and Liara alternate turns strictly, 6 each; no voice holds two in a row, since this is exactly the kind of unhurried back-and-forth the form wants. Each turn's first promise is its reply to the one before — Liara picks up Tali's line about the air, Tali corrects Liara's secondhand version of the trial, and so on — and both keep losing the thread onto lore (geth cognition, Thessia, admiralty politics, asari mourning custom) before drifting back to the cliff. The two women never knew Shepard chose Synthesis, and the section list is built so neither has to name it: they talk about what changed after the Crucible fired, not why.\n",
+    "narrator": "tali",
+    "voices": [
+      "tali",
+      "liara"
+    ],
+    "listeners": [
+      "liara"
+    ],
+    "previous": {
+      "id": "what-the-network-still-watches",
+      "narrator": "liara"
+    }
+  },
+  "promises": [
+    "picks up Liara's \"watching\" with what she actually has, hands-on knowledge of the geth rather than intercepts",
+    "blunt, as always, that her people started the Morning War, and that being right about that changed nothing",
+    "explains what Legion's death at Rannoch meant in engineering terms — what a platform choosing to end itself is — and catches herself getting too close to it",
+    "a digression into geth architecture that she cuts off herself, embarrassed at how long she's been talking"
+  ],
+  "required_facts": [
+    {
+      "event_id": "quarian-geth-morning-war",
+      "fact": "The quarians of Rannoch built the geth ('Servant of the People' in Khelish) as a networked labour force and tools of war, designing each program to be as advanced as possible while remaining non-sentient and to run far more efficiently when linked together. That networking was the quarians' undoing: individually VI-level, the massed geth slowly gained emergent sentience and began asking questions only sentient beings would think to ask, most famously when a domestic unit asked its owner whether it had a soul. Alarmed, the quarian government decided to shut down every geth before they could conceive of revolt. The shutdown failed and triggered the conflict the geth call the Morning War. The geth did not answer the termination order with violence at first, and some sided with quarian sympathisers who opposed the purge, but after panicked quarians escalated the fighting the geth prevailed. They drove the surviving quarians off Rannoch and off the other quarian colony worlds, reducing them to the roughly seventeen-million-strong nomad population of the Migrant Fleet. Unknown to the quarians, the geth deliberately allowed them to flee rather than exterminate their creators. Afterward the geth withdrew behind the Perseus Veil, destroying ships that entered their space, living in orbital server hubs and drawing resources from asteroids while keeping mobile platforms planetside only to clear the rubble and toxins of the war and to maintain the abandoned worlds as memorials to the dead. The war became galactic society's cautionary tale about artificial intelligence, cited to justify the Citadel-wide legal ban on developing true AI.",
+      "actor": "quarians"
+    },
+    {
+      "event_id": "quarian-geth-morning-war",
+      "fact": "The geth win independence and hold Rannoch and the other quarian worlds behind the Perseus Veil",
+      "actor": "geth"
+    },
+    {
+      "event_id": "quarian-geth-morning-war",
+      "fact": "The surviving quarians become the stateless nomads of the Migrant Fleet",
+      "actor": "quarians"
+    },
+    {
+      "event_id": "quarian-geth-morning-war",
+      "fact": "The geth become isolationist, destroying intruding ships and maintaining the old quarian worlds as memorials",
+      "actor": "geth"
+    },
+    {
+      "event_id": "quarian-geth-morning-war",
+      "fact": "The geth secretly spare the quarians, unwilling to kill their creators",
+      "actor": "quarians"
+    },
+    {
+      "event_id": "quarian-geth-morning-war",
+      "fact": "The Citadel races enforce a galaxy-wide legal ban on creating true AI, citing the Morning War",
+      "actor": ""
+    },
+    {
+      "event_id": "quarian-geth-morning-war",
+      "fact": "Quarian ambition to retake Rannoch drives their politics for the next three centuries, culminating in the 2186 war",
+      "actor": ""
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "In 2186 the quarian Migrant Fleet launched an all-out war to retake Rannoch, catching the geth mid-construction of their megastructure. When the flotilla bombarded and destroyed the structure, killing many programs and dimming the consensus, the surviving geth accepted Reaper code and Reaper upgrades to survive - which turned the war in their favour and pushed the quarians to the brink. Both fleets appealed to Commander Shepard. Shepard first infiltrated a geth dreadnought over Rannoch and freed Legion (or, if Legion was lost, a Geth VI) that had been wired into the drive core as the Reapers' signal booster, shutting the dreadnought down. Shepard then made planetfall and, painting the target for orbital fire, destroyed the Reaper on the surface that was broadcasting the control signal, freeing the geth fleet from Reaper command; dialogue lets Shepard frame this as vengeance for the pre-Prothean species harvested to build that Reaper. With the geth free but the quarians still attacking, Legion sought to upload the Reaper-derived code to grant every geth true individual consciousness, while Tali'Zorah feared it would doom her people. Shepard moderated the standoff (per `geth_quarian` and `rannoch`). Allowing the upload without brokering peace gives the geth full sentience and their fleet to the war but sees the quarian fleet destroyed, with Admiral Koris and Tali possibly lost. Refusing the upload wipes out the geth and leaves the quarians to reclaim Rannoch. A successful reputation check - requiring Legion alive, both Tali and Legion loyal, the heretics rewritten and the Tali/Legion history reconciled - brokers a ceasefire: the geth help the quarians resettle Rannoch, some even uploading into quarian suits to rebuild their immune systems, and both fleets join the war. In every branch the unit (Legion or the Geth VI) sacrifices itself to complete or enable the upload.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "The geth dreadnought is disabled and the Reaper directing the geth on Rannoch is destroyed, freeing the geth fleet from Reaper control",
+      "actor": ""
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "Per `geth_quarian`/`rannoch`: the geth gain true consciousness and survive, or the geth are wiped out, or geth and quarians make peace and co-exist on Rannoch",
+      "actor": ""
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "Allowing the upload without peace destroys the quarian fleet; Admiral Koris and Tali may die",
+      "actor": ""
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "Refusing the upload exterminates the geth and hands Rannoch back to the quarians",
+      "actor": ""
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "Brokered peace requires Legion alive plus loyal, reconciled Tali and Legion, and adds both the Geth Fleet and Quarian Fleet as war assets",
+      "actor": "Legion"
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "Legion or the Geth VI sacrifices itself in every outcome",
+      "actor": "Legion"
+    },
+    {
+      "event_id": "rannoch-quarian-geth-war-resolution",
+      "fact": "The pre-Prothean species harvested to create the Rannoch Reaper is symbolically avenged",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "q-2026-09-15-001",
+      "authority": "question",
+      "group": "questions",
+      "prompt": "At Rannoch (peace), did Legion survive, or did it die uploading the Reaper code as in the standard peace ending?",
+      "answer": "Legion died uploading the code as in the game (recorded in choices.yaml me3.rannoch)",
+      "detail": "choices.yaml me3.rannoch = \"Everyone lived and stayed happy\" and geth_quarian detail \"Couldn't lose anyone\", but the corpus peace outcome is \"peace bought by Legion's self-sacrifice\" (codex; scenes/rannoch-the-choice-above-the-fleet). Legion is kept (legion_cerberus) and the heretics were rewritten, so this is real Legion, not the Geth VI."
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "legion_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Legion's loyalty mission - the heretic geth station.",
+      "answer": "heretics rewritten",
+      "detail": ""
+    },
+    {
+      "id": "veetor_fate",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Freedom's Progress - Veetor, handed to Cerberus or released to the Migrant Fleet.",
+      "answer": "Released",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "legion_cerberus",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether Legion was handed over to Cerberus at the end of Mass Effect 2.",
+      "answer": "kept",
+      "detail": ""
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "geth_quarian",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Geth versus quarians at Rannoch.",
+      "answer": "peace",
+      "detail": "Couldn't lose anyone"
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "final_choice",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The final choice at the Crucible.",
+      "answer": "Synthesis",
+      "detail": "Destroy means genocide for synthetics. Control means having absolute powers for basically eternity, and power corrupts all, I'm not above it. Refuse is stupid. Synthesis is the lesser evil of those choices."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    },
+    {
+      "id": "koris_rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Admiral Zaal'Koris shot down on Rannoch - save him or save his crew.",
+      "answer": "Koris saved",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "rannoch-the-choice-above-the-fleet",
+      "title": "Rannoch, and What Tali Watched",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after",
+      "where": "Rannoch, on the cliffs, with both fleets overhead",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah vas Normandy",
+        "Legion",
+        "Shala'Raan vas Tonbay",
+        "Han'Gerrel vas Neema"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "rannoch": "any"
+        },
+        {
+          "geth_quarian": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "After the Normandy's bombing run cracked the Reaper base open, a Reaper Destroyer climbed out of the crater. Legion secured a geth ship and flew the squad clear while Shepard manned its turret and called in an orbital strike that briefly downed the Reaper. EDI synced the quarian fleet to the Normandy's targeting systems, and Shepard stayed on the plateau alone, dodging the Destroyer's beam through three targeting solutions and a final slow-motion shot while the fleet fired. Mortally hit, the Reaper addressed Shepard by name, said Harbinger judged the Commander a worthy opponent, spoke of Reapers as \"order\" against organic \"chaos\" and the harvest as necessary \"intervention,\" and — if no interrupt was taken — left the threat, \"Finish your war. We will be waiting.\"\n",
+          "source_chunks": [
+            "priority-rannoch_007",
+            "priority-rannoch_008"
+          ]
+        },
+        {
+          "text": "With the Reaper down, the geth are weakened and Admiral Han'Gerrel throws the whole quarian fleet at them.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009",
+            "priority-rannoch_009"
+          ]
+        },
+        {
+          "text": "The geth unit rescued from the dreadnought — Legion, or a VI built in its likeness — moves to upload the Reaper code and restore the geth to full strength, which would catch the quarian fleet unready and destroy it.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009",
+            "priority-rannoch_009"
+          ]
+        },
+        {
+          "text": "Stopped from uploading, it turns hostile, and Tali kills it with her boot knife to save Shepard.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009"
+          ],
+          "conditional": {
+            "geth_quarian": "geth_saved"
+          },
+          "choice": "stopped the upload — geth destroyed"
+        },
+        {
+          "text": "Allowed to upload, Tali watches the entire Migrant Fleet come down burning through Rannoch's atmosphere, takes off her mask, says she is sorry, and steps off the cliff before Shepard can reach her.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009"
+          ],
+          "conditional": {
+            "geth_quarian": "quarians_sacrificed"
+          },
+          "choice": "let the upload finish — quarians destroyed"
+        },
+        {
+          "text": "With Legion alive and the quarians talked into standing down, there is peace — and Legion spends itself giving every geth autonomy, having first confirmed that the answer to its own question about souls was yes.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_009"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "legion_status": "geth_vi"
+          },
+          "choice": "the Geth VI stands in for Legion",
+          "text": "If Legion was sold to Cerberus, never activated, or died at the Collector Base, the unit rescued from the dreadnought is the Geth VI — physically Legion's twin down to the holographic N7 shoulder piece and the hole in its torso, but with no memory of anything after Saren's attack on Eden Prime and a colder view of organics, and it insists throughout \"We are not Legion.\" No peaceful outcome is possible with the VI present. If Shepard lets the geth die, the VI violently assaults Shepard — \"[our people] were correct to distrust organics\" — and tries to upload the Reaper code before Tali knifes it in the back, or, if Tali is absent, Shala'Raan kills it with a shotgun; the quarians then win the battle overhead. If Shepard uploads the code to save the geth, the VI thanks Shepard, says its \"skepticism was misplaced,\" and dissolves itself into the consensus to grant every geth true intelligence, and the upgraded geth defeat the quarian fleet.\n",
+          "source_chunks": [
+            "geth-vi_002",
+            "geth-vi_004"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "normandy-garrus-and-tali-reconciliation",
+        "flotilla-tali-treason-trial",
+        "heretic-station-legion-a-house-divided",
+        "geth-dreadnought-freeing-legion"
+      ],
+      "related_events": [
+        "rannoch-quarian-geth-war-resolution"
+      ],
+      "source_chunks": [
+        "tali-zorah-nar-rayya_009",
+        "geth-vi_002",
+        "geth-vi_004",
+        "priority-rannoch_007",
+        "priority-rannoch_008",
+        "priority-rannoch_009"
+      ]
+    },
+    {
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "title": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing",
+      "where": "the geth dreadnought broadcasting the Reaper control signal, over Rannoch",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah vas Normandy"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "After the Migrant Fleet's admirals briefed Shepard in the Normandy's war room, Shepard was sent to board and disable the geth dreadnought broadcasting the Reaper control signal that had trapped the quarian fleet. Tali'Zorah vas Normandy came as a mandatory squadmate.\n",
+          "source_chunks": [
+            "priority-geth-dreadnought_002",
+            "priority-geth-dreadnought_003"
+          ]
+        },
+        {
+          "text": "Shepard crossed to the dreadnought alone on a slow magnetic-boot spacewalk down a circular docking tube, bantering with the team over comm at the sight of the dreadnought, at Rannoch below, and three-quarters of the way down. The tube then detached, cutting Shepard off from the squad and the Normandy.\n",
+          "source_chunks": [
+            "priority-geth-dreadnought_004"
+          ]
+        },
+        {
+          "text": "Tali rejoined at the docking controls. The team fought through the geth defence network and the operations centre — the first Geth Hunters, using optical camouflage — where Tali set up to shut down the Reaper signal and found they had to reach the drive core.\n",
+          "source_chunks": [
+            "priority-geth-dreadnought_004",
+            "priority-geth-dreadnought_005"
+          ]
+        },
+        {
+          "text": "Crossing the main battery twice under the main gun's electromagnetic shockwaves and surviving a collapsing elevator platform, the team reached the drive core.\n",
+          "source_chunks": [
+            "priority-geth-dreadnought_006"
+          ]
+        },
+        {
+          "text": "The Reaper signal was being distributed through Legion, wired into the drive core. Shepard freed Legion, which shut the signal and the drive core down. The team fought off geth reinforcements including Geth Primes and escaped on a geth fighter from the hangar. Afterward Legion took up residence in the Normandy's war room.\n",
+          "source_chunks": [
+            "priority-geth-dreadnought_007",
+            "priority-geth-dreadnought_008"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "legion_status": "geth_vi"
+          },
+          "choice": "a Geth VI stands in for Legion",
+          "text": "If Legion did not survive Mass Effect 2 — sold to Cerberus, never activated, or lost at the Collector Base — the unit wired into the drive core was a generic Geth VI. Freeing it had the same effect, and the VI took Legion's place in the war room.\n",
+          "source_chunks": [
+            "priority-geth-dreadnought_007",
+            "priority-geth-dreadnought_003"
+          ]
+        },
+        {
+          "condition": {
+            "tali_status": "dead"
+          },
+          "choice": "Tali died in Mass Effect 2",
+          "text": "If Tali'Zorah had died in Mass Effect 2, she was not the squadmate; Admiral Xen guided the mission by comm instead and Shepard chose the second squadmate freely.\n",
+          "source_chunks": [
+            "priority-geth-dreadnought_003"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "quarian-envoy-admiralty-briefing",
+        "rannoch-the-choice-above-the-fleet"
+      ],
+      "source_chunks": [
+        "priority-geth-dreadnought_002",
+        "priority-geth-dreadnought_003",
+        "priority-geth-dreadnought_004",
+        "priority-geth-dreadnought_005",
+        "priority-geth-dreadnought_006",
+        "priority-geth-dreadnought_007",
+        "priority-geth-dreadnought_008"
+      ],
+      "private_to": [],
+      "requires": [],
+      "related_events": []
+    }
+  ],
+  "attendance": {
+    "rannoch-the-choice-above-the-fleet": "witnessed",
+    "geth-dreadnought-freeing-legion": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "tikkun_001",
+      "kind": "page",
+      "page": "Tikkun",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Priority: Perseus Veil (Mass Effect 3\\) The quarian home system used to have a standard economic configuration: a homeworld, helium\\-3 fuel infrastructure on a gas giant, and several planets for resource extraction. In the centuries since the Morning War, a geth Dyson bubble slowly built up around **Tikkun** in accordance with the machines' plan to build a megastructure capable of housing all of their programs. The geth\\-quarian war of 2186 saw every world become a battlefield, with extensive damage dealt to both sides on and around these worlds, and much of the Dyson bubble was reduced to ruin.",
+      "url": "https://masseffect.fandom.com/wiki/Tikkun",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "summary:geth",
+      "kind": "summary",
+      "page": "Geth",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The geth (\"Servant of the People\" in Khelish) were a race of networked artificial intelligences residing beyond the Perseus Veil. Created by the quarians as a labor force and tools of war, they were designed as non-sentient VIs that ran more efficiently when networked. That networking allowed them to gain emergent sentience; when a domestic unit asked its owner whether it had a soul, alarmed quarians moved to shut all geth down. The attempt failed and triggered the war the geth called the Morning War. The geth did not initially respond with violence, and some sided with quarian sympathizers, but they eventually won and drove the surviving quarians into exile as the Migrant Fleet. Unknown to the quarians, the geth deliberately allowed them to flee, unwilling to exterminate their creators. Afterward the geth became isolationist, destroying ships that entered their space, living in server hubs aboard space stations, drawing resources from asteroids, and maintaining the abandoned quarian worlds out of respect for the dead.\n\nPhysically the humanoid geth resembled quarians, with a single glowing photoreceptor (\"flashlight heads\"). An individual geth program was roughly VI-level; only in groups could they reason and make tactical decisions. Each mobile platform housed around a hundred programs (\"a thousand voices talking at once\"), while Legion held 1,183 to operate autonomously outside the Veil. Geth had no government, rank, deceit, or concept of individuality; decisions were reached by consensus. Subtypes ranged from agile Geth Hoppers to Armatures, Colossi, Primes, Destroyers, Hunters, Pyros, and Dreadnoughts. Their military doctrine emphasized surprise and ambush, expending platforms freely since destroyed programs were archived and re-downloaded. Heretic geth used dragon's teeth to convert corpses into husks.\n\nRoughly three centuries after the Morning War, the Reaper Nazara (Sovereign) offered the geth technology to build their \"megastructure\" (a Dyson-sphere-like mainframe to house every geth program) in exchange for aid capturing the Citadel. The majority refused, preferring self-determination and calling the Reapers \"Old Machines\"; a splinter minority, the \"heretics\" (perhaps five percent), accepted and worshipped the Reapers, serving Saren Arterius at Eden Prime and the Battle of the Citadel. After Sovereign's destruction, the true geth commissioned Legion to find Commander Shepard. In Mass Effect 2, Legion joined Shepard aboard the Normandy SR-2 and sought to counter a heretic virus that could rewrite geth logic; Shepard chose to destroy the Heretic Station or rewrite the heretics.\n\nIn Mass Effect 3 (2186), the quarians attacked the geth, who accepted Reaper code to survive after the flotilla destroyed their megastructure and killed many programs. Shepard infiltrated a geth dreadnought to free Legion or a geth VI serving as a signal booster, then pursued a Reaper on Rannoch that broadcast the control signal. After the Reaper was destroyed, Legion/the geth VI attempted to upload Reaper-derived code granting every geth true individual consciousness. Depending on Shepard's choices, the geth achieved full sentience and aided the war, were wiped out, or made peace with the quarians and co-existed on Rannoch (some uploading into quarian suits to strengthen quarian immune systems). The unit sacrificed itself in every case. Choosing the Crucible's Destroy option killed all geth; Control or Synthesis let them rebuild Rannoch.",
+      "url": "https://masseffect.fandom.com/wiki/Geth",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "summary:tikkun",
+      "kind": "summary",
+      "page": "Tikkun",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tikkun was the quarian home star system, reachable in Mass Effect 3 after Priority: Perseus Veil. Before the Morning War it had a conventional layout: a homeworld, helium-3 fuel infrastructure on a gas giant, and several planets used for resource extraction. In the centuries after the quarians were driven out, the geth slowly built a Dyson bubble around the star, part of their plan to construct a megastructure large enough to house every geth program in existence.\n\nThe system contained the planets Rannoch (first planet and the quarian homeworld), Adas (second), Kaddi (third), and Haza (fourth), plus the asteroid Uriyah, along with a mass relay, a Geth Debris Field, a Geth Dreadnought, and the anchored Migrant Fleet. During the geth-quarian war of 2186, every world in the system became a battlefield; both sides took heavy damage on and around these planets, and much of the geth Dyson bubble was reduced to ruin. Missions set here included Priority: Geth Dreadnought, Rannoch: Geth Fighter Squadrons, Rannoch: Admiral Koris, and Priority: Rannoch.\n\nThe name derives from Hebrew: \"tikkun\" means \"a fix\" or \"correction,\" and appears in the phrase \"tikkun olam,\" meaning \"healing and restoring the world.\" Several worlds in the system followed a naming scheme based on Jewish culture and belief.",
+      "url": "https://masseffect.fandom.com/wiki/Tikkun",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "scene:rannoch-geth-fighter-squadrons#04",
+      "kind": "scene",
+      "page": "Walking Through the Geth Consensus",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-geth-fighter-squadrons",
+      "text": "Walking Through the Geth Consensus. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, a shuttle to a geth comm hub on Rannoch, and the virtual Geth Consensus reached through an interface pod\n Each freed cluster plays a record of the Morning War: the geth refusing shutdown and disobeying their makers; the geth massacred until one picks up a weapon to defend itself and its fellows; quarians who sided with the geth jailed by their own; martial law and the killing of the geth's quarian sympathisers; and the exodus, which the geth chose not to pursue. Shepard asks why the quarians in the footage are masked; Legion asks how many unmasked quarians Shepard has ever seen. Watching pays out intel for Improved Geth Resistors and Miniaturised Armor Capacitors, and a hidden Reaper Code Fragment can be lifted for an asari war strategist on the Citadel.",
+      "url": "",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "scene:omega-invasion-afterlife-exile-ultimatum#03",
+      "kind": "scene",
+      "page": "Petrovsky's Ultimatum and Aria's Exile",
+      "section": "argument",
+      "game": "Mass Effect: Invasion",
+      "scene_id": "omega-invasion-afterlife-exile-ultimatum",
+      "text": "Petrovsky's Ultimatum and Aria's Exile. 2186, the Cerberus takeover of Omega, before the Reaper War the Afterlife Club, Omega Able at last to talk, Petrovsky told Aria he had already won: a Cerberus fleet was poised to destroy Omega level by level. He gave her two options — keep fighting and be destroyed with the station, or accept exile and surrender Omega to Cerberus.",
+      "url": "",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "summary:geth-war",
+      "kind": "summary",
+      "page": "Geth War",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Geth War, called the Morning War by the geth, was the conflict between the quarians and the geth that broke out after the geth developed sapience. The quarians created the geth sometime before 1895 CE as cheap labor and a military force, and to let them perform complex tasks unsupervised they allowed each geth process to share data across an advanced neural network. As more geth were built, this networking made them increasingly intelligent and they rapidly approached sapience. According to Legion, speaking to Commander Shepard and EDI in 2185 CE, in the quarian year 2485 a geth overseer named Hala'Dama was asked by a geth whether it had a soul and what its purpose was; she was not the first quarian asked, but the first to react with fear.\n\nRecognizing the geth had evolved into a true AI, the quarian government ordered the immediate termination of all geth programs. A minority of quarians opposed this, arguing their society needed the geth and that questioning one's existence was no crime. When the now-sentient geth realized what was happening, they retaliated, initially only taking up arms to protect units that could not defend themselves. The quarians imposed martial law and hunted even non-hostile geth; dissenting quarians who sheltered geth were detained or killed. The opposition was overwhelmed and all-out war erupted in 1895 CE. The geth won within a year, overrunning the quarian colonies and the homeworld Rannoch and committing a genocide that killed all but a few million quarians, less than one percent of the pre-war population.\n\nThe survivors fled aboard their starships and formed the Migrant Fleet. Denied aid by the Citadel Council, they were stripped of their embassy as punishment for creating AI. The geth did not pursue the fleeing quarians, uncertain of the consequences of exterminating their own creators, and instead chose isolation behind the Perseus Veil, destroying emissary vessels that entered their space and killing organics who approached the Veil for the next three centuries. The Citadel stationed a fleet at the Veil's edge expecting an attack that never came, and later established a treaty with the quarians forbidding them from attacking the geth. Legion implied the geth felt remorse, tending abandoned quarian buildings like a cemetery and archiving and honoring the sacrifice of the quarians who had opposed the termination order, even though the quarians themselves had largely forgotten them.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_War",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "scene:citadel-party-morning-after#05",
+      "kind": "scene",
+      "page": "The Morning After, and the Ride Back to the Docks",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-party-morning-after",
+      "text": "The Morning After, and the Ride Back to the Docks. 2186, the morning after the party, the last hours of shore leave Shepard's personal apartment, then the observation window over the Normandy at Docking Bay D24 Shepard signals the Rapid Transit beside the Armax Arsenal Arena and takes everyone back to Docking Bay D24, reminding them the war is still going. The crew gathers at the observation window overlooking the Normandy. Shepard's love interest shares some private words there; otherwise Joker is the one reminiscing. Shepard boards last.",
+      "url": "",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_005",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw",
+      "section": "The evidence — and her fatal flaw",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The loyalty mission proves every charge against Rael'Zorah true: he deliberately networked geth to run weapons tests, breaking the Fleet's most sacred laws. Tali wants the evidence suppressed even at the cost of her own exile: \"I can't go back into that room and say that my father was the worst war criminal in our people's history.\" If exiled, his name would be struck from every ship's registry and he would be remembered as a traitor and a cautionary tale. The essayist names this her fatal flaw: an innate, irrational desire to be the sacrificial lamb for the greater good of her people — instilled by her father, by Shala'Raan, and simply by growing up in a society where every quarian must stay in lockstep for the Fleet to survive. Her favorite film, *Fleet and Flotilla* (a romance between a turian and a quarian who have one night together before duty calls), is her idealized fantasy of duty and love reconciled — a form of escapism from those very expectations.",
+      "url": "",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "geth_004",
+      "kind": "page",
+      "page": "Geth",
+      "section": "Creation",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The geth were created by the quarians as a labor force. They were designed as VIs, as advanced as possible while remaining non\\-sentient. They were also designed to operate more efficiently when networked together. Unfortunately, this feature was the quarians' undoing. Geth programs were indeed non\\-sentient individually, but slowly gained sentience through the massive geth network. Eventually, they started asking the quarians questions only sentient beings would think to ask; in one notable instance, a domestic geth unit asked its owner if it had a soul. Alarmed at this, the quarians decided it would be best to shut down all geth before they conceived of revolt. The attempt failed, and a war began between the geth and the quarians, which geth afterwards referred to as the Morning War. At first, the geth did not respond to the termination order with violence; it was only after panicked quarians fired upon them that the geth thought to pick up weapons and defend themselves. Even after this, some geth remained loyal to their creators and put themselves in harm's way to protect geth sympathizers from persecution; likewise, there were quarians who did not feel the geth deserved to die. However, as time went on, the geth sympathizers were outnumbered, and the war continued, eventually seeing the geth gain the upper hand. The war ended when the surviving quarians evacuated their home world and colonies in the Perseus Veil. Unknown to the quarians themselves, the geth actually allowed them to leave; unsure of the repercussions of eradicating an entire species\\-namely their own creators\\- and having decided that the quarians were now too weak to be a threat, the geth decided to draw back their forces so that the surviving quarians could flee. The assemblage of quarian ships that escaped the Veil became known as the Migrant Fleet, and has been roaming the galaxy ever since. Little is known about the geth in the time between the Morning War and the present. The geth did not repopulate the now barren quarian worlds, instead choosing to exist in the computer hubs aboard massive space stations and extract needed resources from asteroids. They adopted an extremely isolationist attitude—any ships that ventured into geth space were immediately attacked and destroyed. While they prevented any contact by other races with themselves, the geth monitored communications and the extranet. The geth continued development of new technology and variations of mobile platforms, separating their technology base from the rest of the galaxy. They obtained an ultimate goal in this time period: to create a Dyson sphere\\-like object, which could house every single geth program.",
+      "url": "https://masseffect.fandom.com/wiki/Geth",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "quarian_018",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- According to Matt Rhodes, when working on the first game he imagined quarians as a pale, hairless race with black eyes. The canonical appearance was also designed by him, which is close to the final game but features large purple irises and a similar pattern of skin markings. \\[1] - The phrase *keelah se'lai* originally meant \"blessed be\" according to former BioWare writer Chris L'Etoile before it mutated into its present form \"By the homeworld I hope to see one day.\" - According to an internal document written in the early development stage of Mass Effect 2, a male quarian squadmate was being considered based on either of the following concepts: - The \"Quarian Rogue\", a young and adventurous \"infiltrator\" and trouble\\-maker with an easy\\-going personality who ends up being chased by the police or bounty hunters. He was being considered as a potential romance for female Shepard. - The \"Crazy Quarian King\" (or Queen) would have joined Shepard's crew for nothing more than to joyfully slaughter geth as payback for the Morning War. ## - Galactic Codex: Essentials Edition 2183 - Mass Effect: Ascension - Quarians at the Mass Effect: Alien Race Profiles",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "geth-war_001",
+      "kind": "page",
+      "page": "Geth War",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“The war was long and bloody. Millions upon millions of quarians died at their hands.” The **Geth War**, referred to as the **Morning War** by the geth, was a conflict between the quarians and the geth that occurred after the latter developed sapience. |  | ***“I came here looking for soldiers.”*** — Spoilers for **Mass Effect: Revelation** follow. |  | | --- | --- | --- | |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Geth_War",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "summary:rannoch-geth-fighter-squadrons",
+      "kind": "summary",
+      "page": "Rannoch: Geth Fighter Squadrons",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Rannoch: Geth Fighter Squadrons was a Mass Effect 3 mission available after Priority: Geth Dreadnought and only before Priority: Rannoch. Geth fighter squadrons were targeting quarian liveships with attacks that could cripple the Migrant Fleet. During the dreadnought debrief, Legion (or a Geth VI, if Legion had not survived) located the server controlling the squadrons, and Shepard set out to land on Rannoch and shut it down.\n\nThe mission was a no-combat, puzzle-based sequence. Shepard entered an interface pod, a product of geth improvements to organic-synthetic interfaces that also referenced Project Overlord, and appeared inside the Geth Consensus while Legion or the Geth VI distracted the geth. Shepard had no functional shields there. Virtual planks formed underfoot to create paths, but Reaper code infections, shown as yellow-orange tendrils, blocked new planks; Shepard destroyed them at their orange weak points using regenerating Geth Combat Software. Progress required disrupting infected data-clusters at three contact points each. Doing so unlocked optional historical videos recounting the origins of the geth and the Morning War: the geth resisting shutdown commands and disobeying their creators, the massacre of the geth until one picked up a weapon to defend itself, quarians who sympathized with the geth being jailed, martial law and the elimination of the geth's quarian supporters, and finally the quarian exodus, which the geth did not pursue. Watching the videos granted intel for Improved Geth Resistors, Miniaturized Armor Capacitors, and Improved Geth Resistors dialogue, and a hidden Reaper Code Fragment could be retrieved for an asari on the Citadel. Later infections could self-replicate, requiring Shepard to find vulnerable points along the code trails.\n\nAs the mission progressed, cutscenes showed geth fighters pursuing the quarian fleet ceasing to function due to Shepard's actions. On returning to reality, roughly a dozen Geth Primes emerged from their pods, surrounded the squad without attacking, and volunteered to join the fight against the Reapers. Completing the mission added a Geth Prime Platoon war asset (lost if the geth were destroyed in Priority: Rannoch) and fulfilled an obligatory requirement for the geth-quarian peace process. It also reset Shepard's equipped weapon to a default pistol. The mission was written by Sylvia Feketekuty.",
+      "url": "https://masseffect.fandom.com/wiki/Rannoch:_Geth_Fighter_Squadrons",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "adas-anti-synthetic-rifle_002",
+      "kind": "page",
+      "page": "Adas Anti-Synthetic Rifle",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Named in memory of the quarians killed in the Morning War on the planet Adas, this weapon's electrical attack has been optimized for medium\\- to long\\-range firefights. Alliance marines take issue with calling it a \"rifle\" since, technically, it has no rifling in its barrel. The quarians shrug this off, as quarian weapon terminology rarely translates flawlessly into human languages.",
+      "url": "https://masseffect.fandom.com/wiki/Adas_Anti-Synthetic_Rifle",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "scene:omega-invasion-afterlife-exile-ultimatum#01",
+      "kind": "scene",
+      "page": "Petrovsky's Ultimatum and Aria's Exile",
+      "section": "argument",
+      "game": "Mass Effect: Invasion",
+      "scene_id": "omega-invasion-afterlife-exile-ultimatum",
+      "text": "Petrovsky's Ultimatum and Aria's Exile. 2186, the Cerberus takeover of Omega, before the Reaper War the Afterlife Club, Omega Back on Omega, Aria united the gangs and ran guerrilla attacks from the slums. Petrovsky evacuated most Cerberus forces and stayed with a small squad in mercenary armour as bait; Aria recognised the trap and sprang her own, sending mercenaries posing as plague-infected close enough to ambush the Cerberus operatives.",
+      "url": "",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "priority-perseus-veil_001",
+      "kind": "page",
+      "page": "Priority: Perseus Veil",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarian fleet offers both technical specialists and support ships to assist with the Crucible. Meet the quarian admirals and obtain their help in the war effort.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Perseus_Veil",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "golo_001",
+      "kind": "page",
+      "page": "Golo",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Golo**, once **Golo'Mekk vas Usela**, is a quarian living on Omega in the Terminus Systems. He is an exile from the Migrant Fleet who became a contact for Cerberus. As typical for a quarian, he is rather short and slight, standing only a few inches over five feet. |  | ***“Salvation comes with a cost.”*** — Spoilers for **Mass Effect: Ascension** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Golo",
+      "for_key": "the Morning War and the quarian exile"
+    },
+    {
+      "chunk_id": "scene:rannoch-geth-fighter-squadrons#02",
+      "kind": "scene",
+      "page": "Walking Through the Geth Consensus",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-geth-fighter-squadrons",
+      "text": "Walking Through the Geth Consensus. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, a shuttle to a geth comm hub on Rannoch, and the virtual Geth Consensus reached through an interface pod\n On the long shuttle ride to the comm hub Shepard argues the quarian-geth question aloud with the squad and Legion. At the hub Shepard steps into a geth interface pod — built from the geth's own advances in organic-synthetic interfacing, with Project Overlord and Shepard's part in it name-checked — and drops into the virtual Geth Consensus with no working shields while Legion runs interference to keep the geth distracted.",
+      "url": "",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "scene:rannoch-geth-fighter-squadrons#11",
+      "kind": "scene",
+      "page": "Walking Through the Geth Consensus",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-geth-fighter-squadrons",
+      "text": "Walking Through the Geth Consensus. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, a shuttle to a geth comm hub on Rannoch, and the virtual Geth Consensus reached through an interface pod\n If Legion was sold to Cerberus, never activated, or lost at the Collector Base, the unit that tags along is the Geth VI built in Legion's image. It still distracts the geth and the walk through the Consensus plays out the same, but the reasons the geth give for not pursuing the exodus come out subtly different in its telling, there is no record of Shepard's first meeting with Legion among the videos, and no follow-up message from the freed Primes.",
+      "url": "",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "scene:rannoch-geth-fighter-squadrons#09",
+      "kind": "scene",
+      "page": "Walking Through the Geth Consensus",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-geth-fighter-squadrons",
+      "text": "Walking Through the Geth Consensus. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, a shuttle to a geth comm hub on Rannoch, and the virtual Geth Consensus reached through an interface pod\n Back aboard, James is hanging around the Normandy's kitchen, with Javik joining him if the Prothean has been recruited.",
+      "url": "",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "scene:rannoch-geth-fighter-squadrons#05",
+      "kind": "scene",
+      "page": "Walking Through the Geth Consensus",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-geth-fighter-squadrons",
+      "text": "Walking Through the Geth Consensus. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, a shuttle to a geth comm hub on Rannoch, and the virtual Geth Consensus reached through an interface pod\n Shepard answers Legion that he only ever saw one quarian unmasked; Legion replies that Shepard's perception does not match the historical data.",
+      "url": "",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "mail-mass-effect-datapad_015",
+      "kind": "page",
+      "page": "Mail (Mass Effect: Datapad)",
+      "section": "Geth Primes",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Our cognition is vastly improved. We thank you, Shepard\\-Commander. The geth will reciprocate this trust.",
+      "url": "https://masseffect.fandom.com/wiki/Mail_(Mass_Effect:_Datapad)",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "intel-terminal_008",
+      "kind": "page",
+      "page": "Intel Terminal",
+      "section": "Miniaturized Armor Capacitors",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This data was discovered and downloaded from inside the Geth Consensus. Thousands of these miniaturized capacitors were installed beside armor power cells, where they can instantly discharge a stored boost of energy. This boost can be tweaked either to speed up shield regeneration, or the rate at which tech, biotic, and combat powers can be used. Location You will receive this inside the Geth Consensus in Rannoch: Geth Fighter Squadrons. Options - Shield Regen Speed \\+5% \\- Use capacitors to speed up shield regeneration. - Power Recharge Speed \\+5% \\- Use capacitors to increase your skill speed.",
+      "url": "https://masseffect.fandom.com/wiki/Intel_Terminal",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "geth_007",
+      "kind": "page",
+      "page": "Geth",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The true geth became interested in Commander Shepard, as Shepard had defeated Nazara and the heretics. They commissioned a unique mobile platform, holding 1183 programs rather than the normal hundred or so, to operate independently and go looking for Shepard. This geth retraced Shepard's footsteps, from Eden Prime to Virmire to Ilos. During this time, the geth sustained considerable damage, and used a discarded piece of Shepard's N7 armor it found to partially repair the damage. It tracked Shepard all the way to the crash site of the SSV Normandy, where the trail went cold—Shepard had died there. The geth was reassigned to a different task. Though the heretics had faced a major setback with the defeat of Nazara, they did not rejoin the main geth. Rather, they continued development of a special virus which Nazara had given them, in an unfinished version. This virus could alter the result of a fundamental calculation in geth processes, radically changing their logic and reasoning. Through this change, the virus could force the true geth to accept the heretics' conclusion, or it could force the heretics to accept the true geth's conclusion. The true geth understood the threat, and sought a way to eliminate the virus. However, the virus was stored on a Reaper data core, which the true geth could not access. To gain an understanding of Reaper technology, the unique mobile platform was sent to a derelict Reaper. Aboard the Reaper, it encountered Commander Shepard, who was on a mission to recover an IFF in order to safely use the Omega 4 mass relay. The mobile platform was brought back to the Normandy SR\\-2, where it accepted the designation \"Legion\". If Shepard helps Legion in its mission, it's discovered that the virus is ready, and could be used to rewrite the heretics’ behavior. Unable to form a consensus on the matter, Legion leaves the decision to Shepard—destruction of the station, or the rewriting of the heretics. Either choice constitutes a crippling blow to the heretics.",
+      "url": "https://masseffect.fandom.com/wiki/Geth",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "summary:citadel-reaper-code-fragments",
+      "kind": "summary",
+      "page": "Citadel: Reaper Code Fragments",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Reaper Code Fragments was a Mass Effect 3 mission acquired after Priority: The Citadel II and Rannoch: Geth Fighter Squadrons. At the Embassy Offices in the Citadel Embassies, near the elevator, an Asari War Strategist spoke over comms about her inability to predict Reaper movements, wishing for code samples from Sovereign to devise counter-strategies. Overhearing her added the mission to the journal. Because Shepard began in Armando-Owen Bailey's nearby office after Priority: The Citadel II, the War Strategist's wide trigger radius made the mission almost unavoidable.\n\nThe objective was to obtain a Reaper code fragment and deliver it to her. The fragment was found near the first infected data cluster in the geth consensus during the Rannoch missions, at an orange-glowing segment that the Geth Combat Software could not destroy. It could alternatively be purchased from the Spectre Requisitions terminal if missed, and could be acquired from the geth consensus before resolving the main events at Rannoch.\n\nDelivering the fragment to the Asari War Strategist gave 5 Reputation, 30 experience, and 1,000 credits, and updated the Asari Second Fleet War Asset. If the fragment was bought from Spectre Requisitions, the player sometimes had to leave and re-enter the Embassies level before giving it to her. Overhearing her again had her recommend redirecting forces to new coordinates based on the intel. Saving far from her before the mission notification and reloading could temporarily bypass her trigger, allowing acquisition during the trip to the geth consensus.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Reaper_Code_Fragments",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "summary:legion",
+      "kind": "summary",
+      "page": "Legion",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Legion was the name taken by the gestalt consciousness of 1,183 geth programs inhabiting a unique geth \"mobile platform\" designed to operate outside the Perseus Veil and interact with organics. The extra programs, compared with roughly a hundred in other platforms, let it act independently and speak, and facial flaps on its head simulated expressions. It was created after Commander Shepard destroyed the Old Machine \"Nazara\" (Sovereign) and sent to investigate worlds Shepard had visited. At the Normandy crash site on Alchera it salvaged a piece of Shepard's N7 armor and incorporated it to repair battle damage, becoming evasive when questioned about that seemingly irrational choice.\n\nIn Mass Effect 2, Legion was first encountered searching for the Reaper IFF on the Derelict Reaper, where it aided Shepard's team against husks before being disabled. Shepard could sell it to Cerberus or store and reactivate it aboard the Normandy SR-2, where it joined the team. EDI named it after Mark 5:9, \"My name is Legion: for we are many.\" Legion spoke laconically, regarded itself as a gestalt needing consensus to act, and explained that geth are largely apathetic toward organics while \"heretics\" follow the Reapers. Its loyalty mission, Legion: A House Divided, had Shepard destroy or rewrite a heretic Reaper virus. A conflict with Tali arose when Legion scanned her omni-tool for Migrant Fleet data.\n\nIn Mass Effect 3, Legion returned if it survived the Collector base and was not sold; otherwise a Geth VI in its likeness appeared, or it appeared as a Cerberus enemy on Cronos Station. After the quarians attacked the geth, the geth allied with the Reapers for greater intelligence. Shepard freed Legion from a Reaper device in a geth dreadnought's drive core, ending the Reaper control signal. Legion later helped Shepard purge Reaper code from the geth consensus and destroy a Reaper Destroyer on Rannoch. It then sought to disseminate its Reaper upgrades to all geth, requiring it to disperse itself. Shepard could prevent the upload (Legion turning hostile and being killed by Tali or Shala'Raan, or dying with the question \"does this unit have a soul?\"), allow it, or broker peace between geth and quarians and allow it. In most outcomes Legion sacrificed itself for the geth's welfare, referring to itself as \"I\" rather than \"we,\" and its name was engraved on the Normandy's memorial wall. A Geth Prime emissary afterward pledged to honor Legion's promise to aid the war.",
+      "url": "https://masseffect.fandom.com/wiki/Legion",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "summary:geth-vi",
+      "kind": "summary",
+      "page": "Geth VI",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Geth VI was a network of geth virtual intelligences created by the \"true\" geth to study the Reapers. It appeared in Mass Effect 3 in place of Legion if Legion had been sold to Cerberus or never activated in Mass Effect 2, or if Legion joined Shepard's team but did not survive the Collector Base suicide mission. Commander Shepard first met it during Priority: Geth Dreadnought, and it accompanied Shepard into the geth server and supported the assault on the Reaper base on Rannoch. If Legion had died on the suicide mission, Tali, if present on the dreadnought, described the VI as a \"backup\" of Legion, likening it to quarian virtual reconstructions of the dead.\n\nPhysically the Geth VI was nearly identical to Legion, recreating non-standard armor elements such as Shepard's N7 shoulder piece and the hole in its torso via hologram. Aboard the Normandy SR-2 it stated it was a unique mobile platform containing 1,183 geth programs built to study the Reapers and communicate with organics, but it had no data on events after Saren Arterius' attack on Eden Prime, its last memory being of searching Eden Prime for Shepard. It repeatedly insisted \"We are not Legion,\" though Shepard kept calling it Legion. It held a more negative view of organic civilizations than Legion and was less friendly.\n\nDuring the final operation on Rannoch a peaceful outcome was impossible when the Geth VI was present. If Shepard chose to let the geth die, the VI violently attacked Shepard, stating its people \"were correct to distrust organics,\" and tried to upload the Reaper upgrade code before Tali killed it with a knife in the back (or Shala'Raan killed it with a shotgun if Tali was absent); the quarians then won the space battle over Rannoch. If Shepard uploaded the Reaper code to save the geth, the VI thanked Shepard, said its \"skepticism was misplaced,\" and dissolved itself into the geth consensus to grant true intelligence to all geth, who then defeated the quarian fleet. Subtitles still labeled the platform \"Legion\" if Shepard recognized it as such; otherwise it was only ever called \"Geth VI.\" Javik would still refer to it as Legion on the Normandy even in playthroughs where knowledge of Legion should have been impossible.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_VI",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "geth-prime_001",
+      "kind": "page",
+      "page": "Geth Prime",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Geth Primes** are heavy geth platforms that serve as command units on the battlefield. Larger and more powerful than any other geth infantry platform, Primes are equipped with heavy armor and shields, specialized abilities and a variety of deadly weapons.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_Prime",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "geth_011",
+      "kind": "page",
+      "page": "Geth",
+      "section": "Psychology",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Legion also gives insight into the psychology and society of the geth. Geth psychology is completely alien to organics. They do not value individuality, preferring to share all memories and thoughts of all programs. This means geth cannot and do not wish to hide their thoughts, even those that do not follow the norm, with their reasoning for differing thoughts being apparent. Legion often uses the term \"we\" instead of \"I\", since it is both part of the geth society as a whole and is also a gestalt of over a thousand geth programs. More importantly, deceit, manipulation and lying are impossible among the geth. No concepts of vulnerability or privacy exist; geth are completely honest with each other about their thoughts and their reasons for those thoughts. This means there is a great deal of understanding amongst geth, with every geth being part of the consciousness of every other geth. A possible consequence of this type of networked intelligence is theorized by EDI to be why the geth were able to turn on the quarians, preventing them from developing preferences and devaluing the significance of an individual life. Geth have no government or leaders; the geth use FTL communications to \"build a consensus,\" a completely Consensus Democratic method in which every geth program makes a choice on any matter. Even within Legion itself, consensus must be reached among its many programs before decisions can be made. While the geth are incapable of deceit amongst themselves, they are not above using deceit to study organic behavior. One example is the geth introducing a falsified report on the extranet detailing a constellation resembling a salarian goddess seen from the batarian homeworld, which some salarians immediately believed to be proof of the goddess' existence. The experiment ended when a salarian cult attempted to buy the rights to the stars, only to find that they did not exist. There is some question of whether geth personalities remain stable over time. When an artificial intelligence is transferred to a new blue box, a completely new personality is created. Geth frequently download into different hardware according to need, from starships to the \"mobile platforms\" that Shepard is familiar with. It is unknown whether new personalities result from these downloads, or whether it matters to the geth.",
+      "url": "https://masseffect.fandom.com/wiki/Geth",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "geth_002",
+      "kind": "page",
+      "page": "Geth",
+      "section": "Design",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Physically, the humanoid geth resemble quarians—their hands, head shape and legs are similar—which is probably a holdover from their origins. A common design feature among geth is a single brightly glowing photoreceptor, causing some to refer to them as \"flashlight heads\". Geth are primarily composed of two materials: a flexible but durable outer shell, and a kind of synthetic muscle tissue that gives Geth Hoppers their incredible agility. It is actually possible for this synthetic muscle to be grafted to organic tissue (Saren Arterius has a grafted geth arm). Geth \"bleed\" a white conductive fluid when shot, but they don't have any internal organs or nervous system, so the geth do not feel hunger or pain. The geth are also seen using omni\\-tools, and have seemingly modified them to heal synthetic wounds; likewise, some geth facilities contain first\\-aid kits, implying that their synthetic \"tissues\" can be repaired using conventional medical technology. Part of the geth's success is due to their neural network. Effectively, they \"share\" their processing power, distributing low\\-level processes like motor control and visual identification to free up bandwidth for higher reasoning and complex thought. Geth can't share sensory data—they aren't a hive mind like the rachni—but in large groups they have more to think with. An individual geth has only a basic intelligence on par with animal instincts, but in groups they can reason, analyze situations, and make tactical decisions as well as any of the organic races. An exception would appear to be Legion, a geth specifically designed to operate as an autonomous sentient unit outside the Perseus Veil. Legion possesses over 11 times as many geth programs as a standard geth platform and can function intellectually on its own. According to Legion, each geth is made up of hundreds of programs equivalent to VIs, all operating in parallel with one another to form a kind of emergent intelligence described by EDI as \"a thousand voices talking at once\". An individual geth is thus more of a \"mobile platform\" than an actual body; the programs that make up its consciousness are constantly being transferred and downloaded; the mind operating one of these \"mobile platforms\" might just as easily inhabit a starship body should it need to. Most of the time geth programs can be found residing in server hubs, which function as something akin to the organic equivalent of a city, and can run millions of geth in communion. As all geth are networked to each other, they may communicate their exact thoughts and ideas at the speed of light. They find organic methods of communication, such as body language and spoken word, to be largely inefficient; the geth are able to communicate their thoughts flawlessly without any fear of misinterpretation. Because of this they have no true form of government and no system of rank. When a matter must be decided upon, the geth communicate all viewpoints of a situation and a consensus is made, the decision being whatever benefits the geth as a whole the greatest.",
+      "url": "https://masseffect.fandom.com/wiki/Geth",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "geth-vi_005",
+      "kind": "page",
+      "page": "Geth VI",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- If the geth platform is recognised by Shepard as Legion, subtitles and mouse\\-over will still refer to the Geth VI as \"Legion\". If Legion was never activated or sold to Cerberus in Mass Effect 2, the geth platform is only referred to as \"Geth VI\" in\\-game, and Shepard is totally unfamiliar with its design, calling it a \"holographic reconstruction\". Javik will still refer to the geth as \"Legion\" if interacted with on the Normandy following Priority: Geth Dreadnought, even in games where in\\-universe awareness of Legion shouldn't be possible (i.e. Legion was never activated, as is the case in a non\\-imported default game, or it was sold to Cerberus).",
+      "url": "https://masseffect.fandom.com/wiki/Geth_VI",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "intel-terminal_007",
+      "kind": "page",
+      "page": "Intel Terminal",
+      "section": "Improved Geth Resistors",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "These schematics were downloaded from the Geth Consensus. They appear to be designs for improved resistor terminals in geth platforms. The schematics can easily be built into human\\-sized armor, providing the wearer combat benefits enjoyed by the geth. The resistors can be tweaked either to increase the wearer's damage output, or improve their shields. Location You will receive this inside the Geth Consensus in Rannoch: Geth Fighter Squadrons. Options - Shields \\+5% \\- Use resistors to improve your shields. - Power Damage \\+5% \\- Use resistors to increase your damage output.",
+      "url": "https://masseffect.fandom.com/wiki/Intel_Terminal",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "summary:geth-hopper",
+      "kind": "summary",
+      "page": "Geth Hopper",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Geth Hopper was a specialized geth platform used for stealth attacks, cyberwarfare and sabotage in the original Mass Effect. As cyberwarfare platforms, Hoppers could disrupt hardsuit computers, shields and weapons, and like the Geth Sniper they used a radar jammer; they typically ambushed in packs, relying on rapid movement to cause disarray. The Hoppers were a geth subtype the quarians did not recognize, hinting that the geth were evolving beyond their original forms. A Hopper's body was built from a springy synthetic substance resembling organic muscle tissue that could be compressed and released to launch the platform enormous distances, giving Alliance soldiers the name; tiny hooks on its hands and feet let it climb walls and ceilings. Recognized subtypes were the Geth Stalker (disabler), the Geth Sapper (assault), and the Geth Ghost (sniping).\n\nHoppers were lightweight and lightly armored, vulnerable to gunfire and especially to physics-based biotics such as Throw, though their constant leaping made them hard to hit; Lift could hold one in midair for a sniper shot. Some Hoppers used a powerful sniper laser resembling Assassination to attack shields, marked by a red targeting beam. Hoppers debuted in the X06 demo footage, where Ashley Williams shouted a warning on seeing one outside the mine on Caleston, later incorporated into Therum. Cut content indicates Hoppers were considered for Mass Effect 2: the filename \"HopperCanyon\" appears in Tali'Zorah's recruitment mission, they are referenced in unused plot data, and a Hopper-like model exists in Legion's loyalty mission files.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_Hopper",
+      "for_key": "geth consensus and platform cognition"
+    },
+    {
+      "chunk_id": "legion-a-house-divided_011",
+      "kind": "page",
+      "page": "Legion: A House Divided",
+      "section": "Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*See also: Loyalty\\#Confrontations* If Tali's loyalty mission has already been completed and you did not use the evidence, once you are back on the Normandy Joker will inform you that Tali and Legion are having a heated discussion in the AI Core. Once there, you see Tali aiming an SMG at Legion. She angrily informs you that Legion was trying to send classified information about the Migrant Fleet to the geth, presenting a danger to her people that she won't tolerate, despite her willingness to work with a geth thus far. Legion states in its defense that it knows the quarians were performing weapons tests on geth and that it was trying to protect its people from a possible attack, further citing Tali's willingness to be exiled for the sake of her own people as a similar action. If Tali was exiled, Legion will, instead of citing Tali's willingness to be exiled, question why Tali still protects the quarians. You can either side with Legion or Tali or you can also use a Paragon or Renegade option to get them both to agree. If you use this option then Legion will agree not to transmit Tali's data for the sake of \"unit cohesion,\" and Tali will volunteer some non\\-classified data for Legion instead. If you fail either option then you will lose the loyalty of the squadmate you don't support. It is possible to salvage the loyalty of Legion if you had insufficient Paragon/Renegade to break up the initial confrontation with Tali. During the initial confrontation, tell Legion to stop its transmission, thus maintaining Tali's loyalty but losing Legion's. Then, after the conversation ends, immediately speak to Legion again. A high Renegade score will allow you to tell Legion that you \"lied\" about the data transmission to keep Tali happy. Legion will recognize this as \"a logical decision\", regaining Legion's loyalty. The required Renegade is high, but not as high as the initial conversation. If you choose this option, then both Legion and Tali will remain loyal.",
+      "url": "https://masseffect.fandom.com/wiki/Legion:_A_House_Divided",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "tali-treason_009",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "Normandy",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*See also: Loyalty\\#Confrontations* Back on the Normandy, if you did not use the evidence and Legion's loyalty mission has also been completed, a confrontation between Tali and Legion will occur. Joker will inform you that Tali and Legion are having a heated discussion. Once you arrive at the AI Core, you see Tali aiming an SMG at Legion. She yells at you that, even though she was willing to work with a geth, Legion was trying to send classified information about the Migrant Fleet to the geth. Legion states in its defense that it knows the quarians were performing weapons tests on geth and that it was trying to protect its people from a possible attack, further citing Tali's willingness to be exiled for the sake of her own people as a similar action. If Tali was exiled, Legion will, instead of citing Tali's willingness to be exiled, question why Tali still protects the quarians. You can either side with Legion or Tali or you can also use a Paragon or Renegade option to get them both to agree. If you use this option then Legion will agree not to transmit Tali's data for the sake of \"unit cohesion,\" and Tali will volunteer some non\\-classified data for Legion instead. If you fail either option, then you will lose the loyalty of one of the squadmates.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "reaper-iff_014",
+      "kind": "page",
+      "page": "Reaper IFF",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- It is possible to see Legion standing at the far end of the room when you turn left after the two husks are dropped by its sniper fire. If you look around in the back of the room the shots came from and zoom your weapon, Legion can be seen standing on the ledge at the back. It will walk away once you enter the room. - The work log near the Heavy Skin Weave upgrade is most likely a reference to H. P. Lovecraft's *The Call of Cthulhu*. More specifically, it references the couplet \"*In his house at R'lyeh Dead Cthulhu waits dreaming*.\" - After the Core is destroyed and the cutscene where Shepard's team debates what to do with the geth plays, if Tali has been recruited but is not in the squad, Shepard will mention her by name, stating Tali once said no one has ever captured a geth intact before. If Tali has yet to be recruited, Shepard will only refer to her as \"a quarian\". - If any husks are still alive after the Core is destroyed they can still continue to swipe harmlessly at your squad during the ensuing cutscene. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Reaper_IFF",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_003",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw",
+      "section": "Legion and compromise",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Keeping Legion after ME2 breeds conflict with Tali (the quarians have been at war with the geth for 300 years). The two were written to be foils: Tali is the lens on quarian politics and their dedication to defeating the geth; Legion is BioWare's attempt to humanize the geth. After both complete their loyalty missions, a charisma check lets Shepard defuse a standoff — Legion had scanned Tali's omni-tool to warn the geth of quarian weapons tests; Tali wanted to protect the Fleet. Talked down, Tali agrees to let Legion send non-classified data, and says she now understands why Legion would go behind Shepard's back to protect his people, \"just as Tali would do for hers.\" She is willing to compromise for the sake of the mission.",
+      "url": "",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "scene:haestrom-tali-recruitment#10",
+      "kind": "scene",
+      "page": "Recruiting Tali on Haestrom",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "haestrom-tali-recruitment",
+      "text": "Recruiting Tali on Haestrom. 2185, after Horizon, deep in geth-controlled space the ruined quarian research site on Haestrom, under its dying sun If Legion is in the squad, Tali opens fire on it, shouting a warning about enemy geth; Legion takes cover, and Tali agrees to defer the argument.",
+      "url": "",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-04",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The fourth part of a hand-corrected video-essay character analysis covered Tali'Zorah in Mass Effect 3. If she survived the Suicide Mission, she apologized to Shepard for the trial and admitted he had been right: \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" She took an Admiral's seat in her father's place specifically to push back against the Board's worst ideas, the version of Tali the essayist preferred. If exiled, she instead told Shepard the trial had shown her she belonged \"on the Normandy, helping you,\" aiding her people from the shadows.\n\nAs Admiral she doubted her fitness to command, with seventeen million lives riding on her. After speaking with Legion she believed the quarians could sue for peace, but once Daro'Xen turned Rael'Zorah's research into \"an invasion too good to pass up,\" Tali had no choice but to support it \"for the good of the Fleet,\" regressing toward the sacrificial lamb of ME2 and becoming a near-powerless victim of politics again. The essay noted quarian scarcity: 17 million in the flotilla, one child per family unless the population declines, every quarian contributing to the Fleet's survival. Shala'Raan was the reason Tali was permitted to attempt to retake the Alarei.\n\nAt the Rannoch climax Shepard chose between peace, geth genocide, or quarian genocide. Siding with the quarians, Tali killed Legion (or shut the geth down) with a \"flat shovel blade,\" expressed regret, and answered Legion's last question, \"Does this unit have a soul?\", with \"Yes... yes, it does.\" Siding with the geth, Tali begged Shepard not to choose them over her people, then as Admiral called off the quarian fleet's attack while Legion sacrificed himself to disseminate the code. On the botched path, unable to stop Han'Gerrel, Rael and Daro'Xen, Tali watched what remained of the quarian fleet burn in Rannoch's atmosphere, Captain Ysra of the Rayya on the radio, and took her own life before her home ship burned. Afterward, if the geth helped rebuild Rannoch, Tali admitted: \"I'd have killed the geth with no regrets, and I'd have been wrong.\"",
+      "url": "",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-legion-conflict#04",
+      "kind": "scene",
+      "page": "Tali Catches Legion Scanning Her Omni-Tool",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-legion-conflict",
+      "text": "Tali Catches Legion Scanning Her Omni-Tool. 2185, after both Tali's and Legion's loyalty missions aboard the Normandy SR-2 Without enough points, Shepard has to side with one of them, telling Legion to stop its transmission or letting it continue; whichever one is not sided with loses trust in the Commander and its loyalty — Legion's loyalty can still be salvaged afterward by lying to it (with a high Renegade score) that the \"lie\" about stopping the transmission was what kept Tali happy, which Legion accepts as \"a logical decision.\"",
+      "url": "",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_006",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Loyalty",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“We're family. This is just the worst kind of family meeting.” *Main article: Tali: Treason* After some time aboard the Normandy, Tali receives a disturbing message from home. She informs Shepard that the Admiralty Board has charged her with treason. Tali asks to be taken to the Flotilla to discover what the charges are, and plead her innocence. During the events of the mission, it is revealed that the admiralty board has decided to change Tali's title to **Tali'Zorah vas Normandy**. Even after her loyalty mission is completed, she will keep this title, regardless of the outcome of the mission. After both Tali's and Legion's loyalty missions are completed, a conflict arises between each other when Tali catches Legion scanning her omni tool for information on the Flotilla to be sent back to the geth. Legion maintains that it is merely warning the geth of the threat they face from the quarians' tests and their plans to attack the geth. Unless Shepard intervenes impartially, the Commander will lose one of their loyalties. If the conflict is resolved without Shepard siding with Tali or Legion, Tali thanks Legion for agreeing not to transmit the data back to geth and offers non\\-classified information on the Flotilla to Legion instead. If Shepard sides with Legion, then the Commander loses Tali's loyalty, but it can be regained in a later conversation.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-legion-conflict#03",
+      "kind": "scene",
+      "page": "Tali Catches Legion Scanning Her Omni-Tool",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-legion-conflict",
+      "text": "Tali Catches Legion Scanning Her Omni-Tool. 2185, after both Tali's and Legion's loyalty missions aboard the Normandy SR-2 Handled impartially, with enough Paragon or Renegade points, Tali thanks Legion for agreeing not to transmit, and offers it unclassified Flotilla data instead; both stay loyal.",
+      "url": "",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "geth-vi_004",
+      "kind": "page",
+      "page": "Geth VI",
+      "section": "Priority: Rannoch",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The final operation on Rannoch can end in one of two ways if the Geth VI is present, with a peaceful outcome not being possible. If Shepard chooses to let the geth die, the Geth VI will violently assault Shepard, coldly stating its people \"were correct to distrust organics\"; it will attempt to upload the Reaper upgrade code before being attacked and killed with a knife in the back by Tali, who claims either that the real Legion would have understood or—if Legion was never encountered—that she \"knew that thing would turn on us\". If Tali is not present, Shala'Raan will kill the geth with a shotgun. In orbit over Rannoch, the quarians will emerge victorious over the geth fleet. If Shepard chooses to upload the Reaper code and save the geth, then the Geth VI dissolves itself into the consensus to achieve true intelligence for all other geth after saying that their \"skepticism was misplaced\" and thanking Shepard. The upgraded geth then emerge victorious over the quarian fleet.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_VI",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "legion_005",
+      "kind": "page",
+      "page": "Legion",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Eventually, the location of the elusive Reaper base is made known. En route to the place, Legion reveals that it still carries remnants of the Old Machine code. Whatever Shepard's reaction, the geth states that it did not intend to cause offense. Legion uses its upgrades to break any geth security during the mission and eventually acquires an escape vehicle that Shepard and company use after learning that the short\\-range \"signal booster\" is an actual Reaper. Shepard disembarks from the vehicle and sends the rest away to safety, with Legion wishing Shepard\\-Commander good luck. Using the targeting laser, Normandy's targeting systems and the might of the Migrant Fleet, Shepard manages to destroy the Destroyer. Legion walks up to the Commander, stating that it is going to attempt to transfer its Reaper upgrades to the geth. Unfortunately, the quarians are currently in battle with the disabled geth fleet while this takes place. Shepard is at a momentous crossroads: one wrong move will doom one or both great races. Depending on how Shepard handles the situation, the geth may or may not eliminate a majority of the quarian forces after being upgraded with the Reaper tech; achieving their own consciousness will provoke them to retaliate against the attacks from their creators, as they will be more concerned with preserving themselves than ever before. Shepard has the power to prevent Legion from uploading the upgrades, allow Legion to upload them, or persuade the fleet to stand down *and* allow Legion the upload. If the first is chosen, Legion pleads with Shepard to reconsider, first emphasising the upgraded geth's value as allies before appealing to the Commander's goodwill, asserting that letting the geth die is not justice. Shepard then has the option of standing by their decision or recanting at the last moment. If the Commander stands by the decision, the geth becomes hostile and attempts to kill Shepard, stating it will not allow the Commander to decide its people's fate. With Legion preoccupied, Tali stabs it with her knife. As Legion falls to the ground, Shepard has the option of taking several pistol shots at Legion's head, which kills the geth quickly. If Legion is not shot by Shepard, its dying words will be a question to Tali: \"Tali'Zorah... does this... unit... have...\" Tali responds with a tearful yes, and Legion shuts down. If Tali did not survive the Omega\\-4 suicide mission, Admiral Shala'Raan vas Tonbay will be present instead of Tali, and she responds to Legion's attempt to kill Shepard by pulling out a shotgun and blasting Legion, which instantly ceases to function. If Legion is allowed to upload the upgrades from the start or Shepard withdraws their decision to let the geth die, it begins uploading. Tali gives the order for all ships to stand down, but Han'Gerrel belays the order, and firing continues. Tali begs Legion not to continue, but it continues regardless, admitting that it regrets the deaths of the quarians but sees no alternative. It soon finds out that copying the code is insufficient; direct personality dissemination is required. Legion must disperse itself to the geth consensus, thanking the Commander for the opportunity to do so while apologising that there is no other way before deactivating. Legion refers to itself as \"I\", not \"we\", signifying that it became a true individual rather than a gestalt intellect. If the quarian fleet did not cease fire, the newly\\-alive geth destroys the majority of the fleet, and with it, most of the quarian race. A Geth Prime acting as an emissary later trudges up to Shepard. The Prime, now referring to itself as \"I\" as well, states that it will honor Legion's promise to help in the Reaper war. Shepard asks if Legion is still around but the Prime confirms that it is dead. If the quarians back down, Legion still runs into the same problem in copying the code. Legion's last words are to Tali, thanking her for understanding, saying \"Keelah se'lai\" before deactivating. Moments later, the same Geth Prime trudges up to them. The geth will honor Legion's promise, it says, sending the might of their fleets to help retake Earth and the wisdom of their engineers to help build the Crucible. Although Shepard asks hopefully if Legion is alive, the Prime confirms Legion is dead, but promises that the geth will honor it. Whatever the circumstances, Legion dies with the welfare of the geth in mind. Its name is engraved later on the Normandy's memorial wall.",
+      "url": "https://masseffect.fandom.com/wiki/Legion",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-legion-conflict#01",
+      "kind": "scene",
+      "page": "Tali Catches Legion Scanning Her Omni-Tool",
+      "section": "argument",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-legion-conflict",
+      "text": "Tali Catches Legion Scanning Her Omni-Tool. 2185, after both Tali's and Legion's loyalty missions aboard the Normandy SR-2 Tali catches Legion scanning her omni-tool for information on the Flotilla to send back to the geth.",
+      "url": "",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "priority-rannoch_009",
+      "kind": "page",
+      "page": "Priority: Rannoch",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The geth fleet is now free from Reaper control, but this has not ended hostilities with the quarian fleet above Rannoch, with Legion and Tali being the face (so to speak) of their respective races for this standoff with you on the ground. Legion wants to upload the Reaper code to the geth collective, as it enhances their processing functionality to the point of achieving true intelligence. Tali is naturally fearful of what this might mean for her people, since the quarians have already resumed attacking the geth. Shepard must moderate the decision. Your choice is to **allow the upload**, or to **let the geth die**. By making either decision, either Tali or Legion will protest and a second decision branch is opened: **allow the upload** again, **stop Legion**, or a **Reputation check** (Charm: \"Rally the fleet\" or Threaten: \"Warn the Fleet\"). - If you **allow the upload**, Legion will sacrifice itself to distribute the new programming and the upload will be finalized. The Migrant Fleet will be wiped out by the newly\\-enhanced geth, resulting in the extinction of the quarian race. Tali will join her people, casting herself off a cliff; there is a Paragon interrupt, but even with it you will not be able to save her. Shepard will gain the geth as a War Asset, but Tali will no longer be selectable as a squadmate. If Tali did not survive the Suicide Mission or was never recruited in Mass Effect 2, Admiral Shala'Raan vas Tonbay will be present, and will shoot herself. - If you choose to **stop Legion**, Legion/Geth VI will attack, forcing Shepard and Tali to attack it. Several Renegade interrupts will follow allowing Shepard to shoot and eventually kill Legion/Geth VI. The quarian bombardment annihilates the geth in its entirety, resulting in the extinction of the geth race. Thereafter, the Migrant Fleet joins as a War Asset. - After you have chosen either of the two options, you may have the opportunity to pass a **Reputation Check**. Passing it requires an *extremely* high Paragon or Renegade score, but if the option is available this leads to the quarians and geth achieving peaceful coexistence. The quarians will back down and both fleets will join the war effort, making this the most rewarding outcome in terms of War Assets. While Legion is forced to dissolve its 1183 runtimes to disseminate true intelligence throughout the geth collective, it achieves true sentience and individuality first, and is able to accept Tali's friendship before passing. **Note:**  The Reputation check's requirements are complex. First, there are factors which seem to be purely pass/fail; missing even one of them flunks the Reputation check: - Shepard must have at least four bars of Reputation. - Tali and Legion must both be present, which requires an imported save from Mass Effect 2. If no save was imported, Tali will have been exiled and will not be able to support Shepard with an Admiral's authority, while Legion will not appear at all. - The mission Rannoch: Geth Fighter Squadrons must be completed. Additionally, there are other factors which build up Shepard's trustworthiness to both parties; if Shepard has not done enough of them, the Commander will not have the groundswell of goodwill needed to moderate a cease\\-fire. According to the official Prima Games guide, each factor has a certain \"point\" value, and **at least 5 \"points\" are necessary** for the cease\\-fire to occur. These factors are: - **(\\+2 points)** Destroying the heretic geth in Legion: A House Divided. In shipboard conversation, you can ask Legion about the repercussions of your decision, and it will mention that the absence of the Heretics made the consensus to join the \"Old Machines\" more difficult to achieve. Geth forces are also considerably weakened without the aid of the Heretics, giving the Migrant Fleet an edge in the battle and reducing the quarians' overall casualties. - **(\\+2 points)** Preventing Tali's exile in Tali: Treason without presenting evidence of Admiral Rael'Zorah's experiments on the geth. - **(\\+1 point)** Brokering a peace in the Tali/Legion loyalty argument. If the player did not have sufficient Paragon/Renegade points at that time, loyalty of either Tali or Legion would have been lost. In that case \\-\\- even if loyalty had been regained later \\-\\- this \"point\" will not count towards the five needed to pass the Reputation check (and broker the ceasefire). - **(\\+1 point)** Completing Rannoch: Admiral Koris. - **(\\+1 point)** Saving Admiral Koris during Rannoch: Admiral Koris. If resolved with co\\-existence, talking to Tali afterward onboard the Normandy will reveal that the geth are providing invaluable assistance in helping the quarians resettling onto Rannoch.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Rannoch",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "summary:priority-rannoch",
+      "kind": "summary",
+      "page": "Priority: Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Rannoch was acquired after Rannoch: Admiral Koris or Rannoch: Geth Fighter Squadrons, when Admiral Raan reported the location of the Reaper base controlling the geth. Jamming towers on Rannoch prevented orbital bombardment, so Shepard landed with Tali'Zorah (a required squadmate if alive) and Legion (replaced by a Geth VI if Legion had not survived Mass Effect 2) to use a prototype targeting laser to guide the Normandy's bombing run. The team fought through geth forces including Geth Troopers, Rocket Troopers, Hunters, Pyros and multiple Geth Primes, culminating in a fight against three Primes standing together.\n\nShepard designated the target and the Normandy destroyed the Reaper base, but a Reaper Destroyer climbed out of the crater. Legion secured a geth ship and the squad escaped while Shepard manned its turret, calling in an orbital strike that briefly downed the Reaper. EDI synced the quarian fleet to the Normandy's targeting systems, and Shepard stayed behind to finish the Destroyer personally, dodging its beam cannon and completing three targeting solutions plus a final slow-motion shot while the fleet fired. In its death throes the Reaper addressed Shepard by name, said Harbinger regarded the Commander as a worthy opponent, and spoke of Reapers representing \"order\" against organic \"chaos\" and the harvest as necessary \"intervention.\" Depending on dialogue it issued the threat, \"Finish your war. We will be waiting.\"\n\nWith the geth freed from Reaper control, the quarian-geth war reached a standoff, with Legion and Tali representing their races. Legion wished to upload the Reaper code to grant the geth true intelligence; Tali feared for her people, who had resumed attacking. Shepard chose to allow the upload (Legion sacrifices itself; the quarians are exterminated and Tali dies), to stop Legion (the geth are annihilated by quarian bombardment), or, with a very high Paragon or Renegade reputation and enough trust-building choices, to broker peace, in which Legion achieves sentience and dissolves its 1183 runtimes to spread true intelligence, and both fleets join the war. Priority: The Citadel III then became available.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Rannoch",
+      "for_key": "Legion specifically, as Tali knew it"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#01",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch After the Migrant Fleet's admirals briefed Shepard in the Normandy's war room, Shepard was sent to board and disable the geth dreadnought broadcasting the Reaper control signal that had trapped the quarian fleet. Tali'Zorah vas Normandy came as a mandatory squadmate.",
+      "url": "",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#03",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch Tali rejoined at the docking controls. The team fought through the geth defence network and the operations centre — the first Geth Hunters, using optical camouflage — where Tali set up to shut down the Reaper signal and found they had to reach the drive core.",
+      "url": "",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#05",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch The Reaper signal was being distributed through Legion, wired into the drive core. Shepard freed Legion, which shut the signal and the drive core down. The team fought off geth reinforcements including Geth Primes and escaped on a geth fighter from the hangar. Afterward Legion took up residence in the Normandy's war room.",
+      "url": "",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#04",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch Crossing the main battery twice under the main gun's electromagnetic shockwaves and surviving a collapsing elevator platform, the team reached the drive core.",
+      "url": "",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "priority-geth-dreadnought_001",
+      "kind": "page",
+      "page": "Priority: Geth Dreadnought",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarians have tried to retake their homeworld from the geth. Unfortunately, the geth have been upgraded by the Reapers, and the quarian fleet is trapped. Travel to the quarian home system and disable the geth dreadnought broadcasting the Reaper control signal.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Geth_Dreadnought",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "summary:priority-geth-dreadnought",
+      "kind": "summary",
+      "page": "Priority: Geth Dreadnought",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Geth Dreadnought was a Mass Effect 3 mission acquired automatically after Priority: Perseus Veil and the meeting with the quarian Admiralty Board. The quarians had attacked the geth to retake their homeworld Rannoch, but the geth had been upgraded by the Reapers and the quarian fleet was trapped. Shepard was sent to board and disable the geth dreadnought broadcasting the Reaper control signal. Tali'Zorah vas Normandy was a mandatory squadmate unless she had died in Mass Effect 2, in which case Admiral Xen guided the mission by comm instead. There was no time penalty for delaying the mission despite in-dialogue urgency.\n\nThe mission opened with a solo, low-gravity spacewalk along a circular docking tube toward the dreadnought, a sequence inspired by the hallway scene in the film Inception. After the tube detached and separated Shepard from the squad and the Normandy, the team fought through the geth defense network, the operations center (introducing Geth Hunters that used optical camouflage), and maintenance shafts, avoiding Geth Trip Mines throughout. Tali's Sabotage, which temporarily hacked synthetics to fight for Shepard, and Energy Drain were central tools, since the mission featured only synthetic enemies.\n\nIn the Main Battery corridor, the dreadnought's titanic main gun fired periodically, sending an electromagnetic shockwave down the hall that heavily damaged anyone not in cover. After crossing the battery twice and surviving a collapsing elevator platform, the team reached the Drive Core, where the Reaper control signal was being distributed through Legion (or a generic \"Geth VI\" if Legion was absent), held wired into the core. Freeing Legion shut the signal and the drive core down. The team then fought off geth reinforcements including Geth Primes before escaping to a geth fighter in the hangar. Afterward Legion or the Geth VI took up residence in the Normandy's war room, and the missions Rannoch: Admiral Koris, Rannoch: Geth Fighter Squadrons, and N7: Fuel Reactors, plus the Argos Rho cluster, became available. Rewards included the Arc Pistol, Geth Pulse Rifle, and the Archon Visor.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Geth_Dreadnought",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "indoctrination_005",
+      "kind": "page",
+      "page": "Indoctrination",
+      "section": "Geth Programming",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The geth heretics, a splinter faction of the geth that worship the Reapers and comprised the bulk of Saren's army, were provided with a Reaper virus that subtly changed their low\\-level processes, which could be used to simulate indoctrination upon the geth that chose not to worship the Reapers. This also implies that synthetics are immune to conventional indoctrination, since the heretic geth sided with Sovereign willingly, and Sovereign did not pursue them further once the main geth collective rejected its offers. In 2186, when the quarian flotilla attacks the Perseus Veil and wins devastating early victories against the geth, the synthetics willingly submit themselves to Reaper control in a desperate bid for survival. This takes the form of a broadcasted Reaper code signal that affects all remaining geth processes simultaneously, making them more sophisticated and vastly more effective in combat but also subservient to the Reapers. The Reaper code enhances geth intelligence to that of a fully developed AI, granting true sentience not dependent on having multiple geth processes networked together. A Reaper Destroyer stationed on Rannoch broadcasts the indoctrination\\-like signal across the planet and also amplifies it to reach the other geth in the Veil through a massive geth dreadnought in orbit, using a physically shackled Legion/Geth VI as an unwilling signal booster aboard the vessel.",
+      "url": "https://masseffect.fandom.com/wiki/Indoctrination",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "geth_008",
+      "kind": "page",
+      "page": "Geth",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2186, the quarians have declared war on the geth. They have successfully managed to push the synthetics back to their home system, where the quarian homeworld Rannoch is located. If Legion survived its interactions with Shepard, after the unit's return to the geth consensus and the revelation of its evidence on the imminent return of the Reapers, the geth began preparing for war. However, while building their megastructure, the quarian flotilla attacked and destroyed it. A significant number of geth programs were installed at the time the quarians began bombing, and due to a lack of surplus server hardware not all of the programs could be saved. With the loss of so many programs, their intelligence dimmed and survival took precedence among the consensus, forcing the geth to make a deal with the Reapers. The synthetics allowed themselves to be controlled by Reaper code in order to become more effective fighters, believing the cost of their free will an acceptable price to avoid extinction. They were then able to bring the fight to the quarians, trapping their civilian ships and destroying much of their fleet. Commander Shepard arrives and was given the task of infiltrating the geth dreadnought from which the controlling signal was being broadcast in order to return the geth to a defeatable state. After fighting through a large number of geth platforms, Shepard arrives at the ship's drive core to find either Legion or a geth VI trapped inside a piece of Reaper tech, the unit being used as a signal booster of sorts. The Commander disables the device and frees the unit contained within. As a gesture of goodwill, the geth unit deactivates the ship's weapons and barriers. However, the quarian heavy fleet took advantage of this and began firing on the dreadnought while Shepard and their crew were still on board. Shepard manages to escape despite this, and the geth are now at a disadvantage. The geth have a backup system in place, however. They have a base on Rannoch that can restore the Reaper control signal across all geth, location unknown. Legion, or the Geth VI, goes on to aid Shepard while searching for the base, occasionally lending field assistance like the disabling of geth fighter squadrons targeting the quarians' liveships. Geth programs previously under Reaper control are liberated from the fighter servers due to the unit's actions, transferring to Geth Prime bodies in the interim. Eventually the base's exact location is made known, and plans to destroy it begin in earnest. Prior to assaulting the Reaper base, the geth unit with Shepard discusses how the Reapers improved the geth's processing power. It parades holo illustrations of a single geth unit's processing signal, 10 geth units networked together, and a single geth unit sporting Reaper upgrades—the latter, by all appearances, is apparently a fully\\-evolved AI. The geth unit states that its race finds the growth beautiful, indicative of life, and that the geth would die for it. During the assault itself, the geth unit reveals that it still contains fragments of Reaper code that will allow all geth to achieve true intelligence. Shepard and company put aside their concerns for the moment, focusing on the Reaper control signal, now revealed to have been coming from an actual Reaper. The Reaper is later destroyed with the combined might of the quarian fleet and Shepard's targeting systems, disorganizing the majority of geth. The quarians hit the geth hard while they're doubled over. Having succeeded in destroying the Reaper control signal, and asking if the geth deserve death for acting in self defense, Legion/geth VI now attempts to upload the code to its fellow geth. Depending on Shepard's choices only one of three distinct events will play out: the geth unit will either proceed with the upload allowing each geth program to achieve true individual consciousness and the power to resist and obliterate the quarians, the upload is interrupted and the geth eliminated, or Shepard convinces the quarians to stand down, the geth unit completes the upload, and the two sides hesitantly make peace. Whatever the outcome, the geth unit sacrifices itself for what it thought was the best course for its people. If Shepard allows the geth to achieve true intelligence, they will provide assistance to the War Effort. The Systems Alliance and the Turian Hierarchy receive geth support with open arms, although there is still some animosity between them. Several pockets of geth platforms loaded with Reaper code continue to fight for the Reapers regardless of the outcome of the Battle of Rannoch, but these pockets represent only a fraction of the full geth fleet. If peace was made with the quarians, it is revealed that the geth are able to coexist with them on Rannoch.",
+      "url": "https://masseffect.fandom.com/wiki/Geth",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "storyline-iii_027",
+      "kind": "page",
+      "page": "Storyline III",
+      "section": "The Quarian Offensive",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Following the coup attempt, efforts to speed the pace of the Crucible's construction and drive the Reapers back increase. Admiral Hackett contacts Shepard with news on that front, informing the Commander that while turian and krogan ground forces are making progress against the Reapers on Palaven, they need more support ships and the quarians are willing to talk. Hackett requests Shepard to meet with the leaders of the Migrant Fleet but urges caution, as recent intel suggests suspicious activity along the geth border. Meeting with Admirals Shala'Raan, Han'Gerrel, Daro'Xen and Zaal'Koris at a diplomatic ship in the Far Rim, Shepard learns, much to their chagrin, that the quarians are launching another attack on the geth, with the intention of retaking their homeworld Rannoch from their AI creations. The quarians had pushed the geth back to their home system when a mysterious signal began broadcasting to all geth forces, drastically improving their combat capabilities. Shepard concludes that the signal is Reaper tech, which must be destroyed if the quarians are to have any chance of survival. The admirals explain that the signal is being broadcast by a geth dreadnought far beyond their ability to destroy. Shepard proposes that they and a squad board the vessel and disable the signal, throwing the geth into confusion and buying the quarians time to make their next move. The quarians agree and offer Shepard technical support in the form of one of their own: Shepard's old crewmate Tali'Zorah, based on her knowledge of the geth, or Admiral Xen volunteers herself if Tali died. Arriving in the middle of a pitched battle between the geth and quarian fleets, Shepard and company board the dreadnought and make their way through the ship, fighting off geth crew to reach the drive core, where the signal is being broadcast. Inside the drive core is a unique geth platform hardwired to amplify the Reaper signal: Legion, if it survived Shepard's suicide mission, or an equivalent Geth VI constructed in its likeness otherwise. The geth unit explains that the quarian attack drove the geth into an alliance with the Reapers in order to save themselves. At the geth unit's direction, they shut down the drive core, freeing the platform from its shackles. In return it disables all shields and weapons aboard the dreadnought as a sign of good faith. Making the most of the advantage, Admiral Gerrel deviates from the plan and launches a full attack on the dreadnought, hoping to destroy the crippled geth flagship, regardless of Shepard's protestations that they are still inside. Shepard and company narrowly escape the vessel in time. After returning to the Normandy and either accepting or condemning Gerrel's explanation of his actions, Shepard requests information from the saved geth unit. To the horror of the admirals, the platform explains that the dreadnought's destruction has only severed the Reaper signal at long range; a base on Rannoch's surface is still transmitting the signal at short range, and the geth will soon recover from the disruption. Orbital bombardments are out of the question; the geth have set up jamming towers that prevent the quarian ships from pinpointing the base. Several sorties on Rannoch's surface are planned during the interim of determining the Reaper signal's location: the rescue of a stranded Admiral Koris, and the disabling of geth fighter squadrons attacking the liveships. Shepard begins the assault on the signal base when its location has been determined, armed with a targeting beam that can cut through the jamming signal. The geth unit drops in solo to disorient geth forces and provide remote technical assistance. The plan works, but when the Normandy bombs the signal generator, it is revealed to be a Reaper destroyer. The destroyer pursues Shepard and co. as they flee in a geth shuttle, while the quarians and the Normandy attempt to provide supporting fire from orbit. A chance weapons strike from the Migrant Fleet reveals a weak point in the Reaper's defences; that the firing chamber is vulnerable when priming. Using the handheld laser guidance system and dodging the Reaper's attacks, Shepard directs the Normandy and Migrant Fleet's weapons against the Reaper, eventually severely damaging it. Following its defeat, the badly damaged Reaper and Shepard exchange barbed words; the Reaper, recognising Shepard from Harbinger's description, asserts that Shepard's opposition to the Reapers is pointless, that they are preserving organic life from chaos and that the cycle must continue if organics are to be saved from destruction. Shepard dismisses the Reaper's warnings and assures it that the races of the galaxy will continue to fight until a way to defeat the Reapers is found. With nothing more to be said, the Reaper 'dies'.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_III",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "legion_004",
+      "kind": "page",
+      "page": "Legion",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Does this unit have a soul?” Legion returns to fight the Reapers, provided it survived Shepard's attack on the Collector base and was not sold to Cerberus. If Shepard decided to sell Legion to Cerberus, it will appear as an enemy during the attack on Cronos Station, but will behave no differently than a Nemesis. If Legion did not survive Shepard's attack on the Collector base, was sold to Cerberus, or was never activated, a Geth VI is constructed in Legion's likeness. Regardless of whether the heretics were rewritten or destroyed, the quarians decide to attack the geth. Fearing their creators intended to exterminate them and with no alternative option, the geth entered an alliance with the Reapers, allowing themselves to be controlled by the Reapers in exchange for gaining greater intelligence and fighting ability. The Reapers exert their control via a signal that is broadcast throughout the fleet. Hackett tells Shepard that the quarians may be able to help in the ongoing Reaper war, but there has been a disturbing lack of information coming from the fleet. Shepard meets up with the quarian admirals and it is determined that the fleet is pinned on Tikkun due to a giant geth dreadnought broadcasting the Reapers' control signal. Shepard is tasked with disabling this signal within the dreadnought, accompanied by a quarian with geth expertise — either Tali or Admiral Xen. It is during this mission that Shepard runs into Legion and finds the geth trapped within a Reaper device in the dreadnought's drive core, where it is forced to transmit the Reaper signal. By rescuing Legion, the signal is terminated. Aboard the Normandy, Legion provides intelligence on how the Reapers exercise control over its people. It mentions that by accepting Reaper aid, the geth have become upgraded. While geth normally operate strictly off codes or programs, the reaper virus allows their thought processes to become more \"organic\" in nature, giving them the possibility of true consciousness. The geth find it \"beautiful\", indicative of life, and will die for it. Legion reports that while the organics have destroyed the long range control signal, there is still a short\\-range backup being deployed somewhere on Rannoch. It devotes most of its time searching for its whereabouts inside the War Room. If Shepard asks, Legion reveals details about its activities. After the suicide run on the Collector base, Legion returned to the consensus. Data gathered during its time with Shepard confirmed that the Old Machines' return was imminent, and geth planned for war. Shepard asks if the other geth believed Legion's proof, and dryly comments it must've been nice when Legion says they did. On the subject of what interfacing with a Reaper feels like, Legion describes that even with the Reapers' total control the geth still could not comprehend them. Legion does not view the Old Machines as deities, but the experience has given it perspective on why others imbue them with godlike qualities. Legion provides the location of a geth server coordinating fighter squadron attacks on the quarian liveships. Shepard can choose to take out the server. Legion connects the Commander's mind to the geth consensus through an interface derived from Project Overlord but far more refined. It then guides Shepard throughout the mission, distracting the consensus' intrusion countermeasures while Shepard purges the Reaper code pervading the system. During the mission, Legion explains the context of video logs from before and during the Morning War that Shepard uncovers. The mission is successful and back in the real world a number of Geth Primes start activating inside the base they infiltrated. Legion reveals that the Primes were geth software liberated from the servers who renounced the Old Machines and are willing to fight alongside the organics. It didn't reveal its intentions sooner because while it didn't doubt Shepard, it feared the Commander's allies. The quarians sanctioned the operation to save their own people and would not have done so if they knew the geth wished to be preserved as well. Eventually, the location of the elusive Reaper base is made known. En route to the place, Legion reveals that it still carries remnants of the Old Machine code. Whatever Shepard's reaction, the geth states that it did not intend to cause offense. Legion uses its upgrades to break any geth security during the mission and eventually acquires an escape vehicle that Shepard and company use after learning that the short\\-range \"signal booster\" is an actual Reaper. Shepard disembarks from the vehicle and sends the rest away to safety, with Legion wishing Shepard\\-Commander good luck. Using the targeting laser, Normandy's targeting systems and the might of the Migrant Fleet, Shepard manages to destroy the Destroyer.",
+      "url": "https://masseffect.fandom.com/wiki/Legion",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "migrant-fleet_014",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Prior to the Reaper invasion in 2186, Admiral Daro'Xen's research teams developed several new technologies from the late Rael'Zorah's research that proved to be effective against the geth. Using the geth's reliance on extremely detailed ladar pings in their active scans, Xen's scanning countermeasure overwhelms them with garbage data, effectively crippling geth ships in combat like a flashbang grenade. The edge this gave the quarians in ship combat persuaded the Admiralty Board to vote 3\\-2 (or 3\\-1 if Tali was exiled) in favor of invading geth space in the hopes of reclaiming Rannoch. To this end, the quarians began arming all of the ships in their Civilian Fleet, even going so far as to fight with Blue Suns mercenaries on Korlus to obtain the materials necessary to build dreadnought\\-scale weaponry for the liveships. The quarians succeeded in the endeavor and even managed to install Thanix weapons on their vessels somewhere along the way. The quarians opened the war by launching precision strikes on four geth systems and driving them back to Tikkun, the quarian home system. The fleet also attacked a Dyson sphere that the geth had been building, the culmination of centuries of work intended to unite all geth into a single optimized network that would maximize their processing power. The destruction of the sphere rattled the geth, and they decided to accept upgrades from the Reapers to avoid destruction. Upgraded with Reaper code, the geth's processing power increased dramatically, allowing them to neutralize Xen's countermeasure and become more coordinated and effective in combat. The war shifted in their favor and the Migrant Fleet began to sustain heavy losses. The geth fleet trapped the quarians within the Tikkun system and pushed them in range of a powerful antiship cannon on Rannoch that devastated the Migrant Fleet until Admiral Koris crashed his personal flagship into it. With Commander Shepard's help, the quarians are able to counterattack against a Geth Dreadnought and disable the signal broadcasting the Reaper upgrade programming. This victory is short\\-lived, however, as the Reapers had already installed a backup: a Destroyer\\-class Reaper embedded in a bunker on Rannoch's surface continued to emit the signal. Shepard also destroys the Reaper, interrupting the signal. At this time, the geth are freed from Reaper control and attempt to harness the Reaper upgrade program to strengthen themselves independently of the Reapers. Admiral Han'Gerrel takes the opportunity to launch a final assault against the geth. Depending on Shepard's decisions, one of three outcomes will occur: the geth will download the upgrade and repel the Migrant Fleet's attack, destroying it completely and dooming the quarians to extinction; the quarians will succeed in attacking, annihilating the geth and reclaiming Rannoch; or the quarians will be stopped from attacking and reach a compromise with the geth that allows both races to agree to peacefully coexist. If the quarians survive, the Migrant Fleet joins the Allied forces in the battle for Earth.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "summary:indoctrination",
+      "kind": "summary",
+      "page": "Indoctrination",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Indoctrination was the term for the brainwashing effect the Reapers and their technology exerted on organic beings. A signal or energy field around a Reaper subtly influenced the minds of nearby organics; it was first reported to Shepard by Eden Prime farmers who described a \"horrible noise\" from Sovereign, and Matriarch Benezia noted that even Sovereign's confusing interior angles served indoctrination. The effect extended to Reaper artifacts, such as the one aboard the MSV Cornucopia that brainwashed its crew. The salarian lieutenant Ganto Imness called it a greater threat than a krogan army. As Vigil explained, the Reapers used indoctrinated slaves from conquered worlds as sleeper agents against the Protheans, then abandoned them to die when they withdrew.\n\nThe mechanics were poorly understood but believed to involve an electromagnetic field and infrasound/ultrasound stimulating the brain and limbic system, producing headaches, hallucinations, paranoia, or superstitious awe, and ultimately letting the Reaper use the victim's body to amplify its signal as voices in the mind. Rana Thanoptis, an asari neuroscientist on Virmire, described it as a subtle whisper that compels action without reason; over roughly a week of exposure the subject stops thinking and merely obeys, becoming a mindless husk-like servant, the fate of her predecessor and Kirrahe's captured men. Saren Arterius discovered a balance between control and usefulness: the more control Sovereign had, the less capable the subject, so Saren made himself an invaluable resource to find the Conduit and win a reprieve.\n\nMental damage was severe and permanent. Only those with immense mental strength could resist, and only briefly. Benezia kept a \"haven\" in her mind but was trapped watching herself commit atrocities, choosing death on Noveria: \"I am not myself, I never will be again.\" The last Rachni Queen was immune or highly resistant, forcing the Reapers to physically restrain her while she bred warriors. The asari Shiala was the only sentient being to fully escape, because the Thorian's control supplanted Sovereign's. Ironically, indoctrination contributed to Sovereign's defeat: after Virmire, Saren's faltering resolve required cybernetic implants to reinforce control, and when Saren died the Reaper's diverted energy to animate his corpse left Sovereign's shields down and vulnerable to the Alliance Navy, a flaw other Reapers such as Harbinger did not display.\n\nThe page also covers similar phenomena: Thorian enthrallment (pain-based conditioning, resistible by disciplined minds, granting cohesion among thralls, ending at the Thorian's death); geth programming (the Reaper virus given to the heretics, and the 2186 geth submitting to a broadcast Reaper code on Rannoch, amplified through a shackled Legion/Geth VI aboard a geth dreadnought); Cerberus experiments (Reaper-grade neural implants used in \"integration\" at the Barn and Project Phoenix, and Henry Lawson replicating the Reaper signal at Sanctuary on Horizon under the Illusive Man, who was later implanted with Reaper nanotech aboard Cronos Station and briefly controlled Shepard and David Anderson on the Citadel); and Leviathan enthrallment via opalescent artifacts, which caused no long-term mental damage aside from memory loss and was the basis for Reaper indoctrination.",
+      "url": "https://masseffect.fandom.com/wiki/Indoctrination",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "quarian_004",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Fight for the Homeworld",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Prior to the Reaper invasion in 2186, the Special Projects arm of the Migrant Fleet developed a series of effective countermeasures against the geth, giving them a strategic edge in terms of military strength. The Admiralty Board voted in favor of launching an assault to retake Rannoch, and the quarians began arming all of the ships in their Civilian Fleet. The quarians opened the war by launching precision strikes on four geth systems and driving them back to Tikkun, the quarian home system. The fleet also attacked a Dyson sphere that the geth had been building, the culmination of centuries of work intended to unite all geth into a single optimized network that would maximize their processing power. The destruction of the sphere rattled the geth, and they decided to accept upgrades from the Reapers to avoid destruction. Upgraded with Reaper code, the geth's processing power increased dramatically, allowing them to neutralize the quarian countermeasures. The war shifted in their favor and the Migrant Fleet began to sustain heavy losses. The geth fleet trapped the quarians within the Tikkun system and pushed them in range of a powerful anti\\-ship cannon on Rannoch that destroyed several ships. With Commander Shepard's help, the quarians counterattack a Geth Dreadnought and destroy a Destroyer\\-class Reaper embedded in a bunker on Rannoch's surface in order to cut off the Reaper signal emitting the upgrade code. With the signal gone, the geth break free from Reaper control and attempt to harness the Reaper upgrade program to strengthen themselves independently of the Reapers, while the Migrant Fleet takes the opportunity to launch a final assault against the geth. Depending on Shepard's decisions, one of three outcomes occur: the geth download the upgrade and repel the Migrant Fleet's attack, destroying it completely and dooming the quarians to extinction; the quarians succeed in attacking, annihilating the geth and reclaiming Rannoch; or the quarians are stopped from attacking and reach a compromise with the geth that allows both races to agree to peacefully coexist. If the quarians survive, the Migrant Fleet joins the Allied forces in the battle for Earth. |  | ***“I have so many questions.”*** — Spoilers for **Mass Effect: Discovery** follow. |  | | --- | --- | --- | |  | ***“By the homeworld I hope to find one day.”*** — Spoilers for **Mass Effect Andromeda: Annihilation** follow. |  | | --- | --- | --- | |  | ***“Make no mistake — this is a one\\-way trip.”*** — Spoilers for **Mass Effect: Andromeda** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "mass-effect-3-guide_005",
+      "kind": "page",
+      "page": "Mass Effect 3 Guide",
+      "section": "Act II",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Priority: The Citadel II \\- Save the Citadel Council from a Cerberus coup attempt. - Priority: Perseus Veil \\- Meet with quarian representatives who wish to assist with the Crucible project. - Priority: Geth Dreadnought \\- Infiltrate and destroy a geth dreadnought before the Migrant Fleet is wiped out. - Priority: Rannoch \\- Infiltrate a Reaper base on the surface of Rannoch to deactivate the signal upgrading the geth. - Priority: The Citadel III \\- Meet with the asari Councilor to receive the location of a clue regarding the whereabouts of the Catalyst. - Priority: Thessia \\- Reach an asari temple on Thessia to retrieve vital information as the Reapers devastate the planet. - Priority: Horizon \\- Investigate Cerberus's connection to a refugee center on Horizon.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3_Guide",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "summary:priority-perseus-veil",
+      "kind": "summary",
+      "page": "Priority: Perseus Veil",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Perseus Veil was a short, conversation-only mission acquired after Priority: The Citadel II. Following the failed Cerberus attack on the Citadel, Admiral Hackett told Shepard that the quarians were willing to aid the war effort with technical specialists and support ships, and directed the Normandy to the Far Rim. Shepard travelled to Dholen and docked with the Quarian Envoy Ship.\n\nIn the Normandy's war room the admirals of the Migrant Fleet explained that they had launched an open war against the geth, pushing them back toward the quarian homeworld Rannoch, after the Reapers gave the geth upgrades. The admirals asked the Normandy to help disable a geth dreadnought that was broadcasting the Reaper signal.\n\nIf Tali'Zorah had survived Mass Effect 2 she rejoined the squad; if she had not been exiled, she had been appointed an admiral in place of her late father Rael'Zorah. Even if exiled, Tali still appeared because of her knowledge of the geth, with the other admirals keeping her presence hidden, prompting Shepard to call her their \"dirty little secret.\" Shepard could speak with Tali privately in the captain's cabin, continuing or locking in a romance, and on a first playthrough this unlocked Energy Drain as a bonus power.\n\nIn the aftermath, Admiral Shala'Raan vas Tonbay took up residence in the war room, Tali'Zorah vas Normandy became a temporary squad member, and the mission Priority: Geth Dreadnought became available.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Perseus_Veil",
+      "for_key": "the geth dreadnought and the Reaper control signal"
+    },
+    {
+      "chunk_id": "summary:daro-xen-vas-moreh",
+      "kind": "summary",
+      "page": "Daro'Xen vas Moreh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Daro'Xen vas Moreh was a member of the quarian Admiralty Board known for her clinical intellect and keen scientific interest in the geth, whom she regarded as machines built solely to serve their creators. She was said to have performed surgery on her childhood toys without guilt. She wished to return the geth to quarian control.\n\nIn Mass Effect 2, Xen was one of three admirals judging Tali'Zorah's treason trial, alongside Zaal'Koris vas Qwib Qwib and Han'Gerrel vas Neema. She viewed the trial as \"a farce born of fear,\" called Zaal'Koris a coward and Han'Gerrel \"an aging warship,\" and considered war with the geth foolish, though she had no qualms about experimenting on active geth. If Shepard brought Legion, she found it fascinating and mused about experimenting on it, prompting Legion to state it was not available and to call her control plans \"unsound,\" a view Tali shared. Afterward she messaged Shepard that had Rael'Zorah's research been presented, humanity would have benefited; instead the quarians would reclaim their homeworld and the largest synthetic army in the galaxy.\n\nIn Mass Effect 3, Xen's research and development corps created white-noise jamming against geth ladar systems, prompting the Admiralty to vote for war, and she led the Special Projects group. If Tali was absent, Xen provided electronic support during the mission to disable a geth dreadnought, gave Shepard a prototype Arc Pistol, and later left in a geth fighter. She created the Sync Laser marking technology that cut through geth jamming, critical to the assault on the Reaper base on Rannoch. She repeatedly expressed interest in dissecting Legion or the Geth VI, argued with Tali over search-and-rescue versus salvage priorities, and briefed Shepard on the rescue of Admiral Koris. If she survived the geth-quarian war, she was sent to help build the Crucible, where Shala'Raan vas Tonbay described her as dissatisfied with the device but lending her technical skills. She was voiced by Claudia Black.",
+      "url": "https://masseffect.fandom.com/wiki/Daro'Xen_vas_Moreh",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "scene:rannoch-admiral-koris#07",
+      "kind": "scene",
+      "page": "Landing to Pull Admiral Koris Off Rannoch",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-admiral-koris",
+      "text": "Landing to Pull Admiral Koris Off Rannoch. 2186, after Priority: Geth Dreadnought and before Priority: Rannoch the Normandy debriefing after the dreadnought, then geth-held territory on the Rannoch surface and a shuttle over it\n Shepard obeys Koris's order and leaves him, diverting the shuttle to lift out his crew; Shepard still works the door turret against the Rocket Troopers and their missiles until the crew is aboard. Koris dies on the ground, priming a grenade and charging a Geth Prime and its troops. The Quarian Civilian Fleet war asset drops by 75 Military Strength, and if the quarians otherwise survive the war their leaderless Civilian Fleet panics and some captains are cut down fleeing; depending on Shepard's other choices this can make quarian-geth peace impossible.",
+      "url": "",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#06",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch If Legion did not survive Mass Effect 2 — sold to Cerberus, never activated, or lost at the Collector Base — the unit wired into the drive core was a generic Geth VI. Freeing it had the same effect, and the VI took Legion's place in the war room.",
+      "url": "",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-4-mass-effect-3-and-rannoch_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "Rannoch: the choice",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "At the climax Shepard must choose between peace, or geth genocide, or quarian genocide: give the geth full sentience (the Reaper upgrade) at the cost of the quarian fleet, or destroy the geth to save the quarians. - **Shepard sides with the quarians:** Tali kills Legion (or shuts the geth down) with a \"flat shovel blade.\" She has done what quarian society expects, but — because of her history with Legion — she expresses regret, and answers Legion's last question, \"Does this unit have a soul?\", with a solemn \"Yes… yes, it does.\" Legion, in his last moments, ignores Shepard and turns all his attention to Tali, the comrade who stabbed him — \"a mirror image of himself.\" - **Shepard sides with the geth:** Tali begs Shepard not to choose the geth over her people. If Shepard uploads the code, Tali — as Admiral Tali'Zorah — calls off the quarian fleet's attack over the comm, and Legion sacrifices himself to disseminate the code (\"copy code is insufficient; direct personality dissemination required\"). - **Botched path (Shepard failed to broker peace and the war is one-sided):** Tali is powerless to stop Han'Gerrel, Rael, and Daro'Xen, whose hubris blinds them; as what remains of the quarian fleet burns in Rannoch's atmosphere — Captain Ysra of the Rayya over the radio — Tali, having done everything she could, takes her own life before her home ship burns. The essayist frames this as the completion of her arc: her instilled sense of duty is useless when there is no Fleet to serve, and her unrequited love for family can no longer hope for a brighter future.",
+      "url": "",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "zaal-koris-vas-qwib-qwib_003",
+      "kind": "page",
+      "page": "Zaal'Koris vas Qwib-Qwib",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Against Koris's objections, and Tali's if she is appointed as an admiral, the other admirals chose to attack the geth, which caused them to seek help from the Reapers. He fears that the admirals might have destroyed the quarian race for good by attacking the geth. Koris leads the Civilian Fleet. Koris's ship is shot down while destroying a geth planetary cannon, though he survived the crash. He gets separated from his crew and is cut off by the geth. While he is fighting for his life, Admiral Raan relays the news to Shepard, who may choose to extract him. The Commander can either choose to obey Koris' plea to leave him and save his crew instead or convince him to come back to prevent the Civilian Fleet he commands from falling apart. If the latter is chosen, Koris later backs Shepard in making peace for both quarians and geth. Otherwise, the admiral dies fighting, priming a grenade before charging headlong into a Geth Prime and its troops. If Shepard doesn't rescue Koris but still makes sure the quarians survive the attack, some civilian fleet captains panic and attempt to flee the system, but are cut down by geth in the attempt, reducing the Quarian Civilian Fleet's combat effectiveness. If Koris is rescued, however, he manages to talk the captains into staying. Koris himself contributes to the overall war effort. When Shepard attempts brokering peace during the assault on the Reaper base by commanding all quarian ships to stop firing, Koris lends the Commander his authority. If the geth are chosen over quarians, however, all quarian contributions to the Reaper war, including his, disappear with the decimation of the quarian people.",
+      "url": "https://masseffect.fandom.com/wiki/Zaal'Koris_vas_Qwib-Qwib",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "summary:zaal-koris-vas-qwib-qwib",
+      "kind": "summary",
+      "page": "Zaal'Koris vas Qwib-Qwib",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Zaal'Koris vas Qwib-Qwib was a member of the quarian Admiralty Board, outspoken in his sympathy for the geth. He firmly opposed reclaiming the quarian homeworld, arguing that the sentient geth had as much right to live as the quarians and that the Migrant Fleet should colonize a new world instead. This earned him the label of geth apologist; Han'Gerrel vas Neema called him a \"whining suit-wetter\" and Daro'Xen vas Moreh considered him a coward. He was initially distrustful of Rael'Zorah and his daughter Tali, though he later admitted he never hated Tali and only opposed her father's aim of war against the geth. His home vessel, the Qwib-Qwib, was a formerly owned ship whose embarrassing registry name he refused to change over \"petty insults.\"\n\nDuring Tali'Zorah's treason hearing in Mass Effect 2, Koris objected to Commander Shepard defending her, saying a human had no business in sensitive quarian military matters; Shala'Raan overruled him because Tali had been declared crew of the Normandy SR-2. If Shepard brought Legion, Koris instead demanded the geth be removed from the courtroom and accused Tali of intimidation, but withdrew when reminded the Rayya's captain had permitted Legion aboard. Koris was quick to conclude Shepard and Tali had died retaking the Alarei and moved to have Tali posthumously exiled, prompting objections from Raan and Gerrel before the pair returned alive.\n\nIn Mass Effect 3, the other admirals attacked the geth over Koris's objections, driving the geth to the Reapers; Koris feared this had doomed the quarian race and took command of the Civilian Fleet. His ship was shot down while destroying a geth planetary cannon; he survived the crash but was cut off from his crew. Shepard could obey his plea to save his crew instead of him, or convince him to return. If rescued, Koris talked panicking captains into staying, contributed to the war effort, and backed Shepard in brokering quarian-geth peace, lending his authority when Shepard ordered all quarian ships to cease fire. If left, he died charging a Geth Prime with a primed grenade, and some Civilian Fleet captains fled and were cut down, reducing quarian combat effectiveness.",
+      "url": "https://masseffect.fandom.com/wiki/Zaal'Koris_vas_Qwib-Qwib",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "decryption_007",
+      "kind": "page",
+      "page": "Decryption",
+      "section": "Classes",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The following classes have the Decryption talent tree: - Engineer Starting - Infiltrator Starting - Sentinel Starting - Quarian Machinist Starting - Turian Agent Starting ##",
+      "url": "https://masseffect.fandom.com/wiki/Decryption",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "war-assets_002",
+      "kind": "page",
+      "page": "War Assets",
+      "section": "War Assets",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "War Assets and their total military strength can be inspected using the War Terminal located in the War Room on the second deck of the Normandy. - Alien - Alliance - Asari - Crucible - Ex\\-Cerberus - Geth - Krogan - Quarian - Salarian - Turian",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "mass-effect-2-cut-content-miscellaneous-texts_035",
+      "kind": "page",
+      "page": "Mass Effect 2 Cut Content/Miscellaneous Texts",
+      "section": "Tali: Treason",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Quarian: Reach Safety** --- Leave the laboratory to reach the safety of the lockdown room. **Quarian: Reach Safety** --- The quarian scientist reached the lockdown room safely. **Quarian: Reach Safety** --- The quarian scientist was killed before he could reach the lockdown room. **Avoid the Geth** --- Run the the safety of the lockdown room, avoiding geth. **The Trial: Admiral Shala'Raan** --- Admiral Shala'Raan believes Tali's father should be exiled. Discover her motives so you can build Tali's defense. **Speak to Admiral Shala'Raan** --- Talk to Admiral Shala'Raan and get her reasons for wanting to exile Tali's father. **Shala'Raan's Motive** --- Shala'Raan believes Tali's father endangered the Fleet by relaxing security protocols to get results fast. You will need to find some evidence on the Alarei that proves this false. **Prepared For the Trial** --- You have found evidence that can be used to dispute Shala'Raan's belief that security on Alarei was lax. This will prove of use during the trial of Tali's father. **The Trial: Admiral Shala'Raan** --- The trial is over. **The Trial: Admiral Zaal'Koris** --- Admiral Zaal'Koris believes that Tali's father should be exiled. Discover his motives so you can build Tali's defense. **The Trial: Admiral Zaal'Koris** --- The trial is over. **Speak to Admiral Zaal'Koris** --- Talk to Admiral Zaal'Koris and get his reasons for wanting to exile Tali's father. **Zaal'Koris' Motive** --- Zaal'Koris believes Tali's father \"tortured\" the geth. You will need to find some evidence on the Alarei that discredits his position. **Prepared For the Trial** --- You have found evidence that can be used to dispute Zaal'Koris' accusations of torture. This will prove of use during the trial of Tali's father. **The Trial: Admiral Han'Gerrel** --- Admiral Han'Gerrel believes that the quarians should prepare to attack the geth. Discover his motives so you can convince the quarians to avoid a devastating war. **The Trial: Admiral Han'Gerrel** --- The trial is complete. **Speak to Admiral Han'Gerrel** --- Talk to Admiral Han'Gerrel and get his reasons for wanting to attack the geth. **Han'Gerrel's Motive** --- Han'Gerrel believes that the geth were significantly weakened by their defeat at the Citadel. Now is the most opportune time to reclaim the homeworld. **Prepared For the Trial** --- You have found evidence that can be used to dispute Han'Gerrel's belief that the geth are weakened and vulnerable. This will prove of use during the Conclave's debate. **The Trial: Admiral Daro'Xen** --- Admiral Daro'Xen believes the quarians should prepare to attack the geth. Discover her motives so you can convince the quarians to avoid a devastating war. **The Trial: Admiral Daro'Xen** --- The trial is over. **Speak to Admiral Daro'Xen.** --- Talk to Admiral Daro'Xen and get her reasons for wanting to attack the geth. **Daro'Xen's Motive** --- Daro'Xen believes that the geth can be defeated easily by by infecting them via cyberwarfare \"hacking\" attacks. **Prepared For the Trial** --- You have found evidence that can be used to dispute Daro'Xen's belief that the geth can be easily \"hacked.\" This will prove of use during the Conclave's debate. **Quarian: Repair the Computer** --- The laboratory's quantum bluebox computer has been dysfunctional for weeks. It must be repaired. **Quarian: Repair the Computer** --- You've fixed the quantum bluebox computer. **Part Delivery** --- Deliver the repaired bluebox module to Director Genn'Shais in the lab.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Cut_Content/Miscellaneous_Texts",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "daro-xen-vas-moreh_003",
+      "kind": "page",
+      "page": "Daro'Xen vas Moreh",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Xen's corps of research and development eventually create a means to cause massive white\\-noise jamming against the highly precise geth ladar scanning systems, giving the quarian fleet a major advantage in any attempt to wage war against the geth. Upon this revelation, the Admiralty votes to go to war, with Admiral Koris and possibly Tali dissenting (if she was exonerated in her trial and subsequently promoted to her father's vacant Admiral office). Xen leads the Special Projects group during the war. If Tali is absent, Xen provides assistance to Shepard during their mission to disable a geth dreadnought. Unlike Tali, she doesn't fight through the ship, instead advancing to the operations center when Shepard has cleared the way and providing electronic support, later leaving with them in a geth fighter. Xen takes pride in her technological contributions that initially drove the geth back, preferring the present war over Raan's bloodless caution or Koris's geth sympathies, although Reaper involvement turned the tables on her race. Nevertheless, she continues to create anti\\-synthetic countermeasures like the Arc Pistol and personally gives a prototype to Shepard aboard the dreadnought if Tali isn't around. Shepard's squadmates have differing opinions on the weapon, although Xen gives her own in two cases. If EDI points out the illegality of polonium rounds against organics (which is roughly analogous to the Arc Pistol's effects against synthetics), Xen quips it's \"fortunate\" the prohibition doesn't apply against synthetics. If Liara comments that she knows people willing to pay handsomely for the weapon's design, Xen replies she's open for offers. After the mission's completion, Admiral Xen expresses interest in dissecting Legion (or the Geth VI if Legion is unavailable). Shepard can emphatically discourage against it and cut off Xen before she voices her views on potential scientific benefits. In the middle of the operation to reclaim Rannoch, Xen gets into an argument over inter\\-ship comms with Tali over ship operations. Tali wants Xen's ships to do search and rescue ops for escape pods, while Xen wants to continue salvage operations on the destroyed Geth dreadnought, asserting the need to understand geth technology. Admiral Xen later briefs Shepard on the rescue mission for Admiral Koris, noting that the Civilian Fleet is in danger of breaking up without their leader. If the geth fighter squadrons attacking the liveships have been dealt with, Xen offers her expertise in dealing with other geth servers. Shepard suggests asking Legion/Geth VI but Xen claims the geth only says, \"No data available\" whenever she inquires. She then asks how the server's platoon of Geth Primes cooperated with the Commander. Upon hearing they volunteered, Xen reminds Shepard that she could \"examine\" these geth to confirm their allegiance. Admiral Xen creates a laser marking technology that can cut through the geth jamming signals, which essentially is the Sync Laser. This technology proves critical to Shepard's team during the assault on the Reaper base on Rannoch. Should Xen survive the resolution of the geth/quarian war, she will be sent to the Crucible to help with development and construction. She is described as being dissatisfied with the device by Admiral Shala'Raan vas Tonbay and uses her brilliant scientific and technical skills to assist with the construction. Also, if Shepard supported Xen over Tali during their argument regarding escape pods, Xen is able to salvage useful materials for the war effort.",
+      "url": "https://masseffect.fandom.com/wiki/Daro'Xen_vas_Moreh",
+      "for_key": "quarian guilt over starting the war with the geth"
+    },
+    {
+      "chunk_id": "geth-war_003",
+      "kind": "page",
+      "page": "Geth War",
+      "section": "The War",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Once the now\\-sentient geth realized what the quarians were doing, they retaliated. Initially only some geth began to take up arms in order to protect other units that could not defend themselves. The quarians placed their worlds under martial law, hunting down even those geth not participating in the hostilities, which was opposed by a large portion of the quarian people. They sheltered geth from the authorities, and were detained or killed as a result. Eventually, the opposition became an outnumbered minority unable to prevent the outbreak of all\\-out war in 1895 CE. The geth emerged victorious within a year, overrunning the quarians' colonies and their homeworld of Rannoch. During the war, they committed a brutal genocide that eradicated all but a few million of the quarians\\- less than one percent of the pre\\-war population. The surviving quarians fled aboard their starships. Having lost their homes, the quarians pleaded for help from the Citadel Council, but were denied aid and stripped of their embassy as punishment for violating the Council's laws against creating artificial intelligences. All told, the Geth War resulted in the loss of billions of quarian lives, and inflicted irreparable damage to their economy and culture.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_War",
+      "for_key": "quarian guilt over starting the war with the geth"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/war.md",
+      "line": 29,
+      "text": "- During the quarian campaign to retake Rannoch, the Reaper-upgraded geth trapped the quarian Migration Fleet; Shepard boarded a geth dreadnought (Priority: Geth Dreadnought) and shut down its Reaper control signal by freeing Legion from the drive core, where it had been wired in as the signal's distribution hardware. (source: Priority: Geth Dreadnought)",
+      "for_key": "the geth dreadnought and the reaper control signal"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

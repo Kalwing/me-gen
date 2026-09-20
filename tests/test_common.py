@@ -90,3 +90,16 @@ def test_target_words_for_multiplies_then_clamps():
 def test_target_words_for_falls_back_when_a_form_omits_the_keys():
     """A hand-written form without the new keys still yields a usable number."""
     assert common.target_words_for({"id": "x", "section_count": [8, 14]}, 8) > 0
+
+
+def test_episode_subject_defaults_to_shepard():
+    assert common.episode_subject({"narrator": "garrus"}) == "shepard"
+
+
+def test_episode_subject_reads_the_outline():
+    assert common.episode_subject({"narrator": "jack", "subject": "thomas"}) == "thomas"
+
+
+def test_episode_subject_ignores_blank_and_normalises():
+    assert common.episode_subject({"subject": "  "}) == "shepard"
+    assert common.episode_subject({"subject": " Thomas "}) == "thomas"

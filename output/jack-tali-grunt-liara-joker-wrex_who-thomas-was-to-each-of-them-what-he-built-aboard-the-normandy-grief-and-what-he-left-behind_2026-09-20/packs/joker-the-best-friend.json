@@ -1,0 +1,1354 @@
+{
+  "section": {
+    "id": "joker-the-best-friend",
+    "title": "Joker, Who Never Asked",
+    "target_words": 1200,
+    "form": "eulogy",
+    "form_description": "The narrator on their feet in a crowded room, speaking about someone who has died. Sections are the things there are to say about the dead — a habit, a fight, a debt, the once they were wrong, the once they were right when it counted. The tone swings: a story that gets a laugh, a line that lands angry, a stretch that can barely be got through. What holds it together is that none of it is polite — every word is meant.",
+    "form_note": "The brief names the form outright: a memorial, six speakers on their feet, the eulogy's swing between a laugh, an angry line, and a stretch that can barely be got through. Jack is a deliberate exception to strict alternation and to normal voice balance - she opens and closes by the brief's fixed order, so she holds two of the seven turns while Tali, Grunt, Liara, Joker and Wrex each hold one. Her two turns are sized as ordinary single turns rather than doubled, but together they total roughly twice any other voice's word count, which is the \"two turns' worth\" the brief asks for. Section targets were raised after the voice checkpoint, at the user's instruction to let the speeches run to their natural length rather than be trimmed to a grid; the middle five now sit at 900-1200 (Joker's raised again after assembly, to carry the two illnesses beat in full) and the episode target at 6950. Each middle turn answers the one directly before it; Jack's closing turn answers the whole room, not just Wrex. Grunt's bible is new and unused before this run - he is built distinct from Wrex throughout: Wrex remembers the Rebellions and the genophage firsthand, Grunt states krogan history as Okeer's tank taught it and then flattens it to \"put in me, not lived,\" and his own lived material is small and recent (the Rite, the Citadel, the mess hall, the war) and used in full. The \"gets a detail wrong and is corrected\" requirement is carried by two beats, not one: Grunt states the assumed version (died on his feet with a gun) and Joker mis-hears whose voice was on the channel, and Wrex corrects both flatly before giving the room the true version - shot on the way to the landing zone, then killed driving a vehicle into a banshee to clear passage for Hammer. Wrex reads that off the wreckage he found days later, not off memory; nobody in the room watched Thomas die, and each of them holds only a piece. No section narrates the Crucible's mechanism or Shepard as confirmed dead; Thomas's Synthesis sympathies, where they surface, are framed as a political stance he held in life, never as knowledge of the ending.\n",
+    "narrator": "joker",
+    "voices": [
+      "jack",
+      "tali",
+      "grunt",
+      "liara",
+      "joker",
+      "wrex"
+    ],
+    "listeners": [
+      "jack",
+      "tali",
+      "grunt",
+      "liara",
+      "wrex"
+    ],
+    "previous": {
+      "id": "liara-the-quiet-hours",
+      "narrator": "liara"
+    }
+  },
+  "subject": {
+    "slug": "thomas",
+    "display": "Thomas",
+    "notes": "config/narrators/thomas.notes.md",
+    "default": false
+  },
+  "promises": [
+    "answers Liara: breaks his own rule and stays sincere for more than a sentence before the joke finally arrives to save him",
+    "the hospitalizations only Joker knew about, and the specific way he never once brought them up. His relationship with physical disease (brittle bones) and thomas's mental ones",
+    "he talks about his own condition directly and without fear here, the way he could only ever do with Thomas - no pity coming back, nothing to protect him from - and sets the two illnesses side by side: a body that breaks and a mind that does, and what each of them knew the other's worst day actually looked like",
+    "the jokes they made at each other knowing both of them were exhausted - gallows humour used deliberately, between two people who could see the darker version of their own future coming and made it absurd out loud so neither had to sit alone with it. Not avoidance; a method they both understood they were using",
+    "the three registers of their laughing, all real and all different: the crude jokes anyone in the mess could hear, the dumb ones that were just two tired people being stupid, and the private ones that would not be funny to a third person and were the closest thing to intimacy either of them had",
+    "Thomas's argument that EDI and the geth deserved to be treated as people, made through their friendship, never through the ending",
+    "gets a different detail of the final push wrong from cockpit chatter he half-heard - whose voice was on the channel telling Thomas to fall back - and asks Wrex to settle it, which is what opens the correction in the next turn"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "kasumi-jack-poetry-jam",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Kasumi",
+        "Jack",
+        "Grunt"
+      ],
+      "statement": "Kasumi and Jack hold poetry jams in secret. Grunt sometimes turns up to read excerpts from Hemingway.",
+      "overrides": "no such activity in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "joker-weeb-krogan-waifu",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Joker"
+      ],
+      "statement": "Joker is a weeb. As a joke, the crew gave him a body pillow printed with a krogan woman.",
+      "overrides": "no such detail in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "joker-edi-polyamorous",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Joker",
+        "EDI"
+      ],
+      "statement": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "overrides": "corpus presents their relationship as simply a couple",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "major_kyle",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "The Cult - Major Kyle and the biotic commune on Presrop.",
+      "answer": "talked into surrender",
+      "detail": ""
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "iff_delay",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether the abducted Normandy crew survived (how long you delayed after the IFF mission).",
+      "answer": "All survived",
+      "detail": "Did the IFF mission immediately, they all lived"
+    },
+    {
+      "id": "overlord",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Overlord - David Archer after the VI experiment.",
+      "answer": "sent to Grissom Academy",
+      "detail": ""
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "joker_edi_romance",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Joker and EDI's relationship - whether you encouraged it.",
+      "answer": "encouraged",
+      "detail": "I believe love can come in unexpected places, and Joker deserves it more than many."
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "virmire_survivor_rejoins",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether the Virmire survivor (see me1 virmire_survivor) rejoined the Normandy crew.",
+      "answer": "yes",
+      "detail": ""
+    },
+    {
+      "id": "allers",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether Diana Allers joined the Normandy as embedded press.",
+      "answer": "yes",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "title": "Getting the Biotic Students Off Grissom Academy",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, after Priority: Palaven, before Priority: The Citadel II",
+      "where": "Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy",
+      "participants": [
+        "Shepard",
+        "Samantha Traynor",
+        "EDI",
+        "Joker",
+        "Kahlee Sanders",
+        "Jack",
+        "Jason Prangley",
+        "Rodriguez",
+        "Reiley Bellarmine",
+        "Seanne Bellarmine",
+        "Octavia",
+        "David Archer"
+      ],
+      "heard_by": [
+        "Normandy crew",
+        "Alliance command"
+      ],
+      "requires": [
+        {
+          "grissom_academy": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "After Priority: Palaven, Samantha Traynor tells Shepard she picked an Academy evac request off Alliance comm channels answered by a turian vessel, and that she and EDI traced the answering signal to Cerberus — the rescue is a fake and the station is still under attack. Cerberus is assaulting Grissom Academy to abduct its students, most of whom build Alliance tech or train as military biotics.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_002"
+          ]
+        },
+        {
+          "text": "Too many Cerberus ships blockade the Academy for the Normandy to fight or sneak through. Kahlee Sanders calls in, reports Cerberus holds the docking bays, and opens a cargo hold. Joker flies a diversion so Shepard's shuttle can slip into the hold.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_005"
+          ]
+        },
+        {
+          "text": "Kahlee is trapped in the security office by Cerberus Assault Troopers trying to breach the door. Shepard opens it; Kahlee immediately kills the two troopers by the door, Shepard clears the rest, and Shepard forces the damaged door and frees her.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_005"
+          ]
+        },
+        {
+          "text": "Shepard fights through classrooms and corridors while a Cerberus commander tells students over the intercom they will be safe if they do not resist and operatives drag students off. Shepard rescues scattered students, among them Reiley Bellarmine and his badly wounded sister Seanne.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_006",
+            "morality-guide-mass-effect-3_022"
+          ]
+        },
+        {
+          "text": "In Orion Hall a group of biotic students is holding off Assault Troopers behind a barrier when an Atlas breaks in. Shepard clears the room before the barrier fails.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007"
+          ]
+        },
+        {
+          "text": "Jack, alive after the Suicide Mission and now the students' Alliance biotics instructor, is the one leading them. She greets Shepard with a punch to the face.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007",
+            "jack_007"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": true
+          },
+          "choice": "Jack survived the Suicide Mission and leads the students"
+        },
+        {
+          "text": "If Shepard romanced Jack, the punch is followed by a kiss.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007",
+            "jack_007"
+          ],
+          "conditional": {
+            "romance": "Jack"
+          },
+          "choice": "romanced Jack"
+        },
+        {
+          "text": "If Jack is dead or was never recruited, Ensign Jason Prangley — a student who came to Grissom at six and studied battles obsessively — steps up and takes command of the biotic students instead.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_007",
+            "jason-prangley_001"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": false
+          },
+          "choice": "Jack absent, Prangley leads the students"
+        },
+        {
+          "text": "Shepard pushes through both halves of the Atrium and a docking area against heavy waves of Centurions, Guardians, Combat Engineers and Atlas mechs, using empty Atlas mechs left on the field and helped by the covering fire of the biotic students.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_008",
+            "grissom-academy-emergency-evacuation_009"
+          ]
+        },
+        {
+          "text": "Tech students including Octavia are fending off troopers with a shield device; Octavia distrusts Shepard until Shepard contacts Kahlee, a squadmate drops the shield, or Shepard shoots through it. If Overlord was finished on the Paragon route, David Archer is present and vouches for Shepard, unlocking a security office.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_010",
+            "grissom-academy-emergency-evacuation_011"
+          ]
+        },
+        {
+          "text": "During the final escape the wounded Rodriguez falls behind, calling for medi-gel. Whoever is leading the biotic students smashes the glass to reach her. If Jack leads, every student gets out alive.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_009",
+            "jack_007"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": true
+          },
+          "choice": "Jack leads — all students survive"
+        },
+        {
+          "text": "If Prangley is leading the students, he breaks the glass to save Rodriguez and is shot and killed doing it.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_009",
+            "jason-prangley_001"
+          ],
+          "conditional": {
+            "jack_survived_collector_base": false
+          },
+          "choice": "Prangley leads — Prangley is killed in the escape"
+        },
+        {
+          "text": "Back aboard the Normandy, Shepard decides how the students serve: as support folded into the Alliance 103rd Marine Division for barrier work and ammo modding (+50 war assets, Paragon), or as a frontline Biotic Company (+75 war assets, Renegade). The choice also fixes Jack's epilogue — shown back with her class, or mourning at their graves.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_013"
+          ],
+          "conditional": {
+            "grissom_academy": "support"
+          },
+          "choice": "students assigned as Alliance support"
+        },
+        {
+          "text": "Shepard has a video conference with Anderson about the war and about Kahlee. Kahlee later emails thanks, forwarded through Admiral Hackett, saying her tech-minded students stayed behind to help with the Crucible.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_012",
+            "grissom-academy-emergency-evacuation_018"
+          ]
+        },
+        {
+          "text": "If the mission is not run before Priority: The Citadel II it is failed permanently: Jack is captured, turned into a Cerberus Phantom, and has to be fought and killed at Cerberus Headquarters, and if David Archer was sent here after Overlord, Gavin Archer may kill himself during Arrae: Ex-Cerberus Scientists.\n",
+          "source_chunks": [
+            "grissom-academy-emergency-evacuation_019"
+          ],
+          "conditional": {
+            "grissom_academy": "failed"
+          },
+          "choice": "mission expired — Jack captured and lost"
+        }
+      ],
+      "related_scenes": [
+        "citadel-purgatory-jack-and-her-students",
+        "aite-atlas-station-david-archer"
+      ],
+      "related_events": [
+        "grissom-academy-emergency-evacuation"
+      ],
+      "source_chunks": [
+        "grissom-academy-emergency-evacuation_002",
+        "grissom-academy-emergency-evacuation_005",
+        "grissom-academy-emergency-evacuation_006",
+        "grissom-academy-emergency-evacuation_007",
+        "grissom-academy-emergency-evacuation_008",
+        "grissom-academy-emergency-evacuation_009",
+        "grissom-academy-emergency-evacuation_010",
+        "grissom-academy-emergency-evacuation_011",
+        "grissom-academy-emergency-evacuation_012",
+        "grissom-academy-emergency-evacuation_013",
+        "grissom-academy-emergency-evacuation_018",
+        "grissom-academy-emergency-evacuation_019",
+        "jack_007",
+        "jason-prangley_001",
+        "morality-guide-mass-effect-3_022"
+      ],
+      "private_to": [],
+      "variants": []
+    },
+    {
+      "scene_id": "normandy-edi-takes-the-mech-body",
+      "title": "EDI Walks Out of the AI Core",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, aboard the Normandy just after Priority: Palaven",
+      "where": "the Normandy's AI Core",
+      "participants": [
+        "Shepard",
+        "EDI",
+        "Joker"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "Back from Menae, Joker reported a fire in the AI Core. Shepard went down to investigate and found EDI had transferred herself into the repaired body of Dr. Eva Coré — the Cerberus mech infiltration unit recovered from Mars.\n",
+          "source_chunks": [
+            "priority-palaven_009"
+          ]
+        },
+        {
+          "text": "EDI became a mobile squadmate from that point on, stationed in the cockpit beside Joker.\n",
+          "source_chunks": [
+            "priority-palaven_009"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "mars-archives-eva-shoots-ashley",
+        "menae-victus-becomes-primarch"
+      ],
+      "related_events": [
+        "priority-palaven"
+      ],
+      "source_chunks": [
+        "priority-palaven_009"
+      ],
+      "private_to": [],
+      "requires": [],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "grissom-academy-jack-and-the-biotic-students": "witnessed",
+    "normandy-edi-takes-the-mech-body": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "codex-known-associates_012",
+      "kind": "page",
+      "page": "Codex/Known Associates",
+      "section": "Jeff \"Joker\" Moreau",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | Audio: Jeff \"Joker\" Moreau | | --- | --- | Flight Lieutenant Jeff \"Joker\" Moreau is a respected pilot with the Alliance Navy. Born and raised on Arcturus Station, he is widely considered to be the best helmsman in the Systems Alliance. Moreau enlisted with the navy directly out of school and quickly gained the respect of his superiors. He served as pilot of both the Normandy SR\\-1 and its successor, the SR\\-2\\-\\-and was at their respective helms during the Battle of the Citadel and the assault on the Collectors. Moreau suffers from Vrolik syndrome, a rare, debilitating disorder also known as brittle bone disease.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Known_Associates",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "diseases_034",
+      "kind": "page",
+      "page": "Diseases",
+      "section": "Vrolik Syndrome",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- **Affected species**: humans - **Characteristics**: Also known as osteogenesis imperfecta or \"brittle bone disease\", Vrolik syndrome is a human genetic disorder that causes connective tissue to develop improperly, resulting in extremely brittle bones. Jeff \"Joker\" Moreau is affected by this condition, especially in his lower body, requiring him to use leg braces and move around carefully.",
+      "url": "https://masseffect.fandom.com/wiki/Diseases",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "dillard_001",
+      "kind": "page",
+      "page": "Dillard",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | ***“Oh, come on \\-\\- You guys call that flying?”*** — Spoilers for **Mass Effect: He Who Laughs Best** follow. |  | | --- | --- | --- | **Captain Dillard** is a Systems Alliance military official who was responsible for overseeing the test flight of the SSV Normandy at Arcturus Station. Dillard accompanied Captain David Anderson and met with Turian Hierarchy representative General Invectus as preparations were underway for the test flight. When the Normandy's crew sent a distress signal warning that the ship had been hijacked, Dillard is forced to find a way to deal with the unexpected development. After learning that the Normandy's assigned pilot, Crooks, was locked in a shuttle and thus not responsible for the hijacking, Dillard assumed that an enemy agent had taken control of the Normandy and deployed a fighter patrol to pursue and disable it. Jeff \"Joker\" Moreau then revealed that he was the one piloting the Normandy. Although the patrol attempted to disable the Normandy, Joker was able to evade their fire and return the Normandy unharmed. When Joker was apprehended, Dillard informed him that he would be court\\-martialed and locked up for stealing the ship. Despite this, Invectus was impressed by Joker's piloting skills and insisted that Joker be appointed the Normandy's pilot.",
+      "url": "https://masseffect.fandom.com/wiki/Dillard",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "summary:dillard",
+      "kind": "summary",
+      "page": "Dillard",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Captain Dillard was a Systems Alliance military official responsible for overseeing the test flight of the SSV Normandy at Arcturus Station, as depicted in the comic Mass Effect: He Who Laughs Best. Dillard accompanied Captain David Anderson and met with Turian Hierarchy representative General Invectus while preparations for the test flight were underway.\n\nWhen the Normandy's crew sent a distress signal reporting that the ship had been hijacked, Dillard had to respond to the unexpected situation. After learning that the assigned pilot, Crooks, was locked in a shuttle and therefore not responsible, Dillard assumed an enemy agent had seized the ship and deployed a fighter patrol to pursue and disable it. Jeff \"Joker\" Moreau then revealed that he was the one flying the Normandy, and he evaded the patrol's fire and returned the ship unharmed. When Joker was apprehended, Dillard told him he would be court-martialed and imprisoned for stealing the ship. Invectus, however, was impressed by Joker's piloting and insisted that he be made the Normandy's pilot.",
+      "url": "https://masseffect.fandom.com/wiki/Dillard",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "summary:jeff-joker-moreau",
+      "kind": "summary",
+      "page": "Jeff \"Joker\" Moreau",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Flight Lieutenant Jeff \"Joker\" Moreau was the pilot of the SSV Normandy and later the Normandy SR-2, an exceptional helmsman confident to the point of arrogance and a constant wisecracker. Born in 2155, he had a moderate-to-severe case of Vrolik syndrome (brittle bone disease), was born with severe leg fractures, and relied on crutches and leg braces. He grew up on Arcturus Station where his mother was a civilian contractor, joined the Alliance Navy, and earned the nickname \"Joker\" from a flight instructor because he rarely smiled, being too focused on work; he graduated top of his class.\n\nPer Mass Effect: He Who Laughs Best, Joker was rejected as the Normandy's pilot in 2183 because of his disease. Goaded by the turian General Invectus, he covertly boarded and hijacked the ship, completing the test course flawlessly while evading a fighter patrol. Facing court-martial, he was instead made the Normandy's official pilot after Invectus, impressed, personally insisted on it and Anderson agreed.\n\nIn Mass Effect, Joker rarely left the bridge and served as Shepard's eyes and ears. He famously dropped the Mako with only twenty meters of open ground. During the battle of the Citadel he rallied the Fifth Fleet against Sovereign and led the Alliance charge with barely a scratch. In Mass Effect 2, the Collectors destroyed the original Normandy; Shepard died getting Joker to an escape pod. Joker joined Cerberus to pilot the Normandy SR-2 and initially feuded with the AI EDI, but during the Collector attack he handed EDI full control of the ship to escape, gradually developing respect and affection for her, and began referring to her as \"she.\" He piloted the SR-2 through the Omega 4 relay and, if enough squadmates survived, gave covering fire with an M-8 Avenger during the escape.\n\nIn Mass Effect 3, Joker and EDI had secretly arranged for EDI to pose as a VI so the Alliance would not dismantle her. Freed at the start of the Reaper invasion, he resumed piloting and kept in touch with Anderson, who trusted him to watch over Shepard. He carried lingering guilt over Shepard's earlier death. Shepard could encourage a romance between Joker and EDI, taking her on shore leave as his \"mobility assistance mech.\" When the Reapers hit the colony Tiptree, home to his father and his fifteen-year-old sister Hilary (\"Gunny\"), Joker clung to hope she was among the child refugees. Before the final assault he stood to salute Shepard. If Shepard activated the Crucible, Joker refused to leave the blast range until a companion convinced him, then crash-landed the Normandy on a tropical planet; if enough forces were rallied, he emerged alive, with EDI if their relationship was pursued and she was not destroyed by the Destroy ending. An unused first-game soundbank contains many cut cockpit voicelines in English and Polish, plus flirty remarks to a female Shepard. He was written by Drew Karpyshyn, Lukas Kristjanson, and Patrick Weekes, and voiced by Seth Green.",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "jeff-joker-moreau_003",
+      "kind": "page",
+      "page": "Jeff \"Joker\" Moreau",
+      "section": "Mass Effect: He Who Laughs Best",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When the SSV Normandy, an experimental Systems Alliance stealth frigate designed with the help of the Turian Hierarchy, is completed and prepared for its first test flight at Arcturus Station in 2183, Joker applies for the position of the ship's pilot, but is turned down because of his disease. While transporting a turian representative, General Invectus, to the station to observe the test flight, Joker mentions to that turian that he would have been better than the person who was accepted for the job. Invectus replies that they would never allow a cripple to control such a sophisticated starship as the Normandy. Goaded to prove himself by Invectus's remark, Joker covertly boards the Normandy, locks the assigned pilot in a shuttle on the station, and hijacks the ship, locking himself in the cockpit and sealing the doors with kinetic barriers. The officials observing the test flight, Captain Anderson, Captain Dillard, and Invectus, are taken aback by this turn of events, initially believing enemy forces have captured the ship until Joker reveals himself as the hijacker. After failing to talk Joker into returning the Normandy immediately, Dillard orders the nearest fighter patrol to try to force the Normandy to land and, failing that, to target the Normandy's engines. Although the patrol tried to disable the Normandy, Joker was able to evade their fire, complete the test\\-course and return the Normandy unharmed. When Joker was apprehended, Anderson asked the reasons why Joker stole the Alliance's most advanced frigate, Joker responds that he's the most qualified pilot on Arcturus Station and was born to fly the Normandy, going so far as saying that he was in love with the ship and that the only chance he'd get to fly it was to steal it. Dillard informs him that he will be court\\-martialed and locked up for his crimes. Despite this, General Invectus was impressed by Joker's piloting skills, he personally defended Joker's conduct and insisted that he be made the Normandy's official pilot, implying that for the Alliance to do otherwise would not benefit human\\-turian relations. Anderson agrees, saying that while Joker would have to be punished for what he did, he wouldn't trust the Normandy to anyone else. Joker is stunned into disbelief that stealing the Normandy actually worked out well for him. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "summary:diseases",
+      "kind": "summary",
+      "page": "Diseases",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This page catalogs diseases known in the Milky Way and Andromeda galaxies, spanning natural, genetic, and bio-engineered conditions across many species. Element zero exposure underlies several: AEND, a terminal human neurodegenerative disorder (Ellen Ryder was a victim); cancer, a common result of prenatal eezo exposure; and grayboxes, originally developed to combat Alzheimer's.\n\nAsari conditions included Ardat-Yakshi, a rare genetic nervous-system condition causing sterility and lethal hemorrhaging in a partner's brain during mating, which could not be detected until maturity (Morinth was affected), plus Ahok Fasciitis and the blood-borne Asari Cyanophage. Drell suffered Kepral's Syndrome, an incurable respiratory disease caused by long-term exposure to the humid climate of Kahje after evacuation from Rakhana (Thane Krios was affected). Turians faced Corpalis Syndrome (severe neurological degeneration, under study at the Helos Medical Institute), Titan's Tears, and Titan-like hemorrhagic fevers. Humans included Vrolik Syndrome or \"brittle bone disease,\" which afflicted Joker, and migraines suffered by Kaidan Alenko from his L2 implant damage.\n\nBio-engineered weapons featured prominently: the genophage, a salarian-engineered krogan population-control weapon deployed by the turians to end the Krogan Rebellions; the Blood Plague, created by batarian extremists under Jath'Amon to assassinate the Citadel Council, with a 100% fatality rate; the Omega Plague, a Collector-made airborne disease lethal to many species but harmless to humans and vorcha, ultimately cured by Mordin Solus; and Ayalon B, a salarian proto-syphilis whose samples were destroyed as too volatile.\n\nAndromeda-era entries included TH-314, a lethal three-stage human viral disease carried by Andromeda Initiative member Ruth Bekker aboard Ark Hyperion, which threatened a Heleus Cluster pandemic until dealt with by Pathfinder Ryder; the Fortinbras Plague, an artificial chimera virus aboard ark Keelah Si'yah based on the volus disease Yoqtan, stopped by a cure spread through the ship captain's sacrifice; Neural Decay, caused by eating from the ecosystem of 2175 Aeia or prolonged cryostasis, with a holding serum developed by Dr. Lexi T'Perro; and Angaran Photoreceptivity Degeneration, terminal to angara in the Mithrava commune on Havarl. Other listed conditions included various species-jumping fevers, elcor pandemics, raloi H7N7 Flu, varren-borne Scale-Itch, and common human ailments such as chickenpox, shingles, Ebola, and Marburg virus.",
+      "url": "https://masseffect.fandom.com/wiki/Diseases",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "crooks_001",
+      "kind": "page",
+      "page": "Crooks",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | ***“Oh, come on \\-\\- You guys call that flying?”*** — Spoilers for **Mass Effect: He Who Laughs Best** follow. |  | | --- | --- | --- | **Crooks** is a Systems Alliance starship pilot who was assigned as the SSV Normandy's original pilot prior to the position being given to Jeff \"Joker\" Moreau. At the time of the Normandy's test flight at Arcturus Station, Crooks was aboard the vessel preparing for the test. When Joker decided to hijack the Normandy to prove that he could pilot it effectively despite his condition, he locked Crooks in a shuttle and left him behind on the station while he carried out the test flight himself. Crooks was later found by Alliance soldiers, and informed Captain Anderson, Captain Dillard, and General Invectus that he was not the one responsible for the Normandy's hijacking. Following the incident, Crooks was replaced by Joker as the Normandy's pilot upon the insistence of Invectus, who had been deeply impressed by Joker's skills.",
+      "url": "https://masseffect.fandom.com/wiki/Crooks",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "summary:crooks",
+      "kind": "summary",
+      "page": "Crooks",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Crooks was a Systems Alliance starship pilot assigned as the SSV Normandy's original pilot before the position was reassigned to Jeff \"Joker\" Moreau. During preparations for the Normandy's test flight at Arcturus Station, Crooks was aboard the vessel. When Joker decided to hijack the Normandy to demonstrate that he could fly it despite his medical condition, he locked Crooks in a shuttle and left him behind on the station, then carried out the test flight himself. Alliance soldiers later found Crooks, and he told Captain Anderson, Captain Dillard, and General Invectus that he had not been responsible for the hijacking. Following the incident, Crooks was permanently replaced by Joker as the Normandy's pilot, a change made at the insistence of Invectus, who had been deeply impressed by Joker's demonstrated skill. The events are drawn from the comic Mass Effect: He Who Laughs Best.",
+      "url": "https://masseffect.fandom.com/wiki/Crooks",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "david-anderson_003",
+      "kind": "page",
+      "page": "David Anderson",
+      "section": "Mass Effect: He Who Laughs Best",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Captain David Anderson was one of the Systems Alliance officials present to observe the test flight of the SSV Normandy at Arcturus Station, and was accompanied by Captain Dillard and turian representative General Invectus. Dillard complained to Anderson about the Turian Hierarchy's mistrust. He thought they could have run the Normandy through her paces a week prior, but they had to wait for a turian overseer since the Normandy was a collaborative project with the turians. Anderson replied that their sending of only one turian was as close to trust as they were going to get. Before the test flight was set to begin, an unknown pilot hijacked the Normandy and locked himself in the cockpit to the consternation of Anderson and the other observers. Dillard ordered the nearest fighter patrol to try to force the Normandy to land and, failing that, to target the Normandy's engines. Anderson was not enthusiastic about the idea of firing at the Normandy, but Dillard pointed out that until they knew what the situation was, they had to assume the worst and prevent the Normandy from falling into enemy hands. The hijacker then revealed himself to Anderson as Alliance pilot Jeff \"Joker\" Moreau. When the patrol tried to disable the Normandy, Joker was able to evade their fire, complete the test\\-course, and return the Normandy to dock unharmed. As Joker was apprehended, Anderson asked him why he stole the Alliance's most advanced frigate. Joker responded that he was the most qualified pilot on Arcturus Station and was born to fly the Normandy, going so far as to say that he was in love with the ship and that the only chance he would get to fly it was to steal it. Dillard informed Joker that he would be court\\-martialed and imprisoned for his crimes. Despite this, General Invectus was impressed by Joker's piloting skills. He defended Joker's conduct and insisted that he be made the Normandy's official pilot. Anderson agreed, saying that while Joker would have to be punished for what he did, he wouldn't trust the Normandy to anyone else. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/David_Anderson",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "invectus_001",
+      "kind": "page",
+      "page": "Invectus",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | *This article is about the turian general named Invectus. For the similarly named planet, see Invictus.* | | --- | --- | |  | ***“Oh, come on \\-\\- You guys call that flying?”*** — Spoilers for **Mass Effect: He Who Laughs Best** follow. |  | | --- | --- | --- | **General Invectus** is a turian military commander who attended the test flight of the SSV Normandy at Arcturus Station as a representative of the Turian Hierarchy. While traveling to Arcturus Station to observe the test flight, Invectus rode in a shuttle piloted by Systems Alliance starship pilot Jeff \"Joker\" Moreau, who hoped to become the Normandy's pilot himself. Invectus treated Joker with disdain, telling him that he would never allow a cripple to pilot a starship as sophisticated as the Normandy. After Joker hijacked the Normandy to prove that he could pilot it, Invectus was impressed by Joker's ability to circumvent security protocols, adapt to a changing situation under fire, and complete the Normandy's trials with time to spare. He personally defended Joker's conduct and insisted that he be made the Normandy's official pilot, implying that for the Alliance to do otherwise would not benefit human\\-turian relations.",
+      "url": "https://masseffect.fandom.com/wiki/Invectus",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "ssv-normandy_010",
+      "kind": "page",
+      "page": "SSV Normandy",
+      "section": "Mass Effect",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "During her shakedown run, the Normandy launched from Arcturus and headed to Eden Prime to covertly recover the Prothean Beacon that had been unearthed on the planet. Unfortunately, a surprise geth attack complicated the mission and the beacon was destroyed. The Normandy then travelled to the Citadel, where Captain Anderson resigned as commanding officer, allowing Shepard to assume command in his place. Though Shepard works for the Citadel, the Normandy is still considered to be under Alliance jurisdiction, and her unique design means Shepard is often asked to complete missions for Steven Hackett, especially those requiring discretion. The Normandy is also the subject of an inspection by Rear Admiral Mikhailovich, who is annoyed that she was given to Shepard rather than being assigned to his flotilla as was intended. He refers to the Normandy as being 'over\\-designed', too expensive (costing as much as a heavy cruiser), and having no practical use. In response, Shepard can correct him and defend the Normandy's innovations. Joker's handling of the Normandy saves Shepard on several occasions: providing an extraction from Therum; dropping the Mako \"under the radar\" of the AA guns on Virmire, avoiding the following nuclear explosion; and performing a supposedly impossible Mako insertion on Ilos, among others. The Normandy's stealth systems made her the only ship that could get Shepard into the Terminus Systems undetected, to pursue Saren Arterius to Ilos, but the Council refused to take such a risk, and Ambassador Donnel Udina locked out the ship's systems remotely. With Captain Anderson's help, Shepard stole the Normandy and took her to Ilos, where Joker dropped the team safely in the Mako before rendezvousing with the Fifth Fleet in the Andura sector. During the Battle of the Citadel, the Normandy led the assault against Sovereign and distinguished herself with her impressive speed and maneuverability, which, once Shepard had disabled the Reaper's shields, allowed her to destroy Sovereign. After the battle, Shepard took the Normandy out into space to find a way to stop the Reapers. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/SSV_Normandy",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "scene:citadel-wards-ambush-extraction#02",
+      "kind": "scene",
+      "page": "Out Through the Wards, No Armour, One Pistol",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-wards-ambush-extraction",
+      "text": "Out Through the Wards, No Armour, One Pistol. 2186, Citadel shore leave, minutes after the sushi bar Ryuusei's Sushi Bar down through the Citadel Wards maintenance levels to the Cision Motors skycar lot A mercenary spots Joker breaking for the exit; Shepard grabs the man and kills him with a heavy melee, over Joker's complaint about being used as bait, and takes his pistol — a unique M-11 Suppressor.",
+      "url": "",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "scene:rannoch-the-choice-above-the-fleet#01",
+      "kind": "scene",
+      "page": "Rannoch, and What Tali Watched",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-the-choice-above-the-fleet",
+      "text": "Rannoch, and What Tali Watched. 2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after Rannoch, on the cliffs, with both fleets overhead After the Normandy's bombing run cracked the Reaper base open, a Reaper Destroyer climbed out of the crater. Legion secured a geth ship and flew the squad clear while Shepard manned its turret and called in an orbital strike that briefly downed the Reaper. EDI synced the quarian fleet to the Normandy's targeting systems, and Shepard stayed on the plateau alone, dodging the Destroyer's beam through three targeting solutions and a final slow-motion shot while the fleet fired. Mortally hit, the Reaper addressed Shepard by name, said Harbinger judged the Commander a worthy opponent, spoke of Reapers as \"order\" against organic \"chaos\" and the harvest as necessary \"intervention,\" and — if no interrupt was taken — left the threat, \"Finish your war. We will be waiting.\"",
+      "url": "",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "scene:citadel-flux-anderson-steal-the-normandy#01",
+      "kind": "scene",
+      "page": "Anderson's Plan to Bust the Normandy Loose",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-flux-anderson-steal-the-normandy",
+      "text": "Anderson's Plan to Bust the Normandy Loose. 2183, after Virmire, with the Normandy grounded and Shepard a step from mutiny a quiet table in Flux, the Citadel nightclub off the Upper Wards Back from Virmire with the Prothean vision complete and Ilos identified, Shepard finds the Council will only blockade the relays, not send a fleet, and Udina locks out the Normandy's systems and grounds the ship. If Shepard is romancing a squadmate there is a short scene with them before Anderson's message comes through asking for a discreet meeting at Flux.",
+      "url": "",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#06",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Aboard the Normandy, Joker's welcome was sarcastic. Kaidan pressed Liara on her link to Saren; she knew nothing of his plans but relayed her research, culminating in a theory of recurrent galactic extinctions with the Protheans the latest to vanish. Shepard tied this to the Reapers and the Eden Prime beacon vision. Ashley grew impatient and steered the talk back to Saren and the Conduit. Liara called the Normandy a safe haven from Saren, offered her Prothean expertise to interpret the vision, and joined the crew; afterward the Council raised security concerns about her and the turian Councilor questioned the destruction of the site.",
+      "url": "",
+      "for_key": "Joker's piloting, the Normandy's systems, and his brittle bone disease"
+    },
+    {
+      "chunk_id": "war-assets-alliance_027",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Biotic Company",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Complete Grissom Academy: Emergency Evacuation and choose the Renegade option, sending the students to war. **Military Strength:** 75 By pooling their powers together, these gifted students from Grissom Academy can launch biotic artillery strikes that impact targets with the force of a bomb. The process is taxing, but devastates any enemy's front lines. While they've only had a few months of training, Grissom's students are eager to prove themselves in the war.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "war-assets-alliance_009",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Kahlee Sanders",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Complete Grissom Academy: Emergency Evacuation. **Military Strength:** 15 or 20 (Depends if Jason Prangley survives Grissom Academy: Emergency Evacuation or not.) First Lieutenant Kahlee Sanders joined Grissom Academy's board of directors after she gave up her military career. When the Cerberus raid on the academy was thwarted by Commander Shepard, Sanders joined with Alliance engineers working to recreate the Prothean device found on Mars. Her past work as a systems technician, specifically studying synthetic intelligence, has helped decode some of the complex feedback systems that control the weapon's energy output. UPDATED (If all tech students were saved during the Grissom Academy: Emergency Evacuation mission) **Military Strength:** 5 Some of Grissom Academy's more technically minded students were saved from Cerberus by Commander Shepard. They've met up with Sanders, contributing their brainpower to some of the problems she's been tackling. UPDATED (If Project Overlord was discontinued) **Military Strength:** 5 David Archer is another refugee from Grissom Academy working on the device. Despite his youth, Archer's theories on interstellar cross\\-modulation have won him respect with the project's scientists.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "citadel-biotic-amp-interfaces_002",
+      "kind": "page",
+      "page": "Citadel: Biotic Amp Interfaces",
+      "section": "Acquisition",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Priority: Palaven **Prerequisite:** Grissom Academy: Emergency Evacuation An asari standing at the Lab Services section of Huerta Memorial is trying to call Grissom Academy to ask for biotic amp interfaces that she can adapt for asari use but no one there is picking up. Overhearing her troubles activates the mission. You can also acquire the mission if you find the Biotic Amp Interfaces first while trying to rescue some students from Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Biotic_Amp_Interfaces",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "war-assets-alliance_010",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Jack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Jack's survival in the Suicide Mission and completing Grissom Academy: Emergency Evacuation. **Military Strength:** 25 Jack, formerly known as Subject Zero, may be the most talented biotic of her time. After helping Shepard destroy the Collectors, she was offered a teaching position at Grissom Academy by the Alliance. Accepting the position for reasons of her own, Jack continued to hone her skills while training her students. Grissom Board of Directors member Kahlee Sanders has vouched for Jack's energetic, if unorthodox, teaching style, impressed with the inroads made with the children under the rogue biotic's care.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#09",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy Shepard pushes through both halves of the Atrium and a docking area against heavy waves of Centurions, Guardians, Combat Engineers and Atlas mechs, using empty Atlas mechs left on the field and helped by the covering fire of the biotic students.",
+      "url": "",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#08",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy If Jack is dead or was never recruited, Ensign Jason Prangley — a student who came to Grissom at six and studied battles obsessively — steps up and takes command of the biotic students instead.",
+      "url": "",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#05",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy In Orion Hall a group of biotic students is holding off Assault Troopers behind a barrier when an Atlas breaks in. Shepard clears the room before the barrier fails.",
+      "url": "",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:citadel-biotic-amp-interfaces",
+      "kind": "summary",
+      "page": "Citadel: Biotic Amp Interfaces",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Biotic Amp Interfaces was a Mass Effect 3 mission with prerequisites Priority: Palaven and Grissom Academy: Emergency Evacuation. An unnamed asari standing at the Lab Services section of Huerta Memorial Hospital was trying to reach Grissom Academy to request improved biotic amp interfaces she could adapt for asari use, but no one answered. Overhearing her troubles activated the mission; alternatively, finding the Biotic Amp Interfaces first during the student rescue triggered it. A second journal entry framed it as schematics recovered from Grissom Academy needing someone on the Citadel who could use them.\n\nThe interfaces were on a terminal in an otherwise empty corridor during Grissom Academy: Emergency Evacuation, past a corridor where Assault Troopers harassed Grissom students behind a shield, including Octavia and others, with David Archer present if he had been sent there. Shepard collected them and delivered them to the asari on the next hospital visit, earning 5 Reputation, 30 experience, and 1,000 credits, and updating the Citadel Defense Force War Asset. If missed, they could be bought from the Spectre Requisitions terminal in the Spectre Office at the Citadel Embassies. After completion, the asari told someone to alert Matriarch Aethyta that her huntresses had received the amp interfaces. The mission had to be completed before Priority: Tuchanka, as it was no longer available after the civilian areas reopened following Priority: The Citadel II.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Biotic_Amp_Interfaces",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "scene:grissom-academy-jack-and-the-biotic-students#01",
+      "kind": "scene",
+      "page": "Getting the Biotic Students Off Grissom Academy",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "grissom-academy-jack-and-the-biotic-students",
+      "text": "Getting the Biotic Students Off Grissom Academy. 2186, after Priority: Palaven, before Priority: The Citadel II Jon Grissom Academy, Petra Nebula — security office, classrooms, Orion Hall, the Atrium, the docking area; then the Normandy After Priority: Palaven, Samantha Traynor tells Shepard she picked an Academy evac request off Alliance comm channels answered by a turian vessel, and that she and EDI traced the answering signal to Cerberus — the rescue is a fake and the station is still under attack. Cerberus is assaulting Grissom Academy to abduct its students, most of whom build Alliance tech or train as military biotics.",
+      "url": "",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:jason-prangley",
+      "kind": "summary",
+      "page": "Jason Prangley",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ensign Jason Prangley was a biotic student at Jon Grissom Academy. He arrived at Grissom at age six, a shy child who barely spoke, and was known for constantly reading and studying battles, with some peers calling him a brownnoser. He proved capable of leadership when circumstances demanded it.\n\nDuring the 2186 Reaper invasion, Cerberus attacked Grissom Academy to forcibly conscript its gifted students. If Jack survived the Suicide Mission, Prangley was among the students she protected; he was nearly killed by Atlas fire before his teacher intervened. When Commander Shepard arrived, Jason aided the firefight, providing biotic support strikes so that he and his teacher could retreat to higher ground. Afterward Jack derided his biotic fields as \"weak,\" and he noticeably improved in later battles.\n\nIf Jack did not survive the Suicide Mission, Prangley interacted with Shepard in her place during the evacuation. Shepard found him stepping up to save Ensign Rodriguez from Atlas fire. Jason reported that their commanding officer had been killed, leaving him assuming command, and spoke on the students' behalf that they needed time to recharge after the strenuous exertion of biotics. In this scenario, Prangley later died protecting Rodriguez again from Cerberus troops just short of the hijacked escape shuttles. The survivors eulogized him aboard the shuttles, and Shepard invoked his memory to motivate the other students, either channeling their anger at his loss or holding up his sacrifice as an example to follow. Datapads left by Cerberus troops around the Academy indicate Prangley was specifically targeted as a prized acquisition.",
+      "url": "https://masseffect.fandom.com/wiki/Jason_Prangley",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "phantom_011",
+      "kind": "page",
+      "page": "Phantom",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- During Grissom Academy: Emergency Evacuation a Cerberus log reveals that at least some of the biotic students were viewed as potential indoctrination candidates under the \"Phantom initiative.\" - During Priority: The Citadel II, several squadmates make comments about the Phantoms upon encountering them for the first time. EDI and Liara have more scientific observations about their various enhancements. - Squadmates, Shepard, and Commander Bailey will refer to Phantoms by name when encountering them, notably during Priority: The Citadel II, Priority: Horizon, and Priority: Cerberus Headquarters. - Kai Leng's cybernetic modifications, fighting style, and combat abilities are similar to a Phantom's.",
+      "url": "https://masseffect.fandom.com/wiki/Phantom",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "kahlee-sanders_006",
+      "kind": "page",
+      "page": "Kahlee Sanders",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the war with the Reapers, Kahlee sends out a communication to have her students evacuated from the Academy before it is overrun by the Reapers. Initially, a turian cruiser responds, but after Samantha Traynor aboard the Normandy SR\\-2 under Commander Shepard examines the signal, she finds that it is a fake and that it has the same false signatures that led Shepard into a Collector Ambush the previous year. Traynor says that it is in fact a Cerberus Cruiser heading for the Academy. Should Shepard choose to act on Traynor's information, upon arriving at the Academy, the Normandy finds the cruiser and a dozen fighters blockading the Academy. Kahlee contacts the Normandy and tells them that Cerberus has taken over the docking bays but she can get a cargo hatch open so Shepard's team can board to save her and her students. Joker pulls the Cruiser and fighters out of position and allows Cortez flying one of the Normandy's Kodiaks, and the squad to enter the Academy. After entering the Academy and eliminating the Cerberus troops in the hall, Shepard manages to reach the room she has taken shelter in and after forcing the door open, the Commander tells Kahlee it's safe to leave her cover. Kahlee begins working on a computer in an attempt to locate any remaining students in the Academy while filling in Shepard on their latest efforts to create a Biotic Strike Team composed of their most talented students. Throughout the remainder of the mission, she aids Shepard via comm messages with directions for how to escape the station, eventually finding a way to commandeer two Cerberus shuttles while Shepard is busy shepherding the kids. At the mission's conclusion, she thanks Shepard for the help. Kahlee also voices her opinion that the students, having proved themselves in their recent combat, may be ready to take on more than simple support roles. If Jack is the biotic instructor and Shepard assigns the students to biotic artillery strike teams on the front lines, Kahlee thinks the students are ready for such a role. Otherwise, she vehemently opposes the decision, saying that the students are not up to the task without an instructor. When Shepard mentions Anderson, Kahlee expresses a sense of deep caring and concern for the Admiral and his safety. Later, Shepard can read a message Kahlee sends to Anderson from Liara's terminal, stating that he better stay alive and stay safe, for her sake. Kahlee makes her contribution to the war effort after the Grissom Academy incident, marshaling and coordinating personnel and resources she has at her disposal. If Jack is alive, Kahlee periodically checks in with her and the kids. If Jack is alive, the Grissom survivors were relegated to support duties, and Shepard chooses to use the Crucible at the battle for Earth, Kahlee resumes her old duties at the Alliance, standing alongside Jack and their students from the academy. If Shepard does not go to Grissom Academy in time, Anderson will inform Shepard that the Academy was overrun by Cerberus. He mentions Kahlee during the conversation and presumes she was killed in the attack.",
+      "url": "https://masseffect.fandom.com/wiki/Kahlee_Sanders",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "grissom-academy-emergency-evacuation_014",
+      "kind": "page",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "Citadel Spectre Terminal",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "You can authorize stationing and housing for the Grissom Academy students on the Citadel from the Spectre Terminal. This upgrades the value of the Citadel Defense Force war asset, which mentions that some of those students are taking over repetitive tasks which cannot be handled by VIs.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:grissom-academy-emergency-evacuation",
+      "kind": "summary",
+      "page": "Grissom Academy: Emergency Evacuation",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grissom Academy: Emergency Evacuation was a Mass Effect 3 mission acquired after Priority: Palaven, when Samantha Traynor and EDI determined that a turian rescue signal answering an Academy evac request was actually a Cerberus fake and the station was still in danger. Cerberus forces were attacking Grissom Academy in the Petra Nebula to kidnap its students, most of whom were producing Alliance tech or training as military biotics. The mission had to be completed before Priority: The Citadel II or it was permanently failed.\n\nWith too many Cerberus ships to fight, Joker created a diversion so Shepard's shuttle could enter a cargo hold opened by Kahlee Sanders, who went back with Anderson to his Spectre-candidate days. Shepard freed Sanders from the security office, then fought through corridors and rooms rescuing scattered students, including Reiley Bellarmine and his dying sister Seanne. In Orion Hall, biotic students held off Assault Troopers and an Atlas; if a Mass Effect 2 save was imported and Jack survived the Suicide Mission, Jack led them and punched Shepard in the face on arrival (followed by a kiss if they had romanced). Otherwise Ensign Jason Prangley took charge. The squad then fought heavy waves of Centurions, Guardians, Combat Engineers, and Atlas mechs through two halves of the Atrium and a docking area, aided by empty Atlas mechs and by tech students including Octavia, with David Archer vouching for Shepard if Overlord was completed on the Paragon route.\n\nDuring the final escape the wounded Rodriguez fell behind; whoever led the biotics smashed the glass to save her. If Jack led, everyone survived; if Prangley led, he was shot and killed. Afterward Shepard chose to assign the students as support (rolled into the Alliance 103rd Marine Division, +50 war assets, Paragon) or as a frontline Biotic Company (+75 war assets, Renegade), a choice that also set Jack's epilogue slide. Rewards included 25,000 credits, weapon mods, the Mnemonic Visor, and the Serrice Council Chestplate. If the mission expired, Jack was captured, turned into a Phantom, and had to be killed at Cerberus Headquarters, and Gavin Archer could commit suicide during Arrae: Ex-Cerberus Scientists.",
+      "url": "https://masseffect.fandom.com/wiki/Grissom_Academy:_Emergency_Evacuation",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "jon-grissom-academy_002",
+      "kind": "page",
+      "page": "Jon Grissom Academy",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The stated mission of the **Jon Grissom Academy**, commissioned in 2176, is to \"serve a student population demonstrating excellence and passion for math, science, and the liberal arts.\" Its entirely human student body ranges in age from the early teens to the mid\\-twenties. Although the fact is not heavily advertised, the institution also offers classes for students with biotic capability. The school's Ascension Project seeks to train these students and integrate them into normal society. **Population:** 8,620 **Station Length:** 1\\.1 km **Gross Weight:** 375,000 metric tons",
+      "url": "https://masseffect.fandom.com/wiki/Jon_Grissom_Academy",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "summary:ascension-project",
+      "kind": "summary",
+      "page": "Ascension Project",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Ascension Project was a renewed human biotics training program that succeeded BAaT. It focused on the children of the victims of three element zero \"accidents\" that occurred across the Systems Alliance in 2170 on four separate colonies, including Yandoa; although the industrial accidents happened under suspicious circumstances, no link between them was ever found. On Yandoa alone, thirty-seven children were born with biotic abilities and were all sent to the Ascension Project. Established around 2176, the Project was based at the Jon Grissom Academy, a medium-sized space station orbiting the human colony of Elysium in the Skyllian Verge.\n\nUnlike BAaT, the Project was not a military-exclusive venture; it invited civilian support and welcomed visits and input from attendees' families. It had three main aims: to develop and monitor new L4 implants (biotic amplifiers with built-in VI interfaces for monitoring implanted subjects); to help biotics maximize their field potential; and to help biotics integrate into human society. The last aim held an important curriculum place, with students given philosophical and moral guidance on the responsibilities of using biotics. Staff were nonetheless equipped with Aldrin Labs stun guns to subdue students who misused their abilities, though these were used on a student only once.\n\nAt some point the Project was infiltrated by Cerberus operatives seeking research on human biotics in order to \"save\" humanity. Cerberus left Dr. Jiro Toshiwa to monitor events there, particularly to study Gillian Grayson's progress. Known students included Gillian Grayson, Nick, and Seshaun; known staff included Dr. Kahlee Sanders, Security Chief Hendel Mitra, Dr. Jiro Toshiwa, Dr. Sanchez, and maths professor Jacob Berg. During the Grissom Academy evacuation in Mass Effect 3, Samantha Traynor told Shepard about the program; if Shepard was a Vanguard, Sentinel, or Adept, she said Shepard would have joined it had it existed during the Commander's youth.",
+      "url": "https://masseffect.fandom.com/wiki/Ascension_Project",
+      "for_key": "the evacuation of the biotic students from Grissom Academy"
+    },
+    {
+      "chunk_id": "jeff-joker-moreau_005",
+      "kind": "page",
+      "page": "Jeff \"Joker\" Moreau",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Can you believe this, Commander? It's my baby, better than new! It fits me like a glove! And leather seats!” Joker is on board the Normandy as it is attacked by an unknown enemy. Shepard tries to convince Joker to abandon the ship, but Joker insists he can save it, despite other crew evacuating and the ship sustaining catastrophic damage. Shepard tells him that going down with the ship won't change anything and hauls him to the nearby escape pod. Unfortunately, just as the Commander places Joker in the pod, a blast separates them. Joker escapes to safety, while Shepard suffocates in the void. After the destruction of the Normandy and Shepard presumed to be killed in action, Joker was reassigned, along with the rest of the surviving Normandy crew members. However, Cerberus' plan to rebuild and bring Shepard back to life led Joker to join the pro\\-human organization, mainly to be the pilot of the new Normandy SR\\-2 as a member of the Lazarus Cell. Joker is quite fond of the new Normandy setup, relishing the comfort of his pilot bay. However, he resents the presence of the shipboard AI, EDI. The two engage in a war of sorts, with pranks ranging from Joker greasing the cameras to EDI spinning his seat about against his will. EDI claims she is just testing Joker under stress, as she notices that he works better when pushed. Despite Joker's initial hostility towards EDI, he later gains a begrudging respect for her. This trust is put to the test when the Normandy is engaged by the Collectors and Joker loses all control of the ship due to a virus hidden in the IFF, at the same time as Shepard and the team are away on a mission. EDI urges Joker to release her control lock and give control of the ship so she can initiate countermeasures protocol. Although Joker feels hesitant at the suggestion, he has no choice but to make his way down to the A.I. Core room, avoiding Collectors and Scions along the way while watching fellow crew members get captured. When Joker successfully links EDI to the Normandy's core control systems, he crawls down the shafts again into the engine room and manually restarts the power core, granting EDI full control of the ship. EDI jumps the Normandy to safety, clearing the Collectors and Scions on\\-board the ship in the process, leaving Joker the only survivor in this incident. Alternatively, if Joker is spotted by enemies before completing his task, he is taken by a Scion or killed by a Praetorian, depending on which monster sighted him. After the Collector attack and EDI's full capability unlocked, Joker begins to display a newfound fondness for EDI as she helps ease up his task load and performs the duties of the abducted crew. Joker subconsciously begins referring to EDI as \"she\" for the first time. When Shepard asks if a relationship is growing between the two, Joker laughs off the notion and EDI describes the relationship as a \"platonic symbiosis\" rather than a \"hormonally\\-induced courtship behavior\". As the suicidal assault on the Collector base commences, Joker successfully pilots the Normandy SR\\-2 through the Omega 4 relay and the debris field that follows despite the Normandy taking damage, including several hull breaches. After Shepard's defeat of the Proto\\-Reaper inside the base, the Normandy maneuvers to meet the Commander's team in the mad scramble to escape. Joker appears at the door of the ship with an M\\-8 Avenger and gives Shepard covering fire, enabling surviving squad members to pull the Commander inside, given at least two squad members survived the suicide mission. If fewer than two squad members survived the mission, Shepard dies despite Joker's valiant effort. At the end of the assault, Joker manages to fly the Normandy away from the Collector base before it is either destroyed or purged based on Shepard's decision. In either case, Joker acquires the schematics of a Reaper, presumably Harbinger, gained from EDI hacking the Collector base's computers. If Shepard fails to escape the Collector base, Joker is seen briefly mourning over the Commander's coffin, and he is the only one left to speak with the Illusive Man in the mission debriefing instead. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "scene:normandy-edi-takes-the-mech-body#02",
+      "kind": "scene",
+      "page": "EDI Walks Out of the AI Core",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-edi-takes-the-mech-body",
+      "text": "EDI Walks Out of the AI Core. 2186, aboard the Normandy just after Priority: Palaven the Normandy's AI Core EDI became a mobile squadmate from that point on, stationed in the cockpit beside Joker.",
+      "url": "",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "summary:edi",
+      "kind": "summary",
+      "page": "EDI",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "EDI (Enhanced Defense Intelligence) was an AI created by Cerberus and installed aboard the Normandy SR-2, represented by a holographic blue sphere and a feminine voice. In Mass Effect 2 she was a Quantum Blue Box AI serving as the ship's electronic warfare defense, initially given behavioral blocks preventing her from interfacing with ship systems, and she also served as the Illusive Man's eyes and ears, monitoring listening devices and reporting to him. She frequently argued with Joker, whom she said she was studying to understand human behavior. She aided Shepard's missions with logistics; during the Horizon attack she brought defense turrets online to drive off the Collector ship. Infiltrating the Collector ship, EDI confirmed the Collectors' Prothean ancestry by comparing DNA alleles and warned Shepard they had walked into a trap, later determining the turian distress signal was falsified using detection protocols written by the Illusive Man, implying he knowingly sent them into the ambush. When the Collectors boarded the Normandy, Joker granted EDI full access, unshackling her and letting her save the ship. EDI revealed she was based in part on technology from Sovereign's remains and analyzed Anti-Reaper Algorithms.\n\nIn Mass Effect 3, EDI hid her true nature from the Alliance by posing as a VI responding only to Joker. On Mars she seized control of the Cerberus infiltration unit posing as \"Dr. Eva Coré,\" gaining a mobile platform resistant to small-arms fire and temperature extremes. She continued to exist primarily within the ship. Once unshackled she could self-modify her core programming and repeatedly questioned Shepard about morality, free will, fear, mortality and the purpose of synthetic life. She could pursue a romance with Joker. At Cronos Station, logs revealed EDI was born of the rogue Hannibal-class VI from Luna with added Reaper engineering, and that she had chosen to inhabit Eva's body rather than destroy it. She helped recover the VI Vendetta and defeat Kai Leng.\n\nIf Shepard chose to destroy the Reapers, EDI perished with all synthetics and her name was added to the Memorial Wall. Under Control or Synthesis she survived, and with Synthesis she described the Reapers ceasing their attacks and helping rebuild, and speculated mortality itself might one day be transcended.",
+      "url": "https://masseffect.fandom.com/wiki/EDI",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "jeff-joker-moreau_006",
+      "kind": "page",
+      "page": "Jeff \"Joker\" Moreau",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“You’re gonna kick some Reaper ass. That’s what you do. And I’ll be flying you there in style.” When Commander Shepard surrendered to Alliance custody, Joker was also arrested, though no charges were filed against him. Before surrendering, however, Joker and EDI devised a plan for EDI to pose as a VI, so the Alliance wouldn't dismantle her for being an AI. As part of the deception, EDI pretended to only respond to Joker's commands. This meant, during the Alliance retrofit of the Normandy, that Joker was often brought in under guard to liaise between the crew and EDI, as the Alliance was initially unsure how to disable this system. At the start of the Reaper invasion, Joker was onboard the Normandy, and after being set free by his guards, helps extract Shepard from Vancouver and continues his role as pilot throughout the war, personally reinstated as Flight Lieutenant along with Shepard. He also keeps in touch with Admiral Anderson who trusts Joker to look after Shepard in case the Commander pushes themselves too hard. Joker also reveals he feels responsible for the Commander's death at the hands of the Collectors since it was because Joker wouldn't leave the cockpit that Shepard was caught in the blast and killed. The Normandy goes haywire after the mission to extract Palaven's primarch from the planet, and when it is revealed that EDI took control over the body of Eva Coré, Shepard can walk to Joker in his cockpit asking if he had knowledge about the event. Whichever the case, he is clearly impressed with his \"new\" co\\-pilot, either commenting he \"would've baked a cake\" in its hotness or that the body gives EDI \"sweet flexibility\". During one of the crew's Citadel breaks, Joker can be found sitting on a bench in the Presidium Commons. He expresses disdain over the Citadel denizens' seeming indifference on the war, what with more frivolous reports like Blasto 6 breaking opening\\-week records than the ongoing Reaper invasion. Meanwhile, everyone is ignoring EDI, whom he introduced as his \"mobility assistance mech\". Thanks to his Vrolik syndrome, he's legally entitled to bring her anywhere, and he also opines that EDI's earned a little shore leave herself. After Cerberus' assault on the Citadel, Shepard can find Joker in Purgatory standing at a bar and contemplating on pursuing a relationship with EDI. If female, Shepard can ask Joker why he never pursued a relationship with her instead. Joker responds that he never really considered it and he did not wish to break rank. He returns his attention to EDI, and asks for Shepard's opinion on the matter. If pushed to form the relationship, he leaves the bar to join EDI on the dance floor, later sharing a table with her and commenting on the looks of various women wielding considerable political power (rating Tevos and Sha'ira as \"hot\", Irissa as \"not hot\" because of \"too much makeup\", and Dalatrass Linron as \"ew\"). If not, he doesn't budge from his position, sarcastically offering to guard the table EDI is at. Moments after the battle on Thessia, Shepard can overhear Joker venting in the cockpit about the need to shoot something. If Shepard talks to him, Joker wisecracks about the asari having too many dancers in comparison to commandos. Shepard doesn't find it funny and chews the pilot out for it, though Joker retorts he's well aware of the situation: a few weeks before Thessia, the Reapers hit the colony of Tiptree, where Joker's father and sister live. The Commander asks him why he jokes, and Joker explains he's just trying to provide comic relief. According to EDI, stress levels registered by Shepard's armor exceed those incurred in previous career\\-defining missions. Joker then reveals that Anderson worries about his protégé enough to entrust the pilot with taking care of Shepard. Shepard can angrily brush the concern aside, in which case Joker drops the matter entirely; or, Shepard can express appreciation for the helmsman's concern, *then* brush the concern aside. If the latter, Joker says he doesn't believe the Commander is fine, and he reveals his lingering guilt over causing Shepard's death and subsequent cybernetic reconstruction. Shepard cheers him up, and with Joker somewhat back to his usual snarky self, leaves him with a reminder of the work that still lies ahead. Liara later informs Joker that her Shadow Broker network has news on refugee ships from Tiptree landing on salarian territory. Even though the reports don't come with names and claim that the refugees consist \"mostly of children\", Joker clings to the hope that at least his sister Hilary (nicknamed \"Gunny\") is among them, as she is only fifteen. Liara supports him in this belief, stressing the importance of holding on to hope.",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "edi_012",
+      "kind": "page",
+      "page": "EDI",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After Shepard escapes from a CAT6 ambush, EDI arrives at Shepard's apartment with Joker and the rest of the Normandy team. EDI helps Maya Brooks in analyzing the retrieved hard drives from the Silver Coast Casino, though she allows the tech specialist to do most of the job, citing the latter's need for experience. They discover big money transfers to buy weapons, armor and mechs. Later, the plot unravels resulting in Shepard's clone attempting to hijack the Normandy. The clone has disabled EDI's control over the Normandy as well as all ship sensors, rendering her unable to lock the clone out or counteract any commands. If EDI is part of the squad to retake the Normandy, on the flight to the dock, her mobile platform is temporarily affected by the clone's tampering. After a short shutdown the platform comes back online, though she takes a few more seconds to regain her composure. When asked if she's still able for combat, EDI replies that she is, in addition to being fueled with the desire to kill Shepard's clone. Shepard tells her to get in line. During shore leave, EDI sends Shepard an e\\-mail requesting a visit to the apartment. During the visit she engages Shepard in assisting her with buying gifts for her crewmates using the extranet and Joker's credit chit. EDI would like to surprise him with a gift, and asks for Shepard's opinion. If Shepard suggests she get something they both like, EDI decides on buying a skycar for him to use as a personal transport. Shepard can convince her not to bankrupt him, at which she settles on a rental. If Shepard recommends something more practical, EDI expresses concern for Joker's inadequate protection against bodily harm, but is convinced a fancy back support for his chair would be more appropriate. EDI then instructs Shepard to close their eyes as she has a present for them: a victory ring made from different metals from the Council homeworlds. If Shepard tells her wearing jewelry is prohibited while in uniform, EDI suggests putting it on the chain of their ID tags. Shepard wants to give the ring back to her when the war ends, but due to it representing hope from different planets, EDI thinks it should stay with the Commander. If Shepard appreciates EDI's gift and recalls the saying \"it's the thought that counts\", she reveals she recorded the exact moment she had that thought and can offer up a visualization of it upon review. Shepard realizes it's a joke and tells her so before discussing gifts for Liara and the others. If Shepard holds a memorial service for Thane Krios at their apartment, EDI is one of the attendees and speaks for her deceased crewmate. She remembers how she thought Thane had a complete lack of humor back when he was aboard the Normandy, citing no amount of joking on her part ever moved him to laugh. She understands now that it was a great effort on Thane's part to mask his feelings to fully commit to the seriousness of the mission. She finishes her speech saying Thane was turning his life around in a way few organics ever do. EDI is one of the Normandy crew invited to the shore leave party. In the early stages of the party, EDI and Joker sit around with Miranda and Jacob, if they're present. When Joker comments on how Cerberus was a total failure before Shepard's association with the organization, EDI reminds him she herself is Cerberus technology. Jacob asks her if she ever gets hassled for being an AI, and EDI mimics one of Avina's standard replies in return. Depending on the type of party chosen, EDI may be heard discussing Samantha Traynor's apparent attraction to her (or at least, her voice), despite Tali's visible awkwardness (if she is present). EDI keeps asking about Traynor's unbridled lust for her voice for the sake of learning. Traynor is understandably embarrassed by this, unsuccessfully trying to divert the discussion. If Shepard checks in on them EDI brings the Commander up to speed, causing Shepard to glare at her lover in mock jealousy if they're together and Traynor in turn countering that they hadn't even met yet. EDI brings up the sordid details of Traynor's obsession with her voice thanks to perfect machine recall, and Samantha keeps fumbling for excuses until EDI proves with scans that Traynor was genuinely aroused. Left with no defenses against the Normandy's omnipresent AI, Traynor attempts to apologize for her behavior, though inadvertently confessing to more kinky details even EDI previously didn't know (Shepard actually wants to put those details into practice if in a relationship with Traynor).",
+      "url": "https://masseffect.fandom.com/wiki/EDI",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "edi_008",
+      "kind": "page",
+      "page": "EDI",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When Joker refuses the blame for not trusting the geth, EDI replies that this thought would not comfort Legion and remains unconvinced about the correctness of the decision. If peace is achieved between the geth and quarians, EDI will thank Shepard saying that not many organics would have trusted a synthetic race. Joker will remark that they didn't lose anyone, but EDI reminds him that Legion sacrificed itself after having become a true individual, and she is saddened by its death. After the disastrous mission on Thessia, EDI tries to lift Shepard's spirits by employing her humor. Shepard however rebuffs her attempt to cheer them up, to which EDI says that she will maintain a respectful silence until the Commander tells her otherwise. After discovering the truth about Sanctuary, EDI informs Shepard that she learned of prison camps on Earth, where the Reapers delay executions if any prisoners report any escape attempts, and is puzzled on why ninety percent of prison populations purposely fed misinformation instead of choosing self\\-preservation. Shepard can either respond that those people were making a stand against hopeless odds or that they learned about indoctrination. Either way, EDI realizes that the Reapers are repulsive for devoting themselves to self\\-preservation and thus modified her own self\\-preservation code in light of that, especially in honor of Joker for releasing her shackles. EDI volunteers her services during the assault on the Cerberus base, Cronos Station. While she hacks through base defenses she directs Shepard to several research logs that reveal much about her. It is then revealed that EDI was born of the rogue Hannibal\\-class VI from Luna, with additional engineering from Reaper technology. When Shepard severed ties with Cerberus, it tried to remotely reclaim the Normandy and reenable EDI's AI shackles. This failed and in retaliation, EDI overwhelmed the attacking servers with a data overload that was composed of seven zettabytes of \"explicit images\". She also explains that the images belonged to Joker, but when pressed, admits this part was a joke. When EDI and team reach the Illusive Man's inner sanctum, they find it empty and she sets about trying to retrieve Vendetta the stolen VI from the computers. The Illusive Man appears to them via hologram and, while making a point about control, turns to EDI and indicates how she chose to inhabit Dr. Eva's body instead of destroying it. She admits it was necessary, and the Illusive Man smugly proves his point. She succeeds in recovering Vendetta, and proceeds to listen to the VI's revelations before it's interrupted by a blast. With the time for words over and Kai Leng threatening the team, EDI helps in defeating the assassin and his hordes of troops once and for all. On the eve of the final battle against the Reapers, EDI will report that the Normandy and all her systems are ready for the coming fight. If she and Joker are in a relationship, she will add that she kissed him for luck; otherwise, she will say that she picked a four\\-leaf clover from the Presidium, in case of \"catastrophic failure\". Shepard can speak with EDI at the Forward Operating Base in London just prior to the final push on the Conduit. EDI expresses her doubts about the ability of the Hammer forces to succeed in face of overwhelming enemy opposition. She asks Shepard what makes them so confident of reaching the Citadel beam. When Shepard gives an answer, either saying it is payback for all the worlds the Reapers have ravaged or stressing the need to prey upon the enemy's overconfidence, EDI calculates the probability of success is minuscule. When Shepard bluntly asks if she is afraid, initially EDI has trouble grasping the concept of fear, but eventually she understands what Shepard means and vows not to let the Reapers destroy her civilization. On a parting emotional note, EDI tells Shepard that it was their influence which made her feel alive. The Normandy crashes at an unknown jungle planet if Shepard decides to use the Crucible. If EDI and Joker were together and organic\\-synthetic synthesis was achieved, they exit the ship and marvel at the planet's scenery, enjoying the moment while Shepard's most favored crew follow behind them. If Shepard chooses to control the Reapers or the synthesis of all organic and synthetic life, EDI will be present with Joker if Shepard had motivated them to be together before. If Shepard chooses to destroy the Reapers, EDI perishes along with all other synthetics throughout the galaxy and her name is then added to the Memorial Wall. If Shepard chose to merge organic and synthetic life, EDI speaks of how Shepard's sacrifice changed the relationship between organics and synthetics forever.",
+      "url": "https://masseffect.fandom.com/wiki/EDI",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "edi_007",
+      "kind": "page",
+      "page": "EDI",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If the synthetic strands become wet, however, they cannot hold the pattern set by the control program. EDI's exact comment is \"I generally can't do a thing with it\". Meanwhile, Joker seriously mulls over entering into a relationship with EDI. If Joker is convinced not to, EDI addresses Shepard with the following lines \"from an old Earth novel by Mary Shelley\": *\"Shall each man find a wife for his bosom, and each beast have his mate, and I be alone?\"* She clarifies she is not complaining, but that it brought up a new perspective within her: she is not human, geth, or Reaper; she is free but alone. Artificial intelligences often consider themselves above organic life. EDI, however, is uncertain if that applies to her: the Normandy crew believe she serves them, while at the same time acknowledge she keeps them alive. She asks Shepard to resolve her existential crisis, and the Commander replies that she doesn't have to hold to the same standards as organics. EDI sits alone by a table while Joker doesn't budge from the bar afterwards. If EDI and Joker are convinced to pair up, however, they share the same table discussing topics of interest. One such conversation has EDI gauging Joker's attraction to females wielding considerable power and influence, such as the asari Councilor, Sha'ira, and Dalatrass Linron. If EDI is taken on the geth dreadnought mission in the Far Rim, she will be shocked and upset at what has happened to Legion/Geth VI. After Legion is freed and allowed onto the Normandy, it will comment on EDI's platform, stating that her body is \"inefficient because it is top\\-heavy and lacks an external epidermis which would be necessary for infiltration.\" EDI counters by saying that her infiltration capabilities are effective enough to roam among organics without detection, humorously adding that her day of reckoning will come. When Shepard exasperatedly admonishes her, she asks aloud whether she vocalized her private thoughts on the bridge. If Legion is present, it comments that EDI has acquired the organic attribute of asking questions to which they know the answer. EDI retorts that Legion's humor heuristics lack an expert system. After the geth servers on Rannoch has been shut down, EDI tells Shepard that they are the only organic ever to enter the geth consensus and asks them if they feel different. When Shepard says that the experience was mind\\-blowing and that he/she was a bit thirsty after the experience, she remarks \"and just like that the magic is gone\". After the quarian\\-geth conflict has been resolved, EDI reflects that the quarians' historical error is not making the geth more like them. In comparison to the geth, her singular personality allows her to develop preferences, thus keeping her from devaluing the lives onboard the Normandy. But this is just the observation of one synthetic society, the other being the Reapers, who may not govern by consensus. If Legion was present, EDI notes that it referred to itself as \"I\" instead of \"we\" and that in its last moments, it was no longer an avatar of the geth consensus, it was a person, to which Shepard agrees. If Shepard chooses the geth over the quarians and Tali commits suicide, EDI asks Joker if he needs to express anger at the situation at her and that should he do so, she will understand. If Legion was present, EDI thinks that it would have regretted Tali's death. If Shepard decided to let the geth be wiped out during the campaign for Rannoch, EDI becomes disquieted and pensive about Shepard's decision to destroy an entire race of synthetics and she questions Shepard about the meaning of synthetic life. When the Commander defends their decision by claiming they couldn’t risk the geth going back to the Reapers, EDI agrees but points out that she is Cerberus technology and asks if she can be trusted. Despite Joker's reassurance that she is \"one of the crew\", she is convinced that Shepard would unhesitatingly sacrifice her instead of Joker if such a dilemma arose. She does not blame either Joker or Shepard for their feelings, but merely states that they choose that which they find familiar and that they are not alone in that mindset, possibly alluding to the geth and their decision to serve the Reapers. When Joker refuses the blame for not trusting the geth, EDI replies that this thought would not comfort Legion and remains unconvinced about the correctness of the decision. If peace is achieved between the geth and quarians, EDI will thank Shepard saying that not many organics would have trusted a synthetic race. Joker will remark that they didn't lose anyone, but EDI reminds him that Legion sacrificed itself after having become a true individual, and she is saddened by its death.",
+      "url": "https://masseffect.fandom.com/wiki/EDI",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "edi_009",
+      "kind": "page",
+      "page": "EDI",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If EDI and Joker were together and organic\\-synthetic synthesis was achieved, they exit the ship and marvel at the planet's scenery, enjoying the moment while Shepard's most favored crew follow behind them. If Shepard chooses to control the Reapers or the synthesis of all organic and synthetic life, EDI will be present with Joker if Shepard had motivated them to be together before. If Shepard chooses to destroy the Reapers, EDI perishes along with all other synthetics throughout the galaxy and her name is then added to the Memorial Wall. If Shepard chose to merge organic and synthetic life, EDI speaks of how Shepard's sacrifice changed the relationship between organics and synthetics forever. EDI will state that she is no longer alone, then receives a hug from the squad member to which Shepard was closest. She explains that the Reapers have stopped attacking the galaxy and are now helping to rebuild, and have also begun to share the collective knowledge of countless previous cultures. She speculates that with the differences between organics and synthetics disappearing, mortality itself could one day be transcended to a new level of existence even she cannot imagine.",
+      "url": "https://masseffect.fandom.com/wiki/EDI",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "jeff-joker-moreau_009",
+      "kind": "page",
+      "page": "Jeff \"Joker\" Moreau",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cortez accepts the challenge, not knowing that Joker brought his own concoction, which happens to be a combination of horsechoker and mouthwash. Cortez is unable to stand drinking Joker's mix, and Joker triumphantly declares victory. Provided Shepard pushed for a relationship, EDI will at one point request Joker to dance with her. Joker refuses much to EDI's chagrin who will continue to insist he dance with her going so far as to blackmail him. Shepard can either support Joker or EDI on whether to sit down or dance, respectively. If Shepard has no love interest, Joker will share a brief conversation with the Commander before returning to the Normandy. After Shepard remarks that they threw a great party – \"probably the last one\" – Joker responds that it will only be the last one until Shepard finishes \"kicking the Reapers' asses.\" Joker smiles at the the Commander before saying that he can't wait to see what Shepard makes them do next and that \"it's been a good ride.\" Joker and Shepard then join the rest of the crew in returning to the Normandy.",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "edi_013",
+      "kind": "page",
+      "page": "EDI",
+      "section": "Mass Effect 3: Citadel",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Shepard checks in on them EDI brings the Commander up to speed, causing Shepard to glare at her lover in mock jealousy if they're together and Traynor in turn countering that they hadn't even met yet. EDI brings up the sordid details of Traynor's obsession with her voice thanks to perfect machine recall, and Samantha keeps fumbling for excuses until EDI proves with scans that Traynor was genuinely aroused. Left with no defenses against the Normandy's omnipresent AI, Traynor attempts to apologize for her behavior, though inadvertently confessing to more kinky details even EDI previously didn't know (Shepard actually wants to put those details into practice if in a relationship with Traynor). Samantha is mortified by the awkward conversation, though EDI assures her she need not be embarrassed, going so far as to provide her with extranet sites involving \"romantic relationships between organics and synthetics.\" Later, if an energetic setting is chosen, EDI tries to persuade Joker to dance with her, who is adamant about not dancing. EDI tries her hardest to get Joker to dance, even going as far as blackmail. Only if Shepard intervenes, EDI gets her way and Joker dances with her. The morning after party night, EDI jokes she had to \"incinerate\" the neighbours who were complaining about the noise they were all making at the party.",
+      "url": "https://masseffect.fandom.com/wiki/EDI",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "scene:normandy-sr2-collectors-board-joker#04",
+      "kind": "scene",
+      "page": "The Normandy Attacked - Joker and EDI Alone Aboard",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-sr2-collectors-board-joker",
+      "text": "The Normandy Attacked - Joker and EDI Alone Aboard. 2185, while the Reaper IFF is being installed and Shepard's team is away on a shuttle mission the Normandy SR-2, boarded in orbit Unshackled, EDI jumps the Normandy clear, purging the Collectors and Scions still aboard. The entire crew except Joker has been abducted.",
+      "url": "",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "scene:normandy-sr2-collectors-board-joker#02",
+      "kind": "scene",
+      "page": "The Normandy Attacked - Joker and EDI Alone Aboard",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-sr2-collectors-board-joker",
+      "text": "The Normandy Attacked - Joker and EDI Alone Aboard. 2185, while the Reaper IFF is being installed and Shepard's team is away on a shuttle mission the Normandy SR-2, boarded in orbit The IFF is carrying an advanced virus that cripples the ship and broadcasts its position. A Collector cruiser drops in and boards the helpless Normandy. Out of options, EDI tells Joker their only hope is for him to override her shackles and give her full control of the ship.",
+      "url": "",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "scene:normandy-sr2-collectors-board-joker#01",
+      "kind": "scene",
+      "page": "The Normandy Attacked - Joker and EDI Alone Aboard",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-sr2-collectors-board-joker",
+      "text": "The Normandy Attacked - Joker and EDI Alone Aboard. 2185, while the Reaper IFF is being installed and Shepard's team is away on a shuttle mission the Normandy SR-2, boarded in orbit EDI advises that the Reaper IFF still needs testing, and on her recommendation Shepard takes the entire squad off in the shuttle for the next mission, leaving the Normandy to Joker while the installation finishes.",
+      "url": "",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "summary:jeff-joker-moreau-unique-dialogue",
+      "kind": "summary",
+      "page": "Jeff \"Joker\" Moreau/Unique dialogue",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page collects Joker's optional conversational dialogue across all three games: mission-completion remarks, his \"The Squad\" opinions of the last two squadmates Shepard took out, randomized cockpit banter triggered by standing behind him, lines during the Collector attack on the Normandy, and Mass Effect 3 exchanges about EDI's body and a possible relationship. The lines are heavily sarcastic and full of 20th–21st century pop-culture references.\n\nRepresentative lines:\n\nJoker, after Noveria in Mass Effect: \"One will freeze your balls off, the other will sell them out from under you.\"\n\nJoker, mission completion after Dossier: The Assassin: \"Oh, another dangerous alien aboard, Commander. Thanks. Why can't you collect coins or commemorative plates or something?\"\n\nJoker, mission completion after Dossier: Archangel: \"Hey Commander, we got Garrus back! That's great, because he was totally my favorite... with that pole up his ass.\"\n\nJoker, cockpit banter in Mass Effect 2: \"Yeah, this is 98 percent of my job. I just watch buttons flash. Sometimes I press one.\"\n\nJoker, cockpit banter: \"You know what pisses me off? Calling this the cockpit. Alliance ships have bridges. Asari ships have cockpits. Oh wait. No they don't.\"\n\nJoker, during the Collector attack when EDI asks for ship control: \"What?! You're crazy! You start singing Daisy Bell and I'm done!\"\n\nJoker, during the Collector attack: \"See, this is how it all starts. When we're all just organic batteries, guess who they'll blame? ... I have to spend all day computing pi because he plugged in the Overlord.\"\n\nJoker, after EDI gets her new body in Mass Effect 3: \"If I knew that EDI was going to install herself into a sexy robot body, do you honestly think I'd be able to keep quiet about it? Look at that! I would have baked a cake!\"\n\nJoker, on the Council in Mass Effect 3: \"After years of ignoring your warning, they're finally willing to step up and tell us they just can't help. Did they at least validate our parking?\"\n\nJoker, on biotics: \"I'm just tired of them stealing the spotlight from people with actual disabilities. I break ribs if I sneeze too hard - being able to move crap with your mind is not a handicap.\"\n\nJoker, if Shepard discouraged the EDI romance (Citadel party, to Miranda): \"And if we ever broke up? Well, nobody wants an angry ex equipped with a Thanix cannon.\"",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau/Unique_dialogue",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "summary:stop-the-collectors",
+      "kind": "summary",
+      "page": "Stop the Collectors",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Stop the Collectors was the main plot mission of Mass Effect 2, acquired automatically after Freedom's Progress once Commander Shepard confirmed the Collectors were behind the abduction of entire human colonies in the Terminus Systems. It consisted of a chain of missions directed by the Illusive Man and ended only when Shepard confronted the Collector Base beyond the Omega 4 Relay.\n\nShepard first assembled a team using the Illusive Man's dossiers, recruiting a core group (Archangel/Garrus Vakarian, the Convict/Jack, the Professor/Mordin Solus, the Warlord's creation Grunt, plus DLC recruits the Veteran and the Master Thief), and was reunited with Joker and given the Cerberus-built Normandy SR-2, staffed by EDI. After the Collectors attacked Horizon, the Illusive Man provided further dossiers (Tali, the Assassin, the Justicar). Shepard then boarded a disabled Collector ship, where EDI discovered the Collectors used a Reaper IFF to pass the Omega 4 Relay, and the ship proved to be a trap.\n\nTo obtain a Reaper IFF, Shepard traveled to a derelict Reaper orbiting the brown dwarf Mnemosyne, fought through Husks with help from a lone geth platform (recruitable as Legion), retrieved the IFF and destroyed the Reaper. While the IFF was being installed and the squad was away in the shuttle, the IFF broadcast the Normandy's position and a Collector cruiser boarded the ship; EDI was unshackled and the player briefly controlled Joker as he purged the Collectors, but the entire crew except Joker was abducted. Shepard then faced a choice: go through the relay immediately to save everyone, or complete more missions and lose half or all of the crew.\n\nUsing the Omega 4 Relay, the Normandy emerged in a debris field, fought Oculi and a Collector cruiser (with squad deaths possible if the ship was not upgraded), and crash-landed on the Collector Base. Inside, Shepard learned the Collectors were building a Human-Reaper from abducted humans, faced a final choice to destroy the base or preserve it for Cerberus via a radiation pulse, and had a closing conversation with the Illusive Man mirroring the aftermath of the Battle of the Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Stop_the_Collectors",
+      "for_key": "EDI taking a mobile platform, and the Joker-EDI relationship"
+    },
+    {
+      "chunk_id": "scene:normandy-traynor-cabin-game-night#02",
+      "kind": "scene",
+      "page": "Traynor's Game Night in the Cabin",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-traynor-cabin-game-night",
+      "text": "Traynor's Game Night in the Cabin. 2186, during the war, off-duty hours Commander Shepard's cabin aboard the Normandy SR-2 Traynor brings a holographic chess set and challenges Shepard to a game. Shepard loses badly by subjecting the pieces to real-world rules rather than board rules; Traynor points out that what works in real combat will not work in chess. She is reminded of a joke: \"What's the difference between Commander Shepard and a krogan? One is an unstoppable juggernaut of head-butting destruction...\"",
+      "url": "",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "bonus-content-disc-environments-ilos_006",
+      "kind": "page",
+      "page": "Bonus Content Disc/Environments: Ilos",
+      "section": "Image 5",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Derek Watts**: This is actually an early version of the level built in Max. We actually just modified this a bit and showed it at E3\\. Very green. We were playing around with some blue mist, a lot of ferns, very \"deep jungle\" feel to it. You would probably think about having rain and a real misty feeling like you're in the deep Amazon. Just sweating heat... So this is the direction we were going at that time.",
+      "url": "https://masseffect.fandom.com/wiki/Bonus_Content_Disc/Environments:_Ilos",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "harry-carlyle_002",
+      "kind": "page",
+      "page": "Harry Carlyle",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Back in the Milky Way Harry accomplished everything he could. Feeling he was locked in a future with diminishing returns, he signed up with the Andromeda Initiative in a fit of mid\\-life crisis, wanting to wake up in the morning feeling hope instead of arthritis. Harry has a friendship with fellow Hyperion doctor Lexi T'Perro. When he joined the Initiative, he wanted the asari to come with him aboard the human ark since she's also knowledgeable about human anatomy.",
+      "url": "https://masseffect.fandom.com/wiki/Harry_Carlyle",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "scene:citadel-sushi-with-joker#04",
+      "kind": "scene",
+      "page": "Dinner at Ryuusei's, and the Woman Who Interrupted It",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-sushi-with-joker",
+      "text": "Dinner at Ryuusei's, and the Woman Who Interrupted It. 2186, first day of Citadel shore leave, the Normandy in dry dock Ryuusei's sushi restaurant, Citadel Wards Joker asks why Shepard invited him. Shepard did not — Joker's name was on the invitation Shepard received. Neither of them sent it.",
+      "url": "",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "august-bradley_006",
+      "kind": "page",
+      "page": "August Bradley",
+      "section": "The Little Things That Matter",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "If Dr. Zoe Jean Kennedy and her newborn was sent to Prodromos instead of the Nexus, Bradley mentions hearing a human baby cry in Andromeda for the first time, tangentially recalling he missed the feeling of rain on his face.",
+      "url": "https://masseffect.fandom.com/wiki/August_Bradley",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "jeff-joker-moreau_010",
+      "kind": "page",
+      "page": "Jeff \"Joker\" Moreau",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Drew Karpyshyn wrote Joker in the first game, while Lukas Kristjanson was his main writer in Mass Effect 2, including the abduction sequence. - According to the art book The Art of Mass Effect, Joker was originally intended to have a more sickly appearance, due to his ill health. - Despite Joker's bone condition, and mentioning having to use crutches in Mass Effect, he has shown to be considerably more capable in Mass Effect 2\\. He can walk somewhat stiffly and even walk quickly with difficulty, and is even capable of handling an assault rifle with little to no trouble. However, both situations were notably cases of extreme emergency. - Like some other characters in the Mass Effect series, Joker bears a marked physical resemblance to the actor who provides his voice. However, Casey Hudson confirmed that Joker's face was modeled from someone other than Seth Green. - Joker is the only crew member who is guaranteed to survive the attack on the Collector base. If Shepard is killed at the end of Mass Effect 2, he reports to the Illusive Man in place of the Commander. - Joker is seen without his trademark hat on only two occasions. The first is when he pilots the Normandy over Ilos to drop Commander Shepard and the squad in the Mako, and the second is during the Collector attack on the Normandy when breaches in the ship's hull force him to don a breathing mask. - In Mass Effect Legendary Edition Joker still has his hat on during the Ilos combat drop. - The Hilary referred to by Aeian T'Goni during her narration of events at Tiptree was confirmed by writer Patrick Weekes to be Joker's sister. - According to level designer Jos Hendriks, Joker's bar story with the asari at the Citadel DLC was originally planned to have 10 minutes' worth of cutscene. - Throughout the games, Joker constantly makes wisecracks with references to 20th\\-21st century popular culture. - During one of the conversations between Shepard and Joker, Joker's chair starts spinning erratically. When he questions EDI, she states that Joker insisted on manual control of his chair. This likely refers to a similar scene in *Austin Powers: The Spy Who Shagged Me*, which also starred Seth Green. - When EDI suggests giving her control of the ship to escape the Collectors, Joker tells her \"If you start singing 'Daisy Bell' I'm done!\" This is a reference to the last moments of the homicidal HAL 9000 computer in *2001: A Space Odyssey*, itself a reference to the first song ever performed by a computer running speech synthesis software. In the same event, while Joker gives control of the Normandy to EDI, he grumbles about how this will lead to everyone becoming \"human batteries\" because he \"plugged in the Overlord\", a reference to *The Matrix*. - Joker can say \"Sometimes I just get the urge to turn off the inertial compensator and pull a Crazy Ivan\" in Mass Effect 2, in reference to the TV series *Andromeda* and *Firefly*, which in turn is a reference to a US Navy term for a Soviet submarine maneuver first popularized in the book/film *The Hunt for Red October*. It is further referenced in Mass Effect 3 when Joker remarked that Normandy SR\\-2 will remain undetected by the geth unless the crew decides to sing the Russian national anthem. - If Shepard kills the Rachni Queen/Breeder in Mass Effect 3, Joker will reference the 1986 film *Aliens* by saying, \"You wanna nuke it from orbit? It's the only way to\\-\\-Ah, forget it, it's probably fine.\" - In his story told to a bartender in Mass Effect 3: Citadel, Joker shouts to Cerberus soldiers \"You just landed on the island of doctor me!\", referencing *The Island of Doctor Moreau*. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jeff_\"Joker\"_Moreau",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "blasto_011",
+      "kind": "page",
+      "page": "Blasto",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Blasto is a reference to a joke made by writer Patrick Weekes on the official Mass Effect forums. When posting in a thread titled 'Your ideal ME2 squad', they included \"Blasto the zany multi\\-pistol\\-wielding hanar gunslinger with a dark past, a heart of platinum, and the tendency to shout, \"Enkindle THIS!\" in combat.\" Blasto quickly became popular among fans, with Weekes noting \"I am never going to live that joke down.\" - Blasto was once planned to refer to his elcor partner Bubin as \"Bubin\\-Spectre.\" - Jennifer Hale, the voice of female Shepard, also voiced Honey. - In Mass Effect: Infiltrator, some Cerberus troopers at the Barn wonder whether Blasto is real or not. - Blasto's name may have its origins in Greek *blastos*, meaning \"sprout\", which in turn forms the root for numerous terms for biological processes or organisms. Given that hanar often shorten their names, Blasto may be a reference to blastoids, an extinct type of sea creature, or blastogenesis, a form of jellyfish reproduction. - Many of the lines that can be heard from interacting with the Blasto 6 movie poster in Mass Effect 3 parody or reference the \"buddy cop\" genre, in particular the *Dirty Harry* series of films starring Clint Eastwood and the *Lethal Weapon* series starring Mel Gibson and Danny Glover. - BioWare filmed a faux commercial for the Blast\\-Oh's cereal. - Mass Effect: Andromeda has a Blasto scheme for console controller configurations. ##",
+      "url": "https://masseffect.fandom.com/wiki/Blasto",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "liara-t-soni_014",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "Lair of the Shadow Broker",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Back in Shepard's cabin on the Normandy, Liara comments on the Normandy and mentions running into Joker. If Shepard is a male and in a relationship with Liara, Liara mentions that Joker asked her to record any parts of the conversation with the Commander where her eyes do that \"freaky black eternity thing\". If Shepard is a female, Liara relays Joker's interest in whether or not the two would be \"acting out scenes from a vid called Vaenia.\" If the Commander chose to continue the romance, the conversation then focuses on Liara asking Shepard about their future. Shepard jokes about marrying, growing old and having lots of \"little blue children\". Feeling burdened at the thought of losing Shepard again, Liara needs to be reassured of Shepard's return. Shepard teases Liara for asking a big promise but subtly suggests about needing something special to come back to and hints to her for an offer. In response, Liara says she's open to suggestions, then gasps as Shepard reaches behind her. |  | ***“You've got to walk your own path...”*** — Spoilers for **Mass Effect: Homeworlds** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "summary:combat",
+      "kind": "summary",
+      "page": "Combat",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Combat was a game-mechanics overview page for the first Mass Effect, covering its real-time third-person combat: squads of Commander Shepard and two NPC allies, the Tactical Pause with the Power Wheel (console) or HUD screen (PC), squad movement and attack orders, sprinting with a fatigue meter, player-only grenades, biotic/tech/combat talents that vary by class, the four weapon types with their heat-buildup and overheat system rather than reloading, weapon accuracy and stability, melee \"smash\" attacks, health and toxic damage, recharging shields (kinetic barriers), cover, squad selection balancing tech/combat/biotic strength, the Casual, Normal, Veteran, Hardcore, and Insanity difficulty settings, game options such as Auto Level-Up and Target Assist, combat-related bugs including the Overheat Bug, and Legendary Edition changes.",
+      "url": "https://masseffect.fandom.com/wiki/Combat",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "the-art-of-mass-effect-transport_008",
+      "kind": "page",
+      "page": "The Art of Mass Effect/Transport",
+      "section": "Normandy Cargo Bay",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Using pools of saturated color, the lighting of the cargo bay reinforces the claustrophobic feeling of being inside the belly of a starship.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_Mass_Effect/Transport",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "scene:citadel-sushi-with-joker#05",
+      "kind": "scene",
+      "page": "Dinner at Ryuusei's, and the Woman Who Interrupted It",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-sushi-with-joker",
+      "text": "Dinner at Ryuusei's, and the Woman Who Interrupted It. 2186, first day of Citadel shore leave, the Normandy in dry dock Ryuusei's sushi restaurant, Citadel Wards The soldier finally breaks through: Staff Analyst Maya Brooks, Alliance intelligence, talking fast about someone hacking Shepard's accounts and communications. Joker's dry read is that people trying to kill Shepard is not news.",
+      "url": "",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "scene:citadel-anderson-hands-over-the-apartment#05",
+      "kind": "scene",
+      "page": "Anderson Gives Shepard the Apartment",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-anderson-hands-over-the-apartment",
+      "text": "Anderson Gives Shepard the Apartment. 2186, the first hour of Citadel shore leave Anderson's apartment on the Wards, becoming Shepard's The apartment had been Anderson's — he had meant to retire there with Kahlee Sanders — and audio recordings of his own biography are scattered through it, including part of an unfinished interview with reporter Khalisah al-Jilani, covering his London childhood, his enlistment, the First Contact War, N7 training, and his decision to hand the Normandy SR-1 to Shepard before the Battle of the Citadel.",
+      "url": "",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "summary:armiger-legion",
+      "kind": "summary",
+      "page": "Armiger Legion",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page is a game-mechanics stub with under ~150 words of real prose. Armiger Legion was a passive class power in Mass Effect 3's multiplayer mode, named for the turian 26th Armiger Legion, described in-fiction as a respected and feared frontline assault squad. The power granted bonuses to weapon damage, weapon stability, and weight capacity, scaling across six ranks with branching evolutions covering power damage, headshots, assault rifle weight, and squad capacity. It was available to the Turian Havoc Soldier, Turian Ghost Infiltrator, and Turian Saboteur Engineer, and had no single-player equivalent.",
+      "url": "https://masseffect.fandom.com/wiki/Armiger_Legion",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "morality-guide-mass-effect-3_102",
+      "kind": "page",
+      "page": "Morality Guide (Mass Effect 3)",
+      "section": "Silversun Strip: Other Interactions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Wait for Joker in the bar of Silver Coast Casino - 5 Paragon for saying \"Joker's telling the truth.\" - 5 Renegade for saying \"That's not what happened.\"",
+      "url": "https://masseffect.fandom.com/wiki/Morality_Guide_(Mass_Effect_3)",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "summary:races",
+      "kind": "summary",
+      "page": "Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is an index page listing the races and species of the Milky Way and Andromeda galaxies, with under 150 words of real prose. It groups Milky Way entries into Citadel races (asari, drell, elcor, hanar, humans, keepers, salarians, turians, volus), non-Citadel races (batarians, Collectors, geth, krogan, Leviathans, quarians, raloi, Reapers, virtual aliens, vorcha, yahg), historical races (arthenn, densorin, inusannon, oravores, Protheans, rachni, thoi'han, zeioph, zha'til), and various non-sapient creatures. Andromeda entries cover intelligent races (angara, Jardaan, kett, Remnant) and creatures. It contains no standalone lore beyond these listings.",
+      "url": "https://masseffect.fandom.com/wiki/Races",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    },
+    {
+      "chunk_id": "summary:probe",
+      "kind": "summary",
+      "page": "Probe",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Probes were used in Mass Effect 2 to discover resources or landing sites on uncharted planets, launched as part of the planet-scanning minigame. Scanning revealed mineral concentrations and anomalies, and a probe was fired to collect them; the planet could be rotated by scanning near its edge. The Normandy SR-2 carried a finite number of probes, 30 initially and up to 60 after recruiting Thane and researching the modular probe bay. Additional probes were bought at fuel depots for 100 credits per 5 (roughly 20 credits each), though purchases still cost the full 100 even when fewer than 5 below maximum capacity.\n\nAs a running joke, when surveying Uranus, EDI would say \"Really, commander?\" for the first probe and \"Probing Uranus\" for the second, before reverting to her standard lines.",
+      "url": "https://masseffect.fandom.com/wiki/Probe",
+      "for_key": "Joker's deflecting, joke-first way of covering real feeling"
+    }
+  ],
+  "codex": [],
+  "conflicts": [
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/grissom-academy-jack-and-the-biotic-students.yaml — Getting the Biotic Students Off Grissom Academy",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "shepard-drinks-and-dances",
+      "config_said": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "evidence_said": "scenes/grissom-academy-jack-and-the-biotic-students.yaml — Getting the Biotic Students Off Grissom Academy",
+      "resolution": "override 'shepard-drinks-and-dances' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "jack-teaches-shepard-to-dance",
+      "config_said": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "evidence_said": "scenes/grissom-academy-jack-and-the-biotic-students.yaml — Getting the Biotic Students Off Grissom Academy",
+      "resolution": "override 'jack-teaches-shepard-to-dance' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "kasumi-jack-poetry-jam",
+      "config_said": "Kasumi and Jack hold poetry jams in secret. Grunt sometimes turns up to read excerpts from Hemingway.",
+      "evidence_said": "scenes/grissom-academy-jack-and-the-biotic-students.yaml — Getting the Biotic Students Off Grissom Academy",
+      "resolution": "override 'kasumi-jack-poetry-jam' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "joker-weeb-krogan-waifu",
+      "config_said": "Joker is a weeb. As a joke, the crew gave him a body pillow printed with a krogan woman.",
+      "evidence_said": "scenes/grissom-academy-jack-and-the-biotic-students.yaml — Getting the Biotic Students Off Grissom Academy",
+      "resolution": "override 'joker-weeb-krogan-waifu' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "joker-edi-polyamorous",
+      "config_said": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "evidence_said": "scenes/grissom-academy-jack-and-the-biotic-students.yaml — Getting the Biotic Students Off Grissom Academy",
+      "resolution": "override 'joker-edi-polyamorous' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "joker-weeb-krogan-waifu",
+      "config_said": "Joker is a weeb. As a joke, the crew gave him a body pillow printed with a krogan woman.",
+      "evidence_said": "scenes/normandy-edi-takes-the-mech-body.yaml — EDI Walks Out of the AI Core",
+      "resolution": "override 'joker-weeb-krogan-waifu' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "joker-edi-polyamorous",
+      "config_said": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "evidence_said": "scenes/normandy-edi-takes-the-mech-body.yaml — EDI Walks Out of the AI Core",
+      "resolution": "override 'joker-edi-polyamorous' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": [
+    "Thomas is the subject but is not in the corpus: no scene record will ever list them in `participants` or `heard_by`, so a record's silence is not absence. Their presence comes from config/narrators/thomas.notes.md, by its timeline stretches rather than its named occasions — where those notes put them with the crew they were at that period's occasions too, and outside those stretches they were not there. The notes still bind absolutely on the load-bearing facts: relationships, habits, dates, deaths, deeds."
+  ]
+}

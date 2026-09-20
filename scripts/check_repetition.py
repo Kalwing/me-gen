@@ -73,20 +73,35 @@ def _matches_catchphrase(shingle: str, catchphrase_word_sets: list[list[str]]) -
 
 
 def find_repeats(sections: dict[str, str], n: int = 5,
-                  catchphrases: list[str] | None = None) -> dict[str, list[str]]:
+                  catchphrases: list[str] | None = None,
+                  catchphrases_by_section: dict[str, list[str]] | None = None,
+                  ) -> dict[str, list[str]]:
     """shingle -> sorted list of distinct section ids it appears in (only for
     shingles appearing in 2+ sections, excluding catchphrases and stopword-heavy
-    shingles)."""
+    shingles).
+
+    `catchphrases` applies to every section. `catchphrases_by_section` adds a section's own
+    speaker's lines on top: in a multi-voice episode one narrator's catchphrase is exempt in
+    their turns, and still flagged if it turns up in the other voice's mouth.
+    """
     catchphrase_words = [normalize_words(c) for c in (catchphrases or [])]
+    per_section = {sid: catchphrase_words + [normalize_words(c) for c in cps]
+                   for sid, cps in (catchphrases_by_section or {}).items()}
     locations: dict[str, set[str]] = {}
+    offending: set[str] = set()
     for section_id, text in sections.items():
+        exempt = per_section.get(section_id, catchphrase_words)
         for sh in set(shingles(text, n)):
             if not is_flaggable(sh):
                 continue
-            if _matches_catchphrase(sh, catchphrase_words):
-                continue
             locations.setdefault(sh, set()).add(section_id)
-    return {sh: sorted(ids) for sh, ids in locations.items() if len(ids) >= 2}
+            if not _matches_catchphrase(sh, exempt):
+                offending.add(sh)
+    # Every occurrence counts toward "2+ sections"; at least one must be outside its
+    # speaker's catchphrases. A monologue exempts the same lines everywhere, so this is
+    # the old rule there.
+    return {sh: sorted(ids) for sh, ids in locations.items()
+            if len(ids) >= 2 and sh in offending}
 
 
 def _load_sections(run_dir: Path) -> dict[str, str]:
@@ -101,12 +116,19 @@ def _load_sections(run_dir: Path) -> dict[str, str]:
 def check(run_dir: Path, narrator: str | None = None, n: int = 5) -> dict[str, list[str]]:
     run_dir = Path(run_dir)
     sections = _load_sections(run_dir)
+    by_section: dict[str, list[str]] = {}
     if narrator is None:
         outline_path = run_dir / "outline.yaml"
-        if outline_path.exists():
-            narrator = (yaml.safe_load(outline_path.read_text(encoding="utf-8")) or {}).get("narrator")
+        outline = (yaml.safe_load(outline_path.read_text(encoding="utf-8")) or {}
+                   if outline_path.exists() else {})
+        if common.is_multi_voice(outline):
+            by_section = {s["id"]: load_catchphrases(common.section_narrator(outline, s))
+                          for s in outline.get("sections") or []}
+        else:
+            narrator = outline.get("narrator")
     catchphrases = load_catchphrases(narrator) if narrator else []
-    flags = find_repeats(sections, n=n, catchphrases=catchphrases)
+    flags = find_repeats(sections, n=n, catchphrases=catchphrases,
+                         catchphrases_by_section=by_section)
     write_report(run_dir, flags, n)
     return flags
 

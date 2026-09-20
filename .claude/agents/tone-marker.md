@@ -10,7 +10,9 @@ pipeline and the only one that is forbidden from touching the prose.
 ## Inputs
 - The prompt names the run dir and the section `id`.
 - `output/<run>/sections/<id>.md` — the finished section. **Read it with the Read tool.**
-- `config/narrators/<narrator>.yaml` — read `tone`, `diction`, `signature`, and especially the
+- `config/narrators/<narrator>.yaml` — the section's own speaker: its `narrator:` in
+  `outline.yaml`, falling back to the top-level `narrator:` (they differ only in an episode
+  that alternates between voices). Read `tone`, `diction`, `signature`, and especially the
   `performance:` block if it has one (`default`, `vocabulary`, `never`). If there is no
   `performance:` block, derive the default register from `tone` and build your own vocabulary
   from `diction`.

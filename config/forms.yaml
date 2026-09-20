@@ -15,6 +15,12 @@
 #   requires       — optional. A precondition the brief and themes must meet for the form
 #                    to fit. `romance` = the episode is told through an established Shepard
 #                    romance; `outline-writer` picks the form only when that holds.
+#                    `voices` = the run has two or more narrators (`narrators:` in the
+#                    outline) and its sections alternate between them.
+#
+# Any form can be told in alternating voices — a two-voice eulogy is still a eulogy. When a
+# run has `narrators:`, each section names its speaker with `narrator:`; `dialogue` is the
+# form built for it, not the only one allowed.
 
 forms:
   - id: arc
@@ -281,3 +287,19 @@ forms:
     section_count: [6, 14]
     words_per_section: 800
     words_clamp: [5000, 10000]
+
+  - id: dialogue
+    description: >
+      Two narrators in one place, talking to each other — and the sections are their
+      turns. Each section is one voice, speaking to the other, and it answers the turn
+      before it: picks up what was just said, disagrees with it, is reminded of something
+      by it, teases, deflects, or changes the subject in the way that person would. Not
+      two interleaved monologues and not one story split in half: the talk moves because
+      each of them pulls it somewhere. Each speaks from their own vantage — what one lived,
+      the other may only have heard about, and can be told it, or corrected. The two
+      voices must stay unmistakably distinct in cadence, register and what they reach for.
+    spine: mixed
+    section_count: [8, 16]
+    words_per_section: 650
+    words_clamp: [5000, 10000]
+    requires: voices

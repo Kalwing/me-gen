@@ -1,0 +1,1637 @@
+{
+  "section": {
+    "id": "liara-the-quiet-hours",
+    "title": "Liara and the Quiet Hours",
+    "target_words": 1050,
+    "form": "eulogy",
+    "form_description": "The narrator on their feet in a crowded room, speaking about someone who has died. Sections are the things there are to say about the dead — a habit, a fight, a debt, the once they were wrong, the once they were right when it counted. The tone swings: a story that gets a laugh, a line that lands angry, a stretch that can barely be got through. What holds it together is that none of it is polite — every word is meant.",
+    "form_note": "The brief names the form outright: a memorial, six speakers on their feet, the eulogy's swing between a laugh, an angry line, and a stretch that can barely be got through. Jack is a deliberate exception to strict alternation and to normal voice balance - she opens and closes by the brief's fixed order, so she holds two of the seven turns while Tali, Grunt, Liara, Joker and Wrex each hold one. Her two turns are sized as ordinary single turns rather than doubled, but together they total roughly twice any other voice's word count, which is the \"two turns' worth\" the brief asks for. Section targets were raised after the voice checkpoint, at the user's instruction to let the speeches run to their natural length rather than be trimmed to a grid; the middle five now sit at 900-1050 and the episode target at 6650. Each middle turn answers the one directly before it; Jack's closing turn answers the whole room, not just Wrex. Grunt's bible is new and unused before this run - he is built distinct from Wrex throughout: Wrex remembers the Rebellions and the genophage firsthand, Grunt states krogan history as Okeer's tank taught it and then flattens it to \"put in me, not lived,\" and his own lived material is small and recent (the Rite, the Citadel, the mess hall, the war) and used in full. The \"gets a detail wrong and is corrected\" requirement is carried by two beats, not one: Grunt states the assumed version (died on his feet with a gun) and Joker mis-hears whose voice was on the channel, and Wrex corrects both flatly before giving the room the true version - shot on the way to the landing zone, then killed driving a vehicle into a banshee to clear passage for Hammer. Wrex reads that off the wreckage he found days later, not off memory; nobody in the room watched Thomas die, and each of them holds only a piece. No section narrates the Crucible's mechanism or Shepard as confirmed dead; Thomas's Synthesis sympathies, where they surface, are framed as a political stance he held in life, never as knowledge of the ending.\n",
+    "narrator": "liara",
+    "voices": [
+      "jack",
+      "tali",
+      "grunt",
+      "liara",
+      "joker",
+      "wrex"
+    ],
+    "listeners": [
+      "jack",
+      "tali",
+      "grunt",
+      "joker",
+      "wrex"
+    ],
+    "previous": {
+      "id": "grunt-guarded-the-kitchen",
+      "narrator": "grunt"
+    }
+  },
+  "subject": {
+    "slug": "thomas",
+    "display": "Thomas",
+    "notes": "config/narrators/thomas.notes.md",
+    "default": false
+  },
+  "promises": [
+    "answers Grunt: the same death, held at the opposite temperature - composed, hedged, and it costs her more for the composure",
+    "what Thomas told her about his mother, late at night, and why he was the one person she told about Benezia in turn",
+    "the running argument between them - an anarchist reading of why the Protheans fell, against her own inherited, hierarchical account of them",
+    "she too caught sight of him once across the field during the advance - a glimpse at distance she cannot turn into knowledge, and being an archivist by temperament she cannot stop trying",
+    "names what he was actually trained for, which was not this: an Alliance tech specialist who after Akuze was put in a youth outreach program teaching children robotics, who studied medical imaging, who cooked - a man whose whole training was in keeping and repairing life, not taking it. She is the one who can say what it cost him to be on a battlefield at all",
+    "her guarded competence cracks once, briefly, in front of the room, and she lets it"
+  ],
+  "required_facts": [],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "kasumi-jack-poetry-jam",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Kasumi",
+        "Jack",
+        "Grunt"
+      ],
+      "statement": "Kasumi and Jack hold poetry jams in secret. Grunt sometimes turns up to read excerpts from Hemingway.",
+      "overrides": "no such activity in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "joker-weeb-krogan-waifu",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Joker"
+      ],
+      "statement": "Joker is a weeb. As a joke, the crew gave him a body pillow printed with a krogan woman.",
+      "overrides": "no such detail in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "joker-edi-polyamorous",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Joker",
+        "EDI"
+      ],
+      "statement": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "overrides": "corpus presents their relationship as simply a couple",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "kaidan-vegetarian",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Kaidan"
+      ],
+      "statement": "Kaidan is vegetarian.",
+      "overrides": "no diet established in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "council_fate",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "The Council aboard the Destiny Ascension at the Battle of the Citadel.",
+      "answer": "sacrificed",
+      "detail": "To focus on Sovereign, not to kill them"
+    },
+    {
+      "id": "rachni_queen",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "The rachni queen on Noveria.",
+      "answer": "freed",
+      "detail": "I could never kill a whole specie, no matter the risk"
+    },
+    {
+      "id": "conrad_verner",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "The first run-in with Conrad Verner on the Citadel.",
+      "answer": "talked him down",
+      "detail": ""
+    },
+    {
+      "id": "saren_confrontation",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Saren in the Citadel Tower.",
+      "answer": "talked into suicide",
+      "detail": ""
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "noveria_garage_evidence",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Noveria - Qui'in's evidence of Anoleis's corruption.",
+      "answer": "given to Qui'in",
+      "detail": ""
+    },
+    {
+      "id": "gianna_parasini",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Noveria - helping Gianna Parasini move against Anoleis and Hermia.",
+      "answer": "helped the arrest, saved her",
+      "detail": ""
+    },
+    {
+      "id": "scan_the_keepers",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Scan the Keepers - Chorban and Jahleed's keeper-scanning project on the Citadel.",
+      "answer": "Scanned all of them, reconciled the two",
+      "detail": ""
+    },
+    {
+      "id": "doctor_michel",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Dr. Chloe Michel and the blackmail at the Citadel med clinic.",
+      "answer": "Helped her, and defused the situation",
+      "detail": ""
+    },
+    {
+      "id": "citadel_jenna_chora_den",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Rita's sister Jenna undercover at Chora's Den, and Chellick's arms sting.",
+      "answer": "Helped her, and succesful helped Chellick",
+      "detail": ""
+    },
+    {
+      "id": "xeltans_complaint",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Xeltan's Complaint and Sha'ira the Consort on the Citadel.",
+      "answer": "Helped them reconcile",
+      "detail": ""
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "samara_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Samara's loyalty mission - the hunt for Morinth.",
+      "answer": "killed",
+      "detail": "She killed innocent people. Doesn't matter that she's an Ardak Yakshi. Samara Joined us"
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "iff_delay",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether the abducted Normandy crew survived (how long you delayed after the IFF mission).",
+      "answer": "All survived",
+      "detail": "Did the IFF mission immediately, they all lived"
+    },
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "thane_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Thane's loyalty mission - his son Kolyat on the Citadel.",
+      "answer": "Freed the son, they reconciled, saved Mouse",
+      "detail": ""
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "elnora_illium",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Illium - Elnora, the asari who armed Morinth, during Samara's hunt.",
+      "answer": "Saved her",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "joker_edi_romance",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Joker and EDI's relationship - whether you encouraged it.",
+      "answer": "encouraged",
+      "detail": "I believe love can come in unexpected places, and Joker deserves it more than many."
+    },
+    {
+      "id": "grunt_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grunt and Aralakh Company at the Attican Traverse rachni mission.",
+      "answer": "Saved the Rachni. He got out Alive",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    },
+    {
+      "id": "samara_daughter",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Ardat-Yakshi monastery - Falere, Rila, and Samara's fate.",
+      "answer": "Saved her daughter, stopped Samara from killing herself",
+      "detail": ""
+    },
+    {
+      "id": "javik",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether Javik joined the squad (From Ashes).",
+      "answer": "yes",
+      "detail": ""
+    },
+    {
+      "id": "conrad",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether Conrad Verner helped gather war assets on the Citadel.",
+      "answer": "yes",
+      "detail": "I helped him all along, and got the matriarch writings"
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    },
+    {
+      "id": "citadel_coup",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Cerberus coup on the Citadel - Udina, the Virmire survivor at gunpoint, Thane's intervention.",
+      "answer": "Killed udina, convinced the survivor to join, thane died protecting the councilor",
+      "detail": ""
+    },
+    {
+      "id": "terra_firma_saracino",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Citadel - the Terra Firma protest and endorsing Charles Saracino.",
+      "answer": "refused",
+      "detail": "Terra firma are nazi"
+    },
+    {
+      "id": "presidium_hanar_preacher",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Citadel Presidium - the preaching hanar and the permit dispute.",
+      "answer": "Convinced him to leave",
+      "detail": ""
+    },
+    {
+      "id": "kelly_me3",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Kelly Chambers at the Citadel refugee camp - the spying reprimand and the dinner invitation.",
+      "answer": "told her to change her identity",
+      "detail": ""
+    },
+    {
+      "id": "ghorek_mercy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Citadel - the dying krogan Ghorek and the question of mercy.",
+      "answer": "Helped him",
+      "detail": "Batarian are people too."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "benezia-death-noveria",
+      "title": "The Death of Matriarch Benezia at Peak 15",
+      "kind": "mission-aside",
+      "game": "Mass Effect",
+      "when": "2183, Noveria, during the hunt for Saren",
+      "where": "the secure lab at Peak 15, beside the Rachni Queen's containment tank",
+      "participants": [
+        "Shepard",
+        "Matriarch Benezia",
+        "Liara T'Soni"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "beats": [
+        {
+          "text": "Shepard fights through geth, escaped rachni, and Benezia's asari commandos to reach the secure lab, where Benezia is waiting beside the Rachni Queen's tank. Sent by Saren, she is trying to extract the location of the Mu Relay from the queen's genetic memory.\n",
+          "source_chunks": [
+            "storyline_034",
+            "noveria-matriarch-benezia_001"
+          ]
+        },
+        {
+          "text": "Benezia places the squad in stasis and sets her commandos on them; if Liara came along, an exchange passes between mother and daughter first, but it does not stop the attack.\n",
+          "source_chunks": [
+            "noveria-matriarch-benezia_001"
+          ]
+        },
+        {
+          "text": "Weakened through three waves of commandos and geth snipers, Benezia briefly breaks free of Saren's indoctrination on her own mental strength. She tells Shepard the truth: Saren is Sovereign's tool, not the real threat, and Sovereign is a Reaper. She describes indoctrination from the inside — \"beating upon the glass as your hands torture and murder\" — and hands over the Mu Relay coordinates she pulled from the Rachni Queen.\n",
+          "source_chunks": [
+            "storyline_034",
+            "benezia_003"
+          ]
+        },
+        {
+          "text": "If Liara is present, Benezia tells her daughter she has always made her proud. Then indoctrination overwhelms her again; she attacks with three final commandos and Shepard's squad is forced to kill her. Dying, she says she does not see the light promised in asari religion.\n",
+          "source_chunks": [
+            "storyline_034",
+            "benezia_003"
+          ]
+        },
+        {
+          "text": "Weakened, the Rachni Queen sees the opportunity to appeal to Shepard for forgiveness, using the body of one of Benezia's dead commandos to translate. She says the rachni queens were driven to war by a \"sour yellow note,\" implying they were not fully responsible for the Rachni Wars, and that she wants only to rebuild her species peacefully. She asks what Shepard will do: kill her with the lab's acid tanks, consigning her to the \"great silence,\" or free her.\n",
+          "source_chunks": [
+            "rachni-queen_002"
+          ]
+        },
+        {
+          "text": "Freed, she escapes into the wilds of Noveria, remembering the kindness Shepard showed and meaning to pass those lessons to her new offspring.\n",
+          "source_chunks": [
+            "rachni-queen_002"
+          ],
+          "conditional": {
+            "rachni_queen_fate": "freed"
+          },
+          "choice": "Rachni Queen freed"
+        },
+        {
+          "text": "Killed, she makes one more appeal, asking if fear of the rachni's threat factored into the decision; if Shepard ignores it, she orders her thrall to work the controls, and Shepard pushes the dying commando aside and activates the acid bath personally. The Council later scolds Shepard for making the rachni extinct a second time, the turian representative asking whether humans take pleasure in genocide.\n",
+          "source_chunks": [
+            "rachni-queen_002"
+          ],
+          "conditional": {
+            "rachni_queen_fate": "killed"
+          },
+          "choice": "Rachni Queen killed"
+        },
+        {
+          "text": "Shepard takes the tram back to the Normandy.\n",
+          "source_chunks": [
+            "storyline_034"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "noveria-rift-station-lockdown",
+        "noveria-arrival-weapons-standoff",
+        "bel-anoleis-corruption-noveria"
+      ],
+      "related_events": [
+        "benezia-death-noveria",
+        "rachni-queen-noveria-choice",
+        "noveria-espionage"
+      ],
+      "source_chunks": [
+        "storyline_034",
+        "benezia_003",
+        "noveria-matriarch-benezia_001",
+        "rachni-queen_002"
+      ],
+      "requires": [],
+      "variants": []
+    },
+    {
+      "scene_id": "citadel-party-apartment",
+      "title": "The Party at Shepard's Apartment",
+      "kind": "party",
+      "game": "Mass Effect 3",
+      "when": "2186, Citadel shore leave, after the clone was stopped and the Normandy retaken, before Cronos Station",
+      "where": "Shepard's personal apartment on the Wards — two floors, kitchen, bar by the window, poker den, balcony, hot tub, rock garden",
+      "participants": [
+        "Shepard",
+        "Jeff \"Joker\" Moreau",
+        "EDI",
+        "Liara T'Soni",
+        "James Vega",
+        "Steve Cortez",
+        "Samantha Traynor",
+        "Garrus Vakarian",
+        "Tali'Zorah vas Normandy",
+        "Urdnot Wrex",
+        "Grunt",
+        "Jack",
+        "Javik",
+        "Zaeed Massani",
+        "Samara",
+        "Kasumi Goto",
+        "Miranda Lawson",
+        "Jacob Taylor",
+        "Kaidan Alenko",
+        "Ashley Williams",
+        "Glyph"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "citadel_dlc": "any"
+        },
+        {
+          "virmire_survivor": "any"
+        },
+        {
+          "grunt_fate": "alive"
+        },
+        {
+          "wrex_virmire": "alive"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Joker suggests the party immediately after the attempted hijacking of the Normandy. Shepard buys Party Provisions from the kiosk at the bar on the second floor of the Silver Coast Casino for 100 credits, then sends the invitations from the private terminal in the apartment office.\n",
+          "source_chunks": [
+            "citadel-party_002",
+            "citadel-party_003"
+          ]
+        },
+        {
+          "text": "Joker, EDI, Liara, James Vega, Steve Cortez and Samantha Traynor are automatic. Everyone else is an optional invite, and only surviving squadmates whose Mass Effect 3 arcs are finished can come at all.\n",
+          "source_chunks": [
+            "citadel-party_003"
+          ]
+        },
+        {
+          "text": "Absences nobody explains: Gardner, Allers, Chakwas, Chambers, Adams, Donnelly and Daniels are all missing. Traynor mentions in the kitchen that Chakwas is dealing with a medical emergency on the Citadel. The rest are simply not addressed.\n",
+          "source_chunks": [
+            "citadel-party_003"
+          ]
+        },
+        {
+          "text": "Glyph asks the Commander what kind of party this is — quiet or energetic — and the answer sets the opening conversations. The groupings themselves are set by the guest list, not the theme.\n",
+          "source_chunks": [
+            "citadel-party_004"
+          ]
+        },
+        {
+          "text": "Opening arrangement: Liara and Traynor in the kitchen with Tali, Samara and Garrus. EDI and Joker at the bar by the window with Miranda and Jacob. James and Cortez on the couches by the piano with the Virmire survivor and Jack. Wrex and Grunt upstairs on the balcony with Zaeed and Javik. Kasumi flits between the bar and the kitchen, uncloaking to interject.\n",
+          "source_chunks": [
+            "citadel-party_004"
+          ]
+        },
+        {
+          "text": "Wrex and Grunt spend the opening trading krogan insults over who is stronger — Grunt calling Wrex a fossil and belittling his age. If the mood is energetic they headbutt each other to settle it and Shepard has to stop them before the furniture goes.\n",
+          "source_chunks": [
+            "grunt_005",
+            "urdnot-wrex_012"
+          ]
+        },
+        {
+          "text": "Grunt tells Wrex that two of Aralakh Company's recruits had opposed his appointment, and that only one of them had to be dealt with, the other having been killed in a fight.\n",
+          "source_chunks": [
+            "grunt_005"
+          ]
+        },
+        {
+          "text": "Garrus's verdict on the place is that it would be a good place to retire, its sightlines appealing to his sniper sensibilities. He complains at a quiet party about the lack of hard drinks and at an energetic one dares Shepard to try the swill on offer.\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        },
+        {
+          "text": "Traynor cannot get over the size of the apartment — the electric bill alone would have covered her college tuition. Tali's version is that the same bill would have bought her an air conditioner for her suit, which she does not have, and it gets hot in there.\n",
+          "source_chunks": [
+            "samantha-traynor_005",
+            "tali-zorah-nar-rayya_012"
+          ]
+        },
+        {
+          "text": "The group toasts the Normandy. Traynor admits she still feels like an outsider next to people who have histories with Shepard, and everyone weighs in.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_013",
+            "samantha-traynor_005"
+          ]
+        },
+        {
+          "text": "Traynor gets everyone recounting how they met Shepard. Tali's memory is that all she could think about was hoping Shepard had showered, because her filter needed replacing and humans carry a lot of germs. Liara notes that three years on she is drinking Shepard's booze through a straw, and calls that progress.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_013"
+          ]
+        },
+        {
+          "text": "Second phase, energetic: Liara and James argue on the balcony about whether biotics or muscle wins, with Jacob, Miranda, Jack, Kaidan and the Virmire survivor taking sides. James shows off his \"fine example of peak physical form\"; Liara says she is going to challenge him to a pull-up contest, which gives him pause. When James jabs at \"flawed implants,\" Kaidan shoots back with how hard he has worked and his resulting ability to Reave, drawing trepidation from Liara and Jacob. Shepard picks a side. If Shepard backs biotics, Liara lifts him off the floor with no visible effort and Kasumi uncloaks to goad him into sit-ups; if Shepard backs muscle, the push-ups happen instead and Kaidan is flabbergasted, though Shepard can comfort him by saying that his kind of physical excellence is Shepard's kind too.\n",
+          "source_chunks": [
+            "james-vega_018",
+            "citadel-party_005",
+            "kaidan-alenko_012"
+          ]
+        },
+        {
+          "text": "Second phase, energetic, at the bar: Joker gets ganged up on by Cortez, Garrus, Wrex and Javik or Zaeed over refusing to keep a sidearm in the cockpit. Garrus's line is that a weapon he cannot get to is no weapon at all. Wrex offers Tuchanka as the harshest planet alive and dares anyone present to last a day there, says krogan parties involve a lot of violent deaths, and announces he needs to shoot something. If Shepard keeps the mood up and backs the shooting practice, he makes good on it — bottles on the counter, with Javik and Zaeed joining in.\n",
+          "source_chunks": [
+            "urdnot-wrex_012",
+            "garrus-vakarian_014",
+            "citadel-party_005"
+          ]
+        },
+        {
+          "text": "Second phase, energetic, at the door: Grunt works the vid-phone as bouncer, distinguishing fake salarian lip-hair from the real thing and establishing that Shepard has no half-brother named Sheppy the Volus. He is briefly tempted by cookies and turns them away anyway.\n",
+          "source_chunks": [
+            "grunt_005",
+            "citadel-party_005"
+          ]
+        },
+        {
+          "text": "Second phase, quiet: Grunt dares Wrex into a drinking contest and will not accept his excuses, goading him with \"logic is for salarians\" and the observation that the great Urdnot Wrex has backed down from a challenge. Elsewhere Liara and James compare the SSV Normandy with the SR-2 in the den, with Tali acting out both ships' handling and engine noise and reporting that the SR-2 is harder to perform. Garrus and Zaeed stand on the balcony discussing how to make the apartment defensible. Kaidan, Joker and Samantha discuss EDI on the second floor.\n",
+          "source_chunks": [
+            "grunt_005",
+            "tali-zorah-nar-rayya_013",
+            "garrus-vakarian_014",
+            "citadel-party_005",
+            "kaidan-alenko_012"
+          ]
+        },
+        {
+          "text": "Traynor and Joker — or Traynor and EDI, extremely awkwardly — work through Traynor's recorded opinion of EDI's voice, while Tali nearly poisons herself with cheese trying to change the subject.\n",
+          "source_chunks": [
+            "citadel-party_005",
+            "tali-zorah-nar-rayya_013"
+          ]
+        },
+        {
+          "text": "Third phase, quiet: Tali ends up on the floor of the downstairs bathroom, wasted and barely comprehensible, having got an omni-tattoo at Jack's suggestion. Shepard tells her to get some rest and hears fragments of her muttering while passing the door afterwards. Grunt is wherever the food or the drink is, announcing his hunger. Liara and James play cards in the den with Javik and a cloaked Kasumi, Glyph dealing if Shepard sends it there.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_013",
+            "grunt_005",
+            "citadel-party_006"
+          ]
+        },
+        {
+          "text": "Third phase, energetic: Grunt is wasted under the running shower upstairs, muttering about being a Space Cowboy, asking whether someone is a wizard, mourning that hanar cannot wear sweaters and reporting that he found a blue rock for Liara. Downstairs the dancing starts between the kitchen and the conference room — Traynor, Cortez, Jack, Samara, Garrus and Tali — with Glyph setting up the floor if sent. Kasumi is in the downstairs bedroom closet going through Shepard's underwear drawer.\n",
+          "source_chunks": [
+            "grunt_005",
+            "citadel-party_006",
+            "tali-zorah-nar-rayya_013"
+          ]
+        },
+        {
+          "text": "Garrus on watching Shepard dance: record it and broadcast it at the Reapers, because they will either run, melt down, or fall in love. Someone starts reciting the periodic table; at \"element 69\" the humans snicker and Garrus reminds them it is thulium.\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        },
+        {
+          "text": "Garrus's quiet-party alternative is micro-filaments — tiny explosives laid in a grid across the glass by the door that shred anyone coming through — coordinated with Zaeed over comms, and he later gets to name a booby-trapped coffee maker \"caffeine rush\".\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        },
+        {
+          "text": "At the end Shepard assembles everyone by the couch for a group photo. Couples face each other; everyone else looks at the camera. The photograph hangs afterwards by the downstairs bar, opposite the fireplace.\n",
+          "source_chunks": [
+            "citadel-party_006"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "miranda_alive": true,
+            "jack_present": true
+          },
+          "choice": "Miranda and Jack both present",
+          "text": "Miranda and Jack end up in the den insulting each other. Shepard can push them to reconcile or egg them on; Kasumi uncloaks either way and makes it worse.\n",
+          "source_chunks": [
+            "citadel-party_005",
+            "jack_009"
+          ]
+        },
+        {
+          "condition": {
+            "romance": "Garrus"
+          },
+          "choice": "romanced Garrus",
+          "text": "Liara calls the apartment the \"Shepard-Vakarian love nest\"; if Shepard is with someone else, Garrus is the one making the love-nest joke and promising not to interrupt.\n",
+          "source_chunks": [
+            "garrus-vakarian_014"
+          ]
+        },
+        {
+          "condition": {
+            "virmire_survivor": "Ashley"
+          },
+          "choice": "Ashley survived Virmire",
+          "text": "Ashley sits with James by the ground-floor couches in the first phase, teasing Cortez. In an energetic second phase, if she and James are both unromanced, James tries to recruit her to his side of the biotics-versus-muscle argument; she flirts back and takes an interest in his physique, and if Shepard encourages the two of them the night pushes them closer without anything coming of it — James tries out a line of Spanish on her that only leaves her asking him to repeat himself. If either of them had been turned down by Shepard first, Ashley alternates between attraction and rejection instead and declines to back James in the argument. During a relaxed third phase, if Wrex is present he recounts being ready to kill for the genophage cure back on Virmire and asks Ashley whether she would have shot him; she says without hesitation that she would have if he'd left her no choice, and Wrex says he respects her for it.\n",
+          "source_chunks": [
+            "ashley-williams_013"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-party-morning-after",
+        "citadel-grunt-csec-noodles",
+        "citadel-wrex-casino-ice",
+        "citadel-traynor-kepesh-yakshi",
+        "citadel-tali-fleet-and-flotilla",
+        "citadel-garrus-casino-bar",
+        "citadel-jack-apartment-eezo",
+        "citadel-biotiball-night",
+        "citadel-thane-memorial"
+      ],
+      "related_events": [
+        "citadel-dlc-archives"
+      ],
+      "source_chunks": [
+        "citadel-party_002",
+        "citadel-party_003",
+        "citadel-party_004",
+        "citadel-party_005",
+        "citadel-party_006",
+        "garrus-vakarian_014",
+        "grunt_005",
+        "urdnot-wrex_012",
+        "tali-zorah-nar-rayya_012",
+        "tali-zorah-nar-rayya_013",
+        "samantha-traynor_005",
+        "james-vega_018",
+        "jack_009",
+        "ashley-williams_013",
+        "kaidan-alenko_012"
+      ]
+    }
+  ],
+  "attendance": {
+    "benezia-death-noveria": "witnessed",
+    "citadel-party-apartment": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "summary:codex-aliens-extinct-races",
+      "kind": "summary",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The page collected the Codex entries on two extinct spacefaring races. Fifty thousand years ago the Protheans were the only spacefaring species in the galaxy and vanished in a swift galactic extinction, leaving ruins across many worlds; they were believed to have built the mass relays and the Citadel. Functioning Prothean \"paleotechnology\" was rare, most sites long since looted. Evidence of Prothean occupation appeared on the hanar homeworld Kahje and on Mars, feeding \"interventionary evolutionist\" theories among humans. The European Space Agency founded Lowell City on Mars in 2103; in 2148 prospectors near Deseado Crater discovered a buried Prothean observation post whose struggling mass effect core had caused local anomalies, proving humanity was not alone and triggering an international effort to translate its databanks. The post had been a biosciences station monitoring early humans, linked to platforms in Earth orbit and on the Moon.\n\nA Prothean beacon was unearthed on the Alliance colony Eden Prime; it was a solid-state data-storage device from a galaxy-spanning comm network. The rogue Spectre Saren Arterius and his geth raided Eden Prime with the flagship Sovereign, causing hundreds of civilian casualties and badly damaging the beacon. During recovery the beacon fired an energy pulse into Lieutenant Commander Shepard, the Normandy's executive officer, who survived apparently unharmed before the device fell inert. The beacon implanted knowledge that produced confusing visions; understanding them required a \"cipher,\" the cultural knowledge of a living Prothean, which might be impossible to obtain. Over three dozen fragile Prothean data discs had been recovered, a few partially restored, and were considered the best leads on Prothean culture.\n\nOver 2,000 years ago explorers opened a mass relay to an unknown system and met the rachni, spacefaring insects guided by hive-mind queens on a toxic homeworld. Negotiation proved impossible and the Rachni Wars followed. The salarians uplifted the krogan, who could reach the queens in their lairs; when krogan fleets drove the rachni back to their homeworld and they refused to surrender, the krogan eradicated them from the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#05",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine Liara helps the bandaged Quoyle toward the shrine's shuttle bay and contacts Admiral Hackett, reporting a possible lead and asking for access to a top-secret facility on Mars.",
+      "url": "",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "benezia_002",
+      "kind": "page",
+      "page": "Benezia",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Given her status as a matriarch, Benezia must have lived for almost a millennium. She is renowned and revered as a teacher of religion and philosophy. During the 'matron' phase of her life, Benezia had a daughter named Liara T'Soni. Unusually, Benezia mated with another asari, considered a *faux pas* in their society. Liara tells Commander Shepard that she doesn't know who Benezia chose as her partner; she and her mother never discussed Liara's second parent, and Liara believes Benezia may have been ashamed of her choices. She raised Liara alone \\- not an uncommon occurrence in asari society \\- and was amused when Liara chose to study Prothean archaeology, a minor rebellion against her forward\\-thinking mother. According to Liara, Benezia feels that the asari should have a greater role in shaping galactic events. She is Saren Arterius' executor and a fellow Binary Helix investor. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Benezia",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#04",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine Wounded but alive, Quoyle tells Liara to go on to the archive room without him. She finds a set of Prothean encryption keys and is interrupted by a hologram of the Illusive Man, who denies sending the Phantom and offers an alliance against the Reapers; Liara demands he share his information first, and when he stalls she cuts the link, telling him to send an army next time.",
+      "url": "",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#03",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine Inside, they find the shrine's drell staff dead and are attacked by a Cerberus Phantom. The Phantom slashes Quoyle across the chest and drops him; Liara fends it off with her biotics and kills it by driving a shard of debris through its head.",
+      "url": "",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "liara-t-soni_001",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“That is why I find you so fascinating. You were marked by the beacon on Eden Prime; you were touched by working Prothean technology!” **Dr. Liara T'Soni** is an asari researcher and archaeologist. With a Doctorate in Anthropology of the Prothean Era from the University of Serrice, she has spent the past fifty years of her life studying Prothean technology and culture, specializing in investigating the mysterious extinction of the species. Born on Thessia in 2077, Liara is \"only\" 106—barely an adult in asari terms. She already has a great deal of insight into the Protheans and is a highly trained user of biotics. She is a potential romantic interest for either a male or female Shepard. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "liara-t-soni_020",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "Mass Effect 3: From Ashes",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "As the Normandy's resident Prothean expert, Liara skills are brought to bear in an artifact retrieval mission on Eden Prime. Upon reaching the excavation site, Liara showcases her expertise depending on whether she already has a rapport with the squad. If she wasn't really close to the team, Liara launches into an explanation of Prothean architectural evolution. If she had significantly more interactions with the group, the other squadmate invariably asks if she has ever uncovered a dinosaur. Liara smartly delineates the differences between paleontology and archaeology before realizing she's being yanked around. Liara is surprised at learning they weren't retrieving just some Prothean artifact: what was unearthed, in fact, was a working stasis pod with a live Prothean inside. She helps Shepard in retrieving the command signals needed to safely open the pod while dealing with Cerberus forces in the area. When the dust has settled, she bears witness to the reawakening of the last Prothean in the galaxy: Javik. Liara is initially overjoyed to have a real living Prothean onboard the Normandy. However, following several conversations with him, she slowly grows disappointed. Having previously imagined Protheans as the \"keepers of wisdom and enlightenment\" of their era, Liara finds them to be cold and ruthless imperialistic warlords. In the aftermath of a mission when asked if she is working on anything Liara will explain that she's trying to decode some of the Crucibles designs, though theoretical particle physics were not her specialty. She laments how Javik is still being withdrawn, and how she wishes she could trade the last 100 years of her life to resurrect one Prothean scientist to help them. After the fall of Thessia, she can be found in Javik's cabin caught in a fierce argument with its occupant. Liara vehemently disbelieves the implication of Prothean involvement in asari history, and interprets Javik's blunt replies as gloating. Shepard can choose to defuse the situation, which results in a tentative peace between the two. Both sides slowly grow to respect and appreciate each other over time and, if Javik does not touch his memory shard, are thinking of writing a book together titled \"Journeys with the Prothean\". If Shepard didn't interrupt them, Liara decides he's not worth fighting and storms off Javik's quarters. Shepard can follow her to her cabin whichever way the argument ends and provide words of comfort.",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "codex-planets-and-locations_030",
+      "kind": "page",
+      "page": "Codex/Planets and Locations",
+      "section": "Feros",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Feros is a habitable world in the Attican Beta cluster. Two\\-thirds of the habitable surface is covered with the ruins of a crumbling Prothean megatropolis. In the millennia since the Prothean extinction, the ruins have been picked over by looters many times. Feros was considered a poor prospect for colonization, as little open ground remains for agriculture. The only sizable fresh water sources are the poles, which are tapped by the decaying Prothean aqueduct systems. The dead cities, while in good condition considering their antiquity, are of uncertain stability. Ground level is congested by a dozen meters of fallen debris, and the air is fouled by dust. In 2178, the human ExoGeni Corporation announced its intention to place a permanent colony on Feros, to thoroughly explore the ruins. The pioneer settlement was placed on the upper levels of several intact skyscrapers, using the surviving Prothean aqueducts and rooftop hydroponic gardens to support the population.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Planets_and_Locations",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#01",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine A hanar official refuses Liara T'Soni access to the submerged Prothean shrine. His assistant, a drell named Quoyle, argues that since generosity is an Enkindler virtue, Liara's large pledge to the upcoming Cresting Bloom celebrations should earn her a brief visit. The official relents once the sum is settled.",
+      "url": "",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "feros_003",
+      "kind": "page",
+      "page": "Feros",
+      "section": "Codex Entry",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | Audio: Feros | | --- | --- | **Feros** is a habitable world in the Attican Beta cluster. Two\\-thirds of the habitable surface is covered with the ruins of a crumbling Prothean megatropolis. In the millennia since the Prothean extinction, the ruins have been picked over by looters many times. Feros was considered a poor prospect for colonization, as little open ground remains for agriculture. The only sizable fresh water sources are the poles, which are tapped by the decaying Prothean aqueduct systems. The dead cities, while in good condition considering their antiquity, are of uncertain stability. Ground level is congested by a dozen meters of fallen debris, and the air is fouled by dust. In 2178, the human ExoGeni Corporation announced its intention to place a permanent colony on Feros, to thoroughly explore the ruins. The pioneer settlement was placed on the upper levels of several intact skyscrapers, using the surviving Prothean aqueducts and rooftop hydroponic gardens to support the population.",
+      "url": "https://masseffect.fandom.com/wiki/Feros",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "codex-planets-and-locations_015",
+      "kind": "page",
+      "page": "Codex/Planets and Locations",
+      "section": "Planets: Feros",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: Feros | | --- | --- | Feros is a habitable world in the Attican Beta cluster. Two\\-thirds of the habitable surface is covered with the ruins of a crumbling Prothean megatropolis. In the millennia since the Prothean extinction, the ruins have been picked over by looters many times. Feros was considered a poor prospect for colonization, as little open ground remains for agriculture. The only sizable fresh water sources are the poles, which are tapped by the decaying Prothean aqueduct systems. The dead cities, while in good condition considering their antiquity, are of uncertain stability. Ground level is congested by a dozen meters of fallen debris, and the air is fouled by dust. In 2178, the human ExoGeni Corporation announced its intention to place a permanent colony on Feros, to thoroughly explore the ruins. The pioneer settlement was placed on the upper levels of several intact skyscrapers, using the surviving Prothean aqueducts and rooftop hydroponic gardens to support the population.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Planets_and_Locations",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "war-assets-crucible_008",
+      "kind": "page",
+      "page": "War Assets/Crucible",
+      "section": "Prothean Data Files",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: The scanning of the planet Zion, Utopia, Exodus Cluster **Military Strength:** 75 These Prothean discs were found years ago on Eden Prime, recovered a few months before the discovery of the Prothean Beacon in 2183\\. For years the data on the discs was incomprehensible, until the Crucible's blueprints provided the key to understanding the equations. Locked inside the discs were theories on dark matter meant to be used with the Crucible's main power source.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Crucible",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "storyline_033",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Liara",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Normandy tracks Liara T'Soni to Therum, a mining colony in the Knossos system of the Artemis Tau cluster, but the geth are already on the surface, taking over several refinery facilities and dropping Geth Armatures from overhead. Shepard leads the squad to a mineshaft and down into a Prothean ruin, where they find Liara trapped behind a Prothean barrier curtain. Freeing her, they discover she is not in league with Saren and has no idea what the Conduit might be. As the squad leaves the ruined tower with Liara, they are confronted by a Krogan Battlemaster who is leading the geth and manage to defeat him as the unstable ruins begin to collapse. They escape just in time. During the debrief, Liara explains her expertise is on the Prothean extinction. She has a theory they were not the first civilization to mysteriously vanish, and is amazed by Shepard's story of the Reapers. After a brief rest from the stresses of the day, Liara joins Shepard's crew.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "summary:cipher",
+      "kind": "summary",
+      "page": "Cipher",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Cipher was the cultural context, knowledge, and experience of the Prothean race, its archetypes, biological instincts, and common experiences, needed to correctly interpret the visions stored in Prothean beacons. After the beacon on Eden Prime uploaded its knowledge into Lt. Commander Shepard, the resulting dreams and visions grew clearer over time but remained elusive in meaning without this unique racial perspective. Liara T'Soni first raised the idea, comparing it to what Carl Jung called the collective unconscious, and noted the difficulty of acquiring it given that the Protheans had been dead for millennia. Both Saren Arterius and Shepard used the Cipher to interpret the beacons on Eden Prime and Virmire; without it, a non-Prothean mind lacked the attitudes, mindset, and cultural experience to make sense of the imagery, and describing the Cipher was said to be like explaining colour to a creature without eyes. Shepard gained the Cipher through Shiala, an asari formerly working for Saren who had been offered as a \"sacrifice\" to the Thorian on Feros. The Thorian had itself gained the Cipher by watching and studying the Protheans on Feros and consuming some of them when they died, assimilating their knowledge; when Shiala melded with the Thorian she shared its consciousness and so gained the Prothean Cipher, which she then transferred directly into Shepard's mind. The experience left the Commander badly shaken but was necessary to find the Conduit. With the Cipher and Liara's help, Shepard could make more sense of the vision and understand the Prothean language. The Cipher later proved useful in understanding archived video footage containing codes for the stasis pod holding the surviving Prothean Javik, and in activating another beacon on Thessia. The information came from the in-game Codex.",
+      "url": "https://masseffect.fandom.com/wiki/Cipher",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "summary:feros",
+      "kind": "summary",
+      "page": "Feros",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Feros was a habitable world, the second planet of the Theseus System in the Attican Beta cluster of the Milky Way, with two large moons, Orcan and Vardet. Two-thirds of its habitable surface was covered by the ruins of a crumbling Prothean megatropolis that had been picked over by looters many times since the Prothean extinction. Feros was a poor colonization prospect: little open ground remained for agriculture, the only sizable fresh water sources were the poles (tapped by decaying Prothean aqueduct systems), the dead cities were of uncertain stability, ground level was buried under a dozen meters of fallen debris, and the air was fouled by dust. Evidence suggested Feros had been a much colder world in the past.\n\nIn 2178, the human ExoGeni Corporation announced a permanent pilot colony on Feros to thoroughly explore the ruins. The pioneer settlement, Zhu's Hope, was placed on the upper levels of several intact skyscrapers, using surviving Prothean aqueducts and rooftop hydroponic gardens to support the population. In Mass Effect, Feros was visited after Shepard gained Spectre status, comprising the missions Feros: Geth Attack and Feros: The Thorian and assignments including Data Recovery, Geth in the Tunnels, Power Cells, Varren Meat, and Water Restoration. It became accessible again in Mass Effect 3 after Priority: Tuchanka.",
+      "url": "https://masseffect.fandom.com/wiki/Feros",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "summary:liara-t-soni",
+      "kind": "summary",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dr. Liara T'Soni was an asari researcher and archaeologist with a Doctorate in Anthropology of the Prothean Era from the University of Serrice. Born on Thessia in 2077, she was the pureblood only child of Matriarch Benezia, raised alone by her mother, and had spent fifty years studying the Prothean extinction. In 2183, geth attacked the Prothean ruin on Therum where she was working; she accidentally trapped herself in a protective energy field until Commander Shepard's team freed her. She joined the Normandy, contributed her theory of cyclical extinction, used her melding ability to interpret Shepard's beacon visions, and ultimately identified Ilos as the Conduit's location. On Noveria she witnessed or learned of the death of her indoctrinated mother, who called her \"Little Wing\" a final time. She was a potential romance for a male or female Shepard.\n\nIn Mass Effect: Redemption, after Shepard's death aboard the SR-1, Liara and the drell Feron worked with Cerberus to recover Shepard's body from the Shadow Broker's agent Tazzik, delivering it to the Lazarus Project while Feron was captured. By 2185 (Mass Effect 2) she was a ruthless information broker on Illium, consumed by hatred of the Shadow Broker. In the Lair of the Shadow Broker DLC, she and Shepard pursued the Spectre Tela Vasir across Illium, raided the Broker's base ship, discovered the Broker was a yahg, killed him, and Liara assumed his identity, rescuing Feron and pledging the network to Shepard's fight against the Reapers.\n\nIn Mass Effect: Homeworlds she searched Prothean archives on Thessia and Kahje, clashing with the Illusive Man and a Cerberus Phantom. In Mass Effect 3 she reunited with Shepard during the Cerberus raid on the Mars Archives, where she revealed the Prothean blueprint for the Crucible, then relocated her Shadow Broker operation to the Normandy with the VI Glyph, greatly aiding the war effort. She created a time capsule to preserve their cycle's knowledge, met her \"father\" Matriarch Aethyta on the Citadel, and clashed with Javik over evidence of Prothean interference in asari history, revealed when Thessia fell and Kai Leng stole the temple's Prothean VI.\n\nIf romanced, she and Shepard resumed their relationship; before the final battle she offered to join her consciousness to Shepard's to share memories, a practice reserved for asari bondmates. If Shepard rallied enough forces, Liara survived and honored the fallen at the Normandy's memorial wall; if not, she could be killed by Harbinger, or, in the Refusal ending, appeared centuries later as a VI whose time capsule helped a future species defeat the Reapers. In Mass Effect: Andromeda, Ryder can hear voice messages Liara sent to Alec Ryder in 2182 and 2186. Her face model was actress Jillian Murray and her voice actress was Ali Hillis.",
+      "url": "https://masseffect.fandom.com/wiki/Liara T'Soni",
+      "for_key": "Liara's Prothean archaeology and theories on the Prothean extinction"
+    },
+    {
+      "chunk_id": "scene:benezia-death-noveria#01",
+      "kind": "scene",
+      "page": "The Death of Matriarch Benezia at Peak 15",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "benezia-death-noveria",
+      "text": "The Death of Matriarch Benezia at Peak 15. 2183, Noveria, during the hunt for Saren the secure lab at Peak 15, beside the Rachni Queen's containment tank Shepard fights through geth, escaped rachni, and Benezia's asari commandos to reach the secure lab, where Benezia is waiting beside the Rachni Queen's tank. Sent by Saren, she is trying to extract the location of the Mu Relay from the queen's genetic memory.",
+      "url": "",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "scene:benezia-death-noveria#08",
+      "kind": "scene",
+      "page": "The Death of Matriarch Benezia at Peak 15",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "benezia-death-noveria",
+      "text": "The Death of Matriarch Benezia at Peak 15. 2183, Noveria, during the hunt for Saren the secure lab at Peak 15, beside the Rachni Queen's containment tank Shepard takes the tram back to the Normandy.",
+      "url": "",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "scene:benezia-death-noveria#06",
+      "kind": "scene",
+      "page": "The Death of Matriarch Benezia at Peak 15",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "benezia-death-noveria",
+      "text": "The Death of Matriarch Benezia at Peak 15. 2183, Noveria, during the hunt for Saren the secure lab at Peak 15, beside the Rachni Queen's containment tank Freed, she escapes into the wilds of Noveria, remembering the kindness Shepard showed and meaning to pass those lessons to her new offspring.",
+      "url": "",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "scene:benezia-death-noveria#05",
+      "kind": "scene",
+      "page": "The Death of Matriarch Benezia at Peak 15",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "benezia-death-noveria",
+      "text": "The Death of Matriarch Benezia at Peak 15. 2183, Noveria, during the hunt for Saren the secure lab at Peak 15, beside the Rachni Queen's containment tank Weakened, the Rachni Queen sees the opportunity to appeal to Shepard for forgiveness, using the body of one of Benezia's dead commandos to translate. She says the rachni queens were driven to war by a \"sour yellow note,\" implying they were not fully responsible for the Rachni Wars, and that she wants only to rebuild her species peacefully. She asks what Shepard will do: kill her with the lab's acid tanks, consigning her to the \"great silence,\" or free her.",
+      "url": "",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "horse-head-nebula_004",
+      "kind": "page",
+      "page": "Horse Head Nebula",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Noveria: Geth Interest → Noveria: Matriarch Benezia → Noveria: Death of a Matriarch - *Mission:* Noveria: Leave Port Hanshan - *Mission:* Noveria: Lorik Qui'in - *Mission:* Noveria: Peak 15 - *Mission:* Noveria: Reactor Repair - *Mission:* Noveria: Reconnect Landlines - *Mission:* Noveria: Contamination - *Mission:* Noveria: Rift Station - *Mission:* Noveria: Quarantine - *Mission:* Noveria: The Hot Labs",
+      "url": "https://masseffect.fandom.com/wiki/Horse_Head_Nebula",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "pax_005",
+      "kind": "page",
+      "page": "Pax",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Noveria: Geth Interest → Noveria: Leave Port Hanshan - *Mission:* Noveria: Matriarch Benezia → Noveria: Death of a Matriarch - *Mission:* Noveria: Lorik Qui'in - *Mission:* Noveria: Peak 15 - *Mission:* Noveria: Reactor Repair - *Mission:* Noveria: Reconnect Landlines - *Mission:* Noveria: Contamination - *Mission:* Noveria: Rift Station - *Mission:* Noveria: Quarantine - *Mission:* Noveria: The Hot Labs - *Assignment:* Noveria: Espionage - *Assignment:* Noveria: Smuggling",
+      "url": "https://masseffect.fandom.com/wiki/Pax",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "noveria_006",
+      "kind": "page",
+      "page": "Noveria",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Noveria: Contamination - *Mission:* Noveria: Geth Interest - *Mission:* Noveria: Lorik Qui'in - *Mission:* Noveria: Matriarch Benezia - *Mission:* Noveria: Peak 15 - *Mission:* Noveria: Quarantine - *Mission:* Noveria: Reactor Repair - *Mission:* Noveria: Reconnect Landlines - *Mission:* Noveria: Rift Station - *Mission:* Noveria: The Hot Labs",
+      "url": "https://masseffect.fandom.com/wiki/Noveria",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "noveria-matriarch-benezia_002",
+      "kind": "page",
+      "page": "Noveria: Matriarch Benezia",
+      "section": "Acquisition",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Prerequisite:** Noveria: Geth Interest You'll learn from your first talk with Gianna Parasini that Matriarch Benezia is on Peak 15 on behalf of Saren.",
+      "url": "https://masseffect.fandom.com/wiki/Noveria:_Matriarch_Benezia",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "missions_002",
+      "kind": "page",
+      "page": "Missions",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*See also: Mass Effect Guide* Missions are listed mostly in the order they are received although some of the name updates happen after you receive another mission. Note that these missions are listed as they initially appear in the Journal, the names of missions do change as the game progresses. - Prologue: On the Normandy → Prologue: Find the Beacon - Citadel: Expose Saren - Citadel: Garrus - Citadel: Shadow Broker → Citadel: Wrex - Find Liara T'Soni - Feros: Geth Attack → Feros: The Thorian → Feros: Colony Saved \\| Feros: Colony Gone - Noveria: Geth Interest → Noveria: Leave Port Hanshan - Noveria: Lorik Qui'in - Noveria: Matriarch Benezia → Noveria: Death of a Matriarch - Noveria: Rift Station - Noveria: Quarantine - Noveria: The Hot Labs - Noveria: Peak 15 - Noveria: Reactor Repair - Noveria: Reconnect Landlines - Noveria: Contamination - Virmire: Saren's Plan → Virmire: Assault - Ilos: Find the Conduit - Race Against Time → Race Against Time: Sovereign → Race Against Time: Conduit → Race Against Time: Final Battle",
+      "url": "https://masseffect.fandom.com/wiki/Missions",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "summary:noveria-peak-15",
+      "kind": "summary",
+      "page": "Noveria: Peak 15",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "\"Noveria: Peak 15\" was a Mass Effect mission in which Commander Shepard investigated the loss of contact with Peak 15, the remote Binary Helix research facility on Noveria to which Matriarch Benezia had travelled. It followed the prerequisite \"Noveria: Leave Port Hanshan\" and could be acquired several ways: by talking to a businesswoman and salarian at Port Hanshan Plaza, by asking Lilihierax about rumors at Peak 15, by receiving a warning from Gianna Parasini after she revealed her true allegiance, or, at the latest, by switching on the facility's backup power core in person.\n\nThe mission's sole objective was to bring the Peak 15 VI back online, which occurred naturally in the course of the larger \"Noveria: Matriarch Benezia\" mission. After activating the power core, Shepard took an elevator down to repair the VI, either by spending 100 omni-gel or by manually solving a Tower of Hanoi box puzzle whose rules forbade placing a box beneath a blue box; the wiki provided direct button and column solution sequences. Once repaired, Shepard was raised back up and the VI came online, requesting credentials before granting Secure Access (higher Privileged Access being reserved for Binary Helix executives). The VI explained that two tasks were needed to restore the station: \"Noveria: Reconnect Landlines,\" restoring Mira's full functionality via the roof landlines, and \"Noveria: Reactor Repair,\" bringing the reactor core online by fixing the helium-3 fuel lines. Shepard could tackle either first, with the landlines elevator behind the VI and the reactor down and to the left of the main room.\n\nThe mission was written by Chris L'Etoile and was referred to internally as \"(Noveria:) Reconstruct Mira.\"",
+      "url": "https://masseffect.fandom.com/wiki/Noveria:_Peak_15",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "summary:noveria",
+      "kind": "summary",
+      "page": "Noveria",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Noveria was a small, frozen, barely habitable terrestrial world in the Pax System of the Horse Head Nebula, the second planet of its system, with most of its hydrosphere locked in massive glaciers. It was a privately chartered colony owned by the Noveria Development Corporation, a holding company funded by investment capital from two dozen high-technology development firms and administered by an Executive Board representing their interests. The investors built remote \"hot labs\" in isolated locations across the surface for research too dangerous or controversial to be performed elsewhere, since Noveria was technically not part of Citadel space and therefore exempt from Council law. By special arrangement, Citadel Special Tactics and Reconnaissance agents were granted extraterritorial privileges, though the Executive Board's commitment to that principle was uncertain. Its unique situation made Noveria the subject of many wild conspiracy theories.\n\nNoveria featured the Skadi Mountains, where the isolated lab Peak 15 was situated, and the Aleutsk Valley, a pass between Port Hanshan and Peak 15. Other locales included an equatorial resort offering accredited asajura fields, bouncebacking, and diving. Known non-sapient lifeforms included the nathak. The name was derived from \"Nova Siberia\" (New Siberia).\n\nIn Mass Effect, Shepard investigated Noveria in 2183 during the hunt for Saren, pursuing Matriarch Benezia to Peak 15 through missions including Noveria: Geth Interest, Noveria: Matriarch Benezia, Noveria: Peak 15, Noveria: Rift Station, and Noveria: The Hot Labs, plus assignments Noveria: Espionage and Noveria: Smuggling. By Mass Effect 3 and the Reaper War, the planet drew significant attention: home to some of the galaxy's most advanced research, it was a magnet for Cerberus interest, and its mass relay was the transit point between the humans' Exodus Cluster and the start of salarian space, which the salarians were expected to defend to the utmost. Related content included N7: Cerberus Fighter Base and the multiplayer map Firebase White.",
+      "url": "https://masseffect.fandom.com/wiki/Noveria",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "summary:noveria-matriarch-benezia",
+      "kind": "summary",
+      "page": "Noveria: Matriarch Benezia",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Noveria: Matriarch Benezia was a sprawling Mass Effect mission to capture Matriarch Benezia, a top advisor to Saren, who had come to Noveria on his behalf. Shepard learned from Gianna Parasini that Benezia was at Peak 15 in the Skadi Mountains. After obtaining a garage pass to leave Port Hanshan, Shepard took the Mako from the port garage, first fighting through geth (two Destroyers and two Stalkers) and being questioned afterward by Captain Maeko Matsuo.\n\nThe drive through the Aleutsk Valley to Peak 15 imposed a cold hazard and ran a series of cliffside U-turns defended by geth: turrets, Shock and Rocket Troopers behind hex shields in tunnels, a Geth Armature, and more turrets outside the Peak 15 garage. Inside Peak 15, Shepard fought a Geth Juggernaut, a repair drone, and krogan, then encountered a new organic enemy: the rachni, in the form of exploding Workers and acid-spitting Soldiers bursting from floor grates. The station's VI, Mira, reported extensive facility damage. Shepard had to restore the offline VI and complete the sub-missions Noveria: Reconnect Landlines, Noveria: Reactor Repair, and Noveria: Contamination before taking the tram to Rift Station.\n\nAt Rift Station, Shepard met Captain Ventralis, who was maintaining a lockdown and provided a Hot Labs pass card. Shepard could follow Ventralis's lead to the Hot Labs or explore the main level, where scientists and guards sheltered and Dr. Zev Cohen gave the Noveria: Quarantine mission; the route chosen changed how the story unfolded. Entering the Secure Lab was the mission's point of no return. There Benezia stood on an upper platform; after a conversation (with an exchange between mother and daughter if Liara was present), Benezia placed the squad in stasis and her Asari Commandos attacked. She was invulnerable through three waves of Commandos and Geth Snipers. Once weakened, she briefly regained herself and revealed that the real threat was Sovereign, that Saren was merely its tool, and that Saren had sent her to extract the location of the Mu Relay from the Rachni Queen held in a tank in the lab. Indoctrination then overwhelmed her and she attacked again with three final Commandos before dying, renaming the entry Noveria: Death of a Matriarch.\n\nShepard then decided the fate of the Rachni Queen, releasing or killing her, before taking the tram back to the Normandy briefing room. The Council reacted with fear if the Queen was released and condemnation if she was killed, the turian councilor asking whether Shepard took pleasure in committing genocide. Written by Chris L'Etoile.",
+      "url": "https://masseffect.fandom.com/wiki/Noveria:_Matriarch_Benezia",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "summary:lilihierax",
+      "kind": "summary",
+      "page": "Lilihierax",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Lilihierax, known as 'Li' because humans found his name hard to pronounce, was a turian shuttle mechanic at Port Hanshan on Noveria, found loitering near the garage. A former military tech, he oversaw a team of twelve. Commander Shepard could talk to him about local events: the scandal involving Administrator Anoleis, Synthetic Insights and Lorik Qui'in, Peak 15's poor reputation and the facility lockdown, and Matriarch Benezia's movements. He reported that Benezia had taken a shuttle to Peak 15 before contact was cut. Li was one of the few able to enter and leave Port Hanshan during lockdown, but refused to lend Shepard his tracked garage pass, fearing he would lose his job and be sued. Easy-going and proud of his work, he contrasted with the typical disciplined turian warrior image, much like the Presidium Groundskeeper. Cut content indicates he was originally to sell Mako upgrades. He was voiced by Keith Szarabajka, who also voiced Delan, Elias Kelham and Harbinger.",
+      "url": "https://masseffect.fandom.com/wiki/Lilihierax",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "lorik-qui-in_001",
+      "kind": "page",
+      "page": "Lorik Qui'in",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Lorik Qui'in** is the manager of the Synthetic Insights Noveria branch, found at the Port Hanshan mezzanine. A consummate businessman, he carries himself in a polite, refined manner, and is happy to talk about current events, including the lockdown at Peak 15 and the arrival of Matriarch Benezia. He is unfamiliar with certain human idioms. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Lorik_Qui'in",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "storyline_034",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Noveria",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Shepard arrives at Noveria and discovers that Matriarch Benezia recently arrived. She and Saren are investors in Binary Helix, which has a lab up on Peak 15. Benezia has gone there on business. However the lab has since issued a Code Omega signal, meaning there are critical problems, and a blizzard has cut off shuttle access. After wrangling with Administrator Anoleis, Shepard manages to get a garage pass and drives up to Peak 15. The facility is deserted save for geth and bizarre creatures—revealed to be the supposedly extinct rachni—which have escaped from the labs. Shepard reactivates the station's VI, Mira, and goes up to Rift Station looking for Benezia. Rift Station is full of science staff sheltering from the rachni attack; Shepard can help them out but gets attacked by those loyal to Benezia. The squad finds out Binary Helix discovered a rachni egg that turned out to be a queen, and were trying to breed an army from her brood until the rachni turned on them. Down in the labs through the maintenance area, Shepard finds Benezia with the Rachni Queen. The matriarch attacks the squad, but after a fierce battle Benezia manages to overcome the indoctrination that Saren has used to control her, and tells Shepard the truth. Saren wants the location of the lost Mu Relay, and sent her to retrieve it from the queen's genetic memory. Benezia doesn't know what else he is planning. She hands the coordinates over to Shepard, but becomes lost to the indoctrination again and the Commander has to kill her. After deciding what to do with the Rachni Queen, Shepard leaves Noveria with Benezia's data and a piece of the puzzle.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "lilihierax_001",
+      "kind": "page",
+      "page": "Lilihierax",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Lilihierax**, better known as 'Li' because humans find his name hard to pronounce, is a turian shuttle mechanic at Port Hanshan on Noveria, found loitering near the garage. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | Commander Shepard can talk to him about what is happening locally. Li is very interested in the current scandal regarding Administrator Anoleis, Synthetic Insights, and Lorik Qui'in. He can also tell Shepard more about Peak 15's poor reputation, giving insight on the local rumours about the facility lockdown. If asked about Matriarch Benezia's whereabouts, he reports that she took a shuttle to Peak 15 before contact was cut off. Lilihierax used to be a military tech. As a mechanic, he has a team of twelve serving under him. He is reluctant to lose his current job: Li is one of the people who can enter and leave Port Hanshan even when the place is on lockdown, but he refuses to lend Shepard his garage pass if the Commander asks, saying that pass usage is tracked and he would lose his job, in addition to being sued \"into the next spiral arm\".",
+      "url": "https://masseffect.fandom.com/wiki/Lilihierax",
+      "for_key": "Matriarch Benezia's death at Peak 15 on Noveria"
+    },
+    {
+      "chunk_id": "scene:hierarchy-kandros-infiltration-plan#02",
+      "kind": "scene",
+      "page": "The Kandros Case for Infiltrating the Initiative",
+      "section": "argument",
+      "game": "Mass Effect: Discovery",
+      "scene_id": "hierarchy-kandros-infiltration-plan",
+      "text": "The Kandros Case for Infiltrating the Initiative. before the Andromeda Initiative's departure, after Tiran's unit is wiped out by geth a closed Turian Hierarchy meeting, then a private word between mother and son Commander Narkkin calls it a mother pulling favours for her son and pushes for direct intervention. Others in the room note the Initiative looks like the stand-up of a sizeable private military. Ravis and Tiran talk the group into letting Tiran go undercover first to gather harder evidence: he can slip out unnoticed if there is nothing, and hand the Hierarchy a decisive case if there is.",
+      "url": "",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "aethyta_002",
+      "kind": "page",
+      "page": "Aethyta",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Aethyta is willing to discuss her life with Commander Shepard and how she ended up as a bartender despite being an asari matriarch. She explains that her father was a krogan who fought in the Rachni Wars and Krogan Rebellions, while her mother was an asari commando who also fought in the Rebellions. Her mother kept her commando leathers for \"special nights\" with her father, and her father always showed off his war scars and talked about how he stomped a Rachni Queen to death on some poisonous world. When Aethyta's father learned that he and Aethyta's mother were once mortal enemies during the Krogan Rebellions, they decided to fight, a battle neither of them survived. During this time Aethyta was about a hundred years old and an exotic dancer. For the rest of her lifespan, she had many mates, including a turian, elcor, and a hanar. She also fathered a pureblood daughter, but her relationship with the mother didn't work out, and Aethyta lost track of her daughter. Aethyta has very different views on matters than other matriarchs and a very free\\-spirited, laissez\\-faire attitude to life. She seems to support the asari becoming more militant and active on the galactic stage, and believes that young asari should help improve society in their maiden years instead of becoming strippers or mercenaries. Her proposal that the asari should try to construct new mass relays was met with ridicule, causing the other asari to \"laugh the blue off \\[her] ass\". Realizing that no one wanted to listen to her arguments, Aethyta left Thessia for a less conventional matriarch's life on Illium. Shepard meets Aethyta while she is trying to fend off Conrad Verner, who is trying to get the deed to the place on behest of an \"undercover cop\". She is trying very hard not to \"slap \\[Conrad's] ass with a Singularity\", until she is rescued by Shepard's arrival. When Conrad explains that the \"cop\" told him the place is a front for red sand dealers, Aethyta tells him that her bar doesn't sell red sand\\-\\-and besides, it is legal on Illium as long as the seller has a permit. Shepard can pursue the matter with Conrad. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Aethyta",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "Two parental figures",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- **Auntie Shala'Raan** — Admiral Shala'Raan vas Tonbay, a friend of Tali's father and a blood relative (her sister was Tali's mother). Tali treats her as family and hugs her warmly. Raan is willing to sacrifice her own power and call in favors to help family: \"Do you know how many favors I had to call in… I wore holes in my suit to get you that opportunity.\" She represents the *family* side of quarian society. - **Rael'Zorah** — Tali's father, a high-ranking figure who became distant by burying himself in his work; per Raan, he showed his love by working to give Tali \"a home world.\" He confuses duty to the Fleet with love for his daughter — \"the good of the people comes first; my father taught me that.\" He represents the *duty* side. Between them, Tali is torn between an ingrained sense of duty to the Fleet and a capacity to think as a loving individual.",
+      "url": "",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "scene:benezia-death-noveria#02",
+      "kind": "scene",
+      "page": "The Death of Matriarch Benezia at Peak 15",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "benezia-death-noveria",
+      "text": "The Death of Matriarch Benezia at Peak 15. 2183, Noveria, during the hunt for Saren the secure lab at Peak 15, beside the Rachni Queen's containment tank Benezia places the squad in stasis and sets her commandos on them; if Liara came along, an exchange passes between mother and daughter first, but it does not stop the attack.",
+      "url": "",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "nef_002",
+      "kind": "page",
+      "page": "Nef",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "While hunting down Morinth, Shepard and Samara can help Nef's mother, Diana, in investigating her daughter's death. Her mother implores them for help, claiming that no one on Omega seems to care that her daughter was murdered, and that she is desperate for assistance from whoever will aid her. In the process of helping Diana, Shepard and Samara can search Nef's room for evidence. In her room, they find that Nef was an artistically talented teenage girl who, though lonely, reserved and shy, possessed incredible creative ability. She had been offered money for her sculptures by several art galleries. Diana informs Shepard and Samara that, all of a sudden, her daughter's personality began to change, and that she had become infatuated with an asari on Omega (Morinth). Despite her warnings and worrying, Diana says that Nef began to spend entire nights out at the Afterlife Club, having gained access to the VIP section by slipping Jaruut's name. Nef sometimes did not return for days, and until news of Nef's death reached her mother, she had no way of knowing that her daughter had died. The asari enthralled Nef by appealing to her artistic and musical interests. Morinth also may have plied Nef with the drug Hallex to lower her inhibitions and make her prone to suggestion. Despite this, initially Nef expressed doubts to her diary over their burgeoning relationship, not believing someone as exotic as Morinth could be interested in her. Finally, when Nef was at her most vulnerable, Morinth joined minds with her, killing her. If Commander Shepard helped Nef's mother, and chose to aid Samara in killing Morinth, the Commander will receive a mail from Diana. She states that even though her daughter is gone forever, and that what little Nef had was wrongfully taken from her, she is happy to see that they have both been avenged, and that Morinth has paid for her crime. If Commander Shepard chose to aid Morinth in killing Samara, the Commander will still receive the mail from Nef's mother. Everyone believes that Morinth died.",
+      "url": "https://masseffect.fandom.com/wiki/Nef",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "summary:aethyta",
+      "kind": "summary",
+      "page": "Aethyta",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Matriarch Aethyta was an asari who worked as a bartender in the Eternity lounge on Illium. In Mass Effect 2 she told Commander Shepard how she came to that job despite being a matriarch. Her father was a krogan who fought in the Rachni Wars and Krogan Rebellions, and her mother was an asari commando who also fought in the Rebellions. When her parents learned they had once been enemies during the Rebellions, they fought a duel that neither survived; Aethyta was then about a hundred years old and an exotic dancer. She later took many mates, including a turian, an elcor, and a hanar, and fathered a pureblood daughter she lost track of.\n\nAethyta held unconventional, free-spirited views. She supported the asari becoming more militant and active in galactic affairs and believed young asari should improve society during their maiden years rather than becoming strippers or mercenaries. Her proposal that the asari build new mass relays was ridiculed, prompting her to leave Thessia for Illium. Shepard met her while she fended off Conrad Verner, who was trying to obtain the deed to her bar on behalf of an \"undercover cop\" who claimed the place was a front for red sand dealers.\n\nIn Mass Effect 3, Aethyta appeared at Apollo's Cafe in the Presidium Commons. She confirmed she was Liara T'Soni's \"father\" and was watching Liara on behalf of other matriarchs, who were suspicious of Liara's work as an information broker, her ties to Matriarch Benezia, and her friendship with the formerly Cerberus-affiliated Shepard. She warned that the matriarchs might order a hit on Liara. If Shepard was friendly toward Liara, Aethyta was amused to hear Shepard echo her \"nobody messes with my girl\" line and conceded Shepard might be good enough for her daughter. If Shepard arranged for the two to talk, they discussed the matriarchs' spying, asari war doctrine, Liara's krogan grandfather, and Aethyta's century-long relationship with Benezia, whom Aethyta implied she had married and still loved. Reconciled, Aethyta sent asari mercenaries to aid the war effort.",
+      "url": "https://masseffect.fandom.com/wiki/Aethyta",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "codex-aliens-council-races_004",
+      "kind": "page",
+      "page": "Codex/Aliens: Council Races",
+      "section": "Turians",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: Turians | | --- | --- | Roughly 1200 years ago, the turians were invited to join the Citadel Council to fulfill the role of galactic peacekeepers. The turians have the largest fleet in Citadel space, and they make up the single largest portion of the Council's military forces. As their territory and influence has spread, the turians have come to rely on the salarians for military intelligence and the asari for diplomacy. Despite a somewhat colonial attitude towards the rest of the galaxy, the ruling Hierarchy understands they would lose more than they would gain if the other two races were ever removed. Turians come from an autocratic society that values discipline and possesses a strong sense of personal and collective honor. There is lingering animosity between turians and humans over the First Contact War of 2157, which is known as the 'Relay 314 Incident' to the turians. Officially, however, the two species are allies and they enjoy civil, if cool, diplomatic relations.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Council_Races",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "codex-known-associates_004",
+      "kind": "page",
+      "page": "Codex/Known Associates",
+      "section": "Dr. Liara T'Soni",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | Audio: Dr. Liara T'Soni | | --- | --- | Dr. Liara T'Soni is an asari information broker with a background in scientific research on Prothean technology. Born on Thessia in 2077, she is the only child of the late Matriarch Benezia, although mother and daughter became estranged in the years before Benezia was indoctrinated by the Reaper known as Sovereign. T'Soni is also a highly trained biotic who served under Commander Shepard aboard the SSV Normandy before the ship was destroyed in a Collector attack. Before she became involved in galactic affairs, Dr. T'Soni spent 50 years researching the Protheans' technology and the mystery of their extinction. She now divides her time between uncovering Prothean ruins and consulting with noteworthy representatives of the various Citadel races.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Known_Associates",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "khar-shan_002",
+      "kind": "page",
+      "page": "Khar'shan",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Khar'shan**, the batarian homeworld, is wrapped less in mystery than in outright lies. Batarian propaganda claims the world has 15 billion inhabitants and an economy that rivals the asari. Although the legal slave trade does boost the batarians' profits somewhat, Citadel sanctions have left a paper tiger of an empire, one that fights rivals through deniable terrorist actions rather than the wars of its heyday centuries ago. The Reapers will likely be the death blow to that empire. Almost no information has escaped Khar'shan since the Reapers destroyed the comm buoys, but batarian refugees say that resistance has created a bond among the commoners. If a new government can rise from the ashes, that bond may sustain a new batarian society.",
+      "url": "https://masseffect.fandom.com/wiki/Khar'shan",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "turian_004",
+      "kind": "page",
+      "page": "Turian",
+      "section": "The Unification War",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For list of turian colonies involved in the Unification War, see UNC: Turian Insignias.* The turians had already discovered several mass relays and spawned colonies throughout the galaxy when the asari reached the Citadel. At about the time the asari were forming the Council with the salarians, the turians were embroiled in a bitter civil war next door. The Unification War, as it was later named, began with hostilities between the colonies furthest from the turian homeworld, Palaven. These colonies were run by local chieftains, many of whom had distanced themselves from the Hierarchy. Without the galvanizing influence of the government, the colonies became increasingly isolated and xenophobic. Colonists began wearing emblems or facial markings to differentiate themselves from members of other colonies and open hostilities became common. When war finally broke out, the Hierarchy maintained strict diplomacy and refused to get involved. After several years of fighting, less than a dozen factions remained and the Hierarchy finally intervened. By that time, the chieftains were too weak to resist; they were forced to put an end to the fighting and renew their allegiance to the Hierarchy. Though peace was restored, it took several decades for animosity between colonists to fade completely. To this day, most turians still wear the facial markings of their home colonies.",
+      "url": "https://masseffect.fandom.com/wiki/Turian",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "scene:hierarchy-kandros-infiltration-plan#01",
+      "kind": "scene",
+      "page": "The Kandros Case for Infiltrating the Initiative",
+      "section": "argument",
+      "game": "Mass Effect: Discovery",
+      "scene_id": "hierarchy-kandros-infiltration-plan",
+      "text": "The Kandros Case for Infiltrating the Initiative. before the Andromeda Initiative's departure, after Tiran's unit is wiped out by geth a closed Turian Hierarchy meeting, then a private word between mother and son Ravis Kandros uses her authority to convene a meeting of high-ranking Hierarchy officials so her son Tiran — sole survivor of a geth ambush that killed his unit — can present what he found: an inactive geth head carrying evidence that someone tied to the Andromeda Initiative is working with outlawed geth technology.",
+      "url": "",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "scene:hierarchy-kandros-infiltration-plan#03",
+      "kind": "scene",
+      "page": "The Kandros Case for Infiltrating the Initiative",
+      "section": "argument",
+      "game": "Mass Effect: Discovery",
+      "scene_id": "hierarchy-kandros-infiltration-plan",
+      "text": "The Kandros Case for Infiltrating the Initiative. before the Andromeda Initiative's departure, after Tiran's unit is wiped out by geth a closed Turian Hierarchy meeting, then a private word between mother and son Afterward Ravis asks Tiran whether he is committed. He says he wants to prove himself worthy of the Kandros name without leaning on her reputation; she tells him she once wanted out from under her own mother's shadow, that he has already earned his place, and to come back from the mission alive.",
+      "url": "",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "summary:ravis-kandros",
+      "kind": "summary",
+      "page": "Ravis Kandros",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Admiral Ravis Kandros was a high-ranking official of the Turian Hierarchy, a member of the prominent Kandros family, and the mother of Lieutenant Tiran Kandros. In Mass Effect: Discovery she organized a meeting between Tiran and other Hierarchy officials to discuss a possible link between forbidden geth technology and the Andromeda Initiative. Commander Narkkin dismissed it as a mother pulling favors for her son, but others recognized that the Initiative's scope resembled the establishment of a sizeable private military force. Narkkin pushed for direct intervention; Ravis and Tiran instead convinced the group to let Tiran infiltrate the Initiative to gather evidence first.\n\nRavis privately asked Tiran whether he was committed. He wanted to prove himself worthy of the Kandros name without leaning on her reputation, and she shared that she had once wanted to escape her own mother's shadow, telling him he had already earned his place but to come back alive. During the mission Tiran drew on Ravis's intelligence resources via encrypted channels, obtaining coordinates for the ship Novarra while seeking a quarian named Shio'Leth vas Novarra, and later a dossier on the ex-STG salarian Agent Zeta. Once the Hierarchy learned of Zeta's involvement, Ravis tried to pull Tiran out, judging the risk no longer worthwhile; Tiran insisted he was close to a breakthrough, and she relented while warning of a long discussion on his return. After Zeta's escape from Omega, Ravis informed Tiran he had been declared AWOL and accused of gross dereliction of duty, warning he would be arrested if he continued.\n\nWhen Tiran turned himself in, Ravis and the two other officials from the original meeting served as judges at his trial. Because he had already declared himself guilty, he was discharged without honor, effective immediately. Ravis initially disapproved of his choice to join the Initiative for real, suggesting he remain a civilian contractor, but came to accept it, embracing him before his departure and regretting only that she would never get to read the chapter of Kandros history he intended to write.",
+      "url": "https://masseffect.fandom.com/wiki/Ravis_Kandros",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "summary:benezia",
+      "kind": "summary",
+      "page": "Benezia",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Matriarch Benezia was a very powerful asari biotic and a revered spiritual leader, teacher of religion and philosophy, and the mother of Liara T'Soni, from whom she had been estranged for years. Given her matriarch status she had lived nearly a millennium. During her matron phase she had Liara, unusually mating with another asari, and raised her alone; Liara's study of Prothean archaeology was a minor rebellion against her forward-thinking mother. Benezia believed the asari should have a greater role in shaping galactic events. She was Saren Arterius' executor and a fellow Binary Helix investor. Evidence proving Saren caused the Eden Prime attack also showed Benezia was working alongside him, which shocked those who knew her.\n\nBenezia learned of Saren's plan to aid the Reapers and decided to try to guide him down a less destructive path, giving her followers, including Shiala, the choice to accompany her. The influence of the Reaper Sovereign proved too strong and Benezia became enslaved to Saren's will along with her guards and commandos, serving as something between his advisor and second-in-command. Through Binary Helix she funded a secret project on Noveria to breed rachni from a newly discovered egg for Saren's army; when the brood was removed from the Rachni Queen, the rachni went rogue. Benezia traveled to Peak 15 to investigate and to extract from the Queen's genetic memory the location of the Mu Relay, escorted by asari commandos. She brought geth in crates to guard the garage and left agents such as Alestia Iallis and recruited security including Captain Ventralis to stop Shepard.\n\nShepard's squad fought through geth, rachni, and commandos to find Benezia beside the Rachni Queen. Using her mental strength to keep part of her mind free of indoctrination, she briefly broke Saren's control, described the horror of indoctrination, gave Shepard the Mu Relay coordinates, and warned of Sovereign's power before turning on the squad, who were forced to kill her. She told Liara her daughter had always made her proud, and as she died claimed not to see the light promised in asari religion. In Mass Effect 3, Benezia's bondmate was revealed to be Matriarch Aethyta; the two had been together for a hundred years before disagreeing over the asari's path. After Thessia revealed a hidden Prothean Beacon, Liara wondered if Benezia knew of the coverup, and EDI suggested Benezia acted to protect Liara.",
+      "url": "https://masseffect.fandom.com/wiki/Benezia",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "summary:nef",
+      "kind": "summary",
+      "page": "Nef",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Nef was a human teenager living on Omega who was killed by the Ardat-Yakshi Morinth. Morinth seduced Nef and then murdered her by melding minds with her. In Mass Effect 2, while hunting Morinth, Shepard and the justicar Samara could help Nef's mother Diana investigate the death, as no one on Omega seemed to care that her daughter had been murdered.\n\nSearching Nef's room turned up evidence that she was an artistically talented, lonely, reserved and shy girl whose sculptures had drawn purchase offers from several art galleries. Diana related that Nef's personality had abruptly changed after she became infatuated with an asari (Morinth); Nef began spending entire nights at the Afterlife Club, gaining VIP access by dropping Jaruut's name, and sometimes vanished for days. Morinth enthralled Nef by appealing to her artistic and musical interests and may have plied her with the drug Hallex to lower her inhibitions. Nef's diary recorded early doubts that someone so exotic could be interested in her, and when she was at her most vulnerable Morinth joined minds with her and killed her.\n\nIf Shepard helped Diana and later aided Samara in killing Morinth, Diana sent a message saying that although her daughter was gone forever, she was glad to see Nef avenged. If Shepard instead helped Morinth kill Samara, Diana still sent the message, since everyone believed Morinth had died.",
+      "url": "https://masseffect.fandom.com/wiki/Nef",
+      "for_key": "asari matriarchal society, hierarchy, and the bond between mother and daughter"
+    },
+    {
+      "chunk_id": "starships-list_094",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Shadow Broker Base",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Shadow Broker Base* Class N/A Affiliation Shadow Broker Headquarters of the Shadow Broker's intel network for decades. Destroyed in 2186 during a Cerberus attack; the Base is remotely crashed into a Cerberus cruiser by Liara T'Soni. Source Lair of the Shadow Broker",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "scene:hagalaz-shadow-broker-ship-feron-yahg#07",
+      "kind": "scene",
+      "page": "Storming the Broker's Ship and Freeing Feron",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "hagalaz-shadow-broker-ship-feron-yahg",
+      "text": "Storming the Broker's Ship and Freeing Feron. 2185, during Lair of the Shadow Broker, after the death of Tela Vasir on Illium the Shadow Broker's storm-riding ship in the atmosphere of Hagalaz, Sowilo system, Hourglass Nebula With comms glitching, the Broker's agents called in for orders. Liara answered in the Broker's modulated voice, told them it was a hardware fault, and ordered every operation to report within one solar day. Feron came in with a drawn pistol, then lowered it. Liara said she was now the Shadow Broker. Shepard could hold her as she wept that her two-year hunt was finally over; she granted Shepard permanent access to the base and its network.",
+      "url": "",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "lair-of-the-shadow-broker-mission_001",
+      "kind": "page",
+      "page": "Lair of the Shadow Broker (mission)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- It begins explosively - Boss fight with a minion - Lair of the Shadow Broker - Deeper into the lair - Expose the Shadow Broker once and for all 1/5Cerberus has delivered information on purchases the Shadow Broker has made recently. It may provide the information Liara T'Soni needs to track down the Shadow Broker's location.",
+      "url": "https://masseffect.fandom.com/wiki/Lair_of_the_Shadow_Broker_(mission)",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "shadow-broker_010",
+      "kind": "page",
+      "page": "Shadow Broker",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cerberus attempted to take over the Shadow Broker operations prior to the Reaper invasion of 2186, but Liara opted to crash the Broker's ship into one of their cruisers, only taking the operating necessities with her. She sets up her Broker equipment aboard Miranda Lawson's former quarters in the renovated Normandy SR\\-2, resuming eavesdropping operations and directing the flow of her resources for the war. Her network of agents is intact, but the war is taking a toll on their numbers. Some of the Broker's resources are scattered across the galaxy, awaiting discovery. Liara took the Broker's old Info Drone with her, renaming it \"Glyph\". It is in charge of gleaning useful information from recovered intel in addition to coordinating Liara's massive data feeds. Even during the war, very few people are aware of the Shadow Broker's identity: Liara has made no steps to expose herself. Long\\-time underlings like Barla Von are unaware of any change. Urdnot Wrex, if he's alive, may only make snide allusions regarding it. |  | ***“Make no mistake — this is a one\\-way trip.”*** — Spoilers for **Mass Effect: Andromeda** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "shadow-broker_005",
+      "kind": "page",
+      "page": "Shadow Broker",
+      "section": "Cerberus Data",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Shepard raids a Cerberus base on Nepheron as part of a mission, an agent for the Shadow Broker initiates comm contact aboard the SSV Normandy, wanting to buy the Cerberus files the team managed to recover. According to the agent, Admiral Kahoku bought the Broker's services to find Cerberus' location, in return for passing on any files he discovered. However, all the Shadow Broker could find out was that there was Cerberus activity in the Voyager Cluster. Shepard can agree or refuse to sell the information. If Shepard refuses, the Shadow Broker's agent claims the information will be dug out of the Alliance databases eventually. Either way, the agent assures Shepard that this encounter will not be forgotten by his employer the next time Shepard needs the Broker's assistance. |  | ***“I said get back!”*** — Spoilers for **Mass Effect: Redemption** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "lair-of-the-shadow-broker-mission_002",
+      "kind": "page",
+      "page": "Lair of the Shadow Broker (mission)",
+      "section": "Acquisition",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Lair of the Shadow Broker and Horizon (mission) A message from Cerberus is sent to Shepard's private terminal after completing the mission on Horizon: **Shadow Broker Intel** --- To: Shepard From: Cerberus Information Processing We're aware that your old friend Liara T'Soni has been hunting for the Shadow Broker for several years. We wouldn't mind helping her in that hunt, given the Broker's past work for the Collectors. We recently uncovered some information that might give Liara a lead on where to find the Shadow Broker's base of operations, but unfortunately, she doesn't have much faith in Cerberus intel. If you'd visit Illium and pass it on to her as a gesture of goodwill, we'd appreciate it. On the Galaxy Map this mission is titled *Give Liara Intel*.",
+      "url": "https://masseffect.fandom.com/wiki/Lair_of_the_Shadow_Broker_(mission)",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "summary:shadow-broker-base",
+      "kind": "summary",
+      "page": "Shadow Broker Base",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Shadow Broker Base was a massive unnamed ship that traveled through the volatile atmosphere of Hagalaz, whose electrical storms concealed its presence. From here the Shadow Broker ran his information empire.\n\nThe exterior was hazardous, patrolled by the Broker's private army and tended by Maintenance Drones, with no handrails or guardrails; large conducting rods channeled lightning into hull-mounted capacitors to protect patrols. The interior held the engines, which had to run constantly to keep the ship aloft, a central operations center, a prison block and torture facilities for interrogation, and the Broker's office, Intel Center, and private quarters, where a custom VI Drone helped manage the network of informants and agents. Motion dampeners absorbed the noise and vibration of the storm.\n\nAfter the yahg Shadow Broker's defeat and Liara T'Soni's ascension as the new Broker, Commander Shepard gained free access to the base, where drones repaired the battle damage over subsequent visits. Veetor's Freedom's Progress footage of the Collector abductions could be seen on screens there. The Intel Center held numerous terminals: Advanced Training (respec a squadmate for 1000 element zero), an Armor Locker, Delivery Pickup (daily shipments of weapon upgrades or randomized resources), Dossiers (intelligence files on the squad and others), the Info Drone, Investment Opportunities, a Research Terminal, a collectible Shadow Broker ship model, shutter and sound-system controls, Survey Information (buy locations of resource-rich planets), and the Video Archive of surveillance clips from across the galaxy.\n\nSometime before the 2186 Reaper invasion, Liara learned the Illusive Man had tracked her and intended to seize the base for Cerberus. Knowing the aging ship could not travel in space, she and Feron loaded as much information and communications equipment onto a shuttle as they could, escaped, and remotely crashed the base into a Cerberus cruiser, destroying both ships. Assorted tech salvaged from the wreckage was later used to help build the Crucible.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Base",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "shadow-broker-engineer_001",
+      "kind": "page",
+      "page": "Shadow Broker Engineer",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | **Shadow Broker Engineers** are the tech specialists of the Shadow Broker's private army, tasked with defending the Broker's interests. They are encountered by Shepard, Liara, and the squad during the mission to bring down the Shadow Broker. They are present on Illium and at the Shadow Broker's base on Hagalaz.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Engineer",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "shadow-broker-heavy_001",
+      "kind": "page",
+      "page": "Shadow Broker Heavy",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | **Shadow Broker Heavies** are the heavy hitters of the Shadow Broker's private army, tasked with defending the Broker's interests. They are encountered by Shepard, Liara, and the squad during the mission to bring down the Shadow Broker. They are present on Illium and at the Shadow Broker's base on Hagalaz.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Heavy",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "shadow-broker-vanguard_001",
+      "kind": "page",
+      "page": "Shadow Broker Vanguard",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | **Shadow Broker Vanguards** are the biotic experts of the Shadow Broker's private army, tasked with defending the Broker's interests. They are encountered by Shepard, Liara, and the squad during the mission to bring down the Shadow Broker. They are present on Illium and at the Shadow Broker's base on Hagalaz.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Vanguard",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "summary:lair-of-the-shadow-broker-mission",
+      "kind": "summary",
+      "page": "Lair of the Shadow Broker (mission)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Lair of the Shadow Broker was a Mass Effect 2 mission in which Commander Shepard helped Liara T'Soni track down the Shadow Broker. It became available after the DLC install and the Horizon mission, triggered by a Cerberus message on the Galaxy Map titled \"Give Liara Intel,\" offering intel on the Broker's base because of his past work for the Collectors. The mission ran without a break from Illium to its end and featured mostly shielded enemies.\n\nOn Illium, Shepard delivered the intel to Liara in her office; the data also revealed that Feron, Liara's drell partner who sacrificed himself two years earlier, was still alive. Arriving at Liara's apartment, Shepard met the asari Spectre Tela Vasir investigating an assassination attempt on Liara. Clues led to Sekat, an information broker at the Dracon Trade Center, which exploded as the squad arrived. Fighting through the Shadow Broker's private army with Vasir, Shepard found Liara alive; Liara exposed Vasir as a long-time Shadow Broker asset who had killed Sekat and taken his data. Vasir fled, leading to a firefight, a skycar chase through Nos Astra, and a rooftop battle at the Azure hotel that ended with Shepard killing Vasir, who justified her betrayal as the price of intel that saved lives and accused Shepard of hypocrisy for working with Cerberus.\n\nThe trail led to the Broker's ship orbiting in the perpetual storm band of Hagalaz. Shepard, with Liara as a mandatory squadmate, fought across the ship's exterior amid lightning capacitors and maintenance drones, defended a door during a long five-wave siege, and pushed inside to free Feron. Confronting the Shadow Broker revealed him to be a yahg, taken from his homeworld and having killed and replaced the original Broker decades earlier. After a three-stage boss fight, Liara dropped an electrified fluid tank to overload his barrier and kill him. Liara assumed the Broker's identity and network, becoming the new Shadow Broker, and granted Shepard permanent access to the base. If Shepard had romanced Liara in Mass Effect, she later returned Shepard's dog tags recovered from the Normandy wreck. Rewards included 90,000 credits, element zero and palladium, and Heavy Pistol Damage and Damage Protection upgrades. Cut content included early plans to rescue Liara from the Broker or to make Shepard the Shadow Broker.",
+      "url": "https://masseffect.fandom.com/wiki/Lair_of_the_Shadow_Broker_(mission)",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "scene:alingon-liara-feron-shadow-broker-base#01",
+      "kind": "scene",
+      "page": "Infiltrating the Shadow Broker's Base on Alingon",
+      "section": "mission-aside",
+      "game": "Mass Effect: Redemption",
+      "scene_id": "alingon-liara-feron-shadow-broker-base",
+      "text": "Infiltrating the Shadow Broker's Base on Alingon. 2183, during Liara's search for Shepard's body, after Tazzik fled Omega the Shadow Broker's main base on Alingon Feron's cramped ship reached Alingon, where the Broker's automated sentries opened fire; Feron threaded the ship through an asteroid field to shake them.",
+      "url": "",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "scene:alingon-liara-feron-shadow-broker-base#02",
+      "kind": "scene",
+      "page": "Infiltrating the Shadow Broker's Base on Alingon",
+      "section": "mission-aside",
+      "game": "Mass Effect: Redemption",
+      "scene_id": "alingon-liara-feron-shadow-broker-base",
+      "text": "Infiltrating the Shadow Broker's Base on Alingon. 2183, during Liara's search for Shepard's body, after Tazzik fled Omega the Shadow Broker's main base on Alingon Inside, Feron passed Liara off as an asari escort on unscheduled Broker business to get past the outside guards, then led her toward the Broker's command center to find what the Broker was getting from the Collectors.",
+      "url": "",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "scene:hagalaz-shadow-broker-ship-feron-yahg#06",
+      "kind": "scene",
+      "page": "Storming the Broker's Ship and Freeing Feron",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "hagalaz-shadow-broker-ship-feron-yahg",
+      "text": "Storming the Broker's Ship and Freeing Feron. 2185, during Lair of the Shadow Broker, after the death of Tela Vasir on Illium the Shadow Broker's storm-riding ship in the atmosphere of Hagalaz, Sowilo system, Hourglass Nebula On Liara's cue, Shepard drew the Broker's attention while Liara used her biotics to drop the electrified fluid tank above him. His barrier overloaded and exploded, killing him.",
+      "url": "",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "summary:shadow-broker-engineer",
+      "kind": "summary",
+      "page": "Shadow Broker Engineer",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Shadow Broker Engineers were the tech specialists of the Shadow Broker's private army, tasked with defending the Broker's interests. They were encountered by Shepard, Liara T'Soni and the squad during the Lair of the Shadow Broker mission, appearing on Illium and at the Broker's base on Hagalaz.\n\nOffensively they carried the M-6 Carnifex and used the Combat Drone and Incinerate abilities. Defensively they had moderate health and shielding plus access to Tech Armor. Recommended tactics were to stay in cover against Incinerate, shoot down their Combat Drones, and use Energy Drain to quickly strip their shields while restoring the player's own.",
+      "url": "https://masseffect.fandom.com/wiki/Shadow_Broker_Engineer",
+      "for_key": "the Shadow Broker's information network"
+    },
+    {
+      "chunk_id": "summary:feron",
+      "kind": "summary",
+      "page": "Feron",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Feron was a drell information trafficker who described himself as \"an information trader. Not a slaver.\" In Mass Effect: Redemption, set after the destruction of the Normandy SR-1, Liara T'Soni hired him to help find Commander Shepard; he reported that Shepard was neither dead nor alive. Ambushed by Blue Suns sent by the Shadow Broker to delay Liara, the pair were saved by an unknown sniper, then encountered Cerberus agents, including Miranda Lawson, and were brought to the Illusive Man, who revealed the Shadow Broker was working with the Collectors. Feron admitted he had been ordered to lead Liara away from Shepard but chose to help her instead.\n\nFeron took Liara to Afterlife on Omega, where Aria T'Loak resided, and learned where the Blue Suns would bring Shepard's body. He spotted the Broker's enforcer Tazzik but missed his ship with a turret, letting Tazzik flee Omega with the body. Feron revealed he had never stopped working for the Shadow Broker, which they could exploit to track Tazzik. The two infiltrated the Broker's base on Alingon, with Feron passing Liara off as his prisoner; he downloaded the Broker's dealings while Liara distracted a hologram of the Broker. Feron confessed Cerberus had recruited him and that he and the Illusive Man had planned for Feron to snatch the body. When a Collector exposed him as a traitor, Feron held off Tazzik so Liara could escape, and was captured.\n\nIn Mass Effect 2, Liara mentioned a \"friend\" lost during her search. During Lair of the Shadow Broker, Liara, Shepard, and Cerberus intel led to the Shadow Broker Base on Hagalaz, where Feron was found being tortured on a device that could not be removed without killing him. Liara and Shepard killed the Shadow Broker; Liara took over the role, and Feron chose to stay and assist her, mentally scarred and using his drell memory recall to survive the torture. In Mass Effect 3, if Shepard helped Liara take the Broker ship, Feron helped evacuate it during a Cerberus attack, became one of Liara's agents controlling Terminus operations (to Tazzik's dismay), and emailed Shepard offering information via Glyph. If Shepard did not help overthrow the Broker, Liara hired mercenaries to storm the lair and Feron did not survive.",
+      "url": "https://masseffect.fandom.com/wiki/Feron",
+      "for_key": "the Shadow Broker's information network"
+    }
+  ],
+  "codex": [],
+  "conflicts": [
+    {
+      "canon_id": "jack-n7-tattoo",
+      "config_said": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "evidence_said": "scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment",
+      "resolution": "override 'jack-n7-tattoo' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "shepard-drinks-and-dances",
+      "config_said": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "evidence_said": "scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment",
+      "resolution": "override 'shepard-drinks-and-dances' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "jack-teaches-shepard-to-dance",
+      "config_said": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "evidence_said": "scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment",
+      "resolution": "override 'jack-teaches-shepard-to-dance' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "kasumi-jack-poetry-jam",
+      "config_said": "Kasumi and Jack hold poetry jams in secret. Grunt sometimes turns up to read excerpts from Hemingway.",
+      "evidence_said": "scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment",
+      "resolution": "override 'kasumi-jack-poetry-jam' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "joker-weeb-krogan-waifu",
+      "config_said": "Joker is a weeb. As a joke, the crew gave him a body pillow printed with a krogan woman.",
+      "evidence_said": "scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment",
+      "resolution": "override 'joker-weeb-krogan-waifu' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "joker-edi-polyamorous",
+      "config_said": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "evidence_said": "scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment",
+      "resolution": "override 'joker-edi-polyamorous' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "kaidan-vegetarian",
+      "config_said": "Kaidan is vegetarian.",
+      "evidence_said": "scenes/citadel-party-apartment.yaml — The Party at Shepard's Apartment",
+      "resolution": "override 'kaidan-vegetarian' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": [
+    "Thomas is the subject but is not in the corpus: no scene record will ever list them in `participants` or `heard_by`, so a record's silence is not absence. Their presence comes from config/narrators/thomas.notes.md, by its timeline stretches rather than its named occasions — where those notes put them with the crew they were at that period's occasions too, and outside those stretches they were not there. The notes still bind absolutely on the load-bearing facts: relationships, habits, dates, deaths, deeds."
+  ]
+}

@@ -1,0 +1,27 @@
+# Repetition flags — output/jack-tali-grunt-liara-joker-wrex_who-thomas-was-to-each-of-them-what-he-built-aboard-the-normandy-grief-and-what-he-left-behind_2026-09-20
+
+Deterministic 5-word shingle scan. A narrator's own declared `catchphrases` are excluded. Not every flag is a bug — judge each against the narrator's voice before fixing.
+
+- "a week before hammer moved" — appears in: edi-holds-the-record, jack-reads-the-poems (2 sections)
+- "about a week before hammer" — appears in: edi-holds-the-record, jack-reads-the-poems (2 sections)
+- "and i am not going" — appears in: edi-holds-the-record, tali-was-closest (2 sections)
+- "and i don't get to" — appears in: jack-holds-the-room, jack-the-last-word (2 sections)
+- "and i'm not going to" — appears in: grunt-guarded-the-kitchen, tali-was-closest (2 sections)
+- "because that's the shape a" — appears in: jack-the-last-word, wrex-tells-it-straight (2 sections)
+- "because there's no floor under" — appears in: jack-the-last-word, tali-was-closest (2 sections)
+- "dated about a week before" — appears in: edi-holds-the-record, jack-reads-the-poems (2 sections)
+- "have more than a glimpse" — appears in: grunt-guarded-the-kitchen, tali-was-closest (2 sections)
+- "i am not going to" — appears in: edi-holds-the-record, tali-was-closest (2 sections)
+- "i am the only one" — appears in: edi-holds-the-record, liara-the-quiet-hours (2 sections)
+- "no promising to come back" — appears in: jack-holds-the-room, jack-the-last-word (2 sections)
+- "not once not even the" — appears in: grunt-guarded-the-kitchen, joker-the-best-friend (2 sections)
+- "requiem dated about a week" — appears in: edi-holds-the-record, jack-reads-the-poems (2 sections)
+- "roommate who came with the" — appears in: edi-holds-the-record, joker-the-best-friend (2 sections)
+- "said he wasn't a soldier" — appears in: jack-the-last-word, joker-the-best-friend (2 sections)
+- "shepard's still out there missing" — appears in: jack-holds-the-room, jack-the-last-word (2 sections)
+- "the number sixteen heat sink" — appears in: edi-holds-the-record, joker-the-best-friend (2 sections)
+- "the roommate who came with" — appears in: edi-holds-the-record, joker-the-best-friend (2 sections)
+- "the shape this one took" — appears in: jack-the-last-word, wrex-tells-it-straight (2 sections)
+- "the way you know a" — appears in: grunt-guarded-the-kitchen, tali-was-closest (2 sections)
+- "week before hammer moved up" — appears in: edi-holds-the-record, jack-reads-the-poems (2 sections)
+- "who came with the apartment" — appears in: edi-holds-the-record, joker-the-best-friend (2 sections)

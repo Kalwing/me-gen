@@ -126,6 +126,66 @@ def _scene_records(repo: Repo, section: dict, narrator: str,
     return records, attendance
 
 
+def _turn(outline: dict, section: dict, gaps: list[str]) -> dict:
+    """Who else is speaking, and which turn this one answers — multi-voice episodes only.
+
+    A monologue pack gains nothing here, so it is byte-for-byte what it was. In an episode
+    whose sections alternate between voices, the writer needs the other speakers (they are
+    the listener) and the previous section (the turn it is replying to); the prose of that
+    turn is staging, not evidence, and is read from `sections/` at write time.
+    """
+    if not common.is_multi_voice(outline):
+        return {}
+    voices = common.episode_narrators(outline)
+    declared = [str(v) for v in outline.get("narrators") or []]
+    if not section.get("narrator"):
+        gaps.append(f"section {section.get('id')!r} names no `narrator:` in a multi-voice "
+                    f"episode ({', '.join(voices)})")
+    elif declared and section["narrator"] not in declared:
+        gaps.append(f"section {section.get('id')!r} narrator {section['narrator']!r} is not "
+                    f"one of the episode's `narrators:` ({', '.join(declared)})")
+    narrator = common.section_narrator(outline, section)
+    sections = outline.get("sections") or []
+    idx = next(i for i, s in enumerate(sections) if s.get("id") == section.get("id"))
+    prev = sections[idx - 1] if idx > 0 else None
+    return {
+        "voices": voices,
+        "listeners": [v for v in voices if v != narrator],
+        "previous": ({"id": prev["id"], "narrator": common.section_narrator(outline, prev)}
+                     if prev else None),
+    }
+
+
+def _subject(repo: "Repo", outline: dict, warnings: list[str]) -> dict:
+    """Who the episode is about, and where the writer reads them.
+
+    Shepard is the default and needs no explanation — he is in the corpus, in the scene
+    records, in every narrator's life. A named subject is usually not: an original
+    character never appears in `participants` or `heard_by`, so the attendance machinery
+    can only ever say "absent" about them. That is a property of the corpus, not a fact
+    about the evening, and the writer is told so here rather than left to infer it — along
+    with the rule for reading it: the notes' timeline stretches govern where they were,
+    not the guest list of any one occasion.
+    """
+    slug = common.episode_subject(outline)
+    rel = common.subject_notes_rel(slug)
+    exists = (repo.root / rel).is_file()
+    if not exists:
+        warnings.append(f"the episode's subject {slug!r} has no {rel} — the writer has "
+                        f"nothing to characterize them from")
+    if slug != common.DEFAULT_SUBJECT:
+        warnings.append(
+            f"{common.display_name(slug)} is the subject but is not in the corpus: no scene "
+            f"record will ever list them in `participants` or `heard_by`, so a record's "
+            f"silence is not absence. Their presence comes from {rel}, by its timeline "
+            f"stretches rather than its named occasions — where those notes put them with "
+            f"the crew they were at that period's occasions too, and outside those "
+            f"stretches they were not there. The notes still bind absolutely on the "
+            f"load-bearing facts: relationships, habits, dates, deaths, deeds.")
+    return {"slug": slug, "display": common.display_name(slug),
+            "notes": rel if exists else "", "default": slug == common.DEFAULT_SUBJECT}
+
+
 def _entities(section: dict, scene_records: list[dict], narrator: str) -> list[str]:
     """What this section is about, for narrowing the canon store."""
     out = {narrator, *(section.get("scenes") or []), *(section.get("events") or [])}
@@ -181,11 +241,13 @@ def _codex(repo: Repo, section: dict) -> list[dict]:
 
 #: The protagonist is in every scene, so an override scoped only to them is a standing fact
 #: about who Shepard is — not a dispute with any particular staging. It reaches the pack as
-#: canon either way; it just does not get reported as a conflict forty times.
+#: canon either way; it just does not get reported as a conflict forty times. The episode's
+#: subject joins this set when a run names one: they are as ever-present as Shepard is.
 _UBIQUITOUS = {"shepard", "commander shepard"}
 
 
-def _conflicts(canon_entries: list[dict], scene_records: list[dict]) -> list[dict]:
+def _conflicts(canon_entries: list[dict], scene_records: list[dict],
+               ubiquitous: set[str] = _UBIQUITOUS) -> list[dict]:
     """Where canon and a scene record speak to the same occasion.
 
     Split authority: the canon store owns *which branch happened*, the corpus owns *how it
@@ -197,7 +259,7 @@ def _conflicts(canon_entries: list[dict], scene_records: list[dict]) -> list[dic
     """
     out: list[dict] = []
     for scene in scene_records:
-        names = {str(p).lower() for p in scene.get("participants") or []} - _UBIQUITOUS
+        names = {str(p).lower() for p in scene.get("participants") or []} - ubiquitous
         names.add(scene["scene_id"].lower())
         for entry in canon_entries:
             if entry["authority"] == "override":
@@ -242,12 +304,22 @@ def _as_markdown(pack: dict) -> str:
     s = pack["section"]
     lines = [f"# Pack — {s['title']}", "",
              f"`{s['id']}` · form `{s['form']}` · target {s['target_words']} words", ""]
+    if s.get("voices"):
+        prev = s.get("previous")
+        lines += [f"Voice: **{s['narrator']}**, speaking to {', '.join(s['listeners'])}. "
+                  + (f"Answers `{prev['id']}` ({prev['narrator']})." if prev
+                     else "Opens the exchange."), ""]
 
     def block(title: str, rows: list[str]) -> None:
         lines.append(f"## {title}")
         lines.extend(rows or ["_(none)_"])
         lines.append("")
 
+    sub = pack["subject"]
+    block("Subject", [
+        f"The episode is about **{sub['display']}** — whom the narrator addresses and "
+        f"characterizes."]
+        + ([f"Read `{sub['notes']}`."] if sub["notes"] else ["_(no notes file)_"]))
     block("Form", [f"**{s['form'] or 'unset'}** — {s.get('form_description') or '_(no description)_'}",
                    "", f"This run's note: {s.get('form_note') or '_(none)_'}"])
     block("Promises", [f"- {p}" for p in pack["promises"]])
@@ -270,18 +342,21 @@ def build(repo: Repo, run_dir: Path, section_id: str, *, allow_thin: bool = Fals
     run_dir = Path(run_dir)
     outline = _load_outline(run_dir)
     section = _section(outline, section_id)
-    narrator = str(outline.get("narrator", ""))
+    narrator = common.section_narrator(outline, section)
 
     gaps: list[str] = []
     warnings: list[str] = []
+    turn = _turn(outline, section, gaps)
 
+    subject = _subject(repo, outline, warnings)
     required_facts = _required_facts(repo, section, gaps)
     scene_records, attendance = _scene_records(repo, section, narrator, gaps, warnings)
     evidence = _evidence(repo, section, gaps)
 
     store = canon_mod.load_canon(repo.canon_dir)
     entries = canon_mod.filter_for(store, _entities(section, scene_records, narrator))["canon"]
-    conflicts = _conflicts(entries, scene_records)
+    conflicts = _conflicts(entries, scene_records,
+                           _UBIQUITOUS | {subject["slug"], subject["display"].lower()})
 
     if not (section.get("events") or section.get("scenes")):
         gaps.append(f"section {section_id!r} anchors to neither an event nor a scene")
@@ -297,7 +372,8 @@ def build(repo: Repo, run_dir: Path, section_id: str, *, allow_thin: bool = Fals
                     "target_words": section.get("target_words", 0),
                     "form": form_id, "form_description": _form_description(repo, form_id),
                     "form_note": outline.get("form_note", "") or "",
-                    "narrator": narrator},
+                    "narrator": narrator, **turn},
+        "subject": subject,
         "promises": list(section.get("promises") or []),
         "required_facts": required_facts,
         "canon": entries,

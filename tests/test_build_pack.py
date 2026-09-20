@@ -238,3 +238,78 @@ def test_pack_carries_the_form_description_and_note(world):
     rendered = (run / "packs" / "one-last-party.md").read_text(encoding="utf-8")
     assert "## Form" in rendered
     assert "one night" in rendered
+
+
+def test_pack_names_shepard_as_the_subject_by_default(world):
+    repo, run = world
+    pack = build_pack.build(repo, run, "one-last-party")
+    assert pack["subject"]["slug"] == "shepard"
+    assert pack["subject"]["default"] is True
+    assert "not in the corpus" not in "\n".join(pack["warnings"])
+
+
+def _set_subject(run, slug):
+    outline = yaml.safe_load((run / "outline.yaml").read_text())
+    outline["subject"] = slug
+    (run / "outline.yaml").write_text(yaml.safe_dump(outline), encoding="utf-8")
+
+
+def test_pack_carries_a_named_subject_and_its_notes(world):
+    repo, run = world
+    notes = repo.root / "config" / "narrators" / "thomas.notes.md"
+    notes.parent.mkdir(parents=True, exist_ok=True)
+    notes.write_text("---\ncharacter: Thomas\n---\n\nAn Alliance tech.\n", encoding="utf-8")
+    _set_subject(run, "thomas")
+
+    pack = build_pack.build(repo, run, "one-last-party")
+    assert pack["subject"]["slug"] == "thomas"
+    assert pack["subject"]["notes"] == "config/narrators/thomas.notes.md"
+    assert pack["subject"]["default"] is False
+    assert "Thomas" in (run / "packs" / "one-last-party.md").read_text()
+
+
+def test_a_subject_outside_the_corpus_is_warned_about(world):
+    """Scene records will never list an original character, so silence is not absence."""
+    repo, run = world
+    (repo.root / "config" / "narrators").mkdir(parents=True, exist_ok=True)
+    (repo.root / "config" / "narrators" / "thomas.notes.md").write_text(
+        "---\ncharacter: Thomas\n---\n\nAn Alliance tech.\n", encoding="utf-8")
+    _set_subject(run, "thomas")
+
+    pack = build_pack.build(repo, run, "one-last-party")
+    warning = next(w for w in pack["warnings"] if "not in the corpus" in w)
+    assert "config/narrators/thomas.notes.md" in warning
+    # ...but the notes are read by their timeline stretches, not by each occasion's guest
+    # list, or an original character could never attend a scene at all.
+    assert "timeline stretches" in warning
+
+
+def test_a_subject_with_no_notes_file_is_warned_about(world):
+    repo, run = world
+    _set_subject(run, "nobody")
+    pack = build_pack.build(repo, run, "one-last-party")
+    assert pack["subject"]["notes"] == ""
+    assert any("nobody.notes.md" in w for w in pack["warnings"])
+
+
+def test_an_override_scoped_to_the_subject_alone_is_not_a_conflict(world):
+    """The subject is in every scene, so a standing fact about them disputes no staging."""
+    repo, run = world
+    (repo.root / "config" / "narrators").mkdir(parents=True, exist_ok=True)
+    (repo.root / "config" / "narrators" / "thomas.notes.md").write_text(
+        "---\ncharacter: Thomas\n---\n\nAn Alliance tech.\n", encoding="utf-8")
+    (repo.root / "config" / "canon" / "overrides.yaml").write_text(
+        "overrides:\n  - id: thomas-akuze\n    kind: addition\n    scope: [Thomas]\n"
+        "    statement: Thomas walked out of Akuze too.\n"
+        "    overrides: nothing\n    added: 2026-09-20\n", encoding="utf-8")
+    (repo.root / "scenes" / "citadel-party-apartment.yaml").write_text(
+        "scene_id: citadel-party-apartment\ntitle: The Party\nkind: party\n"
+        "game: Mass Effect 3\nwhen: 2186\nwhere: the apartment\n"
+        "participants: [Shepard, Thomas]\nheard_by: [Normandy crew]\n"
+        "beats:\n  - text: Thomas cooks.\n    source_chunks: [party_001]\n"
+        "source_chunks: [party_001]\n", encoding="utf-8")
+    _set_subject(run, "thomas")
+
+    pack = build_pack.build(repo, run, "one-last-party")
+    assert [c for c in pack["canon"] if c["id"] == "thomas-akuze"]
+    assert not [c for c in pack["conflicts"] if c["canon_id"] == "thomas-akuze"]

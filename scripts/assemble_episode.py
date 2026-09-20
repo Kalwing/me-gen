@@ -15,7 +15,7 @@ from scripts import common
 
 
 def header_block(outline: dict, total_words: int) -> str:
-    narrator = str(outline.get("narrator", "")).replace("_", " ").title()
+    narrator = common.voices_title(outline)
     themes = ", ".join(outline.get("themes", []))
     return (f"# {narrator} — Mass Effect\n\n"
             f"_Themes: {themes} · ~{total_words} words · generated {time.strftime('%Y-%m-%d')}_\n")
@@ -35,7 +35,7 @@ def assemble(run_dir: Path) -> Path:
     for s in sections:
         text = (run_dir / "sections" / f"{s['id']}.md").read_text(encoding="utf-8").strip()
         total += common.word_count(text)
-        bodies.append(f"## {s['title']}\n\n{text}\n")
+        bodies.append(f"{common.section_heading(outline, s)}\n\n{text}\n")
 
     episode = run_dir / "episode.md"
     episode.write_text(header_block(outline, total) + "\n" + "\n".join(bodies), encoding="utf-8")

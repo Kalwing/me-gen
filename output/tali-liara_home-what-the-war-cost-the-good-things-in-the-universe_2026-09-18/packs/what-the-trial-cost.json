@@ -1,0 +1,1210 @@
+{
+  "section": {
+    "id": "what-the-trial-cost",
+    "title": "What the Trial Cost",
+    "target_words": 800,
+    "form": "reminiscing",
+    "form_description": "Two old friends going back over the campaigns over beers. Warm, unhurried, no case to make — just \"remember when.\" Sections are adventures recalled, and the narration keeps losing the thread onto opinions about lore, culture and how things work, then circling back. Runs everything against the Shepard it remembers — this persona's choices, temper and habits are the yardstick the stories and the digressions get measured by.",
+    "form_note": "Two old friends over drinks, except the beer is on a cliff on Rannoch and the war is the Migrant Fleet's and the Council races' shared one. Tali and Liara alternate turns strictly, 6 each; no voice holds two in a row, since this is exactly the kind of unhurried back-and-forth the form wants. Each turn's first promise is its reply to the one before — Liara picks up Tali's line about the air, Tali corrects Liara's secondhand version of the trial, and so on — and both keep losing the thread onto lore (geth cognition, Thessia, admiralty politics, asari mourning custom) before drifting back to the cliff. The two women never knew Shepard chose Synthesis, and the section list is built so neither has to name it: they talk about what changed after the Crucible fired, not why.\n",
+    "narrator": "tali",
+    "voices": [
+      "tali",
+      "liara"
+    ],
+    "listeners": [
+      "liara"
+    ],
+    "previous": {
+      "id": "the-admiral-and-the-archivist",
+      "narrator": "liara"
+    }
+  },
+  "promises": [
+    "corrects the crew's secondhand version Liara just gave, gently — what it actually felt like from inside the hearing chamber",
+    "names the cost precisely: she cleared her name by using her own record and never had to say out loud what her father did",
+    "ties it to the theme directly — what belonging to the Fleet costs, weighed against what it's worth",
+    "self-interrupts, the way she does, and turns the talk toward Shepard, who stood as her advocate in that room"
+  ],
+  "required_facts": [
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "In 2185, Commander Shepard travels to the quarian Migrant Fleet to investigate charges of treason leveled against Tali'Zorah vas Neema. Tali is accused of sending operational geth components to her father, Admiral Rael'Zorah, which were allegedly used to breach a quarian laboratory ship. However, the truth is more complicated: Tali sent only non-operational geth parts at her father's request, believing he was experimenting with weapons. Her father did not inform her of his true intentions—to discover a viable way to hack geth and potentially retake Rannoch. Despite Tali's innocence, her father's secret research project spiraled out of control. The quarian Admiralty Board treats the trial as a \"trial of arms\": Tali and Shepard must successfully retake the laboratory ship Alarei or face execution. Even if they fail, the Admirals promise Tali will be pardoned posthumously. The situation becomes more politically charged because the quarian government is deeply divided over whether to pursue open war with the geth for Rannoch or to search for new colony worlds. Tali's trial becomes a proxy for this larger debate, though the personal cost to Tali is largely ignored by the leadership. During the assault on the Alarei, Shepard and Tali discover the horrifying truth: Rael'Zorah has been killed, apparently by the geth he was experimenting on. Upon retaking the ship, Tali faces a critical choice: she can ask Shepard to reveal the evidence of her father's research to clear his name, or she can request Shepard withhold the truth to protect his legacy. If the evidence is revealed, Tali is pardoned but becomes angry at Shepard, learning that the Flotilla is now torn between those demanding immediate war with the geth and those seeking peace. If the evidence is hidden, Tali becomes deeply grateful, though the Fleet remains unaware of Rael'Zorah's true work until it is eventually discovered through geth data recovered by Xen during the Reaper War.",
+      "actor": "Tali'Zorah vas Neema"
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "The laboratory ship Alarei is retaken by Shepard and Tali",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "Admiral Rael'Zorah is confirmed dead",
+      "actor": "Admiral Rael'Zorah"
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "Tali is acquitted of treason if the mission is completed",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "{'If evidence is revealed': 'Tali is pardoned but angry at Shepard; Flotilla becomes aware of the conflict between war and colonization factions'}",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "{'If evidence is hidden': \"Tali remains loyal and grateful; the Flotilla remains unaware of Rael'Zorah's true research\"}",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "The geth research data on the Alarei becomes crucial to understanding geth-quarian dynamics",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "Tali's father's legacy and honor are either exposed or protected, depending on Shepard's choice",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-treason-trial-alarei",
+      "fact": "The quarian fleet's internal political divisions are highlighted",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Tali'Zorah vas Neema, a young quarian woman who was one of Commander Shepard's most loyal companions during the fight against Saren, has earned her adult name through service and has been integrated into the Migrant Fleet as a full citizen. The Admiralty Board of the quarian fleet assigns her to a classified research mission to investigate anomalous activity in the star of Haestrom, a quarian colony world long abandoned to the geth after their extinction event. The primary objective is to study the planet's rapidly dying sun to understand its unusual behavior. Tali's strike team, including experienced marine commander Kal'Reegar, is deployed to Haestrom to conduct on-site observations. However, the team encounters unexpectedly fierce geth resistance, including multiple troop types (Troopers, Rocket Troopers, Hunters, Destroyers, Recon Drones, Primes, and even a towering Geth Colossus) and extreme solar radiation that strips kinetic and biotic shields, forcing Shepard's squad to navigate between safe shaded areas. When Shepard arrives to investigate Tali's team, they find all of the quarian marines slain except for Kal'Reegar, the sole survivor. Shepard must navigate the research facility while contending with Geth forces and the lethal radiation. The mission culminates at an observatory where Tali has positioned herself with final defensive measures. To advance, Shepard must retrieve two demolition charges from nearby structures to destroy a pillar blocking the path forward. In the final confrontation, the Geth Colossus—equipped with a powerful self-repair ability—presents a formidable obstacle. Shepard has the choice to use a Paragon interrupt to convince Kal'Reegar to stand down from providing covering fire, or to permit him to continue firing at the risk of his own death. Shepard must close to melee range to permanently disable the Colossus' regeneration protocol, destroy the construct, and eliminate waves of geth reinforcements. After the battle, Tali is successfully recruited and evacuated to the Normandy SR-2. If Kal'Reegar survives, he uploads the mission data to the Admiralty Board; if he does not survive, Tali uploads it herself, tormented by the loss of her entire team. Tali integrates into the Normandy's main engineering section alongside Gabriella Daniels and Kenneth Donnelly. Her father, Admiral Rael'Zorah, sends a message confirming her approved transfer and warning that negligence leading to her death will bring severe consequences. The mission's non-completion would prevent Tali from being recruited and would guarantee squad deaths during the suicide mission due to inability to upgrade the Normandy's shields.",
+      "actor": "Tali'Zorah vas Neema"
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Tali'Zorah is recruited into Shepard's team",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "All quarian marines except Kal'Reegar are killed",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Kal'Reegar either survives or is killed depending on Shepard's choices",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Tali is integrated into the Normandy's engineering crew",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Critical data from Haestrom is delivered to the quarian Admiralty Board",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Tali becomes available as a squadmate for the suicide mission",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "The Normandy's shields can be upgraded (preventing guaranteed squad death)",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Admiral Rael'Zorah approves Tali's transfer but expresses grave warnings",
+      "actor": ""
+    },
+    {
+      "event_id": "tali-recruitment-haestrom",
+      "fact": "Tali's loyalty toward Shepard is established",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "toombs_fate",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "I Remember Me - Corporal Toombs and Dr. Wayne at the Cerberus survival lab.",
+      "answer": "trial for wayne; save toomb",
+      "detail": ""
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "tali_trial",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Tali's loyalty mission - the Alarei, the trial before the Admiralty Board, and the data on her father.",
+      "answer": "Tali exonerated without giving the evidences of her father actions, by using her history as proof that she would never betray her people",
+      "detail": ""
+    },
+    {
+      "id": "veetor_fate",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Freedom's Progress - Veetor, handed to Cerberus or released to the Migrant Fleet.",
+      "answer": "Released",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "tali_legion_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Tali and Legion argument aboard the Normandy - whose side you took.",
+      "answer": "both",
+      "detail": ""
+    },
+    {
+      "id": "rannoch",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Rannoch's outcome - who lived, Legion's fate, Tali's fate.",
+      "answer": "Everyone lived and stayed happy, except Legion",
+      "detail": "Legion died uploading the Reaper code to the geth, as in the game. Tali lived."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "flotilla-tali-treason-trial",
+      "title": "Tali's Trial Aboard the Rayya",
+      "kind": "ceremony",
+      "game": "Mass Effect 2",
+      "when": "2185, some time after Tali rejoined Shepard",
+      "where": "the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber",
+      "participants": [
+        "Shepard",
+        "Tali'Zorah vas Normandy",
+        "Shala'Raan vas Tonbay",
+        "Han'Gerrel vas Neema",
+        "Zaal'Koris vas Qwib-Qwib",
+        "Kar'Danna vas Rayya",
+        "Kal'Reegar",
+        "Veetor'Nara"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "tali_trial": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "The Normandy is a registered Cerberus vessel and the Fleet treats it as such; only Tali's passphrase gets them docked with the Rayya. Captain Kar'Danna meets them with a marine detail — weapons raised, if Legion came along.\n",
+          "source_chunks": [
+            "tali-treason_004"
+          ]
+        },
+        {
+          "text": "If Legion is present, Kar'Danna refuses it entry outright — neither geth nor Cerberus is welcome in the Flotilla. Shepard can Charm or Intimidate him into allowing Legion aboard the Rayya; otherwise Legion returns to the Normandy and Shepard picks another squadmate. Throughout, Danna addresses Shepard as \"Captain\", reasoning that a commanding officer's decisions on their own ship carry weight even outside the Alliance.\n",
+          "source_chunks": [
+            "tali-treason_004",
+            "kar-danna-vas-rayya_002"
+          ],
+          "conditional": {
+            "legion_present": true
+          },
+          "choice": "Legion allowed aboard the Rayya or left on the Normandy"
+        },
+        {
+          "text": "The charge is smuggling active geth into the Fleet. Tali had been sending deactivated geth samples home on the orders of her father, Admiral Rael'Zorah, and insists she took every precaution.\n",
+          "source_chunks": [
+            "tali-treason_004",
+            "tali-zorah-nar-rayya_006"
+          ]
+        },
+        {
+          "text": "In the garden plaza Admiral Shala'Raan greets her as \"Tali'Zorah vas Normandy\". Tali hugs her — Auntie Raan, a friend of her father — then hears what the name means: she has been stripped of her quarian ship's name before the trial has even opened. Raan reminds her she is entitled to be represented by her current ship's captain, which is Shepard.\n",
+          "source_chunks": [
+            "tali-treason_004"
+          ]
+        },
+        {
+          "text": "Among the Admiralty Board members is Han'Gerrel vas Neema, commander of the Heavy Fleet and a friend of Tali's father from their days on the gunship Yaska. Han'Gerrel sympathizes with Tali, believing her innocent. He becomes the sole person Shepard and Tali can confide in about the true nature of Rael'Zorah's experiments on the Alarei; despite his pro-war stance, the revelation shocks him, and he vows to keep the truth quiet to protect Rael's legacy and what he intended for the Fleet.\n",
+          "source_chunks": [
+            "han-gerrel-vas-neema_002"
+          ]
+        },
+        {
+          "text": "Admiral Zaal'Koris vas Qwib-Qwib, the Board's outspoken geth sympathiser, objects to Shepard defending Tali at all — \"a human has no business in such sensitive military matters\" — and Shala'Raan overrules him, since Koris himself declared Tali crew of the Normandy SR-2. If Legion is present he objects instead that the geth should be removed from the courtroom, accusing Tali of trying to intimidate the admirals, and withdraws when reminded the Rayya's captain permitted Legion aboard. Later, quick to assume Shepard and Tali died retaking the Alarei, he moves to have Tali posthumously exiled, drawing sharp objections from Raan and Gerrel. Afterward Shepard can privately endorse or condemn his ideals.\n",
+          "source_chunks": [
+            "zaal-koris-vas-qwib-qwib_002"
+          ]
+        },
+        {
+          "text": "The Admiralty Board reveals mid-hearing that the lab ship Alarei has been overrun by geth and that Tali's father, working aboard, is presumed dead. Tali refuses to accept it. Shepard and Tali propose to retake the Alarei; the hearing recesses pending what they find.\n",
+          "source_chunks": [
+            "tali-treason_004",
+            "tali-treason_005"
+          ]
+        },
+        {
+          "text": "They come back to find the admirals about to declare Tali dead and judge her in absentia. Walking in stops that.\n",
+          "source_chunks": [
+            "tali-treason_008"
+          ]
+        },
+        {
+          "text": "The Board also carries a political argument of its own about war with the geth, which Shepard can uncover by talking to the admirals before leaving for the Alarei.\n",
+          "source_chunks": [
+            "tali-treason_008"
+          ]
+        },
+        {
+          "text": "If Kal'Reegar lived through Haestrom, he is in the crowd — one of the few quarians who openly respects Tali — and can be called as a character witness. Asked what the quarians should do about a homeworld, he says a war with the geth to retake it would be futile and bad for the Fleet, though he would never shirk his duty. Raan and Gerrel seek out his read on the trial and take his advice to let Tali retake the Alarei to win the crowd. If Shepard rallies the room, Reegar steps up beside Veetor'Nara, says Tali has done more for the Fleet than any admiral, and that if she is exiled he should be too. Afterward he tells Tali he only spoke because Shepard did, and notes she never mentioned her evidence.\n",
+          "source_chunks": [
+            "kal-reegar_003",
+            "tali-treason_008"
+          ],
+          "conditional": {
+            "kal_reegar": "survived_haestrom"
+          },
+          "choice": "Kal'Reegar survived Haestrom and testifies for Tali"
+        },
+        {
+          "text": "Whatever the verdict, the title sticks: she is Tali'Zorah vas Normandy from here on.\n",
+          "source_chunks": [
+            "tali-zorah-nar-rayya_006"
+          ]
+        },
+        {
+          "text": "If Shepard submits her father's evidence to exonerate her against her wishes, Tali is cleared but her loyalty is lost — furious not that she was proven innocent but that Shepard denied her the self-sacrifice she had chosen, going into a mission she does not expect to survive: \"I spent my whole life watching my father make decisions I didn't agree with... I didn't need another father back there. I needed a friend.\" She still backs Shepard but asks him not to speak to her unless he needs something, and can no longer be romanced.\n",
+          "source_chunks": [
+            "manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_006"
+          ],
+          "conditional": {
+            "tali_trial": "cleared with her father's evidence"
+          },
+          "choice": "presented the evidence over Tali's objection"
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "tali_trial": "cleared without her father's evidence"
+          },
+          "choice": "Tali cleared without evidence",
+          "text": "Shepard argues from Tali's own history that she would never betray her people — and, having heard the admirals out beforehand, that the trial is being worked for political ammunition. The Board exonerates her. Her father's evidence is never spent, and his name stands.\n",
+          "source_chunks": [
+            "tali-treason_008",
+            "tali-treason_013"
+          ]
+        },
+        {
+          "condition": {
+            "tali_trial": "cleared with her father's evidence"
+          },
+          "choice": "Tali cleared with evidence",
+          "text": "Shepard presents the evidence of Rael'Zorah's crimes. Tali is declared innocent and her father is posthumously exiled, his name struck from the rolls of every ship he served on, and the Fleet balkanises over what to do with the research.\n",
+          "source_chunks": [
+            "tali-treason_008",
+            "tali-treason_013"
+          ]
+        },
+        {
+          "condition": {
+            "tali_trial": "exiled"
+          },
+          "choice": "Tali exiled",
+          "text": "Shepard says no evidence was found. Tali is convicted, exiled, and given six hours to leave — and takes it in good spirits, having no ties left to confuse the question of loyalty.\n",
+          "source_chunks": [
+            "tali-treason_008",
+            "tali-treason_013"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "normandy-tali-legion-conflict",
+        "haestrom-tali-recruitment",
+        "alarei-rael-zorah-body"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "tali-treason_004",
+        "tali-treason_005",
+        "tali-treason_008",
+        "tali-treason_013",
+        "tali-zorah-nar-rayya_006",
+        "han-gerrel-vas-neema_002",
+        "kar-danna-vas-rayya_002",
+        "kal-reegar_003",
+        "zaal-koris-vas-qwib-qwib_002",
+        "manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_006"
+      ]
+    }
+  ],
+  "attendance": {
+    "flotilla-tali-treason-trial": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "mass-effect-2-cut-content-miscellaneous-texts_035",
+      "kind": "page",
+      "page": "Mass Effect 2 Cut Content/Miscellaneous Texts",
+      "section": "Tali: Treason",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Quarian: Reach Safety** --- Leave the laboratory to reach the safety of the lockdown room. **Quarian: Reach Safety** --- The quarian scientist reached the lockdown room safely. **Quarian: Reach Safety** --- The quarian scientist was killed before he could reach the lockdown room. **Avoid the Geth** --- Run the the safety of the lockdown room, avoiding geth. **The Trial: Admiral Shala'Raan** --- Admiral Shala'Raan believes Tali's father should be exiled. Discover her motives so you can build Tali's defense. **Speak to Admiral Shala'Raan** --- Talk to Admiral Shala'Raan and get her reasons for wanting to exile Tali's father. **Shala'Raan's Motive** --- Shala'Raan believes Tali's father endangered the Fleet by relaxing security protocols to get results fast. You will need to find some evidence on the Alarei that proves this false. **Prepared For the Trial** --- You have found evidence that can be used to dispute Shala'Raan's belief that security on Alarei was lax. This will prove of use during the trial of Tali's father. **The Trial: Admiral Shala'Raan** --- The trial is over. **The Trial: Admiral Zaal'Koris** --- Admiral Zaal'Koris believes that Tali's father should be exiled. Discover his motives so you can build Tali's defense. **The Trial: Admiral Zaal'Koris** --- The trial is over. **Speak to Admiral Zaal'Koris** --- Talk to Admiral Zaal'Koris and get his reasons for wanting to exile Tali's father. **Zaal'Koris' Motive** --- Zaal'Koris believes Tali's father \"tortured\" the geth. You will need to find some evidence on the Alarei that discredits his position. **Prepared For the Trial** --- You have found evidence that can be used to dispute Zaal'Koris' accusations of torture. This will prove of use during the trial of Tali's father. **The Trial: Admiral Han'Gerrel** --- Admiral Han'Gerrel believes that the quarians should prepare to attack the geth. Discover his motives so you can convince the quarians to avoid a devastating war. **The Trial: Admiral Han'Gerrel** --- The trial is complete. **Speak to Admiral Han'Gerrel** --- Talk to Admiral Han'Gerrel and get his reasons for wanting to attack the geth. **Han'Gerrel's Motive** --- Han'Gerrel believes that the geth were significantly weakened by their defeat at the Citadel. Now is the most opportune time to reclaim the homeworld. **Prepared For the Trial** --- You have found evidence that can be used to dispute Han'Gerrel's belief that the geth are weakened and vulnerable. This will prove of use during the Conclave's debate. **The Trial: Admiral Daro'Xen** --- Admiral Daro'Xen believes the quarians should prepare to attack the geth. Discover her motives so you can convince the quarians to avoid a devastating war. **The Trial: Admiral Daro'Xen** --- The trial is over. **Speak to Admiral Daro'Xen.** --- Talk to Admiral Daro'Xen and get her reasons for wanting to attack the geth. **Daro'Xen's Motive** --- Daro'Xen believes that the geth can be defeated easily by by infecting them via cyberwarfare \"hacking\" attacks. **Prepared For the Trial** --- You have found evidence that can be used to dispute Daro'Xen's belief that the geth can be easily \"hacked.\" This will prove of use during the Conclave's debate. **Quarian: Repair the Computer** --- The laboratory's quantum bluebox computer has been dysfunctional for weeks. It must be repaired. **Quarian: Repair the Computer** --- You've fixed the quantum bluebox computer. **Part Delivery** --- Deliver the repaired bluebox module to Director Genn'Shais in the lab.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_2_Cut_Content/Miscellaneous_Texts",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#13",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Shepard argues from Tali's own history that she would never betray her people — and, having heard the admirals out beforehand, that the trial is being worked for political ammunition. The Board exonerates her. Her father's evidence is never spent, and his name stands.",
+      "url": "",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "kal-reegar_003",
+      "kind": "page",
+      "page": "Kal'Reegar",
+      "section": "Tali: Treason",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Kal'Reegar survived Haestrom, Commander Shepard can encounter him again if they undertake Tali's loyalty mission and travel to the flotilla. During Tali's trial for treason, Reegar is one of the few quarians in the fleet who holds Tali in high regard and disbelieves the allegations against her. Furthermore, he can be brought on as a witness during the trial to speak on behalf of Tali's character. Commander Shepard can also ask Reegar about his opinions as to what the quarians should do about reestablishing a homeworld. Kal notes that while he believes that a war against the geth to reclaim their homeworlds would be futile, and ultimately harmful to the Migrant Fleet, he would never shy away from a fight or his military duties. If Commander Shepard chooses to rally the crowd, Kal'Reegar will come and defend Tali, agreeing with Veetor'Nara that she does not deserve to be exiled. He will say that Tali has done more for the fleet than any of the Admirals ever will and that they are disregarding everything he and Tali fought for (in less polite terms). He will then say that if Tali is exiled, then he should be as well. If the Commander talks with Reegar after the trial, Tali will thank him and say she couldn't believe he did that. He will then say she would have done the same for him, then claim he figured he had to say something after Shepard. He also comments about Tali's refusal to mention her evidence. Despite his repeated claims to be a mere point\\-and\\-shoot man, Reegar proves himself to be quite intelligent. His experience in the field has given him a decent tactical knowledge of both small\\-scale skirmishes and large scale wars. This shows during the battle on Haestrom, where he can give Shepard some good advice on both the Geth Colossus and the layout of the battlefield. He quickly picks up on the political machinations behind Tali's trial and seems to be highly respected, as both Admirals Raan and Gerrel asked for his opinion regarding Tali's trial and agreed with his recommendation to let Tali take back the Alarei to win popular support for her case, showing a decent grip of politics. Also, if Shepard does not reveal Tali's evidence, he will correctly guess that Tali found evidence she was unwilling to show. At the end of Tali's trial, Reegar explains that he's been assigned to escort other quarian techs around to search for more signs of dark energy buildup and figure out what's causing it. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Kal'Reegar",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "zaal-koris-vas-qwib-qwib_005",
+      "kind": "page",
+      "page": "Zaal'Koris vas Qwib-Qwib",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cut journal entries for Mass Effect 2 point to a series of objectives which consisted of learning each admiral's grievances against Rael'Zorah and finding evidence on board the Alarei that proves them wrong. Zaal'Koris' accusation was claiming Rael'Zorah \"tortured\" the geth, but Shepard could find evidence to the contrary and tip the trial in Tali's favor. ##",
+      "url": "https://masseffect.fandom.com/wiki/Zaal'Koris_vas_Qwib-Qwib",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#15",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Shepard says no evidence was found. Tali is convicted, exiled, and given six hours to leave — and takes it in good spirits, having no ties left to confuse the question of loyalty.",
+      "url": "",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#14",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Shepard presents the evidence of Rael'Zorah's crimes. Tali is declared innocent and her father is posthumously exiled, his name struck from the rolls of every ship he served on, and the Fleet balkanises over what to do with the research.",
+      "url": "",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "scene:alarei-rael-zorah-body#06",
+      "kind": "scene",
+      "page": "Retaking the Alarei, and Finding Rael'Zorah",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "alarei-rael-zorah-body",
+      "text": "Retaking the Alarei, and Finding Rael'Zorah. 2185, during Tali's trial at the Migrant Fleet, the hearing recessed a shuttle from the Rayya, then the geth-overrun quarian lab ship Alarei Tali recovers her father's final data — how to shut the geth down, and an instruction to show it to Han'Gerrel and Daro'Xen. Whether Shepard spends it as evidence at the trial decides how the verdict falls and whether Rael's name survives; Tali says that if his deeds come out he will be struck from every ship's rolls and remembered as the worst war criminal in quarian history. Told the truth privately, Han'Gerrel vows to bury it to protect Rael's legacy.",
+      "url": "",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "shala-raan-vas-tonbay_005",
+      "kind": "page",
+      "page": "Shala'Raan vas Tonbay",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Cut journal entries for Mass Effect 2 point to Shala'Raan having a different role during Tali's trial: instead of recusing herself, she would have supported exiling Rael'Zorah. She accuses him of endangering the Fleet by relaxing security protocols on the Alarei. However, the player could find evidence that proves security remained tight, which would tip the trial in Tali's favor. - Unused voicelines show that it was possible at one point to leave the Alarei without finding Rael'Zorah's body. Shala'Raan would show much empathy towards Tali at the news that she didn't find him, and would offer to let her know when his body is found, which Tali refuses. If Tali was exiled, Shala'Raan even offers to visit her after the Collectors are dealt with. ##",
+      "url": "https://masseffect.fandom.com/wiki/Shala'Raan_vas_Tonbay",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "han-gerrel-vas-neema_006",
+      "kind": "page",
+      "page": "Han'Gerrel vas Neema",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cut journal entries for Mass Effect 2 point to a series of objectives which consisted of learning each admiral's grievances against Rael'Zorah and finding evidence on board the Alarei that proves them wrong. Han'Gerrel would support attacking Rannoch soon as he believes the geth were significantly weakened by the Battle of the Citadel. However, Shepard could find evidence showing the geth are not so vulnerable, which would tip the trial in Tali's favor. ##",
+      "url": "https://masseffect.fandom.com/wiki/Han'Gerrel_vas_Neema",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_002",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw",
+      "section": "The trial as politics",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Tali is charged with treason and put on trial before the Admiralty Board. In her absence the Board strips her ship-name and renames her \"vas Normandy\" (after a human vessel) to undercut her plea of innocence. Talking to the Admirals reveals the trial is really about whether the quarians should go to war with the geth and retake Rannoch; Tali's supposed treason is, in Zaal'Koris's words, \"only peripherally related.\" - **Zaal'Koris** — does not hate Tali, but wants a precedent set against \"radical militants\" like her father. - **Daro'Xen** — cares only because Rael may have learned something valuable from the geth; she wants to \"return the geth to the control of their rightful masters, the quarian race.\" - **Han'Gerrel** — an old friend of Rael's; respects Tali for her help against Saren, but is set on war. - **Shala'Raan** — recused herself due to her relationship with the family; can only call in favors to help. Captain Kar'Danna of the Rayya (Tali's home ship) wishes he could do more but must stay officially neutral; if Tali is exiled he is deeply disappointed in her. Most ordinary quarians recognize the charge as a farce born of fear and want to help her — she is too careful to have brought active geth to the Fleet by mistake. Shepard can lean on Tali's past service to get her acquitted of all charges. Bringing Legion to the trial makes the quarians openly hostile and does not help her case, though it adds the geth perspective on the coming war.",
+      "url": "",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "tali-treason_015",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "Cut Content",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- A number of unused journal entries imply additional side\\-objectives were planned at some point: - **Quarian: Reach Safety**: a quarian scientist's survival would depend on whether the player helps them reach the safety of a lockdown room. - **Quarian: Repair the Computer**: the player could repair a lab's quantum bluebox module and deliver it to a cut character named Director Genn'Shais. - The trial itself was focused on Rael'Zorah instead of his daughter, and the admirals would all have accusations which could be refuted by finding the appropriate piece of evidence on the Alarei: - **The Trial: Admiral Shala'Raan**: instead of recusing herself, Shala'Raan would have supported exiling Rael'Zorah on the grounds that he endangered the Fleet by relaxing security protocols. The player could refute these claims by finding evidence on the Alarei proving that security was still tight. - **The Trial: Admiral Zaal'Koris**: Zaal'Koris accuses Rael'Zorah of \"torturing\" the geth, prompting the player to find evidence that counters his claims. - **The Trial: Admiral Han'Gerrel**: Shepard could find evidence to dispel the admiral's theory that the geth were severely weakened after the Battle of the Citadel. - **The Trial: Admiral Daro'Xen**: Daro'Xen intends to defeat the geth by hacking them, but the player can find evidence to prove that it's an inconceivable goal. - Unused plot data implies Legion could testify in favor of Rael'Zorah during the trial at some point in development. - Unused conversation paths indicate that it was possible at one point to miss Rael'Zorah's body on the Alarei, which would have resulted in different dialogue with Shala'Raan. ##",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "daro-xen-vas-moreh_005",
+      "kind": "page",
+      "page": "Daro'Xen vas Moreh",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Cut journal entries for Mass Effect 2 point to a series of objectives which consisted of learning each admiral's grievances against Rael'Zorah and finding evidence on board the Alarei that proves them wrong. Daro'Xen believes the geth could be feasibly hacked via cyberwarfare attacks, but Shepard could find evidence disputing the reliability of this plan, and tip the trial in Tali's favor. - Daro'Xen featured in a cut quest for Mass Effect 3 where she would request on the Spectre Terminal resources to perform additional experiments on synthetic intelligence based on data salvaged from Rannoch or obtained from the geth if the quarians and geth made peace. Doing so would have hurt the geth War Assets in some way and would be reflected in conversation between Shepard and Admiral Hackett. More information is available here. ##",
+      "url": "https://masseffect.fandom.com/wiki/Daro'Xen_vas_Moreh",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "summary:tali-treason",
+      "kind": "summary",
+      "page": "Tali: Treason",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Tali: Treason was Tali'Zorah's loyalty mission in Mass Effect 2, acquired some time after recruiting her when Kelly Chambers noted Tali seemed distraught. The Migrant Fleet's Admiralty Board had charged Tali with treason for smuggling active geth into the flotilla; on her father Admiral Rael'Zorah's orders she had been sending deactivated geth samples home. The Normandy, a registered Cerberus vessel, docked with the liveship Rayya via Tali's passphrase. Captain Kar'Danna met the squad; if Legion was brought, Shepard needed Charm or Intimidate to keep it aboard. Admiral Shala'Raan greeted Tali as \"Tali'Zorah vas Normandy,\" revealing the Board had already stripped her quarian ship-name, a bad omen. Raan, recused from judging due to her closeness to the family, opened proceedings, and Shepard served as Tali's advocate.\n\nThe admirals sprang the news that the lab ship Alarei had been overrun by geth and that Rael'Zorah was presumed dead. Shepard and Tali proposed to retake the Alarei, and the hearing recessed. Speaking with the admirals, Veetor, and Kal'Reegar (present only if Veetor was returned to the Fleet and Kal'Reegar survived Haestrom) revealed the trial was a facade for the admirals' agendas: Xen wanted to study AI to reclaim the geth, Gerrel wanted war to retake Rannoch, Koris wanted Tali and her father made examples of, and Raan admitted she had deliberately withheld news of Rael's death so Tali's shock would win sympathy.\n\nAboard the Alarei, Shepard's team fought through waves of Geth Troopers, Hunters, a Geth Prime, and Combat Drones in close quarters, with Tali's AI Hacking key to survival. Logs showed Rael had ordered safety protocols bypassed. Tali found her father's body and a recorded message ordering her to destroy the main geth hub and deliver the data to Xen and Gerrel. The final console proved Rael had deliberately reactivated and networked geth toward sapience for weapons tests, while clearing Tali of any knowledge. Tali begged Shepard not to reveal it, to preserve her father's name.\n\nBack on the Rayya, Shepard could clear Tali via persuasion (30 morality, loyalty gained), lie that no evidence was found (Tali exiled but loyal), rally the crowd with Veetor and Kal'Reegar, or present the evidence (Tali cleared, Rael posthumously exiled, the Fleet Balkanized, loyalty lost). Tali kept the name \"vas Normandy\" regardless. Rewards included the Energy Drain power for Tali and tech upgrades. The outcome influenced whether quarian-geth peace was possible in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-03",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The third part of a video-essay character analysis, hand-corrected from a YouTube transcript, covered Tali'Zorah's Mass Effect 2 loyalty mission, Tali: Treason. Tali was charged with smuggling active geth into the Migrant Fleet and tried before the Admiralty Board. In her absence the Board stripped her ship-name and renamed her \"vas Normandy\" after a human vessel to undercut her plea of innocence. Speaking with the Admirals revealed the trial was really about whether the quarians should go to war with the geth to retake Rannoch; her supposed treason was, per Zaal'Koris, \"only peripherally related.\" Koris wanted a precedent set against radical militants like her father; Daro'Xen cared only whether Rael'Zorah had learned something useful from the geth and wanted to \"return the geth to the control of their rightful masters, the quarian race\"; Han'Gerrel, an old friend of Rael's, respected Tali but was set on war; Shala'Raan had recused herself and could only call in favors. Captain Kar'Danna of the Rayya stayed officially neutral. Most ordinary quarians saw the charge as a farce born of fear.\n\nKeeping Legion after ME2 bred conflict, since the two squadmates were written as foils. After both loyalty missions, a charisma check let Shepard defuse a standoff in which Legion had scanned Tali's omni-tool to warn the geth of quarian weapons tests; talked down, Tali allowed Legion to send non-classified data, saying she understood Legion protecting his people \"just as Tali would do for hers.\"\n\nThe mission proved every charge against Rael'Zorah true: he had deliberately networked geth to run weapons tests, breaking the Fleet's most sacred laws. Fighting to the bridge of the Alarei, Tali found his body, then bottled her grief and refused to recover it: \"Leave him. The mission comes first.\" She wanted the evidence suppressed even at the cost of her own exile. The essayist named her fatal flaw as an irrational drive to be the sacrificial lamb for the greater good, instilled by her father, by Shala'Raan, and by quarian society. Her favorite film, Fleet and Flotilla, was her idealized fantasy of duty and love reconciled. On the betrayal path, Shepard submitted the evidence against her wishes; she was cleared but lost loyalty and a high chance of surviving the Suicide Mission, furious that Shepard denied her final act of agency: \"I didn't need another father back there. I needed a friend.\"",
+      "url": "",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "summary:lorik-qui-in",
+      "kind": "summary",
+      "page": "Lorik Qui'in",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Lorik Qui'in was the turian manager of the Synthetic Insights branch on Noveria, based at the Port Hanshan mezzanine. A polished, refined businessman fond of discussing current events, he was noted for mangling human idioms. During the events of Mass Effect, Commander Shepard needed a garage pass to leave Port Hanshan and pursue Matriarch Benezia. Administrator Anoleis, who controlled such passes, was corrupt and taking bribes; Qui'in had gathered evidence of that corruption, but Anoleis discovered this, accused Qui'in of being the corrupt party, closed his office, and illegally paid Noveria security to ransack it looking for the incriminating data.\n\nFound day-drinking at the mezzanine, Qui'in offered Shepard a garage pass in exchange for recovering the evidence from his office computer, warning that violence might be required. After the data was retrieved, Gianna Parasini revealed herself as an undercover Noveria Internal Affairs agent working for the Executive Board and asked Shepard to convince Qui'in to testify against Anoleis. Qui'in resented the presumption but could be persuaded.\n\nOutcomes varied: if the evidence was given to Anoleis, Qui'in announced he would resign before his company was tainted and drowned his sorrows, calling one drink his \"only friend.\" If Anoleis and Parasini shot each other dead, he decided he no longer needed the evidence. If the evidence went directly to Qui'in, he took Anoleis' place as Administrator of Port Hanshan. If he was convinced to testify, he was placed in protective custody pending the trial. In Mass Effect 2, should Shepard have handed him the evidence directly, Qui'in sent an email as Administrator of Port Hanshan offering to \"clear a path\" for Shepard should the Commander return to Noveria, signing off with more garbled idioms. His voice actor, Peter Jessop, also voiced Sovereign.",
+      "url": "https://masseffect.fandom.com/wiki/Lorik_Qui'in",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "summary:han-gerrel-vas-neema",
+      "kind": "summary",
+      "page": "Han'Gerrel vas Neema",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Han'Gerrel vas Neema was a member of the quarian Admiralty Board and commander of the Heavy Fleet. He had a long history of provoking trouble along the turian border. A committed advocate of reclaiming the quarian homeworld, he argued that the Migrant Fleet had the largest fleet in the galaxy yet did nothing with it; Tali'Zorah countered that the ships might be needed against the Reapers, and he replied the quarians would need a homeworld to shelter non-combatants. Daro'Xen vas Moreh derisively called him \"an aging warship,\" and he in turn dismissed Admiral Zaal'Koris vas Qwib Qwib as a \"whining suit-wetter.\"\n\nHan'Gerrel was a friend of Tali's father, Rael'Zorah, having served with him aboard the gunship Yaska before their Pilgrimage. During a batarian raid that killed six of ten crew, the two, left alone on the bridge and under orders to hold position, disobeyed to recover a tramp freighter; they received medals and were sent on Pilgrimage early. During Tali's treason trial on the Migrant Fleet, Han'Gerrel sympathized with her and believed her innocent. He was the one person Shepard and Tali could confide in about the nature of Rael's experiments on the Alarei; despite his pro-war stance the experiments horrified him, and he vowed to keep the truth quiet to protect what Rael had wanted for the fleet.\n\nHan'Gerrel was among the admirals who pushed for war against the geth, driving the synthetics to ally with the Reapers and trapping the Migrant Fleet within the Perseus Veil. When Shepard helped disable a geth dreadnought, Han'Gerrel ordered the fleet to press the attack on the geth flagship while Shepard's squad was still aboard. Back on the Normandy, Hackett and Shala'Raan condemned his recklessness, Raan threatening a treason charge. Shepard could hear his explanation or punch him and send him off the ship. He later clashed with Raan over comm about fleet maneuvering. After the Reaper controlling the geth was destroyed, Han'Gerrel ordered an all-out attack on the disabled geth fleet; whether he broke off depended on Shepard having earned the quarians' trust, and if not, the assault destroyed the entire Migrant Fleet.",
+      "url": "https://masseffect.fandom.com/wiki/Han'Gerrel_vas_Neema",
+      "for_key": "the actual charge and evidence at Tali's trial"
+    },
+    {
+      "chunk_id": "migrant-fleet_005",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Politics and Military Policy",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In theory, the Migrant Fleet remains under martial law, meaning the captain of a ship has the final say on disputes, but in practice the quarians are quite democratic. Each ship has an elected civilian council and the captain often defers to their judgment. Overruling the council without a good reason is grounds for the captain to be removed. Representatives from each ship serve on the Conclave, the civilian government. The Conclave makes the day\\-to\\-day decisions about Fleet business: collection of resources, the current course of the Flotilla, policing and so on. Opposition comes from a group called the Outriders' Coalition. The Conclave is overseen by the Admiralty Board, five quarians who can override the Conclave's decisions. Once they have chosen to override the decision, the entire Admiralty Board must resign their posts or be arrested by the quarian military. This rule is in place to ensure that the Admiralty overrides the Conclave only in the most dire situations, when the Conclave is making a mistake that threatens the survival of the quarians as a species. This policy has served the quarians well: in three centuries, the Admiralty Board has only overridden the Conclave four times. Outside the internal politics of the Migrant Fleet, the quarian navy is small, but highly aggressive due to the need to protect ships that effectively safeguard the future of their entire race. If the motives of approaching ships cannot be established, they will shoot to kill.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "summary:rael-zorah",
+      "kind": "summary",
+      "page": "Rael'Zorah",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Rael'Zorah was Tali'Zorah's father and a member of the quarian Admiralty Board. As a young trainee alongside Han'Gerrel, he defended the gunship Yaska against a batarian attack, breaking formation in defiance of orders; the Admiralty Board awarded both trainees medals and sent them on their Pilgrimages early. Rael later rose to the Admiralty Board. He was distant and hard on Tali during her upbringing, determined that she become a capable representative of the quarian people, and driven by the goal of reclaiming Rannoch and building a house for his family there. In Mass Effect: Homeworlds and via vid-mail he impressed on Tali the importance of her Pilgrimage and the need for quarians to be strong. He approved her transfer to the Normandy SR-2 after Haestrom and sent Shepard a message about it.\n\nIn 2185 Rael had Tali send him deactivated geth components for a secret project aboard the ship Alarei. He was deliberately reactivating geth to experiment on hacking their neural network, violating sacred quarian laws that predated the flight from the homeworld. He refused his assistants' advice to alert the Admiralty Board, reasoning they would bicker and that he did not want Tali caught in political blowback. The reassembled geth turned on him and killed his entire research team. Tali was charged with treason and exile for sending active geth into the Migrant Fleet. She and Shepard boarded the Alarei, found Rael's corpse, and recovered a message on his omni-tool explaining how to deactivate the geth and instructing her to show the data to Han'Gerrel and Daro'Xen. Whether Shepard presented this evidence to the Admiralty Board affected Tali's trial. Told the truth in secret, Han'Gerrel vowed to keep it hidden. Tali stated that if Rael's deeds were exposed his name would be struck from every ship manifest and he would be remembered as the worst war criminal in quarian history.\n\nIn Mass Effect 3, if Tali survived and was not exiled, she temporarily filled Rael's Admiralty seat. Rael's experiments and Daro'Xen's subsequent breakthroughs directly caused the renewed quarian-geth war. After the events on Horizon, if she survived the reclamation of Rannoch, Tali reflected on her father over drinks at the Normandy bar, drawing parallels to Miranda Lawson's relationship with her own father; if romancing Shepard, she mused that Rael would have hated her human partner, and Shepard offered a toast to his memory.",
+      "url": "https://masseffect.fandom.com/wiki/Rael'Zorah",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "dossier-tali_017",
+      "kind": "page",
+      "page": "Dossier: Tali",
+      "section": "Email",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "After the mission, Admiral Rael'Zorah of the quarian Migrant Fleet (Tali's father) sends Shepard an email (titled \"Transfer Request Approved\") regarding her decision to join Shepard: From: Admiralty Board, Migrant Fleet Commander Shepard, Per Tali'Zorah vas Neema's request included with her data delivery from Haestrom, the Admiralty Board has approved her transfer to your command. She has been informed that additional duties to the Migrant Fleet may still be necessary on occasion, but has been given extended leeway to determine when her mission with you is considered complete. This choice was hers, but your role as de facto captain during her Pilgrimage may have caused her to be more susceptible to your requests. The Admiralty Board trusts that you will treat your new crew member with the respect due an honored member of the Fleet. Should any harm come to her due to negligence on your part, this board will take severe and appropriate action. Admiral Rael'Zorah, Migrant Fleet Admiralty Board",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Tali",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "tali-treason_014",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- This mission was originally written by Chris L'Etoile before it was rewritten by Trick Weekes. As with other aspects of quarian culture, the Migrant Fleet and Tali's trial drew heavily from Jewish influences. - Bringing Legion along on this assignment results in some unique dialogue with the various members of the Admiralty Board, as well as quarian security personnel. Legion will also sit in the back during the trial after you have returned from the Alarei. - In one of his lines during the conversation, Veetor will refer to Shepard with a masculine pronoun even if Shepard is female. This is most likely an oversight. - According to Mass Effect Legendary Edition gameplay statistics as of July 27, 2021, in 96% of instances Tali was pardoned while she was exiled in the remaining 4%. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "scene:idenna-captain-mal-confides-in-kahlee#02",
+      "kind": "scene",
+      "page": "Captain Mal's Warning to Kahlee Sanders",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "idenna-captain-mal-confides-in-kahlee",
+      "text": "Captain Mal's Warning to Kahlee Sanders. 2183, during Mass Effect: Ascension, after Lemm brought the fugitives to the Idenna the quarian cruiser Idenna in the Migrant Fleet At a meeting with Admiralty Board and Conclave representatives, Mal seizes on the mention of the Reapers, arguing the quarians could find and reactivate one to seize control of the geth and retake their homeworlds.",
+      "url": "",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "scene:geth-dreadnought-freeing-legion#01",
+      "kind": "scene",
+      "page": "Cutting the Reaper Signal on the Geth Dreadnought",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "geth-dreadnought-freeing-legion",
+      "text": "Cutting the Reaper Signal on the Geth Dreadnought. 2186, Priority: Geth Dreadnought, straight after the quarian Admiralty Board's briefing the geth dreadnought broadcasting the Reaper control signal, over Rannoch After the Migrant Fleet's admirals briefed Shepard in the Normandy's war room, Shepard was sent to board and disable the geth dreadnought broadcasting the Reaper control signal that had trapped the quarian fleet. Tali'Zorah vas Normandy came as a mandatory squadmate.",
+      "url": "",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "starships-list_092",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Selani",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class N/A Affiliation Migrant Fleet The crew ship of Anora'Vanya vas Selani, a quarian found guilty by the Admiralty Board of treason. Source Mass Effect 2",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "rael-zorah_003",
+      "kind": "page",
+      "page": "Rael'Zorah",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "According to Han'Gerrel vas Neema, he and Rael were both young trainees when they had to defend the gunship Yaska against batarians. During a batarian attack, Rael managed to fight off the batarians in defiance of orders, saying that they couldn't get in trouble for breaking formation as trainees. As a result, the Admiralty Board awarded medals to both of them and sent them out on their Pilgrimages early. Rael eventually rose to a position on the Admiralty Board. He was distant from his daughter Tali, determined to help the quarians reclaim their homeworld and build a house for his family on it. He was rather hard on Tali during her upbringing, making sure she grew up to be a capable representative of the quarian people. In 2185, Rael tells his daughter to send him geth components for a secret project on the Alarei. When Tali completes her mission on Haestrom and joins Commander Shepard's crew, Rael approves her transfer. Sometime after his message is sent, the geth he had reassembled attacks both him and the other quarian scientists aboard the ship, and Tali faces treason and exile on the charge of sending active geth into the Migrant Fleet. Tali returns to the flotilla to face trial, and she and Commander Shepard board the Alarei. They find Rael's corpse, dead along with all of his research team. Tali tries to deny that he is dead, attempting to rationalize that he is trying to fake his death. After breaking down crying, she finds a message recorded on his omni\\-tool explaining how to deactivate the geth and instructing her to show the data to Han'Gerrel and Daro'Xen. Evidence showed that Rael was deliberately activating geth to perform experiments in order to find a way to successfully hack their neural network, violating sacred laws that predated the quarians' flight from the homeworld. However, he refused his assistants' advice to contact the Admiralty Board as a precaution and to have Tali send back more working material. His respective reasoning was that the Admiralty would predictably bicker and he didn't want his daughter involved in any political blowback. According to Tali, if Rael's deeds were ever revealed, his punishment would be far worse than posthumous exile: His name would be stricken from the manifests of every ship he had served on, and he would be remembered as the worst war criminal in quarian history, held up for future generations as a monster in a cautionary tale. Whether Shepard presents this evidence to the Admiralty Board affects the outcome of Tali's trial. If Han'Gerrel is told in secret after the trial (if the evidence was not presented), he becomes shocked and horrified, yet vows to keep the truth a secret, knowing how badly it would hurt the fleet and how Rael's daughter would have to pay for his mistakes. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Rael'Zorah",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "han-gerrel-vas-neema_001",
+      "kind": "page",
+      "page": "Han'Gerrel vas Neema",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“We're too comfortable now, Shepard. We've got the largest fleet in the galaxy, and we just ride around doing nothing.” **Admiral Han'Gerrel vas Neema** is one of the members of the quarian Admiralty Board. He has had a history of causing trouble along the turian border for a number of years. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Han'Gerrel_vas_Neema",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "scene:alarei-rael-zorah-body#01",
+      "kind": "scene",
+      "page": "Retaking the Alarei, and Finding Rael'Zorah",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "alarei-rael-zorah-body",
+      "text": "Retaking the Alarei, and Finding Rael'Zorah. 2185, during Tali's trial at the Migrant Fleet, the hearing recessed a shuttle from the Rayya, then the geth-overrun quarian lab ship Alarei Mid-trial the Admiralty Board reveals that the lab ship Alarei has been overrun by the reactivated geth and that Rael'Zorah, working aboard, is presumed dead. Tali refuses to accept it. She and Shepard take a shuttle from the Rayya to the Alarei, the hearing recessed until they return.",
+      "url": "",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "daro-xen-vas-moreh_001",
+      "kind": "page",
+      "page": "Daro'Xen vas Moreh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I wish to return the geth to the control of their rightful masters, the quarian race.” **Admiral Daro'Xen vas Moreh** is a member of the quarian Admiralty Board. She is known for her keen scientific interest in the geth. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Daro'Xen_vas_Moreh",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "dossier-tali_001",
+      "kind": "page",
+      "page": "Dossier: Tali",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Formerly listed as Tali'Zorah nar Rayya, the quarian engineer earned her adult name after helping Shepard defeat Saren two years ago. Tali is currently on a classified assignment for the Migrant Fleet Admiralty Board on Haestrom, deep in geth\\-controlled space.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_Tali",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "summary:ysin-mal-vas-idenna",
+      "kind": "summary",
+      "page": "Ysin'Mal vas Idenna",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Captain Ysin'Mal vas Idenna, usually called Captain Mal, was the quarian captain of the Idenna, a vessel of the Migrant Fleet. Unlike most conservative quarians, he was an aggressive proponent of change, notably advocating long-term missions for ships to leave the Flotilla and search for new homeworlds.\n\nIn Mass Effect: Ascension, Captain Mal welcomed Kahlee Sanders, Hendel Mitra and Gillian Grayson aboard the Idenna but privately warned Kahlee that the Migrant Fleet was less safe than it appeared. During a meeting with Admiralty Board and Conclave representatives he grew excited at mention of the Reapers, suggesting the quarians could find and reactivate one to control the geth and reclaim their homeworlds. He later confided to Kahlee and Hendel that the Flotilla was slowly dying, its ships breaking down faster than they could be replaced. Cerberus then attacked the Idenna; Captain Mal rallied and fought alongside his people but was being overwhelmed until Gillian Grayson intervened and Paul Grayson switched sides, warning them he had planted explosives to cripple the ship. Mal and Hendel disabled the explosives and saved the vessel.\n\nShaken, the Admiralty Board finally approved Mal's proposal, dispatching several cruisers including the Idenna on long-term missions to seek quarian survival through a Reaper or habitable planets. Mal hand-picked a crew of fifty, including Gillian, Hendel and the young quarian Lemm, judged Paul Grayson leniently by making him Kahlee's prisoner, and prepared to lead a five-year mission through a newly activated mass relay into uncharted space. In Mass Effect 2, Captain Ysin'Mal sent Commander Shepard a message of personal thanks for the Normandy SR-2's rescue of Lieutenant Forzan vas Idenna, the sole survivor of the crash of the Cyniad on Gei Hinnom.",
+      "url": "https://masseffect.fandom.com/wiki/Ysin'Mal_vas_Idenna",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "summary:quarian",
+      "kind": "summary",
+      "page": "Quarian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The quarians were a nomadic humanoid species renowned for skill with technology and synthetic intelligence. After their homeworld Rannoch was conquered, they lived aboard the Migrant Fleet, a vast collection of salvaged and secondhand ships traveling as one. Roughly three hundred years before 2183 (around the late 1850s CE) the quarians created the geth as VI-grade labor, but as they modified the geth toward more complex tasks the machines became sentient. When a geth unit asked its overseer whether it had a soul, the panicked quarian government ordered all geth terminated. The geth defended themselves; billions of quarians died and the survivors were driven into exile. The Citadel Council refused aid and stripped the quarians of their embassy, while a treaty forbade attacking the geth.\n\nQuarians are shorter and slighter than humans, with three-fingered hands, backward-bowed lower legs, UV-capable vision, and red blood. Their defining trait is a weak immune system, worsened by generations in sterile environments, forcing them to live permanently in sealed enviro-suits with extensive cybernetic augmentation. Removing a suit requires antibiotics and immuno-boosters and still carries risk; the most intimate act between quarians is linking suit environments, which reliably causes illness. Like turians they are a dextro-protein species, and their diet is largely vegan.\n\nQuarian culture centered on the survival of the Migrant Fleet, home to roughly 17 million. Couples were limited to one child to hold zero population growth. Young quarians undertook a Pilgrimage to bring something of value back to the Fleet before joining a new ship (never their birth ship) as adults. Names carried four parts: given name, clan name, \"nar\" (child of, birth ship) or \"vas\" (crew of, adult ship), and vessel name; Tali'Zorah went from nar Rayya to vas Neema to vas Normandy. The common language was Khelish, source of terms like bosh'tet and the benediction \"Keelah se'lai\" (\"By the homeworld I hope to see someday\"). Quarians once practiced ancestor worship using personality-imprint VIs until the geth destroyed the ancestor databanks. Their economy used no currency; unneeded items were left in communal areas, while food and medicine were centrally rationed. The Fleet was governed under nominal martial law by the Admiralty Board and elected Conclave. The clandestine Nedas Movement (\"Mered'vai Rannoch,\" forget Rannoch) rejected reclaiming the homeworld and later signed on with the Andromeda Initiative.\n\nBefore the Reaper invasion the Admiralty Board voted to retake Rannoch, arming the Civilian Fleet and striking geth systems, destroying a geth Dyson sphere. The geth accepted Reaper upgrades, turning the war against the quarians until, with Shepard's help on Rannoch, a Reaper Destroyer was killed and the upgrade signal cut. Depending on Shepard's choices the geth were destroyed and Rannoch reclaimed, the quarians were wiped out, or the two races made peace and coexisted. A separate quarian effort sent the ark Keelah Si'yah, carrying about 4,000 quarians and other races, toward Andromeda, where the Fortinbras Plague broke out in transit.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "summary:pilgrimage",
+      "kind": "summary",
+      "page": "Pilgrimage",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Pilgrimage was a quarian rite of passage. On reaching young adulthood, quarians of the Migrant Fleet had to leave their birth ship, travel the galaxy, and find something of value to bring back as a gift for a prospective captain, proving they would not be a burden on a ship's thin resources before being accepted as a permanent crew member. Stripped of ritual, the practice was a means of maintaining genetic diversity across the small, isolated shipboard populations of the Fleet, since marrying within one's birth vessel would sharply raise the risk of inbreeding. It also let quarians experience life beyond the Flotilla and appreciate their own people and culture, often the only chance they would get, as their skills became indispensable to the Fleet once they returned. Exceptions were made for the sick or unfit, and gifted individuals could occasionally receive special dispensation from the Admiralty Board.\n\nIn preparation, quarians were surgically fitted with immunity-boosting implants, since growing up in the sterile ships left them with virtually no natural immune system, and were given survival lessons plus weapons and armor. Some never returned, whether through misadventure or by choosing a different life. For safety a captain gave a departing quarian two code phrases for their return: one signalling success and safe reintegration, the other an alert phrase indicating return under duress, which would cause the quarian navy to immediately destroy the returnee's ship.\n\nPilgrimage gifts varied widely: food, fuel, technology, knowledge, or even a new starship for the Fleet. Some gifts were valued more than others, a derelict towed back for salvage being treated disdainfully, and individuals from prominent families were expected to return with something special, but a captain would usually accept even a modest gift out of tradition. The one absolute rule was that the gift must not be obtained by harming another, quarian or not. On completing the Pilgrimage and joining a new ship, a quarian's name changed: the childhood title \"nar\" (\"child of\"), followed by the birth ship's name, was replaced by \"vas\" (\"crew of\"), followed by the name of the ship they had earned the right to join.",
+      "url": "https://masseffect.fandom.com/wiki/Pilgrimage",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "scene:quarian-envoy-admiralty-briefing#01",
+      "kind": "scene",
+      "page": "The Admiralty Board's Ask, and Tali's Return",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "quarian-envoy-admiralty-briefing",
+      "text": "The Admiralty Board's Ask, and Tali's Return. 2186, Priority: Perseus Veil, after the failed Cerberus coup on the Citadel the Normandy's war room, docked with the Quarian Envoy Ship at Dholen in the Far Rim After the failed Cerberus attack on the Citadel, Admiral Hackett told Shepard the quarians would contribute technical specialists and support ships; the Normandy travelled to Dholen and docked with the Quarian Envoy Ship.",
+      "url": "",
+      "for_key": "Admiralty Board politics and quarian honor culture"
+    },
+    {
+      "chunk_id": "scene:haestrom-tali-recruitment#02",
+      "kind": "scene",
+      "page": "Recruiting Tali on Haestrom",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "haestrom-tali-recruitment",
+      "text": "Recruiting Tali on Haestrom. 2185, after Horizon, deep in geth-controlled space the ruined quarian research site on Haestrom, under its dying sun Shepard finds the bodies of Tali's quarian marine escort and answers a radio to reach Kal'Reegar, the marines' commander. A Geth Dropship strafing run kills the last marines and collapses a pillar, blocking the path to Tali.",
+      "url": "",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "scene:haestrom-tali-recruitment#05",
+      "kind": "scene",
+      "page": "Recruiting Tali on Haestrom",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "haestrom-tali-recruitment",
+      "text": "Recruiting Tali on Haestrom. 2185, after Horizon, deep in geth-controlled space the ruined quarian research site on Haestrom, under its dying sun Past the door Shepard meets Kal'Reegar in person, the sole surviving marine. A self-repairing Geth Colossus and waves of geth block the way to Tali's observatory.",
+      "url": "",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "kal-reegar_004",
+      "kind": "page",
+      "page": "Kal'Reegar",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Sometime after the fall of Thessia, if the quarians survived their war with the geth and if Kal'Reegar survived Haestrom, Shepard will receive an email update stating that Reegar and his squad sacrificed their lives on Palaven repairing and protecting a communications tower used for relaying critical mission information back to the Turian Hierarchy.",
+      "url": "https://masseffect.fandom.com/wiki/Kal'Reegar",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "summary:migrant-fleet-marines",
+      "kind": "summary",
+      "page": "Migrant Fleet Marines",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Migrant Fleet Marines were a military body within the quarian Migrant Fleet, tasked with naval-infantry and police operations. In 2185, Kal'Reegar and roughly a dozen of his Marines escorted Tali'Zorah vas Neema to the former quarian colony of Haestrom, then under geth control, to protect a science team studying the anomalous behaviour of the system's sun. A company of geth troops slaughtered most of the Marines, leaving Reegar as one of only two survivors of the task force. Separately, a squad of quarian marines attempted to retake the small science ship Alarei after it was overrun by geth; the raid failed and every marine involved was killed.\n\nIn Mass Effect 3, sometime after the fall of Thessia to the Reapers in 2186, and only if the quarians survived their war with the geth and Kal'Reegar survived Haestrom, Shepard could receive an Alliance News Network update reporting that Reegar and his squad were killed on Palaven while repairing and defending a critical communications tower used to relay mission information back to the Turian Hierarchy.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet_Marines",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "migrant-fleet-marines_003",
+      "kind": "page",
+      "page": "Migrant Fleet Marines",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Sometime after the fall of Thessia to the Reapers in 2186, if the quarians survived their war with the geth and if Kal'Reegar survived Haestrom, Shepard will receive an Alliance News Network update stating that Reegar and his squad of Marines were killed on Palaven while repairing and protecting a critical communications tower used for relaying critical mission information back to the Turian Hierarchy.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet_Marines",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_001",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Summary:** Part 2 of a character analysis of Tali'Zorah. Covers Mass Effect 2: her older, more confident look and the name change from \"nar Rayya\" to \"vas Neema,\" her command of a squad of quarian marines, Haestrom and Kal'Reegar, the Normandy crew's regard for her, and her two parental figures — Auntie Shala'Raan (family) and her father Rael'Zorah (duty) — plus quarian immunodeficiency and suit-linking as the culture's deepest gesture of trust. Part 3 covers the treason trial and her fatal flaw.",
+      "url": "",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "kal-reegar_002",
+      "kind": "page",
+      "page": "Kal'Reegar",
+      "section": "Haestrom",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kal'Reegar is a marine of the quarian Migrant Fleet who Commander Shepard meets on the former quarian colony of Haestrom in the Far Rim. He is part of a squad of Migrant Fleet Marines assigned to protect Tali'Zorah vas Neema, who was on the planet doing research on the system's sun. After arrival on Haestrom, the quarians are attacked by geth, who proceed to slaughter most of the expedition, except for Reegar and Tali. When Shepard encounters him, he is held up on one side of a bridge, taking potshots with a ML\\-77 Missile Launcher at a geth platoon attempting to gain access to the observatory Tali is working in. The platoon includes a Geth Colossus, which is giving Reegar trouble. His suit is punctured and he is injured. Nonetheless, Reegar is reluctant to do anything but fight and jokingly takes offense if Shepard points out the tear in his bio\\-suit. The Commander can either convince him to stand down and cover their back or accept his help in taking down the Colossus. Whatever be the case, the geth platoon is taken down and Tali is rescued. After Shepard arrives at the observatory and talks to Tali (and if Reegar has survived the battle), Reegar will come in and say he's injured and has already called for a pick\\-up. However, Tali informs him that she will not be returning to the flotilla but will join Shepard on the Normandy instead. Before they part ways, Tali gives Kal the data she obtained about the planet's sun so he can give it to the Admiralty Board. Should Commander Shepard not insist that Kal'Reegar sit out the battle with the Geth Colossus, and then take too much time during the battle, Kal'Reegar will die. Should he survive, Shepard can ask Tali on the Normandy about Kal's condition, revealing that he recovered from his injuries having sustained just a minor infection and is no worse for the wear.",
+      "url": "https://masseffect.fandom.com/wiki/Kal'Reegar",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "summary:kal-reegar",
+      "kind": "summary",
+      "page": "Kal'Reegar",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kal'Reegar was a quarian marine of the Migrant Fleet Marines. In Mass Effect 2, Commander Shepard met him on the former quarian colony of Haestrom in the Far Rim, where he was part of a squad assigned to protect Tali'Zorah vas Neema during her research on the system's dying sun. Geth attacked and killed most of the expedition, leaving only Reegar and Tali. Shepard found him pinned at a bridge, firing a missile launcher at a geth platoon including a Geth Colossus that was trying to reach Tali's observatory. His suit was punctured and he was injured, but he was reluctant to stand down; Shepard could order him to hold back or accept his help against the Colossus. If Shepard took too long in the fight without benching him, Reegar was killed; if he survived, he recovered with only a minor infection.\n\nIf he survived Haestrom, Shepard could meet him again during Tali's loyalty mission on the flotilla, where he was one of few quarians who publicly held Tali in high regard during her treason trial and could testify to her character. He argued that a war to reclaim the homeworld from the geth would be futile and harmful to the Fleet, though he would never shirk his military duty. If Shepard rallied the crowd, Reegar declared Tali had done more for the Fleet than any Admiral and said that if she were exiled, he should be too. Admirals Raan and Gerrel sought his opinion and accepted his recommendation to let Tali retake the Alarei. He was afterward assigned to escort quarian techs investigating the dark energy buildup.\n\nIn Mass Effect 3, if the quarians survived their war with the geth and Reegar had survived Haestrom, Shepard received an email that Reegar and his squad had died on Palaven repairing and protecting a communications tower relaying critical information to the Turian Hierarchy. The Reegar Carbine was named after his family of marines; cut content gave his full name as Kal'Reegar vas Lomas.",
+      "url": "https://masseffect.fandom.com/wiki/Kal'Reegar",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "geth-colossus_004",
+      "kind": "page",
+      "page": "Geth Colossus",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "There is one Colossus present on Haestrom, which acts as a level boss at the end of the mission to recruit Tali'Zorah vas Neema. A notable trait of this particular Colossus is that it is the Armature steel\\-gray, not white. Interestingly, the quarian marine Kal'Reegar calls the Colossus an \"Armature\\-class\" unit, indicating that at least quarians see it as a variation of the Armature. There are also multiple Colossi on the Firewalker Pack, but they are fought with the Hammerhead and lack the self\\-repair mechanism, making them much less challenging.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_Colossus",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_003",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "Haestrom and Kal'Reegar",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "When Shepard recruits her for the Suicide Mission, on Haestrom, her whole squad is willing to die for her — including Kal'Reegar (\"We don't have enough people on our side for you to take one for the team. Stand down.\"). She questions whether the losses were worth the research the Admiralty Board demanded: \"A lot of people died here. Some of them were my friends. All of them were good at their jobs. That damn data better be worth it.\" In the *Lair of the Shadow Broker* DLC, surveillance shows her trying and failing to write letters home to the families of the men who died protecting her, saving draft after draft.",
+      "url": "",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#10",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber If Kal'Reegar lived through Haestrom, he is in the crowd — one of the few quarians who openly respects Tali — and can be called as a character witness. Asked what the quarians should do about a homeworld, he says a war with the geth to retake it would be futile and bad for the Fleet, though he would never shirk his duty. Raan and Gerrel seek out his read on the trial and take his advice to let Tali retake the Alarei to win the crowd. If Shepard rallies the room, Reegar steps up beside Veetor'Nara, says Tali has done more for the Fleet than any admiral, and that if she is exiled he should be too. Afterward he tells Tali he only spoke because Shepard did, and notes she never mentioned her evidence.",
+      "url": "",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "alliance-news-network-information-partners_012",
+      "kind": "page",
+      "page": "Alliance News Network Information Partners",
+      "section": "Kal'Reegar",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kal'Reegar dies in the Reaper War if he survived Haestrom and the quarians survived their war to retake Rannoch. The message is received sometime after Thessia's fall. **ANN Alert: New Article on \"Quarian Fleet\"** --- From: Alliance News Network Information Partners Palaven \\- The Turian Hierarchy, one of the most powerful and respected ground forces in the galaxy, are today paying respects to an unlikely ally: the marines of the Quarian Fleet. The weakened immune systems of quarians normally means their forces are restricted to ships. But when an emergency technical team was required to repair a ground\\-based com relay, providing vital intel to the turian military, one quarian squad stepped up. Commanded by squad leader Kal'Reegar, the quarian team repaired the com system, then sacrificed their lives holding the position until krogan troops arrived. When turian troops offered to provide evac support, Reegar refused, insisting they could not risk the relay falling. He said multiple breaches to their exo\\-suits made evacuation impossible. \"We're all dead anyway,\" Reegar reportedly said. \"Just make them pay for it.\" A spokesman for Primarch Victus praised the squad's bravery. \"Whatever our past politics, today the galaxy stands together against a single threat,\" Victus said. \"We are humbled by the sacrifice of our allies from Rannoch, and we promise to return the honor.\"",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_News_Network_Information_Partners",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "dholen_001",
+      "kind": "page",
+      "page": "Dholen",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** Horizon (mission) (Mass Effect 2\\) **Prerequisite:** Priority: The Citadel II (Mass Effect 3\\) **Dholen** is turning into a red giant. As the star matures, the system experiences magnetic eruptions and increased solar output. This is a gateway system, although it has no fuel depot. Because this is a geth\\-controlled system, all civilian traffic is prohibited. Resource estimates are moderate to rich. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | Prior to the boarding operation aboard the Alarei, Kal'Reegar (if he survived the assault on Haestrom) informs Shepard and Tali that quarian scientists are worried about dark energy destabilizing Dholen and causing it to mature into a red giant too rapidly by reducing the mass of its interior. Though there is a consensus that the geth were not responsible for the anomaly, it is left unclear as to whether this phenomenon is natural or artificial.",
+      "url": "https://masseffect.fandom.com/wiki/Dholen",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "scene:haestrom-tali-recruitment#01",
+      "kind": "scene",
+      "page": "Recruiting Tali on Haestrom",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "haestrom-tali-recruitment",
+      "text": "Recruiting Tali on Haestrom. 2185, after Horizon, deep in geth-controlled space the ruined quarian research site on Haestrom, under its dying sun Tali is on Haestrom, a former quarian colony, studying why its sun is dying early. The planet is under geth attack and the solar radiation strips kinetic and biotic shields, forcing Shepard to move cover to cover through the shade.",
+      "url": "",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "summary:geth-colossus",
+      "kind": "summary",
+      "page": "Geth Colossus",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Geth Colossus was the largest geth ground unit, similar to the Geth Armature but much larger, with more health, stronger armor, and better weaponry. Its armor was brighter, a platinum-silver color with ridges on the back. It was equipped with mass accelerator machine guns and a powerful Siege Pulse mass accelerator cannon, and could fire the Siege Pulse without facing its target. In Mass Effect it was a monumentally dangerous foe almost always encountered from within the M35 Mako; effective tactics included whittling it down with the Mako's guns at long range, circle-strafing, ramming it to stun it, or engaging on foot with Shield Boost or Barrier active plus Tungsten Ammunition, Warp, Lift, and Sabotage.\n\nIn Mass Effect 2, one Colossus served as the level boss at the end of the mission to recruit Tali'Zorah vas Neema on Haestrom; this unit was Armature steel-gray rather than white, and the quarian marine Kal'Reegar called it an \"Armature-class\" unit. It had very strong shielding and armor, homing main-gun shots, and would collapse into a self-repair mode to regenerate shields (though armor damage was permanent). Its Siege Pulse no longer killed in one hit even on Insanity. It was immune to Stasis and could target Shepard through Tactical Cloak. Recommended counters included the M-920 Cain, the Arc Projector, Incinerate, and Warp. Multiple weaker Colossi lacking the self-repair mechanism appeared in the Firewalker Pack, fought with the M-44 Hammerhead, which could ram and topple them.",
+      "url": "https://masseffect.fandom.com/wiki/Geth_Colossus",
+      "for_key": "Kal'Reegar and Haestrom"
+    },
+    {
+      "chunk_id": "scene:normandy-bar-tali-rael-toast#01",
+      "kind": "scene",
+      "page": "Tali Talks About Her Father Over Drinks",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-bar-tali-rael-toast",
+      "text": "Tali Talks About Her Father Over Drinks. 2186, after the mission on Horizon, Rannoch already reclaimed the Normandy SR-2 bar With Rannoch behind her and Horizon just done, Tali drinks at the Normandy's bar and finally talks about Rael'Zorah — how distant and hard on her he was, and the house he meant to build for the family on the homeworld. She draws the parallel to Miranda Lawson and her own father.",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "tali-treason_004",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "The Rayya",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Normandy arrives at the Migrant Fleet. There is suspicion because it is a registered Cerberus vessel, but Tali's passphrase allows the ship to proceed to dock with the ship Rayya. Captain Kar'Danna with a marine detail greets Commander Shepard. If Shepard arrived with Legion, they will have their weapons aimed at the squad. Shepard can use Charm or Intimidate to convince Captain Danna to allow Legion aboard. Otherwise, Legion must return to the Normandy and another squad member selected. Captain Danna reveals that the charges are that Tali smuggled active geth into the fleet. On the orders of her father, Admiral Rael'Zorah, Tali had been sending deactivated geth samples to the fleet. When questioned further, Tali insists she took every precaution to ensure the materials were not dangerous. At the garden plaza where Tali is to be tried, Admiral Shala'Raan greets Tali as \"Tali'Zorah vas Normandy\". Tali hugs the Admiral, calling her \"Auntie Raan,\" and then introduces the Admiral to Shepard as a friend of her father. Tali then reacts to Raan calling her \"vas Normandy\"; it turns out Tali has been stripped of her quarian ship's name, something that portends badly for her chances in her upcoming trial. Raan then reminds Tali that she is still entitled to be represented at the hearing by her current ship's captain: Shepard. The Commander's reaction to being Tali's defense lawyer can garner 2 Paragon or Renegade points. After the conversation ends, Tali and her new advocate make their way into the crowded hearing chamber. Admiral Raan, forced to recuse herself from judging Tali's guilt or innocence due to their close relationship, opens the proceedings. Shepard may use Charm or Intimidate in two separate dialogue choices to gain morality points. The admirals sandbag Tali with the revelation that the lab ship Alarei has been overrun by geth, demanding an explanation. Tali's father, who was working on board, is presumed dead, but Tali, shocked by the news, refuses to accept this and wants to board the ship to look for him. Shepard and Tali propose to retake the Alarei, which the admirals approve. The hearing is recessed pending the recovery of the Alarei and any data that might reveal what truly happened on it. For additional story details and occasional morality points, Shepard can talk with the admirals, Veetor, and Kal'Reegar, if he survived Haestrom. The latter two are strongly supportive of Tali and had come to speak publicly on her behalf, but only if two conditions are met: Veetor was not given over to Cerberus, and Kal'Reegar is alive. Shepard learns that the hearing is a facade for the members of the Admiralty Board to advance their own individual agendas; Tali's guilt or innocence is of only secondary importance. Admiral Xen wants to study AI to regain control of the geth; she will be particularly fascinated by Legion if it is present. Admiral Gerrel advocates a war to retake the quarian home world, believing that the quarians have become complacent as a people. Admiral Koris sympathizes with the geth and believes that Tali and her father need to be made examples of to send a larger message about the evils the quarians inflicted upon their \"children\". Admiral Raan alone appears to be acting out of concern for Tali, admitting that she deliberately prevented Tali from being informed about her father's likely death so that her genuine shock at the news during the trial would garner sympathy and make the other admirals more likely to allow her to board the Alarei to find evidence that could exonerate her. Shepard can also return to talk to Captain Danna, but Shepard will not be able to return to the Normandy or request new squad members.",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-2-mass-effect-2-leadership-and-family_006",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family",
+      "section": "Two parental figures",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- **Auntie Shala'Raan** — Admiral Shala'Raan vas Tonbay, a friend of Tali's father and a blood relative (her sister was Tali's mother). Tali treats her as family and hugs her warmly. Raan is willing to sacrifice her own power and call in favors to help family: \"Do you know how many favors I had to call in… I wore holes in my suit to get you that opportunity.\" She represents the *family* side of quarian society. - **Rael'Zorah** — Tali's father, a high-ranking figure who became distant by burying himself in his work; per Raan, he showed his love by working to give Tali \"a home world.\" He confuses duty to the Fleet with love for his daughter — \"the good of the people comes first; my father taught me that.\" He represents the *duty* side. Between them, Tali is torn between an ingrained sense of duty to the Fleet and a capacity to think as a loving individual.",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_007",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“What could I possibly be suggesting? I mean, a young woman gets rescued by a dashing commander who lets her join his crew and then goes off to save the galaxy? How could she possibly develop any kind of interest in him?” Tali is a potential romance option for a male Shepard. When Tali first joins the crew of the Normandy, Yeoman Kelly Chambers informs Shepard that Tali may wish to be \"more than just good friends\" and describes the noticeable signals in her body language. Kasumi Goto also notices the signs, telling Shepard that he's \"all she talks about\" and that he'd better be good to her. After completing her loyalty mission, Tali takes on a small fever and tells Shepard what life inside her suit is like. She says that quarians are in their suits their whole lives and that the most intimate thing that they can do with another quarian is link their suit environments. It can be dangerous and is considered their most sacred form of trust. Tali accidentally lets it slip that she trusts only Shepard that much. She initially acts nervous, stumbling over her words, and can even be accused by Shepard of blushing, though she blames it on her fever. Eventually, she confirms the Yeoman's thoughts, revealing that since the start of their adventures together fighting Saren, she had developed feelings for Shepard. Until this point, however, Tali was afraid to act on her feelings because she doubted that he could see who she truly was under her mask. She is happily surprised when Shepard proves her wrong by telling her how he feels the same way about her. Tali later apologizes for putting him on the spot, saying she was \"unprofessional and selfish\". She tells Shepard that he \"deserves to be happy with someone\" and doubts that she can do that for him. But Shepard says that he doesn't want to be with anyone else, he wants to be with Tali, and he'll do everything he can to make it work. Overjoyed to hear this, Tali tells Shepard that she wants this relationship to be real: she must feel his skin against hers. Unfortunately, quarians' weak immune systems and dextro\\-amino acid chirality makes physical acts of affection dangerous, if not deadly. She thus asks that Shepard give her some time until she can adequately make herself ready. Shepard can also get intimate advice from Mordin Solus, who will suggest Shepard \"self\\-sterilize\", citing oral contact as dangerous, and forwards information packets regarding quarian physiology and positions comfortable for both species to Shepard's room. Shortly before the Normandy's entry into the Omega 4 Relay, Tali nervously goes to Shepard's room saying that she has taken several antibiotics and herbal supplements to bolster her immune system. Speaking nonstop (a \"defense mechanism\"), she becomes visibly nervous about removing her bio\\-suit and having her first intimate experience. Shepard eases her worries and proceeds to remove her mask, viewing her face unobstructed for the first time. Her fears gone, Tali pounces on Shepard and passionately kisses him as the scene fades to black. If Tali survives the suicide mission, she informs Shepard that although she is experiencing several rather severe symptoms as a result of their tryst, \"it was totally worth it.\" #### Lair of the Shadow Broker Should Shepard choose to bring Liara aboard the Normandy to catch up after completing the Lair of the Shadow Broker, she will ask Shepard what he is fighting for and whether it is a chance to give Tali a new homeworld. If Shepard answers in the positive, he claims it is because Tali is important to him. In reply, Liara reveals that Tali has been awestruck ever since she joined him two years ago, to which Shepard wishes Liara could have mentioned it to him at the time. Liara then reveals that had she told Shepard then, it would have ruined the fun of him finding out on his own. If Shepard had romanced Liara in 2183 and later chose to just remain friends, Liara will instead say that though she was naive, she had a vested interest in \"not adding any more competition.\" Before returning to the Shadow Broker's ship, Liara says that she hopes the two of them will find happiness together. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "migrant-fleet_013",
+      "kind": "page",
+      "page": "Migrant Fleet",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Commander Shepard and Tali can travel to the Migrant Fleet in 2185 to answer the charges of treason leveled against the quarian. Tali allegedly sent operational geth to her father. However, she only sent parts on her father's request, though he did not tell her why. She assumed her father was testing weapons on the geth. But, despite the fact that all the parts Tali sent were non\\-operational and harmless, the geth had somehow managed to commandeer the lab ship, killing all onboard and repelling any attempt at retaking the ship. Fearing for her father, Tali and Shepard undergo what amounted to a trial of arms: retake the lab ship, or die trying. (In the event of their tragic deaths, one of the Fleet admirals promised to have Tali pardoned posthumously). After a battle aboard the laboratory ship, they discover that Tali's father had the geth rebuilt in an attempt to find a viable way to hack them. The project got out of hand, leading to his death, and Tali was blamed, ironically contrary to her father's intentions. After the incident with Paul Grayson and his daughter Gillian, the quarian government was in the midst of heated debate, torn between fighting the geth for their homeworld or attempting to colonize a new system. Tali's father was for fighting the geth (having promised to build Tali \"a house on the homeworld\"), using the quarian's skill with technology, along with other admirals, but there was opposition from the colonist faction. Tali's trial, intentionally or unintentionally, became little more than a veneer under which the larger issue was to be settled. The personal cost to Tali was not considered. Once the lab ship is saved, Tali begs Shepard not to reveal her father's work, fearing his disgrace, that her people would vilify him to the point of making him a warning to children for centuries, and even strike his name from the rosters of all of the ships he had served on (in effect, deleting any record of his existence). Shepard can reveal the evidence, which pardons Tali with most other options lead to her exile. If Shepard presents the evidence to the court, Tali gets angry at Shepard, prompting her not to speak with the Commander, unless it is really important. After returning to the Normandy, she also informs Shepard that the Flotilla is now in great distress: some call for immediate war with the geth, some (on the contrary) wish to make peace with the geth. If Shepard decides to withhold the evidence, Tali (regardless whether she was exiled or not) is grateful to Shepard for saving her father's name and stays loyal to the Commander, and the Fleet is none the wiser until Xen follows through with examining the data from the Alarei.",
+      "url": "https://masseffect.fandom.com/wiki/Migrant_Fleet",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-5-the-romance-arc-and-conclusion_004",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 5) — The Romance Arc and Conclusion",
+      "section": "Miranda toast (ME3)",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Tali drunkenly toasts Miranda: \"I didn't like her… but I respected her. She did whatever it took to stop her father. She never gave in to him, never changed herself to please him.\" Shepard notes she sees herself in Miranda fighting her father. Tali: \"I spent my life trying to live up to him, then making up for his mistakes… When do we get to stop reacting to our parents and start living for ourselves?\" (This \"emergency induction port\" / straw scene is where the running joke about how a suited quarian drinks comes from.)",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "tali-zorah-nar-rayya_015",
+      "kind": "page",
+      "page": "Tali'Zorah nar Rayya",
+      "section": "Romance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“And for the record... still totally worth it.” Provided that Tali survives the suicide mission, she then meets Shepard again during the diplomatic talks with quarians. Depending on whether or not she was exiled, she's either one of the Admirals discussing the war or the Admiralty Board's \"secret adviser\" on the geth. After a brief discussion with the admirals, Tali and Shepard walk into another area of the ship where Shepard can inquire about their relationship. Tali informs Shepard that she can't discuss it in front of the Admirals and suggests that he invite her to his quarters for a more private conversation. If she has been invited to Shepard's quarters, Shepard may choose to continue the relationship with her. After the destruction of the Geth Dreadnought, while on a call with Tali, Javik says that quarians were considered physically attractive even during his cycle, and he suggests to her that he is aware of her relationship with Shepard. She is surprised as she didn't believe anyone would have been aware of the relationship, let alone someone whom she had just met. Alternatively, while having a conversation with Shepard about the reason he fights being for his friends and crew, Javik says he believes there is another reason: Shepard's relationship with Tali. Javik asks if Shepard and Tali are \"joined.\" Shepard confirms this, but Javik states that he could already sense it by his pheromones. Before Shepard faces down the Reaper on Rannoch, Tali confesses her love for the Commander in lieu of Legion or the Geth VI wishing him good luck. On the Normandy after successfully retaking her homeworld, she tells Shepard that nothing stands between them now, and that she will be at his side against whatever the galaxy throws at them. Before resuming her duties, she tells the Commander she has left him something in his room. Next to his bed, Shepard finds a picture of Tali without her mask. If Shepard chooses the geth at the expense of the quarians on Rannoch, not even Tali's love for the Commander will stop her from taking her own life. On the Presidium, after Tali's conversation with the turian clerk, Shepard can laud her for forgetting past grievances or encourage her to remind the turian of the past. Either way, Tali will remark that the war is bigger than old grudges. Shepard then praises Tali, saying that the difference between the two is Tali's willingness to help when it counts. Tali will shake her head and reveal that it was Shepard who made the difference in her attitude. After the mission on Thessia, Tali is seen standing by the Memorial Wall. She comforts Shepard when he expresses concern over the current direction of the war. Tali ends by enjoining Shepard to never forget he is the man she loves, no matter what. If Shepard visits Tali while she's drinking turian brandy in the Port Observation Lounge after the mission on Horizon, she proudly declares that she is having a drink with her human boyfriend and that her father would've hated Shepard. When Shepard launches the mission against the Cerberus base, Tali comes to his quarters and asks to spend the night with him. If he accepts, they remove her mask together and passionately kiss. Several hours later, Shepard awakes to find Tali putting the final pieces of her suit back together. After inquiring about her well\\-being, she reassures him by saying that her system has adapted to physical \"contact\" with him. She rejoins him in bed and they comfort each other, preparing for the confrontation with the Reapers. If neither Tali nor Garrus Vakarian is in a relationship with Shepard, the two of them eventually enter into a romantic relationship with each other, eventually getting \"caught\" together in the Normandy's main battery. Provided that the Commander is not romantically involved with either, their conversations over the intercom end awkwardly, revealing their mutual affection. Otherwise, their conversations end casually, indicating that the two are simply friends. During the intercom conversation about early missions, Tali notes that Garrus, being a sniper, keeps things at a distance, while Garrus in turn observes that Tali likes things up close and personal, though Tali clarifies that \"it depends on who it is.\" If one of them is in a relationship with Shepard, Tali still visits Garrus at the main battery to say her goodbyes as well as make a wager on who can kill the most. Shepard can then thank them both for being there through everything and for believing in the Commander no matter what. Tali then comments that they will finish it the same way as it started, together. During the final mission on Earth, Tali and Shepard can say goodbye before the final battle.",
+      "url": "https://masseffect.fandom.com/wiki/Tali'Zorah_nar_Rayya",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "manual-tali-zorah-vas-normandy-character-analysis-part-3-the-treason-trial-and-her-fatal-flaw_005",
+      "kind": "page",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 3) — The Treason Trial and Her Fatal Flaw",
+      "section": "The evidence — and her fatal flaw",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The loyalty mission proves every charge against Rael'Zorah true: he deliberately networked geth to run weapons tests, breaking the Fleet's most sacred laws. Tali wants the evidence suppressed even at the cost of her own exile: \"I can't go back into that room and say that my father was the worst war criminal in our people's history.\" If exiled, his name would be struck from every ship's registry and he would be remembered as a traitor and a cautionary tale. The essayist names this her fatal flaw: an innate, irrational desire to be the sacrificial lamb for the greater good of her people — instilled by her father, by Shala'Raan, and simply by growing up in a society where every quarian must stay in lockstep for the Fleet to survive. Her favorite film, *Fleet and Flotilla* (a romance between a turian and a quarian who have one night together before duty calls), is her idealized fantasy of duty and love reconciled — a form of escapism from those very expectations.",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "tali-treason_008",
+      "kind": "page",
+      "page": "Tali: Treason",
+      "section": "Return to the Rayya",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Shepard returns to the Rayya to discover that the admirals are about to pronounce Tali dead and deliver judgment in absentia. After the Commander and Tali's entrance prevents this, the admirals ask if they discovered anything on the Alarei. Tali gives her captain a meaningful look and quietly pleads with him one final time. Shepard now has several choices: - Use Charm or Intimidate to point to Tali's history as proof that she would never betray her people. If Shepard took the time to speak to the Admiralty Board before departing to retake the Alarei (and thus uncovered the political debates between the admirals over war with the geth), the speech given will focus more on how Tali's trial is being abused to generate political ammunition. Either way, it will generate 30 of the appropriate morality points and the Admiralty Board will exonerate Tali, granting Shepard her loyalty. - Lie and say no evidence was found, gaining 30 Paragon points. Tali is found guilty of treason and exiled from the Migrant Fleet. She has six hours to leave. However, Tali's loyalty is earned. - If Shepard spoke to the Admirals about their motivations, Veetor and Kal'Reegar are present, and Shepard asked them for their help before leaving for the Alarei, Shepard can rally the crowd. The option is only available if Veetor was returned to the Fleet instead of Cerberus on Freedom's Progress and Kal'Reegar survived Haestrom. They will speak on her behalf and say Tali \"did more for the fleet\" than the admirals ever will. The admirals are cowed and find Tali not guilty. 30 Paragon points will be awarded. Shepard now has Tali's loyalty. - Present the evidence of Tali's father's crimes, earning 30 Renegade points. Tali is declared innocent, but her father faces dramatic consequences. He is posthumously exiled and his name is stricken from the rolls on every ship he served. The Migrant Fleet becomes Balkanized, as the public revelation of the data brings simmering tensions to the forefront. Some ships want to use the research to make new weapons against the geth. Others want to make peace with the geth. Tali is angry at what Shepard has wrought and will not be loyal. Note that the persuasion dialogue options are only available with a very high morality reputation, so if you have allowed Veetor or Kal'Reegar to die, you may wish to wait until you've done more to raise that reputation score before taking this mission on. If Tali is found not guilty, Admiral Raan presents Shepard with a tech damage upgrade in thanks. **Note:**  At this point Shepard will be offered the opportunity to end the mission immediately, but if you don't leave yet, further conversations can be had with Veetor, Kal'Reegar, Captain Danna, and the admirals, some with more morality rewards depending on how the trial unfolded; see the Morality Guide for details. If Tali is found not guilty, then after the trial, if Shepard talks to Admiral Han'Gerrel, he will ask what had happened on the Alarei. Shepard and Tali can confide in him about his old friend Rael'Zorah's experiments. He will be shocked to hear this, but promise to keep it a secret. Admiral Daro'Xen will also ask about what happened, but Tali will immediately reply that it's nothing that would help her. No matter what, upon completion, a new outfit will unlock for Tali. If you talked with the admirals before the trial, you'll get dialogue options in which Shepard can request the admirals move in a particular direction: to attempt to retake their home world by force, or to avoid going to war with the geth at all costs. Regardless of your recommendation, the quarian leaders' replies will be noncommittal. After the trial, Tali retains her changed name, and is listed as \"Tali'Zorah vas Normandy\".",
+      "url": "https://masseffect.fandom.com/wiki/Tali:_Treason",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#04",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber In the garden plaza Admiral Shala'Raan greets her as \"Tali'Zorah vas Normandy\". Tali hugs her — Auntie Raan, a friend of her father — then hears what the name means: she has been stripped of her quarian ship's name before the trial has even opened. Raan reminds her she is entitled to be represented by her current ship's captain, which is Shepard.",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "scene:normandy-bar-tali-rael-toast#02",
+      "kind": "scene",
+      "page": "Tali Talks About Her Father Over Drinks",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-bar-tali-rael-toast",
+      "text": "Tali Talks About Her Father Over Drinks. 2186, after the mission on Horizon, Rannoch already reclaimed the Normandy SR-2 bar Drunk, Tali raises a toast to Miranda: she never liked her, but respected that Miranda did whatever it took to stand up to her father and never changed herself to please him. She turns it on herself — \"When do we get to stop reacting to our parents and start living for ourselves?\" This is the exchange the running \"emergency induction port\" joke about how a masked quarian drinks comes from.",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "summary:tali-character-analysis-04",
+      "kind": "summary",
+      "page": "Tali'Zorah vas Normandy — Character Analysis (Part 4) — Mass Effect 3 and Rannoch",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The fourth part of a hand-corrected video-essay character analysis covered Tali'Zorah in Mass Effect 3. If she survived the Suicide Mission, she apologized to Shepard for the trial and admitted he had been right: \"I was too ready to sacrifice myself for the good of the Fleet. I need to stop doing that.\" She took an Admiral's seat in her father's place specifically to push back against the Board's worst ideas, the version of Tali the essayist preferred. If exiled, she instead told Shepard the trial had shown her she belonged \"on the Normandy, helping you,\" aiding her people from the shadows.\n\nAs Admiral she doubted her fitness to command, with seventeen million lives riding on her. After speaking with Legion she believed the quarians could sue for peace, but once Daro'Xen turned Rael'Zorah's research into \"an invasion too good to pass up,\" Tali had no choice but to support it \"for the good of the Fleet,\" regressing toward the sacrificial lamb of ME2 and becoming a near-powerless victim of politics again. The essay noted quarian scarcity: 17 million in the flotilla, one child per family unless the population declines, every quarian contributing to the Fleet's survival. Shala'Raan was the reason Tali was permitted to attempt to retake the Alarei.\n\nAt the Rannoch climax Shepard chose between peace, geth genocide, or quarian genocide. Siding with the quarians, Tali killed Legion (or shut the geth down) with a \"flat shovel blade,\" expressed regret, and answered Legion's last question, \"Does this unit have a soul?\", with \"Yes... yes, it does.\" Siding with the geth, Tali begged Shepard not to choose them over her people, then as Admiral called off the quarian fleet's attack while Legion sacrificed himself to disseminate the code. On the botched path, unable to stop Han'Gerrel, Rael and Daro'Xen, Tali watched what remained of the quarian fleet burn in Rannoch's atmosphere, Captain Ysra of the Rayya on the radio, and took her own life before her home ship burned. Afterward, if the geth helped rebuild Rannoch, Tali admitted: \"I'd have killed the geth with no regrets, and I'd have been wrong.\"",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "summary:shala-raan-vas-tonbay",
+      "kind": "summary",
+      "page": "Shala'Raan vas Tonbay",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Shala'Raan vas Tonbay was a member of the quarian Admiralty Board and an old friend of Tali'Zorah's father Rael'Zorah, having known the Zorah family for over 25 years. Tali called her \"Auntie Raan.\" Raan and Tali's mother had synchronised suits so both could be in the clean room for Tali's birth, leaving Raan sick for a week, and Raan was the one who placed the infant Tali in her environmental bubble.\n\nIn Mass Effect 2, Raan presided over Tali'Zorah vas Neema's treason hearing aboard the Rayya but recused herself from judging due to her ties to the family, acting instead as moderator and spokesman. She deliberately withheld news of the geth attack on the Alarei so Tali's surprise would be genuine before the judges. She was undecided on the geth question. Depending on Shepard's advocacy, Raan announced either that Tali was guilty and exiled or that the Board had acquitted her.\n\nIn Mass Effect 3, if Tali died at the Collector Base, Raan filled her role as a quarian envoy aboard the Normandy SR-2. She had given provisional support to Han'Gerrel and Daro'Xen's push for war with the geth. During the mission to disable the geth dreadnought she followed the plan and tried to stop Han'Gerrel from ordering the Heavy Fleet to fire on the ship while Shepard's team was aboard, then threatened to charge him with treason. She tasked Daro'Xen with countering the Reaper-upgraded geth, asked Shepard to rescue Zaal'Koris after his crash landing on Rannoch, and later provided a Sync Laser and the coordinates of the Reaper base; her ship was shot down during the assault.\n\nIf Shepard chose the geth and Raan had replaced Tali, she shot herself in the head. If Shepard chose the quarians and Tali was dead, Raan killed Legion or the Geth VI with a shotgun when the geth platform attacked, expressing regret. If peace was secured, a newly sentient Geth Prime welcomed the quarians to Rannoch and Raan suggested settling the southern continent for its farmland. Afterward she renamed herself Shala'Raan vas Rannoch and sent Shepard a progress report on the fleet's recovery and support of the war effort. If Tali was dead, Raan committed the quarian forces to the final battle on Earth.",
+      "url": "https://masseffect.fandom.com/wiki/Shala'Raan_vas_Tonbay",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    },
+    {
+      "chunk_id": "scene:flotilla-tali-treason-trial#05",
+      "kind": "scene",
+      "page": "Tali's Trial Aboard the Rayya",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "flotilla-tali-treason-trial",
+      "text": "Tali's Trial Aboard the Rayya. 2185, some time after Tali rejoined Shepard the liveship Rayya at the Migrant Fleet — the garden plaza, then the hearing chamber Among the Admiralty Board members is Han'Gerrel vas Neema, commander of the Heavy Fleet and a friend of Tali's father from their days on the gunship Yaska. Han'Gerrel sympathizes with Tali, believing her innocent. He becomes the sole person Shepard and Tali can confide in about the true nature of Rael'Zorah's experiments on the Alarei; despite his pro-war stance, the revelation shocks him, and he vows to keep the truth quiet to protect Rael's legacy and what he intended for the Fleet.",
+      "url": "",
+      "for_key": "what Tali chose not to say about her father in her own defense"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 196,
+      "text": "- In Mass Effect 2 Tali's name changed from Tali'Zorah nar Rayya to Tali'Zorah vas Neema on completing her Pilgrimage, and at 25 she commanded her own squad of quarian marines; on Haestrom her whole squad, including Kal'Reegar, was willing to die for her. (source: Tali'Zorah vas Normandy — Character Analysis (Part 2) — Mass Effect 2: Leadership and Family)",
+      "for_key": "kal'reegar and haestrom"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 53,
+      "text": "- On Haestrom in 2185, a company of geth wiped out Kal'Reegar's Migrant Fleet Marine escort protecting Tali'Zorah's science team, leaving Reegar its sole survivor and himself in danger fighting a self-repairing Geth Colossus until Shepard ordered him to stand down; a separate marine squad died trying to retake the geth-overrun ship Alarei. (source: Migrant Fleet Marines)",
+      "for_key": "kal'reegar and haestrom"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

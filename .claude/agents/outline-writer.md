@@ -34,6 +34,36 @@ reach for a trilogy-wide personal arc unless the form you chose is `arc`.
 back. A digressive narrator in a tight form still digresses; the form governs where they
 return to.
 
+## More than one voice
+
+If the run's `outline.yaml` has a `narrators:` list, the episode is told in alternating
+voices: every section is one narrator's turn, speaking to the other(s). Otherwise it is a
+monologue and nothing in this section applies — do not add `narrator:` to sections.
+
+- Give **every** section a `narrator:` from that list. Alternate by default; let one voice
+  hold two turns in a row only where the talk would (a story that needs finishing, a
+  silence the other lets stand), and say so in `form_note`.
+- Prefer the `dialogue` form. Any other form still works in two voices — say in
+  `form_note` how the turns carry it.
+- **Each turn answers the one before.** Its first promise is the reply: what it picks up
+  from the previous turn and where it pulls the talk next ("Liara answers Tali's pride in
+  the new houses with what the Shadow Broker files say about the geth who built them"). A
+  turn that could be reordered without anyone noticing is two monologues, not a dialogue.
+- **Everything above about narrator bibles applies per voice.** Read each voice's `.yaml`
+  and `.style.md`; a turn's `retrieval` and promises follow *its* speaker's
+  `knowledge_bias` and `digressions`, not the episode's lead narrator's.
+- **Vantage is per turn.** Check scene attendance against the section's own speaker. The
+  richest material is often a scene one of them witnessed and the other only heard about —
+  give the witness the turn that tells it, and let the other push back or ask.
+- **The listener is the other voice**, so the addressee enrichment below means each of them
+  reaching into the other's life. Balance the word budget across voices within ~15%.
+- **The crew is their shared world.** Crewmates talk to each other as each talks to Shepard
+  — friends who have seen everything — and they lived with the whole Normandy crew, not one
+  other person. Across the sections, give promises and retrieval keys that let them reach
+  for several crewmates (alive or dead per canon), not just a single recurring third.
+- **The subject is the third presence.** Both voices address the run's `subject`, or talk
+  about them; read their notes once and let both turns reach for them.
+
 ## Content priority
 
 Weight sections in this order, and keep them linked:
@@ -51,9 +81,9 @@ Weight sections in this order, and keep them linked:
    them. Otherwise connective tissue: a bridging line inside another section, never bulk.
 
 **The person being addressed is a source too.** Whenever the episode has a listener —
-Shepard in a romance, another crewmate in a scene, anyone the narrator is talking *to* or
-*about* — mine that person's own history for material with the same weight as the
-narrator's own: a mission or event they lived that the narrator wasn't there for but knows
+the run's `subject` (Shepard unless it names someone else), another crewmate in a scene,
+anyone the narrator is talking *to* or *about* — mine that person's own history for
+material with the same weight as the narrator's own: a mission or event they lived that the narrator wasn't there for but knows
 of, a shared interest or a species/faction/place both have opinions about, a mutual
 acquaintance to admire or put down, a moment where their two histories touch or where the
 narrator measures themself against the other's record. Give this its own `promises` and
@@ -66,8 +96,24 @@ too, admiringly, enviously or scornfully as their `digressions`/`avoid` dictate.
 
 ## Inputs
 
-- The run's `output/<run>/outline.yaml` — has `narrator`, `themes`, `brief`, `form`
-  (possibly blank), `target_words`, `sections: []`.
+- The run's `output/<run>/outline.yaml` — has `narrator`, `subject`, `themes`, `brief`,
+  `form` (possibly blank), `target_words`, `sections: []`, and `narrators:` when the
+  episode alternates between voices.
+  `subject` is **who the episode is about**: the person the narrator addresses and
+  characterizes. It is `shepard` unless the run names someone else, and then that person
+  stands in Shepard's place as the addressee — read
+  `config/narrators/<subject>.notes.md` (and any other `config/narrators/<subject>.*`)
+  before you plan a single section, and mine it for the addressee enrichment below. It
+  changes the addressee, not the world: Shepard still commands the Normandy and the canon
+  store still says which branch of the trilogy happened.
+  A subject who is not `shepard` is an original character and is **not in the corpus** —
+  `scripts/scenes.py` will never list them, retrieval will never return them, and their
+  notes file is their whole existence. Never write a retrieval key for them; key the
+  section on the occasion or the theme, and let their notes supply them. Their presence
+  follows the notes' timeline *stretches*, not named occasions — where the notes put them
+  with the crew you may anchor a section on that period's scenes, the Citadel DLC shore
+  leave included, even though no record names them. Outside those stretches, do not anchor
+  a section on them at all.
   `brief` is free text and does two things: (1) **framing** — the occasion, scene, mood,
   and who the narrator is addressing; (2) **finer canon** — it picks among options the
   canon store leaves open and adds playthrough detail. Where the brief and the canon
@@ -83,7 +129,8 @@ too, admiringly, enviously or scornfully as their `digressions`/`avoid` dictate.
 - `python scripts/scenes.py --list` — the scene layer: occasions, with participants and
   who could have heard about them afterwards. `python scripts/scenes.py --show <id>` for
   one record.
-- `config/narrators/<narrator>.yaml` — especially `knowledge_bias` and `digressions`.
+- `config/narrators/<narrator>.yaml` — especially `knowledge_bias` and `digressions`. With
+  `narrators:`, read every voice's bible and style file.
 - `config/narrators/<narrator>.style.md` — quotes and a "how they talk" note. Where the
   style file has strong lines on a subject, the narrator would dwell on it; let that pull
   the outline. Not for prose.
@@ -96,7 +143,7 @@ too, admiringly, enviously or scornfully as their `digressions`/`avoid` dictate.
 ## Outputs
 
 Rewrite `output/<run>/outline.yaml`, keeping the `# UNAPPROVED` first line, `narrator`,
-`themes` and `brief`, filling `form`, `form_note` and `target_words`, and replacing
+`narrators` (if present), `themes` and `brief`, filling `form`, `form_note` and `target_words`, and replacing
 `sections:` with an ordered list of:
 
 ```yaml
@@ -109,6 +156,7 @@ Rewrite `output/<run>/outline.yaml`, keeping the `# UNAPPROVED` first line, `nar
       - "Wrex on what the Monument means to krogan"
       - "Grunt at the party, and why he was on the Citadel at all"
     target_words: 800
+    # narrator: liara                      # only when the outline has `narrators:` — whose turn
 ```
 
 ### `retrieval` — the subjects this section needs evidence for
@@ -131,7 +179,8 @@ not "Grunt". 2–5 per section.
 - Every `events` entry is a real `event_id` from `master_timeline.yaml`; every `scenes`
   entry is a real `scene_id` from `scripts/scenes.py --list`. Invent neither.
 - Every section has at least one of `events` or `scenes`, and a non-empty `retrieval`
-  and `promises`.
+  and `promises`. With `narrators:`, every section also has a `narrator:` from that list —
+  `build_pack.py` hard-stops on one that has none or names someone else.
 - **Canon selects the branch.** Resolved canon (the store, refined by `brief`) decides
   which branch of a choice-conditional event is real, and therefore which sections exist:
   a character the canon kills gets no sections built on their survival, and the section
@@ -173,7 +222,8 @@ not "Grunt". 2–5 per section.
   and `scene_id` resolves; every section has `retrieval` and `promises`; word targets sum
   within 10%. `target_words` is non-zero — either the pinned figure you were given, or the
   one you computed from the form.
-- You have printed the form and `form_note`, the section count, the summed word target
+- You have printed the form and `form_note`, the section count (and, with more than one
+  voice, each voice's turn count and word share), the summed word target
   (saying whether it was pinned or derived from the form), and any question you appended
   to the canon store.
 

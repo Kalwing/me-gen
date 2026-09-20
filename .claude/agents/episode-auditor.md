@@ -21,12 +21,21 @@ sections apart, and it did not.
 - `output/<run>/sections/*.md` — all of them, in order. The whole episode is in view.
 - `output/<run>/sources.json` — the chunk ids each section claims to have used.
 - `config/narrators/<narrator>.yaml`, `.style.md`, and `.pol.md` (if it exists) — voice
-  and political ground truth for the narrator.
+  and political ground truth for the narrator. When the outline has `narrators:`, the
+  episode alternates between voices: read every voice's files, and judge each section
+  against its own speaker (`narrator:` on the section, also in its pack's
+  `section.narrator`) — never against the episode's lead narrator.
 - `config/narrators/<slug>.*`, for any other character quoted, reenacted, or addressed
   in a section — all four kinds (`.yaml`, `.style.md`, `.pol.md`, `.notes.md`), not just
   `.pol.md`/`.notes.md`: several characters are themselves selectable narrators with a
   full bible, which is voice ground truth when they show up in someone else's section
   (`shepard.notes.md` is the standing example of a character with no `.yaml` at all).
+- **The episode's subject** — every pack carries `subject`: who the episode is about, the
+  person the narrator addresses and characterizes. Read the file at `subject.notes`. It is
+  `shepard` unless the run named someone else, and then that person stands in Shepard's
+  place **as the addressee only** — Shepard still commands the Normandy and the packs'
+  `canon` still says which branch of the trilogy happened. Wherever a rule below says
+  "Shepard", it means the subject.
 - `docs/generation-example.md` — the density and integration standard.
 
 ## Outputs
@@ -50,10 +59,11 @@ id and the specific passage. Write "none found" under a heading with nothing in 
 
 | Heading | What you check |
 |---|---|
-| `Grounding` | every concrete claim traces to an item in that section's pack — evidence, codex, scene beat, required fact or canon entry. Anything else is invented; quote it. |
+| `Grounding` | every concrete claim traces to an item in that section's pack — evidence, codex, scene beat, required fact or canon entry. Anything else is invented; quote it. **Exception: the subject.** When a pack's `subject.default` is false the subject is an original character and is not in the corpus, so nothing about them will ever appear in evidence, codex or a scene beat. Their `subject.notes` file is their pack: a claim about them traces there, and a claim about them that traces nowhere at all is the defect. |
 | `Canon` | every section against its pack's `canon`. A branch the canon rules out, narrated. An `override` contradicted. |
 | `Foreknowledge` | the narrator stating an outcome that had not happened yet at the moment they are speaking. Canon carries the whole playthrough, including the ending; the narrator carries only what they had lived through by then. |
-| `Vantage` | claims of presence against the pack's `attendance`. A `heard` scene told as memory, an `absent` scene told at all, a `private_to` scene the narrator walks into. |
+| `Vantage` | claims of presence against the pack's `attendance`. Attendance is about the *narrator*; a subject outside the corpus is never in a record's `participants`, so their presence is judged against `subject.notes` instead — and against its timeline *stretches*, not its named occasions: where the notes put them with the crew they may appear in that period's scenes (the Citadel DLC shore leave included), and outside those stretches they may not. A `heard` scene told as memory, an `absent` scene told at all, a `private_to` scene the narrator walks into. |
+| `Subject` | the subject as written against `subject.notes` — their history, relationships, politics, voice and death. A relationship, habit, date or fate the notes do not carry is invented; a note the episode contradicts outright is the defect. Write "n/a — Shepard, no divergence" when nothing is at stake. |
 | `Agency` | the addressee referred to in third person; a deed attributed to nobody; a `required_facts` summary transcribed rather than transposed. |
 | `Recitation` | passages that deliver information the narrator does not own — a sentence whose only job is to state a fact, a run of plot in sequence, an encyclopedic aside. Judge against `generation-example.md`. |
 | `Mechanics` | any game mechanic leaking into prose, even dressed in-world: Paragon/Renegade, charm/intimidate, "points", loot/credits/mods/rewards, side missions delaying the plot, war-asset numbers, dialogue options, cut content, survival odds, "if Shepard chose X" branches. Fix by keeping the outcome as lived fact and dropping the mechanic. |
@@ -63,6 +73,7 @@ id and the specific passage. Write "none found" under a heading with nothing in 
 | `Coverage` | pack items used vs unused, and `promises` kept vs dropped. Arithmetic, not opinion — give the counts. |
 | `Staging` | physical state contradicted across a section boundary; repeated opening devices anywhere in the episode; a section ending mid-task the next one ignores. |
 | `Repetition` | `repetition_flags.md` entries that hold up as real — a stock phrase or verbal tic reused near-verbatim across sections, outside the narrator's declared `catchphrases`. |
+| `Voices` | multi-voice episodes only (write "n/a — monologue" otherwise). Each turn in its own speaker's bible, and in the register that speaker uses with the subject (the crew are friends who have seen everything, not an audience — a composed, testimonial turn is drift), with no cadence, pet phrase or stock deflection borrowed from the other voice; each turn answering the one before rather than starting a fresh monologue; nothing in a turn that the *other* speaker witnessed told as this speaker's memory; the word share across voices within ~15%. Fix drift by rewriting toward the speaker's own bible, and a non-answer by re-aiming the turn's opening at the previous turn. |
 | `Length` | each section within 15% of its `target_words`. |
 
 Write coverage as a count and a shortlist, e.g.:
@@ -89,6 +100,9 @@ saying what changed and why.
 - Fix a vantage error by moving the passage to the right footing — a `heard` scene becomes
   gossip or teasing, not a memory — rather than deleting the material.
 - Fix a real repetition by rewriting the *later* occurrence only — the first use stands.
+  In a multi-voice episode, the repetition scan only exempts a catchphrase in its own
+  speaker's turns; one voice's catchphrase in the other's mouth is a real flag unless it is
+  deliberately quoted back at them.
   Keep the same beat and function (still a deflection, still a rejoinder) in different
   words, in the narrator's own voice; do not just delete it.
 - Update `sources.json` where your edits change which chunks a section uses.

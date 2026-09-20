@@ -1,5 +1,6 @@
 import json
 
+import pytest
 import yaml
 
 from scripts import common, new_run
@@ -43,3 +44,18 @@ def test_new_run_disambiguates(tmp_path):
     b = new_run.new_run("garrus", ["war"], 8000, tmp_path)
     assert a != b
     assert b.name.endswith("_2")
+
+
+def test_new_run_defaults_the_subject_to_shepard(tmp_path):
+    run = new_run.new_run("garrus", ["war"], 8000, tmp_path)
+    assert yaml.safe_load((run / "outline.yaml").read_text())["subject"] == "shepard"
+
+
+def test_new_run_records_a_named_subject(tmp_path):
+    run = new_run.new_run("jack", ["grief"], 8000, tmp_path, subject="thomas")
+    assert yaml.safe_load((run / "outline.yaml").read_text())["subject"] == "thomas"
+
+
+def test_new_run_rejects_a_subject_with_no_notes_file(tmp_path):
+    with pytest.raises(ValueError, match="nobody.notes.md"):
+        new_run.new_run("jack", ["grief"], 8000, tmp_path, subject="nobody")
