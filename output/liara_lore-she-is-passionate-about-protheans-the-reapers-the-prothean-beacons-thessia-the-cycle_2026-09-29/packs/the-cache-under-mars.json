@@ -1,0 +1,830 @@
+{
+  "section": {
+    "id": "the-cache-under-mars",
+    "title": "The Cache Under Mars",
+    "target_words": 640,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "The Mars find told from the archaeology: a small ruined observation post, a data cache, proof the Protheans had watched Cro-Magnon humans, and the Eletania sphere as a second witness to the same fact",
+    "Charon mistaken for a moon of Pluto under kilometres of ice, and how a species jumped centuries in a decade; her scholar's quarrel over how much was borrowed and how much humans earned",
+    "Where Shepard's species meets the Protheans and what the Alliance did with the site, with her opinion of it stated once and not lectured",
+    "The vertigo of learning your species was watched and catalogued before it had language for it"
+  ],
+  "required_facts": [
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "Humanity explored Mars by robotic probe for nearly a century before the first crewed research stations were established there in the 2080s. The first permanent settlement, Lowell City, was founded in 2103 by the European Space Agency in Eos Chasma, and within a decade the United States and China had planted their own colonies. For years, satellites near Promethei Planum reported unexplained magnetic field shifts that earned the region a \"Bermuda Triangle\" reputation. In 2147 element zero was detected on Mars for the first time, and in 2148 a prospecting team led by Mateus Silva, working near the Deseado Crater, unearthed a buried Prothean ruin that proved to be the source of the anomalies. The structure contained a malfunctioning mass effect core, several derelict starships, and stores of refined element zero. A global effort to translate its data archives identified the site as a Prothean observation and biosciences station established roughly 50,000 years earlier to study Cro-Magnon humans on Earth; the observers' ultimate motives and conclusions were never recovered. The fragmentary data cache was transformative: it advanced human science by an estimated two hundred years, revealing mass effect physics and pointing the way to element-zero-based faster-than-light drives and mass effect field technology. It also disclosed that Charon, the largest \"moon\" of Pluto, was a dormant mass relay sheathed in ice, prompting the Pluto excavation that reactivated the relay in 2149. The scale of the find drove Earth's major powers to pool their research and militaries, leading directly to the founding of the Systems Alliance in 2149. Not all of the recovered element zero was secured: some fell to criminal triads operating on Mars, who refined it into the narcotic red sand, which may have taken its name from the planet. Mars's southern pole, centered on the ruins, was later made a restricted historical preserve as the search for further Prothean artifacts continued.",
+      "actor": "Mateus Silva"
+    },
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "A buried Prothean observation and biosciences station is discovered beneath Promethei Planum near the Deseado Crater",
+      "actor": ""
+    },
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "Recovered Prothean data advances human science by roughly two hundred years",
+      "actor": ""
+    },
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "Humanity gains the basis for mass effect physics, FTL drives, and mass effect field technology",
+      "actor": ""
+    },
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "The data cache reveals that Charon is a dormant mass relay, leading to its 2149 reactivation",
+      "actor": ""
+    },
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "Earth's major nations pool resources, leading to the founding of the Systems Alliance in 2149",
+      "actor": "Systems Alliance"
+    },
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "Stolen refined element zero is used by Martian triads to manufacture the drug red sand",
+      "actor": ""
+    },
+    {
+      "event_id": "discovery-of-the-prothean-ruins-on-mars",
+      "fact": "Mars's southern pole is designated a restricted Prothean historical preserve",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    }
+  ],
+  "scenes": [],
+  "attendance": {},
+  "evidence": [
+    {
+      "chunk_id": "human_001",
+      "kind": "page",
+      "page": "Human",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Humans**, from the planet Earth, are the newest sentient species of notable size to enter the galactic stage and are the most rapidly expanding and developing. They independently discovered a Prothean data cache on Mars in 2148, and the mass relay networks shortly thereafter. |  | ***“I came here looking for soldiers.”*** — Spoilers for **Mass Effect: Revelation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Human",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "manual-humanity-before-the-mass-relays_001",
+      "kind": "page",
+      "page": "Humanity Before the Mass Relays",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "**Summary:** A timeline of human spaceflight from 2069 to 2148 — before the Charon Relay was found: the Armstrong outpost on Luna, the failed Manswell Expedition, the first Mars settlements, the formation of the United North American States and the Second American Civil War, Lowell City on Mars, Gagarin Station (\"Jump Zero\"), and the 2147–2148 discovery of element zero and the Prothean ruins on Mars that led to mass effect technology and, soon after, the Systems Alliance.",
+      "url": "",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "summary:mars",
+      "kind": "summary",
+      "page": "Mars",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Mars was the fourth planet of the Sol System. Once considered a prospect for terraforming and colonization, it became a quiet backwater after the discovery of faster-than-light travel. Its southern pole was made a historical preserve centered on the Prothean ruins found there, and immigration and development were restricted while the search for Prothean artifacts continued. Mars was explored by robotic expeditions for nearly a century before the first manned research stations arrived in the 2080s. The first permanent settlement, Lowell City, was founded in 2103 by the European Space Agency in Eos Chasma, and within a decade the US and China had established their own settlements. Satellites near Promethei Planum reported unexplained magnetic field shifts that gave the region a \"Bermuda Triangle\" reputation.\n\nIn 2148, a prospecting team led by Mateus Silva exploring near the Deseado Crater unearthed a subterranean Prothean ruin, the source of the disturbances. The ruins contained a malfunctioning mass effect core, several starships, and refined element zero. After a global translation effort, the structure was identified as a former Prothean observation and biosciences station set up to study Cro-Magnon humans on Earth. The observers' motives and conclusions remained unknown, but the fragmented data cache accelerated human sciences by roughly two hundred years, paving the way for FTL drives and later mass effect field technology. Some of the refined element zero fell into the hands of criminal triads on Mars, who used it to create the drug red sand, which may have taken its name from the planet's coloring. The mission Priority: Mars took place there, and Mars could not be mined. A cut Mass Effect DLC would have taken place inside the Prothean ruins and on the Bonestell Platform orbiting the planet.",
+      "url": "https://masseffect.fandom.com/wiki/Mars",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "mars_003",
+      "kind": "page",
+      "page": "Mars",
+      "section": "History",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*See also: Protheans: Martian Ruins* Mars was explored via various robotic expeditions for nearly a century before the first manned research stations were placed in the 2080s. The first permanent settlement on Mars was Lowell City, founded in 2103 by the European Space Agency, and based in Eos Chasma. Within a decade, both the US and China had founded permanent settlements as well. However, satellites near Promethei Planum began reporting strange phenomena that gave the region a 'Bermuda Triangle' reputation, mostly unexplained magnetic field shifts. In 2148, a prospecting team led by Mateus Silva began exploring near the Deseado Crater, and found the source of these disturbances when they unearthed a subterranean Prothean ruin. The ruins contained a malfunctioning mass effect core and several starships, as well as refined element zero. After a global effort, the information remaining in the ruins' computers was translated, identifying the structure as a former observation and biosciences station, set up to receive and process data from Earth as the Protheans studied Cro\\-Magnon humans. The motives and conclusions of the Prothean observers remained unknown, but the ruins' data cache, though fragmented, accelerated human sciences by roughly two hundred years. It paved the way for the development of FTL drives and, later, mass effect field technology. Some of the refined element zero in the ruins, however, fell into less responsible hands. Criminal triads on Mars used it to create red sand; the drug may have taken its name from Mars' distinctive colouring and arid surface.",
+      "url": "https://masseffect.fandom.com/wiki/Mars",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "human_004",
+      "kind": "page",
+      "page": "Human",
+      "section": "Discovery of Mass Effect Physics",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2148, human explorers on Mars uncovered a long\\-ruined Prothean observation post, with a surviving data cache that proved Protheans had studied Cro\\-Magnon humans millennia ago. While religions tried to assimilate this discovery into their doctrine, a global rush began to decipher the petabytes of data from the outpost. Discovering information on a mass relay orbiting Pluto, explorers managed to open the Charon Relay and discovered it led to Arcturus. With the help of the fledgling Systems Alliance, humans expanded to other systems, opening any mass relays they could find.",
+      "url": "https://masseffect.fandom.com/wiki/Human",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "human-vanguard_001",
+      "kind": "page",
+      "page": "Human Vanguard",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the multiplayer class in Mass Effect 3\\. For the ex\\-Cerberus human Vanguard class in Mass Effect 3, see Project Phoenix Vanguard.* *For the multiplayer class in Mass Effect: Andromeda, see Human Vanguard (Mass Effect: Andromeda).* | | --- | --- | Humans joined the galactic community after discovering a Prothean data cache on Mars in 2148. Their devotion to understanding and adapting to modern warfare left the staid Council races stunned. Humanity's persistence and unflappable spirit has taken them further than anyone in the galaxy could have imagined. Human vanguards are feared frontline opponents that can charge across the battlefield, surprising enemies before devastating them in hand\\-to\\-hand combat.",
+      "url": "https://masseffect.fandom.com/wiki/Human_Vanguard",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "human-sentinel_001",
+      "kind": "page",
+      "page": "Human Sentinel",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the multiplayer class in Mass Effect 3\\. For the multiplayer class in Mass Effect: Andromeda, see Human Sentinel (Mass Effect: Andromeda).* | | --- | --- | Humans joined the galactic community after discovering a Prothean data cache on Mars in 2148. Their devotion to understanding and adapting to modern warfare left the staid Council races stunned. Humanity's persistence and unflappable spirit has taken them further than anyone in the galaxy could have imagined. Master of nothing but proficient in everything, human sentinels are often relied upon to draw fire on the battlefield. Sentinels relish their opponents' look of surprise when they realize they were focusing on the wrong enemy all along.",
+      "url": "https://masseffect.fandom.com/wiki/Human_Sentinel",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "manual-the-founding-of-the-systems-alliance_006",
+      "kind": "page",
+      "page": "The Founding of the Systems Alliance",
+      "section": "Charon: a mass relay encased in ice",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "The answer came from the Prothean archives. In 2148, the translated Mars data cache revealed that Charon — the largest moon of the planetoid Pluto — was actually a colossal piece of Prothean technology encased in ice, dormant for 50,000 years. Backed by the growing Alliance, a human science team near Pluto confirmed the finding and, under orders from Earth, began excavation to reactivate the structure. Despite only a limited understanding of mass effect technology, the team soon determined the device's purpose: to allow instantaneous relativistic-free travel between two points in space. The theory was beyond reach, but activation turned out to be surprisingly simple — almost as though the relay had been waiting to be discovered. It was not clear what dangers transit might pose. Exploratory probes sent through the Charon Relay instantly dropped out of contact, and it became clear the only way to learn what lay on the other side was to send people.",
+      "url": "",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "mass-effect-revelation_002",
+      "kind": "page",
+      "page": "Mass Effect: Revelation",
+      "section": "Jacket Copy",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Every advanced society in the galaxy relies on the technology of the Protheans, an ancient species that vanished fifty thousand years ago. After discovering a cache of Prothean technology on Mars in 2148, humanity is spreading to the stars; the newest interstellar species, struggling to carve out its place in the greater galactic community.* *On the edge of colonized space, ship commander and Alliance war hero David Anderson investigates the remains of a top secret military research station; smoking ruins littered with bodies and unanswered questions. Who attacked this post and for what purpose? And where is Kahlee Sanders, the young scientist who mysteriously vanished from the base–hours before her colleagues were slaughtered?* *Sanders is now the prime suspect, but finding her creates more problems for Anderson than it solves. Partnered with a rogue alien agent he can't trust and pursued by an assassin he can't escape, Anderson battles impossible odds on uncharted worlds to uncover a sinister conspiracy . . . one he won't live to tell about. Or so the enemy thinks.*",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect:_Revelation",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "summary:codex-aliens-extinct-races",
+      "kind": "summary",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The page collected the Codex entries on two extinct spacefaring races. Fifty thousand years ago the Protheans were the only spacefaring species in the galaxy and vanished in a swift galactic extinction, leaving ruins across many worlds; they were believed to have built the mass relays and the Citadel. Functioning Prothean \"paleotechnology\" was rare, most sites long since looted. Evidence of Prothean occupation appeared on the hanar homeworld Kahje and on Mars, feeding \"interventionary evolutionist\" theories among humans. The European Space Agency founded Lowell City on Mars in 2103; in 2148 prospectors near Deseado Crater discovered a buried Prothean observation post whose struggling mass effect core had caused local anomalies, proving humanity was not alone and triggering an international effort to translate its databanks. The post had been a biosciences station monitoring early humans, linked to platforms in Earth orbit and on the Moon.\n\nA Prothean beacon was unearthed on the Alliance colony Eden Prime; it was a solid-state data-storage device from a galaxy-spanning comm network. The rogue Spectre Saren Arterius and his geth raided Eden Prime with the flagship Sovereign, causing hundreds of civilian casualties and badly damaging the beacon. During recovery the beacon fired an energy pulse into Lieutenant Commander Shepard, the Normandy's executive officer, who survived apparently unharmed before the device fell inert. The beacon implanted knowledge that produced confusing visions; understanding them required a \"cipher,\" the cultural knowledge of a living Prothean, which might be impossible to obtain. Over three dozen fragile Prothean data discs had been recovered, a few partially restored, and were considered the best leads on Prothean culture.\n\nOver 2,000 years ago explorers opened a mass relay to an unknown system and met the rachni, spacefaring insects guided by hive-mind queens on a toxic homeworld. Negotiation proved impossible and the Rachni Wars followed. The salarians uplifted the krogan, who could reach the queens in their lairs; when krogan fleets drove the rachni back to their homeworld and they refused to surrender, the krogan eradicated them from the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "summary:systems-alliance-founding",
+      "kind": "summary",
+      "page": "The Founding of the Systems Alliance",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "This hand-corrected manual lore document recounted how the Systems Alliance formed after the discovery of the Prothean ruins on Mars. The ruins, together with the newly usable element known as eezo, lifted humanity to mastery of its own solar system and drove rapid change across technology, infrastructure, art and especially religion. New beliefs took hold almost overnight: groups such as the interventionary evolutionists proclaimed the ruins as proof that all human history had been directed by alien forces, while established faiths, particularly the major Abrahamic religions, struggled to fit extraterrestrial life into their frameworks, with some absorbing the knowledge, some staying silent and a stubborn few denying the Mars evidence as conspiracy. The media fixated on the questions of who the aliens were, whether they were friendly and whether they were still out there.\n\nWhile the discovery fractured most religions, it unified politics into an \"us versus them\" stance. In early 2149, political leaders across the system set aside their differences, and along with representatives from Mars and Luna, Earth's eighteen largest nations drafted and ratified the Systems Alliance Charter to establish a representative body to expand and defend human territory in space. The founding nations were the Argentine Republic, the Chinese People's Federation, the Commonwealth of Australia, the Federal Republic of Germany, the Federal Republic of Nigeria, the Federative Republic of Brazil, the French Republic, the Indian Union, Japan, the Kingdom of Saudi Arabia, the Republic of Korea, the Republic of Turkey, the Republic of Singapore, the Republic of South Africa, the Russian Federation, the United Arab Emirates, the United Kingdom of Great Britain, and the United North American States; the Republic of Ireland joined a year later. These nations pooled their scientific and technological might to form the Systems Alliance military.\n\nRelativity threatened to make expansion slow and disconnected, since primitive FTL drives caused time dilation and even advanced drives could not run indefinitely because of an eezo fuel side effect. The answer came from the translated Mars data cache, which in 2148 revealed that Charon, the largest moon of the planetoid Pluto, was actually a colossal piece of Prothean technology encased in ice, dormant for 50,000 years. A human science team near Pluto confirmed the finding and, under orders from Earth, began excavation to reactivate it. Activation proved surprisingly simple, but exploratory probes sent through the Charon Relay instantly lost contact, so people had to be sent. Because many high-ranking Alliance officers came from Earth's militaries, the decorated Rear Admiral John Grissom was chosen to lead. Around mid-2149, Grissom and several volunteers boarded an experimental jump ship and became the first humans to transit the Charon Relay, arriving instantly at a second mass relay in the Arcturus system, 36 light-years away, where they learned the relays formed a galaxy-spanning network. On their return, Grissom and his crew were hailed as heroes, and the sullen, retiring Grissom became the face of the Systems Alliance as humanity entered a new age of expansion.",
+      "url": "",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "summary:human-sentinel",
+      "kind": "summary",
+      "page": "Human Sentinel",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Human Sentinel was a cooperative multiplayer class in Mass Effect 3 (distinct from the Andromeda class of the same name). Its lore blurb noted humans joined the galactic community after discovering a Prothean data cache on Mars in 2148 and impressed the staid Council races with their adaptability to modern warfare. Sentinels were described as masters of nothing but proficient in everything, often relied upon to draw fire.\n\nThe class had 500 shields and 500 health and used the Alliance Training passive with the powers Throw, Warp, Tech Armor and Fitness. Its melee options were a punch sequence, dual omni-blades for heavy melee, and an omni-blade stab grab; it could combat-roll to dodge and roll between cover. Gameplay centered on biotic combos: Warp primed and Throw detonated biotic explosions on any enemy, while pairing the Acolyte weapon with Throw (and incendiary ammo) produced rapid fire explosions against shielded foes. Tech Armor added damage reduction and could stagger nearby enemies, though it did not boost biotic combo strength. Because the class was power-intensive, a light weapon loadout was recommended. The page details faction-specific tactics against Cerberus (Atlases, Dragoons, Phantoms, Guardians, turrets), Collectors (Warp against all enemy types, Praetorians, Abominations), Geth (Acolyte/Throw as an efficient killer, cloaked Hunters), and Reapers (Warp/Incendiary stacking against Brutes and Ravagers, and complex phased tactics against Banshees).",
+      "url": "https://masseffect.fandom.com/wiki/Human_Sentinel",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "scene:mars-archives-eva-shoots-ashley#03",
+      "kind": "scene",
+      "page": "Dr. Eva Guns Down the Virmire Survivor on Mars",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "mars-archives-eva-shoots-ashley",
+      "text": "Dr. Eva Guns Down the Virmire Survivor on Mars. 2186, Priority: Mars, during the Reaper invasion of Earth the Prothean archives dig site on Mars, from the facility to the rooftop landing pad In the archive chamber the Illusive Man appeared by hologram. The Cerberus infiltrator Dr. Eva Coré was caught stealing the Prothean data, triggering a rooftop chase; Eva reached a shuttle and Vega crashed his into hers, and her organic disguise was destroyed, revealing a mech infiltration unit.",
+      "url": "",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "scene:mars-archives-eva-shoots-ashley#01",
+      "kind": "scene",
+      "page": "Dr. Eva Guns Down the Virmire Survivor on Mars",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "mars-archives-eva-shoots-ashley",
+      "text": "Dr. Eva Guns Down the Virmire Survivor on Mars. 2186, Priority: Mars, during the Reaper invasion of Earth the Prothean archives dig site on Mars, from the facility to the rooftop landing pad After evacuating Shepard from Earth, the Virmire survivor joined Shepard and James Vega aboard the Normandy for the run to the Prothean archives on Mars, where Hackett wanted data that might stop the Reapers. As the elevator pressurised into the facility the survivor and Shepard talked; the survivor still mistrusted Shepard's Cerberus ties, and finding Cerberus troops executing the Alliance researchers — the first time Cerberus fought Shepard as an enemy faction — deepened the worry about what had been done to Shepard.",
+      "url": "",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#01",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Anderson had stepped down and handed Shepard the Normandy; Udina pointed the hunt for the asari archaeologist Liara T'Soni, Saren's next target and Matriarch Benezia's daughter, at the Artemis Tau cluster, and the world with Prothean ruins was Therum. The Normandy dropped the Mako on a volcanically active surface where the lava would destroy the vehicle on contact.",
+      "url": "",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "scene:mars-archives-eva-shoots-ashley#02",
+      "kind": "scene",
+      "page": "Dr. Eva Guns Down the Virmire Survivor on Mars",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "mars-archives-eva-shoots-ashley",
+      "text": "Dr. Eva Guns Down the Virmire Survivor on Mars. 2186, Priority: Mars, during the Reaper invasion of Earth the Prothean archives dig site on Mars, from the facility to the rooftop landing pad Inside, Shepard reunited with Dr. Liara T'Soni, who revealed she had found Prothean plans for a device — the Crucible — capable of stopping the Reapers, and that Cerberus was there to seize them. Shepard sent Vega back to guard the shuttle and took Liara forward through the complex, learning that the Cerberus operatives had been implanted with Reaper technology.",
+      "url": "",
+      "for_key": "Prothean ruins on Mars 2148 data cache"
+    },
+    {
+      "chunk_id": "pluto_002",
+      "kind": "page",
+      "page": "Pluto",
+      "section": "Description",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Pluto** is one of Sol's numerous \"ice dwarf\" worlds. It is mainly of note for being the gravitational \"anchor\" for the Mass Relay to Arcturus. Pluto and the Charon Relay (formerly encased in ice, and considered a moon) orbit each other. Pluto's orbit was circularized in 2157 as a side effect of the Charon Mass Relay recovery operations.",
+      "url": "https://masseffect.fandom.com/wiki/Pluto",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "summary:charon-relay",
+      "kind": "summary",
+      "page": "Charon Relay",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Charon Relay was a mass relay in the Sol system of the Local Cluster, in orbit of Pluto. For thousands of years it lay encased in an ice shell hundreds of kilometers thick and was mistaken for one of Pluto's moons. In 2149 a human science team working near Pluto determined that \"Charon\" was not a moon but an enormous piece of Prothean technology; the finding was not wholly unexpected, since Prothean ruins uncovered on Mars in 2148 had referred to such a device. Although the underlying science was still beyond human understanding, researchers managed to reactivate the dormant relay. Probes sent through immediately lost contact, so a crewed expedition led by Jon Grissom traveled through and found that it connected to Arcturus and three further mass relays. The team's safe return made them heroes and made Grissom the public face of the Systems Alliance as humanity entered a period of rapid exploration and expansion. Operating the relay gradually circularized Pluto's previously elliptical orbit. The Charon Relay went on to serve as the point of access between Earth, the economic and cultural heart of human civilization, and the rest of the galaxy. During the battle for Earth in 2186, if Commander Shepard chose to activate the Crucible, the Crucible fired its energy into the Charon Relay to transmit it across the galaxy; the Charon Relay and the rest of the mass relay network were severely damaged, but were eventually rebuilt, with or without Reaper assistance depending on Shepard's final choice. In Greek mythology, Charon was the ferryman who carried the dead across the river Styx into the Underworld.",
+      "url": "https://masseffect.fandom.com/wiki/Charon_Relay",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "charon-relay_001",
+      "kind": "page",
+      "page": "Charon Relay",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Location:** Milky Way / Local Cluster / Sol The **Charon Relay** is a mass relay in the Sol system of the Local Cluster that orbits Pluto. Encased in a layer of ice hundreds of kilometers thick for thousands of years, the Charon Relay was originally believed to be nothing more than one of Pluto's moons. Following its discovery and reactivation by humanity in 2149, the Charon Relay has served as the point of access between Earth, the cultural and economic heart of human civilization, and the rest of the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Charon_Relay",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "charon-relay_002",
+      "kind": "page",
+      "page": "Charon Relay",
+      "section": "Discovery",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2149, a human science team exploring the edge of the system near Pluto discovered that Charon was not a moon at all, but an enormous piece of ancient technology known as a mass relay that had been used by the Protheans. The discovery was not completely surprising, however, since the Prothean ruins found on Mars in 2148 had mentioned such a device. While the scientific theory behind the creation of mass relays was still beyond humanity's reach at the time, scientists were able to reactivate the dormant relay. Exploratory probes sent through the Charon Relay immediately dropped out of contact, and it was determined that the only way to learn what was on the relay's other side was to send actual explorers through. Led by Jon Grissom, a team of brave men and women willing to risk their lives traveled through the relay, and discovered that it led to Arcturus and a further three mass relays. Their successful return made them heroes, and Jon Grissom became the face of the Systems Alliance as humanity entered a new age of unparalleled discovery and expansion. The operation of the Charon Relay gradually had the side effect of circularising Pluto's elliptical orbit. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Charon_Relay",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "jon-grissom_001",
+      "kind": "page",
+      "page": "Jon Grissom",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Rear Admiral Jon Grissom** is a famed Systems Alliance hero. In 2149 when the Charon Relay was discovered orbiting Pluto and activated, none of the probes sent through had enough power to transmit a message back. The Alliance soon understood that the only way to discover where the relay led was to send a team through it. Grissom was chosen as the team leader and hailed as a hero when he returned, adopted by the masses as one of the great pioneers of human space exploration. On a personal level, however, Grissom is a sullen, retiring man who doesn't relish the attention. Though he took a leading role during the First Contact War, in 2160, Grissom becomes a recluse on Elysium and refuses any interviews or contact with the Alliance media. |  | ***“I came here looking for soldiers.”*** — Spoilers for **Mass Effect: Revelation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Jon_Grissom",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "pluto_004",
+      "kind": "page",
+      "page": "Pluto",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- When Mass Effect was in production, Pluto was considered by real\\-world astronomers to be Sol's ninth planet. The game therefore treats Pluto as such. However, in 2006, during Mass Effect's development, astronomers redefined the term \"planet\" in such a way that Pluto no longer qualified. Under this definition, Sol has only eight planets, with Pluto categorized as a \"dwarf planet\" rather than a true planet. This decision was initially controversial, and the in\\-game description was not changed. In Mass Effect 2 and onward, however, Pluto is called an \"ice dwarf\" in its galaxy map description and its orbital path has been removed from the galaxy map. - No clear photographs of Pluto existed until 2015, while Mass Effect 3 was released in 2012 – therefore, all three games show Pluto with inaccurate coloration. The textures for Pluto in Mass Effect 2 were updated for Mass Effect Legendary Edition to reflect the much more accurate and detailed photos taken by NASA's New Horizons probe in 2015\\. - While in actuality Pluto has five natural satellites, this is not the case in Mass Effect, as Charon, the largest moon of Pluto, is revealed to be a mass relay that has been encased in ice. ##",
+      "url": "https://masseffect.fandom.com/wiki/Pluto",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "summary:jon-grissom",
+      "kind": "summary",
+      "page": "Jon Grissom",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Rear Admiral Jon Grissom was a famed Systems Alliance hero. In 2149, when the Charon Relay was discovered orbiting Pluto and activated, none of the probes sent through had enough power to transmit a message back, so the Alliance concluded a crewed team had to be sent. Grissom was chosen as team leader and was hailed as a hero on his return, celebrated as one of the great pioneers of human space exploration. Personally, he was a sullen, retiring man who disliked the attention. Though he took a leading role in the First Contact War, in 2160 he became a recluse on Elysium and refused all interviews and contact with Alliance media.\n\nIn 2157, Grissom was en route to Arcturus to meet the new graduates of the N7 program when news of the attack on Shanxi broke; he discussed the developing situation with graduate David Anderson. After the war, during his retirement on Elysium, his daughter Kahlee Sanders came to him for help after the destruction of Sidon. Grissom hid her, tried to put Anderson off the case, and guarded the house with a shotgun by night. When Skarr arrived, Grissom tried to fight him off and was caught in the krogan's line of fire. He survived but refused medical treatment to avoid attracting attention to Kahlee, then used his connections to get her secretly off the planet with Anderson as her protector.\n\nThe Jon Grissom Academy was named after him. In 2183, Jiro Toshiwa's knowledge that Kahlee was Grissom's daughter, a classified fact, exposed him as a traitor. Grissom died of natural causes in late 2185 or early 2186, six months before the incident involving Paul Grayson. Hundreds of dignitaries, including Anderson, attended his funeral; Kahlee attended as a member of the Academy faculty to preserve the secret that he was her father. A memorial plaque bearing his name and likeness was erected in the Academy's mess hall. His name may reference astronaut Gus Grissom.",
+      "url": "https://masseffect.fandom.com/wiki/Jon_Grissom",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "manual-the-founding-of-the-systems-alliance_007",
+      "kind": "page",
+      "page": "The Founding of the Systems Alliance",
+      "section": "John Grissom and the first transit",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Although the Alliance was new, many of its high-ranking officers had come from Earth's various military organizations, so it was agreed that one of the most decorated, Rear Admiral John Grissom, should lead the first team of explorers through the relay. Around the middle of 2149, Grissom and several volunteers boarded an experimental jump ship and became the first humans to transit the Charon Relay, arriving instantly at a second mass relay in the Arcturus system, 36 light-years away. There Grissom and his crew learned that the relays form a vast galaxy-spanning network. On their return, Grissom and his fellow explorers were hailed as heroes, with Grissom himself idolized as one of the greatest pioneers of human exploration. A sullen, retiring man, he nonetheless became the face of the Systems Alliance as humanity entered a new age of expansion.",
+      "url": "",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "summary:sol",
+      "kind": "summary",
+      "page": "Sol",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Sol is the home star system of humanity and the Systems Alliance. In Mass Effect it is accessible after reaching level 20. In Mass Effect 2 most of its planets can be mined by the Normandy SR-2, the exceptions being Earth and Mars, though none of the bodies rate better than \"Good\" for minerals.\n\nThe system was previously cut off from the galactic mass relay network because the Charon Relay orbiting Pluto had been encased in ice; its discovery and activation allowed humanity's expansion into the galaxy. During their height 50,000 years ago, the Prothean Empire maintained an outpost on Mars and studied the primitive inhabitants of Earth.\n\nSol contains nine planets recognized for game purposes: Mercury (first), Venus (second), Earth (third), Mars (fourth), Jupiter (fifth), Saturn (sixth), Uranus (seventh), Neptune (eighth), and Pluto (ninth), along with Luna, a moon of Earth. Associated missions and assignments include Prologue: Earth and Priority: Earth, UNC: Rogue VI on Luna, and Priority: Mars. In Mass Effect and Mass Effect 2, Sol is one of the largest systems in the game, with nine planets where most systems have four or five. Only the Asteroid Belt is depicted in-game, not the Kuiper Belt. The in-game positions of the planets in Mass Effect 2 correspond to a date of 26 January 2185, 175 years after the game's North American release date.",
+      "url": "https://masseffect.fandom.com/wiki/Sol",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-serrice-brandy#02",
+      "kind": "scene",
+      "page": "The Bottle of Serrice Ice Brandy",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-chakwas-serrice-brandy",
+      "text": "The Bottle of Serrice Ice Brandy. 2185, aboard the Normandy SR-2 before the Omega 4 Relay the medical bay, Normandy SR-2 Asked whether she needs anything, she mentions a bottle of Serrice Ice Brandy she lost with the old Normandy and never opened. It costs a thousand credits and can be bought at Ratch's Wares on Tuchanka, the Dark Star Lounge on the Citadel, Eternity on Illium, or Afterlife on Omega. It is bluish.",
+      "url": "",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-serrice-brandy#03",
+      "kind": "scene",
+      "page": "The Bottle of Serrice Ice Brandy",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-chakwas-serrice-brandy",
+      "text": "The Bottle of Serrice Ice Brandy. 2185, aboard the Normandy SR-2 before the Omega 4 Relay the medical bay, Normandy SR-2 Bring her one and she invites Shepard to drink it with her. Some way in, she is reminiscing about Corporal Jenkins and Lieutenant Alenko.",
+      "url": "",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-serrice-brandy#05",
+      "kind": "scene",
+      "page": "The Bottle of Serrice Ice Brandy",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-chakwas-serrice-brandy",
+      "text": "The Bottle of Serrice Ice Brandy. 2185, aboard the Normandy SR-2 before the Omega 4 Relay the medical bay, Normandy SR-2 She ends the evening passed out on one of the medical beds, apologises the next time for being unprofessional, offers Shepard a turn to vent, and asks the Commander to promise they will share a bottle every year.",
+      "url": "",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "scene:normandy-chakwas-serrice-brandy#04",
+      "kind": "scene",
+      "page": "The Bottle of Serrice Ice Brandy",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-chakwas-serrice-brandy",
+      "text": "The Bottle of Serrice Ice Brandy. 2185, aboard the Normandy SR-2 before the Omega 4 Relay the medical bay, Normandy SR-2 That is where Shepard learns why she really joined Cerberus: Joker. He will always need help with his Vrolik syndrome and will never admit it, and she needs stability. Serving on the Normandy with him and Shepard is where she finds it.",
+      "url": "",
+      "for_key": "Charon Relay discovered Pluto ice Grissom"
+    },
+    {
+      "chunk_id": "summary:eletania",
+      "kind": "summary",
+      "page": "Eletania",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Eletania was the third planet of the Hercules System in Attican Beta, carrying a Level 1 Toxic Hazard rating. It appeared ideal for colonization, covered in mosses, algae and lichen with a thick oxygenated atmosphere, but its animal kingdom consisted of microscopic symbiotic creatures impossible to filter from the air and necessary for native life, which caused anaphylactic shock when inhaled by non-native life. Settlement therefore required fully sealed environment suits or wholesale replacement of the ecosystem; some proposed limited colonization at high altitudes above the symbiotes' range. The planet had a visible ring system and a moon.\n\nIn Mass Effect the planet hosted the assignment UNC: Lost Module, involving a downed recon probe and a mineshaft, plus mineral surveys for palladium and gold, and geth and pyjak lifeforms. Its main point of interest was a Prothean ruin containing a Prothean sphere artifact. Using the trinket obtained from the Citadel: Asari Consort assignment on the artifact triggered a text-delivered vision: Shepard experienced the memories of a Cro-Magnon hunter who was observed and implanted by a hovering silver Prothean craft, the recording captured by an implanted Prothean data recorder. On waking, Shepard realized the Protheans had studied primitive humans, observing and analyzing the results at their base on Mars, and concluded it was a mystery that would likely never be solved. Unlocking the sphere was flagged when importing a save into Mass Effect 2, though it had no effect.",
+      "url": "https://masseffect.fandom.com/wiki/Eletania",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "prothean_010",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Legacy",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Various Prothean ruins still survive on planets like Feros, Quana, and Therum, as well as many known yet unexplored sites in the Attican Traverse, with more unknown sites believed to exist elsewhere throughout the galaxy. While these ruins are surprisingly intact for their age, many were plundered long ago with time and generations of looters having picked their dead cities and derelict stations clean. Functioning examples of Prothean technology are rare. While hunting for rogue Spectre Saren Arterius, Shepard may discover Prothean data discs and ancient ruins on some uncharted worlds. The Commander can even receive a Prothean \"trinket\" as a gift from Sha'ira, but as Liara T'Soni claims, solid evidence on the Protheans is scarce. With the help of Shiala on Feros, Shepard also gains the Cipher, which is the key to fully comprehending the vision from the beacon. As the vision was meant for a Prothean mind, understanding it requires the individual to think like a Prothean \\- to understand their culture, biological instincts, history and ancestral memory. This \"cipher\" then allows the individual to unlock the true meaning of the images, and understand the vision as it was meant to be seen. According to Shepard, the Cipher's effect on the vision is quite subtle, and Liara's Prothean expertise is necessary to make sense of the images. The Cipher also grants Shepard complete knowledge of the Prothean language. In addition to the technology they left behind, the Protheans left a greater influence through their in\\-depth study of other races. Their work has had the greatest impact on asari, humans, and the hanar. A Prothean ruin on Eletania reveals that the elder race was monitoring humanity even in its early Cro\\-Magnon form. The eventual discovery of a relatively small data cache in a ruined Prothean research station on Mars introduced humans to element zero and its follow\\-on technologies, advancing the species' development by a few centuries at least. It also revealed the location of the Charon Relay, enabling humanity to become an interstellar civilization and a major galactic power almost overnight. The hanar, who call the Protheans \"the Enkindlers\", credit them with giving the hanar sentience and language, and worship them as a wise and benevolent race who allowed them to become civilized. Even more profound was the Prothean influence on the asari. One of the deepest secrets of the asari government is a collection of ancient asari relics held in a temple on Thessia. The relics show asari goddesses and their companions as Protheans. The asari were nurtured and, to a degree, uplifted by the Protheans, according to the last surviving Prothean, Javik. Even the asari aptitude for biotics was apparently cultivated by the Protheans. Javik also claims his people believed the asari would be a failsafe if the Protheans were exterminated—that the asari race's innate wisdom and patience combined with the head start gifted from Prothean intervention would enable it to succeed where its benefactors failed, defeating the Reapers in the next cycle.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "scene:citadel-sha-ira-gift-of-words#04",
+      "kind": "scene",
+      "page": "Sha'ira's Gift of Words",
+      "section": "banter",
+      "game": "Mass Effect",
+      "scene_id": "citadel-sha-ira-gift-of-words",
+      "text": "Sha'ira's Gift of Words. 2183, Citadel Presidium, after Shepard reconciled Septimus and Xeltan the Consort's Chambers If Shepard had completed Citadel: Xeltan's Complaint before returning, Sha'ira gave a bonus Prothean-design trinket usable at ruins on Eletania, which triggered a brief vision of Protheans studying cavemen on Earth.",
+      "url": "",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "project-firewalker-prothean-site_011",
+      "kind": "page",
+      "page": "Project Firewalker: Prothean Site",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- Despite the journal and scan texts identifying Kopis as a planet, it is actually a *moon* orbiting Makhaira. - The Prothean artifact itself is most likely a reference to the alien artifact from the novel and film *Sphere*. It appears as a large, self\\-floating sphere with a reflective, water\\-like surface which, eerily, like the artifact from the film, reflects everything in the room except for the characters themselves. - One of the researchers is Dr. Robert O'Loy, whose datapad entry at the Prothean site mentions his wife, Helen. \"Helen O'Loy\" is the title of a science fiction short story by Lester Del Rey from 1938\\. - The artifact can be seen hovering over its table while catching up with Liara at the end of the Lair of the Shadow Broker DLC, even if it wasn't acquired up to this point. - The relic found initially bears a striking resemblance to the one found on Eletania. - The Prothean relic found also bears a striking resemblance to the Leviathan artifacts found only in the Mass Effect 3: Leviathan DLC. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Project_Firewalker:_Prothean_Site",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "eletania_005",
+      "kind": "page",
+      "page": "Eletania",
+      "section": "The Vision",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The trinket earned from the Citadel: Asari Consort assignment can be used to access the vision at the Prothean ruin. The vision is delivered entirely through text: > “ > Examining the strange Prothean artifact reveals a small, irregular slot on the underside of the surface. Remembering the strange trinket you received from the asari Consort on the Citadel, you pull it out and place it into the slot. The ball explodes in a brilliant flash of white light, momentarily blinding and disorienting you. > > > > \\*\\*\\* > Slowly your senses return as you wake from a deep sleep. You are alone in the forest, though you are not far from the caves you share with the others of your tribe. There is a pain and a small lump in the back of your skull, as if a chip of flint has been forced under the surface of the skin. > > > Leaning on your bone\\-tipped spear for support, you rise to your feet. A sound draws your attention upwards, where a strange creature hovers high above you. It is unlike the birds you hunt by the lake's edge \\- it has no head and no wings yet somehow it flies. It is a beast of shining silver; hanging motionless in the sky like a cloud. You sense it is watching you, studying you. > > > Raising a hairy fist, you shake your spear at it in anger and the creature rises up quickly until it disappears from view. With a satisfied grunt you make your way back to your caves and the rest of the tribe. > > > You fall into the familiar patterns of life \\- the hunt for food, the struggle to claim and keep a mate, the battles against other tribes that would claim your territory. Days roll into nights and back into days. Each time you rise from sleep there is the sensation that you are not alone; that some \"other\" is with you sharing all you see, hear and feel. At these times your hand goes to the strange lump at the back of your skull and you remember the silver creature in the sky. > > > The air grows colder, winter falls. You must range farther for food, clutching the furs tight against you to ward off the chill. It is on one of these long hunts that the strange bird returns. You hear it before you see it, its call a deafening roar as it descends from above, swooping down on you. A single great eye opens on the underbelly, a glowing red orb. You try to run, but a finger of red light extends from the eye and engulfs you, and all goes black again. > > > You wake an instant later to find yourself on Eletania lying on your back, the Prothean artifact looming above you undamaged and your companions standing over you. They help you to your feet, puzzled. \"There was a flash of light and you just sort of toppled over,\" one explains. \"Are you okay, Shepard?\" the other asks. > > > You don't answer right away, wondering at the implications of what you have seen: the memories of a Cro\\-Magnon hunter, captured by an implanted Prothean data recorder. How long did they study the primitive humans, observing them and analyzing the results at their base on Mars? And what, if anything, did they learn from us? > > > > \"I'm fine,\" you finally reply, realizing this is a mystery you will probably never solve. \"Forget about it.\"",
+      "url": "https://masseffect.fandom.com/wiki/Eletania",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "hades-nexus-prothean-sphere_001",
+      "kind": "page",
+      "page": "Hades Nexus: Prothean Sphere",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A refugee suggested that a Prothean sphere could be located somewhere on Gei Hinnom in the Hades Nexus. Locate the sphere and inform the man at the Citadel refugee camp. *Alternative journal entry:* A Prothean sphere was recovered from the Hades Nexus. Find someone on the Citadel who can use it.",
+      "url": "https://masseffect.fandom.com/wiki/Hades_Nexus:_Prothean_Sphere",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "gei-hinnom_003",
+      "kind": "page",
+      "page": "Gei Hinnom",
+      "section": "Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Hades Nexus: Prothean Sphere",
+      "url": "https://masseffect.fandom.com/wiki/Gei_Hinnom",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "sheol_004",
+      "kind": "page",
+      "page": "Sheol",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Hades Nexus: Prothean Sphere",
+      "url": "https://masseffect.fandom.com/wiki/Sheol",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "summary:hades-nexus-prothean-sphere",
+      "kind": "summary",
+      "page": "Hades Nexus: Prothean Sphere",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Hades Nexus: Prothean Sphere was a Mass Effect 3 fetch mission acquired after Priority: The Citadel II by listening to a refugee in Bay E28 of the Docks: Holding Area, who begged a turian guard for food in exchange for the location of Prothean ruins on Gei Hinnom in the Hades Nexus. The cluster became accessible only after Priority: Rannoch, at least four Priority missions after the mission could first be acquired. Shepard scanned Gei Hinnom in the Sheol system to recover the sphere; it could alternatively be found during a Search and Rescue scan, logging as Citadel: Prothean Sphere. Returning it to the refugee, Shepard authorized him to sell the artifact to the Alliance, granting 5 Reputation, 15,000 credits, and an update to the Alliance Engineering Corps War Asset. Speaking to the refugee again revealed he used the money to buy food for his family and for others trapped on the station.",
+      "url": "https://masseffect.fandom.com/wiki/Hades_Nexus:_Prothean_Sphere",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#06",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Aboard the Normandy, Joker's welcome was sarcastic. Kaidan pressed Liara on her link to Saren; she knew nothing of his plans but relayed her research, culminating in a theory of recurrent galactic extinctions with the Protheans the latest to vanish. Shepard tied this to the Reapers and the Eden Prime beacon vision. Ashley grew impatient and steered the talk back to Saren and the Conduit. Liara called the Normandy a safe haven from Saren, offered her Prothean expertise to interpret the vision, and joined the crew; afterward the Council raised security concerns about her and the turian Councilor questioned the destruction of the site.",
+      "url": "",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "scene:feros-shiala-cipher-transfer#02",
+      "kind": "scene",
+      "page": "Shiala Gives Shepard the Prothean Cipher",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "feros-shiala-cipher-transfer",
+      "text": "Shiala Gives Shepard the Prothean Cipher. 2183, Feros, after the Thorian is destroyed the Thorian's lair, Feros Shiala transfers the cipher directly into Shepard's mind. The experience leaves the Commander badly shaken, but it is necessary to make sense of the Eden Prime beacon's vision and find the Conduit.",
+      "url": "",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "summary:prothean-beacon",
+      "kind": "summary",
+      "page": "Prothean Beacon",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Prothean Beacons were rare pieces of surviving Prothean \"paleo-technology.\" They formed a system of near-instantaneous communication across the Prothean empire, interfacing directly with a person's brain rather than through audio or video. The discovery of a beacon on Eden Prime prompted the Alliance to dispatch the SSV Normandy to recover it.\n\nCommander Shepard's \"vision,\" triggered by accidentally accessing the Eden Prime beacon, was a warning about the Reapers sent by the researchers on Ilos to reach any survivors and give them hope. The message was coded so that only Prothean minds could understand it, a precaution meant to keep the Reapers from learning Ilos had survived. Because the Protheans did not yet fully understand indoctrination, they failed to anticipate that an organic Reaper agent could receive it. The Eden Prime beacon was also badly damaged, reportedly in Sovereign's attack, so Shepard received only random, vivid images, suffering fifteen hours of unconsciousness and recurring nightmares. Comprehending the message as intended required the Cipher, which enabled both Shepard and Saren Arterius to understand the archetypes. Liara T'Soni noted Shepard's exceptionally strong will; the beacon exploded after transmitting to Saren and then Shepard, possibly from the strain, possibly because Shepard instinctively resisted the joining.\n\nAn intact beacon with a user interface existed in Saren's lab on Virmire; Shepard coped more easily with its vision, and it was presumably destroyed in the nuclear blast that leveled the base. A Prothean video terminal on Joab held a similar vision, but showed a pair of Collectors instead of a Reaper at the end. Another beacon was hidden on Thessia inside a statue of the goddess Athame, known only to the highest levels of asari government, which secretly used its data to make the asari the galaxy's most advanced race in violation of Council policy. During the Reaper invasion Shepard sensed it with the Cipher and activated it using temple artifacts, releasing the Prothean VI Vendetta, which suggested that the repeating patterns of galactic evolution were not caused by the Reapers, who were merely \"servants\" of that pattern, before Kai Leng stole the data on the final Crucible piece.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#07",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy If Shepard delayed Therum until after Virmire, Liara refused to believe the squad was real until physically released from the barrier, insisting she was conjuring a protective figure to keep from going mad, and cringed from the Krogan Battlemaster, begging Shepard not to let him take her. At the debrief, hearing the evidence of the Reapers, the Cipher from Feros and Shepard's beacon visions, she reacted with anger that her decades of research had been stripped away, calming only when she realized her expertise was the one way to read the vision.",
+      "url": "",
+      "for_key": "Eletania Prothean sphere Cro-Magnon vision"
+    },
+    {
+      "chunk_id": "manual-humanity-before-the-mass-relays_005",
+      "kind": "page",
+      "page": "Humanity Before the Mass Relays",
+      "section": "Element zero and the Prothean ruins, 2147–2148",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "In 2147, traces of element zero were discovered for the first time on Mars. Aggressive research over the following year led to the discovery of ancient alien ruins — of a species that would be identified as the Protheans. Among the finds was a small cache of advanced Prothean technology hidden deep beneath the south polar region, Promethei Planum, including a large supply of already-refined element zero. Building on these remnants, humans quickly explored the applications of element zero and worked out the science of mass effect fields, leading to faster-than-light travel. The discoveries of the next year would begin the founding of the Systems Alliance.",
+      "url": "",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "manual-the-founding-of-the-systems-alliance_001",
+      "kind": "page",
+      "page": "The Founding of the Systems Alliance",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "**Summary:** How the Systems Alliance formed after the discovery of the Prothean ruins on Mars: the cultural and religious upheaval that followed, the unifying \"us versus them\" effect on global politics, the drafting of the Systems Alliance Charter by Earth's eighteen largest nations in 2149, the creation of the Alliance military, the discovery that Charon (Pluto's moon) was a dormant mass relay, and Rear Admiral John Grissom's first crewed transit of the Charon Relay to Arcturus.",
+      "url": "",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "earth_005",
+      "kind": "page",
+      "page": "Earth",
+      "section": "Additional Information",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Known governments on Earth include the United North American States, the European Union, and the Chinese People's Federation. The Union of Incorporated Nations (UNIN) is another polity composed of former United Nations countries that weren't powerful enough to be founding members of the Systems Alliance. According to information gathered by the Collectors, the human population of Earth in 2183 is 11,490,225,106\\. The bluefin tuna, a native fish, is thought to be extinct as of 2186, although there's at least one cryogenically frozen sample bound for the Andromeda galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Earth",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "mars_006",
+      "kind": "page",
+      "page": "Mars",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Mars is the only planet in the Sol System whose population does not appear in the planet card when orbited by the Normandy SR\\-2. - 2103 also marks the founding of the first permanent Martian colonies in the *Star Trek* universe. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Mars",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "united-north-american-states_003",
+      "kind": "page",
+      "page": "United North American States",
+      "section": "Founding the Systems Alliance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2149 CE, following the discovery of a cache of Prothean technology on Mars, the United North American States and seventeen other nations ratified the Systems Alliance charter, establishing a representative political body to expand and defend human territory. The UNAS also contributed military assets to the Systems Alliance's fledgling military.",
+      "url": "https://masseffect.fandom.com/wiki/United_North_American_States",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "sol_001",
+      "kind": "page",
+      "page": "Sol",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Prerequisite:** Level 20 (Mass Effect) **Sol** is the home system of the humans and the Systems Alliance. Most of the planets in Sol can be mined by the Normandy SR\\-2, with the exception of Earth and Mars. However, none of the planets have beyond a Good rating for minerals. The system was previously cut off from the galactic relay network due to the Charon Relay being encased in ice. The Prothean Empire used to have an outpost on Mars and research interests on the primitive inhabitants of Earth during their heyday 50,000 years ago.",
+      "url": "https://masseffect.fandom.com/wiki/Sol",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "summary:humanity-before-the-mass-relays",
+      "kind": "summary",
+      "page": "Humanity Before the Mass Relays",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "This timeline covered human spaceflight from 2069 to 2148, before the Charon Relay was discovered. Humanity's first era of expansion began in 2069 CE with the establishment of Armstrong Outpost on Luna, on the 100th anniversary of the Apollo 11 landing. Earth still struggled with climate change, overpopulation and rising populism, with widening inequality alongside continued scientific advancement. Frustrated with the slow official pace, billionaire Victor Manswell funded a private pre-relay expedition in 2075, placing about 300 colonists in cryogenic freeze; the launch succeeded but the colonists were never heard from again. As Luna's population grew, deeper missions followed: in the 2080s NASA and the Chinese space program ran crewed Mars missions and built research stations, and the European Space Agency established the first permanent Mars settlement twenty years later.\n\nAround 2096 CE, under population pressure, Canada, Mexico and the United States united to form the United North American States. Secessionist factions opposed this, including the extremist group Freedom's First, whose New York chapter attacked Liberty Island on 1 November 2096 and destroyed the Statue of Liberty. The resulting outrage triggered the Second American Civil War between secessionist and UNAS forces, a six-year conflict ending in overwhelming UNAS victory. During the fighting, the European Space Agency established Lowell City in Eos Chasma on Mars, then humanity's most distant colony and a bastion for the hope of terraforming; colonies on Luna and Mars began to ease Earth's overpopulation.\n\nProsperity continued into the 2130s. Steven Hackett was born in 2134 and David Anderson in 2137. Humanity colonized the outer solar system and researched faster-than-light travel. In 2143 construction began on Gagarin Station beyond Pluto's orbit, named for Yuri Gagarin and colloquially called \"Jump Zero\" after failed FTL attempts; it was then humanity's largest and most distant station, used for telemetry, exploration and dangerous experiments. In 2147, traces of element zero were discovered for the first time on Mars. A year of aggressive research led to the discovery of ancient alien ruins, later identified as Prothean, including a cache of advanced technology hidden deep beneath the south polar region Promethei Planum with a large supply of already-refined element zero. Building on these remnants, humans quickly worked out the science of mass effect fields and faster-than-light travel, and the discoveries of the following year began the founding of the Systems Alliance.",
+      "url": "",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "codex-humanity-and-the-systems-alliance_020",
+      "kind": "page",
+      "page": "Codex/Humanity and the Systems Alliance",
+      "section": "Timeline",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "2069 – Armstrong Outpost at Shackleton Crater becomes the first human settlement on Luna. It is formally founded on July 24, the 100th anniversary of the first lunar landing. 2103 – Lowell City in Eos Chasma becomes the first human settlement on Mars. 2137 – Eldfell\\-Ashland Energy Corporation demonstrates helium\\-3 fuel extraction from the atmosphere of Saturn. 2142 – Construction of Gagarin Station (Jump Zero) begins beyond the orbit of Pluto. 2148 – Prospectors discover the Prothean ruins at Promethei Planum on Mars. 2149 – Translation of Prothean data leads humans to the Charon mass relay. Systems Alliance founded to coordinate exploration and colonization of extra\\-solar worlds. 2151 – A shipping accident at Singapore International Spaceport exposes downwind communities to containers of dust\\-form element zero. Alliance begins construction of Arcturus Station. 2152 – Roughly 30% of the children born in Singapore after element zero exposure suffer from cancerous growths. Systems Alliance begins settlement of Earth's first extra\\-solar colony world, the planet Demeter. 2154 – Commander Shepard born. 2155 – Systems Alliance occupies completed portions of Arcturus Station as a headquarters. 2156 – Some children of Singapore exhibit minor telekinetic abilities. 2157 – Turians encounter human explorers; First Contact War. Occupation and liberation of the human colony of Shanxi. 2158 – Humans learn potential of biotics. An international effort to track element zero exposures begins. Roughly 10% of exposed children show some level of biotic ability. 2160 – Systems Alliance Parliament formed. 2165 – Humans establish embassy on Citadel. 2170 – Batarian slavers attack the Alliance colony of Mindoir. 2176 – Skyllian Blitz – Pirates and slavers attacked Elysium, the human capital in the Skyllian Verge. 2177 – Thresher maws devour the Alliance colony of Akuze. 2178 – In retaliation for the Skyllian Blitz, an Alliance fleet wipes out an army of slavers on the moon of Torfan. 2183 – Current date. **Mass Effect 2 Updates:** 2183 – Geth led by rogue Spectre Saren Arterius attack the Citadel, ensuing in a battle that cost thousands of lives. A few weeks later, the SSV Normandy is ambushed and destroyed. Commander Shepard is presumed dead. 2185 – Current date. **Mass Effect 3 Updates:** 2185 – An alien race known as the Collectors abducts thousands of human colonists in the Terminus Systems. Commander Shepard leads a team beyond the Omega\\-4 Relay to attack the Collectors where they live, stopping the abductions. 2186 – Current date.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Humanity_and_the_Systems_Alliance",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "summary:alliance-infiltration-unit-infiltrator",
+      "kind": "summary",
+      "page": "Alliance Infiltration Unit Infiltrator",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page described the Alliance Infiltration Unit Infiltrator, a Mass Effect 3 multiplayer character kit. The unit was an unshackled AI modeled on the Cerberus synthetic Eva that Commander Shepard's team recovered on Mars. Although quantum blue-box AIs were considered illegal by the Council, the Systems Alliance secured a special allowance to deploy the infiltration unit during the Reaper war. The units favored shotguns, were designed for close-quarters combat, and could self-repair when downed, using the powers Tactical Cloak, Repair Matrix, and Snap Freeze. The remainder of the page consists of multiplayer gameplay notes and tactics rather than narrative lore.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Infiltration_Unit_Infiltrator",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "scene:prologue-earth-vancouver-anderson-farewell#05",
+      "kind": "scene",
+      "page": "Anderson Stays Behind as the Normandy Leaves Earth",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "prologue-earth-vancouver-anderson-farewell",
+      "text": "Anderson Stays Behind as the Normandy Leaves Earth. 2186, Vancouver, Earth, the first hours of the Reaper invasion (Prologue: Earth) a Systems Alliance HQ tower in Vancouver, then the ruined streets and spaceport, then the Normandy SR-2 shuttle bay Aboard ship, James Vega was incredulous that Shepard meant to follow Anderson's order and leave Earth to beg the Council for aid; the argument allowed a Paragon or Renegade interrupt. Admiral Hackett then contacted Shepard by comm and assigned the next mission, Priority: Mars.",
+      "url": "",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "scene:solana-beach-josh-james-red-sand#01",
+      "kind": "scene",
+      "page": "Leverage at the Beach House",
+      "section": "banter",
+      "game": "Mass Effect",
+      "scene_id": "solana-beach-josh-james-red-sand",
+      "text": "Leverage at the Beach House. 2176, the day James Vega enlisted with the Systems Alliance Marines Josh's beach house in Solana Beach, California On the day James enlisted with the Systems Alliance Marines, Josh sent his son to San Diego to pick up a package. After James evaded police pursuit and returned home, Josh revealed that the package contained a supply of red sand and promptly took some of it himself.",
+      "url": "",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "scene:mars-archives-eva-shoots-ashley#04",
+      "kind": "scene",
+      "page": "Dr. Eva Guns Down the Virmire Survivor on Mars",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "mars-archives-eva-shoots-ashley",
+      "text": "Dr. Eva Guns Down the Virmire Survivor on Mars. 2186, Priority: Mars, during the Reaper invasion of Earth the Prothean archives dig site on Mars, from the facility to the rooftop landing pad On the Illusive Man's order, Eva gravely wounded the Virmire survivor before Shepard shot her down. Shepard ordered James to bring the body aboard; the Normandy left Mars orbit just as the Reapers arrived, the wounded crewmate was rushed to the med bay, and Shepard ordered Joker to set course for the Citadel.",
+      "url": "",
+      "for_key": "The Founding of the Systems Alliance Mars"
+    },
+    {
+      "chunk_id": "kahje_003",
+      "kind": "page",
+      "page": "Kahje",
+      "section": "Mass Effect: Homeworlds",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Liara T'Soni travels to Kahje seeking a way to stop the Reapers from the planet's Prothean archives. At a submerged Prothean site that the hanar used as a shrine, she discovers a lead: a set of encryption keys that accesses archives on other planets, including Mars. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Kahje",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "codex-aliens-extinct-races_004",
+      "kind": "page",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "Protheans: Beacon",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The beacon was a Prothean artifact unearthed on the Alliance colony of Eden Prime. Its resemblance to the Prothean data banks recovered on Mars provoked immediate interest from the Alliance and the Citadel Council. It proved to be a solid state data storage device, part of a galaxy\\-spanning comm network similar to the modern extranet. Intact Prothean 'paleo\\-technology' is rare; the beacon seemed to promise another quantum leap of technology, akin to the discovery of the mass effect drive and relays. Unfortunately, the beacon also drew the attention of the rogue Spectre Saren Arterius and his synthetic allies, the geth. A dawn raid by his flagship Sovereign resulted in hundreds of civilian casualties. The beacon was badly damaged. The motives behind the attack are still being investigated. During the recovery operation, the beacon fired a pulse of energy at the Executive Officer of the Alliance frigate Normandy. Lieutenant Commander Shepard survived and appears to have suffered no ill effects. Afterwards, the beacon fell inert. The mechanism appears to be dead.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "priority-mars_001",
+      "kind": "page",
+      "page": "Priority: Mars",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Admiral Hackett ordered the Normandy to Mars to locate new Prothean data that could help defeat the Reapers, but the archives on Mars are not responding. Investigate the dig site and find the Prothean data.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Mars",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-3_016",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 3",
+      "section": "Mars",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After Earth, Mars was probably the second\\-most\\-exciting planet to design. We knew it would have human architecture, and we wanted to capture the realistic feel of a drill site on the red planet, excavating Prothean secrets of the Mars archive. We kept the base quite low to the ground to help it survive sandstorms and other harsh Martian weather, and went with a circular design that supported a large drilling shaft down the middle. The large spokes coming off the circle serve as docking stations for shuttles and rovers. The design of the interior has a clean industrial look, more like a first\\-world factory than a backwater mining station. The architecture also shows how humans' decades of studying the Prothean archives influenced the design of the mine.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_3",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#05",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine Liara helps the bandaged Quoyle toward the shrine's shuttle bay and contacts Admiral Hackett, reporting a possible lead and asking for access to a top-secret facility on Mars.",
+      "url": "",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#01",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine A hanar official refuses Liara T'Soni access to the submerged Prothean shrine. His assistant, a drell named Quoyle, argues that since generosity is an Enkindler virtue, Liara's large pledge to the upcoming Cresting Bloom celebrations should earn her a brief visit. The official relents once the sum is settled.",
+      "url": "",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "adjutant-enemy_002",
+      "kind": "page",
+      "page": "Adjutant (enemy)",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "\"Adjutant\" is the Cerberus codename for the experimental subjects created at a secret facility beyond the Omega\\-4 relay. The creatures are based on Reaper technology, and the adjutants encountered on Omega have the ability to infect any life\\-form to create a new adjutant. Adjutants are deadly pack hunters. They initially remain hidden, observing potential victims and distracting them with subtle whispers. When they select a target, adjutants ambush them with charged projectiles that create a violently unstable mass effect field that causes severe disorientation and renders the target helpless. Enhanced muscle tissue gives adjutants the ability to leap surprising distances, allowing them to close in and infect their target quickly. The baseline form of the being does not match any known species. Xenobiologists suspect that Reapers may have originally created and implemented the virus several cycles before the Prothean extinction and that it still carries genetic traces of its original host. If this is true, then like the Collectors, adjutants are a glimpse into the distant past at a species whose very existence \\-\\- and struggle against the Reapers \\-\\- has long been forgotten.",
+      "url": "https://masseffect.fandom.com/wiki/Adjutant_(enemy)",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "codex-omega-reclaimed-omega-s-secrets_003",
+      "kind": "page",
+      "page": "Codex/Omega Reclaimed: Omega's Secrets",
+      "section": "Cerberus: Adjutant",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "\"Adjutant\" is the Cerberus codename for the experimental subjects created at a secret facility beyond the Omega\\-4 relay. The creatures are based on Reaper technology, and the adjutants encountered on Omega have the ability to infect any life\\-form to create a new adjutant. Adjutants are deadly pack hunters. They initially remain hidden, observing potential victims and distracting them with subtle whispers. When they select a target, adjutants ambush them with charged projectiles that create a violently unstable mass effect field that causes severe disorientation and renders the target helpless. Enhanced muscle tissue gives adjutants the ability to leap surprising distances, allowing them to close in and infect their target quickly. The baseline form of the being does not match any known species. Xenobiologists suspect that Reapers may have originally created and implemented the virus several cycles before the Prothean extinction and that it still carries genetic traces of its original host. If this is true, then like the Collectors, adjutants are a glimpse into the distant past at a species whose very existence \\-\\- and struggle against the Reapers \\-\\- has long been forgotten.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Omega_Reclaimed:_Omega's_Secrets",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "summary:kahje",
+      "kind": "summary",
+      "page": "Kahje",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Kahje was the homeworld of the hanar, a water world with roughly 90% of its surface covered by a vast ocean called the Encompassing. Heat from its energetic white star kept the planet permanently wrapped in cloud, and its land consisted only of small islands. Its atmosphere, primarily oxygen, hydrogen, and nitrogen with traces of ammonia, was well suited to life but too humid for the drell, whom the hanar had evacuated there two centuries earlier from their dying homeworld; the drell lived in climate-controlled domed cities such as Cnidaria City, the only place they could avoid Kepral's Syndrome. Kahje was dotted with Prothean ruins that shaped hanar religion and society, the largest centered on the underwater volcano Mount Vassla, where winners of the Nyahir holiday's religious events were inscribed in bioluminescence for a year.\n\nIn Mass Effect: Homeworlds, Liara T'Soni traveled to Kahje's Prothean archives seeking a way to stop the Reapers and recovered encryption keys accessing archives on other worlds, including Mars. In 2186, during an investigation of an indoctrinated hanar diplomat named Zymandis, Commander Shepard's success or failure in stopping his sabotage of Kahje's automated planetary defenses determined whether the planet was overrun by the Reapers or saved along with the hanar and drell fleet. Kahje lay in Inner Council Space near Palaven and Irune and was the terminus of an Illium-Kahje shipping lane.",
+      "url": "https://masseffect.fandom.com/wiki/Kahje",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "summary:liara-t-soni",
+      "kind": "summary",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dr. Liara T'Soni was an asari researcher and archaeologist with a Doctorate in Anthropology of the Prothean Era from the University of Serrice. Born on Thessia in 2077, she was the pureblood only child of Matriarch Benezia, raised alone by her mother, and had spent fifty years studying the Prothean extinction. In 2183, geth attacked the Prothean ruin on Therum where she was working; she accidentally trapped herself in a protective energy field until Commander Shepard's team freed her. She joined the Normandy, contributed her theory of cyclical extinction, used her melding ability to interpret Shepard's beacon visions, and ultimately identified Ilos as the Conduit's location. On Noveria she witnessed or learned of the death of her indoctrinated mother, who called her \"Little Wing\" a final time. She was a potential romance for a male or female Shepard.\n\nIn Mass Effect: Redemption, after Shepard's death aboard the SR-1, Liara and the drell Feron worked with Cerberus to recover Shepard's body from the Shadow Broker's agent Tazzik, delivering it to the Lazarus Project while Feron was captured. By 2185 (Mass Effect 2) she was a ruthless information broker on Illium, consumed by hatred of the Shadow Broker. In the Lair of the Shadow Broker DLC, she and Shepard pursued the Spectre Tela Vasir across Illium, raided the Broker's base ship, discovered the Broker was a yahg, killed him, and Liara assumed his identity, rescuing Feron and pledging the network to Shepard's fight against the Reapers.\n\nIn Mass Effect: Homeworlds she searched Prothean archives on Thessia and Kahje, clashing with the Illusive Man and a Cerberus Phantom. In Mass Effect 3 she reunited with Shepard during the Cerberus raid on the Mars Archives, where she revealed the Prothean blueprint for the Crucible, then relocated her Shadow Broker operation to the Normandy with the VI Glyph, greatly aiding the war effort. She created a time capsule to preserve their cycle's knowledge, met her \"father\" Matriarch Aethyta on the Citadel, and clashed with Javik over evidence of Prothean interference in asari history, revealed when Thessia fell and Kai Leng stole the temple's Prothean VI.\n\nIf romanced, she and Shepard resumed their relationship; before the final battle she offered to join her consciousness to Shepard's to share memories, a practice reserved for asari bondmates. If Shepard rallied enough forces, Liara survived and honored the fallen at the Normandy's memorial wall; if not, she could be killed by Harbinger, or, in the Refusal ending, appeared centuries later as a VI whose time capsule helped a future species defeat the Reapers. In Mass Effect: Andromeda, Ryder can hear voice messages Liara sent to Alec Ryder in 2182 and 2186. Her face model was actress Jillian Murray and her voice actress was Ali Hillis.",
+      "url": "https://masseffect.fandom.com/wiki/Liara T'Soni",
+      "for_key": "human technology leap Prothean archives"
+    },
+    {
+      "chunk_id": "summary:priority-mars",
+      "kind": "summary",
+      "page": "Priority: Mars",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Mars was the first full mission of Mass Effect 3, acquired automatically after the Reaper assault on Earth in the prologue. Admiral Hackett ordered the Normandy to the Prothean archives on Mars, where the dig site had gone silent, to recover data that might help defeat the Reapers. Shepard landed with James Vega and found Cerberus troops executing Alliance researchers; this was the first appearance of Cerberus as an enemy faction in the trilogy, introducing Assault Troopers, Centurions and Guardians. Among the dead was a researcher named Reeves.\n\nInside the facility Shepard reunited with Dr. Liara T'Soni, who revealed she had discovered Prothean plans for a device (\"the Crucible\") capable of stopping the Reapers, and that Cerberus was there to seize them. Shepard sent Vega back to the shuttle to protect the team's exit and took Liara as squadmate. The two fought through the research complex, a sabotaged cafeteria where the air had been vented, corridors, a clean room, an autoturret gauntlet and a tram station, learning that Cerberus operatives had been implanted with Reaper technology. Shepard posed as a Cerberus team to lure a tram, then fought through a large battle at the archive station.\n\nIn the archive chamber the Illusive Man appeared by hologram. The Cerberus infiltrator Dr. Eva Coré was caught stealing the Prothean data, triggering a rooftop chase. Eva reached a shuttle, but Vega crashed his shuttle into hers. Her organic disguise was destroyed, revealing a mech infiltration unit, and on the Illusive Man's order she gravely injured Kaidan Alenko or Ashley Williams before Shepard shot her down. Shepard ordered the body brought aboard the Normandy, which left Mars orbit just as the Reapers arrived. The wounded crewmate was taken to the medical bay, and Shepard ordered Joker to set course for the Citadel. Hackett confirmed Anderson's order to seek Council aid and requested the Crucible plans for Alliance analysis. Eva's body would later be reactivated by EDI.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Mars",
+      "for_key": "human technology leap Prothean archives"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/factions.md",
+      "line": 69,
+      "text": "- The Systems Alliance Charter was drafted and ratified in early 2149 by Earth's eighteen largest nations plus representatives from Mars and Luna; the founding nations ranged from the United North American States and the United Kingdom to China, India, Brazil, Nigeria and Russia, with Ireland joining a year later. (source: The Founding of the Systems Alliance)",
+      "for_key": "the founding of the systems alliance mars"
+    },
+    {
+      "file": "codex/timeline.md",
+      "line": 7,
+      "text": "- 2147: element zero first detected on Mars; 2148: discovery of Prothean ruins and a cache of advanced technology and refined element zero beneath Promethei Planum, leading to mass effect physics and, the next year, the founding of the Systems Alliance (source: Humanity Before the Mass Relays)",
+      "for_key": "the founding of the systems alliance mars"
+    },
+    {
+      "file": "codex/timeline.md",
+      "line": 8,
+      "text": "- 2148: the translated Mars Prothean data cache revealed that Charon, largest moon of Pluto, was a mass relay encased in ice and dormant for 50,000 years; a human science team near Pluto began excavating to reactivate it. (source: The Founding of the Systems Alliance)",
+      "for_key": "the founding of the systems alliance mars"
+    },
+    {
+      "file": "codex/timeline.md",
+      "line": 10,
+      "text": "- Early 2149: Earth's eighteen largest nations, with Mars and Luna representatives, drafted and ratified the Systems Alliance Charter and pooled their science and militaries into the Systems Alliance military. (source: The Founding of the Systems Alliance)",
+      "for_key": "the founding of the systems alliance mars"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

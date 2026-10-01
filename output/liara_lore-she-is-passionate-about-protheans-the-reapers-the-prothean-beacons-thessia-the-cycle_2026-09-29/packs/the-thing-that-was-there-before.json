@@ -1,0 +1,1322 @@
+{
+  "section": {
+    "id": "the-thing-that-was-there-before",
+    "title": "The Thing That Was There Before",
+    "target_words": 720,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "The Leviathan of Dis as an archaeological find that was made and taken away: a corpse dated near a billion years old, a batarian survey team, a dreadnought, a denial the salarian documents undercut",
+    "What Shepard learned on the Leviathan trail, which Liara did not witness; she has Shepard's account and her own Broker files on Bryson, Cerberus and the Alliance, and compares them: Bryson's real interest, the aquatic Leviathans, the Intelligence, the first Reaper",
+    "Her scholar's caution about it: the account came from one Leviathan speaking inside Shepard's head, so it is testimony and not a stratum, and she wants to know what he could not check",
+    "That the Reapers had makers and that the Protheans could not have known it, so every Prothean record of the Reapers is a record from the middle of a story"
+  ],
+  "required_facts": [
+    {
+      "event_id": "leviathan-of-dis-discovery",
+      "fact": "In 2163 a batarian survey team exploring the Dis system found a gigantic corpse lying in a crater on the planet Jartar. Initially dated at nearly a billion years old, it was believed to be the remains of a genetically engineered starship - an organic vessel unlike anything in known space. There was almost no time to study it: shortly after the discovery a batarian dreadnought arrived in the Dis system, and soon afterward the corpse vanished from the crater. The Batarian Hegemony thereafter strenuously denied the Leviathan of Dis had ever existed, growing more vocal in its denials when confronted with documentation compiled by salarian researchers before the body disappeared. In truth the Hegemony had secretly transported the corpse to the batarian homeworld Khar'shan. As revealed in Mass Effect 3 by the batarian terrorist Balak (if he survived the 2183 attack on Terra Nova), the \"Leviathan of Dis\" was in fact the body of a dead Reaper. After the Terra Nova attack failed, the Hegemony accelerated its research on the Reaper corpse. Prolonged exposure indoctrinated numerous batarian scientists and government and military officials. When the Reapers invaded in 2186, those indoctrinated officials sabotaged the Hegemony's defenses, allowing the Reapers to overrun batarian space almost immediately and shatter its scattered navy. Decades later, Admiral Hackett's Task Force Aurora, led by Dr. Garret Bryson, studied records of the Leviathan of Dis while hunting the entity that had killed it - the being Bryson identified as the true Leviathan, an ancient race predating the Protheans that had the power to destroy Reapers.",
+      "actor": "Balak"
+    },
+    {
+      "event_id": "leviathan-of-dis-discovery",
+      "fact": "A dead Reaper is recovered on Jartar and covertly moved to Khar'shan by the Batarian Hegemony",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-of-dis-discovery",
+      "fact": "The Hegemony publicly denies the Leviathan of Dis ever existed",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-of-dis-discovery",
+      "fact": "Batarian research on the corpse, accelerated after 2183, indoctrinates many batarian scientists and officials",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-of-dis-discovery",
+      "fact": "Indoctrinated officials sabotage batarian defenses in 2186, letting the Reapers conquer batarian territory almost unopposed",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-of-dis-discovery",
+      "fact": "Records of the corpse and its killer seed Task Force Aurora's later hunt for the Leviathans",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "During the Reaper invasion of 2186, the Systems Alliance Task Force Aurora, led by Dr. Garret Bryson, pursues an ancient legend: the existence of Leviathan, a mythical being theorized to have killed one of the Reaper capital ships known as the Leviathan of Dis. If such a being exists and can be weaponized or allied with, it could become a crucial asset in the war against the Reapers. The Task Force is divided into project teams: Project Basilisk, led by Dr. Alex Garneau and investigating the asteroid Mahavid, and Project Scarab, led by Dr. Ann Bryson (Garret's daughter) and investigating the planet Namakli in the Pylos Nebula. Commander Shepard is briefed on the Task Force's research and directed by Admiral Hackett to assist their investigation. However, during Shepard's meeting with Dr. Garret Bryson at his laboratory on the Citadel, the scientist is mysteriously assassinated by his own assistant, Derek Hadley. This death galvanizes Shepard into action, knowing that Bryson must have been close to a critical discovery. Shepard investigates Bryson's encrypted files using a decryption key hidden in a children's crayon drawing—a portrait of Reaper activity data that Garret had kept close to his heart for years. Shepard's investigation leads to the asteroid mining facility on Mahavid, operated by the T-GES Mineral Works front and under Reaper attack. Shepard, Steve Cortez, and squad fight through Reaper ground forces, repair a broken elevator with a repair drone, and gather datapads and credits. Tracking Dr. Garneau through an undelivered message, Shepard meets a man claiming to be Garneau who is in fact a Leviathan thrall; he flees and, at the mine, detonates the Leviathan artifact, killing himself and surrounding Husks. Shepard's squadmate then finds the real Dr. Garneau's body—the impostor had been another thrall. The freed facility staff have no memory of Garneau, the Reapers, or the past ten years; an asari miner believes the year is still 2176, revealing Leviathan had held them as thralls for roughly a decade. The attacking Reapers abruptly withdraw. Shepard continues to Namakli, where Dr. Ann Bryson's team is pinned down by Reaper forces. Shepard extracts Ann but finds that most of her team—Boyles, Hopkins, and Kirkwood—have been killed in the assault. On Namakli, Shepard discovers Leviathan artifacts: ancient alien technology capable of projecting visions and inducing quantum entanglement states to stimulate neural activity, similar to rachni communication. Ann theorizes that Leviathan was using the artifacts to induce a quantum entanglement state and may have been preparing the rachni to fight the Reapers. However, when Marauders activate one of the artifacts, it possesses Ann, forcing Shepard's squad to destroy the device to free her. After the battle, Shepard informs Ann of her father's death, deeply affecting the scientist. Back on the Citadel, Ann collaborates with EDI to understand the artifacts' function: they act primarily as receivers but become transmitters while possessing a victim, and their signals could be traced to pinpoint Leviathan's location. Despite Shepard's objections, Ann volunteers to expose herself to the artifact again, with James Vega standing by to intervene. If allowed to continue, Ann emerges relatively unharmed and warns that Leviathan is angry and intends to kill Shepard. The quantum entanglement analysis identifies Leviathan's location: 2181 Despoina, a celestial body in deep space. Shepard travels to Despoina and confronts Reaper forces defending the location. After a fierce battle, Shepard makes contact with Leviathan itself—revealed not as a single being but as one of several surviving members of an ancient organic race that predates the Protheans and, remarkably, gave rise to the Reapers. Leviathan explains that the Reapers were created as synthetic servants to preserve organic life in a endless cycle, but the cycle became twisted into harvesting civilizations. Leviathan and its kind have survived for millions of years, going into hibernation during Reaper cycles. Impressed by Shepard's determination and the human effort to understand ancient history, Leviathan agrees to aid the modern galactic races in fighting the Reapers. The ancient organic demonstrates its power by disabling an attacking Reaper capital ship, proving that the Leviathans represent a force capable of challenging the Reapers themselves. This discovery offers humanity and its allies a potential strategic advantage: the possibility of ancient allies with millions of years of experience fighting the Reapers.",
+      "actor": "Dr. Garret Bryson"
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Dr. Garret Bryson assassinated",
+      "actor": "Dr. Garret Bryson"
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Task Force Aurora research exposed to Shepard",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Dr. Alex Garneau killed on Mahavid; his death confirmed after a Leviathan thrall impersonates him",
+      "actor": "Dr. Alex Garneau"
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Mahavid facility staff freed from roughly ten years of Leviathan thralldom",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Most of Project Scarab team killed on Namakli",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Leviathan artifacts discovered and studied",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Ann Bryson exposed to Leviathan influence but survives",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Leviathan's location identified on 2181 Despoina",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Ancient organic race Leviathan contacted and allied with humanity",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Leviathans demonstrate power by disabling Reaper capital ship",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Critical information gained about Reaper origins",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Ann Bryson becomes war asset with paleotechnology expertise",
+      "actor": ""
+    },
+    {
+      "event_id": "leviathan-discovery-alliance",
+      "fact": "Path opened for potential large-scale Leviathan intervention",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "joker-edi-polyamorous",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Joker",
+        "EDI"
+      ],
+      "statement": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "overrides": "corpus presents their relationship as simply a couple",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "council_fate",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "The Council aboard the Destiny Ascension at the Battle of the Citadel.",
+      "answer": "sacrificed",
+      "detail": "To focus on Sovereign, not to kill them"
+    },
+    {
+      "id": "conrad_verner",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "The first run-in with Conrad Verner on the Citadel.",
+      "answer": "talked him down",
+      "detail": ""
+    },
+    {
+      "id": "saren_confrontation",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Saren in the Citadel Tower.",
+      "answer": "talked into suicide",
+      "detail": ""
+    },
+    {
+      "id": "rana_thanoptis",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Rana Thanoptis, the asari researcher, on Virmire (she reappears in Mass Effect 2).",
+      "answer": "spared",
+      "detail": ""
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "scan_the_keepers",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Scan the Keepers - Chorban and Jahleed's keeper-scanning project on the Citadel.",
+      "answer": "Scanned all of them, reconciled the two",
+      "detail": ""
+    },
+    {
+      "id": "doctor_michel",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Dr. Chloe Michel and the blackmail at the Citadel med clinic.",
+      "answer": "Helped her, and defused the situation",
+      "detail": ""
+    },
+    {
+      "id": "citadel_jenna_chora_den",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Rita's sister Jenna undercover at Chora's Den, and Chellick's arms sting.",
+      "answer": "Helped her, and succesful helped Chellick",
+      "detail": ""
+    },
+    {
+      "id": "xeltans_complaint",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Xeltan's Complaint and Sha'ira the Consort on the Citadel.",
+      "answer": "Helped them reconcile",
+      "detail": ""
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "jacob_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jacob's loyalty mission - his father on Aeia.",
+      "answer": "alliance",
+      "detail": "Got imprisonned by the Alliance. He deserved to pay."
+    },
+    {
+      "id": "iff_delay",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Whether the abducted Normandy crew survived (how long you delayed after the IFF mission).",
+      "answer": "All survived",
+      "detail": "Did the IFF mission immediately, they all lived"
+    },
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "thane_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Thane's loyalty mission - his son Kolyat on the Citadel.",
+      "answer": "Freed the son, they reconciled, saved Mouse",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "joker_edi_romance",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Joker and EDI's relationship - whether you encouraged it.",
+      "answer": "encouraged",
+      "detail": "I believe love can come in unexpected places, and Joker deserves it more than many."
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "conrad",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether Conrad Verner helped gather war assets on the Citadel.",
+      "answer": "yes",
+      "detail": "I helped him all along, and got the matriarch writings"
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    },
+    {
+      "id": "citadel_coup",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Cerberus coup on the Citadel - Udina, the Virmire survivor at gunpoint, Thane's intervention.",
+      "answer": "Killed udina, convinced the survivor to join, thane died protecting the councilor",
+      "detail": ""
+    },
+    {
+      "id": "leviathan",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Leviathan - tracking down and dealing with the Leviathans.",
+      "answer": "Leviathans joined the fight with us",
+      "detail": ""
+    },
+    {
+      "id": "terra_firma_saracino",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Citadel - the Terra Firma protest and endorsing Charles Saracino.",
+      "answer": "refused",
+      "detail": "Terra firma are nazi"
+    },
+    {
+      "id": "presidium_hanar_preacher",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Citadel Presidium - the preaching hanar and the permit dispute.",
+      "answer": "Convinced him to leave",
+      "detail": ""
+    },
+    {
+      "id": "kelly_me3",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Kelly Chambers at the Citadel refugee camp - the spying reprimand and the dinner invitation.",
+      "answer": "told her to change her identity",
+      "detail": ""
+    },
+    {
+      "id": "ghorek_mercy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Citadel - the dying krogan Ghorek and the question of mercy.",
+      "answer": "Helped him",
+      "detail": "Batarian are people too."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "citadel-bryson-lab-leviathan-research",
+      "title": "Ann Bryson Grieves Her Father",
+      "kind": "downtime",
+      "game": "Mass Effect 3",
+      "when": "2186, Citadel, after extracting Ann from Namakli",
+      "where": "Dr. Garret Bryson's lab on the Citadel",
+      "participants": [
+        "Shepard",
+        "Ann Bryson",
+        "EDI",
+        "James Vega"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "leviathan": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "When leaving Namakli, Shepard informed Ann of her father's death. Ann, overcome with grief, returned to his lab on the Citadel where Shepard found her crying. Shepard offered words of sympathy.\n",
+          "source_chunks": [
+            "ann-bryson_002"
+          ]
+        },
+        {
+          "text": "Through sobs, Ann regretted that her last conversation with her father had been an argument over something trivial. She reminisced about how great a man he was and vowed to find the monster that murdered him.\n",
+          "source_chunks": [
+            "ann-bryson_002"
+          ]
+        },
+        {
+          "text": "As Ann moved around the lab, she began explaining the connection between Leviathan's artifacts and rachni communication. She theorized that Leviathan used the artifacts to induce a quantum entanglement state to stimulate neural activity, similar to how rachni communicated. She speculated that Leviathan might have been preparing the rachni to fight the Reapers.\n",
+          "source_chunks": [
+            "ann-bryson_002"
+          ]
+        },
+        {
+          "text": "Elsewhere in the lab, James Vega lingers by Dr. Bryson's husk-head experiment, pestering Shepard with questions until he works up to asking whether he can take it for himself; Shepard decides whether to have it shipped to the Normandy's cabin.\n",
+          "source_chunks": [
+            "citadel-leviathan-iii_003"
+          ]
+        },
+        {
+          "text": "Discussing with EDI, Ann concluded that Leviathan's communication system required a pulse to simulate the effect, and that the artifacts functioned as receivers most of the time but switched to transmitters while possessing a victim. She determined the only way to track Leviathan would be to expose herself to an artifact, despite Shepard's reluctance.\n",
+          "source_chunks": [
+            "ann-bryson_002"
+          ]
+        },
+        {
+          "text": "Ann insisted on allowing Leviathan to possess her through the artifact while EDI monitored to narrow down Leviathan's location. James Vega stood by to intervene if necessary.\n",
+          "source_chunks": [
+            "ann-bryson_002"
+          ],
+          "conditional": {
+            "ann_bryson_artifact_attempt": true
+          },
+          "choice": "Bryson attempted the artifact link"
+        },
+        {
+          "text": "If Shepard stopped the process twice, Ann was incapacitated and James walked her out for medical treatment. If she emerged relatively unharmed, she told Shepard that Leviathan was angry and wanted to kill the Commander, and later assisted Admiral Hackett with paleotechnology research for the Crucible project.\n",
+          "source_chunks": [
+            "ann-bryson_002"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "namakli-ann-bryson-extraction"
+      ],
+      "related_events": [
+        "leviathan-discovery-alliance"
+      ],
+      "source_chunks": [
+        "ann-bryson_002",
+        "citadel-leviathan-iii_003"
+      ],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "citadel-bryson-lab-leviathan-research": "heard"
+  },
+  "evidence": [
+    {
+      "chunk_id": "starships-list_043",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "Leviathan of Dis",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Leviathan of Dis* Class Capital Ship Affiliation Reaper A billion\\-year\\-old Reaper corpse discovered on the planet Jartar in 2163\\. Smuggled to Khar'shan by a batarian dreadnought, then studied by leading batarian scientists. During the Reaper invasion in 2186, batarian leaders indoctrinated by the Leviathan of Dis disabled Hegemony defenses, allowing the Reapers an easy victory. Source Mass Effect",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "summary:leviathan-of-dis",
+      "kind": "summary",
+      "page": "Leviathan of Dis",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Leviathan of Dis was the name given to a gigantic corpse that disappeared from a crater on Jartar in the Dis system in 2163. It was believed to be the remains of a genetically engineered starship, originally dated at nearly a billion years old. There was little time to study it: shortly after its discovery by a batarian survey team, a batarian dreadnought visited the Dis system, after which the Leviathan vanished. The batarians thereafter strenuously denied it had ever existed, becoming more vocal when shown salarian researchers' documentation of it made before its disappearance.\n\nIn Mass Effect 3, provided he survived the 2183 batarian terrorist attack on Terra Nova, Balak told Commander Shepard that the Leviathan of Dis had actually been a Reaper corpse transported by the Batarian Hegemony to Khar'shan. After the Terra Nova attack failed, the Hegemony accelerated research on it, and the corpse indoctrinated numerous batarian scientists and officials. Those indoctrinated officials sabotaged Hegemony defenses during the 2186 Reaper invasion, allowing the Reapers to easily conquer batarian territory and crush their scattered navy.\n\nAfter meeting Dr. Garret Bryson on the Citadel, Shepard learned from a recorded conversation between Bryson and Admiral Hackett that Task Force Aurora had been investigating the Leviathan of Dis. Bryson's true interest was the entity that had killed the Reaper corpse, which he identified as the real Leviathan. Cut content suggested an Alliance black-ops raid on a batarian Reaper-tech lab correlated with the Hegemony's research.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan of Dis",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "jartar_002",
+      "kind": "page",
+      "page": "Jartar",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Jartar** is a terrestrial world with a trace atmosphere of krypton and xenon. The surface is hot, and mainly composed of unremarkable silicates. Occasional deposits of aluminum, magnesium, and other light metals can be found. Jartar is noted for the discovery of the \"Leviathan of Dis,\" the apparent corpse of a genetically engineered living starship. The Leviathan was found in the bottom of a crater by a batarian survey team, and estimated to be nearly a billion years old. It \"disappeared\" after a visit to the system by a batarian dreadnought twenty years ago. Since then, the batarians have steadfastly denied that the Leviathan existed at all – and all the more vociferously when shown recordings of the corpse made by salarian researchers.",
+      "url": "https://masseffect.fandom.com/wiki/Jartar",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "summary:dis",
+      "kind": "summary",
+      "page": "Dis",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dis was a star system consisting of four terrestrial planets and one gas giant. Batarians held a vested interest in the region: they falsified survey data on the planet Klensal to make it appear resource-rich, luring human businesses into developing infrastructure in the system and bankrupting them when the \"gold rush\" proved a bust.\n\nBatarians also discovered the remains of a billion-year-old starship on the planet Jartar and publicly denied its existence after recovering it. This wreck, the \"Leviathan of Dis,\" was in fact a Reaper corpse. Personnel working on the corpse became indoctrinated and contributed to the downfall of the Batarian Hegemony during the Reaper invasion of 2186.\n\nThe system's bodies were Jartar (first planet), Nearrum (second), Klensal (third), Gremar (fourth), and Raysha (fifth), along with a metallic asteroid. Klensal was tied to the assignment UNC: Hostile Takeover and yielded a League of One Medallion and mineral surveys. The system is likely named for Dis Pater (shortened to Dis), an alternative name for the underworld in Greek mythology, and possibly also for the City of the Dead in Dante's Inferno.",
+      "url": "https://masseffect.fandom.com/wiki/Dis",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "dis_001",
+      "kind": "page",
+      "page": "Dis",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prerequisite:** UNC: Hostile Takeover (Mass Effect) **Dis** is a system of four terrestrial planets and one gas giant. Batarians have a vested interest in the region: they falsified data on Klensal to make it look like a rich world, luring human businesses to develop some infrastructure on the system and bankrupting them when the proverbial \"gold rush\" turned out to be bust. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | Batarians have also discovered the remains of a billion\\-year\\-old starship on Jartar, and publicly denied its existence upon its recovery. This \"Leviathan of Dis\" turned out to be a Reaper corpse. People working on the corpse became indoctrinated and contributed to the downfall of the Batarian Hegemony during the Reapers' invasion of the galaxy in 2186\\.",
+      "url": "https://masseffect.fandom.com/wiki/Dis",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "leviathan-of-dis_001",
+      "kind": "page",
+      "page": "Leviathan of Dis",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about an ancient artifact mentioned in Mass Effect. For the mythical entity featured in Mass Effect 3: Leviathan, see Leviathan.* | | --- | --- | The **Leviathan of Dis** is the name given to a gigantic corpse that disappeared from a crater on Jartar in 2163\\. It is believed to be the remains of a genetically engineered starship and its age was originally placed at nearly a billion years old.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan_of_Dis",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "leviathan-of-dis_003",
+      "kind": "page",
+      "page": "Leviathan of Dis",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Provided he survived the batarian terrorist attack on Terra Nova in 2183, Balak will tell Commander Shepard that the Leviathan of Dis was actually a Reaper corpse that the Batarian Hegemony had transported to Khar'shan. After the failure of the attack on Terra Nova, the Hegemony accelerated research on the Leviathan, which then indoctrinated numerous batarian scientists and officials. The indoctrinated officials then sabotaged Hegemony defenses during the Reaper invasion in 2186, allowing the Reapers to easily conquer batarian territories and crush their scattered navy.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan_of_Dis",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "leviathan-of-dis_004",
+      "kind": "page",
+      "page": "Leviathan of Dis",
+      "section": "Leviathan",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After meeting with Dr. Garret Bryson on the Citadel, Shepard will learn from a recorded conversation between Bryson and Admiral Hackett that Task Force Aurora had been investigating the Leviathan of Dis. Bryson's real interest in the Reaper corpse is the entity that killed it, which he identifies as the true Leviathan.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan_of_Dis",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "batarian_008",
+      "kind": "page",
+      "page": "Batarian",
+      "section": "The Reaper War",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After the Alpha Relay was destroyed, the Reapers entered the galaxy through the Vular system, near the heart of batarian space, and quickly advanced on Khar'shan. Batarian response to the assault was uncoordinated. Back in 2163 CE, the Hegemony recovered the Leviathan of Dis, a billion\\-year old Reaper corpse, from Jartar. They issued total denials of its existence then began secret intensive studies of its advanced technology in the hope of reclaiming the batarians' place in the galaxy. This allowed the Leviathan to indoctrinate the science team and prominent batarian officials. When the Reapers invaded in 2186 CE, the indoctrinated officials sabotaged Hegemony defenses and broadcast misleading messages, allowing the Reapers to easily conquer batarian systems and crush their navy. As with most races suitable for combat integration, the Reapers converted captured batarians into Cannibals and dispatched them to numerous battlefields across the galaxy. Those that managed to get away found themselves refugees on alien territory, with some even taking refuge in the Citadel itself. If Balak escaped Asteroid X57, the Reaper invasion leaves him the highest\\-ranking member of the Hegemony's military still alive. He makes his way to the Citadel where he directs the remnants of the batarian fleet against the Reapers by hacking Council transmissions to learn Reaper locations. Shepard can convince Balak to lend his fleet's support in retaking the galaxy from the Reapers or kill him for his actions above Terra Nova. Surviving soldiers of the former Batarian Hegemony are one of several groups involved in the war effort against the Reaper invasion. According to one Alliance news report, however, their participation in the fight, though appreciated, has not yet earned them the full trust and respect of Alliance soldiers. |  | ***“Make no mistake — this is a one\\-way trip.”*** — Spoilers for **Mass Effect: Andromeda** follow. |  | | --- | --- | --- | |  | ***“By the homeworld I hope to find one day.”*** — Spoilers for **Mass Effect Andromeda: Annihilation** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Batarian",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "reaper_015",
+      "kind": "page",
+      "page": "Reaper",
+      "section": "Notable Reapers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Derelict Reaper - Harbinger - Human\\-Reaper - Leviathan of Dis - Sovereign",
+      "url": "https://masseffect.fandom.com/wiki/Reaper",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "summary:mass-effect-3-leviathan-conspiracy-accountability-league",
+      "kind": "summary",
+      "page": "Mass Effect 3: Leviathan/Conspiracy Accountability League",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This page collects a promotional social-media broadcast BioWare ran in 2186 (real-world 2012) to advertise the Mass Effect 3: Leviathan DLC. In the fiction, Bernard Plim, a self-proclaimed anti-conspiracy activist claiming twenty-three years of experience, founder and president of the Conspiracy Accountability League, hacked the Alliance News Network to publicize his claims. He operated through his blog, the hijacked @AllianceNewsNet channel, and his personal @BernardPlim channel, repeatedly begging readers for credits and dodging C-Sec. His central claim was that Admiral Hackett, Dr. Garret Bryson and a secret group called Task Force Aurora were secretly studying the Reapers and the Leviathan of Dis, and that the Alliance and Citadel Council were hiding this. He cited the 2163 batarian discovery of a crashed starship on Jartar/Jatar that then \"disappeared\" after a batarian dreadnought visited, plus supposed salarian vid footage, and a coffee-shop receipt reading \"Bryson, Garneau – Leviathan discussion.\" His hack was shut down by C-Sec, who arrested him; he was released and vowed to continue. Trivia notes Task Force Aurora is the real Leviathan-DLC plot thread, and that Plim appears on the Armax Arsenal Arena and Castle Arcade leaderboards in the Citadel DLC.\n\nRepresentative lines:\n\nBernard Plim, opening the hack: \"Top of the line security, huh? Hmph. I don't think so! ... I am Bernard Plim and I speak the truth!\"\n\nBernard Plim, boasting on his channel: \"I would have liked to be in the room at the ANN when they discovered that they'd been hacked! Wasn't hard. #babystuff #findleviathan\"\n\nANN (hacked), pushing his claims: \"I have NEW EVIDENCE that Task Force Aurora is also studying the LEVIATHAN OF DIS! Admiral Hackett – WHY?!\"\n\nBernard Plim, on the crashed ship's cover-up: \"Batarians are liars and assholes (my opinion *only* based on personal experience on Omega ...)\"\n\nANN (hacked), as C-Sec closes in: \"AHHHHHH!! C-SEC is here! ANN is an ALLIANCE PATSY!! Send help! #FindLeviathan\"\n\nBernard Plim, after release: \"BERNARD PLIM SAYS... 'TRUTH HUNTER's ... HUNT ON!!!'\"",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3:_Leviathan/Conspiracy_Accountability_League",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "summary:batarian",
+      "kind": "summary",
+      "page": "Batarian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The batarians were a race of four-eyed bipeds native to Khar'shan, governed by the isolationist Batarian Hegemony. The Terminus Systems were infested with batarian pirate gangs and slaver rings, though the page noted these criminals did not represent average citizens, most of whom were forbidden to leave batarian space by their paranoid government. Batarians had faces covered in fine hairs, a ridge of cartilage along the skull and neck, needle-like teeth, red blood, and two pairs of dark eyes. When batarians achieved spaceflight they found Prothean ruins on Bira, a moon of Verush, which let them develop FTL travel; the Citadel Council later granted them an embassy about a century after first contact.\n\nBatarian aggression caused repeated crises: a fleet bombarded the salarian colony Mannovai around 1785 CE, the Hegemony annexed the asari colony Esan in 1913, and Citadel forces clashed with batarians on Enael in 2115. After humans began colonizing the Skyllian Verge in the mid-2160s, the batarians asked the Council in 2171 to declare the Verge an area of batarian interest; when refused, they closed their embassy and became a rogue state. Government-funded pirates raided colonies such as Mindoir, culminating in the Skyllian Blitz of 2176 against Elysium, after which the Alliance retaliated at Torfan in 2178. In 2183, batarian extremists led by Balak hijacked Asteroid X57 to drop it on Terra Nova, a plot thwarted by Commander Shepard. In Mass Effect Galaxy, ambassador Jath'Amon secretly led batarian terrorists trying to unleash a bioweapon at a peace meeting, defeated by Jacob Taylor. The Arrival events destroyed the Bahak system's relay and over 300,000 batarians, raising fears of war with the Alliance.\n\nBatarian culture centered on a purchasable social caste system and institutionalized slavery, with abducted colonists such as Talitha implanted with control devices without anesthetic; batarians believed species with fewer than four eyes were less intelligent, and their body language conveyed social rank. Mordin Solus noted batarians believed the soul left the body through the eyes at death. Their military hardware came from the nationalized Batarian State Arms, and their forces included the Special Intervention Unit and Batarian External Forces. In 2163 the Hegemony had recovered the Leviathan of Dis, a billion-year-old Reaper corpse, from Jartar; its secret study indoctrinated the science team and officials, who sabotaged Hegemony defenses when the Reapers invaded through the Vular system in 2186 and crushed the batarian navy. Survivors fled to Alliance space as refugees, and captured batarians were converted into Cannibals. If Balak had escaped X57, he became the highest-ranking surviving Hegemony officer and could aid Shepard's war effort from the Citadel. A few hundred batarians joined the Andromeda Initiative aboard the arks Paarchero and Keelah Si'yah.",
+      "url": "https://masseffect.fandom.com/wiki/Batarian",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "scene:citadel-bryson-lab-hadley-shoots-bryson#04",
+      "kind": "scene",
+      "page": "Hadley Shoots Dr. Bryson",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-bryson-lab-hadley-shoots-bryson",
+      "text": "Hadley Shoots Dr. Bryson. 2186, Citadel, after Priority: Palaven Dr. Garret Bryson's laboratory, the Citadel EDI plays two video logs between Bryson and Admiral Hackett: Bryson believed the Leviathan of Dis, uncovered by the batarians, was a dead Reaper, and that whatever killed it — the true \"Leviathan\" — was being shadowed by the Reapers as Bryson's teams searched for it. Bryson had formally requested assistance tracking it down, and it is Shepard he gets.",
+      "url": "",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "scene:aratoht-arrival-kenson-extraction#04",
+      "kind": "scene",
+      "page": "Breaking Out of Aratoht Prison",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "aratoht-arrival-kenson-extraction",
+      "text": "Breaking Out of Aratoht Prison. 2186, Arrival DLC, Aratoht batarian prison a batarian prison complex on Aratoht With autopilot engaged, Kenson briefed Shepard on her situation: her research group called \"the Project\" had discovered a Reaper artifact, \"Object Rho,\" that gave visions of an imminent Reaper invasion. They planned to destroy the Alpha Relay in the Bahak system by ramming an asteroid into it. Instead of heading to Arcturus Station, Kenson took Shepard to Project Base on the asteroid.",
+      "url": "",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "scene:despoina-shuttle-crash-triton-plan#02",
+      "kind": "scene",
+      "page": "Stranded on the Wrecks of 2181 Despoina",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "despoina-shuttle-crash-triton-plan",
+      "text": "Stranded on the Wrecks of 2181 Despoina. 2186, Leviathan DLC, the descent to the ocean world 2181 Despoina floating shipwrecks on the ocean of 2181 Despoina, then the ocean floor A Sovereign-class Reaper descends and drops waves of Husks, Cannibals, Marauders and Brutes while Cortez works to repair the shuttle. He gets it briefly airborne to give the squad air support, but the pulse strikes again and forces him to land on the far side of the wreck.",
+      "url": "",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "scene:despoina-shuttle-crash-triton-plan#04",
+      "kind": "scene",
+      "page": "Stranded on the Wrecks of 2181 Despoina",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "despoina-shuttle-crash-triton-plan",
+      "text": "Stranded on the Wrecks of 2181 Despoina. 2186, Leviathan DLC, the descent to the ocean world 2181 Despoina floating shipwrecks on the ocean of 2181 Despoina, then the ocean floor Cortez has Shepard haul the shuttle's power cells to sockets around the wreck to charge the sealed bay door open, under renewed Reaper attack. Once it opens, Shepard pilots the Triton - which handles like an Atlas - to clear the endlessly reinforcing Brutes, then walks it back to Cortez for a systems check.",
+      "url": "",
+      "for_key": "Leviathan of Dis Reaper corpse Jartar batarian"
+    },
+    {
+      "chunk_id": "summary:leviathan",
+      "kind": "summary",
+      "page": "Leviathan",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Leviathans were an ancient aquatic race that dominated the galaxy before the Reapers, regarding themselves as its first and only apex race and other species as tools meant to serve them and provide \"tribute\". Massive and resembling Earth cuttlefish or squid, with two sets of three eyes and bony ridged plates, they lived at ocean depths over 3200 meters and possessed a natural ability to physically and mentally dominate lesser-minded organisms, communicating telepathically and creating thralls; over-exertion of this power caused nosebleeds, brain damage or death in humans. They may have enhanced themselves cybernetically to travel space and breathe air.\n\nThe Leviathans used an enthralled land-based species to achieve spaceflight and spread through the galaxy. Observing that their thralls' synthetic creations consistently rebelled and wiped out their makers, the Leviathans built an Intelligence with a mandate to preserve life at all costs. The Intelligence created pawns to harvest organic data, then concluded the Leviathans themselves were part of the problem and turned on them, slaughtering most and using their genetic material to build the first Reaper, Harbinger, designed in their likeness. Survivors went into hiding, observing the cyclical harvests and erasing evidence of their existence through organic \"artifacts\" they called \"fragments\". They had the power to destroy Reapers, shown when they killed the Leviathan of Dis, but declined to aid the galaxy.\n\nDuring the 2186 Reaper invasion, Admiral Hackett's Task Force Aurora under Dr. Garret Bryson pursued them as a potential Reaper-killer. The Leviathans killed Bryson through his enthralled assistant Derek Hadley, and Shepard tracked their trail through Mahavid (where Dr. Alex Garneau died) and Namakli (where Dr. Ann Bryson was rescued) to 2181 Despoina. There a Leviathan recounted its race's history within Shepard's mind. Persuaded that the Reapers now knew of them and feared Shepard, the Leviathans agreed to fight the Reapers, not to help \"lesser species\" but to defend their domain. They disabled a Reaper capital ship, freed groups of Collectors from Reaper control, and had their artifacts deployed behind enemy lines to subvert Reaper forces.\n\nVirtually nothing was known of the Leviathans before Shepard's encounter: no true name, no ruins, only rock paintings on Namakli and scattered artifacts. Their technology was believed to exceed the Reapers' in some respects, including faster-than-light communication pulses and organic tools, compared to the Thorian. The Leviathan that spoke to Shepard was voiced by Anthony Skordi.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "leviathan_003",
+      "kind": "page",
+      "page": "Leviathan",
+      "section": "Rise",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The early history of the Leviathans is completely unknown, but it is speculated by the Systems Alliance group Task Force Aurora that they evolved on an unknown planet that also produced at least one other sapient species. The Leviathans developed the ability to communicate with and dominate land\\-based sapient species to serve their purposes. Eventually, the Leviathans utilized this thrall species' civilization to achieve spaceflight and spread throughout the galaxy, despite their immense size and aquatic nature. Every new species they encountered was enthralled to serve them and provide \"tribute\", and in return, the thralls were cared for and protected. With their dominance assured, Leviathans considered themselves the galaxy's apex race. Over time, however, they observed that their thralls would frequently build synthetic constructs to aid them; these synthetics consistently rebelled, wiping out many thrall species. In response, the Leviathans created an Intelligence with the mandate to preserve life at all costs.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "timeline_002",
+      "kind": "page",
+      "page": "Timeline",
+      "section": "Prehistoric Times (Unknown BCE \\- c. 1,000,000,000 BCE)",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Unknown BCE The Leviathans dominate the Milky Way, enthralling every new sapient race they encounter and protecting them in return for tribute. The Leviathans consider themselves the galaxy's first and only apex race. After observing that their subservient races create synthetic races who consistently and violently rebel, the Leviathans create an Intelligence to seek a way to permanently preserve organic life. The Intelligence constructs an army of \"pawns\" to gather genetic information throughout the galaxy. The Intelligence betrays the Leviathans, using its pawns to slaughter them for their genetic material to create Harbinger, the first Reaper. Thus begins the cyclical harvest of the galaxy's intelligent organic life by the Reapers, part of a vast experiment conducted by the Intelligence to fulfill its mandate. The Intelligence builds the mass relay network to increase the efficiency of the cycles, allowing galactic civilizations to develop faster and more consistently between harvests.",
+      "url": "https://masseffect.fandom.com/wiki/Timeline",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "codex-the-reapers_001",
+      "kind": "page",
+      "page": "Codex/The Reapers",
+      "section": "Harbinger",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | Audio: Harbinger | | --- | --- | The Reaper called Harbinger is believed to be the oldest and largest in the Reaper armada. From the reaches of dark space, Harbinger managed to control the Collectors, a race of human\\-sized insectoid bipeds, as it sent them on a campaign to kill and gather humans from vulnerable colonies. The Collectors became a terrifying force in the galaxy, responsible for the murder of hundreds of thousands. Surviving colonists have described the tone of Harbinger's threats, heard through the Collectors as they attacked, as visceral and terrifying. Alliance intelligence has tentatively identified Harbinger as one of the Reapers leading the attack on Earth.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/The_Reapers",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "leviathan_001",
+      "kind": "page",
+      "page": "Leviathan",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about the entity featured in Mass Effect 3: Leviathan. For the ancient artifact mentioned in Mass Effect, see Leviathan of Dis.* | | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | “The darkness must not be breached.” The **Leviathans** are an ancient aquatic race that dominated the galaxy in the time before the Reapers. Proud and aloof, they regard themselves as the galaxy's first and only apex race, and think of other races as mere tools meant to serve them. With the advent of the Reapers, the Leviathans were forced into hiding to preserve themselves, and were content to observe the Reapers' harvests while surreptitiously erasing any evidence of their existence over the course of hundreds of millions of years.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "reaper_006",
+      "kind": "page",
+      "page": "Reaper",
+      "section": "History",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Reapers have existed for at least a billion years, based upon findings on the Leviathan of Dis, an ancient Reaper corpse. Before the Reapers came to be, the galaxy was under the thrall of a race known as Leviathans. They created an \"Intelligence\" to solve the problem of organics and synthetics killing each other. However, this Intelligence turned on them, slaughtering most of their kind and processing others into the very first true Reaper, Harbinger. Harbinger's form, that of the Leviathans themselves, became the template for subsequent Reapers harvested from the galaxy's races on cyclical purges over the next millions of years. In order to speed up the time between harvests, the Reapers constructed the mass relay network and the Citadel to coordinate it. Engineered creatures called keepers were placed on the Citadel to maintain the station during their absence and to open it for them when they decide to invade. Fifty thousand years before the current galactic era, the Reapers initiated a purge against the Protheans, the dominant spacefaring lifeforms at the time. The Protheans tried to resist like so many others before them, only to fail due to the Reapers' physical and insidious might.",
+      "url": "https://masseffect.fandom.com/wiki/Reaper",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "awakened-collector-adept_001",
+      "kind": "page",
+      "page": "Awakened Collector Adept",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When the Reaper\\-killer known as Leviathan fought the Collectors, it severed their connection to Harbinger with a thrall device. Most Collector forces died as a result, but a few survived. Now, these rare individuals fight for the memory of their people, a proud race broken by the Reapers. Protheans appointed avatars to embody and model a single virtue for their society. The Awakened Collectors' virtue is vengeance.",
+      "url": "https://masseffect.fandom.com/wiki/Awakened_Collector_Adept",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "harbinger_005",
+      "kind": "page",
+      "page": "Harbinger",
+      "section": "Leviathan",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During its encounter with Shepard, Leviathan reveals that Harbinger was the first Reaper created, and that it was formed in the image of the Leviathans. The Catalyst directs the Reapers to harvest the galaxy of advanced life every 50,000 years, and each harvest ends with the birth of a new Reaper made in Harbinger's image.",
+      "url": "https://masseffect.fandom.com/wiki/Harbinger",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "summary:harbinger",
+      "kind": "summary",
+      "page": "Harbinger",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Harbinger was a Reaper that resided in dark space with the rest of the Reaper fleet and was directly responsible for the Collectors' operations in 2185. Its involvement began two months after the Battle of the Citadel, when it made a deal with the Shadow Broker to obtain Commander Shepard's body following the destruction of the SSV Normandy; this failed, and Shepard was resurrected by the Lazarus Project.\n\nIn Mass Effect 2, Harbinger was the mastermind behind the Collectors, controlling them through the Collector General as its proxy and directing them to abduct the populations of human colonies to process captives into a Human-Reaper. Harbinger could \"assume direct control\" of any individual Collector in combat, speaking through it to command troops or threaten enemies; possession made the Collector significantly more powerful but appeared painful, and the body always disintegrated when defeated, an effect likened to Sovereign's possession of Saren Arterius's corpse. Harbinger showed a personal interest in Shepard, repeatedly ordering the Collectors to recover the Commander's body intact. After Shepard's team assaulted the Collector Base and destroyed the incomplete Human-Reaper, and whether the base was destroyed or purged of life, Harbinger declared Shepard's failure to stop the Reapers, relinquished control of the Collector General, and vowed the Reapers would \"find another way,\" then was seen moving with the fleet toward the Milky Way. In the Arrival DLC, Harbinger appeared as a hologram to discuss the futility of Shepard's fight after the Project delayed the Reapers' arrival.\n\nIn Mass Effect 3, Harbinger was one of the Reapers leading the attack on Earth, and Alliance intelligence believed it the oldest and largest Reaper in the fleet. It appeared during the final battle in London, launching a devastating attack with unusually fast weapons on forces trying to reach the conduit, and departed when it seemed the counterattack had been wiped out; Shepard and David Anderson nonetheless reached the Citadel, both badly wounded. Harbinger's ultimate fate followed that of the other Reapers depending on Shepard's choice at the Crucible. The Leviathan DLC revealed that Harbinger was the first Reaper created, formed in the image of the Leviathans, and that each 50,000-year harvest directed by the Catalyst ended with the birth of a new Reaper made in Harbinger's image.",
+      "url": "https://masseffect.fandom.com/wiki/Harbinger",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "summary:codex-the-darkness-breached-leviathan-s-secrets",
+      "kind": "summary",
+      "page": "Codex/The Darkness Breached: Leviathan's Secrets",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This Codex entry recorded what Task Force Aurora inferred about the aquatic species dubbed \"Leviathans\" after Commander Shepard's report; essentially nothing had been known of them before. No record of their true name existed, no ruins were attributed to their civilization, and no influence on other races had been recorded, so the task force could only conjecture from Shepard's limited information. Their current world was judged unlikely to be their homeworld, so it was surmised that the Leviathans had mastered technology and spaceflight despite their immense size and aquatic nature, and that their homeworld had included a land-based thrall species whose civilization served their purposes and which they communicated with and mentally dominated. Their bodies were presumed able to withstand both the extreme pressure of the depths and the lesser pressure of coastal areas where they met such thralls. Transporting a creature of Leviathan size into space was considered a significant engineering challenge, likely solved using eezo for ease of travel as the hanar did, together with cybernetic filtration allowing them to breathe both air and oxygenated water. The task force thought it probable that the Leviathans had modified themselves with the equivalent of a biotic amplifier, and noted that the faster-than-light communication of their pulses would require precise control previously unknown to modern science.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/The_Darkness_Breached:_Leviathan's_Secrets",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "summary:reaper",
+      "kind": "summary",
+      "page": "Reaper",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Reapers were a highly advanced machine race of synthetic-organic starships that hibernated in dark space, the mostly starless void between galaxies, dormant for fifty thousand years at a time before returning to harvest the galaxy's advanced life. Their true name was unknown; \"Reapers\" was a label bestowed by the Protheans, and the geth called them the Old Machines. Each Reaper was described as \"billions of organic minds, uploaded and conjoined within immortal machine bodies,\" its core built in the image of the species harvested to create it while its exterior followed a standardized design derived from the Leviathans, an ancient aquatic race. Reapers ranged from 160 meters to over two kilometers in length. Subtypes included Harbinger (the first Reaper, largest in the armada), Sovereign-class Capital Ships (two kilometers long, with a spinal magnetohydrodynamic cannon yielding 132 to 450 kilotons), Troop Transports and Processors (non-sentient, remotely controlled), and 160-meter Destroyers that could unfold their legs to walk as heavy ground units.\n\nThe Reapers built the Citadel and mass relay network as a trap, ensuring galactic civilization would develop along predictable technological paths centered on the Citadel and could be crippled at a stroke. A vanguard within the galaxy would signal the Citadel, the keepers would open its hidden relay, and the Reaper fleet would flood in, kill the leaders of the assembled species, then use Citadel records to hunt every settled world. Victims were rounded into camps by husks, sorted by genetic fitness, loaded into Processor pods, and dissolved by nanides into genetic paste used to build new Reapers, their minds preserved as the new Reaper's gestalt consciousness. Those deemed unsuitable were converted into husks via dragon's teeth. Reaper technology also relied on indoctrination, a permanent mental erosion that turned nearby organics into willing slaves.\n\nThe Reapers were created by the Leviathans' \"Intelligence,\" built to solve the cycle of organics and synthetics destroying each other; it instead processed the Leviathans into Harbinger and began cyclical purges spanning millions of years. Fifty thousand years before the modern era they wiped out the Protheans, though a cadre on Ilos survived in stasis and altered the Citadel signal, delaying the next invasion. Sovereign, acting as vanguard, was found in the Perseus Veil, swayed geth heretics, and used Saren Arterius to locate the Conduit; it assaulted the Citadel in 2183 and was destroyed by the Alliance Fleet. The Collectors, repurposed Protheans, later abducted humans to build a Human-Reaper, which Shepard destroyed in 2185. Shepard delayed the invasion again by destroying the Alpha Relay in the Bahak System, killing 300,000 batarians. The Reapers returned in 2186, destroyed the Batarian Hegemony within days, and overran Earth, Palaven, Thessia and more. Shepard unified the galaxy, cured the genophage, freed the geth at Rannoch, and recruited the Leviathans. The Crucible superweapon, requiring the Citadel as its Catalyst, offered Shepard the choice of Destroy, Control, or Synthesis, with a refusal option that let the cycle continue.",
+      "url": "https://masseffect.fandom.com/wiki/Reaper",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "scene:rannoch-the-choice-above-the-fleet#01",
+      "kind": "scene",
+      "page": "Rannoch, and What Tali Watched",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "rannoch-the-choice-above-the-fleet",
+      "text": "Rannoch, and What Tali Watched. 2186, Priority: Rannoch, from the solo kill of the Reaper Destroyer to the standoff after Rannoch, on the cliffs, with both fleets overhead After the Normandy's bombing run cracked the Reaper base open, a Reaper Destroyer climbed out of the crater. Legion secured a geth ship and flew the squad clear while Shepard manned its turret and called in an orbital strike that briefly downed the Reaper. EDI synced the quarian fleet to the Normandy's targeting systems, and Shepard stayed on the plateau alone, dodging the Destroyer's beam through three targeting solutions and a final slow-motion shot while the fleet fired. Mortally hit, the Reaper addressed Shepard by name, said Harbinger judged the Commander a worthy opponent, spoke of Reapers as \"order\" against organic \"chaos\" and the harvest as necessary \"intervention,\" and — if no interrupt was taken — left the threat, \"Finish your war. We will be waiting.\"",
+      "url": "",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "scene:namakli-ann-bryson-extraction#03",
+      "kind": "scene",
+      "page": "Extracting Ann from Namakli",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "namakli-ann-bryson-extraction",
+      "text": "Extracting Ann from Namakli. 2186, Citadel, after Priority: Geth Dreadnought and before Citadel DLC the planet Namakli in the Pylos Nebula and Cortez's shuttle Upon reaching Ann at the elevator, Shepard found she was the only survivor of her team. Ann explained what she knew about Leviathan and showed Shepard an orb-shaped artifact she had discovered, which was emitting energy toward the surrounding Reaper creatures.",
+      "url": "",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "scene:earth-conduit-harbinger-last-run#02",
+      "kind": "scene",
+      "page": "The Last Run to the Beam, and Anderson on the Citadel",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-conduit-harbinger-last-run",
+      "text": "The Last Run to the Beam, and Anderson on the Citadel. 2186, Priority: Earth, the final push to the Citadel transport beam the streets of occupied London around the Reaper conduit, then the reconfigured Citadel Inside the APC on the approach, Anderson said they only needed a handful of troops through the beam; Shepard made a last Paragon or Renegade remark and a squadmate answered, before an explosion crippled the vehicle. Outside, the conduit was a few hundred metres off — and Harbinger had arrived, settling onto the conduit and annihilating the ground forces with its main guns. Shepard ran.",
+      "url": "",
+      "for_key": "Leviathan aquatic race thralls Intelligence first Reaper Harbinger"
+    },
+    {
+      "chunk_id": "task-force-aurora_002",
+      "kind": "page",
+      "page": "Task Force Aurora",
+      "section": "Leviathan",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the Reaper invasion in 2186, Admiral Hackett informs Commander Shepard of the existence of Task Force Aurora and directs the Commander to assist Dr. Garret Bryson's investigation as soon as possible. Dr. Bryson reveals that Task Force Aurora has been researching Leviathan, a mythical being theorized to have killed the Reaper known as the Leviathan of Dis. When Dr. Bryson is suddenly killed by his assistant, Commander Shepard picks up the trail, reasoning that anything capable of killing a Reaper could be a valuable asset in the ongoing war. The search leads Shepard to the asteroid Mahavid and the planet Namakli, locations of interest to the Task Force. The Commander is too late to save Dr. Alex Garneau, who was killed by enthralled miners at Mahavid, but manages to rescue Dr. Ann Bryson, Garret Bryson's daughter, from a Reaper attack on the Namakli dig site. Ann explains the history of Task Force Aurora's research, and because she was affected by a Leviathan artifact on Namakli, is able to use that to help pinpoint Leviathan's location on 2181 Despoina. Once there, Shepard fends off a Reaper assault and makes contact with Leviathan, revealed to be one of several surviving members of an ancient race that gave rise to the Reapers. The Leviathans agree to aid the modern galaxy's races in fighting the Reapers and demonstrate their power by disabling the attacking Reaper capital ship.",
+      "url": "https://masseffect.fandom.com/wiki/Task_Force_Aurora",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "starships-list_056",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "MSV Icarus",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class Freighter Affiliation Independent A freighter chartered by the Project Scarab team of Task Force Aurora, headed by Dr. Ann Bryson. The Icarus was designed for long\\-range FTL travel. Source Mass Effect 3: Leviathan",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "task-force-aurora_001",
+      "kind": "page",
+      "page": "Task Force Aurora",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Task Force Aurora** is a Systems Alliance research group created by Admiral Hackett with the mandate to investigate legends and rumors about the Reapers from before their existence was revealed. The task force is headed by Dr. Garret Bryson. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Task_Force_Aurora",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "summary:task-force-aurora",
+      "kind": "summary",
+      "page": "Task Force Aurora",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Task Force Aurora was a Systems Alliance research group created by Admiral Hackett with a mandate to investigate legends and rumors about the Reapers predating the public revelation of their existence. It was headed by Dr. Garret Bryson.\n\nDuring the Reaper invasion in 2186, Hackett directed Commander Shepard to assist Bryson's investigation. Bryson revealed that the task force had been researching Leviathan, a mythical being theorized to have killed the Reaper known as the Leviathan of Dis. Bryson was then killed by his assistant, and Shepard picked up the trail, reasoning that anything able to kill a Reaper would be a valuable asset. The search led to the asteroid Mahavid, where Shepard arrived too late to save Dr. Alex Garneau, killed by enthralled miners, and to the planet Namakli, where Shepard rescued Bryson's daughter Dr. Ann Bryson from a Reaper attack on the dig site. Affected by a Leviathan artifact, Ann helped pinpoint Leviathan's location on 2181 Despoina. There, Shepard made contact with Leviathan, one of several survivors of an ancient race that gave rise to the Reapers; the Leviathans agreed to aid the galaxy's races and demonstrated their power by disabling an attacking Reaper capital ship.\n\nKnown members included Garret Bryson (head), his assistant Derek Hadley, Dr. Alex Garneau (leader of Project Basilisk, investigating Mahavid), Dr. Ann Bryson (leader of Project Scarab, investigating Namakli), and her Namakli colleagues Boyles, Hopkins, and Kirkwood.",
+      "url": "https://masseffect.fandom.com/wiki/Task_Force_Aurora",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "dr-bryson-s-lab_001",
+      "kind": "page",
+      "page": "Dr. Bryson's Lab",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | **Dr. Bryson's Lab** is a location in the Citadel's Presidium. It is Dr. Garret Bryson's private residence as well as the operational center for the Systems Alliance's Task Force Aurora, a research team headed by Dr. Bryson. Admiral Hackett orders Commander Shepard to visit Bryson's lab to assist his research.",
+      "url": "https://masseffect.fandom.com/wiki/Dr._Bryson's_Lab",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "summary:garret-bryson",
+      "kind": "summary",
+      "page": "Garret Bryson",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dr. Garret Bryson was a Systems Alliance scientist and head of Task Force Aurora, a group created to investigate ancient legends about the Reapers. He treated his work as a mission to find truth against galactic skepticism, noting that as late as 2148, within his lifetime, some humans still believed aliens to be a myth.\n\nCommander Shepard met Bryson in his lab on the Citadel on orders from Admiral Hackett. Bryson introduced his group and mission and was about to explain a research breakthrough when he was shot in the chest and killed by his assistant Derek Hadley, who was incapacitated shortly afterward. With EDI's help, Shepard picked up the investigation. Video logs of correspondence between Bryson and Hackett revealed the task force had been researching the Leviathan of Dis, a Reaper corpse discovered by the batarians; Bryson found it significant that something had been able to kill a Reaper long ago, which he dubbed the \"real\" Leviathan. He later reported that the Reapers themselves had been shadowing his field teams as if also searching for Leviathan, prompting his formal request for assistance that brought Shepard.\n\nOther logs showed Bryson had safeguarded his research, hiding decryption keys \"close to his heart\" by scribbling the numbers into one of his daughter Ann Bryson's childhood drawings. Further logs pursued other Reaper-killer leads, some dead ends like rachni activity and others worth following like creature sightings. After her rescue from Namakli, Ann Bryson said Shepard's work uncovering the Reapers validated years of her father's work. She described him as a distant but intensely passionate man who loved fieldwork, regretted that their last conversation was a petty argument over filing specimens, and said he would have hated dying in his lab.",
+      "url": "https://masseffect.fandom.com/wiki/Garret_Bryson",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "task-force-aurora_003",
+      "kind": "page",
+      "page": "Task Force Aurora",
+      "section": "Known Members",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Dr. Garret Bryson \\- Head of Task Force Aurora. - Derek Hadley \\- Garret Bryson's assistant. - Dr. Alex Garneau \\- Leader of Project Basilisk, which investigated Mahavid. - Dr. Ann Bryson \\- Daughter of Garret Bryson. Leader of Project Scarab, which investigated Namakli. - Boyles \\- a colleague of Ann Bryson on Namakli. - Hopkins \\- an assistant of Ann Bryson on Namakli. - Kirkwood \\- a colleague of Ann Bryson on Namakli.",
+      "url": "https://masseffect.fandom.com/wiki/Task_Force_Aurora",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "scene:citadel-bryson-lab-hadley-shoots-bryson#01",
+      "kind": "scene",
+      "page": "Hadley Shoots Dr. Bryson",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-bryson-lab-hadley-shoots-bryson",
+      "text": "Hadley Shoots Dr. Bryson. 2186, Citadel, after Priority: Palaven Dr. Garret Bryson's laboratory, the Citadel Acting on an urgent message from Admiral Hackett, Shepard meets Dr. Garret Bryson in his Citadel lab. Bryson explains he works for Task Force Aurora, investigating myths and legends about the Reapers, with most of his team out chasing leads.",
+      "url": "",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "starships-list_058",
+      "kind": "page",
+      "page": "Starships/List",
+      "section": "MSV Kirkwall",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Class Freighter Affiliation Independent A freighter chartered by the Project Basilisk team of Task Force Aurora, headed by Dr. Alex Garneau. Source Mass Effect 3: Leviathan",
+      "url": "https://masseffect.fandom.com/wiki/Starships/List",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "summary:citadel-dr-bryson",
+      "kind": "summary",
+      "page": "Citadel: Dr. Bryson",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel: Dr. Bryson was the opening Mass Effect 3 mission of the Leviathan mission chain, with prerequisites the Mass Effect 3: Leviathan content and Priority: Palaven. Shepard received a message on the private terminal from Admiral Hackett ordering the Commander to meet Dr. Garret Bryson, an Alliance researcher on the Citadel who had uncovered important new information about the Reapers. This noncombat mission was essentially a long cutscene serving as an intro to the next mission, with EDI present to assist.\n\nAt Bryson's laboratory, Shepard learned he worked for Task Force Aurora, whose mandate was investigating myths and legends about the Reapers, with most of the team away chasing leads. As Bryson asked his assistant Derek Hadley for data on something called \"Leviathan,\" Hadley shot Bryson dead and turned his pistol on Shepard before being subdued; an optional Paragon interrupt was non-lethal either way. C-Sec was contacted and arrived, and EDI helped sort through Bryson's files. Hadley had no memory of recent events; EDI concluded he had been indoctrinated. When the conversation turned to Leviathan, Hadley seized up, cryptically warned Shepard against pursuing it, and collapsed before C-Sec guards took him for medical attention. EDI played two video logs between Bryson and Hackett: Bryson believed the Leviathan of Dis uncovered by the batarians was a dead Reaper, and that its killer, the true \"Leviathan,\" was being shadowed by the Reapers as Bryson's teams searched for it. Bryson had formally requested assistance tracking it down, which completed the mission and triggered Citadel: Leviathan I.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel:_Dr._Bryson",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "ann-bryson_001",
+      "kind": "page",
+      "page": "Ann Bryson",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | “You’re looking for something to fight the Reapers, Commander. I’m looking for the monster that murdered my father.” **Dr. Anneliese Bryson** is a Systems Alliance scientist and the daughter of Dr. Garret Bryson. She is a member of Task Force Aurora, a group created to investigate ancient legends about the Reapers.",
+      "url": "https://masseffect.fandom.com/wiki/Ann_Bryson",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "scene:citadel-bryson-lab-leviathan-research#07",
+      "kind": "scene",
+      "page": "Ann Bryson Grieves Her Father",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-bryson-lab-leviathan-research",
+      "text": "Ann Bryson Grieves Her Father. 2186, Citadel, after extracting Ann from Namakli Dr. Garret Bryson's lab on the Citadel If Shepard stopped the process twice, Ann was incapacitated and James walked her out for medical treatment. If she emerged relatively unharmed, she told Shepard that Leviathan was angry and wanted to kill the Commander, and later assisted Admiral Hackett with paleotechnology research for the Crucible project.",
+      "url": "",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "scene:citadel-bryson-lab-hadley-shoots-bryson#02",
+      "kind": "scene",
+      "page": "Hadley Shoots Dr. Bryson",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-bryson-lab-hadley-shoots-bryson",
+      "text": "Hadley Shoots Dr. Bryson. 2186, Citadel, after Priority: Palaven Dr. Garret Bryson's laboratory, the Citadel Bryson asks his assistant Derek Hadley for data on something called \"Leviathan.\" Before Bryson can say more, Hadley shoots him dead and turns his pistol on Shepard, who subdues him. C-Sec arrives, and EDI helps sort through Bryson's files.",
+      "url": "",
+      "for_key": "Bryson Leviathan research Task Force Aurora"
+    },
+    {
+      "chunk_id": "missions_013",
+      "kind": "page",
+      "page": "Missions",
+      "section": "Downloadable Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Mass Effect 3: From Ashes** - Priority: Eden Prime (Labeled on the Galaxy Map as \"Recover Prothean Artifact\") - Eden Prime: Resistance Movement **Mass Effect 3: Leviathan** - Citadel: Dr. Bryson (Labeled on the Galaxy Map as \"Meet Dr. Bryson\") - Citadel: Leviathan I - Leviathan: Find Garneau (Labeled on the Galaxy Map as \"Scan for Dr. Garneau\") - Mahavid: Leviathan - Citadel: Leviathan II - Leviathan: Find Ann Bryson - Namakli: Leviathan - Citadel: Leviathan III - Leviathan: Scan Locations - Despoina: Leviathan **Mass Effect 3: Omega** - Citadel: Aria T'Loak - Omega: Aria T'Loak - Omega: Assist the Hacker - Omega: Assist the Mechanic - Omega: Assist Harrot **Mass Effect 3: Citadel** - Citadel: Shore Leave - Citadel Wards: Ambush - Citadel: Identity Theft I - Silver Coast Casino: Infiltration - Citadel: Identity Theft II - Citadel Archives: Escape - Citadel Docks: Retake the Normandy - Citadel: Party - Citadel Arena: Geth Challenge - Citadel Arena: Spin Zone Elite Challenge - Citadel Arena: Medi\\-Gel Challenge - Citadel Arena: Reaper Solo Challenge - Citadel Arena: Thermal Clip Challenge - Citadel Arena: Prothean Challenge - Citadel Arena: Cerberus Challenge - Citadel Arena: Charity Reaper Challenge - Citadel Arena: Unusual Scores",
+      "url": "https://masseffect.fandom.com/wiki/Missions",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "summary:mass-effect-3-leviathan",
+      "kind": "summary",
+      "page": "Mass Effect 3: Leviathan",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Mass Effect 3: Leviathan was a DLC pack for Mass Effect 3, released August 28, 2012 on all platforms (August 29 for PS3 in Europe). Before its official August 2, 2012 announcement, script elements were found in the Extended Cut files and actor Anthony Skordi confirmed he had done voice work for it.\n\nSet during the events of Mass Effect 3, the pack has Shepard hunt a mysterious being rumored to be powerful enough to destroy a Reaper, beginning with Dr. Garret Bryson's lab on the Citadel and following the trail through his colleague Garneau and his daughter Dr. Ann Bryson to the ocean world 2181 Despoina, uncovering more about the origins of the Reaper race. Content included ten missions (Citadel: Dr. Bryson, Citadel: Leviathan I-III, Leviathan: Find Garneau, Mahavid: Leviathan, Leviathan: Find Ann Bryson, Namakli: Leviathan, Leviathan: Scan Locations, Despoina: Leviathan), ten locations across several clusters, two weapons (AT-12 Raider shotgun, M-55 Argus assault rifle), five weapon mods, eleven new War Assets (including Dr. Ann Bryson, the Leviathan Enthrallment Team, and the Husk Neural Map), the Dominate bonus power, a cabin item (Bryson's Husk Head Experiment), and new rapid-transport terminals on the Citadel. It cost 800 BioWare Points on PC and $9.99 USD on consoles and is included in Mass Effect Legendary Edition. BioWare promoted it with Twitter and blog stories about an anti-conspiracy activist.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3:_Leviathan",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "mass-effect-3-leviathan_003",
+      "kind": "page",
+      "page": "Mass Effect 3: Leviathan",
+      "section": "Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Ten missions: - Citadel: Dr. Bryson - Citadel: Leviathan I - Leviathan: Find Garneau - Mahavid: Leviathan - Citadel: Leviathan II - Leviathan: Find Ann Bryson - Namakli: Leviathan - Citadel: Leviathan III - Leviathan: Scan Locations - Despoina: Leviathan - Ten locations: - Dr. Bryson's Lab on the Citadel. - The Caleston Rift cluster. - The Crescent Nebula cluster. - The Pylos Nebula cluster. - The Indris system in the Kite's Nest cluster. - The Lenal system in the Sigurd's Cradle cluster. - The Mil system in the Sigurd's Cradle cluster. - The Psi Tophet system in the Sigurd's Cradle cluster. - The Kyzil system in The Shrike Abyssal cluster. - The Thal system in The Shrike Abyssal cluster. - Two weapons: - AT\\-12 Raider - M\\-55 Argus - Five Weapon Mods - Assault Rifle Omni\\-Blade - Pistol Ultralight Materials - Pistol Cranial Trauma System - SMG High\\-Velocity Barrel - SMG Recoil System - Eleven new War Assets - Governor Grothan Pazness - Liquid Assets - Vorcha Labor Team - Void Devils Fighter Wing - Husk Neural Map - Dextro Rations - Synthdiamond Heat Sinks - Jovian Dissertation - Radiation Shielding Sheath - Leviathan Enthrallment Team - Dr. Ann Bryson - One Bonus Power: - Dominate - One cabin item: - Bryson's Husk Head Experiment. - Citadel changes: - Rapid transport terminals at major locations in the Citadel",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3:_Leviathan",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "aysur_006",
+      "kind": "page",
+      "page": "Aysur",
+      "section": "Mahavid",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Mahavid** is an asteroid orbiting the star Aysur. *Main article: Mahavid* - *Mission:* Leviathan: Find Garneau - *Mission:* Mahavid: Leviathan",
+      "url": "https://masseffect.fandom.com/wiki/Aysur",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "psi-tophet_003",
+      "kind": "page",
+      "page": "Psi Tophet",
+      "section": "2181 Despoina",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**2181 Despoina** is the *first* planet orbiting the star Psi Tophet. *Main article: 2181 Despoina* - *Mission:* Despoina: Leviathan",
+      "url": "https://masseffect.fandom.com/wiki/Psi_Tophet",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "zaherin_004",
+      "kind": "page",
+      "page": "Zaherin",
+      "section": "Namakli",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Namakli** is the *second* planet orbiting the star Zaherin. *Main article: Namakli* - *Mission:* Namakli: Leviathan",
+      "url": "https://masseffect.fandom.com/wiki/Zaherin",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "leviathan-find-garneau_003",
+      "kind": "page",
+      "page": "Leviathan: Find Garneau",
+      "section": "Walkthrough",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Travel to the Aysur system in the Caleston Rift. Look in the southern quadrant of the asteroid belt for the asteroid Mahavid and land to trigger the next mission. Mass Effect 3: Leviathan Navigation | ← Previous Mission | Mission Index | Next Mission → | | --- | --- | --- | | Citadel: Leviathan I | Missions | Mahavid: Leviathan |",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan:_Find_Garneau",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "scene:despoina-shuttle-crash-triton-plan#05",
+      "kind": "scene",
+      "page": "Stranded on the Wrecks of 2181 Despoina",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "despoina-shuttle-crash-triton-plan",
+      "text": "Stranded on the Wrecks of 2181 Despoina. 2186, Leviathan DLC, the descent to the ocean world 2181 Despoina floating shipwrecks on the ocean of 2181 Despoina, then the ocean floor Cortez clears the mech to dive. Shepard descends alone; partway down, interference cuts the link to Cortez on the surface, and Shepard goes on to meet Leviathan near the earlier probe at a depth around 3,200 metres.",
+      "url": "",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "scene:despoina-shuttle-crash-triton-plan#01",
+      "kind": "scene",
+      "page": "Stranded on the Wrecks of 2181 Despoina",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "despoina-shuttle-crash-triton-plan",
+      "text": "Stranded on the Wrecks of 2181 Despoina. 2186, Leviathan DLC, the descent to the ocean world 2181 Despoina floating shipwrecks on the ocean of 2181 Despoina, then the ocean floor Coming down toward 2181 Despoina, a mysterious pulse disables the Kodiak. Cortez sets it down on one of the floating shipwrecks that litter the ocean.",
+      "url": "",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "summary:leviathan-find-garneau",
+      "kind": "summary",
+      "page": "Leviathan: Find Garneau",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Short Mass Effect 3 mission from the Leviathan DLC. Dr. Alex Garneau was identified as the best source of information about Leviathan, and Shepard had to search possible locations across the galaxy to find him. The mission became available after completing Citadel: Leviathan I and activating at least one galaxy map search filter. The walkthrough directed the player to the Aysur system in the Caleston Rift and to land on the asteroid Mahavid in the southern quadrant of the asteroid belt, which triggered the next mission, Mahavid: Leviathan.",
+      "url": "https://masseffect.fandom.com/wiki/Leviathan:_Find_Garneau",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "scene:despoina-shuttle-crash-triton-plan#03",
+      "kind": "scene",
+      "page": "Stranded on the Wrecks of 2181 Despoina",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "despoina-shuttle-crash-triton-plan",
+      "text": "Stranded on the Wrecks of 2181 Despoina. 2186, Leviathan DLC, the descent to the ocean world 2181 Despoina floating shipwrecks on the ocean of 2181 Despoina, then the ocean floor Cortez reports the Kodiak inoperable; when a squadmate suggests a pickup by the Normandy, he points out the ship would be disabled the same way. The team resolves to press on and find Leviathan on foot. Cortez proposes commandeering a Triton ADS mech sealed inside the wreck; Shepard is skeptical and the squad more so, but it is the only real option.",
+      "url": "",
+      "for_key": "Despoina Leviathan Mahavid Namakli"
+    },
+    {
+      "chunk_id": "citadel-embassies_003",
+      "kind": "page",
+      "page": "Citadel Embassies",
+      "section": "Side Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Aria: Eclipse - Benning: Evidence - Citadel: Batarian Codes - Citadel: Cerberus Ciphers - Citadel: Hanar Diplomat - Citadel: Reaper Code Fragments - Citadel: Volus Ambassador - Dekuuna: Elcor Extraction - Shrike Abyssal: Prothean Obelisk",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Embassies",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "manual-reaper-classes-and-sizes-part-2-constructs-and-capital-classes_005",
+      "kind": "page",
+      "page": "Reaper Classes and Sizes (Part 2) — Constructs and Capital Classes",
+      "section": "Leviathans (for context)",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Not Reapers, but their creators. An ancient race that ruled the galaxy billions of years ago — huge ocean-dwelling creatures ~450 m long, resembling giant squid or cuttlefish with multiple eyes and long tentacles. They viewed themselves as the apex life form and treated other species as tools, using a powerful form of mind control to turn beings into obedient servants. They built the intelligence that became the Reapers, which then turned on them. Afterward the Leviathans hid deep in ocean worlds, watching the cycle continue for millions of years while erasing evidence of their existence.",
+      "url": "",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "serpent-nebula_006",
+      "kind": "page",
+      "page": "Serpent Nebula",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Priority: The Citadel I - *Mission:* Priority: The Citadel II - *Mission:* Priority: The Citadel III - *Mission:* Citadel: Alien Medi\\-Gel Formula - *Mission:* Citadel: Asari Widow - *Mission:* Citadel: Barla Von - *Mission:* Citadel: Batarian Codes - *Mission:* Citadel: Biotic Amp Interfaces - *Mission:* Citadel: Cerberus Automated Turret Schematics - *Mission:* Citadel: Cerberus Ciphers - *Mission:* Citadel: Cerberus Retribution - *Mission:* Citadel: Cerberus Turian Poison - *Mission:* Citadel: Chemical Treatment - *Mission:* Citadel: Dr. Bryson - *Mission:* Citadel: Leviathan I - *Mission:* Citadel: Leviathan II - *Mission:* Citadel: Leviathan III - *Mission:* Citadel: GX12 Thermal Pipe - *Mission:* Citadel: Hanar Diplomat - *Mission:* Citadel: Heating Unit Stabilizers - *Mission:* Citadel: Improved Power Grid - *Mission:* Citadel: Inspirational Stories - *Mission:* Citadel: Kakliosaur Fossil - *Mission:* Citadel: Krogan Dying Message - *Mission:* Citadel: Medi\\-Gel Sabotage - *Mission:* Citadel: Medical Supplies - *Mission:* Citadel: Reaper Code Fragments - *Mission:* Citadel: Target Jamming Technology - *Mission:* Citadel: Volus Ambassador - *Mission:* Citadel: Wounded Batarian",
+      "url": "https://masseffect.fandom.com/wiki/Serpent_Nebula",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "widow_005",
+      "kind": "page",
+      "page": "Widow",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "#### Missions - *Mission:* Citadel: Alien Medi\\-Gel Formula - *Mission:* Citadel: Aria T'Loak - *Mission:* Citadel: Asari Widow - *Mission:* Citadel: Barla Von - *Mission:* Citadel: Batarian Codes - *Mission:* Citadel: Biotic Amp Interfaces - *Mission:* Citadel: Cerberus Automated Turret Schematics - *Mission:* Citadel: Cerberus Ciphers - *Mission:* Citadel: Cerberus Retribution - *Mission:* Citadel: Cerberus Turian Poison - *Mission:* Citadel: Chemical Treatment - *Mission:* Citadel: Dr. Bryson - *Mission:* Citadel: Leviathan I - *Mission:* Citadel: Leviathan II - *Mission:* Citadel: Leviathan III - *Mission:* Citadel: GX12 Thermal Pipe - *Mission:* Citadel: Hanar Diplomat - *Mission:* Citadel: Heating Unit Stabilizers - *Mission:* Citadel: Improved Power Grid - *Mission:* Citadel: Inspirational Stories - *Mission:* Citadel: Kakliosaur Fossil - *Mission:* Citadel: Krogan Dying Message - *Mission:* Citadel: Medi\\-Gel Sabotage - *Mission:* Citadel: Medical Supplies - *Mission:* Citadel: Reaper Code Fragments - *Mission:* Citadel: Target Jamming Technology - *Mission:* Citadel: Volus Ambassador - *Mission:* Citadel: Wounded Batarian - *Mission:* Priority: The Citadel I - *Mission:* Priority: The Citadel II - *Mission:* Priority: The Citadel III",
+      "url": "https://masseffect.fandom.com/wiki/Widow",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "fermi_002",
+      "kind": "page",
+      "page": "Fermi",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Fermi** is a rock wrapped in a haze of carbon dioxide and oxygen, though its temperatures and concentrations make it difficult to support life. Many moons and debris are in its immediate vicinity, leading researchers to believe that at some point Fermi was impacted by something large, launching fragments of the planet into orbit. The wreckage from a scientific station can be detected here\\-\\-more evidence of the Reapers' presence in the system.",
+      "url": "https://masseffect.fandom.com/wiki/Fermi",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "valhallan-threshold-prothean-data-drives_004",
+      "kind": "page",
+      "page": "Valhallan Threshold: Prothean Data Drives",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- As with Citadel: Reaper Code Fragments, it is difficult to *not* overhear the Soldier and obtain this mission on the Citadel, as he has a wide speaking radius that covers the only hallway back to the Normandy. However, the means to bypass him are more numerous: by save/reloading then heading straight for the door, by rushing past him, or by doing a Mass Effect 3: Leviathan mission which deposits Shepard straight to the Normandy upon completion.",
+      "url": "https://masseffect.fandom.com/wiki/Valhallan_Threshold:_Prothean_Data_Drives",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "inferno-grenade_003",
+      "kind": "page",
+      "page": "Inferno Grenade",
+      "section": "Power Ranks",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- **Rank 1** \\- Launches a volatile grenade that explodes on impact, sending fragments flying in all directions that cause extra damage. This fire damage is effective against armor. - **Recharge Time**: 6\\.00 seconds (Shepard); 9\\.00 seconds (Zaeed) - **Impact Radius**: 3\\.00 meters - **Damage**: 50\\.00 points over 4\\.00 seconds - **Number of Fragments**: 3\\.00 - **Rank 2** \\- Launches a volatile grenade that explodes on impact, sending fragments flying in all directions that cause extra damage. This fire damage is effective against armor. - **Recharge Time**: 6\\.00 seconds (Shepard); 9\\.00 seconds (Zaeed) - **Impact Radius**: 3\\.25 meters - **Damage**: 60\\.00 points over 4\\.00 seconds - **Number of Fragments**: 4\\.00 - **Rank 3** \\- Launches a volatile grenade that explodes on impact, sending fragments flying in all directions that cause extra damage. This fire damage is effective against armor. - **Recharge Time**: 6\\.00 seconds (Shepard); 9\\.00 seconds (Zaeed) - **Impact Radius**: 3\\.50 meters - **Damage**: 70\\.00 points over 4\\.00 seconds - **Number of Fragments**: 5\\.00 **Rank 4** Evolves Inferno Grenade into one of the following options: #### *Heavy Inferno Grenade* - This advanced plasma burns at higher temperatures and does more damage. - **Recharge Time**: 6\\.00 seconds (Shepard); 9\\.00 seconds (Zaeed) - **Impact Radius**: 3\\.50 meters - **Damage**: 100\\.00 points over 4\\.00 seconds - **Number of Fragments**: 5\\.00 #### *Inferno Blast Grenade* - The splash zone and the number of fragments of this grenade is increased, allowing you to scorch more targets. - **Recharge Time**: 6\\.00 seconds (Shepard); 9\\.00 seconds (Zaeed) - **Impact Radius**: 4\\.50 meters - **Damage**: 70\\.00 points over 4\\.00 seconds - **Number of Fragments**: 6\\.00",
+      "url": "https://masseffect.fandom.com/wiki/Inferno_Grenade",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "summary:mahavid-leviathan",
+      "kind": "summary",
+      "page": "Mahavid: Leviathan",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Mahavid: Leviathan was a mission in the Mass Effect 3: Leviathan DLC, following Leviathan: Find Garneau. Shepard, Cortez, and squad traveled to the asteroid mining facility on Mahavid, which was under Reaper attack, searching for the missing Dr. Alex Garneau and evidence gathered from Dr. Bryson's lab. The facility was operated by T-GES Mineral Works, a front whose personnel behaved strangely and sealed themselves away as Shepard advanced. Shepard fought through Reaper ground forces (Marauders, Brutes, Husks, Ravagers, Banshees, Cannibals, Swarmers), repaired an inoperable elevator using a repair drone, and collected datapads, weapon mods, and about 12,500 credits from seven datapads.\n\nShepard tracked Garneau by finding an undelivered message containing a security-terminal password, a personnel ID, and a patient number for the medical bay. There Shepard met a man claiming to be Garneau who was in fact a thrall controlled by the Leviathan; he fled outside, pursued by Husks that chased him rather than Shepard. After a second, harder drone-escort section under fire, Shepard reached the mine, where the thrall detonated the Leviathan artifact, killing himself and the surrounding Husks. Shepard's squadmate then discovered the real Dr. Garneau's body; the pursued man had been an impostor. The freed facility personnel had no memory of Garneau, of Reapers, or of anything but being somewhere dark and cold. An asari miner stated the year was 2176, revealing the Leviathan had held the facility's staff as thralls for about ten years. The Reapers attacking the base suddenly withdrew. The mission led into Citadel: Leviathan II.",
+      "url": "https://masseffect.fandom.com/wiki/Mahavid:_Leviathan",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "summary:citadel-embassies",
+      "kind": "summary",
+      "page": "Citadel Embassies",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Citadel Embassies was a location on the Citadel in Mass Effect 3, distinct from the earlier Embassies seen in Mass Effect. It contained Councilor Donnel Udina's Earth Councilor's office, Commander Bailey's C-Sec office, and a Spectre outpost. After Priority: The Citadel II the Earth Councilor's office became inaccessible, except when meeting the asari councilor there during Priority: The Citadel III.\n\nThe Spectre Office held a Spectre Terminal for tracking Citadel political and security situations, a Procurement Terminal for buying specialized equipment and missed side-mission items, and a shooting range with a weapon-modification workbench and three targets with health, shield, and armor bars that could be moved to varying distances, plus nearby ammunition and grenade refills. Miranda Lawson could be encountered there as a hologram. Spectre Requisitions operated as a shop.\n\nThe Embassy Offices contained an Avina terminal and Ambassador Dominic Osoba. James Vega, Samara, and Javik could be found there at various times looking over the Presidium, and Khalisah al-Jilani appeared after Shepard first spoke with Bailey. The Spectre Jondum Bau was present, along with a volus diplomat offering volus support to the Alliance and the Turian Hierarchy. Other petitioners appeared according to story progress: an old human woman asking after her son and, after the attack on the Citadel, an Alliance marine, an asari war strategist seeking Reaper code fragments, and a turian C-Sec officer seeking Cerberus ciphers; an elcor diplomat sought help evacuating Dekuuna after the Battle of Rannoch. The Office Suite, accessible only during a specific mission, held the hanar Diplomat and volus Ambassador Din Korlack's recordings.\n\nSide missions staged from the area included Aria: Eclipse, Benning: Evidence, Citadel: Batarian Codes, Citadel: Cerberus Ciphers, Citadel: Hanar Diplomat, Citadel: Reaper Code Fragments, Citadel: Volus Ambassador, Dekuuna: Elcor Extraction, and Shrike Abyssal: Prothean Obelisk.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Embassies",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "scene:citadel-council-first-hearing-saren-cleared#03",
+      "kind": "scene",
+      "page": "The Council Clears Saren for Lack of Evidence",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-council-first-hearing-saren-cleared",
+      "text": "The Council Clears Saren for Lack of Evidence. 2183, Citadel, shortly after the Prologue, before the hunt for Fist and Wrex the Petitioner's Stage, Council Chambers, Citadel Tower Finding insufficient evidence, the asari councilor rules Saren is not disbarred from the Spectres and dismisses the hearing. Udina lingers, defeated.",
+      "url": "",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "scene:citadel-embassy-cerberus-evidence#01",
+      "kind": "scene",
+      "page": "Turian Embassy Meeting on Cerberus Evidence",
+      "section": "banter",
+      "game": "Mass Effect",
+      "scene_id": "citadel-embassy-cerberus-evidence",
+      "text": "Turian Embassy Meeting on Cerberus Evidence. 2186, during Mass Effect Retribution, after Kahlee Sanders obtains Paul Grayson's Cerberus data the turian embassy on the Citadel When Kahlee Sanders passes Paul Grayson's evidence of Cerberus activities to David Anderson, Anderson knows he cannot trust anyone in the Alliance government. He takes the evidence to turian Ambassador Orinia, a former general who served in the First Contact War. Orinia notes that Cerberus was the reason turians opposed humanity's addition to the Council, but Anderson counters with the example of Saren Arterius, and she agrees to listen to what they have to say.",
+      "url": "",
+      "for_key": "Leviathan fragments erasing evidence"
+    },
+    {
+      "chunk_id": "scene:citadel-bryson-lab-leviathan-research#03",
+      "kind": "scene",
+      "page": "Ann Bryson Grieves Her Father",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-bryson-lab-leviathan-research",
+      "text": "Ann Bryson Grieves Her Father. 2186, Citadel, after extracting Ann from Namakli Dr. Garret Bryson's lab on the Citadel As Ann moved around the lab, she began explaining the connection between Leviathan's artifacts and rachni communication. She theorized that Leviathan used the artifacts to induce a quantum entanglement state to stimulate neural activity, similar to how rachni communicated. She speculated that Leviathan might have been preparing the rachni to fight the Reapers.",
+      "url": "",
+      "for_key": "Leviathan fragments erasing evidence"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 101,
+      "text": "- Dr. Anneliese \"Ann\" Bryson, born 2158, was a Systems Alliance scientist and daughter of Dr. Garret Bryson, a member of Task Force Aurora who led Project Scarab to Namakli, was briefly possessed by Leviathan, and could later aid the Crucible project with her paleotechnology research (source: Ann Bryson).",
+      "for_key": "bryson leviathan research task force aurora"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 105,
+      "text": "- Dr. Garret Bryson: Systems Alliance scientist heading Task Force Aurora to investigate Reaper legends; researched the Leviathan of Dis and the \"real\" Leviathan that killed a Reaper, and was murdered in his Citadel lab by his indoctrinated assistant Derek Hadley; father of Ann Bryson. (source: Garret Bryson)",
+      "for_key": "bryson leviathan research task force aurora"
+    },
+    {
+      "file": "codex/factions.md",
+      "line": 50,
+      "text": "- Task Force Aurora's research into Leviathan, continued by Shepard after Bryson's murder, led through Mahavid and Namakli to first contact with the Leviathans on 2181 Despoina, who then aided the galaxy against the Reapers (source: Task Force Aurora).",
+      "for_key": "bryson leviathan research task force aurora"
+    }
+  ],
+  "conflicts": [
+    {
+      "canon_id": "joker-edi-polyamorous",
+      "config_said": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "evidence_said": "scenes/citadel-bryson-lab-leviathan-research.yaml — Ann Bryson Grieves Her Father",
+      "resolution": "override 'joker-edi-polyamorous' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": []
+}

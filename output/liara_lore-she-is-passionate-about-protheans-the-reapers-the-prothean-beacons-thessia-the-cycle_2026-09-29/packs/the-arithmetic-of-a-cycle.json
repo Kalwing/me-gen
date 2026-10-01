@@ -1,0 +1,796 @@
+{
+  "section": {
+    "id": "the-arithmetic-of-a-cycle",
+    "title": "The Arithmetic of a Cycle",
+    "target_words": 560,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "The number problem, told as a quarrel with herself: the inusannon are placed at least 127,000 years back and the Protheans at 68,000 to 48,000, and the corpus does not fit these into a clean fifty-thousand-year rhythm",
+    "What that leaves open: missed cycles, a longer or irregular cycle, unreliable dates or a Reaper schedule that is not a schedule, each offered as a hypothesis and none endorsed",
+    "Why a cycle that erases its own evidence is a methodological trap for an archaeologist, and how the Leviathan testimony would push the whole timeline back",
+    "What she would want dated first if she had a lab and a decade"
+  ],
+  "required_facts": [
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Crucible was an ancient, enormously complex superweapon designed to stop the Reapers. Its blueprint was refined by countless species across millions of years and many extinction cycles, passed secretly from one cycle to the next; no species ever managed to deploy it. The Protheans were the most recent builders, but infighting between a faction that wanted to destroy the Reapers and an indoctrinated faction that wanted to control them stopped them, and the schematics were hidden in a Prothean archive on Mars for 50,000 years. In 2186, after Liara T'Soni recovered encryption keys from a Prothean shrine on Kahje, she traveled to the Mars Archives (the mission Priority: Mars) and recognized the significance of the schematics. The Illusive Man also wanted them and sent the Cerberus infiltration unit Dr. Eva Core to steal the data and wipe the archives. After a chase and firefight, James Vega rammed Eva's shuttle with a truck and Shepard disabled her with the plans intact, though Shepard's Virmire survivor squadmate (Ashley Williams or Kaidan Alenko, per `virmire_survivor` / `virmire_survivor_rejoins`) was gravely injured and evacuated to Huerta Memorial Hospital on the Citadel. Eva's synthetic body was salvaged and later used to give EDI a mobile platform. The schematics were handed to the Systems Alliance, and after the fall of Earth Admiral Hackett authorized a massive galaxy-wide construction effort, with shipyards across many species building sections of the device. Scientists determined the Crucible exploited mass relay technology but could not fully explain how it worked, and that it required a final component, the Catalyst. The Prothean VI Vendetta on Thessia revealed the Catalyst was the Citadel itself, which could massively amplify the Crucible's output. The Illusive Man fled to the Citadel and alerted the Reapers, who seized the station and moved it into orbit around Earth. Hackett committed the combined fleets to Sol, and the completed Crucible was brought in behind a token defense force to dock with the Citadel, setting up the war's final choice (per `final_choice`).",
+      "actor": "Liara T'Soni"
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "Crucible schematics recovered from the Mars Prothean Archives and handed to the Systems Alliance",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "Cerberus infiltration unit Eva Core neutralized; her synthetic frame later becomes EDI's mobile platform",
+      "actor": "Eva Core"
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Virmire survivor (Ashley or Kaidan) is hospitalized on the Citadel with severe injuries (per `virmire_survivor`)",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "Admiral Hackett authorizes a galaxy-wide Crucible construction program after Earth falls",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Catalyst is identified as the Citadel via the Prothean VI on Thessia",
+      "actor": ""
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Illusive Man alerts the Reapers, who move the Citadel to Earth",
+      "actor": "The Illusive Man"
+    },
+    {
+      "event_id": "crucible-superweapon-project",
+      "fact": "The Crucible becomes the linchpin of the final battle and determines the ending (per `final_choice`)",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "scan_the_keepers",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Scan the Keepers - Chorban and Jahleed's keeper-scanning project on the Citadel.",
+      "answer": "Scanned all of them, reconciled the two",
+      "detail": ""
+    },
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "final_choice",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The final choice at the Crucible.",
+      "answer": "Synthesis",
+      "detail": "Destroy means genocide for synthetics. Control means having absolute powers for basically eternity, and power corrupts all, I'm not above it. Refuse is stupid. Synthesis is the lesser evil of those choices."
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    },
+    {
+      "id": "illusive_man_confrontation",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The final confrontation with the Illusive Man on the Crucible.",
+      "answer": "talked into suicide",
+      "detail": ""
+    }
+  ],
+  "scenes": [],
+  "attendance": {},
+  "evidence": [
+    {
+      "chunk_id": "background-races_004",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Inusannon",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The **inusannon** were a spacefaring race that existed at least 127,000 years ago. Little is known about them except that they warred with another race, the thoi'han, over colonization rights to the garden world Eingana, and that they inhabited Ilos at some point. The inusannon were eventually wiped out by the Reapers. Tens of thousands of years later, the ruins of inusannon civilization provided the Protheans with the knowledge necessary to develop mass effect technology.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "background-races_006",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Thoi'han",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Little is known about the **thoi'han** except that they warred with the inusannon over colonization rights to the garden world Eingana 127,000 years ago. The wreckage of starships from both races litter the planet.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "background-races_009",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Other Identified Races",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Prothean Javik briefly mentions several other spacefaring races who existed at the time of the Prothean Empire 50,000 years ago. - **Ditakur** \\- The aggressive ditakur wiped out the synril. - **Enduromi** \\- The enduromi conquered the vandomar. - **Synril** \\- The synril claimed to have found the path to eternal peace, but were wiped out by the ditakur. - **Vandomar** \\- The vandomar were conquered by the enduromi.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "timeline_003",
+      "kind": "page",
+      "page": "Timeline",
+      "section": "Pre\\-Prothean Times (c. 1,000,000,000 BCE \\- c. 68,000 BCE)",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "c. 1,000,000,000 BCE The Leviathan of Dis, a Reaper, is killed by the Leviathans. Its corpse comes to rest on the planet Jartar and remains undisturbed for nearly one billion years. c. 37,000,000 BCE An unknown spacefaring race fires a mass accelerator round at a Reaper near the planet Mnemosyne. The round penetrates the Reaper, disabling it, and continues moving through space, eventually striking the planet Klendagon and creating the geological feature there known as the Great Rift Valley. c. 298,000 BCE The ancient arthenn race flourish in the Zelene system, living on the planet Helyme until being destroyed in an unknown event that wiped out all complex life on the planet. They also maintained a presence on other planets in the system including Epho, which bears the scars of an ancient orbital bombardment, and Gaelon, which may have been mined for helium\\-3. c. 125,000 BCE Ancient spacefaring races called the thoi'han and inusannon fight over the planet Eingana, littering the planet with the debris of hundreds of starships. Refined element zero scattered by broken drive cores contaminates the environment, causing many native species to go extinct and those that survive to show a tendency to develop biotic powers.",
+      "url": "https://masseffect.fandom.com/wiki/Timeline",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "eingana_002",
+      "kind": "page",
+      "page": "Eingana",
+      "section": "Description",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Eingana** is a hot, beautiful, and deadly world, covered with the debris of ancient starships. Approximately 127,000 years ago, a series of battles were fought over it by two organic species, the thoi'han and the inusannon. Although no records of the conflict remain, most historians agree that both races wanted to colonize Eingana, and neither were willing to share. The two lost hundreds of ships in a series of battles over Eingana and its moon, Barraiya; many of these were eventually pulled in by the planet's gravity well. The mass effect drive cores of these ships broke apart, dumping refined element zero over large stretches of landscape. This poisoned the environment and a wave of extinctions followed. Many of the animal species that remained showed a tendency to develop biotic powers. As the ecology of Eingana is energetic and aggressive, this makes colonization a deadly peril.",
+      "url": "https://masseffect.fandom.com/wiki/Eingana",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "crucible_003",
+      "kind": "page",
+      "page": "Crucible",
+      "section": "Design",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "It is unknown who initially began the development of the Crucible. Countless different species obtained and made contributions to the design over the course of millions of years, but none successfully deployed it before being wiped out by the Reapers. The Reapers were led to believe all traces of the design were eradicated but throughout the countless cycles, the Crucible design was continuously preserved. The latest species to try, the Protheans, were able to construct the Crucible, but before they could deploy it, infighting broke out between those who wanted to use it to destroy the Reapers and a faction that believed they could use it to control the Reapers; these separatists were later discovered to be indoctrinated. While the Protheans never had the chance to activate the Crucible, its schematics survived in a Prothean archive on Mars for the next 50,000 years.",
+      "url": "https://masseffect.fandom.com/wiki/Crucible",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "background-races_002",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Arthenn",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The **arthenn** flourished across multiple worlds in the Zelene system some 300,000 years ago. Their homeworld appears to have been Helyme, a dead planet where all complex life was wiped out in an unknown cataclysm. The third planet in the system, Epho, was mined or otherwise settled before these settlements were wiped out by kinetic impacts. The system's outer gas giant, Gaelon, was the location of a complex helium\\-3 mining infrastructure. Material debris suggests arthenni technology was equal to the current galactic state\\-of\\-the\\-art.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "manual-reaper-classes-and-sizes-part-1-origin-purpose-and-ground-forces_003",
+      "kind": "page",
+      "page": "Reaper Classes and Sizes (Part 1) — Origin, Purpose, and Ground Forces",
+      "section": "Origin",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "About a billion years ago a powerful race called the Leviathans ruled the galaxy. They created a super-intelligent AI to solve one problem: the seemingly inevitable conflict between organic life and the sentient machines organics build. The AI concluded that the solution was to control everything forever, including the Leviathans. It turned on its creators, wiped out most of them, and used their bodies and minds to build the first Reaper — now known as Harbinger. Over millions of years more Reapers were made by repeating the process on other species once they reached a certain threshold of advancement.",
+      "url": "",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "summary:reaper-classes-and-sizes-01",
+      "kind": "summary",
+      "page": "Reaper Classes and Sizes (Part 1) — Origin, Purpose, and Ground Forces",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Part 1 of a hand-corrected survey of Reaper types, covering what the Reapers are, their origin, the logic of the harvest, and their ground forces and small constructs. The Reapers were described as gigantic biomechanical machines partly built from living beings, resembling space squids or cuttlefish and ranging in size from a large building to a mountain. Each Reaper housed the fused minds of billions of individuals from a harvested species inside a machine body.\n\nTheir origin was traced to roughly a billion years ago, when a race called the Leviathans ruled the galaxy and built a super-intelligent AI to solve the recurring conflict between organic life and the synthetic machines organics create. The AI concluded that permanent control of all life, including the Leviathans, was the only solution. It turned on its makers, wiped out most of them, and used their bodies and minds to build the first Reaper, later known as Harbinger. The process was repeated on other species once they reached a threshold of advancement, producing more Reapers over millions of years.\n\nThe harvest was presented as the Reapers' method of preservation: they let civilizations rise using the Citadel and mass relays, which the Reapers secretly built, then returned every 50,000 years to destroy advanced civilizations while preserving their minds inside new Reapers, a form of immortality by the Reapers' reckoning.\n\nThe page then catalogs Reaper ground troops and small constructs: husks (bodies converted on dragon's-teeth spikes into cybernetic zombies, the most common troops); cannibals (mutated batarians that consume corpses to grow armor); harvesters (30-to-40-foot flying gunships and transports); marauders (transformed turians acting as battlefield leaders); brutes (turian-krogan hybrids); ravagers (mutated rachni used as living artillery); banshees (corrupted asari with powerful biotics); the Oculus (a fast flying drone used by Reapers and Collectors); and swarmers (tiny, numerous drones).",
+      "url": "",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "summary:crucible",
+      "kind": "summary",
+      "page": "Crucible",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Crucible was an ancient, highly complex superweapon device intended to stop the Reapers. Its design was contributed to by countless species across millions of years and many extinction cycles, but no species deployed it before being wiped out. The Reapers believed all traces of the design were destroyed, yet the schematics were continuously preserved and passed between cycles. The Protheans were the latest species to build it, but before they could deploy it, infighting broke out between those who wanted to use it to destroy the Reapers and a faction, later found to be indoctrinated, who wanted to control them. The schematics survived in a Prothean archive on Mars for 50,000 years.\n\nIn 2186, after recovering encryption keys from a Prothean shrine on Kahje, Liara T'Soni traveled to the Mars Archive and recognized the schematics' significance. The Illusive Man also sought them and sent the infiltration unit Dr. Eva Coré to steal the data, wiping it from the archives. After a chase involving Shepard and Liara, James Vega rammed Eva's shuttle; Shepard disabled her with the plans intact, though Shepard's Virmire survivor squadmate was gravely injured. The schematics were handed to the Systems Alliance, which began a massive galaxy-wide construction effort on Admiral Hackett's authority after the fall of Earth.\n\nScientists determined the device exploited mass relay technology but could not fully explain its function. It required a final component, the Catalyst, revealed by the Prothean VI Vendetta to be the Citadel itself, which could massively amplify the Crucible's energy. The Illusive Man fled to the Citadel and alerted the Reapers, who seized it and moved it into orbit around Earth. Hackett committed the galaxy's combined fleets to Sol, with the Crucible entering the battle behind a token defense force.\n\nShepard boarded the Citadel, opened it for docking with the Crucible, and met the Catalyst, which manifested as the boy Shepard saw die during the escape from Earth. The Catalyst described the Crucible as a crude but effective, adaptive power source, and offered Shepard choices: destroy the Reapers and all synthetics (red energy); control the Reapers at the cost of Shepard's physical form (blue energy); or synthesize organic and synthetic life (green energy). Shepard could also refuse, leaving the cycle to continue. Each firing option transmitted energy through the Charon Relay and the mass relay network, damaging the relays and, in most cases, the Citadel.",
+      "url": "https://masseffect.fandom.com/wiki/Crucible",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "summary:reaper",
+      "kind": "summary",
+      "page": "Reaper",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Reapers were a highly advanced machine race of synthetic-organic starships that hibernated in dark space, the mostly starless void between galaxies, dormant for fifty thousand years at a time before returning to harvest the galaxy's advanced life. Their true name was unknown; \"Reapers\" was a label bestowed by the Protheans, and the geth called them the Old Machines. Each Reaper was described as \"billions of organic minds, uploaded and conjoined within immortal machine bodies,\" its core built in the image of the species harvested to create it while its exterior followed a standardized design derived from the Leviathans, an ancient aquatic race. Reapers ranged from 160 meters to over two kilometers in length. Subtypes included Harbinger (the first Reaper, largest in the armada), Sovereign-class Capital Ships (two kilometers long, with a spinal magnetohydrodynamic cannon yielding 132 to 450 kilotons), Troop Transports and Processors (non-sentient, remotely controlled), and 160-meter Destroyers that could unfold their legs to walk as heavy ground units.\n\nThe Reapers built the Citadel and mass relay network as a trap, ensuring galactic civilization would develop along predictable technological paths centered on the Citadel and could be crippled at a stroke. A vanguard within the galaxy would signal the Citadel, the keepers would open its hidden relay, and the Reaper fleet would flood in, kill the leaders of the assembled species, then use Citadel records to hunt every settled world. Victims were rounded into camps by husks, sorted by genetic fitness, loaded into Processor pods, and dissolved by nanides into genetic paste used to build new Reapers, their minds preserved as the new Reaper's gestalt consciousness. Those deemed unsuitable were converted into husks via dragon's teeth. Reaper technology also relied on indoctrination, a permanent mental erosion that turned nearby organics into willing slaves.\n\nThe Reapers were created by the Leviathans' \"Intelligence,\" built to solve the cycle of organics and synthetics destroying each other; it instead processed the Leviathans into Harbinger and began cyclical purges spanning millions of years. Fifty thousand years before the modern era they wiped out the Protheans, though a cadre on Ilos survived in stasis and altered the Citadel signal, delaying the next invasion. Sovereign, acting as vanguard, was found in the Perseus Veil, swayed geth heretics, and used Saren Arterius to locate the Conduit; it assaulted the Citadel in 2183 and was destroyed by the Alliance Fleet. The Collectors, repurposed Protheans, later abducted humans to build a Human-Reaper, which Shepard destroyed in 2185. Shepard delayed the invasion again by destroying the Alpha Relay in the Bahak System, killing 300,000 batarians. The Reapers returned in 2186, destroyed the Batarian Hegemony within days, and overran Earth, Palaven, Thessia and more. Shepard unified the galaxy, cured the genophage, freed the geth at Rannoch, and recruited the Leviathans. The Crucible superweapon, requiring the Citadel as its Catalyst, offered Shepard the choice of Destroy, Control, or Synthesis, with a refusal option that let the cycle continue.",
+      "url": "https://masseffect.fandom.com/wiki/Reaper",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "summary:alpha-relay",
+      "kind": "summary",
+      "page": "Alpha Relay",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Alpha Relay was a mass relay in the Bahak system of the Viper Nebula. It was named \"Alpha\" by Dr. Amanda Kenson and her research team, who determined it was the oldest known mass relay in the galaxy. Outwardly it appeared to be a standard relay, but it was unusual in range and versatility: it normally sent and received mass at the range of a secondary relay, but with certain controls adjusted it could draw on an unprecedented amount of dark energy to send cargo to sixteen other relays and even across a great distance to the Citadel. The Batarian Hegemony had long known of this capability and covered it up to avoid retaliation by other races who would see the relay as a threat.\n\nAfter discovering the Reaper artifact Object Rho embedded in a nearby asteroid, Kenson's team learned the Reapers would soon arrive in the system and use Alpha to coordinate a galactic invasion. The team concluded Alpha had to be destroyed, even though this would kill more than 300,000 batarian colonists, because its loss would force the Reapers to detour and delay their arrival by months or years. They established Project Base on the Object Rho asteroid, smuggled in engines and navigation systems from Omega, and planned to ram the asteroid into the relay. Before they could act, the team was indoctrinated by Object Rho. During the events of Arrival in 2185, Commander Shepard activated \"the Project\" despite Kenson's attempt to sabotage the asteroid's propulsion. The asteroid struck the Alpha Relay and tore it apart, producing an explosion comparable to a supernova that wiped out the Bahak system. In Mass Effect 3, if Shepard did not attempt to rescue Kenson, a wounded batarian reveals that the Alliance destroyed the Alpha Relay to delay the Reaper invasion.",
+      "url": "https://masseffect.fandom.com/wiki/Alpha_Relay",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "scene:citadel-chorban-jahleed-keeper-scans#07",
+      "kind": "scene",
+      "page": "Chorban's Keeper Scans and His Falling-Out With Jahleed",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-chorban-jahleed-keeper-scans",
+      "text": "Chorban's Keeper Scans and His Falling-Out With Jahleed. 2183, Citadel, during the hunt for Saren the Citadel Tower, the C-Sec offices, then the Lower Markets of the Wards If Chorban survived and Shepard scanned all or most of the keepers, he emails Shepard in 2185 with his findings: the keepers are bio-engineered, and comparison with material from Saren's flagship Sovereign shows they were engineered millions of years ago by the same makers, meaning the Citadel likely was not built by the Protheans. His genetic readings suggest the keepers are set to react to a signal roughly every 50,000 years, the last such interval coinciding with the Protheans' disappearance and due again around now, meaning old technology might have \"nasty surprises\" waiting. He notes no one else on the Citadel will listen to him.",
+      "url": "",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "scene:hierarchy-kandros-infiltration-plan#03",
+      "kind": "scene",
+      "page": "The Kandros Case for Infiltrating the Initiative",
+      "section": "argument",
+      "game": "Mass Effect: Discovery",
+      "scene_id": "hierarchy-kandros-infiltration-plan",
+      "text": "The Kandros Case for Infiltrating the Initiative. before the Andromeda Initiative's departure, after Tiran's unit is wiped out by geth a closed Turian Hierarchy meeting, then a private word between mother and son Afterward Ravis asks Tiran whether he is committed. He says he wants to prove himself worthy of the Kandros name without leaning on her reputation; she tells him she once wanted out from under her own mother's shadow, that he has already earned his place, and to come back from the mission alive.",
+      "url": "",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "scene:earth-fob-final-goodbyes#06",
+      "kind": "scene",
+      "page": "Goodbyes at the Forward Operating Base",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "earth-fob-final-goodbyes",
+      "text": "Goodbyes at the Forward Operating Base. 2186, Priority: Earth, before the armoured assault on the conduit the Hammer Forward Operating Base in ruined London If the geth wiped out the quarians at Rannoch, a Geth Prime stood in the final room where Tali would be; if the quarians won but Tali had died in Mass Effect 2, Admiral Raan took that place instead.",
+      "url": "",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "scene:hierarchy-kandros-infiltration-plan#02",
+      "kind": "scene",
+      "page": "The Kandros Case for Infiltrating the Initiative",
+      "section": "argument",
+      "game": "Mass Effect: Discovery",
+      "scene_id": "hierarchy-kandros-infiltration-plan",
+      "text": "The Kandros Case for Infiltrating the Initiative. before the Andromeda Initiative's departure, after Tiran's unit is wiped out by geth a closed Turian Hierarchy meeting, then a private word between mother and son Commander Narkkin calls it a mother pulling favours for her son and pushes for direct intervention. Others in the room note the Initiative looks like the stand-up of a sizeable private military. Ravis and Tiran talk the group into letting Tiran go undercover first to gather harder evidence: he can slip out unnoticed if there is nothing, and hand the Hierarchy a decisive case if there is.",
+      "url": "",
+      "for_key": "Inusannon wiped out by the Reapers 127,000 years"
+    },
+    {
+      "chunk_id": "summary:timeline",
+      "kind": "summary",
+      "page": "Timeline",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page is the master chronological timeline of the Mass Effect universe, spanning from prehistory to Mass Effect: Andromeda, with a note on how to interpret approximate versus exact dates.\n\nIn prehistoric times the Leviathans dominated the Milky Way, exacting tribute from enthralled races. Their created Intelligence, tasked with preserving organic life against synthetic rebellion, turned on them, slaughtered them for genetic material to build Harbinger, the first Reaper, and began the cyclical harvest, constructing the mass relay network to regulate the cycles. The Leviathan of Dis was killed roughly a billion years ago; a Reaper was disabled near Mnemosyne c. 37,000,000 BCE. The Protheans achieved spaceflight c. 68,000 BCE, fought the \"Metacon War\" against machines, and fell to the Reapers c. 48,000 BCE after centuries of war.\n\nThe turians developed civilization c. 13,000 BCE; Tuchanka entered the nuclear age c. 1900 BCE and collapsed into warring clans; the Jardaan created the angara in Andromeda c. 1600 BCE. The asari found the Citadel c. 580 BCE, the salarians c. 520 BCE, and the Citadel Council formed in 500 BCE. The Rachni Wars began 1 CE; the salarians uplifted the krogan (80 CE), the rachni were declared extinct (300 CE), and the Krogan Rebellions ran c. 700–800 CE, ended by the turian-deployed, salarian-engineered genophage (710 CE). The turians gained a Council seat in 900 CE. The geth became self-aware in the Morning War (1895 CE), exiling the quarians to the Migrant Fleet.\n\nHumanity reached space in 1961, founded lunar and Martian settlements, discovered element zero on Mars (2147) and Prothean tech there (2148), activated the Charon Relay (2149), and signed the Systems Alliance charter. The First Contact War with the turians occurred in 2157 (the Relay 314 Incident), ending in the siege of Shanxi and Council-brokered peace; Jack Harper founded Cerberus and became the Illusive Man. Humanity gained a Citadel embassy in 2165. Key birth dates are listed (Liara 2077, Shepard 2154). The Shepard trilogy runs 2183–2186: the Eden Prime War and Battle of the Citadel against Saren and Sovereign; the Collector conflict beyond the Omega 4 Relay; Liara becoming the Shadow Broker (2185); the destruction of the Bahak system; and the Reaper invasion of 2186 through batarian space, ending in the final confrontation over Earth. The Andromeda Initiative (founded 2176) launched in 2185; the Nexus reached the Heleus Cluster in 2818 and the Ark Hyperion in 2819, where the events of Mass Effect: Andromeda begin. Interstitial entries cover the Keelah Si'yah, the Fortinbras Plague, the Scourge (c. 2450), the kett invasion (2744), and the founding of the Angaran Resistance (2814).",
+      "url": "https://masseffect.fandom.com/wiki/Timeline",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "timeline_004",
+      "kind": "page",
+      "page": "Timeline",
+      "section": "Pre\\-Council Times (c. 68,000 BCE \\- 500 BCE)",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "c. 68,000 BCE The Protheans achieve spaceflight and discover mass effect technology from the ruins of the extinct inusannon. They go on to establish a galaxy\\-wide civilization linked by the mass relay network with the Citadel as their capital. At some point, the Protheans encounter a hostile race of machine intelligences that endanger their existence. To combat this threat, the Protheans aggressively assimilate many other spacefaring organic races into their empire. The Prothean Empire is able to fend off the machines in a conflict known as the \"Metacon War\". **c. 48,000 BCE: Fall of the Protheans** The Prothean Empire collapses with the arrival of the Reapers through the Citadel. Although the Protheans had learned of the Reapers' existence from studying the ruins of previous civilizations and had begun to prepare, they were nonetheless caught off\\-guard. Over the next several centuries, the Protheans fight the Reapers system by system, world by world, and city by city. In the end, it is not enough. The Reapers methodically wipe out the remaining Protheans, as well as other contemporary races, and depart the galaxy to await the next cycle. c. 13,000 BCE The turians of Palaven begin to develop civilization around this time. c. 6000 BCE Seeking to escape the imminent explosion of their sun, an alien race constructs an AI\\-managed starship equipped with supercomputers containing a virtual world, into which some one billion of the aliens transfer their consciousnesses. The starship begins a journey throughout the galaxy which lasts for the next 8,000 years. c. 1900 BCE Tuchanka, the krogan homeworld, enters the nuclear age. In a global conflict, weapons of mass destruction are released, triggering a nuclear winter. In the resulting devastation, krogan society devolves into a collection of warring clans. c. 1800 BCE A supernova propels the Mu Relay, the only point of access to the remote Pangaea Expanse, out of position. Concealed somewhere in the dense nebula formed by the supernova, the relay's position is effectively lost for centuries. Later, the rachni rediscover the relay. c. 1600 BCE In the Andromeda galaxy, the angara are created and seeded across multiple worlds in the Heleus Cluster by the Jardaan. 580 BCE After developing faster\\-than\\-light spacefaring capabilities based upon Prothean technology, the asari begin to explore the mass relay network, and eventually discover the huge Citadel space station at a hub of many mass relays. 520 BCE The salarians discover the Citadel and open diplomatic relations with the asari.",
+      "url": "https://masseffect.fandom.com/wiki/Timeline",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "timeline_001",
+      "kind": "page",
+      "page": "Timeline",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is the **timeline** of the Mass Effect universe. All dates are in BCE (Before Common Era) and CE (Common Era). **Note:**  Numerous events are backdated during conversation, via Codex entries, or some other means from the time the stories are set: 2183 to 2186 CE for the Shepard trilogy, 2819 CE for Mass Effect: Andromeda, and the like. These aren't often given exact dates. Unless an exact date is given for an event, the following outlines how to handle approximate dates. Huge timescales should not be taken literally; \"nearly a billion years ago\" from Mass Effect does not exactly mean \"this event happened in 999,997,817‬ BCE\". Same goes for millennia up to four significant digits: \"300,000 years ago\" from Mass Effect 2 (set 2185 CE) is approximately 298,000 BCE. \"15,000 years\" of turian civilization equates to about 13,000 BCE, and so forth. Decades or centuries before/after the \"present day\" can be dated to the nearest units or tens, depending on source context. |  | **Spoilers for the Mass Effect series follow.** |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Timeline",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "prothean_003",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Forging an Empire",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Very little is known about the origins of the Prothean race; even the name and location of their homeworld has been lost to history. It is unknown precisely when Prothean civilization arose and how long it persisted, but one of their communication devices discovered on the planet Fehl Prime has been dated to as early as 68,000 BCE. After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from those ruins learned about mass effect physics and developed FTL technology. It gave them a significant advantage over their contemporaries, and they kept it secret for centuries. The Protheans would expand throughout the galaxy with the help of the mass relay network and make the Citadel their capital. Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them. To defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire. The other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might. In time, each of the subjugated races assimilated into Prothean culture and came to think of themselves as Prothean. United under a single cause, the Prothean Empire successfully held off the enemy machines in a conflict known as the \"Metacon War\". The Protheans extensively observed primitive species such as the asari, hanar, humans, quarians, salarians, and turians during their time. They cultivated species they deemed to have potential. Numerous outposts were placed on or near the primitives' homeworlds, with Prothean interference and activities kept beyond their subjects' comprehension. In time, the Protheans would have given these primitives the \"choice\" to be part of their empire.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "knossos_001",
+      "kind": "page",
+      "page": "Knossos",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Knossos** is a system of four terrestrial planets and one gas giant. There is little of note here except the industries of Therum and attendant helium\\-3 collection infrastructure on Archanes. Pre\\-Council times, the system has been used by at least two spacefaring cultures. The zeioph had crypts on Armeni while the Protheans also had a presence on Therum.",
+      "url": "https://masseffect.fandom.com/wiki/Knossos",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "asari_006",
+      "kind": "page",
+      "page": "Asari",
+      "section": "Forming the Citadel Council",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The asari were the first contemporary race to achieve spaceflight and discover the mass relay network. When they found the Citadel in 580 BCE, the asari also encountered the keepers, whose mute assistance enabled them to quickly settle on the station and learn how to operate its systems. Sixty years later, the salarians made first contact with the asari, and together the two species agreed to found the Citadel Council in 500 BCE, a galactic governing body that would come to unite dozens of races. In later years, the asari continued to explore the galaxy and welcomed several other races to the burgeoning galactic community.",
+      "url": "https://masseffect.fandom.com/wiki/Asari",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "summary:turian-hierarchy-early-history",
+      "kind": "summary",
+      "page": "The Turian Hierarchy Before the Citadel — Early History",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "This hand-corrected lore document reconstructs turian civilization before first contact with the Citadel Council. The turians were an avian-like species that rose to dominance on the third planet of the Trebia system, the future Palaven, evolving to withstand the intense radiation admitted by the world's weak magnetic field and likely facing little predatory competition. Being a dextro-based organism in a levo-dominated galaxy is thought to have shaped their entire culture around the principle that nothing is given and everything must be earned. More than 50,000 years ago the early turians were known to elder spacefaring species such as the Protheans but were dismissed as too primitive to matter, which spared them the Reaper harvest of that cycle.\n\nThe earliest signs of sophisticated civilization appeared around 13,000 BCE. By the time the turians reached space they had a single unified global culture built on hierarchical meritocracy, tempered by civic duty and personal responsibility instilled from a young age; military service was treated as the highest form of merit and united society under one cause. By 500 BCE they had mastered spaceflight, pushed beyond their home system, discovered several mass relays and founded colonies. Expansion outran the Hierarchy's reach: colonial chieftains called Primarchs sought autonomy, colonies grew isolated and xenophobic, and colonists adopted emblems and facial markings to distinguish themselves. Around 300 BCE this erupted into the Unification Wars, fought over disputed territory under nationalistic pride. The Hierarchy stayed officially neutral, keeping to strict diplomacy, until the mounting loss of turian life forced it to intervene. The weakened Primarch chieftains, having lost popular support, were compelled to end the fighting and renew allegiance; animosity between colonists took decades to fade.\n\nMost turians still wear their home colony's facial markings, and lacking them is looked down on: \"bare-faced\" means untrustworthy or beguiling, and is slang for a politician. Reunited, Palaven and its colonies prospered with the military at the center, and the turian navy expanded to at least 32 fleets despite having no enemies. About a thousand years later, around 704 CE, the Hierarchy made first contact with the Citadel Council, a conglomerate led by the asari and salarians, which offered immediate membership, an offer that came with an ulterior motive (a lead-in to the turians being recruited against the krogan).",
+      "url": "",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "asari_012",
+      "kind": "page",
+      "page": "Asari",
+      "section": "Government",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The asari governmental structure, known as the Asari Republics, is relatively broad; the asari came late to the notion of world government. For centuries, their homeworld of Thessia was dotted with loose confederacies of great republican cities. The closest Earth equivalent would be the ancient Mediterranean city\\-states. Since the asari culture values consensus and accommodation, there was little impetus to form larger principalities. Rather than hoard resources, the asari bartered freely. Rather than attack one another over differing philosophies, they sought to understand one another. Only in the information age did the city\\-states grow close; communication over the internet evolved into an \"electronic democracy\". Aside from their Council representative, the asari have no politicians or elections, but a free\\-wheeling, all\\-inclusive legislature that citizens can participate in at will. Policy debates take place at all hours of the day, in official chat rooms and forums moderated by specially\\-programmed virtual intelligences. All aspects of policy are open to plebiscite at any time. In any given debate, the asari tend to lend the most credence to the opinions of any Matriarchs present, nearly always deferring to the experience of these millennia\\-old \"wise women\". In modern times, the asari normally act as the diplomatic arm of the Citadel Council, and asari exploration efforts have discovered many races over the years. In approximately 200 BCE, the asari made first contact with the elcor and played a key role in helping them establish a regular trade route to the Citadel. In 2184 CE, the asari cruiser Azedes encountered the pre\\-spaceflight raloi, who were officially welcomed into the galactic community a year later.",
+      "url": "https://masseffect.fandom.com/wiki/Asari",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "yahg_003",
+      "kind": "page",
+      "page": "Yahg",
+      "section": "Discovery",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When Parnack was discovered by Citadel Council surveyors in 2125 CE, the yahg were a pre\\-spaceflight civilization with technology equivalent to that of 20th century Earth. A Council delegation of ambassadors made first contact with the yahg and attempted to establish diplomatic relations. Unfortunately, the yahg perceived the ambassadors' attitudes and behavior as equal individuals instead of subordinates as a sign of contempt, and attacked and massacred the entire delegation. Immediately following that incident, the Citadel Council severed all contact with the yahg and declared Parnack off\\-limits. The Council maintains that the yahg's aggression and obsession with control make them poorly suited to integrate with the galactic community.",
+      "url": "https://masseffect.fandom.com/wiki/Yahg",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "summary:prothean",
+      "kind": "summary",
+      "page": "Prothean",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans were an ancient race that vanished roughly 50,000 years ago after building a galaxy-wide empire. They were long credited with creating the Citadel and the mass relays, though in truth they only inherited that Reaper technology. Anthropoidal in form, they had two pairs of dual-pupiled eyes, three pairs of nostrils, a layered head carapace, three-fingered hands, and a flanging voice like turians. A unique trait was an experiential exchange system: by touch, a Prothean could absorb another's memories, skills, or language. They had quad-strand DNA, some resistance to low radiation, and at least some members wielded potent biotics.\n\nAfter achieving spaceflight, the Protheans discovered ruins of the earlier inusannon and learned mass effect physics, gaining a centuries-long secret advantage. Facing a hostile machine intelligence, they decided all organic life must unite under their rule; resisting species were conquered and assimilated, coming to call themselves \"Prothean.\" United, they held off the machines in the Metacon War. They observed and cultivated primitive species including asari, hanar, humans, quarians, salarians and turians, intending eventually to offer them the \"choice\" of joining the empire.\n\nThe Reapers arrived around 48,000 BCE, entering through the Citadel, decapitating the government, disrupting the relay network, and using Citadel census data to hunt every Prothean. Their unified empire and single military doctrine became fatal weaknesses. Indoctrinated Protheans acted as sleeper agents. Subject races like the densorin and the AI zha'til were destroyed; the Protheans themselves annihilated the zha'til by sending a star supernova. Some Protheans built a Crucible from designs left by prior civilizations, but indoctrinated builders sabotaged it. After centuries the Reapers killed or enslaved every Prothean and withdrew into dark space.\n\nSurvivors persisted in stasis. On Ilos, the Conduit research team under Ksad Ishan went dark; the VI Vigil cut power to non-essential pods until only about a dozen scientists remained, who later used the Conduit to reach the Citadel and alter the keepers' signal to trap the Reapers. On Eden Prime, nearly a million warriors and their commander Javik were stored; traitors betrayed the site, most pods were destroyed, and the VI Victory kept only Javik's pod alive. Shepard could revive Javik in 2186. Meanwhile the Reapers repurposed captured Protheans into the Collectors, directed by Harbinger to abduct humans for a Human-Reaper.\n\nThe Protheans held evolution, the \"Cosmic Imperative,\" as the universe's driving force. Their influence shaped the asari (uplifted as a possible failsafe), humans (via the Mars archive) and the hanar, who worship them as the \"Enkindlers.\" Notable Protheans included Javik, avatar of vengeance, and the guides Janiri and Lucen of asari myth. Prothean tech included mind-to-mind beacons, memory shards, indoctrination detection, kinetic barrier grids, the Particle Rifle, the flagship Penumbra Apex, and the Conduit.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "summary:yahg",
+      "kind": "summary",
+      "page": "Yahg",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The yahg were a sentient race of towering humanoids native to Parnack, known for their violent, aggressive nature. Consummate predators, they possessed unrivaled perceptiveness and mental adaptability. They evolved as Parnack's apex predator and had four pairs of eyes, each pair adapted to track and predict prey movement, giving them such acute reading of body language that it was nearly impossible to lie to a yahg. They had scaly, partly armored skin ranging from red to brown, triangular toothed mouths, two large horns, three-fingered hands and three-toed feet, and muscular bodies taller than a krogan. The Prothean Javik claimed the yahg were much smaller during his cycle 50,000 years earlier. One yahg lived at least sixty years as the Shadow Broker.\n\nParnack was discovered by Citadel Council surveyors in 2125 CE, when the yahg were a pre-spaceflight civilization with roughly 20th-century Earth technology. A Council delegation attempted diplomacy, but the yahg perceived the ambassadors' treating them as equals rather than subordinates as contempt and massacred the entire delegation. The Council severed contact and declared Parnack off-limits, maintaining that yahg aggression and obsession with control made them unfit for the galactic community.\n\nLater the Shadow Broker's agents abducted a yahg for study, killing several before finding one willing to leave. After displays of intelligence rivaling the salarians, the Broker had it replace one of his operatives. Its violent nature became a problem and an execution order was issued, but the yahg killed the Shadow Broker mid-message, assumed the role itself, rescinded the order, and held the position for six decades, its agents often entering its office and never returning. In 2185 CE Liara T'Soni raided its base to rescue the drell Feron, and the yahg Broker was killed.\n\nIn Mass Effect 3, a salarian research facility on Sur'Kesh captured and experimented on several yahg, planning to secretly uplift them as deniable proxies as had been done with the krogan; during a Cerberus assault one broke containment and went on a rampage. Admiral Hackett noted the Reapers avoided Parnack because the yahg were pre-spaceflight, and it was speculated the yahg might dominate the next cycle, having nearly completed their first spaceship.",
+      "url": "https://masseffect.fandom.com/wiki/Yahg",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "scene:prologue-awakening-lazarus-station#07",
+      "kind": "scene",
+      "page": "Shepard Wakes on the Lazarus Station",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "prologue-awakening-lazarus-station",
+      "text": "Shepard Wakes on the Lazarus Station. 2185, the Lazarus Project's final stage, during the mech sabotage the Lazarus Research Station — a Cerberus deep-space station: the medical bay, the corridors and docking area, the shuttle-bay door, then the escape shuttle\n On the shuttle ride to the next Cerberus facility, Miranda ran Shepard through memory-check questions — pre-service history, psychological profile, the squadmate who died on Virmire, and, on an imported save, who joined the Council. Jacob thought the exercise pointless; Shepard could cut it off at any time.",
+      "url": "",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "scene:citadel-wards-ambush-extraction#13",
+      "kind": "scene",
+      "page": "Out Through the Wards, No Armour, One Pistol",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-wards-ambush-extraction",
+      "text": "Out Through the Wards, No Armour, One Pistol. 2186, Citadel shore leave, minutes after the sushi bar Ryuusei's Sushi Bar down through the Citadel Wards maintenance levels to the Cision Motors skycar lot Wrex, on the Citadel to argue krogan expansion with the Council, arrives by body-slamming the shuttle that has Shepard pinned, then clears out the ambushers inside it and stays on as a squadmate for the rest of it — \"Why shoot something once when you can shoot it 46 more times?\"",
+      "url": "",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#06",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Aboard the Normandy, Joker's welcome was sarcastic. Kaidan pressed Liara on her link to Saren; she knew nothing of his plans but relayed her research, culminating in a theory of recurrent galactic extinctions with the Protheans the latest to vanish. Shepard tied this to the Reapers and the Eden Prime beacon vision. Ashley grew impatient and steered the talk back to Saren and the Conduit. Liara called the Normandy a safe haven from Saren, offered her Prothean expertise to interpret the vision, and joined the crew; afterward the Council raised security concerns about her and the turian Councilor questioned the destruction of the site.",
+      "url": "",
+      "for_key": "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight"
+    },
+    {
+      "chunk_id": "etamis_004",
+      "kind": "page",
+      "page": "Etamis",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- The Reapers invade the Milky Way every fifty thousand years, and destroy the most advanced civilizations in existence at that time. If the Etamisians were one of the galactic civilizations destroyed by the Reapers, then this event occurred 400 to 800 cycles ago. - The creation of the Great Rift Valley on Klendagon in the Century system coincides with the theorized time span of the civilization on Etamis.",
+      "url": "https://masseffect.fandom.com/wiki/Etamis",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "manual-reaper-classes-and-sizes-part-1-origin-purpose-and-ground-forces_004",
+      "kind": "page",
+      "page": "Reaper Classes and Sizes (Part 1) — Origin, Purpose, and Ground Forces",
+      "section": "The harvest",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "The Reapers believe they are preserving life. Their reasoning: if organic life keeps advancing and building machines, those machines will eventually exterminate all organics. To prevent that, the Reapers wipe out advanced civilizations every 50,000 years — the harvest. They let species rise using tools the Reapers secretly built (the Citadel and the mass relays), then return and destroy them — but preserve their minds inside new Reapers, which the Reapers regard as a twisted form of immortality. Their goal is to run this cycle forever as the only way to stop total extinction, despite the endless destruction it causes.",
+      "url": "",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "reaper_001",
+      "kind": "page",
+      "page": "Reaper",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For the sniper rifle in Mass Effect, see Elkoss Combine.* |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | “You represent chaos. We represent order. Every organic civilization must be harvested in order to bring order to the chaos. It is inevitable. Without our intervention, organics are doomed. We are your salvation.” The **Reapers** are a highly\\-advanced machine race of synthetic\\-organic starships. The Reapers reside in dark space: the vast, mostly starless space between galaxies. They hibernate there, dormant for fifty thousand years at a time, before returning to the galaxy. These giant machines are ancient; their true name is unknown. \"Reapers\" was a name bestowed by the Protheans, the previous galactic power fifty thousand years before, and the geth refer to them as the **Old Machines**. In the end, the Reapers spare little concern for whatever labels other races choose to call them, and merely claim that they have neither beginning nor end. The Reapers are the original creators of the Citadel and the mass relay network. These massive constructs exist so that any intelligent life in the galaxy would eventually discover them and base their technology upon them – all part of a scheme to harvest the galaxy’s sentient life in a repeating cycle of purges that has continued relentlessly over countless millennia. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Reaper",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "harbinger_005",
+      "kind": "page",
+      "page": "Harbinger",
+      "section": "Leviathan",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During its encounter with Shepard, Leviathan reveals that Harbinger was the first Reaper created, and that it was formed in the image of the Leviathans. The Catalyst directs the Reapers to harvest the galaxy of advanced life every 50,000 years, and each harvest ends with the birth of a new Reaper made in Harbinger's image.",
+      "url": "https://masseffect.fandom.com/wiki/Harbinger",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "summary:mass-effect-deception",
+      "kind": "summary",
+      "page": "Mass Effect: Deception",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Mass Effect: Deception is the fourth Mass Effect tie-in novel, released January 31, 2012. Unlike the previous three novels, which were written by Drew Karpyshyn, Deception was written by William C. Dietz.\n\nThe story follows Navy admiral David Anderson and his partner Kahlee Sanders as they search for a way to stop the cycle of the Reapers, sentient machines that invade the galaxy every fifty thousand years to harvest all organic life. They uncover evidence that the Reaper threat is real, and in doing so expose the machinations of Cerberus and its leader, the Illusive Man, putting them in mortal danger. They find an unlikely ally in Gillian Grayson, a young woman with extraordinary biotic powers who was once the subject of horrifying experiments and is now free and mastering her abilities. After learning that Cerberus caused her father's death, Gillian swears vengeance against the group and the Illusive Man, threatening to unravel Anderson and Kahlee's efforts.\n\nThe novel drew fan criticism for numerous continuity and factual errors. BioWare and Del Rey Books apologized and announced that changes would be made to future editions; on December 14, 2012, BioWare said they were checking with the publisher about updates, but no revised edition has been released. Full plot details are covered on the separate Storyline page.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect:_Deception",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "reaper_006",
+      "kind": "page",
+      "page": "Reaper",
+      "section": "History",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Reapers have existed for at least a billion years, based upon findings on the Leviathan of Dis, an ancient Reaper corpse. Before the Reapers came to be, the galaxy was under the thrall of a race known as Leviathans. They created an \"Intelligence\" to solve the problem of organics and synthetics killing each other. However, this Intelligence turned on them, slaughtering most of their kind and processing others into the very first true Reaper, Harbinger. Harbinger's form, that of the Leviathans themselves, became the template for subsequent Reapers harvested from the galaxy's races on cyclical purges over the next millions of years. In order to speed up the time between harvests, the Reapers constructed the mass relay network and the Citadel to coordinate it. Engineered creatures called keepers were placed on the Citadel to maintain the station during their absence and to open it for them when they decide to invade. Fifty thousand years before the current galactic era, the Reapers initiated a purge against the Protheans, the dominant spacefaring lifeforms at the time. The Protheans tried to resist like so many others before them, only to fail due to the Reapers' physical and insidious might.",
+      "url": "https://masseffect.fandom.com/wiki/Reaper",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "mass-effect-deception_002",
+      "kind": "page",
+      "page": "Mass Effect: Deception",
+      "section": "Jacket Copy",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*The universe is under siege. Every fifty thousand years, a race of sentient machines invades our galaxy to harvest all organic life\\-forms. They are the Reapers.* *Two people who know the truth are desperately searching for a way to stop the cycle: Navy admiral David Anderson and his partner, Kahlee Sanders. They have uncovered grisly evidence proving that the Reaper threat is real. But in so doing they have exposed the machinations of Cerberus, a secretive paramilitary organization, and its mysterious leader, the Illusive Man—putting David and Kahlee in mortal danger, for Cerberus will stop at nothing to protect its secrets.* *But along the way, they find an unlikely ally in Gillian Grayson, a young woman with extraordinary powers. Once the subject of horrifying scientific experiments, Gillian is now free—and beginning to master her deadly abilities. But after learning that Cerberus was responsible for the death of her father, Gillian swears vengeance against the group and the Illusive Man—threatening to unravel everything Kahlee and David are fighting for.*",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect:_Deception",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "codex-aliens-extinct-races_002",
+      "kind": "page",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "Protheans",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: Protheans | | --- | --- | Fifty thousand years ago, the Protheans were the only spacefaring species in the galaxy. They vanished in a swift 'galactic extinction'. Only the legacy of their empire remains. They are believed to have built the mass relays and the Citadel, which have allowed numerous species to explore and expand throughout the galaxy. Prothean ruins are found on worlds across the galaxy. While surprisingly intact for their age, functioning examples of Prothean paleotechnology are rare. Time and generations of looters have picked their dead cities and derelict stations clean. Some believe the Protheans meddled in the evolution of younger races. The hanar homeworld of Kahje, for example, shows clear evidence of former Prothean occupation. The presence of a former Prothean observation post on Mars has caused a rebirth of 'interventionary evolutionists' among humans. These individuals believe the god\\-myths of ancient civilizations are misremembered encounters with aliens.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "mass-effect-revelation_002",
+      "kind": "page",
+      "page": "Mass Effect: Revelation",
+      "section": "Jacket Copy",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Every advanced society in the galaxy relies on the technology of the Protheans, an ancient species that vanished fifty thousand years ago. After discovering a cache of Prothean technology on Mars in 2148, humanity is spreading to the stars; the newest interstellar species, struggling to carve out its place in the greater galactic community.* *On the edge of colonized space, ship commander and Alliance war hero David Anderson investigates the remains of a top secret military research station; smoking ruins littered with bodies and unanswered questions. Who attacked this post and for what purpose? And where is Kahlee Sanders, the young scientist who mysteriously vanished from the base–hours before her colleagues were slaughtered?* *Sanders is now the prime suspect, but finding her creates more problems for Anderson than it solves. Partnered with a rogue alien agent he can't trust and pursued by an assassin he can't escape, Anderson battles impossible odds on uncharted worlds to uncover a sinister conspiracy . . . one he won't live to tell about. Or so the enemy thinks.*",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect:_Revelation",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "summary:vigil",
+      "kind": "summary",
+      "page": "Vigil",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Vigil was a Prothean Virtual Intelligence located in the underground archives on Ilos, an advanced non-organic analysis system carrying personality imprints of Ksad Ishan, the Prothean Chief Overseer of the Ilos facility. During Commander Shepard's operation on Ilos in 2183, Vigil used force fields to halt the Mako and guided Shepard's team into the Watcher's Chamber. Its holographic interface had badly degraded, but its memory core remained intact, and it had monitored the squad's communications on the surface so it could translate its output for them. Vigil expressed relief that none of the squad were artificial intelligences or indoctrinated, which it took as proof the Protheans' contingency plan had worked.\n\nVigil explained that the Reapers returned in a cycle spanning millions of years and had begun exterminating organic civilizations roughly fifty thousand years earlier. The Prothean scientists on Ilos survived because records of the planet were destroyed in the Reapers' first wave, leaving the underground facility undiscovered. The staff were placed in cryogenic suspension with Vigil watching over them, intended to be revived once the Reapers left. Because the extermination took centuries, Vigil was forced to conserve power by shutting down cryogenic pods one at a time, killing the occupants. Only the twelve top scientists were revived after the Reapers departed, too few to save the species. Those survivors used the Conduit to reach the Citadel and interfered with the signal to the keepers that would have let the Reapers activate the Citadel relay; their ultimate fate was unknown because the Conduit was a one-way passage.\n\nShepard's squad was horrified that Vigil had killed those it was meant to protect, though Vigil stated the outcome was foreseen in contingency planning. Vigil gave Shepard a data file granting temporary direct control of the Citadel's functions and urged the Commander to break the Reapers' cycle of genocide. It could not explain why the Reapers fostered and then destroyed organic life, saying the motivations of synthetic life were beyond Prothean comprehension. Its programming limited it to information directly related to stopping the Reapers, disappointing Liara T'Soni, who wanted to learn more about the Protheans.\n\nBy the time of Mass Effect 2, groups that visited Ilos found Vigil had shut down, possibly from total power loss, which helped the Council continue believing Sovereign was merely a geth ship. The musical theme \"Vigil,\" also Mass Effect's main menu theme, played over scenes with the VI.",
+      "url": "https://masseffect.fandom.com/wiki/Vigil",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "scene:normandy-zaeed-cargo-hold-anecdotes#05",
+      "kind": "scene",
+      "page": "Zaeed's War Stories in the Starboard Cargo Hold",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-zaeed-cargo-hold-anecdotes",
+      "text": "Zaeed's War Stories in the Starboard Cargo Hold. 2185, between missions, after Zaeed joins on Omega the starboard cargo hold on the Normandy SR-2's engineering deck, Zaeed's quarters He notes offhand that he has killed more than fifty Cerberus operatives over the years and figures the Illusive Man \"must be big on forgiveness\" to still be paying his fee.",
+      "url": "",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "scene:zorya-zaeed-and-vido#03",
+      "kind": "scene",
+      "page": "Zaeed's Twenty-Year Contract",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "zorya-zaeed-and-vido",
+      "text": "Zaeed's Twenty-Year Contract. 2185, immediately after Zaeed joins a Blue Suns refinery on Zorya Twenty years of it, in his own words: he has seen that man every time he closed his eyes, every time he sighted a target, every time he heard a gunshot, and he will not have it called a grudge.",
+      "url": "",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "scene:collector-base-cut-human-reaper-reveal#02",
+      "kind": "scene",
+      "page": "What EDI Explained About the Human-Reaper (Cut)",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "collector-base-cut-human-reaper-reveal",
+      "text": "What EDI Explained About the Human-Reaper (Cut). 2185, cut content — the Human-Reaper reveal in the Collector Base's final chamber, an alternate version that never shipped the platform overlooking the Human-Reaper larva in the Collector Base EDI explained why the captive humans had been rendered to their base components: \"destructive analysis,\" dissected to the atomic level, \"the knowledge and essence of billions of individuals compiled into a single synthetic identity.\" She told Shepard the colonists were a test sample, that the goal was to upload all humans into the Reaper-mind, that the Collectors would harvest every human settlement, and that \"the obvious final goal would be Earth.\"",
+      "url": "",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-brood-alliance#10",
+      "kind": "scene",
+      "page": "Brood and the War Debt Repaid",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-brood-alliance",
+      "text": "Brood and the War Debt Repaid. 2185, during the Collector attack on Fehl Prime the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel Aboard the Collector ship, Messner forces Treeya to interface with a Prothean archive built into the vessel — colonists he had used for this before all died. Treeya witnesses the Protheans' last stand at the Fehl Prime communication system, their conversion by the Reapers into Collectors, and the plan to harvest humans into genetic material for a Human-Reaper. Messner records it all on his bracelet for Cerberus.",
+      "url": "",
+      "for_key": "Reapers invade every fifty thousand years harvest advanced civilizations"
+    },
+    {
+      "chunk_id": "manual-reaper-classes-and-sizes-part-2-constructs-and-capital-classes_005",
+      "kind": "page",
+      "page": "Reaper Classes and Sizes (Part 2) — Constructs and Capital Classes",
+      "section": "Leviathans (for context)",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Not Reapers, but their creators. An ancient race that ruled the galaxy billions of years ago — huge ocean-dwelling creatures ~450 m long, resembling giant squid or cuttlefish with multiple eyes and long tentacles. They viewed themselves as the apex life form and treated other species as tools, using a powerful form of mind control to turn beings into obedient servants. They built the intelligence that became the Reapers, which then turned on them. Afterward the Leviathans hid deep in ocean worlds, watching the cycle continue for millions of years while erasing evidence of their existence.",
+      "url": "",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "codex-mass-effect-andromeda-the-andromeda-initiative_001",
+      "kind": "page",
+      "page": "Codex (Mass Effect: Andromeda)/The Andromeda Initiative",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Initiative was built by the efforts of thousands who devoted years of time and countless resources to reach the Andromeda Galaxy. These are the people, places, and organizations that make the Pathfinder's mission possible.",
+      "url": "https://masseffect.fandom.com/wiki/Codex_(Mass_Effect:_Andromeda)/The_Andromeda_Initiative",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "slohva_002",
+      "kind": "page",
+      "page": "Slohva",
+      "section": "Description",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Despite its ferocious heat and thick, methane\\-rich atmosphere, **Slohva** might have been capable of supporting microbial life millions of years ago.",
+      "url": "https://masseffect.fandom.com/wiki/Slohva",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-january-2011_025",
+      "kind": "page",
+      "page": "Cerberus Daily News - January 2011",
+      "section": "*01/24/2011 \\- Paper Suggests Mass Relays Predate Protheans*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“Historians and astronomers alike are abuzz tonight over a new paper published by Dr. Amanda Kenson of the University of Arcturus. Her team claims that by testing the dust trapped in the gravity wells around a mass relay, and comparing its composition to that of dust clouds in the same system, scientists can create a timeline of when the relay passed through the dust. Her conclusion? \"Only a small fraction of the mass effect relays date back 50,000 years,\" she writes, \"The majority are far older, indicating they were created by a species predating even the Protheans.\" Dr. Aurana T'Meles of the University of Serrice met the information with skepticism: \"While Dr. Kenson's methods appear sound, the asari tried a similar procedure centuries ago and discounted it. What civilization could have spanned the galaxy for not thousands, but millions of years? If this were the case, we should have found mountains of evidence of their passing. Where is this species now?\"”* - Other stories in **Origin of Mass Relays Questioned** (First \\- 01/24/2011 \\- Next \\- 03/22/2011)",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_January_2011",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "war-assets-crucible_011",
+      "kind": "page",
+      "page": "War Assets/Crucible",
+      "section": "Terminus Freighters",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: The scanning of the planet Zanethu, Ploitari, Hourglass Nebula **Military Strength:** 30 The Terminus Systems teem with planets rich in rare elements, minerals, and other raw materials important for the Crucible. Fortunately, the Terminus Systems also have a great quantity of freighter vessels. Athabasca\\-class ships, while only lightly armored, can carry millions of tons of freight, with fuel tanks optimized for long, hazardous journeys.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Crucible",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "vinvaiko_002",
+      "kind": "page",
+      "page": "Vinvaiko",
+      "section": "Description",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The hydrogen and helium atmosphere of this gas giant has been slowly stripped away over hundreds of millions of years, consumed by the Tecunis sun. Given time, it may be reduced to a terrestrial world.",
+      "url": "https://masseffect.fandom.com/wiki/Vinvaiko",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "summary:stargazer",
+      "kind": "summary",
+      "page": "Stargazer",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Stargazer was a humanoid entity of indeterminate species and background who narrated the deeds of \"The Shepard\" to a child companion in the closing scene of Mass Effect 3. Which of two Stargazers appeared depended on Commander Shepard's final choice in the battle for Earth.\n\nIf the Crucible was activated, a male Stargazer finished telling the tale, saying it happened long ago and that many details had been lost to time. If the Crucible was not activated and the Reapers continued their cycle, a female Stargazer of an unknown species finished the tale, explaining that her people knew of Shepard's actions and the war through archives left behind by Liara T'Soni; that information had saved the contemporary generation from the threat and was why they lived in peace. In either version the child asked to hear more, and the Stargazer replied that there was time for one more story.\n\nAccording to trivia, the scene evolved from an early storyboarded Synthesis ending presented by a \"Reaper Queen\" featuring an asari mother and daughter. The male Stargazer was voiced by former astronaut Buzz Aldrin.",
+      "url": "https://masseffect.fandom.com/wiki/Stargazer",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "scene:palaven-castis-teaches-garrus-to-shoot#02",
+      "kind": "scene",
+      "page": "Castis Teaches Garrus to Shoot",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "palaven-castis-teaches-garrus-to-shoot",
+      "text": "Castis Teaches Garrus to Shoot. Garrus's childhood, Palaven a shooting range on Palaven Years later, after Garrus joins C-Sec, he and Castis become colleagues and clash over a case: Castis lets a suspect go because of Garrus's rule-breaking methods. Castis insists on adhering to the rules — in a place with millions of people and their own ideas about how society works, some days only C-Sec holds it together — and tells Garrus to do things right or not at all. Father and son grow distant after this.",
+      "url": "",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "scene:stargazer-tells-the-shepard#03",
+      "kind": "scene",
+      "page": "The Stargazer Finishes the Tale of the Shepard",
+      "section": "downtime",
+      "game": "Mass Effect 3",
+      "scene_id": "stargazer-tells-the-shepard",
+      "text": "The Stargazer Finishes the Tale of the Shepard. long after the Reaper War, framing the whole story as a tale being told outdoors under the night sky, a snowy wood, the two of them looking up at the stars If the Crucible was not activated and the Reapers continued their cycle, the Stargazer is a woman of an unknown species. She closes the tale by explaining that her people know of the Shepard and the war only through archives Liara T'Soni left behind, and that this information saved their generation from the threat and is why they now live in peace.",
+      "url": "",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "scene:eye-on-stars-golta-theodor#03",
+      "kind": "scene",
+      "page": "Erlan Golta Clashes with Bryan Theodor on \"Eye on the Stars\"",
+      "section": "banter",
+      "game": "Mass Effect",
+      "scene_id": "eye-on-stars-golta-theodor",
+      "text": "Erlan Golta Clashes with Bryan Theodor on \"Eye on the Stars\". 2185, 09/17 the set of \"Eye on the Stars,\" a late-night talk show Messages flooded in from viewers both condemning and applauding Golta's controversial claims. Theodor ended by remarking that Golta's appearances on the show were always welcome—calling him \"catastrophically wrong in front of millions of viewers.\"",
+      "url": "",
+      "for_key": "Crucible countless species millions of years"
+    },
+    {
+      "chunk_id": "broker-terminal_020",
+      "kind": "page",
+      "page": "Broker Terminal",
+      "section": "Prothean Notes: 2186 \\- Entry 1",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The things this Prothean must have seen! If they had the technology to preserve someone for over fifty\\-thousand years, no wonder they were capable of building things like the device on Mars. I must give him time to get his bearings, but goddess. When will we get another chance to learn so much about their civilization? (Attached: Notes on Prothean)",
+      "url": "https://masseffect.fandom.com/wiki/Broker_Terminal",
+      "for_key": "Etamis Reapers fifty thousand years"
+    },
+    {
+      "chunk_id": "background-races_020",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Etamis",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Once a habitable garden world, Etamis is now completely barren, the oceans having dried up and the atmosphere lost. Regular crater patterns on the surface are evidence that Etamis was bombarded by dreadnought\\-class kinetic weapons. Relics found on Etamis show that an advanced spacefaring race lived there 20 to 40 million years ago. It is unclear if Etamis was the race's homeworld or a colony.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Etamis Reapers fifty thousand years"
+    },
+    {
+      "chunk_id": "thorian_002",
+      "kind": "page",
+      "page": "Thorian",
+      "section": "In Prothean Times",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Commander Shepard first hears of the Thorian from Lizbeth Baynham, who tentatively suggests that it might be why the geth are attacking the colonists on Feros. Shepard can learn more from the ExoGeni VI; once freed from the Thorian, Shiala then tells Shepard its history. According to Shiala, the Thorian existed on Feros long before the Protheans arrived. It would spend thousands of years in hibernation, then awake for \"a few frantic centuries\" of activity before resting again. When the Protheans arrived and began building the metropolis that would eventually cover Feros, the curious Thorian studied them, likely made several of them into its thralls, and even absorbed them after they died, allowing them to become a part of its expanding consciousness. From the Protheans, the Thorian's mind gradually absorbed the knowledge that would form the Cipher. The Thorian survived the cataclysm that destroyed the Protheans, and continued to grow across Feros for the next fifty thousand years.",
+      "url": "https://masseffect.fandom.com/wiki/Thorian",
+      "for_key": "Etamis Reapers fifty thousand years"
+    },
+    {
+      "chunk_id": "thorian_001",
+      "kind": "page",
+      "page": "Thorian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Thorian**, also called **Species 37**, is an ancient sentient plant at least fifty thousand years old \\- its ability to hibernate for thousands of years makes its real age impossible to guess. The Thorian is a unique creature with mind\\-controlling and telepathic abilities, and a massive sensory network. It releases spores into the air that allow the Thorian to control those who inhale them, using pain to control their behaviour. These 'thralls' then tend to the Thorian and obey its will. According to the VI at the ExoGeni Corporation Headquarters, the Thorian is essentially \"a weave of tendrils\" that covers much of the surface of Feros with some sensory tendrils kilometres long, though in places they are gathered into nerve bundles or neural nodes. Though it is intelligent, the Thorian only regards other sentient beings as potential thralls. It describes itself as \"The Old Growth.\" |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Thorian",
+      "for_key": "Etamis Reapers fifty thousand years"
+    },
+    {
+      "chunk_id": "summary:thorian",
+      "kind": "summary",
+      "page": "Thorian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Thorian, also called Species 37, was an ancient sentient plant at least fifty thousand years old, its true age unknowable because it could hibernate for millennia. It was a unique creature with telepathic and mind-controlling abilities and a massive sensory network, releasing airborne spores that let it control anyone who inhaled them, using pain to enforce obedience. These \"thralls\" tended the Thorian and obeyed its will. According to the ExoGeni Corporation VI, it was essentially \"a weave of tendrils\" covering much of the surface of Feros, with some sensory tendrils kilometres long, gathered in places into neural nodes. It regarded other sentients only as potential thralls and called itself \"The Old Growth.\"\n\nThe Thorian existed on Feros before the Protheans arrived. It studied the Protheans as they built their metropolis, made some into thralls and absorbed them after death, and its mind gradually acquired the knowledge that formed the Cipher. It survived the cataclysm that destroyed the Protheans and kept growing for fifty thousand years. In the late 2170s ExoGeni settled a colony, Zhu's Hope, in a ruined skyscraper above its lair. In 2183 a survey team stumbled into the lair and was infected; ExoGeni isolated the colony to study the Thorian instead of protecting the colonists, and within a month 85% of Zhu's Hope was enthralled. Some, like Ian Newstead, resisted for a time.\n\nSaren Arterius learned of the Thorian's link to the Protheans and traded the asari commando Shiala to it as a sacrifice; Shiala melded with it, gained the Cipher, and transferred it to Saren, who then ordered his geth to destroy the Thorian and all evidence of it. The enthralled colonists blocked the lair with the wrecked freighter Borealis and fought to the death. Commander Shepard arrived to investigate; the Thorian initially had the colonists and the merchant Ledra help Shepard fight the geth, then turned them hostile once Shepard learned the truth at the ExoGeni building. Fai Dan broke the Thorian's control and shot himself rather than attack Shepard. In the lair the Thorian produced a clone of Shiala to speak for it, dismissed humans as \"meat, good only to dig or decompose,\" and sent clones and Thorian Creepers at the squad. Shepard destroyed the neural nodes, dislodging the Thorian and sending it plunging to its death. Shiala, if spared, mourned it as a unique life form.\n\nAfterward ExoGeni removed the remains, but lingering spore effects gave former victims headaches and shared pain sensations; Shiala's skin turned green and her biotics became unstable. In 2186 the residual hive-mind effects helped the colonists coordinate against the Reapers long enough to evacuate. In the Leviathan investigation, Dr. Garret Bryson cited the Thorian as a species that developed using only organic tools, without mass relays or Reaper technology, and compared Leviathan's long survival to it.",
+      "url": "https://masseffect.fandom.com/wiki/Thorian",
+      "for_key": "Etamis Reapers fifty thousand years"
+    },
+    {
+      "chunk_id": "scene:verrikan-zaeed-and-tristana-raid#05",
+      "kind": "scene",
+      "page": "Zaeed and Tristana Raid the Turian Frigate Verrikan",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "verrikan-zaeed-and-tristana-raid",
+      "text": "Zaeed and Tristana Raid the Turian Frigate Verrikan. around 2183, in Mass Effect: Foundation the outer hull, airlock, and bridge of the turian frigate Verrikan; later crashing toward Impera Tristana demanded the payout be split fifty-fifty with Zaeed instead of following the original agreement. When Zaeed set the ship to crash on Impera, she turned on him: Vido Santiago had hired her to kill Zaeed after the Verrikan job, and she wasn't one to waste an opportunity.",
+      "url": "",
+      "for_key": "Etamis Reapers fifty thousand years"
+    },
+    {
+      "chunk_id": "scene:virmire-sovereign-speaks-to-shepard#03",
+      "kind": "scene",
+      "page": "Sovereign Speaks to Shepard in Saren's Lab",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "virmire-sovereign-speaks-to-shepard",
+      "text": "Sovereign Speaks to Shepard in Saren's Lab. 2183, during the assault on Saren's base on Virmire Saren Arterius's communications lab inside the Virmire cloning facility, at a second Prothean beacon The cryptic boasts are only explained later. Aboard the Normandy SR-2 in 2185, Legion says Sovereign called itself Nazara to the geth and had spent over a thousand years seeking allies to restart the cycle, and that \"we are each a nation\" describes the many AI processes running in one Reaper hull; the Collector base then reveals each Reaper is built from the genetic material of a single sentient species — a nation.",
+      "url": "",
+      "for_key": "Etamis Reapers fifty thousand years"
+    },
+    {
+      "chunk_id": "scene:omega-kenn-salvage-shop#06",
+      "kind": "scene",
+      "page": "Haggling With Kenn at His Salvage Shop",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "omega-kenn-salvage-shop",
+      "text": "Haggling With Kenn at His Salvage Shop. 2185, Omega station, during the recruitment phase for the Suicide Mission Kenn's Salvage shop, Omega If Shepard straightaway gives Kenn the thousand credits for passage off Omega without haggling, Kenn leaves with no discount offered on his wares.",
+      "url": "",
+      "for_key": "Etamis Reapers fifty thousand years"
+    }
+  ],
+  "codex": [],
+  "conflicts": [],
+  "warnings": []
+}

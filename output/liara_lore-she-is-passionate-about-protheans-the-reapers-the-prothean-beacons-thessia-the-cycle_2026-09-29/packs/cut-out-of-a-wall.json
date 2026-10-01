@@ -1,0 +1,1085 @@
+{
+  "section": {
+    "id": "cut-out-of-a-wall",
+    "title": "Cut Out of a Wall",
+    "target_words": 640,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "Her own dig as method: working a site with a stratigraphy, a mining crew in the way, and reconstruction from fragments she could not touch until a barrier came down",
+    "Being freed from the wall, told against herself with dry self-mockery, and what she thought she was looking at that day versus what she knows now",
+    "Her mother's work and the theories of her own she would now hold with less certainty; a rival hypothesis she still argues with in her head",
+    "How little of a Prothean site is the Protheans, and how much is who came after: miners, looters, Cerberus, Saren"
+  ],
+  "required_facts": [
+    {
+      "event_id": "find-liara-t-soni",
+      "fact": "After receiving Spectre status and command of the Normandy, Commander Shepard is told that Saren Arterius is hunting Dr. Liara T'Soni, an asari archaeologist famed for her Prothean expertise and the daughter of Matriarch Benezia, one of Saren's chief lieutenants. Anderson advises checking worlds with Prothean ruins in the Artemis Tau cluster, leading Shepard to Therum in the Knossos system, a volcanically active mining world where the Mako cannot survive contact with the lava flows. The mission was written by Chris L'Etoile. Shepard fights through geth deployed by dropships: Armatures, defense turrets around a refinery outpost, Destroyers, a Juggernaut, and finally a Geth Colossus blocking the road to the ruins. Outside the excavated Prothean structure a dropship lands snipers, shock troopers, Hoppers and an Armature; the ruin entrance stays sealed until the area is nearly cleared. Descending by elevators and damaged platforms, Shepard finds Liara suspended inside a Prothean security barrier she accidentally triggered while hiding from the geth. She directs Shepard to fire a nearby mining laser to bore a tunnel past the barrier curtains, and a central console raises an elevator to free her. Her rescue sets off a seismic tremor and the ruins begin to collapse; on the top level Shepard survives a stand-off against geth and a Krogan Battlemaster before escaping to the waiting Normandy. Aboard ship, Liara shares her research, including her theory of a recurring cycle of galactic extinctions with the Protheans only the most recent civilisation to vanish. Shepard connects this to the Reapers and the Eden Prime beacon vision. Liara joins the crew, treating the Normandy as a refuge from Saren and offering her Prothean knowledge to help interpret the vision. If the mission is delayed until after Virmire, Liara believes Shepard is a hallucination until physically freed and reacts with grief as the squad's discoveries overturn her decades of research.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "find-liara-t-soni",
+      "fact": "Liara T'Soni is freed from the Prothean security barrier and joins the Normandy crew",
+      "actor": "Liara T'Soni"
+    },
+    {
+      "event_id": "find-liara-t-soni",
+      "fact": "The Prothean ruins on Therum collapse after the mining-laser rescue",
+      "actor": ""
+    },
+    {
+      "event_id": "find-liara-t-soni",
+      "fact": "Liara's theory of cyclical galactic extinctions is linked to the Reapers and the beacon vision",
+      "actor": ""
+    },
+    {
+      "event_id": "find-liara-t-soni",
+      "fact": "Shepard gains an expert to help decode the Eden Prime vision",
+      "actor": ""
+    },
+    {
+      "event_id": "find-liara-t-soni",
+      "fact": "Recruiting Liara early unlocks unique interactions on Noveria and a romance option",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "joker-weeb-krogan-waifu",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Joker"
+      ],
+      "statement": "Joker is a weeb. As a joke, the crew gave him a body pillow printed with a krogan woman.",
+      "overrides": "no such detail in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "joker-edi-polyamorous",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Joker",
+        "EDI"
+      ],
+      "statement": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "overrides": "corpus presents their relationship as simply a couple",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "kaidan-vegetarian",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Kaidan"
+      ],
+      "statement": "Kaidan is vegetarian.",
+      "overrides": "no diet established in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "joker_edi_romance",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Joker and EDI's relationship - whether you encouraged it.",
+      "answer": "encouraged",
+      "detail": "I believe love can come in unexpected places, and Joker deserves it more than many."
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "title": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "kind": "mission-aside",
+      "game": "Mass Effect",
+      "when": "2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system",
+      "where": "the Prothean ruins in a mining dig on Therum, then aboard the Normandy",
+      "participants": [
+        "Shepard",
+        "Liara T'Soni",
+        "Kaidan Alenko",
+        "Ashley Williams",
+        "Joker"
+      ],
+      "heard_by": [
+        "Normandy crew",
+        "Citadel Council"
+      ],
+      "requires": [],
+      "beats": [
+        {
+          "text": "Anderson had stepped down and handed Shepard the Normandy; Udina pointed the hunt for the asari archaeologist Liara T'Soni, Saren's next target and Matriarch Benezia's daughter, at the Artemis Tau cluster, and the world with Prothean ruins was Therum. The Normandy dropped the Mako on a volcanically active surface where the lava would destroy the vehicle on contact.\n",
+          "source_chunks": [
+            "find-liara-t-soni_002",
+            "find-liara-t-soni_004"
+          ]
+        },
+        {
+          "text": "Shepard fought up the road past refinery turrets and geth armatures, then a Geth Colossus, and outside the ruin entrance a dropship deposited snipers, shock troopers, Geth Hoppers and an Armature; the door stayed locked until nearly all of them were cleared.\n",
+          "source_chunks": [
+            "find-liara-t-soni_005",
+            "find-liara-t-soni_008"
+          ]
+        },
+        {
+          "text": "Descending by elevators and broken platforms, the squad found Liara floating trapped inside a Prothean security barrier she had triggered by accident while hiding from the geth. She warned of more geth led by a krogan and directed Shepard to a nearby mining laser.\n",
+          "source_chunks": [
+            "find-liara-t-soni_009"
+          ]
+        },
+        {
+          "text": "Shepard entered the code at the laser terminal, boring a tunnel past the barrier curtains, then used the central console to raise an elevator to Liara's level and freed her. A tremor followed, which Liara put down to the laser causing a seismic event, and Shepard radioed Joker to bring the Normandy to the ruins.\n",
+          "source_chunks": [
+            "find-liara-t-soni_009"
+          ]
+        },
+        {
+          "text": "On the top level Shepard fought a standoff against geth and a Krogan Battlemaster. As the last enemy fell the ruins began collapsing; the squad and Liara ran for the exit and stopped only outside, with the Normandy hovering above them.\n",
+          "source_chunks": [
+            "find-liara-t-soni_010"
+          ]
+        },
+        {
+          "text": "Aboard the Normandy, Joker's welcome was sarcastic. Kaidan pressed Liara on her link to Saren; she knew nothing of his plans but relayed her research, culminating in a theory of recurrent galactic extinctions with the Protheans the latest to vanish. Shepard tied this to the Reapers and the Eden Prime beacon vision. Ashley grew impatient and steered the talk back to Saren and the Conduit. Liara called the Normandy a safe haven from Saren, offered her Prothean expertise to interpret the vision, and joined the crew; afterward the Council raised security concerns about her and the turian Councilor questioned the destruction of the site.\n",
+          "source_chunks": [
+            "find-liara-t-soni_011"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "liara_recruited": "after-virmire"
+          },
+          "text": "If Shepard delayed Therum until after Virmire, Liara refused to believe the squad was real until physically released from the barrier, insisting she was conjuring a protective figure to keep from going mad, and cringed from the Krogan Battlemaster, begging Shepard not to let him take her. At the debrief, hearing the evidence of the Reapers, the Cipher from Feros and Shepard's beacon visions, she reacted with anger that her decades of research had been stripped away, calming only when she realized her expertise was the one way to read the vision.\n",
+          "source_chunks": [
+            "find-liara-t-soni_012"
+          ],
+          "choice": "recruited Liara last, after Virmire"
+        }
+      ],
+      "related_scenes": [
+        "feros-shiala-cipher-transfer"
+      ],
+      "related_events": [
+        "find-liara-t-soni"
+      ],
+      "source_chunks": [
+        "find-liara-t-soni_002",
+        "find-liara-t-soni_009",
+        "find-liara-t-soni_011"
+      ],
+      "private_to": []
+    }
+  ],
+  "attendance": {
+    "therum-freeing-liara-prothean-ruins": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#03",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Descending by elevators and broken platforms, the squad found Liara floating trapped inside a Prothean security barrier she had triggered by accident while hiding from the geth. She warned of more geth led by a krogan and directed Shepard to a nearby mining laser.",
+      "url": "",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#05",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy On the top level Shepard fought a standoff against geth and a Krogan Battlemaster. As the last enemy fell the ruins began collapsing; the squad and Liara ran for the exit and stopped only outside, with the Normandy hovering above them.",
+      "url": "",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#01",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Anderson had stepped down and handed Shepard the Normandy; Udina pointed the hunt for the asari archaeologist Liara T'Soni, Saren's next target and Matriarch Benezia's daughter, at the Artemis Tau cluster, and the world with Prothean ruins was Therum. The Normandy dropped the Mako on a volcanically active surface where the lava would destroy the vehicle on contact.",
+      "url": "",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#04",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Shepard entered the code at the laser terminal, boring a tunnel past the barrier curtains, then used the central console to raise an elevator to Liara's level and freed her. A tremor followed, which Liara put down to the laser causing a seismic event, and Shepard radioed Joker to bring the Normandy to the ruins.",
+      "url": "",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "summary:therum",
+      "kind": "summary",
+      "page": "Therum",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Therum was a distant but resource-rich industrial world in the Knossos System of the Artemis Tau cluster, the second planet of its system and claimed by the human Systems Alliance. Its abundant heavy metals fueled a manufacturing boom on Earth. Core samples containing fossils of simple silicon-based organisms indicated the planet was more habitable in the past, which may explain the many Prothean ruins on its surface, most of them already looted by mining corporations. Its capital was named Nova Yekaterinburg (New Yekaterinburg).\n\nIn Mass Effect, Therum was the setting of the mission to find Liara T'Soni, an asari researcher trapped inside a Prothean ruin during a geth attack while Commander Shepard pursued Saren Arterius. Shepard fought through the geth, including an Armature, extracted Liara from a Prothean security barrier, and escaped the collapsing dig site.\n\nThe page notes that Therum grew out of cut content. In early Mass Effect demo footage the location was a planet named Caleston where Shepard rescued miners trapped underground by a geth attack; the approach and the battle outside the entrance were the same, but the demo had Shepard question why the geth would deploy an Armature merely to kill miners. Under the name Caleston, the world was originally intended to host a full Eldfell-Ashland Energy mining facility with on-site workers and a seedy bar, as referenced in The Art of Mass Effect.",
+      "url": "https://masseffect.fandom.com/wiki/Therum",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "therum_002",
+      "kind": "page",
+      "page": "Therum",
+      "section": "Description",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Therum** is a distant but rich industrial world claimed by the human Systems Alliance. Its plentiful heavy metals have fueled the recent manufacturing boom on Earth. Core samples rich with the fossils of simple silicon\\-based organisms indicate Therum was more habitable in the past than it is at present. Perhaps this explains the many Prothean ruins dotting the surface, most of which have been looted by mining corporations.",
+      "url": "https://masseffect.fandom.com/wiki/Therum",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect_020",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect",
+      "section": "Therum",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Therum was originally a base built around the opening of a volcano. The base was going to be built up around the caldera, with heavy equipment mining the molten rock. Instead, the level was redesigned as an underground dig site.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "summary:find-liara-t-soni",
+      "kind": "summary",
+      "page": "Find Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Find Liara T'Soni was a Mass Effect main-story mission acquired after Shepard gained Spectre status and command of the Normandy from Anderson. Liara T'Soni, an asari archaeologist renowned for her Prothean expertise and daughter of Matriarch Benezia, was being sought by Saren; her last known location was the Artemis Tau cluster. Anderson advised searching for the world with Prothean ruins, leading to Therum in the Knossos system. The mission was written by Chris L'Etoile.\n\nTherum was a volcanically active world where the Mako could not survive contact with lava. Shepard fought through Geth Armatures dropped by a dropship, optional defense turrets around a refinery outpost, and a heavier push including Geth Destroyers and a Juggernaut, then faced a Geth Colossus on the road to the ruins. Outside the Prothean ruin, a dropship deposited snipers, shock troopers, Geth Hoppers, and an Armature; the entrance stayed locked until nearly all enemies were cleared.\n\nInside, Shepard descended by elevators and damaged platforms and found Liara floating trapped inside a Prothean security barrier she had accidentally activated while hiding from the geth. She directed Shepard to use a nearby mining laser: entering a code fired the laser to bore a tunnel past the barrier curtains, and a central console raised an elevator to her level. Freeing her triggered a tremor attributed to the mining laser causing a seismic event, and Shepard called the Normandy to the ruins. On the top level, Shepard fought a stand-off against geth and a Krogan Battlemaster before escaping the collapsing ruins as the Normandy hovered above.\n\nBack aboard, Liara relayed her research, including a theory of recurrent galactic extinctions with the Protheans the latest to vanish, connected by Shepard to the Reapers and the Eden Prime vision. She joined the crew, considering the Normandy a safe haven from Saren, and offered her Prothean knowledge for interpreting the vision. If the mission was delayed until after Virmire, Liara instead believed Shepard was a hallucination until physically freed, cringed from the Battlemaster, and reacted angrily during the debrief as the squad's discoveries stripped away her decades of research. Recruiting Liara early unlocked unique interactions on Noveria and romance opportunities.",
+      "url": "https://masseffect.fandom.com/wiki/Find_Liara_T'Soni",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "summary:knossos",
+      "kind": "summary",
+      "page": "Knossos",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Knossos was a star system of four terrestrial planets and one gas giant in the Artemis Tau cluster. It held little of note beyond the industries of Therum and the helium-3 collection infrastructure on Archanes. At least two spacefaring cultures had used the system in pre-Council times: the zeioph kept crypts on Armeni, and the Protheans had a presence on Therum. The system's planets were Phaistos (first), Therum (second), Zakros (third), Armeni (fourth), and Archanes (fifth), most named for ancient Minoan cities and monuments.\n\nTherum was the site of the mission Find Liara T'Soni, where Shepard recovered the asari archaeologist Liara T'Soni from Prothean ruins. The system also contained a carbonaceous asteroid where Navigator Pressly discovered an abandoned salarian fighter carrying a League of One medallion, and a metallic asteroid with platinum deposits. The system was likely named for the classical Minoan and later Greek city of Knossos, the oldest of the Greek city-states referenced by the Artemis Tau cluster; cut dialogue from Caleston's plotline stated Knossos was to be the name of the Prothean ruins where Liara was found.",
+      "url": "https://masseffect.fandom.com/wiki/Knossos",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "caleston-cut_001",
+      "kind": "page",
+      "page": "Caleston (Cut)",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | *This article is about the cut version of Therum. For the planet in Mass Effect 2 and 3, see Caleston.* | | --- | --- | |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- | **Location:** Milky Way / Hades Gamma / Ankyra System / Cernunnos **Caleston** is the original name for the planet Therum in Mass Effect, before a massive amount of its planned content was cut. Like Therum, it was to be where Commander Shepard would find Liara T'Soni. However, like Feros and Noveria, Caleston also had a hub area with several missions, assignments, and many characters to interact with called Throw Down. An element zero refinery was located underneath, the focal point of the ongoing gang war between the Miners' Union and the Cartel. Some distance away from Throw Down, a set of Prothean ruins known as Knossos could be found inside a supervolcano caldera called the \"Ring of Fire\", which is where the player lands on Therum in the final game. Although no mention of either name is ever made on Therum, the star system it's located in is called Knossos. Unlike Therum's dark and stormy sky, cut dialogues and development images consistently depict Caleston as having a clear yellow/green sky. While no mention of the rarity of Prothean ruins on Therum is ever made, Throw Down's administrator Tombiri claims there are \"hundreds\" of Prothean ruins on Caleston, though most were not as well preserved as Knossos. Caleston is mentioned to be a moon, not a planet. The X06 trailer description implies Cernunnos as the name of the planet it orbits, just like in Mass Effect 2 and 3 when both bodies were made canon. This was confirmed through the \"Caleston DLC\" (a misnomer as it is a demo for Bring Down the Sky), where they are located in a new system called Ankyra, in the Hades Gamma cluster.",
+      "url": "https://masseffect.fandom.com/wiki/Caleston_(Cut)",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "knossos_009",
+      "kind": "page",
+      "page": "Knossos",
+      "section": "Trivia",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- The system is probably named for the classical Minoan (and, later, Greek) city of Knossos. Fittingly, all the planets in the Knossos system (with the exception of Therum) are named for ancient Minoan cities and monuments. Furthermore, out of the Greek city\\-states the four systems in the Artemis Tau cluster are likely named after, Knossos is by far the oldest, predating the other three by several thousand years. Ancient Prothean ruins being located in this system may be a nod to both the age and continuing archaeological significance of the real\\-world Knossos, as both the real\\-world and in\\-game dig sites contain relatively well\\-preserved remains of an ancient civilization that mysteriously collapsed. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Knossos",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "liara-t-soni_026",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- BioWare revealed at the 2009 GDC that originally Liara was supposed to be discovered on the mining planet Caleston in addition to several side missions, in a section of the game comparable to the size of Feros. Due to scheduling and coding issues, Caleston saw severe content cuts during the development of Mass Effect before being eventually changed to Therum. Originally there was a human mining station that served as a hub; much of the architecture for this station was later repurposed as the final fight location in Bring Down the Sky. - Development notes for the Find Liara T'Soni mission imply that Liara would have been shown being pursued by Saren's mercenaries and getting herself trapped inside the stasis field as Shepard approaches, instead of having been trapped for some time before. Liara was seemingly part of a research expedition into the Prothean ruins, but the rest evacuated when they received reports of incoming geth.",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "storyline_033",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Liara",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Normandy tracks Liara T'Soni to Therum, a mining colony in the Knossos system of the Artemis Tau cluster, but the geth are already on the surface, taking over several refinery facilities and dropping Geth Armatures from overhead. Shepard leads the squad to a mineshaft and down into a Prothean ruin, where they find Liara trapped behind a Prothean barrier curtain. Freeing her, they discover she is not in league with Saren and has no idea what the Conduit might be. As the squad leaves the ruined tower with Liara, they are confronted by a Krogan Battlemaster who is leading the geth and manage to defeat him as the unstable ruins begin to collapse. They escape just in time. During the debrief, Liara explains her expertise is on the Prothean extinction. She has a theory they were not the first civilization to mysteriously vanish, and is amazed by Shepard's story of the Reapers. After a brief rest from the stresses of the day, Liara joins Shepard's crew.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "broker-terminal_019",
+      "kind": "page",
+      "page": "Broker Terminal",
+      "section": "Prothean Notes: 2171 \\- 2185",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "\\[Glyph, remind me to clean up these old notes. Perhaps reviewing them will lead to something useful for the Prothean device. \\- Liara] 2171 The University of Serrice agreed to sponsor me at the Prothean dig on Dretirop. Very exciting! Professor Henell is heading the expedition herself. Maybe I can even ask her for her opinion on my thesis outline. (Attachment: Thesis on Prothean first\\-contact protocols) 2174 I believe Dr. Joshawn was right to suggest that the Prothean artifacts we unearthed are from the 3rd Age, not the 4th. What an embarrassing mistake! At least he seemed to approve of the rest of the paper. (Attachment: Paper on a comparison of Prothean technology to modern asari circuit logic) 2183 (Part 1\\) I'm going on the Therum expedition! I never thought I'd gain permission to visit the Prothean ruins there, but the University of Serrice must have secured the funding after all. Now to pack. (Attachment: Paper on the end of the Prothean Empire) 2183 (Part 2\\) Goddess. This human, Shepard, has the key to comprehending the Protheans on an instinctual, subconscious level. If only I could have been there when the Commander touched the Beacon on Eden Prime! I'll try to learn more about this Cipher on board the Normandy. The involvement of the Reapers is troubling, to say the least. (Attachment: Paper on the end of the Prothean Empire, with correction notes) 2185 I reviewed the old Shadow Broker's footage of the Collectors. It's chilling to know that they're the Protheans' husks. At least nothing sentient could possibly remain after what the Reapers did to them. (Attachment: Paper on Prothean biology)",
+      "url": "https://masseffect.fandom.com/wiki/Broker_Terminal",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "ashley-williams-unique-dialogue_005",
+      "kind": "page",
+      "page": "Ashley Williams/Unique dialogue",
+      "section": "Spontaneous",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Sometimes Ashley will say something spontaneously, without being prompted. - On Eden Prime: - After the first Husk encounter, Ashley will note that the security lock is engaged on the shed where Warren and Manuel are hiding. - After securing the Prothean beacon, when surveying the devastated area in the distance, Ashley exclaims it looks like someone \"dropped a bomb\". Kaidan surmises that it's likely where the unidentified ship landed. - On the Citadel: - When approaching the keeper on the Presidium by the foot of the Citadel Tower, Ashley exclaims \"Look at that bug thing over there. What's it doing?\" - When going down the stairs after the hearing with the Council in the Citadel Tower, Ashley observes \"That guy's up to something.\" Kaidan asks \"What guy?\", to which Ashley responds \"The one over by the keeper.\" - After speaking to Harkin about where to find Garrus Vakarian, as the squad leaves Chora's Den Ashley wonders aloud why Captain Anderson never told them he used to be a Spectre. Kaidan responds that Harkin's claim might not be true given his questionable character. - During the mission to Therum: - While coming up to the outpost, Ashley will say \"This route's a no\\-go. They have height and cover.\" - Before entering the elevator in the Prothean Ruins, Ashley will say \"Dare you to spit over the side.\" - At the top of the second elevator inside the Prothean Ruins, Ashley will note \"Protheans built to last. Looks like a lava flow poured in here.\" - During the assignment UNC: Lost Module in Eletania, if a Space Monkey is killed instead of searched, Ashley opines she would've just thrown a rock at it. - On Therum: - Inside Prothean ruins by the first elevator: \"Dare you to spit over the side.\"",
+      "url": "https://masseffect.fandom.com/wiki/Ashley_Williams/Unique_dialogue",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "summary:the-art-of-mass-effect-alien-worlds",
+      "kind": "summary",
+      "page": "The Art of Mass Effect/Alien Worlds",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page transcribes the fifth part and acknowledgements of The Art of Mass Effect (2007), with commentary by Casey Hudson. The section covers the game's landscapes and architecture, tracing how early combat-visualization paintings set an overall style before specific locations were developed. It discusses Eden Prime (shifted from green farmland to a red, ember-filled palette to darken the story's opening, keeping a cargo train), its train station, the Therum mining complex and mines, the Prothean tower where Liara is found, the Thorian's lair, and Feros (a human colony amid Prothean ruins, built largely from reusable parts). It also covers Ilos (changed from lush jungle to an ominous dead world) and its Archive of suspended Protheans, Noveria (a spaceport inspired by the Swiss Alps, made colder and more isolated), the ring-shaped Citadel Presidium and its grungier wards, docking bays and exterior, and Virmire (inspired by the islands of Palau, the site of Saren's oceanfront fortress). The acknowledgements credit the concept artists: Derek Watts, Matthew Rhodes, Sung Kim, Adrien Cho, Fran Gaulin, Mike Spalding, Mike Trottier, Michael Jeffrey, Sasha Beliaev and Mike Higgins.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_Mass_Effect/Alien_Worlds",
+      "for_key": "Therum Prothean ruins mining dig"
+    },
+    {
+      "chunk_id": "knossos_007",
+      "kind": "page",
+      "page": "Knossos",
+      "section": "Therum",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Therum** is the *second* planet orbiting the star Knossos. *Main article: Therum* - *Mission:* Find Liara T'Soni",
+      "url": "https://masseffect.fandom.com/wiki/Knossos",
+      "for_key": "Liara T'Soni archaeologist Therum Prothean barrier"
+    },
+    {
+      "chunk_id": "liara-t-soni_001",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“That is why I find you so fascinating. You were marked by the beacon on Eden Prime; you were touched by working Prothean technology!” **Dr. Liara T'Soni** is an asari researcher and archaeologist. With a Doctorate in Anthropology of the Prothean Era from the University of Serrice, she has spent the past fifty years of her life studying Prothean technology and culture, specializing in investigating the mysterious extinction of the species. Born on Thessia in 2077, Liara is \"only\" 106—barely an adult in asari terms. She already has a great deal of insight into the Protheans and is a highly trained user of biotics. She is a potential romantic interest for either a male or female Shepard. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Liara T'Soni archaeologist Therum Prothean barrier"
+    },
+    {
+      "chunk_id": "summary:liara-t-soni",
+      "kind": "summary",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Dr. Liara T'Soni was an asari researcher and archaeologist with a Doctorate in Anthropology of the Prothean Era from the University of Serrice. Born on Thessia in 2077, she was the pureblood only child of Matriarch Benezia, raised alone by her mother, and had spent fifty years studying the Prothean extinction. In 2183, geth attacked the Prothean ruin on Therum where she was working; she accidentally trapped herself in a protective energy field until Commander Shepard's team freed her. She joined the Normandy, contributed her theory of cyclical extinction, used her melding ability to interpret Shepard's beacon visions, and ultimately identified Ilos as the Conduit's location. On Noveria she witnessed or learned of the death of her indoctrinated mother, who called her \"Little Wing\" a final time. She was a potential romance for a male or female Shepard.\n\nIn Mass Effect: Redemption, after Shepard's death aboard the SR-1, Liara and the drell Feron worked with Cerberus to recover Shepard's body from the Shadow Broker's agent Tazzik, delivering it to the Lazarus Project while Feron was captured. By 2185 (Mass Effect 2) she was a ruthless information broker on Illium, consumed by hatred of the Shadow Broker. In the Lair of the Shadow Broker DLC, she and Shepard pursued the Spectre Tela Vasir across Illium, raided the Broker's base ship, discovered the Broker was a yahg, killed him, and Liara assumed his identity, rescuing Feron and pledging the network to Shepard's fight against the Reapers.\n\nIn Mass Effect: Homeworlds she searched Prothean archives on Thessia and Kahje, clashing with the Illusive Man and a Cerberus Phantom. In Mass Effect 3 she reunited with Shepard during the Cerberus raid on the Mars Archives, where she revealed the Prothean blueprint for the Crucible, then relocated her Shadow Broker operation to the Normandy with the VI Glyph, greatly aiding the war effort. She created a time capsule to preserve their cycle's knowledge, met her \"father\" Matriarch Aethyta on the Citadel, and clashed with Javik over evidence of Prothean interference in asari history, revealed when Thessia fell and Kai Leng stole the temple's Prothean VI.\n\nIf romanced, she and Shepard resumed their relationship; before the final battle she offered to join her consciousness to Shepard's to share memories, a practice reserved for asari bondmates. If Shepard rallied enough forces, Liara survived and honored the fallen at the Normandy's memorial wall; if not, she could be killed by Harbinger, or, in the Refusal ending, appeared centuries later as a VI whose time capsule helped a future species defeat the Reapers. In Mass Effect: Andromeda, Ryder can hear voice messages Liara sent to Alec Ryder in 2182 and 2186. Her face model was actress Jillian Murray and her voice actress was Ali Hillis.",
+      "url": "https://masseffect.fandom.com/wiki/Liara T'Soni",
+      "for_key": "Liara T'Soni archaeologist Therum Prothean barrier"
+    },
+    {
+      "chunk_id": "codex-known-associates_004",
+      "kind": "page",
+      "page": "Codex/Known Associates",
+      "section": "Dr. Liara T'Soni",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | Audio: Dr. Liara T'Soni | | --- | --- | Dr. Liara T'Soni is an asari information broker with a background in scientific research on Prothean technology. Born on Thessia in 2077, she is the only child of the late Matriarch Benezia, although mother and daughter became estranged in the years before Benezia was indoctrinated by the Reaper known as Sovereign. T'Soni is also a highly trained biotic who served under Commander Shepard aboard the SSV Normandy before the ship was destroyed in a Collector attack. Before she became involved in galactic affairs, Dr. T'Soni spent 50 years researching the Protheans' technology and the mystery of their extinction. She now divides her time between uncovering Prothean ruins and consulting with noteworthy representatives of the various Citadel races.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Known_Associates",
+      "for_key": "Liara T'Soni archaeologist Therum Prothean barrier"
+    },
+    {
+      "chunk_id": "knossos_010",
+      "kind": "page",
+      "page": "Knossos",
+      "section": "Cut Content",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Cut dialogues which would have been part of Caleston's plotline state that Knossos was the name of the Prothean ruins in which Liara T'Soni is found, reinforcing the possible parallel with the real\\-world Knossos. ##",
+      "url": "https://masseffect.fandom.com/wiki/Knossos",
+      "for_key": "Liara T'Soni archaeologist Therum Prothean barrier"
+    },
+    {
+      "chunk_id": "liara-t-soni_002",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For her gameplay attributes in Mass Effect, see Squad Members Guide\\#Liara T'Soni.* The only child of Matriarch Benezia, Liara was raised by her mother alone. She knew little of who her father was, only that it was another asari. Liara is a pureblood, a fact she speculates to be a reason why her \"father\" seemingly did not wish to be identified. From an early age Liara became fascinated with the Protheans, seeing them as wondrous, mysterious figures. Growing up, she did not relish her role as Benezia's daughter and the high expectations placed upon her, particularly the assumption that she would follow her mother into a career as a political leader of the asari. Instead, Liara chose a career in archaeology both to indulge her interests and to escape the pressures of being the daughter of such a prominent figure. Because of her work, Liara spent most of her time in contented solitude. Her work eventually took her to Knossos in the Artemis Tau cluster, to the site of a Prothean ruin on the mining planet Therum. When geth forces showed up on the world in 2183, Liara hid in the old catacombs and activated its barrier curtains. However, she accidentally suspended herself in an energy field, unable to move unless someone else came and freed her. Following the exposure of Benezia's involvement with renegade Spectre Saren Arterius, Commander Shepard travels to Therum to find Liara T'Soni and discover what she knows. Liara pleads with Shepard's team for help when they find her, offering to explain her circumstances and means to be freed. If Shepard pursues other leads first and significantly delays rescuing Liara, she mistakes her rescuers for figments of her imagination as a result of being stuck for so long. Nevertheless, she humors her \"hallucinations\" and answers their questions. She only realizes they're real when the squad reappears behind and close enough to release her. Shepard's team soon learn that Liara is clueless on Benezia's activities as she hasn't even spoken to her mother in many years. When Liara asks why the geth are after her, a squadmate speculates that Saren may have wanted her Prothean expertise to help him find the Conduit. After a brief scuffle with Saren's forces and subsequent escape from the doomed ruins, Liara joins the Normandy crew, and takes up residence in the labs and storage room behind Doctor Chakwas' med bay. Ostensibly her Prothean expertise and assurances of safety are her justifications for being aboard, but Liara becomes one of Shepard's possible squadmates, available for dangerous frontline situations. She is used to defending herself on remote digs—sites are often raided by privateers for artifacts—and in combat, she makes a formidable ally due to her near\\-complete focus on biotics. As it turns out, Liara's knowledge of the Conduit isn't much at all, only that it was connected to the Prothean extinction. Half a century of dedicated research caused her to uncover telltale patterns that hint to an ancient galactic coverup \\- unprovable, but her gut feeling tells her otherwise. On her first debriefing aboard the Normandy, Liara shares her theory of cyclical extinction: the Protheans were just the latest in a long line of civilizations violently cast down after reaching their apex. Liara is surprised by Shepard's revelation of the Reapers' responsibility in the Protheans' doom, but believes it to be true, as there was remarkably little evidence of the Protheans' existence—as if something or someone did not want the mystery of their disappearance solved. Liara is shy and not used to lying, a trait Ashley Williams is tempted to take advantage of—\"Want me to ask about her sex life? Might be illuminating.\" Regardless, Liara is viewed with suspicion by the rest of the Normandy's crew because of her connection to Benezia. To her mother's defense, Liara knows Benezia well enough to be astonished to discover she is working with Saren, and does not believe she could be aiding him of her own free will. Shepard can talk to Liara about her mother and discuss the reasons Benezia may have for assisting Saren, as well as asari culture in general and the misconceptions surrounding Liara's species. Liara is initially drawn to Shepard because the Commander was touched by Prothean technology on Eden Prime. Unfortunately, as Liara is used to isolation, she confesses she always seems to say something embarrassing around other people. When Shepard jokes about Liara sounding like she wants to dissect Shepard in a lab, Liara becomes flustered and claims she only meant Shepard would make an interesting specimen for an in\\-depth study, further embarrassing herself. Liara discreetly looks up Shepard's service history to learn more, worrying about making a fool of herself if she asks the Commander directly.",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Liara T'Soni archaeologist Therum Prothean barrier"
+    },
+    {
+      "chunk_id": "benezia_002",
+      "kind": "page",
+      "page": "Benezia",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Given her status as a matriarch, Benezia must have lived for almost a millennium. She is renowned and revered as a teacher of religion and philosophy. During the 'matron' phase of her life, Benezia had a daughter named Liara T'Soni. Unusually, Benezia mated with another asari, considered a *faux pas* in their society. Liara tells Commander Shepard that she doesn't know who Benezia chose as her partner; she and her mother never discussed Liara's second parent, and Liara believes Benezia may have been ashamed of her choices. She raised Liara alone \\- not an uncommon occurrence in asari society \\- and was amused when Liara chose to study Prothean archaeology, a minor rebellion against her forward\\-thinking mother. According to Liara, Benezia feels that the asari should have a greater role in shaping galactic events. She is Saren Arterius' executor and a fellow Binary Helix investor. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Benezia",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "benezia_004",
+      "kind": "page",
+      "page": "Benezia",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Benezia's unknown bondmate is revealed to be Matriarch Aethyta. If Shepard nudges Liara into speaking with Aethyta and overhears their conversations, it is discovered that Benezia and Aethyta were together for a hundred years until they began disagreeing over what path the asari should take; Benezia wished to do things the smart way but Aethyta simply desired to fight. After the mission on Thessia, during which Liara learns that the asari government hid a Prothean Beacon, which was the source of many of the asari civilization's advances, Liara wonders whether her mother was in on the coverup, and suspects that she regarded her career choice to study the Protheans as \"such a joke.\" EDI, however, suggests that Benezia was motivated by a desire to protect Liara from the consequences should this come to light, and Liara thanks EDI. According to Liara, Benezia's favorite color was yellow, because she wore clothes of that color.",
+      "url": "https://masseffect.fandom.com/wiki/Benezia",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "liara-t-soni_003",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Liara is initially drawn to Shepard because the Commander was touched by Prothean technology on Eden Prime. Unfortunately, as Liara is used to isolation, she confesses she always seems to say something embarrassing around other people. When Shepard jokes about Liara sounding like she wants to dissect Shepard in a lab, Liara becomes flustered and claims she only meant Shepard would make an interesting specimen for an in\\-depth study, further embarrassing herself. Liara discreetly looks up Shepard's service history to learn more, worrying about making a fool of herself if she asks the Commander directly. Her scientific interest may become a romantic attraction that Shepard can choose to pursue. Even if Shepard has other romantic interests, Liara still cares about the Commander, sympathetic to the nightmares Shepard suffers because of the beacon visions. Liara is very compassionate—she even feels sorry for Saren because he is losing his mind to indoctrination. During the mission on Noveria, Gianna Parasini mentions to Shepard that Matriarch Benezia is visiting Peak 15. If Liara is on the Normandy and isn't with the shore party, a squad member suggests bringing her in to confront or possibly talk her mother down. Regardless of Liara's presence, Benezia has been indoctrinated beyond redemption and has to be put down. If Liara faces her mother, though, she personally receives her mother's proud approval during the latter's brief moments of lucidity. She last hears her \"Little Wing\" moniker from Benezia as her mother succumbs to her injuries. Aboard the Normandy Liara discourages attempts at talking about her mother, though she opens up if Shepard presses the matter. She takes some comfort from the fact Benezia tried to stop Saren, no matter how the attempt turned out. While part of her blames Saren for Benezia's fate, she feels no need to add revenge as a motive to stop his plans. She chooses to remember Benezia as she once was, not how she ended up. Benezia chose her fate, and Liara chooses her own by remaining dedicated to Shepard's quest. As Shepard obtains fragmented visions from various sources during the search for Saren, Liara offers her melding abilities to try and make sense of the data. She constantly exhausts herself after each encounter, prompting frequent suggestions to report to Dr. Chakwas, but collects herself together long enough to explain what she saw. Once Shepard obtains the Cipher, the Mu Relay's location, and the distress call from the Prothean Beacon on Virmire, Liara finally recognizes enough clues to determine the Conduit's location: Ilos.",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "summary:benezia",
+      "kind": "summary",
+      "page": "Benezia",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Matriarch Benezia was a very powerful asari biotic and a revered spiritual leader, teacher of religion and philosophy, and the mother of Liara T'Soni, from whom she had been estranged for years. Given her matriarch status she had lived nearly a millennium. During her matron phase she had Liara, unusually mating with another asari, and raised her alone; Liara's study of Prothean archaeology was a minor rebellion against her forward-thinking mother. Benezia believed the asari should have a greater role in shaping galactic events. She was Saren Arterius' executor and a fellow Binary Helix investor. Evidence proving Saren caused the Eden Prime attack also showed Benezia was working alongside him, which shocked those who knew her.\n\nBenezia learned of Saren's plan to aid the Reapers and decided to try to guide him down a less destructive path, giving her followers, including Shiala, the choice to accompany her. The influence of the Reaper Sovereign proved too strong and Benezia became enslaved to Saren's will along with her guards and commandos, serving as something between his advisor and second-in-command. Through Binary Helix she funded a secret project on Noveria to breed rachni from a newly discovered egg for Saren's army; when the brood was removed from the Rachni Queen, the rachni went rogue. Benezia traveled to Peak 15 to investigate and to extract from the Queen's genetic memory the location of the Mu Relay, escorted by asari commandos. She brought geth in crates to guard the garage and left agents such as Alestia Iallis and recruited security including Captain Ventralis to stop Shepard.\n\nShepard's squad fought through geth, rachni, and commandos to find Benezia beside the Rachni Queen. Using her mental strength to keep part of her mind free of indoctrination, she briefly broke Saren's control, described the horror of indoctrination, gave Shepard the Mu Relay coordinates, and warned of Sovereign's power before turning on the squad, who were forced to kill her. She told Liara her daughter had always made her proud, and as she died claimed not to see the light promised in asari religion. In Mass Effect 3, Benezia's bondmate was revealed to be Matriarch Aethyta; the two had been together for a hundred years before disagreeing over the asari's path. After Thessia revealed a hidden Prothean Beacon, Liara wondered if Benezia knew of the coverup, and EDI suggested Benezia acted to protect Liara.",
+      "url": "https://masseffect.fandom.com/wiki/Benezia",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "scene:citadel-apollo-aethyta-liara-father#05",
+      "kind": "scene",
+      "page": "Aethyta Reveals Herself as Liara's Father",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-apollo-aethyta-liara-father",
+      "text": "Aethyta Reveals Herself as Liara's Father. 2186, Citadel, during shore leave after talking with Liara in Presidium Commons Apollo's Cafe in Presidium Commons If Shepard convinces Liara to speak with Aethyta, the two begin conversations that start awkwardly but deepen as they reminisce about Liara's mother, Benezia. In these conversations, Aethyta and Liara discuss the matriarchs' surveillance of Liara and her Illium office, asari military doctrine during the Reaper War, Liara's krogan grandfather and Aethyta's century-long relationship with Benezia. Aethyta reveals she was married to Benezia and still loves her. She also explains that she coined Liara's childhood nickname \"Little Wing.\" After these reconciliatory talks, Aethyta gives Liara asari commando and Eclipse mercenary support against the Reapers as a \"gift,\" and Liara calls Aethyta \"the best father a girl could wish for.\"",
+      "url": "",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "scene:normandy-liara-pureblood-conversation#02",
+      "kind": "scene",
+      "page": "Liara Talks About Her Father",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "normandy-liara-pureblood-conversation",
+      "text": "Liara Talks About Her Father. 2183, during the hunt for Saren, between missions aboard the Normandy the Normandy's medical bay, where Liara keeps to herself Liara believes she is one. Matriarch Benezia never named her other parent; Liara has concluded her \"second parent\" was another asari, which she offers as the reason for Benezia's silence and the humiliation Benezia wished to avoid. She finds the subject painful, and admits she has long wondered who her \"father\" was and what passed between her parents.",
+      "url": "",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#06",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Aboard the Normandy, Joker's welcome was sarcastic. Kaidan pressed Liara on her link to Saren; she knew nothing of his plans but relayed her research, culminating in a theory of recurrent galactic extinctions with the Protheans the latest to vanish. Shepard tied this to the Reapers and the Eden Prime beacon vision. Ashley grew impatient and steered the talk back to Saren and the Conduit. Liara called the Normandy a safe haven from Saren, offered her Prothean expertise to interpret the vision, and joined the crew; afterward the Council raised security concerns about her and the turian Councilor questioned the destruction of the site.",
+      "url": "",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "cerberus_014",
+      "kind": "page",
+      "page": "Cerberus",
+      "section": "Mass Effect: Homeworlds",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "While Liara T'Soni uses her influence as the Shadow Broker to find a way to stop the Reapers, the Illusive Man secretly monitors her progress and learns of her intent to investigate the Protheans for leads. Later, when Liara journeys to a Prothean ruin on Kahje, a Cerberus Phantom arrives there before her, kills the site's staff, and turns its defenses against Liara's shuttle. When Liara makes it to the site and kills the Phantom, the Illusive Man contacts her via hologram. He apologizes for the Phantom's attack, but claims a rogue faction of Cerberus is responsible. He suggests forming an alliance with Liara to stop the Reapers and that they pool their knowledge, but when Liara challenges him to turn over his research first, he remains silent. Liara concludes he either wants to keep his research to himself or he doesn't have any research to share. Angered, the Illusive Man insinuates she is incapable of running the Shadow Broker's organisation and claims that the criminal underworld think the Shadow Broker has become soft and weak, insisting that Liara needs his help. Liara points out that he is the one trying to make a deal, advises him to send an army the next time he tries to kill her and cuts him off before he can continue arguing. |  | ***“I like the power.”*** — Spoilers for **Mass Effect: Infiltrator** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "illusive-man_021",
+      "kind": "page",
+      "page": "Illusive Man",
+      "section": "Mass Effect: Homeworlds",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "While Liara T'Soni uses her influence as the Shadow Broker to find a way to stop the Reapers, the Illusive Man secretly monitors her progress and learns of her intent to investigate the Protheans for leads. Later, when Liara journeys to a Prothean ruin on Kahje, a Cerberus Phantom arrives there before her, kills the site's staff, and turns its defenses against Liara's shuttle. When Liara makes it to the site and kills the Phantom, the Illusive Man contacts her via hologram. He apologizes for the Phantom's attack, but claims a rogue faction of Cerberus is responsible. He suggests forming an alliance with Liara to stop the Reapers and that they pool their knowledge, but when Liara challenges him to turn over his research first, he remains silent. Liara concludes he either wants to keep his research to himself or he doesn't have any research to share. Angered, the Illusive Man insinuates she is incapable of running the Shadow Broker's organisation and claims that the criminal underworld think the Shadow Broker has become soft and weak, insisting that Liara needs his help. Liara points out that he is the one trying to make a deal, advises him to send an army the next time he tries to kill her and cuts him off before he can continue arguing. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Illusive_Man",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "benezia_003",
+      "kind": "page",
+      "page": "Benezia",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Somehow Benezia discovers Saren's plan to aid the Reapers, and decides to try and guide him down a less destructive path. Benezia gives her followers a choice \\- only those who are willing have to accompany her. Many refuse because they think her plan is too dangerous, but others, including Shiala, believe in her. With their help Benezia tries to dissuade Saren from his insanity. But the influence of the Reaper Sovereign is too powerful and Benezia becomes enslaved to Saren's will, along with her retinue of guards and commandos. Benezia's position becomes something between Saren's advisor and his second\\-in\\-command. Saren knows Benezia's value; even when she enrages him by bringing the news that Shepard has accidentally used the Prothean Beacon, he restrains himself from attacking her and orders her to ensure the Commander is eliminated. Through Binary Helix, Benezia funds a secret project on Noveria to breed rachni from a newly discovered egg. They are intended to form part of Saren's army, but when Binary Helix removes the brood from the Rachni Queen's presence, the rachni go rogue. Benezia travels to the lab at Peak 15 to investigate the situation and to access information stored in the queen's genetic memory about the location of the Mu Relay. She is accompanied by an escort of asari commandos. She causes a stir at Port Hanshan when she arrives, telling the authorities she is there as Saren's representative. Lorik Qui'in tells Shepard that \"Lady Benezia was dressed for her role. An asari matriarch in a pin\\-striped suit set tongues wagging amongst the younger male employees... so to speak.\" Benezia, aware that Shepard is on Saren's trail, brings geth in crates to Noveria with her and leaves them to guard the garage. She leaves agents such as Alestia Iallis behind and recruits local security including Captain Ventralis to stop Shepard from reaching her. After fighting geth, rachni and Benezia's commandos, the squad finds her waiting for them in the labs beside the Rachni Queen. Even Liara's presence in the squad, if Shepard chose to bring her, doesn't stop Benezia from unleashing her biotics and her commandos against them. Finally, Benezia, who has used her incredible mental strength to keep a part of her mind free of from indoctrination, manages to break from Saren's control very briefly. She describes the horrors of indoctrination and how it feels to be trapped in your own mind: \"beating upon the glass as your hands torture and murder...\" She gives Shepard the coordinates for the Mu Relay, though she couldn't tell the Commander any more of Saren's plan, and warns of Sovereign's incredible power before indoctrination begins to overcome her. Benezia manages to tell Liara that her daughter has always made her proud, but finally turns on Shepard and the squad is forced to kill her. As she lies dying, she claims not to see the light promised in asari religion. After Noveria, Shepard can talk to Liara about what happened, but Liara claims she is all right. She prefers to remember Benezia as she was: a kind, beautiful woman who loved her. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Benezia",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#07",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy If Shepard delayed Therum until after Virmire, Liara refused to believe the squad was real until physically released from the barrier, insisting she was conjuring a protective figure to keep from going mad, and cringed from the Krogan Battlemaster, begging Shepard not to let him take her. At the debrief, hearing the evidence of the Reapers, the Cipher from Feros and Shepard's beacon visions, she reacted with anger that her decades of research had been stripped away, calming only when she realized her expertise was the one way to read the vision.",
+      "url": "",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "summary:storyline",
+      "kind": "summary",
+      "page": "Storyline",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page is a chronological plot synopsis of the first-era Mass Effect fiction, running from the First Contact War through the events of Mass Effect.\n\nIn Mass Effect: Evolution (2157), during the turian invasion of Shanxi, mercenary Jack Harper and his colleagues Ben Hislop and Eva Coré captured turian General Desolas Arterius, who was hunting a Prothean artifact, the Arca Monolith. Contact with the Monolith killed Ben (who was resurrected as a \"meta-turian\") and altered Harper. Desolas planned to use the Monolith and a second one hidden beneath Temple Palaven to transform the entire turian race into obedient super-soldiers, until his brother Saren realized the devices were a Reaper de-evolutionary trap and destroyed the temple, killing Desolas. Harper, now believing a dark force would test humanity, founded Cerberus as the Illusive Man.\n\nIn Mass Effect: Revelation (2165), an attack on the Sidon AI research base sent scientist Kahlee Sanders on the run and drew Lieutenant David Anderson, retired hero Jon Grissom (Kahlee's father), and the turian Spectre Saren Arterius into pursuit of batarian financier Edan Had'dah and the missing Dr. Shu Qian. Saren destroyed the refinery, killed Qian and Had'dah, stole Qian's research, and discovered references to a warship called Sovereign; Anderson's Spectre candidacy was sabotaged by Saren's report. Interspersed Foundation and Homeworlds comic entries followed the Cerberus agent Rasa (also called Brooks), Kai Leng, a young Kaidan Alenko at BAaT, Kasumi Goto's fatal Bekenstein heist against Donovan Hock, James Vega's family, Mordin Solus's genophage modification work, and Tali'Zorah nar Rayya's disastrous Pilgrimage.\n\nThe Mass Effect section recapped Commander Shepard's game: the Eden Prime attack in which Saren killed Nihlus Kryik and Shepard touched a Prothean Beacon; Shepard becoming the first human Spectre; recruiting Garrus Vakarian, Urdnot Wrex, Tali and Liara T'Soni; the missions to Therum, Noveria (Matriarch Benezia and the Rachni Queen), Feros (the Thorian and the Cipher) and Virmire (Sovereign revealed as a Reaper, and the death of Kaidan or Ashley); the theft of the Normandy to reach Ilos and Vigil's revelation of the Citadel trap; and the Battle of the Citadel, ending with Saren's death, Sovereign's destruction, and Shepard's choice whether to save the Council.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "Benezia Prothean research Liara"
+    },
+    {
+      "chunk_id": "summary:codex-known-associates",
+      "kind": "summary",
+      "page": "Codex/Known Associates",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The page collected the Mass Effect 3 Codex biographies of Commander Shepard's known associates. Admiral Steven Hackett, born in Buenos Aires in 2134, rose from enlisted man to command the Fifth Fleet at the Battle of the Citadel and then the whole Alliance military. Admiral David Anderson, born in London in 2137, was the first N7 graduate and the Normandy's original captain before handing command to Shepard; he briefly served as the first human Councilor (or as Councilor Udina's military advisor) before returning to duty, in both accounts becoming entangled in a Cerberus plot against his friend Kahlee Sanders. Dr. Liara T'Soni, born on Thessia in 2077, was an asari Prothean researcher and biotic, only child of the late Matriarch Benezia, who became an information broker after serving aboard the Normandy. EDI, the Enhanced Defense Intelligence, was the rebuilt Normandy SR-2's AI, given full ship control by pilot Jeff \"Joker\" Moreau during a Collector attack.\n\nGarrus Vakarian was a turian sharpshooter and former C-Sec officer who investigated Saren Arterius, later operated on Omega as the vigilante Archangel, and became head of a turian Reaper task force. Major Kaidan Alenko, a human biotic with failing L2 implants, led the Alliance's Special Operations Biotics Division. Lieutenant Commander Ashley Williams, born 2158, was the sole survivor of her unit on Eden Prime and later the Normandy's gunnery chief. Tali'Zorah, a quarian machinist born on the liveship Rayya in 2161, recovered geth evidence against Saren during her Pilgrimage and later survived a geth attack on Haestrom. Dr. Mordin Solus was a salarian Special Tasks Group geneticist who had worked to perpetuate the genophage and ran a clinic on Omega. Jacob Taylor was a former Alliance marine and Corsair who became a Cerberus operative under Miranda Lawson. Miranda Lawson, genetically engineered from her father's DNA in 2150, headed Project Lazarus, which revived Shepard. Dr. Karin Chakwas served as the Normandy's trauma surgeon under Anderson and Shepard, was kidnapped by the Collectors, and later rejoined the Alliance. Most associates had left Cerberus or had unknown current whereabouts.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Known_Associates",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "characters-mass-effect-2_004",
+      "kind": "page",
+      "page": "Characters/Mass Effect 2",
+      "section": "Temporary Squad Members",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  |  |  |  |  | | --- | --- | --- | --- | --- | | **Dr. Amanda Kenson** |  | **Liara T'Soni** |  | **Wilson** |",
+      "url": "https://masseffect.fandom.com/wiki/Characters/Mass_Effect_2",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "summary:nyxeris",
+      "kind": "summary",
+      "page": "Nyxeris",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Nyxeris was an asari assistant to Liara T'Soni on Illium in Mass Effect 2 and, secretly, an agent of the Shadow Broker known as the Observer. As part of her cover she minded the door outside Liara's office and supplied her nominal employer with supplemental data, professing that it was an honor to work with her and remarking that Liara could wield more political power if she were not focused on personal goals. As the Observer she was ruthless but pragmatic; scattered logs showed she issued kill orders and framed associates for them, but would rescind orders when there was a benefit.\n\nDuring Shepard's assignment \"The Observer\" for Liara to investigate the Broker's agent, Nyxeris' identity could either be exposed or she could remain undercover for lack of evidence. If Shepard told Liara the Observer was female, Liara summoned Nyxeris into her office. On Shepard's next visit Liara stated she had killed Nyxeris, noting that \"her barriers needed practice. Practice I'm afraid she won't be getting,\" and that had Nyxeris been ordered to assassinate her, Liara would never have seen it coming. Her name combines Nyx and Eris, Greek goddesses of night and discord. With Lair of the Shadow Broker installed, telling Liara the relevant intel could send her home before the assignment was finished, causing Nyxeris to simply walk off screen as the mission auto-completed.",
+      "url": "https://masseffect.fandom.com/wiki/Nyxeris",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "nyxeris_001",
+      "kind": "page",
+      "page": "Nyxeris",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | **Nyxeris** is an assistant to Liara T'Soni on Illium. Secretly, Nyxeris is an agent of the Shadow Broker, known as the Observer. As part of her cover duties Nyxeris minds the door outside Liara's office. She provides her nominal boss with supplemental data, claiming it's an honor to work with her. She's impressed with Liara's rise among the information broker community, claiming Liara could wield more political power if she wasn't focused on her personal goals, though she cuts off her assessment as she believes Liara should be the one to tell Commander Shepard that. As the Observer, Nyxeris is ruthless but pragmatic in dealing with her enemies. Scattered logs indicate she has no qualms issuing kill orders and framing her associates for it, but will rescind them if there's a benefit. During Shepard's assignment for Liara to investigate the Observer, her true identity can be revealed or she may stay undercover due to lack of evidence. If Shepard tells Liara that the Observer is a female she will call Nyxeris into her office. The next time Shepard goes to visit Liara, she mentions that she killed Nyxeris, saying that \"her barriers needed practice. Practice I'm afraid she won't be getting.\" Liara had a high opinion of her talents though, claiming if Nyxeris had been ordered to assassinate her she would have never seen it coming.",
+      "url": "https://masseffect.fandom.com/wiki/Nyxeris",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "steven-hackett_002",
+      "kind": "page",
+      "page": "Steven Hackett",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*See also: Codex/Known Associates\\#Steven Hackett* Hackett was born in Buenos Aires in 2134\\. When his mother died in 2146, he was placed in the Advanced Training Academy for Juveniles, where his affinity for science and leadership quickly became evident. Hackett enlisted in 2152, volunteering for high\\-risk missions to colonize space beyond the Sol Relay. He was commissioned as a second lieutenant in 2156 and participated in the First Contact War the following year. His rare ascent from enlisted man to admiral remains an Alliance legend. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Steven_Hackett",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "scene:mars-archives-eva-shoots-ashley#02",
+      "kind": "scene",
+      "page": "Dr. Eva Guns Down the Virmire Survivor on Mars",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "mars-archives-eva-shoots-ashley",
+      "text": "Dr. Eva Guns Down the Virmire Survivor on Mars. 2186, Priority: Mars, during the Reaper invasion of Earth the Prothean archives dig site on Mars, from the facility to the rooftop landing pad Inside, Shepard reunited with Dr. Liara T'Soni, who revealed she had found Prothean plans for a device — the Crucible — capable of stopping the Reapers, and that Cerberus was there to seize them. Shepard sent Vega back to guard the shuttle and took Liara forward through the complex, learning that the Cerberus operatives had been implanted with Reaper technology.",
+      "url": "",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "war-assets-alien_007",
+      "kind": "page",
+      "page": "War Assets/Alien",
+      "section": "Shadow Broker Wet Squad",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Found: Krogan DMZ, Dranek, Rothla **Military Strength:** 25 As the new Shadow Broker, Liara T'Soni has the loyalty of her predecessor's assassination squad, a small but lethal team of soldiers called on for the rare occasion when information isn't enough to silence a target. Their methods vary with each mission: from subtle poisonings to bombing entire buildings, the wet squad is dedicated to whatever range of destruction the new Broker requires. Dr. T'Soni has put them to work against the Reapers and Cerberus.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alien",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "mass-effect-system-guide_014",
+      "kind": "page",
+      "page": "Mass Effect System Guide",
+      "section": "Pangaea Expanse",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Pangaea Expanse* #### Refuge System *Main article: Refuge* - Unlocked shortly after finding Dr. Liara T'Soni and completing the missions on Feros, Noveria, and Virmire. Please see the Mass Effect Guide for more information. - Scannable from Normandy *Nothing* - Missions on Ilos - Ilos is a mission world. Please see the Ilos Walkthrough for more information.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_System_Guide",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "mass-effect-cut-content_006",
+      "kind": "page",
+      "page": "Mass Effect Cut Content",
+      "section": "Caleston/Therum",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Find Liara T'Soni – this mission originally took place on Caleston, and the search for Liara T'Soni started in the Throw Down mining station.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Cut_Content",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "codex_002",
+      "kind": "page",
+      "page": "Codex",
+      "section": "Primary Codex Entries",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "These consist of 14 subcategories which define different areas of interest within the game that are key to the storyline of Mass Effect. All Primary Council, Non\\-Council, and Extinct race entries must be found in order to unlock the Scholar Achievement in the original Mass Effect. Organizations is a subcategory added by Mass Effect 2 and The Reapers and Known Associates subcategories were added in Mass Effect 3\\. The M\\-597 Ladon exclusive to Wii U versions of Mass Effect 3 sits on its own primary entry. - Aliens: Council Races - Aliens: Extinct Races - Aliens: Non\\-Council Races - Aliens: Non\\-Sapient Creatures - Citadel and Galactic Government - Humanity and the Systems Alliance - Known Associates - M\\-597 Ladon - Organizations - Planets and Locations - Ships and Vehicles - Technology - The Reapers - Weapons, Armor and Equipment",
+      "url": "https://masseffect.fandom.com/wiki/Codex",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "scene:normandy-liara-pureblood-conversation#01",
+      "kind": "scene",
+      "page": "Liara Talks About Her Father",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "normandy-liara-pureblood-conversation",
+      "text": "Liara Talks About Her Father. 2183, during the hunt for Saren, between missions aboard the Normandy the Normandy's medical bay, where Liara keeps to herself Between missions Shepard draws Liara T'Soni out about her parentage. She explains the asari term \"pureblood\" — the child of two asari, spoken of by some as wasteful because \"nothing has been gained,\" and cruel to say to a pureblood's face.",
+      "url": "",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "scene:redemption-liara-feron-hunt-shepards-body#01",
+      "kind": "scene",
+      "page": "Liara Hires Feron to Find Shepard",
+      "section": "mission-aside",
+      "game": "Mass Effect: Redemption",
+      "scene_id": "redemption-liara-feron-hunt-shepards-body",
+      "text": "Liara Hires Feron to Find Shepard. 2183, roughly two months after the Normandy SR-1 was destroyed, during Liara's search for Shepard an ambush site, a Cerberus meeting with the Illusive Man, and the Afterlife Club on Omega Liara T'Soni hired the drell information trafficker Feron to help find Commander Shepard. He told her Shepard was neither dead nor alive; she insisted on searching anyway.",
+      "url": "",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "scene:illium-samara-recruitment-oath#01",
+      "kind": "scene",
+      "page": "Samara's Oath on Illium",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "illium-samara-recruitment-oath",
+      "text": "Samara's Oath on Illium. 2185, after Horizon the commercial spaceport and Eclipse hideout of Nos Astra on Illium On Illium, Liara T'Soni directs Shepard to Tracking Officer Dara, who places the justicar Samara at the commercial spaceport.",
+      "url": "",
+      "for_key": "Dr. Liara T'Soni Codex Known Associates"
+    },
+    {
+      "chunk_id": "barrier_003",
+      "kind": "page",
+      "page": "Barrier",
+      "section": "Talent Ranks",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "1. **Level 1:** *Barrier*: **Absorbs:** 400 points **Duration:** 10 sec **Recharge Time:** 60 sec **Accuracy Cost:** 80% 2. **Level 2:** Increases Barrier duration to 10\\.5 sec and shielding to 420\\. 3. **Level 3:** Increases Barrier duration to 11 sec and shielding to 440\\. 4. **Level 4:** Increases Barrier duration to 11\\.5 sec and shielding to 460\\. Unlocks Stasis (Adept). 5. **Level 5:** Increases Barrier duration to 12 sec and shielding to 480\\. Unlocks Stasis (Asari Scientist). 6. **Level 6:** Increases Barrier duration to 12\\.5 sec and shielding to 500\\. Unlocks Stasis (Sentinel, Krogan Battlemaster). 7. **Level 7:** *Advanced Barrier*: **Absorbs:** 700 points **Duration:** 16\\.5 sec **Recharge Time:** 50 sec **Accuracy Cost:** 80% 8. **Level 8:** Increases Barrier duration to 17 sec and shielding to 720\\. 9. **Level 9:** Increases Barrier duration to 17\\.5 sec and shielding to 740\\. 10. **Level 10:** Increases Barrier duration to 18 sec and shielding to 760\\. 11. **Level 11:** Increases Barrier duration to 18\\.5 sec and shielding to 780\\. 12. **Level 12:** *Master Barrier*: **Absorbs:** 1000 points **Duration:** 23 sec **Recharge Time:** 40 sec **Accuracy Cost:** 80%",
+      "url": "https://masseffect.fandom.com/wiki/Barrier",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "asari-adept_002",
+      "kind": "page",
+      "page": "Asari Adept",
+      "section": "Powers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| | **Barrier:** 500 / **Health:** 500 | | | --- | --- | | **Class: Asari Justicar** | | | Stasis |  | | Warp |  | | Throw |  | | Fitness |  | |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Asari_Adept",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "adept_003",
+      "kind": "page",
+      "page": "Adept",
+      "section": "Talents",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*See also: Talents\\#Class Specific* | | **Class: **Adept**** | | --- | | Basic Armor |  | | Pistols | **Unlocked at Basic Armor 5** | | Throw |  | | Lift | **Unlocked at Throw 6** | | Warp |  | | Singularity | **Unlocked at Warp 7** | | Barrier |  | | Stasis | **Unlocked at Barrier 4** | |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Adept",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "sentinel_003",
+      "kind": "page",
+      "page": "Sentinel",
+      "section": "Talents",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*See also: Talents\\#Class Specific* | | **Class: **Sentinel**** | | --- | | Throw |  | | Lift | **Unlocked at Throw 7** | | Barrier |  | | Stasis | **Unlocked at Barrier 6** | | Decryption |  | | Electronics | **Unlocked at Decryption 4** | | First Aid |  | | Medicine | **Unlocked at First Aid 5** | |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Sentinel",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "asari-vanguard_002",
+      "kind": "page",
+      "page": "Asari Vanguard",
+      "section": "Powers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| | **Barrier:** 500 / **Health:** 500 | | | --- | --- | | **Class: Asari Justicar** | | | Biotic Charge |  | | Stasis |  | | Lift Grenade |  | | Fitness |  | |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Asari_Vanguard",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "volus-adept_002",
+      "kind": "page",
+      "page": "Volus Adept",
+      "section": "Powers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| | **Barrier:** 500 / **Health:** 150 | | | --- | --- | | **Class: Volus Training** | | | Stasis |  | | Biotic Orbs |  | | Shield Boost |  | | Fitness |  | |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Volus_Adept",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#02",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster A cutscene at the dig site revealed that Cerberus had excavated a living Prothean held in stasis, and had damaged his lifepod during the dig, leaving his life signs unstable. Liara worked out that opening the pod without killing him needed both a command signal to end stasis and a safe physical method of opening it, each being researched at a separate Cerberus laboratory.",
+      "url": "",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "prothean_007",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Vengeance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ilos was not the only place where Protheans tried to survive in stasis. Nearly one million Prothean warriors and their commander, Javik, were stored in cryogenic lifepods in a bunker facility on Eden Prime. Javik's mission was to lead the warriors in rebuilding the Prothean Empire once the Reaper threat had passed. Before the facility could be sealed, however, indoctrinated traitors leaked its existence to the Reapers. Hundreds of thousands of stasis pods were destroyed in the attack on the facility, killing their occupants. To preserve the few remaining survivors, the facility's VI, Victory, initiated a neutron bombardment to purge Reaper forces. The bombardment also severely damaged the facility and rendered the systems responsible for automatically awakening the Protheans from stasis inoperable. As Javik's survival was a priority, Victory was forced to divert power from the remaining stasis pods to keep Javik's pod working as long as possible in the hope that future civilizations would discover it and revive him. Over 50,000 years after Javik entered stasis, Commander Shepard may discover and activate his pod. With his race destroyed and his mission failed, Javik believes his only remaining purpose is to wreak vengeance on the Reapers by joining Commander Shepard. During the Reaper invasion in 2186, some of the surviving Collectors may be freed from Reaper control through subversion by the ancient race called Leviathans. These \"awakened\" Collectors are the last embers of the extinct Prothean race, also embodying the Prothean virtue of vengeance.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "summary:victory",
+      "kind": "summary",
+      "page": "Victory",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Victory was a Prothean VI that served as overseer of a bunker facility on Eden Prime. During the Reaper invasion 50,000 years before the present, Victory kept the base commander Javik apprised of ongoing threats. Prothean survivors gathered at the facility hoping to enter cryogenic stasis and emerge after the Reapers withdrew into dark space to rebuild the Prothean Empire.\n\nAs Collector ground troops closed in, Javik ordered Victory to broadcast the readiness signal to all lifepods. Victory reminded him of refugees still en route, which Javik dismissed as a necessary sacrifice. Victory reported that Reaper forces had destroyed roughly 300,000 lifepods, a third of the Protheans, and that the northside bulkhead could not be sealed. With the bunker about to be overrun, Victory ordered Javik into his stasis pod and triggered a neutron bombardment, denying his request for a few more minutes for his men to escape and using his own words against him: \"Their sacrifice will be honored in the coming empire.\"\n\nThe blast destroyed the Reaper threat but damaged the base's sensors, making automatic reawakening impossible; the surviving Protheans could only be revived manually when a new culture discovered the facility, risking a power shortage to the stasis pods. Over Javik's protests, Victory said it would triage the base's power supply, and it eventually cut power to all pods except Javik's, appointing him the voice of their people before he entered stasis. Victory's ultimate fate is unknown; if Shepard reawakened Javik in 2186, Victory appeared only in flashbacks. Unlike other degraded Prothean VIs, Victory appeared as a holographic Prothean and could project anywhere in the facility. Whether, like Vigil and Vendetta, it was based on a real Prothean's personality imprint is unknown.",
+      "url": "https://masseffect.fandom.com/wiki/Victory",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#05",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster The pod opened. Shepard spoke with the Prothean on the planet and again back aboard the Normandy; he introduced himself as Javik and joined the squad, found afterward in the port cargo hold. He stayed out of combat until Priority: Palaven was done, saying he was still recovering from stasis.",
+      "url": "",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "javik_002",
+      "kind": "page",
+      "page": "Javik",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In Prothean society, there were many \"Avatars\", Protheans who embodied a single virtue for the society. Javik is one of those Avatars, and his virtue is Vengeance. According to Javik, he was the last of the warriors of the Prothean Empire, born in the midst of the war with the Reapers, a war the Protheans were losing. The Citadel had already fallen long before he was born, and his first memories were of seeing his planet on fire during a Reaper assault. Javik was to be the leader of approximately one million warriors who were to survive the cull via stasis in an underground bunker on Eden Prime. His mission was simple: outlast the invasion in stasis, and once he was awoken, lead the others in a campaign to reclaim the galaxy. Unfortunately, indoctrinated traitors in their ranks foiled that plan, betraying the bunker's location to the Reapers. As hundreds of thousands of Protheans in stasis were slaughtered by the Collectors, the supervising VI Victory was forced to initiate a neutron purge to clear out the facility while Javik took refuge in his own stasis pod. Unfortunately, the purge compromised the bunker's sensor systems, rendering automatic reactivation of the remaining stasis pods impossible. Since Javik now had to remain in stasis indefinitely until a new culture discovered the facility, Victory determined that power needs for the last intact pods had to be triaged. In the end, only Javik would be reawakened.",
+      "url": "https://masseffect.fandom.com/wiki/Javik",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "summary:priority-eden-prime",
+      "kind": "summary",
+      "page": "Priority: Eden Prime",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Eden Prime was a Mass Effect 3 mission added by the Mass Effect 3: From Ashes DLC (included by default in Legendary Edition), available after Priority: The Citadel I and completable any time before Priority: Cerberus Headquarters. An Alliance message reported that Cerberus had attacked and occupied the Eden Prime colony to secure a major Prothean artifact, and tasked Shepard with infiltrating the colony to recover it. Liara T'Soni was a mandatory squadmate, and the opposition was heavily shielded Cerberus infantry, turrets, and an Atlas mech.\n\nOn landing, the team learned that Cerberus had excavated a living Prothean held in stasis, whose lifepod had been damaged during the dig, leaving his life signs unstable. Opening the pod without killing him required both a command signal to end stasis mode and a safe physical method of opening it, each being researched at a separate Cerberus laboratory. Shepard fought through the colony to both labs. At the terminals, Shepard's eyes glowed green while viewing footage the Protheans had recorded: scenes of Prothean soldiers and the VI \"Victory\" during the Reaper invasion 50,000 years earlier, including the sealing of bunker bulkheads, the destruction of some 300,000 lifepods, and the broadcast of the stasis readiness signal even as refugees still tried to reach shelter. Liara noted she saw only static, and deduced that Shepard's exposure to the Prothean Cipher on Feros (or the Eden Prime beacon in a non-imported game) allowed the Commander to interpret the images.\n\nAfter obtaining both the opening instructions and the command signal, Shepard returned to the pod and transmitted the signal, then defended the site against waves of Cerberus troops and an Atlas that could optionally be hijacked. Opening the pod revealed the Prothean, who introduced himself as Javik and joined the squad as a new squadmate, found afterward in the port cargo hold. He remained unavailable until Priority: Palaven was completed, stating he was still recovering from stasis. Rewards included the Particle Rifle and Cerberus intel feeding the Eden Prime: Resistance Movement side mission.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Eden_Prime",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "summary:asari-adept",
+      "kind": "summary",
+      "page": "Asari Adept",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Asari Adept was a playable character kit in Mass Effect 3's cooperative multiplayer mode, classed as an Asari Justicar. The page opened with lore describing the asari as the most influential and respected sentient species in the galaxy, native to Thessia, the first to discover the Citadel, and long-serving galactic mediators whose proficiency with biotics made them dangerous despite limited physical strength, favoring hit-and-run tactics.\n\nIn gameplay the Asari Adept had 500 barrier and 500 health and access to the powers Stasis, Warp, Throw, and Fitness. Its melee options were a punch sequence, a Heavy Biotic Blast area pulse, and a Biotic Punch grab that dragged an enemy over cover for execution; its dodge was a Biotic Dash that consumed barrier strength. The kit was built around biotic explosions, since Warp and Throw were both long-ranged, enemy-seeking, ammo-free powers that could be chained for a detonation roughly every three seconds. An evolved Stasis, especially with the bubble evolution, could immobilize mobile enemies such as Phantoms and Geth Hunters, force Guardians to drop their shields, and pair well with lightweight sniper rifles like the M-11 Suppressor for easy headshots. Against Reapers, Stasis was less useful on armored units, but biotic explosions dealt double damage to armor and cleared Ravager Swarmers.",
+      "url": "https://masseffect.fandom.com/wiki/Asari_Adept",
+      "for_key": "Prothean stasis barrier"
+    },
+    {
+      "chunk_id": "summary:project-firewalker-prothean-site",
+      "kind": "summary",
+      "page": "Project Firewalker: Prothean Site",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Project Firewalker: Prothean Site was the final Firewalker assignment, acquired after Project Firewalker: Volcano Station. From data recovered at Karumto, Cerberus located Dr. Cayce's last known position on Kopis, a moon orbiting Makhaira in the Hades Nexus, where he had set out to excavate a Prothean site. Scans showed Prothean artifacts protected by a powerful energy barrier and hidden automated defenses.\n\nThe mission began with Shepard's squad in the Hammerhead. The kinetic barrier over the dig site was too strong for weapons, so it had to be brought down by destroying the generators powering it, following the power lines while evading Rocket Drones. Four eezo deposits could be collected outside the base. Once the last generator fell, the barrier dropped and the squad continued into the ruins on foot, passing dead Blue Suns mercenaries hired to guard the site.\n\nLogs and datapads revealed the tragedy: Dr. Robert O'Loy had been indoctrinated by the Reapers and was leaking the team's data to a geth ship, and had made a deal with the Collectors, trading the Prothean find for the safety of his wife Helen's colony. Dr. Cayce discovered O'Loy's betrayal, killed him, then found the Reapers \"still in my head\" and resolved to destroy the relic and himself. Shepard hacked the console and examined the relic—similar to the one on Eletania—which glowed green and shrank to a manageable size, afterward displayed on the coffee table in Shepard's cabin. A follow-up email from Project Firewalker reported that an energy burst during the retrieval contained coded data advancing research on energy transfer and biotics, and that the artifact was inert and not dangerous.",
+      "url": "https://masseffect.fandom.com/wiki/Project_Firewalker:_Prothean_Site",
+      "for_key": "Prothean stasis barrier"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/places.md",
+      "line": 161,
+      "text": "- Therum was a heavy-metal-rich industrial world in the Knossos System (Artemis Tau) claimed by the Systems Alliance, its capital Nova Yekaterinburg; fossils of silicon-based life show it was once more habitable, and its Prothean ruins were mostly looted by mining firms (source: Therum)",
+      "for_key": "therum prothean ruins mining dig"
+    }
+  ],
+  "conflicts": [
+    {
+      "canon_id": "joker-weeb-krogan-waifu",
+      "config_said": "Joker is a weeb. As a joke, the crew gave him a body pillow printed with a krogan woman.",
+      "evidence_said": "scenes/therum-freeing-liara-prothean-ruins.yaml — Cutting Liara Out of the Prothean Barrier on Therum",
+      "resolution": "override 'joker-weeb-krogan-waifu' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "joker-edi-polyamorous",
+      "config_said": "Joker and EDI are technically polyamorous, but neither of them looks for other partners.",
+      "evidence_said": "scenes/therum-freeing-liara-prothean-ruins.yaml — Cutting Liara Out of the Prothean Barrier on Therum",
+      "resolution": "override 'joker-edi-polyamorous' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    },
+    {
+      "canon_id": "kaidan-vegetarian",
+      "config_said": "Kaidan is vegetarian.",
+      "evidence_said": "scenes/therum-freeing-liara-prothean-ruins.yaml — Cutting Liara Out of the Prothean Barrier on Therum",
+      "resolution": "override 'kaidan-vegetarian' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": []
+}

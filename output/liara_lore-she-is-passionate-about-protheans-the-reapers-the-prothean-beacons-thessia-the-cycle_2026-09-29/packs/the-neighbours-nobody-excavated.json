@@ -1,0 +1,1072 @@
+{
+  "section": {
+    "id": "the-neighbours-nobody-excavated",
+    "title": "The Neighbours Nobody Excavated",
+    "target_words": 720,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "Other peoples of the Prothean age known only through one witness: ditakur, enduromi, synril, vandomar, and the densorin, oravores and zha'til, each with what the corpus actually holds",
+    "The zha'til and the star the Protheans sent supernova, placed against her unease at an empire that could do that",
+    "Source criticism of Javik: a living witness whose account she cannot corroborate, and whose account contradicts what little the ground says; she is thrilled and annoyed in one breath",
+    "The Eden Prime bunker as a dig site the war got to first: about a million in stasis, Victory the VI, the traitors who leaked it, and what Shepard did to open the pod"
+  ],
+  "required_facts": [
+    {
+      "event_id": "priority-eden-prime-javik",
+      "fact": "In 2186, during the Reaper War, Cerberus occupied the Alliance colony of Eden Prime after discovering an intact Prothean stasis pod buried in a bunker complex that had sheltered Protheans 50,000 years earlier. Cerberus abducted able-bodied colonists under the cover story that they were doing safe manual labour at a research camp, using increased food rations to quiet complaints, while it researched how to open the pod. A local resistance movement formed to fight the occupation. Alerted by Liara T'Soni to the archaeological find, Commander Shepard landed with a squad, fought through Cerberus troops, Atlas mechs and Nemesis snipers, and raised the buried artifact lift. Shepard recovered the stasis pod and revived its occupant: Javik, the last living Prothean, an \"Avatar of Vengeance\" and military commander from the final cycle of the war against the Reapers. Javik joined the Normandy as a squad member and living repository of Prothean history. In the parallel objective \"Eden Prime: Resistance Movement,\" Shepard could gather three pieces of Cerberus intel from colony terminals, revealing that Cerberus had thinned its northern troops while faking strength, and that Dr. William Cambiata was a Cerberus mole inside the resistance whom Cerberus planned to let \"escape\" as a staged hero. Collecting all three drove Cerberus off Eden Prime and boosted the Eden Prime war asset; the objective became permanently unavailable once the lift was raised.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "priority-eden-prime-javik",
+      "fact": "Javik, the last living Prothean, was revived from stasis and joined Shepard's squad",
+      "actor": "Javik"
+    },
+    {
+      "event_id": "priority-eden-prime-javik",
+      "fact": "Cerberus lost its Prothean research site on Eden Prime",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-eden-prime-javik",
+      "fact": "The abduction of Eden Prime colonists by Cerberus was exposed",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-eden-prime-javik",
+      "fact": "Gathering the resistance intel drove Cerberus off the colony and improved the Eden Prime war asset",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-eden-prime-javik",
+      "fact": "Javik provided firsthand knowledge of the Protheans, the Reapers and the Crucible-era conflict",
+      "actor": "Javik"
+    },
+    {
+      "event_id": "prothean-last-stand-eden-prime-bunker",
+      "fact": "During the Reaper extermination of the Protheans, roughly 50,000 years before Commander Shepard's era, a fortified bunker complex on the world later called Eden Prime served as a refuge where Prothean survivors gathered to enter cryogenic stasis, intending to emerge after the Reapers withdrew into dark space and rebuild the Prothean Empire. The facility was overseen by Victory, a Prothean Virtual Intelligence that appeared as a holographic Prothean and could project itself anywhere in the base, keeping the bunker's commander, the soldier Javik, apprised of the battle. As Collector ground troops closed in, Javik ordered Victory to broadcast the stasis-readiness signal to all lifepods; Victory noted that refugees were still en route, and Javik dismissed their loss as a necessary sacrifice. Victory then reported that Reaper forces had destroyed roughly 300,000 lifepods - about a third of the surviving Protheans - and that the northside bulkhead could not be sealed. With the bunker about to be overrun, Victory ordered Javik into his stasis pod and triggered a neutron bombardment, refusing his request for more time and turning his own words back on him: \"Their sacrifice will be honored in the coming empire.\" The blast destroyed the attacking Reaper forces but damaged the base's sensors, making automatic reawakening impossible; the survivors could only be revived manually if a later civilization discovered the facility. Over Javik's protests, Victory triaged the bunker's dwindling power, eventually cutting power to every stasis pod except Javik's and appointing him the voice of the Prothean people before he entered stasis. Every other Prothean in the bunker died. Javik slept until Shepard's team unearthed and revived him on Eden Prime in 2186, making him the last living Prothean.",
+      "actor": "Javik"
+    },
+    {
+      "event_id": "prothean-last-stand-eden-prime-bunker",
+      "fact": "Roughly 300,000 Prothean lifepods are destroyed by Reaper forces at the bunker",
+      "actor": ""
+    },
+    {
+      "event_id": "prothean-last-stand-eden-prime-bunker",
+      "fact": "Victory's neutron bombardment destroys the attacking Reaper forces but cripples the base's auto-revival sensors",
+      "actor": "Victory"
+    },
+    {
+      "event_id": "prothean-last-stand-eden-prime-bunker",
+      "fact": "Power is cut to every stasis pod except Javik's; all other Protheans in the bunker die",
+      "actor": "Javik"
+    },
+    {
+      "event_id": "prothean-last-stand-eden-prime-bunker",
+      "fact": "Javik is designated the voice of the Prothean people and sealed in stasis for 50,000 years",
+      "actor": "Javik"
+    },
+    {
+      "event_id": "prothean-last-stand-eden-prime-bunker",
+      "fact": "The intact stasis pod is later found by Cerberus and Shepard on Eden Prime, yielding Javik as the last living Prothean",
+      "actor": "Javik"
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "q-2026-09-15-001",
+      "authority": "question",
+      "group": "questions",
+      "prompt": "At Rannoch (peace), did Legion survive, or did it die uploading the Reaper code as in the standard peace ending?",
+      "answer": "Legion died uploading the code as in the game (recorded in choices.yaml me3.rannoch)",
+      "detail": "choices.yaml me3.rannoch = \"Everyone lived and stayed happy\" and geth_quarian detail \"Couldn't lose anyone\", but the corpus peace outcome is \"peace bought by Legion's self-sacrifice\" (codex; scenes/rannoch-the-choice-above-the-fleet). Legion is kept (legion_cerberus) and the heretics were rewritten, so this is real Legion, not the Geth VI."
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "kal_reegar_haestrom",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Haestrom - Kal'Reegar during the retrieval of Tali.",
+      "answer": "ordered to stand down",
+      "detail": ""
+    },
+    {
+      "id": "patriarch_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - the Patriarch's last stand during Aria's arc.",
+      "answer": "Helped him, as his Krantt",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    },
+    {
+      "id": "javik",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Whether Javik joined the squad (From Ashes).",
+      "answer": "yes",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "eden-prime-waking-javik",
+      "title": "Waking the Last Prothean on Eden Prime",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel",
+      "where": "the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster",
+      "participants": [
+        "Shepard",
+        "Liara T'Soni",
+        "Javik"
+      ],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "javik": true
+        }
+      ],
+      "beats": [
+        {
+          "text": "Alliance command reported that Cerberus had attacked and occupied Eden Prime to secure a major Prothean artifact. Shepard infiltrated the colony with Liara T'Soni as a mandatory squadmate; on the shuttle in the team talked about the last time Shepard had been to Eden Prime.\n",
+          "source_chunks": [
+            "priority-eden-prime_002",
+            "priority-eden-prime_003",
+            "priority-eden-prime_004"
+          ]
+        },
+        {
+          "text": "A cutscene at the dig site revealed that Cerberus had excavated a living Prothean held in stasis, and had damaged his lifepod during the dig, leaving his life signs unstable. Liara worked out that opening the pod without killing him needed both a command signal to end stasis and a safe physical method of opening it, each being researched at a separate Cerberus laboratory.\n",
+          "source_chunks": [
+            "priority-eden-prime_005"
+          ]
+        },
+        {
+          "text": "At the lab terminals Shepard's eyes glowed green while watching Prothean footage of the Reaper invasion 50,000 years earlier — the VI Victory sealing bunker bulkheads, some 300,000 lifepods destroyed, the stasis-readiness signal broadcast while refugees were still trying to reach shelter. Liara saw only static, and deduced that Shepard's exposure to the Prothean Cipher on Feros (or the Eden Prime beacon in a non-imported game) let the Commander read the images.\n",
+          "source_chunks": [
+            "priority-eden-prime_006",
+            "priority-eden-prime_007"
+          ]
+        },
+        {
+          "text": "Shepard returned to the pod, transmitted the command signal, and held the site against waves of Cerberus troops and an Atlas mech.\n",
+          "source_chunks": [
+            "priority-eden-prime_009"
+          ]
+        },
+        {
+          "text": "The pod opened. Shepard spoke with the Prothean on the planet and again back aboard the Normandy; he introduced himself as Javik and joined the squad, found afterward in the port cargo hold. He stayed out of combat until Priority: Palaven was done, saying he was still recovering from stasis.\n",
+          "source_chunks": [
+            "priority-eden-prime_009",
+            "priority-eden-prime_010"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "eden-prime-beacon-mission"
+      ],
+      "related_events": [
+        "priority-eden-prime-javik"
+      ],
+      "source_chunks": [
+        "priority-eden-prime_002",
+        "priority-eden-prime_003",
+        "priority-eden-prime_004",
+        "priority-eden-prime_005",
+        "priority-eden-prime_006",
+        "priority-eden-prime_007",
+        "priority-eden-prime_009",
+        "priority-eden-prime_010"
+      ],
+      "private_to": [],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "eden-prime-waking-javik": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#03",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster At the lab terminals Shepard's eyes glowed green while watching Prothean footage of the Reaper invasion 50,000 years earlier — the VI Victory sealing bunker bulkheads, some 300,000 lifepods destroyed, the stasis-readiness signal broadcast while refugees were still trying to reach shelter. Liara saw only static, and deduced that Shepard's exposure to the Prothean Cipher on Feros (or the Eden Prime beacon in a non-imported game) let the Commander read the images.",
+      "url": "",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#05",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster The pod opened. Shepard spoke with the Prothean on the planet and again back aboard the Normandy; he introduced himself as Javik and joined the squad, found afterward in the port cargo hold. He stayed out of combat until Priority: Palaven was done, saying he was still recovering from stasis.",
+      "url": "",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "summary:mass-effect-3-from-ashes",
+      "kind": "summary",
+      "page": "Mass Effect 3: From Ashes",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Mass Effect 3: From Ashes was a DLC pack for Mass Effect 3, accidentally revealed February 21, 2012 when Microsoft made it available over Xbox Live, and released alongside the game on March 6, 2012. In its story, Cerberus attacks Eden Prime and takes over a human colony while stretched-thin Alliance forces cannot respond; intel shows Cerberus is after a Prothean artifact it has found, and Shepard infiltrates the colony to recover it. The artifact proves to be Javik, the last surviving Prothean, who joins as a permanent squad member and provides lore about the last days of the Prothean empire before the Reapers wiped out the species.\n\nContent comprised the squadmate Javik, two missions (Priority: Eden Prime and Eden Prime: Resistance Movement), the Prothean Particle Rifle, and a new alternate outfit for every squadmate. It was free with the N7 Collector's Edition and Digital Deluxe Edition, sold separately for 800 BioWare Points or $10.00 USD, included with the Wii U Special Edition, and is part of Mass Effect Legendary Edition.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3:_From_Ashes",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#01",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster Alliance command reported that Cerberus had attacked and occupied Eden Prime to secure a major Prothean artifact. Shepard infiltrated the colony with Liara T'Soni as a mandatory squadmate; on the shuttle in the team talked about the last time Shepard had been to Eden Prime.",
+      "url": "",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "javik_002",
+      "kind": "page",
+      "page": "Javik",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In Prothean society, there were many \"Avatars\", Protheans who embodied a single virtue for the society. Javik is one of those Avatars, and his virtue is Vengeance. According to Javik, he was the last of the warriors of the Prothean Empire, born in the midst of the war with the Reapers, a war the Protheans were losing. The Citadel had already fallen long before he was born, and his first memories were of seeing his planet on fire during a Reaper assault. Javik was to be the leader of approximately one million warriors who were to survive the cull via stasis in an underground bunker on Eden Prime. His mission was simple: outlast the invasion in stasis, and once he was awoken, lead the others in a campaign to reclaim the galaxy. Unfortunately, indoctrinated traitors in their ranks foiled that plan, betraying the bunker's location to the Reapers. As hundreds of thousands of Protheans in stasis were slaughtered by the Collectors, the supervising VI Victory was forced to initiate a neutron purge to clear out the facility while Javik took refuge in his own stasis pod. Unfortunately, the purge compromised the bunker's sensor systems, rendering automatic reactivation of the remaining stasis pods impossible. Since Javik now had to remain in stasis indefinitely until a new culture discovered the facility, Victory determined that power needs for the last intact pods had to be triaged. In the end, only Javik would be reawakened.",
+      "url": "https://masseffect.fandom.com/wiki/Javik",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#04",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster Shepard returned to the pod, transmitted the command signal, and held the site against waves of Cerberus troops and an Atlas mech.",
+      "url": "",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "victory_001",
+      "kind": "page",
+      "page": "Victory",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | **Victory** was a Prothean VI overseer of a bunker facility on Eden Prime. During the Reaper invasion of the planet 50,000 years before the present, Victory kept its base commander Javik apprised of then\\-ongoing threats to the bunker. With extinction at the hands of the Reapers seemingly inevitable, Prothean survivors have gathered at the facility. It was here that the survivors hoped to enter cryogenic stasis, emerging after the Reapers have reentered dark space to rebuild the Prothean Empire. As Collector ground troops closed in on the facility, Javik instructed Victory to broadcast the readiness signal to all lifepods. Victory reminded Javik of the refugees who have yet to reach the bunker, which Javik dismissed as a necessary sacrifice. As Javik and others fought to seal off the base, Victory informed Javik that Reaper forces have destroyed approximately 300,000 lifepods—a third of the Protheans. Victory later notified Javik that the northside bulkhead cannot be sealed, and relayed Javik's orders for all forces to converge there. The bunker soon fell in danger of being overrun despite the defenders' efforts. With no other options remaining, Victory ordered Javik into his stasis pod and set off the neutron bombardment. It denied Javik's protests for a few more minutes' reprieve for his men and other online pods to safely escape the purge, as it used Javik's own words against him: \"Their sacrifice will be honored in the coming empire.\" The blast eliminated the Reaper threat but damaged the base's sensors and made it impossible for automatic reawakening. This meant that the remaining Protheans can only be reawakened manually when a new culture discovers the facility, which may result in a shortage of power to the stasis pods. Over Javik's protests to not shut down any pods, Victory said it will triage the base's power supply appropriately. As Javik is the only known Prothean survivor, it would appear that Victory was eventually forced to cut power to all pods except for Javik's. It appointed him as the voice of their people shortly before Javik went into stasis. Victory's ultimate fate is unknown. If Commander Shepard reawakens Javik in 2186, Victory is neither seen nor heard from except in flashbacks induced by contact with Prothean data and Javik himself. Unlike other degraded Prothean VIs encountered by Shepard from 2183 onwards, Victory appears just like a holographic Prothean. It can be projected anywhere in the facility, and like Vendetta it can simulate ambulatory movement when necessary. The other known Prothean VIs, Vigil and Vendetta, were created using personality imprints from actual Protheans. It is unknown if this is the case with Victory and if so, from whose personality imprints it is based.",
+      "url": "https://masseffect.fandom.com/wiki/Victory",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "summary:victory",
+      "kind": "summary",
+      "page": "Victory",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Victory was a Prothean VI that served as overseer of a bunker facility on Eden Prime. During the Reaper invasion 50,000 years before the present, Victory kept the base commander Javik apprised of ongoing threats. Prothean survivors gathered at the facility hoping to enter cryogenic stasis and emerge after the Reapers withdrew into dark space to rebuild the Prothean Empire.\n\nAs Collector ground troops closed in, Javik ordered Victory to broadcast the readiness signal to all lifepods. Victory reminded him of refugees still en route, which Javik dismissed as a necessary sacrifice. Victory reported that Reaper forces had destroyed roughly 300,000 lifepods, a third of the Protheans, and that the northside bulkhead could not be sealed. With the bunker about to be overrun, Victory ordered Javik into his stasis pod and triggered a neutron bombardment, denying his request for a few more minutes for his men to escape and using his own words against him: \"Their sacrifice will be honored in the coming empire.\"\n\nThe blast destroyed the Reaper threat but damaged the base's sensors, making automatic reawakening impossible; the surviving Protheans could only be revived manually when a new culture discovered the facility, risking a power shortage to the stasis pods. Over Javik's protests, Victory said it would triage the base's power supply, and it eventually cut power to all pods except Javik's, appointing him the voice of their people before he entered stasis. Victory's ultimate fate is unknown; if Shepard reawakened Javik in 2186, Victory appeared only in flashbacks. Unlike other degraded Prothean VIs, Victory appeared as a holographic Prothean and could project anywhere in the facility. Whether, like Vigil and Vendetta, it was based on a real Prothean's personality imprint is unknown.",
+      "url": "https://masseffect.fandom.com/wiki/Victory",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "prothean_007",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Vengeance",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ilos was not the only place where Protheans tried to survive in stasis. Nearly one million Prothean warriors and their commander, Javik, were stored in cryogenic lifepods in a bunker facility on Eden Prime. Javik's mission was to lead the warriors in rebuilding the Prothean Empire once the Reaper threat had passed. Before the facility could be sealed, however, indoctrinated traitors leaked its existence to the Reapers. Hundreds of thousands of stasis pods were destroyed in the attack on the facility, killing their occupants. To preserve the few remaining survivors, the facility's VI, Victory, initiated a neutron bombardment to purge Reaper forces. The bombardment also severely damaged the facility and rendered the systems responsible for automatically awakening the Protheans from stasis inoperable. As Javik's survival was a priority, Victory was forced to divert power from the remaining stasis pods to keep Javik's pod working as long as possible in the hope that future civilizations would discover it and revive him. Over 50,000 years after Javik entered stasis, Commander Shepard may discover and activate his pod. With his race destroyed and his mission failed, Javik believes his only remaining purpose is to wreak vengeance on the Reapers by joining Commander Shepard. During the Reaper invasion in 2186, some of the surviving Collectors may be freed from Reaper control through subversion by the ancient race called Leviathans. These \"awakened\" Collectors are the last embers of the extinct Prothean race, also embodying the Prothean virtue of vengeance.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "collector_003",
+      "kind": "page",
+      "page": "Collector",
+      "section": "Origins",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Collectors arose during the closing years of the Reapers' harvest of the Protheans. The Reapers subjected captured Protheans to extensive genetic experimentation and implanted them with cybernetics. Eventually, the end result was the Collectors, a race of completely subservient creatures that the Reapers could remotely use as tools. Collectors were deployed against the last Protheans at the end of their cycle. A Prothean plan to place one million of their kind in stasis in bunkers on Eden Prime to wait out the Reapers and then rebuild their empire failed after indoctrinated agents alerted the Reapers. While Reapers razed the Prothean surface cities, Collector Drones infiltrated the bunker system and destroyed hundreds of thousands of occupied stasis pods. In the end, only the Prothean Javik would survive the onslaught. Once the Reapers concluded their harvest, they departed the galaxy and returned to dark space, while the Collectors retreated beyond the Omega 4 Relay. |  | ***“I know when something's not right.”*** — Spoilers for **Mass Effect: Incursion** follow. |  | | --- | --- | --- | |  | ***“I said get back!”*** — Spoilers for **Mass Effect: Redemption** follow. |  | | --- | --- | --- | |  | ***“Salvation comes with a cost.”*** — Spoilers for **Mass Effect: Ascension** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Collector",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "summary:javik",
+      "kind": "summary",
+      "page": "Javik",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Javik was the only known survivor of the ancient Prothean race, revived in 2186 after more than 50,000 years in stasis and driven by vengeance against the Reapers for his people's extinction. He was written mainly by John Dombrow and added through the From Ashes DLC, fully integrated into the Legendary Edition.\n\nIn Prothean society, \"Avatars\" each embodied a single virtue; Javik's was Vengeance. Born mid-war on a galaxy already losing to the Reapers, he was to lead roughly one million warriors who would outlast the invasion in stasis in an underground bunker on Eden Prime, then reclaim the galaxy. Indoctrinated traitors betrayed the bunker to the Reapers, and the Collectors slaughtered the sleeping Protheans. The supervising VI Victory initiated a neutron purge that damaged the bunker's sensors, making mass reactivation impossible; power was triaged so that only Javik would wake.\n\nCommander Shepard and Liara T'Soni uncovered and opened his pod on Eden Prime while investigating Cerberus. Javik attacked them on waking, then agreed to join the fight to destroy the Reapers. Through touch he could read biological memories and instantly learned human language. He held imperialist, social-Darwinist views: he preached the \"Cosmic Imperative,\" dismissed mercy, morality, and friendship as weakness, believed allies were merely resources, and thought the modern \"primitive\" races should be forced to help rather than asked. He refused to use names, referring to people by species or job. He took Grunt's former quarters aboard the Normandy and clashed repeatedly with the crew, especially EDI, whose capacity for choice he found troubling, and Liara, whose persistent questions and asari heritage he needled. He recounted Prothean history with the rachni (bred as weapons), the zha and synthetic zha'til, the densorin, and the asari, whom the Protheans secretly \"guided\" as this cycle's best hope, a claim that nearly provoked Liara to violence over events on Thessia.\n\nIf persuaded to use his Prothean Echo Shard, Javik relived hunting down and killing his own indoctrinated crew, concluding that war is atrocity committed for survival. Asked what he would do after the war, he might choose to return to the Cronian Nebula to take his own life and rejoin his comrades, or, if reconciled with Liara, co-author a book with her titled \"Journeys with the Prothean,\" or live among the hanar on Kahje. In the Citadel DLC he starred alongside Shepard in \"Blasto 7: Blasto Goes to War.\" If Shepard lacked sufficient forces, Javik could be killed by Harbinger in the final push; if he survived, he honored Shepard at the Memorial Wall. \"Javik\" derives from the Hindi word for \"biological\" or \"organic.\"",
+      "url": "https://masseffect.fandom.com/wiki/Javik",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "mass-effect-3-from-ashes_003",
+      "kind": "page",
+      "page": "Mass Effect 3: From Ashes",
+      "section": "Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- One squad member: - Javik - Two missions: - Priority: Eden Prime - Eden Prime: Resistance Movement - One weapon: - Particle Rifle - One additional alternate outfit for all squadmates.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3:_From_Ashes",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "prothean_011",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Notable Protheans",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Janiri \\- One of the guides of mythical asari goddess Athame; Janiri helped bring enlightenment to the ancient asari and taught them agriculture. - Javik \\- Commander in charge of a secret military operation on Eden Prime and the last known living Prothean. - Ksad Ishan \\- Overseer of the Ilos research facility; his personality was the basis for Vigil, the facility's managing VI. - Lucen \\- One of the guides of Athame; Lucen taught the ancient asari about the stars. - Pashek Vran \\- Overseer of the Crucible project, killed in the battle of Tranbir 9 before the project was finished; his personality was the basis for Vendetta, a Prothean VI stored in an archive on Thessia.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "summary:priority-eden-prime",
+      "kind": "summary",
+      "page": "Priority: Eden Prime",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Eden Prime was a Mass Effect 3 mission added by the Mass Effect 3: From Ashes DLC (included by default in Legendary Edition), available after Priority: The Citadel I and completable any time before Priority: Cerberus Headquarters. An Alliance message reported that Cerberus had attacked and occupied the Eden Prime colony to secure a major Prothean artifact, and tasked Shepard with infiltrating the colony to recover it. Liara T'Soni was a mandatory squadmate, and the opposition was heavily shielded Cerberus infantry, turrets, and an Atlas mech.\n\nOn landing, the team learned that Cerberus had excavated a living Prothean held in stasis, whose lifepod had been damaged during the dig, leaving his life signs unstable. Opening the pod without killing him required both a command signal to end stasis mode and a safe physical method of opening it, each being researched at a separate Cerberus laboratory. Shepard fought through the colony to both labs. At the terminals, Shepard's eyes glowed green while viewing footage the Protheans had recorded: scenes of Prothean soldiers and the VI \"Victory\" during the Reaper invasion 50,000 years earlier, including the sealing of bunker bulkheads, the destruction of some 300,000 lifepods, and the broadcast of the stasis readiness signal even as refugees still tried to reach shelter. Liara noted she saw only static, and deduced that Shepard's exposure to the Prothean Cipher on Feros (or the Eden Prime beacon in a non-imported game) allowed the Commander to interpret the images.\n\nAfter obtaining both the opening instructions and the command signal, Shepard returned to the pod and transmitted the signal, then defended the site against waves of Cerberus troops and an Atlas that could optionally be hijacked. Opening the pod revealed the Prothean, who introduced himself as Javik and joined the squad as a new squadmate, found afterward in the port cargo hold. He remained unavailable until Priority: Palaven was completed, stating he was still recovering from stasis. Rewards included the Particle Rifle and Cerberus intel feeding the Eden Prime: Resistance Movement side mission.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Eden_Prime",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "mass-effect-3-from-ashes_002",
+      "kind": "page",
+      "page": "Mass Effect 3: From Ashes",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Cerberus has attacked Eden Prime and taken over a human colony. Alliance forces are stretched too thin fighting the Reapers and are unable to offer support. Intel indicates that Cerberus is after a Prothean artifact and has found it. Shepard must infiltrate the colony and recover the artifact. From Ashes includes a powerful new and permanent squad member – the last surviving Prothean. Learn more about the last days of the Prothean empire, before the Reapers wiped out their race. From Ashes also includes a new weapon, the Prothean Particle Rifle, and new appearances for every squad member.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3:_From_Ashes",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "priority-eden-prime_004",
+      "kind": "page",
+      "page": "Priority: Eden Prime",
+      "section": "Walkthrough",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Head to the Exodus Cluster and land on Eden Prime to begin the mission. On the shuttle ride in, the team discusses the last time Shepard was at the colony, and the consequences of what finding more Prothean technology could lead to. If you are playing an imported game, you'll have a short conversation with the squadmate who isn't Liara about your previous mission to Eden Prime; otherwise, you will only tell Liara it's a good thing she's here this time given her expertise on the Protheans.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Eden_Prime",
+      "for_key": "Javik last Prothean bunker Eden Prime"
+    },
+    {
+      "chunk_id": "virtual-intelligence_004",
+      "kind": "page",
+      "page": "Virtual Intelligence",
+      "section": "Notable VIs",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Avina \\- general information VI on the Citadel and Nexus - ExoGeni VI \\- VI at the ExoGeni facility on Feros - Geth VI \\- VI created by the geth to study the Reapers - Hannibal \\- rogue Systems Alliance VI that took over a training ground on Luna - Info Drone (\"Glyph\") \\- the Shadow Broker's personal VI - K \\- short for Keelah Si'yah, the Andromeda Initiative ark's main VI interface that also comes with secretly installed augmented conversational matrices - Liat'Nir \\- the only known Ancestor VI still in existence - Mira \\- VI at the Peak 15 facility on Noveria - Overlord VI \\- hybrid VI developed by Cerberus on Aite - Shepard VI \\- VI based on Commander Shepard; several versions may exist - Vendetta \\- Prothean VI stored in a beacon on Thessia - Victory \\- Prothean VI that oversaw a stasis pod facility on Eden Prime - Vigil \\- Prothean VI that oversaw the lab facility on Ilos",
+      "url": "https://masseffect.fandom.com/wiki/Virtual_Intelligence",
+      "for_key": "Victory Prothean VI Eden Prime"
+    },
+    {
+      "chunk_id": "mass-effect-3-guide_008",
+      "kind": "page",
+      "page": "Mass Effect 3 Guide",
+      "section": "Priority: The Citadel I",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- N7: Cerberus Lab - Priority: Eden Prime - **DLC Mission:** Requires the DLC pack Mass Effect 3: From Ashes. - *Eden Prime: Resistance Movement* - **Progress\\-Sensitive Mission:** This mission cannot be completed if not accomplished during your first and only time on Eden Prime. - *Shrike Abyssal: Prothean Obelisk* - This mission cannot be completed before Priority: Palaven.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_3_Guide",
+      "for_key": "Victory Prothean VI Eden Prime"
+    },
+    {
+      "chunk_id": "prologue-find-the-beacon_001",
+      "kind": "page",
+      "page": "Prologue: Find the Beacon",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- The farms of Eden Prime - The spaceport tram 1/2You are in charge of the ground team dropped onto Eden Prime, an Alliance colony under attack. Your primary goal is to find and secure the Prothean beacon.",
+      "url": "https://masseffect.fandom.com/wiki/Prologue:_Find_the_Beacon",
+      "for_key": "Victory Prothean VI Eden Prime"
+    },
+    {
+      "chunk_id": "eden-prime-resistance-movement_005",
+      "kind": "page",
+      "page": "Eden Prime: Resistance Movement",
+      "section": "Aftermath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If you manage to get all three pieces of intel, you will get an email saying that the resistance pushed Cerberus off Eden Prime. If you do not, then the mission remains uncompleted in Shepard's journal and additional updates to Eden Prime Support War Asset become unattainable as you can never return to Eden Prime once you open the Prothean Artifact.",
+      "url": "https://masseffect.fandom.com/wiki/Eden_Prime:_Resistance_Movement",
+      "for_key": "Victory Prothean VI Eden Prime"
+    },
+    {
+      "chunk_id": "war-assets-alliance_020",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Eden Prime Support",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Mass Effect 3: From Ashes, complete Priority: Eden Prime **Military Strength:** 25 Eden Prime is an agrarian world, producing millions of tons of food that is sold to less arable planets. The Alliance has set up supply lines from this colony to funnel excess provisions to its troops. UPDATED (If one piece of intel during Eden Prime: Resistance Movement is retrieved) **Military Strength:** 25 A few researchers who studied Prothean technology on Eden Prime avoided capture by Cerberus. They've forwarded copies of their work to the Alliance, hoping it can help build the Prothean device found \\[sic] Mars. UPDATED (If two pieces of intel during the Eden Prime: Resistance Movement mission are retrieved) **Military Strength:** 25 Although its military defenses were seriously damaged by the Cerberus invasion, Eden Prime's remaining government has loaned the Alliance several Athabasca\\-class supply freighters. UPDATED (If all three pieces of intel during the Eden Prime: Resistance Movement mission are retrieved) **Military Strength:** 25 Eden Prime's colonists drove Cerberus away from their system entirely. With its shipping lanes secure, the colony is sending out as many supplies and equipment as it can spare.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Victory Prothean VI Eden Prime"
+    },
+    {
+      "chunk_id": "alliance-news-network-information-partners_011",
+      "kind": "page",
+      "page": "Alliance News Network Information Partners",
+      "section": "Eden Prime Resistance Movement",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "If Shepard retrieved Javik from Eden Prime and also enabled its colonists to revolt against their Cerberus occupiers, this email appears in the aftermath. **ANN Alert: New Article on \"Eden Prime\"** --- From: Alliance News Network Information Partners Alliance officials confirm a local resistance movement has successfully pushed Cerberus forces off Eden Prime. Cerberus attacked Eden Prime for reasons that remain unclear and set up facilities to occupy the colony. But after constant attacks from a united populace, Cerberus troops retreated. Alliance officials are sending in evacuation transports now to get colonists off\\-world before Reaper forces reach the colony. \"We owe this victory to the Alliance,\" resistance leader Edward Crabb said in a prepared statement. \"The people of Eden Prime have always been ready to fight, but Alliance intel gave us the tools we needed to push those Cerberus bastards off our planet.\" Many resistance fighters have said they plan to enlist to support the Alliance.",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_News_Network_Information_Partners",
+      "for_key": "Victory Prothean VI Eden Prime"
+    },
+    {
+      "chunk_id": "summary:virtual-intelligence",
+      "kind": "summary",
+      "page": "Virtual Intelligence",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A Virtual Intelligence (VI) was a sophisticated program designed to make computer systems easier to use. VIs were distinct from artificial intelligences such as the geth: they only assisted users and processed data, and although they appeared intelligent, they were not self-aware, merely the product of clever programming. This greatly reduced, though did not eliminate, the risk of a VI exceeding its intended function or rebelling against its creators. Some VIs carried \"personality imprints,\" basing their behavior, speech, and appearance on specific individuals, though it was illegal to model a VI on a living person. The quarians had been attempting to make their \"ancestor VIs\" truly intelligent to achieve a kind of virtual immortality when the geth rebellion halted most synthetic-intelligence research.\n\nVIs varied widely by deployment. They handled extranet search queries, served as tour guides like the Citadel VI Avina, and managed lab and database work like Mira on Noveria. Humans and elcor both used VIs extensively in military operations to process status reports and react faster than organics, with elcor VIs instantly selecting among millions of pre-designed combat gambits. Many armor upgrades used VI enhancements to optimize combat performance or dispense medi-gel, and the L4 biotic implant used VI technology to monitor the user's brain waves and adapt in real time.\n\nA VI that deviated from its programming due to software errors or malicious tampering was called a \"rogue VI.\" Such a VI was not self-aware; going rogue was akin to a software malfunction that caused the VI to fail its function or interpret its duties dangerously. Notable incidents included a Systems Alliance VI at a Luna training facility that went rogue after scientists tried to convert it into a controllable AI and triggered the facility's weapons; the VI on Jarrahe Station that engaged a lockdown killing all scientists aboard; and a Cerberus project on Aite where an experimental hybrid VI became a virus that seized a research facility and its living geth test subjects, killing nearly all personnel present.\n\nNotable VIs listed included Avina (Citadel and Nexus information), the ExoGeni VI on Feros, the geth-created Geth VI studying the Reapers, the rogue Alliance VI Hannibal on Luna, the Shadow Broker's Info Drone \"Glyph,\" the Andromeda ark VI \"K\" (Keelah Si'yah), the last surviving Ancestor VI Liat'Nir, Mira at Peak 15 on Noveria, the Cerberus Overlord VI on Aite, the Shepard VI, the Prothean VI Vendetta on Thessia, the Prothean VI Victory on Eden Prime, and the Prothean VI Vigil on Ilos.",
+      "url": "https://masseffect.fandom.com/wiki/Virtual_Intelligence",
+      "for_key": "Victory Prothean VI Eden Prime"
+    },
+    {
+      "chunk_id": "background-races_009",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Other Identified Races",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Prothean Javik briefly mentions several other spacefaring races who existed at the time of the Prothean Empire 50,000 years ago. - **Ditakur** \\- The aggressive ditakur wiped out the synril. - **Enduromi** \\- The enduromi conquered the vandomar. - **Synril** \\- The synril claimed to have found the path to eternal peace, but were wiped out by the ditakur. - **Vandomar** \\- The vandomar were conquered by the enduromi.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "races_001",
+      "kind": "page",
+      "page": "Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*See also: Background Races* The Milky Way and Andromeda galaxies are populated with countless **races** and species, from advanced star\\-spanning civilizations to dangerous wild creatures.",
+      "url": "https://masseffect.fandom.com/wiki/Races",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "background-races_001",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*See also: Races* The Milky Way and Andromeda galaxies have existed for several billion years. In that time, countless races have attained sentience, forged civilizations, explored the depths of space, and then become extinct. These **background races** are often barely understood by the contemporary civilizations, who have pieced together scant details of a mere handful of ancient races through ruins and artifacts.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "destiny-ascension_008",
+      "kind": "page",
+      "page": "Destiny Ascension",
+      "section": "See Also",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Bonus Content Disc/Technology: Space Vehicles \\- Other Races\\#Image 1 ##",
+      "url": "https://masseffect.fandom.com/wiki/Destiny_Ascension",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "keelah-si-yah_002",
+      "kind": "page",
+      "page": "Keelah Si'yah",
+      "section": "Overview",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "While the Initiative's other arks aside from the Nexus are derived from standard designs and tweaked according to the needs of the majority race per ship, Keelah Si'yah is engineered to accommodate the needs of six distinct races. The vessel is a quarian ship, but the Initiative requested to allow other races to buy or barter their way in. Elcor, drell, volus, batarian, hanar, and quarian applicants all signed up to start fresh away from the Milky Way. The quarians, no strangers to spaceborne living due to their background in the Migrant Fleet, wanted a ship that can be lived on indefinitely while they're looking for suitable worlds to settle on (just in case it turns out there are no suitable worlds). This, along with accounting for the disparate environmental requirements of the passengers, created technical challenges that delayed the vessel's launch. Hephaestus Station, a remote space station in the Caleston Rift, served as Keelah Si'yah's berth during the final stages of its construction and subsequent departure. Keelah Si'yah is captained by Qetsi'Olam vas Keelah Si'yah and her first officer is Commander Senna'Nir vas Keelah Si'yah.",
+      "url": "https://masseffect.fandom.com/wiki/Keelah_Si'yah",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "codex-citadel-and-galactic-government_016",
+      "kind": "page",
+      "page": "Codex/Citadel and Galactic Government",
+      "section": "Treaty of Farixen",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Due to the destructive potential of dreadnoughts, the Council races agreed at the Farixen Naval Conference to fix a ratio of dreadnought construction between themselves. At the top of the pyramid is the peacekeeping turian fleet. Below the turians are the other Council races, currently the asari and salarians. Council associate races are at the bottom. The human Systems Alliance is part of this last group. The ratio of turian to Council to associate dreadnoughts is 5:3:1\\. For every dreadnought humans are permitted to build, the asari have three, and the turians five.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Citadel_and_Galactic_Government",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "summary:races",
+      "kind": "summary",
+      "page": "Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is an index page listing the races and species of the Milky Way and Andromeda galaxies, with under 150 words of real prose. It groups Milky Way entries into Citadel races (asari, drell, elcor, hanar, humans, keepers, salarians, turians, volus), non-Citadel races (batarians, Collectors, geth, krogan, Leviathans, quarians, raloi, Reapers, virtual aliens, vorcha, yahg), historical races (arthenn, densorin, inusannon, oravores, Protheans, rachni, thoi'han, zeioph, zha'til), and various non-sapient creatures. Andromeda entries cover intelligent races (angara, Jardaan, kett, Remnant) and creatures. It contains no standalone lore beyond these listings.",
+      "url": "https://masseffect.fandom.com/wiki/Races",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "cerberus_001",
+      "kind": "page",
+      "page": "Cerberus",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“Strength for Cerberus is strength for every human. Cerberus is humanity.” **Cerberus** is a human\\-supremacist paramilitary group led by the enigmatic Illusive Man. Couching itself as human\\-survivalist, Cerberus' core belief is that humans deserve a greater role in the galactic community, and that the Systems Alliance is too hamstrung by law and public opinion to stand up effectively to the other Citadel races. Cerberus supports the principle that any methods of advancing humanity's ascension are entirely justified, including illegal or dangerous experimentation, terrorism, sabotage and assassination. Cerberus operatives accept that these methods are brutal but believe history will vindicate them. Nevertheless, both the Systems Alliance and the Citadel Council have declared Cerberus to be a terrorist organization and will prosecute identified Cerberus agents accordingly.",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "salarian_013",
+      "kind": "page",
+      "page": "Salarian",
+      "section": "See Also",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- The Art of Mass Effect/Life\\-Forms\\#Salarians - The Art of Mass Effect/Transport\\#Salarian Ships - Bonus Content Disc/The Making of Mass Effect\\#Creating Characters \\& Races - Bonus Content Disc/Creatures: Salarians - Bonus Content Disc/Technology: Space Vehicles \\- Other Races\\#Image 2 - The Art of the Mass Effect Trilogy/Mass Effect\\#Salarians ## - Galactic Codex: Essentials Edition 2183 - Mass Effect: Revelation - Mass Effect: Ascension - Salarians at the Mass Effect: Alien Race Profiles",
+      "url": "https://masseffect.fandom.com/wiki/Salarian",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "summary:codex-update-bring-down-the-sky",
+      "kind": "summary",
+      "page": "Codex/UPDATE: Bring Down the Sky",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This Codex update, added with the Bring Down the Sky DLC, contained a single Secondary entry on translation technology. It noted that humanity remained linguistically divided across languages such as Spanish, Mandarin, Arabic, and Swahili, and that every alien race had a similarly broad range of languages and dialects. Most individuals knew only their mother tongue and relied on machine translation, which a few hundred credits of equipment (handheld PDAs, computers in clothing or jewelry, or sub-dermal implants) could provide in seamless real time; without it, galactic trade and culture would not exist. Governments distributed subsidized translation software updated over the public extranet, often as travelers approached spaceport customs, and even the isolationist batarians supplied up-to-date glossaries, widely assumed to be so they could keep exporting propaganda. Speaking without machine aid was still considered broad-minded and practical, children often took courses in alien languages, and most races could manage the simplified artificial \"trade tongue.\" Some species depended on machine translation entirely: the hanar could not reproduce the spoken language of any humanoid species, and other races could not reproduce hanar bioluminescence without mechanical aid. Newly discovered or obscure races had no machine translation until linguists had studied them.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/UPDATE:_Bring_Down_the_Sky",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "summary:scholar-achievement-guide",
+      "kind": "summary",
+      "page": "Scholar Achievement Guide",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Gameplay guide, not lore. This page explained how to unlock the Scholar achievement in the first Mass Effect, which required discovering a set of Codex entries on alien species before certain characters became unavailable. It listed each required subject and where to obtain it: the Council races (asari, salarians, turians) unlocked automatically at the Council hearing or by talking to the Embassy Receptionist Saphyria; the extinct races (Prothean, rachni) via Nihlus's briefing aboard the Normandy and Avina terminals or Noveria NPCs; and non-Council races (batarians, elcor, geth, hanar, keepers, krogan, quarians, volus) through conversations with ambassadors such as Din Korlack and Calyn, shopkeepers like Delan, Avina terminals, Ashley Williams, Captain Anderson, Chorban, and the Wrex and Tali recruitment missions. It also noted a notification glitch on Xbox 360 where the achievement might not pop, and credited Armando Castillo's GameFAQs guide.",
+      "url": "https://masseffect.fandom.com/wiki/Scholar_Achievement_Guide",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "summary:horse-head-nebula",
+      "kind": "summary",
+      "page": "Horse Head Nebula",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Horse Head Nebula was a star cluster of mostly uninhabited, barely-surveyed planets with modest resourcing prospects. Though within Earth Systems Alliance space and near Citadel space, it sat in a legal grey area for Citadel races; Noveria, one of its worlds, was not part of Citadel space. Cerberus maintained major operations in the cluster: Minuteman Station was located there in 2185, and by 2186 the organization's headquarters (Cronos Station) and at least one outpost lay in out-of-the-way positions within the nebula. Its systems included Pax (containing Noveria), Anadius (containing Cronos Station), Fortuna, Strenuus and Maganlis. Missions set here included the Noveria arc in Mass Effect and Priority: Cerberus Headquarters and N7: Cerberus Fighter Base in Mass Effect 3. The real-world nebula is Barnard 33 in IC 434, first identified by Williamina Fleming in 1888; Mass Effect 3 renders the name \"Horsehead Nebula\" without the space. After acquiring the Normandy SR-2, the Minuteman Station and its surrounding cluster became inaccessible.",
+      "url": "https://masseffect.fandom.com/wiki/Horse_Head_Nebula",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "scene:citadel-keeler-negotiators-request#02",
+      "kind": "scene",
+      "page": "Keeler's Stimulant Request at Flux",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-keeler-negotiators-request",
+      "text": "Keeler's Stimulant Request at Flux. 2183, Citadel, after the Battle of the Citadel outside Flux, the Wards Keeler says if he cannot attend, his assistant Thomas Kent would take over, and disparages Kent as an alien sympathizer who bends over backwards to accommodate the Citadel races, arguing humans instead need to be more aggressive with the salarians.",
+      "url": "",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "scene:citadel-council-me3-refuses-earth#03",
+      "kind": "scene",
+      "page": "The Council Refuses to Defend Earth",
+      "section": "argument",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-council-me3-refuses-earth",
+      "text": "The Council Refuses to Defend Earth. 2186, the Citadel, after Mars (Priority: The Citadel I) the Citadel Council Chambers, then Councilor Udina's office in the Embassies If Shepard's Spectre status had not been restored in the previous game, it was reinstated here. Hackett's follow-up letter cited Emergency War Powers regulations, returned command of the Normandy SR-2, and granted Shepard diplomatic authority to make treaties with non-human races.",
+      "url": "",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "scene:citadel-upper-wards-terra-firma-protest#03",
+      "kind": "scene",
+      "page": "Saracino Seeks Shepard's Endorsement at the Terra Firma Protest",
+      "section": "banter",
+      "game": "Mass Effect",
+      "scene_id": "citadel-upper-wards-terra-firma-protest",
+      "text": "Saracino Seeks Shepard's Endorsement at the Terra Firma Protest. 2183, Citadel, after Sovereign's attack, during shore leave Upper Wards of the Citadel, near the stairs by Flux Saracino, a vehement critic of the Alliance's policy toward alien races, believes humanity should resist alien influences by any means necessary—even militarily in the worst case. He is running for a political office in the Alliance Parliament and considers the support of the first human Spectre invaluable.",
+      "url": "",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "scene:citadel-upper-wards-terra-firma-protest#04",
+      "kind": "scene",
+      "page": "Saracino Seeks Shepard's Endorsement at the Terra Firma Protest",
+      "section": "banter",
+      "game": "Mass Effect",
+      "scene_id": "citadel-upper-wards-terra-firma-protest",
+      "text": "Saracino Seeks Shepard's Endorsement at the Terra Firma Protest. 2183, Citadel, after Sovereign's attack, during shore leave Upper Wards of the Citadel, near the stairs by Flux Saracino asks Shepard to endorse him for a seat in the Alliance parliament. Shepard can agree or refuse the endorsement, possibly believing it would be unwise or that humans need to cooperate with alien races instead. Even if Shepard refuses, Saracino asks whether Shepard would at least make a public statement of support for his candidacy.",
+      "url": "",
+      "for_key": "Background Races Other Identified Races ditakur enduromi synril vandomar"
+    },
+    {
+      "chunk_id": "background-races_008",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Zha'til",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The **zha'til** were a synthetic race that existed at the time of the Protheans. They originated when a race known as the **zha** implanted themselves with symbiotic AI technology to enhance their intelligence in order to survive as their homeworld became inhospitable. The AIs rose up against their masters, seizing control of their bodies and moulding them until no organic traces were left, transforming the zha into synthetic monsters and their offspring into slaves. When the Reapers arrived, they subjugated the AIs, now known as zha'til. The zha'til proceeded to multiply into \"mechanical swarms\" that \"blotted out the sky\". With no other recourse, the Protheans sent the star of the zha's home system into supernova, destroying the zha'til entirely.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "races_004",
+      "kind": "page",
+      "page": "Races",
+      "section": "Historical Races",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  |  |  |  |  | | --- | --- | --- | --- | --- | | **Arthenn** |  | **Densorin** |  | **Inusannon** | |  |  |  |  |  | | **Oravores** |  | **Protheans** |  | **Rachni** | |  |  |  |  |  | | **Thoi'han** |  | **Zeioph** |  | **Zha'til** |",
+      "url": "https://masseffect.fandom.com/wiki/Races",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "prothean_004",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Cataclysm",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the Reapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They were caught completely off\\-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the Citadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems from one another. Worse, records on the Citadel provided the Reapers with access to all of the Protheans' census data and star charts, allowing them to effectively track every Prothean in the galaxy. The Protheans' greatest strength, their unified empire, proved to be their downfall. As the Protheans were united under the leadership of a single governing species with a series of subordinate races, the Reapers were able to quickly undermine the Prothean hierarchy and cause Prothean forces to become scattered when their ruling body had been compromised. In addition, as all the races within the Empire conformed to a single military doctrine, they proved unable to adapt when the Reapers identified and exploited their weaknesses. While their domain crumbled, the Protheans were powerless to defend other races from the Reapers' predations. They ceased all study of primitive species in the hope that the Reapers would deem them too primitive for harvest. It was hoped that some Protheans would survive the Reapers' purge and go on to unite these species to create a new empire. The Protheans' primitive subjects survived and went on to become the present cycle's dominant ones. Other races subjugated under them, however, weren't as lucky. The densorin, a race who had mastered sciences beyond even the Protheans' understanding, attempted to pacify the Reapers by sacrificing their children to them, but this only allowed the Reapers to destroy them more quickly. The zha'til, symbiotic AIs that had been created by a race called the zha to keep themselves alive on their dying homeworld, were subjugated by the Reapers and formed hostile mechanical swarms. They became such a threat that the Protheans were forced to obliterate the zha'til entirely by sending the star of the zha's home system into supernova. Over the next several centuries, the Protheans fought the Reapers from system to system, world to world, and city to city. If necessary, whole colonies were sacrificed and abandoned to the Reapers; while the Reapers concentrated on subsuming the inhabitants of those colonies, the Protheans had time to regroup. In the long run, however, this strategy was extremely costly, depriving the remaining Protheans of whatever infrastructure and manpower they had given up. Inexorably, the Reapers conquered, enslaved, or destroyed Prothean\\-controlled planets. Growing desperate, some Protheans made repeated offers of surrender to the Reapers, but these were always met with silence. In addition to the overt threat of the Reapers, the Protheans had to increasingly deal with enemies from within their own ranks. Indoctrinated Protheans acted as sleeper agents for the Reapers, infiltrating and swiftly betraying their own kind and revealing the Protheans' dwindling hiding places and carefully\\-laid plans to survive the destruction. At some point the Protheans learned of the cycles of galactic destruction through studying the ruins of other extinguished civilizations. Plans for the Crucible, which was based on designs left behind by previous civilizations, were discovered, and the Protheans set about to building one of their own. In the course of the Crucible's construction, some Protheans came to believe that the Reapers could be controlled with the device, but inevitably fell prey to indoctrination as well in their attempts to harness Reaper technology. They sabotaged the Crucible, robbing the Protheans of their last hope to defeat the Reapers. After centuries of careful, systematic work, the Reapers had killed or enslaved every Prothean in the galaxy, and stripped their worlds of resources. Removing all traces of their presence, the Reapers then retreated through the Citadel into dark space and sealed it behind them.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "bosavay_002",
+      "kind": "page",
+      "page": "Bosavay",
+      "section": "Element Zero",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "DATA: Element Zero ANALYSIS: Element Zero ordinarily forms in the aftermath of a supernova. This pocket appears to be naturally occurring, but the circumstances are wrong: could the Scourge be a factor? Awards a random small amount of Element Zero.",
+      "url": "https://masseffect.fandom.com/wiki/Bosavay",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "summary:prothean",
+      "kind": "summary",
+      "page": "Prothean",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans were an ancient race that vanished roughly 50,000 years ago after building a galaxy-wide empire. They were long credited with creating the Citadel and the mass relays, though in truth they only inherited that Reaper technology. Anthropoidal in form, they had two pairs of dual-pupiled eyes, three pairs of nostrils, a layered head carapace, three-fingered hands, and a flanging voice like turians. A unique trait was an experiential exchange system: by touch, a Prothean could absorb another's memories, skills, or language. They had quad-strand DNA, some resistance to low radiation, and at least some members wielded potent biotics.\n\nAfter achieving spaceflight, the Protheans discovered ruins of the earlier inusannon and learned mass effect physics, gaining a centuries-long secret advantage. Facing a hostile machine intelligence, they decided all organic life must unite under their rule; resisting species were conquered and assimilated, coming to call themselves \"Prothean.\" United, they held off the machines in the Metacon War. They observed and cultivated primitive species including asari, hanar, humans, quarians, salarians and turians, intending eventually to offer them the \"choice\" of joining the empire.\n\nThe Reapers arrived around 48,000 BCE, entering through the Citadel, decapitating the government, disrupting the relay network, and using Citadel census data to hunt every Prothean. Their unified empire and single military doctrine became fatal weaknesses. Indoctrinated Protheans acted as sleeper agents. Subject races like the densorin and the AI zha'til were destroyed; the Protheans themselves annihilated the zha'til by sending a star supernova. Some Protheans built a Crucible from designs left by prior civilizations, but indoctrinated builders sabotaged it. After centuries the Reapers killed or enslaved every Prothean and withdrew into dark space.\n\nSurvivors persisted in stasis. On Ilos, the Conduit research team under Ksad Ishan went dark; the VI Vigil cut power to non-essential pods until only about a dozen scientists remained, who later used the Conduit to reach the Citadel and alter the keepers' signal to trap the Reapers. On Eden Prime, nearly a million warriors and their commander Javik were stored; traitors betrayed the site, most pods were destroyed, and the VI Victory kept only Javik's pod alive. Shepard could revive Javik in 2186. Meanwhile the Reapers repurposed captured Protheans into the Collectors, directed by Harbinger to abduct humans for a Human-Reaper.\n\nThe Protheans held evolution, the \"Cosmic Imperative,\" as the universe's driving force. Their influence shaped the asari (uplifted as a possible failsafe), humans (via the Mars archive) and the hanar, who worship them as the \"Enkindlers.\" Notable Protheans included Javik, avatar of vengeance, and the guides Janiri and Lucen of asari myth. Prothean tech included mind-to-mind beacons, memory shards, indoctrination detection, kinetic barrier grids, the Particle Rifle, the flagship Penumbra Apex, and the Conduit.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "antiroprus_003",
+      "kind": "page",
+      "page": "Antiroprus",
+      "section": "Properties",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Antiroprus has already lost too much atmosphere to be classed as a \"hydrogen\\-helium gas giant\" anymore (William Hubbard, *The New Solar System* 4th ed, 1999; p. 194\\). It is now an \"ice giant\" like Neptune or Gliese 436 b. Ming will go supernova before Antiroprus loses its ice layer.",
+      "url": "https://masseffect.fandom.com/wiki/Antiroprus",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "artificial-intelligence_006",
+      "kind": "page",
+      "page": "Artificial Intelligence",
+      "section": "Notable AIs",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Alliance Infiltration Unit Infiltrator - Ancient AI - Catalyst - EDI - \"Eliza\" \\- An experimental Alliance AI created at Gagarin Station. Her operational data is later used for comparative tests that form the basis of a supposedly working AI detector. - Eva Coré - Geth - Legion - Reapers - Harbinger - Sovereign - SAM - SAM\\-E - \"Tallaris\" \\- An asari AI that went rogue, forcing the asari to destroy an entire colony to stop it - \"UDI\" \\- A Cerberus AI aboard the Barn space station - Unnamed AI on the Citadel - Zha'til |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Artificial_Intelligence",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "clugon_003",
+      "kind": "page",
+      "page": "Clugon",
+      "section": "Properties",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The system is no older than 10 million years and the planet is far too small to be a gas giant (although, to their credit, the designers did not claim explicitly that this planet was a gas giant). Clugon is likely a large terrestrial planet; a Tungel with thicker cloud cover. In another system it would attract enough matter and gas to become a Neptune or even a Saturn, but this one will go supernova first.",
+      "url": "https://masseffect.fandom.com/wiki/Clugon",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "manual-two-races-we-never-see-the-reloi-and-the-virtual-aliens_001",
+      "kind": "page",
+      "page": "Two Races We Never See — the Reloi and the \"Virtual Aliens\"",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "**Summary:** Two minor Mass Effect species that never appear in-game, known only from Cerberus Daily News items around 2185–2186: the Reloi, an avian race from the planet Tervest who briefly joined the galactic community and then withdrew rather than face the Reapers; and an unnamed race of \"virtual aliens\" who fled a supernova ~8,000 years ago as roughly a billion uploaded consciousnesses aboard a computer-run starship, and who negotiated asylum by inhabiting the bodies of volunteers.",
+      "url": "",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "summary:mu-relay",
+      "kind": "summary",
+      "page": "Mu Relay",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Mu Relay was a mass relay lost roughly four thousand years before the events of Mass Effect. It was the only relay linking to the Pangaea Expanse and the former Prothean colony of Ilos. A nearby supernova pushed the relay out of its orbit without damaging it, then swathed it in hot gas and dust, making it undetectable because scanners cannot pick up \"cold\" objects in interstellar space.\n\nThe enveloping nebula lay in rachni-controlled space. Matriarch Benezia explained to Commander Shepard that the fiercely territorial rachni, seeking to close all routes into their space, eventually located the relay through sheer numbers of spacefaring ships. When the krogan exterminated the rachni, the coordinates were thought lost forever, but the Rachni Queen resurrected by Binary Helix carried them in genetic memory. Benezia passed the coordinates to Shepard, though Saren Arterius had already obtained them. Because shifting borders now placed the Mu Relay in the Terminus Systems, the Council refused to send the Citadel Fleet through it to Ilos for fear of starting a war, leaving the stealth-equipped SSV Normandy as the only ship able to reach the relay secretly. The relay was likely named after the fabled lost continent of Mu.",
+      "url": "https://masseffect.fandom.com/wiki/Mu_Relay",
+      "for_key": "zha'til zha supernova"
+    },
+    {
+      "chunk_id": "background-races_003",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Densorin",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The **densorin** were a race that existed at the time of the Protheans. At some point, they fought a war against the oravores. When the Reapers invaded the galaxy, the densorin attempted to pacify them by sacrificing their children to them, but this only allowed the Reapers to destroy the densorin more quickly. The densorin are known to have studied celestial mechanics and morphological simulations of galactic language, topics beyond the understanding of even the Protheans.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "background-races_005",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Oravores",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The **oravores** were a spacefaring race that existed at the time of the Protheans. When they attacked the asari homeworld of Thessia to gain control of its vast resources, the Protheans stopped them. This event would later be remembered in asari mythology as when the goddess Athame wielded her sword against jealous gods who threatened the asari. The oravores also fought a war against the densorin.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "javik_009",
+      "kind": "page",
+      "page": "Javik",
+      "section": "Mass Effect 3: Leviathan",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Sometime before assaulting the main Cerberus Headquarters, Shepard receives a mission from Hackett with orders to meet with Dr. Garrett Bryson on the Citadel to search for leads that can help with the war against the Reapers. During this time period, Javik offers a couple of insights relating to their quarry. After the attempt to locate Dr. Bryson's associate Dr. Garneau, Javik tells Shepard that he witnessed many strange things in his war, such as a settlement of densorin studying complex sciences beyond their understanding. At the time, he thought they were crazy, but having seen what happened on the Mahavid asteroid, he can only wonder. After the rescue of Dr. Ann Bryson, Dr. Bryson's daughter, Javik states that if the Leviathan is really a Reaper defector, then it is also a traitor, for traitors among the enemy can't be trusted. If it could betray its own kind, Javik could only imagine what it could do to Shepard. Shepard succeeds in persuading the Leviathans to join the war effort. Onboard the Normandy Javik reveals he's been studying human religion, and comments that the Leviathans deserve the same fate as the Devil for their involvement in creating the Reapers. He compares the abyss Shepard found the Leviathans hiding in to Hell and he hopes they never leave it.",
+      "url": "https://masseffect.fandom.com/wiki/Javik",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "asari_005",
+      "kind": "page",
+      "page": "Asari",
+      "section": "Origins",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The asari arose on Thessia, a rich world with abundant quantities of element zero that caused much of life on Thessia to exhibit biotic tendencies. Instrumental to the rise of asari civilization was the intervention of the Protheans. Upon discovering the asari, the Protheans crafted the guise of Athame, a benevolent goddess who imparted gifts of wisdom to the asari through her guides Janiri and Lucen, a deception that allowed the Protheans to rapidly accelerate asari development. The Protheans also genetically altered the asari to grant them biotic capabilities, and defended Thessia from an asteroid strike and the resource\\-hungry oravores. When the Protheans departed, they left a single beacon on Thessia, around which the asari later built a lavish temple devoted to Athame. This beacon contained Vendetta, a Prothean VI, and over the following centuries was the source of countless technological advances that allowed the asari to eventually become the most powerful race in the galaxy. The beacon's existence became a closely\\-held state secret, as its revelation would have discredited the virtually universal belief that the asari attained such heights on their own merit. By 2183 CE, few outside the highest echelons of the asari government were aware of the part the Protheans played in asari history. 30,000 years prior to the modern era, the asari developed their equivalent of automobiles. Barely any artifacts from this period survived, even as museum pieces.",
+      "url": "https://masseffect.fandom.com/wiki/Asari",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "manual-reaper-classes-and-sizes-part-1-origin-purpose-and-ground-forces_004",
+      "kind": "page",
+      "page": "Reaper Classes and Sizes (Part 1) — Origin, Purpose, and Ground Forces",
+      "section": "The harvest",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "The Reapers believe they are preserving life. Their reasoning: if organic life keeps advancing and building machines, those machines will eventually exterminate all organics. To prevent that, the Reapers wipe out advanced civilizations every 50,000 years — the harvest. They let species rise using tools the Reapers secretly built (the Citadel and the mass relays), then return and destroy them — but preserve their minds inside new Reapers, which the Reapers regard as a twisted form of immortality. Their goal is to run this cycle forever as the only way to stop total extinction, despite the endless destruction it causes.",
+      "url": "",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "codex-the-reapers_002",
+      "kind": "page",
+      "page": "Codex/The Reapers",
+      "section": "The Reapers",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | Audio: The Reapers | | --- | --- | A myth common to several cultures in the galaxy, Reapers were once imagined as space monsters that consumed entire stars. Archeologists who searched for the sources of such myths found little besides the themes of all\\-consuming devils that are common to primitive cultures. Although accurate information about the Reapers remains scarce, the galaxy now knows that the Reapers are not a myth\\-\\-they are a real and devastating threat.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/The_Reapers",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "scene:virmire-sovereign-speaks-to-shepard#02",
+      "kind": "scene",
+      "page": "Sovereign Speaks to Shepard in Saren's Lab",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "virmire-sovereign-speaks-to-shepard",
+      "text": "Sovereign Speaks to Shepard in Saren's Lab. 2183, during the assault on Saren's base on Virmire Saren Arterius's communications lab inside the Virmire cloning facility, at a second Prothean beacon Sovereign voices its contempt for organic life: it imposes order on the chaos of organic evolution, organics exist only because the Reapers allow it and will end when the Reapers demand it, and Shepard's attempt to stop their return is futile. It proclaims that the Reapers are each a nation and that \"We are legion.\"",
+      "url": "",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "scene:citadel-catalyst-final-chamber#02",
+      "kind": "scene",
+      "page": "Confrontation with the Catalyst",
+      "section": "argument",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-catalyst-final-chamber",
+      "text": "Confrontation with the Catalyst. 2186, Citadel, final assault on the Reapers The Catalyst's chamber at the heart of the Citadel Shepard chose to destroy all synthetic life, wiping out the Reapers and the Catalyst itself in the process. The Catalyst was presumed lost in this option.",
+      "url": "",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "scene:horizon-sanctuary-lawson-standoff#02",
+      "kind": "scene",
+      "page": "Henry Lawson's Standoff at Sanctuary",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "horizon-sanctuary-lawson-standoff",
+      "text": "Henry Lawson's Standoff at Sanctuary. 2186, during Priority: Horizon, as the Reapers overrun Sanctuary the upper laboratories of the Sanctuary facility, Horizon The Illusive Man sent Kai Leng ahead to take Henry's husk-control research data. Leng seized it and left, abandoning Henry to the invading Reapers.",
+      "url": "",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "scene:citadel-catalyst-final-chamber#03",
+      "kind": "scene",
+      "page": "Confrontation with the Catalyst",
+      "section": "argument",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-catalyst-final-chamber",
+      "text": "Confrontation with the Catalyst. 2186, Citadel, final assault on the Reapers The Catalyst's chamber at the heart of the Citadel Shepard chose to take control of the Reapers. A digital copy of Shepard's consciousness replaced the Catalyst as the Reapers' master AI, while the Catalyst itself was presumed lost.",
+      "url": "",
+      "for_key": "densorin oravores Reapers"
+    },
+    {
+      "chunk_id": "summary:reaper-classes-and-sizes-01",
+      "kind": "summary",
+      "page": "Reaper Classes and Sizes (Part 1) — Origin, Purpose, and Ground Forces",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Part 1 of a hand-corrected survey of Reaper types, covering what the Reapers are, their origin, the logic of the harvest, and their ground forces and small constructs. The Reapers were described as gigantic biomechanical machines partly built from living beings, resembling space squids or cuttlefish and ranging in size from a large building to a mountain. Each Reaper housed the fused minds of billions of individuals from a harvested species inside a machine body.\n\nTheir origin was traced to roughly a billion years ago, when a race called the Leviathans ruled the galaxy and built a super-intelligent AI to solve the recurring conflict between organic life and the synthetic machines organics create. The AI concluded that permanent control of all life, including the Leviathans, was the only solution. It turned on its makers, wiped out most of them, and used their bodies and minds to build the first Reaper, later known as Harbinger. The process was repeated on other species once they reached a threshold of advancement, producing more Reapers over millions of years.\n\nThe harvest was presented as the Reapers' method of preservation: they let civilizations rise using the Citadel and mass relays, which the Reapers secretly built, then returned every 50,000 years to destroy advanced civilizations while preserving their minds inside new Reapers, a form of immortality by the Reapers' reckoning.\n\nThe page then catalogs Reaper ground troops and small constructs: husks (bodies converted on dragon's-teeth spikes into cybernetic zombies, the most common troops); cannibals (mutated batarians that consume corpses to grow armor); harvesters (30-to-40-foot flying gunships and transports); marauders (transformed turians acting as battlefield leaders); brutes (turian-krogan hybrids); ravagers (mutated rachni used as living artillery); banshees (corrupted asari with powerful biotics); the Oculus (a fast flying drone used by Reapers and Collectors); and swarmers (tiny, numerous drones).",
+      "url": "",
+      "for_key": "densorin oravores Reapers"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 428,
+      "text": "- Victory was a Prothean VI overseer of an Eden Prime bunker during the Reaper invasion 50,000 years ago; it forced base commander Javik into stasis and triggered a neutron bombardment that destroyed the Reaper threat but crippled the base, eventually cutting power to every stasis pod except Javik's and naming him the voice of his people (source: Victory).",
+      "for_key": "victory prothean vi eden prime"
+    },
+    {
+      "file": "codex/tech.md",
+      "line": 108,
+      "text": "- Known VIs included the Prothean VIs Vigil (Ilos), Vendetta (Thessia), and Victory (Eden Prime), the Shadow Broker's Glyph, the quarian Ancestor VI Liat'Nir, and the Andromeda ark VI \"K\" (source: Virtual Intelligence).",
+      "for_key": "victory prothean vi eden prime"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

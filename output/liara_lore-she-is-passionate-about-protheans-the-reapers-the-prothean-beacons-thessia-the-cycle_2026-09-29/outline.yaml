@@ -1,0 +1,193 @@
+narrator: liara
+subject: shepard
+themes:
+- 'lore she is passionate about: Protheans'
+- the Reapers
+- the Prothean beacons
+- Thessia
+- the Cycle
+brief: >-
+  Liara talks about the lore she is passionate about — Prothean history and the
+  cycles — to Shepard, with her scholar's eagerness.
+  Per Thomas, Liara is the Shadow Broker (she took the title in ME2). Where she was not present, her second
+  source is not only Shepard but her own network, agents and files, because knowing everything is her job;
+  she can say what she learned, from which kind of source, and how far she trusts it.
+  Per Thomas, Liara was on Feros with Shepard in this run (present for the Thorian and Shiala giving Shepard
+  the Cipher; this overrides the scene record's participants).
+  Per Thomas, Dr. Kenson is a scientific hero who was also indoctrinated and caused the Bahak (batarian)
+  genocide; Liara holds both.
+  Per Thomas, Liara was with the crew on the Presidium during the preaching hanar / C-Sec officer dispute
+  (2183), so she witnessed it beside Shepard; this overrides the scene record's participant list for this run.
+form: tunnel
+form_note: >-
+  Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is
+  topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an
+  object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up ->
+  the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them ->
+  the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the
+  Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's
+  encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or
+  anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas)
+  she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the
+  Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops
+  short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the
+  Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the
+  Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year
+  cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).
+target_words: 9000
+sections:
+  - id: a-fragment-dated-to-68000
+    title: A Fragment Dated to 68,000
+    events: [arrival-bahak-relay-destruction]
+    scenes: [fehl-prime-prothean-device-liara-contact, project-base-kenson-indoctrination]
+    retrieval: ["Amanda Kenson Arrival Bahak system batarian relay destroyed", "Fehl Prime Prothean communication device dated", "Prothean ruins Feros Quana Therum plundered", "Prothean Legacy surviving ruins Attican Traverse", "Feros Prothean megatropolis ruins", "Prothean archaeologists dig methodology dating"]
+    promises:
+      - "Opens on a single object, a Prothean communication device on Fehl Prime dated as early as 68,000 BCE, and what a date like that does and does not tell you"
+      - "What a ruin can and cannot say: looted cities, surprisingly intact stations, functioning tech that is rare, and why she trusts a stratum more than a story"
+      - "Her own line to that site: Treeya's call from the Prothean relay on Fehl Prime, told as something reported to her and not verified on the ground"
+      - "Dr. Amanda Kenson as a scientific hero (her dust dating of the relays) who was also indoctrinated and is the reason a batarian system was destroyed; Liara holds both at once, will not let the dust-work cancel the Bahak dead or the dead cancel the dust-work, and says so without a tidy verdict. She knows the Bahak end from Shepard, who was at Arrival, and from her own Broker files, which she can weigh against his account"
+      - "Feros, Quana and Therum named as the sites people can actually stand in, with the Attican Traverse as the sites nobody has opened; Liara was on Feros with Shepard in this run, so she speaks of the megatropolis and the Thorian's lair from having been there (no more than the scene record gives her)"
+    target_words: 640
+  - id: whose-ruins-they-dug-up
+    title: Whose Ruins They Dug Up
+    events: [project-firewalker-the-prothean-site-on-kopis]
+    scenes: []
+    retrieval: ["Inusannon ruins mass effect technology", "Eingana thoi'han", "Prothean Forging an Empire mass effect discovery", "mass relays Prothean origin Reaper", "Background Races Inusannon"]
+    promises:
+      - "The joke that pleases her most: the Protheans were archaeologists too, and their mass effect physics came out of the ruins of the inusannon"
+      - "What is actually known of the inusannon, said in her hedged register: at least 127,000 years ago, a war with the thoi'han over Eingana, ship wreckage, poisoned ground, Ilos as a place they had been"
+      - "Why the relays and the Citadel are credited to the Protheans when they seem to have inherited them, and how much of that is inference"
+      - "Eingana as a site she would give a great deal to see, and the honest limit of a battlefield with no records"
+    target_words: 640
+  - id: the-empire-with-the-adjectives-removed
+    title: The Empire With the Adjectives Removed
+    events: [hades-nexus-prothean-artifact-recovery]
+    scenes: []
+    retrieval: ["Prothean Metacon war machine intelligence", "Prothean Culture Cosmic Imperative assimilation", "Prothean language tutorial servant races", "Prothean architecture dynasties simpler", "Turian Hierarchy known to the Protheans primitive"]
+    promises:
+      - "The empire as scholars now reconstruct it: the Citadel as capital, the relay network, a single ruling race with servant species who took the name Prothean, conquest for those who refused"
+      - "The machine-intelligence war they called the Metacon and how it justified uniting all organic life, told with the discomfort of someone who once loved the romantic version"
+      - "Cosmic Imperative and language tutorial programmes: the ideology and the kindly bureaucracy side by side"
+      - "A live quarrel: the dynasties' architecture grows plainer near the end, and whether that means fatigue, war economy or something else, with her own lean marked as a lean"
+      - "How the Protheans watched primitive species, including the early turians, and judged which were too small to matter"
+    target_words: 720
+  - id: the-neighbours-nobody-excavated
+    title: The Neighbours Nobody Excavated
+    events: [priority-eden-prime-javik, prothean-last-stand-eden-prime-bunker]
+    scenes: [eden-prime-waking-javik]
+    retrieval: ["Javik last Prothean bunker Eden Prime", "Victory Prothean VI Eden Prime", "Background Races Other Identified Races ditakur enduromi synril vandomar", "zha'til zha supernova", "densorin oravores Reapers"]
+    promises:
+      - "Other peoples of the Prothean age known only through one witness: ditakur, enduromi, synril, vandomar, and the densorin, oravores and zha'til, each with what the corpus actually holds"
+      - "The zha'til and the star the Protheans sent supernova, placed against her unease at an empire that could do that"
+      - "Source criticism of Javik: a living witness whose account she cannot corroborate, and whose account contradicts what little the ground says; she is thrilled and annoyed in one breath"
+      - "The Eden Prime bunker as a dig site the war got to first: about a million in stasis, Victory the VI, the traitors who leaked it, and what Shepard did to open the pod"
+    target_words: 720
+  - id: the-goddess-was-a-guise
+    title: The Goddess Was a Guise
+    events: [priority-thessia]
+    scenes: [thessia-temple-kai-leng-steals-vendetta]
+    retrieval: ["Athame Doctrine Protheans guise Janiri Lucen", "Asari Origins Protheans genetic biotic", "Thessia Temple of Athame beacon Vendetta", "oravores attacked Thessia Athame sword", "asari state secret Prothean beacon"]
+    promises:
+      - "From the oravores: the asari myth of Athame's sword is a Prothean defence of Thessia remembered as divinity"
+      - "The claim that the Protheans invented Athame, altered asari biology and left a beacon and VI, Vendetta, under a temple, with her own reserve: it is the corpus's account, and it makes her whole species' pride a matter of stratigraphy"
+      - "Growing up beside a monument that was also an excavation, and the state secret about it kept even against the Council's own law"
+      - "The temple at Thessia when it fell: Shepard and Javik there, Kai Leng taking Vendetta, told with anger held level and no eulogy"
+    target_words: 720
+  - id: what-everyone-else-made-of-them
+    title: What Everyone Else Made of Them
+    events: [hanar-diplomat-zymandis-investigation]
+    scenes: [presidium-preaching-hanar-dispute]
+    retrieval: ["hanar Enkindlers Protheans religion", "Hanar Nyahir gift of speech Enkindlers", "Preaching Hanar Citadel Enkindlers", "Keeper Citadel maintenance Prothean created", "human religion Prothean discovery Mars"]
+    promises:
+      - "Three species, three afterlives for the same vanished people: asari goddess, hanar Enkindlers and the gift of speech, human churches trying to absorb the Mars finds"
+      - "Why she takes the hanar seriously as data even where she doubts the theology, and the preacher on the Presidium, whose argument with the C-Sec officer she watched beside Shepard as part of the crew and remembers with affection (she was there; the outcome the ME1 record leaves open stays loosely remembered)"
+      - "The keepers as the most misunderstood Prothean legacy, long assumed made as caretakers; what she used to believe about them"
+    target_words: 480
+  - id: the-cache-under-mars
+    title: The Cache Under Mars
+    events: [discovery-of-the-prothean-ruins-on-mars]
+    scenes: []
+    retrieval: ["Prothean ruins on Mars 2148 data cache", "Charon Relay discovered Pluto ice Grissom", "Eletania Prothean sphere Cro-Magnon vision", "The Founding of the Systems Alliance Mars", "human technology leap Prothean archives"]
+    promises:
+      - "The Mars find told from the archaeology: a small ruined observation post, a data cache, proof the Protheans had watched Cro-Magnon humans, and the Eletania sphere as a second witness to the same fact"
+      - "Charon mistaken for a moon of Pluto under kilometres of ice, and how a species jumped centuries in a decade; her scholar's quarrel over how much was borrowed and how much humans earned"
+      - "Where Shepard's species meets the Protheans and what the Alliance did with the site, with her opinion of it stated once and not lectured"
+      - "The vertigo of learning your species was watched and catalogued before it had language for it"
+    target_words: 640
+  - id: a-message-meant-for-someone-elses-mind
+    title: A Message Meant for Someone Else's Mind
+    events: [attack-on-eden-prime, feros-the-thorian]
+    scenes: [feros-shiala-cipher-transfer]
+    retrieval: ["Prothean Beacon paleo-technology visions", "Cipher Prothean collective unconscious Jung", "Shiala cipher Thorian Feros Prothean", "Eden Prime beacon Shepard vision", "Prothean beacons communication network"]
+    promises:
+      - "What a beacon is: a network node that writes into a brain, and why a vision built for a Prothean mind is close to unreadable to anyone else"
+      - "The Cipher, which she named after a Jungian idea, as the hardest problem in her field: the context a message assumes, and how you find it in something dead"
+      - "Shepard's own vision from the Eden Prime beacon and what Liara could and could not tell him; the Thorian on Feros having eaten its way to the Cipher and Shiala carrying it, which Liara witnessed on Feros beside Shepard (she was there in this run)"
+      - "Her mixed feeling that a decoding key came through one person, and the embarrassment of how much she wanted Shepard's headaches explained"
+    target_words: 640
+  - id: cut-out-of-a-wall
+    title: Cut Out of a Wall
+    events: [find-liara-t-soni]
+    scenes: [therum-freeing-liara-prothean-ruins]
+    retrieval: ["Therum Prothean ruins mining dig", "Liara T'Soni archaeologist Therum Prothean barrier", "Benezia Prothean research Liara", "Dr. Liara T'Soni Codex Known Associates", "Prothean stasis barrier"]
+    promises:
+      - "Her own dig as method: working a site with a stratigraphy, a mining crew in the way, and reconstruction from fragments she could not touch until a barrier came down"
+      - "Being freed from the wall, told against herself with dry self-mockery, and what she thought she was looking at that day versus what she knows now"
+      - "Her mother's work and the theories of her own she would now hold with less certainty; a rival hypothesis she still argues with in her head"
+      - "How little of a Prothean site is the Protheans, and how much is who came after: miners, looters, Cerberus, Saren"
+    target_words: 640
+  - id: the-day-the-relay-opened
+    title: The Day the Relay Opened
+    events: [ilos-conduit-citadel]
+    scenes: [me1-ilos-find-the-conduit]
+    retrieval: ["Prothean Cataclysm Reapers entered through the Citadel", "Vigil Ilos Prothean VI Conduit", "Prothean A Sanctuary Ilos stasis", "Keepers Citadel signal Reapers relay", "Reaper cycle fifty thousand years"]
+    promises:
+      - "The fall reconstructed the way you reconstruct any collapse: the Reapers arriving through the Citadel, the government decapitated, the relay network cut, census and star charts read in a day; the empire's strength was its failure mode"
+      - "Ilos as the shelter that outlasted the war: Vigil, a dozen scientists left of many, working out the keepers and the Citadel signal, and a Conduit used to try to trap the Reapers in dark space"
+      - "Liara standing on Ilos with Shepard, her thoughts as Vigil talked, and the question she wishes she had asked"
+      - "What she means when she says the ruin is the only honest witness to a plan that may not have worked"
+    target_words: 720
+  - id: what-the-obelisk-was-for
+    title: What the Obelisk Was For
+    events: [crucible-superweapon-project, hades-nexus-prothean-artifact-recovery, project-firewalker-the-prothean-site-on-kopis]
+    scenes: []
+    retrieval: ["Crucible Design cycles Protheans schematics Mars archive", "Hades Nexus Obelisk of Karza Prothean Rosetta", "Hades Nexus Prothean Sphere Gei Hinnom", "Project Firewalker Prothean Site Kopis", "Crucible Prothean separatists indoctrinated"]
+    promises:
+      - "Digging in wartime: the Obelisk of Karza on Kopis, which held Prothean language translations, and the Hades Nexus find, an archaeologist's Rosetta stone chased for a weapon"
+      - "The Crucible's design as an inheritance across many species over a very long time, each dying before the last piece, and the Protheans the latest to build it and lose it to an argument about control"
+      - "The plans surviving 50,000 years in an archive on Mars, and what it does to her sense of what the Mars dig was for"
+      - "Her feeling that the whole Prothean record was a message to Shepard's cycle, and her suspicion of that feeling"
+    target_words: 640
+  - id: the-thing-that-was-there-before
+    title: The Thing That Was There Before
+    events: [leviathan-of-dis-discovery, leviathan-discovery-alliance]
+    scenes: [citadel-bryson-lab-leviathan-research]
+    retrieval: ["Leviathan of Dis Reaper corpse Jartar batarian", "Leviathan aquatic race thralls Intelligence first Reaper Harbinger", "Bryson Leviathan research Task Force Aurora", "Despoina Leviathan Mahavid Namakli", "Leviathan fragments erasing evidence"]
+    promises:
+      - "The Leviathan of Dis as an archaeological find that was made and taken away: a corpse dated near a billion years old, a batarian survey team, a dreadnought, a denial the salarian documents undercut"
+      - "What Shepard learned on the Leviathan trail, which Liara did not witness; she has Shepard's account and her own Broker files on Bryson, Cerberus and the Alliance, and compares them: Bryson's real interest, the aquatic Leviathans, the Intelligence, the first Reaper"
+      - "Her scholar's caution about it: the account came from one Leviathan speaking inside Shepard's head, so it is testimony and not a stratum, and she wants to know what he could not check"
+      - "That the Reapers had makers and that the Protheans could not have known it, so every Prothean record of the Reapers is a record from the middle of a story"
+    target_words: 720
+  - id: the-arithmetic-of-a-cycle
+    title: The Arithmetic of a Cycle
+    events: [crucible-superweapon-project]
+    scenes: []
+    retrieval: ["Inusannon wiped out by the Reapers 127,000 years", "Timeline Pre-Council Times 68,000 BCE Protheans spaceflight", "Reapers invade every fifty thousand years harvest advanced civilizations", "Crucible countless species millions of years", "Etamis Reapers fifty thousand years"]
+    promises:
+      - "The number problem, told as a quarrel with herself: the inusannon are placed at least 127,000 years back and the Protheans at 68,000 to 48,000, and the corpus does not fit these into a clean fifty-thousand-year rhythm"
+      - "What that leaves open: missed cycles, a longer or irregular cycle, unreliable dates or a Reaper schedule that is not a schedule, each offered as a hypothesis and none endorsed"
+      - "Why a cycle that erases its own evidence is a methodological trap for an archaeologist, and how the Leviathan testimony would push the whole timeline back"
+      - "What she would want dated first if she had a lab and a decade"
+    target_words: 560
+  - id: what-the-record-is-for
+    title: What the Record Is For
+    events: [citadel-dlc-archives]
+    scenes: [eden-prime-waking-javik]
+    retrieval: ["Broker Terminal Possible Book Titles Protheans", "Broker Terminal Prothean Notes Javik", "Prothean Beacon meant to be found", "Javik cycle memory Shepard Liara", "Javik Liara Prothean archive"]
+    promises:
+      - "The book she keeps sketching titles for, with the working titles she rejected and why"
+      - "Every Prothean thing that survived did so because it was meant to be found: beacons, Vigil, the Mars cache; the lesson in that for what she would leave"
+      - "What she would want the next reader to know about Shepard's cycle, said sideways and with a joke against herself"
+      - "Javik's remark that the record only matters if someone can be moved by it, and her answer, in her own words"
+    target_words: 480

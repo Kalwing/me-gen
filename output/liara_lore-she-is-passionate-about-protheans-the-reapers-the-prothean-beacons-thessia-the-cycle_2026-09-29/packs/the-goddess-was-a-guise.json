@@ -1,0 +1,854 @@
+{
+  "section": {
+    "id": "the-goddess-was-a-guise",
+    "title": "The Goddess Was a Guise",
+    "target_words": 720,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "From the oravores: the asari myth of Athame's sword is a Prothean defence of Thessia remembered as divinity",
+    "The claim that the Protheans invented Athame, altered asari biology and left a beacon and VI, Vendetta, under a temple, with her own reserve: it is the corpus's account, and it makes her whole species' pride a matter of stratigraphy",
+    "Growing up beside a monument that was also an excavation, and the state secret about it kept even against the Council's own law",
+    "The temple at Thessia when it fell: Shepard and Javik there, Kai Leng taking Vendetta, told with anger held level and no eulogy"
+  ],
+  "required_facts": [
+    {
+      "event_id": "priority-thessia",
+      "fact": "Acquired automatically after Priority: The Citadel III, this mission takes Commander Shepard to the asari homeworld Thessia. With the Reapers devastating asari space, Asari High Command finally discloses a long-hidden Prothean artifact housed in a temple to the goddess Athame that may reveal the location of the Catalyst. Shepard, Liara T'Soni, and a third squadmate (Javik's commentary is notable if he is brought) land in an active war zone where asari commandos under an officer named Kurin are barely holding a defensive line. The team fights through heavy Reaper forces - Banshees, Brutes, Ravagers, Marauders, Harvesters and Husks - and passes close by a capital-scale Reaper walking through the ruins. Kurin eventually pulls her surviving soldiers out against orders. Reaching the temple, Shepard finds the science team dead. Liara triggers a concealed Prothean beacon containing a VI called Vendetta, a construct left from the previous cycle. Vendetta reveals that the asari secretly built their technological, cultural and military lead on studying this forbidden Prothean cache in violation of Council law, and confirms that the Catalyst needed to complete the Crucible is the Citadel itself. Before the VI can finish, Kai Leng arrives, having tracked the team, and fights Shepard. Though beaten back, Leng uses a Reaper's arrival as a distraction to knock Shepard down, seize Vendetta and the Catalyst data for the Illusive Man, and escape aboard his gunship, which levels the Temple of Athame as it departs. Back on the Normandy, a defeated Shepard reports the loss to the asari Councilor, and the squad gathers in the War Room to work out where Cerberus has taken the data. Thessia falls to the Reapers.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "priority-thessia",
+      "fact": "Thessia falls to the Reapers with catastrophic asari casualties",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-thessia",
+      "fact": "The asari admit their advantage was built on a hidden, illegal Prothean archive",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-thessia",
+      "fact": "The Prothean VI Vendetta confirms the Catalyst is the Citadel",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-thessia",
+      "fact": "Kai Leng steals Vendetta and the Catalyst data for Cerberus and destroys the Temple of Athame",
+      "actor": "Kai Leng"
+    },
+    {
+      "event_id": "priority-thessia",
+      "fact": "Shepard's investigation turns toward Cerberus, leading to Sanctuary on Horizon and then Cerberus Headquarters",
+      "actor": ""
+    },
+    {
+      "event_id": "priority-thessia",
+      "fact": "Liara is devastated by the loss of her homeworld",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "thessia-temple-kai-leng-steals-vendetta",
+      "title": "Kai Leng Takes Vendetta at the Temple of Athame",
+      "kind": "mission-aside",
+      "game": "Mass Effect 3",
+      "when": "2186, during the Reaper assault on Thessia (Priority: Thessia)",
+      "where": "the Temple of Athame above the ruins of a Thessian city",
+      "participants": [
+        "Shepard",
+        "Liara T'Soni",
+        "Kai Leng"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "game": "Mass Effect 3"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Shepard's team reaches the Temple of Athame to find the asari scientists who were waiting for them dead by the central statue. The non-Liara squadmate checks the bodies and reports their throats were slit — not Reaper work. Concentrating on the statue, Shepard realizes it hides a Prothean Beacon the asari government kept secret for millennia.\n",
+          "source_chunks": [
+            "priority-thessia_009"
+          ]
+        },
+        {
+          "text": "Activating artifacts around the chamber wakes the Prothean VI Vendetta, which holds the location of the Catalyst. Kai Leng, hidden until now, reveals himself; Vendetta shuts down on detecting he is indoctrinated. Leng releases a drone that projects the Illusive Man, who argues with Shepard and, failing to sway anyone, orders Leng to take the VI.\n",
+          "source_chunks": [
+            "kai-leng_012"
+          ]
+        },
+        {
+          "text": "Leng fights Shepard's squad, sending shockwaves that strip shields, a gunship covering him while he recharges. When his shields finally break, he overpowers both of Shepard's squadmates and orders the gunship to bring down the temple floor. Shepard is left alive but pinned in the rubble as Leng walks to the beacon, takes the Vendetta data, and escapes.\n",
+          "source_chunks": [
+            "priority-thessia_010"
+          ]
+        },
+        {
+          "text": "Afterward Leng sends Shepard a taunting message disguised as asari military command (\"Evacuating Thessia\"), gloating that \"your best wasn't good enough to stop me\" and that \"the legend of Shepard needs to be re-written... It ends with your death. -KL\".\n",
+          "source_chunks": [
+            "kai-leng_012"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "cronos-station-kai-leng-last-fight",
+        "normandy-memorial-wall-after-thessia"
+      ],
+      "related_events": [
+        "priority-thessia"
+      ],
+      "source_chunks": [
+        "priority-thessia_009",
+        "priority-thessia_010",
+        "kai-leng_012"
+      ],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "thessia-temple-kai-leng-steals-vendetta": "witnessed"
+  },
+  "evidence": [
+    {
+      "chunk_id": "summary:athame-doctrine",
+      "kind": "summary",
+      "page": "Athame Doctrine",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Athame Doctrine was an ancient asari religion built on the worship of the goddess Athame. Originally a goddess of prophecy and fate and the matriarch of the asari pantheon, Athame's worship gradually shifted into a monotheistic faith in which her maiden, matron, and matriarch aspects oversaw every stage and role in asari society; the common asari expression \"by the goddess\" refers to her. Athame worship eventually declined as the asari adopted the siari religion.\n\nIn mythology, Athame, with her guides Janiri and Lucen, was credited with bringing enlightenment to the ancient asari: Janiri taught agriculture and the seasons, Lucen taught the stars, and Athame taught mathematics and medicine. The asari also believed Athame protected their homeworld Thessia from jealous rival gods. The Temple of Athame on Thessia preserved relics attributed to her, including murals, busts of Janiri and Lucen, Athame's sword and shield, and fragments of the Athame Codex, an ancient text describing how the asari learned mathematics and agriculture. Other relics included the Rings of Alune. Three planets in the Parnitha system were named for Athame, Janiri, and Lucen.\n\nIn truth, Athame was not a goddess but a guise crafted by the Protheans. During their empire's height, the Protheans discovered the asari and judged them potential leaders for the next cycle's fight against the Reapers. They shaped asari development by inventing the goddess myth, with Janiri and Lucen actually being Protheans, and among the \"gifts\" was the asari aptitude for biotics, the product of years of Prothean genetic manipulation. After the Protheans left Thessia to avoid drawing Reaper attention, the asari continued advancing with the aid of a Prothean beacon and archive hidden in the Temple of Athame, the temple built over the archive and the beacon concealed inside a statue of Athame. The asari government kept the beacon secret throughout its history, even after Citadel law made hiding Prothean technology illegal, using the knowledge to maintain a technological edge. When the Reapers returned in 2186, the government kept hiding it until Thessia itself came under attack, then revealed it hoping it could aid the Crucible. Commander Shepard's arrival at the Temple exposed Athame's true nature and found the beacon held a Prothean VI named Vendetta, based on personality imprints of the director of the Prothean Crucible project, which carried knowledge of the Catalyst.",
+      "url": "https://masseffect.fandom.com/wiki/Athame_Doctrine",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "athame-doctrine_002",
+      "kind": "page",
+      "page": "Athame Doctrine",
+      "section": "Mythology",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Along with her guides Janiri and Lucen, Athame is credited for helping to bring enlightenment to the ancient asari, with Janiri teaching them agricultural practices (including the seasons), Lucen teaching them about the stars, and Athame teaching them mathematics and medicine. The ancient asari also believed that Athame protected their homeworld Thessia from attacks by other, jealous gods. The Temple of Athame on Thessia still stands as a reminder of the influence that Athame worship had on asari culture. The temple displays various relics attributed to Athame, including murals, busts of Janiri and Lucen, Athame's sword and shield, and fragments of the Athame Codex, an ancient text that explains how asari learned mathematics and agriculture. Other relics not kept at the temple include the Rings of Alune, which were worn by an asari who was believed to have been taught medicine by Athame herself. As an homage to the goddess, three of the planets in the Parnitha system, the asari's home system, are named for Athame, Janiri, and Lucen. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Athame_Doctrine",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "asari_005",
+      "kind": "page",
+      "page": "Asari",
+      "section": "Origins",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The asari arose on Thessia, a rich world with abundant quantities of element zero that caused much of life on Thessia to exhibit biotic tendencies. Instrumental to the rise of asari civilization was the intervention of the Protheans. Upon discovering the asari, the Protheans crafted the guise of Athame, a benevolent goddess who imparted gifts of wisdom to the asari through her guides Janiri and Lucen, a deception that allowed the Protheans to rapidly accelerate asari development. The Protheans also genetically altered the asari to grant them biotic capabilities, and defended Thessia from an asteroid strike and the resource\\-hungry oravores. When the Protheans departed, they left a single beacon on Thessia, around which the asari later built a lavish temple devoted to Athame. This beacon contained Vendetta, a Prothean VI, and over the following centuries was the source of countless technological advances that allowed the asari to eventually become the most powerful race in the galaxy. The beacon's existence became a closely\\-held state secret, as its revelation would have discredited the virtually universal belief that the asari attained such heights on their own merit. By 2183 CE, few outside the highest echelons of the asari government were aware of the part the Protheans played in asari history. 30,000 years prior to the modern era, the asari developed their equivalent of automobiles. Barely any artifacts from this period survived, even as museum pieces.",
+      "url": "https://masseffect.fandom.com/wiki/Asari",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "prothean_011",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Notable Protheans",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Janiri \\- One of the guides of mythical asari goddess Athame; Janiri helped bring enlightenment to the ancient asari and taught them agriculture. - Javik \\- Commander in charge of a secret military operation on Eden Prime and the last known living Prothean. - Ksad Ishan \\- Overseer of the Ilos research facility; his personality was the basis for Vigil, the facility's managing VI. - Lucen \\- One of the guides of Athame; Lucen taught the ancient asari about the stars. - Pashek Vran \\- Overseer of the Crucible project, killed in the battle of Tranbir 9 before the project was finished; his personality was the basis for Vendetta, a Prothean VI stored in an archive on Thessia.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "athame-doctrine_003",
+      "kind": "page",
+      "page": "Athame Doctrine",
+      "section": "Origins",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In reality, Athame was not a mythical goddess but a guise crafted by the Protheans. During the height of their empire, the Protheans discovered the asari and judged that they had potential as leaders for the races of the next cycle against the Reapers. They intervened in asari development by creating the myth of a goddess, Athame, who was imparting divine gifts and knowledge through her guides, Janiri and Lucen, who were actually Protheans. Among those \"gifts\" was the asari's natural ability to develop biotics, which was in reality the product of years of Prothean genetic research and manipulation. Long after the Protheans departed Thessia to prevent drawing the attention of the Reapers there, the asari continued to advance with the help of a Prothean beacon and archive that had been left behind. The beacon and archive were both housed in the Temple of Athame; the temple proper was built over the archive and the beacon was concealed within a statue of Athame. The existence of the beacon and archive were kept a closely guarded secret by the asari government throughout their history, even after the Citadel Council was formed and it was declared illegal to hide Prothean technology. The information the asari gleaned allowed them to maintain a technological advantage over the rest of the galaxy's races. Even when the Reapers return to the galaxy in 2186, the asari government continues hiding the existence of the beacon, fearing political repercussion. Only when Thessia itself is attacked by the Reapers does the asari government decide to reveal the existence of the beacon and archive in the hopes that the information stored within could be of use in completing the Crucible. Commander Shepard's arrival at the Temple of Athame reveals not only Athame's true nature, but that the beacon contains a Prothean VI named Vendetta, based on personality imprints of the director of the Prothean Crucible project, including knowledge of the Catalyst, the Crucible's final component.",
+      "url": "https://masseffect.fandom.com/wiki/Athame_Doctrine",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "lucen_002",
+      "kind": "page",
+      "page": "Lucen",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A large, reflective asteroid, **Lucen** is almost visible in Thessia's night sky and was discovered soon after the asari developed optics. When the space age finally arrived, the rocky asteroid was among the first to be mined for its valuable deposits of platinum\\-group metals. **Lucen** is named for the servant of the goddess Athame, who beseeched the goddess for the gifts of pottery, forging, and biotics. Lucen then sailed the sea and sky teaching these gifts to mortals. It is said that the aging, powerful matriarch begged Athame for the gift of prophecy, so she would see whether the asari would prosper in the future. Athame refused, prophecy being hers alone, and when Lucen tried to steal it from Athame's silver jars, Athame struck her down. The Reapers have so far ignored the mining facility on Lucen, as it offers little strategic value and is far from the system's mass relay.",
+      "url": "https://masseffect.fandom.com/wiki/Lucen",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "athame-doctrine_001",
+      "kind": "page",
+      "page": "Athame Doctrine",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **Athame Doctrine** is an asari religion founded on the worship of the goddess Athame. In ancient times, Athame was a goddess of prophecy and fate, and the matriarch of the asari pantheon. Athame's worship gradually changed, becoming the basis for a monotheistic religion in which her maiden, matron, and matriarch aspects oversaw all stages and roles in asari society. When an asari says \"by the goddess,\" they are referring to Athame. Worship of Athame eventually fell out of favor as the asari turned to the siari religion.",
+      "url": "https://masseffect.fandom.com/wiki/Athame_Doctrine",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "milky-way_048",
+      "kind": "page",
+      "page": "Milky Way",
+      "section": "Athena Nebula",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| | Athena Nebula | | --- | | Ialessa | | Ilmnos• Sanves• Asteroid belt• Zylium• Trikalon• Nossia | | Orisoni | | Thissioni• Niacal• Kralla• Egalic | | Parnitha | | Kurinth• Thessia• Piares• Asteroid belt• Janiri• Athame• *Fuel depot*• Tevura• *Mass relay* | | Tomaros | | Lusia• Niagolon• Pronoia• Beness | | Vernio | | Nauti• Promavess• Sotera• Asteroid belt• Tritogenith• Polissa | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Milky_Way",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "planets_047",
+      "kind": "page",
+      "page": "Planets",
+      "section": "Athena Nebula",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| | Athena Nebula | | --- | | Ialessa | | Ilmnos• Sanves• Asteroid belt• Zylium• Trikalon• Nossia | | Orisoni | | Thissioni• Niacal• Kralla• Egalic | | Parnitha | | Kurinth• Thessia• Piares• Asteroid belt• Janiri• Athame• *Fuel depot*• Tevura• *Mass relay* | | Tomaros | | Lusia• Niagolon• Pronoia• Beness | | Vernio | | Nauti• Promavess• Sotera• Asteroid belt• Tritogenith• Polissa | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Planets",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "summary:asari",
+      "kind": "summary",
+      "page": "Asari",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The asari, native to the planet Thessia, were often considered the most influential and respected sentient species in the galaxy, known for elegance, diplomacy, and biotic aptitude. They were among the earliest races to achieve interstellar flight after the Protheans and the first to discover and settle the Citadel, and they were instrumental in proposing and founding the Citadel Council.\n\nA mono-gendered race with a feminine appearance and a roughly thousand-year lifespan, asari could reproduce with a partner of any gender or species through a process of parthenogenesis. During \"melding\" (the joining or union), an asari attuned her nervous system to her partner's to randomize her offspring's second gene set; offspring were always asari regardless of the partner's species. Melding could also be used purely to share thoughts, as when Liara T'Soni melded with Commander Shepard to interpret the Prothean beacon visions and Shiala uploaded the Cipher into Shepard's mind. The Ardat-Yakshi were asari with a rare genetic defect that destroyed a partner's nervous system during joining, appearing almost exclusively among \"purebloods\" born of two asari parents, a status considered a grave insult. Asari passed through three life stages: Maiden (from puberty, marked by exploration), Matron (around age 350, a desire to settle and raise children), and Matriarch (around age 700, acting as community sages and councilors).\n\nAsari civilization on Thessia was secretly accelerated by the Protheans, who posed as the goddess Athame with guides Janiri and Lucen, genetically enhanced asari biotics, and left a beacon containing the VI Vendetta in what became the Temple of Athame; this was a closely held state secret. The asari found the Citadel in 580 BCE with the aid of the keepers, and with the salarians founded the Council in 500 BCE. During the 2186 Reaper invasion the asari initially withheld support, but after the Reapers overwhelmed their defenses their government revealed the Prothean beacon to Shepard; Thessia fell, and the asari finally committed forces to the Allied war effort.\n\nAsari culture favored the \"long view,\" centrism, consensus, and cultural domination over conflict. Their government, the Asari Republics, functioned as an inclusive electronic democracy deferring to Matriarchs. Their mainstream religion was siari (\"All is one\"), alongside worship of Athame. The asari military resembled tribal warrior bands of full-time professionals, favoring commando huntresses skilled in ambush, infiltration, and assassination, and fielding one of the galaxy's most powerful navies, including the dreadnought Destiny Ascension. Some asari became justicars, adherents of an ancient code.",
+      "url": "https://masseffect.fandom.com/wiki/Asari",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "summary:prothean",
+      "kind": "summary",
+      "page": "Prothean",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans were an ancient race that vanished roughly 50,000 years ago after building a galaxy-wide empire. They were long credited with creating the Citadel and the mass relays, though in truth they only inherited that Reaper technology. Anthropoidal in form, they had two pairs of dual-pupiled eyes, three pairs of nostrils, a layered head carapace, three-fingered hands, and a flanging voice like turians. A unique trait was an experiential exchange system: by touch, a Prothean could absorb another's memories, skills, or language. They had quad-strand DNA, some resistance to low radiation, and at least some members wielded potent biotics.\n\nAfter achieving spaceflight, the Protheans discovered ruins of the earlier inusannon and learned mass effect physics, gaining a centuries-long secret advantage. Facing a hostile machine intelligence, they decided all organic life must unite under their rule; resisting species were conquered and assimilated, coming to call themselves \"Prothean.\" United, they held off the machines in the Metacon War. They observed and cultivated primitive species including asari, hanar, humans, quarians, salarians and turians, intending eventually to offer them the \"choice\" of joining the empire.\n\nThe Reapers arrived around 48,000 BCE, entering through the Citadel, decapitating the government, disrupting the relay network, and using Citadel census data to hunt every Prothean. Their unified empire and single military doctrine became fatal weaknesses. Indoctrinated Protheans acted as sleeper agents. Subject races like the densorin and the AI zha'til were destroyed; the Protheans themselves annihilated the zha'til by sending a star supernova. Some Protheans built a Crucible from designs left by prior civilizations, but indoctrinated builders sabotaged it. After centuries the Reapers killed or enslaved every Prothean and withdrew into dark space.\n\nSurvivors persisted in stasis. On Ilos, the Conduit research team under Ksad Ishan went dark; the VI Vigil cut power to non-essential pods until only about a dozen scientists remained, who later used the Conduit to reach the Citadel and alter the keepers' signal to trap the Reapers. On Eden Prime, nearly a million warriors and their commander Javik were stored; traitors betrayed the site, most pods were destroyed, and the VI Victory kept only Javik's pod alive. Shepard could revive Javik in 2186. Meanwhile the Reapers repurposed captured Protheans into the Collectors, directed by Harbinger to abduct humans for a Human-Reaper.\n\nThe Protheans held evolution, the \"Cosmic Imperative,\" as the universe's driving force. Their influence shaped the asari (uplifted as a possible failsafe), humans (via the Mars archive) and the hanar, who worship them as the \"Enkindlers.\" Notable Protheans included Javik, avatar of vengeance, and the guides Janiri and Lucen of asari myth. Prothean tech included mind-to-mind beacons, memory shards, indoctrination detection, kinetic barrier grids, the Particle Rifle, the flagship Penumbra Apex, and the Conduit.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "scene:thessia-temple-kai-leng-steals-vendetta#01",
+      "kind": "scene",
+      "page": "Kai Leng Takes Vendetta at the Temple of Athame",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "thessia-temple-kai-leng-steals-vendetta",
+      "text": "Kai Leng Takes Vendetta at the Temple of Athame. 2186, during the Reaper assault on Thessia (Priority: Thessia) the Temple of Athame above the ruins of a Thessian city Shepard's team reaches the Temple of Athame to find the asari scientists who were waiting for them dead by the central statue. The non-Liara squadmate checks the bodies and reports their throats were slit — not Reaper work. Concentrating on the statue, Shepard realizes it hides a Prothean Beacon the asari government kept secret for millennia.",
+      "url": "",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "scene:thessia-temple-kai-leng-steals-vendetta#04",
+      "kind": "scene",
+      "page": "Kai Leng Takes Vendetta at the Temple of Athame",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "thessia-temple-kai-leng-steals-vendetta",
+      "text": "Kai Leng Takes Vendetta at the Temple of Athame. 2186, during the Reaper assault on Thessia (Priority: Thessia) the Temple of Athame above the ruins of a Thessian city Afterward Leng sends Shepard a taunting message disguised as asari military command (\"Evacuating Thessia\"), gloating that \"your best wasn't good enough to stop me\" and that \"the legend of Shepard needs to be re-written... It ends with your death. -KL\".",
+      "url": "",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "scene:thessia-temple-kai-leng-steals-vendetta#02",
+      "kind": "scene",
+      "page": "Kai Leng Takes Vendetta at the Temple of Athame",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "thessia-temple-kai-leng-steals-vendetta",
+      "text": "Kai Leng Takes Vendetta at the Temple of Athame. 2186, during the Reaper assault on Thessia (Priority: Thessia) the Temple of Athame above the ruins of a Thessian city Activating artifacts around the chamber wakes the Prothean VI Vendetta, which holds the location of the Catalyst. Kai Leng, hidden until now, reveals himself; Vendetta shuts down on detecting he is indoctrinated. Leng releases a drone that projects the Illusive Man, who argues with Shepard and, failing to sway anyone, orders Leng to take the VI.",
+      "url": "",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "scene:thessia-temple-kai-leng-steals-vendetta#03",
+      "kind": "scene",
+      "page": "Kai Leng Takes Vendetta at the Temple of Athame",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "thessia-temple-kai-leng-steals-vendetta",
+      "text": "Kai Leng Takes Vendetta at the Temple of Athame. 2186, during the Reaper assault on Thessia (Priority: Thessia) the Temple of Athame above the ruins of a Thessian city Leng fights Shepard's squad, sending shockwaves that strip shields, a gunship covering him while he recharges. When his shields finally break, he overpowers both of Shepard's squadmates and orders the gunship to bring down the temple floor. Shepard is left alive but pinned in the rubble as Leng walks to the beacon, takes the Vendetta data, and escapes.",
+      "url": "",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "summary:codex-ships-and-vehicles",
+      "kind": "summary",
+      "page": "Codex/Ships and Vehicles",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Index page aggregating Mass Effect and Mass Effect 2/3 Codex entries on space and surface transport technology, including FTL drives, military ship classifications, space combat doctrine, the Normandy SR-1 and SR-2 with their Silaris armor, Cyclonic Barrier Technology and Thanix cannon upgrades, Saren's Reaper dreadnought Sovereign, the UT-47 Kodiak drop-shuttle, the M35 Mako, the A-61 Mantis gunship, and detailed entries on dreadnoughts, cruisers, carriers, frigates, fighters, heat management, sensors, thrusters, drones, ablative armor, disruptor torpedoes, GARDIAN lasers, the Javelin, and mass accelerators.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Ships_and_Vehicles",
+      "for_key": "Athame Doctrine Protheans guise Janiri Lucen"
+    },
+    {
+      "chunk_id": "prothean_002",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Biology",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Protheans are an anthropoidal race. They have two pairs of eyes with each eye possessing dual pupils, and three pairs of nostrils. Much like turians, Protheans have a similar flanging effect in their voices. Their eyes have some ability to see through cloaked objects or entities. Their heads are covered in a thick, layered carapace that gives them a distinctive shape. The skin surrounding this carapace can be a pale blue\\-gray or brown color mottled with muted yellow spots. Their hands each have three fingers, and their feet each have two widely\\-spaced toes. Prothean blood is red. A unique attribute of Prothean physiology is an experiential exchange system based on physical touch. By touching something or someone, a Prothean could recall its experiences. This system can transfer complex ideas, with a Prothean being capable of learning a new skill or foreign language with a single touch. This sensory mechanism arose because the Protheans evolved as hunters and needed to be thoroughly aware of their environment. This is similar to the concept of psychometry. At least some members of the Prothean race can use potent biotic abilities, though whether this is achieved through technological intervention as with most other races, or an inherent biological capability similar to the asari is unknown. From the few specimens of Prothean genetic material that have been found, modern scientists have learned that Protheans have a unique \"quad\\-strand\" DNA structure. It has also been hypothesized that Protheans were resistant to low levels of radiation because of the discovery that Prothean comm towers produced small but significant amounts of ionizing radiation, enough to damage the DNA of Earth creatures such as fruit flies and bees.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "harbinger-collector-battle-quotes_004",
+      "kind": "page",
+      "page": "Harbinger (Collector)/Battle Quotes",
+      "section": "Quotes about the Squad",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“Your allies have fallen, Shepard.”* *“You have no one left, Shepard.”* *“Your minions have failed, Shepard.”* *“And now you stand alone, Shepard.”* *“Quarian; considered due to cybernetic augmentation, weakened immune system too debilitating.”* *“Drell; useless, insufficient numbers.”* *“Human; viable possibility, aggression factor useful if controlled.”* *“Asari; reliance upon alien species for reproduction shows genetic weakness.”* *“Salarian; insufficient lifespan, fragile genetic structure.”* *“Human; viable possibility, impressive genetic malleability.”* *“Geth; an annoyance, limited utility.”* *“Human; viable possibility, impressive technical potential.”* *“Human; viable possibility, if emotional drives are subjugated.”* *“Human; viable possibility, great biotic potential.”* *“Krogan; sterilised race, potential wasted.”* *“Turian; you are considered...too primitive.”*",
+      "url": "https://masseffect.fandom.com/wiki/Harbinger_(Collector)/Battle_Quotes",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "prothean_003",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Forging an Empire",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Very little is known about the origins of the Prothean race; even the name and location of their homeworld has been lost to history. It is unknown precisely when Prothean civilization arose and how long it persisted, but one of their communication devices discovered on the planet Fehl Prime has been dated to as early as 68,000 BCE. After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from those ruins learned about mass effect physics and developed FTL technology. It gave them a significant advantage over their contemporaries, and they kept it secret for centuries. The Protheans would expand throughout the galaxy with the help of the mass relay network and make the Citadel their capital. Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them. To defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire. The other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might. In time, each of the subjugated races assimilated into Prothean culture and came to think of themselves as Prothean. United under a single cause, the Prothean Empire successfully held off the enemy machines in a conflict known as the \"Metacon War\". The Protheans extensively observed primitive species such as the asari, hanar, humans, quarians, salarians, and turians during their time. They cultivated species they deemed to have potential. Numerous outposts were placed on or near the primitives' homeworlds, with Prothean interference and activities kept beyond their subjects' comprehension. In time, the Protheans would have given these primitives the \"choice\" to be part of their empire.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "background-races_005",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Oravores",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The **oravores** were a spacefaring race that existed at the time of the Protheans. When they attacked the asari homeworld of Thessia to gain control of its vast resources, the Protheans stopped them. This event would later be remembered in asari mythology as when the goddess Athame wielded her sword against jealous gods who threatened the asari. The oravores also fought a war against the densorin.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "exaltation_002",
+      "kind": "page",
+      "page": "Exaltation",
+      "section": "Origins",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Little is known about the origins of exaltation or why the kett began practicing it in the first place, though a recorded transmission by the Primus states that exaltation \"lifted the kett out of sorrow and tribulation.\" Andromeda Initiative scientists speculate that it first began when the species reached a point of terminal genetic stagnation and decline, though however it came about, by 2819 it was the only means by which the kett could replenish their numbers. Effectively a form of asexual reproduction via viral assimilation, exaltation converts non\\-kett lifeforms (both sapient species like the angara as well as animals such as challyrions and eirochs) into new kett, completely overwriting their original genetic structure in the process until nothing remains.",
+      "url": "https://masseffect.fandom.com/wiki/Exaltation",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "morinth_001",
+      "kind": "page",
+      "page": "Morinth",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“My lovers spent their last moments experiencing a pleasure you can't imagine.” **Morinth** is an Ardat\\-Yakshi, an asari suffering from a rare genetic disorder which causes her to kill her mates while joining minds with them. In turn she becomes smarter, more powerful, and deadlier after each coupling. She has spent centuries as a fugitive from asari justice, surviving by her wits and cunning. Her powerful biotic abilities, and talent for dominating the minds of others, have kept her alive despite the odds. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Morinth",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "summary:ardat-yakshi",
+      "kind": "summary",
+      "page": "Ardat-Yakshi",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Ardat-Yakshi, meaning \"Demon of the Night Winds\" in an old asari dialect, was a rare congenital genetic condition affecting the nervous systems of asari. The condition did not harm the afflicted asari herself, but during mating her nervous system completely overpowered that of her partner, causing brain hemorrhaging and, in extreme cases, death. The Ardat-Yakshi grew smarter, stronger, and deadlier after each encounter, and those who fed on victims developed an innate ability to influence and dominate minds, a talent that strengthened with repeated mating. Affected asari felt a compulsion to mate that grew into a full addiction, and often exhibited a lack of empathy reaching psychopathic levels, attributed to their inability to properly meld. Lethal-form Ardat-Yakshi who kept seeking mates could cause death tolls reaching tens of thousands over a lifetime.\n\nThe condition was inherited but could not be fully diagnosed until adolescence at the earliest. Identified Ardat-Yakshi were given an ultimatum: live in isolation in a monastery or face execution. Beyond protecting society, the asari enforced this policy because they viewed Ardat-Yakshi as an embarrassment to be hidden from non-asari. Ardat-Yakshi were born only of unions between two asari, contributing to prejudice against purebloods, and were themselves sterile. Monastery residents often produced goods such as asari honey marinade and asari honey mead for the galactic market, and some were granted supervised visits to Thessia.\n\nIn Mass Effect 2, Falere, Rila, and Morinth, daughters of the justicar Samara, all had the active form. Morinth embraced her condition while Falere and Rila chose seclusion. Samara stated they were the only three living Ardat-Yakshi, likely meaning the most dangerous form; roughly one percent of asari fell on a latent spectrum where mating was not always lethal. Morinth's centuries of use let her match Samara's biotic power, and she claimed the Ardat-Yakshi were the \"genetic destiny\" of the asari. If Shepard mated with Morinth, the Commander died almost immediately.\n\nIn Mass Effect 3, an Ardat-Yakshi monastery on Lesuss was attacked by Reapers seeking to convert the afflicted into Banshees. Asari High Command's commandos failed to report back, so Shepard investigated. Samara traveled there out of maternal concern and justicar duty; unable to execute her last living child Falere, she attempted suicide. If stopped by Shepard, she accepted Falere's plan to live in isolation at the ruined monastery. If Samara was absent, Falere survived alone or was shot by the Commander as a security risk. In Mass Effect Andromeda: Annihilation, the condition was said to have a viral component and contributed to the Fortinbras Plague.",
+      "url": "https://masseffect.fandom.com/wiki/Ardat-Yakshi",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "scene:benezia-death-noveria#01",
+      "kind": "scene",
+      "page": "The Death of Matriarch Benezia at Peak 15",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "benezia-death-noveria",
+      "text": "The Death of Matriarch Benezia at Peak 15. 2183, Noveria, during the hunt for Saren the secure lab at Peak 15, beside the Rachni Queen's containment tank Shepard fights through geth, escaped rachni, and Benezia's asari commandos to reach the secure lab, where Benezia is waiting beside the Rachni Queen's tank. Sent by Saren, she is trying to extract the location of the Mu Relay from the queen's genetic memory.",
+      "url": "",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "scene:citadel-chorban-jahleed-keeper-scans#07",
+      "kind": "scene",
+      "page": "Chorban's Keeper Scans and His Falling-Out With Jahleed",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-chorban-jahleed-keeper-scans",
+      "text": "Chorban's Keeper Scans and His Falling-Out With Jahleed. 2183, Citadel, during the hunt for Saren the Citadel Tower, the C-Sec offices, then the Lower Markets of the Wards If Chorban survived and Shepard scanned all or most of the keepers, he emails Shepard in 2185 with his findings: the keepers are bio-engineered, and comparison with material from Saren's flagship Sovereign shows they were engineered millions of years ago by the same makers, meaning the Citadel likely was not built by the Protheans. His genetic readings suggest the keepers are set to react to a signal roughly every 50,000 years, the last such interval coinciding with the Protheans' disappearance and due again around now, meaning old technology might have \"nasty surprises\" waiting. He notes no one else on the Citadel will listen to him.",
+      "url": "",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "scene:feros-thorian-lair-shiala#03",
+      "kind": "scene",
+      "page": "Fai Dan's Death and the Fall of the Thorian",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "feros-thorian-lair-shiala",
+      "text": "Fai Dan's Death and the Fall of the Thorian. 2183, the Feros mission, fighting back into Zhu's Hope after the ExoGeni bunker Zhu's Hope and the Thorian's lair beneath the crashed freighter Borealis, Feros Freighter crane controls exposed a stairwell down into the lair, which stank of rotting compost. The enormous Thorian expelled a green-skinned asari clone that called itself the \"Old Growth\" and demanded awe; asked its story, it explained through the clone that it had absorbed the essence of the Protheans and traded that knowledge, plus the asari Shiala, to Saren in exchange for being left alone — and that Saren had broken the deal and attacked.",
+      "url": "",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "scene:feros-shiala-cipher-transfer#01",
+      "kind": "scene",
+      "page": "Shiala Gives Shepard the Prothean Cipher",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "feros-shiala-cipher-transfer",
+      "text": "Shiala Gives Shepard the Prothean Cipher. 2183, Feros, after the Thorian is destroyed the Thorian's lair, Feros Shiala, an asari formerly working for Saren who had been offered to the Thorian as a \"sacrifice,\" explains that the Thorian gained the Prothean cipher — the cultural knowledge and instincts needed to make sense of a beacon's visions — by watching and studying the Protheans on Feros over millennia, consuming some of them as they died and assimilating what they knew. When Shiala melded with the Thorian, she shared its consciousness and gained the cipher herself.",
+      "url": "",
+      "for_key": "Asari Origins Protheans genetic biotic"
+    },
+    {
+      "chunk_id": "storyline-iii_029",
+      "kind": "page",
+      "page": "Storyline III",
+      "section": "The Fall of Thessia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Following the resolution of the quarian\\-geth conflict, the asari councillor requests that Shepard come speak with her on the Citadel. Though the Crucible's construction nears completion, the absence of the Catalyst still makes it useless against the Reapers. The Councillor reveals to Shepard that there is a highly classified artifact located on Thessia that may help the Commander identify the Catalyst; however, she urges haste, as the Reapers have descended on Thessia in droves, seeking to annihilate the most advanced race in the galaxy. En route to Thessia, Liara, who insists on coming to help her homeworld, explains that the artifact is housed in the Temple of Athame, a deity whose worship is nearly as old as the asari, but has fallen out of practice. Arriving on Thessia to find the asari military fighting a losing battle against Reaper forces, Shepard and the squad make their way to the temple, where a science team is purported to be waiting for them. They arrive at the temple to find a security field blocking entrance, strangely high\\-security for a temple of a dead religion. When Liara deactivates it, they enter the temple and find the scientists dead, but not at Reaper hands. They search the temple which houses artifacts related to Athame's worship, including ones that look suspiciously Prothean. While Liara explains the temple's history, Shepard comes to a realisation; the artifact the Councillor sent them to find is a Prothean Beacon hidden within the temple. Considering the temple's age, the beacon is likely the reason why the asari are technologically and scientifically ahead of the other races, and they have directly violated Council law by keeping the beacon to themselves. The beacon is powered up by the detection of one with Prothean\\-like brain patterns (which Shepard received in the form of the Cipher) and once the squad fully activate it, a Prothean VI identifying itself as Vendetta appears. Establishing that it is in a post\\-Prothean cycle and detecting nearby Reaper forces, it attempts to shut down, but Shepard insists that it wait and provide information on the Catalyst and Crucible. Vendetta explains that the Crucible is not of Prothean origin, but is a cumulative design spanning countless galactic cycles stretching back millions of years. The Protheans themselves never used it because their efforts were sabotaged by a splinter faction who (like Cerberus in the present cycle) argued the Protheans should control the Reapers, not destroy them. By the time it was discovered the separatists were indoctrinated, it was too late; the Prothean order of battle was too fractured to coordinate an effort to activate it. Vendetta also mentions that the Protheans learned that similar patterns of evolution and dissolution occur in every galactic cycle, with each path of advancement and conflict happening differently but in fundamentally similar ways \\- too similar to be merely chance. Vendetta infers that the Reapers are \"servants\" of the pattern, not its creator, but cannot identity their true master or motive, only its intention: galactic annihilation. Before Vendetta can specify what the Catalyst is, it detects an indoctrinated presence nearby and shuts down. The intruder is revealed to be Kai Leng who demands their attention, pulling a drone from his coat and remarking that \"Someone would like to talk with you\". The drone projects a hologram of the Illusive Man, who has learnt of the Thessia beacon from the Mars Archive and mocks Liara for missing it. The Illusive Man goes on to expand on his belief and convince Shepard that controlling the Reapers is the best course of action and that the Thessia beacon contains the information to do so. Shepard asserts their conviction to destroying the Reapers and dismisses the Illusive Man's scheme, accusing him of being indoctrinated. Rebuffed, the Illusive Man orders Leng to kill Shepard and recover the data. A vicious battle ensues, but Leng is unable to gain the upper hand. Leng calls in assistance, ordering a Cerberus gunship to destroy the temple's structural supports and the temple begins to collapse. Shepard and squad are forced to react quickly to save themselves and by the time they recover, Leng has already acquired the data and fled aboard the gunship. They can only watch helplessly as Leng's ship escapes and more Reapers descend to complete the destruction of Thessia. After escaping to the Normandy, the asari Councillor contacts Shepard, though the Commander delays the meeting out of reluctance. The Councillor eagerly requests information on the Catalyst and when it will complete the Crucible, but Shepard is forced to tell her of Cerberus' interference and their failure to acquire the data. Realising that asari civilisation, maybe all civilisation, may now be lost, the asari Councillor cuts communication, leaving Shepard to brood on their failure.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline_III",
+      "for_key": "Thessia Temple of Athame beacon Vendetta"
+    },
+    {
+      "chunk_id": "summary:priority-thessia",
+      "kind": "summary",
+      "page": "Priority: Thessia",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Priority: Thessia followed Priority: The Citadel III and was acquired after speaking with the asari Councilor in the late Donnel Udina's office. The asari, with the Reapers overrunning their systems, revealed an artifact at a temple on Thessia that might reveal the location of the Catalyst. Shepard landed with Liara T'Soni (a mandatory squadmate) and could bring Javik, who added detail about Prothean meddling in asari prehistory.\n\nThe team held a barricade with a turret while an asari biotic sealed a breach, destroying a Barrier Engine and fending off Brutes and husks; Lieutenant Kurin then withdrew her forces despite orders to hold. Shepard fought across ruined temple grounds against Marauders, Cannibals, Banshees, a Ravager and Harvesters, aided at points by M-560 Hydra missile launchers and by asari support including sniper Specialist Cayla (her partner Jineva was killed) and the gunships Talon One and Talon Five, both eventually shot down.\n\nInside the Temple of Athame the science team was found dead. Shepard realized the artifact statue concealed a Prothean Beacon, explaining the asari's advanced development: they had secretly studied Prothean technology for thousands of years. Activating four temple artifacts revealed the beacon, which produced a Prothean VI called Vendetta. Vendetta confirmed the extinction cycle and that the Crucible design had merely been passed down through cycles, then detected an indoctrinated presence and retreated. Kai Leng arrived, identified as the scientists' killer, and delivered a hologram of the Illusive Man, who explained his goal of controlling rather than destroying the Reapers. Shepard fought Kai Leng, depleting his shields three times, but Leng overpowered the squadmates, ordered the gunship to destroy the temple, stole the VI and escaped. Shepard was left listening over comms as Kurin and the asari defenders were overwhelmed.\n\nIn the aftermath EDI and Traynor tracked Leng to Horizon, making Priority: Horizon available. Shepard received a taunting email from Leng disguised as asari military command, and could speak with Anderson, Garrus and Joker about the disaster and their families on Palaven.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Thessia",
+      "for_key": "Thessia Temple of Athame beacon Vendetta"
+    },
+    {
+      "chunk_id": "priority-thessia_009",
+      "kind": "page",
+      "page": "Priority: Thessia",
+      "section": "Temple of Athame",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Make your way into the temple and pick up a med kit close to the entrance. No one's answering in the temple because they're dead: the scientists' bodies are lying on the ground near the large central statue, which is the artifact you're looking for. However, before investigating the statue, search the temple for other artifacts to learn about the asari's history. If Javik is with you, he elaborates upon their history, in more detail than Liara. Long story short, the Protheans meddled in asari prehistory, and Liara will have a hard time wrapping her head around it even in the face of mounting evidence. **Note:**  You only get the squadmates' comments on the artifacts prior to examining the central statue. Later you can interact with them again, but it's only in terms of whether they're relevant to the task at hand or not. When you investigate the statue, your non\\-Liara squadmate examines the scientists and find their throats were slit, indicating non\\-Reaper hostiles. After concentrating on the statue, Shepard realizes there is a Prothean Beacon in the temple. This helps explain how the asari are so advanced since they had the chance to study the temple for thousands of years and kept it a secret from the other species. The entrance barrier goes back up after you examine the statue, cutting you off from the previous areas. You have to examine (or re\\-examine) other artifacts to activate the beacon; they are marked by glowing blue flames surrounding their display cases. One is provided for you, the mural of Athame to the right of the statue (either you activate it yourself due to the Cipher or Javik does if he's around). The others you have to activate yourself, and they are: - The Athame Codex manuscript discussing biotics, to the far left of the statue - Janiri's bust, to the right of the statue - The shield of Athame, at the entrance of the temple There's no time pressure. If you dither enough during the activation process the squad also have some comments on the revelations. When all four are activated the statue disintegrates to reveal the beacon. Out of it comes a Prothean VI, Vendetta. It tells you the galactic extinction appears to be a recurring cycle, and the Crucible is a result of it merely passed down to the Protheans. It agrees to help your cause, but it detects someone who is indoctrinated and promptly hides back to the beacon. Kai Leng shows up, Shepard pegs him as the scientists' killer, and he delivers a hologram of the Illusive Man, who explains more about his goal to control the Reapers instead of destroying them. Regardless of how the conversation goes, you'll have to fight Leng. Morality points are awarded depending on your responses to Vendetta and the Illusive Man.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Thessia",
+      "for_key": "Thessia Temple of Athame beacon Vendetta"
+    },
+    {
+      "chunk_id": "summary:vendetta",
+      "kind": "summary",
+      "page": "Vendetta",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Vendetta was a Prothean Virtual Intelligence residing within a Prothean beacon in the Temple of Athame on Thessia. It was modeled after Pashek Vran, the overseer of the Protheans' Crucible project, and held valuable information about the Crucible's construction and implementation. During the Reaper assault on Thessia in 2186, Commander Shepard activated Vendetta. After verifying it was in a post-Prothean cycle and detecting Reapers, it attempted to shut down, declaring the cycle had reached its \"extinction terminus,\" but Shepard urged it to wait.\n\nVendetta explained that the Crucible was not of Prothean design, and that the Protheans' attempt to use it had been sabotaged by an indoctrinated splinter group who argued the Reapers should be controlled rather than destroyed, much like Cerberus. It said the Protheans had found that similar patterns of evolution and dissolution recurred in every galactic cycle, too similar to be coincidence, and inferred the Reapers were merely \"servants\" of that pattern, not its creators, its intention being galactic annihilation. If Javik was present, Vendetta identified him as Prothean and revealed it had known of his mission. It agreed to help with the Catalyst once the Crucible was complete, then detected the indoctrinated Kai Leng and entered a fail-safe mode; Kai Leng, aided by an A-61 Mantis Gunship, defeated Shepard, took the VI, and delivered it to the Illusive Man.\n\nAt Cronos Station, Shepard learned from Vendetta that the Catalyst was the Citadel itself, which enhanced dark energy emissions and coordinated the mass relay network to extend the Crucible's range. Vendetta had been programmed to withhold this so the Reapers would not learn of it before the Crucible was finished, but the Illusive Man broke its security and informed the Reapers, who seized the Citadel and moved it into orbit of Earth. After Kai Leng's death, Vendetta reported the Reapers were preparing to complete the harvest of humanity and recommended preserving information for the next cycle. Like the other Prothean VIs Vigil and Victory, its name began with the letter V.",
+      "url": "https://masseffect.fandom.com/wiki/Vendetta",
+      "for_key": "Thessia Temple of Athame beacon Vendetta"
+    },
+    {
+      "chunk_id": "vendetta_001",
+      "kind": "page",
+      "page": "Vendetta",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | **Vendetta** is a Prothean Virtual Intelligence. It resides within a Prothean beacon located in the Temple of Athame on Thessia. Vendetta was modeled after Pashek Vran, the overseer of the Protheans' Crucible project. It contains valuable information pertaining to the Crucible's construction and implementation. During the Reaper assault on Thessia, Vendetta is activated by Commander Shepard. After verifying that it is in a post\\-Prothean cycle, Vendetta detects the presence of Reapers and attempts to shut down, declaring the cycle has already reached its \"extinction terminus.\" Shepard urges the VI to wait, demanding to know what the Catalyst is. Vendetta explains that the Crucible is not of Prothean design, and that the Protheans' attempt to use it was sabotaged by a splinter group who argued the Reapers should be controlled rather than destroyed \\-\\- much like Cerberus in the present cycle. These separatists were later discovered to be indoctrinated. On further questioning, Vendetta also mentions that the Protheans have found similar patterns of evolution and dissolution occurred in every galactic cycle. Each path of advancement and conflict happened differently but in fundamentally similar ways \\-\\- too similar to be merely coincidences. Whether these similarities include synthetic/organic confrontation, indoctrinated splinter groups, or structure of galactic politics remains unclear. Vendetta infers that the Reapers are merely \"servants\" of the pattern, not its creators, but cannot identify their true master or motive, only its intention: galactic annihilation. Shepard repeats their earlier demand to know about the Catalyst. If Javik is around, Vendetta detects him as Prothean, further revealing it knew about his mission before asking if the present cycle can win. Javik argues the current cycle has earned the right to try. Vendetta deems the odds of success remote, but will try to help by assisting with the Catalyst once the Crucible is complete. However, it detects an indoctrinated presence, Kai Leng, and enters a fail\\-safe mode in an ultimately futile attempt to avoid capture. Kai Leng defeats Shepard with the assistance of an A\\-61 Mantis Gunship, takes the VI, and delivers it to the Illusive Man. Shepard later learns the true nature of the Catalyst from Vendetta after reaching the Illusive Man's office on Cronos Station. The Catalyst is in fact the Citadel, and it serves to enhance dark energy emissions and coordinate the entire mass relay network, thereby extending the Crucible's range. Because the Crucible cannot defeat the Reapers in its current state, the Citadel was incorporated into the design at some point many cycles ago, to use the Reapers' own technology against them. Vendetta was programmed to withhold the information for fear of the Reapers learning of the Catalyst's intended use before the Crucible was completed. Unfortunately, the Illusive Man broke through the VI's security protocols, learned its secrets anyway, and informed the Reapers of the Catalyst's true nature. They responded accordingly, seizing the Citadel and placing it in orbit of humanity's homeworld, Earth. The Reapers would protect their station at all costs and Vendetta predicts that the probability of accessing it to be remote. Shepard's still optimistic though, prompting Vendetta to wish them success. Shortly later, after Kai Leng's death, Vendetta informs Shepard the Reapers are preparing to complete the harvest of humanity. It recommends investigating a means of preserving information for the next cycle, hoping that the warnings will be heeded early enough. Shepard can interject at any point, vowing to personally stop the Reapers.",
+      "url": "https://masseffect.fandom.com/wiki/Vendetta",
+      "for_key": "Thessia Temple of Athame beacon Vendetta"
+    },
+    {
+      "chunk_id": "prothean-beacon_003",
+      "kind": "page",
+      "page": "Prothean Beacon",
+      "section": "Known Beacons",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Two beacons have been revealed thus far: one on Eden Prime and one on Virmire. Additionally, there is a Prothean video terminal on the planet Joab that has a similar function. The Eden Prime beacon was badly damaged, reportedly in Sovereign's attack on Eden Prime. Not only did it respond without warning when approached, the 'vision' it held was confused and incomplete. It exploded after being used; it has been suggested that the strain of transmitting it to Saren and then Shepard in a short space of time caused a system overload. Liara T'Soni comments that Shepard is exceptionally strong\\-willed, making her feel exhausted after touching the commander's mind because humans instinctively resist the joining process. Therefore the system overload could have been caused by Shepard instinctively fighting the beacon's vision, instead of welcoming it as Saren did. The beacon in Saren's lab on Virmire was intact and had an interface for users to access it. When using the beacon, Shepard was able to cope more easily when the vision was transmitted. It isn't clear whether Saren found this intact beacon on Virmire or had it brought there from another planet. The Virmire beacon was presumably lost in the nuclear explosion that destroyed Saren's base. The video terminal's vision on Joab is partly identical to the threat about Sovereign and the Reapers but instead of a Reaper it shows a pair of Collectors in the end. Another beacon was discovered hidden on Thessia, the asari homeworld, concealed within a statue of the goddess Athame. Its existence was only known to the highest levels of asari government, which secretly exploited its data to make the asari the most advanced race in the galaxy in direct violation of the Citadel Council's policy on withholding Prothean technology. During the Reaper invasion, Shepard sensed the presence of the beacon with the aid of the Cipher and activated it using several artifacts around the temple, releasing a Prothean VI named Vendetta. It provided data that suggested that the repeating patterns of galactic evolution and development were not, in fact, caused by the Reapers, and that the Reapers are merely \"servants\" of that pattern. But before it could give the data on the final Crucible piece, Kai Leng appeared and stole the data.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Thessia Temple of Athame beacon Vendetta"
+    },
+    {
+      "chunk_id": "athame_002",
+      "kind": "page",
+      "page": "Athame",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Athame** is a hydrogen\\-helium gas giant with spectacular rings. The planet's apparent magnitude varies when seen from Thessia based on atmospheric conditions and relative distance. To the ancient asari, the \"mysterious star\" that shone in some months and disappeared in others was linked to fortune, and so it was named Athame, after the matriarch of the pantheon and a goddess of prophecy and fate. Athame's worship changed over time, eventually becoming the basis for a monotheistic religion in which her maiden, matron and matriarch aspects oversaw all stages and roles in asari society. When an asari says \"by the goddess,\" they are referring to Athame. Like Janiri, the planet Athame served as a rally point during the Reaper invasion, where fleeing asari ships could discharge their drive cores so they could make another FTL jump. The Reapers were forced to chase the asari away from the planet, buying Thessia valuable time.",
+      "url": "https://masseffect.fandom.com/wiki/Athame",
+      "for_key": "oravores attacked Thessia Athame sword"
+    },
+    {
+      "chunk_id": "athena-nebula_003",
+      "kind": "page",
+      "page": "Athena Nebula",
+      "section": "Locations",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "| | **Athena Nebula** | | --- | | Ialessa | | Ilmnos• Sanves• Asteroid belt• Zylium• Trikalon• Nossia | | Orisoni | | Thissioni• Niacal• Kralla• Egalic | | Parnitha | | Kurinth• Thessia• Piares• Asteroid belt• Janiri• Athame• *Fuel depot*• Tevura• *Mass relay* | | Tomaros | | Lusia• Niagolon• Pronoia• Beness | | Vernio | | Nauti• Promavess• Sotera• Asteroid belt• Tritogenith• Polissa | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Athena_Nebula",
+      "for_key": "oravores attacked Thessia Athame sword"
+    },
+    {
+      "chunk_id": "summary:priority-the-citadel-iii",
+      "kind": "summary",
+      "page": "Priority: The Citadel III",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This short Mass Effect 3 mission was acquired automatically after liberating Rannoch from the Reapers. The asari Councilor contacted Shepard on the vid-com claiming vital information that had to be shared in person. Returning to the Citadel, Shepard went to the late Donnel Udina's office in the Embassies, where the Councilor reported that the Asari Republics were losing badly and revealed that a Prothean artifact had been hidden for millennia in the Temple of Athame on the asari homeworld, Thessia. The conversation ended the mission and unlocked Priority: Thessia.\n\nIf Shepard had sabotaged the genophage cure and Urdnot Wrex led the krogan, Wrex was waiting at Normandy Dock: Bay D24 with a recording of Shepard's conversation with Dalatrass Linron. Enraged by the betrayal, he attacked Shepard and could not be reasoned with. Two Renegade interrupts let Shepard shoot him; otherwise Bailey and C-Sec gunned him down. Killing Wrex cost the Clan Urdnot and krogan mercenary War Assets, and the incident was afterward covered up, evidenced by an ANN mail. If Urdnot Wreav led the krogan, he never discovered the deception and remained oblivious through the end of the game. The page also documents a sequence-break exploit using the DLC rapid-transport terminals that allowed players to sabotage the cure, gain salarian support, and keep Wrex alive until the final battle in London.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_The_Citadel_III",
+      "for_key": "oravores attacked Thessia Athame sword"
+    },
+    {
+      "chunk_id": "summary:races",
+      "kind": "summary",
+      "page": "Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This is an index page listing the races and species of the Milky Way and Andromeda galaxies, with under 150 words of real prose. It groups Milky Way entries into Citadel races (asari, drell, elcor, hanar, humans, keepers, salarians, turians, volus), non-Citadel races (batarians, Collectors, geth, krogan, Leviathans, quarians, raloi, Reapers, virtual aliens, vorcha, yahg), historical races (arthenn, densorin, inusannon, oravores, Protheans, rachni, thoi'han, zeioph, zha'til), and various non-sapient creatures. Andromeda entries cover intelligent races (angara, Jardaan, kett, Remnant) and creatures. It contains no standalone lore beyond these listings.",
+      "url": "https://masseffect.fandom.com/wiki/Races",
+      "for_key": "oravores attacked Thessia Athame sword"
+    },
+    {
+      "chunk_id": "codex-aliens-extinct-races_004",
+      "kind": "page",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "Protheans: Beacon",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The beacon was a Prothean artifact unearthed on the Alliance colony of Eden Prime. Its resemblance to the Prothean data banks recovered on Mars provoked immediate interest from the Alliance and the Citadel Council. It proved to be a solid state data storage device, part of a galaxy\\-spanning comm network similar to the modern extranet. Intact Prothean 'paleo\\-technology' is rare; the beacon seemed to promise another quantum leap of technology, akin to the discovery of the mass effect drive and relays. Unfortunately, the beacon also drew the attention of the rogue Spectre Saren Arterius and his synthetic allies, the geth. A dawn raid by his flagship Sovereign resulted in hundreds of civilian casualties. The beacon was badly damaged. The motives behind the attack are still being investigated. During the recovery operation, the beacon fired a pulse of energy at the Executive Officer of the Alliance frigate Normandy. Lieutenant Commander Shepard survived and appears to have suffered no ill effects. Afterwards, the beacon fell inert. The mechanism appears to be dead.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "asari state secret Prothean beacon"
+    },
+    {
+      "chunk_id": "summary:prothean-beacon",
+      "kind": "summary",
+      "page": "Prothean Beacon",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Prothean Beacons were rare pieces of surviving Prothean \"paleo-technology.\" They formed a system of near-instantaneous communication across the Prothean empire, interfacing directly with a person's brain rather than through audio or video. The discovery of a beacon on Eden Prime prompted the Alliance to dispatch the SSV Normandy to recover it.\n\nCommander Shepard's \"vision,\" triggered by accidentally accessing the Eden Prime beacon, was a warning about the Reapers sent by the researchers on Ilos to reach any survivors and give them hope. The message was coded so that only Prothean minds could understand it, a precaution meant to keep the Reapers from learning Ilos had survived. Because the Protheans did not yet fully understand indoctrination, they failed to anticipate that an organic Reaper agent could receive it. The Eden Prime beacon was also badly damaged, reportedly in Sovereign's attack, so Shepard received only random, vivid images, suffering fifteen hours of unconsciousness and recurring nightmares. Comprehending the message as intended required the Cipher, which enabled both Shepard and Saren Arterius to understand the archetypes. Liara T'Soni noted Shepard's exceptionally strong will; the beacon exploded after transmitting to Saren and then Shepard, possibly from the strain, possibly because Shepard instinctively resisted the joining.\n\nAn intact beacon with a user interface existed in Saren's lab on Virmire; Shepard coped more easily with its vision, and it was presumably destroyed in the nuclear blast that leveled the base. A Prothean video terminal on Joab held a similar vision, but showed a pair of Collectors instead of a Reaper at the end. Another beacon was hidden on Thessia inside a statue of the goddess Athame, known only to the highest levels of asari government, which secretly used its data to make the asari the galaxy's most advanced race in violation of Council policy. During the Reaper invasion Shepard sensed it with the Cipher and activated it using temple artifacts, releasing the Prothean VI Vendetta, which suggested that the repeating patterns of galactic evolution were not caused by the Reapers, who were merely \"servants\" of that pattern, before Kai Leng stole the data on the final Crucible piece.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "asari state secret Prothean beacon"
+    },
+    {
+      "chunk_id": "summary:codex-aliens-extinct-races",
+      "kind": "summary",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The page collected the Codex entries on two extinct spacefaring races. Fifty thousand years ago the Protheans were the only spacefaring species in the galaxy and vanished in a swift galactic extinction, leaving ruins across many worlds; they were believed to have built the mass relays and the Citadel. Functioning Prothean \"paleotechnology\" was rare, most sites long since looted. Evidence of Prothean occupation appeared on the hanar homeworld Kahje and on Mars, feeding \"interventionary evolutionist\" theories among humans. The European Space Agency founded Lowell City on Mars in 2103; in 2148 prospectors near Deseado Crater discovered a buried Prothean observation post whose struggling mass effect core had caused local anomalies, proving humanity was not alone and triggering an international effort to translate its databanks. The post had been a biosciences station monitoring early humans, linked to platforms in Earth orbit and on the Moon.\n\nA Prothean beacon was unearthed on the Alliance colony Eden Prime; it was a solid-state data-storage device from a galaxy-spanning comm network. The rogue Spectre Saren Arterius and his geth raided Eden Prime with the flagship Sovereign, causing hundreds of civilian casualties and badly damaging the beacon. During recovery the beacon fired an energy pulse into Lieutenant Commander Shepard, the Normandy's executive officer, who survived apparently unharmed before the device fell inert. The beacon implanted knowledge that produced confusing visions; understanding them required a \"cipher,\" the cultural knowledge of a living Prothean, which might be impossible to obtain. Over three dozen fragile Prothean data discs had been recovered, a few partially restored, and were considered the best leads on Prothean culture.\n\nOver 2,000 years ago explorers opened a mass relay to an unknown system and met the rachni, spacefaring insects guided by hive-mind queens on a toxic homeworld. Negotiation proved impossible and the Rachni Wars followed. The salarians uplifted the krogan, who could reach the queens in their lairs; when krogan fleets drove the rachni back to their homeworld and they refused to surrender, the krogan eradicated them from the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "asari state secret Prothean beacon"
+    },
+    {
+      "chunk_id": "liara-t-soni_001",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“That is why I find you so fascinating. You were marked by the beacon on Eden Prime; you were touched by working Prothean technology!” **Dr. Liara T'Soni** is an asari researcher and archaeologist. With a Doctorate in Anthropology of the Prothean Era from the University of Serrice, she has spent the past fifty years of her life studying Prothean technology and culture, specializing in investigating the mysterious extinction of the species. Born on Thessia in 2077, Liara is \"only\" 106—barely an adult in asari terms. She already has a great deal of insight into the Protheans and is a highly trained user of biotics. She is a potential romantic interest for either a male or female Shepard. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "asari state secret Prothean beacon"
+    },
+    {
+      "chunk_id": "scene:virmire-sovereign-speaks-to-shepard#01",
+      "kind": "scene",
+      "page": "Sovereign Speaks to Shepard in Saren's Lab",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "virmire-sovereign-speaks-to-shepard",
+      "text": "Sovereign Speaks to Shepard in Saren's Lab. 2183, during the assault on Saren's base on Virmire Saren Arterius's communications lab inside the Virmire cloning facility, at a second Prothean beacon Fighting through Saren's base, Shepard reaches his communications lab and uses a second Prothean beacon stored there. The contact alerts Sovereign to the Commander's presence, and the Reaper speaks to Shepard directly through the lab's systems for the first time — a conversation written to make plain that this is not a geth ship or a Prothean relic but something far older and self-aware.",
+      "url": "",
+      "for_key": "asari state secret Prothean beacon"
+    },
+    {
+      "chunk_id": "codex-aliens-extinct-races_005",
+      "kind": "page",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "Protheans: Cipher",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Prothean beacon downloaded its knowledge into Lt. Commander Shepard on Eden Prime, causing confusing dreams and visions. While the imagery is becoming clearer with time, the meaning of the beacon communication remains elusive. It has been suggested that Prothean data recording is highly dependent on a certain point of view, what Carl Jung described as the collective unconscious. The 'cipher' needed to comprehend the images implanted in Shepard's mind is the cultural knowledge of a Prothean: the archetypes, biological instincts, and common experiences universal to the race. Since the Protheans have been dead for millennia it may be impossible to acquire this 'cipher'.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "asari state secret Prothean beacon"
+    },
+    {
+      "chunk_id": "scene:eden-prime-beacon-mission#09",
+      "kind": "scene",
+      "page": "Find the Beacon",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "eden-prime-beacon-mission",
+      "text": "Find the Beacon. 2183, the Normandy's shakedown run, the day of Saren's geth attack the SSV Normandy en route from the Arcturus Prime relay, then the fields, dig site and spaceport of Eden Prime Kaidan and Ashley examined the still-active beacon. It seized one of them and dragged them toward it; Shepard threw the squadmate clear and was lifted in their place, taking a rush of fragmentary Prothean visions before the beacon overloaded and exploded, knocking Shepard unconscious. Only Shepard received the visions.",
+      "url": "",
+      "for_key": "asari state secret Prothean beacon"
+    },
+    {
+      "chunk_id": "scene:grissom-funeral#01",
+      "kind": "scene",
+      "page": "Jon Grissom's State Funeral",
+      "section": "ceremony",
+      "game": "Mass Effect",
+      "scene_id": "grissom-funeral",
+      "text": "Jon Grissom's State Funeral. late 2185 or early 2186, six months before the Paul Grayson incident; referenced in Mass Effect: Retribution location unspecified; hundreds of dignitaries attended Rear Admiral Jon Grissom died of natural causes in late 2185 or early 2186. His state funeral drew hundreds of dignitaries from across the Alliance, including Admiral David Anderson. Kahlee Sanders, Grissom's biological daughter, attended the ceremony as a member of the Jon Grissom Academy faculty, maintaining the classified secret that she was Grissom's daughter.",
+      "url": "",
+      "for_key": "asari state secret Prothean beacon"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 427,
+      "text": "- Vendetta was a Prothean VI modeled on Crucible overseer Pashek Vran, held in a beacon in Thessia's Temple of Athame; it revealed the Reapers follow a recurring galactic \"pattern,\" that an indoctrinated Prothean splinter group sabotaged their Crucible attempt, and that the Catalyst is the Citadel itself, before Kai Leng seized it for the Illusive Man (source: Vendetta).",
+      "for_key": "thessia temple of athame beacon vendetta"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 163,
+      "text": "- Thessia is the asari homeworld, long organized as republican city-states run by an inclusive \"electronic democracy\" with no politicians that defers to Matriarchs in a crisis; the Temple of Athame on Thessia held a Prothean beacon containing the VI Vendetta, kept a state secret until 2186. In the Reaper War asari hit-and-run tactics failed against superior Reaper numbers and orbital bombardment, and the lightly defended homeworld fell. (source: Codex/Aliens: Council Races; Codex/The Reaper War)",
+      "for_key": "thessia temple of athame beacon vendetta"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 21,
+      "text": "- During the 2186 Reaper invasion the asari initially withheld support; after Thessia was attacked, Commander Shepard's team uncovered the Prothean beacon and VI Vendetta hidden in the Temple of Athame, but an indoctrinated Kai Leng ambushed them there on the Illusive Man's order and stole the Vendetta's Catalyst data before Thessia fell, after which the asari committed forces to the Allied war effort. (source: Asari)",
+      "for_key": "thessia temple of athame beacon vendetta"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 51,
+      "text": "- Prothean intervention secretly accelerated asari civilization: Protheans posed as the goddess Athame, enhanced asari biotics, and left a beacon containing the VI Vendetta in the Temple of Athame on Thessia, kept a state secret until 2186. (source: Asari)",
+      "for_key": "thessia temple of athame beacon vendetta"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 65,
+      "text": "- Priority: Thessia: a Reaper assault on the asari homeworld during which Shepard learned the asari had secretly based their advanced development on a hidden Prothean Beacon in the Temple of Athame; Cerberus assassin Kai Leng killed the science team, fought Shepard, and stole the Prothean VI Vendetta (source: Priority: Thessia).",
+      "for_key": "thessia temple of athame beacon vendetta"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

@@ -1,0 +1,815 @@
+{
+  "section": {
+    "id": "the-empire-with-the-adjectives-removed",
+    "title": "The Empire With the Adjectives Removed",
+    "target_words": 720,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "The empire as scholars now reconstruct it: the Citadel as capital, the relay network, a single ruling race with servant species who took the name Prothean, conquest for those who refused",
+    "The machine-intelligence war they called the Metacon and how it justified uniting all organic life, told with the discomfort of someone who once loved the romantic version",
+    "Cosmic Imperative and language tutorial programmes: the ideology and the kindly bureaucracy side by side",
+    "A live quarrel: the dynasties' architecture grows plainer near the end, and whether that means fatigue, war economy or something else, with her own lean marked as a lean",
+    "How the Protheans watched primitive species, including the early turians, and judged which were too small to matter"
+  ],
+  "required_facts": [
+    {
+      "event_id": "hades-nexus-prothean-artifact-recovery",
+      "fact": "During the Reaper War, with the Crucible under construction, Commander Shepard recovered two Prothean artifacts from the contested Hades Nexus cluster and turned them over to Alliance researchers on the Citadel. Both fetch missions became available after Priority: The Citadel II, but the Hades Nexus itself could only be entered after Priority: Rannoch and the resolution of the geth-quarian war, by which point it was hostile territory. In the first case, a researcher sitting in the Presidium Commons Courtyard, near the Meridian Place billboard and General Septimus Oraka's bench, needed the Obelisk of Karza for the Crucible project; his dig team had run out of time and the artifact now lay in off-limits territory. Shepard scanned the moon Kopis in the Hoplos system to recover it. The obelisk contained Prothean language translations and was likened to a Rosetta Stone for deciphering Prothean writing. In the second case, a refugee begging a turian guard for food in Bay E28 of the Docks Holding Area traded the location of Prothean ruins on Gei Hinnom in the Sheol system. Shepard scanned Gei Hinnom to recover a Prothean sphere and authorized the refugee to sell it to the Alliance; he used the money to buy food for his family and for others stranded on the Citadel. Either artifact could also turn up during a routine Search and Rescue scan, logging initially as a Citadel assignment. Delivering each artifact granted reputation, 15,000 credits, and an upgrade to the Alliance Engineering Corps war asset feeding the Crucible effort.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "hades-nexus-prothean-artifact-recovery",
+      "fact": "The Obelisk of Karza (a Prothean language key) is delivered to Crucible researchers on the Citadel",
+      "actor": ""
+    },
+    {
+      "event_id": "hades-nexus-prothean-artifact-recovery",
+      "fact": "A Prothean sphere is recovered from Gei Hinnom and sold to the Alliance",
+      "actor": ""
+    },
+    {
+      "event_id": "hades-nexus-prothean-artifact-recovery",
+      "fact": "The Alliance Engineering Corps war asset is upgraded twice, strengthening the Crucible project",
+      "actor": ""
+    },
+    {
+      "event_id": "hades-nexus-prothean-artifact-recovery",
+      "fact": "A stranded Citadel refugee uses the proceeds to feed his family and other trapped civilians",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "thessia",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Thessia - the mission for the Prothean VI and Kai Leng.",
+      "answer": "Brought Javik. Would have easily killed Kai Leng if not for plot armor.",
+      "detail": ""
+    }
+  ],
+  "scenes": [],
+  "attendance": {},
+  "evidence": [
+    {
+      "chunk_id": "prothean_003",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Forging an Empire",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Very little is known about the origins of the Prothean race; even the name and location of their homeworld has been lost to history. It is unknown precisely when Prothean civilization arose and how long it persisted, but one of their communication devices discovered on the planet Fehl Prime has been dated to as early as 68,000 BCE. After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from those ruins learned about mass effect physics and developed FTL technology. It gave them a significant advantage over their contemporaries, and they kept it secret for centuries. The Protheans would expand throughout the galaxy with the help of the mass relay network and make the Citadel their capital. Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them. To defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire. The other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might. In time, each of the subjugated races assimilated into Prothean culture and came to think of themselves as Prothean. United under a single cause, the Prothean Empire successfully held off the enemy machines in a conflict known as the \"Metacon War\". The Protheans extensively observed primitive species such as the asari, hanar, humans, quarians, salarians, and turians during their time. They cultivated species they deemed to have potential. Numerous outposts were placed on or near the primitives' homeworlds, with Prothean interference and activities kept beyond their subjects' comprehension. In time, the Protheans would have given these primitives the \"choice\" to be part of their empire.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "summary:prothean",
+      "kind": "summary",
+      "page": "Prothean",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans were an ancient race that vanished roughly 50,000 years ago after building a galaxy-wide empire. They were long credited with creating the Citadel and the mass relays, though in truth they only inherited that Reaper technology. Anthropoidal in form, they had two pairs of dual-pupiled eyes, three pairs of nostrils, a layered head carapace, three-fingered hands, and a flanging voice like turians. A unique trait was an experiential exchange system: by touch, a Prothean could absorb another's memories, skills, or language. They had quad-strand DNA, some resistance to low radiation, and at least some members wielded potent biotics.\n\nAfter achieving spaceflight, the Protheans discovered ruins of the earlier inusannon and learned mass effect physics, gaining a centuries-long secret advantage. Facing a hostile machine intelligence, they decided all organic life must unite under their rule; resisting species were conquered and assimilated, coming to call themselves \"Prothean.\" United, they held off the machines in the Metacon War. They observed and cultivated primitive species including asari, hanar, humans, quarians, salarians and turians, intending eventually to offer them the \"choice\" of joining the empire.\n\nThe Reapers arrived around 48,000 BCE, entering through the Citadel, decapitating the government, disrupting the relay network, and using Citadel census data to hunt every Prothean. Their unified empire and single military doctrine became fatal weaknesses. Indoctrinated Protheans acted as sleeper agents. Subject races like the densorin and the AI zha'til were destroyed; the Protheans themselves annihilated the zha'til by sending a star supernova. Some Protheans built a Crucible from designs left by prior civilizations, but indoctrinated builders sabotaged it. After centuries the Reapers killed or enslaved every Prothean and withdrew into dark space.\n\nSurvivors persisted in stasis. On Ilos, the Conduit research team under Ksad Ishan went dark; the VI Vigil cut power to non-essential pods until only about a dozen scientists remained, who later used the Conduit to reach the Citadel and alter the keepers' signal to trap the Reapers. On Eden Prime, nearly a million warriors and their commander Javik were stored; traitors betrayed the site, most pods were destroyed, and the VI Victory kept only Javik's pod alive. Shepard could revive Javik in 2186. Meanwhile the Reapers repurposed captured Protheans into the Collectors, directed by Harbinger to abduct humans for a Human-Reaper.\n\nThe Protheans held evolution, the \"Cosmic Imperative,\" as the universe's driving force. Their influence shaped the asari (uplifted as a possible failsafe), humans (via the Mars archive) and the hanar, who worship them as the \"Enkindlers.\" Notable Protheans included Javik, avatar of vengeance, and the guides Janiri and Lucen of asari myth. Prothean tech included mind-to-mind beacons, memory shards, indoctrination detection, kinetic barrier grids, the Particle Rifle, the flagship Penumbra Apex, and the Conduit.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "timeline_004",
+      "kind": "page",
+      "page": "Timeline",
+      "section": "Pre\\-Council Times (c. 68,000 BCE \\- 500 BCE)",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "c. 68,000 BCE The Protheans achieve spaceflight and discover mass effect technology from the ruins of the extinct inusannon. They go on to establish a galaxy\\-wide civilization linked by the mass relay network with the Citadel as their capital. At some point, the Protheans encounter a hostile race of machine intelligences that endanger their existence. To combat this threat, the Protheans aggressively assimilate many other spacefaring organic races into their empire. The Prothean Empire is able to fend off the machines in a conflict known as the \"Metacon War\". **c. 48,000 BCE: Fall of the Protheans** The Prothean Empire collapses with the arrival of the Reapers through the Citadel. Although the Protheans had learned of the Reapers' existence from studying the ruins of previous civilizations and had begun to prepare, they were nonetheless caught off\\-guard. Over the next several centuries, the Protheans fight the Reapers system by system, world by world, and city by city. In the end, it is not enough. The Reapers methodically wipe out the remaining Protheans, as well as other contemporary races, and depart the galaxy to await the next cycle. c. 13,000 BCE The turians of Palaven begin to develop civilization around this time. c. 6000 BCE Seeking to escape the imminent explosion of their sun, an alien race constructs an AI\\-managed starship equipped with supercomputers containing a virtual world, into which some one billion of the aliens transfer their consciousnesses. The starship begins a journey throughout the galaxy which lasts for the next 8,000 years. c. 1900 BCE Tuchanka, the krogan homeworld, enters the nuclear age. In a global conflict, weapons of mass destruction are released, triggering a nuclear winter. In the resulting devastation, krogan society devolves into a collection of warring clans. c. 1800 BCE A supernova propels the Mu Relay, the only point of access to the remote Pangaea Expanse, out of position. Concealed somewhere in the dense nebula formed by the supernova, the relay's position is effectively lost for centuries. Later, the rachni rediscover the relay. c. 1600 BCE In the Andromeda galaxy, the angara are created and seeded across multiple worlds in the Heleus Cluster by the Jardaan. 580 BCE After developing faster\\-than\\-light spacefaring capabilities based upon Prothean technology, the asari begin to explore the mass relay network, and eventually discover the huge Citadel space station at a hub of many mass relays. 520 BCE The salarians discover the Citadel and open diplomatic relations with the asari.",
+      "url": "https://masseffect.fandom.com/wiki/Timeline",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "vigil_001",
+      "kind": "page",
+      "page": "Vigil",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "“Perhaps there is still hope.” |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | **Vigil** is a Prothean Virtual Intelligence found on Ilos; an advanced non\\-organic analysis system with personality imprints of Ksad Ishan, the Prothean Chief Overseer of the Ilos facility. It helps Commander Shepard understand the fate of the Prothean civilization and the truth behind the Conduit.",
+      "url": "https://masseffect.fandom.com/wiki/Vigil",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "summary:timeline",
+      "kind": "summary",
+      "page": "Timeline",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page is the master chronological timeline of the Mass Effect universe, spanning from prehistory to Mass Effect: Andromeda, with a note on how to interpret approximate versus exact dates.\n\nIn prehistoric times the Leviathans dominated the Milky Way, exacting tribute from enthralled races. Their created Intelligence, tasked with preserving organic life against synthetic rebellion, turned on them, slaughtered them for genetic material to build Harbinger, the first Reaper, and began the cyclical harvest, constructing the mass relay network to regulate the cycles. The Leviathan of Dis was killed roughly a billion years ago; a Reaper was disabled near Mnemosyne c. 37,000,000 BCE. The Protheans achieved spaceflight c. 68,000 BCE, fought the \"Metacon War\" against machines, and fell to the Reapers c. 48,000 BCE after centuries of war.\n\nThe turians developed civilization c. 13,000 BCE; Tuchanka entered the nuclear age c. 1900 BCE and collapsed into warring clans; the Jardaan created the angara in Andromeda c. 1600 BCE. The asari found the Citadel c. 580 BCE, the salarians c. 520 BCE, and the Citadel Council formed in 500 BCE. The Rachni Wars began 1 CE; the salarians uplifted the krogan (80 CE), the rachni were declared extinct (300 CE), and the Krogan Rebellions ran c. 700–800 CE, ended by the turian-deployed, salarian-engineered genophage (710 CE). The turians gained a Council seat in 900 CE. The geth became self-aware in the Morning War (1895 CE), exiling the quarians to the Migrant Fleet.\n\nHumanity reached space in 1961, founded lunar and Martian settlements, discovered element zero on Mars (2147) and Prothean tech there (2148), activated the Charon Relay (2149), and signed the Systems Alliance charter. The First Contact War with the turians occurred in 2157 (the Relay 314 Incident), ending in the siege of Shanxi and Council-brokered peace; Jack Harper founded Cerberus and became the Illusive Man. Humanity gained a Citadel embassy in 2165. Key birth dates are listed (Liara 2077, Shepard 2154). The Shepard trilogy runs 2183–2186: the Eden Prime War and Battle of the Citadel against Saren and Sovereign; the Collector conflict beyond the Omega 4 Relay; Liara becoming the Shadow Broker (2185); the destruction of the Bahak system; and the Reaper invasion of 2186 through batarian space, ending in the final confrontation over Earth. The Andromeda Initiative (founded 2176) launched in 2185; the Nexus reached the Heleus Cluster in 2818 and the Ark Hyperion in 2819, where the events of Mass Effect: Andromeda begin. Interstitial entries cover the Keelah Si'yah, the Fortinbras Plague, the Scourge (c. 2450), the kett invasion (2744), and the founding of the Angaran Resistance (2814).",
+      "url": "https://masseffect.fandom.com/wiki/Timeline",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "manual-the-turian-hierarchy-before-the-citadel-early-history_007",
+      "kind": "page",
+      "page": "The Turian Hierarchy Before the Citadel — Early History",
+      "section": "A war machine without a war",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Reunited under the Hierarchy, Palaven and its colonies returned to being a prosperous nation with the military at its center. Despite having no enemies to fight, the Turian navy expanded to enormous size, culminating in at least 32 individual fleets. The Turian war machine needed no war to keep turning.",
+      "url": "",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "commander-shepard_001",
+      "kind": "page",
+      "page": "Commander Shepard",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“You're not even alive. Not really. You're just a machine. And machines can be broken!” **Commander Shepard** is the main protagonist of Mass Effect, Mass Effect 2, and Mass Effect 3. Born on April 11, 2154, Shepard is a graduate of the Systems Alliance N7 special forces program (service no. 5923\\-AC\\-2826\\) and a veteran of the Skyllian Blitz. Shepard is a biotic, having received secondary exposure to element zero in 2168 and officially detected as one in 2171\\. *For the virtual intelligence program(s) based on Commander Shepard, see Shepard VI.* |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Commander_Shepard",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "oleg-petrovsky_002",
+      "kind": "page",
+      "page": "Oleg Petrovsky",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "As an Alliance corporal in the First Contact War in 2157, Oleg Petrovsky was forced to take command of his unit and proved his tactical brilliance by holding off repeated turian attacks for weeks. The war ended before his position was overrun, but not before Petrovsky had witnessed firsthand the brutality of the turian war machine. Despite being praised and promoted for his bravery, Petrovsky eventually found more common ground with Cerberus than the Alliance military. Over the years he became one of the Illusive Man's most respected operatives, quietly rising to become the latter's chief military strategist. |  | ***“Where the hell are these things coming from?”*** — Spoilers for **Mass Effect: Invasion** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Oleg_Petrovsky",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "mako-guide_007",
+      "kind": "page",
+      "page": "Mako Guide",
+      "section": "Machine Gun",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Mako's secondary weapon is a machine gun that handles like a massive assault rifle. While not as powerful as the cannon, the machine gun allows for a lot more precision. It is much better against smaller or individual enemies since it will knock them over rather than blowing them away, which is especially useful if the player does not wish to kill enemy infantry with the Mako. The machine gun's other major advantage is against your opponent's shields. The cannon can take out two shield levels (depending on the difficulty) at once but then takes time to recharge, whereas the machine gun's small projectiles will shred them very quickly. The disadvantage of using the machine gun is that it overheats with prolonged firing, but careful handling and alternating the machine gun with the cannon should take care of this.",
+      "url": "https://masseffect.fandom.com/wiki/Mako_Guide",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-october-2010_009",
+      "kind": "page",
+      "page": "Cerberus Daily News - October 2010",
+      "section": "*10/08/2010 \\- Evidence for Salarian Institute Intelligence Link Surfaces*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“New evidence has surfaced amid accusations that the Salarian Institute for Exo\\-Archeological Research is a front for salarian intelligence. Research documents have been obtained from teams working on the newly discovered planet 433 Spidau, which was the scene of a nuclear war some 1,000 years ago. The documents indicate the teams found an underground bunker stocked with advanced weaponry which was still intact; however, those items went missing when shipped to the institute for analysis. The implication is that salarian intelligence intercepted them en route. Institute director Narid Jarwinar today conceded: \"We conducted an internal review and discovered a handful of employees working for the institute who did have current intelligence ties. Those employees have been terminated, and our institute is ready to move forward without undue influence from the state.\"”* - Other stories in **Salarian Institute Intelligence Controversy** (First \\- 10/03/2010 \\- Prev \\- 10/07/2010 \\- Next \\- 10/09/2010)",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_October_2010",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#01",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine A hanar official refuses Liara T'Soni access to the submerged Prothean shrine. His assistant, a drell named Quoyle, argues that since generosity is an Enkindler virtue, Liara's large pledge to the upcoming Cresting Bloom celebrations should earn her a brief visit. The official relents once the sum is settled.",
+      "url": "",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#05",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine Liara helps the bandaged Quoyle toward the shrine's shuttle bay and contacts Admiral Hackett, reporting a possible lead and asking for access to a top-secret facility on Mars.",
+      "url": "",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "scene:kahje-shrine-quoyle-escorts-liara#04",
+      "kind": "scene",
+      "page": "Quoyle Takes Liara to the Kahje Shrine",
+      "section": "mission-aside",
+      "game": "Mass Effect: Homeworlds",
+      "scene_id": "kahje-shrine-quoyle-escorts-liara",
+      "text": "Quoyle Takes Liara to the Kahje Shrine. 2186, during the Reaper War, on Liara's hunt through Prothean archives for a way to stop the Reapers a drell domed city on Kahje, then a submerged Prothean site the hanar keep as a shrine Wounded but alive, Quoyle tells Liara to go on to the archive room without him. She finds a set of Prothean encryption keys and is interrupted by a hologram of the Illusive Man, who denies sending the Phantom and offers an alliance against the Reapers; Liara demands he share his information first, and when he stalls she cuts the link, telling him to send an army next time.",
+      "url": "",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-brood-alliance#16",
+      "kind": "scene",
+      "page": "Brood and the War Debt Repaid",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-brood-alliance",
+      "text": "Brood and the War Debt Repaid. 2185, during the Collector attack on Fehl Prime the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel As the crippled ship goes down, Vega has to choose between freeing the colonists — Christine and April among them — from their pods, or pulling out the asari Treeya Nuwani, who holds intelligence on the Collectors vital enough to be worth the trade. He goes for Treeya. The colonists, unable to be freed in time, are lost when the ship crashes; the Alliance later erects a monument on Fehl Prime to their memory, and commends Vega for the choice even though Shepard's later destruction of the Collector base makes the intelligence unnecessary.",
+      "url": "",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "summary:javik",
+      "kind": "summary",
+      "page": "Javik",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Javik was the only known survivor of the ancient Prothean race, revived in 2186 after more than 50,000 years in stasis and driven by vengeance against the Reapers for his people's extinction. He was written mainly by John Dombrow and added through the From Ashes DLC, fully integrated into the Legendary Edition.\n\nIn Prothean society, \"Avatars\" each embodied a single virtue; Javik's was Vengeance. Born mid-war on a galaxy already losing to the Reapers, he was to lead roughly one million warriors who would outlast the invasion in stasis in an underground bunker on Eden Prime, then reclaim the galaxy. Indoctrinated traitors betrayed the bunker to the Reapers, and the Collectors slaughtered the sleeping Protheans. The supervising VI Victory initiated a neutron purge that damaged the bunker's sensors, making mass reactivation impossible; power was triaged so that only Javik would wake.\n\nCommander Shepard and Liara T'Soni uncovered and opened his pod on Eden Prime while investigating Cerberus. Javik attacked them on waking, then agreed to join the fight to destroy the Reapers. Through touch he could read biological memories and instantly learned human language. He held imperialist, social-Darwinist views: he preached the \"Cosmic Imperative,\" dismissed mercy, morality, and friendship as weakness, believed allies were merely resources, and thought the modern \"primitive\" races should be forced to help rather than asked. He refused to use names, referring to people by species or job. He took Grunt's former quarters aboard the Normandy and clashed repeatedly with the crew, especially EDI, whose capacity for choice he found troubling, and Liara, whose persistent questions and asari heritage he needled. He recounted Prothean history with the rachni (bred as weapons), the zha and synthetic zha'til, the densorin, and the asari, whom the Protheans secretly \"guided\" as this cycle's best hope, a claim that nearly provoked Liara to violence over events on Thessia.\n\nIf persuaded to use his Prothean Echo Shard, Javik relived hunting down and killing his own indoctrinated crew, concluding that war is atrocity committed for survival. Asked what he would do after the war, he might choose to return to the Cronian Nebula to take his own life and rejoin his comrades, or, if reconciled with Liara, co-author a book with her titled \"Journeys with the Prothean,\" or live among the hanar on Kahje. In the Citadel DLC he starred alongside Shepard in \"Blasto 7: Blasto Goes to War.\" If Shepard lacked sufficient forces, Javik could be killed by Harbinger in the final push; if he survived, he honored Shepard at the Memorial Wall. \"Javik\" derives from the Hindi word for \"biological\" or \"organic.\"",
+      "url": "https://masseffect.fandom.com/wiki/Javik",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "summary:vendetta",
+      "kind": "summary",
+      "page": "Vendetta",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Vendetta was a Prothean Virtual Intelligence residing within a Prothean beacon in the Temple of Athame on Thessia. It was modeled after Pashek Vran, the overseer of the Protheans' Crucible project, and held valuable information about the Crucible's construction and implementation. During the Reaper assault on Thessia in 2186, Commander Shepard activated Vendetta. After verifying it was in a post-Prothean cycle and detecting Reapers, it attempted to shut down, declaring the cycle had reached its \"extinction terminus,\" but Shepard urged it to wait.\n\nVendetta explained that the Crucible was not of Prothean design, and that the Protheans' attempt to use it had been sabotaged by an indoctrinated splinter group who argued the Reapers should be controlled rather than destroyed, much like Cerberus. It said the Protheans had found that similar patterns of evolution and dissolution recurred in every galactic cycle, too similar to be coincidence, and inferred the Reapers were merely \"servants\" of that pattern, not its creators, its intention being galactic annihilation. If Javik was present, Vendetta identified him as Prothean and revealed it had known of his mission. It agreed to help with the Catalyst once the Crucible was complete, then detected the indoctrinated Kai Leng and entered a fail-safe mode; Kai Leng, aided by an A-61 Mantis Gunship, defeated Shepard, took the VI, and delivered it to the Illusive Man.\n\nAt Cronos Station, Shepard learned from Vendetta that the Catalyst was the Citadel itself, which enhanced dark energy emissions and coordinated the mass relay network to extend the Crucible's range. Vendetta had been programmed to withhold this so the Reapers would not learn of it before the Crucible was finished, but the Illusive Man broke its security and informed the Reapers, who seized the Citadel and moved it into orbit of Earth. After Kai Leng's death, Vendetta reported the Reapers were preparing to complete the harvest of humanity and recommended preserving information for the next cycle. Like the other Prothean VIs Vigil and Victory, its name began with the letter V.",
+      "url": "https://masseffect.fandom.com/wiki/Vendetta",
+      "for_key": "Prothean Metacon war machine intelligence"
+    },
+    {
+      "chunk_id": "unc-prothean-data-discs_001",
+      "kind": "page",
+      "page": "UNC: Prothean Data Discs",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Research on Prothean culture is focused on the discovery of ancient data discs.",
+      "url": "https://masseffect.fandom.com/wiki/UNC:_Prothean_Data_Discs",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "summary:unc-prothean-data-discs",
+      "kind": "summary",
+      "page": "UNC: Prothean Data Discs",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "UNC: Prothean Data Discs was a collection assignment in Mass Effect focused on recovering ancient Prothean data discs, a key subject of research into Prothean culture. The assignment began when Commander Shepard discovered a data disc anywhere in the galaxy. There were ten discs in total, but only seven had to be collected to complete the assignment, which then chained into UNC: Collection Complete. The discs were described as extremely fragile, with intact ones rare and usually found inside Prothean data recording devices; scientists had not yet found a way to transcribe their contents, but the discs were regarded as the most promising source of information on Prothean science and culture. The original completion summary erroneously read \"a complete collection of asari artifacts,\" corrected to \"Prothean\" in Mass Effect Legendary Edition. The page otherwise consists of location tables.",
+      "url": "https://masseffect.fandom.com/wiki/UNC:_Prothean_Data_Discs",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "unc-prothean-data-discs_003",
+      "kind": "page",
+      "page": "UNC: Prothean Data Discs",
+      "section": "Background",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "These discs are extremely fragile; intact discs are rare and usually found inside Prothean data recording devices. Scientists have not yet found a way to transcribe the information from these discs, but it is generally agreed that they are the most promising source of information on Prothean science and culture.",
+      "url": "https://masseffect.fandom.com/wiki/UNC:_Prothean_Data_Discs",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "war-assets-crucible_021",
+      "kind": "page",
+      "page": "War Assets/Crucible",
+      "section": "Radiation Shielding Sheath",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Mass Effect 3: Leviathan, scanning of Sineus, Dirada, Pylos Nebula **Military Strength:** 25 The Prothean device is being built in space, where its inner workings may be vulnerable to cosmic radiation from nearby stars. While the construction plan has taken standard risks into account, a sudden turn in space\\-weather could pierce the basic shielding and irradiate the device and crew. Superior radiation shielding used by the orbital stations near the gas giant Sineus would provide a low\\-cost way to keep the device safe against all but the most unusual energetic emissions.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Crucible",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "codex-aliens-extinct-races_006",
+      "kind": "page",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "Protheans: Data Discs",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Despite all the evidence confirming the existence of the Protheans, little is known about their culture and society. From time to time, dig sites will yield new clues, but after 50,000 years of decay, little of value is unearthed. Recent research has focused on the discovery of Prothean data discs. On their own, they are frail and rarely found in one piece. Occasionally, however, an intact disc will be discovered within a console or reading device. To date, over three dozen discs have been recovered and a few of those have been restored to the point where researchers can begin analyzing them. Though it may be some time before scientists discover a way to transfer the data off the discs, they are currently considered the most tangible leads for learning more about the Prothean culture.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "liara-t-soni_001",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“That is why I find you so fascinating. You were marked by the beacon on Eden Prime; you were touched by working Prothean technology!” **Dr. Liara T'Soni** is an asari researcher and archaeologist. With a Doctorate in Anthropology of the Prothean Era from the University of Serrice, she has spent the past fifty years of her life studying Prothean technology and culture, specializing in investigating the mysterious extinction of the species. Born on Thessia in 2077, Liara is \"only\" 106—barely an adult in asari terms. She already has a great deal of insight into the Protheans and is a highly trained user of biotics. She is a potential romantic interest for either a male or female Shepard. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "h-047c_002",
+      "kind": "page",
+      "page": "H-047c",
+      "section": "Description",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Shattered by the Scourge, this formerly viable planet \\[sic] is now a debris field. Due to a lack of atmosphere, few lifeforms are present. ALERT: Excessive solar and cosmic radiation detected. Confinement to the Nomad advised.",
+      "url": "https://masseffect.fandom.com/wiki/H-047c",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "prothean_008",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Culture",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Citadel was the Prothean seat of government, and the heart of their galaxy\\-wide empire. Although the Protheans were a single race, as they expanded and assimilated other spacefaring races into their empire, those servant races adopted the name \"Prothean\" for themselves as well. This assimilation was not always peaceful, as advanced species who attempted to deny or oppose their admittance into the empire were forcibly conquered and assimilated into Prothean society. The Protheans justified this cultural reconditioning by claiming that if the races who opposed them were actually stronger than the Protheans, then they would take the Protheans' place as the galaxy's dominant civilization. It was in keeping with their belief that evolution, or the 'Cosmic Imperative' as they termed it, was the driving force in the universe and that the strong must flourish by dominating the weak for the greater good of all. This ideology was also dictated by necessity. After the Protheans encountered hostile machine intelligences, they ultimately decided that all organic races should join together for the sake of survival. Efforts to smoothly integrate newly\\-inducted servant races into the empire were made, like Prothean language tutorial programs. Early Prothean architecture tended to be functional yet decorative, with eras of their history organized into dynasties producing distinctions of their own, though the designs tended to become simpler at the time of their extinction. Archaeologists always wondered about the reason, and one of the theories is that the Protheans were too busy fighting the Reapers to care about aesthetics. The beacons and the Eletania ruins suggest that, like the asari, the Protheans were comfortable with the notion of transferring data to an individual's mind. They invested heavily in their scientific research, a policy that eventually paid off, if too late to save their own species. Javik, if liberated from stasis in 2186, is the only known extant source of many insights into Prothean culture. Because he has a tendency to give out information at odds with what little the galaxy knows during idle conversation, anything he says cannot be easily corroborated. The Protheans designated certain people as avatars, or exemplars, of particular traits: bravery, strength, cunning, etc. Javik, for example, is the avatar of vengeance. It may also be conferred to non\\-Protheans, as Javik may call Commander Shepard the exemplar of victory during the final stages of the Reaper war. Prothean society was heavily regulated; Javik mentions that playing games of chance was an offense punishable by death. Staring contests were a common pastime, made all the more challenging due to the Protheans' four eyes. Females would also use these eyes to begin foreplay. The Protheans did not \"date\" species considered primitive in their time, though they did regard some primitive species, such as quarians, as attractive. Mating between species was considered a pointless exercise. They were conquered and enslaved much like the others under the empire, and sometimes they were eaten as well. Asari, however, are apparently exempt from Prothean mating restrictions. Protheans had few compunctions with eating sentient species, apparently regardless of chemical makeup. According to a drunken Javik, dextro\\-amino\\-acid\\-based races like primitive turians and quarians were just as likely to be made ingredients in Prothean cuisines as primitive humans, asari, hanar, salarians, or even krogan. Hanar were either boiled or fried, and salarian liver was considered a delicacy. Before the coming of the Reapers, known testaments to Prothean civilization included the quasar fortress of the Tirandi Veil, the ice canals of Judor IV, and the Palisades of the Verom Anjelik. These were known even by the last remaining Protheans due to the memory shards, handheld devices used to relive memories stored in them, although they were also capable of accepting new memories from Protheans and non\\-Protheans alike. Such devices were passed down from soldier to soldier during their war against the Reapers, reminding them of the stark contrast between their magnificent past and their hellish present.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "exaltation_002",
+      "kind": "page",
+      "page": "Exaltation",
+      "section": "Origins",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Little is known about the origins of exaltation or why the kett began practicing it in the first place, though a recorded transmission by the Primus states that exaltation \"lifted the kett out of sorrow and tribulation.\" Andromeda Initiative scientists speculate that it first began when the species reached a point of terminal genetic stagnation and decline, though however it came about, by 2819 it was the only means by which the kett could replenish their numbers. Effectively a form of asexual reproduction via viral assimilation, exaltation converts non\\-kett lifeforms (both sapient species like the angara as well as animals such as challyrions and eirochs) into new kett, completely overwriting their original genetic structure in the process until nothing remains.",
+      "url": "https://masseffect.fandom.com/wiki/Exaltation",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "summary:codex-aliens-extinct-races",
+      "kind": "summary",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The page collected the Codex entries on two extinct spacefaring races. Fifty thousand years ago the Protheans were the only spacefaring species in the galaxy and vanished in a swift galactic extinction, leaving ruins across many worlds; they were believed to have built the mass relays and the Citadel. Functioning Prothean \"paleotechnology\" was rare, most sites long since looted. Evidence of Prothean occupation appeared on the hanar homeworld Kahje and on Mars, feeding \"interventionary evolutionist\" theories among humans. The European Space Agency founded Lowell City on Mars in 2103; in 2148 prospectors near Deseado Crater discovered a buried Prothean observation post whose struggling mass effect core had caused local anomalies, proving humanity was not alone and triggering an international effort to translate its databanks. The post had been a biosciences station monitoring early humans, linked to platforms in Earth orbit and on the Moon.\n\nA Prothean beacon was unearthed on the Alliance colony Eden Prime; it was a solid-state data-storage device from a galaxy-spanning comm network. The rogue Spectre Saren Arterius and his geth raided Eden Prime with the flagship Sovereign, causing hundreds of civilian casualties and badly damaging the beacon. During recovery the beacon fired an energy pulse into Lieutenant Commander Shepard, the Normandy's executive officer, who survived apparently unharmed before the device fell inert. The beacon implanted knowledge that produced confusing visions; understanding them required a \"cipher,\" the cultural knowledge of a living Prothean, which might be impossible to obtain. Over three dozen fragile Prothean data discs had been recovered, a few partially restored, and were considered the best leads on Prothean culture.\n\nOver 2,000 years ago explorers opened a mass relay to an unknown system and met the rachni, spacefaring insects guided by hive-mind queens on a toxic homeworld. Negotiation proved impossible and the Rachni Wars followed. The salarians uplifted the krogan, who could reach the queens in their lairs; when krogan fleets drove the rachni back to their homeworld and they refused to surrender, the krogan eradicated them from the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#03",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster At the lab terminals Shepard's eyes glowed green while watching Prothean footage of the Reaper invasion 50,000 years earlier — the VI Victory sealing bunker bulkheads, some 300,000 lifepods destroyed, the stasis-readiness signal broadcast while refugees were still trying to reach shelter. Liara saw only static, and deduced that Shepard's exposure to the Prothean Cipher on Feros (or the Eden Prime beacon in a non-imported game) let the Commander read the images.",
+      "url": "",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#01",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster Alliance command reported that Cerberus had attacked and occupied Eden Prime to secure a major Prothean artifact. Shepard infiltrated the colony with Liara T'Soni as a mandatory squadmate; on the shuttle in the team talked about the last time Shepard had been to Eden Prime.",
+      "url": "",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#05",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster The pod opened. Shepard spoke with the Prothean on the planet and again back aboard the Normandy; he introduced himself as Javik and joined the squad, found afterward in the port cargo hold. He stayed out of combat until Priority: Palaven was done, saying he was still recovering from stasis.",
+      "url": "",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#03",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Descending by elevators and broken platforms, the squad found Liara floating trapped inside a Prothean security barrier she had triggered by accident while hiding from the geth. She warned of more geth led by a krogan and directed Shepard to a nearby mining laser.",
+      "url": "",
+      "for_key": "Prothean Culture Cosmic Imperative assimilation"
+    },
+    {
+      "chunk_id": "pc-tweaks-mass-effect-3_012",
+      "kind": "page",
+      "page": "PC Tweaks (Mass Effect 3)",
+      "section": "Split and rebind the Use/Cover/Roll/Storm keys",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Video tutorial - Written tutorial (archive) A better/easier way to improve the controls is installing the Intuitive Controls Mod.",
+      "url": "https://masseffect.fandom.com/wiki/PC_Tweaks_(Mass_Effect_3)",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "prothean_002",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Biology",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Protheans are an anthropoidal race. They have two pairs of eyes with each eye possessing dual pupils, and three pairs of nostrils. Much like turians, Protheans have a similar flanging effect in their voices. Their eyes have some ability to see through cloaked objects or entities. Their heads are covered in a thick, layered carapace that gives them a distinctive shape. The skin surrounding this carapace can be a pale blue\\-gray or brown color mottled with muted yellow spots. Their hands each have three fingers, and their feet each have two widely\\-spaced toes. Prothean blood is red. A unique attribute of Prothean physiology is an experiential exchange system based on physical touch. By touching something or someone, a Prothean could recall its experiences. This system can transfer complex ideas, with a Prothean being capable of learning a new skill or foreign language with a single touch. This sensory mechanism arose because the Protheans evolved as hunters and needed to be thoroughly aware of their environment. This is similar to the concept of psychometry. At least some members of the Prothean race can use potent biotic abilities, though whether this is achieved through technological intervention as with most other races, or an inherent biological capability similar to the asari is unknown. From the few specimens of Prothean genetic material that have been found, modern scientists have learned that Protheans have a unique \"quad\\-strand\" DNA structure. It has also been hypothesized that Protheans were resistant to low levels of radiation because of the discovery that Prothean comm towers produced small but significant amounts of ionizing radiation, enough to damage the DNA of Earth creatures such as fruit flies and bees.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "prothean_010",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Legacy",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Various Prothean ruins still survive on planets like Feros, Quana, and Therum, as well as many known yet unexplored sites in the Attican Traverse, with more unknown sites believed to exist elsewhere throughout the galaxy. While these ruins are surprisingly intact for their age, many were plundered long ago with time and generations of looters having picked their dead cities and derelict stations clean. Functioning examples of Prothean technology are rare. While hunting for rogue Spectre Saren Arterius, Shepard may discover Prothean data discs and ancient ruins on some uncharted worlds. The Commander can even receive a Prothean \"trinket\" as a gift from Sha'ira, but as Liara T'Soni claims, solid evidence on the Protheans is scarce. With the help of Shiala on Feros, Shepard also gains the Cipher, which is the key to fully comprehending the vision from the beacon. As the vision was meant for a Prothean mind, understanding it requires the individual to think like a Prothean \\- to understand their culture, biological instincts, history and ancestral memory. This \"cipher\" then allows the individual to unlock the true meaning of the images, and understand the vision as it was meant to be seen. According to Shepard, the Cipher's effect on the vision is quite subtle, and Liara's Prothean expertise is necessary to make sense of the images. The Cipher also grants Shepard complete knowledge of the Prothean language. In addition to the technology they left behind, the Protheans left a greater influence through their in\\-depth study of other races. Their work has had the greatest impact on asari, humans, and the hanar. A Prothean ruin on Eletania reveals that the elder race was monitoring humanity even in its early Cro\\-Magnon form. The eventual discovery of a relatively small data cache in a ruined Prothean research station on Mars introduced humans to element zero and its follow\\-on technologies, advancing the species' development by a few centuries at least. It also revealed the location of the Charon Relay, enabling humanity to become an interstellar civilization and a major galactic power almost overnight. The hanar, who call the Protheans \"the Enkindlers\", credit them with giving the hanar sentience and language, and worship them as a wise and benevolent race who allowed them to become civilized. Even more profound was the Prothean influence on the asari. One of the deepest secrets of the asari government is a collection of ancient asari relics held in a temple on Thessia. The relics show asari goddesses and their companions as Protheans. The asari were nurtured and, to a degree, uplifted by the Protheans, according to the last surviving Prothean, Javik. Even the asari aptitude for biotics was apparently cultivated by the Protheans. Javik also claims his people believed the asari would be a failsafe if the Protheans were exterminated—that the asari race's innate wisdom and patience combined with the head start gifted from Prothean intervention would enable it to succeed where its benefactors failed, defeating the Reapers in the next cycle.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "quarian_009",
+      "kind": "page",
+      "page": "Quarian",
+      "section": "Language",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Now that the quarians are reduced to a small, insular population, they have one common language known as Khelish. Words from the language listed below are taken from intra\\-quarian conversation. - *bosh'tet* — curse/insult, likely being relative to \"son\\-of\\-a\\-bitch\" or \"bastard\". - *esu se'lai* — likely a form of \"goodbye\" - *geth* — \"Servant of the People\" - *Mered'vai Rannoch* — \"Forget Rannoch\" - *nar* \\[ship\\-name] — child of - *nedas* — nowhere - *keelah* — \"By the homeworld\" - *keelah se'lai* — \"By the homeworld I hope to see one day.\" - *keelah si'yah* — \"By the homeworld I hope to find one day.\" - *ke'sed* (or *kes'ed*) — offspring of the qorach animal, figuratively means \"naive\" when used on people - *Pallu'Kaziel* — \"Nevertheless, Justice Comes\" - *Rannoch* — \"walled garden\" - *tasi* — no\\-one - *tiral azhana* — \"handful of water\" - *vas* \\[ship\\-name] — crew of - *von* — \"one who has a weak bladder\" Quarian names are composed of four parts—the quarian's given name and clan name separated by an apostrophe, the title (\"nar\" means \"child of\", referring to their birth ship, while \"vas\", adopted after the quarian has completed their Pilgrimage and joined a ship, means \"crew of\") and the name of their vessel. When Tali first met Shepard, for instance, she was going by the name of her birth ship (the Rayya) because at that point she had not yet completed her Pilgrimage and was thus not yet able to join a quarian crew. Later, though, she became known as \"Tali'Zorah vas Neema\", indicating that she had completed her Pilgrimage and was welcome to join the Neema. On occasion quarians may impose their naming conventions on other races. Commander Shepard, for example, may be referred to as \"Shepard vas Normandy\" if the Commander chooses to interact with the quarians on their home territory. In certain formal situations, quarians appear to use both their adult ship and childhood ship. Tali'Zorah identifies herself as \"Tali'Zorah vas Neema nar Rayya\" during docking procedures following summons to the Migrant Fleet regarding accusations of treason.",
+      "url": "https://masseffect.fandom.com/wiki/Quarian",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "codex-update-bring-down-the-sky_001",
+      "kind": "page",
+      "page": "Codex/UPDATE: Bring Down the Sky",
+      "section": "Technology: Translation",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Human cultures remain linguistically divided. Some converse in Spanish, others in Mandarin, Arabic, Swahili, etc. Every alien race has their own equally broad panoply of languages and dialects. Most individuals know only their mother tongue, and rely on machine translation. Modern portable computers allow anyone with a few hundred credits of equipment to enjoy seamless real\\-time translation of alien languages, courtesy of handheld PDAs, computers in clothing or jewelry, or sub\\-dermal implants. Without fast and accurate translation, galactic trade and culture would not exist. Governments provide subsidized software, updated through the public extranet \"on the fly\", often as users approach spaceport customs facilities. Even the batarians, who isolated themselves from galactic society nearly two decades ago, take pains to provide up\\-to\\-date glossaries and linguistic rules, though most suspect that this is only so they can continue exporting propaganda. It is still considered broad\\-minded and practical to be able to speak without machine aid. Children often take courses in alien language, and most races can speak the simplified artificial \"trade tongue\" with little difficulty. Some species must rely on machine translation to interact with the rest of the galaxy. Hanar, for example, cannot reproduce the spoken language of any humanoid species, and other races cannot reproduce hanar bioluminescence without mechanical aid. Newly discovered or obscure races don't have machine translation available until the linguists have had time to study them.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/UPDATE:_Bring_Down_the_Sky",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "hades-nexus-obelisk-of-karza_003",
+      "kind": "page",
+      "page": "Hades Nexus: Obelisk of Karza",
+      "section": "Walkthrough",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Hades Nexus only becomes available after Priority: Rannoch. Scan the moon Kopis from the Hoplos system in the cluster and speak to the researcher when you return to the Citadel. The obelisk is an artifact containing Prothean language translations, apparently akin to the Rosetta Stone but for Protheans. After handing over the artifact, you will gain 5 Reputation, 15,000 credits and an update to the Alliance Engineering Corps War Asset.",
+      "url": "https://masseffect.fandom.com/wiki/Hades_Nexus:_Obelisk_of_Karza",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "background-races_009",
+      "kind": "page",
+      "page": "Background Races",
+      "section": "Other Identified Races",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Prothean Javik briefly mentions several other spacefaring races who existed at the time of the Prothean Empire 50,000 years ago. - **Ditakur** \\- The aggressive ditakur wiped out the synril. - **Enduromi** \\- The enduromi conquered the vandomar. - **Synril** \\- The synril claimed to have found the path to eternal peace, but were wiped out by the ditakur. - **Vandomar** \\- The vandomar were conquered by the enduromi.",
+      "url": "https://masseffect.fandom.com/wiki/Background_Races",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "summary:codex-update-bring-down-the-sky",
+      "kind": "summary",
+      "page": "Codex/UPDATE: Bring Down the Sky",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This Codex update, added with the Bring Down the Sky DLC, contained a single Secondary entry on translation technology. It noted that humanity remained linguistically divided across languages such as Spanish, Mandarin, Arabic, and Swahili, and that every alien race had a similarly broad range of languages and dialects. Most individuals knew only their mother tongue and relied on machine translation, which a few hundred credits of equipment (handheld PDAs, computers in clothing or jewelry, or sub-dermal implants) could provide in seamless real time; without it, galactic trade and culture would not exist. Governments distributed subsidized translation software updated over the public extranet, often as travelers approached spaceport customs, and even the isolationist batarians supplied up-to-date glossaries, widely assumed to be so they could keep exporting propaganda. Speaking without machine aid was still considered broad-minded and practical, children often took courses in alien languages, and most races could manage the simplified artificial \"trade tongue.\" Some species depended on machine translation entirely: the hanar could not reproduce the spoken language of any humanoid species, and other races could not reproduce hanar bioluminescence without mechanical aid. Newly discovered or obscure races had no machine translation until linguists had studied them.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/UPDATE:_Bring_Down_the_Sky",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "summary:scholar-achievement-guide",
+      "kind": "summary",
+      "page": "Scholar Achievement Guide",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Gameplay guide, not lore. This page explained how to unlock the Scholar achievement in the first Mass Effect, which required discovering a set of Codex entries on alien species before certain characters became unavailable. It listed each required subject and where to obtain it: the Council races (asari, salarians, turians) unlocked automatically at the Council hearing or by talking to the Embassy Receptionist Saphyria; the extinct races (Prothean, rachni) via Nihlus's briefing aboard the Normandy and Avina terminals or Noveria NPCs; and non-Council races (batarians, elcor, geth, hanar, keepers, krogan, quarians, volus) through conversations with ambassadors such as Din Korlack and Calyn, shopkeepers like Delan, Avina terminals, Ashley Williams, Captain Anderson, Chorban, and the Wrex and Tali recruitment missions. It also noted a notification glitch on Xbox 360 where the achievement might not pop, and credited Armando Castillo's GameFAQs guide.",
+      "url": "https://masseffect.fandom.com/wiki/Scholar_Achievement_Guide",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "summary:cipher",
+      "kind": "summary",
+      "page": "Cipher",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Cipher was the cultural context, knowledge, and experience of the Prothean race, its archetypes, biological instincts, and common experiences, needed to correctly interpret the visions stored in Prothean beacons. After the beacon on Eden Prime uploaded its knowledge into Lt. Commander Shepard, the resulting dreams and visions grew clearer over time but remained elusive in meaning without this unique racial perspective. Liara T'Soni first raised the idea, comparing it to what Carl Jung called the collective unconscious, and noted the difficulty of acquiring it given that the Protheans had been dead for millennia. Both Saren Arterius and Shepard used the Cipher to interpret the beacons on Eden Prime and Virmire; without it, a non-Prothean mind lacked the attitudes, mindset, and cultural experience to make sense of the imagery, and describing the Cipher was said to be like explaining colour to a creature without eyes. Shepard gained the Cipher through Shiala, an asari formerly working for Saren who had been offered as a \"sacrifice\" to the Thorian on Feros. The Thorian had itself gained the Cipher by watching and studying the Protheans on Feros and consuming some of them when they died, assimilating their knowledge; when Shiala melded with the Thorian she shared its consciousness and so gained the Prothean Cipher, which she then transferred directly into Shepard's mind. The experience left the Commander badly shaken but was necessary to find the Conduit. With the Cipher and Liara's help, Shepard could make more sense of the vision and understand the Prothean language. The Cipher later proved useful in understanding archived video footage containing codes for the stasis pod holding the surviving Prothean Javik, and in activating another beacon on Thessia. The information came from the in-game Codex.",
+      "url": "https://masseffect.fandom.com/wiki/Cipher",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "scene:citadel-presidium-prophet#03",
+      "kind": "scene",
+      "page": "The C-Sec Officer and the Hanar Preacher",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "citadel-presidium-prophet",
+      "text": "The C-Sec Officer and the Hanar Preacher. 2183, Citadel, after the Council dismisses the charges against Saren near the Wards Access corridor on the Presidium Alternatively, Shepard can persuade the hanar to leave by arguing the Enkindlers would not want their gift of language used to break society's laws, earning Paragon points; this satisfies the officer, who thanks Shepard and hands over omni-gel.",
+      "url": "",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "scene:normandy-tali-romance-suit-trust#01",
+      "kind": "scene",
+      "page": "Tali, the Suit, and the Mask Before Omega 4",
+      "section": "downtime",
+      "game": "Mass Effect 2",
+      "scene_id": "normandy-tali-romance-suit-trust",
+      "text": "Tali, the Suit, and the Mask Before Omega 4. 2185, aboard the Normandy SR-2 — after Tali's treason trial, and the night before the Omega 4 relay the Normandy's engineering deck, then Shepard's cabin When Tali first comes aboard, Yeoman Kelly Chambers tells Shepard she reads \"more than just good friends\" in Tali's body language. Kasumi Goto later says the same — Shepard is \"all she talks about\" — and warns Shepard to be good to her.",
+      "url": "",
+      "for_key": "Prothean language tutorial servant races"
+    },
+    {
+      "chunk_id": "gemini-sigma_005",
+      "kind": "page",
+      "page": "Gemini Sigma",
+      "section": "Trivia",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- The cluster might be named for the Gemini constellation. The constellation represents the Dioscuri, Castor and Pollux. The systems in this cluster are likely named after Chinese Imperial dynasties.",
+      "url": "https://masseffect.fandom.com/wiki/Gemini_Sigma",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-3_016",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 3",
+      "section": "Mars",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "After Earth, Mars was probably the second\\-most\\-exciting planet to design. We knew it would have human architecture, and we wanted to capture the realistic feel of a drill site on the red planet, excavating Prothean secrets of the Mars archive. We kept the base quite low to the ground to help it survive sandstorms and other harsh Martian weather, and went with a circular design that supported a large drilling shaft down the middle. The large spokes coming off the circle serve as docking stations for shuttles and rovers. The design of the interior has a clean industrial look, more like a first\\-world factory than a backwater mining station. The architecture also shows how humans' decades of studying the Prothean archives influenced the design of the mine.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_3",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "bonus-content-disc-environments-ilos_007",
+      "kind": "page",
+      "page": "Bonus Content Disc/Environments: Ilos",
+      "section": "Image 6",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Derek Watts**: This is a concept done up of the actual Prothean pods. This is where the capsules that they were stored in; millions or thousands, however many there were in the ruins. They were all stored, and relied on just a few people to take care of them. At this point, these capsules were actually supposed to slide out. Maybe you saw the Protheans in there. You had to do something at this point. We ended up modifying that quite a bit to keep it simpler.",
+      "url": "https://masseffect.fandom.com/wiki/Bonus_Content_Disc/Environments:_Ilos",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_036",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Kasumi \\- Stolen Memory",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "For the *Kasumi \\- Stolen Memory* DLC mission, Hock's mansion was imagined as a house in the Hollywood Hills with advanced *Mass Effect* architecture. Early on, the mission was proposed to be on Illium or another asari planet, but ultimately it took place on a human planet in the Boltzmann System, so the architecture changed accordingly.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "bonus-content-disc-technology-geth-weapons_004",
+      "kind": "page",
+      "page": "Bonus Content Disc/Technology: Geth Weapons",
+      "section": "Image 3",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Derek Watts**: And this is it after it was modified. So, we simplified it up substantially, gave it simpler legs... used a lot of stuff. Doesn't vary too much from the human one so we could re\\-use a lot of elements and able to build it in the amount of time we had.",
+      "url": "https://masseffect.fandom.com/wiki/Bonus_Content_Disc/Technology:_Geth_Weapons",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "manual-jack-subject-zero-character-analysis-part-2-psyche-and-arc_004",
+      "kind": "page",
+      "page": "Jack (Subject Zero) — Character Analysis (Part 2) — Psyche and Arc",
+      "section": "Desensitization to death",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "Given her childhood, Jack is entirely desensitized to death, killing, and crime — Cerberus built a conditioned (Pavlovian) link between narcotic euphoria and killing, so where most people feel regret, she feels bliss. She kills without hesitation: \"Every time someone dies and it's not me, my chances of survival go up.\" She considers it simpler, in a hostage situation, to kill the hostage.",
+      "url": "",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "summary:the-art-of-mass-effect-alien-worlds",
+      "kind": "summary",
+      "page": "The Art of Mass Effect/Alien Worlds",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This page transcribes the fifth part and acknowledgements of The Art of Mass Effect (2007), with commentary by Casey Hudson. The section covers the game's landscapes and architecture, tracing how early combat-visualization paintings set an overall style before specific locations were developed. It discusses Eden Prime (shifted from green farmland to a red, ember-filled palette to darken the story's opening, keeping a cargo train), its train station, the Therum mining complex and mines, the Prothean tower where Liara is found, the Thorian's lair, and Feros (a human colony amid Prothean ruins, built largely from reusable parts). It also covers Ilos (changed from lush jungle to an ominous dead world) and its Archive of suspended Protheans, Noveria (a spaceport inspired by the Swiss Alps, made colder and more isolated), the ring-shaped Citadel Presidium and its grungier wards, docking bays and exterior, and Virmire (inspired by the islands of Palau, the site of Saren's oceanfront fortress). The acknowledgements credit the concept artists: Derek Watts, Matthew Rhodes, Sung Kim, Adrien Cho, Fran Gaulin, Mike Spalding, Mike Trottier, Michael Jeffrey, Sasha Beliaev and Mike Higgins.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_Mass_Effect/Alien_Worlds",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-3_019",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 3",
+      "section": "Rannoch",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The challenge for Rannoch, the quarian homeworld, was to create a place that seemed consistent with two alien styles: quarian architecture, seen on the Migrant Fleet, and geth architecture, introduced by the geth occupation of the quarian planet centuries prior. We decided to keep Rannoch's quarian environments industrial looking, with modular stainless steel sections similar to the Lloyd's of London building. The interiors and exteriors were meant to blend\\-\\-there was no hard line between the two. We were careful not to put in battle damage here, since the geth have kept the quarian homeworld in an almost pristine state.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_3",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "summary:caleston-cut",
+      "kind": "summary",
+      "page": "Caleston (Cut)",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Caleston (Cut) documented the original version of the Mass Effect planet that was ultimately released as Therum; the wiki flags the material as cut content and not canon in any way. Caleston was the planet's name before a large amount of planned content was cut. Like Therum, it was where Commander Shepard would find Liara T'Soni, but it also had a hub area with several missions, assignments and characters called Throw Down, beneath which lay an element zero refinery that was the focal point of an ongoing gang war between the Miners' Union and the Cartel. Some distance from Throw Down, a set of Prothean ruins called Knossos sat inside a supervolcano caldera nicknamed the \"Ring of Fire,\" which is where the player lands on the final Therum; neither name is spoken in the shipped game, though the star system is called Knossos. Cut dialogue and development images consistently depicted Caleston with a clear yellow/green sky rather than Therum's dark, stormy one, and Throw Down's administrator Tombiri claimed there were \"hundreds\" of Prothean ruins on Caleston, though most were not as well preserved as Knossos. Caleston was described as a moon, not a planet, orbiting Cernunnos, and the \"Caleston DLC\" (a misnamed prototype demo for Bring Down the Sky) placed it in a new Ankyra System in the Hades Gamma cluster.\n\nTwo surviving descriptions covered it. The Caleston DLC description read: \"Geysers of molten suphur dot the rugged landscape of this volcanic moon, its atmosphere a toxic layer of sulphur dioxide,\" with Eldfell-Ashland Energy mining element zero left by an ancient meteor strike to make it \"the largest source of starship drive core material in the Attican Traverse.\" The X06 trailer description called it \"the hostile moon of Caleston,\" the largest satellite of Cernunnos, \"wracked by constant volcanism, due to the tidal stresses from Cernunnos,\" with silicon-based native organic life whose populations \"seem to be in decline.\"\n\nPlanned content included the missions Caleston: Last Man Standing and Find Liara T'Soni and the assignments Caleston: Redemption, Caleston: Reactivate Production and Caleston: Free Prostitutes. Caleston recurred in Mass Effect trailers up to release, variously placed in the \"Perseus Cluster,\" the \"Hades G Cluster,\" and, in a 2007 television ad, chosen by Shepard over a distress call from Noveria. Much of Throw Down's architecture was later repurposed as the final fight location in Bring Down the Sky, and its background story served as a basis for the criminal haven on Omega.",
+      "url": "https://masseffect.fandom.com/wiki/Caleston_(Cut)",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "summary:citadel-arena-prothean-challenge",
+      "kind": "summary",
+      "page": "Citadel Arena: Prothean Challenge",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Citadel Arena: Prothean Challenge was a side mission in the Mass Effect 3: Citadel DLC, requiring the From Ashes DLC (or Mass Effect Legendary Edition) and completion of Citadel Arena: Reaper Solo Challenge. After Shepard finished the previously requested Reaper match, the \"Hour 20\" news team emailed the Combat Sim Controls through executive producer Lara J. Delante of \"Hour 20 With Azad Carter\" on the Alliance News Network. The team had learned Shepard had a living Prothean aboard and wanted footage of a Prothean fighting Reapers in the Armax Arena as a symbol of galactic resistance and a morale boost, asking Shepard to bring the Prothean and sign likeness-release forms for use in Council space. Delante added that Javik could have an interview once he stopped calling their audience \"stupid primitives.\"\n\nTo complete the challenge, Shepard completed a combat simulation against Reapers with Javik in the squad; a second squadmate and other settings were permitted, allowing simultaneous completion of other non-conflicting arena challenges such as the Thermal Clip Challenge or Charity Reaper Challenge. Afterward Delante sent a second email saying the Prothean was making waves and giving people hope, with a finder's fee attached. Receiving and reading the second email granted 5,000 credits and +2 Reputation.",
+      "url": "https://masseffect.fandom.com/wiki/Citadel_Arena:_Prothean_Challenge",
+      "for_key": "Prothean architecture dynasties simpler"
+    },
+    {
+      "chunk_id": "turian_003",
+      "kind": "page",
+      "page": "Turian",
+      "section": "History",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Turian civilization spans fifteen thousand years of history. Before the dawn of their civilization, the race was known to elder spacefaring species like the Protheans, who viewed them as primitive as the other ruling races of the modern era. As with the other future Council species, the turians have a mass relay within their system. The first turian starship to travel through a relay was called the THV Ravuna.",
+      "url": "https://masseffect.fandom.com/wiki/Turian",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "manual-the-turian-hierarchy-before-the-citadel-early-history_003",
+      "kind": "page",
+      "page": "The Turian Hierarchy Before the Citadel — Early History",
+      "section": "Known to the Protheans, spared by the harvest",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "More than 50,000 years ago, before the dawn of their civilization, the early Turians were known to elder spacefaring species such as the Protheans, but were considered too primitive to be of any concern to the Prothean empire. As a result they survived the Reaper harvest of that cycle.",
+      "url": "",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "prothean_004",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Cataclysm",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans' belief that they could hold their own against machine intelligence was shattered with the arrival of the Reapers in approximately 48,000 BCE, who were far more advanced than the machines the Protheans had been battling. They were caught completely off\\-guard by the scale and rapidity of the assault. The Reapers entered the galaxy through the Citadel, instantly decapitating the Protheans' government and disrupting the mass relay network, isolating Prothean systems from one another. Worse, records on the Citadel provided the Reapers with access to all of the Protheans' census data and star charts, allowing them to effectively track every Prothean in the galaxy. The Protheans' greatest strength, their unified empire, proved to be their downfall. As the Protheans were united under the leadership of a single governing species with a series of subordinate races, the Reapers were able to quickly undermine the Prothean hierarchy and cause Prothean forces to become scattered when their ruling body had been compromised. In addition, as all the races within the Empire conformed to a single military doctrine, they proved unable to adapt when the Reapers identified and exploited their weaknesses. While their domain crumbled, the Protheans were powerless to defend other races from the Reapers' predations. They ceased all study of primitive species in the hope that the Reapers would deem them too primitive for harvest. It was hoped that some Protheans would survive the Reapers' purge and go on to unite these species to create a new empire. The Protheans' primitive subjects survived and went on to become the present cycle's dominant ones. Other races subjugated under them, however, weren't as lucky. The densorin, a race who had mastered sciences beyond even the Protheans' understanding, attempted to pacify the Reapers by sacrificing their children to them, but this only allowed the Reapers to destroy them more quickly. The zha'til, symbiotic AIs that had been created by a race called the zha to keep themselves alive on their dying homeworld, were subjugated by the Reapers and formed hostile mechanical swarms. They became such a threat that the Protheans were forced to obliterate the zha'til entirely by sending the star of the zha's home system into supernova. Over the next several centuries, the Protheans fought the Reapers from system to system, world to world, and city to city. If necessary, whole colonies were sacrificed and abandoned to the Reapers; while the Reapers concentrated on subsuming the inhabitants of those colonies, the Protheans had time to regroup. In the long run, however, this strategy was extremely costly, depriving the remaining Protheans of whatever infrastructure and manpower they had given up. Inexorably, the Reapers conquered, enslaved, or destroyed Prothean\\-controlled planets. Growing desperate, some Protheans made repeated offers of surrender to the Reapers, but these were always met with silence. In addition to the overt threat of the Reapers, the Protheans had to increasingly deal with enemies from within their own ranks. Indoctrinated Protheans acted as sleeper agents for the Reapers, infiltrating and swiftly betraying their own kind and revealing the Protheans' dwindling hiding places and carefully\\-laid plans to survive the destruction. At some point the Protheans learned of the cycles of galactic destruction through studying the ruins of other extinguished civilizations. Plans for the Crucible, which was based on designs left behind by previous civilizations, were discovered, and the Protheans set about to building one of their own. In the course of the Crucible's construction, some Protheans came to believe that the Reapers could be controlled with the device, but inevitably fell prey to indoctrination as well in their attempts to harness Reaper technology. They sabotaged the Crucible, robbing the Protheans of their last hope to defeat the Reapers. After centuries of careful, systematic work, the Reapers had killed or enslaved every Prothean in the galaxy, and stripped their worlds of resources. Removing all traces of their presence, the Reapers then retreated through the Citadel into dark space and sealed it behind them.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "summary:turian",
+      "kind": "summary",
+      "page": "Turian",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The turians were a militaristic, disciplined species from the planet Palaven in the Trebia system, and the third race to join the Citadel Council. Their civilization spanned fifteen thousand years and was known to the Protheans, who considered them primitive. The first turian ship to use a relay was the THV Ravuna. Around the time the asari and salarians formed the Council, the turians were fighting the Unification War among their far-flung colonies, run by local chieftains who had drifted from the Hierarchy; colonists adopted facial markings to distinguish themselves, a practice that survived into the modern era. The Hierarchy stayed neutral until fewer than a dozen factions remained, then intervened and forced reunification.\n\nDuring the Krogan Rebellions the Council made first contact with the turians and enlisted their war machine against the krogan. The turians suffered devastating counterattacks, losing three worlds to asteroid bombardment and fighting the bloodiest battle in their history at Digeris, before deploying the salarian-developed genophage, subduing most krogan by 800 CE. In gratitude they received a full Council seat by 900 CE and took over the peacekeeping role left by the krogan. In 2157 a turian fleet fired on human explorers activating an uncharted relay, triggering the Relay 314 Incident (First Contact War); turians besieged and briefly occupied Shanxi before the Council imposed peace and ordered reparations, leaving lasting mistrust. During the 2186 Reaper War the Reapers destroyed Taetrus and assaulted Palaven and Menae; a joint turian-krogan counterattack achieved the \"Miracle at Palaven\" by smuggling warp bombs aboard Reaper ships, before Primarch Victus withdrew the fleet to join the assault on Earth.\n\nBiologically, turians stood over six feet tall with avian, raptor-like features, taloned two-fingered hands, mandibles, and a reflective metallic carapace containing thulium that shielded them from Palaven's high solar radiation. They were viviparous, had dark blue blood, distinctively flanging voices, and were built on dextro-amino acids, sharing that trait only with quarians; levo food was at best non-nutritious and at worst fatally allergenic. Females lacked the swept-back cranial crests of males. Their lifespan was comparable to a human's.",
+      "url": "https://masseffect.fandom.com/wiki/Turian",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "summary:turian-hierarchy-early-history",
+      "kind": "summary",
+      "page": "The Turian Hierarchy Before the Citadel — Early History",
+      "section": "",
+      "game": "Mass Effect (series)",
+      "scene_id": "",
+      "text": "This hand-corrected lore document reconstructs turian civilization before first contact with the Citadel Council. The turians were an avian-like species that rose to dominance on the third planet of the Trebia system, the future Palaven, evolving to withstand the intense radiation admitted by the world's weak magnetic field and likely facing little predatory competition. Being a dextro-based organism in a levo-dominated galaxy is thought to have shaped their entire culture around the principle that nothing is given and everything must be earned. More than 50,000 years ago the early turians were known to elder spacefaring species such as the Protheans but were dismissed as too primitive to matter, which spared them the Reaper harvest of that cycle.\n\nThe earliest signs of sophisticated civilization appeared around 13,000 BCE. By the time the turians reached space they had a single unified global culture built on hierarchical meritocracy, tempered by civic duty and personal responsibility instilled from a young age; military service was treated as the highest form of merit and united society under one cause. By 500 BCE they had mastered spaceflight, pushed beyond their home system, discovered several mass relays and founded colonies. Expansion outran the Hierarchy's reach: colonial chieftains called Primarchs sought autonomy, colonies grew isolated and xenophobic, and colonists adopted emblems and facial markings to distinguish themselves. Around 300 BCE this erupted into the Unification Wars, fought over disputed territory under nationalistic pride. The Hierarchy stayed officially neutral, keeping to strict diplomacy, until the mounting loss of turian life forced it to intervene. The weakened Primarch chieftains, having lost popular support, were compelled to end the fighting and renew allegiance; animosity between colonists took decades to fade.\n\nMost turians still wear their home colony's facial markings, and lacking them is looked down on: \"bare-faced\" means untrustworthy or beguiling, and is slang for a politician. Reunited, Palaven and its colonies prospered with the military at the center, and the turian navy expanded to at least 32 fleets despite having no enemies. About a thousand years later, around 704 CE, the Hierarchy made first contact with the Citadel Council, a conglomerate led by the asari and salarians, which offered immediate membership, an offer that came with an ulterior motive (a lead-in to the turians being recruited against the krogan).",
+      "url": "",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "volus_011",
+      "kind": "page",
+      "page": "Volus",
+      "section": "Government",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The volus government is known as the Vol Protectorate. Rather than being a fully sovereign government in its own right, the Protectorate is a client state of the Turian Hierarchy. In return for falling under the protective umbrella of the turian military, the volus pay a tax to the Hierarchy, as well as deferring to the turians in all foreign policy matters and providing auxiliary troops to the turian armed forces. They still maintain an embassy on the Citadel, making them an associate species of the Council, though they currently share their embassy with the elcor. In the entire history of volus civilization, the Vol Protectorate has only issued three writs of exile against its citizens. Two of those are for the political agitator Gaffno Yap.",
+      "url": "https://masseffect.fandom.com/wiki/Volus",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "foods_065",
+      "kind": "page",
+      "page": "Foods",
+      "section": "Sapient Races",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans allegedly included the primitive races of their time in their culinary cuisine, regardless of whether they were dextro\\- or levo\\- based species. Known methods of cooking hanar included boiling or frying while salarian body parts were considered delicacies (preferably harvested fresh as the salarian's fear apparently adds \"spice\").",
+      "url": "https://masseffect.fandom.com/wiki/Foods",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "summary:taetrus",
+      "kind": "summary",
+      "page": "Taetrus",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Taetrus was a turian colony in the Mactare system. Its capital city was Vallum, and other major cities included Iratiana, Spaedar and Madra, located in the marsh-like Diluvian Wildlands on the island continent of Eluria. Decades before the events of Mass Effect 3, a civil war on Taetrus fortified many cities and strategic sites, such as the Spaedar Spaceport and Kasatum Fortress, to military specifications.\n\nIn 2185, a turian separatist group called Facinus reprogrammed the FTL plotter of a starship and rammed it at near-FTL speed into the heart of Vallum, destroying the city center and killing tens of thousands of people in an attack known as the Vallum Blast. In response, the Turian Hierarchy and Taetrian colonial forces invaded Facinus strongholds and systematically eliminated the separatists in a short, decisive conflict called the War on Taetrus. Facinus had drawn support from Wildlands civilians sympathetic to its cause, and benefited from the earlier civil-war fortifications. After months of fighting, civilians returned home from safe camps while Hierarchy forces worked to reconstruct the colony and reunite families. Captain Guard Vidinos led a special operatives team that distinguished itself in the war by tracking down separatist leaders.\n\nDuring the Reaper invasion in 2186, Taetrus was one of the first worlds attacked after the fall of Khar'shan and Earth. The Turian Hierarchy made two failed attempts to enter the Mactare system by mass relay to liberate it, and as the Reapers poured into the Trebia system to assault Palaven they broadcast images of their victory at Taetrus across the turian comm buoy network.",
+      "url": "https://masseffect.fandom.com/wiki/Taetrus",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "taetrus_001",
+      "kind": "page",
+      "page": "Taetrus",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Taetrus** is a turian colony in the Mactare system. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | In 2185, Taetrus fell into crisis when a turian separatist group known as Facinus reprogrammed the FTL plotter of a starship and rammed the ship at near\\-FTL speeds into the heart of Vallum, the colony's capital city, killing tens of thousands of people. This terrorist attack prompted the Turian Hierarchy and Taetrian colonialist forces to invade Facinus' strongholds and systematically eliminate the separatists in a short, decisive conflict called the War on Taetrus. Aside from Vallum, other major cities on Taetrus include Iratiana, Spaedar, and Madra, located in the Diluvian Wildlands on the island continent of Eluria. The marsh\\-like Wildlands were the base of operations for Facinus' political arm prior to the War on Taetrus, and most turian citizens living there were sympathetic to the separatists' cause. One advantage that the separatists had in the War was that most cities and strategic locations under their control, such as the Spaedar Spaceport and Kasatum Fortress, had been fortified to military specifications during a civil war on Taetrus several decades earlier. After months of conflicts in safe camps, civilians of planet Taetrus are finally going home while Hierarchy forces has to clean the nightmare of the war. Their main task is to reconstruct and to reunite family members. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | During the Reaper invasion in 2186, Taetrus is one of the first worlds the Reapers attack following their conquest of Khar'shan and Earth. The Turian Hierarchy made two attempts to enter the Mactare system via mass relay to liberate Taetrus, but were unsuccessful. As the Reapers began to pour into the Trebia system and assault Palaven, they broadcasted images of their victory at Taetrus to the turian comm buoy network.",
+      "url": "https://masseffect.fandom.com/wiki/Taetrus",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "scene:citadel-volus-ambassador-korlack#01",
+      "kind": "scene",
+      "page": "Exposing the Volus Ambassador as a Cerberus Mole",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-volus-ambassador-korlack",
+      "text": "Exposing the Volus Ambassador as a Cerberus Mole. 2186, Citadel, after stopping the Cerberus coup during Priority: The Citadel II the Citadel Embassies, an Office Suite, then apartments in the Presidium Commons Primarch Adrien Victus emails Shepard after the coup: Cerberus ambushed a turian cruiser carrying high-ranking Hierarchy officials whose top-secret position was known only to volus ambassador Din Korlack, and Victus has heard rumors of a bounty on Korlack's head. He cannot level the accusation himself because the turian and volus economies are tightly intertwined, and asks Shepard to investigate Korlack as a Spectre.",
+      "url": "",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "summary:hangar-bay",
+      "kind": "summary",
+      "page": "Hangar Bay",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Hangar Bay was a mission in Mass Effect: Infiltrator, following the Ice Giant mission and preceding Medical Bay. After his mission on the Ice Giant, Cerberus operative Randall Ezno returned by shuttle to the Cerberus station known as the Barn, a facility dedicated to weapons and biotics advancement through adapted Reaper technology and alien experimentation. The mission had two checkpoints.\n\nIn the first checkpoint, Randall opened a radio communication with Inali Renata and moved through the Hangar Bay toward her office for a medical diagnostic. The hangar was then attacked by Turian Troopers, presumably dispatched by the Turian Hierarchy. With the aid of Cerberus troops and friendly Orcus Mechs, Randall cleared the hangar; side walls held consoles and wall safes yielding 50 credits each. In the second checkpoint, Inali contacted Randall again but the communication was cut, prompting him to run for her office. More turian troops, including Turian Snipers, attacked. UDI, the Barn's AI, opened a door after ten seconds to a corridor full of turians. After receiving his Combat Analysis, Randall gained access to the station's Medical Bay and moved on to try to meet Inali. Enemies encountered were Turian Troopers and Turian Snipers.",
+      "url": "https://masseffect.fandom.com/wiki/Hangar_Bay",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "scene:hierarchy-kandros-infiltration-plan#01",
+      "kind": "scene",
+      "page": "The Kandros Case for Infiltrating the Initiative",
+      "section": "argument",
+      "game": "Mass Effect: Discovery",
+      "scene_id": "hierarchy-kandros-infiltration-plan",
+      "text": "The Kandros Case for Infiltrating the Initiative. before the Andromeda Initiative's departure, after Tiran's unit is wiped out by geth a closed Turian Hierarchy meeting, then a private word between mother and son Ravis Kandros uses her authority to convene a meeting of high-ranking Hierarchy officials so her son Tiran — sole survivor of a geth ambush that killed his unit — can present what he found: an inactive geth head carrying evidence that someone tied to the Andromeda Initiative is working with outlawed geth technology.",
+      "url": "",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "scene:hierarchy-kandros-tiran-trial#01",
+      "kind": "scene",
+      "page": "Tiran Kandros's Trial and Farewell",
+      "section": "ceremony",
+      "game": "Mass Effect: Discovery",
+      "scene_id": "hierarchy-kandros-tiran-trial",
+      "text": "Tiran Kandros's Trial and Farewell. end of Tiran's infiltration, before the Andromeda Initiative's departure a Turian Hierarchy tribunal, then a parting before Tiran ships out After Agent Zeta's escape from Omega, Ravis tells Tiran he has been declared AWOL and charged with gross dereliction of duty, and warns that if he keeps going the Hierarchy will have to arrest him. He sees the mission through anyway and then turns himself in.",
+      "url": "",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    },
+    {
+      "chunk_id": "scene:menae-corinthus-fedorian-briefing#02",
+      "kind": "scene",
+      "page": "Corinthus Informs Shepard of Primarch Fedorian's Death",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "menae-corinthus-fedorian-briefing",
+      "text": "Corinthus Informs Shepard of Primarch Fedorian's Death. 2186, Menae, when Shepard arrives to rescue Primarch Fedorian Menae command, turian outpost on Menae Once communication with the Turian Hierarchy is reestablished, Corinthus learns that General Adrien Victus is next in line for the primarch position and tasks Shepard with retrieving him.",
+      "url": "",
+      "for_key": "Turian Hierarchy known to the Protheans primitive"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/factions.md",
+      "line": 32,
+      "text": "- More than 50,000 years ago the early turians were known to the Protheans but dismissed as too primitive to matter, which spared them the Reaper harvest of that cycle (source: The Turian Hierarchy Before the Citadel — Early History).",
+      "for_key": "turian hierarchy known to the protheans primitive"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 91,
+      "text": "- The Protheans united all organic life under one empire to fight a hostile machine intelligence, holding it off in the long conflict known as the Metacon War. (source: Prothean)",
+      "for_key": "prothean metacon war machine intelligence"
+    }
+  ],
+  "conflicts": [],
+  "warnings": []
+}

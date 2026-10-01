@@ -1,0 +1,975 @@
+{
+  "section": {
+    "id": "a-message-meant-for-someone-elses-mind",
+    "title": "A Message Meant for Someone Else's Mind",
+    "target_words": 640,
+    "form": "tunnel",
+    "form_description": "One enthusiasm followed all the way down. The narrator opens on a subject they love and know cold — how a mass relay actually throws a ship, the grammar of their homeworld's oldest language, the breeding lines behind a varren pit — and talks it out well past where a listener would have stopped them, then follows a seam into the next subject and the next. An infodump, but a personal one: every fact is here because the narrator went and got it, and why they cared runs under the telling — the childhood that started it, the person who taught them, the love and the plain curiosity of it. Sections are subjects, each opening where the last one's tangent left off.",
+    "form_note": "Rewritten after feedback. The brief is one enthusiasm talked out at length, which is tunnel; but the spine is topical and associative, not Shepard's playthrough. The order is a chain of thoughts, each section opening from an object, a feeling or an aside in the one before (a dated fragment -> the ruins the Protheans themselves dug up -> the empire -> the neighbours nobody excavated -> a goddess who was a guise -> what other species made of them -> the Mars cache -> a message meant for someone else's mind -> her own dig -> the fall and the shelters -> the Crucible -> the cycles before -> the arithmetic of a cycle -> what to leave). Nothing runs in game order; Shepard's encounters (Eden Prime beacon, Therum, Feros, Ilos, Thessia, Javik, the Leviathan trail) appear as evidence or anecdote inside a topical section, and where Liara was not there (Eden Prime beacon, the Leviathan trail; Feros and the Presidium hanar dispute she did attend, per Thomas) she draws on Shepard and on her own Shadow Broker network (she is the Broker), saying which source she is using, not merely asking Shepard. Canon kept: Shepard was marked by the beacon, Javik came aboard, the Leviathan DLC and Thessia as recorded; Legion/Tali branches and the ending are not touched, and the talk stops short of the final choice. Pre-Prothean material comes only from corpus pages (Inusannon, thoi'han/Eingana, the Leviathan of Dis, the Leviathans, the Crucible design history) and is hedged in her voice: the corpus dates the Inusannon at 127,000 years and the Protheans at 68,000-48,000 BCE, which does not fit a tidy fifty-thousand-year cycle, and she should worry at that rather than resolve it. target_words is pinned at 9000 (a one-hour spoken lecture at roughly 150 words a minute, pauses included).",
+    "narrator": "liara"
+  },
+  "subject": {
+    "slug": "shepard",
+    "display": "Shepard",
+    "notes": "config/narrators/shepard.notes.md",
+    "default": true
+  },
+  "promises": [
+    "What a beacon is: a network node that writes into a brain, and why a vision built for a Prothean mind is close to unreadable to anyone else",
+    "The Cipher, which she named after a Jungian idea, as the hardest problem in her field: the context a message assumes, and how you find it in something dead",
+    "Shepard's own vision from the Eden Prime beacon and what Liara could and could not tell him; the Thorian on Feros having eaten its way to the Cipher and Shiala carrying it, which Liara witnessed on Feros beside Shepard (she was there in this run)",
+    "Her mixed feeling that a decoding key came through one person, and the embarrassment of how much she wanted Shepard's headaches explained"
+  ],
+  "required_facts": [
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "In 2183 the geth invaded the Systems Alliance colony of Eden Prime, one of humanity's oldest and most prosperous settlements beyond the Charon Relay, in the Utopia System of the Exodus Cluster. The assault was led by the rogue turian Spectre Saren Arterius aboard the Reaper Sovereign, whose ground forces sought a Prothean beacon recently unearthed at an excavation site. Commander Shepard, first officer of the prototype frigate SSV Normandy SR-1, was sent planetside with a ground team on what had been billed as a routine shakedown cruise and evaluation by the turian Spectre Nihlus Kryik. In the Normandy comm room before the drop, Nihlus and Captain Anderson revealed the mission's true purpose - securing the beacon and assessing Shepard for the Spectres. Nihlus scouted ahead alone and was shot in the back and killed by Saren Arterius himself near the spaceport. Corporal Richard Jenkins was killed by geth recon drones early in the advance. Shepard's team fought through geth troopers, husks impaled on dragon's teeth spikes, and demolition charges, linking up with the sole survivor of the guard unit, Gunnery Chief Ashley Williams of the 212, and meeting the dockworker Powell near Nihlus's body. They found the beacon had been moved from the dig site to the spaceport, took a tram to the platform, and destroyed Saren's timed nuclear charges. When Kaidan Alenko and Ashley approached, the beacon activated and pulled one squadmate toward it; Shepard threw them clear and was seized instead, receiving a violent, fragmentary vision of synthetic machines slaughtering organic civilizations before the beacon burnt out and exploded. Shepard woke in the Normandy med bay under Dr. Chakwas's care, briefed Anderson, and set course for the Citadel. The vision and the eyewitness evidence of Saren's involvement set Shepard on the path to expose him.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "The geth sacked Eden Prime and the colony suffered heavy civilian and military casualties",
+      "actor": "Geth"
+    },
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "Spectre Nihlus Kryik was killed by Saren Arterius",
+      "actor": "Saren Arterius"
+    },
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "Corporal Richard Jenkins was killed in the opening minutes of the ground assault",
+      "actor": ""
+    },
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "The Prothean beacon was triggered and destroyed, imprinting Shepard with a warning vision of the Reaper invasion",
+      "actor": ""
+    },
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "Ashley Williams, sole survivor of her unit, joined the Normandy crew",
+      "actor": "Ashley Williams"
+    },
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "Shepard gained firsthand evidence of Saren's treason, leading to the Citadel hearing",
+      "actor": ""
+    },
+    {
+      "event_id": "attack-on-eden-prime",
+      "fact": "Saren's search for the Conduit and Sovereign's plan were set in motion against Shepard",
+      "actor": "Sovereign"
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "Investigating Saren Arterius, Commander Shepard travels to Feros, an ExoGeni Corporation pilot colony built among Prothean ruins in the Attican Beta cluster. The colonists of the port settlement Zhu's Hope, led by Fai Dan, are under siege by geth who landed days earlier searching the ruins. Shepard clears the geth from Zhu's Hope and the surrounding Prothean skyway, then crosses to ExoGeni headquarters to learn what the geth want. At a skyway weigh station Shepard finds a group of ExoGeni survivors hiding under Ethan Jeong, the last surviving company representative. Jeong has deliberately kept the survivors from returning to the colony and discouraged any investigation of Zhu's Hope, because ExoGeni had secretly been using the colonists as an experimental control group: beneath the settlement lives the Thorian, an ancient sentient plant that had been releasing mind-controlling spores over Zhu's Hope. Juliana Baynham's daughter Lizbeth is trapped inside the ExoGeni tower. Shepard recovers data revealing ExoGeni's role, learns the Thorian gave Saren a \"cipher\" needed to understand the Prothean beacon vision, and shuts down the energy field feeding the creature. Returning to Zhu's Hope, Shepard finds the colonists turned into Thorian thralls and must fight through them, ideally using non-lethal knockout gas, to reach the Thorian's lair. The creature disgorges an asari clone of Shiala, one of Matriarch Benezia's commandos, whom it had drained; Shepard destroys the Thorian by severing the ceiling growths anchoring it. Freed, Shiala transfers the Prothean cipher to Shepard by melding minds, greatly clarifying the beacon vision. With communications restored, Jeong is found holding Juliana Baynham at gunpoint, intending to let ExoGeni sterilize the colony; Shepard can talk him down or is forced to shoot him. If the colony survives and Jeong lives, he takes over its administration and honors ExoGeni's deal with the colonists.",
+      "actor": "Commander Shepard"
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "The geth are driven off Feros and the ExoGeni conspiracy against Zhu's Hope is exposed",
+      "actor": ""
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "The Thorian is killed, ending its spore control over the colonists",
+      "actor": "The Thorian"
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "Shepard receives the Prothean cipher from Shiala, making the beacon vision comprehensible",
+      "actor": "Shiala"
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "Per the anti-Thorian gas usage: Zhu's Hope survives largely intact or is left a ghost town depending on how many colonists Shepard knocks out versus kills",
+      "actor": ""
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "Ethan Jeong is either talked down and left running the colony, or killed by Shepard; if he lives he honors ExoGeni's deal",
+      "actor": "Ethan Jeong"
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "Shiala can be freed to help the surviving colonists, reappearing in 2186",
+      "actor": "Shiala"
+    },
+    {
+      "event_id": "feros-the-thorian",
+      "fact": "Confirmation that Saren is chasing Prothean knowledge tied to the Conduit",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "feros_colony",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Feros - the ExoGeni colonists, the Thorian, and Shiala's fate.",
+      "answer": "Saved all colonist, Shiala survived, Jeong agreed to help",
+      "detail": ""
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "shadow_broker",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Lair of the Shadow Broker - Liara and the Broker's fate.",
+      "answer": "She became the Shadow Broker, the past broker died",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "feros-shiala-cipher-transfer",
+      "title": "Shiala Gives Shepard the Prothean Cipher",
+      "kind": "mission-aside",
+      "game": "Mass Effect",
+      "when": "2183, Feros, after the Thorian is destroyed",
+      "where": "the Thorian's lair, Feros",
+      "participants": [
+        "Shepard",
+        "Shiala"
+      ],
+      "private_to": [],
+      "heard_by": [],
+      "requires": [],
+      "beats": [
+        {
+          "text": "Shiala, an asari formerly working for Saren who had been offered to the Thorian as a \"sacrifice,\" explains that the Thorian gained the Prothean cipher — the cultural knowledge and instincts needed to make sense of a beacon's visions — by watching and studying the Protheans on Feros over millennia, consuming some of them as they died and assimilating what they knew. When Shiala melded with the Thorian, she shared its consciousness and gained the cipher herself.\n",
+          "source_chunks": [
+            "cipher_001"
+          ]
+        },
+        {
+          "text": "Shiala transfers the cipher directly into Shepard's mind. The experience leaves the Commander badly shaken, but it is necessary to make sense of the Eden Prime beacon's vision and find the Conduit.\n",
+          "source_chunks": [
+            "cipher_001"
+          ]
+        }
+      ],
+      "related_scenes": [],
+      "related_events": [],
+      "source_chunks": [
+        "cipher_001"
+      ],
+      "variants": []
+    }
+  ],
+  "attendance": {
+    "feros-shiala-cipher-transfer": "absent"
+  },
+  "evidence": [
+    {
+      "chunk_id": "scene:eden-prime-beacon-mission#09",
+      "kind": "scene",
+      "page": "Find the Beacon",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "eden-prime-beacon-mission",
+      "text": "Find the Beacon. 2183, the Normandy's shakedown run, the day of Saren's geth attack the SSV Normandy en route from the Arcturus Prime relay, then the fields, dig site and spaceport of Eden Prime Kaidan and Ashley examined the still-active beacon. It seized one of them and dragged them toward it; Shepard threw the squadmate clear and was lifted in their place, taking a rush of fragmentary Prothean visions before the beacon overloaded and exploded, knocking Shepard unconscious. Only Shepard received the visions.",
+      "url": "",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "summary:prothean-beacon",
+      "kind": "summary",
+      "page": "Prothean Beacon",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Prothean Beacons were rare pieces of surviving Prothean \"paleo-technology.\" They formed a system of near-instantaneous communication across the Prothean empire, interfacing directly with a person's brain rather than through audio or video. The discovery of a beacon on Eden Prime prompted the Alliance to dispatch the SSV Normandy to recover it.\n\nCommander Shepard's \"vision,\" triggered by accidentally accessing the Eden Prime beacon, was a warning about the Reapers sent by the researchers on Ilos to reach any survivors and give them hope. The message was coded so that only Prothean minds could understand it, a precaution meant to keep the Reapers from learning Ilos had survived. Because the Protheans did not yet fully understand indoctrination, they failed to anticipate that an organic Reaper agent could receive it. The Eden Prime beacon was also badly damaged, reportedly in Sovereign's attack, so Shepard received only random, vivid images, suffering fifteen hours of unconsciousness and recurring nightmares. Comprehending the message as intended required the Cipher, which enabled both Shepard and Saren Arterius to understand the archetypes. Liara T'Soni noted Shepard's exceptionally strong will; the beacon exploded after transmitting to Saren and then Shepard, possibly from the strain, possibly because Shepard instinctively resisted the joining.\n\nAn intact beacon with a user interface existed in Saren's lab on Virmire; Shepard coped more easily with its vision, and it was presumably destroyed in the nuclear blast that leveled the base. A Prothean video terminal on Joab held a similar vision, but showed a pair of Collectors instead of a Reaper at the end. Another beacon was hidden on Thessia inside a statue of the goddess Athame, known only to the highest levels of asari government, which secretly used its data to make the asari the galaxy's most advanced race in violation of Council policy. During the Reaper invasion Shepard sensed it with the Cipher and activated it using temple artifacts, releasing the Prothean VI Vendetta, which suggested that the repeating patterns of galactic evolution were not caused by the Reapers, who were merely \"servants\" of that pattern, before Kai Leng stole the data on the final Crucible piece.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "codex-aliens-extinct-races_005",
+      "kind": "page",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "Protheans: Cipher",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The Prothean beacon downloaded its knowledge into Lt. Commander Shepard on Eden Prime, causing confusing dreams and visions. While the imagery is becoming clearer with time, the meaning of the beacon communication remains elusive. It has been suggested that Prothean data recording is highly dependent on a certain point of view, what Carl Jung described as the collective unconscious. The 'cipher' needed to comprehend the images implanted in Shepard's mind is the cultural knowledge of a Prothean: the archetypes, biological instincts, and common experiences universal to the race. Since the Protheans have been dead for millennia it may be impossible to acquire this 'cipher'.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "race-against-time_001",
+      "kind": "page",
+      "page": "Race Against Time",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Saren is searching for the Conduit, an ancient relic dating back to the Prothean extinction. Through the visions burned into your mind by the beacon on Eden Prime, you believe that the Conduit is a weapon capable of wiping out all life in the galaxy. Saren must be stopped!",
+      "url": "https://masseffect.fandom.com/wiki/Race_Against_Time",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "summary:cipher",
+      "kind": "summary",
+      "page": "Cipher",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Cipher was the cultural context, knowledge, and experience of the Prothean race, its archetypes, biological instincts, and common experiences, needed to correctly interpret the visions stored in Prothean beacons. After the beacon on Eden Prime uploaded its knowledge into Lt. Commander Shepard, the resulting dreams and visions grew clearer over time but remained elusive in meaning without this unique racial perspective. Liara T'Soni first raised the idea, comparing it to what Carl Jung called the collective unconscious, and noted the difficulty of acquiring it given that the Protheans had been dead for millennia. Both Saren Arterius and Shepard used the Cipher to interpret the beacons on Eden Prime and Virmire; without it, a non-Prothean mind lacked the attitudes, mindset, and cultural experience to make sense of the imagery, and describing the Cipher was said to be like explaining colour to a creature without eyes. Shepard gained the Cipher through Shiala, an asari formerly working for Saren who had been offered as a \"sacrifice\" to the Thorian on Feros. The Thorian had itself gained the Cipher by watching and studying the Protheans on Feros and consuming some of them when they died, assimilating their knowledge; when Shiala melded with the Thorian she shared its consciousness and so gained the Prothean Cipher, which she then transferred directly into Shepard's mind. The experience left the Commander badly shaken but was necessary to find the Conduit. With the Cipher and Liara's help, Shepard could make more sense of the vision and understand the Prothean language. The Cipher later proved useful in understanding archived video footage containing codes for the stasis pod holding the surviving Prothean Javik, and in activating another beacon on Thessia. The information came from the in-game Codex.",
+      "url": "https://masseffect.fandom.com/wiki/Cipher",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "codex-aliens-extinct-races_004",
+      "kind": "page",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "Protheans: Beacon",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The beacon was a Prothean artifact unearthed on the Alliance colony of Eden Prime. Its resemblance to the Prothean data banks recovered on Mars provoked immediate interest from the Alliance and the Citadel Council. It proved to be a solid state data storage device, part of a galaxy\\-spanning comm network similar to the modern extranet. Intact Prothean 'paleo\\-technology' is rare; the beacon seemed to promise another quantum leap of technology, akin to the discovery of the mass effect drive and relays. Unfortunately, the beacon also drew the attention of the rogue Spectre Saren Arterius and his synthetic allies, the geth. A dawn raid by his flagship Sovereign resulted in hundreds of civilian casualties. The beacon was badly damaged. The motives behind the attack are still being investigated. During the recovery operation, the beacon fired a pulse of energy at the Executive Officer of the Alliance frigate Normandy. Lieutenant Commander Shepard survived and appears to have suffered no ill effects. Afterwards, the beacon fell inert. The mechanism appears to be dead.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "mass-effect_012",
+      "kind": "page",
+      "page": "Mass Effect",
+      "section": "A Race Against Time",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*Main article: Mass Effect Guide* The player takes on the role of Commander Shepard onboard the SSV Normandy. A routine mission to recover a Prothean beacon on Eden Prime goes awry when the Commander is attacked by geth forces led by a rogue turian Spectre named Saren Arterius, who are also after the beacon. When the Commander locates the beacon it activates, imparting strange visions of synthetics slaughtering organics in Shepard's mind before becoming inactive. It turns out that Saren is trying to find the Conduit, a mysterious device that will lead to the return of the Reapers, an ancient machine race believed to be behind the Protheans' demise. Shepard becomes the first human Spectre and is given command of the Normandy with orders to hunt down Saren. Now it is no longer just about bringing one man to justice, but also to save a galaxy from extinction.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "cipher_001",
+      "kind": "page",
+      "page": "Cipher",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Prothean beacon uploaded its knowledge into Lt. Commander Shepard on Eden Prime, causing confusing dreams and visions. While the imagery was becoming clearer with time, the overall meaning of the beacon communication remained elusive until Shepard gained the Cipher. Initially brought up by Liara, she suggested that understanding the Prothean message would be highly dependent on a certain point of view, what Carl Jung described as the collective unconscious. The '**cipher**' needed to comprehend the images implanted in Shepard's mind was the cultural knowledge of a Prothean: the archetypes, biological instincts, and common experiences universal to the race. Since the Protheans had been dead for millennia they were initially unsure of how they would acquire the necessary 'cipher'. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | The **Cipher** was used by both Saren Arterius and Shepard to allow them to interpret the visions held in the Prothean beacons on Eden Prime and Virmire. It is the cultural context, knowledge and experience of the Prothean race. This unique racial perspective allows a mind to comprehend information as a Prothean could, though it takes time for a non\\-Prothean mind to become accustomed to it. Without the Cipher, the images in the beacon's vision don't make sense to non\\-Protheans who lack the necessary attitudes, mindset, and cultural experience to correctly interpret them. Describing the Cipher is impossible; it would be like trying to explain colour to a creature without eyes. Commander Shepard gained the Cipher with the help of Shiala, an asari formerly working for Saren who was offered as a 'sacrifice' to the Thorian. The Thorian itself gained the Cipher after it watched and studied the Protheans on Feros, even consuming some of them when they died and assimilating their knowledge. When Shiala melded with the Thorian, she shared the Thorian's consciousness, and thus gained the Cipher left by the long\\-dead Protheans. After explaining its importance, Shiala transferred the Cipher directly to Shepard's mind. The experience left the Commander badly shaken, but was necessary to find the Conduit. After receiving the Cipher, Shepard was able to make more sense of the vision — with Liara T'Soni's help — and also understand the Prothean language. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | The Cipher proves useful in understanding archived video footage containing the necessary codes for the stasis pod containing a surviving Prothean named Javik and later activating another beacon on Thessia.",
+      "url": "https://masseffect.fandom.com/wiki/Cipher",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#07",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy If Shepard delayed Therum until after Virmire, Liara refused to believe the squad was real until physically released from the barrier, insisting she was conjuring a protective figure to keep from going mad, and cringed from the Krogan Battlemaster, begging Shepard not to let him take her. At the debrief, hearing the evidence of the Reapers, the Cipher from Feros and Shepard's beacon visions, she reacted with anger that her decades of research had been stripped away, calming only when she realized her expertise was the one way to read the vision.",
+      "url": "",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "summary:codex-aliens-extinct-races",
+      "kind": "summary",
+      "page": "Codex/Aliens: Extinct Races",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The page collected the Codex entries on two extinct spacefaring races. Fifty thousand years ago the Protheans were the only spacefaring species in the galaxy and vanished in a swift galactic extinction, leaving ruins across many worlds; they were believed to have built the mass relays and the Citadel. Functioning Prothean \"paleotechnology\" was rare, most sites long since looted. Evidence of Prothean occupation appeared on the hanar homeworld Kahje and on Mars, feeding \"interventionary evolutionist\" theories among humans. The European Space Agency founded Lowell City on Mars in 2103; in 2148 prospectors near Deseado Crater discovered a buried Prothean observation post whose struggling mass effect core had caused local anomalies, proving humanity was not alone and triggering an international effort to translate its databanks. The post had been a biosciences station monitoring early humans, linked to platforms in Earth orbit and on the Moon.\n\nA Prothean beacon was unearthed on the Alliance colony Eden Prime; it was a solid-state data-storage device from a galaxy-spanning comm network. The rogue Spectre Saren Arterius and his geth raided Eden Prime with the flagship Sovereign, causing hundreds of civilian casualties and badly damaging the beacon. During recovery the beacon fired an energy pulse into Lieutenant Commander Shepard, the Normandy's executive officer, who survived apparently unharmed before the device fell inert. The beacon implanted knowledge that produced confusing visions; understanding them required a \"cipher,\" the cultural knowledge of a living Prothean, which might be impossible to obtain. Over three dozen fragile Prothean data discs had been recovered, a few partially restored, and were considered the best leads on Prothean culture.\n\nOver 2,000 years ago explorers opened a mass relay to an unknown system and met the rachni, spacefaring insects guided by hive-mind queens on a toxic homeworld. Negotiation proved impossible and the Rachni Wars followed. The salarians uplifted the krogan, who could reach the queens in their lairs; when krogan fleets drove the rachni back to their homeworld and they refused to surrender, the krogan eradicated them from the galaxy.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Extinct_Races",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "athame-doctrine_003",
+      "kind": "page",
+      "page": "Athame Doctrine",
+      "section": "Origins",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In reality, Athame was not a mythical goddess but a guise crafted by the Protheans. During the height of their empire, the Protheans discovered the asari and judged that they had potential as leaders for the races of the next cycle against the Reapers. They intervened in asari development by creating the myth of a goddess, Athame, who was imparting divine gifts and knowledge through her guides, Janiri and Lucen, who were actually Protheans. Among those \"gifts\" was the asari's natural ability to develop biotics, which was in reality the product of years of Prothean genetic research and manipulation. Long after the Protheans departed Thessia to prevent drawing the attention of the Reapers there, the asari continued to advance with the help of a Prothean beacon and archive that had been left behind. The beacon and archive were both housed in the Temple of Athame; the temple proper was built over the archive and the beacon was concealed within a statue of Athame. The existence of the beacon and archive were kept a closely guarded secret by the asari government throughout their history, even after the Citadel Council was formed and it was declared illegal to hide Prothean technology. The information the asari gleaned allowed them to maintain a technological advantage over the rest of the galaxy's races. Even when the Reapers return to the galaxy in 2186, the asari government continues hiding the existence of the beacon, fearing political repercussion. Only when Thessia itself is attacked by the Reapers does the asari government decide to reveal the existence of the beacon and archive in the hopes that the information stored within could be of use in completing the Crucible. Commander Shepard's arrival at the Temple of Athame reveals not only Athame's true nature, but that the beacon contains a Prothean VI named Vendetta, based on personality imprints of the director of the Prothean Crucible project, including knowledge of the Catalyst, the Crucible's final component.",
+      "url": "https://masseffect.fandom.com/wiki/Athame_Doctrine",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "prothean-beacon_001",
+      "kind": "page",
+      "page": "Prothean Beacon",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "**Prothean Beacons** are ancient pieces of Prothean technology. They are exceptionally rare, as very few pieces of Prothean 'paleo\\-technology' have survived intact in the millennia since the Protheans vanished. The discovery of a beacon on Eden Prime instantly sent shockwaves through the Alliance's scientific community, and the SSV Normandy was immediately dispatched to recover it. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "liara-t-soni_001",
+      "kind": "page",
+      "page": "Liara T'Soni",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“That is why I find you so fascinating. You were marked by the beacon on Eden Prime; you were touched by working Prothean technology!” **Dr. Liara T'Soni** is an asari researcher and archaeologist. With a Doctorate in Anthropology of the Prothean Era from the University of Serrice, she has spent the past fifty years of her life studying Prothean technology and culture, specializing in investigating the mysterious extinction of the species. Born on Thessia in 2077, Liara is \"only\" 106—barely an adult in asari terms. She already has a great deal of insight into the Protheans and is a highly trained user of biotics. She is a potential romantic interest for either a male or female Shepard. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Liara_T'Soni",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "scene:virmire-sovereign-speaks-to-shepard#01",
+      "kind": "scene",
+      "page": "Sovereign Speaks to Shepard in Saren's Lab",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "virmire-sovereign-speaks-to-shepard",
+      "text": "Sovereign Speaks to Shepard in Saren's Lab. 2183, during the assault on Saren's base on Virmire Saren Arterius's communications lab inside the Virmire cloning facility, at a second Prothean beacon Fighting through Saren's base, Shepard reaches his communications lab and uses a second Prothean beacon stored there. The contact alerts Sovereign to the Commander's presence, and the Reaper speaks to Shepard directly through the lab's systems for the first time — a conversation written to make plain that this is not a geth ship or a Prothean relic but something far older and self-aware.",
+      "url": "",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "summary:prologue-find-the-beacon",
+      "kind": "summary",
+      "page": "Prologue: Find the Beacon",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Prologue: Find the Beacon is the opening mission of Mass Effect, acquired after reporting to the Normandy comm room. The SSV Normandy jumps through the Arcturus Prime relay toward Eden Prime, an Alliance colony under attack. Joker runs a system check while the turian Spectre Nihlus observes; Joker dislikes having a Spectre aboard. In the comm room, Nihlus and Captain Anderson reveal the mission is more than a shakedown run: a science team on Eden Prime discovered a Prothean beacon that must be secured and brought to the Citadel, and Nihlus is evaluating Shepard's Spectre potential. A garbled transmission from marines on Eden Prime shows heavy fighting and an immense alien ship. Anderson orders the team down; Nihlus scouts ahead alone.\n\nOn the surface, Shepard's squad advances toward the dig site. Corporal Jenkins is killed by Geth Recon Drones. The squad fights through more drones and encounters husks impaled colonists on dragon's teeth spikes. They rescue Gunnery Chief Ashley Williams of the 212, who joins the squad. The beacon has been moved from the dig site to the spaceport. In a cutscene, Nihlus is ambushed and shot dead by fellow turian Saren Arterius. The squad meets farmers led by Cole (who can name a smuggling contact, \"Powell\") and dockworker Powell near Nihlus's body. Fighting through geth troopers, shock troopers, and a Geth Destroyer, Shepard boards a tram to Spaceport Platform Two, where Saren orders the colony destroyed and is lifted by the beacon. Shepard disarms four explosive charges under a five-minute timer.\n\nKaidan and Ashley investigate the beacon; it activates and pulls one squadmate toward it. Shepard throws them clear and is lifted instead, receiving chaotic visions before the beacon explodes, knocking Shepard unconscious. Aboard the enemy ship, an asari in black informs Saren that Anderson's team foiled the colony's destruction and that a human may have used the beacon; Saren flies into a rage and orders the human eliminated. Shepard wakes in the Normandy med bay under Dr. Chakwas's care, briefs Anderson, and is ordered to take the ship to the Citadel. Enemies include Geth Destroyers, Recon Drones, Shock Troopers, Snipers, Troopers, and Husks.",
+      "url": "https://masseffect.fandom.com/wiki/Prologue:_Find_the_Beacon",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "scene:feros-shiala-cipher-transfer#01",
+      "kind": "scene",
+      "page": "Shiala Gives Shepard the Prothean Cipher",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "feros-shiala-cipher-transfer",
+      "text": "Shiala Gives Shepard the Prothean Cipher. 2183, Feros, after the Thorian is destroyed the Thorian's lair, Feros Shiala, an asari formerly working for Saren who had been offered to the Thorian as a \"sacrifice,\" explains that the Thorian gained the Prothean cipher — the cultural knowledge and instincts needed to make sense of a beacon's visions — by watching and studying the Protheans on Feros over millennia, consuming some of them as they died and assimilating what they knew. When Shiala melded with the Thorian, she shared its consciousness and gained the cipher herself.",
+      "url": "",
+      "for_key": "Prothean Beacon paleo-technology visions"
+    },
+    {
+      "chunk_id": "scene:feros-shiala-cipher-transfer#02",
+      "kind": "scene",
+      "page": "Shiala Gives Shepard the Prothean Cipher",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "feros-shiala-cipher-transfer",
+      "text": "Shiala Gives Shepard the Prothean Cipher. 2183, Feros, after the Thorian is destroyed the Thorian's lair, Feros Shiala transfers the cipher directly into Shepard's mind. The experience leaves the Commander badly shaken, but it is necessary to make sense of the Eden Prime beacon's vision and find the Conduit.",
+      "url": "",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "scene:eden-prime-waking-javik#03",
+      "kind": "scene",
+      "page": "Waking the Last Prothean on Eden Prime",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "eden-prime-waking-javik",
+      "text": "Waking the Last Prothean on Eden Prime. 2186, Priority: Eden Prime (From Ashes), after the Normandy left the Citadel the Cerberus-occupied Prothean dig site on Eden Prime, Exodus Cluster At the lab terminals Shepard's eyes glowed green while watching Prothean footage of the Reaper invasion 50,000 years earlier — the VI Victory sealing bunker bulkheads, some 300,000 lifepods destroyed, the stasis-readiness signal broadcast while refugees were still trying to reach shelter. Liara saw only static, and deduced that Shepard's exposure to the Prothean Cipher on Feros (or the Eden Prime beacon in a non-imported game) let the Commander read the images.",
+      "url": "",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "shiala_002",
+      "kind": "page",
+      "page": "Shiala",
+      "section": "Background",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Shiala was an acolyte of Matriarch Benezia for nearly two centuries, respecting her wisdom and biotic ability. Along with many of Benezia's followers, Shiala accompanied the matriarch aboard Sovereign as Benezia tried to guide Saren Arterius down a gentler path. When Benezia failed and became indoctrinated, Shiala also became one of Saren's thralls. Shiala willingly served Saren and accompanied him to Feros, where Saren encountered the Thorian and discovered that the ancient alien plant had the Prothean Cipher he needed to understand the vision from Eden Prime. He managed to convince the Thorian to accept a trade. Shiala was 'sacrificed' to the Thorian and absorbed by it, sharing a single consciousness. She then used her biotics to gain the Cipher, which she transferred to Saren's mind. Once he had what he needed, Saren abandoned Shiala to the Thorian and ordered the geth to destroy it, hoping to prevent Shepard from gaining the Cipher.",
+      "url": "https://masseffect.fandom.com/wiki/Shiala",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "prothean_010",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Legacy",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Various Prothean ruins still survive on planets like Feros, Quana, and Therum, as well as many known yet unexplored sites in the Attican Traverse, with more unknown sites believed to exist elsewhere throughout the galaxy. While these ruins are surprisingly intact for their age, many were plundered long ago with time and generations of looters having picked their dead cities and derelict stations clean. Functioning examples of Prothean technology are rare. While hunting for rogue Spectre Saren Arterius, Shepard may discover Prothean data discs and ancient ruins on some uncharted worlds. The Commander can even receive a Prothean \"trinket\" as a gift from Sha'ira, but as Liara T'Soni claims, solid evidence on the Protheans is scarce. With the help of Shiala on Feros, Shepard also gains the Cipher, which is the key to fully comprehending the vision from the beacon. As the vision was meant for a Prothean mind, understanding it requires the individual to think like a Prothean \\- to understand their culture, biological instincts, history and ancestral memory. This \"cipher\" then allows the individual to unlock the true meaning of the images, and understand the vision as it was meant to be seen. According to Shepard, the Cipher's effect on the vision is quite subtle, and Liara's Prothean expertise is necessary to make sense of the images. The Cipher also grants Shepard complete knowledge of the Prothean language. In addition to the technology they left behind, the Protheans left a greater influence through their in\\-depth study of other races. Their work has had the greatest impact on asari, humans, and the hanar. A Prothean ruin on Eletania reveals that the elder race was monitoring humanity even in its early Cro\\-Magnon form. The eventual discovery of a relatively small data cache in a ruined Prothean research station on Mars introduced humans to element zero and its follow\\-on technologies, advancing the species' development by a few centuries at least. It also revealed the location of the Charon Relay, enabling humanity to become an interstellar civilization and a major galactic power almost overnight. The hanar, who call the Protheans \"the Enkindlers\", credit them with giving the hanar sentience and language, and worship them as a wise and benevolent race who allowed them to become civilized. Even more profound was the Prothean influence on the asari. One of the deepest secrets of the asari government is a collection of ancient asari relics held in a temple on Thessia. The relics show asari goddesses and their companions as Protheans. The asari were nurtured and, to a degree, uplifted by the Protheans, according to the last surviving Prothean, Javik. Even the asari aptitude for biotics was apparently cultivated by the Protheans. Javik also claims his people believed the asari would be a failsafe if the Protheans were exterminated—that the asari race's innate wisdom and patience combined with the head start gifted from Prothean intervention would enable it to succeed where its benefactors failed, defeating the Reapers in the next cycle.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "feros-the-thorian_014",
+      "kind": "page",
+      "page": "Feros: The Thorian",
+      "section": "Shiala",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Then the scene jumps to a pod\\-like structure at the far end of the last node and another asari \\- this time violet\\-skinned instead of green \\- falls out. She introduces herself as Shiala and she formerly served Matriarch Benezia. You'll learn that Saren came to get the Cipher and understand the disjointed images from the Beacon on Eden Prime. She tells you that Saren gave her to the Thorian in exchange for the Cipher and then tried to kill the Thorian to keep Shepard from getting to it. Apparently Saren knows that Shepard is searching for the Conduit and is doing everything possible to prevent that. Shiala gives you the Cipher, which induces another Prothean Beacon\\-style montage of ominous imagery, and then her fate is in your hands. You can choose to kill her, or allow her to help the colony to recover, which will affect the colony's survival chances. If you want to get to know her, you can do so here, though if you let her live you can also do it after the mission. Either way you head back up to the colony automatically when the dialog ends.",
+      "url": "https://masseffect.fandom.com/wiki/Feros:_The_Thorian",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "scene:me1-ilos-find-the-conduit#02",
+      "kind": "scene",
+      "page": "The Race to Ilos and Vigil's Warning",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "me1-ilos-find-the-conduit",
+      "text": "The Race to Ilos and Vigil's Warning. 2183, after breaking the Citadel lockdown, en route to and on Ilos for the final assault on Saren the SSV Normandy bridge and cargo bay, then the Ilos surface and Archives Shepard's squad fights through the Prothean ruins, encountering geth including Troopers, Shock Troopers, Rocket Troopers, Armatures, Destroyers, and a Geth Prime. They secure the security station and activate a console. A badly distorted Prothean holographic recording plays—a warning the squad cannot fully understand. Shepard, however, thanks to the Cipher, discerns fragmented words about the Reapers. The squad realizes the recording came too late to save the Protheans.",
+      "url": "",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "spirits-ledge_003",
+      "kind": "page",
+      "page": "Spirits' Ledge",
+      "section": "Datapads",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "On Kestrian's abode: **Personal Log: Kestrian** New entry: House near the slums was cleared out again. I'll check it out tonight. Gotta be something useful around. I've only got 34 protein rations left. END LOG On a Collective torture site: Collective Interrogator: \\[Audio Log] If you're thinking, \"This can't get worse.\" I assure you, it can. Outcast Pirate: \\[Audio Log] Ah! (Painful deep breaths.) Fuck you. Collective Interrogator: \\[Audio Log] Operative Lacerta. Where is he? Outcast Pirate: \\[Audio Log] Unlike you bastards, Sloane doesn't play with her food. Collective Interrogator: \\[Audio Log] So he's dead. That's unfortun— Collective Pirate: \\[Audio Log] Caelum! Outcast patrol inbound. Collective Pirate: \\[Audio Log] Kill the bastard and wipe the logs. Collective Interrogator: \\[Audio Log] I'll report Lacerta's death to the Charlatan. Collective Interrogator: \\[Audio Log] Meet you at the base in Draullir.",
+      "url": "https://masseffect.fandom.com/wiki/Spirits'_Ledge",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "collective_005",
+      "kind": "page",
+      "page": "Collective",
+      "section": "Troop Varieties",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Collective Raider - Collective Sharpshooter",
+      "url": "https://masseffect.fandom.com/wiki/Collective",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "asari-clone_001",
+      "kind": "page",
+      "page": "Asari Clone",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "**Asari Clones** are asari commandos extruded by the Thorian. Unlike most asari, they are green\\-skinned. They are used by the Thorian not only for defense but to communicate with outsiders like Commander Shepard, because the Thorian cannot speak except through its thralls. Oddly, given the fact they are created inside the Thorian, each clone emerges dressed in the brownish uniform common to all commandos, and armed with a shotgun and a pistol. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | The Clones were created from Shiala, a powerful biotic who followed Matriarch Benezia and later Saren Arterius, after she fell under indoctrination and joined his cause. Shiala was given to the Thorian as part of a trade Saren made with the creature, in exchange for the Prothean Cipher. Shiala melded with the Thorian to gain the Cipher, and then remains part of it until Shepard confronts the Thorian and frees her.",
+      "url": "https://masseffect.fandom.com/wiki/Asari_Clone",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "summary:shiala",
+      "kind": "summary",
+      "page": "Shiala",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Shiala was an asari commando and powerful biotic who served as an acolyte of Matriarch Benezia for nearly two centuries. She accompanied Benezia aboard Sovereign when the matriarch tried to steer Saren Arterius toward a gentler path. When Benezia was indoctrinated, Shiala also became one of Saren's thralls and followed him to Feros. There Saren discovered that the Thorian held the Prothean Cipher he needed to understand the Eden Prime vision. He traded Shiala to the Thorian; she was absorbed into its single consciousness, used her biotics to acquire the Cipher, and transferred it to Saren's mind. Saren then abandoned her and ordered the geth to destroy the Thorian to keep Shepard from gaining the Cipher.\n\nWhen Commander Shepard's team reached the Thorian's lair, the creature produced biotic clones of Shiala that communicated with and attacked the squad. After the Thorian was destroyed, Shiala was freed and restored to herself. She explained Saren's actions and Benezia's enslavement, then touched Shepard's mind to transfer the Cipher directly, warning that comprehending it would take time. Shepard then chose her fate: spared, she stayed to help the colonists of Zhu's Hope; executed for switching sides too often, she knelt without resistance and was shot in the back of the head. Shiala was the only individual to overcome Sovereign's indoctrination without suicide, likely because she had been linked to and \"indoctrinated\" by the Thorian instead.\n\nIf spared, she appeared on Illium two years later investigating a medical contract made with the Feros colonists. Her skin pigmentation had turned green like her clones, her biotics had become unstable, and she suffered disturbing dreams of the Thorian. If Shepard helped negotiate with the company, she expressed romantic interest; if the Feros colony had died, her manner was colder and she did not flirt. In Mass Effect 3, if she and the colony survived, Shiala emailed Shepard that the Thorian spores let the colonists sense one another and fight the Reapers as one mind. She still felt the Reapers' influence but said her connection to the colonists drowned it out, and pledged that she and the colonists would leave Feros to fight alongside Shepard.",
+      "url": "https://masseffect.fandom.com/wiki/Shiala",
+      "for_key": "Cipher Prothean collective unconscious Jung"
+    },
+    {
+      "chunk_id": "thorian_004",
+      "kind": "page",
+      "page": "Thorian",
+      "section": "Geth Attack",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "However, Saren Arterius had learned of the Thorian's existence and its connection to the Protheans. He traveled to Feros in secret with a contingent of geth and a powerful asari biotic, Shiala. He went to the Thorian and negotiated a trade, offering Shiala as a sacrifice. Shiala melded with the Thorian; sharing the Thorian's consciousness gave Shiala the Cipher, which Shiala then transferred to Saren's mind. However, Saren knew Commander Shepard was in pursuit and he could not risk Shepard gaining the Cipher. Saren ordered the geth to destroy the Thorian and all traces of the creature's existence. The geth launched an assault against Zhu's Hope, but the colonists blocked the entrance to the Thorian's lair with the wrecked Borealis and, enthralled by the creature, began fighting to the death to defend it. News of the geth attack soon reached Shepard and the Normandy arrived on Feros to investigate. At first the colonists at Zhu's Hope were grateful and relieved to see the squad \\- the Thorian saw Shepard as the perfect weapon to destroy the geth without running the risk of another betrayal. It instructed the salarian merchant Ledra to sell Shepard whatever weapons he had available, and made the other colonists urge Shepard to focus on fighting the geth.",
+      "url": "https://masseffect.fandom.com/wiki/Thorian",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "thorian_002",
+      "kind": "page",
+      "page": "Thorian",
+      "section": "In Prothean Times",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Commander Shepard first hears of the Thorian from Lizbeth Baynham, who tentatively suggests that it might be why the geth are attacking the colonists on Feros. Shepard can learn more from the ExoGeni VI; once freed from the Thorian, Shiala then tells Shepard its history. According to Shiala, the Thorian existed on Feros long before the Protheans arrived. It would spend thousands of years in hibernation, then awake for \"a few frantic centuries\" of activity before resting again. When the Protheans arrived and began building the metropolis that would eventually cover Feros, the curious Thorian studied them, likely made several of them into its thralls, and even absorbed them after they died, allowing them to become a part of its expanding consciousness. From the Protheans, the Thorian's mind gradually absorbed the knowledge that would form the Cipher. The Thorian survived the cataclysm that destroyed the Protheans, and continued to grow across Feros for the next fifty thousand years.",
+      "url": "https://masseffect.fandom.com/wiki/Thorian",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "summary:asari-clone",
+      "kind": "summary",
+      "page": "Asari Clone",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Asari Clones were asari commandos extruded by the Thorian on Feros. Unlike ordinary asari they had green skin. The Thorian used them both for defense and as a means of communication with outsiders such as Commander Shepard, because the plant creature could not speak except through its thralls. Despite being grown inside the Thorian, each clone emerged wearing the brownish uniform common to all asari commandos and carrying a shotgun and a pistol.\n\nThe Clones were created from Shiala, a powerful biotic who had served Matriarch Benezia and then followed Saren Arterius after falling under indoctrination. Saren traded Shiala to the Thorian in exchange for the Prothean Cipher. Shiala melded with the Thorian to obtain the Cipher and remained part of the creature until Shepard confronted the Thorian and freed her.\n\nIn combat the Clones relied chiefly on powerful biotics that could knock squad members down and leave them exposed to Thorian Creepers' acid attacks; Damping suppressed their biotics and Sabotage disabled their weapons. Their shotguns were dangerous at close range while their pistols were fired rapidly, and a Clone had a chance to switch weapons when approached in melee. They carried robust shields, against which Neural Shock and Warp were effective, and they could not be ragdolled by Weapons Force ammo upgrades though sufficiently leveled biotic and tech talents could still throw them. Because of the layout of the Feros structure, a strong enough Throw could knock a Clone off the platform edge for an instant kill, a hazard that applied equally to Shepard. In the Legendary Edition the Clone rarely used Throw and no longer targeted Shepard with it. Although created by the Thorian, the Clones were not instantly killed by anti-Thorian gas grenades, so those grenades were better saved for Thorian Creepers.",
+      "url": "https://masseffect.fandom.com/wiki/Asari_Clone",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "scene:feros-thorian-lair-shiala#05",
+      "kind": "scene",
+      "page": "Fai Dan's Death and the Fall of the Thorian",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "feros-thorian-lair-shiala",
+      "text": "Fai Dan's Death and the Fall of the Thorian. 2183, the Feros mission, fighting back into Zhu's Hope after the ExoGeni bunker Zhu's Hope and the Thorian's lair beneath the crashed freighter Borealis, Feros A pod at the last node released the violet-skinned Shiala, formerly of Matriarch Benezia's service. She explained that Saren had given her to the Thorian for the Cipher and then tried to destroy the creature to keep Shepard from it, and she was almost saddened by its death as a unique life-form. Her fate was Shepard's to decide.",
+      "url": "",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "summary:feros-the-thorian",
+      "kind": "summary",
+      "page": "Feros: The Thorian",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Feros: The Thorian was the second leg of the Mass Effect Feros arc, following Feros: Geth Attack and written by Lukas Kristjanson. Saren had sent the geth to Feros to destroy the Thorian, a parasitic plant creature that had taken mental control of most of the colonists at Zhu's Hope.\n\nEscaping ExoGeni HQ, Shepard fought through geth, then used a glitchy shuttle bay door control (setting it to 31–34 PSI) to shear the claw holding the Geth Dropship, dropping the ship into the planetary rubble and restoring comms. Joker reported the crazed colonists were clawing at the Normandy's hull. Lizbeth Baynham confessed full knowledge of the Thorian project and joined the team. On the skyway back, the team diverted to the ExoGeni Bunker, where Ethan Jeong had ExoGeni Security restrain Juliana Baynham and ordered the colony purged. With sufficient Charm or Intimidate, Shepard could convince Jeong to instead support and expand the colony; otherwise Shepard shot him when he drew his pistol. Juliana provided Anti-Thorian Gas grenades that would harmlessly incapacitate the colonists, though Shepard could also kill them.\n\nFighting back to Zhu's Hope meant battling Thorian Creepers and mind-controlled colonists (16 total, tracked by an on-screen counter); gas grenades and melee knocked colonists out non-lethally. Fai Dan, forced by the Thorian to try to kill Shepard, resisted and shot himself in the head. Freighter crane controls exposed a stairwell into the Thorian's lair. There the enormous Thorian expelled a green asari clone who demanded respect and explained the Thorian had absorbed the essence of the Protheans and traded that knowledge, plus the asari Shiala, to Saren in exchange for being left alone; Saren broke the deal and attacked. Shepard destroyed six Thorian Neural Nodes across five ascending levels, fighting waves of creepers and seven Asari Clones, until the Thorian fell into the abyss. A pod then released the violet-skinned asari Shiala, formerly of Matriarch Benezia's service, who gave Shepard the Cipher (triggering a Prothean vision) and whose life Shepard could spare or take.\n\nThe colony's fate was determined by a formula: colony health (one point per completed sidequest plus one per surviving colonist) plus colony leadership (5 if Shiala survived, 12 if Jeong agreed to help). A total of 13 or higher meant Feros survived. Consequences carried into Mass Effect 2 (a Zhu's Hope colonist, Shiala if spared, appearing on Illium) and Mass Effect 3 (Shiala and a saved colony joining the war effort).",
+      "url": "https://masseffect.fandom.com/wiki/Feros:_The_Thorian",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "shiala_003",
+      "kind": "page",
+      "page": "Shiala",
+      "section": "Mass Effect",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "When Shepard's team arrives at the Thorian's lair, the creature is somehow able to create clones of Shiala which serve to communicate with Shepard. These clones are also biotics who attack Shepard's squad as they try to wipe out the Thorian. After the Thorian's destruction, Shiala is freed and is fully herself again. She tells Shepard of Saren's actions and how Benezia became a slave to his cause, and explains about the Cipher. Knowing the vision is the key to finding the Conduit, Shiala touches Shepard's mind and directly transfers the Cipher. She assures Shepard they have been given a great gift, and that comprehending the Cipher will take some time. Shepard then has to decide Shiala's fate: allow her to live, or kill her. In the former, Shiala resolves to stay and help Zhu's Hope. In the latter, Shepard determines that Shiala \"switches sides too often\" and thus decides to execute her; Shiala will accept her fate and kneel, offering no resistance as the Spectre shoots her in the back of the head. If Shiala is spared, she can be found outside the Borealis next to the former entrance to the Thorian's lair on subsequent visits to Zhu's Hope. If the colony survived, she pledges to do what she can to assist the colonists, having been ashamed of the damage done to their lives. Alternatively, if too many colonists died she vows to stay and help until everyone else has left. Shiala is the only individual who has managed to overcome Sovereign's indoctrination without resorting to suicide. This is likely because she was linked directly to the ancient Thorian and 'indoctrinated' by the plant being in turn. After the Thorian died, her mind is her own again. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Shiala",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "war-assets-alliance_018",
+      "kind": "page",
+      "page": "War Assets/Alliance",
+      "section": "Zhu's Hope Colonists",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Requires: Save all the colonists and spare Shiala in Feros: The Thorian in Mass Effect. Complete Priority: Tuchanka **Military Strength:** 30 The asari Shiala was rescued by Commander Shepard from the Thorian on Zhu's Hope. Now she leads a militia of Zhu's Hope colonists waging a surprisingly effective campaign against encroaching Reapers. Shiala suspects the group's prior connection to the Thorian gives their soldiers an uncanny ability to sense one another, allowing them to think and act as one in battle. The long\\-term consequences of this connection are unknown, but for now at least, its effects are helping the cause.",
+      "url": "https://masseffect.fandom.com/wiki/War_Assets/Alliance",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "scene:illium-shiala-medical-contract#01",
+      "kind": "scene",
+      "page": "Shiala Negotiates the Zhu's Hope Medical Contract",
+      "section": "banter",
+      "game": "Mass Effect 2",
+      "scene_id": "illium-shiala-medical-contract",
+      "text": "Shiala Negotiates the Zhu's Hope Medical Contract. 2185, Illium, two years after the Feros mission somewhere on Illium Shiala, transformed by her time with the Thorian, found Shepard on Illium. Her skin had turned green like the clones, her biotics were unstable, and she suffered disconcerting dreams of the Thorian. The colonists of Zhu's Hope had signed a one-sided agreement with the medical company Baria Frontiers to treat their lingering health problems. Shiala appointed herself their intermediary and traveled to Illium to renegotiate the contract.",
+      "url": "",
+      "for_key": "Shiala cipher Thorian Feros Prothean"
+    },
+    {
+      "chunk_id": "scene:normandy-sr1-chakwas-med-bay#02",
+      "kind": "scene",
+      "page": "Chakwas in the SR-1 Infirmary",
+      "section": "downtime",
+      "game": "Mass Effect",
+      "scene_id": "normandy-sr1-chakwas-med-bay",
+      "text": "Chakwas in the SR-1 Infirmary. 2183, aboard the SSV Normandy, from the Eden Prime shakedown to the flight to Ilos the medical bay on the crew deck of the SSV Normandy SR-1 After Eden Prime, when the Prothean beacon knocks Shepard unconscious, Kaidan and Ashley carry the Commander back to the Normandy rather than the civilian clinics on the colony, because Chakwas has more experience. She keeps a calm bedside manner, tells Shepard everything looks normal, but is unsettled by the Commander's vision and decides to add it to her report.",
+      "url": "",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "prothean-beacon_003",
+      "kind": "page",
+      "page": "Prothean Beacon",
+      "section": "Known Beacons",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Two beacons have been revealed thus far: one on Eden Prime and one on Virmire. Additionally, there is a Prothean video terminal on the planet Joab that has a similar function. The Eden Prime beacon was badly damaged, reportedly in Sovereign's attack on Eden Prime. Not only did it respond without warning when approached, the 'vision' it held was confused and incomplete. It exploded after being used; it has been suggested that the strain of transmitting it to Saren and then Shepard in a short space of time caused a system overload. Liara T'Soni comments that Shepard is exceptionally strong\\-willed, making her feel exhausted after touching the commander's mind because humans instinctively resist the joining process. Therefore the system overload could have been caused by Shepard instinctively fighting the beacon's vision, instead of welcoming it as Saren did. The beacon in Saren's lab on Virmire was intact and had an interface for users to access it. When using the beacon, Shepard was able to cope more easily when the vision was transmitted. It isn't clear whether Saren found this intact beacon on Virmire or had it brought there from another planet. The Virmire beacon was presumably lost in the nuclear explosion that destroyed Saren's base. The video terminal's vision on Joab is partly identical to the threat about Sovereign and the Reapers but instead of a Reaper it shows a pair of Collectors in the end. Another beacon was discovered hidden on Thessia, the asari homeworld, concealed within a statue of the goddess Athame. Its existence was only known to the highest levels of asari government, which secretly exploited its data to make the asari the most advanced race in the galaxy in direct violation of the Citadel Council's policy on withholding Prothean technology. During the Reaper invasion, Shepard sensed the presence of the beacon with the aid of the Cipher and activated it using several artifacts around the temple, releasing a Prothean VI named Vendetta. It provided data that suggested that the repeating patterns of galactic evolution and development were not, in fact, caused by the Reapers, and that the Reapers are merely \"servants\" of that pattern. But before it could give the data on the final Crucible piece, Kai Leng appeared and stole the data.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "exodus-cluster_004",
+      "kind": "page",
+      "page": "Exodus Cluster",
+      "section": "Missions",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- *Mission:* Prologue: Find the Beacon - *Mission:* Priority: Eden Prime - *Mission:* Eden Prime: Resistance Movement",
+      "url": "https://masseffect.fandom.com/wiki/Exodus_Cluster",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "summary:codex-mass-effect-3-from-ashes",
+      "kind": "summary",
+      "page": "Codex/Mass Effect 3: From Ashes",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This Mass Effect 3 \"From Ashes\" DLC Codex covered Eden Prime and the Prothean beacon. Settlers reached Eden Prime through the new Charon relay in 2151; its stable climate and compatible biology made the colony almost immediately viable, and over decades several million humans immigrated, building a primarily agrarian society that became self-sufficient and then exported goods, chief among them rare plants grown from Earth's heritage seed libraries. In 2183 the rogue Spectre Saren Arterius and his geth attacked Eden Prime, and soon afterward the Citadel was attacked and the neighboring world Terra Nova was threatened with destruction. Rather than evacuate, Eden Prime's colonists voted against building evacuation ships and voted to ease restrictions on Terra Nova refugees, swelling the colony's population and cementing its status as a symbol of humanity's future.\n\nThe Prothean beacon uncovered on Eden Prime in 2183 was triggered when Commander Shepard's squad came near it while repelling the geth; it sent Shepard jumbled sounds and images warning of the Reaper invasion, then overloaded and violently exploded. The Council dismissed the vision as subjective, but its Committee on Paleotechnology analyzed the fragments and found the mechanism was not telepathic. The beacon used a mass effect field to hold its subject immobile, scanned the structure of the target's optic and auditory nerves and memory-related brain regions, then stimulated them with pinpoint electromagnetic and other irradiative energy to recreate images and sound, similar in principle to a \"simstim\" but vastly more comprehensive and directed at memory rather than the senses. The Normandy's medical officer noted it delivered more information in seconds than a simstim could in hours, to a species whose physiology was unknown to its designers.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Mass_Effect_3:_From_Ashes",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "scene:therum-freeing-liara-prothean-ruins#06",
+      "kind": "scene",
+      "page": "Cutting Liara Out of the Prothean Barrier on Therum",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "therum-freeing-liara-prothean-ruins",
+      "text": "Cutting Liara Out of the Prothean Barrier on Therum. 2183, after Shepard is made a Spectre, the mission to Therum in the Knossos system the Prothean ruins in a mining dig on Therum, then aboard the Normandy Aboard the Normandy, Joker's welcome was sarcastic. Kaidan pressed Liara on her link to Saren; she knew nothing of his plans but relayed her research, culminating in a theory of recurrent galactic extinctions with the Protheans the latest to vanish. Shepard tied this to the Reapers and the Eden Prime beacon vision. Ashley grew impatient and steered the talk back to Saren and the Conduit. Liara called the Normandy a safe haven from Saren, offered her Prothean expertise to interpret the vision, and joined the crew; afterward the Council raised security concerns about her and the turian Councilor questioned the destruction of the site.",
+      "url": "",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "scene:eden-prime-beacon-mission#02",
+      "kind": "scene",
+      "page": "Find the Beacon",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "eden-prime-beacon-mission",
+      "text": "Find the Beacon. 2183, the Normandy's shakedown run, the day of Saren's geth attack the SSV Normandy en route from the Arcturus Prime relay, then the fields, dig site and spaceport of Eden Prime In the comm room Nihlus and Captain Anderson briefed Shepard: a science team on Eden Prime had unearthed a Prothean beacon that had to be secured and taken to the Citadel, and Nihlus was aboard to assess Shepard as the first human Spectre candidate, having personally put the name forward. A garbled transmission from the colony's marines showed heavy fighting and an enormous alien ship overhead. Anderson ordered the ground team down; Nihlus went ahead alone to scout.",
+      "url": "",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "prologue-find-the-beacon_001",
+      "kind": "page",
+      "page": "Prologue: Find the Beacon",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- The farms of Eden Prime - The spaceport tram 1/2You are in charge of the ground team dropped onto Eden Prime, an Alliance colony under attack. Your primary goal is to find and secure the Prothean beacon.",
+      "url": "https://masseffect.fandom.com/wiki/Prologue:_Find_the_Beacon",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "storyline_030",
+      "kind": "page",
+      "page": "Storyline",
+      "section": "Prologue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "In the year 2183, a prototype Alliance warship, the SSV Normandy, travels from Earth's orbit to the Mass Relay at Charon. On board Captain Anderson is in discussion with Admiral Hackett and Ambassador Donnel Udina concerning Commander Shepard's worthiness to become the first human Spectre, an elite agent for the Citadel Council. Meanwhile, the ship and crew are heading to Eden Prime in the Utopia system for their shakedown mission. Shepard heads to the bridge where Joker, the pilot, guides the ship into the Mass Relay. Because of the presence of Nihlus Kryik, a turian Spectre sent by the Council to observe, and the famed Captain Anderson, several members of the crew think their true purpose at Eden Prime is far more important than a simple shakedown run. After making the jump, Captain Anderson asks Shepard to come to the comm room for a briefing. Nihlus has time to speak to Shepard before Anderson joins them. Together they inform the Commander that a Prothean Beacon has been discovered on Eden Prime. Prothean technology has immense scientific value, but since Eden Prime is close to the Terminus Systems, the beacon is at risk from pirates and mercenary bands. This is the Normandy's true objective: recover the beacon. This mission will also be Nihlus' chance to observe Shepard in action, the first of several they will undertake together to assess Shepard's candidacy for the Spectres. The briefing is interrupted by a transmission from Eden Prime that Joker patches through. The footage shows Alliance soldiers fighting on the surface, under heavy fire and requesting reinforcements. As Shepard, Anderson and Nihlus watch, they see a huge dreadnought hanging over the surface. Anderson orders Shepard to get ready—this is going to be worse than they thought.",
+      "url": "https://masseffect.fandom.com/wiki/Storyline",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "saren-arterius_006",
+      "kind": "page",
+      "page": "Saren Arterius",
+      "section": "Shepard's Intervention",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Saren commits horrific crimes against the galaxy, killing citizens he had sworn to protect, using innocents for his private experiments, even murdering his old friend and fellow Spectre, Nihlus Kryik. When a Prothean Beacon is unearthed on the human colony of Eden Prime, Saren leads the geth there to use the beacon and find clues that will lead him to the Conduit, as the message sent through the beacon was coded so only organic minds could understand it. Yet Saren's attempt to destroy the Eden Prime colony to cover his tracks fails when the Alliance ship SSV Normandy responds more quickly than Saren anticipated. Commander Shepard leads a ground team to secure the beacon, only to learn that Saren and the geth are behind the attack on the colony. Later, Saren is informed that Shepard made contact with the beacon, and decides to eliminate the Commander. After the initial reports to the Council of Saren's rogue activities, the Council refuses to believe that one of their most highly decorated Spectres betrayed them. During a hearing, Saren denies killing Nihlus, even though it was witnessed by a dockworker, Powell, claiming he only knew about events on Eden Prime by accessing Nihlus' files after his death. Furthermore, his past with Anderson complicates matters and the Council finds no evidence to convict him. Because of this, Shepard is forced to find more evidence of Saren's treachery while Saren, duly warned that the Commander is on his trail, remains free to act. While dealing with assassins loyal to Saren, Shepard's investigation leads the Commander to a young quarian named Tali'Zorah nar Rayya on her Pilgrimage, who carries an audio file taken from a destroyed geth proving Saren attacked Eden Prime. Saren bribes one of the Shadow Broker's contacts, Fist, to ensure the quarian would be silenced, but Shepard saves both Tali and the audio file. With the new\\-found evidence, the Council revokes Saren's Spectre status, but this does little to slow him down.",
+      "url": "https://masseffect.fandom.com/wiki/Saren_Arterius",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "mass-effect-cut-content_002",
+      "kind": "page",
+      "page": "Mass Effect Cut Content",
+      "section": "Eden Prime",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Prologue: Find the Beacon – the mission was at one point much longer. Commander Shepard had more interactions on the SSV Normandy before the briefing, and the path through Eden Prime would have contained many more obstacles and given opportunities to learn more regarding farming worlds.",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Cut_Content",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "mass-effect-guide_003",
+      "kind": "page",
+      "page": "Mass Effect Guide",
+      "section": "Prologue",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "During the prologue you will create your player character, attend a briefing on the Normandy, and undertake your first mission on Eden Prime. Prologue: Find the Beacon",
+      "url": "https://masseffect.fandom.com/wiki/Mass_Effect_Guide",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "alliance-navy_012",
+      "kind": "page",
+      "page": "Alliance Navy",
+      "section": "2nd Frontier Division",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The 2nd Frontier Division was a garrison based on Eden Prime. It was comprised of two marine brigades, the 212 and the 232\\. Due in to the security issues involved, the garrison was called up to help when a Prothean Beacon was found, as factions from the Terminus Systems might have risked attacking Eden Prime for the beacon. The 212 guarded the dig site while the 232 was attached to the scientists' camp. The entire division was practically wiped out when the rogue Spectre, Saren Arterius, and his geth army attacked the colony without warning. Few marines survived the attack. - **Known Members:** - Gunnery Chief Ashley Williams - Nirali Bhatia - Sergeant Donkey - Bates",
+      "url": "https://masseffect.fandom.com/wiki/Alliance_Navy",
+      "for_key": "Eden Prime beacon Shepard vision"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-prothean-device-liara-contact#02",
+      "kind": "scene",
+      "page": "Treeya Contacts Liara From the Prothean Relay",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-prothean-device-liara-contact",
+      "text": "Treeya Contacts Liara From the Prothean Relay. 2185, Fehl Prime (Mass Effect: Paragon Lost), just before the Collector attack the colony outskirts of Fehl Prime — a jamming source and an ancient Prothean communication system At the source they find an unknown alien device. Essex destroys it with his biotics, to Treeya's annoyance. Treeya takes a fragment and leads the group to a functioning Prothean communication system, which she uses to call her mentor Liara T'Soni. Liara guesses the device may be Reaper technology before the link is jammed.",
+      "url": "",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "codex-technology_018",
+      "kind": "page",
+      "page": "Codex/Technology",
+      "section": "Communications",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Real\\-time communication is possible thanks to networks of expensive mass relay comm buoys that can daisy\\-chain a transmission via lasers. Comm buoys are maintained in patterns built outward from each mass relay. The buoys are little more than a cluster of primitive, miniature mass relays. Each individual buoy is connected to a partner on another buoy in the network, forming a corridor of low\\-mass space. Tightbeam communications lasers are piped through these \"tubes\" of FTL space, allowing virtually instantaneous communication to anywhere on the network. The networks connect across regions by communications lasers through the mass relays. With this system, the only delay is the light lag between the source or destination and the closest buoy. So long as all parties remain within half a light\\-second (150,000 km) of buoys, seamless real time communications are possible. Since buoys are maintained in all traveled areas, most enjoy unlimited instant communications. Ships only suffer communications lag when operating off established deep space routes, around uninhabited outer system gas giants, and other unsettled areas. During wartime, comm buoy networks are the first target of an attack. Once the network is severed, it can take anywhere from weeks to years to get a message out of a contested system. In systems where a buoy network has not yet been built or has been destroyed, rapid communication means ferrying information through high\\-speed courier ships and unmanned data drones.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Technology",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "prothean-beacon_002",
+      "kind": "page",
+      "page": "Prothean Beacon",
+      "section": "Overview",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Beacons were a system of near\\-instantaneous communication across the Protheans' galaxy\\-wide empire. They were made to interface with a person's brain, rather than through audio or video. Commander Shepard's 'vision', triggered by accidentally accessing a beacon, was actually a warning about the Reapers sent by the researchers on Ilos, in an attempt to reach any survivors and give them a message of hope. The message sent through them was coded specifically so that only Prothean minds could understand it. The Protheans hoped this would prevent any remaining Reapers from accidentally finding out that Ilos had survived. However, at that point, the Protheans did not fully understand the process of indoctrination, and they did not realise the message could be received and eventually understood by an organic agent of the machines. This precaution—and the damage to the Eden Prime beacon—meant that Shepard received the information as a series of random, vivid images. These caused an initial fifteen hours of unconsciousness, and left Shepard with recurring nightmares. Comprehending the message as it was meant to be seen required the Cipher, which enabled both the commander and Saren Arterius to comprehend the images and archetypes in the beacon's message.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean_Beacon",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "summary:cerberus-daily-news-february-2012",
+      "kind": "summary",
+      "page": "Cerberus Daily News - February 2012",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "This short archive collected five brief Cerberus Daily News items from late February 2186, also carried by the Alliance News Network. The delayed Susskind Supercollider came online with results physicists called \"promising,\" and the stolen New Year's Eve ball was found intact on the Citadel with a note from thief Quarn claiming C-Sec needed funds and that anything could be smuggled onto the station. An official ship for the Citadel Committee on Paleotechnology was shot down over Garvug, raising fears that data files on Prothean inventions had fallen into criminal hands. The final two items reported that communication with the batarian homeworld Khar'Shan had gone dark, cutting the batarian economy off from its colonies; the Hegemony blamed comm-buoy disruption on solar output, while the governor of the Camala colony suspected an Alliance stealth-vessel attack.",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_February_2012",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "prothean_003",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Forging an Empire",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Very little is known about the origins of the Prothean race; even the name and location of their homeworld has been lost to history. It is unknown precisely when Prothean civilization arose and how long it persisted, but one of their communication devices discovered on the planet Fehl Prime has been dated to as early as 68,000 BCE. After achieving spaceflight, the Protheans discovered the ruins of a previous spacefaring race, the inusannon, and from those ruins learned about mass effect physics and developed FTL technology. It gave them a significant advantage over their contemporaries, and they kept it secret for centuries. The Protheans would expand throughout the galaxy with the help of the mass relay network and make the Citadel their capital. Early in their development, the Protheans encountered a hostile machine intelligence which threatened to overwhelm them. To defeat the machines, the Protheans decided to unite all of the galaxy's sentient organic life under their empire. The other organic races were free to resist, but those that tried were crushed, and none ever managed to best the Protheans' might. In time, each of the subjugated races assimilated into Prothean culture and came to think of themselves as Prothean. United under a single cause, the Prothean Empire successfully held off the enemy machines in a conflict known as the \"Metacon War\". The Protheans extensively observed primitive species such as the asari, hanar, humans, quarians, salarians, and turians during their time. They cultivated species they deemed to have potential. Numerous outposts were placed on or near the primitives' homeworlds, with Prothean interference and activities kept beyond their subjects' comprehension. In time, the Protheans would have given these primitives the \"choice\" to be part of their empire.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "cerberus_031",
+      "kind": "page",
+      "page": "Cerberus",
+      "section": "See Also",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Codex/Organizations\\#Cerberus - Shadow Broker dossier - Cerberus Daily News - \"Cerberus Lab Discovered on Trident\" storyline - \"Manhunt for Cerberus Operative on Trident\" storyline - \"Hidden Cerberus Communication Method Discovered on Bekenstein\" story - \"Cerberus Witch Hunt Results in Mass Journalist Firings\" story - Alliance News Network Information Partners - Cerberus expansion deemed \"significant threat\" by Iris Dunnigan - Cerberus' Omega Communications Feed during the fight for Omega",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "prothean_014",
+      "kind": "page",
+      "page": "Prothean",
+      "section": "Cut Content",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Early in the conception of the first game, a story draft titled \"Master Slaves\" revolved around the revelation that humanity had been a slave race to a now\\-extinct race of advanced aliens called Nazari, who had built the mass relays and other technological marvels. Due to this unique connection to the Nazari, humans were supposed to be gifted for understanding and manipulating Nazari technology. While the Nazari as a whole would later on be developed into the Reapers, the special connection with an ancient extinct alien species would form the basis for Commander Shepard's interactions with Prothean beacons and technology. - An internal document listing ideas for potential Mass Effect 2 squadmates contained the concept of a Prothean hologram character who would be found drifting in space after being disconnected from its docking unit. New lore associated with this hologram would have revealed that in the age of the Prothean Empire, holograms were fighting for their rights and to be considered equal to organics. After finding it a new docking unit, this hologram squadmate would have been restored into the actual appearance of a live Prothean.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-prothean-device-liara-contact#01",
+      "kind": "scene",
+      "page": "Treeya Contacts Liara From the Prothean Relay",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-prothean-device-liara-contact",
+      "text": "Treeya Contacts Liara From the Prothean Relay. 2185, Fehl Prime (Mass Effect: Paragon Lost), just before the Collector attack the colony outskirts of Fehl Prime — a jamming source and an ancient Prothean communication system With Fehl Prime rebuilt and fitted with an anti-ship cannon and kinetic barriers, Captain Toni sends Delta Squad to trace a jamming signal on the colony outskirts. The asari anthropologist Treeya and the colonist Messner come along; Messner lends them his Mako.",
+      "url": "",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-prothean-device-liara-contact#03",
+      "kind": "scene",
+      "page": "Treeya Contacts Liara From the Prothean Relay",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-prothean-device-liara-contact",
+      "text": "Treeya Contacts Liara From the Prothean Relay. 2185, Fehl Prime (Mass Effect: Paragon Lost), just before the Collector attack the colony outskirts of Fehl Prime — a jamming source and an ancient Prothean communication system Treeya tells the squad she has doubts — Liara once worked with Commander Shepard and is fixated on Reaper myths. As they head back, the new jamming source flies overhead: a Collector ship, bearing down on the colony. Its Seeker Swarms paralyze the colonists, Captain Toni, Christine and April among them; only Delta Squad, Treeya and Messner, still out at the relay, stay free.",
+      "url": "",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "summary:prothean",
+      "kind": "summary",
+      "page": "Prothean",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The Protheans were an ancient race that vanished roughly 50,000 years ago after building a galaxy-wide empire. They were long credited with creating the Citadel and the mass relays, though in truth they only inherited that Reaper technology. Anthropoidal in form, they had two pairs of dual-pupiled eyes, three pairs of nostrils, a layered head carapace, three-fingered hands, and a flanging voice like turians. A unique trait was an experiential exchange system: by touch, a Prothean could absorb another's memories, skills, or language. They had quad-strand DNA, some resistance to low radiation, and at least some members wielded potent biotics.\n\nAfter achieving spaceflight, the Protheans discovered ruins of the earlier inusannon and learned mass effect physics, gaining a centuries-long secret advantage. Facing a hostile machine intelligence, they decided all organic life must unite under their rule; resisting species were conquered and assimilated, coming to call themselves \"Prothean.\" United, they held off the machines in the Metacon War. They observed and cultivated primitive species including asari, hanar, humans, quarians, salarians and turians, intending eventually to offer them the \"choice\" of joining the empire.\n\nThe Reapers arrived around 48,000 BCE, entering through the Citadel, decapitating the government, disrupting the relay network, and using Citadel census data to hunt every Prothean. Their unified empire and single military doctrine became fatal weaknesses. Indoctrinated Protheans acted as sleeper agents. Subject races like the densorin and the AI zha'til were destroyed; the Protheans themselves annihilated the zha'til by sending a star supernova. Some Protheans built a Crucible from designs left by prior civilizations, but indoctrinated builders sabotaged it. After centuries the Reapers killed or enslaved every Prothean and withdrew into dark space.\n\nSurvivors persisted in stasis. On Ilos, the Conduit research team under Ksad Ishan went dark; the VI Vigil cut power to non-essential pods until only about a dozen scientists remained, who later used the Conduit to reach the Citadel and alter the keepers' signal to trap the Reapers. On Eden Prime, nearly a million warriors and their commander Javik were stored; traitors betrayed the site, most pods were destroyed, and the VI Victory kept only Javik's pod alive. Shepard could revive Javik in 2186. Meanwhile the Reapers repurposed captured Protheans into the Collectors, directed by Harbinger to abduct humans for a Human-Reaper.\n\nThe Protheans held evolution, the \"Cosmic Imperative,\" as the universe's driving force. Their influence shaped the asari (uplifted as a possible failsafe), humans (via the Mars archive) and the hanar, who worship them as the \"Enkindlers.\" Notable Protheans included Javik, avatar of vengeance, and the guides Janiri and Lucen of asari myth. Prothean tech included mind-to-mind beacons, memory shards, indoctrination detection, kinetic barrier grids, the Particle Rifle, the flagship Penumbra Apex, and the Conduit.",
+      "url": "https://masseffect.fandom.com/wiki/Prothean",
+      "for_key": "Prothean beacons communication network"
+    },
+    {
+      "chunk_id": "scene:fehl-prime-brood-alliance#10",
+      "kind": "scene",
+      "page": "Brood and the War Debt Repaid",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "fehl-prime-brood-alliance",
+      "text": "Brood and the War Debt Repaid. 2185, during the Collector attack on Fehl Prime the colony's underground research labs, Brood's hidden ship, and the interior of a Collector vessel Aboard the Collector ship, Messner forces Treeya to interface with a Prothean archive built into the vessel — colonists he had used for this before all died. Treeya witnesses the Protheans' last stand at the Fehl Prime communication system, their conversion by the Reapers into Collectors, and the plan to harvest humans into genetic material for a Human-Reaper. Messner records it all on his bracelet for Cerberus.",
+      "url": "",
+      "for_key": "Prothean beacons communication network"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 357,
+      "text": "- Shiala was an asari commando and biotic, an acolyte of Matriarch Benezia for nearly two centuries, who was enthralled by Saren Arterius and traded to the Thorian on Feros to extract the Prothean Cipher for him (source: Shiala)",
+      "for_key": "shiala cipher thorian feros prothean"
+    }
+  ],
+  "conflicts": [],
+  "warnings": [
+    "liara has no route to scene 'feros-shiala-cipher-transfer' — not a participant and not in heard_by; do not place them near it"
+  ]
+}
