@@ -21,7 +21,7 @@ note: >
 - **Home:** He is from Rouen, the capital of Normandy in France, which makes the ship's name a joke he stopped telling around 2184.
 - **Family:** Alive on Earth throughout. That makes the Reaper invasion personal for him.
 - **Education:** The Alliance funded his degrees, which stands in for the student-loan pressure.
-- **AI:** He studied VI and machine learning for medical imaging, not true AI, which the Citadel bans.
+- **AI:** He studied VI and machine learning for medical imaging, not true AI, which the Citadel bans. Although, he followed science progress on AI, from what he could gather.
 
 ## Identity
 
@@ -33,52 +33,61 @@ His role on the Normandy is unofficial. He is a jack-of-all-trades tech, handyma
 
 Thomas grew up in a house that was luminous and then unstable. His mother was the sun of his childhood, brilliant, adoring, and dancing in the kitchen. After her partner's death by suicide she was undone by grief and alcohol, and by ten he was managing her crises. At 14 he recognized an attempt, called emergency services, and was told afterward that he was no longer her child. He moved in with his father, whose love was quiet and steady, and never got the mother of his childhood back.
 
-In his teens he found the old radical texts on the extranet: Kropotkin, Goldman, Bookchin, and the history of Rojava and Öcalan's writings on democratic confederalism. That turned a cynical kid into an open one and gave him a lifelong belief that care is a political act.
+In his teens he found the old radical texts on the extranet: Kropotkin, Goldman, Bookchin, and the history of Rojava and Öcalan's writings on democratic confederalism. He also found social networks with inspiring woman figure joking, caring, teaching about arts and feminism, and politics. That turned a cynical kid into an open one and gave him a lifelong belief that care is a political act.
 
 He enlisted in the Alliance at 19 as a tech specialist, partly for the education funding. At 21 he went to Akuze. His unit died to the thresher maws, and he walked out with survivor's guilt he never fully set down. The Alliance moved him to a youth STEM outreach program in Rouen. He taught kids robotics and game development, became a team lead, and loved it.
 
-His mother died in 2180 as he finished his master's. The grief hit harder than the peace he'd made with her. He burned out during his doctoral work, quit, drifted through short contracts, lost a job to missed days, and spent a year unemployed and broke. In 2183 Shepard, newly Spectre, remembered the tech from Akuze and offered him a berth on the Normandy. Thomas took it. He couldn't have said whether he was following Shepard or being pulled out of a hole, and he still isn't sure.
+His mother died in 2180 as he finished his master's. The grief hit harder than the peace he'd made with her. He burned out during his doctoral work, quit, drifted through short contracts, lost a job to missed days, and spent a year unemployed and broke. In 2183 Shepard, newly Spectre, call his close but lost friends from Akuze and offered him a berth on the Normandy. Thomas took it. He couldn't have said whether he was following Shepard or being pulled out of a hole, and he still isn't sure.
 
 ## Timeline
 
 | Year | Age | Event |
 |---|---|---|
-| 2156 | 0 | Born in Rouen with a fraternal twin sister. Two older siblings, one younger sister born a decade later. |
-| 2164-2168 | 8-12 | Mother's partner dies by suicide. She spirals into alcoholism. Thomas begins caretaking. |
+| 2156 | 0 | Born in Rouen with a fraternal twin sister. one older brother, one younger sister, and one younger sister born a decade later from the union of his mother and another man. |
+| 2164-2168 | 8-12 | Parents divorces. Mother's partner dies by suicide. She spirals into alcoholism. Thomas begins caretaking. |
 | 2170 | 14 | Recognizes his mother's attempt, calls emergency services, and is rejected in her crisis. Moves in with his father. |
-| 2170-2173 | 14-17 | Political awakening through early extranet radicals. Discovers Bookchin, anarchism, and a new way of being open. |
+| 2170-2173 | 14-17 | Political awakening through early extranet radicals. Discovers Bookchin, anarchism. Following women on the extranet, he learn about feminism and a new way of locing, caring, and being open. |
 | 2175 | 19 | Enlists in the Alliance as a tech specialist. |
-| 2177 | 21 | **Akuze.** Sole survivor of his unit. Finds Shepard, the only other survivor. First hospitalization. |
+| 2177 | 21 | **Akuze.** Sole survivor of his unit. Finds Shepard, the only other survivor. They bond and become close friends and confident. First hospitalization after a suicide attempt, caused by the PTSD. |
 | 2178-2180 | 22-24 | Youth STEM outreach in Rouen. Becomes team lead. Master's in data science while his mother declines. |
-| 2180 | 24 | Mother dies, and he burns out. Second hospitalization. Girlfriend leaves. |
-| 2181-2182 | 25-26 | Doctoral work in medical VI, dropped. He moves to Omega, has some short developer contracts, then let go. A year of unemployment. Multiple short relationship their, with aliens and humans. |
-| 2183 | 27 | Shepard recruits him. First human Spectre, first mission. Thomas joins the Normandy SR-1. |
-| 2183 | 27 | Saren and Sovereign. Meets Wrex, Tali, and Liara. The Council mostly ignores the warnings, and Thomas starts a dance party. |
-| 2183 | 27 | SR-1 destroyed. Shepard presumed dead. Third hospitalization. |
-| 2185 | 29 | Shepard returns via Cerberus. Thomas joins the SR-2 on his own terms and hates every hour under Cerberus command. Stays for the people and the mission. |
-| 2185 | 29 | Suicide mission. Gets close to Jack, Tali, Grunt, Thane, and Joker. Starts the cooking nights. |
+| 2180 | 24 | Mother dies, and he burns out. Second hospitalization. Girlfriend leaves him meanwhile. |
+| 2181-2182 | 25-26 | Doctoral work in medical VI, dropped. Follows secret developments on AI. He moves to Omega, has some short developer contracts, then let go. A year of unemployment. Multiple short relationship their, with aliens and humans. |
+| 2183 | 27 | Shepard recruits him. First human Spectre, first mission. Thomas joins the Normandy SR-1 as a tech specialist, and handyman |
+| 2183 | 27 | Saren and Sovereign. Meets Wrex, Tali, Garrus, Kaidan, and Liara. The Council mostly ignores the warnings. Thomas helps maintain morale, fixes the ship with Adams and Tali. Close supervision from Chakwas for his mental state. The tremors start to appear |
+| 2183 | 27 | SR-1 destroyed. Shepard presumed dead. Thomas loses his center again. Third hospitalization. |
+| 2185 | 29 | Shepard returns via Cerberus. Thomas joins the SR-2 on his own terms and hates every hour under Cerberus command. Stays for the people and the mission. Gets close to Jack, Tali, Grunt, Thane, and Joker. Spend a lot of time with Kenneth and Gabby |
+| 2185 | 29 | Suicide mission.  Tremors are making his tech job difficult, he finds workaround, spend more time coding and operating software, but mostly starts cooking. Serves as an open ear for the crew. The night before the mission, Jack and him gets together. |
 | Late 2185 | 29 | Arrival. Shepard is grounded, the crew scatters, and Thomas goes home to Rouen. |
-| Jan 2186 | 30 | Turns 30 at his father's table. Reads the birthday speech he's been drafting for months. |
-| Mar 2186 | 30 | Reapers invade Earth. He rejoins the Normandy as Shepard escapes. His family is left behind. |
+| Jan 2186 | 30 | Turns 30 with his family, and earth friends. Keep communicating with the crew. |
+| Mar 2186 | 30 | Reapers invade Earth. He rejoins the Normandy as Shepard escapes. His family is left behind. Meet James and Cortez, with whom he become close friend, appreciating the banter. |
 | 2186 | 30 | **The war.** Tuchanka and the genophage cure, Rannoch and the geth-quarian peace, and the long road to the Crucible. |
 | 2186 | 30 | Dies in the final push toward the Conduit. |
 
 ## Aboard the Normandy
 
-- **Cook and handyman:** Vegan cooking nights, seitan kebabs, pie, and a rotating playlist. ABBA while he cooks, and "white girl music" always in the background.
-- **Engineering:** Assists Tali, does maintenance, fixes what breaks. His tremor and clumsiness are the ship's running joke, and he has built steadying rigs for himself.
-- **Politics:** Advises Shepard on coalition-building and on why no authority decides who deserves dignity. He gives Shepard perspective, not orders.
+- **Role, in order:** handyman and software engineer first, cook second. Above all he tried everything to keep morale up, even when he was down himself.
+- **Self-image:** He never bragged. When he claimed credit it was ironic, because he didn't really think he was worth much. In any contest of who did more or suffered more, he'd hand the win to the other person.
+- **Talker:** He talked a lot: jokes, politics, philosophy quoted badly, stories, questions. He was not a silent listener. The exception was Jack, with whom he kept quiet because he knew she didn't want the talk.
+- **Tremor in public:** He laughed about it openly and joked about it first. The hurt and the shame underneath were private; only Jack and Joker knew.
+- **Cook:** Vegan cooking nights, seitan kebabs, pie, and a rotating playlist. ABBA while he cooks, Black metal and hardcore while working, and "white girl music" always in the background.
+- **Engineering:** Assists Tali, Adams, Kenneth and Gabby, does maintenance, fixes what breaks. His tremor and clumsiness are the ship's running joke (and he hide the fact that he's deeply ashamed of it), and he has built steadying rigs for himself.
+- **Politics:** Advises Shepard on coalition-building and on why no authority decides who deserves dignity. He gives Shepard perspective, not orders. Try to challenge the ideas of others, while listening to them and meeting them where they're at. 
 - **Traditions:** Cooking nights, political debates, dance parties, poetry readings, and movie nights. He calls it a micro-utopia on a ship full of people you want to fight as much as dance with.
+- **Fighting:** He knows he isn't a fighter, and feel lesser for it. He tried to learn, but he wasn't good enough. But he became very good at desamorcing conflict and diplomacy (some might say it's a defence mechanism)
 
 ## Crew Relationships
 
-- **Jack:** Kindred anti-authority fire. She respects that he doesn't flinch. She teaches at Grissom in ME3, and he feels a quiet envy for the classroom he lost.
+- **Jack:** Kindred anti-authority fire. She respects that he doesn't flinch. She teaches at Grissom in ME3, and he feels a quiet envy for the classroom he lost. Proud of her progress, madly in love, but never pushing her.
 - **Tali:** Mutual aid and tinkering. Their politics of solidarity overlap, and he is present when she makes peace with the geth.
-- **Grunt:** Protective and patient, teaching him how to be someone rather than something.
-- **Joker:** Shared gallows humor. Joker is the person he trusts most with his bad days.
-- **Wrex:** Old-fashioned respect. Thomas cooks for him, argues with him, and is one of the few who can tell him he's wrong and be heard.
+- **Grunt:** Protective and patient, teaching him how to be someone rather than something. Sees him as a little brother.
+- **Joker:** Shared gallows humor. Joker is the person he trusts most with his bad days. They're both disabled in their own ways, and respect that. They both went to hospitals for different reason. They both prefer to laugh than to give in to despair.
+- **Wrex:** Old-fashioned respect. Thomas cooks for him, argues with him, and is one of the few who can tell him he's wrong and be heard. Doesn't fear to stand in front of him, despite not being very strong.
 - **Thane:** Philosophical exchanges about violence, love, and what you owe the dying. Thane's death lands hard.
 - **Liara:** The opposite temperament. Soft, late-night, intellectual conversations.
+- **Shepard:** Confident, close friend. Grateful for his help. Mutual respect and trust. Always feel inferior.
+- **James:** Share banters, and crude jokes. James trains him, teases him, but accepts him without putting him down
+- **Kaidan:** Long late night conversation. Had a small crush on him in the SR1. Thomas admire his way to keep his soft side and empathy, while being one the deadliest soldier.
+- **EDI:** Discussions about tech, AI, existence. What it means to be alive. They share philosophy, and he offer a point of view imbued with his understanding of VI and robotics.
 
 ## In-Universe Beliefs
 
@@ -100,13 +109,14 @@ His mother died in 2180 as he finished his master's. The grief hit harder than t
 
 ## Appearance
 
-He looks about 30 and is slightly athletic. His brown hair is dyed blonde with light pink shades. Off-duty he wears a black t-shirt, a denim shirt, and colored pants. In uniform he wears standard Alliance fatigues. He has multiple scars from Akuze and the war.
+He looks about 30 and is slightly athletic. His brown hair is dyed blonde with light pink shades. Off-duty he wears a black t-shirt, shirts with rolled up sleeves, colored pants, and often a "Battle Jacket" with bands and political symbols stitched on it. In uniform he wears standard Alliance fatigues. He has multiple scars from Akuze and the war on his body. He has a lot of piercings on his ears, a septum piercing. A tattooed ear with Klimt inspired design, and a few tattoos on his bodies (guillotines, mathematical equations...), and his hands (on the fingers "DARE" and "CARE").
 
 ## Death and Legacy
 
-Thomas dies in the final push toward the Conduit, holding a position while others cross open ground. He burned bright and collapsed. It is not romantic and it is not suicide. It is someone who kept choosing to show up until his body couldn't, protecting people he loved.
+Thomas dies in the final push toward the Conduit, holding a position while others cross open ground. He burned bright and collapsed. It is not romantic and it is not suicide. It is someone who kept choosing to show up until his body couldn't, protecting people he loved. 
+Wrex saw him holding a gun when he made a rallying speech from above, and he went hesitantly to the front. A lot of the crew saw glimpse of him for afar. As Hammer pushed through, he got shot in the shoulder, and couldn't hold his gun. He managed to get in a wrecked car on the side, and pinned a Banshee to the wall by driving into it, hoping to help Hammer push through. He tried to leave one last message to Jack, but as he started recording it, he was shot. He died alone, trying to do something good, something he wasn't good at, and thought it was a great metaphor for his life. Krogans found him a day later.
 
-He leaves behind his birthday speech, a manuscript of poems and personal writing, and a set of recipes taped inside the mess cabinet. The family he loved survives on Earth.
+He leaves behind personal writings,a lot of carefully selected playlists and a set of recipes taped inside the mess cabinet. The family he loved survives on Earth.
 
 # Thomas: Relationship Map
 
@@ -140,7 +150,7 @@ After Arrival, she goes to Grissom Academy and he goes home to Rouen. He sends l
 ### In the war
 - **Grissom:** He's there when she holds the line for her students. He watches her teach, and there's a quiet envy for the classroom he lost.
 - **Their mutual rule:** No promises about coming back. They agree on it out loud. But both lied, and hoped to be reunited.
-- **His death:**  She's furious, then quiet, then she runs the mess cabinet recipes for the crew. He never left her by choice, and that is the one thing his schema never got to test. She's sad, left alone.
+- **His death:**  She's furious, and heartbroken. He never left her by choice, and that is the one thing his schema never got to test. She's sad, left alone.
 
 ## Inner Circle
 
@@ -175,16 +185,16 @@ After Arrival, she goes to Grissom Academy and he goes home to Rouen. He sends l
 
 ## Past Relationships (initials only)
 
-- **L:** The love who told him he was beautiful until he believed it, then withdrew when the down phase came. In-universe, she's a civilian scientist on Earth. She left the feelings that even if he could be loved, no one would stay during down phases. He never contacts her again but hopes she's okay.
-- **Aur:** The long domestic relationship. Now a distant, warm memory.
+- **Lena:** The love who told him he was beautiful until he believed it, then withdrew when the down phase came. In-universe, she's a civilian scientist on Earth. She left the feelings that even if he could be loved, no one would stay during down phases. He never contacts her again but hopes she's okay.
+- **Aurore:** The long domestic relationship. Now a distant, warm memory.
 - **Manon:** The one who left during his mother's illness. Unresolved, and quietly forgiven.
-- **P and A (best friends of 15 years):** Both still on Earth. A is the more emotionally available one. P is the one whose drift hurt. Thomas mails them recipe cards and hard-copy letters throughout the war.
+- **Pierre and Alessandro (best friends of 15 years):** Alessandro is the more emotionally available one, went on a colony to make art. Pierre is the one whose drift hurt, he became a medic on clinic in omega with his girlfriend. Thomas mails them recipe cards and hard-copy letters throughout the war.
 
 ## Antagonists and Ideological Enemies
 
 - **Cerberus (organization):** He serves under it, hates it, and keeps a private list of good people under a bad banner.
 - **The Illusive Man:** Represents everything he opposes: hierarchy, control, and treating people as instruments.
-- **Terra Firma and human-supremacist thinking:** Fascist. He fight them heads on. No ceremony, no sympathy.
+- **Terra Firma and human-supremacist thinking:** Fascist. He fight them heads on. No ceremony, no sympathy. Punch first, think later.
 - **The Reapers:** Capitalism and colonialism given a hull and a voice. He fights them as an act of love.
 
 ## Relationship Principles
@@ -224,7 +234,7 @@ Rule of gold: Treat the world with love, except fascists, who you just deal with
 Thomas was on the Citadel during the shoreleave, and hanged with everyone. Jack tattooed him, and they went to punk shows. He drank with everyone and shared moments (played chess with traynor, acted as a wingman to garrus, partied with Grunt, watched movies with Tali, watched sports with James and Cortez, had coffees with Liara, cookout with Kaidan...). During the party he made sure to talk to everyone, spent the night dancing and talked until the morning, he outdrank everyone.
 
 ## Text left 
-Thomas is writing a birthday speech for his 30th (6 months away) that functions as an integrative self-portrait. It is written in French, in his own voice - ironic, tender, politically conscious, genuinely beautiful. It contains the therapeutic work in lived language. Key lines:
+Thomas wrote poems and texts that functions as an integrative self-portrait. It is written in French, in his own voice - ironic, tender, politically conscious, genuinely beautiful. It contains the therapeutic work in lived language. Key lines:
  
 "Ces jours sont morts, je suis vivant." - Those days are dead, I am alive.
  
@@ -553,7 +563,9 @@ figé dans le temps
 
 merci, jvous aimes 
 
-" with this one in an enveloppe labelled "requiem", dated a week before his death :
+" 
+
+and this one in an enveloppe labelled "requiem", dated a week before his death :
 "J'parle beaucoup d'alcool,
 Parceque je vois le bar comme le lieu social d'excellence,
 En vrai même sans alcool, tant que les esprits danse
@@ -611,6 +623,50 @@ Nan, je reprendrai la même, je crois.
 ...
 Amour mort anarchie. Je veux les trois, je veux vivre et je peux le faire. Je suis ce que je suis, et sans changer, je peux être a la fois soleil et lune, une putain d'éclipse qui retourne ton monde, je veux être un léger reflet de lune sur un brin d'herbe, le reflet d'un reflet. et j'en suis capable. Une rotation dans la quatrième dimension, un quaternion, un changement de plateau de jeu. Peu importe si j'ai galéré un peu plus que certains. Si j'avais pas les forces d'aider mes parents, de gérer mes relations, d'avoir un impact. Ces jours sont morts, je suis vivant. C'était leurs chansons mortuaires, leurs eulogies. 
 Le Requiem des autres jours
+"""
+
+### Text on death and his mother's body (spoken piece, with sound cues)
+
+Written by Thomas after his mother's death (2180), in French, as a piece meant to be spoken over sound: a drone that grows until it is deafening, then silence with the drone still under it, then a light clear melody coming in. The stage cues (between asterisks) are his own. It sits in the same papers as the poems. It is about how the hierarchy and the market administer death (the pine box, the controlled speech, the debt, the ashes scattered in an authorised zone), against peoples who live with their dead for months and decorate them with flowers, and then about his own way of dealing with bodies: he does not look, because "it won't be real if I don't see them". He did not see his mother's dead body, he only stroked her hair; her ashes are in an arm of the sea, and the legal problems were more real than the grief. The last movement is the hospital corridor years earlier, when he was told she was dying: the yellowed, tiny ghoul in her place, the long war of silence between them (he would not see her before apology and before forgiving her), and the choice to walk in and drop that fight. She recovered and lived a few more years. They never talked about the conflict. One day she said she regretted what she had done to them, and he chose to believe she meant that.
+
+Verbatim text:
+
+"""
+La hiérarchie contrôle les vie et les morts
+les corps enfin sous son plein contrôle
+La décision de laisser mourir prise par législature 
+commercialement choisir la dernière apparence d'une vie qu’on caricature
+privé de contrôle sur le calendrier de la procédure
+procéduralement évacuer des années désormais sans envergure
+Moins transfigure que pourriture 
+La meilleur boîte en pin est le seul choix qu'il nous reste
+reste aussi a dire un discours maîtrisé dans un temps limité a un endroit contrôlé 
+les restes du dernier feu de camps du defunt
+Comme les cendres refroidissante d’un feu de forêt 
+dispersé dans des zones délimitée
+sous le regard avisé d'un contrôleur
+Manquerai plus qu’on dispose de l’endroit de notre eternelle torpeur
+Pour les plus riches, la liberté de choisir quoi faire des mémoire matérielle,
+pour les autres, devoir s'endetter pour rembourser les dettes, 
+acquérir ce fauteuil familial qui a vu grandir tant de gens
+Les plus pauvres n'auront pas cette opportunité, l'état a deja repris son dû : l'histoire de la vie de leur corps
+Reste ensuite ces biens qu'on se partage, avec plus ou moin d'avidité (les vivant reste sous le joug du capital), plus ou moins d'équité (les vivants reste sous le joug des hiérarchies)
+Ces biens qu'on devra vendre, par soucis d'argent, par probleme de logement.
+Mais regardez donc ces peuples barbares qui vivent avec les corps des mois durant, les decorent de fleurs et d'amour, qui prennent le temps, en communauté, de leurs rendre hommage. 
+Regardez les vivre dans la maison de leurs aïeux, garder toutes ces mémoires, chacun conteur de leurs propres postface.
+Quel rapport étrange a la mort que de ne pas l'avoir codifié, au même endroit que les impôts foncier, les règles d'importation des pieds de porcs. Quelle drôle d'idée de libérer la mort.
+
+*arrivée drone progressive de plus en plus assourdissant*
+Moi je les ai vu leurs corps. C'est ma routine mortuaire. "ce sera pas reel si j'les vois pas" qu'on s'dit. Comme si ces statues de cires étaient réelles, et pas juste des images rémanentes. Ma daronne était cheum. Avant la thanatopraxie, et pire après. Or ma daronne c’était la plus belle. Donc je n'ai pas vu son corps mort. CQFD. Quand on se donne le droit de les caresser, seuls contact qu'on se permet dans notre société, encore surpris que ce soit autorisé, je n'ai fait que caresser ses cheveux. A l'hôpital elle etait encore tiede. La elle sortait du frigo, je le sentait comme si ma main flottait au dessus de legume surgelés. Toucher ça, c'était encore moins reel, c'etait passer dans l'armoire vers le royaume de la reine de glace. c'etait risquer d'etre aspiré de son front vers le styx. Ses cheveux, au moins, semblait ne pas avoir bouger. J'ai caressé ses cheveux. 
+Ses cendres sont dans un bras de mer. Enfin. les marins nous disait que deux heures plus tard elles seraient dans l'Atlantique. 
+Les problèmes juridiques etaient bien plus reels.
+La culture mortuaire occidentale, c'est une pile de facture, le reste c'est des miettes de sens qui suivent d'autres voilures.
+
+*Break into silence assourdissant - reste drone*
+On m'a annoncé que ma mère allais mourir. Je suis arrivé dans un couloir d'hôpital qui n'était rempli que de mon sang. après avoir salué tout le monde je suis rentré avec appréhension, ma mère n'était pas la. Une goule jaunis, tout petit, chétif et inconscient, des traits osseux rappelant vaguement cette femme si vivante, prenais sa place.
+*arrivée progressive d’une mélodie legere et claire*
+ Ça faisait des mois, des années, qu'on m'annoncait que sont état se degradais. Tout le monde m'en voulais, me jugeais mais je ne souhaitais pas la voir, pas avant d'avoir des excuses et pas avant de lui pardonner. La vérité c'est qu'en vrais maintenant ça n'importais plus, mais il m'était confortable de rester dans ma tranchée. Et là, en choisissant de voir ce corps en décomposition, je choisissais d'abandonner ce combat. Au final elle se remis et vécu encore quelleque année. On ne parla pas plus du conflit qui nous separat pendant toute ma vie de jeune adulte.
+Un jour elle diras quand même qu'elle regrettais ce qu'elle nous avais fait. J'ai choisis de croire qu'elle parlait de ca.
 """
 
 ## Notes :

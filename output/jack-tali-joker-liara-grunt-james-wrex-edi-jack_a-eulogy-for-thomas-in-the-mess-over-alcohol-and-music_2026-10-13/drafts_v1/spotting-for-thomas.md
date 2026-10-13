@@ -1,0 +1,17 @@
+Who cooks. Okay, grandote, straight answer: not me. I do eggs, and the eggs are fine, and that is the whole menu. Somebody figure it out, because those recipes taped inside the cabinet are stained and he'd hate it if they just sat there.
+
+You asked what it was like in the kitchen. I was in it. I was the guy on the couch with his boots on the table, making a joke so bad he had to put the knife down. He took the filthy ones better than anybody. Never flinched, always had a worse one ready. You can say anything to a man like that, and he'll say it back, and neither of you has to be careful. Most people you have to be careful with. Not him.
+
+I met him right when the sky came down. Before that I'd spent months guarding a brig with one prisoner in it, and before that Anderson had hauled me out of a bar on Omega, where I'd ripped a screen off the wall because I couldn't stand listening to them call Shepard a murderer. I paid the bartender, for the record. The batarians I'd been playing cards with called me a Shepard lover and came at me anyway, and one of them went through a window with me. So when Thomas climbs aboard in the middle of the evacuation, shaking a little, looking at me like I'm the interesting thing in the room, I figured: okay, here's another one who can't hold still. We got along immediately.
+
+He wanted to train. You all know the tremor, he hated it when you talked about it, so I never did. I put him in the shuttle bay. Pull-ups, the bench, a bar I'd put money on being heavier than his whole apartment back in Rouen. His hands shook through every set and he never once quit one. Not once. I'd say "that's enough" and he'd say "one more" like it was a bit, and it was never a bit. And I'll tell you my honest estimate, because he asked me for it and I gave it to him: he wasn't built for the line. Not close. He knew it. He wanted me to say it so he could stop pretending, and I said it, and he took it better than I would have.
+
+Then he asked me to show him the other thing. How to stand. How to talk down a guy with a rifle. I couldn't teach him that, he already had it. He was better at it than me. I'm the one who goes through the window.
+
+Sports nights on the Citadel, Cortez and me, the Sorcerers against the Maestros, and I'll defend the Maestros until I die, don't start. Thomas sat between us. Cortez was in a bad place, with the husband, and I'm a guy who jokes at that kind of silence. Thomas didn't. He asked one question, and it was about the man, not the loss, and Cortez talked for an hour. I'd been watching Cortez's back for years, and what I learned was to look at who's sitting in front of you. Everyone's got a bad day. Most of us only watch for the next shot.
+
+Fehl Prime. Scars and the rest of you have heard the short version. I made a call. I took the intel and the colony went, and then it turned out the Commander didn't even need it. Thomas never made me say that out loud. He'd done his own Akuze, he knew what a count in your head sounds like at four in the morning, and he just sat next to me while I did pull-ups. That's what I mean. Guys with the same wound don't compare scars. They hand you a towel.
+
+London. I was with the Hammer, on the ground. The push got stuck on a Banshee, nothing was getting past it. Then a wrecked vehicle comes out of the smoke on the left with somebody in it, drives straight into that thing, and pins it to a wall. Marines poured through the hole. I didn't know, I swear to you, I didn't know until after.
+
+Wrex. You were up on the ramp that morning. You saw him first.
