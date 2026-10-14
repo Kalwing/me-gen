@@ -1,12 +1,12 @@
-I saw him first, Vega. You said it right, so sit down before you say it again.
+I saw him first, Alenko. Vega said it right, so tell him to sit down before he says it again.
 
-And you told him straight he wasn't built for the line. Good. Most people never told that boy anything straight. They liked him too much, or they worried the hands would get worse. Here's what he did that the rest of you didn't. He told me I was wrong, and I heard it.
+And you, Vega, told him straight he wasn't built for the line. Good. Most people never told that boy anything straight. They liked him too much. Here's what he did that the rest of you didn't. He told me I was wrong, and I heard it.
 
 Pass the ryncol. Not that one, the bottle he hid behind the flour. He thought nobody knew. I found it the second week, put it back, and drank from it every time he turned around. He knew. After a while there was a cup sitting next to it.
 
 I called him the soft one, the first day. He called me sir, to annoy me, and that's how it started. The first plate he put in front of me was the size of a salarian's breakfast. I told him I'd swallowed bigger meals by accident, picking my teeth. He said it was a starter and walked off, and kept coming back with more until the table was covered and I'd stopped counting. I called it salarian food. The old salarian heard me from the med-bay door, took a fork off my tray without asking, and said it was better than anything his people made, which from him was close to a declaration of war. That was the cook. The cook came second. First he fixed things. He got into my omni-tool one night, I never asked how, and after that the translator stopped turning my brother's swearing into something polite. Best repair anybody did on that ship.
 
-Ha. And he talked. Politics, some dead human who wanted no chiefs at all, why a clan was just a government with worse table manners. Hands going the whole time. When his cup rattled on the table he'd hold it up and laugh before anyone else could. I've known warriors who'd kill you for noticing a limp. He made the shake the first joke of the night so nobody else had to carry it. Some nights I could tell he was running on nothing. He still had the whole mess laughing by the second pot.
+Ha. And he talked. Politics, some dead human who wanted no chiefs at all, why a clan was just a government with worse table manners. Hands going the whole time. Some nights I could tell he was running on nothing. He still had the whole mess laughing by the second pot.
 
 He was afraid of me. You can't hide that from a krogan. He stood in front of me anyway, no armour, no biotics, and told me I was wrong in the same voice he used to ask if I wanted more.
 
@@ -22,7 +22,9 @@ London. I was on the ramp in front of Hammer, saying what I said. I looked down 
 
 I didn't enjoy that. I'm saying it plain, so nobody makes it nicer later.
 
-One of mine came to me the day after with a report. Human in a wrecked car, a dead Banshee under the bumper, letters inked on his fingers. I knew which letters. I told them where to carry him, and it wasn't with the others. I've had feuds last longer than his whole life.
+One of mine came to me the day after with a report. Human in a wrecked car, a dead Banshee under the bumper, letters inked on his fingers. I knew which letters. I told them to carry him like one of ours, and not to the pile with the others. He's on Earth now, on his way to his family, the French ones. I told Jack where. She didn't ask. I told her anyway. I've had feuds last longer than his whole life.
+
+The pyjak followed a krogan army into a war, and the krogan found him. If he'd lived, he'd have been the one teaching all the new krogan what you do in peacetime, because none of us old ones know. Damn it. I'll miss a pyjak.
 
 I've buried every krogan who swore he'd bury me. Drink.
 

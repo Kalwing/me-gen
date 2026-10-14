@@ -135,3 +135,96 @@ After the fixes, the repetition scan was rerun: 15 flags remain, all judged not 
 - **Recitation runs** (the six passages listed under Recitation). These are approved prose, and the dispatch rules out style rewrites. Swapping them for pack material the narrator owns would mean rewriting approved passages, including the user's hand-edited Shepard paragraphs.
 - **The Shepard-and-Thomas "it went both ways" beat** shows up in five turns. Tali: "it went the other way too". Joker: "He never got that he'd been pulling the Commander out of one, back". Liara: "It ran the other way too". James's Loco paragraph. Jack: "don't let anybody tell you it ran one way". Each comes from a different angle, and four are the user's own hand edits, so I left the structure and only broke the repeated wording ("same sand"). Worth a look by the user if the echo reads as too much when spoken.
 - **High short-fragment share in Jack's two turns (30-32%)**. Not a defect against her bible, which calls for clipped bursts as the default. Recorded only.
+
+## Pass 2
+
+Scoped re-audit after the new Kaidan turn (`the-starboard-lounge`), the rewrite of Jack's close (`dont-listen-to-the-voices`), the changes to `thomas.notes.md` (bipolar type 2, body on its way to Rouen, Jack's one "I love you", Samara) and the user's hand edits in seven sections. I audited both new or rewritten sections in full. For the rest, I checked only the edited passages and episode-wide coherence. No `*.performance.md` files exist. Partway through, the coordinator removed the hands and tremor material from the Kaidan turn at the user's request. I re-read the file before editing it and did not put any of that back.
+
+Real issues found: **6**. Fixed: **5**. Flagged and left for the user: **3** (the tremor items below are flags, not counted as defects).
+
+### Grounding
+- `the-starboard-lounge`: "along with the woman from the colony who kept writing the Commander about her son". Nothing in the pack supports a Horizon colonist writing about her son. The pack only has Lilith, who was paralysed and taken. This is invented. **Real.**
+- Everything else in the Kaidan turn traces to the pack. EDI ruling him out of mingling as "occasionally judgmental" and the curry argument come from `kaidan-alenko_012`. So do the shard wine at Apollo's when Canadian lager couldn't be found, the porch over English Bay, and the burned garlic and "food of my people". The L2s, Jump Zero past Pluto, Conatix, the turian mercenaries, Rahna reaching for the water by hand and Vyrnnus breaking her arm, age 17 (2168), sealed records, L3s and the father's "even right choices have consequences" are all sourced. The same goes for the Horizon defence towers, the seeker paralysis and the Illusive Man leaking the tip, and for Eva, the body in the hold and EDI. TM88 at Huerta, Udina's Spectre offer and Beelo Gurji with the 30 civilians (`spectres_007`) check out. So do the Shadow Broker's Spectre (Vasir), the landing pad and Udina drawing on the asari Councilor before Shepard shoots him (canon `citadel_coup`).
+- `dont-listen-to-the-voices`: everything checks against the pack and notes. That covers Murtock, Kasumi's jam with Grunt's Hemingway (override), Grissom (Orion Hall, the Atlas, Prangley, Sanders and the shuttles, Rodriguez and the glass), David Archer at Grissom (canon `overlord`: sent to Grissom), and the tattoo promise. It also covers the mother/fourteen/ambulance, the Omega year, Shepard's gang/drug background (override), Garrus's "wrong in public" line (notes) and the death text (hair only, authorised zone, paperwork realer than grief).
+
+### Canon
+- `the-starboard-lounge`: "Thane died that day keeping the salarian Councilor alive". According to the pack, Thane was fatally stabbed during the coup and died afterwards at Huerta. **Real** (minor).
+- Everything else matches the dispatch canon. Udina is killed. Kaidan stands down. Kaidan survived Virmire ("after Ash") and rejoined. Kaidan is vegetarian: the "beef, bacon and beer" meal is re-cooked as poutine with mushroom gravy, so the override wins over the scene record as the pack's `conflicts` require. Shepard's fate is unknown, with "nobody knows shit" and "Anderson says he never saw him" (override). Nobody mentions a choice at the end. The genophage is cured and Wrex leads.
+
+### Foreknowledge
+- None found.
+
+### Vantage
+- `the-starboard-lounge`: the apartment meal scene is `private_to` Shepard and Kaidan. The turn splits it correctly. The cookout with Thomas comes from his notes ("cookout with Kaidan"), and the garlic dinner is kept "between me and the Commander". That is coy, but it claims no romance, so it stays. London is told as not seen ("down the other end of the line... learned about the car the next day"). Correct.
+- `late-night-conversations` (Samara paragraph, hand edit): Liara was not aboard the SR-2, but she tells this as Samara's report ("Samara told me afterwards"). That works as gossip. Kept.
+- None found needing a fix.
+
+### Subject
+- No "no body" contradiction is left anywhere. Jack's opening ("the body's not here... Earth, in a box, on its way to his family in Rouen"), Wrex ("carry him like one of ours... on Earth now, on his way to his family"), Grunt ("you carry, so they carried him"; the pyre is a hypothetical) and Jack's close ("he's got a body... On its way to Rouen"; "going home to Rouen in a box") all agree. Joker's "no body for two years" refers to Shepard after Alchera and is correct.
+- Mania: only `a-four-leaf-clover` names the up phase ("hypomanic, type two... never once tipped into full mania"), which matches the notes. Jack's close says "His head was a mess", as its promise asks. No mania claimed anywhere.
+- Jack's one "I love you" after the Collector base and his never asking again match the notes. The Samara paragraph matches the notes (Code, morality, a failed attempt at meditation). Kaidan's crush and admiration lines match the notes.
+
+### Agency
+- None found.
+
+### Recitation
+- `the-starboard-lounge`: the Jump Zero run ("Brain Camp. Conatix ran it on Alliance money...") and the Horizon/Mars runs are plot in order. Each is framed as what Kaidan told Thomas at two in the morning, or what it cost them, and each turns back to Thomas. Recorded only. The dispatch forbids style rewrites.
+
+### Mechanics
+- `the-starboard-lounge`: Kaidan's stand-down is told as lived fact, with no trust total, reputation check or persuade option. None found.
+
+### Form
+- Both audited turns are eulogies: lament, bond, celebration. Kaidan closes on "I miss him. I'm going to miss him on porches". Jack's close plays the recording, breaks down, and ends on the hand on her back, the toast and the song. None found.
+
+### Rhythm
+- Not re-measured beyond spot checks. Jack's close keeps the clipped default her bible asks for. Kaidan's sentences are measured and complete, per his bible. None found.
+
+### Memory
+- `the-starboard-lounge`: Thomas's words are reported or hedged ("near enough", "or something close to it", "Something like that"). The only direct quote is Kaidan's own description, "like the light's too loud". None found.
+- `dont-listen-to-the-voices`: only the permitted French fragments are quoted, and the "I'm not doing his words" framing of the last text holds. None found.
+
+### Coverage
+- `the-starboard-lounge` (Kaidan): 36 of 91 pack items used (after merge). Promises: 8 of 9 kept in full. The "Kaidan asked about the hands the same way" half of the first-ship promise was removed at the user's request (coordinator edit). Nothing relevant to his `digressions` is left unused that the turn needed.
+- `dont-listen-to-the-voices` (Jack): 22 of 89 pack items used (24 ids listed). Promises: 13 of 14 kept. The "do not repeat" promise is only partly kept (see Left unfixed).
+
+### Staging
+- Handoffs chain correctly. James ends "Major. You had him before any of us, back on the first ship. Your turn." Kaidan opens "Thank you, Lieutenant. James." and closes "it was Wrex who saw him first, from the ramp... Wrex." Wrex opens "I saw him first, Alenko. Vega said it right" and later "I was on the ramp in front of Hammer". Jack's toast includes "Alenko, put the beer down". Wrex still hands to EDI. Consistent.
+- Kaidan's "the look Liara described, the tender one" points back to Liara's "he looked at me with such tenderness". The callback holds.
+- `the-starboard-lounge` repeats Liara's opening device: Thomas comes in late on the first ship to fix something, then "There was always a panel", then he talks. It is the same beat with the same sentence. **Real** (see Repetition).
+
+### Repetition
+I reran the scan, which flagged 25 shingles before fixes and 19 after. New real ones:
+- "there was always a panel": Liara (first), then Kaidan. **Real.** Fixed in Kaidan.
+- "heard way too fucking much about me": Jack's opening body line (hand edit, first), then Jack's close repeats it word for word. **Real.** Fixed in the close.
+- "go soft in the face": Jack's opening, then Jack's close. A verbal tic in a new context. **Real** (minor). Fixed in the close.
+- Not real: "hey like I'd popped out for smokes" (the close deliberately cites the opening: "You heard the bit earlier... Here's what I left out"), "took it off him and" (ordinary words, different referents), "in front of all of you", and the pass-1 non-flags, which are unchanged.
+- Not caught by the 5-word scan: Grunt's "His hands shook, and he laughed about it before anyone else could" and Wrex's "he'd hold it up and laugh before anyone else could". Same beat, near-identical wording. **Real**, but it sits inside tremor lines that the coordinator said to flag, not rewrite. See Left unfixed.
+
+### Voices
+- Kaidan stays in his bible: "Commander" and formal surnames ("Lieutenant", "Vega", "Alenko"), measured sentences, dry self-deprecation, "damn"-level swearing, Canadian food and beer. Migraine and backlash come up three times (the light, Huerta, London), slightly over the bible's "once or twice". The promises call for two of them. Left as is. No phrases borrowed from other voices. Kaidan defers the ratings game to Joker ("Joker would appeal it"), as his promise asks.
+
+### Length
+- `the-starboard-lounge`: 1788 / 1880 (-5%). `dont-listen-to-the-voices`: 3692 / 3700. Both are within range.
+
+### Tremor overuse (flag only, per coordinator: no rewrite)
+Gratuitous hands/tremor mentions in turns where the tremor is not a promise:
+- `tell-him-hes-wrong` (Wrex): "they worried the hands would get worse"; "Hands going the whole time. When his cup rattled on the table he'd hold it up and laugh before anyone else could."; "He made the shake the first joke of the night so nobody else had to carry it." That is three mentions in one turn.
+- `guarding-the-kitchen` (Grunt): "His hands shook, and he laughed about it before anyone else could, every time." This also echoes Wrex's wording (see Repetition).
+- `late-night-conversations` and `the-starboard-lounge`: none now.
+- In Jack's close the hand material is the "purring" hand on her back and "Lay all of it on me, the hands". These are load-bearing and inside a promise turn, so they are not flagged.
+
+## Fixes applied (Pass 2)
+
+1. `the-starboard-lounge`: "There was always a panel." became "Some nights I suspected the repair was the excuse." This keeps the beat and breaks the repeat of Liara's line.
+2. `the-starboard-lounge`: the invented colonist-writing-about-her-son clause was cut and replaced with "and he was angrier about it than I was". The new clause is non-load-bearing framing.
+3. `the-starboard-lounge`: "Thane died that day keeping the salarian Councilor alive" became "Thane took the blade that day keeping the salarian Councilor alive and never left Huerta". This matches the pack: fatally stabbed, died at Huerta.
+4. `dont-listen-to-the-voices`: "who have apparently heard way too fucking much about me" became "who apparently know all about me already". This is a repetition of the opening.
+5. `dont-listen-to-the-voices`: "they go soft in the face and" became "they get that wet look and". This is a repetition of the opening.
+
+`sources.json`: merged, not overwritten. `summary:priority-the-citadel-ii` (Thane fatally stabbed) was added to `the-starboard-lounge`. All 10 section entries are kept, and the original 1-space indent is preserved. I reran the repetition scan after the fixes, and none of the three fixed shingles is flagged now.
+
+## Left unfixed (Pass 2)
+
+- **Grunt/Wrex "laugh before anyone else could"** echo, and the tremor overuse listed above. The coordinator said to flag these, not rewrite them. If the user trims the tremor lines, the echo goes with them. Otherwise Wrex's (later) wording should change.
+- **`dont-listen-to-the-voices` vs its own "do not repeat" promise.** The break reuses "You were perfect... Lay it on me... listen to me telling you" and "come back", which the opening turn already used. The promise says not to repeat them. But another promise asks what she says back to that line, and the section's title, "Listen To Me Telling You", makes the reprise deliberate. Here she finishes the line rather than quoting it. I left it because this is a recent rewrite and the reprise is clearly intended. It is the user's call.
+- **Kaidan's three migraine mentions**, against his bible's once-or-twice limit. Two of them are asked for by promises. Minor. Left.

@@ -32,4 +32,6 @@ Because he talked to everybody at that party. Every person, every corner, till t
 
 Hhh. Yeah, okay. It's gone. He'd have remembered it. He'd have told it better than me and given me the credit.
 
+I lost my best friend. The one guy who was in on every private joke I've got. And now nobody's ever going to get them. Ever. That's his. That's his best one, and he's not even here to watch it land.
+
 Liara, you're up. I only had him at four in the morning in a cockpit. You had all the other nights.

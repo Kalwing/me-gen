@@ -16,4 +16,4 @@ Fehl Prime. Most of you got it in the bay or over a drink. Toni went down, comma
 
 London. I was with Hammer, on the ground, before Harbinger came down on the beam and most of us just stopped. The push got stuck on a Banshee at a corner. Then a wrecked car rolled out of the smoke on the left, somebody slumped at the wheel, drove straight into it and pinned it to the wall. Marines poured through that hole, me with them. I yelled thanks at whoever was in there. I didn't know till after. The guy I told wasn't built for the line held one open for a whole company, one-armed, they said.
 
-Wrex. You were up on that ramp making your speech. You saw him before any of us did.
+Major. You had him before any of us, back on the first ship. Your turn.

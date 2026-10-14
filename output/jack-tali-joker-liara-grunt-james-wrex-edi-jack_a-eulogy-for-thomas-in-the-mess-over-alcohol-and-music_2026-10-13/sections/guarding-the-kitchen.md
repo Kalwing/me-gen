@@ -8,12 +8,14 @@ He talked a lot. He wanted the Rite told three times. Varren, klixen, then the m
 
 He was vegan. I told him a meal with no body in it is a rumour of a meal. Still true. But he made things only for me, thick and salted and heavy, and never said they were for me. I ate all of it. Nobody tell the clan.
 
-Strong. Here is my rating. He was not a fighter. His hands shook, and he laughed about it before anyone else could, every time. He could not have killed a varren pup. And he stood in front of Wrex, told him he was wrong, and did not move. I thought, this one dies today. He didn't. Wrex listened. That is the strongest thing I have seen a soft thing do. When I told him so, he said I was the strong one and started talking about dessert. He always gave the win away.
+Strong. Here is my rating. He was not a fighter. He could not have killed a varren pup. And he stood in front of Wrex, told him he was wrong, and did not move. I thought, this one dies today. He didn't. Wrex listened. That is the strongest thing I have seen a soft thing do. When I told him so, he said I was the strong one and started talking about dessert. He always gave the win away.
 
 Utukku. Reapers breeding rachni in the tunnels, our scouts already dead down there. The battlemaster let the queen live, so Aralakh held, and I walked out alone and broken and told the clan we got it done. Thomas came to Huerta with food I wasn't allowed. Bad week for him too, I could smell it. He came anyway.
 
 Then the Strip, all those nights. I poured him ryncol. It hits aliens like ground glass, and one bottle set a C-Sec car on fire. He made a face, asked for another, and was still standing when Jack had to drag me home. The tank put strength in me, and hunger, and anger. He put in the rest: dancing badly, laughing loud, being bad at something with people around.
 
 Krogan found him at the Conduit a day later. Suicides, we leave for the scavengers. He wasn't that. He didn't run. A body that didn't run, you carry, so they carried him. If I were shaman, he'd get the pyre.
+
+He showed me a way. He fought with me and for me. He drank with me. Brother. That is the word. I don't give it out.
 
 So. Who cooks? Vega, you eat the most. You decide.

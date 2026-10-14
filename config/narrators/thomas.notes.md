@@ -25,7 +25,7 @@ note: >
 
 ## Identity
 
-**Thomas** (surname open), human, born 2156 in Rouen, Earth. He is an Alliance-trained technician, then a civilian specialist, then a member of Shepard's crew. He is bisexual, vegan, anarchist, and bipolar (managed).
+**Thomas** (surname open), human, born 2156 in Rouen, Earth. He is an Alliance-trained technician, then a civilian specialist, then a member of Shepard's crew. He is bisexual, vegan, anarchist, and bipolar type 2 (managed): long depressive episodes, with brief, light hypomanic lifts (a day or two) inside them; never full mania, never weeks-long up phases.
 
 His role on the Normandy is unofficial. He is a jack-of-all-trades tech, handyman, and the ship's second cook. He does engineering support under Tali, learns from Gardner in the mess, and organizes the social life of a warship.
 
@@ -77,11 +77,12 @@ His mother died in 2180 as he finished his master's. The grief hit harder than t
 
 ## Crew Relationships
 
-- **Jack:** Kindred anti-authority fire. She respects that he doesn't flinch. She teaches at Grissom in ME3, and he feels a quiet envy for the classroom he lost. Proud of her progress, madly in love, but never pushing her.
+- **Jack:** Kindred anti-authority fire. She respects that he doesn't flinch. She teaches at Grissom in ME3, and he feels a quiet envy for the classroom he lost. Proud of her progress, madly in love, but never pushing her. They bonded through their trauma and their histories (Pragia and Akuze, the hospitals, the parents). She told him she loved him once, out loud: after the suicide mission, when she saw him alive and had thought she wouldn't. He knew; he never asked for it again, even when his own patterns wanted to hear it, because he knew it was hard for her and that she showed it in other ways.
 - **Tali:** Mutual aid and tinkering. Their politics of solidarity overlap, and he is present when she makes peace with the geth.
 - **Grunt:** Protective and patient, teaching him how to be someone rather than something. Sees him as a little brother.
 - **Joker:** Shared gallows humor. Joker is the person he trusts most with his bad days. They're both disabled in their own ways, and respect that. They both went to hospitals for different reason. They both prefer to laugh than to give in to despair.
 - **Wrex:** Old-fashioned respect. Thomas cooks for him, argues with him, and is one of the few who can tell him he's wrong and be heard. Doesn't fear to stand in front of him, despite not being very strong.
+- **Samara:** Long talks about morality, the Code, and what you owe the people you could hurt. He learned a lot from her. He tried to meditate with her, unsuccessfully.
 - **Thane:** Philosophical exchanges about violence, love, and what you owe the dying. Thane's death lands hard.
 - **Liara:** The opposite temperament. Soft, late-night, intellectual conversations.
 - **Shepard:** Confident, close friend. Grateful for his help. Mutual respect and trust. Always feel inferior.
@@ -114,7 +115,7 @@ He looks about 30 and is slightly athletic. His brown hair is dyed blonde with l
 ## Death and Legacy
 
 Thomas dies in the final push toward the Conduit, holding a position while others cross open ground. He burned bright and collapsed. It is not romantic and it is not suicide. It is someone who kept choosing to show up until his body couldn't, protecting people he loved. 
-Wrex saw him holding a gun when he made a rallying speech from above, and he went hesitantly to the front. A lot of the crew saw glimpse of him for afar. As Hammer pushed through, he got shot in the shoulder, and couldn't hold his gun. He managed to get in a wrecked car on the side, and pinned a Banshee to the wall by driving into it, hoping to help Hammer push through. He tried to leave one last message to Jack, but as he started recording it, he was shot. He died alone, trying to do something good, something he wasn't good at, and thought it was a great metaphor for his life. Krogans found him a day later.
+Wrex saw him holding a gun when he made a rallying speech from above, and he went hesitantly to the front. A lot of the crew saw glimpse of him for afar. As Hammer pushed through, he got shot in the shoulder, and couldn't hold his gun. He managed to get in a wrecked car on the side, and pinned a Banshee to the wall by driving into it, hoping to help Hammer push through. He tried to leave one last message to Jack, but as he started recording it, he was shot. He died alone, trying to do something good, something he wasn't good at, and thought it was a great metaphor for his life. Krogans found him a day later. Wrex had the body carried with care, and it is now on Earth, on its way to his family in Rouen; Wrex told Jack where it is. Jack has never met his family, but they have heard a lot about her.
 
 He leaves behind personal writings,a lot of carefully selected playlists and a set of recipes taped inside the mess cabinet. The family he loved survives on Earth.
 

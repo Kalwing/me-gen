@@ -22,6 +22,10 @@ I was told today, Steve told me, by the shuttle, that after Thessia someone in t
 
 He told me about his mother. Not all of it, and I will not give you all of it. She was the sun of his house, and then grief and drink took her, and at fourteen he did something brave and correct and was told afterwards he was no longer her child. I said almost nothing. I told him about Benezia: brilliant, a teacher of philosophy, who never told me who my other parent was, and then something else on Noveria, already past reaching, telling me as she died that I had made her proud. We laid them side by side to see where they matched. Neither of us said so. I kept his. It is not in the archive, it is not cross-referenced, it sits where I would ordinarily keep a plan.
 
+And Samara. People forget that. On the second ship he spent hours with her on the observation deck, talking about the Code, about morality, about what you owe the people you could hurt. He learned more from her than from me, I think, because she did not argue back and he had to sit in it. He also tried to meditate with her. Many times. Samara told me afterwards, with what in a justicar passes for a smile, that it had not been a success, and that he couldn't calm his mind without some music. He had three different playlists for relaxing, each with a specific different mood, and hundreds of tracks.
+
 Tali tells me there is a page among his papers with my name on it. I have not read it. I am the person who opens what other people sealed, and I have not read it, and I do not know yet whether that is grief or the last argument I am still losing to him.
+
+The galaxy has lost a good mind. I can say that professionally; I have read a great many. Mostly it has lost a heart, and I have no professional opinion about that. I only have the empty end of a sofa.
 
 Grunt. You have a question. Please, ask it.

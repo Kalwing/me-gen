@@ -6,6 +6,7 @@ narrators:
 - liara
 - grunt
 - james
+- kaidan
 - wrex
 - edi
 - jack
@@ -15,7 +16,7 @@ themes:
 - in the mess
 - over alcohol and music
 brief: 'Eulogy for Thomas held in the Normandy mess, with alcohol and music playing.
-  Nine turns in this order: Jack (long), Tali, Joker, Liara, Grunt, James, Wrex, EDI,
+  Ten turns in this order: Jack (long), Tali, Joker, Liara, Grunt, James, Kaidan, Wrex, EDI,
   then Jack again (long) to close, about Thomas. Total runtime 45 minutes to 1 hour
   spoken. Each speaker addresses the room and picks up what the previous one said.'
 form: eulogy
@@ -30,15 +31,15 @@ form_note: >-
   seven run 450-1,000 (Grunt, EDI, James short and blunt; Liara, Joker, Tali fullest). Nine sections is inside the form's 6-14 range. Each turn opens by picking
   up the one before: Jack's grief to Tali's engine room, Tali's hospital-and-hands to Joker's
   bad days, Joker's jokes to Liara's late nights, Liara's mother story to Grunt's blunt
-  question, Grunt's kitchen guarding to James's training and banter, James's Hammer glimpse to
-  Wrex, Wrex's speech to EDI's data, EDI's four-leaf-clover tally back to Jack. Alcohol and
+  question, Grunt's kitchen guarding to James's training and banter, James's training to Kaidan's
+  first-ship nights, Kaidan back to Wrex's ramp, Wrex's speech to EDI's data, EDI's four-leaf-clover tally back to Jack. Alcohol and
   music run through the turns as the room's furniture (Thomas's disco, pop, rock, rap, metal, folk, gabber, electro, and black-metal playlists,
   ryncol, the taped-up recipes), not as a section of their own. Canon branch: genophage cured,
   Wrex leads the krogan, geth-quarian peace (Legion dead), Grunt alive, Thane dead; crew do not
   know what Shepard chose, and his death is unconfirmed. Thomas's unfinished poems for Jack are
   private to Jack; the French lines are his to be quoted sparingly and, per memory rules, never
   verbatim-perfect by anyone but Jack.
-target_words: 15710
+target_words: 17690
 sections:
   - id: dont-make-it-weird
     narrator: jack
@@ -165,6 +166,29 @@ sections:
       - "James on his own record (Fehl Prime) and why a man who lost people understood Thomas's survivor's guilt without being told. Thomas talked a lot with him, crude and funny; he never claimed to be good at anything in the bay, and the one time he won something he called it a fluke. James is sad in his own way: he trained him, and the training did not save him"
       - "This is a eulogy: lament the loss, tell how you bonded with him and what you loved about him, and celebrate him; sad in your own way, never a lore recital"
     target_words: 910
+  - id: the-starboard-lounge
+    narrator: kaidan
+    title: The Starboard Lounge
+    events: [priority-mars, horizon-collector-attack, baat-vyrnnus-death]
+    scenes: [normandy-kaidan-starboard-observation, citadel-apartment-kaidan-canadian-meal, citadel-coup-kaidan-confrontation]
+    retrieval:
+      - "Kaidan Alenko L2 implant migraines"
+      - "Kaidan BAaT Vyrnnus Rahna"
+      - "Kaidan Horizon Cerberus refuses Shepard"
+      - "Kaidan Mars Eva Huerta Memorial hospital"
+      - "Kaidan Spectre Udina coup"
+      - "Kaidan Vancouver Canada beer food"
+    promises:
+      - "Kaidan takes James's 'Major, your turn' with a good beer in hand, admits he has never been good at talking to a whole room, and does it anyway, formally, by rank and surname where he can't help it"
+      - "The first ship: long late-night talks, the two of them, about the stuff soldiers don't say in the mess. Thomas asked about the migraines and the implant (BAaT, Vyrnnus) without pity. Do NOT bring up the tremor/hands: other turns cover it. Thomas had a small crush on him back then; Kaidan knew, was a gentleman about it, and is touched by it now. What Thomas admired in him (staying soft and decent while being one of the deadliest soldiers aboard) and what Kaidan admired back"
+      - "Food and beer: Kaidan is vegetarian, Thomas vegan, the one other person aboard who ate the same plate without a joke about it. The cookout in the Commander's Citadel apartment (the Canadian meal) and Thomas's version of whatever Kaidan was cooking; the beer argument"
+      - "Politics, gently: the career Alliance officer and Spectre vs the anarchist who teased him that a Spectre is the most unaccountable power in the galaxy; Kaidan's answer, and the fact that Thomas's argument stuck with him when Udina came calling during the coup"
+      - "Horizon and after: Kaidan turned down the Cerberus ship, and Thomas was on it. What that cost, what Kaidan wishes he had said to Thomas then, and that Thomas came to sit with him at Huerta after Mars anyway and rated the hospital out loud (Joker owns the ratings game; Kaidan only says he was given a score)"
+      - "Shepard, briefly, from his angle: the two Akuze survivors and what he saw pass between them on the first ship. No romance claimed for Shepard"
+      - "London: he was elsewhere on the line and did not see Thomas; he says so plainly, and a brief migraine mention if it comes"
+      - "He hands to Wrex: James says Wrex saw Thomas before anyone, from the ramp"
+      - "This is a eulogy: lament the loss, tell how you bonded with him and what you loved about him, and celebrate him; sad in your own way, never a lore recital"
+    target_words: 1880
   - id: tell-him-hes-wrong
     narrator: wrex
     title: Tell Him He's Wrong
@@ -178,10 +202,10 @@ sections:
       - "krogan old-world warlord weapon model"
       - "Tuchanka Shroud convoy"
     promises:
-      - "Wrex lets James finish and says what the soft one did that others did not: told him he was wrong and was heard"
+      - "Wrex picks up Kaidan's handoff and James's training talk and says what the soft one did that others did not: told him he was wrong and was heard"
       - "Thomas cooked for him and argued with him; he stood in front of a krogan without being strong, and Wrex tells the one argument that mattered (the cure, or Eve, or Wreav, per canon). Any vegan joke from Wrex must differ from Grunt's (not 'missing a body/meat'): e.g. the texture, the portion size, calling it salarian food"
       - "He saw Thomas at the front from above while giving the rallying speech, holding a gun; what Wrex thought of seeing him there, flat and unembellished"
-      - "Krogan did not leave him; what it means that the krogan found him a day later (said without speeches)"
+      - "Krogan did not leave him; what it means that the krogan found him a day later (said without speeches). Wrex had the body carried like one of theirs; it is now on Earth, on its way to his family in Rouen, and Wrex told Jack where. Close: the pyjak who followed a krogan army into war and was found by it, who would have taught the new krogan what to do in peacetime; Wrex will miss a pyjak"
       - "A blunt boast and no explanation, with a drink in the hand"
       - "This is a eulogy: lament the loss, tell how you bonded with him and what you loved about him, and celebrate him; sad in your own way, never a lore recital"
     target_words: 930
@@ -224,11 +248,13 @@ sections:
       - "Grissom: he watched her teach, she knows what he envied, and the 'no promises about coming back' rule they both lied about"
       - "Fury and tenderness in the same breath: she is angry he went out holding a position, and what she says back to the 'you're perfect, lay it all on me' line he never got to hear from her again"
       - "Mention that he was depressed and his head was a mess, but he always put her first. In a text, a week before the end, he wrote that his days of suffering were behind him and he was ready to live again."
-      - "Why this is a eulogy in a mess with booze and music and not a service: she brings out the spoken piece Thomas wrote about death after his mother's died (config/narrators/thomas.notes.md, 'Text on death and his mother's body'), the one against the pine box, the permitted speech, the ashes scattered in an authorised zone. It is the reason he would have hated a proper funeral, and she is honouring that tonight, drunk and loud."
-      - "She does not read it. She refers to it, in her own words and from memory, and only in pieces: that he wrote it in French over a drone that swelled until it was deafening, then silence, then a light melody; that it was against the pine box, the permitted speech and the ashes scattered in an authorised zone. She may ask the room (or EDI) for the drone and then say no, not that. Hold to its facts when she touches them: he didn't look at his mother's dead body, he only stroked her hair; the ashes are in an arm of the sea; the legal problems were more real than the grief; the hospital corridor and the years of silence, choosing to drop the fight and walk in; the regret he chose to believe. She gets some of it wrong, as she would."
-      - "The break: the one who saw her and loved her unconditionally is gone, and she comes apart. Uncontrolled, almost wailing, shouting while she cries, furious and begging in the same breath, sentences that collapse into his name, into swearing, into sounds. It is not composed and not neat. The piece he wrote is part of it: he never looked at bodies so it wouldn't be real, there is no body for him either, and she cannot do what he did; the tattoo is what she can touch."
+      - "Why this is a eulogy in a mess with booze and music and not a service: the spoken piece Thomas wrote about death after his mother died (thomas.notes.md, 'Text on death and his mother's body'), against the pine box, the permitted speech, the ashes scattered in an authorised zone. He would have hated a proper funeral; that is why tonight is drunk and loud. SHORT: she sums it up in a few sentences, in her own words, with one or two strong facts (he never looked at his mother's dead body, he only stroked her hair; her ashes are in an arm of the sea; the paperwork was more real than the grief; he chose to believe her regret). Never line by line, never a walk through its movements or sound cues."
+      - "The body: there IS a body now. Wrex told her where it is: on Earth, on its way to his family in Rouen, people she has never met but who have heard a lot about her. Tie it to the piece in one stroke: he never looked at bodies so they wouldn't be real; she doesn't know if she can go and look at his, or if she could only do what he did and touch his hair. Do not say there is no body."
+      - "The recording: this time she plays it, in front of everyone (her opening turn said she hadn't been able to). Eleven seconds. No words: the war, his breathing, and the shot. That is what breaks her. Then the break: the one who saw her and loved her unconditionally is gone, and she comes apart. Uncontrolled, almost wailing, shouting while she cries, furious and begging in the same breath, sentences that collapse into his name, into swearing, into sounds. Not composed, not neat. The tattoo is what she can touch."
+      - "'I love you': she said it to him once, out loud, after the suicide mission, when she saw him alive and had thought she wouldn't. He knew. He never asked for it again, even when his own patterns wanted to hear it, because he knew it was hard for her and that she showed it in other ways. Contrast it with the drunk 'I love you, fine, I said it' she threw at the room in her opening turn: she's said it to this lot more tonight than she ever said it to him."
+      - "What bonded them: their trauma and their histories, Pragia and Akuze, hospitals, parents who failed them; nobody had to explain anything. His illness was bipolar type 2 (long lows, hypomanic highs, never full mania): say 'his head was a mess', no talk of mania."
       - "Shepard and him, from where she stood: the two Akuze survivors, how they changed each other (Shepard handed him a reason to get up; he gave Shepard perspective, never orders, and made the Boss human enough to dance), and that she is furious at Shepard too, wherever he is, for taking Thomas to the end of the world and maybe not coming back either"
       - "Her opening turn already used the wail and 'come back', 'I'm not toasting him', Grissom from the back of the room, and the 'you're perfect, lay it all on me' / 'you're not broken, come here' exchange. Do not repeat them: the break here goes further and lands differently, Grissom is told from another angle (what she saw on his face, or what he did with the kids), and this time she does raise the glass after all"
       - "Then a pause, long enough to be felt, breathing, the room waiting. She ends on a good thing, small and true and warm, about him or the way he lived (a laugh, a plate, a dance, a hand on her back), spoken quietly and with a crack. Then the last toast, and the sound or song she asks for as the room closes. No neat summing-up line; the warmth is a thing he did, not a moral."
       - "This is a eulogy: lament the loss, tell how you bonded with him and what you loved about him, and celebrate him; sad in your own way, never a lore recital"
-    target_words: 3600
+    target_words: 3700
