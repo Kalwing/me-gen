@@ -126,7 +126,7 @@ He leaves behind personal writings,a lot of carefully selected playlists and a s
 ### How it started
 - **Setup:** Jack trusts almost no one, and Thomas doesn't try to earn her trust. He does small things without commentary, like leaving food outside the door of the cargo-hold cell she has taken over, fixing the heater in her corner of the ship, and never asking about the tattoos.
 - **The turn:** After her Pragia loyalty mission, he doesn't offer comfort or ask how she's feeling. He sits down beside her and says nothing for a long time. Then he says something absurd, and she laughs before she can stop herself.
-- **Escalation:** The night before Omega-4, the whole ship is quietly saying goodbye. Jack finds him in the mess and says "Don't make it weird." He doesn't.
+- **Escalation:** The night before Omega-4, after the Collectors have taken the crew, the squad and Joker are quietly saying goodbye. Thomas escaped the abduction by hiding in the ducts with Joker. Jack finds him in the mess and says "Don't make it weird." He doesn't.
 
 ### Why it works
 | Thomas | Jack |
@@ -178,7 +178,7 @@ After Arrival, she goes to Grissom Academy and he goes home to Rouen. He sends l
 
 | Person | Bond |
 |---|---|
-| **Father** | Quiet, steady love. Thomas organizes the gathering that gets him, his siblings, and his father into one room. |
+| **Father** | Quiet, steady love, but always inside his work. Thomas organizes the gathering that gets him, his siblings, and his father into one room. |
 | **Twin sister** | The sun to his moon. She defended him as a kid and still argues loudly on his behalf. |
 | **Older brother** | Shared protector role from childhood. |
 | **Youngest sister** | Ten years younger, so Thomas is partly a second father to her. |
@@ -221,6 +221,15 @@ Social mode: He likes people and is anxious about every interaction. Overthinkin
 Humor: Absurdist (I Think You Should Leave), self-deprecating, and laughs at nearly everything. It is also armor, and it arrives fast when something real gets close.
 Memory and body: Bad memory, clumsy, essential tremors. The crew would tease him about the first two.
 Affection: Long, deep texts about his feelings, gifts full of meaning, and listening hard despite the bad memory. He sees love and beauty everywhere.
+
+## Added facts (eulogy review, 2026-10-15)
+- **Crew abduction:** He hid in the ducts with Joker while the Collectors took the crew, so he was aboard the night before the relay.
+- **Tali's trial:** He was there, on the Rayya.
+- **Drinking:** He talked about bars and drinking a lot. Some nights he drank alone, not socially. Kaidan saw it.
+- **Sanders:** During the Grissom stretch he went to Sanders behind Jack's back to ask whether she was sleeping. Jack called him on it, and he mostly stopped.
+- **Terra Firma bar fight:** The one punch he ever threw, at a xenophobe after one quiet warning. It was clumsy, because he can't fight. Afterwards he felt guilty.
+- **Grunt's decanting day:** He forgot it, then sent a dinosaur figurine to Tuchanka three weeks late.
+- **Wrex's first plate:** This was at the Citadel shore leave, not on the SR-1.
 
 ## Values and Politics
 Anarchism, lived and soft: Bookchin, Kropotkin, Goldman, Graeber, Öcalan. Care as resistance. "The revolution is in your choices." Anti-fascist, anti-capitalist, vegan ("very important, but I'm not a dick about it"), and "chill infinitely, but militate."

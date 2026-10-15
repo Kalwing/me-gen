@@ -4,11 +4,11 @@ Yeah, EDI. I heard you. Four percent. Six cycles a second. Forty-one laughs in o
 
 No, don't do the face. You did good. You did better than me, and I went first with notes on my arm.
 
-But that's the joke, isn't it? The ship logged him. The ship's got his songs, his cards, his shake down to the millimetre, nine minutes on a balcony I didn't even know about. Thanks for that, by the way, I'm gonna be awake at four every morning for a month seeing him hold that rail. And the one thing he ever made just for me, nobody else in this whole shitty galaxy, is eleven seconds the ship knows the length of and I've never heard. I tried. Tuesday. Got as far as the button and threw up in Joker's chair. Sorry, Joker. I cleaned it with your krogan girlfriend's pillowcase.
+But that's the joke, isn't it? The ship logged him. The ship's got his songs, his cards, his shake down to the millimeter, nine minutes on a balcony I didn't even know about. Thanks for that, by the way, I'm gonna be awake at four every morning for a month seeing him hold that rail. And the one thing he ever made just for me, nobody else in this whole shitty galaxy, is eleven seconds the ship knows the length of and I've never heard. I tried. Tuesday. Got as far as the button and threw up in Joker's chair. Sorry, Joker. I cleaned it with your krogan girlfriend's pillowcase.
 
-I've done this before, see. The last guy who ever came back for me, Murtock, years ago, before any of you. A job went to shit, he turned round for me instead of running with the score, I got to the shuttle and he didn't. Few days later the shuttle plays me a recording he'd set up in case he never checked in. All about the life we were gonna have. I listened to that one. I know exactly what those things do to you. So it's been in my pocket all week, burning a hole.
+I've done this before, see. The last guy who ever came back for me, Murtock, years ago, before any of you. A job went to shit, he turned around for me instead of running with the score, I got to the shuttle and he didn't. Few days later the shuttle plays me a recording he'd set up in case he never checked in. All about the life we were gonna have. I listened to that one. I know exactly what those things do to you. So it's been in my pocket all week, burning a hole.
 
-And you keep the fourth leaf, tin can. He was right, it's yours. He was right about that kind of shit all the time and it drove me up the wall.
+And you keep the fourth leaf, tin can. He was right, it's yours. He was right about that kind of shit all the time and it drove me up the wall. And Funny Robot-fucker. You waited all night for that. I saw you waiting. Good.
 
 Okay. The poems. You all want to know. Liara's been staring at my pocket all night like it's a dig site.
 
@@ -20,27 +20,33 @@ There's a sink in one. That one. Behind you, Grunt. You guard that kitchen like 
 
 And one of them ends in my words. Watch and learn. I said it to Tali at the party when she was dancing like a loader with a blown servo, and he stole it and stuck it on the end of a poem for me, like he was handing it back.
 
-I haven't finished them. Either way you mean it. I stopped reading at a page where he starts listing what he wants. The bad mornings, the no-sleep, the grey hair, donne moi le pire, give me the worst. I got that far and had to go hit the bag in the shuttle bay till James took my wrist off it. And I tried to finish one. Writing, I mean, at Kasumi's jam, the secret one, Grunt doing his Hemingway in the corner. I had a line. Crossed it out. Wrote it again. You can't finish a dead man's poem, it's not yours, and he left them open on purpose and knew exactly what that'd do to me, the prick.
+There's one line I wrote on my arm, under the other notes. Passer d'une posture d'aimant à celle bien plus dure d'aimé. So I look up aimant. Magnet. I'm sitting there going, okay, he wants to stop being a magnet, great, very deep, Thomas. Kasumi had to tell me. Aimant's also loving. Like, the one doing the loving. Going from being the one who loves to the much harder job of being the one who's loved. He wrote that about himself. He knew. He knew he couldn't take it. He wrote it down like a to-do list. And the fucking magnet thing is still true too, so I'm keeping both.
 
-You want to know how a guy who folds napkins ends up with me? It's not a mystery. Pragia and Akuze. That's the whole trick. I came out of a lab, he came out of a hole full of dead marines and maw acid. I had a mirror I banged on for years and nobody heard. He had a mom who was the sun when he was little, and then the drink got her, and at fourteen he caught her trying to die and called the ambulance, and she told him he wasn't her kid anymore. For saving her. Mine got told I was dead so Cerberus could have me. His hospitals, my labs. Same beds, same straps, worse lighting on mine. His dad was the good one, quiet, steady, and he'd tell me about his dad like a bedtime story I wasn't old enough for.
+I haven't finished them. Either way you mean it. I stopped reading at a page where he starts listing what he wants. The bad mornings, the no-sleep, the gray hair, donne moi le pire, give me the worst. I got that far and had to go hit the bag in the shuttle bay till James took my wrist off it. And I tried to finish one. Writing, I mean, at Kasumi's jam, the secret one, Grunt doing his Hemingway in the corner. I had a line. Crossed it out. Wrote it again. You can't finish a dead man's poem, it's not yours, and he left them open on purpose and knew exactly what that'd do to me, the prick.
 
-And nobody had to explain anything. That's what you lot don't get. Everybody else, you tell them one piece of it and they get that wet look and you have to look after them while they feel bad about you. Him, I'd say mirror, and he'd say maw, and that was the conversation done. We'd lie there in the hole under the heater not explaining a single fucking thing. Best talks I ever had.
+You want to know how a guy who folds napkins ends up with me? It's not a mystery. Pragia and Akuze. That's the whole trick. I came out of a lab, he came out of a hole full of dead marines and maw acid. I had a mirror I banged on for years and nobody heard. He had his own stuff, before Akuze and after, and Liara's already told you the part that's hers to tell, and the rest is his, and it's staying his. Not giving it to you. You notice I'm good at that now? He taught me that. His dad was the good one, quiet, steady, always working, and he'd tell me about his dad like a bedtime story I wasn't old enough for.
 
-You heard the bit earlier. After the Collector base, I come back and he's in the mess, pink hair, pot on, going hey like I'd popped out for smokes. Here's what I left out.
+And nobody had to explain anything. That's what you people don't get. Everybody else, you tell them one piece of it and they get that wet look and you have to look after them while they feel bad about you. Him, I'd say mirror, and he'd say maw, and that was the conversation done. We'd lie there in the hole under the heater not explaining a single fucking thing. Best talks I ever had.
 
-I didn't know if he was alive. The whole time in that base, in the bubble, I didn't know if the ship made it, if he made it, Collectors crawling all over the Normandy, and I'd decided he was dead. I'd done the maths. So I walk in and he's stirring a pot. And I said it. Out loud. I love you. In front of the stove. First time in my life, and it came out like I was threatening him.
+You heard the bit earlier. After the Collector base, I come back and he's in the mess, pink hair, pot on, going hey like I'd stepped out for smokes. Here's what I left out.
+
+I didn't know if he was alive. The whole time in that base, in the bubble, I'm thinking about the ship. Same ship the Collectors had already walked through once and emptied out. And I left him on it, with a pilot who breaks if you sneeze and a computer. I didn't know if the ship would be there when we came out, and I'd decided he was dead. I'd done the math. So I walk in and he's stirring a pot. And I said it. Out loud. I love you. In front of the stove. First time in my life, and it came out like I was threatening him.
 
 Once. One time, ever.
 
 And he knew. He never asked for it again. Not once. And he wanted it, I could see him wanting it, some nights after a bad day, that look like a dog at a door. His whole head was built to need it said, every day, in writing. And he never asked, because he knew what it cost me to get it out the first time, and he knew I said it other ways. The heater. Answering. Showing up. He took the other ways and never once made me pay for the words.
 
-And an hour ago I yelled it at you lot, drunk. Fine, I said it. So that's more times tonight in this shithole mess than I said it to him in a year. You think about that. I'm thinking about it.
+And an hour ago I yelled it at you people, drunk. Fine, I said it. So that's more times tonight in this shithole mess than I said it to him in a year. You think about that. I'm thinking about it.
 
-After the Collectors everybody scattered. Shepard got grounded, I got Grissom, he went home to Rouen. His dad, his sisters, his brother, the river. And he wrote me. Fuck, did he write me. Pages. Every night. What he cooked. What his little sister said at dinner. Some kid on the tram who looked like Rodriguez. Kropotkin, obviously, always fucking Kropotkin. Whether his hands were worse. How much he wanted me, and he did not hold back on that, he wrote that part in French so Sanders's firewall wouldn't flag it, which I worked out about two months in and nearly put my fist through a classroom wall laughing.
+After the Collectors everybody scattered. Shepard got grounded, I got Grissom, he went home to Rouen. His dad, his sisters, his brother, the river. And he wrote me. Fuck, did he write me. Pages. Every night. What he cooked. What his little sister said at dinner. Some kid on the tram who looked like Rodriguez. Some anarchist he'd been reading, obviously. Whether his hands were worse. How much he wanted me, and he did not hold back on that, he wrote that part in French so Sanders's firewall wouldn't flag it, which I worked out about two months in and nearly put my fist through a classroom wall laughing.
 
 And what did he get back? Voice notes. Eight seconds. Me going yeah. Breathing. My kids screaming in the background because somebody set a desk on fire with their brain. Once I sent him forty seconds of me eating noodles. That's what he got for eleven pages. I didn't trust words. I'd only ever seen them used to sell people.
 
 But I always answered. Every one. He never waited a night. You want evidence I loved him, there it is, because I don't answer anybody.
+
+Except once. Bad week at Grissom, kid had a seizure in the gym, Sanders and me up three nights. My voice notes got shorter. Four seconds. Two. And his got longer. Three messages saying sorry for the one before. Then one saying sorry for all the sorrys. Like I was a door closing and he was trying to get his foot in it. I sent back, I'm not leaving, I'm busy, a kid set a desk on fire. He wrote okay. Just okay. Then three pages.
+
+And then he went to Sanders. Behind my back. Asked her if I was sleeping. If I was eating. Like I was one of the kids. Sanders told me, because she's not stupid, and I nearly flew to France to put him through a wall. I called him. Screamed at him for twenty minutes. And he didn't argue. Not one word back. He said, you're right, I do that, I'll stop. And he did. Mostly. Sanders said he asked one more time, in the spring, and then said never mind before she could answer.
 
 Then the Reapers hit Earth. I'm in the Grissom rec room with my kids, all of them pretending they're not scared, watching London burn and Vancouver burn, and I don't even know where the fuck Rouen is on the map. And I typed. First time ever. Thumbs going. One word. Alive?
 
@@ -52,11 +58,15 @@ Grissom. You've heard the war story. Cerberus came to take my kids for the same 
 
 I told you he stood at the back of my class. Here's the part after.
 
-The Normandy, after. Thirty kids in the mess and the shuttle bay, sitting on crates, shaking, so wired on biotics they'd have eaten the walls. He fed them, course he did. Then, because they were going out of their skulls, he got the tech kids round a table with a box of scrap Adams didn't want, and they built a robot. Shit robot. One leg longer than the other. It walked in circles and flipped me off, because the little bastards programmed it to flip me off, and he helped, that was his code, I'd know it anywhere. The Archer kid, the one who can't stand being touched, sat next to him counting out loud, and Thomas just counted along with him. I'd promised them all tattoos if we got out. A glowing fist, the Ascension logo, a unicorn for Rodriguez. Thomas asked if he could have the unicorn too.
+The Normandy, after. Thirty kids in the mess and the shuttle bay, sitting on crates, shaking, so wired on biotics they'd have eaten the walls. He fed them, course he did. Then, because they were going out of their skulls, he got the tech kids around a table with a box of scrap Adams didn't want, and they built a robot. Shit robot. One leg longer than the other. It walked in circles and flipped me off, because the little bastards programmed it to flip me off, and he helped, that was his code, I'd know it anywhere. The Archer kid, the one who can't stand being touched, sat next to him counting out loud, and Thomas just counted along with him. I'd promised them all tattoos if we got out. A glowing fist, the Ascension logo, a unicorn for Rodriguez. Thomas asked if he could have the unicorn too.
 
 I'm in the doorway looking at his face. I never saw his face like that. Not in bed, not on the Citadel, not ever. Lit up like somebody plugged him in. He used to teach kids back in Rouen, after Akuze, robots, games, stupid little machines, ran the whole program, till his mom died and took it off him. And there I am with a class of my own the Alliance handed me for being the scariest psycho they had on file.
 
-Then he saw me looking and the light went off. Just like that. He made some joke, union rates for robot labour or something. And I wanted to grab him by the collar and shake him and say it's yours, take it, they love you, you don't need to hold a gun right, you're good at this. I didn't. I said nice robot and went to read rosters.
+Then he saw me looking and the light went off. Just like that. He made some joke, union rates for robot labor or something. And I wanted to grab him by the collar and shake him and say it's yours, take it, they love you, you don't need to hold a gun right, you're good at this. I didn't. I said nice robot and went to read rosters.
+
+That's the one I didn't fix. You want to know what I didn't get done, it's that. He never took the classroom. I never made him.
+
+Last week the Archer kid wouldn't come out of his bunk, so I took him a plate. And I folded the napkin. I didn't even know I'd done it until he stared at it like it was going to bite him. Yeah. Me. Folding napkins. Shut up.
 
 My kids are on support now, barriers and ammo all over the Alliance, because I asked Shepard for that and he gave it to me. Sanders checks in on us like a mom I didn't order. They're saving lives and I'm still their teacher. Dependable. You know who I blame.
 
@@ -64,7 +74,7 @@ And the rule. We made it in the shuttle bay before I went back with them. No pro
 
 His head was a mess. EDI gave you the years and I'm not giving you the reasons, they're his. Some stretches he went down so far he couldn't find a reason to put socks on. And on those days, those exact days, he'd message me first. How's Rodriguez. How'd you sleep. Did the glass dream come back. Every time. He'd be lying at the bottom of his own hole in the dark and he'd still crawl up to the edge to check on me. He put me first every single fucking time, even when he had nothing. Especially then.
 
-A week before London he sent me one. Long, obviously. And he said, I'm not doing his words, that the bad days were done. That he'd been carrying all those years of wanting to be dead, and he'd put them down, and he was ready to live. Actually live, after, with me. Not just not die. There's one line in French at the bottom. Ces jours sont morts, je suis vivant. Those days are dead. I'm alive.
+A week before London he sent me one. Long, obviously. And he said, I'm not doing his words, that the bad days were done. That he'd spent half his life not wanting it, carrying all those years of wanting to be dead, and he'd put them down, and he was ready to live. Actually live, after, with me. Not just not die. There's one line in French at the bottom. Ces jours sont morts, je suis vivant. Those days are dead. I'm alive.
 
 He wrote that a week before.
 
@@ -76,7 +86,7 @@ Two guys from Normandy, the real one, cows and rain. Shepard ran with a gang the
 
 And it didn't run one way. Thomas was on Omega, broke, a year with no work, and Shepard called him. That's all. Called, and handed him a reason to get up in the morning. And Thomas gave him back... fuck, what's the word, Liara... perspective. Never orders. He never told Shepard what to do once. He'd ask the one question nobody else had the balls to ask and then go make a pie while Shepard chewed on it.
 
-And he made the Boss human. I taught Shepard to dance, okay, I'll take that one, same trick I pulled on Thomas, shove the drunk dumbass in a pit and see what's standing after. But Thomas made him want to. Shepard turned up at every bar in the galaxy, called every one his favourite, drank like a krogan and then stood by the wall like he was guarding the door. Thomas got him off the wall. Took the piss out of him till he laughed at himself. You need somebody to make you look stupid on purpose before you can stop being scared of looking stupid, and that was Thomas. For him, and for me.
+And he made the Boss human. I taught Shepard to dance, okay, I'll take that one, same trick I pulled on Thomas, shove the drunk dumbass in a pit and see what's standing after. But Thomas made him want to. Shepard turned up at every bar in the galaxy, called every one his favorite, drank like a krogan and then stood by the wall like he was guarding the door. Thomas got him off the wall. Gave him shit till he laughed at himself. You need somebody to make you look stupid on purpose before you can stop being scared of looking stupid, and that was Thomas. For him, and for me.
 
 And I am so fucking angry at Shepard.
 
@@ -90,7 +100,7 @@ After his mom died he wrote this thing, in French, meant to be said out loud ove
 
 So no chapel. No clock, and don't look at your watch, Joker. He'd have stood at the back of his own funeral doing a bit about the catering.
 
-And he's got a body. Wrex told me where. I didn't ask, and he told me anyway, which is the nicest thing a krogan's ever done to me. Earth. On its way to Rouen. His dad, his twin, his brother, the little ones. People I've never met, who apparently know all about me already, God help them.
+And he's got a body. You heard Wrex. On its way to Rouen. His dad, his twin, his brother, the little ones. People I've never met, who apparently know all about me already, God help them.
 
 He never looked at bodies. So they wouldn't be real.
 
@@ -132,7 +142,7 @@ Please.
 
 Please. One more second. Just one more. Breathe out. Breathe out and say it. Thomas — please — please — hhh — nnh —
 
-I put a little copy of mine on your back. The big one's on me. Every mark on me is me writing over something they did, and that one I wrote for you. I can reach round. I can... I can touch it. That's what I get. I've got my hand on my own back right now like an idiot in front of all of you, and it's the same lines. It's the same lines as on you. Same lines, going home to Rouen in a box.
+I put a little copy of mine on your back. The big one's on me. Every mark on me is me writing over something they did, and that one I wrote for you. I can reach back there. I can... I can touch it. That's what I get. I've got my hand on my own back right now like an idiot in front of all of you, and it's the same lines. It's the same lines as on you. Same lines, going home to Rouen in a box.
 
 ...
 
