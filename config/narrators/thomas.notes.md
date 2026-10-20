@@ -243,6 +243,138 @@ Rule of gold: Treat the world with love, except fascists, who you just deal with
 ## Citadel
 Thomas was on the Citadel during the shoreleave, and hanged with everyone. Jack tattooed him, and they went to punk shows. He drank with everyone and shared moments (played chess with traynor, acted as a wingman to garrus, partied with Grunt, watched movies with Tali, watched sports with James and Cortez, had coffees with Liara, cookout with Kaidan...). During the party he made sure to talk to everyone, spent the night dancing and talked until the morning, he outdrank everyone.
 
+## Writing Thomas: corrections from past episodes
+
+Rules the user set while reviewing episodes about Thomas. They apply to every narrator who talks about him.
+
+- **Tremor:** don't bring it up all the time. Use it only in the turns or sections that need it, at most once or twice in each. Never let it become a tic that every speaker repeats. In a multi-voice episode, most voices should leave it out entirely.
+- **No shared motifs across speakers:** each recurring bit belongs to one voice. Others leave it alone, or refer to it as that person's:
+  - the hospital ratings (Joker);
+  - the Kropotkin/Bookchin arguments (Liara);
+  - the locker tally (Tali);
+  - vegan jokes (each speaker needs a different one; Grunt's "no body/meat in it" is his own);
+  - "two survivors of Akuze" phrasing (say it once, in different words each time).
+- **He never bragged**, and he talked a lot except with Jack. Both are covered under "Aboard the Normandy". He gave away every win: in any contest he insisted the other person was ahead.
+- **Handyman and software engineer first, cook second.** Don't reduce him to "the cook".
+- **Illness:** bipolar type 2. Long depressive episodes, with brief light hypomanic lifts of a day or two inside them. Never full mania, never weeks-long up phases. Narrators say "his head was a mess" rather than clinical talk, except EDI, who can be precise.
+- **Private hurts stay private:** only Jack and Joker knew the shame about the tremor. Only Joker knew the full story of his suicide attempt. Others can suspect, never know.
+- **His death:** the krogan found the body a day later. It is on Earth, on its way to his family in Rouen. Never write "there's no body". He died before the Crucible fired. The crew don't know there was a choice, only its consequences.
+- **The death text** (see "Text left"): nobody reads it out. Jack refers to it, summed up in a few sentences with one or two strong facts, never line by line.
+- **Jack:** cruder, angrier, more heated and more in love than a first draft dares, and terrified of what comes next. She told him "I love you" only once. His family has never met her, but they have heard a lot about her.
+- **Tone of grief:** sadder rather than tidy. A eulogy laments him, tells how they bonded and what they loved, and celebrates him. It is never a lore recital.
+- **Shepard:** mention their mutual influence where it fits: Shepard gave him a reason to get up; he gave Shepard perspective, never orders. He always felt inferior.
+- **Quotes:** nobody quotes him verbatim except his own written French fragments (the poems, his last text).
+- **Original character:** none of this goes in `config/canon/`. Everything about Thomas lives in this file.
+
+## Established in the wake (eulogy episode, 2026-10-13)
+
+Facts set by the ten-voice eulogy in the Normandy mess (`output/jack-tali-joker-liara-grunt-james-wrex-edi-jack_a-eulogy-…_2026-10-13`). Treat them as part of Thomas's record from now on. The wake itself takes place a few weeks after London, in the mess, with ryncol and his playlists.
+
+**After his death**
+- He left an unsent eleven-second recording on his omni-tool, opened on the Hammer net and addressed to Jack. It has no words: gunfire, a Reaper horn, his breathing, a breath in as if to speak, then the shot. The krogan took the omni-tool off him and sent it up. Jack carried it in her pocket and played it for the first time at the wake.
+- There is a wall upstairs on the Normandy with his name on it; Jack put it there.
+- The mess cabinet holds eleven recipe cards in his shaky handwriting. Grunt has annotated four of them. EDI's fourth clover leaf is taped beside the seitan card. The crew plan to cook from the cards, one recipe a night, two people on each.
+- The last playlist he queued, still in the ship's queue, is forty minutes of ABBA, a black metal album filed under "dishes", and one folk song played twice. The wake ends with that song played twice.
+
+**Jack**
+- In the SR-2 days he left plates outside her hole every night for weeks: folded napkin, vegan kebabs. He was never seen doing it. She ate the third one, sitting on the stairs.
+- He rewired her freezing corner's heater, taped his code to it with a drawing of a sun, then lied that Daniels had done it so he wouldn't be thanked.
+- Neither of them ever asked about the other's tattoos, on purpose.
+- He talked to everyone except her; with her he sat in silence by choice. They didn't need to explain their pasts to each other ("I'd say mirror, and he'd say maw").
+- After Pragia he sat beside her without speaking, then said something absurd about nobody ever asking how the bomb was doing, and she laughed.
+- Omega-4: the night before, in the mess with ABBA on, she told him "don't make it weird". He didn't; they cooked, ate standing up and washed up together, and it was their first night together, on her cot under the heater.
+- She said "I love you" to him once: at the stove after the Collector base, having decided he was dead.
+- During the long-distance stretch he sent pages every night (the sexual parts in French, so Sanders's firewall wouldn't flag them). She sent voice notes of a few seconds, and she always answered. When the Reapers hit Earth she sent "Alive?". He replied four hours later with the same word, no question mark, then sent twelve pages. She broke a door during the four hours.
+- A week before London he wrote her that the bad days were over and he was ready to live ("Ces jours sont morts, je suis vivant"). She answered with a six-second voice note: good, about time, don't get soft on me.
+- She taught him to dance by shoving him into a mosh pit at a hardcore show. He came out with a split lip, grinning. He never got good, but he got loose.
+- He tried to feed seitan to Eezo, her varren, and got bitten. He kept trying to pet her anyway and thought varren were cute.
+- He was the only person she ever showed her N7 tattoo to on purpose. He laughed so hard he fell off a crate.
+- Grissom, after the evacuation: aboard the Normandy he helped the tech kids build a lopsided robot out of Adams's scrap, programmed to flip Jack off. He counted aloud with the Archer kid, and asked for the unicorn tattoo Jack promised Rodriguez. Jack saw him light up, and then the light go off when he saw her watching.
+- The "no promises about coming back" rule was made in the shuttle bay before she went back to Grissom. He said it first so she wouldn't have to.
+- He sang "La vie en rose" at the sink, with the wrong words. Passing behind her at the stove, he put a shaking hand low on her back.
+- Poems, as Jack knows them: he called himself Bombadil and her his baie d'or. One poem ends with her own "watch and learn". One lists the bed, the couch and the mess sink. "Donne moi le pire" appears in one. She is reading them one word at a time with a dictionary.
+
+**Joker**
+- Joker named him and Jack "Alliance Tech and Explosions".
+- They were best friends and joked all day, every day, on both ships. He did mock in-flight announcements from the jump seat, and they had a running "you're an anarchist" / "I'm a pilot" argument. He named the krogan body pillow and gave her a backstory. He wrote a program that raised a hull-stress warning whenever Joker sneezed. With Joker he swapped James's protein for seitan for a week. They watched Blasto vids with their own commentary track, and kept a crew dance scorecard that put him dead last.
+- Hospital ratings: they rated each other's hospital stays, and he always ranked Joker's above his own. Joker is the only one who heard the whole story of his suicide attempt.
+- He never mentioned the SR-1 loss to Joker.
+- When the Collectors boarded the SR-2 and took the crew, he was in the middle of a repair somewhere out of the way and stayed hidden. He met Joker after Joker had unshackled EDI, and he was not taken. So he was aboard and free when the squad came back, and he is not among those rescued from the pods.
+- At the Citadel party he backed up every exaggeration in Joker's restaurant story. In the morning he was upright beside a cleaning drone, holding out a glass of water.
+
+**Tali**
+- They kept a locker tally of fixes. He never put a mark on his own side, even when she broke the ship.
+- He rewrote the drive-core alerts so they ran in order of what would kill them first, and built a counterweighted bench mount for his tremor (she helped on version two).
+- He kept a labelled dextro shelf in the mess and fed her without watching her eat. He restocked it while she was gone.
+- At Rannoch he was behind the rocks with the comm gear. His comment on Legion: it would have hated the ceremony and wanted a diagram.
+- He told Shepard: stop asking who deserves a world and start asking who has to live next door afterwards.
+- He promised to wire Tali's half-built house on Rannoch "wrong on purpose" so she'd have to call him. One socket is still unwired.
+
+**Liara**
+- His theory: the Prothean empire's centralised rule doomed it. He cited "Kropotnik" and the beavers, and "Murray Bookman", with quotes that belong to nobody.
+- He teased her that asari matriarchs are a gerontocracy ("promoted for being lonely").
+- He loved Shadow Broker Liara for the wrong reasons: destroying the Broker's ship was the most anarchist thing she'd ever done, and its salvage going into the Crucible meant it belonged to everyone. He never asked her for a single name.
+- They had coffee at Apollo's, where he talked about Rouen: Monet's cathedral, the great clock, Joan of Arc.
+- He had a "born in Normandy, serving on the Normandy" joke and stopped telling it after the SR-1 went down.
+- He never once made Thessia or Ilos lighter, even though they were his best argument. After Thessia he quietly shut down a joke about it in the mess.
+- He wrote a page addressed to her, which she hasn't read.
+- Samara: he talked morality with her and tried to meditate with her many times, always unsuccessfully, because he couldn't calm his mind without music. He had three relaxing playlists, each with its own mood.
+
+**Grunt**
+- He let Grunt guard the kitchen, taught him to chop in a straight line, and asked what he wanted.
+- He made Grunt heavy, salted dishes without ever saying they were for him.
+- He made Grunt tell the Rite three times; when Grunt said his favourite part was killing Uvenk, he laughed so hard he sat on the floor.
+- He brought Grunt forbidden food at Huerta after Utukku.
+- Grunt calls him brother.
+
+**James**
+- James nicknamed him "Tembleque", and he called himself a "seismic event" on the bar.
+- He beat James at a dead hang once by telling a Wrex joke, and called it a fluke for a month.
+- He asked James whether he was built for the line. James said no, and taught him to stand anyway.
+- On sports nights he asked Cortez what Robert was like.
+- After Fehl Prime he would turn up during James's pull-ups with filthy limericks and hand him a towel.
+- He judged James's eggs after going vegan ("seven, for courage").
+
+**Kaidan**
+- On the SR-1 they had late talks at the crew-deck lockers. He asked Kaidan about the migraines, the implant, BAaT and Rahna, without pity. His crush was known and handled gently.
+- Vegetarian and vegan, they ate the same plate. He was the only man aboard who never made the joke about it.
+- At Kaidan's Citadel poutine dinner he cooked a vegan pot of his own beside Kaidan's.
+- They argued over beer: Kaidan's lager against his sours ("an excuse to drink from everybody else's glass"). He found Kaidan a case of Canadian lager before London.
+- On Horizon, Kaidan walked away without knowing he was on the Cerberus ship. He made the peace himself, when they left Earth.
+- At Huerta he called a Spectre the most unaccountable power in the galaxy. Kaidan heard that voice at the coup and lowered his gun.
+
+**Wrex**
+- Wrex called him the soft one, and he called Wrex "sir" to annoy him.
+- He fixed Wrex's omni-tool translator so it stopped turning Wreav's swearing polite.
+- He hid ryncol behind the flour, and Wrex drank from it.
+- He told Wrex, with no joke on it, that he was treating Eve like clan property ("a gift doesn't come with a leash"). Wrex went and asked Eve what she wanted.
+- Wrex saw him in the third rank of Hammer, holding a rifle "like a hot pan", and had the body carried like one of theirs. Wrex calls him "the pyjak".
+
+**EDI**
+- He arrived on the SR-2 in 2185 and on his second day worked out from her response latencies that she was a real AI. He kept that to himself for a year.
+- He had 0300 talks with her in the mess about whether she was alive: "Nobody ever asked me to prove I was alive, EDI, and some years I couldn't have." On Eva, he said the difference between them was whether anybody had bothered to ask.
+- Medical facts:
+  - Hospital admissions in 2177, 2180 and 2183.
+  - The tremor was about 6 Hz, right hand. It doubled by Omega-4. By London he poured his own cup to 60% and called it portion control.
+  - He wrote a smoothing filter for his omni-tool input, with one error in it that EDI kept.
+  - After Thane died he lost 5.2 kg in 19 days and still cooked every day.
+  - At the Citadel party he spent nine minutes alone on the balcony at 0347.
+- Before the push he asked EDI his odds (four percent) and then asked about the flatbread. He told her the fourth clover leaf was hers.
+
+**Shepard**
+- They found each other in the wreckage of the Akuze survey camp; both came from Normandy (France).
+- Shepard called him on Omega in '83 and gave him a reason to get up. He gave Shepard perspective, never orders.
+- Late at night Shepard asked him who needed a night off; half the parties aboard were his ideas carried out under Shepard's name.
+- He got Shepard off the wall and dancing.
+- He spent a night in the comm room arguing that power belongs to those who don't want it and that every species deserves a Council seat.
+- He called Shepard the only commander he ever met who didn't want to be one.
+
+## Established in the Omega-4 morning episode (2026-10-20)
+
+- Jack knows about his broke year on Omega (2181–82): he told her.
+- Jack knows what a thresher maw means to him: he told her about Akuze.
+- Before the Omega-4 jump, his last message home goes to his family and his closest friend.
+
 ## Text left 
 Thomas wrote poems and texts that functions as an integrative self-portrait. It is written in French, in his own voice - ironic, tender, politically conscious, genuinely beautiful. It contains the therapeutic work in lived language. Key lines:
  

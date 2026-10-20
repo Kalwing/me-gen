@@ -1,0 +1,1949 @@
+{
+  "section": {
+    "id": "things-that-get-back-up",
+    "title": "Things That Get Back Up",
+    "target_words": 360,
+    "form": "motivational",
+    "form_description": "A speech meant to move someone to act — the narrator talking Shepard (or whoever is listening) up off the floor and back into the fight. Sections are the rising beats of an address: the stakes named, the doubt named plainly, the evidence from a life lived that it can be done, the call. The narrator's own history is fuel for the exhortation, not the subject of it — but so is the listener's: the narrator holds up the other person's record as often as their own, since it's their record the speech is meant to land on.",
+    "form_note": "A speech to get one man up and into the work: stakes, doubt, the evidence that people get up anyway, the call. Per the user's new direction the evidence is mostly lore, not his history. The Collectors as people the Reapers own all the way down, krogan who got up off a planet they nuked, a varren that can't stand and still wants the fight, Mordin running a free clinic in a plague zone, a quarian fleet kept flying on patches for 300 years, what a biotic barrier costs. Thomas stays as the addressee and gets one beat per section, not a biography: the 'not a fighter' doubt, his broke year on Omega, working under Tali, Shepard having been the one who got him up last time. 4 sections, below the form's 6-12, because the user asked for 4 and pinned 1500 words. Vantage is the hours before the Omega-4 jump. The Collectors have taken everyone but Joker (normandy-sr2-collectors-board-joker). Thomas was mid-repair out of the way, stayed hidden, met Joker after EDI was unshackled, and was not taken (thomas.notes.md). Canon iff_delay is \"went immediately\", so \"morning\" means ship-time hours. suicide-mission is deliberately not anchored, so no outcome evidence (bubble, vent, survivors) reaches the writer. Jack was not on Tuchanka for the Rite or at Mordin's clinic in the scene records. She tells those as crew talk and Grunt's bragging, not as memory. Pragia she lived, and it gets two or three lines of fuel. Eezo the varren is later (ME3) and must not appear.",
+    "narrator": "jack"
+  },
+  "subject": {
+    "slug": "thomas",
+    "display": "Thomas",
+    "notes": "config/narrators/thomas.notes.md",
+    "default": false
+  },
+  "promises": [
+    "The krogan blew their own world to ash, got sterilised by the genophage, and still get up every day on Tuchanka and pick a fight with the planet. She tells it through consequences: who did it to them and who keeps living in the rubble, not dates or treaties",
+    "Grunt's Rite, told as crew talk and Grunt's bragging since she wasn't there: a tank-bred kid nobody thought was a real krogan killed a thresher maw, the first since Wrex. She knows what a maw means to Thomas and gives it one line, no more",
+    "Urz, the beat-up varren on Tuchanka who still wanted the fight, and why she respects animals that make their intentions obvious. The fighting-pit economy that uses them up, in her own blunt terms",
+    "She names the 'I'm not a fighter' doubt out loud and won't let him joke past it. The krogan didn't pick their odds either. Getting up is the fight"
+  ],
+  "required_facts": [
+    {
+      "event_id": "grunt-rite-of-passage-tuchanka",
+      "fact": "Some time after being awakened aboard the Normandy, the tank-bred krogan Grunt began suffering violent instability and asked Commander Shepard to take him to Tuchanka so he could earn a place among a true krogan clan. Shepard brought him to the Urdnot camp, where the clan leader agreed that Grunt could attempt the Rite of Passage to join Clan Urdnot. Before the Rite, Gatatog Uvenk, a traditionalist battlemaster and leader of Clan Gatatog, publicly challenged Grunt's legitimacy, denouncing him as a factory-made fake unworthy of clan membership and appealing directly to the Urdnot Shaman, who was annoyed by the interruption. Shepard forced Uvenk to back down by affirming that Shepard's team would stand as Grunt's krantt, either through words or a headbutt; Uvenk withdrew his objection but swore to settle the matter later. Uvenk's attitude depended on who led Clan Urdnot: he openly opposed Urdnot Wrex's reforms as weakness, but was deferential if Urdnot Wreav held power. Grunt undertook the Rite in a ruined arena, striking the Keystone to summon escalating waves of varren and klixen and finally a thresher maw, which he could kill outright or merely survive until the timer expired. Immediately afterward Uvenk arrived by shuttle with several Gatatog Warriors. If Grunt had killed the maw, Uvenk grudgingly acknowledged his strength and offered him in-name-only membership in Clan Gatatog as a trophy to boost Uvenk's own standing; if the maw had only been survived, Uvenk dismissed Grunt as impure. Grunt violently rejected the offer, and the ensuing firefight ended with Uvenk and all his warriors dead. Grunt was formally inducted into Clan Urdnot, gained loyalty to Shepard, and expressed satisfaction at Uvenk's death.",
+      "actor": "Grunt"
+    },
+    {
+      "event_id": "grunt-rite-of-passage-tuchanka",
+      "fact": "Grunt completes the Rite of Passage and is inducted into Clan Urdnot",
+      "actor": "Grunt"
+    },
+    {
+      "event_id": "grunt-rite-of-passage-tuchanka",
+      "fact": "Gatatog Uvenk and his warriors are killed after Grunt refuses Clan Gatatog's offer of token membership",
+      "actor": "Grunt"
+    },
+    {
+      "event_id": "grunt-rite-of-passage-tuchanka",
+      "fact": "Grunt's violent instability is resolved and he becomes loyal to Shepard, unlocking Fortification",
+      "actor": "Grunt"
+    },
+    {
+      "event_id": "grunt-rite-of-passage-tuchanka",
+      "fact": "If Grunt killed the thresher maw on foot, his feat becomes legend among the krogan",
+      "actor": "Grunt"
+    },
+    {
+      "event_id": "grunt-rite-of-passage-tuchanka",
+      "fact": "Uvenk's opposition or support of the Urdnot leadership underscores the split between krogan traditionalists and Wrex's reformers",
+      "actor": ""
+    }
+  ],
+  "canon": [
+    {
+      "id": "shepard-born-on-the-normandy",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard"
+      ],
+      "statement": "Shepard was born in Normandie in France, parentless, ran with a gang as a child and had a drug problem before Anderson pulled him into N7.",
+      "overrides": "Earthborn background as the wiki describes it",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "jack-n7-tattoo",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack"
+      ],
+      "statement": "Jack has an N7 tattoo on her ass. After the Grissom Academy escape, Prangley asked her about her tattoos in general, and she mentioned that one specifically just to watch him choke on the question.",
+      "overrides": "no specific tattoo design or location established in the corpus",
+      "added": "2026-09-11"
+    },
+    {
+      "id": "shepard-death-unconfirmed",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "london-conduit-assault"
+      ],
+      "statement": "In the first weeks after the war, Shepard's death is not confirmed to the crew. Anderson never saw him on the station. The Normandy crash-landed, there's been no word, and the crew takes that silence to mean he's dead: there's no body and no report. After a few months, Shepard is held to be dead by everyone, the crew included: the rubble has been cleared, what the Crucible did is better understood, and there was nowhere on the station he could have escaped to. There is still no body, so no burial. Shepard's lover puts his name on the Normandy's memorial wall, or chooses not to, and the crew holds a night of remembrance for him: to celebrate the man he was, to mourn him, or both.",
+      "overrides": "shepard_fate = Dead (synthesis) stated as settled fact",
+      "added": "2026-09-15"
+    },
+    {
+      "id": "shepard-name-from-the-reds",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Tenth Street Reds"
+      ],
+      "statement": "Shepard never had a first name. \"Shepard\" started as a mocking nickname the Tenth Street Reds gave him for his knack with people. He only took a surname because Alliance enlistment required one, and he kept that one as a screw-you to the Reds.",
+      "overrides": "Earthborn Shepard as the wiki describes it (first name player-chosen, surname by birth)",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "shepard-drinks-and-dances",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Shepard",
+        "Jack"
+      ],
+      "statement": "Shepard got clean of drugs but never stopped loving alcohol and parties. Jack thinks the good-guy act is just that, an act: in her telling he has turned up at every bar in the galaxy and calls each one his favorite, and he drinks and dances every time. He even did it on Omega, where somebody could have poisoned him. She calls him a drunk and a dumbass, and she's fond of him.",
+      "overrides": "corpus portrays Shepard's drinking and dancing only in scattered scenes",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "jack-teaches-shepard-to-dance",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Jack",
+        "Shepard"
+      ],
+      "statement": "Jack is teaching Shepard to loosen up when he dances, and she has dragged him into a mosh pit.",
+      "overrides": "no such relationship beat in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "kasumi-jack-poetry-jam",
+      "authority": "override",
+      "kind": "au",
+      "scope": [
+        "Kasumi",
+        "Jack",
+        "Grunt"
+      ],
+      "statement": "Kasumi and Jack hold poetry jams in secret. Grunt sometimes turns up to read excerpts from Hemingway.",
+      "overrides": "no such activity in the corpus",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "background",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's pre-service history.",
+      "answer": "Earthborn",
+      "detail": "Like to think that I was born in Normandie, in France, without parents. Joined the gang at a young age, had drugs issues, but Anderson got me out and put me in the N7 program."
+    },
+    {
+      "id": "profile",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's psychological profile / reputation.",
+      "answer": "Sole Survivor",
+      "detail": "Sole survivor of the thresher maw attack on Akuze — his entire squad died, he lived, and the guilt of that day never left him. It's the thing under the bravado: he half-believes he's owed a death he keeps not getting."
+    },
+    {
+      "id": "class",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's combat class.",
+      "answer": "Vanguard",
+      "detail": "Uses Biotic charges and shotguns extensively to kill everyone in sight"
+    },
+    {
+      "id": "gender",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's gender / pronouns.",
+      "answer": "Male",
+      "detail": ""
+    },
+    {
+      "id": "romance",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's romance(s) across the trilogy.",
+      "answer": "Jack, Tali, Kaidan, Thane",
+      "detail": "Depends on the run. But I stay faithful all trilogy long."
+    },
+    {
+      "id": "first_name",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's first name.",
+      "answer": "Thomas",
+      "detail": ""
+    },
+    {
+      "id": "alignment",
+      "authority": "choices",
+      "group": "shepard",
+      "prompt": "Shepard's overall morality lean across the trilogy.",
+      "answer": "mixed",
+      "detail": "Paragon, except against oppressors"
+    },
+    {
+      "id": "tali_geth_data",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Tali's Pilgrimage - the geth data (the Saren recording, Sovereign and the Conduit) she carried aboard the SR-1.",
+      "answer": "given to Tali",
+      "detail": "Shepard gave her a copy of the data for her Pilgrimage gift."
+    },
+    {
+      "id": "finch_weisman",
+      "authority": "choices",
+      "group": "me1",
+      "prompt": "Citadel - Finch's request to free Weisman, the Reds prisoner.",
+      "answer": "guard tipped off",
+      "detail": "Weisman wasn't freed; Shepard tipped the guard instead."
+    },
+    {
+      "id": "grunt_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Grunt's loyalty mission - the Rite of Passage on Tuchanka.",
+      "answer": "Freed him from the tank. Killed the Thresher Maw. He joined the Urdnot",
+      "detail": "Killing the maw made the Rite legendary; no one had done it since Wrex. Back on Tuchanka, EDI reported a pile of breeding requests for Grunt, and one for Shepard, which Grunt found hilarious."
+    },
+    {
+      "id": "jack_meeting",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The casual encounter Jack offers when first recruited.",
+      "answer": "Didn't follow it",
+      "detail": "She deserved more. Even in romance with her, I wait until the end of the game for the romance to complete"
+    },
+    {
+      "id": "jack_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Jack's loyalty mission - Aresh at the Pragia facility.",
+      "answer": "Saved Aresh",
+      "detail": "He was broken, and deserved help"
+    },
+    {
+      "id": "mordin_loyalty",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Mordin's loyalty mission - Maelon and the genophage data.",
+      "answer": "saved the data",
+      "detail": "He didn't kill his student and kept the data. That data is what let him cure the genophage later, and it is why Eve lived (see the me3 `genophage` entry)."
+    },
+    {
+      "id": "suicide_mission",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Who lived and who died in the Suicide Mission.",
+      "answer": "Nobody died",
+      "detail": "Jack held the Bubble, Kasumi went in the vent, Thane led the survivor back, Garrus and Miranda were Team leaders"
+    },
+    {
+      "id": "jack_miranda_dispute",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "The Jack and Miranda confrontation aboard the Normandy - whose side you took.",
+      "answer": "Appeased them both",
+      "detail": ""
+    },
+    {
+      "id": "lia_vael_theft",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Citadel Level 26 - Lia'Vael nar Ulnay, the quarian accused by Kor Tun of stealing his credit chit.",
+      "answer": "Cleared her and stood up for her",
+      "detail": "Shepard helped the accused quarian (recalled by the player as ME1; the corpus places it in ME2, scenes/citadel-crime-in-progress-lia-vael)."
+    },
+    {
+      "id": "kenn_omega",
+      "authority": "choices",
+      "group": "me2",
+      "prompt": "Omega - Kenn, the quarian stranded on his Pilgrimage at Kenn's Salvage.",
+      "answer": "direct_payment",
+      "detail": "Shepard paid Kenn's fare off Omega himself."
+    },
+    {
+      "id": "genophage",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The state of the genophage.",
+      "answer": "cured",
+      "detail": "Again, i'm no one to decide the faith of a species. And control of the autonomies of woman is worrying (see Francoise Verges). Eve lived."
+    },
+    {
+      "id": "grunt_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grunt and Aralakh Company at the Attican Traverse rachni mission.",
+      "answer": "Saved the Rachni. He got out Alive",
+      "detail": ""
+    },
+    {
+      "id": "citadel_dlc",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "The Citadel DLC outcome (the party, the clone, who showed up).",
+      "answer": "Calm, then energic mood. Everyone showed up. The clone died, by letting go when I tried to save him. Brooks didn't shoot me. Did all the missions. Garrus had its date. Joker told his story to impress people, and I lied with him. I let Garrus win the sniper contest. I helped Traynor win at space chess. Won against james at pull-ups. When doing a Jack romance, she tattoos my back ('to tell the galaxy I belong to her' and so she can find me under the rubbles)",
+      "detail": ""
+    },
+    {
+      "id": "shepard_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Shepard's fate at the end.",
+      "answer": "Dead (synthesis)",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy - Jack and the biotic students.",
+      "answer": "Student sent to the support lines, as per Jack's request.",
+      "detail": ""
+    },
+    {
+      "id": "grissom_academy_octavia_shield",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Grissom Academy escape - how Shepard got past Octavia's shield in the docking area.",
+      "answer": "talked her down",
+      "detail": "Shepard contacts Kahlee Sanders, who vouches for him, and Octavia lowers the shield without a fight."
+    },
+    {
+      "id": "tuchanka_bomb",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Priority Tuchanka - the genophage-project bomb.",
+      "answer": "Deactivated the bomb and told Wrex",
+      "detail": ""
+    },
+    {
+      "id": "mordin_fate",
+      "authority": "choices",
+      "group": "me3",
+      "prompt": "Mordin at the Shroud during the genophage cure.",
+      "answer": "died at the Shroud",
+      "detail": ""
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "title": "Grunt's Rite of Passage",
+      "kind": "ceremony",
+      "game": "Mass Effect 2",
+      "when": "2185, after Horizon, once Grunt is woken from his tank",
+      "where": "Tuchanka — Clan Urdnot's camp, then the Rite grounds",
+      "participants": [
+        "Shepard",
+        "Grunt",
+        "Urdnot Wrex",
+        "Gatatog Uvenk",
+        "the Urdnot Shaman",
+        "Gatatog Warriors"
+      ],
+      "private_to": [],
+      "heard_by": [
+        "Normandy crew"
+      ],
+      "requires": [
+        {
+          "grunt_loyalty": "any"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Grunt believes he is seriously ill and asks to be taken to Tuchanka for a diagnosis. Shepard takes it to the leader of Clan Urdnot.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_001",
+            "grunt-rite-of-passage_004"
+          ]
+        },
+        {
+          "text": "The Urdnot leader explains Grunt is not sick, only of the age to take the Rite of Passage, and sends the party to the clan Shaman. Gatatog Uvenk, a traditionalist from the Urdnot border camp, protests loudly that Grunt is tank-bred and has no right to the Rite, going over the leader's head to appeal directly to the Shaman, who is plainly irritated by him. Shepard makes Uvenk back down — either humbling him with words or answering his insults with a headbutt — by agreeing before the Shaman to serve as Grunt's krantt. Uvenk withdraws his objection but warns he will settle the matter elsewhere.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_004",
+            "gatatog-uvenk_003"
+          ]
+        },
+        {
+          "text": "The Rite runs in three waves, each summoned by striking the keystone. Varren first, in numbers.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_005",
+            "grunt-rite-of-passage_006"
+          ]
+        },
+        {
+          "text": "Second wave: klixen, fire-breathers, dropped in by harvester.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_007"
+          ]
+        },
+        {
+          "text": "Third is not a wave. It is a thresher maw, and it is meant to be survived rather than killed — the timer runs five minutes.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_008"
+          ]
+        },
+        {
+          "text": "The Rite over, a shuttle lands carrying Uvenk and several Gatatog Warriors. Uvenk offers to take Grunt into Clan Gatatog — but only as a trophy and an in-name-only member, to raise Uvenk's own standing. Grunt, his identity, krantt and lineage disrespected, violently rejects the offer, and whatever Shepard says the encounter ends in a firefight. Shepard kills Uvenk and all the Gatatog Warriors. On the Normandy afterward Grunt thanks Shepard and says plainly he is glad Uvenk is dead.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_009",
+            "gatatog-uvenk_003",
+            "gatatog-warrior_001"
+          ]
+        },
+        {
+          "text": "A cut Normandy conversation would have followed if Shepard had ordered Grunt not to speak for himself against Uvenk's offer rather than letting him answer. Grunt, now settled that his place as a krogan is real, tells Shepard he liked the Rite but still has a problem: making that decision for him \"was going too far,\" and if Shepard cannot trust him with Uvenk's clumsy offer, will there be a gun at his back against the Collectors? Unless Shepard takes a hard line, Grunt gets annoyed at every excuse offered — \"get consistent, Shepard... maybe I start thinking someone else should lead\" — though his loyalty is never actually at risk.\n",
+          "source_chunks": [
+            "mass-effect-2-cut-content-prologue-and-normandy-voicelines_011",
+            "grunt-rite-of-passage_016"
+          ],
+          "conditional": {
+            "grunt_uvenk_choice": "Shepard chose for Grunt"
+          },
+          "choice": "overruled Grunt on Uvenk's offer instead of letting him answer"
+        },
+        {
+          "text": "Grunt joins Clan Urdnot. The Shaman writes to Shepard afterwards.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_010",
+            "grunt-rite-of-passage_013"
+          ]
+        },
+        {
+          "text": "Wrex himself killed a thresher maw during his own Rite — the feat that made his name in Clan Urdnot.\n",
+          "source_chunks": [
+            "urdnot-wrex_002"
+          ]
+        },
+        {
+          "text": "If Shepard never runs the Rite, Grunt earns no clan and no krantt. In Mass Effect 3, if Shepard then spares the rachni Queen on Utukku during Attican Traverse: Krogan Team, Grunt dies covering her escape.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_011"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "condition": {
+            "wrex_virmire": "dead"
+          },
+          "choice": "Wrex dead — Wreav leads Clan Urdnot",
+          "text": "If Wrex was killed on Virmire or never recruited, the krogan who receives Shepard, explains that Grunt is not sick, and refers the party to the Shaman is his brother Wreav, not Wrex.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_004"
+          ]
+        },
+        {
+          "condition": {
+            "grunt_loyalty": "killed the thresher maw"
+          },
+          "choice": "killed the thresher maw",
+          "text": "Killing the maw outright rather than surviving the timer is the rarer outcome, and the one that gets talked about. When Uvenk arrives he first acknowledges Grunt's strength before making his trophy offer; if the maw was only survived, he instead tells Grunt he is impure and unworthy of any clan. Either way the offer ends in the fight that kills him.\n",
+          "source_chunks": [
+            "grunt-rite-of-passage_008",
+            "gatatog-uvenk_003"
+          ]
+        }
+      ],
+      "related_scenes": [
+        "citadel-grunt-csec-noodles",
+        "citadel-party-apartment",
+        "utukku-aralakh-company-rachni-confrontation",
+        "normandy-mordin-grunt-confrontation"
+      ],
+      "related_events": [],
+      "source_chunks": [
+        "grunt-rite-of-passage_001",
+        "grunt-rite-of-passage_004",
+        "grunt-rite-of-passage_005",
+        "grunt-rite-of-passage_006",
+        "grunt-rite-of-passage_007",
+        "grunt-rite-of-passage_008",
+        "grunt-rite-of-passage_009",
+        "grunt-rite-of-passage_010",
+        "grunt-rite-of-passage_011",
+        "grunt-rite-of-passage_013",
+        "grunt-rite-of-passage_016",
+        "gatatog-uvenk_003",
+        "gatatog-warrior_001",
+        "urdnot-wrex_002",
+        "mass-effect-2-cut-content-prologue-and-normandy-voicelines_011"
+      ]
+    }
+  ],
+  "attendance": {
+    "tuchanka-grunt-rite-of-passage": "heard"
+  },
+  "evidence": [
+    {
+      "chunk_id": "krogan_003",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "History",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Ancient krogan society was once rich with cultural, architectural, and artistic accomplishments. However, the krogan birth rate exploded despite the natural limits of their predatory homeworld once they achieved industrialization. Technology made life \"too easy\" for them, so when they looked for new challenges they found those in each other. Wars were fought over dwindling resources as the krogan expanded. Four thousand years ago, at the dawn of the krogan nuclear age, battles to claim the small pockets of territory capable of sustaining life escalated into full scale global war. Weapons of mass destruction were unleashed, transforming Tuchanka into a radioactive wasteland. The krogan were reduced to primitive warring clans struggling to survive a nuclear winter of their own creation, a state that continued until they were discovered by the salarians two thousand years later.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "msv-broken-arrow_004",
+      "kind": "page",
+      "page": "MSV Broken Arrow",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- In the US military, a \"Broken Arrow\" code can either mean that an accidental nuclear event happened that does not risk nuclear war or it can be a request to divert all nearby aircraft and artillery to support a friendly position in danger of being overrun by an enemy.",
+      "url": "https://masseffect.fandom.com/wiki/MSV_Broken_Arrow",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "the-art-of-the-mass-effect-trilogy-mass-effect-2_021",
+      "kind": "page",
+      "page": "The Art of the Mass Effect Trilogy/Mass Effect 2",
+      "section": "Tuchanka",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The top production painting was made to help the cinematic department understand the place where the player finds Wrex. The krogan, consumed by constant internal warfare, live in ruins, and Wrex sits on a throne surrounded by the rubble of his once\\-glorious civilization. The armored vehicle was originally a concept design for the vehicle that would become the Mako in the original *Mass Effect*, but was deemed too large. Here it was repurposed as a krogan vehicle, where it fit in perfectly. Its oversized tires helped it drive over rubble and war\\-torn terrain. On the facing page is concept art for the underground bunkers of Tuchanka, where the krogan took cover from nuclear war and the burning heat of the surface.",
+      "url": "https://masseffect.fandom.com/wiki/The_Art_of_the_Mass_Effect_Trilogy/Mass_Effect_2",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "rachni-wars_003",
+      "kind": "page",
+      "page": "Rachni Wars",
+      "section": "Uplifting the Krogan",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "This period saw the Citadel races fight a losing war against the rachni for nearly a century until the salarians \"culturally uplifted\" a new species, the krogan. The volatile krogan homeworld, Tuchanka, had been ravaged by a nuclear winter caused by a krogan civil war. The salarians helped the krogan by giving them advanced technology and relocating them to a planet not cursed with lethal levels of radiation, toxins or deadly predators. The true purpose of this salarian altruism soon emerged; the krogan were needed in the Rachni Wars as reinforcements. Unlike most Citadel species, the krogan had an extremely rapid breeding cycle. They had not only the numbers to drive the advancing rachni back, but the ability to endure the harsh conditions of the rachni planets.",
+      "url": "https://masseffect.fandom.com/wiki/Rachni_Wars",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "tuchanka_002",
+      "kind": "page",
+      "page": "Tuchanka",
+      "section": "Description",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Scarred by bombardment craters, radioactive rubble, choking ash, salt flats, and alkaline seas, **Tuchanka** can barely support life. Thousands of years ago, life grew in fierce abundance under the F\\-class star Aralakh (a Raik clan word meaning \"Eye of Wrath\"). Tree\\-analogues grew in thick jungles, their roots growing out of shallow, silty seas. Life fed upon life in an evolutionary crucible. This world died in nuclear firestorms after the krogan split the atom. A \"little ice age\" of nuclear winter killed off much of the remaining plant life. In recent centuries, many krogan have returned to their homeworld. The reduced albedo has caused global temperatures to rise. In order to maintain livable temperatures, a vast shroud was assembled at the L1 Lagrange point. It is maintained by the Council Demilitarization Enforcement Mission (CDEM), which is based on orbiting battlestations. CDEM ADVISORY: Visitors to Tuchanka land at their own risk. The CDEM will not attempt to extract citizens threatened by clan warfare. TRAVEL ADVISORY: The ecology of Tuchanka is deadly. Nearly every native species engages in some predatory behavior; even the remaining vegetation is carnivorous. Travel beyond guarded areas is strongly discouraged.",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-october-2010_007",
+      "kind": "page",
+      "page": "Cerberus Daily News - October 2010",
+      "section": "*10/06/2010 \\- Nuclear Holocaust Planet Discovered in Nubian Expanse*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“It was announced today that a deep\\-space mining ship stumbled upon a previously unknown world in the Nubian Expanse that appears to have suffered a nuclear holocaust. This planet, 433 Spidau, brings the number of known sapient species destroyed by nuclear war to seven. \"All evidence points to a massive exchange of nuclear weapons some 1,000 years ago. Scans indicate at least ninety cities reduced to rubble that still bear radioactive markers,\" said Narid Jarwinar of the Salarian Institute for Exo\\-Archeological Research. \"Reaching the nuclear threshold seems to be an important epoch in any civilization's evolution. This discovery is just another reminder that surviving the threshold is by no means guaranteed. Yet each race we discover is another potential treasure trove of new information and new ways of looking at the universe. It's also proof that every race \\-\\- even ones separated by vast gulfs of space \\-\\- face the same universal struggle for survival.\"”*",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_October_2010",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "tuchanka_003",
+      "kind": "page",
+      "page": "Tuchanka",
+      "section": "Codex Entry",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "#### Mass Effect 2 |  | Audio: Tuchanka (ME2\\) | | --- | --- | The krogan homeworld boasts extreme temperatures, virulent diseases, and vicious, predatory fauna. Around 1900 BCE, the krogan discovered atomic power and promptly instigated many intraplanetary wars, sending **Tuchanka** into a nuclear winter. With most of their industrial base destroyed, the krogan entered a new dark age and warring tribal bands dominated. Populations remained low for the next 2000 years. First contact with the salarians made resurgence possible. Krogan brought to less hostile planets bred exponentially and returned to reconquer their home. They built vast underground shelters to shield themselves from surface radiation, which proved prescient during the Krogan Rebellions when many of them isolated themselves in a vain attempt to avoid the genophage. Convinced they could outbreed the genophage, they transmitted it into more than 90 percent of the sealed bunkers. Today, Tuchanka's population is sharply limited and while individual krogan are long\\-lived, the genophage ensures few replacements. #### Mass Effect 3 |  | Audio: Tuchanka (ME3\\) | | --- | --- | Tuchanka, the krogan homeworld, boasts extreme temperatures, virulent diseases, and predatory fauna. Around 1900 BCE, the krogan discovered atomic weapons and promptly sent their planet into a nuclear winter. The majority of the population retreated to underground bunkers, and krogan culture slipped into a dark age dominated by tribal clans. In 80 CE, decades into the Rachni Wars, the Salarian Union made first contact with the primitive krogan and initiated a \"cultural uplift\" to shape them into a modern army capable of confronting the rachni. During this uplift, the salarians constructed the Shroud facility on Tuchanka to shield the planet from harmful forms of solar radiation. Later, during the Krogan Rebellions, reproductive rates were curtailed by the genophage, ensuring the krogan remained a species in decline\\-\\-and Tuchanka a desolate wasteland.",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "codex-planets-and-locations_025",
+      "kind": "page",
+      "page": "Codex/Planets and Locations",
+      "section": "Tuchanka",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "#### Mass Effect 2 |  | Audio: Tuchanka (ME2\\) | | --- | --- | The krogan homeworld boasts extreme temperatures, virulent diseases, and vicious, predatory fauna. Around 1900 BCE, the krogan discovered atomic power and promptly instigated many intraplanetary wars, sending Tuchanka into a nuclear winter. With most of their industrial base destroyed, the krogan entered a new dark age and warring tribal bands dominated. Populations remained low for the next 2000 years. First contact with the salarians made resurgence possible. Krogan brought to less hostile planets bred exponentially and returned to reconquer their home. They built vast underground shelters to shield themselves from surface radiation, which proved prescient during the Krogan Rebellions when many of them isolated themselves in a vain attempt to avoid the genophage. Convinced they could outbreed the genophage, they transmitted it into more than 90 percent of the sealed bunkers. Today, Tuchanka's population is sharply limited and while individual krogan are long\\-lived, the genophage ensures few replacements. #### Mass Effect 3 |  | Audio: Tuchanka (ME3\\) | | --- | --- | Tuchanka, the krogan homeworld, boasts extreme temperatures, virulent diseases, and predatory fauna. Around 1900 BCE, the krogan discovered atomic weapons and promptly sent their planet into a nuclear winter. The majority of the population retreated to underground bunkers, and krogan culture slipped into a dark age dominated by tribal clans. In 80 CE, decades into the Rachni Wars, the Salarian Union made first contact with the primitive krogan and initiated a \"cultural uplift\" to shape them into a modern army capable of confronting the rachni. During this uplift, the salarians constructed the Shroud facility on Tuchanka to shield the planet from harmful forms of solar radiation. Later, during the Krogan Rebellions, reproductive rates were curtailed by the genophage, ensuring the krogan remained a species in decline\\-\\-and Tuchanka a desolate wasteland.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Planets_and_Locations",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "summary:tuchanka",
+      "kind": "summary",
+      "page": "Tuchanka",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Tuchanka was the krogan homeworld, the fourth planet of the Aralakh System in the Krogan DMZ. Scarred by bombardment craters, radioactive rubble, choking ash, salt flats, and alkaline seas, it could barely support life. Thousands of years earlier, life had grown in fierce abundance under the F-class star Aralakh (a Raik clan word meaning \"Eye of Wrath\"), with tree-analogues in thick jungles rooted in shallow silty seas. The world died in nuclear firestorms around 1900 BCE after the krogan split the atom, and a \"little ice age\" of nuclear winter killed off most remaining plant life, collapsing krogan society into warring clans and a dark age that lasted roughly 2000 years.\n\nFirst contact with the salarians in 80 CE, during the Rachni Wars, made a krogan resurgence possible: krogan taken to less hostile worlds bred exponentially and returned to reconquer their home. They built vast underground bunkers against surface radiation, which proved prescient during the Krogan Rebellions when many sealed themselves in to avoid the genophage, convinced they could outbreed it; instead the genophage was transmitted into more than 90 percent of the sealed bunkers. During the salarian uplift the salarians also built the Shroud facility on Tuchanka to shield the planet from harmful solar radiation. By the time of the games, the genophage kept the population sharply limited, with few replacements despite krogan longevity.\n\nIn recent centuries many krogan returned; the reduced albedo raised global temperatures, so a vast shroud was assembled at the L1 Lagrange point, maintained by the Council Demilitarization Enforcement Mission (CDEM) from orbiting battlestations. CDEM advisories warned that visitors landed at their own risk and would not be extracted from clan warfare, and that nearly every native species, even the carnivorous vegetation, was predatory. Tuchanka was the first alien homeworld Shepard could visit. Missions set here included Grunt: Rite of Passage and Mordin: Old Blood in Mass Effect 2, and Priority: Tuchanka, Tuchanka: Bomb, and Tuchanka: Turian Platoon in Mass Effect 3.",
+      "url": "https://masseffect.fandom.com/wiki/Tuchanka",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "scene:normandy-campbell-westmoreland-cic-banter#03",
+      "kind": "scene",
+      "page": "The Privates on the War-Room Door",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-campbell-westmoreland-cic-banter",
+      "text": "The Privates on the War-Room Door. 2186, across the Reaper war, after each of Shepard's major missions the doors between the CIC and the conference and war rooms aboard the Normandy SR-2 Campbell watches vids of Kalros killing a Reaper Destroyer on Tuchanka and wishes she had been there. After the failed coup both curse Cerberus and Councilor Udina for conspiring with the terrorists. On the geth-quarian war they agree losing the Migrant Fleet's supply lines would lose the whole war.",
+      "url": "",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "scene:tuchanka-tarquin-victus-bomb#09",
+      "kind": "scene",
+      "page": "Tarquin Victus and the Kelphic Valley Bomb",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "tuchanka-tarquin-victus-bomb",
+      "text": "Tarquin Victus and the Kelphic Valley Bomb. 2186, Tuchanka, after Priority Sur'Kesh, when the turian 9th Platoon went down in the Krogan DMZ the platoon's crash site at the Downed Vessel, the Cerberus-held bomb site in the Kelphic Valley, then the Normandy War Room If Shepard did not reach the bomb in time — the mission was timed and failed permanently once three other missions were completed first — Cerberus detonated it. A large part of the krogan population died and the krogan War Asset was gutted; if Eve had survived Priority: Tuchanka she was killed rallying the clans in the Kelphic Valley. Shepard received furious threats of slaughter from Urdnot Wreav, or despondent messages from Urdnot Wrex about how many krogan had died.",
+      "url": "",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "summary:krogan",
+      "kind": "summary",
+      "page": "Krogan",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The krogan were large reptilian bipeds native to Tuchanka, a harsh world of scarce resources and vicious predators. They thrived there, but as their technology advanced their birth rate exploded and wars over dwindling territory escalated into a global nuclear war roughly four thousand years ago that left Tuchanka a radioactive wasteland and the krogan reduced to primitive warring clans. Two thousand years later the salarians discovered and \"uplifted\" them, relocating some krogan and giving them technology including the Shroud to stabilize Tuchanka's atmosphere, so that krogan numbers could be thrown against the rachni in the Rachni Wars. The rapidly breeding krogan drove back and eradicated the rachni, were hailed as saviors, granted conquered and Citadel worlds, and honored with the Krogan Monument on the Presidium.\n\nUnchecked by Tuchanka's conditions, the krogan population swelled and they forcibly seized inhabited worlds. When they settled the asari colony Lusia and Overlord Kredak defied the Council, the Krogan Rebellions broke out, lasting nearly three centuries. The krogan used redirected asteroids as weapons; in desperation the Council enlisted the Turian Hierarchy, who deployed the salarian-engineered genophage, causing near-total infant mortality (roughly one viable birth per thousand). The krogan surrendered, the turians gained a Council seat, and krogan numbers steadily declined, leaving a scattered, fatalistic people who mostly worked as mercenaries.\n\nKrogan biology featured redundant organs (two hearts, four lungs, four testicles, hence the slang \"quad\"), a neuroconductive backup circulatory system making them nearly impossible to paralyze, thick hazard-resistant hides, shoulder humps storing fluids, 240-degree vision, lifespans exceeding a thousand years, and a berserk \"blood rage.\" Culture prized strength, self-reliance and territory; the weak were \"not worth killing.\" Fertile females were prized, lived in separate clans, and were the level-headed counterparts to the males. Rites (Rite of Life, Passage, Honor, Firsts, Union, Authority) were preserved by the nameless clan shaman; the dead were consigned to the Void on funeral pyres or displayed as skulls in the sacred Hollows. Ancient deities included Vaul and Uzin. In 2185 Mordin Solus revealed the krogan were evolving against the genophage and his team applied a modified version. In the 2186 Reaper War, Shepard could cure the genophage at the Shroud (with Eve, Mordin or Padok Wiks) in exchange for krogan aid, or let the salarian sabotage stand; outcomes ranged from krogan repopulation under Urdnot Wrex to Urdnot Wreav being deceived. Separately, Clan Nakmor joined the Andromeda Initiative, later founded New Tuchanka on Elaaden under Overlord Nakmor Morda after a mutiny and a broken Nexus leadership deal.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "summary:aralakh",
+      "kind": "summary",
+      "page": "Aralakh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Aralakh was a gateway system that the krogan accorded a place of significance in their culture. The name meant \"eye of wrath\" in the krogan language and was also given to a place on Tuchanka and to an elite krogan warrior unit. Access to the system required prior completion of \"Mordin: Old Blood\" or \"Grunt: Rite of Passage\" in Mass Effect 2, and of \"Priority: Sur'Kesh\" in Mass Effect 3.\n\nAll of Aralakh's terrestrial worlds were inhospitable; even the krogan homeworld Tuchanka was barely livable by other species' standards. The Krogan Rebellions had stripped most of the system's resources for the war effort, though some deposits remained. The Council Demilitarization Enforcement Mission (CDEM) kept a careful watch on krogan hotspots to prevent another uprising like the Rebellions, and part of its role was regulating helium-3 fuel sales skimmed from the system's gas giants.\n\nThe planets orbiting the star Aralakh were Durak (first), Kanin (second), Kruban (third), Tuchanka (fourth), Ruam (fifth), and Vaul (sixth); the system also contained a mass relay and a fuel depot. Tuchanka was the focus of extensive gameplay content: in Mass Effect 2 it hosted the missions \"Grunt: Rite of Passage\" and \"Mordin: Old Blood\" and several assignments, and in Mass Effect 3 it hosted \"Priority: Tuchanka,\" \"Tuchanka: Bomb,\" \"Tuchanka: Turian Platoon,\" \"N7: Cerberus Attack,\" and Citadel-related missions.",
+      "url": "https://masseffect.fandom.com/wiki/Aralakh",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "scene:normandy-cic-door-bethany-sarah#03",
+      "kind": "scene",
+      "page": "Guarding the War Room Door",
+      "section": "banter",
+      "game": "Mass Effect 3",
+      "scene_id": "normandy-cic-door-bethany-sarah",
+      "text": "Guarding the War Room Door. 2186, throughout the Reaper War the door between the CIC and the conference/war rooms, SSV Normandy SR-2 After Eve is rescued from Cerberus on Sur'Kesh, Bethany feels the salarians should have defended their own homeworld better. After Tuchanka is resolved she is mainly relieved the turians and krogan are off the ship, and after the failed Cerberus coup on the Citadel she thinks Councilor Udina got what he deserved for dealing with terrorists. She finds it hard to only fight geth while the Reapers hold half the galaxy.",
+      "url": "",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "scene:tuchanka-hollows-eve-rallies-the-clans#01",
+      "kind": "scene",
+      "page": "Eve Rallies the Krogan Clans at the Hollows",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "tuchanka-hollows-eve-rallies-the-clans",
+      "text": "Eve Rallies the Krogan Clans at the Hollows. 2186, Tuchanka, delivering the genophage cure (Priority: Tuchanka) the Hollows, a sacred krogan meeting ground, then the stalled convoy road toward the Shroud With a Reaper Destroyer holding the Shroud, the plan was set — the krogan would hit the Reaper from the ground under turian air cover. Dalatrass Linron then contacted Shepard privately and revealed the Shroud had been sabotaged so no cure could ever disperse; she offered salarian war support if Shepard let the krogan believe a fake cure had gone out.",
+      "url": "",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "summary:elanos-haliat",
+      "kind": "summary",
+      "page": "Elanos Haliat",
+      "section": "",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Elanos Haliat was a turian pirate and prominent figure in the Terminus Systems. He was once the most powerful leader of the Terminus pirate bands and, with batarian funding, rallied the inhabitants of the Terminus Systems into a large assault on the human colony Elysium, an attack later known as the Skyllian Blitz, intended to boost his prestige. The Alliance repelled the Blitz and destroyed the pirate ships from orbit. The Terminus pirates blamed Haliat for the failure, stripped him of leadership, and he retreated to a remote world in disgrace.\n\nSeeking to regain his prestige by killing the first human Spectre, Haliat recovered an Alliance espionage probe left over from the First Contact War, carrying a heavy nuclear payload. He activated the probe's homing beacon and hid it in a mine on Agebinium, expecting the Alliance to send someone to retrieve it. When Commander Shepard arrived, Haliat waited until the team was inside, then detonated a seismic charge to trap them and activated the probe's nuclear payload with a ten-second countdown, taunting Shepard over a hologram (or blaming Shepard for his disgrace if the Commander was a War Hero). He stole Shepard's Mako and brought it to his camp, but Shepard's team had deactivated the nuke and escaped. Haliat and his followers attacked, and all the pirates, including Haliat, died in the firefight.\n\nIn gameplay Haliat had three bars of regenerating shields and health, could use Immunity, took cover and flanked, and switched between an assault rifle and a shotgun. He was originally intended as a turian but given a human model in the original game, with his turian identity restored in Mass Effect Legendary Edition. He was voiced by Gary Anthony Williams.",
+      "url": "https://masseffect.fandom.com/wiki/Elanos_Haliat",
+      "for_key": "Tuchanka nuclear war"
+    },
+    {
+      "chunk_id": "mail-mass-effect-datapad_040",
+      "kind": "page",
+      "page": "Mail (Mass Effect: Datapad)",
+      "section": "Wrex",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "- Damn. This BETTER cure the genophage. The salarian's \"procedure\" hurts like hell. - I know what you did. **Note:**  Only if Shepard sabotaged the genophage cure.",
+      "url": "https://masseffect.fandom.com/wiki/Mail_(Mass_Effect:_Datapad)",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-foundation-genophage-test#01",
+      "kind": "scene",
+      "page": "Testing the Genophage Strain",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "tuchanka-foundation-genophage-test",
+      "text": "Testing the Genophage Strain. during the genophage modification research campaign, before 2185 Tuchanka, deployment zone Mordin and Maelon, with Captain Chaleen's STG team, are deployed to Tuchanka to test the modified genophage strain. Maelon is tasked with carrying the heavy dispersal unit to the deployment zone. Mordin belittles Maelon's dexterity and charm, but Maelon proves surprisingly stronger and more capable than expected.",
+      "url": "",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-foundation-genophage-test#07",
+      "kind": "scene",
+      "page": "Testing the Genophage Strain",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "tuchanka-foundation-genophage-test",
+      "text": "Testing the Genophage Strain. during the genophage modification research campaign, before 2185 Tuchanka, deployment zone Mordin reassures Maelon about the dire galactic consequences of the krogan freed from the genophage. He acknowledges Maelon's point that he does not know if krogan would be reasonable in that scenario, but maintains that the risk of freeing them is too high. Maelon counters that he thinks risk is necessary in science.",
+      "url": "",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "codex-technology_011",
+      "kind": "page",
+      "page": "Codex/Technology",
+      "section": "The Genophage",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: The Genophage | | --- | --- | The genophage bioweapon was created to end the Krogan Rebellions. The turians fought the krogan to a standstill, but the sheer weight of krogan numbers indicated they could not be stopped through conventional means. The turians collaborated with the salarians to engineer a genetic counter to the krogan's rapid breeding. The genophage virus replicated by 'eating' key genetic sequences, altering every cell of krogan physiology so the krogan could not use gene therapy to fix the affected tissues. Once a genophage strain could replicate no more, it would starve and die, limiting mutation and contamination. In addition, the 'created' genetic flaw is hereditary. The resulting mutation made only one in a thousand krogan pregnancies carry to term, reducing offspring viability rather than fertility. Krogan warlords fought battles over the females able to carry children to term. The release of the genophage is still controversial and bitterly debated in many circles.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Technology",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-mordin-and-the-shroud#03",
+      "kind": "scene",
+      "page": "Mordin Goes Up the Shroud",
+      "section": "mission-aside",
+      "game": "Mass Effect 3",
+      "scene_id": "tuchanka-mordin-and-the-shroud",
+      "text": "Mordin Goes Up the Shroud. 2186, the genophage cure the Shroud tower, Tuchanka If he sang for Shepard during the Collector business, he dies singing \"Scientist Salarian\", at peace with the genophage work at last.",
+      "url": "",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "genophage_001",
+      "kind": "page",
+      "page": "Genophage",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The **genophage** was a biological weapon deployed against the krogan by the turians during the Krogan Rebellions. It was designed to severely reduce krogan numbers by \"infecting\" the species with a genetic mutation. *See also: Codex: Genophage, Diseases*",
+      "url": "https://masseffect.fandom.com/wiki/Genophage",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "priority-sur-kesh_001",
+      "kind": "page",
+      "page": "Priority: Sur'Kesh",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Before they will help with the war effort, the krogan have demanded a cure for the genophage, the sterility plague infecting their species. Go to the salarian homeworld of Sur'Kesh and safely extract the krogan females who hold the key to the genophage cure.",
+      "url": "https://masseffect.fandom.com/wiki/Priority:_Sur'Kesh",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "scene:tuchanka-foundation-genophage-test#02",
+      "kind": "scene",
+      "page": "Testing the Genophage Strain",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "tuchanka-foundation-genophage-test",
+      "text": "Testing the Genophage Strain. during the genophage modification research campaign, before 2185 Tuchanka, deployment zone When the team discovers the deployment zone contains hostile krogan, Maelon suggests setting up the device where they are hiding. Mordin insists on proper placement. They are discovered moments later and fired upon, barely escaping.",
+      "url": "",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "codex-aliens-non-council-races_033",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Council Races",
+      "section": "Krogan: Genophage",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "The genophage bioweapon was created to end the Krogan Rebellions. From the start, the krogan had overwhelmed the Council. Only timely first contact with the turians saved the Council races. The turians fought the krogans to a standstill, but the sheer weight of krogan numbers indicated the war could not be won through conventional means. The turians collaborated with the salarians to genetically engineer a counter to the rapid breeding of the krogan. The genophage virus gained the energy to replicate by \"eating\" key genetic sequences. Every cell in every krogan had to be altered for the weapon to be foolproof; otherwise the krogan could have used gene therapy to fix the affected tissues. Once a genophage strain could find no more genes to eat, it would starve and die, limited spin\\-off mutation and contamination. This \"created\" genetic flaw is hereditary. The salarians believed the genophage would be used as a deterrent, a position the turians viewed as naive. Once the project was complete, the turians mass produced and deployed it. The krogan homeworld, their colonies, and all occupied worlds were infected. The resulting mutation made only one in a thousand krogan pregnancies carry to term. It did not reduce fertility, but offspring viability. The rare females able to carry children to term became prizes the krogan warlords fought brutal battles over. The krogan are a shadow of their former glory. While the Rebellions took place centuries ago, they are constantly reminded of the horror of the genophage and of their inability to counter it. The release of the genophage is still controversial, bitterly debated in many circles.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Council_Races",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "diseases_015",
+      "kind": "page",
+      "page": "Diseases",
+      "section": "Genophage",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- **Affected species**: krogan - **Characteristics**: The genophage was a salarian\\-engineered bio\\-weapon created to drastically reduce the growth of the krogan population. It was deployed by the turians, successfully bringing about the end of the Krogan Rebellions. The genophage induced mutations in the krogan's genetic structure which reduced the viability of pregnancies, resulting in the majority of krogan offspring being stillborn.",
+      "url": "https://masseffect.fandom.com/wiki/Diseases",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "virmire_005",
+      "kind": "page",
+      "page": "Virmire",
+      "section": "Assignments",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- *Assignment:* Virmire: Assisting Kirrahe's Team - *Assignment:* Virmire: Wrex and the Genophage",
+      "url": "https://masseffect.fandom.com/wiki/Virmire",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "maelon-heplorn_003",
+      "kind": "page",
+      "page": "Maelon Heplorn",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "In 2185, Maelon is reported as captured by krogan warriors from Clan Weyrloc attempting to reverse the effects of the genophage virus. Mordin requests the aid of Commander Shepard in retrieving Maelon from his captors. Upon confronting Maelon, it becomes apparent that he is not working under duress and instead volunteered his services to the krogan. He expresses extreme guilt for his work on the genophage, which he considers to be a form of cultural genocide. He admits that the only reason he went along with the genophage modification project in the first place was because he believed that his mentor knew best. Maelon claims that, despite the genophage, the universe is no less chaotic, citing the batarian and geth attacks. He points out how male krogan fight over fertile females and become mercenaries or pirates because they have no alternative. They'd be thriving in a cultural renaissance if salarians didn't think to \"play God\". Maelon also claims that if the Council had a krogan army, they could have stopped Saren and the geth at Eden Prime. His reasoning is that an increased krogan population would've compelled the Council to take certain steps, consider colonial rights and have their fleets become more vigilant. Mordin dismisses this as pure speculation, and insists that their work on the genophage was correct given the verified data. Mordin and Shepard put a stop to Maelon's experiments. Mordin is infuriated at Maelon's betrayal and his unethical experiments and tries to shoot him. Shepard can intervene, reminding Mordin he is not a murderer, or let Maelon die. If Maelon is allowed to live, Mordin suggests that he go to Omega and run his own clinic. Furthermore, Maelon won't be able to restart his work, for STG can cover their tracks, and other krogan would not be willing to believe that he could cure the genophage and would likely kill him on sight. As Maelon leaves, he tells Mordin that the genophage needs to end. Shepard also makes the decision on retaining Maelon's research data or destroying it. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Maelon_Heplorn",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "summary:tolan",
+      "kind": "summary",
+      "page": "Tolan",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Lieutenant Tolan was a member of the salarian Special Tasks Group. He met Shepard on Sur'Kesh in Mass Effect 3 only if Kirrahe had not survived the events on Virmire in 2183, effectively taking Kirrahe's narrative place. Tolan was part of the STG squad that rescued Eve and the other female krogan who had been cured of the genophage through Maelon's experiments.\n\nTolan initially seemed pleased to meet Shepard but refused to shake the Commander's hand, voicing misgivings about curing the genophage. As he talked, he revealed doubt and suspicion toward Shepard, particularly regarding Shepard's determination to fight the Reapers. He expressed an isolationist and imperialist outlook resembling his government's stance on the Reaper threat, lamenting that the revelation of the cured krogan would force the salarians into the war. He admitted he had wanted to execute the female krogan to keep the genophage cure secret, but was overruled by the scientists on his team. Tolan and his team later joined the war effort.",
+      "url": "https://masseffect.fandom.com/wiki/Tolan",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "summary:chief-weyrloc-guld",
+      "kind": "summary",
+      "page": "Chief Weyrloc Guld",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Chief Weyrloc Guld was the krogan leader of Clan Weyrloc on Tuchanka, determined to cure the genophage at any cost, including experimenting on humans and on willing members of his own clan. In 2185, while aiding Mordin Solus during his loyalty mission, Commander Shepard entered the Weyrloc base to rescue Maelon, Mordin's former student, who was in fact voluntarily carrying out the genophage-cure research. Guld sent a messenger offering to let Shepard leave unharmed so the Commander could spread word that Clan Weyrloc would rise above all clans and dominate the galaxy; instead, Shepard killed the Weyrloc soldiers in the way and then killed Guld himself. The Chief Scout at the main Urdnot camp said Guld's followers regarded him as a leader with a destiny because he had two living children, one of them a girl; having even one surviving child was unlikely under the genophage, and having two was read by some as a sign, though the Chief Scout dismissed it as luck. In battle, Guld wielded an M-300 Claymore heavy shotgun and could use Warp, and like all krogan he had a strong biotic barrier, heavy armor, high health, a charge attack, and rapid regeneration. The battlefield held numerous explosive canisters that could be used against him.",
+      "url": "https://masseffect.fandom.com/wiki/Chief_Weyrloc_Guld",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "summary:mordin-old-blood",
+      "kind": "summary",
+      "page": "Mordin: Old Blood",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Mordin: Old Blood was Mordin Solus's loyalty mission in Mass Effect 2, unlocked after Horizon when Mordin learned that Blood Pack mercenaries had captured his former protege Maelon on Tuchanka. Maelon had helped Mordin modify the genophage, so his capture raised security concerns. Shepard travelled to Clan Urdnot's base, where the clan leader was Wrex or Wreav depending on the Virmire outcome. Wrex was seen dismissing the rival emissary Gatatog Uvenk. The Chief Scout revealed that Clan Weyrloc held Maelon in a hospital converted into a fortress and asked Shepard to look for a missing scout, Urdnot Darg.\n\nShepard's squad fought through Blood Pack Boom-Squads, Pyros, Troopers, klixen and varren outside and inside the hospital. Along the way conversations with dead bodies prompted Mordin to reflect on his role in the genophage, his hatred of live experimentation, and religion; a female krogan corpse who had volunteered for fertility experiments and died of tumors deeply affected him. A Weyrloc Clanspeaker monologued about curing the genophage, enslaving salarians and sending the Citadel \"into the sun,\" and could be killed by a Renegade interrupt igniting a gas pipe. Darg could be persuaded to abandon the krogan and return to Urdnot as a warrior. After defeating Chief Weyrloc Guld, Shepard found Maelon unharmed and working willingly out of guilt, believing curing the genophage was worth any cost. Mordin drew a gun on Maelon; a Paragon interrupt spared him. Shepard then directed Mordin to destroy Maelon's research data or preserve it (to help the krogan or \"just in case\").\n\nConsequences: Urdnot grew stronger, adopting Weyrloc survivors under Wrex or raiding their stockpiles under Wreav. In Mass Effect 3, saved data let Mordin stabilize Eve so she survived Priority: Tuchanka; destroyed data caused Eve's death. With Wrex dead and data unsaved, Mordin could still be talked down; otherwise he sacrificed himself dispersing the cure or was killed by Shepard. Rewards included the Neural Shock power, Krogan Vitality and Heavy Weapon Ammo upgrades. A grateful Darg later emailed Shepard from the female camp.",
+      "url": "https://masseffect.fandom.com/wiki/Mordin:_Old_Blood",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "summary:clan-weyrloc",
+      "kind": "summary",
+      "page": "Clan Weyrloc",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Clan Weyrloc was a large krogan tribe on Tuchanka, tied to the Blood Pack because the Blood Pack's founder had been a chief of the clan. In 2185 the clan was based in a hospital, awaiting results from a project to cure the genophage. Clan Weyrloc planned to expand its numbers to overcome Clan Urdnot and then launch a war against the rest of the galaxy. Commander Shepard's team fought through clan members, killing Chief Weyrloc Guld, while making their way to rescue Maelon, Mordin Solus's student. Maelon was in fact helping Weyrloc willingly, believing the clan was willing to do whatever was necessary to cure the genophage, even experimenting on humans and on their own kinsmen. After Maelon's research was stopped, Clan Urdnot largely absorbed the remnants of Clan Weyrloc if Urdnot Wrex led it, or wiped them out if Urdnot Wreav led it. Despite the death of Weyrloc Guld and most of his lieutenants and the further losses to Clan Urdnot, the clan survived as a shadow of its former glory. If Maelon had not been killed by Mordin, the remaining clan members blamed him for their downfall and put a bounty on his head, forcing him into hiding; after the genophage was cured, Maelon messaged Shepard hoping the clan would now leave him alone. Known members included Chief Weyrloc Guld, the Weyrloc Clanguard, and the Weyrloc Clanspeaker. A cut quest, Tuchanka: Female Quest, would have tied the clan to raids that killed Clan Urdnot females, prompting Clan Urdnot retaliation.",
+      "url": "https://masseffect.fandom.com/wiki/Clan_Weyrloc",
+      "for_key": "genophage"
+    },
+    {
+      "chunk_id": "thresher-maw-enemy_007",
+      "kind": "page",
+      "page": "Thresher Maw (enemy)",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "*See also: Grunt: Rite of Passage* As part of Clan Urdnot's Rite of Passage, a single thresher maw must be fought on foot by Grunt and his krantt on Tuchanka.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#09",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Wrex himself killed a thresher maw during his own Rite — the feat that made his name in Clan Urdnot.",
+      "url": "",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "thresher-maw_005",
+      "kind": "page",
+      "page": "Thresher Maw",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A thresher maw shows up during Grunt's Rite of Passage into Clan Urdnot after all other predators have been neutralized. Lured to the proving grounds by persistent ground pounding by a giant piston in the complex, the maw proceeds to attack Grunt's krantt as the final test of the krogan's skill. If the thresher is slain within a set time limit, Gatatog Uvenk informs Shepard that no krogan has slain a thresher maw on foot in generations; the last one to accomplish this feat was Urdnot Wrex. EDI also tells Shepard that defeating the thresher maw has generated several breeding requests for Grunt and even one for Shepard. Jubilant krogan in the Urdnot Camp can be heard exclaiming that they will be eating \"thresher steaks\" for months. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#05",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Third is not a wave. It is a thresher maw, and it is meant to be survived rather than killed — the timer runs five minutes.",
+      "url": "",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "krogan_013",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "Language",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Little is known about krogan language except for a few non\\-translatable terms. Some terms are specific to certain krogan clans, such as \"Aralakh\", which was taken from Clan Raik. Known krogan words are listed below. - *Aralakh* \\- \"Eye of Wrath\" - *hrakhor* \\- pejorative, referring to unskilled henchmen by context - *korbal* \\- roughly, \"victory or death\" - *krantt* \\- a warrior's most trusted allies - *ru'shan* \\- \"Child of my Blood\" - *ruzad* \\- \"judge\" - *Trobror* \\- \"cinder\" or \"ash heap\" Krogan names are composed of two parts, a clan name followed by a given name. At birth, krogan are identified by their given name only. A clan name is bestowed after krogan complete the rite of passage of the clan they wish to join. While krogan actions speak louder than words, linguistic quirks are not unknown to them. Known krogan idioms include \"like a thresher maw pet\", indicating something is unpredictable.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "summary:grunt-rite-of-passage",
+      "kind": "summary",
+      "page": "Grunt: Rite of Passage",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Grunt: Rite of Passage was Grunt's loyalty mission in Mass Effect 2, available after Horizon once Grunt had been woken following Dossier: The Warlord. In the Normandy cargo hold, Grunt paced restlessly and told Shepard his desire to destroy and kill had become an involuntary compulsion; he asked to be taken to Tuchanka because EDI lacked krogan medical records, which the krogan fiercely guarded after the salarians used them to build the genophage.\n\nOn Tuchanka, Shepard spoke with the leader of Clan Urdnot, either Wrex or (if he died on Virmire or was never recruited) his brother Wreav, who explained that Grunt was not sick but of the age to undergo the krogan Rite of Passage, and referred the party to the clan Shaman. Gatatog Uvenk protested Grunt taking the Rite because he was tank-bred, but could be made to stand down. Shepard agreed to serve as Grunt's krantt and the Shaman sent the party to the traditional Rite grounds.\n\nThe Rite consisted of three waves triggered by activating a keystone: a swarm of varren, then fire-breathing klixen delivered by unkillable Harvesters, and finally a Thresher Maw that had to be survived for five minutes, with extra accolades for killing it. Killing the Maw earned the krogan's respect; it had not been done since Wrex's own Rite. Afterward Uvenk and his krantt appeared, offering to accept Grunt into Clan Gatatog as little more than a trophy; regardless of dialogue choice the encounter ended in a fight against Uvenk, who had barrier and armor, plus four Gatatog Warriors. Once they were defeated, the Shaman welcomed Grunt as a full member of Clan Urdnot and awarded a shotgun damage upgrade (Synchronized Pulsar), and Fortack's Database granted a discount. Grunt also unlocked the Fortification power. The Shaman later emailed Shepard demanding Grunt be kept alive for the krogan's survival. In Mass Effect 3, if this mission was not completed and Shepard spared the Rachni Queen during Attican Traverse: Krogan Team, Grunt would die.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "grunt-rite-of-passage_015",
+      "kind": "page",
+      "page": "Grunt: Rite of Passage",
+      "section": "Trivia",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "- This mission was written by Brian Kindregan and Lukas Kristjanson. - After this mission, if Shepard killed the Thresher Maw, several krogan will comment on the Thresher Maw Shepard killed, stating that it has not been done since Urdnot Wrex underwent the Rite himself. - Upon returning to Tuchanka after the mission, should Shepard have killed the Thresher Maw, EDI will report that there have been numerous breeding requests directed for Grunt and (to Grunt's amusement), one for Shepard. - During the fight with Uvenk, heading up the flight of stairs and examining the giant piston will reveal the words: \"Lots of very small text put something interesting here or whatever\" upside\\-down. |  | **The following information is drawn from cut content and is not to be considered canon in any way.** | | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "krogan_014",
+      "kind": "page",
+      "page": "Krogan",
+      "section": "Clans",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Krogan are divided into numerous clans. Membership in a clan allows a krogan to own property, join the army and apply to serve under a battlemaster. Clan diplomats represent the strength of their people to other clans, and thus make it their job to look intimidating lest their clan be targeted for conquest. Young krogan undergo a rite of passage that is overseen by a shaman respective to the clan the krogan wishes to join. In Clan Urdnot, this rite consists of battling various wild fauna on Tuchanka, ending with an encounter with a thresher maw. Merely surviving for five minutes is considered proof of worthiness, but killing the thresher maw increases the initiate's prestige and standing. In Clan Nakmor, it's claimed that it isn't so much a rite of passage as a \"death trip\", and surviving entails membership into the clan. Few outsiders have seen a rite of passage take place, even though there are no rules in krogan tradition that state that a non\\-krogan can't help with the undertaking of the rite by acting as the participant's krantt. Known krogan clans: - Clan Bragus \\- Bragus Thul plays as a quarterback in North\\-American\\-Union\\-Rules football. - Clan Dahmbra \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Drau \\- Drau Sorze is a \"ruzad\", or \"judge\", in the Republic of Ghurst on Tuchanka. - Clan Forsan \\- this clan's leader declared being hit by pyjak dung is grounds for executing the trader responsible for introducing them to Tuchanka. - Clan Ganar \\- Ganar Wrang, an exiled krogan battlemaster, founded the Blood Pack mercenary group. - Clan Gatatog \\- led by Gatatog Uvenk on Tuchanka. - Clan Graken \\- Graken Dhal, a warlord, involved in the bombardment of Digeris during the Krogan Rebellions. - Clan Gulnaz \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Hailot \\- clan leader Hailot Wrund controlled Garvug prior to the corporatist invasion in 2185\\. - Clan Jair \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Jorgal \\- a clan known to have one of the longest krogan breeding lines and oldest bloodlines. - Clan Jurdon \\- an enemy of Clan Urdnot on Tuchanka. - Clan Kariss \\- one of several minor clans with individuals that joined the Andromeda Initiative. - Clan Khel \\- Khel Burrum is a krogan competing at Pinnacle Station. - Clan Kohrr \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Kormer \\- one of several clans with individuals that joined the Andromeda Initiative. - Clan Korten \\- a clan known for making klixen\\-roasted varren jerky with their own signature pyjak sauce. - Clan Nakmor - Clan Quash \\- Quash Hurgott is a Blood Pack commander. - Clan Raik \\- source of the word \"Aralakh\", meaning \"Eye of Wrath\", which became the common name used by the galaxy to refer to Tuchanka's star. - Clan Ravanor \\- the clan runs a mining operation on Tuchanka; Warlord Ravanor Tusk is a clan member. - Clan Shath \\- Shath Norda survived a trip to the planet Kruban. - Clan Strogjaw \\- Strogjaw Grog is a member who joined then deserted the Andromeda Initiative. - Clan Talyth \\- a clan that attempted to rebuild a dreadnought on Tuchanka with the help of turian duarch Ellis Valterus. - Clan Thax \\- the clan of krogan businessman Thax Vorak. - Clan Urdnot - Clan Weyrloc - Clan Wik \\- one of several clans with individuals that joined the Andromeda Initiative.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "gatatog-uvenk_003",
+      "kind": "page",
+      "page": "Gatatog Uvenk",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | Uvenk resides in the Urdnot border camp, sticking close by the reiging clan leader. His traditionalist leanings have him voicing his opposition to the reformations initiated by Urdnot Wrex if he is the clan leader, claiming that they will only serve to weaken the krogan as a whole. On the other hand, if Urdnot Wreav is the clan leader, Uvenk is much more deferential and supportive of his chief's conservative stance. When Commander Shepard accompanies Grunt to complete his Rite of Passage, Uvenk insults Grunt for his status as a tank\\-bred krogan and vehemently opposes allowing him to join the ranks of Urdnot. When the Urdnot leader indicates preference for sending Grunt to the Rite, Uvenk tries to go around them and speak directly to the Urdnot Shaman, though his protests against allowing Grunt to undertake the Rite are met with irritation by the venerable Shaman. Shepard is able to make Uvenk back down after proving to the Shaman that they will support Grunt as his krantt, either by humbling Uvenk with words or answering his insults with a headbutt in the typical krogan fashion. Uvenk resentfully withdraws his denial for Grunt's Rite for the moment but threatens to settle the matter elsewhere. Shortly after the third and final battle of the Rite, a shuttle carrying Uvenk and several Gatatog Warriors arrives. If Shepard and Grunt completed the Rite of Passage by killing the Thresher Maw, Uvenk acknowledges the unquestionable proof of Grunt's strength and reveals his plan to convince Grunt to join Clan Gatatog, albeit as a trophy and in\\-name\\-only member, solely in order to increase Uvenk's own stature. Conversely, if the Rite was finished by surviving the Thresher Maw's attack without killing it, Uvenk merely tells Grunt that he is not worthy of joining a clan because he is impure. If Uvenk tries to recruit Grunt, his cynical overtures are violently rebuffed by Grunt, who has no interest in being used as a tool while having his identity, his krantt, and his lineage disrespected. Either way, a battle with the Gatatog warriors and Uvenk ensues which ends in their deaths. On the Normandy afterward, Grunt expresses his thanks to Shepard and his satisfaction at Uvenk's demise.",
+      "url": "https://masseffect.fandom.com/wiki/Gatatog_Uvenk",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#12",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds Killing the maw outright rather than surviving the timer is the rarer outcome, and the one that gets talked about. When Uvenk arrives he first acknowledges Grunt's strength before making his trophy offer; if the maw was only survived, he instead tells Grunt he is impure and unworthy of any clan. Either way the offer ends in the fight that kills him.",
+      "url": "",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "grunt-rite-of-passage_008",
+      "kind": "page",
+      "page": "Grunt: Rite of Passage",
+      "section": "Wave Three",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Thresher Maw! This is not so much a wave as it is a giant creature attack. There is only one Thresher Maw and the primary objective is simply to survive. All you have to do is survive the attack for five minutes and the test will be ended, though there are additional dialogue accolades if you succeed in taking it down. If you manage to kill the Thresher Maw, you gain the respect of the krogan and the Rite ends. The Thresher Maw moves around the outskirts of the map, but its trail of flying dirt clods is easy to follow when it dives back underground. The Thresher Maw can destroy the \"merely metal\" structures, so try to avoid those for cover and go for the sturdier stone/concrete pillars and walls instead. Its acid spit is an area of effect attack and will accurately shoot at you even if you're cloaked. The blue tongue is **not** a weak spot—shooting it does not cause any additional damage. **Combat Strategy:** There is one indestructible stone pillar on the low ground area of the level—to the right as you face out from the keystone—that you can use to take cover from the Maw from any direction it might appear. Additionally, there are two respawning thermal clips at the base of this pillar as well as easy access to a medi\\-gel and power cells on the higher ground that you can pick up from the edge of the raised area without needing to climb up. This is without a doubt the optimal place to fight the Maw, as all other locations will involve considerable running about when the Maw moves. Place your squadmates in cover behind the other two indestructible pillars on the high ground and they should also be safe and might even draw the Maw's fire giving you free rein. If a squadmate does go down it's not the end of the world: Shepard alone is more than enough to beat the Maw even on Insanity. **Combat Tips:** - The metal pillars can be destroyed by the Thresher Maw in one hit, but any cover made of stone/concrete is not destructible. You should always try to interpose indestructible cover between yourself and the Maw. The Maw's spit projectile does have an area of effect so try to be as completely in cover as possible when the Maw attacks to ensure you are not hit. - Shepard's shields take longer than usual to recover after an acid hit, so be careful. On the plus side it takes about three consecutive hits to kill Shepard even on Insanity. Don't hesitate to use a medi\\-gel to quickly restore your shields (provided you have the Emergency Shielding medi\\-gel upgrade). - A well\\-upgraded heavy pistol is more than sufficient to take out the Maw as long as you take advantage of respawning thermal clips to keep replenishing its ammo. - On Insanity, the Thresher Maw's sheer amount of health makes using heavy weapons inefficient. Conventional weapons modded with anti\\-armor ammo powers are your best bet. - Though nominally ineffective against armor, Grunt's Concussive Shot can still \"stagger\" the Maw, reducing the number of acid shots it will take before retreating. - Zaeed's Inferno Grenade, Mordin's Incinerate, and Samara's Reave are examples of good squadmate attacks to use. Using weapons with high armor penetration such as the Widow, M\\-76 Revenant, M\\-96 Mattock, or most pistols will help a lot. - The Cain will usually only damage half the Thresher Maw's health on Insanity. - The Thresher Maw is immune to the effects of Stasis.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "cerberus-daily-news-november-2010_013",
+      "kind": "page",
+      "page": "Cerberus Daily News - November 2010",
+      "section": "*11/12/2010 \\- Photo Revives Debate Over Tuchanka's \"Colossal Thresher Maw\"*",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "*“A photo taken by Clan Ravanor miners during a drilling operation on the krogan homeworld of Tuchanka is reigniting debate on the existence of a colossal thresher maw. The photo, now being viewed widely on the extranet, adds to a long line of evidence that skeptics call an old and treasured hoax \\-\\- and believers call irrefutable proof. For centuries, krogan settlements bordering Tuchanka's deserts have told stories of entire clans swallowed by this colossal thresher maw. While locals claim the ancient creature is real, no outside sources have confirmed the beast's existence.”*",
+      "url": "https://masseffect.fandom.com/wiki/Cerberus_Daily_News_-_November_2010",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "summary:gatatog-uvenk",
+      "kind": "summary",
+      "page": "Gatatog Uvenk",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Gatatog Uvenk was a krogan battlemaster and leader of Clan Gatatog on Tuchanka in 2185. A traditionalist who championed the warrior culture that drove the Krogan Rebellions, he believed Clan Gatatog stood at a turning point between renewed power and glory or fading into history, and so allied his people with the dominant Clan Urdnot to curry favor with its leader. He resided at the Urdnot border camp. If Urdnot Wrex led the clan, Uvenk openly opposed his reforms as weakening the krogan; if Urdnot Wreav led, Uvenk was deferential and supportive.\n\nWhen Commander Shepard accompanied Grunt to complete his Rite of Passage, Uvenk insulted Grunt as a tank-bred krogan and opposed his joining Urdnot, appealing directly to the Urdnot Shaman, who was irritated by his protests. Shepard made Uvenk back down by proving the team would serve as Grunt's krantt, either humbling him with words or answering with a headbutt; Uvenk withdrew his objection but vowed to settle the matter elsewhere. After the final battle of the Rite, Uvenk arrived by shuttle with several Gatatog Warriors. If Grunt had killed the thresher maw, Uvenk acknowledged his strength and offered him in-name-only membership in Clan Gatatog as a trophy to boost Uvenk's own stature; if the maw was merely survived, Uvenk dismissed Grunt as impure. Grunt violently rejected the offer, and a battle ensued that ended in the deaths of Uvenk and his warriors. Grunt afterward thanked Shepard and expressed satisfaction at Uvenk's death. Uvenk said: \"Aliens don't know strength. My followers are true krogan. Everything about Grunt is a lie.\" In combat he hung back using Warp while his warriors charged, wielding an M-300 Claymore heavy shotgun, a biotic Barrier, and armor. He wore modified Battlemaster Armor from the Geth Armory and was voiced by Michael Dorn.",
+      "url": "https://masseffect.fandom.com/wiki/Gatatog_Uvenk",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "summary:thresher-maw",
+      "kind": "summary",
+      "page": "Thresher Maw",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Thresher maws were enormous subterranean carnivores that spent their lives eating or hunting for food, bursting from the ground without warning when disturbed. They reproduced via spores that could lie dormant for millennia and survive deep space and atmospheric re-entry, so maw spores appeared on many worlds, spread by earlier generations of space travelers, possibly predating the asari.\n\nThey lived alone in large underground nests, growing over 30 meters above ground with a body nearly twice that size beneath the surface; an adult's body never fully left the ground, with only the head and tentacles erupting to attack. They fed through an unusual photosynthesis using absorbed solar radiation plus minerals and ores consumed from the ground, favoring bodies with little or no atmosphere. Mostly immobile above ground, they moved at high speed while burrowing, absorbed tremendous damage, and attacked by spitting viscous acid, bursting up beneath prey, and smashing targets with their claws while emitting infrasound. Shields were completely ineffective against them.\n\nThe Alliance first encountered thresher maws on the colony of Akuze in 2177, where they killed nearly an entire marine rescue force. If Shepard has the Sole Survivor background, Shepard alone survived; Corporal Toombs, met later on Ontarom, claimed Cerberus deliberately caused the Akuze massacre to study the maws and held him captive for experiments, and Cerberus later used the same tactic to lure Admiral Kahoku's team into a nest on Edolus. Maws are found on many uncharted worlds, usually one per planet, including Antibaar, Chohe, Nepheron, Nonuel, Presrop, Xawin, Trebin and Edolus.\n\nIn Mass Effect 2, a thresher maw is the final test of Clan Urdnot's Rite of Passage on Tuchanka, lured to the proving grounds by ground-pounding pistons to attack Grunt's krantt. Gatatog Uvenk notes that the last krogan to kill a maw on foot was Urdnot Wrex. In Mass Effect 3, Kalros, a legendary maw called \"the mother from which all other thresher maws spawn\" and the largest ever seen, roams Tuchanka near the Shroud facility. Shepard activates two maw hammers to summon her against a Reaper Destroyer guarding the Shroud; she coils around it and drags it underground. Her size prompts Javik to remark that maws are now too big to ride, implying they were smaller in Prothean times. The concept was confirmed by art director Derek Watts to draw on Dune's sandworms, and also resembles D&D Ankhegs, the Star Wars Sarlacc, and the real Bobbit worm.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#10",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds If Shepard never runs the Rite, Grunt earns no clan and no krantt. In Mass Effect 3, if Shepard then spares the rachni Queen on Utukku during Attican Traverse: Krogan Team, Grunt dies covering her escape.",
+      "url": "",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "summary:thresher-maw-enemy",
+      "kind": "summary",
+      "page": "Thresher Maw (enemy)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This page collects gameplay information and combat tactics for fighting thresher maws as enemy units in Mass Effect and Mass Effect 2, as opposed to the general lore page.\n\nIn Mass Effect, thresher maws appear on uncharted worlds and can be fought in the Mako or on foot. Their nests are identifiable by a roughly 50–75 meter circular area of flat ground with low hills and shallow pits; maws only surface on the flat portions and retreat underground if the player leaves the circle for about five seconds. The page stresses never driving into or meleeing a maw, since its claws can cause instant death, and that its acid spit bypasses shields entirely and can destroy the Mako or kill Shepard in one hit. Recommended tactics include keeping distance, circle-strafing or using the Mako's boosters to hop over each acid projectile while firing, and using cover behind hills. A quirk let players kill the same maw twice for double experience by killing it before its health bar appeared. In the Legendary Edition, maws spit a spread of acid balls that lead the target, stay underground longer with a visible dirt trail, and can deploy immobile Sensory Tentacles; killing in the Mako no longer carries an experience penalty, and maws do not heal when the player withdraws.\n\nIn Mass Effect 2, a single thresher maw must be fought on foot by Grunt and his krantt during Clan Urdnot's Rite of Passage on Tuchanka. It stays outside the playable area, lobbing fast high-damage acid blobs that delay shield and health regeneration, and periodically dives and tunnels to a new position. It has heavy armor with no weak points (the blue tongue and mouth take no bonus damage) and is immune to Stasis. Effective options include Warp, Reave and Incinerate against its armor, stone pillars for cover, well-upgraded heavy pistols such as the M-5 Phalanx or M-6 Carnifex, upgraded sniper rifles, and heavy weapons like the M-920 Cain or Collector Particle Beam.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "krogan Rite of Passage thresher maw"
+    },
+    {
+      "chunk_id": "summary:grunt",
+      "kind": "summary",
+      "page": "Grunt",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Grunt was a genetically engineered krogan super soldier, bred and educated in a tank on Korlus by the krogan warlord Okeer. Okeer had once sought a cure for the genophage but grew disillusioned, believing it had reduced krogan identity to mere survival, and instead pursued a genetically perfect warrior. With Collector assistance he rejected thousands of flawed specimens before producing his ideal prototype, whose genome incorporated traits from renowned krogan including Shiagur, Kredak, Moro, Terg, Wrend, and Veeoll. Okeer died from toxins released by the Blue Suns mercenary Jedore, and Commander Shepard, who had come to recruit Okeer, instead took the tank aboard the Normandy SR-2.\n\nWhen Shepard released him, the newly awakened krogan pinned Shepard to a wall and demanded a name before killing the Commander. He took \"Grunt\" from one of the last words in Okeer's final message, saying, \"It has no meaning. It'll do.\" Shepard could persuade him to join the mission against the Collectors or shoot him into submission. Lacking a krogan upbringing, Grunt was violent, impulsive, and prone to charging recklessly, but was a formidable asset for his strength and fighting prowess. He harbored doubt over being tank-bred, considering himself weak for being given strength, and often sought Shepard's guidance, calling Shepard \"battlemaster\" once loyal.\n\nFor his loyalty, after Grunt became anxious and irrational, EDI or Kelly Chambers alerted Shepard; the condition was the krogan equivalent of puberty. Shepard took him to Tuchanka and Clan Urdnot, where he completed a Rite of Passage with Shepard as his krantt to earn clan membership.\n\nIn Mass Effect 3, provided Grunt was released from his tank and survived the Collector base, he returned commanding Aralakh Company, Clan Urdnot's best unit. He helped Shepard investigate missing squads in the tunnels of Utukku, where they found a brood of rachni twisted by Reaper technology. If Shepard spared the Rachni Queen, Aralakh Company was left to cover her escape and was slaughtered, and Grunt died unless his loyalty had been secured; if Shepard abandoned the queen, Grunt ordered a retreat and survived regardless, limping out asking for food. A survived Grunt contributed to the war effort, sent a drunken misspelled message, and could speak to Shepard on Earth before the final push, thanking the Commander for getting him out of the tank. If Grunt survived, the genophage was cured, and organics and synthetics were not merged, he and a surviving Wrex were welcomed home to Tuchanka as heroes. If he died or was never freed, his role was filled by Urdnot Dagg. In the Citadel DLC, Grunt was detained by C-Sec after a drunken rampage, could fight in the Armax Arsenal Arena, and appeared at Shepard's party. Steve Blum voiced Grunt.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "scene:korlus-okeer-and-grunt#04",
+      "kind": "scene",
+      "page": "Okeer's Legacy on Korlus",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "korlus-okeer-and-grunt",
+      "text": "Okeer's Legacy on Korlus. 2185, after Freedom's Progress Jedore's Blue Suns camp and Okeer's cloning lab on Korlus; then the Normandy Okeer reveals he has been mass-producing and flash-indoctrinating tank-bred krogan in search of the \"perfect\" specimen, handing his rejects to Jedore as an army she cannot command, and wants to trade his Collector knowledge for escape. Jedore announces over the PA that Okeer released the krogan without authorisation and begins pumping krogan-killing gas into the facility; Okeer stays behind to protect the tank holding his legacy.",
+      "url": "",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "summary:dossier-the-warlord",
+      "kind": "summary",
+      "page": "Dossier: The Warlord",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "\"Dossier: The Warlord\" was a Mass Effect 2 recruitment mission, available after Freedom's Progress as part of the Illusive Man's first set of dossiers. Dr. Okeer was described as a brilliant, brutal krogan warlord who had fought in the Krogan Rebellions, become obsessed with saving the krogan from the genophage, and was believed to have contacted the Collectors for technology to that end. He was operating from a Blue Suns camp on Korlus commanded by Jedore.\n\nFighting through Blue Suns forces (Troopers, Legionnaires, Centurions, and rocket-firing Heavies), Shepard's squad encountered a \"Tank-Grown Krogan,\" only seven days old, one of Okeer's many rejected creations. He opened a path into the research base but would not accompany the squad. Inside, if Shepard had spared Rana Thanoptis on Virmire, she appeared and fled, saying she knew how Shepard worked. Okeer revealed he had been mass-producing and flash-indoctrinating tank-bred krogan in search of the \"perfect\" specimen, supplying his rejects as an army for Jedore, who could not command them. He wanted to bargain his knowledge of the Collectors for escape. Jedore then announced over the PA that Okeer had released the krogan without authorization and began pumping krogan-killing gas into the facility. Okeer chose to stay behind to protect his legacy, the perfect krogan in his tank.\n\nShepard fought Jedore, who wielded a rocket launcher and a YMIR Mech while tank-bred krogan broke loose around her, and killed her. Returning to the lab, Shepard found Okeer already dead from the toxins; his final recorded words asked Shepard to protect his legacy and admitted he had not known what the Collectors planned for the human colonists. The tank was recovered to the Normandy. Opening it (in the separate mission \"Dr. Okeer's Legacy\") released Grunt, who slammed Shepard against a wall before being persuaded or forced to back down; impressed by Shepard's strength, he joined the crew. Rewards included platinum and Sniper Rifle Damage and Krogan Vitality upgrades. If Grunt was never released he would not appear in Mass Effect 3; if released and surviving the suicide mission, he later led a krogan commando unit investigating a resurgent rachni. The mission was written by Lukas Kristjanson after a first pass by Brian Kindregan.",
+      "url": "https://masseffect.fandom.com/wiki/Dossier:_The_Warlord",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "grunt_002",
+      "kind": "page",
+      "page": "Grunt",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "*For his gameplay attributes in Mass Effect 2, see Squad Members Guide (Mass Effect 2\\)\\#Grunt.* Grunt was created on Korlus by the krogan warlord Okeer, who had initially sought a cure for the genophage but became disillusioned with its long\\-term effects. Okeer believed that the genophage had reduced krogan identity to a test of survival, weakening the species by rewarding only endurance rather than strength, unity, or vision. Determined to restore the krogan to greatness, he abandoned his cure and instead pursued the creation of a genetically perfect warrior. With assistance from the Collectors, Okeer experimented extensively, rejecting thousands of flawed specimens before producing his ideal prototype. Grunt’s genetic code incorporated traits from renowned krogan—including Shiagur, Kredak, Moro, Terg, Wrend, and Veeoll—making him a living archive of krogan history and strength. After rejecting thousands of specimens as unworthy, Okeer finally produces his perfect prototype before he dies from toxins released by Jedore, a Blue Suns mercenary. Commander Shepard, who had come to Korlus hoping to recruit Okeer, instead recovers the super soldier's tank and takes it aboard the Normandy SR\\-2. When Shepard chooses to release the super soldier from his tank, the newly awakened krogan pins Shepard to a wall and declares his intention to kill the Commander, though he desires a name before doing so. He chooses \"Grunt\", one of the last words in Okeer's final message, claiming, \"It has no meaning. It'll do.\" Shepard either persuades Grunt to join the mission against the Collectors as it will be a good fight for Grunt, or shoots multiple times to subdue him. If Grunt accepts Shepard's offer, he then realizes that Shepard was pointing a gun at him all along, to which Grunt approves. Lacking a proper krogan upbringing, Grunt is both violent and highly unpredictable. He often becomes impatient and charges recklessly into the midst of his foes, (unlike more disciplined krogan fighters like Urdnot Wrex) without Shepard's orders. Despite his unpredictable and violent attitude, he is nonetheless considered a great asset to the mission thanks to his unsurpassed physical strength and fighting prowess. Grunt also harbors personal doubt due to his genetic upbringing, considering himself weak for being given strength compared to the thousands of failures that \"at least tried\" to become strong on their own. Outside of battle, Grunt often appears naive and particularly enthusiastic about violence and combat in conversations with Shepard. He often seeks guidance from Shepard due to a combination of his youth, lack of krogan guidance and his inexperience about the galaxy, having been educated solely by imprints from Okeer's tank. It takes a while for him to understand the images Okeer used to educate him with, but Grunt soon sees the funny side of killing turians and salarians, and is pleased with himself when he compiles his first list of enemies. Despite his violent nature, he respects Shepard's leadership, partly because Shepard faces great battles and has powerful enemies. If Grunt becomes loyal, he calls Shepard his battlemaster, as the Commander \"has no equal\".",
+      "url": "https://masseffect.fandom.com/wiki/Grunt",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "scene:korlus-okeer-and-grunt#01",
+      "kind": "scene",
+      "page": "Okeer's Legacy on Korlus",
+      "section": "mission-aside",
+      "game": "Mass Effect 2",
+      "scene_id": "korlus-okeer-and-grunt",
+      "text": "Okeer's Legacy on Korlus. 2185, after Freedom's Progress Jedore's Blue Suns camp and Okeer's cloning lab on Korlus; then the Normandy On Korlus, Jedore, the Blue Suns garrison commander, harangues Shepard over loudspeakers while the squad fights through her mercs. A wounded merc, a compulsory encounter, gives up information about Okeer and the tank-bred krogan; Shepard can let him go, or kill him if he raises the alarm.",
+      "url": "",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "okeer_002",
+      "kind": "page",
+      "page": "Okeer",
+      "section": "Dossier",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "A veteran of the Krogan Rebellions fought more than a thousand years ago, Okeer is a militant radical who was so ruthless and fanatical that even his own people turned on him. He maintains an extreme social Darwinist belief that the effect it has had on krogan natural selection, rather than the loss of numbers, is where the genophage has performed its greatest damage. His efforts aren't geared toward curing it, but rather, toward ignoring it completely in the goal of \"perfecting\" his species. With each rare newborn, even the weaker ones, cared for, grown to adulthood and possibly reproducing, Okeer believes the ancient krogan philosophy that only the strongest survive and reproduce is lost. He sees the survival of the weak and the integration of their genetics into the krogan gene pool as proof that krogan are growing weaker with each generation, becoming shadows of those who fought in the Rebellions. An army of krogan of equal or greater strength, skill, and wits as those of the Rebellions, even a limited and non\\-reproducing one, will be enough to bring the galaxy to its knees. To this end Okeer experimented with genetics and sold a great number of his kind to the Collectors for the technology he required, earning himself a vile reputation among krogan and forcing him off Tuchanka. Offworld, Okeer found a sponsor willing to provide him resources. A Blue Suns commander named Jedore desired a mixed\\-unit army composed of cloned krogan loyal to her with hired merc specialists leading the krogan shock troops. She set Okeer up with a facility on Korlus (with Rana Thanoptis as his assistant if she escaped Virmire) to breed new types of krogan in breeding tanks. Okeer gives Jedore exactly what she asked for: an army of strong, healthy krogan warriors. Jedore, and the Blue Suns mercenaries under her, complain that the krogan berserkers are uncontrollable, but Okeer could see the only problem was that she lacked the ability to command. The tank\\-breds are then used by the Suns as targets in live\\-fire exercises. Unbeknownst to Jedore, the army of krogan Okeer bred for her are mere rejects compared to one ultimate warrior \"prototype\" he has been perfecting. This particular prototype survived being imparted with Collector information, but only after Okeer learned how to do so without killing the test subject. When Commander Shepard comes to Okeer to recruit him for the fight against the Collectors, the latter is found in the middle of releasing his flawed test subjects en masse to kill Jedore's forces as a means to grant more time to finalize his greatest creation. Okeer reveals that he knows about the Commander's actions on Virmire and expresses his approval, stating bluntly that Saren's \"pale horde\" were not true krogan, and opines that numbers alone are meaningless. Once Jedore realizes Okeer has been doublecrossing the Suns, she releases a toxic gas via vents in the lab and calls a clean slate on the entire project. As the tech that went into the creation of Okeer's super soldier is irreplaceable, he bargains with Shepard to save it. He refuses to leave his creation and stays in the lab as Shepard runs off to kill Jedore. After the battle, the gases had already suffocated Okeer. He leaves a dying message to tell Shepard to take his super soldier (later taking the name of Grunt, after his last words) to defeat the Collectors. What knowledge of the Collectors Okeer had was destroyed with his death, though he did state in his dying declaration that if he knew of why the Collectors were kidnapping humans, he would have told Shepard. His super solder, Grunt, has blurry memories of Collector ships owing to the tech that went in his creation. Wrex expresses a dislike of Okeer if Shepard asks him, while Wreav considers the connection between Grunt and the krogan scientist a good reason to accept Grunt into Clan Urdnot. If Shepard kills the Thresher Maw and Gatatog Uvenk offers Grunt a place in Clan Gatatog, Grunt, in his disgust, refers to Okeer as his father. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Okeer",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "blue-suns_011",
+      "kind": "page",
+      "page": "Blue Suns",
+      "section": "Korlus",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "The krogan warlord Okeer has hired the Blue Suns to provide funding and security for him as he works on his experiment to create the \"perfect\" krogan, offering the rejects from his experiment as payment. A Blue Suns officer named Jedore is assigned to assess the potential of the rejects as viable shock troops. Okeer and Jedore quickly begin to lose patience with each other when the rejects prove too unstable to be reliable soldiers; Jedore begins to think that Okeer's project is not worth the time and money the Suns have invested, while Okeer considers Jedore to be an incompetent leader and chafes under her direction. The Blue Suns decide to use the unstable rejects for live ammo training, with Okeer giving them the impression that the next generation of tank\\-grown krogan would benefit from an improved mental imprint that would make them more reliable. Eventually, Shepard arrives on Korlus looking for Okeer, who was believed to have valuable intel on the Collectors. Okeer uses the distraction caused by Shepard's arrival to release several of the rejects, which proceed to attack both Shepard's squad and the Blue Suns. Jedore quickly discovers this betrayal, and decides to kill Okeer and use his research to restart the project with a blank slate. By the time Shepard makes it to Okeer's lab, Jedore has holed up in a massive storage bay with the next generation of tank\\-bred krogan. Although she has several of these tanks \"flushed\" with poison gas, she releases some of them to fight Shepard. Although Jedore does not survive the battle with Shepard, she does succeed in killing Okeer, who sacrificed himself to save his prized creation.",
+      "url": "https://masseffect.fandom.com/wiki/Blue_Suns",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "summary:jedore",
+      "kind": "summary",
+      "page": "Jedore",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Jedore was a Blue Suns commander and a financial contributor to Okeer's krogan cloning project. She was tasked with evaluating the cloned krogan's combat effectiveness and determining whether they were suitable as shock troops. She was disappointed by the results, finding the clones crazed and uncontrollable and near useless as frontline troops. Okeer dismissed her complaints, attributing her lack of control over the krogan to her own inability to command.\n\nConcluding that Okeer and his krogan were not worth the time and money invested, Jedore attempted to destroy both him and his creations. She was killed by Commander Shepard, who intervened on Okeer's dying wish to save the still-unawakened tank-bred krogan later named Grunt. Jedore was described as unstable, with a massive superiority complex and a hair-trigger temper; her ranting over the comm during Shepard's infiltration was severe enough that her own subordinates demanded she stop clogging the channel. In combat she carried an ML-77 Missile Launcher, had very strong shields, armor, and health, and used Tech Armor like other Blue Suns commanders. During the fight she activated four dormant Krogan Berserkers from their tanks one at a time and was supported by a YMIR Mech, and was highly susceptible to Stasis.",
+      "url": "https://masseffect.fandom.com/wiki/Jedore",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "grunt_001",
+      "kind": "page",
+      "page": "Grunt",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "“I am pure krogan; you should be in awe.” **Grunt** is a genetically engineered krogan super soldier. Bred and educated in a tank, he was intended to exemplify the best traits of the krogan, and help reinvigorate his species. In the meantime, he fights alongside Commander Shepard to satisfy his natural desire for violence. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Grunt",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "krogan-berserker_001",
+      "kind": "page",
+      "page": "Krogan Berserker",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "|  | *This article is about the enemy type in Mass Effect 2\\. For Grunt's class power, see Krogan Berserker (power).* *For the enemy type in Mass Effect: Andromeda, see Berserker.* | | --- | --- | |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | **Krogan Berserkers** are tank\\-bred krogan created by the warlord Okeer. They were bred in an attempt to create \"perfect krogan\" \\- krogan who lacked the genophage's genetic markers, and who lacked the \"weak genes\" bred into the krogan population as a result of nurturing every surviving newborn, no matter how feeble. While in their tanks, these krogan were shown images such as the vulnerable parts of alien anatomy and how best to take advantage of them, as well as past battles in an attempt to both prepare them for war and inspire hatred for Okeer's enemies. The krogan were also educated by what one berserker described as a 'voice' or 'scratching sound', which taught them how to speak, move and fight. The vast majority of Okeer's specimens were failures. These krogan were handed over to Blue Suns commander Jedore for her army, and Okeer kept the one specimen he considered perfect for himself. However, the Berserkers proved to be extremely violent with their main desire being to fight and kill. Deeming them uncontrollable, Jedore instead used them for live ammunition training for her Blue Suns mercs. They mature very quickly as one encountered by Shepard was only seven days old and fighting several Blue Suns mercenaries. Berserkers seem to be susceptible to blood rage, making them even harder to control.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Berserker",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "scene:virmire-rana-thanoptis-office#06",
+      "kind": "scene",
+      "page": "Rana Thanoptis Under the Desk",
+      "section": "mission-aside",
+      "game": "Mass Effect",
+      "scene_id": "virmire-rana-thanoptis-office",
+      "text": "Rana Thanoptis Under the Desk. 2183, the assault on Saren's base on Virmire Rana Thanoptis's office inside Saren's cloning and indoctrination facility Spared, she crosses Shepard's path again on Korlus in 2185 during the hunt for Dr. Okeer, now writing mind-imprint routines for his tank-bred krogan, most of whom die. She admits she shut off the facility's cameras when she saw Shepard approaching. Let go a second time, she quips that she \"knows how Shepard works\" and means to get well clear before anything blows up.",
+      "url": "",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "summary:krogan-berserker",
+      "kind": "summary",
+      "page": "Krogan Berserker",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Krogan Berserkers were tank-bred krogan created by the warlord Okeer in his attempt to breed \"perfect krogan\" free of the genophage's genetic markers and of the \"weak genes\" he believed nurturing feeble newborns had spread through the species. While in their tanks the specimens were shown alien anatomical weak points and past battles to prepare them for war and instill hatred of Okeer's enemies, and were taught to speak, move and fight by what one Berserker called a \"voice\" or \"scratching sound.\" Most specimens failed and were handed to Blue Suns commander Jedore for her army, while Okeer kept the single specimen he judged perfect, who became Grunt. The Berserkers proved uncontrollably violent, driven only to fight and kill, and were prone to blood rage, so Jedore used them as live-fire training targets for her mercenaries. They matured extremely fast; one Shepard encountered on Korlus was only seven days old.\n\nAs enemies on Korlus, Berserkers were ferocious in close quarters, armed with shotguns and the Carnage ability, constantly advancing and using a stunning charge. They had good armor and very fast health regeneration. Incinerate, Warp and incendiary or Warp Ammo stripped their armor and blocked regeneration; precise ranged weapons, sniper rifles and staying at distance were advised, and once disarmored they could be knocked off the area's narrow walkways to their deaths.",
+      "url": "https://masseffect.fandom.com/wiki/Krogan_Berserker",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "grunt-rite-of-passage_004",
+      "kind": "page",
+      "page": "Grunt: Rite of Passage",
+      "section": "Walkthrough",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "With Grunt in your party, speak with the current leader of Clan Urdnot, who is either Shepard's old friend, Wrex, or (if he died on Virmire or was never recruited) his brother, Wreav. Either will note that Grunt is not sick, he is of the age where he must complete the krogan Rite of Passage, and refers the party to the clan Shaman. The clan Shaman will relate various information about the rite, as well as krogan history and culture. Gatatog Uvenk will protest Grunt taking the Rite, as he is tank bred. You can get Uvenk to stand down in a number of ways. After Shepard agrees to be Grunt's krantt, the Shaman sends Grunt and company to the traditional grounds of the Rite.",
+      "url": "https://masseffect.fandom.com/wiki/Grunt:_Rite_of_Passage",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "scene:tuchanka-grunt-rite-of-passage#02",
+      "kind": "scene",
+      "page": "Grunt's Rite of Passage",
+      "section": "ceremony",
+      "game": "Mass Effect 2",
+      "scene_id": "tuchanka-grunt-rite-of-passage",
+      "text": "Grunt's Rite of Passage. 2185, after Horizon, once Grunt is woken from his tank Tuchanka — Clan Urdnot's camp, then the Rite grounds The Urdnot leader explains Grunt is not sick, only of the age to take the Rite of Passage, and sends the party to the clan Shaman. Gatatog Uvenk, a traditionalist from the Urdnot border camp, protests loudly that Grunt is tank-bred and has no right to the Rite, going over the leader's head to appeal directly to the Shaman, who is plainly irritated by him. Shepard makes Uvenk back down — either humbling him with words or answering his insults with a headbutt — by agreeing before the Shaman to serve as Grunt's krantt. Uvenk withdraws his objection but warns he will settle the matter elsewhere.",
+      "url": "",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "shiagur_001",
+      "kind": "page",
+      "page": "Shiagur",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- | **Shiagur** was a warlord who was also one of the few remaining fertile krogan females following widespread deployment of the genophage circa 700 CE. She used her fertility to amass male followers, who competed with each other for the right to have children with her. Despite her legendary reputation among the krogan, Shiagur's band was not particularly powerful. She was defeated at Canrum by turian forces during the last stages of the Krogan Rebellions. However, vengeful krogan admirers retaliated against her killers when they heard the news, ultimately resulting in thousands of casualties. |  | ***“The chances of surviving are… slim.”*** — Spoilers for **Mass Effect 2** follow. |  | | --- | --- | --- | |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- | |  | ***“Make no mistake — this is a one\\-way trip.”*** — Spoilers for **Mass Effect: Andromeda** follow. |  | | --- | --- | --- | Shiagur's bloodline remains a status symbol among present\\-day krogan, and her direct descendants have the clan brands to prove their lineage. Nakmor Drack is one such descendant, and so is his granddaughter Nakmor Kesh. Grunt, being tank\\-bred, has some of her genetic legacy along with other krogan deemed \"worthy\" by his creator Okeer. Comparing people to Shiagur is considered a mark of honor. The Urdnot Shaman may bestow the compliment upon a female Shepard who understands the krogan better than some of their own kind. Her name is also invoked in a song Mordin Solus may sing for Eve.",
+      "url": "https://masseffect.fandom.com/wiki/Shiagur",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "urdnot-wreav_002",
+      "kind": "page",
+      "page": "Urdnot Wreav",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Shepard first meets Wreav on Tuchanka. If Wrex died on Virmire, Wreav expresses gratitude to the Commander for killing his brother, as it has led to him becoming leader of Clan Urdnot. Wreav is a traditional krogan, preferring war over peace, and as such, other traditionalists like Gatatog Uvenk do not offer much challenge to his leadership. If Grunt completes his rite of passage into krogan adulthood, Wreav permits him to join clan Urdnot. Wreav acknowledges that allowing a tank\\-bred krogan into Urdnot could create hostility, but the chieftain is actually pleased at the prospect, stating that hatred is \"influential\". If Wrex survived Virmire, Wreav does not make an appearance. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Wreav",
+      "for_key": "Grunt tank-bred krogan Okeer"
+    },
+    {
+      "chunk_id": "varren_004",
+      "kind": "page",
+      "page": "Varren",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Varren encountered by Shepard in 2185 tend to be colored in a brown\\-striped variety, as opposed to the varren encountered in 2183 that had white underbellies and dark dorsal sides. Aside from being a common enemy found throughout Shepard's travels, a single varren, Urz, can be found standing patiently next to Ratch on Tuchanka. Shepard is allowed to pet the varren, who responds in a surprisingly tame and almost dog\\-like manner. Should Shepard give the varren some pyjak meat that can be purchased from the trader Ratch, the varren will happily follow Shepard around Clan Urdnot's encampment. The trader notes that the varren \"finally has someone to follow around\". This particular varren is actually a retired champion of the fighting pits and can be wagered upon with a purse of 500 credits. A sexually transmitted disease known as \"scale\\-itch\" that is carried only by varren can be detected aboard the Normandy during one of the chats with Mordin Solus; he will be seen at his lab combating the infection and notes that the implications of it are \"unpleasant,\" euphemistically insinuating that someone aboard has been having sexual relations with varren. Varren are apparently a popular food source, as advertisements of a \"Fishdog Food Shack,\" which serves varren skewers as well as varren steaks, can be heard on Illium. |  | ***“There won't be an Earth left to save...”*** — Spoilers for **Mass Effect 3** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Varren",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "summary:varren",
+      "kind": "summary",
+      "page": "Varren",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Varren were omnivores with a preference for living prey, originally native to the krogan homeworld of Tuchanka. Like most Tuchanka life they were savage, clannish, and durable survivors: pack hunters when prey was easy, scavengers when outmatched. Their adaptability, viciousness, and rapid breeding made them ubiquitous and dangerous pests wherever the krogan traveled, wreaking havoc on native ecologies. The krogan had a millennia-long love-hate relationship with varren, alternately fighting them for territory and raising them as treasured companions and beasts of war; batarians also used them in war. A common silver-scaled subgenus earned the nickname \"fishdogs.\" Varren coloration varied between eras and worlds, from white-bellied dark-backed animals in 2183 to brown-striped varieties by 2185.\n\nShepard first encountered varren in the Prothean ruins on Feros, where colonists like Davin Reynolds hunted them for meat and Shepard was asked to kill a rabid alpha varren; the animals were vicious enough to attack geth. Batarians deployed \"Batarian War Beasts\" on Asteroid X57 during Bring Down the Sky, and Simon Atwell noted varren did not always wait for prey to die before eating. On Tuchanka, a tame retired pit champion named Urz stood beside the trader Ratch and would follow Shepard around Clan Urdnot's camp if given pyjak meat. Mordin Solus was seen combating \"scale-itch,\" a varren-borne sexually transmitted disease, aboard the Normandy. Varren were a popular food source, advertised at Illium's \"Fishdog Food Shack\" and in Citadel ads for \"McSorley's Cloaca Margarine.\" The salarians studied varren (designated \"species 408\") as potential biological weapons. In the Citadel DLC, Jack noted that varren on Thessia could develop element-zero-fueled biotics, making them more aggressive; she adopted a red-skinned one named Eezo. Besides pit fights, varren were trained for less violent racing. The Andromeda Initiative brought only tissue samples, cloned into edible meat.",
+      "url": "https://masseffect.fandom.com/wiki/Varren",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "jack-unique-dialogue_004",
+      "kind": "page",
+      "page": "Jack/Unique dialogue",
+      "section": "Talk to Squad Mate",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Citadel: In the bathroom of the bar, Jack will tell a story of being sexually assaulted in the Purgatory prison showers. She then hunted down and murdered every one of her attackers. - Illium: At the vista (near the place with a volus that says, \"Sell at twenty\\-five\") Jack will mention how there are a lot of soft people here, who will be easy to take advantage of. If Jacob is also present he will caution her. If Grunt is in your party he will ask her what the fun is in that, to which Jack responds by saying it depends on what you're looking for. If Garrus is present then he will refute Jack by saying that the people are only unconcerned. If Samara is present she will warn Jack that if she is to do anything illegal, she will be compelled to stop her, to which Jack replies that would be interesting. - Omega: By the cargo next to Marsh's shop, Jack will comment on the selection and how she likes that a strong and ruthless person can thrive on Omega. - Tuchanka: Upon entering the main area, there are two krogan discussing children to the left. Jack will mention how she has counted 13 guards since they landed. If Grunt is also present he will correct her explaining that they aren't guards, they're warriors. She immediately counters by saying that she \"knows a guard when \\[she] sees one.\" - Urz: Upon initiating dialogue with the varren, after it has been wounded in a pit fight, Jack will say, \"One fight and he's out...shame.\" This response does not depend on how many fights Urz has actually won.",
+      "url": "https://masseffect.fandom.com/wiki/Jack/Unique_dialogue",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "pyjak_004",
+      "kind": "page",
+      "page": "Pyjak",
+      "section": "Mass Effect 2",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "There are a dozen pyjaks in the jungle on Zorya, the planet Shepard may visit to gain the loyalty of Zaeed Massani. They can also be found in a storage hold on the krogan planet Tuchanka. At the Urdnot Camp on Tuchanka, they steal food from the merchant Ratch, who invites Commander Shepard to use a rocket turret to kill them before they can raid the camp's supply cache. If successful, Ratch gives Shepard a discount on items and allows the Commander to purchase pyjak meat, which can be fed to the varren Urz. The hospital area of the camp also has a pyjak sitting on top of the crates in the corner; Shepard has the option of punching it. According to Ratch, pyjaks were brought to Tuchanka by a trader who had visited Eletania. Several pyjaks stowed aboard the trader's ship and then swarmed out when the trader landed on Tuchanka, stealing things and defecating everywhere. When the leader of Clan Forsan was hit with pyjak dung, the trader responsible for their presence was executed.",
+      "url": "https://masseffect.fandom.com/wiki/Pyjak",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "zaeed-massani-unique-dialogue_004",
+      "kind": "page",
+      "page": "Zaeed Massani/Unique dialogue",
+      "section": "Ashore",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Citadel: At Rodam Expeditions, after seeing a big gun exhibited in the shop, Zaeed recalls how he and a group of mercenaries once worked to take down a krogan armed with a weapon like it. The krogan managed to kill most of the mercenaries, leading Zaeed to admire the gun. - Illium: At the security station, Zaeed recalls how easy corporate security is, but claims it's not worth it. He needs the challenge of mercenary work. - Omega: At the bar in Afterlife Club, Zaeed recalls how one of his friends was once killed in a bar fight. He believes all bars are dangerous and violent places. - Tuchanka: - At the varren fighting ring, Zaeed comments on the nature of dog fighting, lamenting the absence of a real bookie (citing the lack of the \"human element\"). He would place a bet on the \"dumb\\-looking, ugly one,\" as according to him, slow dogs always fight harder. - Upon initiating dialogue with Urz if he has been wounded in a pit fight, Zaeed suggests sending him back out to fight and to bet against him, claiming Shepard will make a fortune.",
+      "url": "https://masseffect.fandom.com/wiki/Zaeed_Massani/Unique_dialogue",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "grunt-unique-dialogue_004",
+      "kind": "page",
+      "page": "Grunt/Unique dialogue",
+      "section": "Talk to Squad Mate",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "- Citadel: On Level 26 at the restaurant, Grunt will comment that he will eat almost anything but is disgusted by the sight of ramen. - Illium: In the bar: Grunt can taste the hatred in the air, but thinks it's wrong (and stupid) that no one seems to want to fight, saying \"Fighting is easy, just kill the person coming for you.\" If Jacob is in the squad he will comment that they have too much to lose in simple shooting, and it's just business. Grunt will then comment that they are cowards with credits. - Omega: Bottom level of the Afterlife bar, Grunt will comment that everyone drinking, fighting, and eating makes them seem like they think they are pure krogan. - Tuchanka: On the rubble leading up to the leader, Grunt is very unimpressed by Tuchanka, saying \"This chunk of rock is barely worth standing on. Never thought I'd miss the tank\". If his loyalty mission has been completed, he will express his belief in Urdnot's ability to change the situation for the better. - Urz: Upon initiating dialogue with the varren, after it has been wounded in a pit fight, Grunt will praise it, saying, \"He fought well...soon, he'll fight again.\"",
+      "url": "https://masseffect.fandom.com/wiki/Grunt/Unique_dialogue",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "silver-coast-casino_007",
+      "kind": "page",
+      "page": "Silver Coast Casino",
+      "section": "Varren Racing",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Broadcast live from Tuchanka. **Varren Racing \\- How to Play** \\-Select one of the four varren to place your bet. \\-IF the selected varren wins the race, you receive a payout based on that varren's odds of winning. \\-Varren with a lower chance of winning give higher payouts.",
+      "url": "https://masseffect.fandom.com/wiki/Silver_Coast_Casino",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "varren_002",
+      "kind": "page",
+      "page": "Varren",
+      "section": "Feros",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "Varren thrive on many worlds and in various environments, including the Prothean ruins on Feros. Humans, at least, are capable of consuming and drawing sustenance from varren meat. Commander Shepard is asked to kill a rabid alpha varren in order to permit the Zhu's Hope colonists to hunt the remaining varren. Davin Reynolds didn't just see the animals as a convenient larder, either. Apparently varren are so vicious they'll even take on the geth.",
+      "url": "https://masseffect.fandom.com/wiki/Varren",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "varren_005",
+      "kind": "page",
+      "page": "Varren",
+      "section": "Mass Effect 3",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "During the Cerberus assault on Sur'Kesh at one point when Shepard opens a door, a varren is seen killing a Cerberus Assault Trooper before being gunned down. A voice is then heard warning against live varren gotten loose. An STG computer terminal reveals that the salarians have been considering using the varren (designated \"species 408\") as biological weapons. Further indications of varren as a food source can be heard in Citadel advertisements for McSorley's Cloaca Margarine, allegedly made from free\\-range \"organic\" varren.",
+      "url": "https://masseffect.fandom.com/wiki/Varren",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-apartment-eezo#02",
+      "kind": "scene",
+      "page": "Jack Brings a Varren to the Apartment",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-apartment-eezo",
+      "text": "Jack Brings a Varren to the Apartment. 2186, Citadel shore leave, after the Arena meet-up Shepard's personal apartment, the Wards She brings Eezo, a varren from Thessia she pulled out of a shelter. Exposure to element zero in the Thessian environment left him biotic; biotic varren run short-tempered, which is why they get abused and abandoned. He arrived angry and mistrustful of everyone, and enough patience turned him into, in her words, a big old softy — he plays catch with Shepard.",
+      "url": "",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "scene:citadel-jack-apartment-eezo#04",
+      "kind": "scene",
+      "page": "Jack Brings a Varren to the Apartment",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-jack-apartment-eezo",
+      "text": "Jack Brings a Varren to the Apartment. 2186, Citadel shore leave, after the Arena meet-up Shepard's personal apartment, the Wards Instead of the varren she brings tattoo equipment and marks Shepard's back. Pressed on the design, she admits she did it so the body would be identifiable whatever happens in the final battle, and tears up at the thought until Shepard holds her.",
+      "url": "",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "scene:citadel-kasumi-casino-heist#01",
+      "kind": "scene",
+      "page": "Kasumi's Suspicious Device",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-kasumi-casino-heist",
+      "text": "Kasumi's Suspicious Device. 2186, Citadel shore leave, after the Khan investigation closed the Silver Coast Casino, near the varren racing games Kasumi, if she stayed on the Citadel after the incident with Jondum Bau and Zymandis, is found staging a heist in the casino Shepard had already infiltrated once. Shepard inspects a \"suspicious device\" she has installed near the varren racing games, which turns into a short, impromptu reunion.",
+      "url": "",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "summary:batarian-war-beast",
+      "kind": "summary",
+      "page": "Batarian War Beast",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Batarian War Beasts were trained varren used by batarian terrorists and extremists. In the first Mass Effect, batarians brought them along during the assignment to stop batarians from crashing an asteroid into the human colony of Terra Nova, using them to help take over the asteroid and secure their positions; the page noted the operation shifted from a simple slave grab into a mission of revenge. Because the War Beasts behaved exactly like varren, they charged and attempted to bite opponents. They had no shielding but a respectable amount of health, and biotics were extremely effective against them, especially against several at once, while shotguns were effective at close range.\n\nIn Mass Effect 2, Batarian War Beasts also roamed prison complexes, and some were encountered on Aratoht during a prisoner extraction assignment. Like regular varren, they used their teeth to tear chunks off enemies. On higher difficulties they gained a layer of armor over their health. They were identical to ordinary Mass Effect 2 varren and were to be handled the same way, kept at a distance to avoid their melee attack, and eliminated quickly in the close quarters of that mission. Warp, Incinerate, or Incendiary Ammo helped strip their light armor, after which powers such as Throw or Cryo Blast neutralized them.",
+      "url": "https://masseffect.fandom.com/wiki/Batarian_War_Beast",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "summary:varren-enemy",
+      "kind": "summary",
+      "page": "Varren (enemy)",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "This gameplay-focused page covered varren as combat opponents. In Mass Effect, varren were encountered only on Feros, where colonists killed them for meat; a lair could be cleared beneath Zhu's Hope and another group infested the ExoGeni headquarters garage, attacking en masse after the encounter with Lizbeth Baynham. Their bites ignored shields and damaged health directly, they attacked in large numbers, and biotic powers such as Throw, Lift, and especially Singularity, along with High Explosive Rounds and cryo grenades, were the recommended counters.\n\nIn Mass Effect 2, varren infested numerous worlds Shepard visited in 2185, appearing feral or as attack animals aiding the Blood Pack. They had a powerful close-range bite, moderate health, and low armor on higher difficulties. Because they were among the fastest enemies in the game and could outrun many power projectiles, instantaneous powers like Slam, Reave, or Neural Shock were advised, along with keeping them at distance. Reave and Incinerate stripped armor and stunned them; shotguns or heavy pistols with anti-armor ammo (the M-300 Claymore and Geth Plasma Shotgun could one-shot them even on Insanity), Squad Cryo Ammo, and heavy weapons such as the M-622 Avalanche and Arc Projector were effective against groups. Varren were not panicked by Incendiary Ammo, largely ignored Combat Drones, and did not stagger from Shepard's melee, making melee a last resort.",
+      "url": "https://masseffect.fandom.com/wiki/Varren_(enemy)",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "scene:citadel-kasumi-casino-heist#02",
+      "kind": "scene",
+      "page": "Kasumi's Suspicious Device",
+      "section": "hangout",
+      "game": "Mass Effect 3",
+      "scene_id": "citadel-kasumi-casino-heist",
+      "text": "Kasumi's Suspicious Device. 2186, Citadel shore leave, after the Khan investigation closed the Silver Coast Casino, near the varren racing games Shepard can let her carry on with the heist or talk her out of it.",
+      "url": "",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "summary:urdnot-camp",
+      "kind": "summary",
+      "page": "Urdnot Camp",
+      "section": "",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "The Urdnot Camp was a small, rubble-strewn settlement on the krogan homeworld of Tuchanka, controlled by Clan Urdnot. A shuttle landing pad connected to the camp proper by a derelict passageway. The camp contained the throne dais of Clan Urdnot's leader, a building housing the Urdnot shaman where representatives of other clans gathered, a varren-fighting pit, the clan's food stores (frequently raided by invasive pyjak), a merchant's kiosk run by Ratch, and the laboratory of the clan's Lord High Researcher, Fortack.\n\nIn 2185 Commander Shepard traveled to the Urdnot Camp to aid Mordin Solus in searching for a missing fellow Special Tasks Group member during the mission \"Mordin: Old Blood,\" and to help Grunt complete his Rite of Passage in \"Grunt: Rite of Passage.\" Shepard could also speak with the leader of Clan Urdnot, who was either Urdnot Wrex (if he survived Virmire and joined Shepard) or Urdnot Wreav. Additional activities included helping a krogan mechanic find a combustion manifold to repair a vehicle, addressing the clan's chronic pyjak infestation, and betting on a varren fight. If Urdnot Wrex was alive, a Clan Nakmor representative was present at the camp to negotiate an alliance with Clan Urdnot, and Shepard could interact with the negotiation. The traditionalist Gatatog Uvenk was also present, opposing the current clan leadership. Missions and assignments tied to the location included \"Tuchanka: Urdnot Wrex,\" \"Tuchanka: Combustion Manifold,\" \"Tuchanka: Killing Pyjaks,\" and \"Tuchanka: Old Blood: Missing Scout.\"",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Camp",
+      "for_key": "Urz varren"
+    },
+    {
+      "chunk_id": "codex-aliens-non-sapient-creatures_004",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Sapient Creatures",
+      "section": "Varren",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "|  | Audio: Varren | | --- | --- | Varren are omnivores with a preference for living prey. Originally native to the krogan homeworld of Tuchanka, they are, like most life from Tuchanka, savage, clannish, and consummate survivors. They are pack hunters when vulnerable prey is readily available and become scavengers when outnumbered or outclassed. Their supreme adaptability, vicious demeanor, and rapid breeding cycle have made them ubiquitous and dangerous pests on many worlds. Virtually everywhere the krogan have been, varren infestations have followed, wreaking havoc with the native ecology. The krogan have had a love\\-hate relationship with varren for millennia, alternately fighting them for territory and embracing them as treasured companions. To this day, krogan raise them as beasts of war. A common subgenus of varren has metallic silver scales, leading to the rather unusual nickname 'fishdogs'.",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Sapient_Creatures",
+      "for_key": "varren fighting pits"
+    },
+    {
+      "chunk_id": "varren_001",
+      "kind": "page",
+      "page": "Varren",
+      "section": "",
+      "game": "Mass Effect 3",
+      "scene_id": "",
+      "text": "|  | *This article is about varren in general. For the Mass Effect and Mass Effect 2 enemy, see Varren (enemy).* | | --- | --- | **Varren** are omnivores with a preference for living prey. Originally native to the krogan homeworld of Tuchanka, they are—like most life from Tuchanka—savage, clannish, and consummate survivors. They are pack hunters when vulnerable prey is readily available and become scavengers when outnumbered or outclassed. Their supreme adaptability, vicious demeanor and rapid breeding cycle have made them ubiquitous and dangerous pests on many worlds. Virtually everywhere the krogan have been, varren infestations have followed, wreaking havoc with the native ecology. The krogan have had a love\\-hate relationship with varren for millennia, alternately fighting them for territory and embracing them as treasured companions. To this day, krogan—and some other species, including batarians—raise them as beasts of war. A common subgenus of varren has metallic silver scales, leading to the rather unusual nickname 'fishdogs'. |  | ***“This mission just got a lot more complicated.”*** — Spoilers for **Mass Effect** follow. |  | | --- | --- | --- |",
+      "url": "https://masseffect.fandom.com/wiki/Varren",
+      "for_key": "varren fighting pits"
+    },
+    {
+      "chunk_id": "codex-aliens-non-council-races_042",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Council Races",
+      "section": "Varren",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Varren are omnivores with a preference for living prey. Originally native to the krogan homeworld of Tuchanka, they are, like most life from Tuchanka, savage, clannish, and consummate survivors. They are pack hunters when vulnerable prey is readily available and become scavengers when outnumbered or outclassed. Their supreme adaptability, vicious demeanor, and rapid breeding cycle have made them ubiquitous and dangerous pests on many worlds. Virtually everywhere the krogan have been, varren infestations have followed, wreaking havoc with the native ecology. The krogan have had a love\\-hate relationship with varren for millennia, alternately fighting them for territory and embracing them as treasured companions. To this day, krogan raise them as beasts of war. A common subgenus of varren has metallic silver scales, leading to the rather unusual nickname \"fishdogs.\"",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Council_Races",
+      "for_key": "varren fighting pits"
+    },
+    {
+      "chunk_id": "codex-aliens-non-sapient-creatures_008",
+      "kind": "page",
+      "page": "Codex/Aliens: Non-Sapient Creatures",
+      "section": "Varren",
+      "game": "Mass Effect",
+      "scene_id": "",
+      "text": "Varren are omnivores with a preference for living prey. Originally native to the krogan homeworld of Tuchanka, they are, like most life from Tuchanka, savage, clannish, and consummate survivors. They are pack hunters when vulnerable prey is readily available and become scavengers when outnumbered or outclassed. Their supreme adaptability, vicious demeanor, and rapid breeding cycle have made them ubiquitous and dangerous pests on many worlds. Virtually everywhere the krogan have been, varren infestations have followed, wreaking havoc with the native ecology. The krogan have had a love\\-hate relationship with varren for millennia, alternately fighting them for territory and embracing them as treasured companions. To this day, krogan raise them as beasts of war. A common subgenus of varren has metallic silver scales, leading to the rather unusual nickname \"fishdogs.\"",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Aliens:_Non-Sapient_Creatures",
+      "for_key": "varren fighting pits"
+    },
+    {
+      "chunk_id": "thresher-maw-enemy_002",
+      "kind": "page",
+      "page": "Thresher Maw (enemy)",
+      "section": "Mass Effect",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "Thresher Maws can be encountered on a number of uncharted worlds and can be fought in the Mako or on foot. Thresher maw nests are uniquely identifiable by a distinct profile of landscape, which consists of a few hills and pits no higher or deeper than 2 meters on an otherwise perfectly flat circular area of land about 50\\-75 meters in diameter. Although barely discernible from radar, it becomes more apparent once it is seen from above. From below, it may appear as a jagged circular terrace. Thresher maws will not rise from the ground upon the hills or pits in their nest. They will retreat below ground if you leave their circular area for longer than about 5 seconds.",
+      "url": "https://masseffect.fandom.com/wiki/Thresher_Maw_(enemy)",
+      "for_key": "varren fighting pits"
+    },
+    {
+      "chunk_id": "urdnot-camp_002",
+      "kind": "page",
+      "page": "Urdnot Camp",
+      "section": "Layout",
+      "game": "Mass Effect 2",
+      "scene_id": "",
+      "text": "A small landing pad for shuttles is connected to the camp proper by a derelict passageway. Within the camp are the throne dais for Clan Urdnot's leader, a building where the Urdnot shaman resides and representatives from other clans gather, a varren\\-fighting pit, the clan's food stores (frequently raided by the invasive pyjak), a merchant's kiosk, and the lab of the clan's Lord High Researcher.",
+      "url": "https://masseffect.fandom.com/wiki/Urdnot_Camp",
+      "for_key": "varren fighting pits"
+    }
+  ],
+  "codex": [
+    {
+      "file": "codex/characters.md",
+      "line": 18,
+      "text": "- Adrien Victus: turian general and First Contact War veteran known for clever, unorthodox tactics; became Primarch of Palaven in 2186 after Primarch Fedorian was killed on Menae. Led the war summit, backed curing the genophage in exchange for krogan aid, and lost his son Lieutenant Tarquin Victus, who died defusing a hidden turian bomb in Tuchanka's Kelphic Valley. (source: Adrien Victus)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 71,
+      "text": "- Chief Weyrloc Guld: krogan leader of Clan Weyrloc on Tuchanka, bent on curing the genophage at any cost, including experiments on humans and willing clan members. During Mordin Solus's 2185 loyalty mission he offered to let Shepard leave to spread word of Weyrloc dominance, but Shepard killed him and his soldiers while reaching Mordin's student Maelon. Reputed among his followers to have a \"destiny\" for fathering two living children, one of them female. (source: Chief Weyrloc Guld)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 79,
+      "text": "- Commander Rentola was a salarian officer, quartermaster and Kirrahe's second-in-command in the 3rd STG on Virmire; he always survived the assault on Saren's base and later helped deploy the modified genophage on Tuchanka with Mordin Solus (source: Rentola)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 96,
+      "text": "- Doctor Droyas was a krogan researcher at Saren's Virmire base working to counter the genophage, killed alongside husk test subjects when Shepard's squad stormed his lab. (source: Doctor Droyas)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 130,
+      "text": "- Eve / Urdnot Bakara: female krogan shaman, sole survivor of Maelon's genophage-cure experiments; recovered from Sur'Kesh, aided the cure on Tuchanka, and if Maelon's data was saved survived to rally the krogan clans and later bear Wrex's children (source: Eve)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 167,
+      "text": "- Grunt: tank-bred krogan super soldier created on Korlus by the warlord Okeer from the genes of renowned krogan; recruited by Shepard against the Collectors, completed the Rite of Passage to join Clan Urdnot, and in ME3 commanded Aralakh Company against the Reapers at Utukku. (source: Grunt)",
+      "for_key": "grunt tank-bred krogan okeer"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 188,
+      "text": "- If he survived, Urdnot Wrex united the krogan clans as leader of Clan Urdnot, demanded and helped disperse the genophage cure in Mass Effect 3, and named Shepard a champion and brother/sister of the krogan; if Shepard let the salarian sabotage stand, Wrex discovered the fake cure, confronted Shepard on the Citadel, was killed, and withdrew all krogan support (source: Urdnot Wrex).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 201,
+      "text": "- In Mass Effect 3 Mordin synthesized a genophage cure and died fixing salarian sabotage atop the Shroud on Tuchanka (\"Had to be me. Someone else might have gotten it wrong.\"), unless talked down when Wreav led the krogan and Eve had died. (source: Mordin Solus)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 251,
+      "text": "- Maelon Heplorn was a salarian geneticist, ex-STG operative, and former student of Mordin Solus who helped modify the genophage, then defected to Clan Weyrloc krogan in 2185 to try to reverse it out of guilt over what he saw as cultural genocide. (source: Maelon Heplorn)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 270,
+      "text": "- Mordin Solus: salarian geneticist, professor and former STG operative who led the team that designed and deployed the modified genophage; born in the 2150s, scarred and missing his right cranial horn from a botched Tuchanka dispersal mission. (source: Mordin Solus)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 271,
+      "text": "- Mordin ran a clinic on Omega after the genophage project, defending it with STG-acquired mechs; Shepard recruited him there in 2185 as he cured a Collector-engineered plague. (source: Mordin Solus)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 309,
+      "text": "- Padok Wiks was the salarian STG base commander on Sur'Kesh and a genophage-cure researcher who assumed Mordin Solus's role in Mass Effect 3 if Mordin was dead; regretting his earlier work uplifting species, he believed the salarians had been arrogant to interfere with the krogan (source: Padok Wiks).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 352,
+      "text": "- Shepard could spare or kill Maelon on Tuchanka; if spared he opened an Omega clinic and went into hiding under a Clan Weyrloc bounty. Female krogan survivors of his experiments and his preserved research later proved essential to curing the genophage in the Reaper War. (source: Maelon Heplorn)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 398,
+      "text": "- The Shadow Broker dossier on Mordin Solus preserved an STG mission report for Project Firebreak, a genophage-modification drop at the Weyrloc Trading Center on Tuchanka under Commander Kirrahe, where Solus stabbed a Weyrloc guard through the eye with a pitchfork, injuring his own face and cranial horn, and refused evacuation to finish soil and water analysis (source: Shadow Broker Dossiers/Dr. Mordin Solus).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 408,
+      "text": "- The Urdnot Shaman kept Clan Urdnot's rites on Tuchanka, permitted the tank-bred Grunt to undergo the Rite of Passage over Gatatog Uvenk's objections, and gave the eulogy at Eve's funeral if she died during the genophage cure (source: Shaman).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 410,
+      "text": "- Tolan was part of the STG squad that rescued Eve and the cured female krogan; he refused to shake Shepard's hand, opposed curing the genophage, and admitted he had wanted the female krogan executed to keep the cure secret before being overruled (source: Tolan).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 421,
+      "text": "- Urdnot Darg was a Clan Urdnot scout on Tuchanka who was captured by the Blood Pack and made an unwilling test subject for Maelon's genophage-cure research; Shepard could convince him to return home during Mordin's loyalty mission, after which he emailed thanks and abandoned plans to join the Blood Pack (source: Urdnot Darg).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 423,
+      "text": "- Urdnot Wreav, Wrex's traditionalist broodbrother, became leader of Clan Urdnot if Wrex died on Virmire or never joined Shepard; he prized his clan over the krogan race, stockpiled more weapons of mass destruction than any krogan in history, claimed personal credit for curing the genophage, and could be duped into pledging krogan support if the salarian sabotage was concealed (source: Urdnot Wreav).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 424,
+      "text": "- Urdnot Wrex joined Shepard in Mass Effect after being hired by the Shadow Broker to kill Fist, and on Virmire could be talked down or shot dead over the destruction of Saren's krogan-breeding facility and its possible genophage cure (source: Urdnot Wrex).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/characters.md",
+      "line": 425,
+      "text": "- Urdnot Wrex was a Krogan Battlemaster, mercenary, and one of Clan Urdnot's own who killed a thresher maw during his Rite of Passage and killed his father, the warlord Jarrod, after Jarrod betrayed him at a Crush in the Hollows (source: Urdnot Wrex).",
+      "for_key": "krogan rite of passage thresher maw"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 4,
+      "text": "- A common subgenus of varren possesses metallic silver scales and is nicknamed \"fishdogs.\" (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 23,
+      "text": "- Around 1900 BCE, the krogan entered the nuclear age and engaged in a global conflict that sent Tuchanka into nuclear winter, causing krogan society to devolve into a collection of warring clans. (source: Tuchanka)",
+      "for_key": "tuchanka nuclear war"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 36,
+      "text": "- Attitudes toward biotics varied sharply by society: human biotics faced widespread public prejudice and distrust (partly from myths that they could read or control minds), with religious and ideological groups opposed to biotic modification and occasional mob attacks on biotics who misused their power, even as the Alliance military welcomed biotics with heavy enlistment incentives, front-line assignments, and an enlarged 4,500-kilocalorie daily ration; turian biotics were uncommon and distrusted enough to be segregated into dedicated Cabal units, salarian biotics were rare and prized, and krogan biotics were few but so powerful that before the genophage biotic Battlemasters were feared and swiftly promoted through military ranks. (source: Biotics)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 39,
+      "text": "- Batarians also raise varren as beasts of war. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 51,
+      "text": "- Clan Urdnot's settlement contains a throne dais for the leader, a building where the shaman resides and representatives from other clans gather, a varren-fighting pit, and a lab for the clan's Lord High Researcher. (source: Urdnot Camp)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 69,
+      "text": "- Female krogan who became shaman surrendered their birth name and were tested with a ritual ordeal: Urdnot Bakara was sealed alone in a dark cave for a week with limited food and had to claw her way out using only a crystal shard she found by touch; she never revealed her birth name to any outsider until after curing the genophage, when it was disclosed as Bakara. Male krogan names, by contrast, arose from belching contests, whatever sound happened to resemble a word. (source: Eve)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 70,
+      "text": "- Food and cuisine: while most creatures simply eat what nature provides, sapient species turn raw foods into complex dishes, and levo- and dextro-amino-acid physiologies need separate variants of many items, with the wrong chirality harmful or lethal. Named dishes include batarian burgat (\"the Other Blue Meat\") on sticks, varren skewers and jerky, pyjak (a staple on Omega), Rupert Gardner's calamari gumbo from an asari recipe, and nutrient paste manufactured by the Citadel's recyclers and heavily eaten by quarians. The Protheans allegedly ate the primitive races of their era. (source: Foods)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 102,
+      "text": "- Krogan culture centers on the clan, overseen by a Shaman, with a coming-of-age Rite of Passage in which the aspirant, backed by a krantt of chosen allies, faces waves of varren and klixen and must survive a Thresher Maw; killing the Maw earns lasting respect. Krogan fiercely guard their medical records after the salarians used them to build the genophage, and centuries of genophage decline bred a dangerous fatalism; ancestral dead are interred in the burial caverns called the Hollows. (source: Grunt: Rite of Passage; Genophage; Clan Urdnot)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 103,
+      "text": "- Krogan have maintained a love-hate relationship with varren for millennia, alternately fighting them for territory and raising them as treasured companions and beasts of war. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 133,
+      "text": "- Professional varren racers follow a specialized diet derived from wild prey with radioactive contaminants removed, and are forbidden from consuming the flesh of sapient races. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 226,
+      "text": "- The Silversun Strip's Castle Arcade and Silver Coast Casino offered interactive games including Shattered Eezo, the Claw Game, Relay Defense, and a nonfunctional Towers of Hanoi machine, alongside casino staples Quasar, roulette and varren racing; a vorcha ran an unwinnable Three-Card Monte hustle outside the Armax Arsenal Arena. (source: Silversun Strip)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 242,
+      "text": "- Tuchanka's underground bunkers served as krogan shelter during the species' internal nuclear warfare and to protect from the planet's burning surface heat. (source: The Art of the Mass Effect Trilogy/Mass Effect 2)",
+      "for_key": "tuchanka nuclear war"
+    },
+    {
+      "file": "codex/culture.md",
+      "line": 255,
+      "text": "- Varren living on Thessia develop biotic abilities due to high concentrations of element zero in the planet's ecosystem, making them notably more aggressive; Jack adopted one such red-skinned biotic varren and named her Eezo. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 18,
+      "text": "- A sexually transmitted disease called \"scale-itch\" is carried exclusively by varren; it was detected aboard the Normandy by Mordin Solus. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 21,
+      "text": "- Because there was no cure for the genophage, a persistent black market trade in krogan testicles existed among some krogan who believed (without evidence) that testicle transplants could counteract its effects. (source: Genophage)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 29,
+      "text": "- Citadel nightlife entertainment circa 2186 included the Silver Coast Casino's Quasar gambling machines and the Armax Arsenal Arena combat simulator, both visited by an off-duty N7 squad in \"Profiles in Courage,\" alongside a celebrated pet varren, \"Prince Grimrender of Gembat,\" profiled by Citadel Weekly. (source: Alliance News Network/Profiles in Courage)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 31,
+      "text": "- Citadel street food and snack culture included a Zakera Ward ramen stand, a Noodle House whose noodles Grunt found \"a little spicy,\" Fishdog Food Shack's varren skewers and steaks (also sold on Illium), and McSorley's Cloaca Margarine, advertised as made from \"free-range organic varren.\" (source: Foods)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 88,
+      "text": "- McSorley's Cloaca Margarine is advertised on the Citadel as being made from free-range \"organic\" varren. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 113,
+      "text": "- Professional varren racers eat a specialized diet based on their wild prey diet but excluding radioactive materials, and require regular grooming and care. (source: Silver Coast Casino: Infiltration)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 122,
+      "text": "- Rolan Quarn had worked in varied occupations including stunt driver, sous-chef, martial arts instructor, ambassador, varren tamer, news anchor, and stand-up comedian. (source: Rolan Quarn)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 164,
+      "text": "- The \"Fishdog Food Shack\" on Illium serves varren skewers and varren steaks as menu items. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 193,
+      "text": "- Urz, a retired champion of the varren fighting pits at Urdnot Camp, can be wagered upon with a purse of 500 credits per match. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 194,
+      "text": "- Varren are omnivores with a preference for living prey; they are pack hunters when vulnerable prey is available and scavengers when outnumbered or outclassed; their adaptability and rapid breeding cycle made them ubiquitous and dangerous pests on many worlds. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 195,
+      "text": "- Varren encountered by Shepard in 2185 display brown-striped coloration, whereas varren encountered in 2183 had white underbellies and dark dorsal sides. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 196,
+      "text": "- Varren fauna inhabitated Tuchanka and engaged with military forces in combat. (source: Priority: Sur'Kesh)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 197,
+      "text": "- Varren possess jaw articulation similar to that of snakes, allowing them to swallow prey whole. (source: Varren)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 198,
+      "text": "- Varren racing is broadcast live from Tuchanka and available for betting at Silver Coast Casino. (source: Silver Coast Casino)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/everyday.md",
+      "line": 199,
+      "text": "- Varren use throat-grab dominance displays during racing in which they grab and hold an opponent's throat for dominance but do not break the skin. (source: Silver Coast Casino: Infiltration)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/factions.md",
+      "line": 13,
+      "text": "- Clan Weyrloc is a large krogan tribe on Tuchanka tied to the Blood Pack, whose founder was a Weyrloc chief; in 2185 it was based in a hospital sponsoring Maelon's genophage-cure research, intending to outbreed Clan Urdnot and then wage war on the galaxy. (source: Clan Weyrloc)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/factions.md",
+      "line": 25,
+      "text": "- In Mass Effect the STG 3rd Infiltration Regiment under Captain Kirrahe scouted Saren's base on Virmire; in Mass Effect 3 an STG facility on Sur'Kesh researched the genophage and held the surviving krogan females, and STG had earlier sabotaged the Shroud on Tuchanka to block cure dissemination. (source: Special Tasks Group)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 25,
+      "text": "- During the Krogan Rebellions the genophage was transmitted into over 90 percent of the sealed underground bunkers where krogan had isolated themselves; a later shroud at the L1 Lagrange point, maintained by the CDEM from orbiting battlestations, kept surface temperatures livable (source: Tuchanka).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 39,
+      "text": "- In Mass Effect 3 a Destroyer-class Reaper seized the Shroud to poison Tuchanka's air; Shepard summoned Kalros to drag the Reaper underground, and the Shroud was destroyed in an explosion whether or not the genophage cure was dispersed (source: Shroud)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 149,
+      "text": "- The Shroud was a salarian atmospheric-control tower on Tuchanka, built about 2,000 years ago to stabilize the planet's climate after the krogan nuclear winter, originally deployed by ground-based mass-driver towers (source: Shroud)",
+      "for_key": "tuchanka nuclear war"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 150,
+      "text": "- The Silver Coast Casino was a three-floor casino on the Citadel's Silversun Strip owned by weapons dealer Elijah Khan, offering Quasar, roulette, and Tuchanka-broadcast varren racing (source: Silver Coast Casino)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 154,
+      "text": "- The Urdnot Camp was a small rubble-strewn settlement on Tuchanka controlled by Clan Urdnot, containing the clan leader's throne dais, the shaman's building where other clans gathered, a varren-fighting pit, food stores raided by pyjak, a merchant kiosk, and the Lord High Researcher's lab (source: Urdnot Camp).",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 158,
+      "text": "- The nuclear winter collapsed krogan society into warring clans; salarian first contact in 80 CE enabled a resurgence, and the salarians built the Shroud facility on Tuchanka to block harmful solar radiation (source: Tuchanka).",
+      "for_key": "tuchanka nuclear war"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 170,
+      "text": "- Tuchanka is the lethal, war-ravaged krogan homeworld, organized into clan territories with neutral ground held by the dominant clan; its landmarks include the ancestral burial caverns called the Hollows and the Shroud, a planet-wide atmospheric-processing tower (secretly sabotaged by the salarian STG) through which a genophage cure could be dispersed. Krogan youths undergo the Rite of Passage on its traditional Rite grounds. (source: Clan Urdnot; Genophage; Grunt: Rite of Passage)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/places.md",
+      "line": 172,
+      "text": "- Tuchanka, the krogan homeworld, was the fourth planet of the Aralakh System in the Krogan DMZ, once lush under the star Aralakh (\"Eye of Wrath\") but reduced to radioactive wasteland by nuclear war around 1900 BCE (source: Tuchanka).",
+      "for_key": "tuchanka nuclear war"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 57,
+      "text": "- Diana Allers and Samantha Traynor traded intercom banter about the war-reporter trade: Allers found covering Tuchanka's genophage cure preferable to reporting on the Milgrom City Council back on Bekenstein, and Traynor asked why war reporters tended to look so feminine, prompting Allers to explain (per ANN research) that asari pay closer attention to feminine correspondents, salarians relate more to high-pitched voices, and turians are loyal viewers who write the creepiest fan mail. (source: Diana Allers)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 91,
+      "text": "- In an unused Normandy confrontation scene, Grunt goaded Mordin Solus over the genophage, demanding he \"raise a gun\" and fight; Mordin refused violence, instead threatening only to insult Grunt's \"female parentage\" in the traditional cross-species manner before dryly noting the jab would be \"factually inaccurate\" since tank-bred Grunt never had a mother -- Shepard could broker peace or take either side. (source: Mass Effect 2 Cut Content/Prologue and Normandy Voicelines)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 100,
+      "text": "- Jack kept a pet varren named Eezo, naturally biotic from growing up amid Thessia's element zero deposits and short-tempered as a result of the constant biotic exposure; she rescued him from a shelter after he had been abused and abandoned, and doted on him (\"Who's my badass biotic?\") as evidence she was trying to teach both Eezo and herself that it was okay to trust people. (source: Jack — In-Game Dialogue and Banter)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 133,
+      "text": "- Mordin Solus's search for his rogue protégé Maelon on Tuchanka led to a hospital Clan Weyrloc had turned into a fortress, chasing a genophage cure to conquer the galaxy; for the assault, Urdnot Darg's rescue, Mordin's confrontation with Maelon (a gun Shepard can stop him drawing), and the choice over Maelon's research data, read `scenes/tuchanka-mordin-and-maelon.yaml` rather than a bullet -- the causality does not survive compression. (source: Mordin: Old Blood)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 138,
+      "text": "- Once Eve/Urdnot Bakara was recovering aboard the Normandy, her salarian doctor Mordin Solus tried matchmaking her with Garrus Vakarian, but she wasn't interested; if Padok Wiks was her doctor instead, their small talk devolved into him guessing at her hidden birth name and wondering (at her warning not to ask) whether Wrex's own name had started as a belch. Eve also confided to Shepard that Wrex, when not \"trying to sire half of Tuchanka,\" was the best thing to happen to the krogan and a rare male not obsessed with war -- but she'd never tell him so. After the genophage cure, Wrex complained to Shepard at the Silver Coast Casino that he was now hounded by every female on Tuchanka and that Eve was \"no help at all,\" in fact encouraging it. (source: Eve)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/social.md",
+      "line": 184,
+      "text": "- The next Pope, Leo XIV, held eschatological beliefs aligned with militarizing humanity and proved forgiving toward salarians regarding the genophage, aiding Cerberus's strategic alliances against turians. (source: Shadow Broker Dossiers/Cerberus)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 33,
+      "text": "- In 2185 Mordin Solus revealed krogan were slowly evolving against the genophage, and his STG team applied a modified version; in the 2186 Reaper War Shepard could cure it at the Shroud in exchange for krogan aid, or let salarian sabotage stand. (source: Krogan)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 41,
+      "text": "- Killing a thresher maw on foot was a rare krogan feat, last done by Urdnot Wrex; Clan Urdnot's Rite of Passage instead calls for surviving one on a timer, and Grunt's own Rite — where killing it outright was the rarer, optional outcome — went ahead only after Shepard faced down the traditionalist Gatatog Uvenk (source: Thresher Maw)",
+      "for_key": "krogan rite of passage thresher maw"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 42,
+      "text": "- Krogan are large reptilian bipeds from Tuchanka, a harsh predator-filled world they rendered a radioactive wasteland in a nuclear war roughly 4,000 years ago before being uplifted by the salarians. (source: Krogan)",
+      "for_key": "tuchanka nuclear war"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 43,
+      "text": "- Krogan Berserkers were tank-bred krogan created by the warlord Okeer to be \"perfect krogan\" free of genophage markers and \"weak genes\"; most were failures given to Blue Suns commander Jedore, who turned on Okeer and gassed the facility, killing him as he shielded the one tank he judged perfect — later woken by Shepard as Grunt. (source: Krogan Berserker)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 61,
+      "text": "- Salarians uplifted the krogan to throw their numbers against the rachni; after the rachni were eradicated the krogan overpopulated, seized inhabited worlds, and were struck with the turian-deployed genophage that cut viable births to about one in a thousand. (source: Krogan)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 88,
+      "text": "- The salarians uplifted the krogan with technology and a new homeworld to defeat the rachni, then developed the genophage that the turians deployed to end the Krogan Rebellions. (source: Salarian)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 99,
+      "text": "- Turian history included the Unification War among distant colonies, the Krogan Rebellions (in which they deployed the salarian genophage and won a Council seat by 900 CE), the 2157 Relay 314 Incident against humanity, and the 2186 Reaper War, which saw the Reapers destroy Taetrus and assault Palaven and Menae (source: Turian).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 102,
+      "text": "- Varren meat is a common food source (Illium's Fishdog Food Shack, Citadel margarine ads), salarians studied them as bioweapons (\"species 408\"), and Thessian varren can develop element-zero-fueled biotics; a tame retired pit champion named Urz lived beside the trader Ratch at the Urdnot Camp (source: Varren).",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/species.md",
+      "line": 103,
+      "text": "- Varren were vicious, rapidly breeding omnivores native to Tuchanka that hunt in packs and scavenge when outmatched; they followed krogan expansion everywhere as ecological pests, and krogan and batarians raise them as beasts of war and companions, with a silver-scaled subgenus nicknamed \"fishdogs\" (source: Varren).",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/tech.md",
+      "line": 183,
+      "text": "- The Idenna commanded scout vessels including the Bavea and the Cyniad; the Cyniad crashed on Gei Hinnom, where varren killed all its crew except Lieutenant Forzan vas Idenna, rescued by Shepard and the Normandy SR-2. (source: Idenna)",
+      "for_key": "urz varren"
+    },
+    {
+      "file": "codex/timeline.md",
+      "line": 11,
+      "text": "- It fixes key dates: Citadel Council founded 500 BCE (0 GS); Rachni Wars from 1 CE; krogan uplift 80 CE; rachni declared extinct 300 CE; Krogan Rebellions c. 700-800 CE; genophage deployed 710 CE; turians gain a Council seat 900 CE (source: Timeline).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 15,
+      "text": "- At Virmire, Saren was found to be breeding a genophage-cured krogan army meant to be destroyed with the base; Captain Kirrahe refused to launch the assault until Shepard personally talked down (or killed) a furious Wrex alone on the beach, with Ashley and Kaidan standing by — a confrontation that could end in Wrex's death or his survival as leader of Clan Urdnot (source: Virmire: Wrex and the Genophage).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 28,
+      "text": "- During the Krogan Rebellions, after the genophage was released, a salarian STG team sabotaged the Shroud so that any genophage cure could not be easily disseminated through Tuchanka's atmosphere (source: Shroud)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 63,
+      "text": "- Priority: Sur'Kesh was a Cerberus assault on the salarian STG base where Shepard extracted the last surviving fertile krogan female (\"Eve\"), the key to a genophage cure demanded as the price of krogan aid against the Reapers (source: Priority: Sur'Kesh).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 66,
+      "text": "- Priority: Tuchanka: the krogan attacked a Reaper Destroyer occupying the Shroud tower with turian air support; Shepard activated the ancient Maw Hammers to summon Kalros, the mother of all thresher maws, which dragged the Reaper beneath Tuchanka, allowing the genophage cure (or a sabotaged fake) to be dispersed from the Shroud (source: Priority: Tuchanka).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 72,
+      "text": "- STG Project Firebreak, detailed in Mordin Solus's Shadow Broker dossier, was a covert drop on Tuchanka that dispersed a genophage-modification payload into a Weyrloc agricenter's soil, water and food supplies (source: Shadow Broker Dossiers/Dr. Mordin Solus).",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 88,
+      "text": "- The Genophage was a biological weapon that reduced the krogan not in fertility but in viable pregnancies, leaving most fetuses without nervous systems; every cell was infected to defeat gene therapy. The salarians built it as an undeployed deterrent; the turians deployed it immediately during the Krogan Rebellions. Centuries of decline bred a dangerous fatalism among the krogan. In Mass Effect 2 Mordin Solus engineered an updated variant; in Mass Effect 3 a cure derived from Maelon's research could be dispersed through the Shroud on Tuchanka, over salarian sabotage. (source: Genophage)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 94,
+      "text": "- The Rachni Wars pitted the Citadel races against the hive-minded rachni, and led the salarians to uplift the krogan as shock troops; the war's end brought the Citadel Conventions restricting relay activation and the public founding of the Spectres. The subsequent Krogan Rebellions, driven by krogan overpopulation and expansion, ran roughly a century until the turians deployed the salarian-built genophage. (source: Codex/Aliens: Non-Council Races; Codex/Citadel and Galactic Government)",
+      "for_key": "genophage"
+    },
+    {
+      "file": "codex/war.md",
+      "line": 122,
+      "text": "- Whether Wrex or Urdnot Wreav led the krogan into Mass Effect 3 determined the \"Clan Urdnot\" and \"Krogan Mercenaries\" War Assets and whether a sabotaged genophage cure could be concealed (source: Virmire: Wrex and the Genophage).",
+      "for_key": "genophage"
+    }
+  ],
+  "conflicts": [
+    {
+      "canon_id": "kasumi-jack-poetry-jam",
+      "config_said": "Kasumi and Jack hold poetry jams in secret. Grunt sometimes turns up to read excerpts from Hemingway.",
+      "evidence_said": "scenes/tuchanka-grunt-rite-of-passage.yaml — Grunt's Rite of Passage",
+      "resolution": "override 'kasumi-jack-poetry-jam' is authoritative over the corpus; where the scene record disagrees, the override is narrated and the record is not"
+    }
+  ],
+  "warnings": [
+    "Thomas is the subject but is not in the corpus: no scene record will ever list them in `participants` or `heard_by`, so a record's silence is not absence. Their presence comes from config/narrators/thomas.notes.md, by its timeline stretches rather than its named occasions — where those notes put them with the crew they were at that period's occasions too, and outside those stretches they were not there. The notes still bind absolutely on the load-bearing facts: relationships, habits, dates, deaths, deeds."
+  ]
+}

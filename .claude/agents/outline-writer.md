@@ -197,6 +197,11 @@ not "Grunt". 2–5 per section.
   leave it to `build_pack.py`. A real contradiction goes to the user:
   `python scripts/canon.py --ask 'question: ...\nraised_by: <run>/<section>\ncontext: ...\noptions: [...]'`
   and mention it when you report. Never block on it.
+  Exception: a gap or contradiction about an original character who is not in the corpus
+  (e.g. Thomas, from `config/narrators/<name>.notes.md`) never goes to `config/canon/`.
+  The canon store holds trilogy canon only; that character lives entirely in their notes
+  file. Do not `--ask`. List the question in your report so the user can answer it, and the
+  answer is recorded in the notes file.
 - At least a couple of sections are primarily lore, history or worldbuilding rather than
   plot — subjects the narrator's `knowledge_bias` / `digressions` say they'd dwell on.
 - If `brief` is non-empty, let it set the frame: an opening and closing section that

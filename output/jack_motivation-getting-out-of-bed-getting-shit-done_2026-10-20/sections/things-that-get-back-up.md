@@ -1,0 +1,9 @@
+You want to know who really gets up in the morning? Krogan. They nuked their own fucking planet. Tuchanka's ash and craters, and the rubble still glows. Then the salarians handed them guns to win the rachni war for everybody else, and when the krogan wouldn't stop breeding, the salarians cooked up the genophage and the turians dropped it on them. Used them, then gutted them by committee. One kid in a thousand lives. You know the bit I can't let go of? Some of them sealed themselves in bunkers to wait it out, and it got into nine bunkers out of ten anyway. Nowhere to hide from it. And Wrex, the old bastard you used to argue with in the cargo bay, still sits on a throne of rubble and gets up every day to pick a fight with a planet that wants him dead.
+
+Grunt, now. I wasn't there, so this is Grunt bragging, and you made him tell it three times. Okeer grew him in a tank, and some Gatatog fossil stood up in front of the shaman and called him a factory fake. I know that song. Somebody's lab project, so you don't count, you're not real. Fuck him, and every lab coat who ever said it to me. Grunt walked into that arena and killed a thresher maw on foot, the first since Wrex, and nobody on Tuchanka's calling him fake now.
+
+I know what a maw is to you. I'm not saying it light.
+
+Then there's Urz. Zaeed came back going on about him, a chewed-up old pit champion parked by the trader's stall, still torn up from his last fight. Zaeed wanted to send him back in and bet against him. Grunt said he'd fight again. Krogan run those pits till the varren break, then bet on the pieces. I fucking love varren anyway. Teeth first, they tell you exactly what they're going to do.
+
+And you're about to say you're not a fighter. Cut the bit, I can see the fucking joke loading. Okay, you're not. Nobody asked the krogan what odds they wanted either. Getting up is the fight.
