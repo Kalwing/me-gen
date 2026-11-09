@@ -59,3 +59,13 @@ def test_new_run_records_a_named_subject(tmp_path):
 def test_new_run_rejects_a_subject_with_no_notes_file(tmp_path):
     with pytest.raises(ValueError, match="nobody.notes.md"):
         new_run.new_run("jack", ["grief"], 8000, tmp_path, subject="nobody")
+
+
+def test_new_run_accepts_a_subject_variant(tmp_path):
+    run = new_run.new_run("tali", ["grief"], 8000, tmp_path, subject="thomas.tali")
+    assert yaml.safe_load((run / "outline.yaml").read_text())["subject"] == "thomas.tali"
+
+
+def test_a_subject_variant_displays_as_the_person():
+    assert common.display_name("thomas.tali") == "Thomas"
+    assert common.display_name("thomas") == "Thomas"

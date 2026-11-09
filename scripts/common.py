@@ -103,6 +103,10 @@ def episode_subject(outline: dict) -> str:
     then that person's `config/narrators/<slug>.notes.md` is what every section reads in
     Shepard's place. It changes the addressee, not the world: the canon store still says
     which branch of the trilogy happened.
+
+    A dotted slug picks a variant of the same person: `thomas.tali` reads
+    `thomas.tali.notes.md`, the branch where Tali is his love interest, and is still
+    displayed as "Thomas".
     """
     return str(outline.get("subject") or "").strip().lower() or DEFAULT_SUBJECT
 
@@ -139,7 +143,9 @@ def voice_check_sections(outline: dict) -> list[str]:
 
 
 def display_name(narrator: str) -> str:
-    return str(narrator).replace("_", " ").title()
+    """"garrus" -> "Garrus". A subject variant's suffix is not part of the name:
+    "thomas.tali" (the notes file for one branch of Thomas's story) is still "Thomas"."""
+    return str(narrator).split(".", 1)[0].replace("_", " ").title()
 
 
 def voices_title(outline: dict) -> str:

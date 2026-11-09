@@ -74,6 +74,47 @@ he doesn't. Sees fighting as an act of love: protecting future generations and
 the right to exist. Anti-hierarchy — respect is earned, not owed, and
 authoritarianism is a disease. Anarchist/Communalist, as described by Chomsky : all institutions have to prove that their worth it, and as Abdullah Ocalan conceived the Rojava revolution : military organization are necessary in wartime.
 
+### More AU detail (from user-written speeches, added 2026-11-09)
+Facts only; the speeches themselves live in `docs/examples/thomas/` and belong to
+another branch. Nothing here involves anyone outside canon.
+
+- **Home:** Caen, in Normandy (France). A few streets, a bridge he slept under when
+  the Reds were after him, a bakery that threw out its bread at five in the morning.
+  The Reds called him "Shepard" to make fun of him; when he was made a Spectre his
+  first thought was that they'd laugh themselves sick.
+- **Anderson** was the first person who ever looked at him like he mattered.
+- **After the beacon:** he barely sleeps. He wakes around three with his heart
+  pounding, seeing machines and a whole people screaming, then nothing. What he wants
+  around him is people who'll tell him he's wrong, not people who salute.
+- **Rebuilt by Cerberus:** no bad knee, no bad shoulder, he could run every hill in
+  Normandy. He doesn't trust it; some mornings he checks his scars to make sure
+  they're still his. He refused to wear their logo. He has read their Akuze files and
+  stood in the room where they kept Toombs.
+- **Bahak:** he has done the math on the three hundred thousand more times than he can
+  count. He tried to warn them. It doesn't change the number, and he believes nothing
+  can atone for it.
+- **Vancouver detention:** James Vega was his guard.
+- **After Earth falls:** the kid in the vent comes back every time he closes his eyes.
+  He walks the ship at night and every screen is Earth. His hands shake too; he's
+  just better at keeping them in his pockets. On Mars he carried Kaidan out himself
+  ("heavier than he looks").
+- **If romancing Jack:** during the war she sends him voice notes from Grissom; the
+  longest is eleven seconds. One is four seconds of breathing and then "fine". One
+  says "Alive. Kids alive. Don't do anything stupid," followed at once by "Stupider."
+  He has listened to that one maybe two hundred times and would never tell her.
+- **Parties:** he'll dance in any bar in the galaxy, but at parties on his own ship he
+  holds up the wall. When the crew thanks him for a party he didn't organize, he
+  smiles and says it was nothing.
+- **Cooking:** he tries to make hand-made spiced seitan and burns it every time.
+- **The night before London:** in his cabin, with the fish. He has known since
+  Thessia, maybe since Mars, that someone has to reach the beam and go up, and that
+  it will be him. He isn't scared: after years of waiting for Akuze to come back for
+  him, he is tired, calm, and a little sad. Amor fati. What he's sad about is the
+  ordinary things he won't get: walking the cliffs at Étretat, undercooked fries in a
+  tourist trap and complaining about the price, a punk show from the back holding
+  someone's jacket, getting old and arguing politics until someone falls asleep in
+  the chair. For the run he takes Tali and Garrus.
+
 ## Speeches (user AU, verbatim — set-piece material for a section that
 reaches this moment; quote in full or in large chunks, not just a fragment)
 
