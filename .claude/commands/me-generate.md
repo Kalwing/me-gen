@@ -110,7 +110,15 @@ still come only from the timeline and retrieved evidence.
     per section when there is more than one voice>
    ```
 
-   Print the section(s) in the chat too, and ask the user to read them for **voice and lore
+   Before writing the file, run the **read-through** (see *Read-through* below) with stage
+   `voice` on the checkpoint section(s): cold read, then the editor. The editor's small fixes
+   land in the sections first, so the drafts in `voice_check.md` are the fixed ones. After the
+   drafts, add a `## Read-through` heading with the cold verdicts, the editor's
+   `## Fixes applied` and `## Dismissed` (one line each), and its `## Proposed — needs your
+   call` list in full.
+
+   Print the section(s) in the chat too, with the read-through's verdicts and proposals —
+   ask the user which proposals to apply (by `P` number, with any amendments) — and ask them to read them for **voice and lore
    handling, not facts** — and, with more than one voice, whether the voices are
    unmistakably distinct and the reply actually answers the turn before it:
    - *Voice* — does the narrator sound like themselves: cadence, register, how they digress,
@@ -134,7 +142,12 @@ still come only from the timeline and retrieved evidence.
      in the `avoid` entry so the failure is named, not merely described.
    - Re-dispatch `section-writer` for the checkpoint section(s) the feedback touches (with
      two voices, redo a later checkpoint turn whenever an earlier one it answers was
-     redone), refresh `voice_check.md` from the new drafts, and STOP again. Repeat until the user clears the marker line.
+     redone), re-run the read-through (cold, then editor) on the redone section(s), refresh
+     `voice_check.md` from the new drafts and the new read-through, and STOP again. Repeat until the user clears the marker line.
+   - Read-through proposals the user approved: dispatch `read-through-editor` in `apply`
+     mode with stage `voice`, the approved `P` numbers and any amendments. Fold the lesson of
+     each approved proposal into the bible too, as above, so the remaining sections do not
+     repeat it.
    If the user has given no feedback, just tell them the checkpoint is still waiting and stop.
 6. For each **remaining** section in `outline.yaml`, in order: dispatch `section-writer` with
    the run dir and the section id. It reads that section's pack and the narrator files and
@@ -147,9 +160,41 @@ still come only from the timeline and retrieved evidence.
 7. Dispatch `episode-auditor` for the run dir. It holds the packs and the whole episode, runs
    its own find-then-fix passes (including a deterministic repetition scan), and absorbs
    what `smoother` used to do. It must run before any tone pass.
-8. Assemble: `PYTHONPATH=. .venv/bin/python scripts/assemble_episode.py <run-dir>`.
-9. Print the episode path, its word count vs. `target_words`, the `issues.md` summary, and
-   the per-section coverage figures the auditor reported.
+8. **Read-through**, stage `episode`, on every section (see *Read-through*). It runs after
+   the auditor, so its fixes land on audited text, and before assembly and any tone pass, so
+   no `.performance.md` goes stale.
+9. Assemble: `PYTHONPATH=. .venv/bin/python scripts/assemble_episode.py <run-dir>`.
+10. Print the episode path, its word count vs. `target_words`, the `issues.md` summary, the
+   per-section coverage figures the auditor reported, the cold verdicts, the count of fixes
+   applied and dismissed, and the **proposals in full** from `readthrough/episode_weighed.md`.
+   Ask the user which to apply (by `P` number, with any amendments). STOP. When they answer:
+   dispatch `read-through-editor` in `apply` mode with stage `episode`, those numbers and
+   amendments; re-run the assembler (and `assemble_performance.py` plus `tone-marker` on the
+   changed sections, if a performance file already exists).
+
+## Read-through
+Two passes, both Opus, in this order, each sequential. `<stage>` is `voice` (checkpoint) or
+`episode` (finished episode); reports go in `output/<run>/readthrough/`.
+
+1. **Cold read — `read-through`.** Knows only the form, each speaker's speech style and the
+   addressee — never the brief, outline, promises or packs — and reports on the prose as it
+   stands: style, AI-isms, naturalness, whether it is a good read. It changes nothing. Build
+   its manifest without exposing the outline:
+   `python -c "import yaml; o=yaml.safe_load(open('<run-dir>/outline.yaml')); print('form:', o.get('form')); print('subject:', o.get('subject','shepard')); [print(s['id'], s.get('narrator', o['narrator'])) for s in o['sections']]"`
+   Its prompt carries only: the run dir, the report path `readthrough/<stage>_cold.md`, the
+   form id, the subject slug, and the `<section-id> <narrator>` lines for the sections to read.
+   Do not add the brief, themes, promises or your own summary of the episode — the read is
+   only worth having because it is context-free.
+2. **Editor — `read-through-editor`.** Reads the cold report *with* the brief and weighs each
+   finding: dismisses what the brief makes right, applies small fixes (wording only, at most
+   two sentences, no fact touched), and writes everything bigger as numbered proposals for
+   the user. It also ponders, per section, whether the speaker is sycophantic, whether the
+   text is realistic (characters do not know everything), whether the emotions are real and
+   varied (anger, meanness, hostility, appeasing, joking — not only warmth), and whether each lore
+   fact serves the brief (or should be reduced, cut or justified); cutting or reducing lore
+   is always a proposal. Its prompt carries the run dir, the stage, the cold report path, the output path
+   `readthrough/<stage>_weighed.md`, and the same section lines. It never applies a proposal
+   unless dispatched in `apply` mode with the user's approved numbers.
 
 ## Verify
 - `output/<run>/episode.md` exists and is within 15% of `target_words`.
@@ -158,17 +203,22 @@ still come only from the timeline and retrieved evidence.
 - `output/<run>/issues.md` has a `## Fixes applied` section, and its `Coverage` heading
   reports real numbers rather than "none found".
 - Read the first and last 300 words aloud: the voice matches the narrator bible and nothing invented stands out.
-- `output/<run>/voice_check.md` exists and no longer carries its `# UNAPPROVED` line.
+- `output/<run>/voice_check.md` exists, carries a `## Read-through` section, and no longer
+  carries its `# UNAPPROVED` line.
+- `output/<run>/readthrough/episode_cold.md` has a verdict for every section, and
+  `episode_weighed.md` has `## Fixes applied`, `## Dismissed` and `## Proposed — needs your call`.
 
 ## If voice feedback arrives after the episode is written
-The checkpoint has been missed, so the fix is retroactive and has three parts, in order:
+The checkpoint has been missed, so the fix is retroactive and has four parts, in order:
 1. Fold the feedback into `config/narrators/<narrator>.yaml` as above.
 2. Sweep **every** section against the new rules, not only the one that was reviewed — the same
    habit will have recurred. Repair the offending lines in place; do not regenerate a section
    that is otherwise sound. Sweep for lore *integration* in the same pass, against
    `docs/generation-example.md`: a paragraph that recites accurate lore in a neutral register
    is as much a defect as one that invents it.
-3. Re-run the tone pass (`tone-marker`) on every section whose prose changed, then
+3. Re-run the read-through (stage `episode`, cold then editor) on every section whose prose
+   changed, and put its proposals to the user.
+4. Re-run the tone pass (`tone-marker`) on every section whose prose changed, then
    `PYTHONPATH=. .venv/bin/python scripts/assemble_episode.py <run-dir>` and
    `PYTHONPATH=. .venv/bin/python scripts/assemble_performance.py <run-dir>`. A `.performance.md` left over from the
    old prose fails the assembler's byte-identity check, which is the point.
