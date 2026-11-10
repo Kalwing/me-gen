@@ -88,7 +88,8 @@ def crawl(seeds: list[str], *, depth: int, cap: int,
           seen: set[str] | None = None,
           queue: list[tuple[str, int]] | None = None,
           checkpoint: Callable[[list[tuple[str, int]], set[str]], None] | None = None,
-          checkpoint_every: int = 10) -> list[PageData]:
+          checkpoint_every: int = 10,
+          have: Callable[[str], bool] | None = None) -> list[PageData]:
     """Breadth-first crawl from ``seeds`` to ``depth`` hops, fetching up to ``cap``
     pages *this run*.
 
@@ -116,6 +117,10 @@ def crawl(seeds: list[str], *, depth: int, cap: int,
         if title in seen:
             continue
         seen.add(title)
+        if have is not None and d >= depth and have(title):
+            # Leaf page already on disk: its links would not be followed, so a
+            # fetch would cost a request and a cap slot for nothing.
+            continue
         page = fetch(title)
         if page is None:
             errors.append(title)
@@ -302,7 +307,8 @@ if __name__ == "__main__":
     pages = crawl(seeds, depth=depth, cap=cap,
                   fetch=lambda t: live_fetch(t, session, rate), errors=errors,
                   on_page=on_page, seen=seen0, queue=queue0,
-                  checkpoint=checkpoint, checkpoint_every=10)
+                  checkpoint=checkpoint, checkpoint_every=10,
+                  have=lambda t: common.slugify(t) in existing)
 
     _write_error_log(log, errors, _short_pages)
     left = pending_pages(frontier["queue"], frontier["seen"])

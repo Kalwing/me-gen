@@ -23,9 +23,12 @@ import json
 import os
 import pickle
 import re
+import sys
 from pathlib import Path
 
 import yaml
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 _TOKEN = re.compile(r"[a-z0-9']+")
 

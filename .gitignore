@@ -2,14 +2,10 @@ __pycache__/
 *.pyc
 .pytest_cache/
 data/scrape_errors.log
-data/crawl_state.json
 data/*.log
 data/scrape.pid
-data/lore_skipped.txt
 data/lore_errors.log
-data/texture_candidates.tsv
 data/texture_final_candidates.txt
-data/texture_candidates.done
 data/texture_remaining.txt
 data/texture_batch_*
 !tests/fixtures/**
@@ -19,6 +15,7 @@ mass.zip
 me-gen.zip
 *.zip
 *.mp3
+*.pkl
 
 # Claude Code local settings (machine-specific)
 .claude/settings.local.json
