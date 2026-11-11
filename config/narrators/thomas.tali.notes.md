@@ -197,11 +197,11 @@ The strongest bonds come from mirrored wounds, where each of them recognizes the
 
 - **Joker:** Endless, affectionate teasing. He calls them "the Help Desk", and announces when the Help Desk is closed.
 - **Garrus:** Tali's oldest friend aboard. He gives Thomas a slightly-too-honest speech: Tali has had enough people hide things from her for her own good, starting with her father, so don't be the next one. Then he trades calibrations with him as if nothing happened.
-- **Jack:** Crude, relentless mockery of both of them, and she tells Tali to shut up when she gushes. Privately she tells Thomas that Tali is the only person aboard too good for him, and not to screw it up.
+- **Jack:** Crude, relentless mockery of both of them, and she tells Tali to shut up when she gushes. Privately she tells Thomas that Tali is the only person aboard too good for him, and not to screw it up. He knew it already, and never dared question it.
 - **Grunt:** Accepts it as clan business.
 - **Wrex:** Mocks Thomas for being a soft one, and for courting someone whose face he's never seen. Offers to teach him krogan courtship. Thomas declines, citing the helmet.
 - **Kal'Reegar:** A marine who carried a torch for Tali. Thomas liked him on sight and quietly conceded a contest only he knew was running.
-- **Admiral Raan:** Wary of the human, until she learns he keeps a dextro shelf he can't eat from.
+- **Admiral Raan:** Wary of the human, until she hears through other channels that he paid for quarian kids on their Pilgrimage (Shepard told her about him, and that was enough). She doesn't know Adams.
 - **Miranda:** Wary. She thinks Thomas's anti-authority streak is a liability, and Thomas thinks she's a good person under a bad banner. They come to a truce.
 - **Shepard:** Says nothing, but approves.
 
@@ -314,7 +314,7 @@ Rules the user set while reviewing episodes about Thomas. They apply to every na
 - **Tone of grief:** sadder rather than tidy. A eulogy laments him, tells how they bonded and what they loved, and celebrates him. It is never a lore recital.
 - **Shepard:** mention their mutual influence where it fits: Shepard gave him a reason to get up; he gave Shepard perspective, never orders. He always felt inferior.
 - **Quotes:** nobody quotes him verbatim except his own written French fragments (the poems, his last text).
-- **Music:** he loved many genres; the playlists he made for each of them show the range. ABBA is one of them, tied to a few set moments (the Omega-4 night, his last queued playlist). Don't reach for it every time music comes up.
+- **Music:** he loved many genres; the playlists he made for each of them show the range. ABBA is one of them, tied to a few set moments (the Omega-4 night). Don't reach for it every time music comes up.
 - **Canon recaps:** cut them. Speakers don't retell their own missions to people who were there. Keep a canon event only at the moment Thomas walks into it, and keep it short.
 - **Outing him:** a speaker who says they won't tell something doesn't then tell it, and the others visibly hold back. In a multi-voice episode Tali is the one who breaks the silence about his hands, on purpose. Joker keeps the hospital ratings but swallows the line before it says too much; he says he has the whole log, never what's in it. EDI can be precise, but she visibly declines to read his medical file aloud: no admission years with their context, no diagnosis label. The mother story belongs to Liara alone.
 - **One owner per trait:** in a multi-voice episode each of these is told by one speaker only, and nobody gives away a later speaker's turn ahead of time:
@@ -331,11 +331,17 @@ Rules the user set while reviewing episodes about Thomas. They apply to every na
 
 ## Eulogy devices
 
-Three devices that tie the voices together:
+Three devices that tie the voices together. They are a pool to draw from, **not a checklist per speaker**: a turn that runs flaw, gift, playlist, habit, "Shepard is missing" in order reads like a form, and ten of them in a row read like ten forms. Each device lands in a few turns only, where it comes up on its own, never announced ("Now the flaw", "He made me a playlist").
 
-- **What each person gave him.** Most of the material is about what he gave others. Each speaker names one thing they gave back, and whether he managed to accept it. His trouble receiving care then shows up across the whole room instead of being described once.
-- **A playlist for each of them.** He made everyone one (see "The playlists" below). What's on it shows what he saw in them, and it gives EDI a reason to have the files.
-- **His habits, now theirs.** Some speakers catch themselves doing something of his, which shows him living on in them without anyone having to say so: Grunt chops in a straight line, Joker says "you win" to someone, Kaidan passes the hot sauce without the joke, Jack learns to care for people.
+- **What each person gave him.** Most of the material is about what he gave others. Some speakers name one thing they gave back, and whether he managed to accept it. His trouble receiving care then shows up across the room. Nobody states the theme ("he couldn't be given things"); the stories show it.
+- **A playlist for each of them.** He made everyone one (see "The playlists" below). EDI has the files. Only a few speakers bring up their own, when it fits.
+- **His habits, now theirs.** A few speakers catch themselves doing something of his: Grunt chops in a straight line, Joker says "you win" to someone, Jack learns to care for people.
+
+**How the turns should sound:** people talking at a wake, drunk and grieving, not finished speeches. Rough: they lose the thread, interrupt themselves, repeat, swear, get a detail wrong and correct it, trail off. No polished closing line on every paragraph. Nobody knows the shape of the evening: no speaker refers to "a second turn", "this part", or what comes later.
+
+**Refusals:** at most two in the whole episode (Joker's swallowed hospital line, EDI declining the medical file). No other "I'm not going to say what it was", "I won't repeat it", "I'm not reading it out", "you're not getting the rest". If a speaker shouldn't tell something, they just don't bring it up.
+
+**Apologizing to things:** his habit of apologizing to objects (the toaster) is one small detail, used once in the whole episode at most. Don't hang a habit, a joke or a scene on it.
 
 ## Established in the wake (eulogy)
 
@@ -344,8 +350,19 @@ Facts for the eulogy in the Normandy mess. Treat them as part of Thomas's record
 **After his death**
 - He left an unsent eleven-second recording on his omni-tool, opened on the Hammer net and addressed to Tali. It has no words: gunfire, a Reaper horn, his breathing, a breath in as if to speak, then the shot. The krogan took the omni-tool off him and sent it up. Tali carried it in a sealed pouch on her suit and played it for the first time at the wake. She could have cleaned up the audio and didn't.
 - There is a wall upstairs on the Normandy with his name on it; Tali put it there.
-- The mess cabinet holds eleven recipe cards in his shaky handwriting. Grunt has annotated four of them. EDI's fourth clover leaf is taped beside the seitan card. The crew plan to cook from the cards, one recipe a night, two people on each.
-- The last playlist he queued, still in the ship's queue, is forty minutes of ABBA, a black metal album filed under "dishes", and one folk song played twice. The wake ends with that song played twice.
+- The mess cabinet holds eleven recipe cards in his shaky handwriting. Grunt has annotated four of them. EDI's fourth clover leaf is taped beside a photo he took with her the first time they danced, the day after she got her body. The crew plan to cook from the cards, one recipe a night, two people on each.
+- **His last playlist**, still in the ship's queue: what he played while putting on his armor before London, to accept the ending and get himself out the door. About forty minutes, in this order:
+  1. Opening (Linkin Park): the first track of *Reanimation*, a short instrumental with violins, remixed by Shinoda. The ritual starts.
+  2. Kettering (The Antlers): hospice grief, looking at dying head-on.
+  3. Une ode à la mort (Justin(e)): French punk, a love song to death instead of fear. Acceptance.
+  4. Highway to Hell (AC/DC), 5. Dead! (My Chemical Romance): laughing at where he is going.
+  6. L'Internationale: why he goes. The collective, not the Alliance and not Shepard.
+  7. What's Up (4 Non Blondes): hope with no illusions, screamed anyway.
+  8. J'ai vu (Niagara): the spectator who watched every war "collée devant l'écran" goes to see it himself; praying for the sacrificed, death laughing as it picks up the rest; the red flags burned right after L'Internationale.
+  9. Gasolina (Daddy Yankee): fuel, his body moving, a last joke on himself.
+  10. Killing in the Name (Rage Against the Machine): out the door, refusal aimed at the Reapers and at fear.
+- It happened on the Normandy: Grunt came aboard for the last night and rode down with Hammer. Grunt and James were in the room while it played. They helped him with his armor straps, and the three of them were jumping on the last tracks (Gasolina, Killing in the Name). It is the last time either of them saw him happy. It sits against the eleven-second recording: the playlist ends with him screaming refusal, the recording ends with a breath and no words. Nobody spells out the contrast.
+- The wake ends on two tracks from it, at Tali's request: "Une ode à la mort", its French run through the omni-tools' translation, for the punk energy; then "Gasolina", because he would have wanted them to have fun.
 
 **The playlists**
 
@@ -367,7 +384,7 @@ He made one for each of them. EDI has the files.
 - They kept a locker tally of fixes. He never put a mark on his own side, even when she broke the ship.
 - He rewrote the drive-core alerts so they ran in order of what would kill them first, and built a counterweighted bench mount for his tremor (she helped on version two).
 - He kept a labelled dextro shelf in the mess and fed her without watching her eat. He restocked it while she was gone. He cooked dextro dishes he couldn't taste, by smell and by her verdict.
-- He built her a sealed clean corner in engineering with an extra filter stage, so she could breathe unfiltered for a few minutes a day. He taped his code to it with a drawing of a sun, then lied that Adams had built it so he wouldn't be thanked. She found out from the comments in his code.
+- He built her a sterile station in a corner of engineering with an extra filter stage, for suit maintenance: changing filters, patching seals, eating through the induction port without opening anything in dirty air. She never took the suit off there; quarians don't unsuit on a warship. He stuck a drawing of a smiling face on it, then lied that Adams had built it so he wouldn't be thanked. She found out from the comments in his code.
 - He never asked to see her face. On Rannoch, after the peace, she took her helmet off to feel the sun, and he looked at the valley until she told him he could look.
 - After her trial he didn't comfort her, and he was the only one who didn't tell her that her father loved her. He said loving her and choosing her weren't the same thing, then asked what she wanted to build first, on a planet they didn't have yet. Days later, in engineering, he told her about the hospital corridor and his mother, the first time he'd told it aloud.
 - Omega-4: the night before, in the mess with ABBA on, she arrived with immune simulations and antibiotics already started. He made three jokes in a row; she waited them out. They cooked, ate standing up and washed up together, and it was their first night together, in the clean corner he'd built. She ran a fever for three days afterward, exactly as she'd predicted, and was smug about the accuracy.
@@ -394,7 +411,7 @@ He made one for each of them. EDI has the files.
 **Joker**
 - Joker named him and Tali "the Help Desk".
 - They were best friends and joked all day, every day, on both ships. He did mock in-flight announcements from the jump seat, and they had a running "you're an anarchist" / "I'm a pilot" argument. He named the krogan body pillow and gave her a backstory. He wrote a program that raised a hull-stress warning whenever Joker sneezed. With Joker he swapped James's protein for seitan for a week. They watched Blasto vids with their own commentary track, and kept a crew dance scorecard that put him dead last.
-- Hospital ratings: they rated each other's hospital stays, and he always ranked Joker's above his own. Joker is the only one who heard the whole story of his suicide attempts.
+- Hospital stays: they shared stories, jokes and feelings about them. Rating each other's stays was a running bit, one of many, not the main thing; he always ranked Joker's above his own. They joked every time about everything, crudely, partly because each knew the other's trauma and pain. They never needed to talk about it, but each had the whole story. Best friends. Joker is the only one who heard the whole story of his suicide attempts.
 - He never mentioned the SR-1 loss to Joker.
 - When the Collectors boarded the SR-2 and took the crew, he was in the middle of a repair somewhere out of the way and stayed hidden. He met Joker after Joker had unshackled EDI, and he was not taken. So he was aboard and free when the squad came back, and he is not among those rescued from the pods.
 - At the Citadel party he backed up every exaggeration in Joker's restaurant story. In the morning he was upright beside a cleaning drone, holding out a glass of water.
@@ -406,14 +423,13 @@ He made one for each of them. EDI has the files.
 - They had coffee at Apollo's, where he talked about Rouen: Monet's cathedral, the great clock, Joan of Arc.
 - He had a "born in Normandy, serving on the Normandy" joke and stopped telling it after the SR-1 went down.
 - He never once made Thessia or Ilos lighter, even though they were his best argument. After Thessia he quietly shut down a joke about it in the mess.
-- He wrote a page addressed to her, which she hasn't read.
 - Samara: he talked morality with her and tried to meditate with her many times, always unsuccessfully, because he couldn't calm his mind without music. He had three relaxing playlists, each with its own mood.
 
 **Grunt**
 - He let Grunt guard the kitchen, taught him to chop in a straight line, and asked what he wanted.
 - He made Grunt heavy, salted dishes without ever saying they were for him.
 - He made Grunt tell the Rite three times; when Grunt said his favourite part was killing Uvenk, he laughed so hard he sat on the floor.
-- He brought Grunt forbidden food at Huerta after Utukku.
+- He brought Grunt forbidden food at Huerta after Utukku: meat, which disgusted him and he hated carrying. He said it was in the fridge and would go bad; nobody knows if that was true.
 - Grunt calls him brother.
 
 **James**
@@ -422,7 +438,6 @@ He made one for each of them. EDI has the files.
 - He asked James whether he was built for the line. James said no, and taught him to stand anyway.
 - On sports nights he asked Cortez what Robert was like.
 - After Fehl Prime he would turn up during James's pull-ups with filthy limericks and hand him a towel.
-- He judged James's eggs after going vegan ("seven, for courage").
 
 **Kaidan**
 - On the SR-1 they had late talks at the crew-deck lockers. He asked Kaidan about the migraines, the implant, BAaT and Rahna, without pity. His crush was known and handled gently.
@@ -434,7 +449,7 @@ He made one for each of them. EDI has the files.
 
 **Wrex**
 - Wrex called him the soft one, and he called Wrex "sir" to annoy him.
-- He fixed Wrex's omni-tool translator so it stopped turning Wreav's swearing polite.
+- He rigged Wreav's translator for one afternoon, so at a war council Wreav's insults to Wrex came out to the turians as a calm poem about a pyjak he loved as a child. The turian general had to leave the room.
 - On the first night of the Citadel shore leave he hid ryncol behind the flour, and Wrex drank from it.
 - He told Wrex, with no joke on it, that he was treating Eve like clan property ("a gift doesn't come with a leash"). Wrex went and asked Eve what she wanted.
 - Wrex saw him in the third rank of Hammer, holding a rifle "like a hot pan", and had the body carried like one of theirs. Wrex calls him "the pyjak".
@@ -519,7 +534,7 @@ Facts from the earlier memorial episode, adapted to this file. Where it disagree
 - Akuze was a Cerberus experiment, and their own recording of it is in the archive EDI was built from. Thomas never asked her whether she had read it.
 - Patterns she logged: he cooked on his own worst nights, not the crew's. He found faults before Kenneth and Gabby could report them. He left rooms early on the nights he'd said the most. Chakwas once had him explain his condition back to her, for interest.
 - He went up to Shepard's cabin more often than anyone else and stayed longer.
-- After Rannoch, Michel and Adams argued in the mess about whether a manufactured thing counts as life. Thomas took EDI's side every time, when it bought him nothing.
+- After Rannoch, Chakwas and Adams argued in the mess about whether a manufactured thing counts as life. Thomas took EDI's side every time, when it bought him nothing.
 
 **Thomas**
 - He apologised to the toaster.

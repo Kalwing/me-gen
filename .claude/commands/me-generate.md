@@ -192,7 +192,12 @@ Two passes, both Opus, in this order, each sequential. `<stage>` is `voice` (che
    text is realistic (characters do not know everything), whether the emotions are real and
    varied (anger, meanness, hostility, appeasing, joking — not only warmth), and whether each lore
    fact serves the brief (or should be reduced, cut or justified); cutting or reducing lore
-   is always a proposal. Its prompt carries the run dir, the stage, the cold report path, the output path
+   is always a proposal. It also looks for what deserves **expanding** (readability,
+   narrative, honoring the character), drafted from the subject's notes, as proposals. Every
+   proposal quotes the exact current line it touches, and the editor also writes
+   `readthrough/<stage>_proposals/<section-id>.md`: each section's text with its proposals
+   marked inline (CriticMarkup). When you relay proposals to the user, keep the quotes and
+   point them to those files. Its prompt carries the run dir, the stage, the cold report path, the output path
    `readthrough/<stage>_weighed.md`, and the same section lines. It never applies a proposal
    unless dispatched in `apply` mode with the user's approved numbers.
 
