@@ -24,7 +24,7 @@ note: >
 - **Home:** He is from Rouen, the capital of Normandy in France, which makes the ship's name a joke he stopped telling around 2184.
 - **Family:** Alive on Earth throughout. That makes the Reaper invasion personal for him.
 - **Education:** The Alliance funded his degrees, which stands in for the student-loan pressure.
-- **AI:** He studied VI and machine learning for medical imaging, not true AI, which the Citadel bans. Although, he followed science progress on AI, from what he could gather.
+- **AI:** He studied VI and machine learning for medical imaging (including one year of a PhD on VI), not true AI, which the Citadel bans. Although, he followed science progress on AI, from what he could gather.
 
 ## Identity
 
@@ -73,7 +73,7 @@ His mother died in 2180 as he finished his master's. The grief hit harder than t
 
 - **Role, in order:** handyman and software engineer first, cook second. Above all he tried everything to keep morale up, even when he was down himself.
 - **Self-image:** He never bragged. When he claimed credit it was ironic, because he didn't really think he was worth much. In any contest of who did more or suffered more, he'd hand the win to the other person.
-- **Talker:** He talked a lot: jokes, politics, philosophy quoted badly, stories, questions. He was not a silent listener. The exception was Jack, with whom he kept quiet because he knew she didn't want the talk. With Tali it was the opposite: both of them talking at once, about engines, the Flotilla, and everything else.
+- **Talker:** He talked a lot: jokes, politics, philosophy quoted badly, stories, questions. He was not a silent listener. With Jack he talked less and carefully: short, sideways, about shared interests, never pushing, because he knew she didn't want the talk. With Tali it was the opposite: both of them talking at once, about engines, the Flotilla, and everything else.
 - **Tremor in public:** He laughed about it openly and joked about it first. The hurt and the shame underneath were private; only Tali and Joker knew.
 - **Cook:** Vegan cooking nights, seitan kebabs, pie, and a rotating playlist. ABBA while he cooks, Black metal and hardcore while working, and "white girl music" always in the background. He also cooks dextro dishes for Tali that he can't taste, by smell and by her verdict.
 - **Engineering:** Assists Tali, Adams, Kenneth and Gabby, does maintenance, fixes what breaks. His tremor and clumsiness are the ship's running joke (and he hide the fact that he's deeply ashamed of it), and he has built steadying rigs for himself.
@@ -83,8 +83,8 @@ His mother died in 2180 as he finished his master's. The grief hit harder than t
 
 ## Crew Relationships
 
-- **Tali:** It started as mutual aid and tinkering on the SR-1: their politics of solidarity overlap, she does the hardware and he does the software. On the SR-2, under a Cerberus banner they both hate, it became more. Madly in love. She moves toward him openly, says things first and apologizes for saying them; his work is staying put when she does. Both lost a parent with the conflict unresolved (his mother, her father), and both fix things so they won't have to talk about themselves. He is beside her when she makes peace with the geth. She told him she loved him first, and often; what he struggled with was never saying it back, it was hearing it.
-- **Jack:** Kindred anti-authority fire. She respects that he doesn't flinch. They bonded through their trauma and their histories (Pragia and Akuze, the hospitals, the parents). He talks to everyone except her; with her he sits in silence, because she doesn't want the talk. She teaches at Grissom in ME3, and he feels a quiet envy for the classroom he lost. Proud of her progress. They bonded over hardcore, which he'd been going to for years before the Normandy. She tattooed his hands and dragged him to punk shows. Never romance; a friendship neither of them would ever call love out loud.
+- **Tali:** It started as mutual aid and tinkering on the SR-1: their politics of solidarity overlap, she does the hardware and he does the software. On the SR-2, under a Cerberus banner they both hate, it became more. Madly in love. She moves toward him openly, says things first and apologizes for saying them; his work is staying put when she does. Both lost a parent with the conflict unresolved (his mother, her father), and both fix things so they won't have to talk about themselves. He is beside her when she makes peace with the geth. She told him she loved him first, and often; he was scared at first to say it back, because it meant too much to him, and hearing it was hard too. Once he said it he said it constantly (see "I love you").
+- **Jack:** Kindred anti-authority fire. She respects that he doesn't flinch. They bonded through their trauma and their histories (Pragia and Akuze, the hospitals, the parents). He shows he cares in a subtle way that respects her boundaries: he talks to her sometimes, short and light, trying to bond over common interests (hardcore, the old bands), and sits in silence when that's what she needs. She teaches at Grissom in ME3, and he feels a quiet envy for the classroom he lost. Proud of her progress. They bonded over hardcore, which he'd been going to for years before the Normandy. She tattooed his hands and dragged him to punk shows. Never romance; a friendship neither of them would ever call love out loud.
 - **Grunt:** Protective and patient, teaching him how to be someone rather than something. Sees him as a little brother.
 - **Joker:** Shared gallows humor. Joker is the person he trusts most with his bad days. They're both disabled in their own ways, and respect that. They both went to hospitals for different reason. They both prefer to laugh than to give in to despair.
 - **Wrex:** Old-fashioned respect. Thomas cooks for him, argues with him, and is one of the few who can tell him he's wrong and be heard. Doesn't fear to stand in front of him, despite not being very strong.
@@ -157,7 +157,7 @@ She can't be fooled by the mask either. Quarians read each other through visors,
 His comfort line ("You're perfect, lay it all on me...") lands on Tali almost too well; she has waited her whole life for someone to say it, and she believes him. The hard part runs the other way. When she says it back, he jokes. Weeks later, on his worst night, she says her own version: *"You are not broken. I would know. I fix things. Come here."*
 
 ### "I love you"
-She said it first, after the Collector base, by accident, in the middle of a sentence about a coolant leak. Then she apologized, then said it again on purpose. He didn't say it back that night; he wrote her four pages instead, and spent the next week volunteering for repairs at the far end of the ship. She didn't chase him and she didn't leave. She kept bringing him broken things until he came back. He said it out loud in the shuttle bay before she left for the Flotilla. After that she said it often, and his struggle was never saying it. It was hearing it.
+She said it first, after the Collector base, by accident, in the middle of a sentence about a coolant leak. Then she apologized, then said it again on purpose. He didn't say it back that night; he wrote her four pages instead, and spent the next week volunteering for repairs at the far end of the ship. She didn't chase him and she didn't leave. She kept bringing him broken things until he came back. He said it out loud in the shuttle bay before she left for the Flotilla. He was scared at first because love and intimacy were sacred to him: a vow you keep renewing, not a phrase. Once he had said it he never stopped, in messages, in passing, in small gestures. Both of them said it often; the hard part was only the first time.
 
 ### The long-distance stretch
 After Arrival she goes back to the Flotilla and a seat on the Admiralty Board, and he goes home to Rouen. He sends long, sincere messages. She sends long ones back, mostly maintenance reports, apologizing for the length, with one true line buried at the end. Once she sends a photo of her face, unmasked. It is the only one, and he keeps it. When the Reapers hit Earth, her first message is, for once, short: *"Thomas. Answer me."*
@@ -165,7 +165,7 @@ After Arrival she goes back to the Flotilla and a seat on the Admiralty Board, a
 ### In the war
 - **Same ship:** She rejoins the Normandy after the geth dreadnought, so for most of the war they share a ship and an engineering bay, which neither of them quite knows how to do.
 - **Rannoch:** He's behind the rocks with the comm gear. After the peace she takes off her helmet to feel the sun. He turns and looks at the valley until she tells him he can look. He never asked to see her face; she chose.
-- **The house:** The half-built house on Rannoch was going to be theirs.
+- **The house:** He planned it with her after the battle of Rannoch, looking at the horizon: a house on her world, leaving his own world behind. It was only built after his death, so at the wake it is a plan and a piece of land, not a finished building.
 - **The rule she refused:** Before London he proposed no promises about coming back, saying it first so she wouldn't have to. She refused. She made him promise to finish the wiring instead. Both hoped.
 - **His death:** She's furious, and heartbroken. He ran from her once, early, and came back. This time he didn't choose to leave, and knowing that doesn't help. She is an admiral, grieving in front of people who report to her, with a house and one unwired socket.
 
@@ -174,7 +174,7 @@ After Arrival she goes back to the Flotilla and a seat on the Admiralty Board, a
 | Person | Bond | Notes |
 |---|---|---|
 | **Joker** | Gallows-humor best friend | The person Thomas trusts most on bad days. Joker knows about the hospitalizations and never brings it up unless Thomas does. |
-| **Jack** | Silent-company friend | Trauma kin, Pragia and Akuze. He talks to everyone but her; with her he sits in silence. She tattooed him. |
+| **Jack** | Silent-company friend | Trauma kin, Pragia and Akuze. Gentle, boundary-respecting care: talks to her sometimes about shared interests, sits in silence when needed. She tattooed him. |
 | **Grunt** | Younger-sibling energy | Thomas is patient with him, and Grunt guards his mess-hall kitchen like a clan holding. |
 | **Thane** | Philosophical mirror | Long conversations on violence, love, and what you owe the dying. Thane's death takes something out of him. |
 | **Wrex** | Old-school respect | Thomas cooks, argues, and is one of the few who can tell Wrex he's wrong and be heard. |
@@ -270,7 +270,7 @@ He is not a saint with a tremor. Each flaw is something he did, told by the pers
 - **Chases when she pulls back (Tali):** after Legion, Tali went quiet for two days. His messages got longer: three apologizing for the one before, then one apologizing for the apologies. She wrote back that she wasn't leaving, she was grieving. He wrote "okay", then three pages.
 - **White-knighting (Tali):** going to Raan behind her back to ask whether she was sleeping.
 - **His needs arrive late (Tali):** his bench mount failed for three weeks before she found out. He redid every joint twice at night rather than ask her to look, because she was busy with the geth. She was. She'd have stopped. That is how version two happened.
-- **Can't be cared for (Joker):** Joker brought him a sandwich once, for no reason, a terrible one. Thomas was so embarrassed to need help that he got up and made Joker a better one. Joker never says why Thomas was in bed.
+- **Can't be cared for (Joker):** Joker brought him a sandwich once, for no reason, a terrible one. Thomas was so embarrassed to need help that he got up and made Joker a better one. (Joker may now say why: see the 2026-11-12 outing rule.)
 - **Intellectualizing (Liara):** he could describe his own wound like a paper he'd peer-reviewed. When she asked how it actually felt, he said he'd never known, laughed, and went to make tea. He never came back with the answer.
 - **Leaves first (Liara):** he told her he'd left a woman on Earth before she could leave him, and called it kindness. Liara said it was the opposite. He agreed far too quickly, which is how she knew he'd do it again.
 - **Humor as a wall (Kaidan):** every time Kaidan got near Akuze there was a joke, a good one. Kaidan laughed every time, and it took him a year to see that was the point.
@@ -303,10 +303,10 @@ Rules the user set while reviewing episodes about Thomas. They apply to every na
   - the locker tally (Tali);
   - vegan jokes (each speaker needs a different one; Grunt's "no body/meat in it" is his own);
   - "two survivors of Akuze" phrasing (say it once, in different words each time).
-- **He never bragged**, and he talked a lot except with Jack. Both are covered under "Aboard the Normandy". He gave away every win: in any contest he insisted the other person was ahead.
+- **He never bragged**, and he talked a lot (with Jack, less and more carefully). Both are covered under "Aboard the Normandy". He gave away every win: in any contest he insisted the other person was ahead.
 - **Handyman and software engineer first, cook second.** Don't reduce him to "the cook".
 - **Illness:** bipolar type 2. Long depressive episodes, with brief light hypomanic lifts of a day or two inside them. Never full mania, never weeks-long up phases. Narrators say "his head was a mess" rather than clinical talk, except EDI, who can be precise.
-- **Private hurts stay private:** only Tali and Joker knew the shame about the tremor. Each of his three hospitalizations followed a suicide attempt. Joker is the only one who heard the full story; Shepard, his confidant, knows his past and his troubles. Others can suspect, never know.
+- **Private hurts stay private:** only Tali and Joker knew the shame about the tremor. Each of his three hospitalizations followed a suicide attempt. Joker heard the full story and may talk about the hospital stays and the attempts openly, in his own blunt way; Shepard, his confidant, knows his past and his troubles. EDI may describe his issues, but never the attempts. Others can suspect, never know.
 - **His death:** the krogan found the body a day later. It is on Earth, on its way to his family in Rouen. Never write "there's no body". He died before the Crucible fired. The crew don't know there was a choice, only its consequences.
 - **The death text** (see "Text left"): nobody reads it out. Tali refers to it, summed up in a few sentences with one or two strong facts, never line by line.
 - **Tali:** more talkative, angrier, more heated and more in love than a first draft dares. She rambles and apologizes, then says the true thing flat. She said "I love you" first and kept saying it; his answer was what came hard. She is grieving as an admiral, in front of people who report to her, and terrified of what comes next. His family has never met her, but they have heard a lot about her.
@@ -316,7 +316,7 @@ Rules the user set while reviewing episodes about Thomas. They apply to every na
 - **Quotes:** nobody quotes him verbatim except his own written French fragments (the poems, his last text).
 - **Music:** he loved many genres; the playlists he made for each of them show the range. ABBA is one of them, tied to a few set moments (the Omega-4 night). Don't reach for it every time music comes up.
 - **Canon recaps:** cut them. Speakers don't retell their own missions to people who were there. Keep a canon event only at the moment Thomas walks into it, and keep it short.
-- **Outing him:** a speaker who says they won't tell something doesn't then tell it, and the others visibly hold back. In a multi-voice episode Tali is the one who breaks the silence about his hands, on purpose. Joker keeps the hospital ratings but swallows the line before it says too much; he says he has the whole log, never what's in it. EDI can be precise, but she visibly declines to read his medical file aloud: no admission years with their context, no diagnosis label. The mother story belongs to Liara alone.
+- **Outing him:** a speaker who says they won't tell something doesn't then tell it, and the others visibly hold back. In a multi-voice episode Tali is the one who breaks the silence about his hands, on purpose. Joker may tell the hospital side honestly, attempts included: the stays, the fear, the long nights, then a bad joke over it; the ratings are one bit among many. EDI can be precise about his issues (his head, the medication, the tremor), but she does not touch the attempts or admission details, and she just doesn't bring them up, no announced refusal. The mother story belongs to Liara alone.
 - **One owner per trait:** in a multi-voice episode each of these is told by one speaker only, and nobody gives away a later speaker's turn ahead of time:
   - "handyman first, cooking second": Tali;
   - "he joked about his hands first": Tali;
@@ -329,6 +329,21 @@ Rules the user set while reviewing episodes about Thomas. They apply to every na
 - **Spelling and voice:** American spelling throughout, for every speaker. Jack is American: no "arse", "you lot", "taking the piss", "maths", "proper", or "round" for "around", and she never calls anyone "sweetheart". The plural of varren is varren. Watch for French-English slips ("an hardcore", "at any occasion", a space before "?").
 - **Original character:** none of this goes in `config/canon/`. Everything about Thomas lives in this file.
 
+## Added facts (eulogy review, 2026-11-12)
+Guidance, not wording: tell these in each speaker's own voice, never read them out as written here.
+- **Ready to live (Tali, closing):** Thomas had tried to stop living more than once (Joker may have said so earlier; Tali's side is what it meant for her). The point is that before the end of the world he told her he wanted to live, with her, for good. Not mentioned elsewhere.
+- **The suits and the mask (Tali):** he held intimacy as the highest form of love: showing every flaw, finding the odd corners. Yet he never asked to see her face or touch her bare. The suit and mask were perfection to him: her voice through the filter, the small lights in the helmet. He could have lived beside her untouched and been happy. This is why the antibiotics night means what it does: she chose it, he never asked.
+- **Her favorite holo (Tali):** Fleet and Flotilla; a light mention.
+- **Keelah se'lai (Tali):** he learned the phrase from her, from a drive-core panel she had scratched it on, and used it correctly at the end of a poem. Everyone knows the saying; she told him what it means on Rannoch.
+- **Dread of the box (Tali):** her sisters and friends want her to talk about him and ask to know him; she is afraid to. If she is allowed to stand by the casket she doesn't know if she can look at him.
+- **Last conversation (Tali):** before London, about the home: he hoped she'd be happy in it, maybe live there with him. She said she already was at home, with him; her future was with him. He teared up, as the thought that it wouldn't happen. He asked whether there were mixed families in the Flotilla and was cut off because they had to go. He held her hand, tapped her shoulder, and sent her off to save the galaxy with a forced laugh and a pet name for her and her world.
+- **Ghorza, the Joan of Arc/entropy talk, Jack's offer and poetry:** see Joker, Liara and Jack under "Established in the wake".
+
+## Added facts (eulogy review, 2026-11-12, second pass)
+- **Jack:** correction: he did not avoid her. He showed care subtly and within her limits, talking to her now and then to bond over common interests.
+- **Thane:** Thomas bonded with Thane (long talks on violence, love, what you owe the dying), hated Thane's disease, and felt pride and despair together when he died. Liara can tell this from the edges she saw.
+- **Memorial wall:** his name is on the Normandy memorial wall, put there by Tali.
+
 ## Eulogy devices
 
 Three devices that tie the voices together. They are a pool to draw from, **not a checklist per speaker**: a turn that runs flaw, gift, playlist, habit, "Shepard is missing" in order reads like a form, and ten of them in a row read like ten forms. Each device lands in a few turns only, where it comes up on its own, never announced ("Now the flaw", "He made me a playlist").
@@ -339,7 +354,7 @@ Three devices that tie the voices together. They are a pool to draw from, **not 
 
 **How the turns should sound:** people talking at a wake, drunk and grieving, not finished speeches. Rough: they lose the thread, interrupt themselves, repeat, swear, get a detail wrong and correct it, trail off. No polished closing line on every paragraph. Nobody knows the shape of the evening: no speaker refers to "a second turn", "this part", or what comes later.
 
-**Refusals:** at most two in the whole episode (Joker's swallowed hospital line, EDI declining the medical file). No other "I'm not going to say what it was", "I won't repeat it", "I'm not reading it out", "you're not getting the rest". If a speaker shouldn't tell something, they just don't bring it up.
+**Refusals:** at most one in the whole episode (EDI leaving the attempts out, and only if it comes up naturally; Joker has no swallowed line). No other "I'm not going to say what it was", "I won't repeat it", "I'm not reading it out", "you're not getting the rest". If a speaker shouldn't tell something, they just don't bring it up.
 
 **Apologizing to things:** his habit of apologizing to objects (the toaster) is one small detail, used once in the whole episode at most. Don't hang a habit, a joke or a scene on it.
 
@@ -393,7 +408,7 @@ He made one for each of them. EDI has the files.
 - A week before London he wrote her, from two decks away, that the bad days were over and he was ready to live ("Ces jours sont morts, je suis vivant"). She didn't write back; she came upstairs.
 - At Rannoch he was behind the rocks with the comm gear. His comment on Legion: it would have hated the ceremony and wanted a diagram.
 - He told Shepard: stop asking who deserves a world and start asking who has to live next door afterwards.
-- The half-built house on Rannoch was going to be theirs. He promised to wire it "wrong on purpose", so she'd always have a reason to call him in. One socket is still unwired.
+- The Rannoch house was going to be theirs (planned after the battle, built only after his death). He promised to wire it "wrong on purpose", so she'd always have a reason to call him in. One socket is still unwired.
 - The "no promises about coming back" rule: he proposed it in the shuttle bay before London, saying it first so she wouldn't have to. She refused it and made him promise to finish the wiring instead.
 - He sang "La vie en rose" at the sink, with the wrong words. Passing behind her at the workbench, he put a shaking hand low on her back.
 - Poems, as Tali knows them: he called himself Bombadil and her his baie d'or. One poem ends with "keelah se'lai". One lists the bed, the couch and the mess sink. One is about her photo. "Donne moi le pire" appears in one. She wrote a translation routine for them, deleted it after the first page, and is reading them one word at a time with a dictionary.
@@ -401,7 +416,7 @@ He made one for each of them. EDI has the files.
 **Jack**
 - In the SR-2 days he left plates outside her hole every night for weeks: folded napkin, vegan kebabs. He was never seen doing it. She ate the third one, sitting on the stairs.
 - Neither of them ever asked about the other's tattoos, on purpose.
-- He talked to everyone except her; with her he sat in silence by choice. They didn't need to explain their pasts to each other ("I'd say mirror, and he'd say maw").
+- He never made a point of caring out loud for her: small, subtle, respecting her limits. He talked to her sometimes about shared interests, and sat in silence when she needed it. They didn't need to explain their pasts to each other ("I'd say mirror, and he'd say maw").
 - After Pragia he sat beside her without speaking, then said something absurd about nobody ever asking how the bomb was doing, and she laughed.
 - He'd been going to hardcore shows for years before the Normandy, and that's what they bonded over. At the first show they went to together she shoved him into the pit anyway. He came out with a split lip, grinning. He never got good at dancing, but he got loose.
 - He tried to feed seitan to Eezo, her varren, and got bitten. He kept trying to pet her anyway and thought varren were cute.
@@ -506,15 +521,21 @@ Facts from the earlier memorial episode, adapted to this file. Where it disagree
 - After London, EDI recovered his terminal (the poems, the text under his desk, the Requiem envelope) and sent it to Tali. She read it first, and isn't sure she was entitled to.
 
 **Jack**
-- Kasumi and Jack ran poetry nights in the port cargo hold that were supposed to be secret. He went.
+- Poetry nights in the port cargo hold were small and rare: Kasumi and Jack, Grunt now and then to listen, a handful of times in all, never "everybody". Thomas mostly stayed away so as not to interrupt. When he did come he smiled and enjoyed it for real, because it was honest even when it wasn't good. Jack's poems weren't polished; he compared them to some raw artists she couldn't name afterwards, as if she had been drawing on them.
+- On the SR-2, before Tali came aboard, Jack's reputation (Kelly passed it around) was promiscuity. When Thomas sat with her in the silence she offered him sex, partly to break it. He said no: he'd had plenty of flings and might once have said yes, she was attractive, but he already liked someone. She said it was only sex; he said it was never only that. When Tali came back aboard Jack understood: he already loved her, silently. After that Jack liked him. Jack's to tell, crudely and fondly.
 
 **Grunt**
 - He asked Grunt which parts of him were Okeer's and which were his own, and heard the Rite start to finish. He said carrying that question sounded exhausting; Grunt told him it was just Tuesday.
 - He never said no when Grunt asked him out for a drink, even on bad days.
 - When Vega raided the last of the seitan, Grunt defended it as clan territory, and Vega believed every word.
-- Grunt turned up to the poetry nights with Hemingway. When Grunt admitted he didn't follow half of it, Thomas told him that meant it was working.
+- Grunt, on the rare nights he came, brought Hemingway. When Grunt admitted he didn't follow half of it, Thomas told him that meant it was working.
+
+**Joker**
+- For Joker's birthday Thomas gave him ghorza, a krogan joke gift, and found it hilarious.
 
 **Liara**
+- Joan of Arc, as he told it, was a woman rewritten into other people's stories. He held that people's stories are theirs alone, that the world is shaped by circumstances more than by individuals, that a narrative can always be twisted but what stays is the consequence of what was done. Thane agreed, and Thomas loved Thane. He despised anyone who used history to feed hatred of others, because love and diversity drive things.
+- His love-as-entropy riff, which Liara can garble: we come from a messy collision of DNA, so why would anything be different; in information terms love is already at minimum description length and can't be compressed, so a person can't be reduced to their sequence, can't be deified or vilified, except those who try to shrink that. He read science as art: he mixed fields, made his own connections, cared more about what a technology means than how it works. Liara tells it in her own words, not his.
 - He was the one she told about Benezia and Peak 15. The same night, he told her about his mother.
 - His Prothean argument, in short: the Reapers didn't defeat them, they unplugged them, because an empire that centralised has nowhere to scatter. He once asked whether she loved the Protheans for the same reason she'd been raised to trust the matriarchs. She still has no answer.
 
