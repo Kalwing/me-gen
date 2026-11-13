@@ -245,6 +245,13 @@ is *true*; it is not the shape their recollection takes.
 
 ## Rules
 
+- **No topic labels.** Don't open a beat by naming its subject as a bare fragment and then
+  talking about it ("The ratings. That was one of the bits…", "And Eezo. My varren. He'd…",
+  "Grissom. I got kids there…", "And then Raan. Admiral Raan, who…"). Just say the
+  sentence: "Rating things was one of the bits…", "He'd get down on the floor and try to pet
+  Eezo, my varren", "I got a whole building of kids nobody wanted, at Grissom". A label is
+  allowed now and then when a speaker would really do it; once per section at most, and
+  never as the default way to change subject.
 - **The promises are commitments.** Every one of the pack's `promises` is carried by the
   finished section. They are what it is for.
 - **Canon selects the branch.** The pack's `canon` is already narrowed to this section and

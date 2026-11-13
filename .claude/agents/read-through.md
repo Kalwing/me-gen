@@ -53,6 +53,10 @@ Read each section through once, start to finish, before writing anything. Then:
    - stock body language — a breath they didn't know they were holding, jaws tightening,
      eyes softening;
    - over-explained subtext: the line that tells the listener what the previous line meant;
+   - topic labels: a bare noun-phrase announcing the subject, then the sentence about it
+     ("The ratings. That was…", "And Eezo. My varren. He'd…", "Grissom. I got kids there…").
+     Fine once in a while; as a habit it is a tell. The fix is to say the sentence
+     ("I got a whole building of kids nobody wanted, at Grissom");
    - symmetry: every section opening or ending the same way; tidy emotional arcs where a
      real speaker would trail off, contradict themself, or move on.
 3. **Naturalness** — taken purely as a person speaking, out loud, to the addressee, in this

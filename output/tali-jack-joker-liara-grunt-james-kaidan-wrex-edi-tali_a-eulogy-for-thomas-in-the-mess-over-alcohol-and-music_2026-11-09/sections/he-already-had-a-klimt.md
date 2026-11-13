@@ -10,6 +10,6 @@ I tested him once, too. Left a credit chit on his bench, unmarked, a fat one. It
 
 I offered him a Klimt. A real one, don't ask. He said he already had one, and turned his head, and showed me his ear.
 
-And Keiji. You all know I kept the box, and everybody had a view. He never gave me one. He asked what Keiji's laugh was like. I told him, and it took an hour.
+You all know I kept Keiji's box, and everybody had a view. He never gave me one. He asked what Keiji's laugh was like. I told him, and it took an hour.
 
 I put something back last week. A little bronze, in a house in — never mind. First time in my life. I stood there in the dark feeling ridiculous. Don't spread it around. That's my cue. I'll disappear now.
