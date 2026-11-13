@@ -1,6 +1,6 @@
-# Tali & Jack & Joker & Liara & Grunt & James & Kaidan & Wrex & Edi — Mass Effect
+# Tali & Jack & Joker & Liara & Grunt & James & Kaidan & Kasumi & Garrus & Miranda & Traynor & Wrex & Edi — Mass Effect
 
-_Themes: a eulogy for Thomas, in the mess, over alcohol and music · ~23965 words · generated 2026-11-12_
+_Themes: a eulogy for Thomas, in the mess, over alcohol and music · ~26065 words · generated 2026-11-13_
 
 ## Hardware and Software — Tali
 
@@ -302,6 +302,92 @@ So whoever was closest, whenever you can, I'd like to hear what you saw. And if 
 
 To Thomas. It's warm. He'd have said so, he'd have said something about sharing. And he'd have toasted to love. Wrex, you've got the look. I never once pointed a gun at the soft one, in case you were going to say anything about guns.
 
+## He Already Had a Klimt — Kasumi
+
+Don't get up, Wrex. You've had that look for a full minute, it'll keep. And nobody jump, please. I've been on this counter since Tali's first drink. Jack saw me. Jack always sees me, it's very annoying.
+
+Kaidan wants to know who was closest. I clearly wasn't. I was in a lab on the Crucible, stealing nothing, for once. But I watched him for a long time from places he didn't know to look, so I'll tell you what I saw.
+
+He talked about robbing the rich constantly. Over the stove. Over the sink. He had opinions about Donovan Hock's vault that went on longer than the job did. Half of Earth's museums in one man's basement, and Thomas wanted all of it back out in a train station, where anybody could lean on it. He said art nobody can walk past is just money in a costume. Twenty years I've been stealing and I never put it that well. I was a little cross about it.
+
+So I offered him a job. A real one. A banker on Illium, a truly awful man. Three nights he planned it with me, and he was good, his code was cleaner than mine and I don't say that. And on the morning he handed me the whole thing on a datapad and said he couldn't. If it went wrong it landed on Shep. On the ship. On Tali, with her Fleet watching. He'd have robbed every rich man in the galaxy if he could do it without one of you paying for it. He couldn't, so he didn't. I also think he just couldn't fathom being "the bad guy". I went alone. It went fine. He asked me to send his share to a clinic on Omega, the share he hadn't earned, and then he apologized for telling me what to do with my money.
+
+I tested him once, too. Left a credit chit on his bench, unmarked, a fat one. It came back under my door in an envelope. With a recipe card.
+
+I offered him a Klimt. A real one, don't ask. He said he already had one, and turned his head, and showed me his ear.
+
+And Keiji. You all know I kept the box, and everybody had a view. He never gave me one. He asked what Keiji's laugh was like. I told him, and it took an hour.
+
+I put something back last week. A little bronze, in a house in — never mind. First time in my life. I stood there in the dark feeling ridiculous. Don't spread it around. That's my cue. I'll disappear now.
+
+## All We Have Is Means — Garrus
+
+And she's gone. Or she says she is. I'll go, then. I argued with him more than anyone here. Every week we shared a ship, and neither of us moved an inch.
+
+He thought police were the problem. All of them. He had four letters for it, and he spelled them out for me once, slowly, like I was a recruit. I was C-Sec. My father was C-Sec. I told him I'd walked the wards, I've seen what's under the floor when nobody's holding it up. Cops are the line between a city and Omega. He said Omega made his case, not mine. Nobody polices those streets. People sort it out themselves, block by block, who gets the water, who watches the door, and Aria only sits on top and supervises. He hated her too, don't misunderstand, he'd have had her off that couch. But he said the people under her had more room to move than anyone on the Presidium. I ran a squad on Omega. I knew which blocks he meant. I didn't have an answer that night. I've got half of one now and nobody to try it on.
+
+Then the other one. I've always said if the shot ends it, take the shot, and sort out the rules after. He didn't think there was an end. That was his whole position. Nothing ever finishes, so how you do a thing is the only part you actually get. I told him that was easy to say from behind the people doing the shooting. He said yes, it was. And that there's no point fighting for a better world if you don't try to fight for it in a better way.
+
+A dreamer, I thought. Then he'd spend an hour on some uprising in the galaxy I'd never heard of. Humans, batarians, krogan, even turians. Who armed whom, where the supply lines broke, why the ones who won turned into what they'd been shooting at. He'd read more on guerrilla war than half my instructors. He knew exactly how ugly it gets, and he came out the other side still believing the dream. I never worked out how.
+
+I got him once. James told you about the bar. I said, for a man who thinks the means are everything, you were quick to make an exception. He said fascists were different. I said that's all I've ever been saying, Thomas. He didn't speak to me until dinner. Then he brought me a plate off the dextro shelf, so I knew it had landed.
+
+He couldn't shoot. I taught him anyway, and not for that. A scope is the only thing that ever slowed me down. In, half out, hold, squeeze between heartbeats. Samara tried to teach him to sit still and it didn't take. But give him an empty rifle and a bottle at the far end of the cargo bay and he'd lie there an hour, breathing. He never got good. On the days his head was a mess he'd come down to the battery and ask if the range was open. That was the code. We both knew he wasn't there for the bottle. After, we'd do calibrations. He rewrote my firing tables and left a comment in them I'm not repeating.
+
+I gave him a speech once, about Tali. That she'd had enough people hide things from her for her own good, starting with her father, and not to be the next one. More honest than he'd asked for. He took it, and asked me to pass the spanner. He mostly kept to it. Mostly. Don't look at me like that, Tali.
+
+He knew what it is to be the one left over from a squad. He never said so. Neither did I. We did the firing tables.
+
+He was my wingman on the Citadel. He was quite good at it. Turns out being a people pleaser makes you good at praising people. It worked.
+
+I still think I'm right. I'd like to hear him tell me I'm not.
+
+Traynor's waving at me. There's a call holding, apparently, and the caller doesn't like to wait. Put her through.
+
+## A Bad Banner — Miranda
+
+Thank you, Specialist. I'm told I have four minutes on this relay, so I'll be efficient. Yes, Jack, I can hear you. No, I can't see the gesture. You may as well save it.
+
+I recommended against him. In writing, before he came aboard. No uniform, no salute, a medical file I won't discuss, and a stated intention to insult my employer. I called him a liability. Shepard read it and brought him anyway. I'd like it on the record that I was wrong. It happens rarely enough to be worth noting.
+
+We argued about Cerberus from the first week. I gave him what I gave everyone then. Isolated cells. No oversight. I said that to him, knowing where he'd been at twenty-one. He didn't raise his voice. He asked whether I'd audited that, or been told it. I had been told it. I audit everything.
+
+What I didn't expect was to be understood. He worked out, without my help, that I hadn't chosen Cerberus so much as taken the first door out of my father's house, and that one doesn't tend to inspect the people holding it open. He said he'd known people do worse to leave home. He hated that banner every hour he was under it, quite as much as Jack did, and he managed it without throwing a single chair. And he never once used what I am against me. Not the genes, not the design, none of it. That put him in a very small group.
+
+Shepard told me later that he kept a list. Good people under a bad banner. I was on it months before I'd earned it. I still find that irritating.
+
+When I resigned, he didn't say I told you so. I would have preferred it. And when I was running, a message found me on a channel I'd burned twice. One line. Was Oriana safe. Not was I. He'd worked out which question I would answer.
+
+She's safe. My father is no longer a concern. I would have liked him to know both.
+
+That's my time. Tali. I'm sorry. Truly.
+
+## Same as the Ship — Traynor
+
+And that's the relay. Right. I've still got the board open, so I may as well, before I lose my nerve. Wrex, I know, we've all jumped the line, I'm so sorry. Two minutes.
+
+I squeaked onto this ship late, and he was the first one who made it feel like I hadn't. He was bi, cheerfully, and I'm not, cheerfully, and between us we had the whole crew deck covered. He'd let me go on about a certain voice, I'm not saying whose, and never once laughed at the wrong moment. He told me who it had been for him, on the first Normandy, a whole year of saying nothing. I'm taking that to my grave. Don't look around, any of you.
+
+Chess. He was dreadful. He turned up with that set, and I play for keeps, and I never once had to. He'd lose in twenty moves and want to know exactly how. It's the only contest on this ship where he didn't have to pretend he was behind.
+
+And the bathroom, somebody should say it. That hair did not happen by itself. Bleach every third week, then the pink, a toner he mixed in a mess cup, and I did the back because he couldn't see it. Forty minutes, every time. He said looking after yourself wasn't vanity, it was maintenance, same as the ship. He's the only one who never made fun of the toothbrush. He asked for the specs.
+
+He was from Rouen. I had Oxford and one very good summer in London, so as far as he was concerned I was English and he'd pretend to be mad about "perfidious Albion". And I'd pretend to hate the French. We loved each other's countries, obviously. We had a plan. The ferry, after. He'd show me his cathedral, I'd show him the Globe, and we'd argue about the food the whole way across. I looked it up last week. The ferry. I don't know why I did that.
+
+One more thing and then I'll stop. After the coup a file came across my board from Huerta, time-locked, addressed to him. Thane had recorded a few, it turns out, before. Thomas played it at my station, because he didn't want to be alone with it, and he asked me to stay. I've asked Kolyat. He said his father wouldn't have minded the room. It's short.
+
+"Thomas. If this has reached you, I have gone ahead, and you are angry. You were angry at my lungs when I no longer had the breath for it. I was grateful for the loan.
+
+You asked me what is owed to the dying. I have considered it. Company. Honest argument. A meal, on the days one would not otherwise eat. You paid all three, and overpaid.
+
+You told me that to fight is an act of love. I was a weapon for most of my life. I did not think the hand could be the part that loves. I believe you now.
+
+Do not hurry after me. The shore is patient. Stay, and be loved. You said yourself it is the harder discipline. Goodbye, my friend."
+
+He didn't say anything, after. He asked if I wanted tea. Then he went back to work.
+
+That's all. Sorry. Wrex, you've had that look since the Major sat down.
+
 ## Where's the Soft One — Wrex
 
 Alenko. You never pointed a gun at him. Good. I'd have heard about it, and then I'd have been the one pointing. Sit, drink your warm beer, you did all right. A voice from a hospital bed, and it held when a rifle was in your hands. That's a good voice to carry. He gave me one of those too. He wasn't the first to tell me I was wrong, he was one of the few where it stayed told.
@@ -472,7 +558,7 @@ The filter hums. That's the only sound in here. I always liked that, I like that
 
 Okay.
 
-He watched my favorite holo with me, Fleet and Flotilla, and had opinions about the second act. He sang. At the sink. "La vie en rose." With the wrong words. He didn't know the words, he knew about a third of them, and the rest he'd invent, and a lot of them were about me, or about kebabs, and it's a song about, you know what it's about. It was the wrong words and he sang it like a man at a karaoke bar who'd been told there was no audience. And once, I was at the workbench with a calibration, and he came up behind me with a tray, and I felt a hand, low on my back. Just there. Shaking. It was shaking the whole time, the way it did, and it didn't matter, it wasn't a problem, it was the warmest thing on the ship. He didn't say anything. He just passed behind me, and left it there for a second, and went on with the tray. Anyway.
+He watched my favorite holo with me, Fleet and Flotilla, and had opinions about the second act. He sang, the songs. At the sink. With the wrong words. He didn't know the words, he knew about a third of them, and the rest he'd invent, and a lot of them were about me, or about food, and it's a song about, you know what it's about. It was the wrong words and he sang it like a man at a karaoke bar who'd been told there was no audience. And once, I was at the workbench with a calibration, and he came up behind me with a tray, and I felt a hand, low on my back. Just there. Shaking. It was shaking the whole time, the way it did, and it didn't matter, it wasn't a problem, it was the warmest thing on the ship. He didn't say anything. He just passed behind me, and left it there for a second, and went on with the tray. Anyway.
 
 And mine. EDI told you about the drum and bass. It's called "Bosh'tet. All of them." Which was for the Board, I think, and for the Fleet, and for the geth, that's what the drum and bass is for, it's supposed to help me hack. It doesn't. Thank you, EDI, for checking that out loud. And a lot of music with a twist of something from where I'm from, which he must have found on the extranet, which I didn't know was possible. It's the best playlist anyone's ever made me. I haven't been able to play it, it has my name on it.
 
@@ -486,6 +572,6 @@ There. Loud, fast, somebody shouting in French, he'd have been shouting along. A
 
 And that one goes by, and — nobody say anything. Joker. Joker, look up, your hands aren't going anywhere. Wrex, drink it or put it down, you can't just hold it there all night. Liara, you're reading it with your whole face, I can see it from here. Grunt, it doesn't change the second time, I checked. And Kaidan — you told us an hour ago you don't speak French. What are you mouthing? No. Don't tell me. Keep doing it. Laugh at it. All of you. It's so dumb. Death.
 
-And when it's finished. Don't clap, don't. Not for a song. EDI, next. "Gasolina." Yes, that one, yes, Joker, I know. Because he'd have wanted you all to have fun. He'd have been annoyed with the rest of this, he'd have said, put on something with a beat, we've been sitting down for an hour. So. Turn it up. Louder than that.
+And when it's finished. Don't clap, don't. Not for a song. EDI, next. The dancing one. Yes, that one, yes, Joker, I know. Because he'd have wanted you all to have fun. He'd have been annoyed with the rest of this, he'd have said, put on something with a beat, we've been sitting down for an hour. So. Turn it up. Louder than that.
 
 There. That's the bass, it's in the deck, it's coming up through my boots. — James. Of course. Of course you're up first, with the arms. Grunt, that counts, I'm counting it as dancing, don't argue with me. Jack, you can't just pull Liara out of her chair by the — okay, you can. Kaidan, you're laughing. Finally. Keep doing that. Garrus, if you're holding out a hand you have to put the cup down first, that's — yes. Fine. Yes. And Wrex is nodding. On the beat, even. That counts too. I'm in the whole suit, and the pouch is on my hip, and I don't — move over, James. Move over.
