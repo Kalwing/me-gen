@@ -1,6 +1,6 @@
 And that's the relay. Right. I've still got the board open, so I may as well, before I lose my nerve. Wrex, I know, we've all jumped the line, I'm so sorry. Two minutes.
 
-I squeaked onto this ship late, and he was the first one who made it feel like I hadn't. He was bi, cheerfully, and I'm not, cheerfully, and between us we had the whole crew deck covered. He'd let me go on about a certain voice, I'm not saying whose, and never laughed at the wrong moment. He told me who it had been for him, on the first Normandy, a whole year of saying nothing. I'm taking that to my grave. Don't look around, any of you.
+I squeaked onto this ship late, and he was the first one who made it feel like I hadn't. He was bi, cheerfully, and I'm not, cheerfully, and between us we had the whole crew deck covered. He'd let me go on about a certain voice, I'm not saying whose, and never laughed at the wrong moment. He told me who it had been for him, on the first Normandy, a whole year of saying nothing. I was going to take that to my grave, and then the Major stood up and told you himself. So that's my one secret gone.
 
 He was dreadful at chess. He turned up with that set, and I play for keeps, and I never once had to. He'd lose in twenty moves and want to know exactly how. It's the only contest on this ship where he didn't have to pretend he was behind.
 

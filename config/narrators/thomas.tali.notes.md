@@ -30,7 +30,7 @@ note: >
 
 **Thomas** (surname open), human, born 2156 in Rouen, Earth. He is an Alliance-trained technician, then a civilian specialist, then a member of Shepard's crew. He is bisexual, vegan, anarchist, and bipolar type 2 (managed): long depressive episodes, with brief, light hypomanic lifts (a day or two) inside them; never full mania, never weeks-long up phases.
 
-His role on the Normandy is unofficial. He is a jack-of-all-trades tech, handyman, and the ship's second cook. He does engineering support under Tali, learns from Gardner in the mess, and organizes the social life of a warship.
+His role on the Normandy is unofficial. He is a jack-of-all-trades tech and handyman. He cooks sometimes, but it is not his role (see the 2026-11-13 corrections). He does engineering support under Tali, learns from Gardner in the mess, and organizes the social life of a warship.
 
 ## Lore
 
@@ -75,7 +75,7 @@ His mother died in 2180 as he finished his master's. The grief hit harder than t
 - **Self-image:** He never bragged. When he claimed credit it was ironic, because he didn't really think he was worth much. In any contest of who did more or suffered more, he'd hand the win to the other person.
 - **Talker:** He talked a lot: jokes, politics, philosophy quoted badly, stories, questions. He was not a silent listener. With Jack he talked less and carefully: short, sideways, about shared interests, never pushing, because he knew she didn't want the talk. With Tali it was the opposite: both of them talking at once, about engines, the Flotilla, and everything else.
 - **Tremor in public:** He laughed about it openly and joked about it first. The hurt and the shame underneath were private; only Tali and Joker knew.
-- **Cook:** Vegan cooking nights, seitan kebabs, pie, and a rotating playlist. ABBA while he cooks, Black metal and hardcore while working, and "white girl music" always in the background. He also cooks dextro dishes for Tali that he can't taste, by smell and by her verdict.
+- **Cook:** Not his role: he cooked sometimes, to please others. Vegan cooking nights with varied dishes (curry, soup, pies, seitan kebabs among them, never only kebabs), and a rotating playlist. ABBA while he cooks, Black metal and hardcore while working, and "white girl music" always in the background. He also cooks dextro dishes for Tali that he can't taste, by smell and by her verdict.
 - **Engineering:** Assists Tali, Adams, Kenneth and Gabby, does maintenance, fixes what breaks. His tremor and clumsiness are the ship's running joke (and he hide the fact that he's deeply ashamed of it), and he has built steadying rigs for himself.
 - **Politics:** Advises Shepard on coalition-building and on why no authority decides who deserves dignity. He gives Shepard perspective, not orders. Try to challenge the ideas of others, while listening to them and meeting them where they're at. 
 - **Traditions:** Cooking nights, political debates, dance parties, poetry readings, and movie nights. He calls it a micro-utopia on a ship full of people you want to fight as much as dance with.
@@ -131,7 +131,7 @@ He leaves behind personal writings,a lot of carefully selected playlists and a s
 
 ### How it started
 - **SR-1:** A workbench pair. She does the hardware, he does the software, and he is the one human aboard who asks about the Flotilla as a place people live rather than a curiosity. Friendship, nothing more. When the SR-1 goes down she goes back to the fleet and he goes to the hospital.
-- **Setup (SR-2):** They meet again on a Cerberus ship that both of them hate, which is a bond in itself. He doesn't court her. He does small things without commentary: a labelled dextro shelf in the mess, meals left where she'll find them without anyone watching her eat, and a sealed clean corner in engineering with an extra filter stage so she can breathe unfiltered for a few minutes a day. He tells her Adams built it. She finds out from the comments in his code.
+- **Setup (SR-2):** They meet again on a Cerberus ship that both of them hate, which is a bond in itself. He doesn't court her. He does small things without commentary: a labelled dextro shelf in the mess, meals left where she'll find them without anyone watching her eat, and a sealed clean corner in engineering with an extra filter stage so she can breathe unfiltered for a few minutes a day. He tells her Adams built it. She finds out from the code itself: she recognizes his style (far too many comments, French syntax, spelling mistakes). He would not have left comments about her in it.
 - **The turn:** Her trial on the Rayya, and her father found dead on the Alarei. He is in the gallery. Afterward he doesn't offer comfort or ask how she's feeling, and he is the only one who doesn't tell her that her father loved her. He tells her that loving her and choosing her aren't the same thing, then asks what she wants to build first, on a planet they don't have yet. Days later, in engineering, he tells her about the hospital corridor and his mother, the first time he has told it aloud.
 - **Escalation:** The night before Omega-4, after the Collectors have taken the crew. Thomas escaped the abduction by hiding in the ducts with Joker. Tali finds him in the mess with a datapad of immune-response simulations and a course of antibiotics already started. He panics and makes three jokes in a row. She waits them out. He stays.
 
@@ -344,6 +344,15 @@ Guidance, not wording: tell these in each speaker's own voice, never read them o
 - **Thane:** Thomas bonded with Thane (long talks on violence, love, what you owe the dying), hated Thane's disease, and felt pride and despair together when he died. Liara can tell this from the edges she saw.
 - **Memorial wall:** his name is on the Normandy memorial wall, put there by Tali.
 
+## Added facts (eulogy review, 2026-11-13)
+- **Toombs:** canon already has an Akuze survivor Cerberus took for experiments, Corporal Toombs. Acknowledge him: the Alliance filed one survivor, two walked out (Shepard and Thomas), and Cerberus kept Toombs. EDI names him from the Cerberus Akuze file; Tali refers back to that.
+- **EDI's Akuze file and the smoothing filter:** both stay in EDI's turn (the filter with its rounding error she won't fix, "not interested in a better version").
+- **Cooking frequency:** he was not the cook. Rupert Gardner ran the SR-2 mess, and his food was known to be bad. Thomas cooked some nights for the crew; Jack's nightly plate and Grunt's frequent one were things he did for them in particular. Nobody says he cooked every day.
+- **Code comments on the sterile station:** the spelling and style tell Tali whose file it is; what hurts is one or two technical comments (seal margin above the requested value, "user under-reports need"; usage log off), never self-talk or comments addressed to her.
+- **"Your human":** Tali sets it up (Raan's name for him); the payoff ("your human is worried about you" / "my what?") is in Garrus's telling of the Raan story.
+- **The question about his death:** Wrex says it aloud; Tali then answers Wrex, she doesn't say "what you're all not saying".
+- **Last playlist at the wake:** EDI gives enough of the order for Tali's request to make sense (third track French punk, ninth the dance one).
+
 ## Eulogy devices
 
 Three devices that tie the voices together. They are a pool to draw from, **not a checklist per speaker**: a turn that runs flaw, gift, playlist, habit, "Shepard is missing" in order reads like a form, and ten of them in a row read like ten forms. Each device lands in a few turns only, where it comes up on its own, never announced ("Now the flaw", "He made me a playlist").
@@ -377,7 +386,7 @@ Facts for the eulogy in the Normandy mess. Treat them as part of Thomas's record
   9. Gasolina (Daddy Yankee): fuel, his body moving, a last joke on himself.
   10. Killing in the Name (Rage Against the Machine): out the door, refusal aimed at the Reapers and at fear.
 - It happened on the Normandy: Grunt came aboard for the last night and rode down with Hammer. Grunt and James were in the room while it played. They helped him with his armor straps, and the three of them were jumping on the last tracks (Gasolina, Killing in the Name). It is the last time either of them saw him happy. It sits against the eleven-second recording: the playlist ends with him screaming refusal, the recording ends with a breath and no words. Nobody spells out the contrast.
-- The wake ends on two tracks from it, at Tali's request: "Une ode à la mort", its French run through the omni-tools' translation, for the punk energy; then "Gasolina", because he would have wanted them to have fun.
+- The wake ends on two tracks from it, at Tali's request: "Une ode à la mort", its French run through the omni-tools' translation, for the punk energy; then "Gasolina", because he would have wanted them to have fun. Tali doesn't name it at the wake: she asks EDI for "the dance song".
 
 **The playlists**
 
@@ -396,10 +405,11 @@ He made one for each of them. EDI has the files.
 - **Wrex, "If I die, I'll kill him.":** heavy beatdown, war chants, harsh noise.
 
 **Tali**
-- They kept a locker tally of fixes. He never put a mark on his own side, even when she broke the ship.
+- They kept a locker tally of fixes. At first he put a few marks on his own side, for the thrill of the competition, but he always gave away easy wins and downplayed his part; later his side stopped filling, even when she broke the ship. He wasn't purely egoless: he didn't want people to feel they had lost, or that he was good.
+- Four days before London he broke the ship (source: `docs/examples/thomas/Shepard A Few Days Before London.md`; Shepard teases him about it the night before London). After two nights without sleep he pushed an untested patch to the heat-sink scheduler at 4 a.m., skipping the sim. It locked two sinks, the core dropped into safe mode, the Normandy drifted six hours and lost a day on a turian repair berth while the fleet gathered. Nobody was hurt, and his own alerts flagged it first, top line in red. Tali fixed it in a day. He wrote Shepard four pages of apology, packed a bag, and went up to ask to be put off the ship before London; Shepard refused, and the next day he and Tali went through the patch and found the line. Tali was not in the cabin: she knows the refusal, not the conversation. Eulogy-only addition: he marked that fix on her side of the tally.
 - He rewrote the drive-core alerts so they ran in order of what would kill them first, and built a counterweighted bench mount for his tremor (she helped on version two).
 - He kept a labelled dextro shelf in the mess and fed her without watching her eat. He restocked it while she was gone. He cooked dextro dishes he couldn't taste, by smell and by her verdict.
-- He built her a sterile station in a corner of engineering with an extra filter stage, for suit maintenance: changing filters, patching seals, eating through the induction port without opening anything in dirty air. She never took the suit off there; quarians don't unsuit on a warship. He stuck a drawing of a smiling face on it, then lied that Adams had built it so he wouldn't be thanked. She found out from the comments in his code.
+- He built her a sterile station in a corner of engineering with an extra filter stage, for suit maintenance: changing filters, patching seals, eating through the induction port without opening anything in dirty air. She never took the suit off there; quarians don't unsuit on a warship. He stuck a drawing of a smiling face on it, then lied that Adams had built it so he wouldn't be thanked. She found out from the code itself: she recognized his style (far too many comments, French syntax, spelling mistakes). He would not have left comments about her in it.
 - He never asked to see her face. On Rannoch, after the peace, she took her helmet off to feel the sun, and he looked at the valley until she told him he could look.
 - After her trial he didn't comfort her, and he was the only one who didn't tell her that her father loved her. He said loving her and choosing her weren't the same thing, then asked what she wanted to build first, on a planet they didn't have yet. Days later, in engineering, he told her about the hospital corridor and his mother, the first time he'd told it aloud.
 - Omega-4: the night before, in the mess with ABBA on, she arrived with immune simulations and antibiotics already started. He made three jokes in a row; she waited them out. They cooked, ate standing up and washed up together, and it was their first night together, in the clean corner he'd built. She ran a fever for three days afterward, exactly as she'd predicted, and was smug about the accuracy.
@@ -410,12 +420,14 @@ He made one for each of them. EDI has the files.
 - He told Shepard: stop asking who deserves a world and start asking who has to live next door afterwards.
 - The Rannoch house was going to be theirs (planned after the battle, built only after his death). He promised to wire it "wrong on purpose", so she'd always have a reason to call him in. One socket is still unwired.
 - The "no promises about coming back" rule: he proposed it in the shuttle bay before London, saying it first so she wouldn't have to. She refused it and made him promise to finish the wiring instead.
-- He sang "La vie en rose" at the sink, with the wrong words. Passing behind her at the workbench, he put a shaking hand low on her back.
+- Watching Fleet and Flotilla with her, he sang parts of the film's songs, with the wrong words (not "La vie en rose": that bit is cut). Passing behind her at the workbench, he put a shaking hand low on her back.
 - Poems, as Tali knows them: he called himself Bombadil and her his baie d'or. One poem ends with "keelah se'lai". One lists the bed, the couch and the mess sink. One is about her photo. "Donne moi le pire" appears in one. She wrote a translation routine for them, deleted it after the first page, and is reading them one word at a time with a dictionary.
 
 **Jack**
-- In the SR-2 days he left plates outside her hole every night for weeks: folded napkin, vegan kebabs. He was never seen doing it. She ate the third one, sitting on the stairs.
+- In the SR-2 days he left plates outside her hole every night for weeks: no napkin, and a different dish each time (curry, soup, pie, kebabs). He was never seen doing it. She ate the third one, sitting on the stairs.
 - Neither of them ever asked about the other's tattoos, on purpose.
+- They spent nights talking shit about Cerberus together, drinking, with loud music on, sometimes waking people up.
+- After she did his hands he showed them to everyone aboard, but he never talked about what the words meant.
 - He never made a point of caring out loud for her: small, subtle, respecting her limits. He talked to her sometimes about shared interests, and sat in silence when she needed it. They didn't need to explain their pasts to each other ("I'd say mirror, and he'd say maw").
 - After Pragia he sat beside her without speaking, then said something absurd about nobody ever asking how the bomb was doing, and she laughed.
 - He'd been going to hardcore shows for years before the Normandy, and that's what they bonded over. At the first show they went to together she shoved him into the pit anyway. He came out with a split lip, grinning. He never got good at dancing, but he got loose.
@@ -425,7 +437,7 @@ He made one for each of them. EDI has the files.
 
 **Joker**
 - Joker named him and Tali "the Help Desk".
-- They were best friends and joked all day, every day, on both ships. He did mock in-flight announcements from the jump seat, and they had a running "you're an anarchist" / "I'm a pilot" argument. He named the krogan body pillow and gave her a backstory. He wrote a program that raised a hull-stress warning whenever Joker sneezed. With Joker he swapped James's protein for seitan for a week. They watched Blasto vids with their own commentary track, and kept a crew dance scorecard that put him dead last.
+- They were best friends and joked all day, every day, on both ships. He did mock in-flight announcements from the jump seat, and they had a running "you're an anarchist" / "I'm a pilot" argument. He gave Joker a krogan body pillow, Ghorza, and gave her a backstory. He wrote a program that raised a hull-stress warning whenever Joker sneezed. With Joker he swapped James's protein for seitan for a week. They watched Blasto vids with their own commentary track, and kept a crew dance scorecard that put him dead last.
 - Hospital stays: they shared stories, jokes and feelings about them. Rating each other's stays was a running bit, one of many, not the main thing; he always ranked Joker's above his own. They joked every time about everything, crudely, partly because each knew the other's trauma and pain. They never needed to talk about it, but each had the whole story. Best friends. Joker is the only one who heard the whole story of his suicide attempts.
 - He never mentioned the SR-1 loss to Joker.
 - When the Collectors boarded the SR-2 and took the crew, he was in the middle of a repair somewhere out of the way and stayed hidden. He met Joker after Joker had unshackled EDI, and he was not taken. So he was aboard and free when the squad came back, and he is not among those rescued from the pods.
@@ -476,7 +488,7 @@ He made one for each of them. EDI has the files.
   - Hospital admissions in 2177, 2180 and 2184; the last was one long stay, from mid-2184 to early 2185.
   - The tremor was about 6 Hz, right hand. It doubled by Omega-4. By London he poured his own cup to 60% and called it portion control.
   - He wrote a smoothing filter for his omni-tool input, with one error in it that EDI kept.
-  - After Thane died he lost 5.2 kg in 19 days and still cooked every day.
+  - After Thane died he lost 5.2 kg in 19 days and kept cooking for the others.
   - At the Citadel party he spent nine minutes alone on the balcony at 0347.
 - Before the push he asked EDI his odds (four percent) and then asked about the flatbread. He told her the fourth clover leaf was hers.
 
@@ -497,6 +509,155 @@ He made one for each of them. EDI has the files.
 - He spent a night in the comm room arguing that power belongs to those who don't want it and that every species deserves a Council seat.
 - He called Shepard the only commander he ever met who didn't want to be one.
 - Shepard read EDI's reports on him, mostly his physical and mental state, at the level of how he was doing rather than the details, just to make sure he was okay.
+
+## Completed from the wake episode and the example speeches (2026-11-13)
+
+Facts established in the Tali-branch wake episode (`output/tali-jack-joker-…_2026-11-09/`) and in the speeches under `docs/examples/thomas/`, that the sections above did not yet record. Guidance, not wording. Where an example speech disagrees with the wake episode, the wake episode wins; the known cases are listed at the end.
+
+**Shepard and Akuze**
+- Shepard is also from Normandy: a few streets in Caen, about a hundred kilometers from Rouen, a kid running with the Reds (who gave him the name "Shepard" as a joke). They never met as children.
+- After Akuze, Anderson was the first person who had looked at Shepard as if he mattered; Thomas, walking toward him through the camp, was the second.
+- Thomas enlisted partly for the tuition. After his troubles the Alliance cast him aside with barely any back pay.
+- On Omega he rented a room week to week, wouldn't take money from the stall owner, didn't eat enough, and said sorry to the coolers when he opened them. Shepard offered the drink at Afterlife and said he would keep calling if the answer was no.
+- Part of Shepard's 2183 pitch: Thomas had been reading about the geth since before anyone cared, and could say what they are rather than how to kill them; nobody aboard the SR-1 could cook (ration bars); there were speakers in engineering. Shepard thought he and Ashley (Tennyson, read to her sisters over the comm) would like each other, and warned him that Joker would test him with a joke in the first five minutes.
+- Rouen, 2185: Shepard told him plainly that Cerberus had set the maws on them at Akuze, and that he had stood in the room where they kept Toombs. So Thomas has known since then. Shepard refuses the logo too. The twin sister told Shepard the vids had him dead; the youngest sister, nineteen then, wanted to know whether he is taller in person. Joker sent Shepard in with a request for a rating of the ward. EDI had asked Shepard that morning whether he'd slept, and Shepard realized nobody had asked her anything back.
+- Vancouver: he re-enlisted with a rank (Specialist) and a uniform that looked wrong on him; he told Shepard a war is a war and he'd rather be inside it doing something. He read chess books and still lost every week. James was the guard on Shepard's door; Thomas told him it wasn't about the game.
+- Mars: he was on comms with Joker for the three hours of the archives, voice steady. Back aboard he fixed three things the Alliance refit had broken and two Adams didn't know were broken. His hands were worse after Earth.
+- Rannoch: from behind the rocks he told Shepard over the radio to breathe; Shepard hadn't noticed he'd stopped.
+- He feeds Shepard's fish. He once told Shepard that everyone wanted to sleep with him.
+- The cabin, a few days before London (after the ship failure): Shepard refused to put him off the ship, got angry only at "the ship would be better off without me", compared mistakes (Thessia cost a planet, the patch cost a day), and told him he was the one who would have to hold the room together afterward: get Joker out of the chair, Tali off the engineering floor, James to eat. Thomas never passed this on.
+- Shepard told Thomas the night before London that he would get Tali out; Thomas relayed it to her as good news.
+
+**Tali**
+- SR-1: they were put on the same bench because it was free. Adams started saving them the jobs where two people had to shout.
+- The Pilgrimage money: when she asked, he said one of the kids had a lot of opinions and reminded him of someone, and that on Omega people had helped him when he didn't have enough.
+- The alert order has the coffee machine on it: last, then moved up one for morale. The alerts have saved the ship twice.
+- The dextro shelf was labelled in his handwriting with an arrow so nobody would put a sandwich on it; it took him about a day to notice she doesn't like being watched while she eats.
+- The sterile station sits behind the secondary coolant manifold. When she thanked Adams, Adams said he hadn't built it and wouldn't say who had. She then withheld her thanks for two months, out of spite.
+- After the trial he found her at the edge of the dock. Her answer to "what do you want to build first" was a workshop, before the house, with the windows open. He wrote it on his hand in marker.
+- The cup joke: he'd hold one up and say he was making you a milkshake, once in front of a Council delegation.
+- The four pages after her first "I love you" were left folded on her bench under a coupling. During his week at the far end of the ship she brought him a broken relay, a dead drone, and once a fork; Joker ran a pool. In the shuttle bay it took him a few tries, his voice cracked, and she said "I know."
+- Her photo was taken on the Rayya, in a clean room, on a timer, and sent under a full page on ship quotas. He told her he fell asleep looking at it.
+- A flaw of his, hers to tell: on Rannoch, before the peace, he told one of Gerrel's officers, on her deck and in front of her crew, that the quarians had the Morning War coming. He was right about the history and wrong to say it there; he apologized afterward, and it stays said.
+- On Rannoch, after she told him he could look, he kissed her; that day she told him what keelah se'lai means.
+- The house is on a ridge. The unwired socket is in the main room, east wall, by the window. The ridge is on the Admiralty Board's settlement agenda.
+- After "Here." his next line was "Hope you're okay", and the long message came that night. Every message ended "Love you, see you soon."
+- She put his name on the memorial wall with an engraver borrowed from Adams, redoing the spacing several times. She carries the recording in a double-sealed pouch on her left hip.
+- She calls Raan "Auntie Raan". Raan's "your human" is never said to his face.
+- The panic night, a couple of weeks before London (examples: Tali and Joker "Between Rannoch and London"): in engineering he sat down on the deck, breathing too fast, saying he had done everything wrong. Tali had him breathe with the drive core's field cycle, went through his list (Akuze, the old ship, Thane, Legion, his family in Rouen, Raan, the week he hid from her, not being a soldier), told him flat that she loved him and chose him, and put his forehead against her visor. When she was called to the war room he held together until the elevator closed, then crawled into a maintenance duct off engineering. She sent Joker one word: "Go."
+- Music she would rather he didn't pick: the one where a man screams about forests for nine minutes. She lets him anyway.
+
+**Jack**
+- Jack had Kelly warn the crew off her hole. He was the only one who took it as a real request: he came down with a band name or a question about a riff, a few words, and left before she had to decide anything.
+- Among a crew in Cerberus uniforms he wore old band shirts.
+- She asked him three or four times to come teach at Grissom. He joked his way out every time (the kids eating him alive, the union).
+- Tali watched the tattooing. He told Jack, because she asked with the needle in him, that DARE and CARE were what he wished he did more of.
+- The playlist title "Rough stuff, I like it." is something she once said.
+- His habit, now hers: she left food outside a student's door.
+
+**Joker**
+- Their body jokes ran both ways and daily: Joker's bones, his head, Joker's legs, his hands, the hospitals and their food.
+- The jump-seat announcements included a safety briefing with "a very specific mask will drop". In the anarchist/pilot argument he said Joker had been refusing orders since Arcturus, and gave Joker the win as soon as he was ahead.
+- The sneeze alarm sent Adams running with a wrench in each hand, five times in one week.
+- Ghorza is the body pillow: a birthday gift, wrapped, with a card. Madame Ghorza is a retired thresher union organizer with three dead husbands who now runs a cooperative. He did her voice for a month.
+- On the Blasto commentary track he voiced the hanar's inner life and Joker did the sound effects.
+- He told Joker the whole story of the three attempts in one sleepless night, and made him promise not to bring it up unless he did. Joker said okay, told him his own, and they argued about hospital pudding. Arcturus got four stars in the ratings.
+- The sandwich: he cried, got up, and made Joker a better one with some kind of pickle in it.
+- After the Collector abduction he thought himself a coward for staying hidden, and never said so.
+- Tiptree and Rouen: the rule was his idea. When Hilary, Joker's sister, finally called, he said nothing and put his hand on the back of Joker's seat.
+- Leaving Vancouver, covered in soot, he gave Joker a thumbs-up.
+- Citadel party: he added a gunship to Joker's restaurant story, took Shepard's drink out of his hand to get him off the wall, and when Garrus's dance scorecard reached him he put himself dead last.
+- He wrote speeches and toasts for parties and sent them to Joker at two in the morning to check. He never gave one aboard.
+- A note taped to Joker's armrest announced a "third coffee", which was miso soup in a mug.
+- The duct night (see Tali): Joker sat on the deck outside the panel, had EDI turn the cameras off (she already had), did a pilot's announcement and a Blasto bit, and stayed. EDI asked through Joker whether he was okay.
+- Joker keeps a channel open for Shepard.
+
+**Liara**
+- The Benezia/mother exchange happened a few nights after Noveria, in the SR-1 med bay. He asked her to tell Peak 15 in the order it happened to her, not in order of military value.
+- Aethyta: it came up over coffee at Apollo's. Liara went to the bar twice. She offered him the same in return, somewhere to put a thing down; he took it about as far as the tea.
+- He would sit in the corner of her Broker office and watch her work.
+- With Samara he lasted four minutes, then asked whether justicars were permitted background music.
+- Rouen as he told it: Monet painted the cathedral thirty times; the great clock is the only thing in the city that was ever on time. The Normandy joke was told twice on the SR-1, "with a fellow Norman".
+- During Thane's illness she found him in the mess at a terrible hour, standing at a counter with nothing in his hands.
+- "Leaves first" covered a few relationships on Earth, not one.
+
+**Grunt**
+- When Grunt went out drinking with krogan, he came every time, and made a krogan table laugh.
+- Grunt's notes on the recipe cards say he wasn't salting enough.
+
+**James**
+- James wrapped his hands for the heavy bag twice; he watched James train like a man reading a menu he can't.
+- The seitan swap lasted four days; Joker was in on it.
+- The bar fight: James finished it. Garrus later used it against his means-over-ends position.
+- The N7 mirror: after listing why James deserved N7, asked whether the same went for him, he dodged into an idea about getting N7 tattooed somewhere.
+- Training: he called James "Coach" for a day. He'd do three pull-ups and be told "again". He asked James nicely, and James gave him weeks.
+- The dead-hang joke was about Wrex's quad and cargo straps. The limericks always involved somebody's mother and a varren.
+- When he asked Cortez what Robert was like, Cortez talked for most of an hour.
+- The armor night: the music was in his helmet until James asked him to share and he put it on the armory speakers. He told James to pull the straps harder.
+
+**Kaidan**
+- He asked about the migraines like an engineer (light or sound, before the pain or with it). On Rahna he said Kaidan could look into it when ready or leave it alone, and both were allowed.
+- The Horizon peace was made at the lockers after they left Earth, opening with "so, Horizon".
+- His Akuze deflections were usually about the thresher's table manners.
+- Poutine night: his vegan pot, because curds were a boundary. On beer: lager is what you order when you've already decided not to be surprised.
+- A flaw, Kaidan's to tell: when Kaidan defended the Alliance in the mess, he called him the nicest boot he'd ever met, in front of the crew, and never took it back.
+- At Huerta he arrived with a stack of cards and sat silent a while before the Spectre question.
+- The playlist "Can I help?" is named for the question Kaidan kept asking him. In two years he said yes twice. It has French pop in it because he assumed Canada meant Kaidan would understand it.
+- Kaidan was on the line in London at another end and saw nothing; the comm traffic from that sector has no word of him.
+
+**Kasumi**
+- He talked constantly about robbing the rich, and wanted Hock's vault emptied into a train station where anybody could lean on the art ("art nobody can walk past is just money in a costume").
+- Kasumi offered him a real job: an awful banker on Illium. He planned it with her for three nights (his code was cleaner than hers), then handed it over and backed out, because if it went wrong it would land on Shepard, the ship, and Tali in front of her Fleet. She went alone. He asked that his unearned share go to a clinic on Omega, then apologized for telling her what to do with her money.
+- She left a fat unmarked credit chit on his bench as a test. It came back under her door in an envelope, with a recipe card.
+- She offered him a Klimt. He said he already had one and showed her his ear.
+- About Keiji's graybox he gave no opinion. He asked what Keiji's laugh was like.
+
+**Garrus**
+- Their standing arguments: police (he spelled ACAB out; Garrus is C-Sec and a C-Sec officer's son), with Omega as his evidence that people sort things out block by block, though he hated Aria and wanted her off her couch; and ends against means (nothing ever finishes, so how you do a thing is the only part you get; no point fighting for a better world if you don't fight for it in a better way). He had read deeply on uprisings and guerrilla war across species and kept the dream anyway.
+- Garrus's point scored: the bar punch as an exception to means-first. He answered that fascists were different, didn't speak to Garrus until dinner, then brought him a plate off the dextro shelf.
+- His point scored, and a flaw: he said Archangel was a cop who had finally got rid of the paperwork, after Garrus had buried ten men. He apologized for the timing, not the line.
+- Garrus taught him to shoot for the breathing, not the marksmanship: an empty rifle, a bottle at the far end of the cargo bay, an hour lying still. On bad days he'd come to the battery and ask if the range was open; that was the code. Afterward they did calibrations. He rewrote Garrus's firing tables.
+- After Garrus's speech about Tali he asked him to pass the spanner. After the Raan incident he stopped going to Raan and kept leaving coffee.
+- Both were the one left over from a squad, and neither ever said so.
+- He was Garrus's wingman on the Citadel, and good at it.
+
+**Miranda**
+- She recommended against him in writing before he came aboard and called him a liability. She now says she was wrong.
+- When she gave him the "isolated cells" line about Cerberus, he asked whether she had audited that or been told it.
+- He worked out that she had taken the first door out of her father's house, and never used what she is against her. She was on his list of good people under a bad banner early; Shepard told her.
+- When she resigned from Cerberus he didn't say "I told you so". While she was on the run a one-line message reached her on a burned channel, asking whether Oriana was safe.
+
+**Traynor**
+- He was the first to make her feel she hadn't arrived late. They compared notes cheerfully (he bi, she not); he told her about his year-long silent crush on the SR-1.
+- Chess with her: he lost in twenty moves and wanted to know exactly how. The one contest where he didn't have to pretend to be behind.
+- His hair: bleach every third week, then the pink, a toner mixed in a mess cup. Traynor did the back. He called it maintenance, same as the ship. He asked for the specs of her toothbrush.
+- Mock national feud: "perfidious Albion" against her pretend hatred of the French. They planned to take the ferry after the war, his cathedral and her Globe.
+- After the Citadel coup a time-locked message from Thane reached him through her board; he played it at her station and asked her to stay. In it Thane thanks him for being angry at his lungs, answers what is owed to the dying (company, honest argument, a meal), says he now believes fighting can be an act of love, and tells him not to hurry after him: stay, and be loved. Afterward he asked her if she wanted tea and went back to work. Kolyat has agreed to it being shared.
+
+**Wrex**
+- He called Wrex "sir" or "old man". Wrex's offer of krogan courtship (a head, a wall, a great deal of noise) was declined because of the helmet, hers.
+- The Citadel dinner: tofu, in a portion Wrex calls salarian. Wrex left nothing.
+- On children: he said he'd have one when he was good enough, that he would love to but would mess them up, and that a child of Tali's deserved a better father than him.
+- The playlist title comes from what Wrex said when he first met Shepard.
+- London, as Wrex tells it: he was terrified, shaking so hard the rifle rattled, and went anyway, which is how Wrex knows he did not go there to die. He was hit in the shoulder before the car. Four krogan carried him out by hand, not in a bag. Wrex is angry at himself for nodding back instead of pulling him out of the rank.
+- "Pyjak": steals your food, hides in the ducts, panics at everything, gets up anyway.
+
+**EDI**
+- The seven apologies after the eleven-task week went to Gabby, Kenneth, Cortez (a calibration) and four others.
+- The first question he asked her was how she was; he then made tea.
+- There is no playlist with her name on it. She treats that as a request he hadn't finished making, and made her own from their conversations.
+- The clover: she picked it on the Presidium and kept it on her console as a joke about catastrophic failure. It is taped beside the photo of their first dance.
+- She offered to run his overnight checks so he could sleep. He accepted twice, apologized both times, and did the third himself.
+- He told her she understood jokes perfectly and simply declined to announce it.
+- She turned off the cameras for the duct night before Joker asked.
+
+**Known disagreements: the wake episode's version holds**
+- Locker tally: the Tali example says his side is empty. Current rule: a few early marks, then none.
+- The sterile station: the example has a drawn sun and "breathe without a filter for a few minutes a day". Current rule: a smiling face, suit maintenance and induction-port meals only, never unsuited.
+- Code comments: the example has her reading "the comments". Current rule: style and spelling identify him; one or two flat technical comments carry the weight.
+- Tali's message when the Reapers hit: "three words" in one Shepard speech. It is "Thomas. Answer me."
+- The James mirrored-wound sample line ends on eggs; the wake episode has him dodge into an N7 tattoo. The tattoo holds.
+- After Thane's death: he lost weight and kept cooking for the others. Not "every day"; he was never the ship's cook.
 
 ## Established in the Omega-4 morning episode (2026-10-20)
 
@@ -531,7 +692,7 @@ Facts from the earlier memorial episode, adapted to this file. Where it disagree
 - Grunt, on the rare nights he came, brought Hemingway. When Grunt admitted he didn't follow half of it, Thomas told him that meant it was working.
 
 **Joker**
-- For Joker's birthday Thomas gave him ghorza, a krogan joke gift, and found it hilarious.
+- For Joker's birthday Thomas gave him Ghorza, the krogan body pillow, as a joke gift, and found it hilarious.
 
 **Liara**
 - Joan of Arc, as he told it, was a woman rewritten into other people's stories. He held that people's stories are theirs alone, that the world is shaped by circumstances more than by individuals, that a narrative can always be twisted but what stays is the consequence of what was done. Thane agreed, and Thomas loved Thane. He despised anyone who used history to feed hatred of others, because love and diversity drive things.

@@ -14,7 +14,7 @@ He couldn't shoot. I taught him anyway, and not for that. A scope is the only th
 
 I gave him a speech once, about Tali. That she'd had enough people hide things from her for her own good, starting with her father, and not to be the next one. More honest than he'd asked for. He took it, and asked me to pass the spanner.
 
-A year later he walked into Admiral Raan's office. In the middle of Rannoch, behind Tali's back, to ask a senior admiral whether she was sleeping. He couldn't ask her, because he'd decided she'd lie. So he decided what she could bear, which is the exact thing I'd told him not to do. Raan told her. I heard the result from the battery, through two decks, and Gabby came up to wait it out with me. He apologized, then apologized for apologizing, and she wouldn't take either one. She told him he didn't get to rescue her on the quiet. He stopped going to Raan. He kept leaving coffee.
+A year later he walked into Admiral Raan's office. In the middle of Rannoch, behind Tali's back, to ask a senior admiral whether she was sleeping. He couldn't ask her, because he'd decided she'd lie. So he decided what she could bear, which is the exact thing I'd told him not to do. Raan told her. In passing, at the end of a briefing, the way you'd mention a loose panel: your human is worried about you. Tali said, my what? I heard the result from the battery, through two decks, and Gabby came up to wait it out with me. He apologized, then apologized for apologizing, and she wouldn't take either one. She told him he didn't get to rescue her on the quiet. He stopped going to Raan. He kept leaving coffee.
 
 Tali says we're bosh'tets, both of us. That's fair. I only gave the speech once. I should have given it twice.
 
